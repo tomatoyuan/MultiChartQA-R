@@ -1,0 +1,180 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of U.S. adults aged 30 - 49 who say they ever use YouTube? Please answer in percentage.\n question2: What is the proportion of U.S. adults who say they ever use TikTok? (Answer in percentage)",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults aged 30 - 49 who ever use YouTube. We can directly obtain this information from the given chart.\n rationale2: To answer the question, we look for the proportion of U.S. adults using TikTok in chart 2.",
+                "answer": "94%; 33%",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_2-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults who say they ever use TikTok? (Answer in percentage)\n question2: What was the proportion of U.S. teens aged 13 - 17 who said they ever use Threads in 2023?\n question3: What percentage of news influencers on YouTube do not have a news organization affiliation?",
+                "rationale": "rationale1: To answer the question, we look for the proportion of U.S. adults using TikTok in chart 2.\n rationale2: We are asked to find the proportion of U.S. teens aged 13 - 17 using Threads in 2023 from the chart.\n rationale3: The question asks for the percentage of news influencers on YouTube without news - organization affiliation. The chart directly provides this information, so we just need to extract the relevant percentage value.",
+                "answer": "33%; 6%; 88%",
+                "involved_content_sources": [
+                    "chart_2-5",
+                    "chart_4-19",
+                    "chart_5-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What percentage of news influencers on YouTube do not have a news organization affiliation?\n question2: What is the proportion of U.S. adults who say they ever use Instagram? (Answer in percentage)\n question3: What was the proportion of U.S. teens aged 13 - 17 who said they ever use Instagram in 2023?\n question4: What is the proportion of U.S. adults aged 30 - 49 who say they ever use YouTube? Please answer in percentage.",
+                "rationale": "rationale1: The question asks for the percentage of news influencers on YouTube without news - organization affiliation. The chart directly provides this information, so we just need to extract the relevant percentage value.\n rationale2: We need to find the proportion of U.S. adults using Instagram. This information is available in chart 2.\n rationale3: We need to get the proportion of U.S. teens aged 13 - 17 using Instagram in 2023 from the provided chart.\n rationale4: The question asks for the proportion of U.S. adults aged 30 - 49 who ever use YouTube. We can directly obtain this information from the given chart.",
+                "answer": "88%; 50%; 61%; 94%",
+                "involved_content_sources": [
+                    "chart_5-2",
+                    "chart_2-3",
+                    "chart_4-9",
+                    "chart_3-2"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the ratio of the proportion of news influencers on YouTube with news organization affiliation to those without news organization affiliation?\n question2: What is the average proportion of U.S. adults who say they ever use YouTube across all age - groups in the survey? Provide the answer with one - decimal place precision.",
+                "rationale": "rationale1: To find the ratio, we need to divide the proportion of news influencers with news organization affiliation by the proportion of those without. The relevant data is directly given in the chart, and we just need to perform the division operation.\n rationale2: To find the average proportion, we need to sum up the proportions of all age - groups and then divide by the number of age - groups. The proportions are given in the chart for different age ranges (18 - 29, 30 - 49, 50 - 64, and 65+).",
+                "answer": "3:22; 84.5",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the ratio of the proportion of news influencers on YouTube with news organization affiliation to those without news organization affiliation?\n question2: What is the average proportion of U.S. adults who say they ever use YouTube across all age - groups in the survey? Provide the answer with one - decimal place precision.\n question3: What is the average proportion of U.S. teens aged 13 - 17 who ever used YouTube from 2014 - 15 to 2023?",
+                "rationale": "rationale1: To find the ratio, we need to divide the proportion of news influencers with news organization affiliation by the proportion of those without. The relevant data is directly given in the chart, and we just need to perform the division operation.\n rationale2: To find the average proportion, we need to sum up the proportions of all age - groups and then divide by the number of age - groups. The proportions are given in the chart for different age ranges (18 - 29, 30 - 49, 50 - 64, and 65+).\n rationale3: To find the average proportion of U.S. teens who ever used YouTube from 2014 - 15 to 2023, we need to add up the proportions for each time - period and then divide by the number of time - periods. The proportions are given in the chart for 2014 - 15, 2022, and 2023, and there are 3 time - periods in total. ((71 + 95 + 90) / 3) = 85.33 (rounded to two decimal places)",
+                "answer": "3:22; 84.5; 85.33",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the ratio of the proportion of news influencers on YouTube with news organization affiliation to those without news organization affiliation?\n question2: What is the average proportion of U.S. adults who say they ever use YouTube across all age - groups in the survey? Provide the answer with one - decimal place precision.\n question3: What is the average proportion of U.S. teens aged 13 - 17 who ever used YouTube from 2014 - 15 to 2023?\n question4: What is the difference in the proportion of U.S. adults who ever use YouTube and the proportion of those who ever use X (Twitter)?",
+                "rationale": "rationale1: To find the ratio, we need to divide the proportion of news influencers with news organization affiliation by the proportion of those without. The relevant data is directly given in the chart, and we just need to perform the division operation.\n rationale2: To find the average proportion, we need to sum up the proportions of all age - groups and then divide by the number of age - groups. The proportions are given in the chart for different age ranges (18 - 29, 30 - 49, 50 - 64, and 65+).\n rationale3: To find the average proportion of U.S. teens who ever used YouTube from 2014 - 15 to 2023, we need to add up the proportions for each time - period and then divide by the number of time - periods. The proportions are given in the chart for 2014 - 15, 2022, and 2023, and there are 3 time - periods in total. ((71 + 95 + 90) / 3) = 85.33 (rounded to two decimal places)\n rationale4: To find the difference, we need to subtract the proportion of U.S. adults who ever use X (Twitter) from the proportion of those who ever use YouTube. The values for these proportions are given in the chart, and by performing the subtraction operation, we can get the answer.",
+                "answer": "3:22; 84.5; 85.33; 64%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_2-1",
+                    "chart_2-10"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults aged 30 - 49 who use YouTube and the proportion of U.S. adults who use X (Twitter)?",
+                "rationale": "The proportion of U.S. adults aged 30 - 49 who use YouTube is 94% (from chart_3-2). The proportion of U.S. adults who use X (Twitter) is 21% (from chart_2-10). The difference is 94% - 21% = 73%.",
+                "answer": "73%",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_2-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of multiplying the proportion of U.S. adults who say they ever use YouTube by the proportion of news influencers on YouTube who have no news organization affiliation and then dividing by the proportion of U.S. adults aged 65+ who say they ever use YouTube? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who say they ever use YouTube is 85%. The proportion of news influencers on YouTube who have no news organization affiliation is 88%. The proportion of U.S. adults aged 65+ who say they ever use YouTube is 65%. The result is (85% * 88%) / 65% \u2248 1.15 (rounded to two decimal places).",
+                "answer": "1.15",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_5-2",
+                    "chart_3-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who use YouTube, the proportion of U.S. adults aged 50 - 64 who use YouTube, the proportion of U.S. teens aged 13 - 17 who used YouTube in 2023, and the proportion of news influencers on YouTube who have no news organization affiliation?",
+                "rationale": "The proportion of U.S. adults who use YouTube is 85% (chart_2-1). The proportion of U.S. adults aged 50 - 64 who use YouTube is 86% (chart_3-3). The proportion of U.S. teens aged 13 - 17 who used YouTube in 2023 is 90% (chart_4-3). The proportion of news influencers on YouTube who have no news organization affiliation is 88% (chart_5-2). The average of these four proportions is (85% + 86% + 90% + 88%) / 4 = 87.25%.",
+                "answer": "87.25%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_4-3",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of U.S. adults aged 30 - 49 and 50 - 64 who use YouTube, and the average of the proportions of U.S. teens aged 13 - 17 who used TikTok in 2022 and 2023?",
+                "rationale": "Among U.S. adults, the proportion of those aged 30 - 49 who use YouTube is 94% (chart_3-2), and the proportion of those aged 50 - 64 who use YouTube is 86% (chart_3-3). The sum of these two proportions is 94% + 86% = 180%. Among U.S. teens aged 13 - 17, the proportion who used TikTok in 2022 is 67% (chart_4-5), and the proportion who used TikTok in 2023 is 63% (chart_4-6). The average of these two proportions is (67% + 63%) / 2 = 65%. Then the difference between the two is 180% - 65% = 115%.",
+                "answer": "115%",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_4-5",
+                    "chart_4-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. adults who ever use YouTube and Facebook, the difference between the proportion of 18 - 29 year - old and 65+ year - old U.S. adults who ever use YouTube, and the difference between the proportion of U.S. teens who ever used YouTube in 2022 and 2014 - 2015?",
+                "rationale": "The proportion of U.S. adults who ever use YouTube is 85% (chart_2-1), and the proportion of U.S. adults who ever use Facebook is 70% (chart_2-2), so the difference is 85% - 70% = 15%. Among U.S. adults aged 18 - 29, the proportion who ever use YouTube is 93% (chart_3-1), and among U.S. adults aged 65+, the proportion is 65% (chart_3-4), so the difference is 93% - 65% = 28%. The proportion of U.S. teens aged 13 - 17 who ever used YouTube in 2022 is 95% (chart_4-2), and in 2014 - 2015 is 71% (chart_4-1), so the difference is 95% - 71% = 24%. The average of these three differences is (15% + 28% + 24%) / 3 = (0.15 + 0.28 + 0.24) / 3 = 0.2233... \u2248 22.3%.",
+                "answer": "22.3%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-4",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. adults who use YouTube and those who use Facebook, the difference between the proportion of 18 - 29 year - old U.S. adults who use YouTube and those aged 65+ who use YouTube, the difference between the proportion of U.S. teens aged 13 - 17 who used YouTube in 2023 and those who used TikTok in 2023, and the proportion of news influencers on YouTube who have no news organization affiliation?",
+                "rationale": "From Chart 2, the proportion of U.S. adults who use YouTube is 85% (chart_2-1), and those who use Facebook is 70% (chart_2-2). The difference is 85% - 70% = 15%. From Chart 3, the proportion of 18 - 29 year - old U.S. adults who use YouTube is 93% (chart_3-1), and those aged 65+ who use YouTube is 65% (chart_3-4). The difference is 93% - 65% = 28%. From Chart 4, the proportion of U.S. teens aged 13 - 17 who used YouTube in 2023 is 90% (chart_4-3), and those who used TikTok in 2023 is 63% (chart_4-6). The difference is 90% - 63% = 27%. From Chart 5, the proportion of news influencers on YouTube who have no news organization affiliation is 88% (chart_5-2). The average of these four values is (15% + 28% + 27% + 88%) / 4 = 39.5%.",
+                "answer": "39.5%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-4",
+                    "chart_4-3",
+                    "chart_4-6",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

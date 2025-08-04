@@ -1,0 +1,173 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of U.S. adults who say people driving aggressively is a minor problem in their local community? Please answer with a percentage.\n question2: Among rural U.S. adults, what is the proportion of those who are not sure about the change in local driving safety compared with five years ago?",
+                "rationale": "rationale1: We need to find the proportion of adults who consider aggressive driving a minor problem, and the chart has the corresponding information.\n rationale2: We search for the proportion of rural U.S. adults who are not sure about the change in local driving safety compared to five years ago in the chart.",
+                "answer": "30%; 7%",
+                "involved_content_sources": [
+                    "chart_3-8",
+                    "chart_2-24"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults in urban areas who say people driving while distracted by their cellphones is a major problem in their local community? Please answer in percentage.\n question2: What is the proportion of U.S. adults who say people in their local community are driving a lot less safely compared with five years ago?\n question3: What proportion of U.S. adults say they see people displaying 'road rage' sometimes? Please provide the answer as a percentage.",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults in urban areas who consider cellphone - distracted driving a major local problem. We can directly find this information from the chart.\n rationale2: The question directly asks for a specific proportion value which can be found in the given chart. We look for the relevant content about the proportion of U.S. adults who think local people are driving a lot less safely compared to five years ago.\n rationale3: The question is about getting the proportion of adults seeing 'road rage' sometimes from the chart.",
+                "answer": "80%; 23%; 45%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_2-4",
+                    "chart_5-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the net - proportion of U.S. adults who say people driving too fast is a problem in their local community? Please answer with a percentage.\n question2: Among U.S. adults who personally drive less often, what is the proportion of those who say people in their local community are driving somewhat less safely compared with five years ago?\n question3: What proportion of U.S. adults say they see people displaying 'road rage' never? Please provide the answer as a percentage.\n question4: What is the proportion of U.S. adults in urban areas who say people driving while distracted by their cellphones is a major problem in their local community? Please answer in percentage.",
+                "rationale": "rationale1: The question requires the net - proportion of adults who think driving too fast is a problem, and this data is provided in the chart.\n rationale2: We need to get the proportion of U.S. adults who drive less often and think local people are driving somewhat less safely compared to five years ago from the chart.\n rationale3: The task is to obtain the proportion of adults who never see 'road rage' from the given chart.\n rationale4: The question asks for the proportion of U.S. adults in urban areas who consider cellphone - distracted driving a major local problem. We can directly find this information from the chart.",
+                "answer": "94%; 19%; 4%; 80%",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_2-33",
+                    "chart_5-5",
+                    "chart_4-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the combined proportion of U.S. adults who think people in their local community are driving less safely (both somewhat and a lot) compared with five years ago?\n question2: What is the difference between the proportion of U.S. adults who say they see people displaying 'road rage' NET Extremely/Very often and the proportion of those who say they see it NET Rarely/Never?",
+                "rationale": "rationale1: To answer this question, we need to sum up the proportion of those who say people are driving somewhat less safely and those who say people are driving a lot less safely among U.S. adults. This involves retrieving relevant data from the chart and performing a simple addition operation.\n rationale2: To find the difference, we need to subtract the proportion of people who see 'road rage' NET Rarely/Never from the proportion of people who see it NET Extremely/Very often. These two values are directly provided in the chart.",
+                "answer": "49%; 1",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_5-6",
+                    "chart_5-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the combined proportion of U.S. adults who think people in their local community are driving less safely (both somewhat and a lot) compared with five years ago?\n question2: What is the difference between the proportion of U.S. adults who say they see people displaying 'road rage' NET Extremely/Very often and the proportion of those who say they see it NET Rarely/Never?\n question3: What is the difference between the net - proportion of people who think driving while distracted by cellphones is a problem and the net - proportion of people who think driving under the influence of marijuana is a problem in the local community?",
+                "rationale": "rationale1: To answer this question, we need to sum up the proportion of those who say people are driving somewhat less safely and those who say people are driving a lot less safely among U.S. adults. This involves retrieving relevant data from the chart and performing a simple addition operation.\n rationale2: To find the difference, we need to subtract the proportion of people who see 'road rage' NET Rarely/Never from the proportion of people who see it NET Extremely/Very often. These two values are directly provided in the chart.\n rationale3: To find the difference, we need to subtract the net - proportion of the problem of driving under the influence of marijuana from the net - proportion of the problem of driving while distracted by cellphones. The net - proportion of driving while distracted by cellphones is given in chart3-3 as 96%, and the net - proportion of driving under the influence of marijuana is given in chart3-18 as 82%.",
+                "answer": "49%; 1; 14%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_5-6",
+                    "chart_5-7",
+                    "chart_3-3",
+                    "chart_3-18"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the combined proportion of U.S. adults who think people in their local community are driving less safely (both somewhat and a lot) compared with five years ago?\n question2: What is the difference between the proportion of U.S. adults who say they see people displaying 'road rage' NET Extremely/Very often and the proportion of those who say they see it NET Rarely/Never?\n question3: What is the difference between the net - proportion of people who think driving while distracted by cellphones is a problem and the net - proportion of people who think driving under the influence of marijuana is a problem in the local community?\n question4: What is the average proportion of U.S. adults in urban, suburban, and rural areas who say people driving while distracted by their cellphones is a major problem in their local community?",
+                "rationale": "rationale1: To answer this question, we need to sum up the proportion of those who say people are driving somewhat less safely and those who say people are driving a lot less safely among U.S. adults. This involves retrieving relevant data from the chart and performing a simple addition operation.\n rationale2: To find the difference, we need to subtract the proportion of people who see 'road rage' NET Rarely/Never from the proportion of people who see it NET Extremely/Very often. These two values are directly provided in the chart.\n rationale3: To find the difference, we need to subtract the net - proportion of the problem of driving under the influence of marijuana from the net - proportion of the problem of driving while distracted by cellphones. The net - proportion of driving while distracted by cellphones is given in chart3-3 as 96%, and the net - proportion of driving under the influence of marijuana is given in chart3-18 as 82%.\n rationale4: To answer this question, we need to take the proportion values for urban, suburban, and rural areas from the chart and calculate their average. This involves using basic arithmetic operations (addition and division) on the relevant data from the chart.",
+                "answer": "49%; 1; 14%; 78",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_5-6",
+                    "chart_5-7",
+                    "chart_3-3",
+                    "chart_3-18",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who think people driving while distracted by their cellphones is a major problem in their local community and the proportion of U.S. adults who say they see people displaying 'road rage' NET Extremely/Very often?",
+                "rationale": "The proportion of U.S. adults who think people driving while distracted by their cellphones is a major problem in their local community is 78% (from Chart 3). The proportion of U.S. adults who say they see people displaying 'road rage' NET Extremely/Very often is 27% (from Chart 5). The difference is 78% - 27% = 51%.",
+                "answer": "51%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_5-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who say people in their local community are driving a lot less safely compared with five years ago, the proportion of U.S. adults who say people driving while distracted by their cellphones is a major problem in their local community, and the proportion of U.S. adults who say they see people displaying 'road rage' extremely often? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who say people in their local community are driving a lot less safely compared with five years ago is 23% (from Chart 2). The proportion of U.S. adults who say people driving while distracted by their cellphones is a major problem in their local community is 78% (from Chart 3). The proportion of U.S. adults who say they see people displaying 'road rage' extremely often is 7% (from Chart 5). The average is (23% + 78% + 7%) / 3 = 36.00%.",
+                "answer": "36.00%",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_3-1",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. adults in urban areas who say people driving aggressively is a major problem and the proportion of U.S. adults in rural areas who say the same, the difference between the proportion of U.S. adults who say people driving while distracted by their cellphones is a major problem and the proportion who say people driving under the influence of marijuana is a major problem, the difference between the proportion of U.S. adults who personally drive less often and say people are driving somewhat less safely compared to five years ago and the proportion of U.S. adults in suburban areas who say people are driving somewhat less safely compared to five years ago, and the difference between the proportion of U.S. adults who say they see people displaying 'road rage' very often and the proportion who say they see it rarely? ",
+                "rationale": "From chart4-4, the proportion of U.S. adults in urban areas who say people driving aggressively is a major problem is 69%, and from chart4-6, the proportion of U.S. adults in rural areas who say the same is 54%, so the difference is 69% - 54% = 15%. From chart3-1, the proportion of U.S. adults who say people driving while distracted by their cellphones is a major problem is 78%, and from chart3-16, the proportion who say people driving under the influence of marijuana is a major problem is 37%, so the difference is 78% - 37% = 41%. From chart2-33, the proportion of U.S. adults who personally drive less often and say people are driving somewhat less safely compared to five years ago is 19%, and from chart2-15, the proportion of U.S. adults in suburban areas who say people are driving somewhat less safely compared to five years ago is 27%, so the difference is 19% - 27% = -8%. From chart5-2, the proportion of U.S. adults who say they see people displaying 'road rage' very often is 20%, and from chart5-4, the proportion who say they see it rarely is 24%, so the difference is 20% - 24% = -4%. The average of these differences is (15% + 41% - 8% - 4%) / 4 = 11%.",
+                "answer": "11%",
+                "involved_content_sources": [
+                    "chart_2-33",
+                    "chart_3-1",
+                    "chart_4-4",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of U.S. adults who say people in their local community are driving a lot less safely and somewhat less safely compared with five years ago, and the average of the net - proportions of people driving under the influence of alcohol and marijuana being problems in their local community?",
+                "rationale": "Among U.S. adults, the proportion of those who say people in their local community are driving a lot less safely compared with five years ago is 23% (chart_2-4), and the proportion of those who say people in their local community are driving somewhat less safely compared with five years ago is 26% (chart_2-3). The sum of these two proportions is 23% + 26% = 49%. Among U.S. adults, the net - proportion of people driving under the influence of alcohol being a problem in their local community is 92% (chart_3-12), and the net - proportion of people driving under the influence of marijuana being a problem in their local community is 82% (chart_3-18). The average of these two net - proportions is (92% + 82%) / 2 = 87%. Then the difference between the two is 87% - 49% = 38%.",
+                "answer": "38%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-12",
+                    "chart_3-18"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the sum of the proportion of U.S. adults who say people in their local community are driving a lot less safely compared with five years ago and the proportion of those who say they are driving somewhat less safely, the sum of the proportion of U.S. adults who say people driving while distracted by their cellphones is a major problem and the proportion of those who say it is a minor problem, and the sum of the proportion of U.S. adults who say they see people displaying 'road rage' extremely often and the proportion of those who say they see it very often?",
+                "rationale": "The proportion of U.S. adults who say people in their local community are driving a lot less safely compared with five years ago is 23% (chart_2-4), and the proportion of those who say they are driving somewhat less safely is 26% (chart_2-3). Their sum is 23% + 26% = 49%. The proportion of U.S. adults who say people driving while distracted by their cellphones is a major problem is 78% (chart_3-1), and the proportion of those who say it is a minor problem is 18% (chart_3-2). Their sum is 78% + 18% = 96%. The proportion of U.S. adults who say they see people displaying 'road rage' extremely often is 7% (chart_5-1), and the proportion of those who say they see it very often is 20% (chart_5-2). Their sum is 7% + 20% = 27%. The average of these three sums is (49% + 96% + 27%) / 3 = (0.49 + 0.96 + 0.27) / 3 = 1.72 / 3 \u2248 0.5733 = 57.33%.",
+                "answer": "57.33%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the sum of the proportions of U.S. adults who think people in their local community are driving a lot less safely and somewhat less safely, the net - proportion of U.S. adults who think people driving while distracted by their cellphones is a problem, the difference between the proportion of urban U.S. adults who think people driving aggressively is a major problem and rural U.S. adults who think so, and the proportion of U.S. adults who say they see people displaying 'road rage' NET Extremely/Very often?",
+                "rationale": "From Chart 2, the proportion of U.S. adults who think people in their local community are driving a lot less safely is 23% (chart_2-4), and somewhat less safely is 26% (chart_2-3). Their sum is 23% + 26% = 49%. From Chart 3, the net - proportion of U.S. adults who think people driving while distracted by their cellphones is a problem is 96% (chart_3-3). From Chart 4, the proportion of urban U.S. adults who think people driving aggressively is a major problem is 69% (chart_4-4), and that of rural U.S. adults is 54% (chart_4-6). The difference is 69% - 54% = 15%. From Chart 5, the proportion of U.S. adults who say they see people displaying 'road rage' NET Extremely/Very often is 27% (chart_5-7). The average of these four values is (49% + 96% + 15% + 27%) / 4 = 46.75%.",
+                "answer": "46.75%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-4",
+                    "chart_4-6",
+                    "chart_5-1",
+                    "chart_5-7"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,207 @@
+{
+  "chart": [
+    "chart_26_1",
+    "chart_26_2",
+    "chart_26_3",
+    "chart_26_4",
+    "chart_26_5",
+    "chart_26_6"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Compare the quantity change trends of males and females in the three gift - giving recipient categories of 'Opposite - sex with undetermined relationship → (Boyfriend/Girlfriend) → (Wife/Husband)'. Are the trends of the two curves consistent? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "The male quantity is 1348 → 621 → 266, showing a monotonic decrease; the female quantity is 119 → 1115 → 139, increasing first and then decreasing. The trends of the two curves are significantly different, so the answer is 'No'.",
+      "charts_involved": [
+        "chart_26_2",
+        "chart_26_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Compare the sequence of the top five industries selected from the lowest to the highest coverage rate (2.9% → 3.5% → 5.1% → 6.1% → 7.5%) with the sequence of the top five Valentine's Day gifts ranked by value from high to low this year (430998 → 416132 → 411167 → 323635 → 124097). Is the correlation between these two sequences positive, negative, or uncorrelated?",
+      "answer": "Negative correlation",
+      "explanation": "The industry coverage rate sequence shows a monotonic increase, while the gift value sequence shows a monotonic decrease. Calculating the Pearson coefficient is approximately - 0.96, showing a significant negative correlation. Therefore, the answer is 'Negative correlation'.",
+      "charts_involved": [
+        "chart_26_5",
+        "chart_26_6"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the search for Valentine's Day gifts, the proportion of males is higher than that of females. Please judge: Is the category with the largest quantity among male gift - giving recipients also the category with the largest quantity among female gift - giving recipients? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "The category with the largest quantity among male gift - giving recipients is 'Opposite - sex with undetermined relationship' (1348), and the category with the largest quantity among female gift - giving recipients is 'Boyfriend' (1115). They are different. Therefore, the answer is 'No'.",
+      "charts_involved": [
+        "chart_26_1",
+        "chart_26_2",
+        "chart_26_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please calculate the ratio of female followers aged 25 - 34 to all female followers, rounded to one decimal place (%).",
+      "answer": "77.1%",
+      "explanation": "The proportion of females aged 25 - 34 is 27%, and the overall proportion of females is 35%; 27% ÷ 35% ≈ 0.7714. After converting to a percentage and rounding to one decimal place, it is 77.1%.",
+      "charts_involved": [
+        "chart_26_1",
+        "chart_26_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Combining the data of male and female gift - giving objects, what is the total number of people in the 'romantic relationship' category (male's 'girlfriend' and female's 'boyfriend')?",
+      "answer": "1736",
+      "explanation": "The number of male's 'girlfriend' (621) + the number of female's 'boyfriend' (1115) = 1736.",
+      "charts_involved": [
+        "chart_26_2",
+        "chart_26_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assuming independent distribution, use the search gender ratio and industry coverage data to estimate the proportion of female searchers in the IT/Internet industry among all searchers, rounded to one decimal place (%).",
+      "answer": "7.7%",
+      "explanation": "The coverage of the IT/Internet industry (21.9%) × the proportion of female searchers (35%) = 0.219 × 0.35 ≈ 0.07665. After converting to a percentage and rounding to one decimal place, it is 7.7%.",
+      "charts_involved": [
+        "chart_26_1",
+        "chart_26_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the gender ratio of Valentine's Day gift searches and the ratio of gift - giving objects for different genders, which options correctly describe the systematic differences between men and women in gift - selection behavior?",
+      "answer": {
+        "A": "The proportion of men giving gifts to their wives (9.7%) is much higher than that of women giving gifts to their husbands (10.1%), indicating that men attach more importance to marital relationships.",
+        "B": "The proportion of opposite - sex with undetermined relationship among female gift - giving recipients (8.7%) is higher than that among men (49.3%), suggesting that women are more active in expanding new relationships.",
+        "C": "Although women have a lower overall proportion in gift searches, they highly concentrate on partners in romantic or marital relationships as gift - giving recipients, in contrast to men's more diverse object selection.",
+        "D": "Men's higher participation in gift searches may be consistent with their more frequent gift - giving behavior to non - fixed partners, while women's search behavior is more related to maintaining long - term relationships.",
+        "E": "Women account for a higher proportion in overall gift searches, indicating that women pay more attention to the festival's sense of ritual.",
+        "F": "Men account for a higher proportion in overall gift searches and are more inclined to give gifts to opposite - sex with undetermined relationship when giving gifts, while women are more concentrated on choosing gifts for partners in a determined relationship (such as boyfriends or husbands).",
+        "G": "The total proportion of men and women giving gifts to partners in a determined relationship (lovers/spouses) is similar (32.4% for men vs 91.3% for women)."
+      },
+      "charts_involved": [
+        "chart_26_1",
+        "chart_26_2",
+        "chart_26_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The age distribution of attention to Valentine's Day gifts shows that young women have a higher proportion in some age groups, but the overall search proportion is dominated by men. Which options can best explain this apparent conflict?",
+      "answer": {
+        "A": "The proportion of young women is higher in some age groups (such as <19 years old), but the overall attention in this group is low and cannot reverse the overall trend. The male proportion advantage in high - weight age groups (such as 25 - 34 years old) strengthens the male dominance.",
+        "B": "The proportion of men in the 35 - 49 years old group (8%) is significantly higher than that of women (5%), and the large population base in this group leads to the overall deviation.",
+        "C": "The attention proportion of women over 50 years old (1%) is lower than that of men (1%), and the difference in the elderly group pulls down the overall proportion of women.",
+        "D": "The difference between the proportion of women in the 19 - 24 years old group (47%) and that of men in the 25 - 34 years old group (41%) is too small to explain the overall 65% male dominance.",
+        "E": "In the 19 - 24 years old age group, the proportion of women's attention is significantly higher than that of men, but the overall male search proportion is higher because the male proportion in the 25 - 34 years old age group is dominant and the attention weight of this group is greater.",
+        "F": "The proportion of women in the younger and older age groups is similar or higher, but the male proportion in the middle - age group (25 - 34 years old) is prominent, which is consistent with the overall search proportion, highlighting the uneven contribution among age groups.",
+        "G": "Although the proportion of women in the <19 years old group is high (20%), the search volume in this group is the lowest and has no impact on the overall situation."
+      },
+      "charts_involved": [
+        "chart_26_1",
+        "chart_26_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Which industries' high coverage rates may be related to the age - distribution characteristics of the population paying attention to Valentine's Day gifts? Please select the most reasonable options.",
+      "answer": {
+        "A": "The high coverage rate of the Health Care industry (2.9%) stems from the travel consumption demand of people over 50 years old.",
+        "B": "The high coverage rate of the IT/Internet industry (21.9%) is due to the rise of digital consumption among the elderly group (≥50 years old).",
+        "C": "The IT/Internet industry has the highest coverage rate, which may be consistent with the active participation of the 19 - 34 years old age group (the group with the highest attention), because most employees in this industry are young people.",
+        "D": "The Advertising/Marketing industry has the second - highest coverage rate, which may benefit from the high sensitivity of young people (such as the 19 - 24 years old group) to marketing activities, and the proportion of women in this group is prominent.",
+        "E": "Traditional industries such as Automotive or Government/Non - profit Organizations have lower coverage rates, which is consistent with the low attention of the elderly group (such as >=50 years old), highlighting the difference in the association between industries and young people.",
+        "F": "The coverage rate of the Government/Non - profit Organizations industry (7.5%) reflects the importance young civil servants attach to the festival.",
+        "G": "The Advertising/Marketing industry (19.9%) relies on the sensitivity of the 35 - 49 years old group to promotions."
+      },
+      "charts_involved": [
+        "chart_26_4",
+        "chart_26_5"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the gender differences in Valentine's Day gift search and gift - giving behavior data, how should enterprises optimize the allocation of advertising resources to improve marketing efficiency? Please select the most reasonable strategic suggestions.",
+      "answer": {
+        "A": "Increase the proportion of advertising investment targeting male users. Men account for a higher proportion in gift searches, and the proportion of opposite - sex with undetermined relationship among their gift - giving objects is prominent, indicating that this group has a stronger gift - giving demand when establishing new relationships. Increasing male - oriented advertising can improve conversion rates.",
+        "B": "Invest in advertising on social media and short - video platforms because these channels have high user activity and can effectively reach young people.",
+        "C": "For female users, prioritize advertising gifts for opposite - sex with undetermined relationship, because the proportion of opposite - sex with undetermined relationship among female gift - giving recipients is the highest.",
+        "D": "Since men have a higher search proportion but most of their gift - giving objects are in stable relationships (such as wives), enterprises should reduce male - oriented advertising investment and instead increase general promotions targeting stable relationships.",
+        "E": "Enterprises should expand the advertising coverage to all gender groups and use emotional creative themes to enhance brand emotional resonance.",
+        "F": "For female users, focus on promoting gifts for stable relationships (such as boyfriends or husbands). Although women have a lower search proportion, their gift - giving objects are highly concentrated. Advertising should emphasize emotional expression and long - term relationship maintenance to increase the participation of this group.",
+        "G": "Differentiate gender motives in advertising creativity: highlight the theme of romantic pursuit for men and the theme of relationship deepening for women to balance the coverage of different gift - giving scenarios and optimize the overall resource utilization."
+      },
+      "charts_involved": [
+        "chart_26_1",
+        "chart_26_2",
+        "chart_26_3"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the age - distribution characteristics of the population paying attention to Valentine's Day gifts and the ranking of popular gifts, how should retailers adjust the inventory priority and promotion focus? Please select the most effective suggestions.",
+      "answer": {
+        "A": "For the 25 - 34 years old group, increase the inventory proportion of mid - to high - end gifts (such as luggage or perfume). This group has a relatively high attention, and the proportion of men is more prominent. They may prefer practical or quality - oriented items. Optimizing such options can improve sales conversion.",
+        "B": "Since women in the 19 - 24 years old group have the highest attention (47%), prioritize stocking chocolate gifts for the female group and ignore the needs of the male group.",
+        "C": "Prioritize stocking popular gifts such as electronic products and candies for young people (such as the 19 - 24 years old group). This age group has the highest attention, and the search volume of relevant categories in the gift ranking is considerable. Ensuring sufficient inventory can capture high demand.",
+        "D": "In resource allocation, prioritize covering age groups with high attention, but maintain basic inventory to serve all age groups to avoid ignoring brand inclusiveness due to low - attention groups.",
+        "E": "For the 35 - 49 years old group, focus on stocking high - end gifts such as luggage because this age group has a relatively high attention and strong consumption ability.",
+        "F": "Retailers should comprehensively increase the inventory of all age groups and gift categories and implement full - field discount promotions to maximize sales.",
+        "G": "Optimize the logistics and warehousing system to ensure fast delivery of gifts to improve customer satisfaction."
+      },
+      "charts_involved": [
+        "chart_26_4",
+        "chart_26_6"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the differences in the attention of different industries to Valentine's Day gifts and the preferences for popular gifts, how should the marketing team design industry - targeted promotion strategies to maximize the return on investment? Please select the most reasonable options.",
+      "answer": {
+        "A": "For the Health Care industry, use high - budget TV advertising to promote perfume gifts, because although the attention of this industry is low, employees may prefer high - end items.",
+        "B": "For the Finance and Hotel/Tourism industries, promote experiential or high - end gifts (such as perfume or flowers). The attention of these industries is medium, but the search volume of relevant categories in the gift ranking is considerable. Activities should emphasize luxury and emotional experience to match the preferences.",
+        "C": "For industries with low attention (such as Health Care), use low - cost digital channels (such as social media) to maintain brand exposure instead of large - scale budget investment to ensure that resources are concentrated in high - return areas.",
+        "D": "The marketing team should equally increase the advertising budget in all industries and emphasize the emotional value of gifts to improve overall brand awareness.",
+        "E": "Use big - data analysis tools to optimize the advertising placement time and avoid peak competition periods to improve cost - effectiveness.",
+        "F": "Increase advertising investment in the IT/Internet and Advertising/Marketing industries. The attention of these industries is significantly leading, and employees are more likely to buy popular gifts such as electronic products. Targeted placement can efficiently reach high - potential users.",
+        "G": "Since the Wholesale/Retail industry has a relatively high attention (5.1%), prioritize advertising chocolate gifts in this industry to match its industry characteristics."
+      },
+      "charts_involved": [
+        "chart_26_5",
+        "chart_26_6"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the percentage of 25 - to 34 - year - olds with a Bachelor's degree+ in a multigenerational household in 2021? Answer with a single number.\n question2: What is the percentage of 25 - to 34 - year - olds with less than a high school diploma in multigenerational households living with one parent who are in poverty? Please answer with a percentage number.",
+                "rationale": "rationale1: The question is about getting the percentage of 25 - to 34 - year - olds with a Bachelor's degree+ in a multigenerational household in 2021 from the provided chart data.\n rationale2: This question is about getting the poverty percentage of a particular subgroup. We look for the relevant data in the chart for the group of 25 - to 34 - year - olds with less than a high school diploma in multigenerational households living with one parent.",
+                "answer": "16; 23%",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_5-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of 25 - to 34 - year - olds in multigenerational households with a bachelor's degree or higher who live with no parent?\n question2: What was the percentage of 25 - to 34 - year - olds living in parent(s)' home in 2021? Please answer with a number.\n question3: What is the percentage of 25 - to 34 - year - olds with a high school diploma in multigenerational households living with no parent who are in poverty? Please answer with a percentage number.",
+                "rationale": "rationale1: The question is about the proportion of a specific group (25 - to 34 - year - olds in multigenerational households with a bachelor's degree or higher) living with no parent, and we can get this value from the chart.\n rationale2: We need to extract the percentage of 25 - to 34 - year - olds living in parent(s)' home in 2021 from the chart.\n rationale3: The question requires us to extract the poverty percentage of a specific demographic group from the chart, and we can find the corresponding data point for 25 - to 34 - year - olds with a high school diploma in multigenerational households living with no parent.",
+                "answer": "10%; 17; 14%",
+                "involved_content_sources": [
+                    "chart_4-26",
+                    "chart_3-5",
+                    "chart_5-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the percentage of 25 - to 34 - year - olds living in a multigenerational household in 1971? Please answer with a number.\n question2: What was the percentage of 25 - to 34 - year - olds in a multigenerational household in 1971? Please provide the answer as a single number.\n question3: What is the proportion of 25 - to 34 - year - olds in multigenerational households who live in their own home and with one parent?\n question4: What is the percentage of 25 - to 34 - year - olds with a bachelor's degree or higher in multigenerational households living with no parent who are in poverty? Please answer with a percentage number.",
+                "rationale": "rationale1: The question directly asks for the percentage of 25 - to 34 - year - olds living in a multigenerational household in 1971, and the relevant information can be found in the given chart.\n rationale2: The question directly asks for the percentage of 25 - to 34 - year - olds in a multigenerational household in 1971, which can be found in the given chart content.\n rationale3: We need to extract the relevant proportion of 25 - to 34 - year - olds in multigenerational households living in their own home and with one parent from the chart.\n rationale4: The question is focused on getting the poverty percentage of a particular group described in the chart, and we can locate the relevant data for 25 - to 34 - year - olds with a bachelor's degree or higher in multigenerational households living with no parent.",
+                "answer": "9; 9; 56%; 6%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_2-1",
+                    "chart_4-7",
+                    "chart_5-15"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021, and what is the average percentage of 35 - to 64 - year - olds and 65+ year - olds in a multigenerational household in 2021? (Answer in the format: increase, average)\n question2: What is the difference in the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents between those with a bachelor's degree or higher and those with less than high - school graduation?",
+                "rationale": "rationale1: First, to find the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021, we subtract the percentage in 1971 from the percentage in 2021. Then, to calculate the average percentage of 35 - to 64 - year - olds and 65+ year - olds in a multigenerational household in 2021, we sum their percentages in 2021 and divide by 2.\n rationale2: To answer this question, we need to find the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents for those with a bachelor's degree or higher and those with less than high - school graduation from the chart, and then calculate the difference between the two values.",
+                "answer": "16, 18; 22%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7",
+                    "chart_4-15",
+                    "chart_4-24"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021, and what is the average percentage of 35 - to 64 - year - olds and 65+ year - olds in a multigenerational household in 2021? (Answer in the format: increase, average)\n question2: What is the difference in the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents between those with a bachelor's degree or higher and those with less than high - school graduation?\n question3: What is the difference in the poverty percentage between 25 - to 34 - year - olds with less than a high school diploma living with no parent and those with a bachelor's degree or higher living with no parent in multigenerational households?",
+                "rationale": "rationale1: First, to find the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021, we subtract the percentage in 1971 from the percentage in 2021. Then, to calculate the average percentage of 35 - to 64 - year - olds and 65+ year - olds in a multigenerational household in 2021, we sum their percentages in 2021 and divide by 2.\n rationale2: To answer this question, we need to find the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents for those with a bachelor's degree or higher and those with less than high - school graduation from the chart, and then calculate the difference between the two values.\n rationale3: To answer this question, we need to find the poverty percentage of 25 - to 34 - year - olds with less than a high school diploma living with no parent and the poverty percentage of those with a bachelor's degree or higher living with no parent from the chart. Then subtract the latter from the former to get the difference.",
+                "answer": "16, 18; 22%; 28",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7",
+                    "chart_4-15",
+                    "chart_4-24",
+                    "chart_5-6",
+                    "chart_5-15"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021, and what is the average percentage of 35 - to 64 - year - olds and 65+ year - olds in a multigenerational household in 2021? (Answer in the format: increase, average)\n question2: What is the difference in the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents between those with a bachelor's degree or higher and those with less than high - school graduation?\n question3: What is the difference in the poverty percentage between 25 - to 34 - year - olds with less than a high school diploma living with no parent and those with a bachelor's degree or higher living with no parent in multigenerational households?\n question4: What is the increase in the percentage of 25 - to 34 - year - olds living in a multigenerational household from 1971 to 2021?",
+                "rationale": "rationale1: First, to find the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021, we subtract the percentage in 1971 from the percentage in 2021. Then, to calculate the average percentage of 35 - to 64 - year - olds and 65+ year - olds in a multigenerational household in 2021, we sum their percentages in 2021 and divide by 2.\n rationale2: To answer this question, we need to find the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents for those with a bachelor's degree or higher and those with less than high - school graduation from the chart, and then calculate the difference between the two values.\n rationale3: To answer this question, we need to find the poverty percentage of 25 - to 34 - year - olds with less than a high school diploma living with no parent and the poverty percentage of those with a bachelor's degree or higher living with no parent from the chart. Then subtract the latter from the former to get the difference.\n rationale4: To find the increase, we need to subtract the percentage in 1971 from the percentage in 2021. This requires using the data for the percentage of 25 - to 34 - year - olds living in a multigenerational household in both 1971 and 2021 from the chart.",
+                "answer": "16, 18; 22%; 28; 16",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7",
+                    "chart_4-15",
+                    "chart_4-24",
+                    "chart_5-6",
+                    "chart_5-15",
+                    "chart_3-1",
+                    "chart_3-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the percentage of 25 - to 34 - year - olds with some college or less in a multigenerational household in 2021 and the proportion of 25 - to 34 - year - olds in multigenerational households who live with no parent?",
+                "rationale": "From chart 2, the percentage of 25 - to 34 - year - olds with some college or less in a multigenerational household in 2021 is 31%. From chart 4, the proportion of 25 - to 34 - year - olds in multigenerational households who live with no parent is 14%. The difference is 31% - 14% = 17%.",
+                "answer": "17%",
+                "involved_content_sources": [
+                    "chart_2-11",
+                    "chart_4-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the percentage of 25 - to 34 - year - olds in a multigenerational household in 2021, the percentage of 25 - to 34 - year - olds living in parent(s)' home in 2021, and the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents, using weights 0.3, 0.2, and 0.5 respectively? (Round the result to two decimal places.)",
+                "rationale": "The percentage of 25 - to 34 - year - olds in a multigenerational household in 2021 is 25% (from Chart 2). The percentage of 25 - to 34 - year - olds living in parent(s)' home in 2021 is 17% (from Chart 3). The proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents is 47% (from Chart 4). The weighted average is (25%\u00d70.3 + 17%\u00d70.2 + 47%\u00d70.5) = (7.5%+3.4% + 23.5%) = 34.40%.",
+                "answer": "34.40%",
+                "involved_content_sources": [
+                    "chart_2-5",
+                    "chart_3-5",
+                    "chart_4-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the result of dividing the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021 by the sum of the proportion of 25 - to 34 - year - olds in multigenerational households who live with no parent and the percentage of 25 - to 34 - year - olds in multigenerational households living with no parent in poverty, and then multiplying by the proportion of 25 - to 34 - year - olds in multigenerational households who live in parent(s)' home in 2021?",
+                "rationale": "The increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021 is 25 - 9 = 16 (from chart_2-1 and chart_2-5). The proportion of 25 - to 34 - year - olds in multigenerational households who live with no parent is 14% (from chart_4-3). The percentage of 25 - to 34 - year - olds in multigenerational households living with no parent in poverty is 14% (from chart_5-3). Their sum is 14 + 14 = 28. The proportion of 25 - to 34 - year - olds in multigenerational households who live in parent(s)' home in 2021 is 17% (from chart_3-5). The final result is (16 / 28) * 17 \u2248 9.71. ",
+                "answer": "9.71%",
+                "involved_content_sources": [
+                    "chart_2-5",
+                    "chart_3-5",
+                    "chart_4-3",
+                    "chart_5-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the product of the percentage of 25 - to 34 - year - olds with some college or less in a multigenerational household in 2021 and the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents, and the product of the percentage of 25 - to 34 - year - olds with a Bachelor's degree+ in a multigenerational household in 2021 and the proportion of 25 - to 34 - year - olds in multigenerational households with a bachelor's degree or higher who live with no parent?",
+                "rationale": "The percentage of 25 - to 34 - year - olds with some college or less in a multigenerational household in 2021 is 31% (chart_2-11), and the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents is 47% (chart_4-1). Their product is 31% * 47% = 14.57%. The percentage of 25 - to 34 - year - olds with a Bachelor's degree+ in a multigenerational household in 2021 is 16% (chart_2-12), and the proportion of 25 - to 34 - year - olds in multigenerational households with a bachelor's degree or higher who live with no parent is 10% (chart_4-26). Their product is 16% * 10% = 1.6%. Then the difference between the two products is 14.57% - 1.6% = 12.97%.",
+                "answer": "12.97%",
+                "involved_content_sources": [
+                    "chart_2-11",
+                    "chart_2-12",
+                    "chart_4-1",
+                    "chart_4-26"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the difference between the average percentage of 25 - to 34 - year - olds in a multigenerational household in 1971 and 2021, and the average percentage of 25 - to 34 - year - olds living in parent(s)' home in 1971 and 2021, considering the proportion of those living with two parents among 25 - to 34 - year - olds in multigenerational households?",
+                "rationale": "The percentage of 25 - to 34 - year - olds in a multigenerational household in 1971 is 9% (chart_2-1), and in 2021 is 25% (chart_2-5). Their average is (9% + 25%) / 2 = 17%. The percentage of 25 - to 34 - year - olds living in parent(s)' home in 1971 is 8% (chart_3-2), and in 2021 is 17% (chart_3-5). Their average is (8% + 17%) / 2 = 12.5%. The proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents is 47% (chart_4-1). The difference between the two averages is 17% - 12.5% = 4.5%.",
+                "answer": "4.5%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_3-2",
+                    "chart_3-5",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021, the increase in the percentage of 25 - to 34 - year - olds living in other arrangements from 1971 to 2021, the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents, and the difference in poverty rates between 25 - to 34 - year - olds in multigenerational households living with no parent and those living with two parents?",
+                "rationale": "First, calculate the increase in the percentage of 25 - to 34 - year - olds in a multigenerational household from 1971 to 2021. In 1971, it was 9% (chart_2-1), and in 2021, it was 25% (chart_2-5), so the increase is 25% - 9% = 16%. Second, calculate the increase in the percentage of 25 - to 34 - year - olds living in other arrangements from 1971 to 2021. In 1971, it was 1% (chart_3-3), and in 2021, it was 8% (chart_3-6), so the increase is 8% - 1% = 7%. Third, the proportion of 25 - to 34 - year - olds in multigenerational households who live with two parents is 47% (chart_4-1). Fourth, the poverty rate of 25 - to 34 - year - olds in multigenerational households living with no parent is 14% (chart_5-3), and that of those living with two parents is 3% (chart_5-1), so the difference is 14% - 3% = 11%. Then, calculate the average of these four values: (16% + 7% + 47% + 11%) / 4 = 20.25%.",
+                "answer": "20.25%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-1",
+                    "chart_5-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What percentage of U.S. workers said they got to work last week primarily by car, truck or van in 2023?\n question2: What is the proportion of Montana households with at least one vehicle in 2023 in the WEST region?",
+                "rationale": "rationale1: The question directly asks for the percentage of U.S. workers who used car, truck or van as the primary means of getting to work in 2023. We can find this value directly from the chart.\n rationale2: This question requires us to pick out the corresponding data for Montana's households with at least one vehicle from the chart's WEST - region data.",
+                "answer": "78%; 96%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_5-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the net proportion of non - drivers among U.S. adults in the Midwest?\n question2: What percentage of U.S. workers said they got to work last week primarily by car, truck or van in 2023?\n question3: What is the proportion of Montana households with at least one vehicle in 2023 in the WEST region?",
+                "rationale": "rationale1: The question requires the net proportion of non - drivers among U.S. adults in the Midwest, which can be directly obtained from the corresponding content in the chart.\n rationale2: The question directly asks for the percentage of U.S. workers who used car, truck or van as the primary means of getting to work in 2023. We can find this value directly from the chart.\n rationale3: This question requires us to pick out the corresponding data for Montana's households with at least one vehicle from the chart's WEST - region data.",
+                "answer": "7%; 78%; 96%",
+                "involved_content_sources": [
+                    "chart_2-56",
+                    "chart_3-1",
+                    "chart_5-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of Florida households with 3+ vehicles in 2023 in the SOUTH region?\n question2: What is the proportion of commuters in New York who said they got to work last week primarily by using some form of transit other than a car, truck or van in 2023? (Answer in percentage)\n question3: What percentage of U.S. workers said they got to work last week primarily by car, truck or van in 2023?\n question4: What is the proportion of U.S. adults with upper income who never drive a car or other vehicle?",
+                "rationale": "rationale1: We need to search for the proportion of Florida households with 3+ vehicles in the SOUTH - region data of the chart.\n rationale2: The question asks for the specific proportion of commuters in New York using non - car, truck, or van transit in 2023. This information can be directly found from the chart.\n rationale3: The question directly asks for the percentage of U.S. workers who used car, truck or van as the primary means of getting to work in 2023. We can find this value directly from the chart.\n rationale4: We are looking for the proportion of U.S. adults with upper income who never drive. The chart has a specific content item for this data.",
+                "answer": "17%; 37%; 78%; 2%",
+                "involved_content_sources": [
+                    "chart_5-124",
+                    "chart_4-2",
+                    "chart_3-1",
+                    "chart_2-40"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the net proportion of non - drivers between U.S. adult Black people and U.S. adult White people?\n question2: What is the combined proportion of U.S. workers who got to work primarily by public transit, walking, and bicycle in 2023?",
+                "rationale": "rationale1: To find the difference in the net proportion of non - drivers between U.S. adult Black people and U.S. adult White people, we need to subtract the net proportion of non - drivers of U.S. adult White people from that of U.S. adult Black people. We obtain these two values from the chart.\n rationale2: To answer this question, we need to add the proportions of workers who used public transit, walking, and bicycle to get to work in 2023 according to the data in the chart. This requires using the relevant data from the chart to perform an addition operation.",
+                "answer": "14%; 7%",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_2-15",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the net proportion of non - drivers between U.S. adult Black people and U.S. adult White people?\n question2: What is the combined proportion of U.S. workers who got to work primarily by public transit, walking, and bicycle in 2023?\n question3: What is the difference between the proportion of households with 3+ vehicles in Texas and the proportion of households with 3+ vehicles in Florida in the SOUTH region?",
+                "rationale": "rationale1: To find the difference in the net proportion of non - drivers between U.S. adult Black people and U.S. adult White people, we need to subtract the net proportion of non - drivers of U.S. adult White people from that of U.S. adult Black people. We obtain these two values from the chart.\n rationale2: To answer this question, we need to add the proportions of workers who used public transit, walking, and bicycle to get to work in 2023 according to the data in the chart. This requires using the relevant data from the chart to perform an addition operation.\n rationale3: We subtract the proportion of households with 3+ vehicles in Florida from the proportion of households with 3+ vehicles in Texas in the SOUTH region to get the difference. The data for both states are given in the chart for the SOUTH region.",
+                "answer": "14%; 7%; 6%",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_2-15",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_5-84",
+                    "chart_5-124"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the net proportion of non - drivers between U.S. adult Black people and U.S. adult White people?\n question2: What is the combined proportion of U.S. workers who got to work primarily by public transit, walking, and bicycle in 2023?\n question3: What is the difference between the proportion of households with 3+ vehicles in Texas and the proportion of households with 3+ vehicles in Florida in the SOUTH region?\n question4: What is the average proportion of commuters in these five regions (D.C., New York, Massachusetts, New Jersey, and Alaska) who said they got to work last week primarily by using some form of transit other than a car, truck or van in 2023?",
+                "rationale": "rationale1: To find the difference in the net proportion of non - drivers between U.S. adult Black people and U.S. adult White people, we need to subtract the net proportion of non - drivers of U.S. adult White people from that of U.S. adult Black people. We obtain these two values from the chart.\n rationale2: To answer this question, we need to add the proportions of workers who used public transit, walking, and bicycle to get to work in 2023 according to the data in the chart. This requires using the relevant data from the chart to perform an addition operation.\n rationale3: We subtract the proportion of households with 3+ vehicles in Florida from the proportion of households with 3+ vehicles in Texas in the SOUTH region to get the difference. The data for both states are given in the chart for the SOUTH region.\n rationale4: To find the average, we need to sum up the proportions of commuters in each region and then divide by the number of regions. The proportions are given in the chart for each of the five regions. ((55 + 37 + 17 + 17 + 16) / 5) = 28.4.",
+                "answer": "14%; 7%; 6%; 28.4",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_2-15",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_5-84",
+                    "chart_5-124",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_4-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the net proportion of non - drivers among U.S. adult Black people and the proportion of commuters in New York who said they got to work last week primarily by using some form of transit other than a car, truck or van?",
+                "rationale": "The net proportion of non - drivers among U.S. adult Black people is 21% (from chart 2). The proportion of commuters in New York who said they got to work last week primarily by using some form of transit other than a car, truck or van is 37% (from chart 4). The difference is 37% - 21% = 16%.",
+                "answer": "16%",
+                "involved_content_sources": [
+                    "chart_2-15",
+                    "chart_4-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the proportion of U.S. workers who said they got to work last week primarily by public transit in 2023 to the difference between the proportion of U.S. adult Black people who are non - drivers and the proportion of total U.S. households with no vehicles in 2023? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. workers who said they got to work last week primarily by public transit in 2023 is 4% (from chart 3). The proportion of U.S. adult Black people who are non - drivers is 21% (from chart 2). The proportion of total U.S. households with no vehicles in 2023 is 8% (from chart 5). The difference between the proportion of U.S. adult Black people who are non - drivers and the proportion of total U.S. households with no vehicles is 21% - 8% = 13%. The ratio is 4%\u00f713%\u22480.31 (rounded to two decimal places).",
+                "answer": "0.31",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_2-15",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the result of multiplying the net proportion of non - driving U.S. adults aged 18 - 29 by the proportion of U.S. workers who got to work primarily by public transit in 2023, then dividing by the proportion of commuters in D.C. who got to work primarily by non - car transit in 2023, and finally multiplying by the proportion of total U.S. households with no vehicles in 2023?",
+                "rationale": "The net proportion of non - driving U.S. adults aged 18 - 29 is 15% (chart_2-24). The proportion of U.S. workers who got to work primarily by public transit in 2023 is 4% (chart_3-2). The proportion of commuters in D.C. who got to work primarily by non - car transit in 2023 is 55% (chart_4-1). The proportion of total U.S. households with no vehicles in 2023 is 8% (chart_5-1). The calculation is (15%\u00d74%\u00f755%)\u00d78% = (0.15\u00d70.04\u00f70.55)\u00d70.08 \u2248 0.0009 \u2248 0.09%.",
+                "answer": "0.09%",
+                "involved_content_sources": [
+                    "chart_2-24",
+                    "chart_3-2",
+                    "chart_4-1",
+                    "chart_5-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of U.S. adult Black people who never drive and seldom drive and the average of the proportions of U.S. workers who use public transit and work from home to get to work?",
+                "rationale": "Among U.S. adult Black people, the proportion who never drive a car or other vehicle is 12% (chart_2-13), and the proportion who seldom drive is 9% (chart_2-14). The sum of these two proportions is 12% + 9% = 21%. Among U.S. workers, the proportion who use public transit to get to work is 4% (chart_3-2), and the proportion who work from home is 14% (chart_3-5). The average of these two proportions is (4% + 14%) / 2 = 9%. Then the difference between the two is 21% - 9% = 12%.",
+                "answer": "12%",
+                "involved_content_sources": [
+                    "chart_2-13",
+                    "chart_2-14",
+                    "chart_3-2",
+                    "chart_3-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of subtracting the proportion of U.S. adult White non - drivers from the sum of the proportion of commuters in D.C. using non - car transit and the proportion of U.S. households with 3+ vehicles, and then dividing by 2?",
+                "rationale": "The proportion of U.S. adult White non - drivers is 7% (chart_2-12); the proportion of commuters in D.C. using non - car transit is 55% (chart_4-1); the proportion of U.S. households with 3+ vehicles is 22% (chart_5-4). First, find the sum of the latter two: 55% + 22% = 77%. Then subtract the proportion of U.S. adult White non - drivers: 77% - 7% = 70%. Finally, divide by 2: 70%\u00f72 = 35%.",
+                "answer": "35%",
+                "involved_content_sources": [
+                    "chart_2-11",
+                    "chart_2-12",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-4",
+                    "chart_5-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the net proportion of non - drivers among U.S. adult Black people, the proportion of U.S. workers who use public transit to work, the proportion of commuters in D.C. who use non - car transit, and the proportion of total U.S. households with no vehicles?",
+                "rationale": "Among U.S. adult Black people, the net proportion of non - drivers (never + seldom) is 21% (chart_2-15). The proportion of U.S. workers who said they got to work last week primarily by public transit is 4% (chart_3-2). The proportion of commuters in D.C. who said they got to work last week primarily by using some form of transit other than a car, truck or van is 55% (chart_4-1). The proportion of total U.S. households with no vehicles is 8% (chart_5-1). The average of these four values is (21% + 4% + 55% + 8%) / 4 = 22%.",
+                "answer": "22%",
+                "involved_content_sources": [
+                    "chart_2-14",
+                    "chart_2-15",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

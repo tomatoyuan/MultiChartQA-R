@@ -1,0 +1,196 @@
+{
+  "chart": [
+    "chart_151_1",
+    "chart_151_2",
+    "chart_151_3",
+    "chart_151_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "En \"Ventas en línea | Proporción de categorías de alimentos dietéticos saludables y tasa de crecimiento de ventas % | MAT2406\", ¿coincide la categoría con la tasa de crecimiento más alta en el subgráfico de 'tasa de crecimiento de ventas' y la categoría con la proporción más alta en el subgráfico de 'proporción de categorías'? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas son Suplementos nutricionales dietéticos",
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Coincide la tendencia de crecimiento del FMCG en línea en \"Tasa de crecimiento de FMCG en línea y sus categorías en MAT2406\" con la tendencia de cambio de las ventas en \"General en línea | Ventas de probióticos (millones de yuanes) y precio promedio (yuanes)\"? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "El FMCG en línea muestra una tendencia ascendente, y las ventas de probióticos también aumentan peródicamente (100 → 110 → 115).",
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Coincide la tendencia de crecimiento de las ventas minoristas en línea en \"Tasa de crecimiento de FMCG en línea y sus categorías en MAT2406\" con la tendencia de cambio del precio promedio en \"General en línea | Ventas de probióticos (millones de yuanes) y precio promedio (yuanes)\"? Responda sí o no.",
+      "answer": "No",
+      "explanation": "Las ventas minoristas en línea muestran una tendencia ascendente, mientras que el precio promedio primero disminuye y luego aumenta.",
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Durante MAT2406, suponiendo que la categoría de alimentos sea la misma que la de alimentos dietéticos saludables y la tasa de crecimiento de los tónicos tradicionales sea del 10%. ¿Cuál es la tasa de crecimiento de la categoría de suplementos nutricionales dietéticos en MAT2406? Expresarla en porcentaje y redondear a 2 decimales.",
+      "answer": "7.46%",
+      "explanation": "Dado que se supone que la categoría de alimentos es la misma que la de alimentos dietéticos saludables y la tasa de crecimiento de los tónicos tradicionales es del 10%, entonces 25.1% * 10% + 74.9% * [tasa de crecimiento de la categoría de suplementos nutricionales dietéticos] = 8.1%. Por lo tanto, la tasa de crecimiento de la categoría de suplementos nutricionales dietéticos en MAT2406 es del 7.46%.",
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Durante MAT2406, si todos los que compraron probióticos son usuarios que experimentaron reacciones adversas y se supone que el número total de usuarios que experimentaron reacciones adversas es de 100,000 personas, ¿cuál es el promedio de ventas por usuario que tomó probióticos? Expresarlo en yuanes y redondear a 3 decimales.",
+      "answer": "7666.667 yuanes",
+      "explanation": "115,000,000 / (100,000 * 15.0%) = 7666.667 yuanes.",
+      "charts_involved": [
+        "chart_151_3",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Durante MAT2206, si un probiótico de tipo A representa en las ventas de probióticos la misma proporción que los tónicos tradicionales en los alimentos dietéticos saludables, ¿cuál es el monto de ventas correspondiente a este probiótico de tipo A? Expresarlo en millones de yuanes y redondear a 2 decimales.",
+      "answer": "25.10 millones de yuanes",
+      "explanation": "Los tónicos tradicionales representan el 25.1% en los alimentos dietéticos saludables; las ventas de probióticos durante MAT2206 fueron de 100 millones de yuanes. La estimación del monto de ventas correspondiente es: 100 * 25.1% ≈ 25.10 ≈ 25.10 millones de yuanes.",
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según las preferencias de los usuarios en cuanto a las medidas de respuesta ante reacciones adversas y la tendencia de ventas de probióticos, ¿qué factores pueden explicar conjuntamente los cambios en el desempeño de los productos de probióticos en el mercado?",
+      "answer": {
+        "A": "El precio promedio de los probióticos ha descendido continuamente desde MAT2206 hasta MAT2406 (de 150 yuanes a 155 yuanes), pero las ventas han aumentado. Esto demuestra que la demanda es altamente sensible al precio, lo cual no coincide con la tendencia general de las categorías de alimentos dietéticos.",
+        "B": "El aumento de las ventas de probióticos se debe principalmente a las compras de pánico provocadas por la crisis sanitaria global durante la pandemia, lo que ha impulsado el aumento de la demanda de productos inmunológicos por parte de los consumidores.",
+        "C": "La proporción de usuarios que eligen tomar probióticos para regularizar es relativamente alta, lo que puede haber impulsado la tendencia continua de aumento de las ventas de probióticos, aunque el precio promedio general haya fluctuado.",
+        "D": "La proporción de usuarios que eligen \"tomar medicamentos por cuenta propia\" es la más alta (20.3%), lo que indica que los consumidores dependen más del tratamiento médico que de la regulación con probióticos. Por lo tanto, el aumento de las ventas de probióticos se debe a otros factores externos, como la publicidad.",
+        "E": "La proporción de usuarios que toman medicamentos por cuenta propia es relativamente alta, pero el aumento de las ventas de probióticos puede estar relacionado con el aumento de la preferencia de los usuarios por los métodos de acondicionamiento de la salud, en lugar de depender únicamente del tratamiento médico."
+      },
+      "charts_involved": [
+        "chart_151_3",
+        "chart_151_4"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En el contexto del crecimiento general de los bienes de consumo masivo (FMCG) en línea, ¿con qué otras categorías muestra la tasa de crecimiento de la categoría de alimentos dietéticos saludables características únicas, y cómo afecta la proporción de sus subcategorías a esta tendencia?",
+      "answer": {
+        "A": "La tasa de crecimiento de la subcategoría de tónicos tradicionales es relativamente baja, pero debido a su proporción pequeña en los alimentos dietéticos saludables, es posible que no haya frenado el crecimiento general. En cambio, la tasa de crecimiento más alta de subcategorías de FMCG como la infantil puede reflejar diferentes demandas de consumo.",
+        "B": "Debido a que la subcategoría de tónicos tradicionales tiene la proporción más alta (74.9%), su baja tasa de crecimiento (5.9%) ha reducido significativamente el desempeño general de los alimentos dietéticos saludables, lo que ha provocado que su tasa de crecimiento sea menor que la de categorías como la infantil.",
+        "C": "La tasa de crecimiento de la categoría de maquillaje (8.1%) es mayor que la de los alimentos dietéticos saludables en general (10.1%), ya que el maquillaje se ve más afectado por las actividades de promoción, mientras que el crecimiento de los alimentos dietéticos saludables se ve limitado por la influencia de la subcategoría de tónicos tradicionales.",
+        "D": "El alto crecimiento de la categoría de alimentos dietéticos saludables se debe principalmente a que los consumidores de la generación Z se han convertido en la fuerza principal. Su mayor conciencia de la salud ha impulsado el comportamiento de compra en línea, lo que es consistente con el motor de crecimiento de todas las categorías de FMCG.",
+        "E": "La tasa de crecimiento general de los alimentos dietéticos saludables es mayor que la de la venta minorista en línea en general, pero menor que la de los FMCG en línea. Además, la tasa de crecimiento de la subcategoría con una proporción alta (como los suplementos nutricionales dietéticos) es significativamente mayor que la de otras subcategorías de FMCG (como el maquillaje)."
+      },
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_2"
+      ],
+      "label": [
+        "A",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Cuál es la relación potencial entre la tendencia de cambio de las ventas de probióticos y la fluctuación del precio promedio del producto, y cómo se refleja esta relación en la categoría más amplia de alimentos dietéticos saludables?",
+      "answer": {
+        "A": "El aumento de las ventas de probióticos está completamente impulsado por la inflación y el aumento general de los precios, lo que es consistente con la ley general de que las categorías de alimentos dietéticos saludables se ven afectadas por la economía macro.",
+        "B": "La tasa de crecimiento de los \"suplementos nutricionales dietéticos\" en los alimentos dietéticos saludables (11.5%) es la misma que la tasa de crecimiento de las ventas de probióticos (un aumento del 15% desde MAT2206 hasta MAT2406), lo que demuestra que ambos están afectados por el mismo mecanismo de precios.",
+        "C": "El precio promedio ha disminuido y luego aumentado en el período intermedio, pero las ventas siguen aumentando. Esto puede deberse a la demanda estable del mercado por los productos de probióticos, lo que explica en parte la resistencia de la tasa de crecimiento general de los alimentos dietéticos saludables.",
+        "D": "Después de que el precio promedio de los probióticos disminuyó significativamente a 145 yuanes en MAT2306, las ventas se dispararon inmediatamente, lo que indica una alta elasticidad de la demanda. Por otro lado, la tasa de crecimiento general de los alimentos dietéticos saludables (10.1%) es menor que la de otras subcategorías debido a esta fluctuación.",
+        "E": "La tendencia continua de aumento de las ventas de probióticos, aunque el precio promedio haya disminuido y luego aumentado en el corto plazo, puede indicar una baja elasticidad de la demanda, lo que es consistente con el desempeño de las subcategorías de alto crecimiento en los alimentos dietéticos saludables (como los suplementos nutricionales dietéticos)."
+      },
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_4"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la tendencia de crecimiento del mercado de FMCG en línea y el comportamiento de respuesta a la salud de los consumidores, ¿cómo debe la empresa optimizar la asignación de recursos de la combinación de productos para maximizar la cuota de mercado y la satisfacción de los consumidores?",
+      "answer": {
+        "A": "Invertir en primer lugar en la subcategoría de alimentos suplementarios dietéticos, dado que tiene una cuota de mercado dominante y un crecimiento fuerte, y está relacionada con la preferencia de los consumidores por elegir probióticos para regularizar en caso de reacciones adversas. Mejorar la atractividad del producto mediante la integración de elementos de probióticos.",
+        "B": "Aumentar priorariamente la inversión de recursos en las categorías de productos para bebés y alimentos, ya que estas categorías tienen un buen desempeño de crecimiento en línea. Al mismo tiempo, teniendo en cuenta que los consumidores tienden a responder a problemas de salud mejorando la dieta o buscando consejo profesional, se pueden desarrollar contenidos educativos para fortalecer la confianza en el producto.",
+        "C": "Reducir moderadamente los recursos de la categoría de tónicos tradicionales, ya que su crecimiento es relativamente lento, y redirigir los fondos liberados hacia categorías de crecimiento más rápido. Al mismo tiempo, guiar a los consumidores a reducir el comportamiento de tomar medicamentos por cuenta propia y promover un modo de gestión de salud más seguro.",
+        "D": "Reducir la asignación de recursos de los alimentos suplementarios dietéticos, ya que aunque su tasa de crecimiento de ventas del 11,5% es alta, la proporción de consumidores que \"toman probióticos para regularizar\" es solo del 15,0%, lo que indica que la demanda de esta categoría es insuficiente. Se debe redirigir hacia la categoría de tónicos tradicionales (crecimiento del 5,9%) para estabilizar la cuota.",
+        "E": "Aumentar el presupuesto general de promoción de la marca para aumentar la influencia en el mercado y atraer a más consumidores.",
+        "F": "Invertir en la mejora de la eficiencia de la cadena de suministro para reducir costos y aumentar indirectamente la satisfacción de los consumidores.",
+        "G": "Invertir en primer lugar en los recursos de la categoría de maquillaje, ya que su tasa de crecimiento interanual del 5,8% es superior al 4,9% del total de las ventas minoristas en línea, y la proporción de consumidores que eligen \"mejorar la dieta\" para responder a reacciones adversas es del 17,4%, lo que es relativamente alta. Se pueden desarrollar productos de dieta para el cuidado de la belleza para capturar el mercado."
+      },
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_2",
+        "chart_151_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "En función de la estructura del mercado de alimentos dietéticos saludables y la tendencia de ventas de probióticos, ¿cómo debe la empresa ajustar las estrategias de fijación de precios y de innovación de productos para mejorar la competitividad y los beneficios?",
+      "answer": {
+        "A": "Reducir en general los precios de los productos para estimular el crecimiento de las ventas y aumentar la penetración en el mercado.",
+        "B": "Aplicar una estrategia de reducción significativa de precios para los productos de probióticos, ya que el precio medio de 145 yuanes en MAT2306 es inferior al de 150 yuanes en MAT2206, lo que indica que el mercado prefiere precios bajos. Además, la proporción de consumidores que \"toman probióticos para regularizar\" del 15,0% respalda el crecimiento de la demanda. Capturar la cuota de mercado mediante precios bajos.",
+        "C": "Aplicar una estrategia de fijación de precios orientada al valor en la línea de productos de probióticos, teniendo en cuenta su tendencia de aumento del precio medio y el crecimiento continuo de las ventas. Al mismo tiempo, combinando la tendencia de los consumidores a elegir probióticos para regularizar en caso de problemas de salud, justificar la prima de precio mediante la mejora de las funciones.",
+        "D": "Optimizar el modelo de fijación de precios de los alimentos suplementarios dietéticos, ya que tiene un crecimiento líder y una gran cuota de mercado. Además, controlar las fluctuaciones del precio medio de los probióticos para evitar conflictos de precios y garantizar la maximización de los beneficios de la categoría en general.",
+        "E": "Aumentar la inversión en investigación y desarrollo y centrarse en el desarrollo de nuevas líneas de productos para mantener la ventaja de innovación.",
+        "F": "Innovar en primer lugar en los productos de alta gama de la categoría de tónicos tradicionales, ya que su proporción es del 25,1% y su crecimiento es estable al 5,9%. Además, está relacionada con la proporción del 13,5% de consumidores que \"buscan consejo de familiares y amigos\". Se pueden desarrollar productos de tónico sociales para aumentar los beneficios.",
+        "G": "Desarrollar productos innovadores que combinen tónicos tradicionales y probióticos, aprovechando la base estable del mercado de los tónicos tradicionales y respondiendo a la preferencia de los consumidores por la mejora de la dieta para crear una ventaja diferenciada."
+      },
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_3",
+        "chart_151_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "De acuerdo con el comportamiento de respuesta a la salud de los consumidores y el crecimiento general de los FMCG en línea, ¿cómo debe la empresa diseñar la asignación de recursos de marketing y educación para reducir el riesgo de reacciones adversas y aumentar la lealtad a la marca?",
+      "answer": {
+        "A": "Aumentar la inversión en todos los canales de marketing digital para maximizar la exposición de la marca y el alcance de los usuarios.",
+        "B": "Aumentar los recursos de marketing de la categoría de maquillaje, ya que su crecimiento en línea del 5,8% es sólido y la proporción de consumidores que \"toman medicamentos por cuenta propia\" es del 20,3%, lo que es relativamente alta. Se pueden desarrollar productos de salud y belleza para guiar los hábitos de medicación y aumentar la lealtad.",
+        "C": "Fortalecer el proceso de gestión de la calidad del producto para reducir la incidencia de reacciones adversas desde la fuente.",
+        "D": "Aumentar los recursos de educación y promoción para el comportamiento de \"acudir inmediatamente a un hospital oficial\", ya que la proporción de consumidores que eligen este modo es baja pero es más seguro. Al mismo tiempo, combinando la tendencia de crecimiento de los FMCG en línea, alcanzar eficientemente a los usuarios a través de canales digitales para reducir el riesgo de tomar medicamentos por cuenta propia.",
+        "E": "Asignar más recursos a la promoción de productos de probióticos, ya que sus ventas crecen de manera estable y está relacionada con la preferencia de los consumidores por usar probióticos para regularizar. Mediante el contenido educativo, se enfatiza su función preventiva para aumentar la conciencia de gestión de salud de los usuarios.",
+        "F": "Educar priorariamente a los consumidores a \"no tomar medidas\" ante reacciones adversas, ya que su proporción es solo del 2,9%, la más baja, lo que indica que la mayoría de los usuarios ya responden activamente. Los recursos se pueden centrar en promover este comportamiento para reducir el riesgo.",
+        "G": "Optimizar la información de marketing de las categorías de maquillaje y alimentos, combinando su sólido crecimiento y guiando a los consumidores de \"no tomar medidas\" hacia modos de respuesta activos, como mejorar la dieta, para establecer confianza en la marca."
+      },
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_3",
+        "chart_151_4"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    }
+  ]
+}

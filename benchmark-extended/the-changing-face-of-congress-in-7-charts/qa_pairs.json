@@ -1,0 +1,208 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of Boomer - born in the U.S. House of Representatives in the 118th Congress?\n question2: What is the number of other - affiliated members in the 116th Congress (2019 - 21)?",
+                "rationale": "rationale1: The question directly asks for a specific data point from the chart about the proportion of a certain generation in the U.S. House of Representatives in a particular congress. We just need to extract the relevant data from the given chart.\n rationale2: The question is about the number of other - affiliated members in the 116th Congress, and the answer can be obtained from the chart.",
+                "answer": "45%; 11",
+                "involved_content_sources": [
+                    "chart_5-14",
+                    "chart_8-22"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of members with previous military - service in the 113th Congress (2013) of the House? Please answer with a percentage number.\n question2: How many Jewish members were in the 117th Congress (2021 - 23)?\n question3: What is the proportion of Millennial - born in the U.S. House of Representatives in the 116th Congress?",
+                "rationale": "rationale1: The question directly asks for the proportion of members with previous military - service in the 113th Congress (2013) of the House. We can directly find the relevant data from the given chart.\n rationale2: We need to extract the number of Jewish members in the 117th Congress from the chart.\n rationale3: The question is focused on getting a particular data value from the chart about the proportion of Millennial - born in the U.S. House of Representatives in the 116th Congress. We search for this data in the given chart.",
+                "answer": "27%; 34; 6%",
+                "involved_content_sources": [
+                    "chart_6-8",
+                    "chart_8-15",
+                    "chart_5-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the total number of senators in the 119th U.S. Congress? (Use the proportion and number of women senators to calculate)\n question2: How many members who don't know/refuse to answer were there in the 115th Congress (2017 - 19)?\n question3: What is the proportion of members with previous military - service in the 113th Congress (2013) of the House? Please answer with a percentage number.\n question4: How many Black non - White U.S. House and Senate members were there in the 118th Congress ('23)?",
+                "rationale": "rationale1: Given that the proportion of women in the Senate is 25% (25 of 99 senators), that is, 25 women senators account for 25% of the total number of senators. Using the formula total number = part number / proportion, we divide the number of women senators (25) by the proportion of women senators (25% or 0.25) to obtain the total number of senators.\n rationale2: We look for the number of members who don't know/refuse to answer in the 115th Congress in the chart.\n rationale3: The question directly asks for the proportion of members with previous military - service in the 113th Congress (2013) of the House. We can directly find the relevant data from the given chart.\n rationale4: The question directly asks for the number of Black non - White U.S. House and Senate members in the 118th Congress ('23), and we can find the corresponding data in the chart.",
+                "answer": "100; 10; 27%; 60",
+                "involved_content_sources": [
+                    "chart_3-3",
+                    "chart_8-29",
+                    "chart_6-8",
+                    "chart_2-45"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of members with previous military - service in the Senate from the 83rd, 93rd, 103rd, 113th, and 119th Congresses?\n question2: What is the total increase in the number of non - White U.S. House and Senate members from the 107th Congress to the 119th Congress, considering all non - White ethnic groups (Black, Hispanic, Asian American and Pacific Islander, Native American and Alaska Native)?",
+                "rationale": "rationale1: To find the average, we need to sum up the proportions of members with previous military - service in the Senate for the given congresses and then divide by the number of congresses. The relevant data is provided in the chart for each of these congresses.\n rationale2: To answer this question, we need to sum up the numbers of each non - White ethnic group in the 107th Congress and the 119th Congress respectively, and then find the difference between the two sums. This requires extracting data from multiple parts of the chart and performing addition and subtraction operations.",
+                "answer": "56.4; 104",
+                "involved_content_sources": [
+                    "chart_6-1",
+                    "chart_6-3",
+                    "chart_6-5",
+                    "chart_6-7",
+                    "chart_6-9",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-50",
+                    "chart_2-51",
+                    "chart_2-52",
+                    "chart_2-49"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of members with previous military - service in the Senate from the 83rd, 93rd, 103rd, 113th, and 119th Congresses?\n question2: What is the total increase in the number of non - White U.S. House and Senate members from the 107th Congress to the 119th Congress, considering all non - White ethnic groups (Black, Hispanic, Asian American and Pacific Islander, Native American and Alaska Native)?\n question3: What is the average proportion of Boomer - born in the U.S. House of Representatives from the 115th to the 119th Congress?",
+                "rationale": "rationale1: To find the average, we need to sum up the proportions of members with previous military - service in the Senate for the given congresses and then divide by the number of congresses. The relevant data is provided in the chart for each of these congresses.\n rationale2: To answer this question, we need to sum up the numbers of each non - White ethnic group in the 107th Congress and the 119th Congress respectively, and then find the difference between the two sums. This requires extracting data from multiple parts of the chart and performing addition and subtraction operations.\n rationale3: To answer this question, we need to find the proportion of Boomer - born in the U.S. House of Representatives for each of the 115th, 116th, 117th, 118th, and 119th Congress from the chart, then sum these values and divide by the number of Congresses (5).",
+                "answer": "56.4; 104; 52.6%",
+                "involved_content_sources": [
+                    "chart_6-1",
+                    "chart_6-3",
+                    "chart_6-5",
+                    "chart_6-7",
+                    "chart_6-9",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-50",
+                    "chart_2-51",
+                    "chart_2-52",
+                    "chart_2-49",
+                    "chart_5-2",
+                    "chart_5-6",
+                    "chart_5-10",
+                    "chart_5-14",
+                    "chart_5-18"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of members with previous military - service in the Senate from the 83rd, 93rd, 103rd, 113th, and 119th Congresses?\n question2: What is the total increase in the number of non - White U.S. House and Senate members from the 107th Congress to the 119th Congress, considering all non - White ethnic groups (Black, Hispanic, Asian American and Pacific Islander, Native American and Alaska Native)?\n question3: What is the average proportion of Boomer - born in the U.S. House of Representatives from the 115th to the 119th Congress?\n question4: What is the total number of openly LGBTQ members in the House and Senate combined during the 115th and 119th Congresses? ",
+                "rationale": "rationale1: To find the average, we need to sum up the proportions of members with previous military - service in the Senate for the given congresses and then divide by the number of congresses. The relevant data is provided in the chart for each of these congresses.\n rationale2: To answer this question, we need to sum up the numbers of each non - White ethnic group in the 107th Congress and the 119th Congress respectively, and then find the difference between the two sums. This requires extracting data from multiple parts of the chart and performing addition and subtraction operations.\n rationale3: To answer this question, we need to find the proportion of Boomer - born in the U.S. House of Representatives for each of the 115th, 116th, 117th, 118th, and 119th Congress from the chart, then sum these values and divide by the number of Congresses (5).\n rationale4: To answer this question, we need to extract the number of openly LGBTQ members in the House and Senate for the 115th and 119th Congresses from the chart and then sum them up. For the 115th Congress, the number of members in the House is 6 and in the Senate is 1. For the 119th Congress, the number of members in the House is 12 and in the Senate is 1. We add these four values together to get the total.",
+                "answer": "56.4; 104; 52.6%; 20",
+                "involved_content_sources": [
+                    "chart_6-1",
+                    "chart_6-3",
+                    "chart_6-5",
+                    "chart_6-7",
+                    "chart_6-9",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-50",
+                    "chart_2-51",
+                    "chart_2-52",
+                    "chart_2-49",
+                    "chart_5-2",
+                    "chart_5-6",
+                    "chart_5-10",
+                    "chart_5-14",
+                    "chart_5-18",
+                    "chart_4-9",
+                    "chart_4-10",
+                    "chart_4-11",
+                    "chart_4-12"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the number of Black non - White U.S. House and Senate members in the 119th Congress to the number of openly LGBTQ members in the House of the 119th Congress?",
+                "rationale": "The number of Black non - White U.S. House and Senate members in the 119th Congress is 66 (from chart_2-49). The number of openly LGBTQ members in the House of the 119th Congress is 12 (from chart_4-11). The ratio is 66\u00f712 = 5.5.",
+                "answer": "5.5",
+                "involved_content_sources": [
+                    "chart_2-49",
+                    "chart_4-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the increase in the number of Black non - White U.S. House and Senate members from the 118th to the 119th Congress to the sum of the number of openly LGBTQ members in the 119th Congress and the proportion of Gen X - born in the 119th U.S. House of Representatives? (Round the result to two decimal places.)",
+                "rationale": "The increase in the number of Black non - White U.S. House and Senate members from the 118th to the 119th Congress is 66 - 60 = 6 (from chart_2-49 and chart_2-45). The number of openly LGBTQ members in the 119th Congress is 12 + 1 = 13 (from chart_4-11 and chart_4-12). The proportion of Gen X - born in the 119th U.S. House of Representatives is 41% or 0.41 (from chart_5-19). The sum of the number of openly LGBTQ members in the 119th Congress and the proportion of Gen X - born in the 119th U.S. House of Representatives is 13 + 0.41 = 13.41. The ratio is 6 / 13.41 \u2248 0.45 (rounded to two decimal places).",
+                "answer": "0.45",
+                "involved_content_sources": [
+                    "chart_2-49",
+                    "chart_4-11",
+                    "chart_5-19"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the ratio of the number of openly LGBTQ members in the 119th Congress to the number of Black non - White members in the 119th Congress and the ratio of the proportion of women in the 119th House of Representatives to the proportion of Gen X - born members in the 119th House of Representatives, after adding the proportion of foreign - born members in the 119th Congress?",
+                "rationale": "The number of openly LGBTQ members in the 119th Congress is 12 + 1 = 13 (from chart_4-11 and chart_4-12). The number of Black non - White members in the 119th Congress is 66 (from chart_2-49). So the first ratio is 13 / 66 \u2248 0.197. The proportion of women in the 119th House of Representatives is 29% (from chart_3-1), and the proportion of Gen X - born members in the 119th House of Representatives is 41% (from chart_5-19). The second ratio is 29% / 41% \u2248 0.707. The difference between the two ratios is 0.707 - 0.197 = 0.51. The proportion of foreign - born members in the 119th Congress is 4% or 0.04. After adding this proportion, the result is 0.51 + 0.04 = 0.5503 or 55.03%.",
+                "answer": "55.03%",
+                "involved_content_sources": [
+                    "chart_2-49",
+                    "chart_3-1",
+                    "chart_4-11",
+                    "chart_5-19",
+                    "chart_7-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the number of Black and Hispanic non - White U.S. House and Senate members in the 119th Congress and the sum of the number of openly LGBTQ members in the House and Senate in the 119th Congress?",
+                "rationale": "In the 119th Congress, the number of Black non - White U.S. House and Senate members is 66 (chart_2-49), and the number of Hispanic non - White U.S. House and Senate members is 53 (chart_2-50). The sum of these two numbers is 66 + 53 = 119. In the 119th Congress, the number of openly LGBTQ members in the House is 12 (chart_4-11), and the number of openly LGBTQ members in the Senate is 1 (chart_4-12). The sum of these two numbers is 12 + 1 = 13. Then the difference between the two sums is 119 - 13 = 106.",
+                "answer": "106",
+                "involved_content_sources": [
+                    "chart_2-49",
+                    "chart_2-50",
+                    "chart_4-11",
+                    "chart_4-12"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of women in the 119th U.S. Congress (combining House and Senate), the proportion of openly LGBTQ members in the 119th Congress (combining House and Senate), and the proportion of Millennial - born members in the 119th U.S. House of Representatives, with weights being 0.4, 0.3, and 0.3 respectively?",
+                "rationale": "The proportion of women in the 119th U.S. Congress: In the House, there are 125 out of 434 members, and in the Senate, there are 25 out of 99 members. The total number of members is 434 + 99 = 533, and the total number of women is 125+25 = 150. So the proportion of women is 150/533 \u2248 28.14% (chart_3-1, chart_3-3). The proportion of openly LGBTQ members in the 119th Congress: In the House, there are 12, and in the Senate, there is 1. The total number of openly LGBTQ members is 12 + 1 = 13 out of 533, so the proportion is 13/533 \u2248 2.44% (chart_4-11, chart_4-12). The proportion of Millennial - born members in the 119th U.S. House of Representatives is 15% (chart_5-20, chart_5-21). The weighted average is (28.14%\u00d70.4 + 2.44%\u00d70.3 + 15%\u00d70.3) = (0.2814\u00d70.4+0.0244\u00d70.3 + 0.15\u00d70.3) = 0.11256+0.00732 + 0.045 = 0.16488 = 16.49%.",
+                "answer": "16.49%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-11",
+                    "chart_4-12",
+                    "chart_5-20",
+                    "chart_5-21"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the increase in the number of Black non - White U.S. House and Senate members from the 107th to the 119th Congress, the proportion of women in the 119th U.S. Congress (calculated based on total voting members), the increase in the number of openly LGBTQ members in the House from the 99th to the 119th Congress, and the decrease in the proportion of Boomer - born members in the U.S. House of Representatives from the 115th to the 119th Congress?",
+                "rationale": "1. First, calculate the increase in the number of Black non - White U.S. House and Senate members from the 107th to the 119th Congress: In the 107th Congress, the number of Black non - White members was 36 (chart_2-1), and in the 119th Congress, it was 66 (chart_2-49). The increase is 66 - 36 = 30.2. Then, calculate the proportion of women in the 119th U.S. Congress. The number of women in the House is 125 (chart_3-2) and in the Senate is 25 (chart_3-4). The total number of voting members is 434 + 99 = 533. The proportion of women is (125 + 25) / 533 \u2248 28.14%.3. Next, calculate the increase in the number of openly LGBTQ members in the House from the 99th to the 119th Congress. In the 99th Congress, the number was 1 (chart_4-1), and in the 119th Congress, it was 12 (chart_4-11). The increase is 12 - 1 = 11.4. Finally, calculate the decrease in the proportion of Boomer - born members in the U.S. House of Representatives from the 115th to the 119th Congress. In the 115th Congress, the proportion was 62% (chart_5-2), and in the 119th Congress, it was 39% (chart_5-18). The decrease is 62% - 39% = 23%.The average of these four values is (30 + 28.14 + 11 + 23) / 4 = 23.035 (rounded to two decimal places).",
+                "answer": "23.04%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-49",
+                    "chart_3-2",
+                    "chart_3-4",
+                    "chart_4-1",
+                    "chart_4-11",
+                    "chart_5-2",
+                    "chart_5-18"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

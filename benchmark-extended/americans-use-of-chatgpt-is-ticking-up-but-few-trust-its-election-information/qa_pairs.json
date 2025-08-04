@@ -1,0 +1,183 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the proportion of employed American adults aged 18 - 29 who used ChatGPT for work tasks in Mar '23?\n question2: What was the proportion of U.S. adults aged 50 - 64 who said they had ever used ChatGPT in July 2023? Please answer with a percentage.",
+                "rationale": "rationale1: The question asks for a specific data point about the proportion of a certain age - group using ChatGPT for work tasks at a particular time. The relevant data can be directly found in the chart.\n rationale2: The question is about the proportion of U.S. adults aged 50 - 64 who had ever used ChatGPT in July 2023, and we can get it from the chart.",
+                "answer": "12%; 13%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_1-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the proportion of U.S. adults aged 50 - 64 who said they had ever used ChatGPT in July 2023? Please answer with a percentage.\n question2: What was the proportion of employed American adults who have used ChatGPT for entertainment in February '24? (Answer in percentage)\n question3: What was the proportion of employed American adults aged 30 - 49 who used ChatGPT to learn something new in Jul '23?",
+                "rationale": "rationale1: The question is about the proportion of U.S. adults aged 50 - 64 who had ever used ChatGPT in July 2023, and we can get it from the chart.\n rationale2: The question requires getting the proportion of employed American adults using ChatGPT for entertainment in February '24 from the chart.\n rationale3: We need to find the proportion of a specific age - group using ChatGPT for learning at a given time, which is directly available in the chart.",
+                "answer": "13%; 17%; 22%",
+                "involved_content_sources": [
+                    "chart_1-7",
+                    "chart_2-9",
+                    "chart_3-14"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: When was the survey period of U.S. adults? Please answer in the format of 'Month Day - Day, Year'.\n question2: What was the proportion of employed American adults aged 18 - 29 who used ChatGPT for work tasks in Mar '23?\n question3: What was the proportion of employed American adults who have used ChatGPT for entertainment in February '24? (Answer in percentage)\n question4: Among Rep/Lean Rep, what is the proportion of those who have some trust in the information about the 2024 U.S. presidential - election that comes from ChatGPT?",
+                "rationale": "rationale1: The question asks for the survey period of U.S. adults, which is clearly stated in the chart.\n rationale2: The question asks for a specific data point about the proportion of a certain age - group using ChatGPT for work tasks at a particular time. The relevant data can be directly found in the chart.\n rationale3: The question requires getting the proportion of employed American adults using ChatGPT for entertainment in February '24 from the chart.\n rationale4: The question is about the proportion of Rep/Lean Rep with some trust in the election - related information from ChatGPT. The relevant data can be retrieved from the chart.",
+                "answer": "February 7 - 11, 2024; 12%; 17%; 9%",
+                "involved_content_sources": [
+                    "chart_1-11",
+                    "chart_3-1",
+                    "chart_2-9",
+                    "chart_4-7"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of employed American adults who have used ChatGPT for work tasks across March '23, July '23, and February '24?\n question2: What is the difference in the proportion of U.S. adults who have some trust in the 2024 U.S. presidential - election information from ChatGPT between Dem/Lean Dem and Rep/Lean Rep?",
+                "rationale": "rationale1: To find the average proportion, we need to sum up the proportions of employed American adults who used ChatGPT for work tasks in the three given time - points (March '23, July '23, and February '24) and then divide by the number of time - points (3).\n rationale2: We need to find the proportion of Rep/Lean Rep and Dem/Lean Dem who have some trust in the 2024 U.S. presidential - election information from ChatGPT respectively according to the chart, and then calculate their difference.",
+                "answer": "13.33%; 2%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_4-7",
+                    "chart_4-12"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of employed American adults who have used ChatGPT for work tasks across March '23, July '23, and February '24?\n question2: What is the difference in the proportion of U.S. adults who have some trust in the 2024 U.S. presidential - election information from ChatGPT between Dem/Lean Dem and Rep/Lean Rep?\n question3: What is the average proportion of employed American adults aged 18 - 29 who have used ChatGPT for work tasks from Mar '23 to Feb '24? Please provide the answer in percentage and round to one decimal place.",
+                "rationale": "rationale1: To find the average proportion, we need to sum up the proportions of employed American adults who used ChatGPT for work tasks in the three given time - points (March '23, July '23, and February '24) and then divide by the number of time - points (3).\n rationale2: We need to find the proportion of Rep/Lean Rep and Dem/Lean Dem who have some trust in the 2024 U.S. presidential - election information from ChatGPT respectively according to the chart, and then calculate their difference.\n rationale3: To find the average proportion, we need to add up the proportions of employed American adults aged 18 - 29 who have used ChatGPT for work tasks in Mar '23, Jul '23, and Feb '24, and then divide by the number of time - points (3).",
+                "answer": "13.33%; 2%; 21.3%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_4-7",
+                    "chart_4-12",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of employed American adults who have used ChatGPT for work tasks across March '23, July '23, and February '24?\n question2: What is the difference in the proportion of U.S. adults who have some trust in the 2024 U.S. presidential - election information from ChatGPT between Dem/Lean Dem and Rep/Lean Rep?\n question3: What is the average proportion of employed American adults aged 18 - 29 who have used ChatGPT for work tasks from Mar '23 to Feb '24? Please provide the answer in percentage and round to one decimal place.\n question4: What is the average increase in the proportion of U.S. adults who have ever used ChatGPT from July 2023 to February 2024 across different age - groups (18 - 29, 30 - 49, 50 - 64, 65+)?",
+                "rationale": "rationale1: To find the average proportion, we need to sum up the proportions of employed American adults who used ChatGPT for work tasks in the three given time - points (March '23, July '23, and February '24) and then divide by the number of time - points (3).\n rationale2: We need to find the proportion of Rep/Lean Rep and Dem/Lean Dem who have some trust in the 2024 U.S. presidential - election information from ChatGPT respectively according to the chart, and then calculate their difference.\n rationale3: To find the average proportion, we need to add up the proportions of employed American adults aged 18 - 29 who have used ChatGPT for work tasks in Mar '23, Jul '23, and Feb '24, and then divide by the number of time - points (3).\n rationale4: First, we need to calculate the increase in the proportion for each age - group by subtracting the July 2023 proportion from the February 2024 proportion. Then, we find the average of these increases. For the 18 - 29 age group, the increase is 43% - 33% = 10%. For the 30 - 49 age group, it is 27% - 21% = 6%. For the 50 - 64 age group, it is 17% - 13% = 4%. For the 65+ age group, it is 6% - 4% = 2%. Then we calculate the average of these increases: (10 + 6 + 4 + 2) / 4 = 5.5.",
+                "answer": "13.33%; 2%; 21.3%; 5.5%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_4-7",
+                    "chart_4-12",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_1-7",
+                    "chart_1-8",
+                    "chart_1-9",
+                    "chart_1-10"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the increase in the proportion of U.S. adults aged 18 - 29 who have used ChatGPT from July 2023 to February 2024 and the increase in the proportion of employed American adults aged 18 - 29 who have used ChatGPT for work tasks from March 2023 to February 2024?",
+                "rationale": "The increase in the proportion of U.S. adults aged 18 - 29 who have used ChatGPT from July 2023 to February 2024 is 43% - 33% = 10%. The increase in the proportion of employed American adults aged 18 - 29 who have used ChatGPT for work tasks from March 2023 to February 2024 is 31% - 12% = 19%. The difference is 19% - 10% = 9%.",
+                "answer": "9%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_3-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults aged 18 - 29 who have used ChatGPT in February 2024, the proportion of employed American adults who have used ChatGPT for work tasks in February 2024, and the proportion of U.S. adults who have a great deal/quite a bit of trust in the information about the 2024 U.S. presidential - election that comes from ChatGPT? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults aged 18 - 29 who have used ChatGPT in February 2024 is 43%. The proportion of employed American adults who have used ChatGPT for work tasks in February 2024 is 20%. The proportion of U.S. adults who have a great deal/quite a bit of trust in the information about the 2024 U.S. presidential - election that comes from ChatGPT is 2%. The average is (43% + 20% + 2%) / 3 = 21.67% (rounded to two decimal places).",
+                "answer": "21.67%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-3",
+                    "chart_4-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the increase in the proportion of 18 - 29 - year - old U.S. adults using ChatGPT from July 2023 to February 2024 to the difference between the proportion of employed American adults aged 18 - 29 using ChatGPT for work tasks in February 2024 and the proportion of employed American adults using ChatGPT for work tasks in March 2023, then multiplied by the ratio of the proportion of U.S. adults having a great deal/quite a bit of trust in 2024 U.S. presidential - election information from ChatGPT to the proportion of 65 + - year - old U.S. adults using ChatGPT in February 2024?",
+                "rationale": "First, calculate the increase in the proportion of 18 - 29 - year - old U.S. adults using ChatGPT from July 2023 to February 2024: 43% - 33% = 10%. Second, find the difference between the proportion of employed American adults aged 18 - 29 using ChatGPT for work tasks in February 2024 and the proportion of employed American adults using ChatGPT for work tasks in March 2023: 31% - 8% = 23%. The ratio of the first value to the second is 10% / 23%. Third, the proportion of U.S. adults having a great deal/quite a bit of trust in 2024 U.S. presidential - election information from ChatGPT is 2%, and the proportion of 65 + - year - old U.S. adults using ChatGPT in February 2024 is 6%. The ratio of these two is 2% / 6%. Then multiply the two ratios: (10% / 23%)\u00d7(2% / 6%)=(10\u00d72)/(23\u00d76)=20 / 138\u224814.5%.",
+                "answer": "14.5%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_4-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of employed American adults aged 18 - 29 who used ChatGPT for work tasks in March '23 and February '24, and the product of the proportion of U.S. adults who have a great deal/quite a bit of trust in ChatGPT's 2024 election - related information and the proportion of U.S. adults who have some trust in it?",
+                "rationale": "Among employed American adults aged 18 - 29, the proportion who used ChatGPT for work tasks in March '23 is 12% (chart_3-1), and in February '24 is 31% (chart_3-3). The sum of these two proportions is 12% + 31% = 43%. Among U.S. adults, the proportion who have a great deal/quite a bit of trust in the information about the 2024 U.S. presidential - election that comes from ChatGPT is 2% (chart_4-1), and the proportion who have some trust is 10% (chart_4-2). The product of these two proportions is 2%\u00d710% = 0.2%. Then the difference between the two is 43% - 0.2% = 42.8%.",
+                "answer": "42.8%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the increase in the proportion of 18 - 29 - year - old U.S. adults using ChatGPT from July 2023 to February 2024, the increase in the proportion of employed American adults using ChatGPT for work tasks from March 2023 to February 2024, and the proportion of U.S. adults who have not too much/none at all trust in the 2024 U.S. presidential - election information from ChatGPT, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of 18 - 29 - year - old U.S. adults using ChatGPT in July 2023 is 33% (chart_1-1), and in February 2024 is 43% (chart_1-2), so the increase is 43% - 33% = 10%. The proportion of employed American adults using ChatGPT for work tasks in March 2023 is 8% (chart_2-1), and in February 2024 is 20% (chart_2-3), so the increase is 20% - 8% = 12%. The proportion of U.S. adults who have not too much/none at all trust in the 2024 U.S. presidential - election information from ChatGPT is 38% (chart_4-3). The weighted average is (10%\u00d70.2 + 12%\u00d70.3 + 38%\u00d70.5) = (0.1\u00d70.2 + 0.12\u00d70.3 + 0.38\u00d70.5) = 0.02 + 0.036 + 0.19 = 0.246 = 24.6%.",
+                "answer": "24.6%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_4-3",
+                    "chart_4-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the increase in the proportion of all U.S. adults using ChatGPT from July 2023 to February 2024, the increase in the proportion of employed American adults using ChatGPT for work tasks from March 2023 to February 2024, the increase in the proportion of employed American adults aged 18 - 29 using ChatGPT for learning from March 2023 to February 2024, and the proportion of U.S. adults who have a great deal/quite a bit of trust in the 2024 U.S. presidential - election information from ChatGPT?",
+                "rationale": "Among all U.S. adults, the proportion using ChatGPT in July 2023 was 18% (chart_1-5) and in February 2024 was 23% (chart_1-6), so the increase is 23% - 18% = 5%. Among employed American adults, the proportion using ChatGPT for work tasks in March 2023 was 8% (chart_2-1) and in February 2024 was 20% (chart_2-3), so the increase is 20% - 8% = 12%. Among employed American adults aged 18 - 29, the proportion using ChatGPT for learning in March 2023 was 16% (chart_3-10) and in February 2024 was 31% (chart_3-12), so the increase is 31% - 16% = 15%. The proportion of U.S. adults who have a great deal/quite a bit of trust in the 2024 U.S. presidential - election information from ChatGPT is 2% (chart_4-1). The average of these four values is (5% + 12% + 15% + 2%) / 4 = 8.5%.",
+                "answer": "8.5%",
+                "involved_content_sources": [
+                    "chart_1-5",
+                    "chart_1-6",
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-10",
+                    "chart_3-12",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

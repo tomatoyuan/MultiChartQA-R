@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_75_1",
+    "chart_75_2",
+    "chart_75_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿Tienen la misma tendencia de cambio la tasa de crecimiento de la producción en 'Producción de granos de café verde de la provincia de Yunnan en China de 2017 a 2021' y la tasa de crecimiento del consumo en 'Consumo de granos de café verde e importación de productos de café en China de 2017 a 2021'? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "La forma de la línea de tendencia es la misma y, en general, muestra una tendencia de crecimiento.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Es el año con el mayor consumo de granos de café verde en 'Consumo de granos de café verde e importación de productos de café en China de 2017 a 2021' también el año con la mayor producción de granos de café verde en la provincia de Yunnan en 'Producción de granos de café verde de la provincia de Yunnan en China de 2017 a 2021'? Responda sí o no.",
+      "answer": "No",
+      "explanation": "En chart_75_3, el año con el mayor consumo de granos de café verde es 2021, mientras que en chart_75_2, el año con la mayor producción de granos de café verde en la provincia de Yunnan es 2017.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Tienen el mismo estilo de coloración 'Consumo global de granos verdes de café en los principales países en 2020' y 'Consumo de granos de café verde e importación de productos de café en China de 2017 a 2021'? Responda sí o no.",
+      "answer": "No",
+      "explanation": "El chart_75_1 tiene una combinación de colores amarillo y púrpura, mientras que el chart_75_3 tiene una combinación de colores azul y verde.",
+      "charts_involved": [
+        "chart_75_1",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la proporción de la producción de granos de café verde de la provincia de Yunnan en el consumo nacional de granos de café verde en 2021? Redondea a 2 decimales. Respuesta: xx.xx%",
+      "answer": "63.93%",
+      "explanation": "La producción de la provincia de Yunnan en 2021 es de 140,000 toneladas ÷ el consumo nacional en 2021 es de 219,000 toneladas = 63.93%.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la proporción de la producción de granos de café verde de la provincia de Yunnan en el consumo neto nacional (consumo menos importaciones) en 2021? Redondea a 2 decimales. Respuesta: xx.xx%",
+      "answer": "77.78%",
+      "explanation": "El consumo neto nacional en 2021 = 219,000 toneladas - 39,000 toneladas = 180,000 toneladas; 140,000 toneladas ÷ 180,000 toneladas × 100 = 77.78%.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es la tasa de crecimiento del consumo de granos de café verde a nivel nacional en 2021 respecto a la tasa de crecimiento de la producción de Yunnan? Redondea a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "13.71 veces",
+      "explanation": "La tasa de crecimiento del consumo en 2021 es del 52.1% ÷ la tasa de crecimiento de la producción en Yunnan en 2021 es del 3.8% = 13.7105, redondeado a 2 decimales es 13.71 veces.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según las tendencias del consumo de granos de café verde en China y la producción de granos de café verde en la provincia de Yunnan, ¿qué factores podrían contribuir conjuntamente al aumento del consumo de café en China?",
+      "answer": {
+        "A": "El notable aumento de la tasa de crecimiento del consumo de café en China está asociado con la tendencia estable del crecimiento de las importaciones, y la reducción de la producción nacional fortalece esta relación de dependencia.",
+        "B": "La producción de café en la provincia de Yunnan aumentó un 3,8% en 2021, alcanzando 140.000 toneladas, lo que coincide con la tasa de crecimiento del 52,1% del consumo, lo que indica que la producción nacional es el principal motor.",
+        "C": "El consumo de productos de café importados aumentó significativamente a más de 50.000 toneladas en 2021, lo que compensó la insuficiencia de la producción nacional y respaldó el crecimiento del consumo.",
+        "D": "El alto consumo en los países exportadores de café a nivel mundial indica que la oferta en el mercado internacional es abundante, lo que proporciona una base para las importaciones de China y, por lo tanto, impulsa el crecimiento del consumo.",
+        "E": "El crecimiento continuo de la cantidad de importaciones de productos de café compensó la tendencia a la baja de la producción en la provincia de Yunnan y respaldó la expansión del consumo.",
+        "F": "La popularización de los hábitos de consumo de café entre los jóvenes en China y la influencia cultural impulsaron directamente el aumento del consumo, independientemente de la producción.",
+        "G": "La continua caída de los precios del café a nivel mundial redujo el costo de importación y, por lo tanto, estimuló la demanda interna de consumo."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3",
+        "chart_75_1"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "La producción de granos de café verde en la provincia de Yunnan de China disminuyó en general entre 2017 y 2021, pero el consumo nacional de granos de café verde aumentó durante el mismo período. Esto parece contradictorio. ¿Qué opciones explican mejor este fenómeno?",
+      "answer": {
+        "A": "En 2018, la producción de la provincia de Yunnan de 151.000 toneladas fue superior al consumo nacional de 99.000 toneladas, lo que indica que la producción era suficiente y no hay contradicción; el aumento posterior del consumo es una fluctuación normal.",
+        "B": "El consumo de productos de café importados aumentó constantemente de 33.000 toneladas en 2017 a 45.000 toneladas en 2021, y la tasa de crecimiento se aceleró año tras año, lo que llenó directamente la brecha de producción.",
+        "C": "Los cambios en la tasa de crecimiento de las importaciones están relacionados con las fluctuaciones de la tasa de crecimiento del consumo, mientras que la tendencia de la producción en la provincia de Yunnan es independiente, lo que destaca el papel clave de las importaciones.",
+        "D": "La liberación del exceso de inventario de café nacional compensó la disminución de la producción y aumentó el consumo.",
+        "E": "El rápido crecimiento del consumo impulsó la demanda de importaciones, en lugar de depender de la producción nacional, lo que contrasta con el alto consumo en los países exportadores a nivel mundial.",
+        "F": "La preferencia de los consumidores se ha dirigido hacia bebidas saludables, como el té, pero el consumo de café aumentó inesperadamente, lo que se atribuye a las actividades de marketing.",
+        "G": "El aumento de la cantidad de importaciones de productos de café compensó directamente la brecha de la producción nacional y satisfizo la creciente demanda de consumo."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3",
+        "chart_75_1"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Al analizar los datos del consumo de granos de café verde en China y los de los principales países consumidores de café a nivel mundial, ¿qué conexiones implícitas se pueden inferir sobre las características únicas del mercado chino?",
+      "answer": {
+        "A": "El alto consumo en países exportadores a nivel mundial, como Brasil (22.400 miles de sacos), indica un modelo de autosuficiencia, y China también debería priorizar el desarrollo de la producción nacional.",
+        "B": "La tasa de crecimiento del consumo de café en China alcanzó el 52,1% en 2021, mientras que la tasa de crecimiento en los principales países consumidores a nivel mundial, como Estados Unidos, es estable, pero el consumo total de China se acerca ya al nivel de Estados Unidos.",
+        "C": "La desaceleración de la tasa de crecimiento del consumo de productos de café importados está relacionada con las fluctuaciones de la tasa de crecimiento del consumo interno, y los datos de los países consumidores a nivel mundial proporcionan una referencia de base.",
+        "D": "El consumo en China ha crecido rápidamente en los últimos años, mientras que el consumo en los principales países consumidores a nivel mundial es relativamente estable, lo que indica que China es un mercado emergente en crecimiento.",
+        "E": "En 2020, el consumo en China de 144.000 toneladas (aproximadamente 2.400 miles de sacos) fue similar al consumo en Rusia de 4.681 miles de sacos, lo que muestra que China se acerca ya al nivel de un país de consumo medio.",
+        "F": "Como país con una gran población, el consumo de café en China ya supera al de países desarrollados como Japón y Canadá, lo que refleja el potencial del mercado.",
+        "G": "La disminución de la producción en la provincia de Yunnan, mientras que el consumo en China aumenta, contrasta con el alto consumo en los países exportadores a nivel mundial, lo que sugiere que China depende más de las importaciones que de la autosuficiencia."
+      },
+      "charts_involved": [
+        "chart_75_3",
+        "chart_75_1",
+        "chart_75_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Dado el rápido crecimiento del consumo de granos de café verde en China y la tendencia de fluctuación de la producción nacional, ¿cómo deben ajustar las estrategias de asignación de recursos los responsables de la industria del café para satisfacer eficientemente la demanda del mercado y reducir el riesgo de suministro?",
+      "answer": {
+        "A": "Establecer un mecanismo de gestión de inventarios dinámicos, aumentar la importación como buffer durante los períodos de mayor crecimiento del consumo y reducir la dependencia de las importaciones durante los períodos de crecimiento de la producción nacional. Esto puede hacer frente eficazmente a la desajuste entre la fluctuación del consumo y el ciclo de producción, evitar el exceso o la escasez de suministro y optimizar el costo de la cadena de suministro general.",
+        "B": "Invertir en la certificación orgánica de los granos de café y el empaque sostenible para atraer a los consumidores preocupados por el medio ambiente y aumentar el precio adicional del producto.",
+        "C": "Expandir la red de tiendas minoristas de café y fortalecer la promoción de la marca para estimular la demanda de consumo y aumentar la penetración en el mercado.",
+        "D": "Reducir el inventario durante los períodos de mayor crecimiento del consumo, ya que el crecimiento del consumo entre 2020 y 2021 fue estable (de 11.6% a 52.1%) y se predice un bajo riesgo de fluctuación en el futuro.",
+        "E": "Reducir priorariamente la escala de importación, ya que la tasa de crecimiento de la producción nacional en 2021 se recuperó hasta el 3.8%, lo que indica que la capacidad de autosuficiencia está aumentando y puede cubrir por completo el crecimiento del consumo.",
+        "F": "Incrementar la inversión en la actualización tecnológica y el cultivo sostenible de las principales regiones productoras de café nacionales, y dar prioridad al apoyo a las regiones donde la producción muestra signos de recuperación. Dado que el consumo nacional sigue creciendo, pero la producción ha disminuido durante mucho tiempo y recientemente muestra señales de recuperación, al mejorar la eficiencia de rendimiento por unidad y la capacidad de resistencia a riesgos, se puede aumentar gradualmente la tasa de autosuficiencia y reducir la dependencia exterior.",
+        "G": "Ampliar la escala de importación de granos de café verde y mantener la inversión en las principales regiones productoras nacionales. Debido a que la producción nacional ha presentado una tendencia a la baja y grandes fluctuaciones en los últimos años, mientras que la demanda de consumo crece rápidamente, especialmente en los períodos pico, que puede exceder la capacidad de suministro nacional; aunque la cantidad de productos importados es estable, no es suficiente para cubrir la brecha de demanda. Este enfoque puede equilibrar la brecha a corto plazo y aprovechar la red de suministro global."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Dado el dominio de los mercados tradicionales y el rápido surgimiento de los mercados emergentes en el patrón de consumo global de granos de café verde, ¿cómo deben optimizar la asignación de recursos de exportación los países exportadores de café para capturar oportunidades de crecimiento y mejorar su competitividad?",
+      "answer": {
+        "A": "Fortalecer la cooperación con las empresas de logística internacional y optimizar las rutas de transporte para reducir los costos de distribución global.",
+        "B": "Promover la transformación digital de los granos de café, como el uso de la tecnología blockchain para el seguimiento y la trazabilidad, para aumentar la confianza de los consumidores.",
+        "C": "Aumentar la prioridad de exportación a los mercados emergentes de alto crecimiento, como la región asiática. Debido a que aunque el consumo de los países importadores tradicionales es grande, su potencial de crecimiento puede estar saturado, mientras que el crecimiento del consumo de algunos mercados emergentes es extremadamente alto y la base se expande rápidamente. Esto puede ayudar a los países exportadores a capturar nuevas cuotas y dispersar el riesgo de dependencia de los mercados tradicionales.",
+        "D": "Centrar las exportaciones en China, ya que su tasa de crecimiento del consumo en 2021 fue de hasta el 52.1%, mucho más alta que la de los mercados tradicionales y con el mayor potencial.",
+        "E": "Mantener un suministro estable a los mercados tradicionales de alto consumo y explorar estrategias que combinen la demanda de consumo local de los países exportadores. El consumo interno de algunos países exportadores es considerable. Al equilibrar las exportaciones y la demanda interna, se puede mejorar la resistencia de la cadena de valor y evitar la dependencia excesiva de las fluctuaciones externas.",
+        "F": "Optimizar la eficiencia de producción y logística para reducir los costos de exportación, especialmente en los mercados regionales con distancias de transporte más cortas. En un entorno de rápido crecimiento del consumo pero con una creciente competencia, la ventaja en costos puede aumentar la penetración en los mercados emergentes sensibles al precio.",
+        "G": "Ignorar los mercados emergentes y dar prioridad a garantizar un suministro estable a la Unión Europea y Estados Unidos, ya que su consumo (40251 miles de sacos y 26982 miles de sacos) es dominante y el riesgo de crecimiento es bajo."
+      },
+      "charts_involved": [
+        "chart_75_1",
+        "chart_75_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Dada la tendencia de la disminución de la producción de granos de café verde en la provincia de Yunnan de China en los últimos años y el aumento repentino de la demanda de consumo nacional, ¿qué estrategias debe formular el gobierno local para mejorar la competitividad de la industria local y apoyar el desarrollo sostenible?",
+      "answer": {
+        "A": "Promover la conexión directa entre las regiones productoras y los mercados de consumo para reducir los costos de los eslabones intermedios. Dado que el consumo nacional está creciendo rápidamente mientras que la producción local está fluctuando y disminuyendo, al acortar la cadena de suministro, se puede aumentar la cuota de mercado del café de Yunnan y los ingresos de los agricultores, y al mismo tiempo, utilizar el crecimiento del consumo para impulsar la recuperación de la producción local.",
+        "B": "Ampliar las exportaciones durante los períodos de mayor crecimiento del consumo (por ejemplo, el 52.1% en 2021), ya que la producción nacional tiene grandes fluctuaciones y la demanda del mercado internacional es más estable.",
+        "C": "Reducir la inversión en la producción local, ya que la tasa de crecimiento de la producción en 2021 se recuperó hasta el 3.8% y la cantidad de importaciones nacionales es estable (39000 toneladas en 2021), lo cual es suficiente para amortiguar las fluctuaciones de la demanda.",
+        "D": "Garantizar priorariamente el suministro local durante los períodos de mayor crecimiento del consumo y promover las exportaciones o el procesamiento profundo durante los períodos de desaceleración del crecimiento. Esto puede maximizar la eficiencia de utilización de los recursos locales, evitar el desperdicio durante los períodos de fluctuación de la producción y responder a los cambios en la demanda nacional.",
+        "E": "Invertir en tecnologías agrícolas adaptadas al clima y la mejora de variedades, centrándose en hacer frente al riesgo de fluctuación de la producción. Dado que la tasa de crecimiento de la producción ha sido negativa en los últimos años, pero recientemente muestra señales de recuperación, la actualización tecnológica puede estabilizar la producción, apoyar el crecimiento a largo plazo y hacer coincidir con la tendencia de expansión del consumo.",
+        "F": "Ofrecer subsidios directos y préstamos con intereses bajos a los productores de café para estabilizar los ingresos de los agricultores y alentar su iniciativa productiva.",
+        "G": "Desarrollar proyectos turísticos rurales temáticos sobre el café e integrar la cultura local para aumentar el valor agregado de la industria."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

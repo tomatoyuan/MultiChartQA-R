@@ -1,0 +1,186 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the average number of people per American household in 2010? Please provide the answer as a number.\n question2: What was the non - seasonally adjusted U.S. unemployment rate in 2019?",
+                "rationale": "rationale1: The question directly asks for the average number of people per American household in 2010, and the relevant information is given in chart 5, content 3.\n rationale2: The question directly asks for the non - seasonally adjusted U.S. unemployment rate in 2019, and the corresponding information is in the third content of chart 4.",
+                "answer": "2.58; 3.5%",
+                "involved_content_sources": [
+                    "chart_5-3",
+                    "chart_4-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the proportion of U.S. adults who said they attend religious services a few times a year or less in 2009 - July 2019 according to aggregated Pew Research Center political surveys?\n question2: What was the proportion of U.S. adults who said they owned or used a desktop/laptop computer in 2019?\n question3: What was the non - seasonally adjusted U.S. unemployment rate in 2007?",
+                "rationale": "rationale1: This question is seeking the proportion of a certain group of U.S. adults during a specific time - period. The relevant data can be obtained directly from the chart.\n rationale2: The question asks for the proportion of U.S. adults using a desktop/laptop computer in 2019, and the chart has the relevant value.\n rationale3: The question directly asks for the non - seasonally adjusted U.S. unemployment rate in 2007, and the relevant information is provided in the first content of chart 4.",
+                "answer": "47%; 74%; 4.4%",
+                "involved_content_sources": [
+                    "chart_7-4",
+                    "chart_1-9",
+                    "chart_4-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: Among U.S. adults who use WhatsApp, what proportion get news on it? Please provide the answer as a percentage.\n question2: What was the peak non - seasonally adjusted U.S. unemployment rate from 2009 - 2011?\n question3: What was the average number of people per American household in 2010? Please provide the answer as a number.\n question4: When was the survey conducted in 2019?",
+                "rationale": "rationale1: The question is about the proportion of news - getters among WhatsApp - using U.S. adults, and the data is in the chart.\n rationale2: The question is about the peak non - seasonally adjusted U.S. unemployment rate during 2009 - 2011, and the answer can be found in the second content of chart 4.\n rationale3: The question directly asks for the average number of people per American household in 2010, and the relevant information is given in chart 5, content 3.\n rationale4: The question is about the time period of the survey in 2019, and the chart gives the specific answer.",
+                "answer": "4%; 9.5%; 2.58; Jan. 8 - Feb. 7, 2019",
+                "involved_content_sources": [
+                    "chart_2-16",
+                    "chart_4-2",
+                    "chart_5-3",
+                    "chart_1-14"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of U.S. adults who thought the use of marijuana should be legal from 1969 to 2019 at 10 - year intervals? (Round to one decimal place.)\n question2: What is the increase in the proportion of U.S. adults who owned or used the Internet from 1994 to 2019? ",
+                "rationale": "rationale1: We need to find the proportion of adults who thought marijuana use should be legal in 1969, 1979, 1989, 1999, 2009, and 2019 from the chart. Then sum these proportions and divide by the number of data points (6) to get the average. The relevant data is presented in multiple parts of the chart.\n rationale2: The question asks for the increase in the proportion of U.S. adults using the Internet between 1994 and 2019. To find this, we need to subtract the proportion in 1994 from the proportion in 2019, which requires the data from these two time - points provided in the chart.",
+                "answer": "29.0; 84%",
+                "involved_content_sources": [
+                    "chart_8-2",
+                    "chart_8-4",
+                    "chart_8-6",
+                    "chart_8-8",
+                    "chart_8-10",
+                    "chart_8-12",
+                    "chart_1-1",
+                    "chart_1-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of U.S. adults who thought the use of marijuana should be legal from 1969 to 2019 at 10 - year intervals? (Round to one decimal place.)\n question2: What is the increase in the proportion of U.S. adults who owned or used the Internet from 1994 to 2019? \n question3: What is the difference between the peak non - seasonally adjusted U.S. unemployment rate from 2009 - 2011 and the non - seasonally adjusted U.S. unemployment rate in 2019?",
+                "rationale": "rationale1: We need to find the proportion of adults who thought marijuana use should be legal in 1969, 1979, 1989, 1999, 2009, and 2019 from the chart. Then sum these proportions and divide by the number of data points (6) to get the average. The relevant data is presented in multiple parts of the chart.\n rationale2: The question asks for the increase in the proportion of U.S. adults using the Internet between 1994 and 2019. To find this, we need to subtract the proportion in 1994 from the proportion in 2019, which requires the data from these two time - points provided in the chart.\n rationale3: To answer this question, we need to subtract the non - seasonally adjusted U.S. unemployment rate in 2019 from the peak non - seasonally adjusted U.S. unemployment rate from 2009 - 2011. The data for these values are provided in the chart.",
+                "answer": "29.0; 84%; 6",
+                "involved_content_sources": [
+                    "chart_8-2",
+                    "chart_8-4",
+                    "chart_8-6",
+                    "chart_8-8",
+                    "chart_8-10",
+                    "chart_8-12",
+                    "chart_1-1",
+                    "chart_1-7",
+                    "chart_4-2",
+                    "chart_4-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of U.S. adults who thought the use of marijuana should be legal from 1969 to 2019 at 10 - year intervals? (Round to one decimal place.)\n question2: What is the increase in the proportion of U.S. adults who owned or used the Internet from 1994 to 2019? \n question3: What is the difference between the peak non - seasonally adjusted U.S. unemployment rate from 2009 - 2011 and the non - seasonally adjusted U.S. unemployment rate in 2019?\n question4: What is the sum of the proportions of Asian, Black, and Hispanic students in K - 12 public schools in the projected 2019 data?",
+                "rationale": "rationale1: We need to find the proportion of adults who thought marijuana use should be legal in 1969, 1979, 1989, 1999, 2009, and 2019 from the chart. Then sum these proportions and divide by the number of data points (6) to get the average. The relevant data is presented in multiple parts of the chart.\n rationale2: The question asks for the increase in the proportion of U.S. adults using the Internet between 1994 and 2019. To find this, we need to subtract the proportion in 1994 from the proportion in 2019, which requires the data from these two time - points provided in the chart.\n rationale3: To answer this question, we need to subtract the non - seasonally adjusted U.S. unemployment rate in 2019 from the peak non - seasonally adjusted U.S. unemployment rate from 2009 - 2011. The data for these values are provided in the chart.\n rationale4: To find the sum, we need to take the proportions of Asian, Black, and Hispanic students from the chart and add them together. The chart provides the individual proportions of these ethnic groups, and by performing addition, we can get the required sum.",
+                "answer": "29.0; 84%; 6; 49",
+                "involved_content_sources": [
+                    "chart_8-2",
+                    "chart_8-4",
+                    "chart_8-6",
+                    "chart_8-8",
+                    "chart_8-10",
+                    "chart_8-12",
+                    "chart_1-1",
+                    "chart_1-7",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_6-1",
+                    "chart_6-2",
+                    "chart_6-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who owned or used a smartphone in 2019 and the proportion of U.S. adults who favor allowing gays and lesbians to marry legally in 2019?",
+                "rationale": "The proportion of U.S. adults who owned or used a smartphone in 2019 is 81% (from Chart 1). The proportion of U.S. adults who favor allowing gays and lesbians to marry legally in 2019 is 61% (from Chart 9). The difference is 81% - 61% = 20%.",
+                "answer": "20%",
+                "involved_content_sources": [
+                    "chart_1-8",
+                    "chart_9-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of multiplying the proportion of U.S. adults who owned or used social - media in 2019, the proportion of U.S. adults who use Twitter and get news on it, and the proportion of U.S. adults who thought the use of marijuana should be legal in 2019, and then rounding to two decimal places?",
+                "rationale": "The proportion of U.S. adults who owned or used social - media in 2019 is 72% (from chart 1). The proportion of U.S. adults who use Twitter and get news on it is 17% (from chart 2). The proportion of U.S. adults who thought the use of marijuana should be legal in 2019 is 67% (from chart 8). The result of the multiplication is 0.72\u00d70.17\u00d70.67 = 0.081828, which rounds to 0.08 when rounded to two decimal places.",
+                "answer": "0.08",
+                "involved_content_sources": [
+                    "chart_1-10",
+                    "chart_2-6",
+                    "chart_8-12"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the result of subtracting the proportion of U.S. adults who think the use of marijuana should be illegal in 2019 from the sum of the proportion of U.S. adults who use social - media in 2019, the proportion of U.S. adults who use Facebook and get news on it, and the proportion of non - white students in K - 12 public schools in 2019, then dividing by the difference between the average number of people per American household in 2018 and 2010?",
+                "rationale": "The proportion of U.S. adults who use social - media in 2019 is 72% (chart_1-10). The proportion of U.S. adults who use Facebook and get news on it is 71%\u00d752% = 36.92% (chart_2-1 and chart_2-2). The proportion of non - white students in K - 12 public schools in 2019 is 100% - 47% = 53% (chart_6-4). The sum of these three proportions is 72%+36.92%+53% = 161.92%. The proportion of U.S. adults who think the use of marijuana should be illegal in 2019 is 32% (chart_8-11). So the difference is 161.92% - 32% = 129.92%. The average number of people per American household in 2018 is 2.63 (chart_5-4), and in 2010 is 2.58 (chart_5-3). The difference is 2.63 - 2.58 = 0.05. Then the final result is 129.92%\u00f70.05 = 2598.4%.",
+                "answer": "2598.4%",
+                "involved_content_sources": [
+                    "chart_1-10",
+                    "chart_2-2",
+                    "chart_5-4",
+                    "chart_6-4",
+                    "chart_8-11"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of U.S. adults who owned or used a smartphone in 2010 and 2019 and the proportion of U.S. adults who use Twitter and get news on it in 2019?",
+                "rationale": "The proportion of U.S. adults who owned or used a smartphone in 2010 was 35% (chart_1-5), and in 2019 it was 81% (chart_1-8). The average of these two proportions is (35% + 81%) / 2 = 58%. The proportion of U.S. adults who use Twitter is 23% (chart_2-5), and among those who use Twitter, the proportion who get news on it is 17%. So the proportion of U.S. adults who use Twitter and get news on it is 23% * 17% = 3.91%. Then the difference between the two is 58% - 3.91% = 54.09%.",
+                "answer": "54.09%",
+                "involved_content_sources": [
+                    "chart_1-5",
+                    "chart_1-8",
+                    "chart_2-5",
+                    "chart_2-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the change in the proportion of U.S. adults who own or use the Internet from 1994 to 2019, the change in the size of the Boomers in the U.S. labor - force from 1994 to 2018, and the change in the proportion of U.S. adults who think the use of marijuana should be legal from 1969 to 2019?",
+                "rationale": "The proportion of U.S. adults who owned or used the Internet in 1994 was 6% (chart_1-1), and in 2019 it was 90% (chart_1-7), so the change is 90% - 6% = 84%. The size of the Boomers in the U.S. labor - force in 1994 was 66 million (chart_3-1), and in 2018 it was 38 million (chart_3-30), so the change is 38 - 66 = - 28 million. The proportion of U.S. adults who thought the use of marijuana should be legal in 1969 was 12% (chart_8-2), and in 2019 it was 67% (chart_8-12), so the change is 67% - 12% = 55%. The average of these three changes is (84 + (-28)+55)/3 = 111/3 = 37.",
+                "answer": "37",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-7",
+                    "chart_3-1",
+                    "chart_3-30",
+                    "chart_8-2",
+                    "chart_8-12"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the change in the proportion of U.S. adults using the Internet from 1994 to 2019, the change in the size of the Boomers in the U.S. labor - force from 1994 to 2018, the change in the non - seasonally adjusted U.S. unemployment rate from 2007 to 2019, and the change in the average number of people per American household from 2010 to 2018?",
+                "rationale": "The proportion of U.S. adults using the Internet was 6% in 1994 (chart_1-1) and 90% in 2019 (chart_1-7), so the change is 90% - 6% = 84%. The size of the Boomers in the U.S. labor - force was 66 million in 1994 (chart_3-1) and 38 million in 2018 (chart_3-30), so the change is 38 - 66 = - 28 million. The non - seasonally adjusted U.S. unemployment rate was 4.4% in 2007 (chart_4-1) and 3.5% in 2019 (chart_4-3), so the change is 3.5% - 4.4% = - 0.9%. The average number of people per American household was 2.58 in 2010 (chart_5-3) and 2.63 in 2018 (chart_5-4), so the change is 2.63 - 2.58 = 0.05. The average of these four changes is (84 - 28 - 0.9 + 0.05) / 4 = 13.7875. ",
+                "answer": "13.79%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-7",
+                    "chart_3-1",
+                    "chart_3-30",
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_5-3",
+                    "chart_5-4"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

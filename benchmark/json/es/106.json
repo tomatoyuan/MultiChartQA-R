@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_106_1",
+    "chart_106_2",
+    "chart_106_3",
+    "chart_106_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿Existe una correlación positiva entre el nivel de conocimiento de la categoría de bebidas embotelladas 'Agua embotellada' y el tramo con la mayor proporción de frecuencia de consumo de agua embotellada por los consumidores, que es '1 - 2 veces a la semana'? Responda 'correlación positiva', 'correlación negativa' o 'sin correlación'.",
+      "answer": "correlación positiva",
+      "explanation": "El nivel de conocimiento del agua embotellada y la proporción de su frecuencia principal de consumo se encuentran en niveles altos de sus respectivos conjuntos de datos y varían en la misma dirección.",
+      "charts_involved": [
+        "chart_106_1",
+        "chart_106_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Ordenando por proporción de mayor a menor, ¿es consistente la tendencia de cambio de los valores de las diferentes tramos de frecuencia de consumo de agua embotellada por los consumidores (1 - 2 veces a la semana → 3 - 4 veces a la semana → Más de 5 veces a la semana → Menos de 3 veces al mes) y las cuatro marcas de agua embotellada más frecuentemente compradas (Agua Mineral Nongfu Spring → Agua Mineral Wahaha → Agua Mineral C'estbon → Agua Mineral Ganten)? Responda 'Sí' o 'No'.",
+      "answer": "Sí",
+      "explanation": "La proporción de las dos secuencias disminuye monótonamente con el ordenamiento, y sus tendencias son consistentes.",
+      "charts_involved": [
+        "chart_106_2",
+        "chart_106_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La Agua Mineral Nongfu Spring, que tiene la mayor proporción entre las marcas de agua embotellada, corresponde a la dimensión con la mayor proporción de calificaciones de 5 Puntos en las calificaciones de satisfacción de las bebidas embotelladas, que es 'Conciencia de la marca'? Responda 'Sí' o 'No'.",
+      "answer": "Sí",
+      "explanation": "La Agua Mineral Nongfu Spring ocupa el primer lugar en la proporción de las marcas; en las calificaciones de satisfacción, la dimensión 'Conciencia de la marca' relacionada con la marca tiene la mayor proporción de calificaciones de 5 Puntos. Ambos reflejan la posición líder de los factores de la marca.",
+      "charts_involved": [
+        "chart_106_3",
+        "chart_106_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Qué proporción de consumidores en 2025 conoce tanto el agua embotellada como compra con más frecuencia la Agua Mineral Nongfu Spring? En porcentaje, redondeado a 2 decimales. Respuesta: xx.xx%",
+      "answer": "24.75%",
+      "explanation": "La proporción de consumidores que conoce el agua embotellada es del 51.00% × la proporción de los que compran con más frecuencia la Agua Mineral Nongfu Spring es del 48.53% = 0.51 × 0.4853 = 0.247503, redondeado a 2 decimales es 24.75%",
+      "charts_involved": [
+        "chart_106_1",
+        "chart_106_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo una distribución independiente, ¿qué proporción de consumidores en 2025 conoce el agua embotellada y la bebe más de 5 veces a la semana? En porcentaje, redondeado a 2 decimales. Respuesta: xx%",
+      "answer": "5.74%",
+      "explanation": "La proporción de consumidores que conoce el agua embotellada es del 51.00% × la proporción de los que la beben más de 5 veces a la semana es del 11.26% = 0.51 × 0.1126 = 0.057426, redondeado a 2 decimales es 5.74%",
+      "charts_involved": [
+        "chart_106_1",
+        "chart_106_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo una distribución independiente, ¿qué proporción de consumidores de agua embotellada en 2025 beben agua embotellada 1 - 2 veces a la semana y dan 5 puntos en la dimensión de conciencia de la marca? En porcentaje, redondeado a 2 decimales. Respuesta: xx%",
+      "answer": "20.61%",
+      "explanation": "La proporción de consumidores que beben agua embotellada 1 - 2 veces a la semana es del 49.60% × la proporción de los que dan 5 puntos en la dimensión de conciencia de la marca es del 41.55% = 0.4960 × 0.4155 = 0.206088, redondeado a 2 decimales es 20.61%",
+      "charts_involved": [
+        "chart_106_2",
+        "chart_106_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según los gráficos de la conciencia de las categorías de bebidas y la frecuencia de consumo de agua embotellada, ¿qué características de percepción en los consumidores pueden estar relacionadas con la alta frecuencia de consumo de agua embotellada?",
+      "answer": {
+        "A": "Los datos de la frecuencia de consumo muestran que la mayoría de los consumidores beben agua embotellada varias veces a la semana, lo cual es consistente con la alta conciencia de agua embotellada en la proporción de conciencia, lo que indica que la percepción puede impulsar el comportamiento de consumo real.",
+        "B": "La proporción de conciencia de agua con gas es la más alta (50.90%), por lo tanto, la frecuencia de consumo de agua embotellada también se ve afectada y es alta.",
+        "C": "En comparación con las categorías de bebidas con una proporción de conciencia más baja (como las bebidas de vinagre), la proporción de conciencia relativamente alta de agua embotellada puede hacer que sea una opción diaria más común.",
+        "D": "La proporción de conciencia de bebidas de vinagre es la más baja (16.10%), lo que indica que las bebidas con baja conciencia tienen una baja frecuencia de consumo, lo que resalta que aunque el agua embotellada tiene una alta conciencia, su frecuencia de consumo no es alta.",
+        "E": "En la conciencia de las categorías de bebidas, la proporción de conciencia de agua embotellada es relativamente alta, lo que puede apoyar directamente su posición dominante en la frecuencia de consumo.",
+        "F": "El aumento de la conciencia sobre la salud impulsa a los consumidores a elegir agua embotellada como bebida principal, lo que resulta en un consumo frecuente.",
+        "G": "El agua embotellada es un producto esencial en la vida cotidiana y tiene un bajo precio, por lo tanto, la frecuencia de consumo es naturalmente alta."
+      },
+      "charts_involved": [
+        "chart_106_1",
+        "chart_106_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en los gráficos de las marcas de agua embotellada más frecuentemente compradas por los consumidores y la satisfacción de los consumidores en cada dimensión de agua embotellada, ¿qué factores de satisfacción pueden afectar más significativamente la preferencia de selección de marcas?",
+      "answer": {
+        "A": "Una alta satisfacción en el sabor puede tener un papel importante en la lealtad a la marca y las compras repetidas.",
+        "B": "Una alta satisfacción en las actividades promocionales (el 32.17% con calificación de 5 puntos) explica la alta preferencia por el agua mineral Master Kong (29.49%).",
+        "C": "Una alta satisfacción en la conciencia de la marca puede explicar por qué las marcas líderes como Agua Mineral Nongfu Spring tienen ventaja en la preferencia de compra.",
+        "D": "La satisfacción en el precio es la más alta, por lo tanto, los consumidores prefieren primero las marcas con mejor relación calidad - precio como Agua Mineral Ice Dew.",
+        "E": "La satisfacción en la calidad de higiene (el 38.61% con calificación de 5 puntos) es mucho más alta que la conciencia de la marca (41.55%), por lo tanto, la calidad de higiene es el factor dominante.",
+        "F": "Una alta satisfacción en la calidad de higiene puede aumentar la confianza de los consumidores en las marcas con alta preferencia (como Agua Mineral Nongfu Spring o Agua Mineral Wahaha), lo que afecta la selección.",
+        "G": "Una fuerte satisfacción en el servicio después de la venta puede aumentar la lealtad a la marca, lo que afecta la preferencia."
+      },
+      "charts_involved": [
+        "chart_106_3",
+        "chart_106_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según los gráficos de la frecuencia de consumo de agua embotellada y la satisfacción de los consumidores en agua embotellada, ¿qué dimensiones de satisfacción con una alta calificación pueden apoyar su comportamiento de consumo frecuente?",
+      "answer": {
+        "A": "Una alta satisfacción en la calidad de higiene puede hacer que los consumidores aumenten con más confianza la frecuencia de consumo.",
+        "B": "La satisfacción en los métodos de marketing (el 29.49% con calificación de 5 puntos) está directamente relacionada con el consumo frecuente (el 11.26% más de 5 veces a la semana), debido a su alta calificación.",
+        "C": "Una alta satisfacción en el sabor puede mejorar la experiencia de consumo, lo que mantiene o aumenta el número de consumos.",
+        "D": "La satisfacción en la conveniencia de compra es la más alta (el 28.95% con calificación de 5 puntos), por lo tanto, es el factor principal que impulsa el consumo frecuente.",
+        "E": "Una fuerte satisfacción en la variedad del producto ofrece más opciones y promueve el consumo diario.",
+        "F": "Una alta satisfacción en el endosante/promoción publicitaria puede atraer a los consumidores a comprar repetidamente, lo que aumenta la frecuencia.",
+        "G": "Una satisfacción relativamente alta en la conveniencia de compra puede reducir las barreras de consumo y promover el consumo frecuente diario."
+      },
+      "charts_involved": [
+        "chart_106_2",
+        "chart_106_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en el nivel de conocimiento de los consumidores sobre diferentes categorías de bebidas y los hábitos de consumo de agua embotellada, ¿cómo deben optimizar las empresas de bebidas su cartera de productos y la asignación de recursos para aumentar su participación total en el mercado? Por favor, seleccione la sugerencia de estrategia más racional:",
+      "answer": {
+        "A": "Desarrollar productos innovadores de bebidas funcionales o a base de proteínas vegetales, ya que estas categorías tienen una proporción relativamente alta en el conocimiento, pero menor que la de agua embotellada; combinado con la alta frecuencia de consumo de agua embotellada, se pueden lanzar bebidas funcionales saludables para satisfacer las necesidades diarias y evitar dispersar recursos en categorías con menor conocimiento, como las bebidas de vinagre.",
+        "B": "Centrarse en la promoción publicitaria en las redes sociales para aumentar la exposición de marca de todas las categorías de bebidas y, así, estimular el crecimiento de la demanda general.",
+        "C": "Priorizar la ampliación de la línea de productos de agua embotellada, ya que esta categoría tiene una proporción alta en el conocimiento de los consumidores y la frecuencia de consumo es generalmente alta, lo que indica una demanda estable en el mercado y un gran potencial de crecimiento; al mismo tiempo, combinado con la puntuación alta en la dimensión de calidad de higiene en los datos de satisfacción, se puede fortalecer la calidad del producto para consolidar la confianza de los consumidores.",
+        "D": "Ajustar el presupuesto de marketing para resaltar la conveniencia y las propiedades saludables del agua embotellada, ya que los datos de frecuencia de consumo de los consumidores muestran un hábito de consumo frecuente, y la puntuación en la dimensión de conveniencia de compra en la satisfacción tiene espacio para mejorar. A través de la optimización de los canales y la publicidad, se pueden aumentar efectivamente las ventas.",
+        "E": "Incrementar la inversión en la línea de producción de bebidas de vinagre, ya que tiene la proporción más baja en el conocimiento (16.10%), lo que indica un gran vacío en el mercado y una menor competencia. Mediante una estrategia de bajo precio, se puede capturar rápidamente una participación en el mercado.",
+        "F": "Priorizar el desarrollo de productos de bebidas de café, ya que su conocimiento (29.40%) es similar al de las bebidas a base de leche, y la tendencia del consumo de café está en auge entre los jóvenes.",
+        "G": "Reducir completamente la asignación de recursos para el agua embotellada, ya que los datos de frecuencia de consumo muestran que solo el 11.26% de los consumidores beben más de 5 veces a la semana, lo que indica una insuficiente demanda de consumo frecuente. Se debe orientar hacia categorías de jugos de frutas o aguas con gas con mayor conocimiento."
+      },
+      "charts_involved": [
+        "chart_106_1",
+        "chart_106_2",
+        "chart_106_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "En función del panorama competitivo de las marcas en el mercado de agua embotellada y la satisfacción de los consumidores, ¿cómo deben formular las marcas líderes una estrategia de asignación de recursos para aumentar su competitividad y participación en el mercado? Por favor, seleccione la sugerencia más efectiva:",
+      "answer": {
+        "A": "Aumentar significativamente el precio del producto, ya que la proporción de puntuaciones de 5 puntos en la dimensión de precio en la satisfacción alcanza el 26.27%, lo que indica que los consumidores tienen una alta tolerancia al precio alto. Se puede mejorar la rentabilidad a través de una estrategia de prima de precio.",
+        "B": "Invertir principalmente en la optimización del sabor y la mejora de la calidad de higiene, ya que en los datos de satisfacción de los consumidores, las proporciones de puntuaciones altas en estas dimensiones son relativamente altas, pero todavía hay espacio para mejorar. Combinado con la alta proporción de las marcas líderes en la preferencia de marca, fortalecer las ventajas centrales puede mantener la posición líder y atraer nuevos usuarios.",
+        "C": "Optimizar la estrategia de precios y las actividades promocionales, ya que la puntuación de satisfacción en la dimensión de precio es relativamente baja, y los datos de preferencia de marca muestran que las participaciones de varias marcas medias son similares. A través del control de costos o promociones específicas, se pueden atraer a los consumidores sensibles al precio y evitar depender únicamente de la知名度 de la marca.",
+        "D": "Ignorar la optimización de la calidad de higiene, ya que la puntuación de satisfacción en esta dimensión es alta (38.61% de puntuaciones de 5 puntos). En cambio, se debe invertir en la dimensión de endosante (solo el 32.98% de puntuaciones de 5 puntos) para atraer nuevos usuarios a través de la publicidad.",
+        "E": "Unificar el diseño de embalaje de todas las marcas para reducir los costos de producción y hacer frente a la competencia en el mercado a través del efecto de escala.",
+        "F": "Desarrollar principalmente el mercado premium, como el de Agua Mineral French Evian (con una proporción del 14.75%), ya que su baja participación indica un gran espacio para el crecimiento y una alta知名度 de marca en la satisfacción.",
+        "G": "Innovar en los métodos de marketing, como las actividades de co - branding de IP, ya que la puntuación de satisfacción en la dimensión de métodos de marketing es mediana a baja, mientras que la alta proporción de puntuaciones altas en la dimensión de知名度 de marca proporciona una base. Aprovechando esta diferencia, se pueden lanzar campañas de marketing diferenciadas para aumentar la novedad y el atractivo de la marca."
+      },
+      "charts_involved": [
+        "chart_106_3",
+        "chart_106_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combinando el conocimiento general de las categorías de bebidas y el rendimiento específico de las marcas de agua embotellada, ¿cómo debe diseñar una empresa recién entrante en el mercado una estrategia de desarrollo de productos y entrada al mercado para obtener rápidamente el reconocimiento de los consumidores? Por favor, seleccione la sugerencia más viable:",
+      "answer": {
+        "A": "Desarrollar bebidas innovadoras que combinen elementos de aguas con gas o jugos de frutas, ya que las aguas con gas y los jugos de frutas tienen una alta proporción en el conocimiento, y la frecuencia de consumo de agua embotellada es alta. Aprovechando este efecto sinérgico, se pueden satisfacer las necesidades diversificadas. Al mismo tiempo, con referencia a la buena puntuación en la dimensión de sabor en la satisfacción, se puede garantizar la ventaja en el sabor del producto.",
+        "B": "Lanzar productos de agua embotellada de precio medio, ya que la puntuación en la dimensión de precio en los datos de satisfacción de los consumidores es relativamente baja, y en la preferencia de marca, varias marcas medias, como Agua Mineral C'estbon o Agua Mineral Nongfu Spring, tienen una proporción alta. Al equilibrar el precio y la calidad, se puede penetrar en el mercado principal y evitar desafiar directamente los extremos premium o de bajo precio.",
+        "C": "Mejorar la imagen de la empresa a través de marketing benéfico para establecer la confianza de los consumidores y evitar la competencia directa.",
+        "D": "Entrar primero en el mercado de productos lácteos, ya que tiene la proporción más alta en el conocimiento (51.70%) y una alta puntuación en la dimensión de sabor en la satisfacción (40.48% de puntuaciones de 5 puntos). Se puede replicar un modelo exitoso.",
+        "E": "Reducir la innovación de productos y centrarse en la optimización de los canales de agua embotellada existentes, ya que la puntuación en la dimensión de conveniencia de compra en la satisfacción es aceptable (28.95% de puntuaciones de 5 puntos) y no es necesario invertir adicionalmente.",
+        "F": "Fortalecer la transparencia de los ingredientes y la eficacia del producto, ya que la puntuación en esta dimensión en los datos de satisfacción es mediana, y las bebidas funcionales tienen una proporción no baja en el conocimiento. Al resaltar las propiedades saludables, se pueden atraer a los consumidores preocupados por los ingredientes y evitar los campos en los que la知名度 de marca ya tiene una alta satisfacción.",
+        "G": "Desafiar directamente a las marcas líderes, como Agua Mineral Nongfu Spring (con una proporción del 48.53%), a través de una estrategia de dumping de bajo precio para capturar rápidamente una participación en el mercado, aprovechando la debilidad de su alta知名度."
+      },
+      "charts_involved": [
+        "chart_106_1",
+        "chart_106_3",
+        "chart_106_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

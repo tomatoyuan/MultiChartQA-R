@@ -1,0 +1,207 @@
+{
+  "chart": [
+    "chart_100_1",
+    "chart_100_2",
+    "chart_100_3",
+    "chart_100_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Assuming that the 'User feedback on their own sleep quality' and the 'Factors Affecting Sleep' are independent conditions, is it true that the group with the highest combined probability, 'Users reporting occasional sleep problems + Can't resist using mobile phones/tablets before sleep', has the largest proportion?",
+      "answer": "Yes",
+      "explanation": "In chart_100_1, the proportion of 'Occasional sleep problems' is the highest (47.0%). In chart_100_4, 'Can't resist using mobile phones/tablets before sleep' is the top factor affecting sleep (15.9%). The combination of these two may form the largest intersection.",
+      "charts_involved": [
+        "chart_100_1",
+        "chart_100_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "The 'Sleep Scores of Different Generations' shows that the Post - 60s+ has the highest score (83.5). Does it mean that this group is less troubled by the 'Top 10 Factors Affecting Sleep'?",
+      "answer": "Yes",
+      "explanation": "A higher score usually indicates better sleep quality. The 'Top 10 Factors Affecting Sleep' such as using mobile phones before sleep and staying up late are more common among younger groups. Therefore, the Post - 60s+ may have relatively fewer interference factors.",
+      "charts_involved": [
+        "chart_100_3",
+        "chart_100_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Both the 'User - reported sleep problems (TOP10)' and the 'Top 10 Factors Affecting Sleep' mention issues related to'staying up late'. Can we infer that'staying up late' is an important cause of sleep disorders?",
+      "answer": "Yes",
+      "explanation": "In the sleep problems, 'Habitually staying up late' accounts for 10.6%. In the factors affecting sleep, the sum of 'Habituated to staying up late without motivation to change' and 'Staying up late to study or work affects rest' reaches 23.1%. It can be seen that'staying up late' is a pain point frequently reported by users, and it can be inferred as one of the main causes.",
+      "charts_involved": [
+        "chart_100_2",
+        "chart_100_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please calculate the ratio of the proportion of users who reported 'No problems, slept very well' to the proportion of users who reported 'Too short deep sleep time'. Round the result to 2 decimal places. Answer: xx.xx times",
+      "answer": "1.36 times",
+      "explanation": "The proportion of users who reported 'No problems, slept very well' is 18.7%. The proportion of users who reported 'Too short deep sleep time' is 13.8%. 18.7% ÷ 13.8% ≈ 1.355. Rounding to 2 decimal places gives 1.36 times.",
+      "charts_involved": [
+        "chart_100_1",
+        "chart_100_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please calculate the ratio of the proportion of users who reported 'Habitually staying up late' to the proportion of the factor 'Habituated to staying up late without motivation to change' that affects sleep. Round the result to 2 decimal places. Answer: xx.xx times",
+      "answer": "0.78 times",
+      "explanation": "The proportion of users who reported 'Habitually staying up late' is 10.6%. The proportion of the factor 'Habituated to staying up late without motivation to change' that affects sleep is 13.6%. 10.6% ÷ 13.6% ≈ 0.779. Rounding to 2 decimal places gives 0.78 times.",
+      "charts_involved": [
+        "chart_100_2",
+        "chart_100_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please multiply the sleep score of the Post - 60s+ group by the proportion of users who reported 'Yes, have relatively serious sleep problems'. What is the approximate result (rounded to 1 decimal place)? Answer: xx.x points",
+      "answer": "7.3 points",
+      "explanation": "The sleep score of the Post - 60s+ group is 83.5. The proportion of users who reported 'Yes, have relatively serious sleep problems' is 8.7%. 83.5 × 8.7% ≈ 7.2645. Rounding to 1 decimal place gives 7.3 points.",
+      "charts_involved": [
+        "chart_100_3",
+        "chart_100_1"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the data of user feedback on sleep quality and common sleep problems, which descriptions can explain why most users report having sleep troubles?",
+      "answer": {
+        "A": "Sleep problems are mainly caused by environmental noise because noise is the primary factor affecting sleep.",
+        "B": "The proportion of users with serious sleep problems is the highest, reaching 47.0%, which dominates the overall feedback.",
+        "C": "The proportion of users reporting no sleep problems is the highest, exceeding 50%, indicating that most people have good sleep quality.",
+        "D": "The proportion of feedback on serious sleep problems is small, but the prevalence of common problems such as light sleep/easily awakened may strengthen the perception of overall sleep troubles.",
+        "E": "Although the proportion of feedback on no problems is low, the significant proportion of problems such as habitually staying up late and insufficient sleep duration may drive the feedback of declining sleep quality.",
+        "F": "Difficulty falling asleep is the most common sleep problem reported by users, accounting for 23.2%, far higher than other problems.",
+        "G": "The proportion of users reporting occasional or frequent sleep problems is relatively high, which is consistent with the high proportion of common problems such as difficulty falling asleep and too short deep sleep time."
+      },
+      "charts_involved": [
+        "chart_100_1",
+        "chart_100_2",
+        "chart_100_4"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the sleep scores of different generations and the data on factors affecting sleep, which factors may explain the phenomenon of lower scores among younger generations?",
+      "answer": {
+        "A": "The differences in scores among all generations are very small (the maximum gap is less than 1 point), indicating that age has little impact on sleep quality.",
+        "B": "Although the differences in scores among all generations are small, the high proportion of the factor of habitually staying up late may affect all age groups, especially more obviously among younger generations.",
+        "C": "The scores of Post-90s and Post-00s are relatively low, which is consistent with the high proportion of influencing factors such as high life stress and staying up late to study or work, reflecting that younger generations face greater external pressure.",
+        "D": "The sleep score of Post-00s is the highest, 83.5 points, but the factor of using mobile phones before sleep has the least impact on them.",
+        "E": "High life stress is the primary factor affecting sleep, accounting for more than 20%, especially for younger generations.",
+        "F": "The lower scores of younger generations are because they generally do not attach importance to sleep health and lack self-discipline.",
+        "G": "The sleep score of Post-00s is the lowest, and the high proportion of the factor of not being able to resist using mobile phones before sleep may have a more significant impact on younger people because the use of electronic devices is more common among young people."
+      },
+      "charts_involved": [
+        "chart_100_3",
+        "chart_100_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "From the data on common sleep problems, influencing factors, and generational scores, which observations reveal the potential impact of electronic device use on sleep health?",
+      "answer": {
+        "A": "The proportion of too short deep sleep time is 15.9%, the same as the proportion of using mobile phones before sleep, indicating that the two are directly equivalent.",
+        "B": "The use of electronic devices mainly affects the sleep of the elderly because the elderly are not familiar with technology.",
+        "C": "The sleep score of the Post-90s generation is the lowest (81.7 points), and the factor of using mobile phones before sleep has the highest proportion of impact on them.",
+        "D": "The high proportion of the problem of feeling sleepy during the day is related to the factor of retaliatory staying up late at night, and the lower scores of younger generations further strengthen the negative impact of electronic device use on sleep quality.",
+        "E": "The use of electronic devices has a positive effect on sleep quality and can help users fall asleep faster.",
+        "F": "The high proportion of the problem of habitually staying up late is consistent with the high proportion of the factor of using mobile phones before sleep, and the lower scores of younger generations support the rule that electronic device use leads to sleep behavior disorders.",
+        "G": "The high proportion of sleep problems such as too short deep sleep time and difficulty falling asleep is associated with the high proportion of the factor of not being able to resist using mobile phones before sleep, and the lowest scores of younger generations indicate that electronic devices may be the key driving factor."
+      },
+      "charts_involved": [
+        "chart_100_2",
+        "chart_100_3",
+        "chart_100_4"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on users' feedback on their sleep quality and relevant influencing factors, how should resources be prioritized to design an effective sleep improvement plan? Please select the most reasonable strategic suggestions.",
+      "answer": {
+        "A": "Invest in the development of intelligent sleep monitoring devices to help users independently track and optimize their sleep patterns and enhance their individual sleep management capabilities.",
+        "B": "Prioritize solving physical illness problems, as it has the highest proportion (15.9%) among the factors affecting sleep and can directly relieve severe sleep disorders.",
+        "C": "Strengthen the support services for managing life stress. Since stress is one of the key factors affecting sleep and ranks high in terms of proportion, and the proportion of relatively serious problems in the sleep quality feedback cannot be ignored, providing stress - relief resources can prevent the problems from worsening and improve the overall sleep satisfaction.",
+        "D": "Carry out sleep health promotion activities in all communities to raise public awareness of the importance of sleep and indirectly improve the overall health level.",
+        "E": "Develop targeted solutions for the most common specific sleep problems (such as insufficient deep sleep and difficulty falling asleep). Since the user feedback on these problems has a prominent proportion, and the influencing factor data shows that behavioral habits (such as staying up late) are highly related to them, prioritizing the solution of these high - incidence problems can more efficiently improve the users' sleep experience.",
+        "F": "Focus on promoting educational programs to reduce the use of electronic devices before sleep. Since this is the most important behavioral factor affecting sleep and can directly address the root cause of the decline in sleep quality. The sleep problem feedback shows that most users have problems to varying degrees, and this factor has the highest proportion among the behavioral factors, indicating that significant improvement in overall sleep health can be achieved after intervention.",
+        "G": "Design intervention programs for the problem of staying in bed on weekends. Since it accounts for 7.1% in the sleep problem feedback and is highly related to irregular sleep schedules, it can effectively prevent the decline in sleep quality."
+      },
+      "charts_involved": [
+        "chart_100_1",
+        "chart_100_2",
+        "chart_100_4"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the differences in sleep scores among different generations, how should resources be optimized for allocation to achieve fair and efficient promotion of sleep health? Please select the most reasonable strategic suggestions.",
+      "answer": {
+        "A": "Design core interventions for the post - 80s group. Since their sleep score of 83.0 is the median among generations, it can represent the most widespread needs and ensure efficient resource coverage.",
+        "B": "Prioritize providing resources for the post - 70s and post - 60s+ groups. Since they have the highest sleep scores (83.3 and 83.5 respectively), the return on investment is the greatest, and the overall average score can be quickly improved.",
+        "C": "Cooperate with technology companies to develop a popular sleep APP to meet the digital health needs of all people.",
+        "D": "Promote a unified sleep health education handbook for all age groups to ensure absolute fairness in resource allocation and avoid any generational bias.",
+        "E": "Prioritize allocating resources to the younger generations (such as the post - 00s and post - 90s) and design digital sleep management tools. Since their sleep scores are the lowest, and the influencing factor data shows that behavioral problems (such as using mobile phones before sleep) may be more common among the younger groups, this can efficiently improve the overall sleep health level.",
+        "F": "Provide customized interventions for all generations, including improving the sleep environment and providing behavioral guidance. Although the older groups have higher scores, the sleep quality feedback shows that there are problems in all age groups, and the influencing factors are diverse (such as environmental factors being more relevant to the elderly), ensuring comprehensive resource coverage.",
+        "G": "Focus on strengthening the support for optimizing the sleep environment of middle - aged and elderly groups (such as improving sound insulation or bedding). Although the sleep scores of the older groups are slightly higher, the proportion of environmental problems (such as uncomfortable bedrooms) among the influencing factors is not low, and the sleep problem feedback shows that all groups have needs, which can improve their sleep comfort."
+      },
+      "charts_involved": [
+        "chart_100_1",
+        "chart_100_3",
+        "chart_100_4"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "To reduce the incidence of sleep problems, which data - based preventive measures should be prioritized? Please select the most effective strategic suggestions.",
+      "answer": {
+        "A": "Add sleep health courses in schools and workplaces to prevent sleep problems from the educational source and cultivate long - term healthy habits.",
+        "B": "Prioritize optimizing the problem of poor bedroom sound insulation. Since it accounts for 7.2% among the factors affecting sleep, it is claimed that it can directly prevent high - frequency problems such as difficulty falling asleep and improve the overall sleep stability.",
+        "C": "Launch a public health campaign focusing on reducing the habitual behavior of staying up late. Since this influencing factor has a high proportion, and the feedback on specific sleep problems (such as difficulty falling asleep) shows its correlation, preventive intervention can reduce the occurrence of problems.",
+        "D": "Prioritize implementing measures to reduce having many dreams/nightmares. Since it has the highest proportion (13.8%) in the sleep problem feedback and can easily lead to serious problems, it can efficiently reduce the incidence.",
+        "E": "Create an online sleep support community to provide free consultations to enhance users' self - management capabilities.",
+        "F": "Promote programs to regularize sleep schedules. Aiming at the problem of irregular sleep schedules among the influencing factors and combined with the high feedback rate of specific sleep problems (such as insufficient deep sleep), various sleep disorders can be prevented through habit adjustment.",
+        "G": "Integrate stress management courses into the sleep health plan. Since life stress is one of the main factors affecting sleep and has a prominent proportion, and the proportion of relatively serious problems in the sleep quality feedback is relatively high, early intervention can avoid the escalation of problems."
+      },
+      "charts_involved": [
+        "chart_100_1",
+        "chart_100_2",
+        "chart_100_4"
+      ],
+      "label": [
+        "C",
+        "F",
+        "G"
+      ]
+    }
+  ]
+}

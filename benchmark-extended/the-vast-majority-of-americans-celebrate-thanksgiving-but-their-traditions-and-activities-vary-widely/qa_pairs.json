@@ -1,0 +1,178 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of U.S. adults who say it's extremely or very likely they will watch a parade on Thanksgiving this year?\n question2: What is the proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner? (Please answer with a percentage.)",
+                "rationale": "rationale1: The question asks for the proportion of adults watching a parade on Thanksgiving, and the chart contains the relevant data.\n rationale2: The question directly asks for the proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner. The relevant information is clearly stated in the given chart as 26%.",
+                "answer": "19; 26%",
+                "involved_content_sources": [
+                    "chart_5-5",
+                    "chart_2-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon? (Answer as a percentage)\n question2: What is the proportion of U.S. adults who say it's extremely or very likely they will go to a bar on Thanksgiving this year?\n question3: What is the proportion of conservative U.S. adults who say it's extremely or very likely that they will talk about the recent presidential election on Thanksgiving Day this year? Provide the answer as a number without the percentage sign.",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults preferring Thanksgiving dinner in the late afternoon. We can directly find this information from the chart.\n rationale2: We are looking for the proportion of adults going to a bar on Thanksgiving, and the chart contains the relevant data.\n rationale3: The question focuses on the proportion of conservative U.S. adults with the specified talking likelihood. The required data is presented in the chart.",
+                "answer": "38%; 2; 39",
+                "involved_content_sources": [
+                    "chart_3-3",
+                    "chart_5-12",
+                    "chart_6-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner? (Please answer with a percentage.)\n question2: What is the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says a prayer or blessing but not both things? Please answer in percentage.\n question3: What is the proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon? (Answer as a percentage)\n question4: What is the proportion of U.S. adults who say it's extremely or very likely they will talk about the recent presidential election on Thanksgiving this year?",
+                "rationale": "rationale1: The question directly asks for the proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner. The relevant information is clearly stated in the given chart as 26%.\n rationale2: We know from the chart that the proportion of those who say someone at their Thanksgiving dinner typically says a prayer or blessing is 65%, and the proportion of those who say someone at their Thanksgiving dinner typically does both things is 56%. To find the proportion of those who say a prayer or blessing but not both, we subtract the proportion of those who do both from the proportion of those who say a prayer or blessing. So, 65% - 56% = 9%.\n rationale3: The question asks for the proportion of U.S. adults preferring Thanksgiving dinner in the late afternoon. We can directly find this information from the chart.\n rationale4: The question is about the proportion of adults talking about the recent presidential election on Thanksgiving, and the answer can be found in the chart.",
+                "answer": "26%; 9%; 38%; 26",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_4-1",
+                    "chart_3-3",
+                    "chart_5-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the combined proportion of U.S. adults who prefer to have Thanksgiving dinner in the afternoon (both early and late) or have no preference for the time of the dinner? Please provide the answer as a percentage without the % symbol.\n question2: What is the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says either a prayer or blessing or says things they are thankful for? Please provide the answer as a percentage without the % symbol.",
+                "rationale": "rationale1: To find the combined proportion, we need to add the proportion of adults who prefer early - afternoon dinner (chart_3-2), late - afternoon dinner (chart_3-3), and those who have no preference (chart_3-5). The calculation is 36 + 38+ 5 = 79.\n rationale2: To find the proportion of those who do either one of the two things, we use the principle of inclusion - exclusion. The formula is P(A or B)=P(A)+P(B)-P(A and B). Here, P(A) is the proportion of those who say a prayer or blessing (65%), P(B) is the proportion of those who say things they are thankful for (69%), and P(A and B) is the proportion of those who do both (56%). So, we calculate 65 + 69 - 56.",
+                "answer": "79; 78",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the combined proportion of U.S. adults who prefer to have Thanksgiving dinner in the afternoon (both early and late) or have no preference for the time of the dinner? Please provide the answer as a percentage without the % symbol.\n question2: What is the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says either a prayer or blessing or says things they are thankful for? Please provide the answer as a percentage without the % symbol.\n question3: What is the difference in the proportion of conservative U.S. adults and Harris - voters who say it's extremely or very likely that they will talk about the recent presidential election on Thanksgiving Day this year?",
+                "rationale": "rationale1: To find the combined proportion, we need to add the proportion of adults who prefer early - afternoon dinner (chart_3-2), late - afternoon dinner (chart_3-3), and those who have no preference (chart_3-5). The calculation is 36 + 38+ 5 = 79.\n rationale2: To find the proportion of those who do either one of the two things, we use the principle of inclusion - exclusion. The formula is P(A or B)=P(A)+P(B)-P(A and B). Here, P(A) is the proportion of those who say a prayer or blessing (65%), P(B) is the proportion of those who say things they are thankful for (69%), and P(A and B) is the proportion of those who do both (56%). So, we calculate 65 + 69 - 56.\n rationale3: To find the difference, we need to subtract the proportion of Harris - voters from the proportion of conservative U.S. adults based on the data in the chart. The relevant data are the proportion of conservative U.S. adults (39%) and the proportion of Harris - voters (24%).",
+                "answer": "79; 78; 15",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_6-2",
+                    "chart_6-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the combined proportion of U.S. adults who prefer to have Thanksgiving dinner in the afternoon (both early and late) or have no preference for the time of the dinner? Please provide the answer as a percentage without the % symbol.\n question2: What is the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says either a prayer or blessing or says things they are thankful for? Please provide the answer as a percentage without the % symbol.\n question3: What is the difference in the proportion of conservative U.S. adults and Harris - voters who say it's extremely or very likely that they will talk about the recent presidential election on Thanksgiving Day this year?\n question4: What is the combined proportion of Americans who expect to have 3 to 10 other people at their Thanksgiving dinner? Please provide the answer as a percentage.",
+                "rationale": "rationale1: To find the combined proportion, we need to add the proportion of adults who prefer early - afternoon dinner (chart_3-2), late - afternoon dinner (chart_3-3), and those who have no preference (chart_3-5). The calculation is 36 + 38+ 5 = 79.\n rationale2: To find the proportion of those who do either one of the two things, we use the principle of inclusion - exclusion. The formula is P(A or B)=P(A)+P(B)-P(A and B). Here, P(A) is the proportion of those who say a prayer or blessing (65%), P(B) is the proportion of those who say things they are thankful for (69%), and P(A and B) is the proportion of those who do both (56%). So, we calculate 65 + 69 - 56.\n rationale3: To find the difference, we need to subtract the proportion of Harris - voters from the proportion of conservative U.S. adults based on the data in the chart. The relevant data are the proportion of conservative U.S. adults (39%) and the proportion of Harris - voters (24%).\n rationale4: To find the combined proportion of Americans who expect to have 3 to 10 other people at their Thanksgiving dinner, we need to add the proportion of those who expect 3 to 5 people and the proportion of those who expect 6 to 10 people. This involves adding the values from two different parts of the given chart.",
+                "answer": "79; 78; 15; 41%",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_6-2",
+                    "chart_6-4",
+                    "chart_2-2",
+                    "chart_2-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner and the proportion of U.S. adults who say it's extremely or very likely they will do holiday shopping on Thanksgiving this year?",
+                "rationale": "The proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner is 26%. The proportion of U.S. adults who say it's extremely or very likely they will do holiday shopping on Thanksgiving this year is 15%. The difference is 26% - 15% = 11%.",
+                "answer": "11%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_5-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner, the proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon, and the proportion of U.S. adults who say it's extremely or very likely they will watch sports on Thanksgiving this year? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner is 26%. The proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon is 38%. The proportion of U.S. adults who say it's extremely or very likely they will watch sports on Thanksgiving this year is 35%. The average is (26% + 38% + 35%) / 3 = 33% (rounded to two decimal places).",
+                "answer": "33%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_3-3",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner, the proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon, the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says things they are thankful for, and the proportion of Trump - voters among U.S. adults who say it's extremely or very likely that they will talk about the recent presidential election on Thanksgiving Day this year?",
+                "rationale": "The proportion of Americans who expect to have 6 to 10 other people at their Thanksgiving dinner is 26% (chart_2-3). The proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon is 38% (chart_3-3). The proportion of U.S. adults who say someone at their Thanksgiving dinner typically says things they are thankful for is 69% (chart_4-2). The proportion of Trump - voters among U.S. adults who say it's extremely or very likely that they will talk about the recent presidential election on Thanksgiving Day this year is 36% (chart_6-1). The average of these four proportions is (26% + 38% + 69% + 36%) / 4 = 42.25%.",
+                "answer": "42.25%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_3-3",
+                    "chart_4-2",
+                    "chart_6-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of Americans who expect to have 6 - 10 and 11 - 20 other people at their Thanksgiving dinner and the average of the proportions of U.S. adults who prefer to have Thanksgiving dinner in the early afternoon and late afternoon?",
+                "rationale": "The proportion of Americans who expect to have 6 - 10 other people at their Thanksgiving dinner is 26% (chart_2-3), and the proportion of those who expect to have 11 - 20 other people at their Thanksgiving dinner is 19% (chart_2-4). The sum of these two proportions is 26% + 19% = 45%. The proportion of U.S. adults who prefer to have Thanksgiving dinner in the early afternoon is 36% (chart_3-2), and the proportion of those who prefer to have it in the late afternoon is 38% (chart_3-3). The average of these two proportions is (36% + 38%) / 2 = 37%. Then the difference between the two is 45% - 37% = 8%.",
+                "answer": "8%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-2",
+                    "chart_3-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of Americans who expect to have 6 - 10 other people at their Thanksgiving dinner, the proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon, and the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says things they are thankful for, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of Americans who expect to have 6 - 10 other people at their Thanksgiving dinner is 26% (chart_2-3), and the proportion of Americans who expect to have 11 - 20 other people at their Thanksgiving dinner is 19% (chart_2-4). The proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon is 38% (chart_3-3), and the proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the early afternoon is 36% (chart_3-2). The proportion of U.S. adults who say someone at their Thanksgiving dinner typically says things they are thankful for is 69% (chart_4-2), and the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says a prayer or blessing is 65% (chart_4-1). The weighted average is (26%\u00d70.2 + 38%\u00d70.3 + 69%\u00d70.5) = (0.26\u00d70.2 + 0.38\u00d70.3 + 0.69\u00d70.5) = 0.052 + 0.114 + 0.345 = 0.511 = 51.1%.",
+                "answer": "51.1%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who expect to have 6 - 10 other people at their Thanksgiving dinner, the proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon, the proportion of U.S. adults who say someone at their Thanksgiving dinner typically says things they are thankful for, and the proportion of U.S. adults who say it's extremely or very likely they will talk about work or school on Thanksgiving this year?",
+                "rationale": "The proportion of Americans who expect to have 6 - 10 other people at their Thanksgiving dinner is 26% (chart_2-3). The proportion of U.S. adults who generally prefer to have Thanksgiving dinner in the late afternoon is 38% (chart_3-3). The proportion of U.S. adults who say someone at their Thanksgiving dinner typically says things they are thankful for is 69% (chart_4-2). The proportion of U.S. adults who say it's extremely or very likely they will talk about work or school on Thanksgiving this year is 35% (chart_5-2). The average of these four values is (26% + 38% + 69% + 35%) / 4 = 42%.",
+                "answer": "42%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_5-2",
+                    "chart_5-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

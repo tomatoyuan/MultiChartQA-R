@@ -1,0 +1,185 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What proportion of Americans say none of their extended-family members live within an hour's drive? Please answer with a percentage.\n question2: What is the net - proportion of U.S. adults aged 30 - 49 who say it is important to live in a community where they have family nearby?",
+                "rationale": "rationale1: The question asks for the proportion of Americans with no extended-family members living within an hour's drive. According to the chart, this proportion is 20%, which we extract as the answer.\n rationale2: The question asks for the net - proportion of a specific age - group (30 - 49) of U.S. adults about the importance of living near family, and this data is available in the chart.",
+                "answer": "20%; 70%",
+                "involved_content_sources": [
+                    "chart_4-4",
+                    "chart_3-15"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of Americans say all or most of their extended-family members live within an hour's drive? Please answer with a percentage.\n question2: What is the proportion of all American adults surveyed in 2020 who say talking about politics with people they disagree with is generally stressful and frustrating?\n question3: What proportion of Americans say being involved with their community is very important but not the most important to them personally?",
+                "rationale": "rationale1: The question asks for the proportion of Americans with all or most extended-family members living within an hour's drive. According to the chart, this value is directly given as 28%, so we extract this percentage.\n rationale2: The question directly asks for the proportion of a specific group (all American adults in 2020) regarding a particular perception (talking about politics with those they disagree with being stressful and frustrating). We can find this value directly from the given chart.\n rationale3: The question asks for a specific proportion related to community involvement, which can be found in the chart.",
+                "answer": "28%; 61%; 32%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_5-9",
+                    "chart_2-23"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What proportion of Americans say participating in creative activities such as music, art or writing is one of the most important things to them personally?\n question2: What is the net - proportion of U.S. adults aged 30 - 49 who say it is important to live in a community where they have family nearby?\n question3: What proportion of Americans say all or most of their extended-family members live within an hour's drive? Please answer with a percentage.\n question4: What is the proportion of all American adults surveyed in 2020 who say talking about politics with people they disagree with is generally stressful and frustrating?",
+                "rationale": "rationale1: We need to locate the proportion of Americans with this view on creative activities in the chart.\n rationale2: The question asks for the net - proportion of a specific age - group (30 - 49) of U.S. adults about the importance of living near family, and this data is available in the chart.\n rationale3: The question asks for the proportion of Americans with all or most extended-family members living within an hour's drive. According to the chart, this value is directly given as 28%, so we extract this percentage.\n rationale4: The question directly asks for the proportion of a specific group (all American adults in 2020) regarding a particular perception (talking about politics with those they disagree with being stressful and frustrating). We can find this value directly from the given chart.",
+                "answer": "13%; 70%; 28%; 61%",
+                "involved_content_sources": [
+                    "chart_2-18",
+                    "chart_3-15",
+                    "chart_4-1",
+                    "chart_5-9"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the combined proportion of Americans who say spending time with family is either one of the most important things or very important but not the most important to them personally?\n question2: What is the average proportion of all American adults surveyed from 2016 - 2020 who say talking about politics with people they disagree with is generally stressful and frustrating?",
+                "rationale": "rationale1: To answer this question, we need to add the proportion of Americans who consider spending time with family as one of the most important things and those who think it is very important but not the most important. The relevant data can be found in the given chart.\n rationale2: To answer this question, we need to extract the relevant data for all American adults from 2016 - 2020 regarding the proportion of those who find political discussions with disagreeing people stressful and frustrating. Then we calculate the average of these values. This requires using the values from multiple years of data as presented in the chart.",
+                "answer": "91%; 54.8",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_5-1",
+                    "chart_5-3",
+                    "chart_5-5",
+                    "chart_5-7",
+                    "chart_5-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the combined proportion of Americans who say spending time with family is either one of the most important things or very important but not the most important to them personally?\n question2: What is the average proportion of all American adults surveyed from 2016 - 2020 who say talking about politics with people they disagree with is generally stressful and frustrating?\n question3: What is the proportion of Americans who have extended - family members and at least some of them live within an hour's drive? (Requires the answer to be a percentage and rounded to the nearest whole number)",
+                "rationale": "rationale1: To answer this question, we need to add the proportion of Americans who consider spending time with family as one of the most important things and those who think it is very important but not the most important. The relevant data can be found in the given chart.\n rationale2: To answer this question, we need to extract the relevant data for all American adults from 2016 - 2020 regarding the proportion of those who find political discussions with disagreeing people stressful and frustrating. Then we calculate the average of these values. This requires using the values from multiple years of data as presented in the chart.\n rationale3: First, we know from chart4-5 that the proportion of Americans who don't have extended family is 1%, so the proportion of those who have extended family is 100% - 1% = 99%. Then, we add the proportions of Americans who say all or most, some, and only a few of their extended - family members live within an hour's drive, which are 28%, 27%, and 24% respectively according to chart4-1, chart4-2, and chart4-3. The sum of these three proportions is 28%+27%+24% = 79%. Since we are considering those who have extended family, this 79% is within the 99% of people with extended family. So the proportion we want is 79%/99% * 100%\u224879.8%\u224880%.",
+                "answer": "91%; 54.8; 80%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_5-1",
+                    "chart_5-3",
+                    "chart_5-5",
+                    "chart_5-7",
+                    "chart_5-9",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the combined proportion of Americans who say spending time with family is either one of the most important things or very important but not the most important to them personally?\n question2: What is the average proportion of all American adults surveyed from 2016 - 2020 who say talking about politics with people they disagree with is generally stressful and frustrating?\n question3: What is the proportion of Americans who have extended - family members and at least some of them live within an hour's drive? (Requires the answer to be a percentage and rounded to the nearest whole number)\n question4: What is the difference between the net - proportion of U.S. adult women who say it is important to live near family and the net - proportion of U.S. adult men who say the same?",
+                "rationale": "rationale1: To answer this question, we need to add the proportion of Americans who consider spending time with family as one of the most important things and those who think it is very important but not the most important. The relevant data can be found in the given chart.\n rationale2: To answer this question, we need to extract the relevant data for all American adults from 2016 - 2020 regarding the proportion of those who find political discussions with disagreeing people stressful and frustrating. Then we calculate the average of these values. This requires using the values from multiple years of data as presented in the chart.\n rationale3: First, we know from chart4-5 that the proportion of Americans who don't have extended family is 1%, so the proportion of those who have extended family is 100% - 1% = 99%. Then, we add the proportions of Americans who say all or most, some, and only a few of their extended - family members live within an hour's drive, which are 28%, 27%, and 24% respectively according to chart4-1, chart4-2, and chart4-3. The sum of these three proportions is 28%+27%+24% = 79%. Since we are considering those who have extended family, this 79% is within the 99% of people with extended family. So the proportion we want is 79%/99% * 100%\u224879.8%\u224880%.\n rationale4: We need to find the net - proportion of U.S. adult women and U.S. adult men who think it is important to live near family from the chart, and then calculate the difference between them. The net - proportion for women is in chart_3-9 and for men is in chart_3-6.",
+                "answer": "91%; 54.8; 80%; 11%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_5-1",
+                    "chart_5-3",
+                    "chart_5-5",
+                    "chart_5-7",
+                    "chart_5-9",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-5",
+                    "chart_3-6",
+                    "chart_3-9"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of Americans who say spending time with family is one of the most important things to them personally and the proportion of Americans who say all or most of their extended - family members live within an hour's drive?",
+                "rationale": "The proportion of Americans who say spending time with family is one of the most important things to them personally is 73% (from Chart 2). The proportion of Americans who say all or most of their extended - family members live within an hour's drive is 28% (from Chart 4). The difference is 73% - 28% = 45%.",
+                "answer": "45%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_4-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who say spending time with family is one of the most important things to them personally, the proportion of all U.S. adults who say it is very important to live in a community where they have family nearby, and the proportion of Americans who say all or most of their extended - family members live within an hour's drive? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Americans who say spending time with family is one of the most important things to them personally is 73%. The proportion of all U.S. adults who say it is very important to live in a community where they have family nearby is 36%. The proportion of Americans who say all or most of their extended - family members live within an hour's drive is 28%. The average is (73% + 36% + 28%) / 3 = 45.67% (rounded to two decimal places).",
+                "answer": "45.67%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-1",
+                    "chart_4-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who say spending time with family is one of the most important things to them personally, the net - proportion of U.S. adults who say it is important to live in a community where they have family nearby, the proportion of Americans who say some of their extended - family members live within an hour's drive, and the proportion of all American adults surveyed in 2020 who say talking about politics with people they disagree with is generally stressful and frustrating?",
+                "rationale": "The proportion of Americans who say spending time with family is one of the most important things to them personally is 73% (chart_2-1). The net - proportion of U.S. adults who say it is important to live in a community where they have family nearby is 75% (chart_3-3). The proportion of Americans who say some of their extended - family members live within an hour's drive is 27% (chart_4-2). The proportion of all American adults surveyed in 2020 who say talking about politics with people they disagree with is generally stressful and frustrating is 61% (chart_5-9). The average of these four proportions is (73% + 75% + 27% + 61%) / 4 = 59%.",
+                "answer": "59%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_4-2",
+                    "chart_5-9"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of Americans who think spending time with family is one of the most important things and those who think it is very important but not the most important, and the sum of the proportions of Americans who think all or most of their extended - family members live within an hour's drive and those who think some of their extended - family members live within an hour's drive?",
+                "rationale": "The proportion of Americans who think spending time with family is one of the most important things to them personally is 73% (chart_2-1), and the proportion of those who think it is very important but not the most important is 18% (chart_2-2). Their sum is 73% + 18% = 91%. The proportion of Americans who say all or most of their extended - family members live within an hour's drive is 28% (chart_4-1), and the proportion of those who say some of their extended - family members live within an hour's drive is 27% (chart_4-2). Their sum is 28% + 27% = 55%. Then the difference between the two sums is 91% - 55% = 36%.",
+                "answer": "36%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of Americans who say spending time with family is one of the most important things to them personally, the net - proportion of U.S. adults aged 50 - 64 who say it is important to live in a community where they have family nearby, and the proportion of Americans who say all or most of their extended - family members live within an hour's drive, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of Americans who say spending time with family is one of the most important things to them personally is 73% (chart_2-1); the net - proportion of U.S. adults aged 50 - 64 who say it is important to live in a community where they have family nearby is 75% (chart_3-18); the proportion of Americans who say all or most of their extended - family members live within an hour's drive is 28% (chart_4-1). The weighted average is (73%\u00d70.2 + 75%\u00d70.3 + 28%\u00d70.5) = (0.73\u00d70.2 + 0.75\u00d70.3 + 0.28\u00d70.5) = 0.146+ 0.225 + 0.14 = 0.511 = 51.1%.",
+                "answer": "51.1%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-17",
+                    "chart_3-18",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who say spending time with family is one of the most important things to them personally, the net - proportion of U.S. adult women who say it is important to live in a community where they have family nearby, the sum of the proportions of Americans who say all or most and some of their extended - family members live within an hour's drive, and the average of the proportions of all American adults surveyed in 2019 and 2020 who say talking about politics with people they disagree with is generally stressful and frustrating?",
+                "rationale": "From Chart 2, the proportion of Americans who say spending time with family is one of the most important things to them personally is 73%. From Chart 3, the net - proportion of U.S. adult women who say it is important to live in a community where they have family nearby is 80%. From Chart 4, the sum of the proportions of Americans who say all or most and some of their extended - family members live within an hour's drive is 28% + 27% = 55%. From Chart 5, the average of the proportions of all American adults surveyed in 2019 and 2020 who say talking about politics with people they disagree with is generally stressful and frustrating is (59% + 61%) / 2 = 60%. The average of these four values is (73% + 80% + 55% + 60%) / 4 = 67%.",
+                "answer": "67%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-9",
+                    "chart_3-7",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-7",
+                    "chart_5-9"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

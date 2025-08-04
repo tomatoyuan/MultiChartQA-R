@@ -1,0 +1,199 @@
+{
+  "chart": [
+    "chart_83_1",
+    "chart_83_2",
+    "chart_83_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Do the changing trends over the years of 'Total value of equipment worth over 10,000 yuan in Chinese rehabilitation hospitals from 2010 - 2020' and 'Market size and space of China's rehabilitation medical services from 2019 - 2025' match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both show a gradual increase.",
+      "charts_involved": [
+        "chart_83_1",
+        "chart_83_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the numbers of color - matching types in 'Total value of equipment worth over 10,000 yuan in Chinese rehabilitation hospitals from 2010 - 2020' and 'Distribution of Equipment Units Worth Over 10,000 Yuan in Chinese Rehabilitation Hospitals in 2020' match? Answer yes or no.",
+      "answer": "No",
+      "explanation": "One color is used in chart_83_1, and three colors are used in chart_83_3.",
+      "charts_involved": [
+        "chart_83_1",
+        "chart_83_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the year with the highest total value in 'Total value of equipment worth over 10,000 yuan in Chinese rehabilitation hospitals from 2010 - 2020' the same as the year with the largest size and space in 'Market size and space of China's rehabilitation medical services from 2019 - 2025'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The year in chart_83_1 is 2019. The year in chart_83_2 is 2025e.",
+      "charts_involved": [
+        "chart_50_1",
+        "chart_50_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the value of each piece of equipment worth over 10,000 yuan in 2020 in ten thousand yuan? Round to 2 decimal places. Answer: xx.xx ten thousand yuan",
+      "answer": "746.56 ten thousand yuan",
+      "explanation": "The total value of equipment worth over 10,000 yuan in 2020 is 746,559 ten thousand yuan ÷ the total number of equipment (950 + 30 + 20 = 1,000 pieces) = 746.559 ten thousand yuan per piece. Rounded to 2 decimal places, it is 746.56 ten thousand yuan.",
+      "charts_involved": [
+        "chart_83_1",
+        "chart_83_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the market size of rehabilitation medical services in 2021 to the total value of equipment worth over 10,000 yuan in 2019? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "13.51 times",
+      "explanation": "The service market size in 2021 is 101.1 billion yuan ÷ the total value of equipment in 2019 is 748,276 ten thousand yuan = 1.351. Rounded to 2 decimal places, it is 13.51 times.",
+      "charts_involved": [
+        "chart_83_2",
+        "chart_83_1"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the growth rate of the service market size in 2021 to the proportion of equipment worth 1,000,000 yuan and above? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "11.88 times",
+      "explanation": "The growth rate of the market size = (1011 - 817) / 817 × 100 = 23.75%; The proportion of equipment worth 1,000,000 yuan and above is 2%; 23.75% ÷ 2% = 11.875. Rounded to 2 decimal places, it is 11.88 times.",
+      "charts_involved": [
+        "chart_83_2",
+        "chart_83_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the chart of the total value of equipment worth over 10,000 yuan in rehabilitation hospitals and the chart of the market size of China's rehabilitation medical services, how does the long - term growth trend of equipment investment form a synergistic effect with the expansion of the market size?",
+      "answer": {
+        "A": "In 2019 and 2020, the equipment value remained at a high level. During the same period, the actual data of the market size increased significantly. This shows that the short - term stability of equipment investment may directly promote the increase in service supply.",
+        "B": "A long - term decline in equipment investment will lead to a simultaneous shrinkage of the market size, because the reduction of capital investment will inevitably limit the service supply capacity.",
+        "C": "The increase in equipment investment has been significantly larger since 2015, while the future estimated values of the market size (from 2022e to 2025e) are predicted to grow at a high speed. This implies that the acceleration of historical investment may enhance the market growth potential.",
+        "D": "The increase in equipment investment was the largest in 2015 (a 46.4% increase compared to 2014), but the market size will grow at a high speed only from 2022e. Therefore, the impact of equipment investment on the market takes 7 years to appear.",
+        "E": "The trend of equipment investment has nothing to do with the market size, and there is no synergistic effect. The market expansion is only driven by external demand.",
+        "F": "The value of equipment investment was the lowest in 2010 (616.23 million yuan), but the market size was not counted until 2019, indicating that the impact of equipment accumulation on the market is delayed by 10 years.",
+        "G": "The total value of equipment showed a continuous and accelerating growth from 2010 to 2020, while the market size entered a rapid upward channel since 2019, indicating that equipment accumulation may lay a foundation for the improvement of service capacity and support market expansion."
+      },
+      "charts_involved": [
+        "chart_83_1",
+        "chart_83_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In 2020, the chart of the total value of equipment worth over 10,000 yuan in rehabilitation hospitals shows a slight decrease in value, while the chart of the market size of China's rehabilitation medical services shows an increase in size. What factors may explain this data conflict?",
+      "answer": {
+        "A": "The data for 2020 in the market size chart is an estimated value (marked e), but it is actually a real value. Therefore, the conflict is caused by the inconsistent statistical methods.",
+        "B": "The chart of the distribution of equipment units shows that high - value equipment accounts for 30% (worth 500,000 - 999,999 yuan). The increase in such equipment should push up the total value, but the actual value has decreased. This shows that the conflict cannot be reconciled.",
+        "C": "The decrease in equipment value may reflect equipment depreciation or replacement, resulting in a decrease in asset value. The increase in market size may be due to a surge in service demand or an improvement in operating efficiency. This reconciles the conflict by comparing the divergence between the equipment investment trend and the service data trend.",
+        "D": "The decrease in equipment value directly reflects the shrinkage of hospital operations, leading to a simultaneous decline in the market size. The conflict is caused by statistical errors.",
+        "E": "The market expansion is completely driven by external demand, and has nothing to do with equipment value. Therefore, there is no need to explain the conflict.",
+        "F": "Combined with the chart of the distribution of equipment units, in 2020, the vast majority of equipment belongs to the low - value category (10,000 - 500,000 yuan). It may increase the service volume through high utilization rather than high - value equipment, thus supporting the market expansion despite the slight decrease in the total equipment value.",
+        "G": "The total equipment value showed a continuous and accelerating growth from 2010 to 2020, while the market size entered a rapid upward channel since 2019, indicating that equipment accumulation may lay a foundation for the improvement of service capacity and support market expansion."
+      },
+      "charts_involved": [
+        "chart_83_1",
+        "chart_83_2",
+        "chart_83_3"
+      ],
+      "label": [
+        "C",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In 2020, based on the chart of the distribution of equipment units worth over 10,000 yuan in rehabilitation hospitals and the chart of the estimated market size of China's rehabilitation medical services, how does the structure of equipment value categories implicitly affect the future growth space of the market size?",
+      "answer": {
+        "A": "The proportion of medium - value equipment (500,000 - 999,999 yuan) in the equipment distribution is relatively low, which may limit the speed of service upgrade. However, the estimated market size shows continuous growth, which implies that other factors (such as demand or policy) are compensating for the deficiency of the equipment structure.",
+        "B": "If all equipment belongs to the high - value category, it will directly drive the market size to grow at an extremely high speed, especially in the high - end service field.",
+        "C": "Medium - value equipment accounts for 30% (500,000 - 999,999 yuan), which can provide a balanced service capacity and promote the stable growth of the market size.",
+        "D": "The extremely high proportion of low - value equipment (10,000 - 500,000 yuan) may support the popularization of inclusive services, which is consistent with the rapid growth of the future estimated market size. This indicates that a wide range of equipment can expand market accessibility.",
+        "E": "The equipment distribution structure has no impact on market growth. The growth space completely depends on the trend of population aging and has nothing to do with assets.",
+        "F": "Although the proportion of high - value equipment (1,000,000 yuan and above) is small, it may drive the development of specialized or high - end services and contribute to the high - growth potential in the estimated market size, especially in the high - value service field.",
+        "G": "Low - value equipment accounts for 95%, but the estimated market size in 2025e grows the slowest (only a 29.2% increase compared to 2024e), indicating that the equipment structure limits the growth potential."
+      },
+      "charts_involved": [
+        "chart_83_3",
+        "chart_83_2"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the historical trends of equipment investment in rehabilitation hospitals and the current distribution of equipment values, how should the future equipment procurement strategy be optimized to improve service efficiency and quality?",
+      "answer": {
+        "A": "Given that the total equipment value in 2020 was slightly lower than that in 2019 (chart_83_1), high - value equipment procurement should be prioritized for reduction to avoid further decline in value.",
+        "B": "Maintain or expand the procurement scale of medium - and low - value equipment to meet basic needs. Low - value equipment accounts for the absolute majority of the existing equipment, and the rehabilitation service market forecast shows a significant increase in demand. This can ensure the wide accessibility of services and avoid service bottlenecks caused by resource shortages.",
+        "C": "Optimize equipment use by enhancing the skill training of medical staff to reduce procurement needs, thereby controlling costs and improving service quality.",
+        "D": "Since medium - and low - value equipment accounts for up to 95% (chart_83_3), high - value equipment procurement should be completely stopped, and resources should be concentrated on purchasing more low - value equipment to quickly expand service coverage.",
+        "E": "Reduce the overall equipment investment scale and divert funds to patient welfare projects to directly improve service satisfaction.",
+        "F": "Prioritize increasing the procurement proportion of high - value equipment. The total equipment investment has shown a continuous and rapid growth, but the proportion of high - value equipment is extremely low. Combining with the strong expansion trend of the rehabilitation service market, high - value equipment can better support complex rehabilitation needs, improve service quality, and enhance differentiated competitiveness."
+      },
+      "charts_involved": [
+        "chart_83_1",
+        "chart_83_2",
+        "chart_83_3"
+      ],
+      "label": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Facing the expected high - speed growth of the rehabilitation medical service market, how should resources be allocated to optimize the overall operational capacity in combination with the current situation and value structure of equipment investment?",
+      "answer": {
+        "A": "Increase the total equipment investment scale and focus on high - value equipment. The historical growth trend of the total equipment value is highly consistent with the market expansion forecast, but high - value equipment is scarce. Investing in high - value equipment can directly enhance service capabilities and meet the potential market demand for high - end rehabilitation services.",
+        "B": "Since the growth rate of the total equipment value is faster than that of the market scale (e.g., from 2019 - 2020, the equipment value increased by about 11% vs. the market scale increased by 22%), equipment investment should be slowed down to avoid resource over - supply.",
+        "C": "Optimize the utilization rate and maintenance of existing low - value equipment instead of just increasing new purchases. The number of low - value equipment is large but the proportion is too high. By improving their use efficiency, market growth can be coped with, new investment costs can be reduced, and resource sustainability can be ensured.",
+        "D": "Based on the absolute advantage of the proportion of medium - and low - value equipment (chart_83_3), high - value equipment procurement should be completely shifted to, and resources should be concentrated on purchasing more low - value equipment to quickly expand service coverage.",
+        "E": "Strengthen brand promotion and market marketing to attract more patients and take advantage of market growth, thereby indirectly improving operational efficiency.",
+        "F": "Outsource equipment maintenance to professional companies to release internal resources for other operational links."
+      },
+      "charts_involved": [
+        "chart_83_1",
+        "chart_83_2",
+        "chart_83_3"
+      ],
+      "label": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the current distribution characteristics of rehabilitation medical equipment and the changing trend of the market scale, how should strategies be formulated to balance service coverage and technological level improvement?",
+      "answer": {
+        "A": "Since the market scale is predicted to double continuously (chart_83_2), procurement funds should be evenly distributed among all equipment types and regions to avoid any bias and ensure fairness.",
+        "B": "Concentrate high - value equipment deployment in high - demand areas or core hospitals. The proportion of high - value equipment is extremely small, but the market is growing rapidly, and the total equipment investment capacity is continuously increasing. Concentrated investment can quickly improve the service quality in key areas to meet the technological gap in market expansion.",
+        "C": "Introduce a digital management system to monitor equipment use instead of adjusting the procurement strategy to indirectly optimize coverage and technology.",
+        "D": "Given that high - value equipment accounts for only 2% (chart_83_3), they should be prioritized for deployment in remote areas to quickly improve the technological level in these areas.",
+        "E": "Expand the network of medium - and low - value equipment in grass - roots or remote areas. Low - value equipment accounts for an absolute majority and is easy to deploy. Combining with the general increase in market demand, this can prioritize the accessibility of basic services and promote the fair distribution of resources.",
+        "F": "Expand the number and scale of rehabilitation hospitals to increase the overall service capacity to cope with market growth."
+      },
+      "charts_involved": [
+        "chart_83_2",
+        "chart_83_3",
+        "chart_83_1"
+      ],
+      "label": [
+        "B",
+        "E"
+      ]
+    }
+  ]
+}

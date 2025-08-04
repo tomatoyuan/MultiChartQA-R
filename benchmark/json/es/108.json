@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_108_1",
+    "chart_108_2",
+    "chart_108_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿Es consistente la tendencia de cambio de los valores entre los cinco principales canales de obtención de información de medios financieros clasificados por proporción descendente (Weibo/WeChat → Plataformas de videos cortos como Douyin y Kuaishou → Plataformas de información como Toutiao y Baidu Hao → Radio y TV → Sitios web oficiales de medios financieros) y la proporción de cada nivel de frecuencia de lectura de información financiera (4 - 5 veces a la semana → 1 - 3 veces a la semana → Todos los días → Lectura irregular y fragmentada)? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Las proporciones de las dos secuencias disminuyen monótonamente con el ranking, y las tendencias son consistentes.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Existe una correlación positiva entre la proporción de uso del canal Weibo/WeChat (45.61%) y la proporción de usuarios de noticias financieras que dan 5 puntos en la dimensión de 'Actualización en tiempo real' (43.53%)? Responda correlación positiva, correlación negativa o no correlación.",
+      "answer": "Correlación positiva",
+      "explanation": "Ambas métricas se encuentran en los niveles altos de sus respectivos conjuntos de datos y sus valores son similares, mostrando un cambio en la misma dirección.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿El nivel con la proporción más alta de frecuencia de lectura de información financiera (4 - 5 veces a la semana, 51.54%) corresponde a la dimensión con la proporción más alta de 5 puntos en la puntuación de importancia de las noticias financieras, que es 'Actualización en tiempo real' (43.53%)? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "La lectura frecuente responde a la alta valoración de la 'Actualización en tiempo real', lo que muestra que los usuarios tienen la mayor demanda de información oportuna.",
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Qué proporción de usuarios de noticias financieras en 2025 obtiene información a través de plataformas de videos cortos como Douyin y Kuaishou y lee información de medios financieros 4 - 5 veces a la semana? En porcentaje, redondeado a 2 decimales. Respuesta: xx.xx%",
+      "answer": "22.72%",
+      "explanation": "La proporción de usuarios que obtienen información a través de plataformas de videos cortos es del 44.08% × la proporción de usuarios que leen 4 - 5 veces a la semana es del 51.54% = 0.4408 × 0.5154 = 0.22718832. Redondeado a 2 decimales, se obtiene 22.72%.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Qué proporción de usuarios que leen noticias financieras todos los días en 2025 dio 5 puntos en la dimensión de “Actualización en tiempo real”? En porcentaje, redondeado a 2 decimales. Respuesta: xx.xx%",
+      "answer": "8.69%",
+      "explanation": "La proporción de usuarios que leen noticias financieras todos los días es del 19.96% × la proporción de usuarios que dieron 5 puntos en la dimensión de “Actualización en tiempo real” es del 43.53% = 0.1996 × 0.4353 = 0.08688588. Redondeado a 2 decimales, se obtiene 8.69%.",
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Qué proporción de usuarios que obtienen información financiera a través de Weibo/WeChat en 2025 dio 5 puntos en la dimensión de “Soporte de datos”? En porcentaje, redondeado a 2 decimales. Respuesta: xx.xx%",
+      "answer": "17.35%",
+      "explanation": "La proporción de usuarios que obtienen información a través de Weibo/WeChat es del 45.61% × la proporción de usuarios que dieron 5 puntos en la dimensión de “Soporte de datos” es del 38.05% = 0.4561 × 0.3805 = 0.17354605. Redondeado a 2 decimales, se obtiene 17.35%.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según la distribución de los principales canales por los que los usuarios obtienen información financiera y el nivel de importancia que otorgan a diferentes dimensiones de las noticias financieras, ¿qué canales podrían apoyar de manera más efectiva las necesidades de los usuarios en las dimensiones de alta importancia?",
+      "answer": {
+        "A": "Los canales de los medios tradicionales, como los periódicos/revistas, pueden proporcionar información más confiable, ya que los medios impresos siempre se han considerado fuentes autorizadas, lo que aumenta la confianza de los usuarios.",
+        "B": "Los canales de redes sociales, como Weibo/WeChat, pueden mejorar la participación de los usuarios, ya que la interactividad es una ventaja inherente de las plataformas de redes sociales y ayuda a establecer la lealtad de los usuarios.",
+        "C": "Los canales de redes sociales como Weibo/WeChat, ya que tienen una proporción más alta en la obtención de información por parte de los usuarios y la dimensión de actualización en tiempo real obtiene la puntuación más alta en la evaluación de importancia, lo que sugiere que este canal puede satisfacer mejor las necesidades de temporalidad.",
+        "D": "El canal de los sitios web oficiales de los medios financieros tiene una proporción alta (31,91%) y la dimensión de profesionalismo y autoridad obtiene la puntuación más alta (la proporción de 5 puntos es del 35,64%), lo que indica que el sitio web oficial es el canal más eficaz para satisfacer las necesidades profesionales.",
+        "E": "El canal de los proveedores profesionales de datos financieros, aunque la proporción de usuarios que lo utilizan para obtener información es relativamente baja, las dimensiones de soporte de datos y profesionalismo y autoridad obtienen puntuaciones altas en la evaluación de importancia, lo que indica que este canal puede ser más adecuado para las necesidades profesionales profundas.",
+        "F": "Los canales de videos cortos como Douyin y Kuaishou tienen una alta proporción de usuarios que los utilizan para obtener información, pero la dimensión de nuevo formato obtiene una puntuación baja en la evaluación de importancia, lo que puede significar que este canal, aunque es popular, no satisface completamente las necesidades de innovación.",
+        "G": "Los canales de videos cortos como Douyin y Kuaishou tienen la proporción más alta (44,08%) y la dimensión de nuevo formato obtiene la puntuación más alta en la evaluación de importancia (la proporción de 5 puntos es del 29,82%), por lo que este canal puede satisfacer perfectamente las necesidades de los usuarios en cuanto a la forma innovadora."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Los datos de la frecuencia con la que los usuarios leen la información financiera muestran una alta regularidad, pero la puntuación de importancia de algunas dimensiones del contenido es relativamente baja. ¿Qué opciones pueden explicar esta contradicción?",
+      "answer": {
+        "A": "Los usuarios que leen con frecuencia (por ejemplo, 4 - 5 veces a la semana) pueden valorar más las dimensiones de actualización en tiempo real y análisis profundo, ya que estas dos dimensiones obtienen puntuaciones altas en la evaluación de importancia, pero la dimensión de interactividad obtiene una puntuación baja, lo que sugiere que los usuarios que leen con frecuencia priorizan la temporalidad en lugar de la interacción.",
+        "B": "Los usuarios que leen con frecuencia pueden prestar más atención a la profundidad del contenido, ya que el análisis profundo requiere una atención continua para comprender completamente la información compleja.",
+        "C": "La dimensión de nuevo formato obtiene una puntuación baja en la evaluación de importancia (la proporción de 5 puntos es del 29,82%), pero la proporción de usuarios que leen de forma irregular y fragmentada es alta (6,57%), lo que indica que los usuarios no valoran la forma innovadora, lo que causa una discrepancia entre la frecuencia de lectura y las necesidades de las dimensiones.",
+        "D": "Aunque la proporción de usuarios que leen todos los días no es alta, la dimensión de profesionalismo y autoridad obtiene una puntuación alta, lo que indica que las necesidades profesionales altas pueden impulsar a algunos usuarios a leer todos los días, en lugar de que la frecuencia domine todas las dimensiones.",
+        "E": "Los usuarios que leen de forma fragmentada prefieren más el contenido visual, por lo que la dimensión de nuevo formato es crucial para ellos y puede mejorar la eficiencia de la absorción de información.",
+        "F": "La proporción de usuarios que leen todos los días es la más alta (19,96%) y la dimensión de actualización en tiempo real obtiene una puntuación alta (la proporción de 5 puntos es del 43,53%), lo que indica que los usuarios que leen con frecuencia valoran más la temporalidad y ignoran la dimensión de interactividad (puntuación baja).",
+        "G": "La proporción de usuarios que leen de forma fragmentada es relativamente baja, pero la dimensión de nuevo formato obtiene una puntuación baja en la evaluación de importancia, lo que puede indicar que incluso los usuarios no regulares no consideran la forma innovadora como una necesidad central."
+      },
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Cómo la distribución de los canales principales de obtención de información y la frecuencia de lectura de los usuarios influyen conjuntamente en la importancia que se otorga a dimensiones específicas de las noticias financieras?",
+      "answer": {
+        "A": "El canal de los proveedores profesionales de datos financieros tiene una proporción baja (13,27%), pero la dimensión de análisis profundo obtiene una puntuación baja (la proporción de 5 puntos es del 35,96%), lo que indica que incluso con pocos usuarios, este canal no puede satisfacer las necesidades de profundidad y está poco afectado por la frecuencia.",
+        "B": "El canal de Weibo/WeChat tiene la proporción más alta (45,61%), combinado con que la mayoría de los usuarios leen varias veces a la semana (51,54%), lo que refuerza la importancia de la dimensión de interactividad, ya que la alta interactividad obtiene una puntuación alta en la evaluación de importancia (la proporción de 5 puntos es del 28,07%).",
+        "C": "Los usuarios que leen con frecuencia tienden a confiar más en los canales oficiales, lo que puede reforzar la importancia de la autoridad de la marca, ya que el contacto frecuente puede crear familiaridad.",
+        "D": "Los canales de videos cortos como Douyin y Kuaishou pueden ampliar la cobertura de usuarios, lo que aumenta la demanda de diversidad de contenido, ya que la diversidad es la clave para atraer al público.",
+        "E": "Los canales de los sitios web oficiales y las aplicaciones de los medios financieros tienen una proporción relativamente baja, y la proporción de usuarios que leen con frecuencia es alta, pero la dimensión de perspectiva internacional obtiene una puntuación alta, lo que sugiere que incluso si pocos usuarios utilizan los canales oficiales, todavía valoran la perspectiva global.",
+        "F": "El canal de radio y televisión tiene una proporción mediana, pero los datos de la frecuencia de lectura muestran que menos usuarios leen todos los días, lo que puede debilitar la demanda de la dimensión de reporte exclusivo, ya que la puntuación de esta dimensión en la evaluación de importancia fluctúa mucho.",
+        "G": "Los canales de plataformas de información como Toutiao y Baidu Hao tienen una proporción alta, combinado con que la mayoría de los usuarios leen varias veces a la semana, lo que puede reforzar la importancia de la dimensión de contenido rico, ya que esta dimensión obtiene una puntuación alta en la evaluación de importancia."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en las preferencias de los usuarios de noticias financieras sobre los canales para obtener información y sus hábitos de lectura, ¿cómo deberían ajustar las estrategias de distribución de contenido los medios financieros para aumentar la cobertura y la participación de los usuarios? Elija la sugerencia más razonable.",
+      "answer": {
+        "A": "Integrar funciones de datos y análisis profesionales en los sitios web oficiales y las aplicaciones de los medios financieros para satisfacer la demanda de contenido profundo de los usuarios y compensar la deficiencia en la cobertura de los canales profesionales.",
+        "B": "Priorizar el fortalecimiento de la capacidad de distribución de contenido en las plataformas de redes sociales y vídeos cortos, ya que estos canales tienen la mayor cobertura de usuarios y los usuarios de lectura frecuente dependen más de estas plataformas para obtener información oportuna.",
+        "C": "Los medios financieros deben promocionar ampliamente su imagen de marca y aumentar la visibilidad general a través de campañas publicitarias y de relaciones públicas, para aumentar indirectamente la cobertura y la participación de los usuarios.",
+        "D": "Aumentar la frecuencia de actualización y la interactividad del contenido en las plataformas de información y los canales de radio y televisión para adaptarse a los hábitos de lectura regulares de los usuarios y atraer a los usuarios de lectura fragmentada al mismo tiempo.",
+        "E": "Incrementar la inversión en los blogs financieros/sitios web personales, ya que la proporción de este canal es del 18.64%, lo que indica la existencia de una demanda específica de un grupo de usuarios, y se pueden atraer a estos usuarios a través de la personalización de contenido profundo.",
+        "F": "Dado que la proporción de usuarios de lectura fragmentada es solo del 6.57%, los medios deben reducir la asignación de recursos en las plataformas de vídeos cortos, ya que los vídeos cortos suelen estar relacionados con el consumo fragmentado, y en cambio, centrarse en los canales de actualización regular como la radio y la televisión."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "En función del nivel de importancia que otorgan los usuarios a las características de las noticias financieras y sus comportamientos de lectura, ¿en qué dimensiones de contenido deben priorizar las mejoras los medios para mejorar eficazmente la satisfacción y la lealtad de los usuarios? Elija la estrategia más efectiva.",
+      "answer": {
+        "A": "Mejorar el análisis profundo y la perspectiva internacional del contenido para atraer a los usuarios profesionales, y al mismo tiempo, combinar las características de los canales de obtención de información de los usuarios para garantizar que el contenido sea fácilmente accesible en las plataformas principales.",
+        "B": "Los medios deben garantizar que todo el contenido periodístico sea preciso y confiable, evitar la información errónea, para establecer la confianza de los usuarios y mejorar la lealtad general.",
+        "C": "Centrarse en mejorar la capacidad de actualización en tiempo real y el soporte de datos de las noticias, ya que los usuarios dan las puntuaciones más altas en estas dimensiones, y los hábitos de lectura frecuente indican una fuerte demanda de información oportuna.",
+        "D": "Dado que la proporción de usuarios que leen 1 - 3 veces a la semana es del 21.93%, los medios deben fortalecer la dimensión de reportaje exclusivo (el 29.39% de 5 puntos) para atraer el interés de este grupo de usuarios de frecuencia de lectura media.",
+        "E": "Priorizar la mejora de la dimensión de fuerte interacción, ya que la proporción de 5 puntos es la más baja (28.07%), lo que indica que los usuarios están menos satisfechos. Se puede aumentar la participación de los usuarios de lectura frecuente mediante la adición de funciones de comentarios y redes sociales.",
+        "F": "Optimizar los elementos de formato novedoso e interactividad. Aunque las puntuaciones en estas dimensiones son relativamente bajas, los usuarios de lectura frecuente pueden aumentar su participación a través de formas innovadoras."
+      },
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Teniendo en cuenta la diversidad de los canales de obtención de información de los usuarios y sus preferencias por las características del contenido, ¿cómo deben asignar los recursos los medios financieros para equilibrar la cobertura y la profesionalidad y maximizar la influencia general? Elija la sugerencia más razonable.",
+      "answer": {
+        "A": "Incorporar elementos de contenido profesional, como datos en tiempo real y análisis profundo, en los canales con alta cobertura de usuarios (como las redes sociales y los vídeos cortos) para aprovechar la gran base de usuarios y aumentar la influencia profesional.",
+        "B": "Dado que el canal de proveedores profesionales de datos financieros tiene la menor proporción (13.27%), los medios deben reducir gradualmente la inversión en este canal y concentrar los recursos en los canales de alta cobertura como Weibo/WeChat para priorizar el aumento de la cobertura.",
+        "C": "Fortalecer el reportaje exclusivo y el contenido autorizado en los sitios web oficiales y las aplicaciones de los medios financieros, dirigida a los usuarios de lectura frecuente, para compensar la deficiencia en la cobertura de estos canales pero teniendo en cuenta la alta lealtad de los usuarios.",
+        "D": "Los medios deben asignar los recursos de manera uniforme a todos los canales y dimensiones de contenido para garantizar que cada canal reciba el mismo apoyo y lograr un equilibrio entre la cobertura general y la profesionalidad.",
+        "E": "Dado que la puntuación de la dimensión de perspectiva internacional es alta (el 35.96% de 5 puntos), los medios deben proporcionar contenido internacional en los canales de periódicos/revistas, ya que la proporción de este canal es del 24.67%, lo cual es adecuado para la producción profunda y profesional.",
+        "F": "Integrar el contenido fragmentado de los canales tradicionales como la radio y la televisión y los periódicos y revistas, y combinarlo con la frecuencia de lectura de los usuarios para proporcionar actualizaciones resumidas y mantener la participación de los usuarios de frecuencia baja y media."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    }
+  ]
+}

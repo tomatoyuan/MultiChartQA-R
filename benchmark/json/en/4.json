@@ -1,0 +1,205 @@
+{
+  "chart": [
+    "chart_4_1",
+    "chart_4_2",
+    "chart_4_3",
+    "chart_4_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the change trend of the proportion of eye plastic surgery in May consistent with the change trend of the attention in the 'Attention Trend of May Medical Aesthetics Industry News' from May 19th to May 22nd? Answer yes or no.",
+      "answer": "No",
+      "explanation": "It remains unchanged in chart_4_1; it continues to decline in chart_4_3.",
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of the attention to plastic surgery in the 'Attention Channels of Medical Aesthetics Industry News in May' from May 15th to May 17th consistent with the change trend of the attention in the 'Attention Trend of May Medical Aesthetics Industry News' from May 12th to May 14th? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both first rise and then fall.",
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "On the day when the attention to plastic surgery in May reaches the peak, does the attention to medical aesthetics industry news reach the trough? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The peak of the attention to plastic surgery is on May 16th; while the trough of the attention to medical aesthetics industry news is on May 12th.",
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "How much plastic surgery attention did the computer - side contribute on May 16th? In millions, and keep 3 decimal places for the value.",
+      "answer": "0.037 million",
+      "explanation": "9.0 million * 4.12% = 0.03708 million",
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assuming that the attention channels on the computer - side and the mobile - side are the same, what is the proportion of image - text in the mobile - side retrieval proportion? Express it as a percentage and keep 4 significant figures.",
+      "answer": " 11.20%",
+      "explanation": "95.88% * 11.69% = 11.208372%",
+      "charts_involved": [
+        "chart_4_2",
+        "chart_4_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "How much plastic surgery attention did the mobile - side contribute on May 31st? In millions, and keep 3 decimal places for the value.",
+      "answer": "6.712 million",
+      "explanation": "7.0 million * 95.88% = 6.7116 million",
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the medical aesthetics industry, the overall search attention is relatively stable, but the news attention fluctuates significantly. Combining with the distribution chart of retrieval devices, what factors may explain this difference?",
+      "answer": {
+        "A": "The news attention dropped sharply to 500,000 on May 12 because the usage rate of mobile - side retrieval devices decreased that day, but the search attention was not affected.",
+        "B": "The proportion of computer - side retrieval is as high as 4.12%, making search behavior more controllable and stable; the 95.88% proportion of mobile - side retrieval causes news to be more susceptible to random factors and fluctuate.",
+        "C": "The stability of search attention is due to the constant seasonal demand in the medical aesthetics industry, while the news fluctuation is mainly affected by holiday promotion activities.",
+        "D": "The proportion of computer - side retrieval is extremely low, and searches are mainly completed through mobile devices, which helps to keep the search trend stable; the abnormally high or low values of news attention on different days may be related to the timing of content release.",
+        "E": "The extremely high proportion of mobile - side retrieval indicates that users' search behavior is more routine and consistent, while news attention may be affected by external events or the frequency of content updates, resulting in greater fluctuations.",
+        "F": "Users' search behavior is driven by brand marketing strategies and remains consistent; news fluctuations are due to the frequent updates of social media algorithms.",
+        "G": "Search attention remains stable on most days, while news attention drops sharply in the middle of the month. Combining with the mobile - side - dominated retrieval method, it shows that search is a basic need, while news is more susceptible to temporary factors."
+      },
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_2",
+        "chart_4_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "On May 16, the search attention trend chart shows a peak in the attention of plastic surgery, but the news attention trend chart does not show a corresponding increase on that day. Combining with the news attention channels chart, which options can best explain this data conflict?",
+      "answer": {
+        "A": "The proportion of videos in news attention channels is extremely high. Search behavior is more direct and real - time, while news content requires a creation cycle. Therefore, news may lag on days when searches surge.",
+        "B": "The search peak is driven by a sudden increase in the proportion of nose plastic surgery (from 2.0% to a higher level), but video news does not cover this topic, exacerbating the conflict.",
+        "C": "Users usually prefer to actively obtain information rather than passively consume news on days when searches peak, resulting in a lag in news attention.",
+        "D": "The proportion of certain categories (such as eye plastic surgery) in the search decreased on that day, indicating a shift in the theme, but video news did not cover the new theme, exacerbating the mismatch between search and news.",
+        "E": "The news platform may have had a server failure on May 16, reducing the accessibility of content and thus suppressing the attention.",
+        "F": "The news attention on May 16 was actually high because the 88.08% proportion of the video channel can attract more users, but the low value of 3,000,000 is a data error.",
+        "G": "The search peak may be driven by an immediate event (such as a promotion), resulting in an increase in users' active retrieval. However, the news channels are mainly video - based, and there is a delay in content production and release, resulting in the news attention not increasing synchronously."
+      },
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_3",
+        "chart_4_4"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the search attention trend chart, on specific days (such as May 6 and May 16), the proportion of eye plastic surgery or skin care decreased, while the overall search volume remained stable or increased. Combining with the news attention channels chart, what implicit relationship may this reflect?",
+      "answer": {
+        "A": "Users' interests naturally shifted to emerging beauty categories on specific days, resulting in a decrease in the proportion of certain sub - categories, but the overall search demand remained unchanged.",
+        "B": "The proportion of skin care increased at the end of the month (such as on May 31). The high proportion of video news may have strengthened the seasonal theme, leading to a shift in search behavior at the end.",
+        "C": "The proportion of eye plastic surgery decreased on May 16, but the high proportion of the video channel should have increased its attention, which contradicts the increase in search volume.",
+        "D": "The overall search volume is stable, but the proportion of categories fluctuates. The dominant position of video news may cause users to turn to more consumable content forms on specific days, thus changing the weight of search themes.",
+        "E": "The proportion of skin care decreased to 10.0% on May 6 because the news attention suddenly increased that day. In fact, the proportion of skin care was 14.0%, and the news attention was 6,800,000.",
+        "F": "The high proportion (88.08%) of video news may have promoted other themes on those days, indirectly reducing users' search interest in specific categories.",
+        "G": "On days when the proportion decreased (such as on May 6, the proportion of eye plastic surgery increased but that of skin care decreased), the news channels were mainly video - based. Maybe the video content was more focused on specific themes, indirectly affecting the distribution of users' search interests."
+      },
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_3",
+        "chart_4_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The digital content distribution in the medical aesthetics industry needs to consider users' device preferences and content consumption patterns. According to the chart data, how should resources be allocated to improve user coverage and engagement? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Increase investment in cross - platform content optimization to ensure that all device types (such as computers and mobile devices) and content forms (such as videos and image - texts) receive balanced resource allocation to cover a wider user group.",
+        "B": "Significantly increase the development resources for computer - side video content. Since the proportion of computer - side retrieval is 4.12%, indicating a fixed and high - quality user group, combined with the dominant position of videos, it can efficiently reach high - value users.",
+        "C": "Concentrate the main resources on the development of mobile - side video content, because users' retrieval behavior highly depends on mobile devices, and the video form occupies an absolute dominant position in news consumption. This can more effectively match users' habits and improve the content reach rate.",
+        "D": "Explore pilot projects for emerging channels such as mini - programs. Although the current proportion is extremely small, combined with the high penetration rate of mobile devices, there are potential growth opportunities. This can diversify risks and capture emerging user groups, avoiding over - reliance on a single channel.",
+        "E": "Take image - text content as the main investment direction. Since it accounts for 11.69% in news consumption and is the second - largest form, and computer - side users may prefer in - depth reading, this can avoid the risk of over - reliance on mobile devices.",
+        "F": "Maintain basic investment in image - text content but avoid large - scale expansion. Since the proportion of image - text in news consumption is not high and the proportion of computer - side retrieval is extremely low, it indicates that users have a weak preference for traditional image - text forms, and resources should be prioritized for more efficient channels.",
+        "G": "Focus on improving content quality and user interaction functions (such as comments and sharing) to enhance user stickiness and engagement, without specifically focusing on device or form preferences."
+      },
+      "charts_involved": [
+        "chart_4_2",
+        "chart_4_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The trends of search attention and news attention reflect the changes in users' interests. How should marketing activities (such as content push or promotion) be arranged according to these trends to maximize user conversion during interest peaks? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Ignore the peak of search attention (such as 9.0 million on May 16). Since the news attention was only 3,000,000 on that day, which is relatively low, it indicates a mismatch in users' interests. Attention should be focused on periods when the news attention is high and stable (such as at the end of the month).",
+        "B": "Evenly distribute the intensity of marketing activities throughout the year to ensure continuous brand exposure and user cognitive stability, avoiding resource waste caused by trend fluctuations.",
+        "C": "Increase the promotion intensity of news during periods when the search attention shows a significant peak. Since the search peak indicates a surge in users' active demand, news promotion can timely meet the information demand and increase the chance of conversion.",
+        "D": "Monitor short - term fluctuations in search and news trends (such as abnormal changes on certain dates) and quickly adjust the activity intensity in response. This can more flexibly capture opportunities. For example, reduce promotion when the search is stable but the news attention drops suddenly.",
+        "E": "Increase the frequency of content updates and interactive activities during the period at the end of the month when the news attention is continuously high to maintain user participation and extend the interest cycle, avoiding resource waste during periods of low attention.",
+        "F": "Prioritize increasing marketing activities during holidays (such as the May Day holiday) because users usually have more free time to browse content, which can naturally increase participation.",
+        "G": "Concentrate promotion on the days when the news attention is the lowest (such as 500,000 on May 12) to stimulate users' interests and reverse the downturn, because the low point represents potential growth opportunities."
+      },
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The user search proportion and overall attention trend in the medical aesthetics sub - fields are different. How should content creation resources (such as videos or image - texts) be allocated to prioritize the development of high - potential fields and enhance the overall user attraction? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Design a flexible content strategy for the eye plastic surgery field. Strengthen targeted content during the period when the search proportion fluctuates to capture short - term interest changes and avoid wasting resources on stable but low - proportion fields.",
+        "B": "Based on industry hotspots rather than data, prioritize investment in emerging fields (such as micro - plastic surgery) to capture trend dividends and enhance overall attraction.",
+        "C": "Allocate resources evenly to stable fields such as nose plastic surgery, but do not over - invest because its search proportion is always the lowest and there is no growth trend. The focus should be on high - potential fields to optimize the overall effect.",
+        "D": "Focus on increasing resources for nose plastic surgery content. Since its search proportion is stable at 2.0%, indicating a loyal user base, combined with the video form, it can efficiently increase participation.",
+        "E": "Prioritize increasing the production resources for skin care content. Since its search proportion is relatively high in the long - term and shows an upward trend at the end of the month, combined with the dominant position of video news, this type of content is more likely to attract users and increase participation.",
+        "F": "Reduce investment in skin care content. Since its proportion dropped to 13.0% on May 16, indicating a decline in interest, resources should be shifted to eye plastic surgery with less fluctuation (with a proportion of 5.0%).",
+        "G": "Allocate equal resources to all sub - fields (such as skin care, eye plastic surgery, and nose plastic surgery) to ensure content diversity and comprehensive coverage, avoiding bias towards any single field."
+      },
+      "charts_involved": [
+        "chart_4_1",
+        "chart_4_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    }
+  ]
+}

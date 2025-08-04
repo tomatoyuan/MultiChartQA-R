@@ -1,0 +1,175 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What proportion of U.S. adults played sports only in high school and not in college? Please provide the answer as a percentage.\n question2: What is the proportion of U.S. adult Hispanic people who say they have personally bet money on sports in the last 12 months? Please answer with a percentage.",
+                "rationale": "rationale1: To find the proportion of U.S. adults who played sports only in high school and not in college, we need to subtract the proportion of those who played sports in both high school and college from the proportion of those who played sports in high school. According to the chart, the proportion of U.S. adults who played sports in high - school is 39% (chart_2-2), and the proportion of those who played sports in both high school and college is 7% (chart_2-4). So the calculation is 39% - 7% = 32%.\n rationale2: We should extract the proportion of U.S. adult Hispanic people who bet on sports in the last 12 months from the chart.",
+                "answer": "32%; 24%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_6-8"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of U.S. adults played sports only in high school and not in college? Please provide the answer as a percentage.\n question2: What proportion of people who participated in organized, competitive sports think competing in high - school/college sports had a very positive impact on their confidence or self - esteem?\n question3: What percentage of U.S. adults think Football is 'America's sport'? Please answer in percentage.",
+                "rationale": "rationale1: To find the proportion of U.S. adults who played sports only in high school and not in college, we need to subtract the proportion of those who played sports in both high school and college from the proportion of those who played sports in high school. According to the chart, the proportion of U.S. adults who played sports in high - school is 39% (chart_2-2), and the proportion of those who played sports in both high school and college is 7% (chart_2-4). So the calculation is 39% - 7% = 32%.\n rationale2: The question is about the proportion of people with a very positive impact on confidence or self - esteem from high - school/college sports among those in organized, competitive sports. We can obtain this value directly from the chart.\n rationale3: The question directly asks for the percentage of U.S. adults who think Football is 'America's sport'. The relevant data is provided in the chart, and we just need to extract that specific value.",
+                "answer": "32%; 38%; 53%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_3-4",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults aged 50 and above who say they have personally bet money on sports in the last 12 months? Please answer with a percentage.\n question2: Among Americans who follow sports at least somewhat closely, what proportion say because I bet on sports is a major reason?\n question3: What proportion of U.S. adults played sports only in high school and not in college? Please provide the answer as a percentage.\n question4: What percentage of U.S. adults think Football is 'America's sport'? Please answer in percentage.",
+                "rationale": "rationale1: The answer can be obtained by referring to the relevant content in the chart about the proportion of U.S. adults aged 50 and above who bet on sports in the last 12 months.\n rationale2: We are looking for the proportion of Americans who follow sports at least somewhat closely and consider betting on sports as a major reason. The chart provides this specific data.\n rationale3: To find the proportion of U.S. adults who played sports only in high school and not in college, we need to subtract the proportion of those who played sports in both high school and college from the proportion of those who played sports in high school. According to the chart, the proportion of U.S. adults who played sports in high - school is 39% (chart_2-2), and the proportion of those who played sports in both high school and college is 7% (chart_2-4). So the calculation is 39% - 7% = 32%.\n rationale4: The question directly asks for the percentage of U.S. adults who think Football is 'America's sport'. The relevant data is provided in the chart, and we just need to extract that specific value.",
+                "answer": "17%; 4%; 32%; 53%",
+                "involved_content_sources": [
+                    "chart_6-5",
+                    "chart_4-16",
+                    "chart_2-2",
+                    "chart_5-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the combined proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team(s) or being entertained is a major reason?\n question2: What is the difference in the proportion of sports betting in the last 12 months between U.S. adult Black people and U.S. adult Asian - English speakers?",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of those who say cheering for a specific team(s) is a major reason and the proportion of those who say being entertained is a major reason from the chart, and then add these two proportions together.\n rationale2: We need to subtract the proportion of U.S. adult Asian - English speakers who bet on sports in the last 12 months from the proportion of U.S. adult Black people who bet on sports in the last 12 months. The data for these two groups are provided in the chart, and by performing the subtraction operation, we can get the required difference.",
+                "answer": "140%; 17%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_6-7",
+                    "chart_6-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the combined proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team(s) or being entertained is a major reason?\n question2: What is the difference in the proportion of sports betting in the last 12 months between U.S. adult Black people and U.S. adult Asian - English speakers?\n question3: What is the difference between the net proportion of people who think high - school/college sports had a positive impact on their physical health and the net proportion of people who think it had a positive impact on their job or career opportunities?",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of those who say cheering for a specific team(s) is a major reason and the proportion of those who say being entertained is a major reason from the chart, and then add these two proportions together.\n rationale2: We need to subtract the proportion of U.S. adult Asian - English speakers who bet on sports in the last 12 months from the proportion of U.S. adult Black people who bet on sports in the last 12 months. The data for these two groups are provided in the chart, and by performing the subtraction operation, we can get the required difference.\n rationale3: To find the required difference, we need to extract the net proportion of people with a positive impact on physical health and job or career opportunities from the chart and then subtract the latter from the former.",
+                "answer": "140%; 17%; 38",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_6-7",
+                    "chart_6-9",
+                    "chart_3-3",
+                    "chart_3-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the combined proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team(s) or being entertained is a major reason?\n question2: What is the difference in the proportion of sports betting in the last 12 months between U.S. adult Black people and U.S. adult Asian - English speakers?\n question3: What is the difference between the net proportion of people who think high - school/college sports had a positive impact on their physical health and the net proportion of people who think it had a positive impact on their job or career opportunities?\n question4: What is the combined proportion of U.S. adults who think Basketball, Soccer, Auto racing, Hockey, and Something else are 'America's sport'? Please give the answer as a percentage.",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of those who say cheering for a specific team(s) is a major reason and the proportion of those who say being entertained is a major reason from the chart, and then add these two proportions together.\n rationale2: We need to subtract the proportion of U.S. adult Asian - English speakers who bet on sports in the last 12 months from the proportion of U.S. adult Black people who bet on sports in the last 12 months. The data for these two groups are provided in the chart, and by performing the subtraction operation, we can get the required difference.\n rationale3: To find the required difference, we need to extract the net proportion of people with a positive impact on physical health and job or career opportunities from the chart and then subtract the latter from the former.\n rationale4: To answer this question, we need to sum up the proportions of U.S. adults who think Basketball, Soccer, Auto racing, Hockey, and Something else are 'America's sport' according to the data in the chart. This requires extracting relevant data from multiple parts of the chart and performing an addition operation.",
+                "answer": "140%; 17%; 38; 17%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_6-7",
+                    "chart_6-9",
+                    "chart_3-3",
+                    "chart_3-9",
+                    "chart_5-3",
+                    "chart_5-4",
+                    "chart_5-5",
+                    "chart_5-6",
+                    "chart_5-7"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who played sports in both high school and college and the proportion of U.S. adults who say Soccer is 'America's sport'?",
+                "rationale": "The proportion of U.S. adults who played sports in both high school and college is 7%. The proportion of U.S. adults who say Soccer is 'America's sport' is 3%. The difference is 7% - 3% = 4%.",
+                "answer": "4%",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_5-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of multiplying the proportion of U.S. adults who played sports in both high school and college by the proportion of those who think competing in high - school/college sports had a very positive impact on their job or career opportunities and then dividing by the proportion of Americans who follow sports at least somewhat closely and say because I bet on sports is a major reason? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who played sports in both high school and college is 7% (from Chart 2). The proportion of those who think competing in high - school/college sports had a very positive impact on their job or career opportunities is 18% (from Chart 3). The proportion of Americans who follow sports at least somewhat closely and say because I bet on sports is a major reason is 4% (from Chart 4). The calculation is (7% * 18%) / 4% = 31.50%.",
+                "answer": "31.50%",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_3-7",
+                    "chart_4-16"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the proportion of Americans who bet on sports in the last 12 months to the product of the proportion of U.S. adults who played sports in college, the net proportion of former athletes who think sports had a positive impact on their job opportunities, and the proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team is a major reason?",
+                "rationale": "The proportion of Americans who bet on sports in the last 12 months is 19% (chart_6-1). The proportion of U.S. adults who played sports in college is 2% (chart_2-3). The net proportion of former athletes who think sports had a positive impact on their job opportunities is 44% (chart_3-9). The proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team is a major reason is 71% (chart_4-1). The product of the latter three values is 2%\u00d744%\u00d771% = 0.02\u00d70.44\u00d70.71 = 0.006248. The ratio is 19%\u00f70.006248 = 0.19\u00f70.006248\u224830.41. Converting to a percentage gives approximately 3041%.",
+                "answer": "3041%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_3-9",
+                    "chart_4-1",
+                    "chart_6-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportion of U.S. adults who played sports in high school and the proportion of those who played sports in college, and the average of the proportion of people who think competing in high-school/college sports had a very positive impact on their physical health and the proportion of those who think it had a very positive impact on their confidence or self-esteem among those who participated in organized, competitive sports?",
+                "rationale": "The proportion of U.S. adults who played sports in high school is 39% (chart_2-2), and the proportion of those who played sports in college is 2% (chart_2-3). The sum of these two proportions is 39% + 2% = 41%. Among those who participated in organized, competitive sports, the proportion of people who think competing in high-school/college sports had a very positive impact on their physical health is 46% (chart_3-1), and the proportion of those who think it had a very positive impact on their confidence or self-esteem is 38% (chart_3-4). The average of these two proportions is (46% + 38%) / 2 = 42%. Then the difference between the two is 42% - 41% = 1%.",
+                "answer": "1%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-1",
+                    "chart_3-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of U.S. adults who played sports in high - school and/or college, the net proportion of people who think competing in high - school/college sports had a positive impact on their confidence or self - esteem among those who participated in organized, competitive sports, and the proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team(s) is a major reason, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of U.S. adults who played sports in high - school and/or college is 48% (chart_2-1); the net proportion of people who think competing in high - school/college sports had a positive impact on their confidence or self - esteem among those who participated in organized, competitive sports is 79% (chart_3-6); the proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team(s) is a major reason is 71% (chart_4-1). The weighted average is (48%\u00d70.2 + 79%\u00d70.3 + 71%\u00d70.5) = (0.48\u00d70.2 + 0.79\u00d70.3 + 0.71\u00d70.5) = 0.096 + 0.237 + 0.355 = 0.688 = 68.8%.",
+                "answer": "68.8%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who played high - school and/or college sports, the net proportion of people who think competing in high - school/college sports had a positive impact on their job or career opportunities among those who participated in organized, competitive sports, the proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team(s) is a major reason, and the proportion of U.S. adults who say Football is 'America's sport'?",
+                "rationale": "The proportion of U.S. adults who played high - school and/or college sports is 48% (chart_2-1). The net proportion of people who think competing in high - school/college sports had a positive impact on their job or career opportunities among those who participated in organized, competitive sports is 44% (chart_3-9). The proportion of Americans who follow sports at least somewhat closely and say cheering for a specific team(s) is a major reason is 71% (chart_4-1). The proportion of U.S. adults who say Football is 'America's sport' is 53% (chart_5-1). The average of these four values is (48% + 44% + 71% + 53%) / 4 = 54%.",
+                "answer": "54%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-7",
+                    "chart_3-9",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: In FY '24, what was the number of students participating in Work-Study as federal aid? Please provide the number in millions.\n question2: What is the proportion of U.S. student loan debt in default/bankruptcy/other status? Please provide the answer as a percentage.",
+                "rationale": "rationale1: The question requires finding the number of students participating in Work-Study as federal aid in FY '24. The chart directly provides this value as 0.6 million, so we extract this number.\n rationale2: The question directly asks for the proportion of U.S. student loan debt in default/bankruptcy/other status, and the relevant information is given in the first part of Chart 9.",
+                "answer": "0.6 million; 6.7%",
+                "involved_content_sources": [
+                    "chart_6-8",
+                    "chart_9-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the amount of Pell Grants? Please answer in millions of dollars.\n question2: What is the net - favorability of the Dept. of Justice among U.S. adults in 2024?\n question3: In FY '24, what was the number of total recipients of federal aid among U.S. college-students? Please provide the number in millions.",
+                "rationale": "rationale1: The question asks for the amount of Pell Grants, and the corresponding value is given in the chart.\n rationale2: The question requires the net - favorability of the Dept. of Justice in 2024, and the answer can be found in the chart.\n rationale3: The question requires finding the number of total recipients of federal aid among U.S. college students in FY '24. From the chart, this value is 9.9 million, which we extract as the answer.",
+                "answer": "32995.7; -1; 9.9 million",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_10-60",
+                    "chart_6-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the share of total school/system revenue from federal sources for South Dakota as of fiscal year 2022? (Answer with a number)\n question2: What is the amount of Other grant programs (including Iraq and Afghanistan Service Grants)? Please answer in millions of dollars.\n question3: How much is the Loans federal aid for U.S. college students in FY '24? (Answer format: A single number representing the amount in billions)\n question4: In FY '17, what was the number of students participating in Work-Study as federal aid? Please provide the number in millions.",
+                "rationale": "rationale1: This question is about getting the federal - sourced revenue share of South Dakota in fiscal year 2022 from the provided chart.\n rationale2: The question is about the amount of Other grant programs, and the value can be found in the chart.\n rationale3: The question focuses on the Loans federal aid amount in FY '24, and the answer can be retrieved from the chart.\n rationale4: The question asks for the number of students participating in Work-Study as federal aid in FY '17. The chart directly provides this value as 0.6 million, so we extract this number.",
+                "answer": "21.7; 0.7; 85.8; 0.6 million",
+                "involved_content_sources": [
+                    "chart_5-2",
+                    "chart_4-2",
+                    "chart_7-4",
+                    "chart_6-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average number of department employees in the Education Department from 1998 to 2024? (Round to the nearest whole number)\n question2: What is the sum of the Work - Study and Grants federal aid for U.S. college students in FY '24?",
+                "rationale": "rationale1: To find the average, we need to sum up the number of employees in each given year and then divide by the number of years. The relevant data is the number of employees in 1998, 2002, 2006, 2010, 2014, 2018, 2022, and 2024, which are provided in the chart.\n rationale2: To answer the question, we need to add the amount of Work - Study federal aid and Grants federal aid. These values are directly given in the chart, and this calculation combines two pieces of content from the chart as required.",
+                "answer": "4473; 35",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7",
+                    "chart_2-8",
+                    "chart_7-2",
+                    "chart_7-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average number of department employees in the Education Department from 1998 to 2024? (Round to the nearest whole number)\n question2: What is the sum of the Work - Study and Grants federal aid for U.S. college students in FY '24?\n question3: What is the approximate average amount of direct loans outstanding per U.S. college borrower in FY '24? (Round to the nearest whole number)",
+                "rationale": "rationale1: To find the average, we need to sum up the number of employees in each given year and then divide by the number of years. The relevant data is the number of employees in 1998, 2002, 2006, 2010, 2014, 2018, 2022, and 2024, which are provided in the chart.\n rationale2: To answer the question, we need to add the amount of Work - Study federal aid and Grants federal aid. These values are directly given in the chart, and this calculation combines two pieces of content from the chart as required.\n rationale3: To find the average amount of direct loans outstanding per borrower, we need to divide the total amount of direct loans outstanding by the number of borrowers. The total amount of direct loans outstanding is given as $1,369 billion, and the number of borrowers is 38.2 million. We convert 38.2 million to 0.0382 billion and then perform the division.",
+                "answer": "4473; 35; 35838",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7",
+                    "chart_2-8",
+                    "chart_7-2",
+                    "chart_7-3",
+                    "chart_8-1",
+                    "chart_8-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average number of department employees in the Education Department from 1998 to 2024? (Round to the nearest whole number)\n question2: What is the sum of the Work - Study and Grants federal aid for U.S. college students in FY '24?\n question3: What is the approximate average amount of direct loans outstanding per U.S. college borrower in FY '24? (Round to the nearest whole number)\n question4: What is the total gross program costs from FY '15 to FY '24 (assuming the middle - value for the ranges)?",
+                "rationale": "rationale1: To find the average, we need to sum up the number of employees in each given year and then divide by the number of years. The relevant data is the number of employees in 1998, 2002, 2006, 2010, 2014, 2018, 2022, and 2024, which are provided in the chart.\n rationale2: To answer the question, we need to add the amount of Work - Study federal aid and Grants federal aid. These values are directly given in the chart, and this calculation combines two pieces of content from the chart as required.\n rationale3: To find the average amount of direct loans outstanding per borrower, we need to divide the total amount of direct loans outstanding by the number of borrowers. The total amount of direct loans outstanding is given as $1,369 billion, and the number of borrowers is 38.2 million. We convert 38.2 million to 0.0382 billion and then perform the division.\n rationale4: We need to sum up the gross program costs for each fiscal year from FY '15 to FY '24. For the ranges, we take the middle - value (average of the lower and upper bounds) and for the specific values, we use them directly. This requires using multiple pieces of data from the chart to calculate the total. The calculation is as follows: In FY '15, it's $100 billion. For FY '16 - '18, the middle - value of the range $100 - $200 billion is $150 billion each year, so for these 3 years it's $150\u00d73 = $450 billion. For FY '19 - '21, the middle - value of the range $200 - $300 billion is $250 billion each year, so for these 3 years it's $250\u00d73 = $750 billion. In FY '22, it's $600 billion. In FY '23, the middle - value of the range $100 - $200 billion is $150 billion. In FY '24, it's $252.7 billion. The total is $100 + $450+ $750+ $600+ $150+ $252.7 = $2302.7 billion.",
+                "answer": "4473; 35; 35838; $2302.7 billion",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7",
+                    "chart_2-8",
+                    "chart_7-2",
+                    "chart_7-3",
+                    "chart_8-1",
+                    "chart_8-2",
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_3-7",
+                    "chart_3-9",
+                    "chart_3-11",
+                    "chart_3-13",
+                    "chart_3-15",
+                    "chart_3-17",
+                    "chart_3-19"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the number of total recipients of federal aid among U.S. college - students in FY '24 to the total number of department employees in the Education Department as of September 2024?",
+                "rationale": "The number of total recipients of federal aid among U.S. college - students in FY '24 is 9.9 million (9900000). The total number of department employees in the Education Department as of September 2024 is 4209. The ratio is 9900000 / 4209 \u2248 2352.1.",
+                "answer": "2352.1",
+                "involved_content_sources": [
+                    "chart_6-5",
+                    "chart_2-8"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the net - favorability of the Dept. of Education in 2024 to the number of total recipients of federal aid among U.S. college - students in FY '24, then multiplied by the share of total school/system revenue from federal sources for Mississippi as of fiscal year 2022? (Round the result to two decimal places.)",
+                "rationale": "The net - favorability of the Dept. of Education in 2024 is - 1 (chart_10-56). The number of total recipients of federal aid among U.S. college - students in FY '24 is 9.9 million (chart_6-5). The share of total school/system revenue from federal sources for Mississippi as of fiscal year 2022 is 23.3 (chart_5-1). The calculation is (-1 / 9.9) * 23.3 \u2248 - 2.35 (rounded to two decimal places).",
+                "answer": "-2.35",
+                "involved_content_sources": [
+                    "chart_10-56",
+                    "chart_6-5",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the number of total recipients of federal aid among U.S. college students in FY '17 and FY '24, the difference between the total amount of grants disbursed to students by the U.S. Education Department and the Grants federal aid for U.S. college students in FY '24, the difference between the share of total school/system revenue from federal sources for Mississippi and the share for Detroit, Mich. among the 100 largest school systems (by enrollment) as of fiscal year 2022, and the difference between the net-favorability of the National Park Service and the net-favorability of the Dept. of Education among U.S. adults in 2024? Provide the answer rounded to one decimal place.",
+                "rationale": "First, for the number of total recipients of federal aid among U.S. college students, in FY '17 it was 12.9 million (chart_6-1) and in FY '24 it was 9.9 million (chart_6-5), so the difference is 12.9 - 9.9 = 3 million. Second, the total amount of grants disbursed to students by the U.S. Education Department is $33,910.2 million (chart_4-1) and the Grants federal aid for U.S. college students in FY '24 is $33.9 billion = $33,900 million, so the difference is 33910.2 - 33900 = 10.2 million. Third, the share of total school/system revenue from federal sources for Mississippi as of fiscal year 2022 is 23.3 (chart_5-1) and for Detroit, Mich. among the 100 largest school systems (by enrollment) as of fiscal year 2022 is 48.6 (chart_5-11), so the difference is 23.3 - 48.6 = -25.3. Fourth, the net-favorability of the National Park Service among U.S. adults in 2024 is +69 (chart_10-4) and the net-favorability of the Dept. of Education among U.S. adults in 2024 is -1 (chart_10-56), so the difference is 69 - (-1) = 70. Now, we find the average of these differences: (3 + 10.2 - 25.3 + 70) / 4 = 57.9 / 4 = 14.475, which rounds to 14.5.",
+                "answer": "14.5",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_5-1",
+                    "chart_5-11",
+                    "chart_6-1",
+                    "chart_6-5",
+                    "chart_10-4",
+                    "chart_10-56"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the ratio of the net cost of operations of the Education Department in FY '24 to the number of department employees in September 2024 and the ratio of the net cost of operations in FY '15 to the number of department employees in September 1998?",
+                "rationale": "The net cost of operations in FY '24 is $218.4 billion (chart_3-20), and the number of department employees in September 2024 is 4,209 (chart_2-8). So the ratio for FY '24 is 218400000000 / 4209 \u2248 51888809.6935139. The net cost of operations in FY '15 is $100 billion (chart_3-2), and the number of department employees in September 1998 is approximately 5,000 (chart_2-1). So the ratio for FY '15 is 100000000000 / 5000 = 20000000.0. Then the difference between the two ratios is 51893561.4 - 20000000 = 31888809.6935139.",
+                "answer": "31888809.69",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-8",
+                    "chart_3-2",
+                    "chart_3-20"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the net cost of operations of the Education Department in FY '24 to the total federal aid for U.S. college students in FY '24, adjusted by the proportion of students receiving loans as federal aid in FY '24 compared to the total recipients of federal aid in FY '24?",
+                "rationale": "The net cost of operations of the Education Department in FY '24 is $218.4 billion (chart_3-20). The total federal aid for U.S. college students in FY '24 is $120.8 billion (chart_7-1). The number of students receiving loans as federal aid in FY '24 is 6.7 million (chart_6-6), and the total recipients of federal aid among U.S. college - students in FY '24 is 9.9 million (chart_6-5). First, calculate the proportion of students receiving loans: 6.7 / 9.9 \u2248 0.677. Then, calculate the ratio: (218.4 / 120.8) \u00d7 0.677 = 1.808 \u00d7 0.677 \u2248 1.224.",
+                "answer": "1.224",
+                "involved_content_sources": [
+                    "chart_3-19",
+                    "chart_3-20",
+                    "chart_6-5",
+                    "chart_6-6",
+                    "chart_7-1",
+                    "chart_7-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the ratio of the net cost of operations of the Education Department in FY '24 to the number of its employees in September 2024, the ratio of the total amount of grants disbursed to students by the U.S. Education Department to the number of total recipients of federal aid among U.S. college - students in FY '24, and the ratio of the total amount of direct loans outstanding to the number of U.S. college borrowers in FY '24?",
+                "rationale": "First, from chart_3-20, the net cost of operations in FY '24 is $218.4 billion. From chart_2-8, the number of employees in September 2024 is 4,209. The ratio is $218400000000 / 4209 \u2248 $51888762.2. Second, from chart_4-1, the total amount of grants disbursed to students is $33910.2 million. From chart_6-5, the number of total recipients of federal aid among U.S. college - students in FY '24 is 9.9 million. The ratio is $33910200000 / 9900000 \u2248 $3425.27. Third, from chart_8-2, the total amount of direct loans outstanding is $1369 billion. From chart_8-1, the number of U.S. college borrowers is 38.2 million. The ratio is $1369000000000 / 38200000 \u2248 $35837.7. The average of these three ratios is ($51888762.2 + $3425.27 + $35837.7) / 3 \u2248 $17309357.55 (rounded to two decimal places).",
+                "answer": "$17309357.55",
+                "involved_content_sources": [
+                    "chart_2-8",
+                    "chart_2-7",
+                    "chart_3-20",
+                    "chart_3-19",
+                    "chart_4-1",
+                    "chart_4-5",
+                    "chart_6-5",
+                    "chart_6-6",
+                    "chart_8-1",
+                    "chart_8-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

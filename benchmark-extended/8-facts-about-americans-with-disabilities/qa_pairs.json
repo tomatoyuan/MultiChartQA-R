@@ -1,0 +1,195 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: In which state's public schools is the share of students with disabilities among all public school students 15% - 16% in the 2021 - 22 school year, as mentioned in the chart?\n question2: What is the difference in the proportion of U.S. adults without any disability and those with any disability who have all of the listed devices and home - broadband? Please answer with a number.",
+                "rationale": "rationale1: The question is asking about the state corresponding to the given share range. We look for the relevant information in the chart to get the answer.\n rationale2: The question requires the difference in the proportion of U.S. adults without and with any disability who have all of the specified items, which is given in the chart.",
+                "answer": "Indiana, West Virginia; 18",
+                "involved_content_sources": [
+                    "chart_4-12",
+                    "chart_3-15"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults with a disability who reported high - levels of psychological distress in at least one of four surveys conducted between March 2020 and September 2022?\n question2: What is the difference in the proportion of U.S. adults without any disability and those with any disability who have all of the listed devices and home - broadband? Please answer with a number.\n question3: What is the proportion of all Americans reporting a disability?",
+                "rationale": "rationale1: We need to find the proportion of U.S. adults with a disability having high - level psychological distress in at least one of the four surveys in the specified time period, which is available in the chart.\n rationale2: The question requires the difference in the proportion of U.S. adults without and with any disability who have all of the specified items, which is given in the chart.\n rationale3: The question is about the proportion of all Americans with a disability, and the relevant data is provided in the chart.",
+                "answer": "66%; 18; 13%",
+                "involved_content_sources": [
+                    "chart_5-3",
+                    "chart_3-15",
+                    "chart_2-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of U.S. adults without any disability and those with any disability who have a smartphone? Please answer with a number.\n question2: What is the range of the share of students with disabilities among all public school students in Minnesota in the 2021 - 22 school year?\n question3: What is the proportion of all Americans reporting a disability?\n question4: What is the proportion of U.S. adults without a disability who reported high - levels of psychological distress in at least one of four surveys conducted between March 2020 and September 2022?",
+                "rationale": "rationale1: The question requires finding the difference in the proportion of U.S. adults without and with any disability who have a smartphone, which can be obtained from the corresponding content in the chart.\n rationale2: The question asks for the specific range of the share of students with disabilities in Minnesota public schools in the given school - year. We can directly find this information from the chart.\n rationale3: The question is about the proportion of all Americans with a disability, and the relevant data is provided in the chart.\n rationale4: We are looking for the proportion of U.S. adults without a disability with high - level psychological distress in at least one of the four surveys in the given time frame, and it is given in the chart.",
+                "answer": "16; 17% - 19%; 13%; 34%",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_4-8",
+                    "chart_2-2",
+                    "chart_5-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: How many states have a share of students with disabilities among all public school students in the 17% - 19% range in the 2021 - 22 school year?\n question2: What is the average difference in the proportion of those without any disability and those with any disability for desktop/laptop, smartphone, tablet, and home broadband ownership? (Please round the answer to one decimal place.)",
+                "rationale": "rationale1: The question requires us to count the number of states with a specific share range of students with disabilities and list those states. We need to search through the chart to find the relevant information about the 17% - 19% range and extract the state names.\n rationale2: To find the average difference, we need to add up the differences in the proportion of those without any disability and those with any disability for desktop/laptop, smartphone, tablet, and home broadband ownership, and then divide by the number of these items. The differences are given in the chart as +19, +16, +7, and +6 respectively, and there are 4 items in total.",
+                "answer": "4; 12.0",
+                "involved_content_sources": [
+                    "chart_4-7",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_4-10",
+                    "chart_4-11",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_3-12"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: How many states have a share of students with disabilities among all public school students in the 17% - 19% range in the 2021 - 22 school year?\n question2: What is the average difference in the proportion of those without any disability and those with any disability for desktop/laptop, smartphone, tablet, and home broadband ownership? (Please round the answer to one decimal place.)\n question3: What is the average proportion of Americans reporting a disability across different age - groups (ages 0 - 4, 5 - 17, 18 - 34, 35 - 64, 65 - 74, 75 and older)?",
+                "rationale": "rationale1: The question requires us to count the number of states with a specific share range of students with disabilities and list those states. We need to search through the chart to find the relevant information about the 17% - 19% range and extract the state names.\n rationale2: To find the average difference, we need to add up the differences in the proportion of those without any disability and those with any disability for desktop/laptop, smartphone, tablet, and home broadband ownership, and then divide by the number of these items. The differences are given in the chart as +19, +16, +7, and +6 respectively, and there are 4 items in total.\n rationale3: To find the average proportion of Americans reporting a disability across different age - groups, we need to sum up the proportions of each age - group and then divide by the number of age - groups. The relevant age - group proportions are provided in the chart. ((<1 + 6 + 8 + 12 + 24 + 46) / 6) (Note: If we assume <1 as 1 for calculation purposes, the result is (1 + 6 + 8 + 12 + 24 + 46) / 6 = 97 / 6 \u2248 16.17).",
+                "answer": "4; 12.0; 16.17",
+                "involved_content_sources": [
+                    "chart_4-7",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_4-10",
+                    "chart_4-11",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_3-12",
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: How many states have a share of students with disabilities among all public school students in the 17% - 19% range in the 2021 - 22 school year?\n question2: What is the average difference in the proportion of those without any disability and those with any disability for desktop/laptop, smartphone, tablet, and home broadband ownership? (Please round the answer to one decimal place.)\n question3: What is the average proportion of Americans reporting a disability across different age - groups (ages 0 - 4, 5 - 17, 18 - 34, 35 - 64, 65 - 74, 75 and older)?\n question4: What is the difference in the proportion of U.S. adults with a disability and those without a disability who reported high - levels of psychological distress in at least one of four surveys conducted between March 2020 and September 2022?",
+                "rationale": "rationale1: The question requires us to count the number of states with a specific share range of students with disabilities and list those states. We need to search through the chart to find the relevant information about the 17% - 19% range and extract the state names.\n rationale2: To find the average difference, we need to add up the differences in the proportion of those without any disability and those with any disability for desktop/laptop, smartphone, tablet, and home broadband ownership, and then divide by the number of these items. The differences are given in the chart as +19, +16, +7, and +6 respectively, and there are 4 items in total.\n rationale3: To find the average proportion of Americans reporting a disability across different age - groups, we need to sum up the proportions of each age - group and then divide by the number of age - groups. The relevant age - group proportions are provided in the chart. ((<1 + 6 + 8 + 12 + 24 + 46) / 6) (Note: If we assume <1 as 1 for calculation purposes, the result is (1 + 6 + 8 + 12 + 24 + 46) / 6 = 97 / 6 \u2248 16.17).\n rationale4: To find the difference, we need to subtract the proportion of U.S. adults without a disability who reported high - levels of psychological distress in at least one of the four surveys from the proportion of U.S. adults with a disability who reported the same. This calculation directly compares the two groups based on the given data in the chart.",
+                "answer": "4; 12.0; 16.17; 32",
+                "involved_content_sources": [
+                    "chart_4-7",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_4-10",
+                    "chart_4-11",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_3-12",
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_2-6",
+                    "chart_2-7",
+                    "chart_5-3",
+                    "chart_5-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of American Indian/Alaska Native Americans reporting a disability and the proportion of U.S. adults with a disability who had high distress in Sept. 2022?",
+                "rationale": "The proportion of American Indian/Alaska Native Americans reporting a disability is 18% (from chart 2 - 12). The proportion of U.S. adults with a disability who had high distress in Sept. 2022 is 39% (from chart 5 - 4). The difference is 39% - 18% = 21%.",
+                "answer": "21%",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_5-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Americans ages 75 and older who report having a disability, the difference in the proportion of U.S. adults without any disability and those with any disability who have a desktop or laptop computer, and the proportion of U.S. adults with a disability who reported high - levels of psychological distress in at least one of four surveys conducted between March 2020 and September 2022? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Americans ages 75 and older who report having a disability is 46%. The difference in the proportion of U.S. adults without any disability and those with any disability who have a desktop or laptop computer is 19. The proportion of U.S. adults with a disability who reported high - levels of psychological distress in at least one of four surveys conducted between March 2020 and September 2022 is 66%. The average is (46 + 19 + 66) / 3 = 43.67 (rounded to two decimal places).",
+                "answer": "43.67%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_5-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the difference in the proportion of U.S. adults without and with disabilities having a desktop or laptop computer to the difference between the proportion of U.S. adults with a disability who reported high - levels of psychological distress in at least one of four surveys between March 2020 and September 2022 and the proportion of all U.S. adults with such distress, and then multiplied by the proportion of American Indians/Alaska Native Americans reporting a disability divided by the share of students with disabilities in Minnesota public schools (using the lower bound of the range)?",
+                "rationale": "First, from chart_3, the difference in the proportion of U.S. adults without and with disabilities having a desktop or laptop computer is 19. From chart_5, the proportion of U.S. adults with a disability who reported high - levels of psychological distress in at least one of four surveys between March 2020 and September 2022 is 66%, and the proportion of all U.S. adults with such distress is 41%, so the difference is 66% - 41% = 25. The ratio of the first difference to the second is 19 / 25 = 0.76. From chart_2, the proportion of American Indians/Alaska Native Americans reporting a disability is 18. From chart_4, the lower bound of the share of students with disabilities in Minnesota public schools is 17. Then we multiply the ratio by the result of 18 / 17 \u2248 1.06. So the final result is 0.76 * 1.06 \u2248 0.805, which is approximately 80.5% when expressed as a percentage.",
+                "answer": "80.5%",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_3-3",
+                    "chart_4-8",
+                    "chart_5-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of Americans ages 75 and older and ages 0 - 4 who report having a disability, and the average of the proportions of U.S. adults with a disability and without a disability who have home broadband?",
+                "rationale": "The proportion of Americans ages 75 and older who report having a disability is 46% (chart_2-1), and the proportion of Americans ages 0 - 4 reporting a disability is <1 (chart_2-3). The average of these two proportions is (46% + 1%) / 2 = 23.5%. The proportion of U.S. adults with a disability who have home broadband is 72% (chart_3-10), and the proportion of U.S. adults without a disability who have home broadband is 78% (chart_3-11). The average of these two proportions is (72% + 78%) / 2 = 75%. Then the difference between the two is 75% - 23.5% = 51.5%.",
+                "answer": "51.5%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-10",
+                    "chart_3-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the difference between the sum of the proportion of American Indian/Alaska Native Americans reporting a disability and the proportion of Asian Americans reporting a disability, and the average of the difference in the proportion of those without any disability and those with any disability who have a smartphone and the difference in the proportion of those without any disability and those with any disability who have a tablet computer, multiplied by the proportion of U.S. adults with a disability who had high distress in Sept. 2022?",
+                "rationale": "The proportion of American Indian/Alaska Native Americans reporting a disability is 18% (chart_2-12); the proportion of Asian Americans reporting a disability is 8% (chart_2-11). The difference in the proportion of those without any disability and those with any disability who have a smartphone is +16 (chart_3-6); the difference in the proportion of those without any disability and those with any disability who have a tablet computer is +7 (chart_3-9). The proportion of U.S. adults with a disability who had high distress in Sept. 2022 is 39% (chart_5-4). First, calculate the sum of the disability proportions: 18% + 8% = 26%. Then, calculate the average of the technology differences: (16 + 7) / 2 = 11.5. Finally, multiply the average by the distress proportion: 11.5 * 39% = 4.485. The difference is 26 - 4.485 = 21.515.",
+                "answer": "21.515%",
+                "involved_content_sources": [
+                    "chart_2-11",
+                    "chart_2-12",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_5-4",
+                    "chart_5-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of Americans with and without disabilities who have all four technology devices (desktop/laptop, smartphone, tablet, home - broadband), the difference in the high - level psychological distress proportion between disabled and non - disabled U.S. adults in Sept. 2022, the difference between the proportion of 75 - and - older Americans with disabilities and 0 - 4 - year - old Americans with disabilities, and the difference between the highest and lowest share of students with disabilities among public school students in the 2021 - 22 school year?",
+                "rationale": "First, from Chart 3, the proportion of U.S. adults without any disability who have all four devices is 44%, and the proportion of those with any disability is 26%. The difference is 44% - 26% = 18%. Second, from Chart 5, the proportion of U.S. adults with a disability who had high distress in Sept. 2022 is 39%, and for those without a disability it is 16%. The difference is 39% - 16% = 23%. Third, from Chart 2, the proportion of Americans ages 75 and older who report having a disability is 46%, and for ages 0 - 4 it is <1. We approximate <1 as 0 for calculation, so the difference is 46% - 0% = 46%. Fourth, from Chart 4, the highest share of students with disabilities among public school students is 20%+ (we approximate it as 20%), and the lowest is \u226412% (we approximate it as 12%), so the difference is 20% - 12% = 8%. The average of these four differences is (18% + 23% + 46% + 8%) / 4 = 23.75%.",
+                "answer": "23.75%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-13",
+                    "chart_3-14",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_5-4",
+                    "chart_5-6"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

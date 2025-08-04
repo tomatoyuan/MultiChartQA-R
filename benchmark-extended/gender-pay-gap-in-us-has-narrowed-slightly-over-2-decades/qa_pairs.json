@@ -1,0 +1,184 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the median hourly earnings of women as a percentage of men's median earnings among all workers ages 16+ in the U.S. in 1982? Please provide a percentage value.\n question2: What is the proportion of U.S. adults who say women making different choices about balancing work and family is a minor reason for women earning less than men on average?",
+                "rationale": "rationale1: The question asks for a specific data point from the chart about the median hourly earnings ratio of women to men for all workers ages 16+ in 1982. We can directly find this value from the given chart.\n rationale2: This question requires extracting the specific proportion value for the minor - reason of women's work - family choice from the chart.",
+                "answer": "65%; 33%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of employed American men and women who feel a great deal of pressure to support their family financially?\n question2: What is the proportion of employed U.S. adult men who would like to be the boss or top - manager where they work?\n question3: What was the median hourly earnings of women as a percentage of men's median earnings among workers ages 25 - 34 in the U.S. in 2024? Please provide a percentage value.",
+                "rationale": "rationale1: The question requires us to identify the difference in the proportion of employed American men and women regarding financial family - support pressure, which can be obtained from the given chart.\n rationale2: We need to look for the proportion of employed U.S. adult men with the desire to be the boss or top - manager in the given chart.\n rationale3: The task is to get the specific value of the median hourly earnings ratio of women to men for workers ages 25 - 34 in 2024 from the given chart.",
+                "answer": "2; 35%; 95%",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_4-5",
+                    "chart_1-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of employed American mothers who feel a great deal of pressure to be successful in their job or career?\n question2: What is the proportion of U.S. adult mothers who would like to be the boss or top - manager where they work?\n question3: What is the net - proportion of U.S. adults who say women working in jobs that pay less is a reason for women earning less than men on average?\n question4: What was the median hourly earnings of women as a percentage of men's median earnings among workers ages 25 - 34 in the U.S. in 2024? Please provide a percentage value.",
+                "rationale": "rationale1: The question is about the proportion of employed American mothers with a great deal of pressure for job or career success, and we can get this value from the chart.\n rationale2: The question is about the proportion of U.S. adult mothers with the aspiration to be the boss or top - manager, and we can get this value from the chart.\n rationale3: We need to look for the net - proportion value related to women working in low - paying jobs from the chart.\n rationale4: The task is to get the specific value of the median hourly earnings ratio of women to men for workers ages 25 - 34 in 2024 from the given chart.",
+                "answer": "41%; 34%; 69%; 95%",
+                "involved_content_sources": [
+                    "chart_3-17",
+                    "chart_4-14",
+                    "chart_2-9",
+                    "chart_1-6"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference between the proportion of employed U.S. adult men who would like to be the boss or top - manager and the proportion of employed U.S. adult women who would not like to be the boss or top - manager?\n question2: What is the average difference in the proportion of men and women (including both all employed adults and employed parents) who feel a great deal of pressure in the three aspects (focus on home responsibilities, support family financially, and be successful in job or career)?",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of employed U.S. adult women who would not like to be the boss or top - manager from the proportion of employed U.S. adult men who would like to be the boss or top - manager. We can get these two proportions from the chart.\n rationale2: We need to take the differences in the proportion of men and women who feel a great deal of pressure in the three aspects for all employed adults and employed parents respectively, then sum them up and divide by the total number of differences (6 in total) to get the average difference.",
+                "answer": "4; -3",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_4-9",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_3-12",
+                    "chart_3-15",
+                    "chart_3-18"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of employed U.S. adult men who would like to be the boss or top - manager and the proportion of employed U.S. adult women who would not like to be the boss or top - manager?\n question2: What is the average difference in the proportion of men and women (including both all employed adults and employed parents) who feel a great deal of pressure in the three aspects (focus on home responsibilities, support family financially, and be successful in job or career)?\n question3: In 2024, how much higher was the median hourly earnings of women as a percentage of men's median earnings for workers ages 25 - 34 in the U.S. compared to all workers ages 16+ in the U.S.? Please provide the percentage difference.",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of employed U.S. adult women who would not like to be the boss or top - manager from the proportion of employed U.S. adult men who would like to be the boss or top - manager. We can get these two proportions from the chart.\n rationale2: We need to take the differences in the proportion of men and women who feel a great deal of pressure in the three aspects for all employed adults and employed parents respectively, then sum them up and divide by the total number of differences (6 in total) to get the average difference.\n rationale3: We subtract the percentage for all workers ages 16+ in 2024 (from chart_1-3, which is 85%) from the percentage for workers ages 25 - 34 in 2024 (from chart_1-6, which is 95%). So, 95% - 85% = 10%.",
+                "answer": "4; -3; 10%",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_4-9",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_3-12",
+                    "chart_3-15",
+                    "chart_3-18",
+                    "chart_1-3",
+                    "chart_1-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of employed U.S. adult men who would like to be the boss or top - manager and the proportion of employed U.S. adult women who would not like to be the boss or top - manager?\n question2: What is the average difference in the proportion of men and women (including both all employed adults and employed parents) who feel a great deal of pressure in the three aspects (focus on home responsibilities, support family financially, and be successful in job or career)?\n question3: In 2024, how much higher was the median hourly earnings of women as a percentage of men's median earnings for workers ages 25 - 34 in the U.S. compared to all workers ages 16+ in the U.S.? Please provide the percentage difference.\n question4: What is the difference between the net - proportion of people who think women being treated differently by employers is a reason for the pay gap and the net - proportion of people who think women working in jobs that pay less is a reason for the pay gap?",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of employed U.S. adult women who would not like to be the boss or top - manager from the proportion of employed U.S. adult men who would like to be the boss or top - manager. We can get these two proportions from the chart.\n rationale2: We need to take the differences in the proportion of men and women who feel a great deal of pressure in the three aspects for all employed adults and employed parents respectively, then sum them up and divide by the total number of differences (6 in total) to get the average difference.\n rationale3: We subtract the percentage for all workers ages 16+ in 2024 (from chart_1-3, which is 85%) from the percentage for workers ages 25 - 34 in 2024 (from chart_1-6, which is 95%). So, 95% - 85% = 10%.\n rationale4: We need to subtract the net - proportion of people who think women working in jobs that pay less is a reason for the pay gap from the net - proportion of people who think women being treated differently by employers is a reason for the pay gap. This requires extracting relevant data from the chart and performing a subtraction operation.",
+                "answer": "4; -3; 10%; 11",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_4-9",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_3-12",
+                    "chart_3-15",
+                    "chart_3-18",
+                    "chart_1-3",
+                    "chart_1-6",
+                    "chart_2-3",
+                    "chart_2-9"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the increase in the median hourly earnings of women aged 25 - 34 as a percentage of men's from 1982 to 2024 and the proportion of employed American women who feel a great deal of pressure to focus on their responsibilities at home?",
+                "rationale": "The increase in the median hourly earnings of women aged 25 - 34 as a percentage of men's from 1982 to 2024 is 95% - 74% = 21%. The proportion of employed American women who feel a great deal of pressure to focus on their responsibilities at home is 48%. The difference is 48% - 21% = 27%.",
+                "answer": "27%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_3-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of multiplying the difference in the proportion of men and women among employed American adults who feel a great deal of pressure to focus on their responsibilities at home by the proportion of U.S. adults who say women being treated differently by employers is a major reason for the pay gap, and then dividing by the proportion of employed U.S. adult women who would not like to be the boss or top - manager where they work? (Round the result to two decimal places.)",
+                "rationale": "The difference in the proportion of men and women among employed American adults who feel a great deal of pressure to focus on their responsibilities at home is - 13. The proportion of U.S. adults who say women being treated differently by employers is a major reason for the pay gap is 50%. The proportion of employed U.S. adult women who would not like to be the boss or top - manager where they work is 46%. The calculation is (-13)\u00d750%\u00f746%\u2248 - 14.13 (rounded to two decimal places).",
+                "answer": "-14.13%",
+                "involved_content_sources": [
+                    "chart_3-3",
+                    "chart_2-1",
+                    "chart_4-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the result of subtracting the proportion of employed U.S. adult women who would like to be the boss or top - manager from the sum of the proportion of U.S. adults who say women working in jobs that pay less is a major reason for the pay gap, the difference in the proportion of men and women who feel a great deal of pressure to support their family financially among employed American adults, and the increase in the median hourly earnings of women as a percentage of men's among all workers ages 16+ from 2003 to 2024?",
+                "rationale": "The proportion of U.S. adults who say women working in jobs that pay less is a major reason for the pay gap is 34% (chart_2 - 7). The difference in the proportion of men and women who feel a great deal of pressure to support their family financially among employed American adults is 2% (chart_3 - 6). The increase in the median hourly earnings of women as a percentage of men's among all workers ages 16+ from 2003 to 2024 is 85% - 81% = 4% (chart_1 - 2 and chart_1 - 3). The sum of these three values is 34%+2% + 4% = 40%. The proportion of employed U.S. adult women who would like to be the boss or top - manager is 31% (chart_4 - 8). Subtracting this proportion from the sum gives 40% - 31% = 9%.",
+                "answer": "9%",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_2-7",
+                    "chart_3-6",
+                    "chart_4-8"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of U.S. adults who think women being treated differently by employers and women making different choices about balancing work and family are major reasons for the gender pay gap, and the difference in the proportion of employed American men and women who feel a great deal of pressure to focus on their responsibilities at home?",
+                "rationale": "Among U.S. adults, the proportion who say women being treated differently by employers is a major reason for the gender pay gap is 50% (chart_2-1), and the proportion who say women making different choices about balancing work and family is a major reason is 42% (chart_2-4). The average of these two proportions is (50% + 42%) / 2 = 46%. Among employed American adults, the proportion of men who feel a great deal of pressure to focus on their responsibilities at home is 35% (chart_3-1), and the proportion of women is 48% (chart_3-2). The difference in these proportions is 48% - 35% = 13%. Then the difference between the two results is 46% - 13% = 33%.",
+                "answer": "33%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-4",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of multiplying the difference in the median hourly earnings percentage of women to men among 25 - 34 - year - olds between 2024 and 1982 by the difference in the proportion of employed men and women who feel a great deal of pressure to focus on their responsibilities at home, and then dividing by the difference between the proportion of U.S. adults who think women being treated differently by employers is a major reason and the proportion who think women working in jobs that pay less is a major reason for the gender pay gap?",
+                "rationale": "The difference in the median hourly earnings percentage of women to men among 25 - 34 - year - olds between 2024 and 1982 is 95% - 74% = 21% (chart_1-6, chart_1-4). The difference in the proportion of employed men and women who feel a great deal of pressure to focus on their responsibilities at home is 48% - 35% = 13% (chart_3-2, chart_3-1). The difference between the proportion of U.S. adults who think women being treated differently by employers is a major reason and the proportion who think women working in jobs that pay less is a major reason for the gender pay gap is 50% - 34% = 16% (chart_2-1, chart_2-7). The final result is (21%\u00d713%)\u00f716%=(0.21\u00d70.13)\u00f70.16 = 0.0273\u00f70.16 = 0.170625 = 17.0625%.",
+                "answer": "17.0625%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-6",
+                    "chart_2-1",
+                    "chart_2-7",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the median hourly earnings of women and men among workers ages 25 - 34 in 2003 and 2024, the difference between the proportions of U.S. adults who think women being treated differently by employers is a major and a minor reason for the pay gap, the difference between the proportions of employed American men and women who feel a great deal of pressure to focus on home responsibilities, and the difference between the proportions of employed U.S. adult men and women who are currently the boss or top - manager?",
+                "rationale": "Among workers ages 25 - 34 in the U.S., the median hourly earnings of women as a percentage of men's was 88% in 2003 and 95% in 2024. The difference is 95% - 88% = 7%. Among U.S. adults, the proportion who say women being treated differently by employers is a major reason for the pay gap is 50%, and the proportion who say it is a minor reason is 30%. The difference is 50% - 30% = 20%. Among employed American adults, the proportion of men who feel a great deal of pressure to focus on home responsibilities is 35%, and that of women is 48%. The difference is 48% - 35% = 13%. Among employed U.S. adult men, the proportion who are currently the boss or top - manager is 28%, and among women, it is 21%. The difference is 28% - 21% = 7%. The average of these four values is (7% + 20% + 13% + 7%) / 4 = 11.75%.",
+                "answer": "11.75%",
+                "involved_content_sources": [
+                    "chart_1-5",
+                    "chart_1-6",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-4",
+                    "chart_4-7"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

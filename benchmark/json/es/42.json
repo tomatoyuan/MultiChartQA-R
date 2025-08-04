@@ -1,0 +1,208 @@
+{
+  "chart": [
+    "chart_42_1",
+    "chart_42_2",
+    "chart_42_3",
+    "chart_42_4",
+    "chart_42_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Por favor, compare la dirección de cambio de las secuencias 'Ingresos generales de la industria de la gran salud de China de 2014 a 2016' y 'Ventas mensuales de industrias relacionadas con alimentos saludables de enero a marzo de 2024'. ¿Tienen las dos secuencias la misma tendencia? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "La secuencia de ingresos es de 2.5 → 2.8 → 3.2 trillones de yuanes, que aumenta continuamente; mientras que las ventas mensuales son de 80 → 70 → 100 mil millones de yuanes, que primero disminuyen y luego aumentan. La tendencia no es monótona y las direcciones no son las mismas.",
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Los ingresos generales de la industria de la gran salud de China han aumentado año tras año desde 2014. En el 'Resumen de ventas mensuales de industrias relacionadas con alimentos saludables en 2024', ¿en qué mes apareció por primera vez una disminución mes a mes en las ventas? Por favor, escriba directamente el mes (formato: X de 2024).",
+      "answer": "Febrero de 2024",
+      "explanation": "La curva de ingresos se mantiene en aumento año tras año; las ventas mensuales disminuyeron de 80 mil millones de yuanes en enero a 70 mil millones de yuanes en febrero, lo que representa la primera caída y forma un punto de divergencia.",
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "En los dos gráficos 'Crecimiento de las ventas de la industria de alimentos saludables en 2024' y 'Crecimiento de las ventas de la industria de alimentos saludables en enero de 2025', ¿es también mayor la tasa de crecimiento en el período con mayores ventas? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "Las ventas en 2024 fueron de 117 mil millones, con una tasa de crecimiento correspondiente del 17%; las ventas en enero de 2025 fueron solo de 9.84 mil millones, pero tuvieron una tasa de crecimiento más alta del 18%. Las altas ventas no se acompañaron de un crecimiento más rápido.",
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántos miles de millones más son las ventas anuales de suplementos dietéticos en el mes con las ventas más altas en 2024 en comparación con las ventas anteriores? Respuesta: xx mil millones",
+      "answer": "30 mil millones",
+      "explanation": "Las ventas mensuales más altas son de 130 mil millones en octubre - las ventas anteriores de 100 mil millones = 30 mil millones",
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es el incremento previsto de los ingresos de la industria de la gran salud en 2024 en comparación con el incremento de las ventas de la industria de suplementos dietéticos? Respuesta: xx veces",
+      "answer": "235.29 veces",
+      "explanation": "Los ingresos previstos de la industria de la gran salud en 2024 son de 9.0 billones de yuanes - los ingresos en 2023 son de 8.6 billones de yuanes = 0.4 billones de yuanes = 4000 mil millones; Las ventas de suplementos dietéticos son de 117 mil millones - 100 mil millones = 17 mil millones; 4000 ÷ 17 ≈ 235.29 veces",
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Qué porcentaje representan las ventas de suplementos dietéticos en enero de 2025 en relación con las ventas mensuales promedio de 2024? Expresado en porcentaje y redondeado a dos decimales. Respuesta: xx%",
+      "answer": "10.09%",
+      "explanation": "Las ventas totales en 2024 son de 1170 mil millones ÷ 12 = 97.5 mil millones; Las ventas en enero de 2025 son de 9.84 mil millones ÷ 97.5 mil millones ≈ 0.1009 → 10.09%",
+      "charts_involved": [
+        "chart_42_4",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según el gráfico de los ingresos generales de la industria de la gran salud de China (con el título \"Ingresos generales y previsión de la industria de la gran salud de China desde 2014 hasta 2024\") y el gráfico de crecimiento de la industria de alimentos saludables (con el título \"Crecimiento de los Ingresos de Ventas de la Industria de Alimentos Saludables en 2024\"), ¿cómo se refleja la tendencia de crecimiento de la industria de alimentos saludables en la previsión de la industria general?",
+      "answer": {
+        "A": "Aunque la industria de alimentos saludables crece rápidamente, la tasa de crecimiento de la industria general puede ser relativamente suave, lo que sugiere que el crecimiento de otras partes de la industria es más lento o hay factores que la frenan.",
+        "B": "Según los datos históricos, el crecimiento de la industria general es estable, y el rápido crecimiento de los alimentos saludables puede ser un factor impulsor clave que refuerza la tendencia ascendente de la industria general.",
+        "C": "En 2024, los alimentos saludables crecieron un 17%, mientras que la industria de la gran salud creció solo un 4.65% (de 8.6 billones de yuanes en 2023 a 9.0 billones de yuanes en 2024). Por lo tanto, el crecimiento de los alimentos saludables tiene un impacto mínimo en la industria general.",
+        "D": "En los datos históricos, la industria general creció más rápido en 2019 (de 5.4 billones de yuanes a 6.9 billones de yuanes), pero no se reportó crecimiento en los alimentos saludables en ese momento. Por lo tanto, el crecimiento de los alimentos saludables en 2024 no es importante.",
+        "E": "La previsión de la industria general de la gran salud es una disminución en 2024, pero la industria de alimentos saludables crece, lo que indica que los alimentos saludables son antirrecurrentes.",
+        "F": "La industria de alimentos saludables es el único subsector en crecimiento de la industria general de la gran salud, por lo que directamente determina el crecimiento previsto de la industria general.",
+        "G": "La industria general de la gran salud se prevé que crezca en 2024, y la industria de alimentos saludables también reportó un crecimiento significativo en el mismo año, lo que indica que la expansión del subsector puede haber impulsado la previsión positiva de la industria general."
+      },
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_2",
+        "chart_42_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en el gráfico de ventas mensuales de la industria de alimentos saludables (con el título \"Ventas Mensuales de Industrias Relacionadas con Alimentos Saludables en 2024\") y el gráfico de crecimiento anual de 2024 (con el título \"Crecimiento de los Ingresos de Ventas de la Industria de Alimentos Saludables en 2024\"), ¿qué características de ventas de algunos meses pueden explicar la distribución del crecimiento general en 2024?",
+      "answer": {
+        "A": "Las altas ventas y el precio promedio de transacción relativamente alto en octubre de 2024 pueden haber contribuido significativamente al crecimiento anual, ya que los datos de ese mes son destacados y el gráfico de crecimiento anual muestra un aumento general.",
+        "B": "Aunque el precio promedio de transacción es bajo en algunos meses (por ejemplo, julio), los meses con altas ventas (por ejemplo, marzo y mayo) pueden haber compensado la baja del precio promedio a través del aumento de las ventas, lo que sustenta el crecimiento anual.",
+        "C": "Las ventas en marzo alcanzaron 10.000 millones, el máximo del año, y el precio promedio de transacción fue bajo (7), lo que indica que las promociones de bajo precio impulsaron significativamente el crecimiento y fueron el principal contribuyente al crecimiento anual.",
+        "D": "El crecimiento de la industria de alimentos saludables está impulsado principalmente por la demanda estacional de las fiestas, por ejemplo, el mes en que cae el Festival de Primavera, pero los datos no indican claramente la distribución de las fiestas.",
+        "E": "El crecimiento de las ventas está completamente impulsado por la inflación y no está relacionado con las características de meses específicos, por lo que la distribución mensual no tiene significado explicativo.",
+        "F": "El precio promedio de transacción fluctúa mucho, pero las ventas aumentan significativamente en los meses finales del año (por ejemplo, octubre y noviembre), lo que puede haber impulsado la mayor parte del crecimiento anual.",
+        "G": "Las ventas en diciembre fueron de 9.000 millones, por debajo del promedio anual, y el precio promedio de transacción fue 8, mucho más bajo de lo esperado en los meses finales del año. Por lo tanto, este mes frenó el crecimiento general."
+      },
+      "charts_involved": [
+        "chart_42_5",
+        "chart_42_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según el gráfico de crecimiento de la industria de alimentos saludables en 2024 (con el título \"Crecimiento de los Ingresos de Ventas de la Industria de Alimentos Saludables en 2024\") y el gráfico de crecimiento en enero de 2025 (con el título \"Crecimiento de las ventas de la industria de alimentos saludables en enero de 2025\"), ¿qué características muestra la tendencia de crecimiento de la industria en la transición de año?",
+      "answer": {
+        "A": "Aunque los puntos de tiempo son diferentes (todo el año vs. un solo mes), el porcentaje de crecimiento es similar, lo que refleja la estabilidad del crecimiento de la industria y no está afectado por fluctuaciones a corto plazo.",
+        "B": "El crecimiento del 17% en 2024 se basa en el total del año, mientras que el crecimiento del 18% en enero de 2025 se basa en una base de solo 8.000 millones (un mes). Por lo tanto, la calidad del crecimiento es más baja y la tendencia se debilita.",
+        "C": "El crecimiento de la industria generalmente se acelera al principio del año debido al aumento de la voluntad de consumo en el nuevo año, pero el gráfico no proporciona patrones estacionales.",
+        "D": "Después del crecimiento general en 2024, la industria siguió creciendo en enero de 2025, y el porcentaje de crecimiento fue ligeramente más alto, lo que indica que la tendencia de crecimiento puede estar acelerándose.",
+        "E": "El crecimiento en enero de 2025 se basa en una base más alta (calculada a partir de los datos de 2024), lo que puede reforzar la continuidad de la expansión de la industria, consistente con la tendencia de 2024.",
+        "F": "El porcentaje de crecimiento en 2025 disminuye, lo que indica que el mercado está saturado y la tendencia de crecimiento no es sostenible.",
+        "G": "Las ventas en enero de 2025 alcanzaron 9.840 millones, mucho más altas que el promedio mensual de 9.750 millones en 2024, lo que indica un crecimiento significativamente acelerado."
+      },
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_4"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la tendencia general de desarrollo de la industria de la gran salud de China y el rendimiento reciente del subsector de alimentos saludables, ¿cómo debe la empresa ajustar su cartera de inversión para maximizar los retornos a largo plazo? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Invertir en primer lugar en la construcción de la marca y la educación del consumidor para mejorar la reputación general de la empresa y su competitividad a largo plazo.",
+        "B": "Incrementar la inversión durante los períodos de bajas ventas mensuales (por ejemplo, julio de 2024) y aprovechar las oportunidades de bajo precio (precio promedio de transacción de 4) para adquirir activos y reducir los costos a largo plazo.",
+        "C": "Equilibrar la estrategia de inversión para hacer frente al riesgo de desaceleración del crecimiento. Las previsiones de la industria general indican que la tasa de crecimiento ha disminuido en los últimos años, y aunque los alimentos saludables tienen un crecimiento destacado, pueden verse afectados por la saturación del mercado. Por lo tanto, se debe mantener una inversión diversificada para evitar la sobreconcentración y, al mismo tiempo, aprovechar la experiencia de alto crecimiento de los alimentos saludables para explorar oportunidades de sinergia en subsectores relacionados.",
+        "D": "Incrementar en primer lugar la proporción de inversión en el campo de los alimentos saludables. Los ingresos totales de la industria de la gran salud presentan una tendencia de aumento estable, pero la tasa de crecimiento reciente del subsector de alimentos saludables es significativamente más alta que el promedio de la industria, y la tendencia de crecimiento sigue siendo fuerte, lo que indica que este campo tiene un mayor potencial de crecimiento y una tasa de retorno de inversión más alta. La inclinación de recursos puede capturar las oportunidades de expansión del mercado.",
+        "E": "Ampliar la inversión en subsectores tradicionales como equipos médicos, ya que el crecimiento general de la industria de la gran salud es estable y el riesgo de los campos tradicionales es menor.",
+        "F": "Asignar recursos de inversión de manera concentrada en los meses de pico estacional de demanda. Los datos de ventas mensuales de alimentos saludables revelan un ciclo de fluctuación de demanda evidente. Las ventas en algunos meses son significativamente más altas que en otros períodos. Combinado con la tendencia general de crecimiento de la industria, incrementar la inversión en los períodos de pico puede mejorar más eficientemente las ventas y la utilización de fondos.",
+        "G": "Reducir la proporción de inversión en el campo de los alimentos saludables, ya que la tasa de crecimiento de la industria general de la gran salud se ha desacelerado significativamente en 2024 (de 8,6 billones de yuanes en 2023 a 9,0 billones de yuanes en 2024, con una tasa de crecimiento de solo aproximadamente 4,65%), lo que indica que el potencial de este campo es limitado."
+      },
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_3",
+        "chart_42_5"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Teniendo en cuenta la fluctuación estacional y las características de crecimiento continuo de los datos de ventas de la industria de alimentos saludables, ¿cómo debe la empresa optimizar su estrategia de gestión de inventario para reducir costos y evitar faltantes de stock? Por favor, seleccione la sugerencia más razonable.",
+      "answer": {
+        "A": "Aprovechar la relación entre precio y ventas para optimizar el momento de compra. Hay una correlación entre el cambio del precio promedio de transacción y el volumen de ventas (por ejemplo, los meses de bajo precio pueden reflejar oportunidades de promoción). Reducir el inventario costoso durante los períodos de bajo precio promedio (por ejemplo, julio) y, combinado con la tendencia de crecimiento, introducir estrategias de promoción para liquidar el inventario y estimular la demanda.",
+        "B": "Ignorar la fluctuación estacional y aumentar uniformemente el inventario de todos los meses en un 20% solo en función de la tasa de crecimiento anual (por ejemplo, un crecimiento del 17% en 2024) para adaptarse a la tendencia de expansión de la industria.",
+        "C": "Aumentar gradualmente la capacidad de inventario básico en función de la tendencia de crecimiento de la industria. El volumen de ventas de la industria de alimentos saludables ha presentado un crecimiento alto en doble dígito durante varios años consecutivos, y la tendencia de crecimiento se ha mantenido en el nuevo año. La planificación de inventario debe ajustarse hacia arriba de manera prospectiva para adaptarse a la expansión de la demanda y evitar el riesgo de faltantes de stock causado por la inercia del crecimiento.",
+        "D": "Implementar un mecanismo de ajuste dinámico de inventario para hacer coincidir el nivel de inventario con los picos y valles de ventas mensuales históricos. Los datos mensuales muestran que la demanda tiene picos evidentes en ciertos meses. Aumentar el inventario durante los meses de pico (por ejemplo, octubre) y reducirlo durante los meses de valle (por ejemplo, julio) para equilibrar la oferta y la demanda y reducir el desperdicio de almacenamiento.",
+        "E": "Implementar un proceso de inventario estandarizado, como auditorías periódicas, para mejorar la eficiencia de la gestión y reducir los errores humanos.",
+        "F": "Aumentar el nivel de inventario de seguridad para hacer frente a cualquier cambio repentino en la demanda y garantizar la resistencia de la cadena de suministro.",
+        "G": "Aumentar significativamente el inventario durante los meses de alto precio promedio de transacción (por ejemplo, un precio promedio de 10 en octubre de 2024), ya que un precio alto representa una demanda fuerte y puede maximizar los beneficios."
+      },
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_4",
+        "chart_42_5"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Teniendo en cuenta la fuerte tendencia de crecimiento y las características de ventas mensuales del sector de alimentos saludables, ¿cómo debe la empresa diseñar una estrategia de marketing para aumentar su cuota de mercado y beneficios? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Incrementar de manera concentrada la inversión en marketing durante la temporada alta de ventas. Los datos de ventas mensuales indican que la demanda natural es alta en algunos meses (por ejemplo, octubre y noviembre). Fortalecer las actividades de marketing en este momento puede amplificar el efecto de aumento de las ventas. Combinado con la tendencia de crecimiento de la industria, se puede capturar eficientemente la cuota de mercado.",
+        "B": "Incrementar la inversión en canales de marketing digitales, como las redes sociales, para ampliar la cobertura de consumidores y adaptarse a las tendencias modernas.",
+        "C": "Reducir el presupuesto de marketing, ya que la industria ha logrado un crecimiento del 17% en 2024 (chart_42_3), lo que indica que la demanda natural es fuerte y no se necesita inversión adicional.",
+        "D": "Aprovechar el período de alto crecimiento de la industria para ampliar el presupuesto general de marketing. La tasa de crecimiento del sector de alimentos saludables es mucho más alta que el promedio de la industria de la gran salud, y la dinámica de crecimiento sigue siendo fuerte. La empresa debe aumentar la inversión en la marca y la cobertura de canales para aprovechar los beneficios del mercado y aumentar el conocimiento del consumidor.",
+        "E": "Desarrollar nuevas líneas de productos para atraer a un grupo de clientes diversificado y aumentar la penetración general del mercado.",
+        "F": "Diseñar actividades de promoción para atraer a los grupos sensibles al precio durante los períodos de bajo precio promedio. En los meses de bajo precio promedio de transacción (por ejemplo, julio), estimular la demanda a través de descuentos o ventas combinadas. Combinado con el contexto de crecimiento de la industria, se pueden convertir nuevos usuarios y aumentar la lealtad de los clientes, al mismo tiempo que se optimiza la estructura de beneficios.",
+        "G": "Concentrar los recursos de marketing en los meses de ventas más bajas (por ejemplo, 7.000 millones de yuanes en febrero de 2024) para estimular la demanda y revertir el rendimiento en los períodos de valle."
+      },
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_3",
+        "chart_42_4",
+        "chart_42_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

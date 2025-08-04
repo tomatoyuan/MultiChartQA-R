@@ -1,0 +1,206 @@
+{
+  "chart": [
+    "chart_57_1",
+    "chart_57_2",
+    "chart_57_3",
+    "chart_57_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the change trend in 'Average marketing budget as a percentage of operating revenue of global enterprises from 2019 - 2025' consistent with that in 'Forecast of Market Size and Growth Rate of China's Overseas Influencer Marketing SaaS from 2025 to 2027'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The ratio in chart_57_1 shows a downward trend overall, while the market size in chart_57_4 continues to grow.",
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In 'Average marketing budget as a percentage of operating revenue of global enterprises from 2019 - 2025' and 'Forecast of Market Size and Growth Rate of China's Overseas Influencer Marketing SaaS from 2025 to 2027', is there a trend of continuous growth for two consecutive years in both? Answer yes or no.",
+      "answer": "No",
+      "explanation": "There is no continuous growth for two consecutive years in chart_57_1 (the values from 2022 to 2025 either decline or remain flat); the market size in chart_57_4 shows continuous growth from 2025 to 2027. Therefore, the answer is no.",
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do 'Comparison of Effectiveness Speed and Cost of Each Marketing Channel' and 'Distribution of Influencer Marketing Posts in Global Regions' have the same color - matching style? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Chart_57_2 uses green and orange, while chart_57_3 uses purple.",
+      "charts_involved": [
+        "chart_57_2",
+        "chart_57_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "If the operating revenue of a global enterprise in 2025 is 100 billion yuan, and the proportion of the marketing budget allocated to influencer marketing in the total marketing budget is the same as the proportion of influencer marketing posts in the USA, then how much is the budget for influencer marketing of this enterprise in 2025 in billions of yuan? Round to 2 decimal places. Answer: xx.xx billion yuan",
+      "answer": "17.48 billion yuan",
+      "explanation": "In 2025, the average marketing budget of global enterprises as a percentage of operating revenue is 7.7%. Since the operating revenue of this enterprise is 100 billion yuan, the total marketing budget is 100 × 7.7% = 7.7 billion yuan; the proportion of influencer marketing posts in the USA is 22.7%, so the budget for influencer marketing is 7.7 × 22.7% ≈ 17.48 billion yuan",
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What percentage does the growth of the market size of China's overseas influencer marketing SaaS from 2025 to 2026 account for in the average marketing budget of global enterprises in 2025 (taking an enterprise with an operating revenue of 10 billion yuan as an example)? Round to 2 decimal places. Answer: xx.xx%",
+      "answer": "16.05%",
+      "explanation": "The market size of China's overseas influencer marketing SaaS in 2026 is 9.4 billion yuan, and in 2025 it is 8.1 billion yuan. The growth is 9.4 - 8.1 = 1.3 billion yuan; the marketing budget of an enterprise with an operating revenue of 10 billion yuan in 2025 is 10 × 7.7% = 0.77 billion yuan, and the proportion is 1.3 ÷ 0.77 × 100% ≈ 16.05%",
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the difference between the product of the cost level and the effectiveness speed level of the affiliate marketing channel and the corresponding product of the paid ads channel to the sum of the proportions of influencer marketing posts in India and Indonesia? Round to 2 decimal places. Answer: xx.xx",
+      "answer": "38.46",
+      "explanation": "The product of the cost level 2.5 and the effectiveness speed level 2 of the affiliate marketing channel is 2.5 × 2 = 5; the product of the cost level 3 and the effectiveness speed level 3 of the paid ads channel is 3 × 3 = 9, and the difference between them is 9 - 5 = 4; the proportion of influencer marketing posts in India is 6.7%, and in Indonesia it is 3.7%, and their sum is 6.7% + 3.7% = 10.4% (i.e., 0.104); therefore, the ratio is 4 ÷ 0.104 ≈ 38.46",
+      "charts_involved": [
+        "chart_57_2",
+        "chart_57_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The marketing budget ratio of global enterprises showed a significant decline in a specific year and then gradually stabilized. Considering the effectiveness speed and cost characteristics of different marketing channels, which channels may be more favored during the enterprise budget optimization stage?",
+      "answer": {
+        "A": "During the recovery period after the decline in the budget ratio, enterprises may prioritize channels with relatively low cost but medium effectiveness speed, such as Email Marketing, to balance expenditure and efficiency.",
+        "B": "In 2022, the marketing budget ratio was the lowest (actually 9.5%), which prompted enterprises to turn to Affiliate Marketing because of its low cost level (actually 2.5) and medium speed.",
+        "C": "After the budget trough, enterprises tend to reduce the use of high - cost channels (such as Paid Ads) and instead increase the use of more cost - effective channels (such as Affiliate Marketing).",
+        "D": "During the budget decline period, enterprises completely stop all marketing activities to save expenses.",
+        "E": "Enterprises will prioritize channels with the fastest effectiveness speed, such as SEM and Paid Ads, to quickly improve performance, regardless of the cost.",
+        "F": "During the budget stability stage, enterprises may increase investment in channels with relatively fast effectiveness speed and moderate cost (such as Social Media Ads) to enhance marketing flexibility.",
+        "G": "Social Media Ads have a low cost level (actually 2.5) and fast effectiveness speed, so a large amount of investment is increased during the budget stability stage."
+      },
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Influencer marketing is highly concentrated in certain global regions, while the forecast of the Chinese overseas Influencer Marketing SaaS market shows continuous growth. Which regional factors may implicitly drive or affect the expansion of this SaaS market?",
+      "answer": {
+        "A": "The relatively high post proportion in emerging regions (such as Brazil) may imply unsaturated market opportunities, supporting the high - growth forecast of the SaaS market, as these regions need tools to improve efficiency.",
+        "B": "India has a high proportion of posts (actually 6.7%), so it is the main driving force for the SaaS market growth forecast.",
+        "C": "Regions with relatively low post proportions (such as European countries) may expand their coverage through SaaS tool penetration, explaining the stability of the market growth rate, as these regions have growth potential.",
+        "D": "European countries such as Germany and France have low post proportions (actually 2.0% each), but SaaS tools can completely replace influencer marketing, thus promoting the stable growth of the market.",
+        "E": "The SaaS market had the highest growth rate in 2025 (actually, the highest was 16.6% in 2026), indicating that emerging regions such as Brazil contributed the most.",
+        "F": "Regions with a high proportion of influencer marketing posts (such as the USA) may provide a mature market foundation for SaaS tools, promoting the realization of the growth forecast, as these regions have high demand.",
+        "G": "The growth of the Influencer Marketing SaaS market is mainly driven by the increase in global social media users, regardless of the specific regional distribution."
+      },
+      "charts_involved": [
+        "chart_57_3",
+        "chart_57_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The global marketing budget ratio decreased sharply in a certain period, but the forecast of the influencer marketing - related market and tools shows growth. What factors can explain this apparent conflict?",
+      "answer": {
+        "A": "The USA has the highest proportion of influencer marketing posts (22.7%), but the growth rate forecast is decreasing (actually, the CAGR is stable at 15.0%), so regional factors are irrelevant.",
+        "B": "The decline in the marketing budget directly leads to the shrinkage of all marketing - related markets, including Influencer Marketing SaaS tools, so the growth forecast is unreasonable.",
+        "C": "During the budget decline period, enterprises may turn to more cost - effective channels (such as influencer marketing), which in turn stimulates the demand for related SaaS tools, thus supporting the growth forecast.",
+        "D": "The budget reduction prompts enterprises to optimize their expenditure and prioritize channels with medium effectiveness speed (such as influencer marketing), which implicitly promotes the expansion of the Influencer Marketing SaaS market.",
+        "E": "The SaaS market had the lowest budget ratio in 2024 (actually, the lowest was 6.4% in 2021), so enterprises turned to influencer marketing because of its fast effectiveness speed (actually medium, with a speed level of 2).",
+        "F": "Affiliate Marketing has a lower cost (cost level 2.5) than influencer marketing (cost level 2), so it is more favored, but the Influencer Marketing SaaS market still grows.",
+        "G": "The co - existence of the global budget decline and the high activity of influencer marketing in specific regions (such as the USA) may alleviate the conflict through regional differences, as regions with high demand support the growth of the tool market."
+      },
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_2",
+        "chart_57_3",
+        "chart_57_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The proportion of global enterprise marketing budgets has shown a fluctuating downward trend in recent years, and there are significant differences in the effectiveness speed and cost of each marketing channel. How should enterprises adjust the marketing channel mix to improve overall efficiency and ensure maximum marketing effectiveness under budget constraints?",
+      "answer": {
+        "A": "Given that the proportion of the marketing budget reached its lowest point in 2021 (6.4%), enterprises should significantly increase investment in channels with high effectiveness speed, such as Paid Ads (effectiveness speed level 3), to quickly boost short - term sales, ignoring cost constraints.",
+        "B": "Enterprises should comprehensively increase investment in all marketing channels to expand market coverage and brand influence, thereby offsetting the negative impact of the budget decline.",
+        "C": "Increase investment in channels with medium effectiveness speed and relatively low cost, such as Email Marketing or Influencer Marketing. These channels perform well in cost control, can quickly respond to the budget reduction trend, and maintain reasonable marketing output.",
+        "D": "Allocate most of the budget to channels with the lowest cost level, such as Email Marketing (cost level 1), because of its extremely low cost, which can fully adapt to the budget decline trend without considering differences in effectiveness speed.",
+        "E": "In the overall channel mix, prioritize channels with a balanced cost - effectiveness ratio (such as Social Media Ads) and dynamically adjust the investment proportion according to market fluctuations. This can flexibly respond to budget changes and avoid efficiency losses.",
+        "F": "Stop using channels with slow effectiveness speed, such as SEO, and concentrate resources on brand promotion activities to build long - term customer loyalty.",
+        "G": "Reduce resource allocation to high - cost channels, such as Paid Ads or SEM, and redirect the saved budget to channels with slow but extremely low cost, such as SEO. This can accumulate brand value in the long run and adapt to the environment of continuously tight budgets."
+      },
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_2"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The distribution of influencer marketing is uneven across global regions, and the SaaS tool market supporting this channel is experiencing rapid growth. How should enterprises allocate influencer marketing resources to efficiently capture regional opportunities and improve return on investment?",
+      "answer": {
+        "A": "Prioritize regions with the highest proportion of influencer marketing posts (such as North America), concentrate resources and SaaS tools, and take advantage of their high user engagement and economies of scale to maximize short - term influence and market penetration.",
+        "B": "Since the growth rate forecast of the SaaS market shows that the growth rate will be the highest in 2026 (16.6%), enterprises should significantly increase the influencer marketing budget in 2026, regardless of regional distribution differences.",
+        "C": "Use SaaS tools to optimize the operation processes in all regions, especially for cost - sensitive or less efficient links, to support market expansion and adapt to the growth trend of the SaaS scale.",
+        "D": "Allocate influencer marketing resources evenly across all regions to ensure fairness and comprehensive coverage and avoid missing any market opportunities.",
+        "E": "Reduce reliance on influencer marketing and shift to traditional advertising channels to reduce uncertainty and operational complexity.",
+        "F": "In regions with a medium proportion of posts but high growth potential (such as some Asian countries), conduct pilot investments and integrate SaaS tools to explore emerging market opportunities at low cost and avoid over - relying on dominant regions.",
+        "G": "Given that the USA has the highest proportion of influencer marketing posts (22.7%), enterprises should concentrate all resources in this region and ignore other regions with low proportions to maximize economies of scale."
+      },
+      "charts_involved": [
+        "chart_57_3",
+        "chart_57_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The proportion of enterprise marketing budgets is generally on a downward trend, while the influencer marketing - related SaaS market shows strong growth. How should enterprises integrate marketing budget allocation and SaaS tool investment to balance short - term costs and long - term growth?",
+      "answer": {
+        "A": "Moderately increase the share of influencer marketing in the overall marketing budget and simultaneously invest in SaaS tools to improve their efficiency and scalability. This can take advantage of the SaaS growth trend and achieve higher output under budget constraints.",
+        "B": "Given that the proportion of the marketing budget decreased from 10.5% in 2019 to 7.7% in 2025, enterprises should significantly cut the influencer marketing budget and redirect the funds to high - cost channels such as SEM (cost level 3) to take advantage of their effectiveness speed advantage to cope with the downward trend.",
+        "C": "Since the CAGR of the Influencer Marketing SaaS market size is approximately 15.0%, enterprises should prioritize deploying SaaS tools in regions with the lowest proportion of posts (such as Germany with 2.0%) to explore the blue - ocean market at low cost, ignoring dominant regions.",
+        "D": "Adopt a standardized marketing strategy and uniformly apply SaaS tools across all channels and regions to simplify operations and reduce decision - making costs.",
+        "E": "For the influencer marketing channel, optimize the cost structure (such as reducing operating costs) through SaaS tools and allocate the saved resources to channels with faster effectiveness speed to cope with the budget - decline environment.",
+        "F": "According to the regional distribution characteristics of influencer marketing, deepen the application of SaaS tools in dominant regions to strengthen local influence, and at the same time, transfer the budget from inefficient channels to support this strategy.",
+        "G": "Ignore SaaS tool investment and focus on increasing the overall proportion of the marketing budget to support the short - term growth of all channels."
+      },
+      "charts_involved": [
+        "chart_57_1",
+        "chart_57_2",
+        "chart_57_3",
+        "chart_57_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

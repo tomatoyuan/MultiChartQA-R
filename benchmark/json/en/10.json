@@ -1,0 +1,199 @@
+{
+  "chart": [
+    "chart_10_1",
+    "chart_10_2",
+    "chart_10_3",
+    "chart_10_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Do the changing trends of the bars in the two charts 'Attention proportion of vocational training industry by city level in May' and 'Top 5 Search Cities in the Vocational Training Industry in May' with the abscissa moving to the right consistent? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The changing trends of the bars in both charts gradually decrease as the abscissa moves to the right.",
+      "charts_involved": [
+        "chart_10_3",
+        "chart_10_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Are the changing trends of the search attention of the vocational training industry from May 13th to May 16th and the growth rate of the attention of the vocational training industry in first - tier to fourth - tier cities in May consistent? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former first decreases and then increases, while the latter first increases and then decreases.",
+      "charts_involved": [
+        "chart_10_1",
+        "chart_10_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the top - ranked search city in the vocational training industry in May belong to the city level with the highest attention proportion of the vocational training industry by city level in May? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Beijing is the city level with the highest attention proportion of the vocational training industry by city level in May, and Beijing is a first - tier city.",
+      "charts_involved": [
+        "chart_10_3",
+        "chart_10_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the proportion of attention in the vocational training industry in cities of different levels satisfies the distribution of search terminal proportions. What percentage of the attention proportion in first-tier cities in the vocational training industry in May is contributed by computers? Express the result as a percentage and round to three decimal places.",
+      "answer": "7.334%",
+      "explanation": "38% * 19.30% = 7.334%",
+      "charts_involved": [
+        "chart_10_2",
+        "chart_10_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the proportion of attention in the vocational training industry in each city satisfies the distribution of search terminal proportions. What percentage of the attention proportion in Shanghai in the vocational training industry in May is contributed by mobile terminals? Express the result as a percentage and round to two decimal places.",
+      "answer": "2.34%",
+      "explanation": "2.9% * 80.70% = 2.3403%",
+      "charts_involved": [
+        "chart_10_2",
+        "chart_10_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the search proportion of each city in the vocational training industry is fixed every day in May. What is the search attention of Beijing on the date when the search attention in the vocational training industry reaches its peak in May? Use the thousands separator notation, for example: xxx,xxx.",
+      "answer": "438,600",
+      "explanation": "10,200,000 * 4.3% = 438,600",
+      "charts_involved": [
+        "chart_10_3",
+        "chart_10_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the search attention trend chart of the vocational training industry and the attention proportion chart by city level, the overall search volume remained at a relatively high level in May, but the growth rates of all city levels were negative. What factors can explain this contradictory phenomenon?",
+      "answer": {
+        "A": "The search attention trend chart shows that the overall search volume in May was relatively high and there were multiple peak days. The attention proportion chart by city level shows that first - tier cities had the largest proportion but the most significant decline in growth rate. This may be due to market saturation or intensified competition in first - tier cities, resulting in a year - on - year decline in the growth rate despite the high absolute value of the search volume.",
+        "B": "The high overall search volume is because May is the peak season for vocational training, and the demand naturally increases. However, the negative growth rate is due to data entry errors by the statistical department.",
+        "C": "In the search attention trend chart, the search volume reached a significant peak in the middle of the month. But the attention proportion chart by city level shows that the growth rates of all city levels were negative, indicating that short - term search fluctuations (such as promotions or events) may not be able to offset the long - term weak growth.",
+        "D": "In the attention proportion chart by city level, the growth rates of third - tier and fourth - tier cities declined more significantly, but their proportions were relatively small. Therefore, the weak growth in these regions was masked by the overall high search volume, but it could not reverse the overall negative growth trend.",
+        "E": "The negative growth rates of all city levels indicate that the economic recession has led users to reduce their training investment. However, the high search volume is due to the short - term interest stimulated by government subsidy policies.",
+        "F": "In the search attention trend chart, the search volume on May 31st was 9,500,000, which was 53% higher than 6,200,000 on May 1st, indicating a positive monthly growth. The contradiction with the negative growth rate is a data anomaly.",
+        "G": "In the attention proportion chart by city level, the growth rate of fourth - tier cities declined by - 9%, the largest decline, and the proportion was 12%. Therefore, fourth - tier cities were the main driving force for the overall negative growth."
+      },
+      "charts_involved": [
+        "chart_10_1",
+        "chart_10_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the analysis chart of the proportion of vocational training search terminals and the attention proportion chart by city level, the proportion of mobile - terminal searches is significantly higher than that of computer - terminal searches. What factors may imply this rule?",
+      "answer": {
+        "A": "The high proportion of mobile - terminal searches is due to the high penetration rate of smartphones. However, the computer terminal is more professional in vocational training, so users trust the search results of the computer more.",
+        "B": "Users in first - tier cities prefer to use the computer terminal for searches because the enterprise environment provides a stable network, which contradicts the high proportion of mobile - terminal searches.",
+        "C": "In the attention proportion chart by city level, the growth rates of second - tier and third - tier cities declined. But the analysis chart of the proportion of search terminals shows a high proportion of mobile - terminal searches, suggesting that users in these regions may be accelerating their shift to mobile searches, despite the slowdown in overall attention growth.",
+        "D": "The analysis chart of the proportion of search terminals shows an extremely high proportion of mobile - terminal searches. The attention proportion chart by city level shows that first - tier cities had the largest proportion of attention. This may be because users in first - tier cities rely more on mobile devices for convenient searches, jointly driving the mobile - terminal - dominated trend.",
+        "E": "In the attention proportion chart by city level, the growth rate of second - tier cities was - 4%, but the attention proportion was 19%. The proportion of mobile - terminal searches was 80.7%. Therefore, the usage rate of mobile searches in second - tier cities is growing rapidly.",
+        "F": "In the attention proportion chart by city level, the attention proportion of third - tier cities was 17% and the growth rate declined by - 8%, the largest decline. The high proportion of mobile - terminal searches indicates that users in third - tier cities are accelerating their abandonment of mobile searches.",
+        "G": "In the attention proportion chart by city level, first - tier cities had the highest proportion but a negative growth rate. The analysis chart of the proportion of search terminals shows a high proportion of mobile - terminal searches, indicating that the high mobile - usage rate may be related to the market maturity of first - tier cities, but the decline in the growth rate reflects fierce competition."
+      },
+      "charts_involved": [
+        "chart_10_2",
+        "chart_10_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the search attention trend chart, the analysis chart of the proportion of search terminals, and the chart of the top 5 search cities, analyze the possible driving factors for the search peak days.",
+      "answer": {
+        "A": "In the search attention trend chart, the search volume reached a peak on a specific date. The chart of the top 5 search cities shows that first - tier cities such as Beijing had the highest proportion. Combining with the mobile - terminal - dominated situation in the analysis chart of the proportion of search terminals, it may indicate that the peak days were driven by the mobile - search behavior of users in first - tier cities.",
+        "B": "In the chart of the top 5 search cities, the proportion of Chengdu was 3.4%, relatively high. But the search volume on May 16th was 10,200,000, the peak. Therefore, users in Chengdu were the main driving factor for this peak.",
+        "C": "The search peak day, such as May 5th, was because the Labor Day holiday ended and users returned to work and then concentrated on searching for vocational training, which had nothing to do with the high proportion of mobile - terminal searches.",
+        "D": "In the chart of the top 5 search cities, cities such as Chengdu had prominent proportions. The analysis chart of the proportion of search terminals shows an extremely high proportion of mobile - terminal searches. The sharp increase in the search volume on the peak days in the search attention trend chart implies that users in non - first - tier cities were actively searching through mobile devices on the peak days.",
+        "E": "The search volume of the computer terminal was higher on the peak days because users used office computers for professional training inquiries. However, the analysis chart of the proportion of search terminals shows that mobile terminals were dominant.",
+        "F": "The search volume reached a peak of 9,700,000 on May 4th. The proportion of mobile - terminal searches was 80.7%, but the computer terminal contributed more because users in first - tier cities relied more on computers.",
+        "G": "The search attention trend chart shows that the search volume rebounded at the end of the month. The chart of the top 5 search cities shows a high proportion of Shenzhen. The analysis chart of the proportion of search terminals shows that mobile terminals were dominant. This may reflect an increase in the end - of - month demand of users in cities such as Shenzhen, with concentrated searches through mobile devices."
+      },
+      "charts_involved": [
+        "chart_10_1",
+        "chart_10_2",
+        "chart_10_4"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the provided chart content, considering the fluctuation characteristics of search attention in the vocational training industry and users' device preferences, how should the allocation strategy of online marketing resources be optimized to improve advertising efficiency and user conversion rate? Please select the most reasonable strategy recommendation:",
+      "answer": {
+        "A": "Comprehensively increase the advertising budget for all time periods and evenly distribute it between mobile terminals and computer terminals to ensure continuous brand exposure.",
+        "B": "Significantly increase the advertising investment on the days with the lowest search attention (such as May 1st or May 21st) to seize users' attention in a low - competition environment.",
+        "C": "Reduce the overall advertising budget on the days with relatively low search attention and shift to data analysis and user behavior research. The search trend shows that there are periodic troughs in attention. At this time, the input - output ratio may be low. Combining with the high proportion of mobile terminals, optimizing the algorithm can improve the accuracy of future advertising placement.",
+        "D": "Concentrate on increasing the advertising investment on mobile terminals during the peak periods of search attention. The search trend shows that the attention significantly increases on specific dates, and mobile searches are absolutely dominant. This strategy can maximize advertising exposure and user reach efficiency and avoid wasting the budget during low - attention periods.",
+        "E": "Focus on optimizing computer - terminal advertising, such as improving web design, because computer users are more likely to make in - depth decisions, thus increasing the conversion rate."
+      },
+      "charts_involved": [
+        "chart_10_1",
+        "chart_10_2"
+      ],
+      "label": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the provided chart content, combining the attention proportion and growth dynamics of different city levels, how should the regional allocation strategy of vocational training promotion resources be adjusted to balance market potential and risks? Please select the most reasonable strategy recommendation:",
+      "answer": {
+        "A": "Concentrate resources only on the top 5 search cities (such as Beijing and Shanghai) because they have the highest proportions and ignore other city levels.",
+        "B": "Evenly distribute resources among all city levels to ensure that each region can receive fair promotion support to maintain overall market stability.",
+        "C": "Optimize the promotion methods in third - tier and fourth - tier cities where the growth rate has declined significantly, such as enhancing attractiveness through local - themed content or community cooperation. Although the proportions of these cities are low, they still have a stable user base. Combining with the negative growth trend, targeted strategies can improve resource utilization efficiency and avoid simply reducing investment.",
+        "D": "Maintain or fine - tune the promotion efforts in first - tier cities and increase resource investment in second - tier cities with a high search proportion (such as Chengdu and Hangzhou). First - tier cities have the highest proportion but weak growth. The data of top cities shows that some second - tier cities have a strong user base. This strategy can explore emerging market opportunities and avoid over - relying on saturated regions.",
+        "E": "Double the promotion budget in third - tier and fourth - tier cities because the growth rates in these regions are the most negative (- 8% to - 9%), indicating that the demand is suppressed and needs to be stimulated to rebound."
+      },
+      "charts_involved": [
+        "chart_10_3",
+        "chart_10_4"
+      ],
+      "label": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the provided chart content, in view of the slowdown in the overall attention growth of the vocational training industry, combining with users' search behavior and regional hotspots, what strategies should be formulated to stimulate user demand and increase participation? Please select the most reasonable strategy recommendations:",
+      "answer": {
+        "A": "Ignore the fluctuations in search attention and maintain a constant advertising investment throughout the year to avoid the uncertainty caused by adjustments during peak and trough periods.",
+        "B": "Prioritize optimizing the user experience on the computer terminal, such as developing desktop - exclusive functions, because computer users may be more professional and have a higher conversion rate.",
+        "C": "Extensively increase social media marketing activities to enhance brand awareness and user interaction without targeting specific devices or regions.",
+        "D": "Conduct targeted marketing activities in cities leading in search proportion (such as Beijing and Chengdu) and monitor the growth rate changes to dynamically adjust resources. Users are concentrated in top cities but face growth pressure. This strategy can focus on high - return regions and respond to market dynamics.",
+        "E": "Launch large - scale promotions in third - tier and fourth - tier cities with the most negative growth rates to reverse the downward trend (such as - 8% to - 9% growth rate) using local - themed content.",
+        "F": "Launch time - limited promotions or interactive activities during the periods when search attention surges. The search trend shows periodic peaks. Combining with the overall slowdown in growth, this strategy can seize the peak of user interest and convert potential demand.",
+        "G": "Strengthen the optimization of the mobile - terminal user experience, such as improving the app loading speed or personalized recommendations. The proportion of mobile searches is extremely high. Against the background of the overall decline in attention, improving convenience can enhance user stickiness."
+      },
+      "charts_involved": [
+        "chart_10_1",
+        "chart_10_2",
+        "chart_10_3",
+        "chart_10_4"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    }
+  ]
+}

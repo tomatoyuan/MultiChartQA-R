@@ -1,0 +1,176 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of private - school teachers with a master's degree in fall 2020? (Answer with a percentage value)\n question2: What is the proportion of U.S. public schools located in suburbs in fall 2021?",
+                "rationale": "rationale1: To answer this question, we directly search for the proportion of private - school teachers with a master's degree in the chart.\n rationale2: The question directly asks for the proportion of U.S. public schools in suburbs in fall 2021, and the relevant information can be found in the given chart.",
+                "answer": "41%; 32%",
+                "involved_content_sources": [
+                    "chart_6-40",
+                    "chart_2-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. public schools located in suburbs in fall 2021?\n question2: What percentage of total enrollment in the U.S. is in private schools?\n question3: What percentage of charter - school students attend a school where more than 75% of students qualify for the free or reduced - price lunch program?",
+                "rationale": "rationale1: The question directly asks for the proportion of U.S. public schools in suburbs in fall 2021, and the relevant information can be found in the given chart.\n rationale2: The question directly asks for the percentage of total enrollment in private schools, which can be found from the given chart. The requirement is to provide a single - number answer representing the percentage.\n rationale3: The question is about the percentage of charter - school students in schools with more than 75% of students qualifying for the free or reduced - price lunch program, and the answer is in the chart.",
+                "answer": "32%; 10%; 31%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_5-16"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What percentage of total enrollment in the U.S. is in charter schools?\n question2: What is the proportion of black teachers in charter schools in fall 2020? (Answer with a percentage value)\n question3: What is the proportion of Black students among charter - school students in fall 2021?\n question4: What is the proportion of total pre - kindergarten through 12th grade enrollment in charter schools in CO in fall 2021?",
+                "rationale": "rationale1: This question is about the percentage of total enrollment in charter schools. We can get the answer directly from the chart. The answer should be a single number indicating the percentage.\n rationale2: We need to look for the proportion of black teachers in charter schools in fall 2020 in the chart, which is a direct - read data.\n rationale3: The question requires the proportion of Black students among charter - school students in fall 2021, and this information is available in the chart.\n rationale4: We are looking for the proportion of charter school enrollment in CO in fall 2021, and this data is provided in the chart.",
+                "answer": "7%; 10%; 24%; 14%",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_6-11",
+                    "chart_5-7",
+                    "chart_4-22"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of schools located in cities between U.S. charter schools and U.S. public schools in fall 2021?\n question2: What is the combined proportion of public - school teachers who are either under 30 years old or have less than 3 years of teaching experience in fall 2020?",
+                "rationale": "rationale1: We need to subtract the proportion of U.S. public schools located in cities from the proportion of U.S. charter schools located in cities. This requires using the relevant data from the chart about the location proportions of different types of schools.\n rationale2: To find the combined proportion, we need to add the proportion of public - school teachers under 30 years old and the proportion of public - school teachers with less than 3 years of teaching experience. The relevant data can be found in the chart.",
+                "answer": "26%; 21%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_6-17",
+                    "chart_6-42"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of schools located in cities between U.S. charter schools and U.S. public schools in fall 2021?\n question2: What is the combined proportion of public - school teachers who are either under 30 years old or have less than 3 years of teaching experience in fall 2020?\n question3: What is the average proportion of total pre - kindergarten through 12th grade enrollment in traditional public schools among AK, WA, MT, and ND in fall 2021?",
+                "rationale": "rationale1: We need to subtract the proportion of U.S. public schools located in cities from the proportion of U.S. charter schools located in cities. This requires using the relevant data from the chart about the location proportions of different types of schools.\n rationale2: To find the combined proportion, we need to add the proportion of public - school teachers under 30 years old and the proportion of public - school teachers with less than 3 years of teaching experience. The relevant data can be found in the chart.\n rationale3: To find the average, we need to sum up the proportions of traditional public school enrollment in these four states and then divide by 4. The proportions are given in the chart for each state.",
+                "answer": "26%; 21%; 91%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_6-17",
+                    "chart_6-42",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of schools located in cities between U.S. charter schools and U.S. public schools in fall 2021?\n question2: What is the combined proportion of public - school teachers who are either under 30 years old or have less than 3 years of teaching experience in fall 2020?\n question3: What is the average proportion of total pre - kindergarten through 12th grade enrollment in traditional public schools among AK, WA, MT, and ND in fall 2021?\n question4: What is the combined proportion of students enrolled in private and charter schools in the U.S.?",
+                "rationale": "rationale1: We need to subtract the proportion of U.S. public schools located in cities from the proportion of U.S. charter schools located in cities. This requires using the relevant data from the chart about the location proportions of different types of schools.\n rationale2: To find the combined proportion, we need to add the proportion of public - school teachers under 30 years old and the proportion of public - school teachers with less than 3 years of teaching experience. The relevant data can be found in the chart.\n rationale3: To find the average, we need to sum up the proportions of traditional public school enrollment in these four states and then divide by 4. The proportions are given in the chart for each state.\n rationale4: To find the combined proportion, we need to add the proportion of students in private schools and the proportion of students in charter schools. This involves taking the values directly from the chart and performing a simple addition operation, which meets the requirements of using at least two pieces of content from the same chart and answering with a single number.",
+                "answer": "26%; 21%; 91%; 17%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_6-17",
+                    "chart_6-42",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of White students in private - school students and the proportion of White teachers in charter - school teachers?",
+                "rationale": "The proportion of White students in private - school students is 65% (from chart_5-11). The proportion of White teachers in charter - school teachers is 69% (from chart_6-10). The difference is 69% - 65% = 4%.",
+                "answer": "4%",
+                "involved_content_sources": [
+                    "chart_5-11",
+                    "chart_6-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of White students in charter - school students, the proportion of charter - school students with an enrollment of 300 - 499, and the proportion of total enrollment in charter schools in the U.S., where the weights are 2, 3, and 5 respectively? (Round the result to two decimal places.)",
+                "rationale": "The proportion of White students in charter - school students is 29% (chart_5-6). The proportion of charter - school students with an enrollment of 300 - 499 is 25% (chart_2-17). The proportion of total enrollment in charter schools in the U.S. is 7% (chart_3-2). The weighted average is (29%\u00d72 + 25%\u00d73 + 7%\u00d75)\u00f7(2 + 3 + 5)=(0.58+0.75 + 0.35)\u00f710 = 1.68\u00f710 = 16.80%.",
+                "answer": "16.80%",
+                "involved_content_sources": [
+                    "chart_5-6",
+                    "chart_2-17",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of public school students in cities and charter school students in cities, the difference between the proportion of total enrollment in private schools and charter schools, the difference between the proportion of White students in public schools and White students in charter schools, and the difference between the proportion of public school teachers with a master's degree and charter school teachers with a master's degree?",
+                "rationale": "From chart2-1, the proportion of public school students in cities is 30%, and from chart2-5, the proportion of charter school students in cities is 56%, so the difference is 30% - 56% = -26%. From chart3-1, the proportion of total enrollment in private schools is 10%, and from chart3-2, the proportion of total enrollment in charter schools is 7%, so the difference is 10% - 7% = 3%. From chart5-1, the proportion of White students in public schools is 47%, and from chart5-6, the proportion of White students in charter schools is 29%, so the difference is 47% - 29% = 18%. From chart6-34, the proportion of public school teachers with a master's degree is 9%, and from chart6-37, the proportion of charter school teachers with a master's degree is 8%, so the difference is 9% - 8% = 1%. The average of these differences is (-26% + 3% + 18% + 1%) / 4 = -1.0%.",
+                "answer": "-1.0%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-1",
+                    "chart_5-1",
+                    "chart_6-34"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the product of the proportion of charter - school students with an enrollment of less than 300 and the proportion of charter - school students where more than 75% of students qualify for the free or reduced - price lunch program, and the product of the proportion of public - school students with an enrollment of 500 or more and the proportion of public - school students in schools where 25% or fewer students qualify for the free or reduced - price lunch program?",
+                "rationale": "From Chart 2, the proportion of charter - school students with an enrollment of less than 300 is 44% (chart_2-16), and from Chart 5, the proportion of charter - school students where more than 75% of students qualify for the free or reduced - price lunch program is 31% (chart_5-16). Their product is 44%\u00d731% = 0.44\u00d70.31 = 0.1364. From Chart 2, the proportion of public - school students with an enrollment of 500 or more is 39% (chart_2-15), and from Chart 5, the proportion of public - school students in schools where 25% or fewer students qualify for the free or reduced - price lunch program is 25% (chart_5-17). Their product is 39%\u00d725% = 0.39\u00d70.25 = 0.0975. The difference between the two products is 0.1364 - 0.0975 = 0.0389 or 3.89%.",
+                "answer": "3.89%",
+                "involved_content_sources": [
+                    "chart_2-15",
+                    "chart_2-16",
+                    "chart_5-16",
+                    "chart_5-17"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of White students in charter - school students, the proportion of charter - school students with an enrollment of less than 300, and the proportion of charter - school teachers under 30 years old, with weights being 0.4, 0.3, and 0.3 respectively?",
+                "rationale": "The proportion of White students in charter - school students is 29% (chart_5-6); the proportion of charter - school students with an enrollment of less than 300 is 44% (chart_2-16); the proportion of charter - school teachers under 30 years old is 21% (chart_6-22). The weighted average is (29%\u00d70.4 + 44%\u00d70.3 + 21%\u00d70.3) = (0.29\u00d70.4 + 0.44\u00d70.3 + 0.21\u00d70.3) = 0.116+0.132 + 0.063 = 0.311 = 31.1%.",
+                "answer": "31.1%",
+                "involved_content_sources": [
+                    "chart_5-6",
+                    "chart_5-7",
+                    "chart_2-16",
+                    "chart_2-17",
+                    "chart_6-22",
+                    "chart_6-23"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of White students in public schools and charter schools, the difference between the proportion of public - school students with an enrollment of less than 300 and private - school students with an enrollment of less than 300, the difference between the proportion of total enrollment in public schools and charter schools, and the difference between the proportion of white teachers in public - school teachers and charter - school teachers?",
+                "rationale": "In fall 2021, among public - school students, the proportion of White students is 47% (chart_5-1), and among charter - school students, the proportion of White students is 29% (chart_5-6). The difference is 47% - 29% = 18%. Among U.S. public - school students, the proportion of those with an enrollment of less than 300 is 31% (chart_2-13), and among U.S. private - school students, the proportion of those with an enrollment of less than 300 is 82% (chart_2-19). The difference is 82% - 31% = 51%. The proportion of total enrollment in public schools in the U.S. is 83% (chart_3-3), and the proportion of total enrollment in charter schools in the U.S. is 7% (chart_3-2). The difference is 83% - 7% = 76%. In fall 2020, among public - school teachers, the proportion of white teachers is 81% (chart_6-7), and among charter - school teachers, the proportion of white teachers is 69% (chart_6-10). The difference is 81% - 69% = 12%. The average of these four differences is (18% + 51% + 76% + 12%) / 4 = 39.25%.",
+                "answer": "39.25%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-6",
+                    "chart_2-13",
+                    "chart_2-19",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_6-7",
+                    "chart_6-10"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

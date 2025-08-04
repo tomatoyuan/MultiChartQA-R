@@ -1,0 +1,205 @@
+{
+  "chart": [
+    "chart_66_1",
+    "chart_66_2",
+    "chart_66_3",
+    "chart_66_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Are both 'Top 3 Pet Health Supplement Awareness' and 'Pet owner age distribution (by user type)' organized in ascending order of proportion from top to bottom? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are arranged in ascending order of proportion size.",
+      "charts_involved": [
+        "chart_66_1",
+        "chart_66_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do 'Top 5 Purchase Channels for Ointments' and 'Acceptance of pet health products among different age groups' use a similar color - matching style? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both use a gray - green color - matching style.",
+      "charts_involved": [
+        "chart_66_2",
+        "chart_66_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In 'Acceptance of pet health products among different age groups', the acceptance of the item 'Regular daily supplementation required' is the highest. And in 'Pet owner age distribution (by user type)', which group accounts for the highest proportion among 'ointment users'? Answer Post - 95s, Post - 90s, Post - 85s, or Pre - 85s.",
+      "answer": "Post - 95s",
+      "explanation": "Post - 95s have the highest acceptance in 'Regular daily supplementation required' and are the main users of ointments.",
+      "charts_involved": [
+        "chart_66_2",
+        "chart_66_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the difference in percentage points between the overall proportion of people who think that regular daily supplementation of pet health supplements is required and the proportion of Post-90s who think so? Take the absolute value and keep 1 decimal place. Answer: xx.xx percentage points",
+      "answer": "1.0 percentage points",
+      "explanation": "The overall proportion of people who need regular daily supplementation is 51.0% - the proportion of Post-90s is 52.0% = -1.0%. Taking the absolute value, it is 1.0 percentage points.",
+      "charts_involved": [
+        "chart_66_1",
+        "chart_66_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among pet owners who use ointments, what is the proportion of Post-95s who think that regular daily supplementation is required? In percentage and keep 1 decimal place. Answer: xx.xx%",
+      "answer": "16.8%",
+      "explanation": "The proportion of Post-95s ointment users is 36.5% × the proportion of Post-95s who think that regular daily supplementation is required is 46.0% = 16.79%. Keeping 1 decimal place, it is 16.8%.",
+      "charts_involved": [
+        "chart_66_2",
+        "chart_66_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the total proportion of the two purchase channels of Tmall and JD to the overall proportion of people who think that regular daily supplementation is required? Keep 2 decimal places. Answer: xx.xx times",
+      "answer": "1.06 times",
+      "explanation": "Tmall 27% + JD 27% = 54.0%; the overall proportion of people who need regular daily supplementation is 51.0%; 54.0% ÷ 51.0% = 1.0588. Keeping 2 decimal places, it is 1.06 times.",
+      "charts_involved": [
+        "chart_66_1",
+        "chart_66_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of acceptance of pet health products among different age groups and the chart of age distribution of ointment users, what factors might explain the inconsistency between the acceptance of daily supplementation among different age groups and the actual user proportions?",
+      "answer": {
+        "A": "The post - 95s group pays more attention to pet fashion trends. Therefore, their acceptance of daily supplementation is low, but the high user proportion is due to the influence of social media.",
+        "B": "The acceptance of daily supplementation among the post - 85s is 56%, but the user proportion is only 18.9%. This indicates that the actual purchase behavior of this group is far lower than their cognitive level, possibly due to insufficient product supply.",
+        "C": "The post - 95s group has the largest proportion among ointment users, but their acceptance of daily supplementation is relatively low, indicating that young pet owners are more inclined to supplement during special periods or when pets have symptoms.",
+        "D": "Although the post - 85s group has the highest acceptance of daily supplementation of pet health products, their proportion among ointment users is low, possibly due to differences in pet ownership or purchasing habits of this age group.",
+        "E": "The acceptance of daily supplementation among the post - 90s group is 52%, and the user proportion is 32.5%. The two are almost the same, indicating that there is no difference between cognition and behavior.",
+        "F": "The high price of pet health products leads to a low purchase proportion among the young group despite their high acceptance, while the older group has a high purchasing power, resulting in a high user proportion.",
+        "G": "The post - 90s group has a medium acceptance of daily supplementation, and the user proportion is also in the middle, showing that cognition and usage behavior are relatively consistent."
+      },
+      "charts_involved": [
+        "chart_66_2",
+        "chart_66_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of overall pet health supplement awareness and the chart of acceptance among different age groups, how to explain the difference between the overall daily supplementation proportion and the proportions of certain age groups?",
+      "answer": {
+        "A": "Different age groups have different views on supplementation when pets have symptoms (for example, the post - 95s are more inclined to this), which dilutes the overall proportion of daily supplementation.",
+        "B": "The acceptance of the post - 90s is close to the overall average level, and their population proportion is moderate, which has a stabilizing effect on the overall trend.",
+        "C": "The acceptance of daily supplementation among the post - 85s is 56%, far higher than the overall 51%. Therefore, the overall proportion is mainly driven by this group.",
+        "D": "The relatively high overall daily supplementation proportion is mainly supported by the high acceptance of the post - 85s and pre - 85s, despite the low acceptance of the post - 95s.",
+        "E": "The acceptance of the post - 90s is 52%, close to the overall 51%, and their population proportion is the highest. Therefore, they play a decisive role in the overall trend.",
+        "F": "The overall growth of the pet health product market promotes the increase of the daily supplementation proportion, but the young group prefers natural feeding, resulting in a low acceptance.",
+        "G": "The acceptance of supplementation when pets are sick among the post - 95s is 33%, significantly higher than the overall 16%, which directly lowers the overall proportion of daily supplementation."
+      },
+      "charts_involved": [
+        "chart_66_1",
+        "chart_66_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the chart of age distribution of ointment users and the chart of purchase channels, which options reflect the association between purchase channel preferences and the main user age groups?",
+      "answer": {
+        "A": "The proportion of young groups (such as the post - 95s and post - 90s) among ointment users is relatively high, corresponding to the dominant proportion of online channels (such as Tmall and JD), indicating that e - commerce platforms are more attractive to young pet owners.",
+        "B": "The proportion of post - 95s users is 36.5%, corresponding to 19% of the pet store channel, indicating that the young group is more inclined to offline professional channels.",
+        "C": "The high proportion of online channels (27% for Tmall + 27% for JD) is because all age groups prefer convenient shopping, which has nothing to do with age.",
+        "D": "The proportion of pre - 85s users is 12.2%, and the pet hospital channel accounts for 10%. The similar proportions prove that older users rely on the hospital channel.",
+        "E": "The proportion of pre - 85s users is low, but the proportion of the pet hospital channel is significant, possibly reflecting that the older group relies more on professional institutions rather than online shopping.",
+        "F": "The proportion of the JD channel is 27%, and the proportion of post - 90s users is 32.5%. The close values show that this platform mainly attracts the post - 90s.",
+        "G": "The proportion of the pet store channel is moderate, which may serve as a general channel to attract all age groups, but the online trend dominated by young users affects its relative share."
+      },
+      "charts_involved": [
+        "chart_66_3",
+        "chart_66_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, how should the marketing resource allocation and product information focus be optimized to improve the market penetration rate and user acceptance of pet health products? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Balance the marketing budget. Highlight the necessity of health supplements in the overall communication (based on the mainstream perception), but customize the information focus according to the acceptance differences of different age groups to maximize resource efficiency and reduce the cognitive gap.",
+        "B": "Increase the social media advertising budget for all pet health products to improve brand exposure among young users, which can naturally increase the overall market penetration rate.",
+        "C": "Emphasize the phased supplementation scenarios in marketing because it accounts for 17% in the perception, higher than the 16% of symptomatic supplementation, and the acceptance differences among different age groups are small. This can quickly educate the market and attract a wide range of users.",
+        "D": "Prioritize promoting the concept of daily regular supplementation of health products to young pet owners (such as the post - 95s and post - 90s) because this group has a relatively higher acceptance of daily supplementation and a larger proportion among pet owners, which can effectively improve the overall market coverage and product utilization rate.",
+        "E": "Increase the emphasis on phased or symptomatic supplementation scenarios in marketing information, especially for older pet owners. Because this group has a higher acceptance of symptomatic supplementation, and the older group accounts for a certain proportion among pet owners, this can make up for the cognitive differences and attract a wider range of users.",
+        "F": "Prioritize promoting the concept of daily regular supplementation to the pre - 85s group because they have the highest acceptance of daily supplementation (54%), and although this group accounts for a small proportion among pet owners, they have high loyalty, which can efficiently improve the market coverage.",
+        "G": "Cooperate with veterinarians and pet experts to launch co - branded products to enhance consumer trust with professional endorsements, thereby expanding the user base."
+      },
+      "charts_involved": [
+        "chart_66_1",
+        "chart_66_2",
+        "chart_66_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, how should the resource investment strategy for purchase channels be adjusted to improve the sales efficiency and market share of ointment products? Please select the most effective suggestion:",
+      "answer": {
+        "A": "Launch limited - time promotion activities, such as discounts and free gifts, on all channels to stimulate impulse purchases and increase short - term sales.",
+        "B": "Focus on increasing the marketing and distribution resources of online channels (such as Tmall and JD) because these channels account for the highest proportion in purchase behavior, and the young pet owner groups (such as the post - 95s and post - 90s) have a relatively large proportion, and they have a stronger preference for online channels, which can improve the overall sales conversion rate.",
+        "C": "Adopt a channel integration strategy. Promote the convenience and daily supplementation concept on online channels, and highlight professional consultation and phased supplementation scenarios on offline channels to match the purchase preferences and product perceptions of different age groups of pet owners and optimize resource utilization.",
+        "D": "Strengthen the product packaging design to make it more visually appealing to pet owners, thereby indirectly improving the channel conversion rate.",
+        "E": "Focus on investing in the pet hospital channel because it accounts for 10% in purchases, and the pre - 85s group trusts this channel more (the acceptance of symptomatic supplementation is 30%), which can efficiently cover older users and enhance the professional image.",
+        "F": "Strengthen the professional service support of offline channels such as pet stores and pet hospitals, especially for older pet owners or scenarios that require professional advice. Because offline channels account for a certain proportion in purchases, and the older group may have a higher trust in professional channels, this can enhance the user experience and cover niche markets.",
+        "G": "Reduce the resource investment in online channels (such as Tmall and JD) because the young group (post - 95s/post - 90s) has a relatively low acceptance of daily supplementation (46% - 52%), and their proportion is large, so the online promotion efficiency is not high."
+      },
+      "charts_involved": [
+        "chart_66_2",
+        "chart_66_3",
+        "chart_66_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, how should the priorities of product features and communication content be designed to improve consumers' cognition and purchase intention of pet health products? Please select the best strategic suggestion:",
+      "answer": {
+        "A": "Develop and promote a segmented product line for phased or symptomatic supplementation scenarios, especially combined with the needs of older pet owners. Because this group has a relatively high acceptance of symptomatic supplementation, and the user distribution shows a potential market, this can expand product coverage and enhance practicality.",
+        "B": "Adopt a hierarchical communication strategy: focus on the concept of daily supplementation for young pet owners and professional advice and symptomatic supplementation scenarios for older groups to match the cognitive preferences of different age groups, while ensuring that all groups can obtain relevant information to improve the overall acceptance.",
+        "C": "Develop more product lines, such as organic or natural ingredient options, to meet the general demand for health trends, thereby enhancing the overall attractiveness.",
+        "D": "Use emotional stories in advertising to emphasize the emotional bond between pets and owners to enhance brand resonance and purchase intention.",
+        "E": "Prioritize emphasizing the benefits of daily regular supplementation in product development and marketing because this is the mainstream perception and accounts for a higher proportion among age groups with high acceptance (such as the post - 85s). This can quickly improve product attractiveness and market education effects.",
+        "F": "Weaken the concept of daily supplementation in communication because the post - 95s group has a relatively low acceptance of it (46%), while the acceptance of symptomatic supplementation is relatively high at 33%. The symptomatic supplementation products should be主推 to match the preferences of this group.",
+        "G": "Prioritize designing all communication content for the post - 85s group, emphasizing the concept of daily supplementation. Because they have the highest acceptance of daily supplementation (56%) and account for 18.9%, it can quickly improve the cognitive education effect."
+      },
+      "charts_involved": [
+        "chart_66_1",
+        "chart_66_2",
+        "chart_66_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    }
+  ]
+}

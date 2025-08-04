@@ -1,0 +1,180 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the increase percentage of gun deaths among U.S. kids between 2019 and 2021? Please provide a single number followed by a percentage sign as the answer.\n question2: What was the gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021?",
+                "rationale": "rationale1: The question is about the increase percentage of gun deaths among U.S. kids between 2019 and 2021, and this information is directly available in the chart.\n rationale2: The question directly asks for the gun - death rate of Black U.S. children and teens under 18 in 2021, and the relevant data can be found directly from the given chart.",
+                "answer": "50%; 11.8",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_3-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of gun - deaths due to homicide among children and teens under 18 in the U.S. in 2021?\n question2: What was the gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021?\n question3: What was the increase percentage of gun deaths among U.S. kids between 2019 and 2021? Please provide a single number followed by a percentage sign as the answer.",
+                "rationale": "rationale1: The question asks for a specific proportion value for children and teens under 18 in 2021 regarding gun - deaths due to homicide. We can directly find this value from the given chart.\n rationale2: The question directly asks for the gun - death rate of Black U.S. children and teens under 18 in 2021, and the relevant data can be found directly from the given chart.\n rationale3: The question is about the increase percentage of gun deaths among U.S. kids between 2019 and 2021, and this information is directly available in the chart.",
+                "answer": "60%; 11.8; 50%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_1-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the increase percentage of gun deaths among U.S. kids between 2019 and 2021? Please provide a single number followed by a percentage sign as the answer.\n question2: What was the gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021?\n question3: What is the proportion of suburban parents who are somewhat worried about their children getting shot?\n question4: What is the proportion of gun - deaths due to homicide among children and teens under 18 in the U.S. in 2021?",
+                "rationale": "rationale1: The question is about the increase percentage of gun deaths among U.S. kids between 2019 and 2021, and this information is directly available in the chart.\n rationale2: The question directly asks for the gun - death rate of Black U.S. children and teens under 18 in 2021, and the relevant data can be found directly from the given chart.\n rationale3: The question is about the somewhat - worry proportion of suburban parents. We can get the answer by referring to the chart.\n rationale4: The question asks for a specific proportion value for children and teens under 18 in 2021 regarding gun - deaths due to homicide. We can directly find this value from the given chart.",
+                "answer": "50%; 11.8; 25%; 60%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_3-3",
+                    "chart_4-20",
+                    "chart_2-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of gun - deaths due to homicide between children and teens under 18 and adults 18 and above in the U.S. in 2021?\n question2: What is the difference in the proportion of extremely/very worried parents between Hispanic parents and upper - income parents?",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of gun - deaths due to homicide among children and teens under 18 and subtract the proportion of gun - deaths due to homicide among adults 18 and above. This involves extracting data from two different parts of the given chart and performing a simple subtraction operation.\n rationale2: We need to find the proportion of extremely/very worried parents among Hispanic parents and upper - income parents from the chart and then calculate the difference between them. This question involves directly extracting data from the chart and performing a simple subtraction operation.",
+                "answer": "18%; 32%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_4-10",
+                    "chart_4-31"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of gun - deaths due to homicide between children and teens under 18 and adults 18 and above in the U.S. in 2021?\n question2: What is the difference in the proportion of extremely/very worried parents between Hispanic parents and upper - income parents?\n question3: What is the difference between the gun - death rate per 100,000 of Black U.S. children and teens under 18 and the average gun - death rate per 100,000 of White, Hispanic, and Asian U.S. children and teens under 18 in 2021?",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of gun - deaths due to homicide among children and teens under 18 and subtract the proportion of gun - deaths due to homicide among adults 18 and above. This involves extracting data from two different parts of the given chart and performing a simple subtraction operation.\n rationale2: We need to find the proportion of extremely/very worried parents among Hispanic parents and upper - income parents from the chart and then calculate the difference between them. This question involves directly extracting data from the chart and performing a simple subtraction operation.\n rationale3: First, we need to calculate the average gun - death rate of White, Hispanic, and Asian U.S. children and teens under 18 by adding their rates and dividing by 3. Then, subtract this average from the gun - death rate of Black U.S. children and teens under 18.",
+                "answer": "18%; 32%; 9.1",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_4-10",
+                    "chart_4-31",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of gun - deaths due to homicide between children and teens under 18 and adults 18 and above in the U.S. in 2021?\n question2: What is the difference in the proportion of extremely/very worried parents between Hispanic parents and upper - income parents?\n question3: What is the difference between the gun - death rate per 100,000 of Black U.S. children and teens under 18 and the average gun - death rate per 100,000 of White, Hispanic, and Asian U.S. children and teens under 18 in 2021?\n question4: What is the average number of gun - related deaths of U.S. children and teens under 18 from 1999 to 2021? Please provide the answer in numerical form, rounded to the nearest whole number.",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of gun - deaths due to homicide among children and teens under 18 and subtract the proportion of gun - deaths due to homicide among adults 18 and above. This involves extracting data from two different parts of the given chart and performing a simple subtraction operation.\n rationale2: We need to find the proportion of extremely/very worried parents among Hispanic parents and upper - income parents from the chart and then calculate the difference between them. This question involves directly extracting data from the chart and performing a simple subtraction operation.\n rationale3: First, we need to calculate the average gun - death rate of White, Hispanic, and Asian U.S. children and teens under 18 by adding their rates and dividing by 3. Then, subtract this average from the gun - death rate of Black U.S. children and teens under 18.\n rationale4: To find the average number of gun - related deaths of U.S. children and teens under 18 from 1999 to 2021, we need to sum up the number of gun - related deaths in each of the given years (1999, 2005, 2011, 2015, 2019, 2021) and then divide by the number of years. The relevant data for each year is given in the chart, and we will use these values for the calculation.",
+                "answer": "18%; 32%; 9.1; 1832",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_4-10",
+                    "chart_4-31",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_1-5",
+                    "chart_1-6",
+                    "chart_1-7"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the gun - death rate per 100,000 of Black U.S. children and teens under 18 and the proportion of gun - deaths that are homicides among American adults 18 and over in 2021?",
+                "rationale": "The gun - death rate per 100,000 of Black U.S. children and teens under 18 in 2021 is 11.8 (from chart_3-3). The proportion of gun - deaths that are homicides among American adults 18 and over in 2021 is 42% (from chart_2-5). Since the rate is a numerical value per 100,000 and the proportion is in percentage, we can consider the difference as 11.8 - 42 = -30.2. ",
+                "answer": "-30.2",
+                "involved_content_sources": [
+                    "chart_3-3",
+                    "chart_2-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of gun - deaths that are homicides among American children and teens under 18 in 2021, the gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021, and the proportion of Hispanic U.S. parents who are extremely/very worried about their children getting shot, with weights of 0.2, 0.3, and 0.5 respectively? (Round the result to two decimal places.)",
+                "rationale": "The proportion of gun - deaths that are homicides among American children and teens under 18 in 2021 is 60% (0.6). The gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021 is 11.8. The proportion of Hispanic U.S. parents who are extremely/very worried about their children getting shot is 42% (0.42). The weighted average is 0.6\u00d70.2 + 11.8\u00d70.3 + 0.42\u00d70.5 = 0.12+3.54 + 0.21 = 3.87.",
+                "answer": "3.87",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_4-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the product of the increase percentage of gun deaths among U.S. kids between 2019 and 2021 and the proportion of gun - deaths due to homicide among children and teens under 18 in 2021, and the sum of the gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021 and the proportion of Hispanic parents who are extremely/very worried about their children getting shot?",
+                "rationale": "The increase percentage of gun deaths among U.S. kids between 2019 and 2021 is 50% (chart_1-1). The proportion of gun - deaths due to homicide among children and teens under 18 in 2021 is 60% (chart_2-1). Their product is 50%\u00d760% = 30. The gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021 is 11.8 (chart_3-3). The proportion of Hispanic parents who are extremely/very worried about their children getting shot is 42% (chart_4-10). The sum of these two values is 11.8 + 42 = 53.8. The difference between the two results is 30 - 53.8=-23.8.",
+                "answer": "-23.8",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_4-10"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the ratio of the gun - death rate of Black U.S. children and teens under 18 to that of White counterparts in 2021 and the ratio of the proportion of Black parents extremely/very worried about their children getting shot to that of White parents in the same context?",
+                "rationale": "In 2021, the gun - death rate per 100,000 White U.S. children and teens under 18 is 2.3 (chart_3-2), and the gun - death rate per 100,000 Black U.S. children and teens under 18 is 11.8 (chart_3-3). The ratio of the gun - death rate of Black to White is 11.8 / 2.3 \u2248 5.13. Among White parents, the proportion of those who are extremely/very worried about their children getting shot is 12% (chart_4-4), and among Black parents, the proportion of those who are extremely/very worried about their children getting shot is 32% (chart_4-7). The ratio of the proportion of Black to White parents is 32% / 12% \u2248 2.67. Then the difference between the two ratios is 5.13 - 2.67 = 2.46.",
+                "answer": "2.46",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_4-4",
+                    "chart_4-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the number of gun - related deaths of U.S. children and teens under 18 in 2019, the proportion of gun - deaths due to homicide among children and teens under 18 in 2021, and the gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The number of gun - related deaths of U.S. children and teens under 18 in 2019 is 1732 (chart_1-6); the proportion of gun - deaths due to homicide among children and teens under 18 in 2021 is 60% (chart_2-1); the gun - death rate per 100,000 Black U.S. children and teens under 18 in 2021 is 11.8 (chart_3-3). The weighted average is (1732\u00d70.2 + 60%\u00d70.3 + 11.8\u00d70.5) = (1732\u00d70.2 + 0.6\u00d70.3 + 11.8\u00d70.5) = 346.4+ 0.18+ 5.9 = 352.48.",
+                "answer": "352.48",
+                "involved_content_sources": [
+                    "chart_1-6",
+                    "chart_1-7",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-3",
+                    "chart_3-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the increase percentage of gun deaths among U.S. kids between 2019 and 2021, the difference between the proportion of gun - deaths due to homicide and suicide among children and teens under 18 in 2021, the difference between the gun - death rate per 100,000 Black and White U.S. children and teens under 18 in 2021, and the difference between the proportion of extremely/very worried Hispanic parents and White parents about their children getting shot?",
+                "rationale": "The increase percentage of gun deaths among U.S. kids between 2019 and 2021 is 50% (chart_1-1). Among children and teens under 18 in 2021, the proportion of gun - deaths due to homicide is 60% and due to suicide is 32%, so the difference is 60% - 32% = 28% (chart_2-1, chart_2-2). In 2021, the gun - death rate per 100,000 Black U.S. children and teens under 18 is 11.8, and for White is 2.3, so the difference is 11.8 - 2.3 = 9.5 (chart_3-3, chart_3-2). Among all U.S. parents, the proportion of extremely/very worried Hispanic parents about their children getting shot is 42%, and for White parents is 12%, so the difference is 42% - 12% = 30% (chart_4-10, chart_4-4). The average of these four values is (50 + 28 + 9.5 + 30) / 4 = 29.375.",
+                "answer": "29.375",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-8",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_4-4",
+                    "chart_4-10"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

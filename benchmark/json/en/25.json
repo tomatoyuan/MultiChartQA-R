@@ -1,0 +1,205 @@
+{
+  "chart": [
+    "chart_25_1",
+    "chart_25_2",
+    "chart_25_3",
+    "chart_25_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the age ratio of people concerned about the 'Spring Festival Ritual Sense', is the proportion of the age group with the highest ratio greater than the proportion of the item with the highest ratio in 'Mobile Phones Are the Biggest Culprits in 'Killing' the Spring Festival Ritual Sense'? Please answer 'Yes' or 'No'.",
+      "answer": "No",
+      "explanation": "In the age ratio chart, the age group with the highest ratio is the 25 - 34 years old group, with a ratio of 37%. In the 'killing' chart, the item with the highest ratio is related to mobile phones, with a ratio of 60%. 37% is not greater than 60%, so the answer is 'No'.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Arrange the age ratio of people concerned about the 'Spring Festival Ritual Sense' in the order shown in the chart (25 - 34 years old → Under 19 years old → 19 - 24 years old → Over 35 years old), and arrange the 'Educational attainment distribution of the interested population' in the order shown in the chart (Postgraduate and above → Undergraduate → High school → Junior high school → Below junior high school). Do the percentages of the two curves show a decreasing trend item by item? Please answer 'Yes' or 'No'.",
+      "answer": "No",
+      "explanation": "The age ratio curve is 37% → 28% → 18% → 17% in the given order, showing a monotonic decrease. The educational attainment distribution curve is 10% → 30% → 25% → 20% → 15%, increasing first and then decreasing, not a monotonic decrease. Therefore, the two curves do not decrease simultaneously, and the answer should be 'No'.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "If the popularity values of various categories of 'Spring Festival Rituals' in the northern region (in the order of the chart) and the proportions of various items in 'Mobile Phones Are the Biggest Culprits in 'Killing' the Spring Festival Ritual Sense' (in the order of the chart) are regarded as two curves respectively, are these two curves positively correlated, negatively correlated, or uncorrelated? Please answer 'Positively correlated', 'Negatively correlated', or 'Uncorrelated'.",
+      "answer": "Positively correlated",
+      "explanation": "The northern popularity curve (85, 70, 65, 90, 75) and the item proportion curve (60%, 40%, 30%, 20%, 10%) show an overall downward trend at the corresponding serial numbers. The Pearson correlation coefficient of the two sets of data is calculated to be approximately 0.10. Although it is not high, it is a positive value, indicating a positive correlation overall.",
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Which is higher, the combined proportion of people under 19 years old and those aged 19 - 24, or the combined proportion of people with junior high school education or below? Please answer 'Under 19 & 19 - 24' or 'Junior high school and below'.",
+      "answer": "Under 19 & 19 - 24",
+      "explanation": "The proportion of people under 19 years old is 28%, and the proportion of those aged 19 - 24 is 18%, with a total of 46%. The proportion of people with junior high school education is 20%, and those with education below junior high school is 15%, so the total is 35%. Since 46% > 35%, 'Under 19 & 19 - 24' is higher.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Which value is greater, the difference in the attention popularity between 'New Year's Eve Dinner' and 'Lucky Money' in the southern region, or the proportion of mobile - phone - related items? Please answer 'Difference in attention popularity' or 'Proportion of mobile - phone - related items'.",
+      "answer": "Difference in attention popularity",
+      "explanation": "The popularity of 'New Year's Eve Dinner' in the south is 95, and the popularity of 'Lucky Money' is 80, so the difference is 15. The proportion of mobile - phone - related items is 0.6 (i.e., 60%). Since 15 > 0.6, the 'Difference in attention popularity' is greater.",
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Is the proportion of online - game - related items equal to the proportion of people over 35 years old? Please answer 'Yes' or 'No'.",
+      "answer": "No",
+      "explanation": "The proportion of online - game - related items is 40%, and the proportion of people over 35 years old is 17%. Since the two are not equal, the answer is 'No'.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the age distribution of the concerned population and the comparison of the popularity of Spring Festival ritual senses between the north and the south, which ritual sense categories may be more favored by the young mainstream group?",
+      "answer": {
+        "A": "Young people prefer modern celebration methods, so they generally lack interest in traditional rituals such as the New Year's Eve Dinner.",
+        "B": "The New Year's Eve Dinner is more popular in the south, and the high proportion of young people may imply that as a core tradition, the New Year's Eve Dinner maintains wide appeal among the young group.",
+        "C": "The popularity distribution of all ritual sense categories in the north and the south is exactly the same among the young group.",
+        "D": "In the categories of Watching Spring Festival Gala / Lucky Money / Staying Up Late, the popularity is high in both the south and the north. Combining with the age distribution where the young group dominates, these comprehensive activities may be more attractive to young people to participate in.",
+        "E": "The popularity of New Year Greetings in the north (70) far exceeds that in the south (60). Combining with the largest proportion of young people, it shows that this is the core ritual most favored by young people.",
+        "F": "The popularity of Setting Off Firecrackers / Worshiping Gods and Praying for Blessings reaches 75 in the north, and the proportion of young people is the highest, indicating that this activity is extremely popular among young people.",
+        "G": "In the category of Lucky Money, the attention popularity in the north is relatively higher, and the proportion of young people is the largest, which may indicate that the tradition of Lucky Money is more valued among the younger generation."
+      },
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_1"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Mobile phones are regarded as the main factor weakening the Spring Festival ritual sense, but the age distribution of the concerned population shows that the proportion of the young group is the highest. What potential contradictions does this reveal?",
+      "answer": {
+        "A": "The young group is the main force concerned about the Spring Festival ritual sense, but the high proportion of mobile - phone - related matters may lead to a decrease in their actual participation in traditional rituals, forming a behavioral conflict.",
+        "B": "Using mobile phones can enhance the participation in traditional rituals. For example, online New Year Greetings can enhance the ritual sense.",
+        "C": "The young group has the largest proportion in the age distribution, and the dominance of mobile - phone factors in reducing the ritual sense implies that although young people are concerned about traditions, they are distracted by modern technology.",
+        "D": "The proportion of people under 19 years old is 28%, and the proportion of mobile - phone matters is 0.6, which proves that this group is the main victim of mobile - phone influence.",
+        "E": "The influence of mobile phones far exceeds other factors, but the high - proportion young group is concerned about the ritual sense, which reflects the survival contradiction of traditional customs in the digital age.",
+        "F": "The combined influence (0.7) of Online Games (with a proportion of 0.4) and Red Envelope Snatching (with a proportion of 0.3) exceeds that of mobile phones (0.6), indicating that they are the main causes of the contradiction.",
+        "G": "The young group actively reduces mobile - phone use to ensure the integrity of traditional rituals."
+      },
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the educational attainment distribution of the concerned population and the popularity differences of Spring Festival ritual senses between the north and the south, which educational attainment groups may be more inclined to the ritual sense traditions of specific regions?",
+      "answer": {
+        "A": "The group with a university degree has the highest proportion, and the New Year's Eve Dinner is more popular in the south, which may indicate that the high - educational - attainment group attaches more importance to the southern - characteristic family dinner tradition.",
+        "B": "The high - school - educated group (25%) prefers the northern firecracker - setting activity, because the popularity of this category in the north (75) far exceeds that in the south (55).",
+        "C": "The group with a postgraduate degree or above (10%) has the highest proportion and dominates the popularity distribution of rituals such as Lucky Money.",
+        "D": "The proportion of the junior - high - school - educated group is significant. In the category of Setting Off Firecrackers / Worshiping Gods and Praying for Blessings, the popularity in the north is relatively higher, which may reflect the preference of this group for northern folk activities.",
+        "E": "There is no relationship between educational attainment and ritual preference, and all groups have equal attention to the northern and southern traditions.",
+        "F": "The proportion of the group with a postgraduate degree or above is low, but in the north - south popularity comparison, the popularity of Lucky Money is higher in the north, which may imply that the high - educational - attainment group has selective attention to regional traditions.",
+        "G": "The university - educated group (30%) prefers the northern New Year's Eve Dinner, because the northern popularity (85) is close to the southern popularity (95)."
+      },
+      "charts_involved": [
+        "chart_25_3",
+        "chart_25_1"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the provided chart content, how should the resource allocation strategy for the Spring Festival ritual sense promotion activities be optimized to improve the overall participation and cultural inheritance effect? Please select the most reasonable strategy suggestion.",
+      "answer": {
+        "A": "Develop digital interactive content for the young group (aged 19 - 34) because this group has the largest proportion among the concerned population, and the high influence of mobile - phone use may weaken the traditional ritual sense. Innovative ways are needed to attract participation.",
+        "B": "Prioritize the promotion of activities related to the New Year's Eve Dinner in the southern region because the attention popularity of such rituals is higher in the south; at the same time, focus on the promotion of the Lucky Money theme in the north to match the regional preference differences.",
+        "C": "Design simple and practical ritual guides for the low - educational - attainment group (junior high school and below) because they have a significant proportion but may face information barriers. At the same time, combine measures to alleviate the influence of mobile phones to ensure the accessibility of the activities.",
+        "D": "Design high - complexity ritual activities for people over 35 years old because they account for 17% and have a strong sense of ritual, but the young group should be ignored in resource allocation to reduce costs.",
+        "E": "It is recommended to uniformly increase the budget for Spring Festival advertising across the country to fairly cover all populations and regions, so as to enhance the awareness of cultural inheritance.",
+        "F": "Prioritize the promotion of New Year Greetings activities in the northern region because the popularity value in the north (70) is much higher than that in the south (60), indicating a stronger preference for such rituals in the north. Resources should be mainly tilted to match the regional advantage."
+      },
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_2",
+        "chart_25_3",
+        "chart_25_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the chart data, what strategies should be adopted to alleviate the negative impact of mobile phones on the Spring Festival ritual sense and enhance the participation in traditional customs? Please select the most effective decision suggestion.",
+      "answer": {
+        "A": "Prioritize the solution of red - envelope - snatching - related matters because it accounts for 0.3 and has a significant influence. Alternative activities need to be developed, while the matters related to mobile phones (accounting for 0.6) can be dealt with later.",
+        "B": "Promote the 'Digital Detox' App for people with an educational attainment below junior high school because they account for 35% (20% for junior high school + 15% for below junior high school) and have strong comprehension ability, which can efficiently spread offline habits.",
+        "C": "Use the high - educational - attainment group (university and above) as communication nodes to carry out 'Digital Detox' advocacy activities because this group has a prominent proportion and strong comprehension ability, which can amplify the positive influence. At the same time, combine regional hotspots (such as the southern New Year's Eve Dinner) to enhance participation.",
+        "D": "Design offline ritual experience projects for teenagers (under 19 years old) because this group has a high proportion but is easily disturbed by mobile phones. Targeted guidance is needed to cultivate long - term cultural habits.",
+        "E": "It is recommended that all families completely ban the use of electronic devices during the Spring Festival to forcibly reduce interference and ensure the purity of traditional customs.",
+        "F": "Promote collective family activities (such as staying up late together or giving New Year Greetings) to replace mobile - phone use because mobile - phone matters have the greatest influence, and the young group has a high proportion. They are more likely to reduce digital dependence through family interaction."
+      },
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_2",
+        "chart_25_3",
+        "chart_25_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the chart content, how should the optimization strategy for Spring Festival ritual sense activities be formulated to mainly improve the participation willingness of different populations? Please select the most feasible strategy suggestion.",
+      "answer": {
+        "A": "Prioritize the promotion of activities related to Setting Off Firecrackers / Worshiping Gods and Praying for Blessings in the southern region because the popularity value in the south (55) is much higher than that in the north (75), indicating a stronger demand in the south. Resources should be concentrated to improve participation.",
+        "B": "Strengthen New Year Greetings - related activities in the southern region because the attention popularity in the south is relatively low but has room for improvement. At the same time, promote them to the young group (aged 19 - 24) to balance the age distribution.",
+        "C": "It is recommended to expand the scale of activities and increase prize incentives to attract a wider range of people to participate, thereby enhancing the overall festival atmosphere.",
+        "D": "Create low - threshold participation activities for the elderly group (over 35 years old) because although their proportion is relatively low, they may have a stronger sense of ritual. Uneven resource allocation should be avoided, and offline alternative solutions should be designed based on the mobile - phone influence data.",
+        "E": "Concentrate resources to enhance the ritual experience of people aged 25 - 34 because this group has the largest proportion among the concerned population. Combining with the educational attainment distribution, they can be more easily reached through digital channels. At the same time, regional preferences (such as the northern Lucky Money) should be integrated to enhance attractiveness.",
+        "F": "Design pure offline activities for people aged 25 - 34, completely excluding digital elements because they have the highest proportion (37%) and the influence of mobile phones is large. However, the high - educational - attainment group (40% for university and above) should be ignored to save resources."
+      },
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_2",
+        "chart_25_3",
+        "chart_25_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

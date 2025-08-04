@@ -1,0 +1,210 @@
+{
+  "chart": [
+    "chart_8_1",
+    "chart_8_2",
+    "chart_8_3",
+    "chart_8_4",
+    "chart_8_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the 'Search Attention Trend of Divorce Litigation Industry in May' and 'Attention Proportion and Growth Rate of the Divorce Lawsuit Industry by City Level in May', is the trend of the overall search popularity consistent with the growth rate change trend of first-tier cities? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The overall search attention showed an upward trend in the second half of May, and first-tier cities had the only positive growth (+3%), so the trends are consistent.",
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the 'Top 5 Cities for Divorce Litigation Industry Searches in May', does the city with the highest proportion also belong to the city level with the highest attention proportion? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Beijing has the highest search proportion (19%) and belongs to first-tier cities, and first-tier cities have the highest attention proportion (52%) among different city levels.",
+      "charts_involved": [
+        "chart_8_3",
+        "chart_8_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of the divorce litigation search attention from May 16th to May 19th consistent with the change trend of the TGI index of the divorce litigation population aged 18 - 54? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both show a trend of rising first and then falling.",
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the distribution of retrieval devices for divorce litigation in May is the same in each city. What percentage does the computer - side contribute to the search proportion of divorce litigation in Beijing in May? Express it as a percentage and keep 2 significant figures.",
+      "answer": "2.3%",
+      "explanation": "19.0% * 12.03% = 0.022857",
+      "charts_involved": [
+        "chart_8_2",
+        "chart_8_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the distribution of retrieval devices for divorce litigation in May is the same in each tier of cities. What percentage does the mobile - side contribute to the search proportion of divorce litigation in fourth - tier cities in May? Express it as a percentage and keep 4 significant figures.",
+      "answer": "8.797%",
+      "explanation": "10% * 87.97% = 8.797%",
+      "charts_involved": [
+        "chart_8_3",
+        "chart_8_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that first - tier cities conform to the provided age distribution chart of the divorce litigation population, and the number of divorce litigation people aged 18 - 24 is the same as the search attention of the divorce litigation industry on May 13th. Then what is the number of divorce litigation people aged 55 - 64 in first - tier cities?",
+      "answer": "3000",
+      "explanation": "The number of divorce litigation people aged 18 - 24 is the same as the search attention of the divorce litigation industry on May 13th, which is 60,000 people. The proportion of divorce litigation people aged 18 - 24 in first - tier cities is 10%, and the proportion of divorce litigation people aged 55 - 64 in first - tier cities is 5%. (5% / 10%) * 60,000 = 3000",
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_3",
+        "chart_8_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The search attention showed a trend of rising first, then falling, and then rebounding in May. The top 5 cities for search showed that the proportion of a certain city was significantly higher than that of other cities. What factors might jointly explain this trend change?",
+      "answer": {
+        "A": "When the search trend reached its peak in the middle of the month, the city with the highest proportion might have contributed the main search volume, and the rebound at the end of the month might be related to the superimposition of search behaviors in multiple cities with high proportions.",
+        "B": "During the downward trend stage, the decrease in Wuhan's search proportion (5.5%) was the main reason. Since Wuhan is the third - largest city among the top 5, its influence was underestimated.",
+        "C": "The rebound at the end of the month was mainly driven by the increase in Guangzhou's search volume. Although its proportion was only 2.5%, its growth rate might be higher than that of other cities.",
+        "D": "The fluctuations in the search trend might be mainly affected by seasonal holidays. For example, the search volume naturally decreased during the Labor Day holiday, resulting in the difference between the beginning and the end of the month.",
+        "E": "During the downward trend stage, the reduction of search activities in the city with the second - highest proportion among the top 5 cities might have exacerbated the decline. However, when rebounding at the end of the month, the combined effect of these cities and the city with the highest proportion might have promoted the rise.",
+        "F": "Media reports or policy changes in high - proportion cities such as Beijing might have dominated the rising and falling stages of the overall trend.",
+        "G": "The fluctuations in the overall trend might reflect the search dynamics of the top 5 cities. Since the stable performance of first - tier cities (such as the city with the highest proportion) might have buffered the downward trend."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The data by city level shows that the search growth rate in first - tier cities is positive, while that in other levels is negative. However, the overall search trend increased significantly at the end of the month. Which options can best explain this apparent conflict?",
+      "answer": {
+        "A": "The growth rate of first - tier cities is only 3% with a proportion of 52%, indicating weak growth. While the growth rate of fourth - tier cities is - 18% but with a proportion of 10%, showing a significant decline. Therefore, the overall should decline, but the actual increase indicates a data contradiction.",
+        "B": "The growth rate of second - tier cities is - 18% with a proportion of 15%. The decrease in their search volume was offset by the increase in third - tier cities, although the growth rate of third - tier cities is - 30%.",
+        "C": "The increase in the search trend at the end of the month might be due to the cumulative effect of the stable growth in first - tier cities. While the growth rates of other cities are negative, their proportions are low and do not form a significant suppression in the overall data.",
+        "D": "Although the growth rates of second - tier and lower - tier cities are negative, their total proportion is small. Therefore, the negative growth rates have limited drag on the overall trend. The growth in first - tier cities might have magnified the upward trend.",
+        "E": "The high proportion and positive growth rate of first - tier cities might have dominated the overall trend, offsetting the negative growth rates of other cities and leading to the increase at the end of the month.",
+        "F": "The search base in lower - tier cities (such as third - tier and fourth - tier cities) is relatively large. Although the growth rate is negative, the absolute search volume is still high, supporting the overall increase.",
+        "G": "The fluctuations in the overall trend might be affected by national economic factors, such as consumption - stimulating policies, which have increased the search willingness in all cities."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Mobile devices dominate the retrieval, and there are significant differences in the search preferences among different age groups. Which age groups are more likely to drive this high mobile device usage rate?",
+      "answer": {
+        "A": "All age groups prefer mobile devices under the popularization of the mobile Internet, so there is no specific group leading the trend.",
+        "B": "The age group with the highest proportion and strong search preference might prefer mobile devices more, because the scale and high preference of this group are consistent with the dominant position of mobile devices.",
+        "C": "The middle - aged group has a relatively high proportion and preference, and might become the main user group of mobile devices, explaining the inclination of the device distribution.",
+        "D": "Young people (aged 18 - 24) are more familiar with mobile technology, so they are the main promoters of the high mobile device usage rate.",
+        "E": "The TGI of the group over 65 years old is the highest (180). Although the proportion is only 3%, their high preference makes them the main contributors to the mobile device usage.",
+        "F": "The age group with the strongest search preference, although with a small proportion, might significantly increase the mobile device usage, which is related to the high proportion of mobile devices.",
+        "G": "The proportion of the 45 - 54 - year - old group is 15% and the TGI is 90 (close to the average), but the TGI is lower than that of the 55 - 64 - year - old group (110). Therefore, the impact of their mobile device usage rate is overestimated."
+      },
+      "charts_involved": [
+        "chart_8_2",
+        "chart_8_5"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The online service platform for divorce litigation needs to adjust its resource allocation strategy according to the user demand pattern to improve service efficiency and user satisfaction. Based on the search trend and device usage characteristics in the chart, which of the following strategies should be prioritized?",
+      "answer": {
+        "A": "Prioritize strengthening the service response ability of mobile devices during the peak period of search attention. Since mobile retrieval dominates and the demand trend shows obvious fluctuation peaks, timely response can reduce user loss.",
+        "B": "Hold offline legal lectures during the service trough period (such as when the search attention is below 50,000) to cultivate the user base.",
+        "C": "Increase brand advertising investment to improve public awareness of divorce litigation services, so as to attract more potential users.",
+        "D": "Optimize the mobile service content for the core user group aged 25 - 34, such as simplifying the divorce process guide. Since this group has the highest proportion and strong preference index, and mobile retrieval has an absolute advantage.",
+        "E": "Optimize the computer - side service interface for people over 65 years old. Since their TGI is as high as 180, indicating strong interest, and the computer - side proportion of 12.03% might be more suitable for the complex queries of elderly users.",
+        "F": "Increase resource investment and localized services for first - tier cities. Since these regions have the highest attention proportion and stable growth, while the demand in other city levels is shrinking, concentrating resources can improve market penetration.",
+        "G": "Prioritize increasing mobile service resources for second - tier cities. Since their attention proportion is 15% and the growth rate is - 18%, intervention is needed to stabilize the market share."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_2",
+        "chart_8_3",
+        "chart_8_4",
+        "chart_8_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The divorce litigation platform hopes to improve the user acquisition effect and needs to adjust its marketing strategy based on the user age distribution and city search popularity. Based on the geographical and population characteristics in the chart, which of the following suggestions can most effectively improve the conversion rate?",
+      "answer": {
+        "A": "Increase the promotion efforts in first - tier cities with positive growth rates, and provide educational content (such as free online lectures) for lower - tier cities with declining growth rates, so as to tap the potential of high - growth regions and cultivate shrinking markets.",
+        "B": "Launch high - discount promotion activities in fourth - tier cities with low search popularity to stimulate demand growth.",
+        "C": "Cooperate with well - known law firms for promotion, using their professional endorsement to enhance user trust.",
+        "D": "Focus on marketing to the 35 - 44 - year - old group in Shenzhen. Since their search proportion is 6% (chart_8_4) and the age proportion is 25% (chart_8_5), and the TGI of 100 indicates stable interest.",
+        "E": "Carry out targeted marketing activities for the 25 - 34 - year - old group in major cities with high search popularity (such as Beijing and Shenzhen). Since this group constitutes the main user group and has a high preference index, and these cities have a leading attention proportion.",
+        "F": "Design educational content (such as online lectures) for third - tier cities. Since their attention proportion is 14% (chart_8_3) but the growth rate is - 30%, content is needed to cultivate the market.",
+        "G": "Tilt the marketing budget towards mobile channels and design mobile - friendly content (such as short - video consultations). Since the proportion of mobile retrieval is extremely high, and young people might rely more on mobile devices for information acquisition."
+      },
+      "charts_involved": [
+        "chart_8_2",
+        "chart_8_3",
+        "chart_8_4",
+        "chart_8_5"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "To more efficiently respond to the changes in divorce litigation demand, the service platform needs to design a dynamic service strategy based on the search trend and user characteristics. Which of the following suggestions can best utilize resources to improve the user experience?",
+      "answer": {
+        "A": "Optimize the service efficiency of the computer - side (such as automated document processing) during the demand trough period. Since the computer retrieval proportion is small but might be used for complex queries, and the trend shows that resources can be re - allocated during the trough period.",
+        "B": "Increase the deployment of artificial intelligence customer service during the stable period of search attention (such as when the data is about 70,000 - 80,000) to reduce labor costs.",
+        "C": "Develop a simple mobile module for people under 18 years old. Since their proportion is 2% (chart_8_5) but the TGI of 60 indicates potential demand, and the mobile device proportion of 87.97% (chart_8_2) is suitable for young people.",
+        "D": "Increase the deployment of mobile online customer service during the rising period of search attention (such as the end - of - month stage). Since mobile retrieval dominates user interaction, and the trend shows that untimely response during the rising stage of demand fluctuations might lead to missed opportunities.",
+        "E": "Prioritize strengthening the computer - side service during the search trough at the beginning of the month (such as the data of 60,000 on May 1). Since users might conduct in - depth queries during the trough period, and the computer - side proportion of 12.03% (chart_8_2) is suitable for complex operations.",
+        "F": "Develop an easy - to - use mobile service module for high - interest - index groups (such as people over 65 years old). Although their proportion is low, their preference index is prominent, and the high proportion of mobile devices supports convenient access to ensure service inclusiveness.",
+        "G": "Regularly update service terms and privacy policies to ensure compliance and enhance user security."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_2",
+        "chart_8_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

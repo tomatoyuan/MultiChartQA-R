@@ -1,0 +1,172 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the median wealth of U.S. immigrant households from Asia and Pacific Islands in December 2021? (Answer in dollars)\n question2: What is the median wealth of all other U.S.-born households in December 2021?",
+                "rationale": "rationale1: We are looking for the median wealth of U.S. immigrant households from Asia and Pacific Islands in December 2021, which is given in the chart.\n rationale2: The question directly asks for the median wealth of all other U.S.-born households in December 2021, and the answer can be obtained from the chart.",
+                "answer": "270700; $179,600",
+                "involved_content_sources": [
+                    "chart_5-9",
+                    "chart_3-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the median wealth of U.S.-born households with immigrant parent(s) in December 2021?\n question2: What was the median wealth of U.S. immigrant households from Americas and Caribbean in December 2021? (Answer in dollars)\n question3: What is the median value of other physical assets' share in household wealth among all U.S. households that own each asset type in December 2021?",
+                "rationale": "rationale1: The question directly asks for the median wealth of U.S.-born households with immigrant parent(s) in December 2021, and the relevant content is in the chart.\n rationale2: The question requires the median wealth of U.S. immigrant households from Americas and Caribbean in December 2021, and the relevant data is in the chart.\n rationale3: This question requires extracting the median value of other physical assets' share in household wealth for all U.S. households in December 2021 from the chart.",
+                "answer": "$162,900; 41000; 9%",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_5-10",
+                    "chart_6-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the median wealth of U.S.-born households with immigrant parent(s) in December 2021?\n question2: What was the median wealth of U.S. immigrant households proficient in English in December 2021? (Answer in dollars)\n question3: What was the median wealth of Hispanic U.S.-born households in December 2021?\n question4: What is the median wealth of U.S. immigrant households that arrived in 1990 - 1999? Please provide the answer in dollars.",
+                "rationale": "rationale1: The question directly asks for the median wealth of U.S.-born households with immigrant parent(s) in December 2021, and the relevant content is in the chart.\n rationale2: We are asked to get the median wealth of U.S. immigrant households proficient in English in December 2021 from the chart.\n rationale3: We need to find the median wealth of Hispanic U.S.-born households in December 2021, which is available in the chart.\n rationale4: The question directly asks for the median wealth of U.S. immigrant households that arrived in 1990 - 1999. According to the chart, this value is clearly stated as $125,800.",
+                "answer": "$162,900; 129200; $68,000; $125,800",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_5-5",
+                    "chart_2-17",
+                    "chart_4-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in median wealth between all other U.S.-born households and immigrant households in December 2021?\n question2: What is the difference in median wealth between U.S. immigrant households that arrived before 1979 and those that arrived in 2009 - 2022?",
+                "rationale": "rationale1: To find the difference in median wealth, we need to subtract the median wealth of immigrant households from the median wealth of all other U.S.-born households. The data for these two values are provided in the chart.\n rationale2: To answer this question, we need to subtract the median wealth of U.S. immigrant households that arrived in 2009 - 2022 from the median wealth of those that arrived before 1979. This directly compares the two groups as per the data in the chart.",
+                "answer": "75200; 223800",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-2",
+                    "chart_4-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in median wealth between all other U.S.-born households and immigrant households in December 2021?\n question2: What is the difference in median wealth between U.S. immigrant households that arrived before 1979 and those that arrived in 2009 - 2022?\n question3: What is the difference in median wealth between U.S. immigrant households from Europe and those from Americas and Caribbean in December 2021?",
+                "rationale": "rationale1: To find the difference in median wealth, we need to subtract the median wealth of immigrant households from the median wealth of all other U.S.-born households. The data for these two values are provided in the chart.\n rationale2: To answer this question, we need to subtract the median wealth of U.S. immigrant households that arrived in 2009 - 2022 from the median wealth of those that arrived before 1979. This directly compares the two groups as per the data in the chart.\n rationale3: To find the difference in median wealth, we need to subtract the median wealth of U.S. immigrant households from Americas and Caribbean from the median wealth of those from Europe. The data for these two values are provided in the chart.",
+                "answer": "75200; 223800; 334900",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-2",
+                    "chart_4-6",
+                    "chart_5-8",
+                    "chart_5-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in median wealth between all other U.S.-born households and immigrant households in December 2021?\n question2: What is the difference in median wealth between U.S. immigrant households that arrived before 1979 and those that arrived in 2009 - 2022?\n question3: What is the difference in median wealth between U.S. immigrant households from Europe and those from Americas and Caribbean in December 2021?\n question4: What is the difference between the median value of home equity's share in household wealth of U.S. - immigrant households and that of U.S. - born households in December 2021?",
+                "rationale": "rationale1: To find the difference in median wealth, we need to subtract the median wealth of immigrant households from the median wealth of all other U.S.-born households. The data for these two values are provided in the chart.\n rationale2: To answer this question, we need to subtract the median wealth of U.S. immigrant households that arrived in 2009 - 2022 from the median wealth of those that arrived before 1979. This directly compares the two groups as per the data in the chart.\n rationale3: To find the difference in median wealth, we need to subtract the median wealth of U.S. immigrant households from Americas and Caribbean from the median wealth of those from Europe. The data for these two values are provided in the chart.\n rationale4: To answer this question, we need to find the median value of home equity's share in household wealth for U.S. - immigrant households and U.S. - born households respectively from the chart, and then calculate the difference between them.",
+                "answer": "75200; 223800; 334900; 14%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-2",
+                    "chart_4-6",
+                    "chart_5-8",
+                    "chart_5-10",
+                    "chart_6-2",
+                    "chart_6-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the change in the median wealth of Hispanic - immigrant households from December 2019 to December 2021 and the change in the median wealth of U.S. immigrant households that arrived in 2009 - 2022 compared to the overall median wealth of U.S. immigrant households in December 2021? (The change of the latter is calculated as the difference between the overall median wealth in December 2021 and the median wealth of those who arrived in 2009 - 2022, and then divided by the overall median wealth in December 2021.)",
+                "rationale": "The change in the median wealth of Hispanic - immigrant households from December 2019 to December 2021 is 40% (chart_2-15). The median wealth of U.S. immigrant households in December 2021 is $104,400 (chart_4-1), and the median wealth of U.S. immigrant households that arrived in 2009 - 2022 is $37,900 (chart_4-2). The change is (($104,400 - $37,900) / $104,400) \u00d7 100% \u2248 63.7%. The difference is 63.7% - 40% = 23.7%.",
+                "answer": "23.7%",
+                "involved_content_sources": [
+                    "chart_2-15",
+                    "chart_4-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the median wealth change rate of Hispanic - immigrant households from December 2019 to December 2021, the median wealth of U.S. immigrant households that arrived in 2000 - 2008, and the median value of other physical assets' share in U.S. - immigrant households' wealth in December 2021? (Round the result to two decimal places.)",
+                "rationale": "The median wealth change rate of Hispanic - immigrant households from December 2019 to December 2021 is 40%. The median wealth of U.S. immigrant households that arrived in 2000 - 2008 is $62,000. The median value of other physical assets' share in U.S. - immigrant households' wealth in December 2021 is 15%. First, convert the percentage to a decimal, 40% = 0.4 and 15% = 0.15. Then calculate the average: (0.4 + 62000 + 0.15) / 3 = 20666.85 (rounded to two decimal places).",
+                "answer": "20666.85",
+                "involved_content_sources": [
+                    "chart_2-15",
+                    "chart_4-3",
+                    "chart_6-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the change rate of median wealth of Hispanic - immigrant households from December 2019 to December 2021, the ratio of the median wealth of U.S. immigrant households that arrived in 2009 - 2022 to that of all U.S. immigrant households in December 2021, the ratio of the median wealth of non - U.S. citizen immigrant households to that of U.S. citizen immigrant households in December 2021, and the ratio of the median value of home equity's share in household wealth of U.S. - immigrant households to that of U.S. - born households in December 2021?",
+                "rationale": "The change rate of median wealth of Hispanic - immigrant households from December 2019 to December 2021 is 40% (chart_2-15). The ratio of the median wealth of U.S. immigrant households that arrived in 2009 - 2022 to that of all U.S. immigrant households in December 2021 is 37900 / 104400 \u2248 0.363. The ratio of the median wealth of non - U.S. citizen immigrant households to that of U.S. citizen immigrant households in December 2021 is 35300 / 212000 \u2248 0.166. The ratio of the median value of home equity's share in household wealth of U.S. - immigrant households to that of U.S. - born households in December 2021 is 58% / 44% \u2248 1.318. The average of these four values is (40% + 0.363+ 0.166 + 1.318) / 4 = (0.4 + 0.363+ 0.166 + 1.318) / 4 = 2.247 / 4 = 0.56175 \u2248 56.2%.",
+                "answer": "56.2%",
+                "involved_content_sources": [
+                    "chart_2-15",
+                    "chart_4-2",
+                    "chart_5-2",
+                    "chart_6-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average median wealth of U.S. immigrant households that arrived in 2009 - 2022 and 2000 - 2008 and the proportion of financial assets' share in the wealth of U.S. - immigrant households that own each asset type?",
+                "rationale": "The median wealth of U.S. immigrant households that arrived in 2009 - 2022 is $37,900 (chart_4-2), and the median wealth of those that arrived in 2000 - 2008 is $62,000 (chart_4-3). The average of these two median wealth values is ($37,900 + $62,000) / 2 = $49,950. The median value of financial assets' share in the wealth of U.S. - immigrant households that own each asset type is 32% (chart_6-12). Since the units are different, we assume we just want the numerical difference, and 49950 - 32 = 49918.",
+                "answer": "49918",
+                "involved_content_sources": [
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_6-12",
+                    "chart_6-13"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the difference between the weighted average of the median wealth change of Hispanic - immigrant households and Hispanic U.S. - born households (weights 0.4 and 0.6 respectively) and the simple average of the median wealth of U.S. immigrant households that arrived in 2009 - 2022 and 2000 - 2008, after adjusting the result by the ratio of the median wealth of non - U.S. citizen immigrant households to U.S. citizen immigrant households?",
+                "rationale": "First, from chart_2, the median wealth change of Hispanic - immigrant households from December 2019 to December 2021 is 40% (chart_2-15), and that of Hispanic U.S. - born households is 46% (chart_2-18). The weighted average is (40%\u00d70.4 + 46%\u00d70.6) = (0.4\u00d70.4 + 0.46\u00d70.6) = 0.16+0.276 = 0.436 = 43.6%. Second, from chart_4, the median wealth of U.S. immigrant households that arrived in 2009 - 2022 is $37,900 (chart_4-2), and that of those that arrived in 2000 - 2008 is $62,000 (chart_4-3). The simple average is ($37,900 + $62,000)\u00f72 = $49,950. Third, from chart_5, the median wealth of non - U.S. citizen immigrant households is $35,300 (chart_5-2), and that of U.S. citizen immigrant households is $212,000 (chart_5-3). The ratio is $35,300\u00f7$212,000\u22480.1665. Adjust the simple average: $49,950\u00d70.1665\u2248$8317.15. Finally, the difference is 43.6 - ($8317.15\u00f71000)\u2248 35.28%.",
+                "answer": "35.28%",
+                "involved_content_sources": [
+                    "chart_2-15",
+                    "chart_2-18",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_5-2",
+                    "chart_5-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the percentage increase in median wealth of non - Hispanic immigrant households from December 2019 to December 2021, the ratio of the median wealth of immigrant households that arrived in 1990 - 1999 to the median wealth of immigrant households that arrived in 2009 - 2022 in December 2021, the difference between the median wealth of U.S. citizen immigrant households and non - U.S. citizen immigrant households in December 2021, and the difference between the median value of home equity's share in household wealth of U.S. - immigrant households and U.S. - born households in December 2021?",
+                "rationale": "1. First, from Chart 2, the percentage increase in median wealth of non - Hispanic immigrant households from December 2019 to December 2021 is 31%.\\n2. From Chart 4, the median wealth of immigrant households that arrived in 1990 - 1999 in December 2021 is $125,800, and the median wealth of immigrant households that arrived in 2009 - 2022 in December 2021 is $37,900. The ratio is $125,800 / $37,900 \u2248 3.32.\\n3. From Chart 5, the median wealth of U.S. citizen immigrant households in December 2021 is $212,000, and the median wealth of non - U.S. citizen immigrant households in December 2021 is $35,300. The difference is $212,000 - $35,300 = $176,700.\\n4. From Chart 6, the median value of home equity's share in household wealth of U.S. - immigrant households in December 2021 is 58%, and that of U.S. - born households is 44%. The difference is 58% - 44% = 14%.\\n5. Now, we need to find the average. We convert the percentage values to the same scale. Let's assume we convert the ratio and the difference in wealth to a percentage - like scale for the average calculation. The average = (31%+332% + 176700%+14%) 44269.23%.",
+                "answer": "44269.23%",
+                "involved_content_sources": [
+                    "chart_2-23",
+                    "chart_2-24",
+                    "chart_4-2",
+                    "chart_4-4",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_6-2",
+                    "chart_6-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

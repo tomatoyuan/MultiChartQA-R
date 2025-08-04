@@ -1,0 +1,1 @@
+# MultiChartQA-X: A Scalable Multilingual Benchmark for Multi-Chart Question Answering with Diverse Reasoning Tasks for Vision-Language Models

@@ -1,0 +1,181 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the net - interest on the U.S. national debt as a percentage of total federal outlays in 1940?\n question2: What was the proportion of U.S. public - debt securities owned by Federal Reserve Banks in September 2022? Please answer with a percentage.",
+                "rationale": "rationale1: The question directly asks for the net - interest on the U.S. national debt as a percentage of total federal outlays in 1940, and the relevant information is provided in the chart.\n rationale2: The question requires extracting the proportion of U.S. public - debt securities owned by Federal Reserve Banks in September 2022 from the chart.",
+                "answer": "9.5%; 19.7%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the proportion of U.S. public - debt securities owned by other intra - governmental accounts in September 2022? Please answer with a percentage.\n question2: What was the net - interest on the U.S. national debt in billions of 2022 dollars in 1940?\n question3: What is the percentage increase in total outlays of federal spending in 2023 compared to 2019?",
+                "rationale": "rationale1: The question asks for the proportion of U.S. public - debt securities owned by other intra - governmental accounts in September 2022, which can be obtained from the chart.\n rationale2: This question is about the net - interest on the U.S. national debt in billions of 2022 dollars in 1940, and the answer can be found in the given chart.\n rationale3: The question is about the percentage increase in total outlays of federal spending in 2023 compared to 2019, and the answer can be directly obtained from the chart.",
+                "answer": "5.1%; $4.8 billion; +36%",
+                "involved_content_sources": [
+                    "chart_3-4",
+                    "chart_5-2",
+                    "chart_1-20"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the net - interest on the U.S. national debt as a percentage of total federal outlays in 1940?\n question2: What was the percentage of public debt held by Federal Reserve Banks in January 2022? \n question3: What was the percentage of public debt subject to limitation to GDP in 2022?\n question4: What was the average interest rate on federal public debt as of the fiscal - year end (Sept. 30) in 1988?",
+                "rationale": "rationale1: The question directly asks for the net - interest on the U.S. national debt as a percentage of total federal outlays in 1940, and the relevant information is provided in the chart.\n rationale2: The question requires the percentage of public debt held by Federal Reserve Banks in January 2022, and the chart has this exact value. \n rationale3: The question asks for the specific percentage value of public debt subject to limitation to GDP in 2022. The chart directly provides this value as 121.2%.\n rationale4: The question directly asks for the average interest rate on federal public debt in 1988 as of the fiscal - year end (Sept. 30). We can find this value from the given chart.",
+                "answer": "9.5%; 19.7%; 121.2%; 8.8%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_4-3",
+                    "chart_2-2",
+                    "chart_6-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the average of the increases in total outlays of federal spending over 2019 from 2020 to 2023?\n question2: What is the total amount of U.S. public - debt securities owned by Federal Reserve Banks, Social Security, and other intra - governmental accounts in September 2022?",
+                "rationale": "rationale1: To find the average, we first need to collect the increases in total outlays of federal spending over 2019 for each year from 2020 to 2023 from the chart. Then we sum these values and divide by the number of years (4 in this case).\n rationale2: To find the total amount, we need to sum up the amounts of U.S. public - debt securities owned by Federal Reserve Banks, Social Security, and other intra - governmental accounts. The amounts for these are given in the chart, so we just add them together.",
+                "answer": "2.0; 10.5 trillion",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-8",
+                    "chart_1-12",
+                    "chart_1-16",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the average of the increases in total outlays of federal spending over 2019 from 2020 to 2023?\n question2: What is the total amount of U.S. public - debt securities owned by Federal Reserve Banks, Social Security, and other intra - governmental accounts in September 2022?\n question3: What is the difference between the net-interest on the U.S. national debt as a percentage of total federal outlays in 1940 and in 2022?",
+                "rationale": "rationale1: To find the average, we first need to collect the increases in total outlays of federal spending over 2019 for each year from 2020 to 2023 from the chart. Then we sum these values and divide by the number of years (4 in this case).\n rationale2: To find the total amount, we need to sum up the amounts of U.S. public - debt securities owned by Federal Reserve Banks, Social Security, and other intra - governmental accounts. The amounts for these are given in the chart, so we just add them together.\n rationale3: To find the difference, we subtract the percentage of net-interest on the U.S. national debt as a percentage of total federal outlays in 2022 from the percentage in 1940. In 1940, it was 9.5% and in 2022 it was 6.1%. So the calculation is 9.5% - 6.1% = 3.4%.",
+                "answer": "2.0; 10.5 trillion; 3.4%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-8",
+                    "chart_1-12",
+                    "chart_1-16",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_5-1",
+                    "chart_5-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the average of the increases in total outlays of federal spending over 2019 from 2020 to 2023?\n question2: What is the total amount of U.S. public - debt securities owned by Federal Reserve Banks, Social Security, and other intra - governmental accounts in September 2022?\n question3: What is the difference between the net-interest on the U.S. national debt as a percentage of total federal outlays in 1940 and in 2022?\n question4: What is the difference between the average interest rate on federal public debt as of the fiscal - year end (Sept. 30) in 1988 and 2022?",
+                "rationale": "rationale1: To find the average, we first need to collect the increases in total outlays of federal spending over 2019 for each year from 2020 to 2023 from the chart. Then we sum these values and divide by the number of years (4 in this case).\n rationale2: To find the total amount, we need to sum up the amounts of U.S. public - debt securities owned by Federal Reserve Banks, Social Security, and other intra - governmental accounts. The amounts for these are given in the chart, so we just add them together.\n rationale3: To find the difference, we subtract the percentage of net-interest on the U.S. national debt as a percentage of total federal outlays in 2022 from the percentage in 1940. In 1940, it was 9.5% and in 2022 it was 6.1%. So the calculation is 9.5% - 6.1% = 3.4%.\n rationale4: To find the difference, we need to subtract the average interest rate in 2022 from the average interest rate in 1988 as given in the chart. This calculation directly uses the two data points provided in the chart to obtain the result.",
+                "answer": "2.0; 10.5 trillion; 3.4%; 6.7%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-8",
+                    "chart_1-12",
+                    "chart_1-16",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_5-1",
+                    "chart_5-3",
+                    "chart_6-1",
+                    "chart_6-2"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the amount of U.S. public - debt securities owned by the Federal Reserve Banks in September 2022 to the total outlays of federal spending in 2019?",
+                "rationale": "In September 2022, the amount of U.S. public - debt securities owned by the Federal Reserve Banks was $6.1 trillion (chart_3-2). In 2019, the total outlays of federal spending was $4.4 trillion (chart_1-3). The ratio is 6.1\u00f74.4\u22481.39.",
+                "answer": "1.39",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_1-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "If we assume that the increase in the total outlays of federal spending from 2019 to 2023 is related to the change in the public debt subject to limitation as a percentage of GDP from 1996 to 2022 and the proportion of U.S. public - debt securities owned by Federal Reserve Banks in September 2022, what is the result of dividing the product of the increase in total outlays and the proportion of debt owned by the Fed by the change in the percentage of public debt to GDP? (Round the result to two decimal places.)",
+                "rationale": "The increase in total outlays of federal spending from 2019 to 2023 is 1.6 trillion (chart_1-16). The public debt subject to limitation as a percentage of GDP in 1996 was 63.2% and in 2022 was 121.2%, so the change is 121.2 - 63.2 = 58 (chart_2-2). The proportion of U.S. public - debt securities owned by Federal Reserve Banks in September 2022 is 19.7% or 0.197 (chart_3-2). The calculation is (1.6 * 0.197) / 58 \u2248 0.01 (rounded to two decimal places).",
+                "answer": "0.01",
+                "involved_content_sources": [
+                    "chart_1-16",
+                    "chart_2-2",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "Calculate the ratio of the increase in total outlays of federal spending from 2019 to 2023 to the difference in the public debt subject to limitation as a percentage of GDP between 2022 and 1996, and then multiply this ratio by the proportion of U.S. public - debt securities owned by Social Security in September 2022, and finally divide by the ratio of the average interest rate on federal public debt in 2022 to that in 1988.",
+                "rationale": "The increase in total outlays of federal spending from 2019 to 2023 is 1.6 trillion (chart_1-16). The difference in the public debt subject to limitation as a percentage of GDP between 2022 and 1996 is 121.2% - 63.2% = 58% (chart_2-2 - chart_2-1). The proportion of U.S. public - debt securities owned by Social Security in September 2022 is 9.2% (chart_3-3). The ratio of the average interest rate on federal public debt in 2022 to that in 1988 is 2.1% / 8.8% (chart_6-2 / chart_6-1). First, calculate the ratio of the increase in total outlays to the difference in debt - to - GDP percentage: 1.6 / 58. Then multiply by the Social Security proportion: (1.6 / 58) * 9.2%. Finally, divide by the interest - rate ratio: ((1.6 / 58) * 9.2%) / (2.1% / 8.8%) \u2248 0.0106.",
+                "answer": "1.06%",
+                "involved_content_sources": [
+                    "chart_1-16",
+                    "chart_2-2",
+                    "chart_3-3",
+                    "chart_6-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the increase in the proportion of public debt subject to limitation as a percentage of GDP from 1996 to 2022 and the increase in the percentage of public debt held by Federal Reserve Banks from January 2001 to January 2022?",
+                "rationale": "The public debt subject to limitation as a percentage of GDP was 63.2% in 1996 (chart_2-1) and 121.2% in 2022 (chart_2-2). The increase is 121.2% - 63.2% = 58%. The percentage of public debt held by Federal Reserve Banks was 9.3% in January 2001 (chart_4-2) and 19.7% in January 2022 (chart_4-3). The increase is 19.7% - 9.3% = 10.4%. Then the difference between the two increases is 58% - 10.4% = 47.6%.",
+                "answer": "47.6%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_4-2",
+                    "chart_4-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the increase in total outlays of federal spending from 2019 to 2023 to the increase in the face - value of public debt securities held by Federal Reserve Banks from January 2001 to January 2022, multiplied by the ratio of the net - interest on the U.S. national debt as a percentage of total federal outlays in 2022 to that in 1940?",
+                "rationale": "The increase in total outlays of federal spending from 2019 to 2023 is 1.6 trillion (chart_1-16). The increase in the face - value of public debt securities held by Federal Reserve Banks from January 2001 to January 2022 is ($6.097 - $0.533) trillion = $5.564 trillion (chart_4-4, chart_4-5). The net - interest on the U.S. national debt as a percentage of total federal outlays in 2022 is 6.1% (chart_5-3), and in 1940 is 9.5% (chart_5-1). First, calculate the ratio of the increase in federal outlays to the increase in Fed - held debt: 1.6 / 5.564 \u2248 0.2876. Then, calculate the ratio of the net - interest percentages: 6.1% / 9.5% \u2248 0.6421. Multiply these two ratios: 0.2876\u00d70.6421 \u2248 0.1847 = 18.47%.",
+                "answer": "18.47%",
+                "involved_content_sources": [
+                    "chart_1-16",
+                    "chart_1-20",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_5-1",
+                    "chart_5-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the percentage increase in total federal outlays from 2019 to 2023, the increase in the public debt subject to limitation as a percentage of GDP from 1996 to 2022, the increase in the percentage of public debt held by Federal Reserve Banks from 2001 to 2022, and the change in the net - interest on the U.S. national debt as a percentage of total federal outlays from 1940 to 2022?",
+                "rationale": "First, from Chart 1, the percentage increase in total federal outlays from 2019 to 2023 is 36%. Second, from Chart 2, the increase in the public debt subject to limitation as a percentage of GDP from 1996 to 2022 is 121.2% - 63.2% = 58%. Third, from Chart 4, the increase in the percentage of public debt held by Federal Reserve Banks from 2001 to 2022 is 19.7% - 9.3% = 10.4%. Fourth, from Chart 5, the change in the net - interest on the U.S. national debt as a percentage of total federal outlays from 1940 to 2022 is 6.1% - 9.5% = - 3.4%. The average of these four values is (36% + 58% + 10.4% - 3.4%) / 4 = 25.25%.",
+                "answer": "25.25%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-20",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_5-1",
+                    "chart_5-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

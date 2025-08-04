@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_20_1",
+    "chart_20_2",
+    "chart_20_3",
+    "chart_20_4",
+    "chart_20_5",
+    "chart_20_6"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the 'Age Group Distribution', is the percentage of the age group with the highest proportion the same as the percentage of the constellation with the highest anxiety proportion in the 'The Most Anxious Constellations Ranking'? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "In the 'Age Group Distribution', the age group with the highest proportion is 25 - 34 years old, with a percentage of 49%. In the 'The Most Anxious Constellations Ranking', the constellation with the highest proportion is Virgo, with a percentage of 18%. The highest proportions of the two are clearly different (49% vs 18%). The answer should be 'No'.",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the clockwise change trend of the proportion starting from Europe in the 'Where to seek medical treatment overseas?' chart the same as the clockwise change trend of the proportion starting from other behaviors in the 'Subsequent Behaviors of Cancer Patients' chart? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former gradually increases, while the latter first decreases and then increases.",
+      "charts_involved": [
+        "chart_20_4",
+        "chart_20_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the clockwise change trend of the proportion starting from Europe in the 'Where to seek medical treatment overseas?' chart the same as the clockwise change trend of the proportion starting from the under - 50 age group in the 'Age Group Distribution' chart? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former gradually increases, while the latter first increases and then decreases.",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the total number of people is 10,000, and the distribution of each age group and constellation is uniform and independent. Calculate: Approximately how many anxious people are in the '25 - 34' age group and are Virgos? Express the result as an integer without adding a unit.",
+      "answer": "882",
+      "explanation": "Since it is assumed that the constellations and ages are independently distributed, the number of anxious Virgos in the '25 - 34' age group = 10,000 × 49% × 18% = 10,000 × 0.49 × 0.18 = 882 people.",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that there are a total of 2,000 cancer patients, and the subsequent behaviors of cancer patients and the attention when buying insurance are uniform and independent. Question: What is the number of cancer patients who 'buy insurance and mainly focus on insurance claims'? Answer format: Keep the integer and round up.",
+      "answer": "353",
+      "explanation": "The number of cancer patients who buy insurance = 2,000 × 43% = 860 people; Among them, the number of people who focus on insurance claims = 860 × 41% = 352.6 people, rounded up to 353.",
+      "charts_involved": [
+        "chart_20_5",
+        "chart_20_6"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suppose there are 3,000 people with cancer. Among them, the proportion of people willing to seek medical treatment overseas is the same as that in the 'Overseas Medical Treatment' survey, and the causes of illness are consistent with the proportion of cancer - causing reasons. Question: What is the expected number of cancer patients related to melamine who choose to seek medical treatment in the United States? Answer directly with an integer result, round up, and do not add a unit.",
+      "answer": "476",
+      "explanation": "Cancer patients related to melamine = 3,000 * 33% = 990; The proportion of people who choose to seek medical treatment in the United States = 48%; The expected number of people who choose to seek medical treatment in the United States = 990 × 48% = 475.2, rounded up to 476 people.",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of subsequent behaviors of cancer patients and the chart of concerns when buying insurance, which factors may jointly explain why buying insurance has become the most frequent subsequent behavior among cancer patients?",
+      "answer": {
+        "A": "The marketing activities and advertising campaigns of insurance companies have significantly enhanced patients' awareness and willingness to purchase insurance.",
+        "B": "The chart shows that the proportion of the behavior of buying insurance is 43%, which is almost equal to the attention ratio of insurance claims at 41%. However, the attention ratio of insurance types is 25%, indicating that patients value the diversity of insurance more than claims.",
+        "C": "Cancer patients mainly buy insurance because of the high cost of medical treatment and the need for financial security, which is a common coping strategy for health crises.",
+        "D": "Among the subsequent behaviors of cancer patients, buying insurance has the highest proportion, and among the concerns when buying insurance, the attention ratio of insurance claims is also the highest. This indicates that patients highly value risk protection, which drives the behavior of buying insurance.",
+        "E": "The combined attention to the types and duration of insurance in the insurance concerns is significantly higher than the attention to the insurance amount, which is consistent with the high proportion of the behavior of buying insurance. This reflects patients' demand for comprehensive and long - term protection.",
+        "F": "The attention ratio of the insurance amount is only 12%, the lowest value, while the attention ratio of the insurance duration is 22%. This shows that patients prefer short - term protection, which drives the high - frequency behavior of buying insurance."
+      },
+      "charts_involved": [
+        "chart_20_5",
+        "chart_20_6"
+      ],
+      "label": [
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of the proportion of cancer - causing reasons and the chart of overseas medical treatment choices, which options can best explain the conflicts in the data trends between them (for example, local cancer - causing factors and preferences for medical treatment locations)?",
+      "answer": {
+        "A": "The high proportion of cancer - causing factors such as melamine may lead patients to prefer overseas treatment to completely avoid local pollution sources.",
+        "B": "The proportion of seeking medical treatment in Europe is only 7%, while the proportion of cancer caused by indoor decoration is 10%. The small difference in the proportions indicates that patients with environmental factors prefer European medical treatment.",
+        "C": "The proportion of melamine in cancer - causing reasons is the most prominent, while the combined proportion of the United States and Japan in overseas medical treatment choices is extremely high. This may reflect the lack of local medical resources in dealing with high - incidence cancer - causing factors, prompting patients to seek advanced overseas treatment.",
+        "D": "The choice of the United States and Japan for overseas medical treatment is because these countries have the world's leading medical technology, which is a common trend in international medical tourism.",
+        "E": "The proportion of environmental factors such as indoor decoration in cancer - causing reasons is significant, but the proportion of Europe in overseas medical treatment choices is the lowest. This implies that cancer related to the environment may rely more on local medical treatment rather than overseas medical treatment.",
+        "F": "The proportion of melamine in cancer - causing reasons is 33%, which is similar to the proportion of 48% for the United States in overseas medical treatment, and both are much higher than other factors. This shows that the main cancer - causing factor directly corresponds to the preferred medical treatment location."
+      },
+      "charts_involved": [
+        "chart_20_3",
+        "chart_20_4"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of age group distribution and the chart of subsequent behaviors of cancer patients, which distribution trends of age groups may implicitly affect the choice of subsequent behaviors?",
+      "answer": {
+        "A": "Young people (aged 19 - 24) account for 20% in the age distribution. They are more likely to buy insurance because they are at the beginning of their careers and have increasing incomes.",
+        "B": "The group over 50 years old has the lowest proportion at 5%, while the proportion of the behavior of praying to gods is 21%, which is much higher than the age distribution. This indicates that this behavior is mainly driven by the elderly group.",
+        "C": "The age group of 25 - 34 years old has the highest proportion at 49%, but the proportion of the behavior of seeking medical appointments is only 18%, which is relatively low. This indicates that this group has insufficient demand for medical services.",
+        "D": "Elderly patients (over 50 years old) are more likely to pray to gods because of their physical vulnerability, which is a common coping method in cultural traditions.",
+        "E": "The age group of 25 - 34 years old has the highest proportion in the age distribution, and among the behaviors of cancer patients, buying insurance has the highest proportion. This may reflect that young adult groups are more inclined to manage health risks through insurance.",
+        "F": "The group over 50 years old has the lowest proportion in the age distribution, but among the behaviors of cancer patients, the proportion of praying to gods is relatively high. This implies that the elderly group may rely more on non - medical methods when facing cancer."
+      },
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_5"
+      ],
+      "label": [
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the provided chart content, combined with the age distribution of the population and the subsequent behavior trends of cancer patients, how should the health insurance promotion strategy be optimized to improve the coverage and acceptance of high - risk groups? Please select the most reasonable strategy suggestions.",
+      "answer": {
+        "A": "Extensively promote the importance of health insurance through social media to raise the overall health awareness of the public.",
+        "B": "Ensure that the promotion strategy covers the middle - aged and elderly population. Although their population proportion is relatively low, their cancer risk may be higher. By simplifying the insurance process and providing targeted solutions, achieve fair coverage and avoid neglecting their needs due to the low population proportion.",
+        "C": "Focus on promoting insurance plans for people over 50 years old, as this age group has the highest cancer risk, and the age distribution shows that they account for 5%, which is worthy of priority resource investment.",
+        "D": "Cooperate with community medical institutions to provide free health screening services to attract more people to pay attention to insurance products.",
+        "E": "Emphasize the advantages of the insurance amount in insurance promotion. Since the attention ratio of the insurance amount is 12%, this can directly enhance users' willingness to purchase.",
+        "F": "Highlight the advantages of insurance claim services in insurance product promotion. Among the subsequent behaviors of cancer patients, the proportion of buying insurance is significant. Combined with the highest attention to insurance claims when buying insurance, emphasizing the convenience of claims can enhance users' trust and acceptance, thus optimizing the promotion effect.",
+        "G": "Design insurance promotion activities specifically targeting young adult groups (such as the 25 - 34 age group). This group has the highest proportion in the population structure, and among the subsequent behaviors of cancer patients, buying insurance is the most common coping method, indicating that this age group has a strong demand for insurance, and the investment of promotion resources can efficiently improve the coverage rate."
+      },
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_5",
+        "chart_20_6"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the distribution of cancer - causing reasons and the anxiety levels of specific groups, how should public health education resources be allocated to prioritize interventions on high - cancer - risk factors and relieve public anxiety? Please select the most reasonable strategy suggestions.",
+      "answer": {
+        "A": "Prioritize educational publicity on high - cancer - risk factors (such as chemical exposure). Among the cancer - causing reasons, the proportion of chemical factors is the most prominent. Combined with the relatively high anxiety levels of high - anxiety groups (such as those at the top of the anxiety list), educational resources should focus on these high - risk areas to reduce actual risks and relieve anxiety.",
+        "B": "Increase educational investment in controllable lifestyle factors (such as indoor environment or the use of skin - care products). These cancer - causing reasons account for a significant proportion and the risks can be reduced through behavioral changes. Combined with the medium anxiety levels of some groups in the anxiety list, education can enhance the public's sense of control and reduce unnecessary anxiety.",
+        "C": "Regularly broadcast health tips on TV and radio media to cover a wide range of people and reduce anxiety.",
+        "D": "Prioritize educational interventions for Taurus and Aquarius groups because their anxiety proportion is the lowest (4%), and it is easy to quickly reduce the overall anxiety level through simple publicity.",
+        "E": "Carry out national health education activities to popularize basic cancer prevention knowledge and enhance the overall health literacy of the public.",
+        "F": "Provide customized psychological support services for groups with relatively high anxiety levels. The anxiety list shows that the anxiety proportion of some groups is prominent. Combined with the proportion of environmental factors (such as air pollution) in cancer - causing reasons, integrating mental health education can comprehensively reduce risk perception and actual incidence rates.",
+        "G": "Focus on educating about the cancer - causing risks of air pollution, as it accounts for 7%, and the anxiety list shows that high - anxiety groups (such as Virgo at 18%) may be more susceptible to environmental factors, so resources should be tilted towards this area."
+      },
+      "charts_involved": [
+        "chart_20_2",
+        "chart_20_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the trends of overseas medical treatment preferences and insurance purchase concerns, how should international medical insurance products be designed to better meet patients' needs and optimize resource allocation? Please select the most reasonable strategy suggestions.",
+      "answer": {
+        "A": "Strengthen the flexible design of insurance duration and amount. The combined attention to the duration and amount in insurance concerns is significant. Combined with the high proportion of the behavior of buying insurance among cancer patients, flexible solutions can adapt to different medical treatment needs and improve the competitiveness of products.",
+        "B": "Prioritize covering the medical service networks in the preferred destinations for overseas medical treatment (such as the United States and Japan). These regions have a very high proportion in the medical treatment choices. Combined with the highest attention to insurance claims, ensuring efficient claim services in these regions can directly improve user satisfaction and coverage.",
+        "C": "Strengthen the design of the insurance amount. Since the attention ratio of the insurance amount is 12%, combined with the 43% proportion of cancer patients buying insurance, a high - amount insurance can better meet the needs of medical treatment.",
+        "D": "Increase the advertising investment in insurance products to enhance brand awareness and attract more international patients.",
+        "E": "Prioritize expanding the medical service network in Europe. Since the proportion of seeking medical treatment in Europe is 7%, there is great growth potential. And the attention ratio of insurance types is 25%, so customized exclusive solutions can be provided.",
+        "F": "Provide a variety of insurance types. The attention to insurance types is relatively high, second only to insurance claims. Combined with the preference for medical treatment concentrated in a few regions, customized products (such as exclusive plans for different destinations) can attract a wider range of users.",
+        "G": "Provide multilingual customer service support to facilitate users from different regions to consult and enhance the user experience."
+      },
+      "charts_involved": [
+        "chart_20_4",
+        "chart_20_5",
+        "chart_20_6"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

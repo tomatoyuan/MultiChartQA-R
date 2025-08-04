@@ -1,0 +1,203 @@
+{
+  "chart": [
+    "chart_152_1",
+    "chart_152_2",
+    "chart_152_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the fluctuation trend of the search index in \"SIINSIIN Brand Empowers the Shark Pants Market\" consistent with the distribution trend of each factor in \"Top 5 factors influencing shark leggings purchases\"? Answer yes, no, or cannot be compared.",
+      "answer": "Cannot be compared",
+      "explanation": "The former is the fluctuation trend of the time series, and the latter is the static proportion distribution. The trends are not comparable.",
+      "charts_involved": [
+        "chart_152_1",
+        "chart_152_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the group with the highest preference proportion in \"Shark Pants Population Preference Distribution\" consistent with the first - ranked purchase motivation in \"Top 5 factors influencing shark leggings purchases\"? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The group with the highest preference proportion is \"Sophisticated Moms\", while the first purchase factor is \"Comfortable to wear, no tightness or restraint\". Obviously, the two are inconsistent (\"Sophisticated\" often means gorgeous, cumbersome, and low comfort).",
+      "charts_involved": [
+        "chart_152_2",
+        "chart_152_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "The high points of the search index in \"SIINSIIN Brand Empowers the Shark Pants Market\" are mainly concentrated from the end of September to the middle of December 2023. Is it possible to be related to the popularity of the young population in \"Shark Pants Population Preference Distribution\" during this period? Answer positively correlated, negatively correlated, or not correlated.",
+      "answer": "Not correlated",
+      "explanation": "One is the time point of search popularity, and the other is the fixed population proportion. The trends cannot be directly associated.",
+      "charts_involved": [
+        "chart_152_1",
+        "chart_152_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among the four peaks of the SIINSIIN brand, if the proportion of the market feedback corresponding to each peak value of the search index that is influenced by the factor of 'Comfortable to wear, no tightness or restraint' is the same as its proportion among the factors influencing shark leggings purchases, what is the total search index influenced by this factor during the peak period? The unit is index points, and the result is rounded to 1 decimal place.",
+      "answer": "144.4",
+      "explanation": "The sum of the peak values of the search index is: 100 + 85 + 90 + 105 = 380; among which, 38% is attributed to 'Comfortable to wear, no tightness or restraint', so the contribution is 380 * 38% = 144.4",
+      "charts_involved": [
+        "chart_152_1",
+        "chart_152_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "If half of the 'Senior Middle - Class' group is influenced by the purchase factor of 'High elasticity, high inclusiveness', please estimate what proportion of the overall market population the purchase motivation corresponding to this factor among this group accounts for? Express it as a percentage and round to 2 decimal places.",
+      "answer": "2.85%",
+      "explanation": "The 'Senior Middle - Class' group accounts for 19%. Half of them are influenced by 'High elasticity, high inclusiveness' (this factor accounts for 30%). Calculate: 19% × 0.5 × 30% = 2.85%",
+      "charts_involved": [
+        "chart_152_2",
+        "chart_152_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that in the peak index on December 13th, the proportion of the influence from the 'New - Generation White - Collars' group is the same as its proportion among the factors influencing shark leggings purchases. What is the influence of this group on the peak index on that day? The unit is index points, and the result is rounded to 2 decimal places.",
+      "answer": "16.80",
+      "explanation": "The peak index on December 13th is 105; the 'New - Generation White - Collars' group contributes 16%, so the calculation is: 105 × 16%  = 16.80",
+      "charts_involved": [
+        "chart_152_1",
+        "chart_152_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the sales trend chart and the chart of factors influencing purchases, which purchase influencing factors might explain the appearance of sales peaks?",
+      "answer": {
+        "A": "The high elasticity factor led to the peak on October 16, 2023, as this date coincided with the release time of the elasticity test report.",
+        "B": "The effect of the brand spokesperson promoted the peaks, as celebrity promotion can directly boost short - term sales.",
+        "C": "The factor of being comfortable to wear might have promoted the peaks, because it has the highest recognition among the influencing factors, and the brand might have strengthened this promotion during the peak periods.",
+        "D": "The factor of shaping the hips might have contributed to some of the peaks, because it ranks high among the influencing factors, and the peak dates might be related to relevant marketing activities.",
+        "E": "The micro - pressure shaping factor had the greatest impact on the peak on December 13, 2023, as its value of 105 directly corresponds to the 28% proportion.",
+        "F": "Price discounts are the core factor, because all peaks occurred during major e - commerce promotion nodes (such as Double 11), which stimulated consumption.",
+        "G": "The factor of high - quality fabric might be associated with some peaks, because it is prominent in importance among the influencing factors, and the brand might have emphasized the fabric advantages during the peak periods."
+      },
+      "charts_involved": [
+        "chart_152_1",
+        "chart_152_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of factors influencing purchases and the chart of population preference distribution, which population groups might be more sensitive to specific influencing factors?",
+      "answer": {
+        "A": "The Sophisticated Moms group might pay more attention to the factor of being comfortable to wear, because they have the highest proportion among the population, and the comfort factor ranks first in influencing decisions.",
+        "B": "Urban Seniors are most sensitive to shaping the hips, as the elderly need to improve their body shape.",
+        "C": "Gen Z dominates the demand for micro - pressure shaping, because this group accounts for 8% and the shaping factor accounts for 28%.",
+        "D": "The Small Town Youths group might pay more attention to the factor of shaping the hips, because they have the second - highest proportion among the population, and the shaping factor ranks high in influencing decisions.",
+        "E": "Senior Blue - Collars are most concerned about high - quality fabric, as blue - collar jobs require durable materials.",
+        "F": "Small Town Seniors prefer being comfortable to wear, as their 9% proportion matches the 38% of the comfort factor.",
+        "G": "The Senior Middle - Class group might prefer the factor of high - quality fabric, because they have the third - highest proportion among the population, and the fabric factor is significantly important in influencing decisions."
+      },
+      "charts_involved": [
+        "chart_152_2",
+        "chart_152_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the sales trend chart and the chart of population preference distribution, how might the appearance of sales peaks reflect the consumption behavior of specific population groups?",
+      "answer": {
+        "A": "The festival effect is the main reason. For example, Christmas/New Year's Day triggered the peak on December 13, 2023.",
+        "B": "Urban Blue - Collars drove all the peaks, because they have strong consumption power and a stable proportion.",
+        "C": "Some peaks might be due to the response of the Small Town Youths group, because they have the second - highest proportion, and the peak dates in the trend might be related to their consumption habits (such as being sensitive to promotions).",
+        "D": "During the peak periods, the brand might target the Sophisticated Moms group, because they have the highest proportion, and the significant increase in peak values in the trend implies the concentrated purchases of this group.",
+        "E": "Gen Z caused the peak on September 25, 2023, as the back - to - school season for students triggered a shopping spree.",
+        "F": "The Senior Middle - Class group might have contributed to some peaks, because they have the third - highest proportion, and the changes in peak values might reflect their fluctuating demand for high - quality products.",
+        "G": "Small Town Seniors contributed to the peak on November 7, 2023, as the value of 90 is proportional to their 9% proportion."
+      },
+      "charts_involved": [
+        "chart_152_1",
+        "chart_152_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the fluctuations in the shark pants market demand and consumer decision-making factors, how should seasonal marketing activities be adjusted to increase sales and brand loyalty? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Concentrate marketing resources during market peak periods (such as near certain key dates) and emphasize core purchase factors such as comfortable to wear and shape the hips, as these factors have the highest proportion in consumer decision-making and can effectively increase the conversion rate during the period of surging demand.",
+        "B": "Maintain the marketing intensity during non-peak periods, but focus on promoting secondary influencing factors such as high-quality fabric and high elasticity to stabilize the basic demand and expand market coverage, avoiding significant fluctuations in sales.",
+        "C": "Prioritize promoting the factor of “Micro-pressure shaping, slimming and fitting” (accounting for 28%), as it is the most novel selling point among the Top 5 influencing factors and can maximize the attraction of young consumers and increase the conversion rate.",
+        "D": "Increase marketing investment from September 1, 2023, to September 24, 2023, as the demand is stable during this period (the basic data shows a linear increase), which is suitable for building long-term loyalty, while the peak value during the peak period (such as September 25, 2023) may be too random to be worth focusing on.",
+        "E": "Allocate the marketing budget evenly across all months to avoid waste of resources due to demand fluctuations and ensure stable brand exposure.",
+        "F": "Enhance the overall brand awareness through social media and KOL cooperation to attract a wider consumer group.",
+        "G": "Design limited-time promotional activities for peak events (such as high points in specific months) and promote them in combination with differentiated factors such as micro-pressure shaping to attract price-sensitive consumers and test new selling points."
+      },
+      "charts_involved": [
+        "chart_152_1",
+        "chart_152_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the preferences of shark pants consumer groups and market trends, how should marketing resources be allocated to different groups to achieve efficient growth and fair coverage? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "Develop customized products for the New - Generation White - Collars and Gen Z groups, emphasizing fashion - related factors such as shape the hips and micro-pressure shaping, as young groups may pay more attention to appearance. At the same time, ensure an even distribution of resources throughout the year to cultivate potential markets.",
+        "B": "Allocate the same proportion of marketing resources to all groups (such as Sophisticated Moms, Small Town Youths, etc.) to ensure fairness and avoid negative public opinion caused by differences between groups.",
+        "C": "Reduce marketing for Small Town Youths (accounting for 20%) during the peak period on October 16, 2023, and instead increase investment in Gen Z (accounting for 8%), as young groups pay more attention to fashion factors (such as “shape the hips”), and the demand during the peak period is already saturated and does not require additional resources.",
+        "D": "Maintain basic services for low - preference groups (such as Urban Seniors and Senior Blue - Collars) and provide high - comfort product options. Avoid resource tilt, but promote through community channels to reflect brand inclusiveness.",
+        "E": "Prioritize increasing marketing investment in Senior Blue - Collars and Urban Seniors groups (accounting for 1% and 3% respectively), as they represent untapped markets. Targeted promotion during the peak demand period (such as December 13, 2023) can quickly improve fair coverage.",
+        "F": "Focus on improving the overall product quality and brand image instead of targeting specific groups to cover all potential consumers.",
+        "G": "Prioritize increasing marketing investment in Sophisticated Moms and Small Town Youths groups, as their preferences have a significantly higher proportion. Select the peak market demand periods (such as the end of certain quarters) for targeted promotion to capture the maximum sales opportunities."
+      },
+      "charts_involved": [
+        "chart_152_3",
+        "chart_152_1",
+        "chart_152_2"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Integrating the demand characteristics and population distribution of shark pants consumers, how should product design be optimized to enhance market competitiveness and meet diverse needs? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Comprehensively improve the basic product quality, such as increasing durability and comfort, to meet the general expectations of all consumers.",
+        "B": "Develop differentiated product lines, optimize secondary factors such as micro-pressure shaping for Small Town Seniors and Gen Z groups, and release them in stages according to the annual demand trend to balance resources and cover niche markets.",
+        "C": "Optimize the feature of “Micro-pressure shaping, slimming and fitting” (accounting for 28%) for Small Town Seniors (accounting for 9%), as they pay more attention to the shaping effect, and this factor has the greatest potential among the Top 5.",
+        "D": "Launch innovative versions during peak market demand periods (such as certain year - end months), such as enhancing high - elasticity and high - inclusiveness features, to take advantage of the sales window and attract sub - high - preference groups such as Small Town Youths.",
+        "E": "Quickly launch new products emphasizing the feature of “High elasticity, high inclusiveness” (accounting for 30%) during the peak period on November 7, 2023 (with a value of 90) to test new selling points using the demand window instead of prioritizing core factors.",
+        "F": "Launch more price ranges and style options to expand market coverage and attract consumers with different budgets.",
+        "G": "Strengthen the core attributes of the product in terms of comfortable to wear and high - quality fabric, as these factors have the highest proportion in purchase decision - making. Prioritize testing for main groups such as Senior Middle - Class and Sophisticated Moms to ensure that high - preference users are satisfied."
+      },
+      "charts_involved": [
+        "chart_152_2",
+        "chart_152_3",
+        "chart_152_1"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    }
+  ]
+}

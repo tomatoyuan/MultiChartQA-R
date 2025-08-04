@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_109_1",
+    "chart_109_2",
+    "chart_109_3",
+    "chart_109_4",
+    "chart_109_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Ordenando por proporción de mayor a menor, ¿la tendencia de cambio de la secuencia de proporciones de las cinco plataformas de venta más utilizadas por los operadores de comercio electrónico rural en China en 2025 (Tienda en línea de Douyin → Taobao → Pinduoduo → Tienda en línea de Kuaishou → JD.com) es consistente con la secuencia de proporciones de los cinco tipos de productos vendidos (Alimentos y productos frescos → Artículos de uso diario → Electrodomésticos → Herramientas de producción agrícola e industrial → Ropa, zapatos y sombreros)? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Las proporciones de las dos secuencias disminuyen monótonamente con el ranking, y la tendencia es consistente.",
+      "charts_involved": [
+        "chart_109_2",
+        "chart_109_3"
+      ],
+      "question_type": "Juicio de consistencia de tendencia"
+    },
+    {
+      "type": "2",
+      "question": "Compare las proporciones de los factores considerados importantes por los consumidores de comercio electrónico rural chinos al comprar productos agrícolas en 2025 (Origen → Calidad → Marca → Empaque → Precio → Certificación Orgánica/Ecológica → Frescura) con las proporciones de las principales medidas consideradas efectivas para promover el desarrollo del comercio electrónico rural (Orientación de las asociaciones industriales → Regular el entorno empresarial → Apoyar a las empresas agrícolas → Capacitación de personal técnico y de gestión → Proporcionar instalaciones de operación → Apoyo político y financiero → Fortalecer la construcción de infraestructura de red rural). ¿Estos dos conjuntos de datos están positivamente correlacionados? Responda positivamente correlacionados, negativamente correlacionados o no correlacionados.",
+      "answer": "Positivamente correlacionados",
+      "explanation": "Ambos conjuntos de valores disminuyen según el ranking, presentan un cambio en la misma dirección, y la correlación es positiva.",
+      "charts_involved": [
+        "chart_109_4",
+        "chart_109_5"
+      ],
+      "question_type": "Juicio de correlación"
+    },
+    {
+      "type": "2",
+      "question": "¿El año con la tasa de crecimiento interanual más alta de las ventas en línea rurales en China (30.4% en 2018) corresponde a la plataforma de venta más utilizada por los operadores de comercio electrónico rural (Tienda en línea de Douyin con un 29.79%)? Responda sí o no.",
+      "answer": "No",
+      "explanation": "El año con la tasa de crecimiento interanual más alta y la plataforma con la proporción de uso más alta no pertenecen a la misma dimensión, y no existe una relación correspondiente entre ellos.",
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_2"
+      ],
+      "question_type": "Correspondencia de valores extremos"
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el indicador de crecimiento compuesto obtenido después de multiplicar la tasa de crecimiento interanual de las ventas online rurales en 2023 por la proporción de uso de la plataforma Pinduoduo? En porcentaje y redondeado a 2 decimales. Respuesta: xx.xx%",
+      "answer": "3.19%",
+      "explanation": "Tasa de crecimiento interanual en 2023 del 12.9% × Proporción de uso de Pinduoduo del 24.73% = 0.129 × 0.2473 = 0.0319017. Redondeado a 2 decimales, se obtiene 3.19%.",
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el valor compuesto de la atención obtenido después de multiplicar la proporción de 'Alimentos y productos frescos' en los tipos de productos vendidos por la proporción del factor 'Frescura' que los consumidores valoran? En porcentaje y redondeado a 2 decimales. Respuesta: xx.xx%",
+      "answer": "11.03%",
+      "explanation": "Proporción de ventas de alimentos y productos frescos del 50.53% × Proporción del factor de frescura del 21.82% = 0.5053 × 0.2182 = 0.11025646. Redondeado a 2 decimales, se obtiene 11.03%.",
+      "charts_involved": [
+        "chart_109_3",
+        "chart_109_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el índice de apoyo potencial obtenido después de multiplicar la proporción de uso de la cuenta de video de WeChat por los operadores de comercio electrónico rural por la proporción de la medida 'Apoyo político y financiero de los departamentos gubernamentales'? En porcentaje y redondeado a 2 decimales. Respuesta: xx%",
+      "answer": "6.07%",
+      "explanation": "Proporción de uso de la cuenta de video de WeChat del 19.95% × Proporción de apoyo político y financiero de los departamentos gubernamentales del 30.45% = 0.1995 × 0.3045 = 0.06074775. Redondeado a 2 decimales, se obtiene 6.07%.",
+      "charts_involved": [
+        "chart_109_2",
+        "chart_109_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según los tipos de productos vendidos por los operadores de comercio electrónico rural y los factores que los consumidores valoran al comprar productos agrícolas, ¿qué tipos de productos podrían beneficiarse de la atención de los consumidores a factores específicos?",
+      "answer": {
+        "A": "El factor de frescura tiene la mayor proporción, por lo tanto, los productos alimenticios y frescos (como cereales y aceites, frutas, etc.) seguramente aumentarán sus ventas debido a la atención de los consumidores a la frescura.",
+        "B": "Los productos de electrodomésticos (como teléfonos móviles, refrigeradores, etc.) podrían obtener más oportunidades de mercado debido a la atención de los consumidores a la marca y el precio.",
+        "C": "El factor de precio es el más valorado por los consumidores, por lo que las herramientas de producción agrícola e industrial (como hoz, azada, etc.) podrían beneficiarse más de una estrategia de bajo precio.",
+        "D": "Los productos alimenticios y frescos (como cereales y aceites, frutas, etc.) podrían aumentar sus ventas debido a la alta atención de los consumidores a los factores de origen y calidad.",
+        "E": "Los artículos de uso diario (como productos de papel para limpieza, cuidado de la piel, etc.) podrían aumentar su atractivo debido a la atención de los consumidores al empaque y la conveniencia de compra.",
+        "F": "La proporción del factor de empaque es del 33.64%, mayor que la del factor de marca. Por lo tanto, los artículos de uso diario (como productos de papel para limpieza, cuidado de la piel, etc.) podrían beneficiarse significativamente de la atención al empaque, pero se ignora el papel dominante del origen y la calidad."
+      },
+      "charts_involved": [
+        "chart_109_3",
+        "chart_109_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combinando los cambios en la tasa de crecimiento de las ventas rurales en línea y las medidas que los consumidores consideran efectivas para promover el desarrollo del comercio electrónico rural, ¿qué medidas podrían ayudar a estabilizar o aumentar la tasa de crecimiento, especialmente en períodos de tasa de crecimiento baja?",
+      "answer": {
+        "A": "Las medidas de apoyo político y financiero de los departamentos gubernamentales podrían dirigirse a los períodos de tasa de crecimiento baja, proporcionando incentivos externos para promover el crecimiento.",
+        "B": "Todas las medidas pueden aumentar la tasa de crecimiento, porque cualquier apoyo externo (como capacitación o políticas) puede estimular directamente el crecimiento de las ventas.",
+        "C": "Regular el mercado de comercio electrónico y crear un buen entorno empresarial puede aliviar la caída de la tasa de crecimiento, ya que la tasa de crecimiento ha fluctuado mucho en los últimos años y esta medida se considera muy efectiva.",
+        "D": "La proporción de la medida de capacitación es del 31.67%. Después de la recuperación de la tasa de crecimiento en 2023 (12.9%), esta medida ayudó a la recuperación, por lo que es especialmente adecuada para períodos de tasa de crecimiento baja.",
+        "E": "En 2022, cuando la tasa de crecimiento fue la más baja (3.6%), la proporción de la medida de fortalecer la construcción de infraestructura de red rural fue la más alta (30.30%), por lo que esta medida puede aliviar más efectivamente la caída de la tasa de crecimiento.",
+        "F": "Las medidas de capacitación de personal técnico y de gestión pueden apoyar la recuperación de la tasa de crecimiento, porque la tasa de crecimiento aumentó después de una caída, y la capacitación puede mejorar la eficiencia operativa."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_5"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según las plataformas comúnmente utilizadas por los operadores de comercio electrónico rural y los tipos de productos vendidos, ¿qué plataformas podrían ser más adecuadas para vender productos específicos, pero presentan conflictos potenciales?",
+      "answer": {
+        "A": "Taobao, como la mayor plataforma de comercio electrónico, es adecuada para todos los tipos de productos y no presenta conflictos potenciales, porque el tamaño de la plataforma garantiza una amplia cobertura.",
+        "B": "JD.com puede ser favorable para la venta de electrodomésticos, pero la proporción de ventas de electrodomésticos es alta, mientras que la proporción de la plataforma es mediana. Por lo tanto, es posible que sea necesario mejorar la compatibilidad de la plataforma.",
+        "C": "La Tienda en línea de Douyin tiene la proporción más alta (29.79%), y es adecuada para la venta de productos alimenticios y frescos (50.53%), pero es posible que haya conflictos debido a la intensa competencia en la plataforma.",
+        "D": "Pinduoduo puede ser adecuado para la venta de artículos de uso diario, pero la proporción de ventas de artículos de uso diario es alta, mientras que la proporción de la plataforma no es destacada. Esto puede causar una asignación inadecuada de recursos.",
+        "E": "La proporción de Pinduoduo es del 24.73%, cercana a la de Taobao (25.00%), y es adecuada para la venta de artículos de uso diario (41.76%). Sin embargo, hay una asignación inadecuada de recursos debido a la incompatibilidad de las preferencias de los usuarios de la plataforma.",
+        "F": "La Tienda en línea de Douyin puede ser más adecuada para promocionar productos de manualidades, pero la proporción de ventas de productos de manualidades es relativamente baja, y la competencia en la plataforma es intensa, lo que puede afectar los resultados."
+      },
+      "charts_involved": [
+        "chart_109_2",
+        "chart_109_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Dado la fluctuación de la tasa de crecimiento de las ventas del comercio electrónico rural en China y los principales factores que los consumidores consideran al comprar productos agrícolas, ¿cómo se puede optimizar la estrategia de suministro de productos para mejorar la competitividad en el mercado y la satisfacción de los consumidores? Por favor, seleccione la sugerencia más razonable:",
+      "answer": {
+        "A": "Priorizar la mejora de las medidas de garantía del origen y la calidad de los alimentos y productos frescos, ya que este tipo de productos tiene la mayor proporción en la estructura de ventas y los consumidores prestan más atención al origen y la calidad, lo que puede mejorar directamente la confianza y la tasa de repetición de compras.",
+        "B": "Para los productos de herramientas de producción agrícola e industrial con una demanda estable, resaltar la frescura y el contenido nutricional en la promoción en plataformas en línea para atraer a los consumidores que se preocupan cada vez más por los factores de salud.",
+        "C": "En los años en que la tasa de crecimiento se desacelera明显, aumentar la inversión en la comercialización diferenciada de artículos de uso diario y electrodomésticos, como resaltar las ventajas de la marca y el empaque, para aprovechar su alta proporción de ventas y responder a la atención secundaria de los consumidores a estos factores.",
+        "D": "En el año con la tasa de crecimiento más baja (por ejemplo, 2022), promocionar especialmente las herramientas de producción agrícola e industrial, ya que los consumidores prestan más atención a la frescura y el contenido nutricional, y este tipo de productos puede satisfacer directamente las necesidades de salud.",
+        "E": "Reducir el precio de los alimentos y productos frescos para atraer a los consumidores sensibles al precio y aumentar rápidamente las ventas.",
+        "F": "Aumentar el presupuesto publicitario de todos los productos para mejorar la知名度 de la marca, ya que la promoción de la marca es un medio general para mejorar la competitividad en el mercado."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_3",
+        "chart_109_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la distribución de las plataformas de venta comunes de los operadores de comercio electrónico rural y los factores clave que influyen en la decisión de compra de los consumidores, ¿cómo se deben asignar los recursos de promoción y la estrategia de canales para mejorar la eficiencia de ventas y la penetración en el mercado? Por favor, seleccione la sugerencia más razonable:",
+      "answer": {
+        "A": "Utilizar las redes sociales para la marketing viral y aumentar rápidamente la exposición de los productos y la participación de los usuarios.",
+        "B": "Para las plataformas emergentes o de nicho, promocionar优先 los productos de manualidades y las herramientas de producción agrícola e industrial, y resaltar la información del origen y la reputación del proveedor, para aprovechar las necesidades específicas de los usuarios de la plataforma y responder a la atención mediana de los consumidores a los factores de confianza.",
+        "C": "En el período de recuperación de la tasa de crecimiento, aumentar la inversión en las actividades de promoción en plataformas competitivas como Pinduoduo y Kuaishou, combinadas con productos sensibles al precio, para capturar las oportunidades de expansión del mercado y equilibrar la consideración de los consumidores sobre el factor precio.",
+        "D": "En las plataformas líderes (como Douyin y Taobao), promocionar重点 los alimentos y productos frescos y los artículos de uso diario, ya que estas plataformas tienen la mayor cobertura de usuarios y la demanda de este tipo de productos es alta, lo que puede alcanzar de manera máxima a los consumidores objetivo.",
+        "E": "Promocionar优先 los alimentos y productos frescos en las plataformas de Vip.com y Suning.com, ya que estas plataformas tienen una proporción alta (20.74%) y los consumidores prestan más atención a la conveniencia de compra, lo que puede alcanzar de manera eficiente a los consumidores objetivo.",
+        "F": "Asignar平均 los recursos en todas las plataformas de comercio electrónico para garantizar una cobertura equitativa y evitar omitir cualquier grupo de consumidores potenciales."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_2",
+        "chart_109_3",
+        "chart_109_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Teniendo en cuenta la inestabilidad de la tasa de crecimiento del comercio electrónico rural y las medidas de desarrollo respaldadas por los consumidores, ¿cómo deben priorizar la asignación de recursos y la implementación de intervenciones los formuladores de políticas para promover un crecimiento sostenible y la normalización del mercado? Por favor, seleccione la sugerencia más razonable:",
+      "answer": {
+        "A": "Fortalecer los proyectos de educación de los consumidores para mejorar su confianza y voluntad de uso de las plataformas de comercio electrónico.",
+        "B": "Priorizar las medidas de regular el mercado de comercio electrónico y fortalecer la guía de las asociaciones industriales, ya que estas estrategias son consideradas más efectivas por los consumidores, pueden mejorar directamente la confianza en el mercado y mitigar los riesgos causados por la fluctuación de la tasa de crecimiento.",
+        "C": "Combinar las medidas de atracción de nuevos talentos jóvenes y el apoyo a las empresas agrícolas, centrándose en la innovación de la cadena de suministro de los productos de alta demanda (como los alimentos y productos frescos), para crear empleo y estabilizar la tendencia de la tasa de crecimiento.",
+        "D": "En los períodos de baja tasa de crecimiento, aumentar la inversión en la infraestructura de red rural y la capacitación técnica para resolver los cuellos de botella básicos, apoyar el crecimiento a largo plazo y responder a la alta认可 de los consumidores a estas medidas.",
+        "E": "Ofrecer incentivos fiscales a corto plazo para estimular a las empresas de comercio electrónico a aumentar la inversión y crear empleo.",
+        "F": "En el período de recuperación de la tasa de crecimiento (por ejemplo, 2023), priorizar la medida de atracción de nuevos talentos jóvenes, ya que esta es la medida más respaldada por los consumidores (proporción del 28.79%), y puede satisfacer directamente la alta demanda de los alimentos y productos frescos (proporción del 50.53%)."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_3",
+        "chart_109_5"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

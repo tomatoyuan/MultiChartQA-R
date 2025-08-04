@@ -1,0 +1,178 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of U.S. adults who think passing a security background check should be required for undocumented immigrants to stay in the U.S. legally? Please provide the answer as a percentage.\n question2: What is the proportion of Black U.S. adults who say undocumented immigrants should have a way to stay in the country legally if certain requirements are met?",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults who believe passing a security background check should be required for undocumented immigrants to stay legally in the U.S. The relevant information is directly given in the chart.\n rationale2: By referring to the relevant part of the chart about Black U.S. adults, we can obtain the required proportion.",
+                "answer": "79%; 73%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_1-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of registered Trump - supporting voters who say undocumented immigrants should not be allowed to stay in the country legally?\n question2: In April 2024, what proportion of U.S. adults said undocumented immigrants should not be allowed to stay in the country legally? Please provide the percentage.\n question3: What is the proportion of U.S. adults who say undocumented immigrants should not be able to stay in the U.S. legally and consider 'They take away resources from American citizens' not a reason?",
+                "rationale": "rationale1: We search for the specific proportion value for registered Trump - supporting voters in the chart to answer the question.\n rationale2: The question asks for the proportion of U.S. adults in April 2024 with this view. The chart gives this proportion as 37%, so we just extract this number.\n rationale3: The question focuses on a particular proportion related to the statement 'They take away resources from American citizens' not being a reason. We search for this specific data in the chart.",
+                "answer": "66%; 37%; 6%",
+                "involved_content_sources": [
+                    "chart_1-19",
+                    "chart_2-9",
+                    "chart_4-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults who think passing a security background check should be required for undocumented immigrants to stay in the U.S. legally? Please provide the answer as a percentage.\n question2: What is the proportion of U.S. adults who say undocumented immigrants should not be able to stay in the U.S. legally and consider 'It's unfair to immigrants who entered the country legally' a minor reason?\n question3: In 2019, what proportion of U.S. adults said undocumented immigrants should not be allowed to stay in the country legally? Please provide the percentage.\n question4: What is the proportion of U.S. adults aged 50 - 64 who say undocumented immigrants should not be allowed to stay in the country legally?",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults who believe passing a security background check should be required for undocumented immigrants to stay legally in the U.S. The relevant information is directly given in the chart.\n rationale2: We need to find the specific proportion value as described in the question from the chart. The relevant information is about the proportion of people with this view considering it a minor reason.\n rationale3: The question asks for the proportion of U.S. adults in 2019 who held the view that undocumented immigrants should not be allowed to stay legally. According to the chart, this proportion is 27%, so we extract this percentage.\n rationale4: We extract the corresponding proportion value for U.S. adults aged 50 - 64 from the chart as the answer.",
+                "answer": "79%; 13%; 27%; 43%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_4-5",
+                    "chart_2-6",
+                    "chart_1-15"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who say 'People shouldn't be rewarded for breaking the law' is a major reason and the proportion of those who say 'They take away resources from American citizens' is a major reason among those who think undocumented immigrants should not be able to stay in the U.S. legally?\n question2: What is the difference in the proportion of those who say undocumented immigrants should not be allowed to stay in the country legally between registered Trump - supporting voters and registered Harris - supporting voters?",
+                "rationale": "rationale1: We need to subtract the proportion of 'They take away resources from American citizens' being a major reason from the proportion of 'People shouldn't be rewarded for breaking the law' being a major reason. The data for these two are directly provided in the chart.\n rationale2: To answer this question, we need to subtract the proportion of registered Harris - supporting voters who think undocumented immigrants should not be allowed to stay legally from the proportion of registered Trump - supporting voters with the same view. This directly compares the stances of the two voter groups on this issue using the data provided in the chart.",
+                "answer": "10; 54%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-7",
+                    "chart_1-19",
+                    "chart_1-21"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who say 'People shouldn't be rewarded for breaking the law' is a major reason and the proportion of those who say 'They take away resources from American citizens' is a major reason among those who think undocumented immigrants should not be able to stay in the U.S. legally?\n question2: What is the difference in the proportion of those who say undocumented immigrants should not be allowed to stay in the country legally between registered Trump - supporting voters and registered Harris - supporting voters?\n question3: What is the average proportion of U.S. adults who say undocumented immigrants should have a way to stay in the country legally from 2019 to 2021 and in April and August 2024?",
+                "rationale": "rationale1: We need to subtract the proportion of 'They take away resources from American citizens' being a major reason from the proportion of 'People shouldn't be rewarded for breaking the law' being a major reason. The data for these two are directly provided in the chart.\n rationale2: To answer this question, we need to subtract the proportion of registered Harris - supporting voters who think undocumented immigrants should not be allowed to stay legally from the proportion of registered Trump - supporting voters with the same view. This directly compares the stances of the two voter groups on this issue using the data provided in the chart.\n rationale3: To answer this question, we need to sum up the proportions of U.S. adults who think undocumented immigrants should have a legal way to stay in the country from 2019 to 2021 and in April and August 2024, and then divide by the number of data - points. The data for these time - points are provided in the chart. We use the values from the corresponding statements in the chart to perform the calculation.",
+                "answer": "10; 54%; 68.4",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-7",
+                    "chart_1-19",
+                    "chart_1-21",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who say 'People shouldn't be rewarded for breaking the law' is a major reason and the proportion of those who say 'They take away resources from American citizens' is a major reason among those who think undocumented immigrants should not be able to stay in the U.S. legally?\n question2: What is the difference in the proportion of those who say undocumented immigrants should not be allowed to stay in the country legally between registered Trump - supporting voters and registered Harris - supporting voters?\n question3: What is the average proportion of U.S. adults who say undocumented immigrants should have a way to stay in the country legally from 2019 to 2021 and in April and August 2024?\n question4: What is the difference between the proportion of U.S. adults who think passing a security background check should be required and the proportion of those who think paying a fine should be required among those who say undocumented immigrants should be able to stay in the U.S. legally?",
+                "rationale": "rationale1: We need to subtract the proportion of 'They take away resources from American citizens' being a major reason from the proportion of 'People shouldn't be rewarded for breaking the law' being a major reason. The data for these two are directly provided in the chart.\n rationale2: To answer this question, we need to subtract the proportion of registered Harris - supporting voters who think undocumented immigrants should not be allowed to stay legally from the proportion of registered Trump - supporting voters with the same view. This directly compares the stances of the two voter groups on this issue using the data provided in the chart.\n rationale3: To answer this question, we need to sum up the proportions of U.S. adults who think undocumented immigrants should have a legal way to stay in the country from 2019 to 2021 and in April and August 2024, and then divide by the number of data - points. The data for these time - points are provided in the chart. We use the values from the corresponding statements in the chart to perform the calculation.\n rationale4: To answer this question, we need to subtract the proportion of those who think paying a fine should be required from the proportion of those who think passing a security background check should be required. The relevant data can be found in the given chart.",
+                "answer": "10; 54%; 68.4; 54%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-7",
+                    "chart_1-19",
+                    "chart_1-21",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_3-1",
+                    "chart_3-7"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of registered - voter Harris supporters who say undocumented immigrants should have a way to stay in the country legally if certain requirements are met and the proportion of U.S. adults in 2020 who say undocumented immigrants should not be allowed to stay in the country legally?",
+                "rationale": "The proportion of registered - voter Harris supporters who say undocumented immigrants should have a way to stay in the country legally if certain requirements are met is 87%. The proportion of U.S. adults in 2020 who say undocumented immigrants should not be allowed to stay in the country legally is 24%. The difference is 87% - 24% = 63%.",
+                "answer": "63%",
+                "involved_content_sources": [
+                    "chart_1-22",
+                    "chart_2-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Hispanic U.S. adults who say undocumented immigrants should have a way to stay in the country legally if certain requirements are met, the proportion of U.S. adults in 2020 who say undocumented immigrants should have a way to stay in the country legally if certain requirements are met, and the proportion of U.S. adults who say undocumented immigrants should be able to stay in the U.S. legally and think paying a fine should be considered, but not required? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Hispanic U.S. adults who say undocumented immigrants should have a way to stay in the country legally if certain requirements are met is 79%. The proportion of U.S. adults in 2020 who say undocumented immigrants should have a way to stay in the country legally if certain requirements are met is 75%. The proportion of U.S. adults who say undocumented immigrants should be able to stay in the U.S. legally and think paying a fine should be considered, but not required is 37%. The average is (79% + 75% + 37%) / 3 = 63.67% (rounded to two decimal places).",
+                "answer": "63.67%",
+                "involved_content_sources": [
+                    "chart_1-8",
+                    "chart_2-2",
+                    "chart_3-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the weighted average of the proportion of U.S. adults who think undocumented immigrants should have a way to stay legally in August 2024, considering the proportion of Hispanic U.S. adults who hold this view, the proportion of those who think passing a security background check should be required among those who support legal stay, and the proportion of those who think 'People shouldn't be rewarded for breaking the law' is a major reason among those against legal stay? Use weights of 0.2, 0.3, 0.3, and 0.2 respectively.",
+                "rationale": "The proportion of U.S. adults who think undocumented immigrants should have a way to stay legally in August 2024 is 64% (chart_2-5). The proportion of Hispanic U.S. adults who think undocumented immigrants should have a way to stay legally is 79% (chart_1-8). The proportion of those who think passing a security background check should be required among those who support legal stay is 79% (chart_3-1). The proportion of those who think 'People shouldn't be rewarded for breaking the law' is a major reason among those against legal stay is 86% (chart_4-1). The weighted average is calculated as follows: (64%\u00d70.2 + 79%\u00d70.3 + 79%\u00d70.3 + 86%\u00d70.2) = (0.64\u00d70.2 + 0.79\u00d70.3 + 0.79\u00d70.3 + 0.86\u00d70.2) = 0.128+0.237 + 0.237+0.172 = 0.774 = 77.4%.",
+                "answer": "77.4%",
+                "involved_content_sources": [
+                    "chart_1-8",
+                    "chart_2-5",
+                    "chart_3-1",
+                    "chart_4-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average proportion of U.S. adults who thought undocumented immigrants should have a way to stay legally in 2019 and 2020, and the average proportion of Black and Hispanic U.S. adults who hold the same view in August 2024?",
+                "rationale": "In 2019, the proportion of U.S. adults who thought undocumented immigrants should have a way to stay legally if certain requirements are met is 72% (chart_2-1), and in 2020 it is 75% (chart_2-2). The average of these two proportions is (72% + 75%) / 2 = 73.5%. In August 2024, the proportion of Black U.S. adults who think undocumented immigrants should have a way to stay legally is 73% (chart_1-6), and for Hispanic U.S. adults it is 79% (chart_1-8). The average of these two proportions is (73% + 79%) / 2 = 76%. Then the difference between the two averages is 76% - 73.5% = 2.5%.",
+                "answer": "2.5%",
+                "involved_content_sources": [
+                    "chart_1-6",
+                    "chart_1-8",
+                    "chart_2-1",
+                    "chart_2-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of 18 - 29 - year - old U.S. adults who think undocumented immigrants should have a way to stay legally, the proportion of U.S. adults in 2020 who thought undocumented immigrants should have a way to stay legally, and the proportion of U.S. adults who think passing a security background check should be required for undocumented immigrants to stay legally, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of 18 - 29 - year - old U.S. adults who think undocumented immigrants should have a way to stay legally is 77% (chart_1-12); the proportion of U.S. adults in 2020 who thought undocumented immigrants should have a way to stay legally is 75% (chart_2-2); the proportion of U.S. adults who think passing a security background check should be required for undocumented immigrants to stay legally is 79% (chart_3-1). The weighted average is (77%\u00d70.2 + 75%\u00d70.3 + 79%\u00d70.5) = (0.77\u00d70.2 + 0.75\u00d70.3 + 0.79\u00d70.5) = 0.154 + 0.225 + 0.395 = 0.774 = 77.4%.",
+                "answer": "77.4%",
+                "involved_content_sources": [
+                    "chart_1-11",
+                    "chart_1-12",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of registered Harris - supporting voters who think undocumented immigrants should have a way to stay legally, the difference in the proportion of U.S. adults who think undocumented immigrants should have a way to stay legally between 2020 and August 2024, the proportion of U.S. adults who think undocumented immigrants should be able to stay legally and say passing a security background check should be required, and the proportion of U.S. adults who think undocumented immigrants should not be able to stay legally and say 'People shouldn't be rewarded for breaking the law' is a major reason?",
+                "rationale": "The proportion of registered Harris - supporting voters who think undocumented immigrants should have a way to stay legally is 87% (chart_1-22). The proportion of U.S. adults who think undocumented immigrants should have a way to stay legally in 2020 is 75% (chart_2-2), and in August 2024 is 64% (chart_2-5). The difference is 75% - 64% = 11%. The proportion of U.S. adults who think undocumented immigrants should be able to stay legally and say passing a security background check should be required is 79% (chart_3-1). The proportion of U.S. adults who think undocumented immigrants should not be able to stay legally and say 'People shouldn't be rewarded for breaking the law' is a major reason is 86% (chart_4-1). The average of these four values is (87% + 11% + 79% + 86%) / 4 = 65.75%.",
+                "answer": "65.75%",
+                "involved_content_sources": [
+                    "chart_1-21",
+                    "chart_1-22",
+                    "chart_2-2",
+                    "chart_2-5",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,181 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What percentage of Americans think 'the American dream' is still possible?\n question2: What is the proportion of Black American adults surveyed who say they're on their way to achieving the American dream?",
+                "rationale": "rationale1: The question asks for the percentage of Americans who believe 'the American dream' is still possible. The relevant information is directly presented in the chart, and we just need to extract the corresponding percentage value.\n rationale2: The query is about the proportion of Black American adults on their way to achieving the American dream, and the chart provides this specific data.",
+                "answer": "53%; 48%",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_4-8"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What percentage of Americans think 'the American dream' is still possible?\n question2: What proportion of Democrat/Lean Democrat American adults surveyed think achieving the American - dream is still possible?\n question3: Among lower - income American adults surveyed, what proportion say it's out of reach for them regarding the American dream?",
+                "rationale": "rationale1: The question asks for the percentage of Americans who believe 'the American dream' is still possible. The relevant information is directly presented in the chart, and we just need to extract the corresponding percentage value.\n rationale2: We are looking for the proportion of Democrat/Lean Democrat American adults who think achieving the American - dream is still possible, which is given in the chart.\n rationale3: The question focuses on the proportion of lower - income American adults for whom the American dream is out of reach, which can be retrieved from the chart.",
+                "answer": "53%; 50%; 47%",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_2-37",
+                    "chart_4-42"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of Rep/Lean Rep among U.S. adults aged 18 - 49 who say achieving the American dream is still possible?\n question2: What proportion of 65+ - year - old American adults surveyed say they've achieved the American dream?\n question3: What proportion of American adults with a college degree or higher surveyed think achieving the American - dream is still possible?\n question4: What percentage of Americans think 'the American dream' is still possible?",
+                "rationale": "rationale1: The question requires the proportion of Rep/Lean Rep in the 18 - 49 age group of U.S. adults who think achieving the American dream is still possible. This data is directly available in the chart.\n rationale2: The question asks for the proportion of 65+ - year - old American adults who claim to have achieved the American dream. We can directly find this value from the given chart.\n rationale3: The question requires the proportion of American adults with a college degree or higher who think achieving the American - dream is still possible, and the chart gives this information.\n rationale4: The question asks for the percentage of Americans who believe 'the American dream' is still possible. The relevant information is directly presented in the chart, and we just need to extract the corresponding percentage value.",
+                "answer": "48%; 57%; 57%; 53%",
+                "involved_content_sources": [
+                    "chart_3-4",
+                    "chart_4-25",
+                    "chart_2-28",
+                    "chart_1-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of those who think achieving the American - dream is still possible between upper - income and lower - income American adults surveyed?\n question2: What is the average proportion of Dem/Lean Dem who say achieving the American dream is still possible among different age - groups and income - groups? ",
+                "rationale": "rationale1: To answer this question, we need to find the proportion of upper - income American adults who think achieving the American - dream is still possible and the proportion of lower - income American adults who think so from the chart, and then calculate the difference between the two. This involves basic subtraction operation and is based on the data presented in the chart.\n rationale2: We need to find the proportion of Dem/Lean Dem who believe the American dream is achievable in different age - groups (18 - 49, 50+) and different income - groups (lower, middle, upper). Then calculate the average of these proportions by adding them up and dividing by the number of data points.",
+                "answer": "25; 52.4",
+                "involved_content_sources": [
+                    "chart_2-40",
+                    "chart_2-46",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_3-7",
+                    "chart_3-9",
+                    "chart_3-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of those who think achieving the American - dream is still possible between upper - income and lower - income American adults surveyed?\n question2: What is the average proportion of Dem/Lean Dem who say achieving the American dream is still possible among different age - groups and income - groups? \n question3: What is the combined proportion of Americans who think 'the American dream' was once possible or is still possible? Please provide the answer as a percentage.",
+                "rationale": "rationale1: To answer this question, we need to find the proportion of upper - income American adults who think achieving the American - dream is still possible and the proportion of lower - income American adults who think so from the chart, and then calculate the difference between the two. This involves basic subtraction operation and is based on the data presented in the chart.\n rationale2: We need to find the proportion of Dem/Lean Dem who believe the American dream is achievable in different age - groups (18 - 49, 50+) and different income - groups (lower, middle, upper). Then calculate the average of these proportions by adding them up and dividing by the number of data points.\n rationale3: The question asks for the combined proportion of two groups. We need to add the proportion of Americans who think 'the American dream' was once possible (41%) and the proportion of those who think it is still possible (53%) according to the data in the chart.",
+                "answer": "25; 52.4; 94%",
+                "involved_content_sources": [
+                    "chart_2-40",
+                    "chart_2-46",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_3-7",
+                    "chart_3-9",
+                    "chart_3-11",
+                    "chart_1-2",
+                    "chart_1-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of those who think achieving the American - dream is still possible between upper - income and lower - income American adults surveyed?\n question2: What is the average proportion of Dem/Lean Dem who say achieving the American dream is still possible among different age - groups and income - groups? \n question3: What is the combined proportion of Americans who think 'the American dream' was once possible or is still possible? Please provide the answer as a percentage.\n question4: What is the difference in the proportion of achieving the American dream between upper - income American adults and lower - income American adults?",
+                "rationale": "rationale1: To answer this question, we need to find the proportion of upper - income American adults who think achieving the American - dream is still possible and the proportion of lower - income American adults who think so from the chart, and then calculate the difference between the two. This involves basic subtraction operation and is based on the data presented in the chart.\n rationale2: We need to find the proportion of Dem/Lean Dem who believe the American dream is achievable in different age - groups (18 - 49, 50+) and different income - groups (lower, middle, upper). Then calculate the average of these proportions by adding them up and dividing by the number of data points.\n rationale3: The question asks for the combined proportion of two groups. We need to add the proportion of Americans who think 'the American dream' was once possible (41%) and the proportion of those who think it is still possible (53%) according to the data in the chart.\n rationale4: To find the difference, we need to subtract the proportion of lower - income American adults who say they've achieved the American dream from the proportion of upper - income American adults who say they've achieved the American dream. The data for these two groups are provided in the chart.",
+                "answer": "25; 52.4; 94%; 35",
+                "involved_content_sources": [
+                    "chart_2-40",
+                    "chart_2-46",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_3-7",
+                    "chart_3-9",
+                    "chart_3-11",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_4-40",
+                    "chart_4-46"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of 18 - 29 - year - old American adults who think achieving the American dream is still possible and the proportion of 18 - 29 - year - old American adults who say they've achieved the American dream?",
+                "rationale": "From chart 2, the proportion of 18 - 29 - year - old American adults who think achieving the American dream is still possible is 39%. From chart 4, the proportion of 18 - 29 - year - old American adults who say they've achieved the American dream is 9%. The difference is 39% - 9% = 30%.",
+                "answer": "30%",
+                "involved_content_sources": [
+                    "chart_2-16",
+                    "chart_4-16"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of all American adults who think the American dream is still possible, the proportion of upper - income Rep/Lean Rep who say achieving the American dream is still possible, and the proportion of 65+ - year - old American adults who say they've achieved the American dream? (Round the result to two decimal places.)",
+                "rationale": "The proportion of all American adults who think the American dream is still possible is 53%. The proportion of upper - income Rep/Lean Rep who say achieving the American dream is still possible is 67%. The proportion of 65+ - year - old American adults who say they've achieved the American dream is 57%. The average is (53% + 67% + 57%) / 3 = 59% (rounded to two decimal places).",
+                "answer": "59%",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_3-12",
+                    "chart_4-25"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "Calculate the ratio between (a) the sum of the overall proportion who think the American dream is still possible (chart_ 1) and those who've achieved it (chart_ 4), and (b) the product of the Republican vs Democrat gap in belief it's still possible (chart_ 3) and the age-group difference in those saying it's out of reach (chart_ 2).",
+                "rationale": "From chart_1-3, 53% think it's still possible. From chart_4-1, 31% say they've achieved it (sum = 84%). From chart_3-1 and chart_3-2, the Republican-Democrat gap is 56% - 50% = 6%. From chart_2-18 and chart_2-27, the age difference in 'out of reach' is 36% (18-29) - 2% (65+) = 34%. The product is 6% * 34% = 2.04%. The ratio is 84% / 2.04% = 41.18.",
+                "answer": "41.18",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_4-1",
+                    "chart_3-2",
+                    "chart_2-18"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of 18 - 29 - year - old American adults who think the American dream was once possible and who think it was never possible, and the average of the proportions of 18 - 29 - year - old American adults who say they've achieved the American dream and who say it's out of reach for them?",
+                "rationale": "Among American adults aged 18 - 29 surveyed, the proportion of those who think the American dream was once possible is 51% (chart_2-17), and the proportion of those who think it was never possible is 9% (chart_2-18). The sum of these two proportions is 51% + 9% = 60%. Among 18 - 29 - year - old American adults surveyed, the proportion of those who say they've achieved the American dream is 9% (chart_4-16), and the proportion of those who say it's out of reach for them regarding the American dream is 36% (chart_4-18). The average of these two proportions is (9% + 36%) / 2 = 22.5%. Then the difference between the two is 60% - 22.5% = 37.5%.",
+                "answer": "37.5%",
+                "involved_content_sources": [
+                    "chart_2-17",
+                    "chart_2-18",
+                    "chart_4-16",
+                    "chart_4-18"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of Asian (English - speaking only) American adults who think the American dream is still possible, the proportion of 18 - 29 - year - old American adults who say they're on their way to achieving the American dream, and the proportion of lower - income U.S. adults, Rep/Lean Rep who say achieving the American dream is still possible, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of Asian (English - speaking only) American adults who think the American dream is still possible is 50% (chart_2-13); another related piece from the same chart is that the proportion of Asian (English - speaking only) American adults who think the American dream was once possible is 42% (chart_2-14). The proportion of 18 - 29 - year - old American adults who say they're on their way to achieving the American dream is 54% (chart_4-17); another related piece from the same chart is that the proportion of 18 - 29 - year - old American adults who say they've achieved the American dream is 9% (chart_4-16). The proportion of lower - income U.S. adults, Rep/Lean Rep who say achieving the American dream is still possible is 42% (chart_3-8); another related piece from the same chart is that the proportion of lower - income U.S. adults, Dem/Lean Dem who say achieving the American dream is still possible is 39% (chart_3-7). The weighted average is (50%\u00d70.2 + 54%\u00d70.3 + 42%\u00d70.5) = (0.5\u00d70.2 + 0.54\u00d70.3 + 0.42\u00d70.5) = 0.1 + 0.162 + 0.21 = 0.472 = 47.2%.",
+                "answer": "47.2%",
+                "involved_content_sources": [
+                    "chart_2-13",
+                    "chart_2-14",
+                    "chart_4-16",
+                    "chart_4-17",
+                    "chart_3-7",
+                    "chart_3-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who think the American dream is still possible among all adults, the proportion of Asian (English - speaking only) American adults who think the American dream was once possible, the proportion of Rep/Lean Rep U.S. adults aged 50+ who say achieving the American dream is still possible, and the proportion of 65+ - year - old American adults who say they've achieved the American dream?",
+                "rationale": "From Chart 1, the proportion of Americans who think the American dream is still possible among all adults is 53% (chart_1-3). From Chart 2, the proportion of Asian (English - speaking only) American adults who think the American dream was once possible is 42% (chart_2-15). From Chart 3, the proportion of Rep/Lean Rep U.S. adults aged 50+ who say achieving the American dream is still possible is 64% (chart_3-6). From Chart 4, the proportion of 65+ - year - old American adults who say they've achieved the American dream is 57% (chart_4-25). The average of these four values is (53% + 42% + 64% + 57%) / 4 = 54%.",
+                "answer": "54%",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_2-14",
+                    "chart_2-15",
+                    "chart_3-6",
+                    "chart_3-13",
+                    "chart_4-25",
+                    "chart_4-26"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

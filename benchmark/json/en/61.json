@@ -1,0 +1,206 @@
+{
+  "chart": [
+    "chart_61_1",
+    "chart_61_2",
+    "chart_61_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Does the change trend of the month - on - month growth rate in 'mUserTracker - Monthly Independent Devices in China Mobile Internet from 2024.1 to 2025.3' from 2024.1 to 2025.3 match the change trend of the single - machine daily effective time from January to March 2024 in 'mUserTracker-2023-2025Q1 Single - machine Daily Effective Time'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The month - on - month growth rate in chart_61_1 fluctuates significantly, while the single - machine daily effective time in chart_61_2 shows a continuous increase from January to March 2024.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is there a positive correlation between the monthly independent device numbers in 'mUserTracker - Monthly Independent Devices in China Mobile Internet from 2024.1 to 2025.3' and the single - machine daily effective time from 2024.1 to 2024.3 in 'mUserTracker-2023-2025Q1 Single - machine Daily Effective Time'? Answer positive correlation, negative correlation or no correlation.",
+      "answer": "Positive correlation",
+      "explanation": "Both show an increasing trend.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the month and year with the highest number of single - device daily usage times in 'mUserTracker-2023-2025Q1 Single - device daily usage times' match the month and year with the longest single - machine daily effective time in 'mUserTracker-2023-2025Q1 Single - machine Daily Effective Time'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The highest value in chart_61_2 occurs in March 2023, while the highest value in chart_61_3 occurs in January 2025.",
+      "charts_involved": [
+        "chart_61_2",
+        "chart_61_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In March 2025, what is the average single - device daily usage time per use? Unit: minutes/use, rounded to 2 decimal places. Answer: xx.xx minutes/use",
+      "answer": "4.23 minutes/use",
+      "explanation": "The single - device daily effective time in March 2025 is 268.0 minutes ÷ The single - device daily usage times is 63.4 times = 4.227 minutes/use, rounded to 2 decimal places is 4.23.",
+      "charts_involved": [
+        "chart_61_2",
+        "chart_61_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "From January to March 2025, what is the ratio of the growth rate of the single - device daily effective time in the mobile Internet to the growth rate of the monthly independent devices? Rounded to 2 decimal places. Answer: xx.xx",
+      "answer": "13.43",
+      "explanation": "The monthly independent devices increased from 1.438 billion to 1.439 billion, and the growth rate = (1.439 - 1.438)/1.438×100 = 0.07%; the single - device daily effective time increased from 265.5 minutes to 268.0 minutes, and the growth rate = (268.0 - 265.5)/265.5×100 = 0.94%; 0.94%÷0.07% = 13.43.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Compared with March 2024, what is the ratio of the increase in the number of monthly independent devices (in billions) to the change in the single - device daily usage times in March 2025? Rounded to 2 decimal places. Answer: xx.xx",
+      "answer": "2.70",
+      "explanation": "The number of monthly independent devices increased from 1.412 billion to 1.439 billion, and the increase = 0.027 billion; the single - device daily usage times increased from 63.3 times to 63.4 times, and the change = 0.1 times; 0.027÷0.1 = 2.70.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the overall change trend of the number of independent devices in the mobile Internet and the long - term evolution of the single - device daily effective time in the chart, which options best explain the potential changes in user behavior?",
+      "answer": {
+        "A": "When the peak of the month - on - month growth rate of devices (1.01%) occurred in 2024, the single - device effective time also reached the highest value.",
+        "B": "The fluctuations in the device growth rate may be associated with the amplitude of the decrease in effective time during specific periods (such as the beginning of the year), but the overall trends are opposite.",
+        "C": "The continuous increase in the total number of devices, while the daily usage time per device decreases year by year, may reflect that the user base is expanding but the individual usage depth is weakening.",
+        "D": "The growth of devices is mainly driven by enterprise purchases, but the daily usage time of individual users has increased synchronously.",
+        "E": "Users' dependence on the mobile Internet has decreased, resulting in a decline in the total number of devices and an increase in effective time.",
+        "F": "The long - term trend shows a high positive correlation between the number of devices and the effective time. The expansion of the user base directly strengthens the usage depth.",
+        "G": "Although the number of devices has increased, the effective time has steadily decreased when compared in the same months, indicating that users' usage habits are becoming more fragmented."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In January 2025, the chart data shows that the change directions of the number of independent devices, the single - device daily effective time, and the number of usages are in conflict. Which options can best explain this inconsistency?",
+      "answer": {
+        "A": "Users' preferences have shifted towards long - term immersive usage, so the effective time has increased significantly.",
+        "B": "The influx of new users has led to a decrease in the number of usages, but the effective time of existing users has increased.",
+        "C": "The growth of devices is due to festival promotions, but users' daily usage time has increased due to network optimization.",
+        "D": "The growth of devices may introduce new user groups, but the combination of a decrease in effective time and an increase in the number of usages indicates that the behavior efficiency of existing users has improved.",
+        "E": "The combination of an increase in the number of usages (69.7 times) and a decrease in effective time (265.5 minutes) indicates that the single - use time remains unchanged.",
+        "F": "The increase in the number of usages fails to offset the decrease in effective time, which may be due to application design optimization or users' scattered attention.",
+        "G": "Although the number of devices has increased slightly, the number of usages has increased significantly, but the effective time has decreased, suggesting that users have more frequent but shorter usage sessions."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Observing the data from January to March each year in the chart, which options describe the common change patterns of the number of independent devices, the single - device daily effective time, and the number of usages in this quarter?",
+      "answer": {
+        "A": "The device growth rate and the change rate of the number of usages are highly consistent from January to March, indicating that users' behaviors are synchronized.",
+        "B": "In March each year, when the number of devices reaches the quarterly peak, the effective time drops to the lowest point synchronously.",
+        "C": "The growth of the number of devices is accompanied by a steady increase in the number of usages, reflecting the continuous enhancement of user stickiness.",
+        "D": "In the same month (such as March), the increase in the number of devices is accompanied by a decrease in effective time, but the number of usages changes little, indicating a weakening of usage intensity.",
+        "E": "The number of devices generally shows an increasing trend from January to March each year, but the single - device effective time decreases year by year, while the number of usages remains relatively stable or fluctuates slightly.",
+        "F": "January - March is the annual peak season, and the number of devices, effective time, and the number of usages all show an increasing trend year by year.",
+        "G": "The number of usages increased abnormally at the beginning of 2025, but the effective time continued to decrease. This has nothing to do with the growth of devices and may reflect a change in users' habits."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the changing trends of mobile Internet user behavior, how should the company adjust its application design and content push strategies to improve user engagement and retention rates?",
+      "answer": {
+        "A": "Strengthen the frequency and accuracy of personalized content push: The increase in users' usage frequency but the decrease in the average duration reflects that users pay more attention to efficiency. Combining with the steady growth of the total number of devices, increasing the push frequency during peak usage periods (such as the beginning of the year) can more effectively capture users' attention and improve engagement.",
+        "B": "Optimize the application interface to support shorter interaction sessions: Since the average user usage duration shows a downward trend, but the usage frequency has increased, it indicates that users prefer fragmented access. By simplifying the operation process and reducing the loading time, the user experience can be improved in shorter sessions, thereby increasing the retention rate.",
+        "C": "Increase the push frequency in months when the month - on - month growth rate of devices is negative (such as - 0.63% in April 2024), and try to retain lost users through intensive exposure.",
+        "D": "Prioritize the launch of new features in months when user growth is rapid: The month - on - month growth rate of the total number of devices fluctuates greatly. In months with a high growth rate, the user base expands significantly. Launching innovative features (such as shortcut tools) at this time can take advantage of the bonus of new users and, combined with the increasing trend of usage frequency, maximize user stickiness.",
+        "E": "Since the single - device daily effective time has been continuously decreasing (such as from 300.6 minutes in March 2023 to 268.0 minutes in March 2025), more immersive long - form content (such as video streams) should be developed to extend users' session time and offset the downward trend of duration.",
+        "F": "Expand the scope of application functions to attract a wider user group, thereby increasing market share.",
+        "G": "Enhance data security measures to build user trust and indirectly improve the retention rate."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Given the slowdown in the growth of the mobile Internet market and the evolution of user habits, how should the company allocate marketing and R & D resources to achieve a balance between user scale and revenue?",
+      "answer": {
+        "A": "Tilt R & D resources towards tools that improve usage efficiency: The continuous decrease in users' average usage duration but the increase in usage frequency indicate that users pay more attention to efficient interaction. Developing lightweight functions (such as one - click operations) can reduce the friction of users' time investment, thereby improving satisfaction and retention rates and coping with the challenge of the slowdown in device growth.",
+        "B": "Allocate resources evenly to all departments to ensure business stability and risk diversification.",
+        "C": "Improve employee training to enhance team efficiency and support long - term growth.",
+        "D": "Given that the single - device daily usage times increased significantly in 2025 (such as 69.7 in January 2025 vs. 67.2 in January 2024), R & D resources should be prioritized for in - depth content expansion (such as long - form articles) rather than efficiency tools.",
+        "E": "Focus on user feedback and optimization during months of weak growth: The month - on - month growth rate of devices is negative in some months. Combining with the downward trend of usage duration, the risk of user loss is relatively high during these periods. At this time, customer acquisition expenditure should be reduced, and instead, research and experience optimization should be carried out on existing users to reserve potential for the subsequent growth period.",
+        "F": "Increase customer acquisition marketing investment during the peak period of device growth: The month - on - month growth rate of the total number of devices fluctuates, and the growth is significant in some months. Combining with the increasing trend of usage frequency, concentrating resources (such as advertising) during these peak periods can acquire users at a low cost and improve the conversion rate by taking advantage of high - frequency usage behavior.",
+        "G": "Reduce marketing expenditure in months when the month - on - month growth rate of devices is positive (such as 1.01% in March 2024), because the natural growth of users is sufficient, and instead, use the funds for revenue optimization."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "How should service updates and content releases be planned to maximize quarterly user engagement in response to the seasonal characteristics of mobile Internet user behavior?",
+      "answer": {
+        "A": "Introduce a user feedback system to continuously collect suggestions throughout the year to guide updates.",
+        "B": "Release high - complexity functions in the quarter with the lowest single - device daily effective time (such as an average of 267.1 minutes in Q1 2025), and take advantage of the low - attention period of users to seize market share.",
+        "C": "Prioritize the enhancement of interactive content in months when users' usage frequency rebounds: The usage frequency shows an upward trend in specific quarters (such as the beginning of 2025), while the device growth stabilizes. At this time, adding gamification or social interaction elements can take advantage of high - frequency behavior to improve the depth of engagement and compensate for the decline in time efficiency.",
+        "D": "When the year - on - year decrease in the number of usages occurs (such as 63.3 in March 2024 vs. 62.9 in March 2023), reduce the content update frequency to avoid user fatigue and focus on maintaining existing services.",
+        "E": "Test lightweight functions in the middle of the year or during periods of stagnant growth: The month - on - month growth rate of devices declines in some months. Combining with the continuous downward trend of the average usage duration, users' tolerance is lower during these periods. Launching small - scale optimizations (such as interface fine - tuning) can collect feedback without disturbing users and prepare for the year - end peak.",
+        "F": "Concentrate on releasing major updates at the beginning of the year (the first quarter): Users' usage frequency is relatively high at the beginning of the year, and the total number of devices maintains an increasing trend during the same period. Although the average usage duration decreases, high - frequency access provides more touch opportunities, and updates can more effectively attract users and improve quarterly activity.",
+        "G": "Adjust the release time according to global market trends to ensure synchronization with international events."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

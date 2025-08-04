@@ -1,0 +1,198 @@
+{
+  "chart": [
+    "chart_5_1",
+    "chart_5_2",
+    "chart_5_3",
+    "chart_5_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La tendencia de la atención de búsqueda de la leche en polvo para mujeres embarazadas entre el 1 de febrero y el 11 de febrero en 'Tendencia de atención de búsqueda de la industria de la leche en polvo en febrero' y 'Tendencias de atención de búsqueda por categoría en febrero' es la misma? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas aumentan primero, luego disminuyen y luego aumentan.",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de la proporción de atención en ciudades de segundo, tercer y cuarto nivel en 'Proporción de atención de la industria de la leche en polvo por nivel de ciudad en febrero' es la misma que la tendencia de la atención de búsqueda entre el 19 de febrero y el 23 de febrero en 'Tendencia de atención de búsqueda de la industria de la leche en polvo en febrero'? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas aumentan primero y luego disminuyen.",
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_2",
+        "chart_5_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de la atención de búsqueda de la leche en polvo para niños entre el 1 de febrero y el 11 de febrero en 'Tendencia de atención de búsqueda de la industria de la leche en polvo en febrero' y 'Tendencias de atención de búsqueda por categoría en febrero' es la misma? Responda sí o no.",
+      "answer": "No",
+      "explanation": "La tendencia de la atención de búsqueda de la industria de la leche en polvo en febrero entre el 1 de febrero y el 11 de febrero aumenta primero, luego disminuye y luego aumenta; mientras que la atención de búsqueda de la leche en polvo para niños se mantiene estable con un ligero aumento.",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que la distribución de dispositivos de búsqueda de la atención de cada nivel de ciudad es uniforme, ¿cuál es la proporción de atención aportada por el ordenador en las ciudades de primer nivel en la 'Tendencia de atención de búsqueda de la industria de la leche en polvo en febrero'? Responda en porcentaje y redondee el resultado a 2 decimales.",
+      "answer": "2.72%",
+      "explanation": "33% * 8.24% = 2.719%",
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que la distribución de dispositivos de búsqueda de la atención de cada categoría de la industria de la leche en polvo es la misma, ¿cuál es la atención de búsqueda en el móvil de la categoría que aporta la mayor atención de búsqueda a la industria de la leche en polvo en febrero el 19 de febrero? Expresar el resultado con separador de miles, por ejemplo: xxx,xxx",
+      "answer": "22,915",
+      "explanation": "La categoría que aporta la mayor atención de búsqueda el 19 de febrero es la leche en polvo para mujeres embarazadas. La atención de búsqueda de la leche en polvo para mujeres embarazadas el 19 de febrero es 25000, y la proporción de búsquedas desde el móvil es del 91.66%. 25000 * 91.66% = 22,915",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "A excepción de la categoría que aporta la mayor atención de búsqueda a la industria de la leche en polvo en febrero, ¿cuál es la suma de la atención de búsqueda aportada por otras categorías el 7 de febrero? Responda con un número entero.",
+      "answer": "8000",
+      "explanation": "La categoría que aporta la mayor atención de búsqueda es la leche en polvo para mujeres embarazadas, que aportó 30000 el 7 de febrero. La atención total de búsqueda el 7 de febrero es 38000. Por lo tanto, la suma de la atención de búsqueda aportada por otras categorías el 7 de febrero es 38000 - 30000 = 8000",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según la distribución de dispositivos de búsqueda en la industria de la leche en polvo y la tendencia de atención de búsqueda de toda la industria, ¿cómo afecta la posición dominante de los dispositivos móviles a los cambios de los picos de la cantidad de búsquedas en febrero?",
+      "answer": {
+        "A": "La proporción del equipo de cómputo supera el 50%, lo que hace que la tendencia de búsqueda se mantenga estable durante los días laborables y no sea necesario considerar el impacto de los dispositivos móviles.",
+        "B": "Una proporción baja de búsquedas desde dispositivos móviles (por ejemplo, menos del 30%) causaría una fuerte caída de la cantidad de búsquedas a finales del mes, lo que va en contra de los conocimientos generales de la industria, ya que los dispositivos móviles suelen aumentar la actividad de los usuarios.",
+        "C": "El pico de atención de búsqueda de 560000 el 21 de febrero se produjo en la fecha con la proporción más baja de búsquedas desde dispositivos móviles, lo que indica que el equipo de cómputo impulsó el pico.",
+        "D": "La proporción de búsquedas desde dispositivos móviles es extremadamente alta, y la atención de búsqueda de toda la industria presenta múltiples picos a mediados y finales del mes, lo que indica que los períodos de actividad de los usuarios móviles impulsaron el aumento de la cantidad total de búsquedas.",
+        "E": "La distribución de dispositivos es estable, pero la tendencia de atención de búsqueda muestra que la cantidad de búsquedas es mayor por las noches de los días laborables. Es necesario explicar el fenómeno de la concentración de picos en combinación con la conveniencia de los dispositivos móviles.",
+        "F": "La proporción del equipo de cómputo es extremadamente baja, pero la atención de búsqueda de toda la industria es relativamente estable en algunas fechas (por ejemplo, al principio del mes), lo que sugiere que la intensidad de uso de los dispositivos móviles puede haber ampliado las fluctuaciones de la tendencia.",
+        "G": "La tendencia de búsqueda muestra que la atención de 150000 el 1 de febrero fue el pico más alto del mes, y la alta proporción de dispositivos móviles no impulsó el crecimiento posterior."
+      },
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_2"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "La proporción de atención por nivel de ciudad muestra que las ciudades de primer nivel son dominantes, pero en la tendencia de búsqueda por categoría, la atención de algunas categorías aumenta repentinamente en ciudades que no son de primer nivel. ¿Qué opciones pueden explicar este conflicto de datos?",
+      "answer": {
+        "A": "La atención de 40000 del 25 de febrero de la leche en polvo para mujeres embarazadas coincide directamente con la proporción del 22% de las ciudades de tercer nivel, lo que demuestra que la proporción del 33% de las ciudades de primer nivel no es válida.",
+        "B": "La proporción de atención de las ciudades de primer nivel es solo del 15%, lo que hace que la leche en polvo para niños aumente repentinamente a 4000 el 19 de febrero, lo que coincide con el conocimiento general de que la demanda en ciudades de bajo nivel aumenta bruscamente.",
+        "C": "La proporción de atención por nivel de ciudad presenta valores repetidos, lo que puede indicar que la forma de agregar los datos oculta las diferencias entre categorías. Es necesario analizar la contradicción real de la distribución por ciudad en combinación con la tendencia por categoría.",
+        "D": "La atención de la leche en polvo para mujeres embarazadas es alta en general y fluctúa violentamente, mientras que los datos de la proporción por ciudad no se dividen por categoría, lo que hace que la alta proporción de las ciudades de primer nivel no pueda explicar la repentina caída de la leche en polvo para mujeres embarazadas a finales del mes.",
+        "E": "Las actividades de promoción no tienen impacto en la cantidad de búsquedas, por lo que el aumento repentino de las categorías no está relacionado con el nivel de la ciudad y solo depende de la estrategia de la marca.",
+        "F": "La proporción de atención de las ciudades de cuarto nivel es la más alta (por ejemplo, más del 30%), lo que explica el pico de 2900 de la cantidad de búsquedas de la leche en polvo para estudiantes el 19 de febrero.",
+        "G": "La proporción de atención de las ciudades de primer nivel es la más alta, pero la cantidad de búsquedas de la leche en polvo para niños aumenta anormalmente en una fecha específica (por ejemplo, a mediados del mes), lo que puede deberse a un evento en ciudades de tercer o cuarto nivel (por ejemplo, una promoción). Es necesario inferir el impacto de la demanda repentina en ciudades de bajo nivel en combinación con los datos de la proporción por ciudad."
+      },
+      "charts_involved": [
+        "chart_5_3",
+        "chart_5_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combinando la distribución de dispositivos de búsqueda y la tendencia de búsqueda por categoría, ¿qué categorías de comportamiento de usuario son más propensas a tener una relación implícita con el nivel de la ciudad o la preferencia de dispositivos?",
+      "answer": {
+        "A": "La tendencia de la leche en polvo para bebés es relativamente estable, y la proporción del equipo de cómputo es baja, lo que puede reflejar que los padres en ciudades de bajo nivel prefieren los dispositivos móviles, lo que forma una relación potencial con la distribución de atención por ciudad.",
+        "B": "La cantidad de búsquedas de la leche en polvo para estudiantes es la más alta (por ejemplo, más de 10000 por día en promedio), y la proporción de dispositivos móviles es baja, lo que indica que los usuarios en ciudades de bajo nivel prefieren el equipo de cómputo.",
+        "C": "La distribución de dispositivos no tiene un impacto diferente en todas las categorías, y el comportamiento de los usuarios solo está determinado por las características del producto y no está relacionado con el nivel de la ciudad.",
+        "D": "La cantidad de búsquedas de la leche en polvo para estudiantes es baja y estable, y la proporción de atención de las ciudades de cuarto nivel no es alta, lo que indica que esta categoría puede verse afectada tanto por el nivel de la ciudad como por el uso de dispositivos. Es necesario comparar las fechas de pico para analizarlo.",
+        "E": "La tendencia de la leche en polvo para bebés es estable (por ejemplo, de 2000 el 1 de febrero a 2000 el 27 de febrero), y la proporción del equipo de cómputo es más del 50%, lo que demuestra que los usuarios en ciudades de alto nivel dependen de los dispositivos tradicionales.",
+        "F": "La atención de la leche en polvo para mujeres embarazadas es la más alta y fluctúa violentamente, y la proporción de dispositivos móviles es extremadamente alta, lo que sugiere que el grupo de madres y bebés puede estar concentrado en ciudades de primer nivel pero dependa en gran medida de las búsquedas móviles. Es necesario verificarlo en combinación con los datos de la ciudad.",
+        "G": "La leche en polvo para mujeres embarazadas fluctúa violentamente (por ejemplo, 40000 el 25 de febrero), y la proporción de dispositivos móviles es del 91.66%, pero la proporción de las ciudades de tercer nivel es la más alta, del 22%, lo que explica directamente su fluctuación."
+      },
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_3",
+        "chart_5_4"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en el comportamiento de búsqueda de los consumidores y la tendencia general de búsqueda, ¿cómo se debe optimizar la asignación de recursos de los canales de marketing digital en la industria de la leche en polvo para maximizar la exposición en línea y la participación de los usuarios? Elija la sugerencia de estrategia más efectiva.",
+      "answer": {
+        "A": "Incrementar la inversión publicitaria en las fechas en las que la atención general de búsqueda se mantenga en niveles bajos (por ejemplo, el 27 de febrero) para captar la atención de los usuarios aprovechando la menor competencia.",
+        "B": "Optimizar el diseño visual del sitio web y la aplicación para garantizar una experiencia fluida para los usuarios en todos los dispositivos y así atraer y retener a más visitantes.",
+        "C": "Incrementar el presupuesto general de publicidad digital para aumentar el reconocimiento y la influencia de la marca en la mente de los consumidores, lo que a su vez aumentará indirectamente la participación de los usuarios.",
+        "D": "Asignar los principales recursos de marketing a la publicidad en dispositivos de escritorio, ya que los usuarios de computadoras son más propensos a consumir contenido en profundidad y realizar conversiones de alta calidad, aunque la proporción de búsquedas desde dispositivos móviles sea alta.",
+        "E": "Asignar el presupuesto principal de marketing a la publicidad y optimización en dispositivos móviles, ya que la proporción de búsquedas desde dispositivos móviles es extremadamente alta y la tendencia general de búsqueda alcanza su pico en fechas específicas, lo que indica que los dispositivos móviles pueden capturar el tráfico de usuarios de manera más efectiva durante las horas pico.",
+        "F": "Incrementar la intensidad de la publicidad durante el período de aumento de la atención de búsqueda (por ejemplo, a mediados de febrero), aprovechando la fase de crecimiento del interés de los consumidores y asegurándose de que el contenido de la publicidad esté diseñado para dispositivos móviles para adaptarse a la tendencia dominante de los hábitos de búsqueda."
+      },
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_2"
+      ],
+      "label": [
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combinando la distribución de la atención por nivel de ciudad y la tendencia general de búsqueda, ¿cómo se debe ajustar la asignación de recursos de marketing regional en la industria de la leche en polvo para mejorar la penetración en el mercado y una cobertura equitativa? Elija la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Enfatizar la responsabilidad social y la equidad en la estrategia de marketing y distribuir equitativamente los recursos a través de actividades benéficas en todos los niveles de ciudad para reflejar la inclusividad de la marca y mejorar su reputación general.",
+        "B": "Reducir la inversión publicitaria regional cuando la atención general de búsqueda alcance su pico (por ejemplo, el 21 de febrero) para evitar la sobrecompetencia y el desperdicio de presupuesto, y en cambio, aumentar los recursos durante los períodos estables para mantener la cobertura.",
+        "C": "Fortalecer la asignación de recursos en las ciudades de tercer nivel, ya que su proporción de atención es relativamente alta y la tendencia general de búsqueda presenta fluctuaciones, lo que indica un potencial de demanda. Se pueden aprovechar oportunidades de crecimiento a través de actividades específicas.",
+        "D": "Incrementar principalmente la asignación de recursos en las ciudades de segundo nivel, ya que aunque su proporción de atención (17%) es menor que la de las ciudades de primer nivel (33%), la tendencia general de búsqueda muestra fluctuaciones estables, lo que indica que su potencial de demanda está subestimado.",
+        "E": "Priorizar el aumento de la inversión de marketing en las ciudades de primer nivel, ya que su proporción de atención es la más alta y la tendencia general de búsqueda muestra un nivel de atención continuamente alto, lo que puede aumentar eficazmente la influencia de la marca.",
+        "F": "Priorizar el desarrollo de mercados en áreas rurales o remotas, ya que estas regiones pueden ser ignoradas y presentan un potencial de crecimiento sin explotar, lo que puede mejorar significativamente la cobertura equitativa."
+      },
+      "charts_involved": [
+        "chart_5_3",
+        "chart_5_2"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la tendencia de atención de búsqueda por categoría y la dinámica general de la industria, ¿cómo se debe optimizar la asignación de recursos de marketing de la línea de productos de leche en polvo para equilibrar las oportunidades a corto plazo y el crecimiento a largo plazo? Elija la sugerencia de estrategia más efectiva.",
+      "answer": {
+        "A": "Diseñar promociones o actividades a corto plazo en respuesta a los picos anómalos de búsqueda de la leche en polvo para niños en fechas específicas, capturando el aumento temporal de la demanda y monitoreando la tendencia general para optimizar el momento.",
+        "B": "Invertir principalmente en actividades de marketing de la leche en polvo para mujeres embarazadas, ya que su volumen de búsqueda es significativamente mayor que el de otras categorías y la tendencia general de búsqueda se destaca en días pico como el 21 de febrero, lo que indica una alta demanda de los consumidores y puede impulsar el aumento de las ventas.",
+        "C": "Implementar actividades de marketing uniformes para todas las categorías de leche en polvo, enfatizando el valor nutricional y la confianza en la marca para impulsar de manera equilibrada el crecimiento sostenible de toda la línea de productos.",
+        "D": "Asignar prioridad a la leche en polvo para estudiantes en la asignación de recursos, ya que su tendencia de búsqueda (por ejemplo, la fluctuación es pequeña del 1 al 27 de febrero según el gráfico chart_5_4) indica una demanda estable, adecuada para el crecimiento a largo plazo, y ignorar los picos de la leche en polvo para mujeres embarazadas.",
+        "E": "Incrementar las promociones a corto plazo de la leche en polvo para bebés en el día de inicio de la atención de búsqueda (por ejemplo, el 1 de febrero), ya que la atención en ese día (2000) representa el inicio de la demanda y puede capturar el interés temprano de los usuarios.",
+        "F": "Reducir el presupuesto de las categorías con bajo volumen de búsqueda y concentrar los recursos en áreas de alto potencial, como el desarrollo de nuevos productos o la investigación de mercado, para impulsar la innovación a largo plazo."
+      },
+      "charts_involved": [
+        "chart_5_4",
+        "chart_5_2"
+      ],
+      "label": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

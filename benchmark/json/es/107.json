@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_107_1",
+    "chart_107_2",
+    "chart_107_3",
+    "chart_107_4",
+    "chart_107_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio de los valores de porcentaje entre 'Los cinco principales factores que los usuarios chinos consideran al elegir un operador de comunicaciones en 2025 (Políticas de tráfico de datos → Servicios adicionales → Señal/velocidad de red → Cobertura de red → Tipos y cantidades de paquetes disponibles)' y 'Las cinco principales deficiencias de los operadores de comunicaciones actuales percibidas por los usuarios chinos en 2025 (Bajo costo - rendimiento del paquete → Llamadas de ventas excesivas → Servicio posventa deficiente → Baja velocidad de red y limitación de ancho de banda → Procedimientos comerciales complicados)' es la misma? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Los porcentajes de las dos secuencias disminuyen sucesivamente con el ranking, y la tendencia es la misma.",
+      "charts_involved": [
+        "chart_107_2",
+        "chart_107_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Compare las proporciones de los siete principales canales a través de los cuales los usuarios chinos se enteran de la 5G en 2025 (Actividades de promoción de operadores de telecomunicaciones → Plataformas de redes sociales → Notificaciones push de aplicaciones móviles → Programas de televisión/radio → Plataformas de vídeos cortos → Informes/análisis de investigación de la industria → Plataformas de compartición de contenido) con las proporciones de los siete principales campos de aplicación de la 5G esperados por los usuarios chinos en 2025 (Terminales Inteligentes 5G → Medios de Comunicación 5G → Conducción Autónoma → Hogar Inteligente → Telemedicina → Educación → Realidad Virtual). ¿Estos dos conjuntos de datos están positivamente correlacionados? Responda 'positivamente correlacionados', 'negativamente correlacionados' o 'no correlacionados'.",
+      "answer": "Positivamente correlacionados",
+      "explanation": "Ambos conjuntos de valores disminuyen monotonamente según el ranking, y la dirección es la misma, lo que indica una correlación positiva.",
+      "charts_involved": [
+        "chart_107_4",
+        "chart_107_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿El operador de comunicaciones más utilizado por los usuarios chinos en 2025, China Mobile, corresponde al factor más importante que los usuarios chinos consideran al elegir un operador de comunicaciones en 2025, que es 'Políticas de tráfico de datos (Transferencia de datos no utilizados, transferencia de datos, etc.)'? Responda sí o no.",
+      "answer": "No",
+      "explanation": "China Mobile es el operador con la mayor cuota de uso, mientras que el factor de consideración con la mayor proporción es 'Políticas de tráfico de datos'. Estos dos elementos pertenecen a categorías diferentes, por lo que no corresponden.",
+      "charts_involved": [
+        "chart_107_1",
+        "chart_107_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que las distribuciones son independientes, ¿cuál es la proporción de usuarios que tanto utilizan China Mobile como consideran la señal y la velocidad de red al elegir un operador de comunicaciones en 2025? Expresar el resultado en porcentaje con 2 decimales. Respuesta: xx.xx%",
+      "answer": "19.30%",
+      "explanation": "La proporción de usuarios que utilizan China Mobile es del 59.10% × la proporción de usuarios que consideran la señal y la velocidad de red al elegir un operador es del 32.66% = 0.5910 × 0.3266 = 0.1930206. Redondeando a 2 decimales, se obtiene 19.30%.",
+      "charts_involved": [
+        "chart_107_1",
+        "chart_107_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que las distribuciones son independientes, ¿cuál es la proporción de usuarios que tanto utilizan China Telecom como consideran que la baja velocidad de red y la limitación de ancho de banda son deficiencias de los operadores de comunicaciones actuales en 2025? Expresar el resultado en porcentaje con 2 decimales. Respuesta: xx.xx%",
+      "answer": "11.20%",
+      "explanation": "La proporción de usuarios que utilizan China Telecom es del 35.33% × la proporción de usuarios que consideran que la baja velocidad de red y la limitación de ancho de banda son deficiencias de los operadores actuales es del 31.69% = 0.3533 × 0.3169 = 0.11196077. Redondeando a 2 decimales, se obtiene 11.20%.",
+      "charts_involved": [
+        "chart_107_1",
+        "chart_107_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que las distribuciones son independientes, ¿cuál es la proporción de usuarios que tanto se enteraron de la 5G a través de las actividades de promoción de los operadores de telecomunicaciones como esperan la aplicación de la 5G en el campo de la conducción autónoma en 2025? Expresar el resultado en porcentaje con 2 decimales. Respuesta: xx.xx%",
+      "answer": "13.08%",
+      "explanation": "La proporción de usuarios que se enteraron de la 5G a través de las actividades de promoción de los operadores de telecomunicaciones es del 34.69% × la proporción de usuarios que esperan la aplicación de la 5G en el campo de la conducción autónoma es del 37.71% = 0.3469 × 0.3771 = 0.13081599. Redondeando a 2 decimales, se obtiene 13.08%.",
+      "charts_involved": [
+        "chart_107_4",
+        "chart_107_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en los principales factores considerados por los usuarios al elegir un operador de comunicaciones y las deficiencias percibidas por los usuarios en el servicio actual de los operadores, ¿qué aspectos revelan la brecha más notable y regular entre las necesidades de los usuarios y la experiencia real?",
+      "answer": {
+        "A": "La atención a la calidad del servicio al cliente es relativamente alta, mientras que el servicio posventa deficiente es una queja común, lo que refleja la inconsistencia entre la promesa de servicio y la entrega real.",
+        "B": "La señal y la velocidad de red, como factores clave en la decisión de los usuarios, se corresponden altamente con los problemas de baja velocidad de red y limitación de ancho de banda, lo que muestra que las necesidades de rendimiento de la red no se satisfacen completamente.",
+        "C": "Los usuarios prestan mucha atención a las iniciativas de protección ambiental al elegir un operador, pero las medidas ambientales no se mencionan en el servicio real, lo que indica que las necesidades de desarrollo sostenible son ignoradas.",
+        "D": "La diferencia entre la proporción del plan familiar compartido (21.73%) y la de las llamadas de ventas excesivas (38.97%) es de 17.24%, lo que indica que la forma de promoción del plan compartido causa反感 de los usuarios.",
+        "E": "Los valores de la protección de privacidad (26.87%) y los altos costos de servicios con valor añadido (25.05%) son cercanos, lo que indica que el problema del costo de privacidad se ha equilibrado efectivamente.",
+        "F": "El precio juega un papel importante en la elección de los usuarios, pero la baja relación costo - rendimiento del paquete se convierte en el punto de insatisfacción más destacado, lo que indica una desarticulación entre el control de costos y el valor real.",
+        "G": "El servicio de roaming internacional es una referencia importante en la decisión de los usuarios, pero entra en conflicto con el problema de la cobertura de red irregular, lo que refleja la insuficiencia de la capacidad de servicio global."
+      },
+      "charts_involved": [
+        "chart_107_2",
+        "chart_107_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "A partir de los canales por los que los usuarios se enteran de la 5G y los campos de aplicación futura de la 5G que esperan, ¿qué canales y aplicaciones pueden tener una relación implícita de efecto de promoción?",
+      "answer": {
+        "A": "Las actividades de promoción de los operadores de telecomunicaciones, como el canal principal de conocimiento, pueden promover más eficazmente las altas expectativas de los usuarios sobre los terminales inteligentes 5G.",
+        "B": "Los usuarios que se enteran de la 5G a través de exposiciones/conferencias tecnológicas (23.24%) son más propensos a esperar la aplicación de la 5G en el campo de la aeronáutica y el espacio.",
+        "C": "La televisión/radio (27.75%) y las plataformas de vídeos cortos (27.64%) tienen proporciones similares y juntas impulsan la alta popularización de la aplicación de RV (27.09%).",
+        "D": "Las plataformas de compartición de contenido (23.79%) tienen el efecto de promoción más fuerte en la conducción autónoma (37.71%) debido a su característica de interacción en tiempo real.",
+        "E": "Los informes/análisis de investigación de la industria, como canales profesionales, pueden respaldar las expectativas de los usuarios sobre aplicaciones en campos profesionales como la telemedicina.",
+        "F": "La gran diferencia entre la proporción de ser informados por familiares/amigos (18.39%) y la de la aplicación en educación (31.31%) indica que la comunicación entre familiares y amigos inhibe las expectativas en el campo de la educación.",
+        "G": "El uso generalizado de las plataformas de vídeos cortos y las plataformas de redes sociales puede fortalecer el interés de los usuarios en aplicaciones inmersivas como la RV y el hogar inteligente."
+      },
+      "charts_involved": [
+        "chart_107_4",
+        "chart_107_5"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "De acuerdo con los factores de alta prioridad en la elección de un operador de comunicaciones por parte de los usuarios y las principales deficiencias informadas por los usuarios, ¿qué conflictos entre factores y deficiencias pueden explicar mejor los problemas potenciales de los proveedores de servicios?",
+      "answer": {
+        "A": "Los servicios con valor añadido tienen una proporción alta en la decisión de los usuarios, pero los altos costos de servicios con valor añadido se convierten en un punto de insatisfacción común, lo que revela la falta de coincidencia entre el valor añadido y el costo adicional.",
+        "B": "Las políticas de tráfico de datos, como un factor importante en la elección de los usuarios, entran en conflicto directamente con la dificultad para cambiar de paquete, lo que muestra el conflicto entre la promesa de flexibilidad y las limitaciones reales.",
+        "C": "Tanto la evaluación de otros (17.88%) como la dificultad para cambiar de paquete (9.31%) son de baja prioridad, lo que indica que los conflictos secundarios no necesitan resolverse.",
+        "D": "La señal y la velocidad de red (32.66%) y la baja velocidad de red y limitación de ancho de banda (31.69%) tienen valores casi iguales, lo que demuestra que el problema de rendimiento de la red se ha resuelto por completo.",
+        "E": "Los usuarios prestan mucha atención a la calidad de los empleados de los operadores, pero este problema no se menciona en el servicio real, lo que refleja la falta de capacitación en recursos humanos.",
+        "F": "La inversión entre la calidad del servicio al cliente (26.45%) y el servicio posventa deficiente (34.58%) muestra que la promesa de servicio se ha exagerado.",
+        "G": "La cobertura de red es un factor de alta atención para los usuarios, pero el problema de la cobertura de red irregular se presenta con frecuencia, lo que expone el conflicto entre la promesa de infraestructura y la realidad."
+      },
+      "charts_involved": [
+        "chart_107_2",
+        "chart_107_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, las operadoras de comunicaciones chinas enfrentan una fuerte competencia en 2025. Para aumentar su cuota de mercado y atraer a más usuarios, ¿qué medidas de mejora se deben implementar en primer lugar? Elija la sugerencia de estrategia más efectiva.",
+      "answer": {
+        "A": "Optimice en primer lugar el plan familiar compartido, ya que el plan familiar compartido representa el 21.73% en los factores de elección de los usuarios, mientras que la dificultad para cambiar de paquete solo representa el 9.31% en las deficiencias. Esto indica que el plan familiar compartido es una necesidad central de los usuarios y que hay poco espacio para la mejora.",
+        "B": "Lance actividades de descuentos temporales y pruebas gratuitas para estimular la conversión a corto plazo de los usuarios, ya que las actividades promocionales pueden aumentar rápidamente la base de usuarios y la cuota de mercado.",
+        "C": "Aumente la inversión en publicidad de marca y promoción en redes sociales para mejorar la visibilidad general en el mercado, ya que una gran influencia de marca es la base para atraer a los usuarios.",
+        "D": "Optimice el diseño de los paquetes y las políticas de tráfico de datos, ya que la insuficiencia en el costo - rendimiento del paquete es el problema más destacado en las opiniones de los usuarios. Al mismo tiempo, los servicios relacionados con los datos tienen un peso alto en los factores de elección. Al ajustar la estructura de los paquetes y las reglas de tráfico, se puede mejorar significativamente la satisfacción y la voluntad de conversión de los usuarios.",
+        "E": "Invierta en primer lugar en la estructura de los costos de los servicios adicionales, ya que los servicios adicionales representan el 32.87% en los factores de elección de los usuarios, mientras que los altos costos de los servicios adicionales solo representan el 25.05% en las deficiencias. Esto indica que los usuarios tienen una alta aceptación de los servicios adicionales, y reducir los costos puede mejorar directamente la competitividad.",
+        "F": "Invierta en primer lugar en mejorar la cobertura de red y la calidad de la señal, ya que los usuarios prestan mucha atención a los factores de rendimiento de la red al elegir una operadora. Aunque el líder actual del mercado tiene ventaja, la base de usuarios de los competidores es considerable. Esto indica que optimizar la infraestructura de red puede mejorar directamente la competitividad y atraer a los usuarios potenciales.",
+        "G": "Mejore la calidad del servicio al cliente y reduzca las interferencias de las llamadas de ventas, ya que las deficiencias relacionadas con el servicio representan una proporción significativa en las quejas de los usuarios. Además, la calidad del servicio es un factor clave en la elección de los usuarios. Mejorar estos aspectos puede reducir la fuga de usuarios y mejorar la lealtad a la marca."
+      },
+      "charts_involved": [
+        "chart_107_1",
+        "chart_107_2",
+        "chart_107_3"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, las operadoras de telecomunicaciones deben asignar eficientemente los recursos para satisfacer las expectativas de los usuarios al promocionar la tecnología 5G. ¿Cómo deben ajustar los canales de promoción y las áreas de aplicación prioritarias? Elija la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Reduzca la inversión en los canales de medios tradicionales, ya que tienen la menor atención de los usuarios. En cambio, fortalezca la promoción dirigida en áreas de expectativa media, como la educación, en combinación con canales profesionales, como informes de la industria y ferias tecnológicas, para mejorar el conocimiento de la tecnología y la aceptación de los usuarios.",
+        "B": "Promueva la tecnología 5G a través de periódicos y libros en primer lugar, ya que los periódicos y libros representan el 12.67% en los canales de conocimiento de los usuarios, mientras que la educación representa el 31.31% en las aplicaciones esperadas. La promoción a través de contenido educativo puede mejorar de manera precisa el conocimiento de la tecnología.",
+        "C": "Organice actividades offline en la comunidad, como presentaciones en la calle y salas de experiencias, para contactar directamente con los usuarios y mejorar la interacción de la marca, ya que la promoción cara a cara puede establecer confianza.",
+        "D": "Amplíe la cobertura de la publicidad en televisión y radio, ya que los medios tradicionales tienen una amplia base de audiencia y pueden mejorar eficientemente el conocimiento de la tecnología.",
+        "E": "Concentre los principales recursos en las actividades de promoción propias de las operadoras y en las plataformas de redes sociales, ya que estos canales tienen la mayor tasa de alcance de usuarios. Al mismo tiempo, las aplicaciones 5G más esperadas por los usuarios se concentran en el campo de los terminales inteligentes. El contenido de la promoción debe resaltar este campo para maximizar la resonancia y la tasa de conversión.",
+        "F": "Invierta en la promoción de aplicaciones de realidad virtual en primer lugar, ya que la realidad virtual representa el 27.09% en las aplicaciones esperadas por los usuarios, mientras que las ferias tecnológicas representan el 23.24% en los canales de conocimiento, lo que es adecuado para la demostración de nuevas tecnologías y maximizar el interés de los usuarios.",
+        "G": "Para aplicaciones emergentes, como la realidad virtual y la telemedicina, promueva la tecnología a través de plataformas de vídeos cortos y plataformas de compartición de contenido en primer lugar, ya que estos canales tienen una alta participación de usuarios. Aunque estas aplicaciones tienen una expectativa media, tienen un gran potencial de crecimiento. A través de la publicidad dirigida, se pueden cultivar nuevas demandas."
+      },
+      "charts_involved": [
+        "chart_107_4",
+        "chart_107_5"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, las operadoras de comunicaciones deben resolver los problemas de los usuarios en 2025 para mejorar la satisfacción y la lealtad. ¿Qué acciones concretas se deben tomar en primer lugar? Elija la sugerencia de estrategia más efectiva.",
+      "answer": {
+        "A": "Resuelva en primer lugar el problema de la cobertura de red irregular, ya que la cobertura de red irregular representa el 18.31% en las opiniones de los usuarios, mientras que la cobertura de red representa el 30.73% en los factores de elección. Mejorar la cobertura de red puede reducir directamente la fuga de usuarios.",
+        "B": "Optimice en gran medida el costo - rendimiento de los paquetes y la fijación de precios de los servicios adicionales, ya que las quejas relacionadas con el precio representan la mayor proporción en las opiniones de los usuarios. Al mismo tiempo, los servicios adicionales y las políticas de tráfico de datos tienen un peso alto en los factores de elección. Al ajustar la estructura de costos y aumentar la transparencia, se puede mejorar rápidamente el valor percibido por los usuarios.",
+        "C": "Resuelva en primer lugar el problema de la duración corta de las llamadas, ya que la duración corta de las llamadas representa el 20.66% en las opiniones de los usuarios, mientras que la calidad de la llamada representa el 27.41% en los factores de elección. Aumentar la duración de las llamadas puede mejorar significativamente el valor percibido por los usuarios.",
+        "D": "Desarrolle más herramientas de retroalimentación de los usuarios, como encuestas en aplicaciones móviles y líneas directas, para recopilar en tiempo real las necesidades y optimizar el servicio, ya que la mejora continua es la clave para mejorar la satisfacción.",
+        "E": "Fortalezca la capacitación del personal de servicio para mejorar la experiencia general de los usuarios y la lealtad, ya que el personal calificado es la competencia central de la industria del servicio.",
+        "F": "Simplifique los procedimientos comerciales y controle la frecuencia de las llamadas de ventas, ya que la complejidad de los procedimientos y las interferencias de las llamadas de ventas representan una proporción destacada en las opiniones de los usuarios. Al mismo tiempo, la calidad del servicio es un factor importante en la elección de los usuarios. Optimizar estos aspectos puede mejorar la experiencia y la confianza de los usuarios.",
+        "G": "Mejore en primer lugar la velocidad y la estabilidad de la red, ya que la limitación de velocidad de red es un problema destacado en las quejas de los usuarios. Además, la calidad de la señal es un factor clave en la elección de los usuarios. Invertir en la actualización de la red puede reducir directamente las quejas y aumentar la adhesión de los usuarios."
+      },
+      "charts_involved": [
+        "chart_107_2",
+        "chart_107_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    }
+  ]
+}

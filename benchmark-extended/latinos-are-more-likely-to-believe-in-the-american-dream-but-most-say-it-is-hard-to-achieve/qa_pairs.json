@@ -1,0 +1,175 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What proportion of the total U.S. population think their children's standard of living at the same age will be much/somewhat worse than theirs now?\n question2: What proportion of third - generation or higher Latinos think their own standard of living now is about the same as their parents' when they were the same age?",
+                "rationale": "rationale1: The question requires the proportion of the U.S. population with a certain view on their children's future standard of living, and the data can be retrieved from the chart.\n rationale2: The query requires us to extract a specific proportion value from the chart about third - generation or higher Latinos' comparison of their current standard of living with their parents'. We look for the relevant content in the chart to get the answer.",
+                "answer": "24%; 15%",
+                "involved_content_sources": [
+                    "chart_3-12",
+                    "chart_6-8"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of all Hispanics think their children's standard of living at the same age will be much/somewhat better than theirs now?\n question2: What proportion of Hispanics think it is somewhat hard to achieve the American dream for people like them today? Please answer in percentage.\n question3: What proportion of second - generation Latinos think their children's standard of living will be much/somewhat worse than theirs when they are the same age?",
+                "rationale": "rationale1: This question is about the proportion of Hispanics' views on their children's future standard of living, and the corresponding data is given in the chart.\n rationale2: The question asks for the proportion of Hispanics who think it is somewhat hard to achieve the American dream for people like them today. The relevant information is directly provided in the chart as 74%.\n rationale3: This question is focused on getting a particular proportion for second - generation Latinos regarding their children's future standard of living. We locate the corresponding data in the chart to obtain the answer.",
+                "answer": "72%; 74%; 14%",
+                "involved_content_sources": [
+                    "chart_3-9",
+                    "chart_4-3",
+                    "chart_6-15"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What proportion of the total U.S. population think their own standard of living now is much/somewhat worse than their parents' was at the same - age?\n question2: What is the proportion of Hispanics who say being a good parent is extremely important?\n question3: What proportion of Hispanics think it is somewhat hard to achieve the American dream for people like them today? Please answer in percentage.\n question4: What proportion of foreign - born Latinos think their own standard of living now is much/somewhat better than their parents' when they were the same age?",
+                "rationale": "rationale1: The question asks for the proportion of the U.S. population with a particular view on their standard of living relative to their parents', and the data is in the chart.\n rationale2: The question directly asks for the proportion of Hispanics who consider being a good parent extremely important. We can find this information directly from the given chart.\n rationale3: The question asks for the proportion of Hispanics who think it is somewhat hard to achieve the American dream for people like them today. The relevant information is directly provided in the chart as 74%.\n rationale4: The question directly asks for a specific proportion value from the given chart about foreign - born Latinos' perception of their current standard of living compared to their parents'. We can directly find the answer from the relevant content in the chart.",
+                "answer": "17%; 51%; 74%; 80%",
+                "involved_content_sources": [
+                    "chart_3-8",
+                    "chart_5-1",
+                    "chart_4-3",
+                    "chart_6-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of Hispanics who say being a good parent is extremely important and those who say living a very religious life is extremely important?\n question2: What is the average proportion of Latinos across all generations (foreign - born, second - generation, and third - generation or higher) who think their children's standard of living will be much/somewhat better than theirs when they are the same age?",
+                "rationale": "rationale1: The question asks for the difference between two proportions. We need to subtract the proportion of Hispanics who say living a very religious life is extremely important from the proportion of those who say being a good parent is extremely important. The data for these two proportions are directly available in the chart.\n rationale2: To answer this question, we need to take the proportion of each generation (foreign - born, second - generation, and third - generation or higher) who think their children's standard of living will be much/somewhat better than theirs and calculate the average. This involves adding these three values and then dividing by the number of generations (3).",
+                "answer": "38; 70",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-6",
+                    "chart_6-10",
+                    "chart_6-13",
+                    "chart_6-16"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of Hispanics who say being a good parent is extremely important and those who say living a very religious life is extremely important?\n question2: What is the average proportion of Latinos across all generations (foreign - born, second - generation, and third - generation or higher) who think their children's standard of living will be much/somewhat better than theirs when they are the same age?\n question3: What is the difference in the proportion of those who think most can get ahead with hard work between all Hispanics and the total U.S. population?",
+                "rationale": "rationale1: The question asks for the difference between two proportions. We need to subtract the proportion of Hispanics who say living a very religious life is extremely important from the proportion of those who say being a good parent is extremely important. The data for these two proportions are directly available in the chart.\n rationale2: To answer this question, we need to take the proportion of each generation (foreign - born, second - generation, and third - generation or higher) who think their children's standard of living will be much/somewhat better than theirs and calculate the average. This involves adding these three values and then dividing by the number of generations (3).\n rationale3: To find the difference, we need to subtract the proportion of the total U.S. population who think most can get ahead with hard work from the proportion of all Hispanics who think so. This directly uses two pieces of data from the chart related to the same concept of belief in getting ahead with hard work for different groups.",
+                "answer": "38; 70; 15%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-6",
+                    "chart_6-10",
+                    "chart_6-13",
+                    "chart_6-16",
+                    "chart_3-1",
+                    "chart_3-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of Hispanics who say being a good parent is extremely important and those who say living a very religious life is extremely important?\n question2: What is the average proportion of Latinos across all generations (foreign - born, second - generation, and third - generation or higher) who think their children's standard of living will be much/somewhat better than theirs when they are the same age?\n question3: What is the difference in the proportion of those who think most can get ahead with hard work between all Hispanics and the total U.S. population?\n question4: What is the difference between the proportion of Hispanics who think it is somewhat hard to achieve the American dream and the proportion of those who have not achieved the American dream?",
+                "rationale": "rationale1: The question asks for the difference between two proportions. We need to subtract the proportion of Hispanics who say living a very religious life is extremely important from the proportion of those who say being a good parent is extremely important. The data for these two proportions are directly available in the chart.\n rationale2: To answer this question, we need to take the proportion of each generation (foreign - born, second - generation, and third - generation or higher) who think their children's standard of living will be much/somewhat better than theirs and calculate the average. This involves adding these three values and then dividing by the number of generations (3).\n rationale3: To find the difference, we need to subtract the proportion of the total U.S. population who think most can get ahead with hard work from the proportion of all Hispanics who think so. This directly uses two pieces of data from the chart related to the same concept of belief in getting ahead with hard work for different groups.\n rationale4: To find the difference, we need to subtract the proportion of Hispanics who have not achieved the American dream from the proportion of those who think it is somewhat hard to achieve the American dream. This involves using two different data points from the chart.",
+                "answer": "38; 70; 15%; 28%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-6",
+                    "chart_6-10",
+                    "chart_6-13",
+                    "chart_6-16",
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-1",
+                    "chart_4-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of Hispanics who think most can get ahead with hard work and the proportion of Hispanics who have not achieved the American dream?",
+                "rationale": "The proportion of Hispanics who think most can get ahead with hard work is 77% (from Chart 3). The proportion of Hispanics who have not achieved the American dream is 46% (from Chart 4). The difference is 77% - 46% = 31%.",
+                "answer": "31%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_4-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the difference between the product of the proportion of Hispanics who think most can get ahead with hard work and the proportion of Hispanics who have achieved the American dream, and the proportion of Hispanics who say being a good parent is extremely important? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Hispanics who think most can get ahead with hard work is 77% (from Chart 3). The proportion of Hispanics who have achieved the American dream is 51% (from Chart 4). The proportion of Hispanics who say being a good parent is extremely important is 51% (from Chart 5). The product of the first two proportions is 77%\u00d751% = 39.27%. The difference between this product and the third proportion is 39.27% - 51% = -11.73%.",
+                "answer": "-11.73%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_4-2",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of all Hispanics who think their children's standard of living at the same age will be much/somewhat better than theirs now and the proportion of the total U.S. population who think the same, the difference between the proportion of Hispanics who think it is somewhat hard to achieve the American dream for people like them today and the proportion of Hispanics who think it is somewhat easy to achieve the American dream for people like them today, the difference between the proportion of Hispanics who say having the resources to provide for your family is extremely important and the proportion of Hispanics who say living a very religious life is extremely important, and the difference between the proportion of foreign-born Latinos who think their own standard of living now is much/somewhat better than their parents' when they were the same age and the proportion of third-generation or higher Latinos who think their own standard of living now is much/somewhat better than their parents' when they were the same age? Provide the answer as a percentage.",
+                "rationale": "From chart 3, the proportion of all Hispanics who think their children's standard of living at the same age will be much/somewhat better than theirs now is 72%, and for the total U.S. population is 46%, so the difference is 72% - 46% = 26%. From chart 4, the proportion of Hispanics who think it is somewhat hard to achieve the American dream for people like them today is 74%, and the proportion who think it is somewhat easy is 24%, so the difference is 74% - 24% = 50%. From chart 5, the proportion of Hispanics who say having the resources to provide for your family is extremely important is 49%, and the proportion who say living a very religious life is extremely important is 13%, so the difference is 49% - 13% = 36%. From chart 6, the proportion of foreign-born Latinos who think their own standard of living now is much/somewhat better than their parents' when they were the same age is 80%, and for third-generation or higher Latinos is 66%, so the difference is 80% - 66% = 14%. The average of these differences is (26% + 50% + 36% + 14%) / 4 = 31.5%",
+                "answer": "31.5%",
+                "involved_content_sources": [
+                    "chart_3-9",
+                    "chart_4-3",
+                    "chart_5-2",
+                    "chart_6-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of Hispanics who think hard work pays off and that their children will have a better standard of living, and the sum of the proportions of Hispanics who haven't achieved the American dream and think it's easy to achieve it?",
+                "rationale": "Among all Hispanics, the proportion who say most can get ahead with hard work is 77% (chart_3-1), and the proportion who think their children's standard of living at the same age will be much/somewhat better than theirs now is 72% (chart_3-9). The sum of these two proportions is 77% + 72% = 149%. Among Hispanics, the proportion who have not achieved the American dream is 46% (chart_4-1), and the proportion who think it is somewhat easy to achieve the American dream for people like them today is 24% (chart_4-4). The sum of these two proportions is 46% + 24% = 70%. Then the difference between the two sums is 149% - 70% = 79%.",
+                "answer": "79%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-9",
+                    "chart_4-1",
+                    "chart_4-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of Hispanics who think hard work pays off, the proportion of Hispanics who have achieved the American dream, and the proportion of Hispanics who say being a good parent is extremely important, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of Hispanics who think hard work pays off (most can get ahead with hard work) is 77% (chart_3-1); the proportion of Hispanics who say hard work and determination is no guarantee of success is 21% (chart_3-2). The proportion of Hispanics who have achieved the American dream is 51% (chart_4-2); the proportion of Hispanics who have not achieved the American dream is 46% (chart_4-1). The proportion of Hispanics who say being a good parent is extremely important is 51% (chart_5-1); the proportion of Hispanics who say having the resources to provide for your family is extremely important is 49% (chart_5-2). The weighted average is (77%\u00d70.2 + 51%\u00d70.3 + 51%\u00d70.5) = (0.77\u00d70.2 + 0.51\u00d70.3 + 0.51\u00d70.5) = 0.154 + 0.153 + 0.255 = 0.562 = 56.2%.",
+                "answer": "56.2%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of Hispanics who think most can get ahead with hard work and the proportion of the total U.S. population who think so, the difference between the proportion of Hispanics who have achieved the American dream and the proportion who have not, the difference between the proportion of Hispanics who say being a good parent is extremely important and the proportion who say being successful in a high - paying career or profession is extremely important, and the difference between the proportion of foreign - born Latinos who think their children's standard of living will be much/somewhat better than theirs and the proportion of third - generation or higher Latinos who think so?",
+                "rationale": "From Chart 3, the proportion of Hispanics who think most can get ahead with hard work is 77% (chart_3-1), and the proportion of the total U.S. population who think so is 62% (chart_3-3). The difference is 77% - 62% = 15%. From Chart 4, the proportion of Hispanics who have achieved the American dream is 51% (chart_4-2), and the proportion who have not is 46% (chart_4-1). The difference is 51% - 46% = 5%. From Chart 5, the proportion of Hispanics who say being a good parent is extremely important is 51% (chart_5-1), and the proportion who say being successful in a high - paying career or profession is extremely important is 22% (chart_5-5). The difference is 51% - 22% = 29%. From Chart 6, the proportion of foreign - born Latinos who think their children's standard of living will be much/somewhat better than theirs is 79% (chart_6-10), and the proportion of third - generation or higher Latinos who think so is 60% (chart_6-16). The difference is 79% - 60% = 19%. The average of these four differences is (15% + 5% + 29% + 19%) / 4 = 17%.",
+                "answer": "17%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-1",
+                    "chart_5-5",
+                    "chart_6-10",
+                    "chart_6-16"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

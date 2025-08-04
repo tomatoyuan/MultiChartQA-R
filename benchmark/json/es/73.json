@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_73_1",
+    "chart_73_2",
+    "chart_73_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La distribución de la 'Frecuencia de uso de las plataformas de entrega inmediata más utilizadas por los usuarios' y la 'Tiempo acumulado de uso de las plataformas habituales de los usuarios' cumple con la tendencia de que la proporción en el centro sea alta y la proporción en los extremos sea baja? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En ambos casos, las proporciones de los elementos centrales son altas y las de los elementos en los extremos son bajas.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La proporción de la categoría '$21 - $30' en la 'Tarifas de pago único de las plataformas de entrega inmediata más utilizadas por los usuarios' y la proporción de la categoría '1 - 2 veces al mes' en la 'Frecuencia de uso de las plataformas de entrega inmediata más utilizadas por los usuarios' ocupan la misma posición en el ranking de proporciones de sus respectivos gráficos? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas son las categorías con la proporción más alta.",
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿El número de elementos de datos seleccionados por el cuadro de línea discontinua azul en la 'Frecuencia de uso de las plataformas de entrega inmediata más utilizadas por los usuarios' y en la 'Tiempo acumulado de uso de las plataformas habituales de los usuarios' es el mismo? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambos tienen 3 elementos.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que el total de usuarios de la plataforma es de 1 millón, ¿cuántos usuarios se espera que paguen entre $21 - $30 y utilicen la plataforma de 3 - 4 veces al mes? Redondee al entero más cercano. Respuesta: xx personas",
+      "answer": "165990 personas",
+      "explanation": "Total de usuarios 1 millón × Proporción de usuarios que pagan entre $21 - $30 del 50.3% × Proporción de usuarios que utilizan la plataforma de 3 - 4 veces al mes del 33.0% = 1000000 × 0.503 × 0.33 = 165990 personas.",
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la relación entre la proporción de usuarios que han utilizado la plataforma durante más de 1 año y la proporción de usuarios que la utilizan de 1 - 2 veces al mes? Redondee a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "1.24 veces",
+      "explanation": "Proporción de usuarios que han utilizado la plataforma durante más de 1 año = 8.4% de usuarios que la han utilizado durante más de 3 años + 12.5% de usuarios que la han utilizado entre 2 - 3 años + 30.7% de usuarios que la han utilizado entre 1 - 2 años = 51.6%; Proporción de usuarios que la utilizan de 1 - 2 veces al mes del 41.5%; 51.6% ÷ 41.5% = 1.243 → 1.24 veces.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el producto de la proporción de usuarios que utilizan la plataforma de 1 - 2 veces al mes y la proporción de usuarios que la han utilizado entre 6 - 12 meses? Redondee a 2 decimales. Respuesta: xx.xx%",
+      "answer": "9.50%",
+      "explanation": "Proporción de usuarios que utilizan la plataforma de 1 - 2 veces al mes del 41.5% × Proporción de usuarios que la han utilizado entre 6 - 12 meses del 22.9% = 0.415 × 0.229 = 0.0950 → 9.50%.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según los gráficos de la distribución de los costos de pago único de los usuarios y la distribución de la frecuencia de uso, ¿qué opciones describen mejor el patrón coherente entre el comportamiento de consumo y los hábitos de uso de los usuarios?",
+      "answer": {
+        "A": "La proporción de usuarios con costos de pago único en el rango intermedio es la más alta, y al mismo tiempo la proporción de usuarios con frecuencia de uso media también es la más alta, lo que indica que la mayoría de los usuarios tienden a un consumo y una intensidad de uso equilibrados.",
+        "B": "La proporción de usuarios con costos de pago único entre $10 y $20 es la más alta, alcanzando el 50.3%, lo que indica que la estrategia de precios bajos es la más popular.",
+        "C": "La proporción de usuarios con costos de pago único altos es la más baja, y la proporción de usuarios con frecuencia de uso alta también es la más baja, lo que sugiere que el comportamiento de alto consumo y alta frecuencia no es común entre los usuarios.",
+        "D": "La proporción de usuarios con costos de pago único bajos es baja, mientras que la proporción de usuarios con frecuencia de uso baja es relativamente alta. Pero considerando la distribución de la frecuencia, el comportamiento de baja frecuencia puede ser más disperso.",
+        "E": "La proporción de usuarios que utilizan el servicio 5 veces o más al mes es la más alta, del 41.5%, lo que indica que la mayoría de los usuarios dependen del servicio de entrega inmediata para un consumo frecuente.",
+        "F": "Cuanto más bajo es el costo de pago de los usuarios, más alta es la frecuencia de uso, porque los servicios de bajo precio atraen más consumos repetidos.",
+        "G": "Los usuarios de alta frecuencia generalmente pagan altos costos, lo que refleja la preferencia de los usuarios de segmento alto de las plataformas de entrega inmediata."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en los gráficos de la distribución de la duración acumulada de uso de los usuarios y la distribución de los costos de pago único, ¿qué opciones revelan la posible relación entre la lealtad de los usuarios y el nivel de consumo?",
+      "answer": {
+        "A": "La proporción de usuarios con una duración de uso entre 1 y 2 años es la más baja, solo el 6.5%, lo que indica que hay pocos usuarios con lealtad media.",
+        "B": "Los usuarios de larga duración tienden a pagar los costos más bajos, porque obtienen descuentos a través de planes de lealtad.",
+        "C": "Los nuevos usuarios pagan los costos más altos, porque al no estar familiarizados con la plataforma eligen servicios de alto precio.",
+        "D": "La proporción de usuarios con una duración de uso en el rango intermedio es la más alta, y al mismo tiempo la proporción de costos de pago único en el rango intermedio también es la más alta, lo que indica que el grupo central de usuarios muestra preferencias medias en cuanto a lealtad y consumo.",
+        "E": "La proporción de usuarios con costos de pago único entre $31 y $40 es la más alta, del 50.3%, lo que indica que el alto consumo es la característica central de la lealtad de los usuarios.",
+        "F": "La proporción de usuarios con una duración de uso más larga es alta, pero la proporción de costos de pago altos es aún más alta, lo que sugiere que los usuarios de larga duración pueden tender a un consumo más alto.",
+        "G": "La proporción de nuevos usuarios es similar a la proporción de costos de pago bajos, pero considerando la distribución de la duración, el comportamiento de consumo de los nuevos usuarios puede ser más variable."
+      },
+      "charts_involved": [
+        "chart_73_3",
+        "chart_73_1"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combinando los gráficos de la distribución de la frecuencia de uso de los usuarios y la distribución de la duración acumulada de uso, ¿qué opciones explican mejor la inconsistencia de datos entre los usuarios de alta frecuencia y los usuarios de larga duración?",
+      "answer": {
+        "A": "La proporción de usuarios con frecuencia de uso media es la más alta, y la proporción de usuarios con una duración de uso en el rango intermedio también es la más alta. Pero en la distribución de la frecuencia, la proporción de usuarios de baja frecuencia es alta, mientras que en la distribución de la duración, la proporción de nuevos usuarios es baja, lo que sugiere que los usuarios de baja frecuencia pueden incluir a algunos usuarios de larga duración pero inactivos.",
+        "B": "Los usuarios de alta frecuencia deben ser usuarios de larga duración, porque el uso frecuente naturalmente acumula tiempo.",
+        "C": "La proporción de usuarios que utilizan el servicio 3 - 4 veces al mes es la más baja, solo el 6.5%, lo que indica que el comportamiento de frecuencia media no es común.",
+        "D": "La proporción de uso de alta frecuencia es similar a la proporción de la parte alta de la duración de uso, pero considerando la distribución, los usuarios de alta frecuencia pueden estar concentrados en el grupo de usuarios con una duración de uso más corta.",
+        "E": "La proporción de usuarios con una duración de uso entre 6 y 12 meses es la más alta, del 30.7%, lo que indica que los usuarios de corta duración dominan el comportamiento de alta frecuencia.",
+        "F": "Los usuarios de baja frecuencia son principalmente nuevos usuarios, porque después de probar el servicio, es posible que reduzcan su uso.",
+        "G": "La proporción de usuarios de alta frecuencia es muy baja, y la proporción de usuarios con una duración de uso más larga también es baja, lo que indica que el comportamiento de alta frecuencia no necesariamente está fuertemente relacionado con la lealtad a largo plazo."
+      },
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Como operador de una plataforma de entrega inmediata, ha descubierto que el comportamiento de los usuarios presenta patrones específicos. ¿Cómo se deben ajustar las estrategias de precios y de incentivos para los usuarios en función de estos patrones para aumentar simultáneamente la actividad de los usuarios y los ingresos generales de la plataforma? Seleccione la sugerencia más razonable.",
+      "answer": {
+        "A": "Ofrezca grandes descuentos en el rango de tarifas de pago más bajo ($10 - $20), ya que la proporción de este grupo es baja (18.4%). La estrategia de precios bajos puede atraer rápidamente a los usuarios sensibles al precio, aumentando significativamente la frecuencia de uso y los ingresos.",
+        "B": "Diseñe un plan de incentivos de entrada (por ejemplo, descuento en el primer pedido) para los nuevos usuarios (el grupo con menor tiempo de uso), ya que los datos del tiempo de uso muestran que la proporción de nuevos usuarios es significativa. Además, combinando con la frecuencia de uso, el grupo de usuarios de baja frecuencia tiene un cierto tamaño. Esta estrategia puede ayudar a los nuevos usuarios a establecer rápidamente el hábito de uso, reducir la fuga temprana y aumentar la frecuencia de uso.",
+        "C": "Refuerce la publicidad de la marca y la promoción en las redes sociales para aumentar la visibilidad de la plataforma, atraer a más nuevos usuarios y aumentar naturalmente la participación general.",
+        "D": "Optimice la estructura de precios (por ejemplo, introduzca descuentos escalonados) en el rango donde la proporción de pagos de los usuarios es la más concentrada, ya que este rango representa los hábitos de pago de los usuarios principales. Al mismo tiempo, combinando con la frecuencia de uso de los usuarios, el grupo de usuarios de actividad media tiene una proporción relativamente alta. La optimización de los precios puede estimularlos a aumentar la frecuencia de uso, lo que aumentará la participación general y los ingresos.",
+        "E": "Lance programas de recompensa de fidelidad (por ejemplo, canje de puntos) para los usuarios de larga data (el grupo con mayor tiempo de uso), ya que la proporción de este grupo es estable. Además, combinando con los datos de frecuencia de uso, alentarlos a mantener o aumentar su frecuencia actual puede fortalecer la adhesión de los usuarios y estabilizar la fuente de ingresos.",
+        "F": "Implemente una estrategia general de reducción de precios (por ejemplo, una reducción general del 15% en los precios) para todos los usuarios para estimular la demanda y ampliar la cuota de mercado, lo que aumentará indirectamente la actividad de los usuarios y los ingresos.",
+        "G": "Diseñe recompensas exclusivas de alto valor para el grupo con la frecuencia de uso más alta (5 veces o más al mes, 8.0%), ya que ellos contribuyen con el mayor potencial de ingresos. Optimizar su fidelidad puede mejorar directamente el rendimiento general de la plataforma."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Una plataforma de entrega inmediata desea asignar racionalmente los recursos de marketing para mejorar eficazmente la tasa de retención y la frecuencia de uso de los usuarios. ¿A qué grupos de usuarios se deben invertir priorariamente los recursos en función de las características del comportamiento de los usuarios? Seleccione la sugerencia de estrategia más efectiva.",
+      "answer": {
+        "A": "Invierte principalmente en los nuevos usuarios con el menor tiempo de uso (≤ 1 mes, 7.4%), ya que tienen el mayor riesgo de fuga. Mediante incentivos intensivos (por ejemplo, pedido gratuito en el primer pedido), se puede aumentar rápidamente su frecuencia de uso y convertirlos en usuarios estables.",
+        "B": "Optimice la interfaz de la aplicación de la plataforma y el diseño de la experiencia del usuario para reducir la fricción operativa y, por lo tanto, aumentar naturalmente la frecuencia de uso y la fidelidad de todos los usuarios.",
+        "C": "Aumente uniformemente los subsidios de servicio (por ejemplo, entrega gratuita) para todos los usuarios para mejorar equitativamente la satisfacción y la tasa de retención, evitar la discriminación entre grupos y maximizar la cobertura de los recursos.",
+        "D": "Diseñe actividades de reactivación para los usuarios de baja frecuencia (por ejemplo, recompensas de frecuencia limitadas en el tiempo), ya que los datos de frecuencia de uso muestran que la proporción de este grupo no es despreciable. Además, combinando con las tarifas de pago, se evita la fuga causada por la sensibilidad al precio. Esta estrategia inclusiva puede aumentar equitativamente la participación y es coherente con el principio de eficiencia de los recursos.",
+        "E": "Dirija los recursos principalmente hacia los usuarios con tiempo de uso intermedio (por ejemplo, el grupo de 6 meses a 2 años de uso), ya que la proporción de este grupo es la más alta. Además, combinando con los datos de frecuencia de uso, es posible que estén en una etapa de transición de actividad. La inversión de recursos específica (por ejemplo, notificaciones personalizadas) puede evitar la disminución de la frecuencia de uso y mejorar la tasa de retención.",
+        "F": "Aumente la inversión en servicios para el grupo de usuarios con pagos de nivel medio (por ejemplo, optimice la entrega rápida), ya que representan la mayoría de los usuarios. Además, combinando con los datos de tiempo de uso, la proporción de nuevos usuarios es relativamente alta. Mejorar la experiencia del servicio puede acelerar la conversión de nuevos usuarios a frecuencias medias, optimizando así la distribución general de la frecuencia de uso.",
+        "G": "Ofrezca servicios personalizados para el grupo con los pagos más altos ($41 o más, 4.8%), ya que contribuyen con una gran cantidad en cada pedido. Mejorar su experiencia puede mejorar directamente la tasa de retención y la frecuencia de uso, y aumentar los ingresos generales."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Una plataforma de entrega inmediata planea lanzar actividades promocionales para aumentar la participación de los usuarios. ¿Cómo se deben diseñar las actividades para cubrir los grupos clave y maximizar los efectos en función de los hábitos de pago y la continuidad de uso de los usuarios? Seleccione la estrategia más razonable.",
+      "answer": {
+        "A": "Ofrezca incentivos sensibles al tiempo (por ejemplo, descuento en el primer mes) para los nuevos usuarios o los usuarios de corto tiempo, ya que los datos del tiempo de uso muestran que la proporción de nuevos usuarios es destacada. Además, combinando con las tarifas de pago, se evita un umbral alto. Esta estrategia puede acelerar la migración de los usuarios de baja frecuencia a alta frecuencia y aumentar la participación inicial.",
+        "B": "Diseñe actividades de retención de alto valor (por ejemplo, regalos de aniversario) para los usuarios de larga data, ya que la proporción del grupo estable en el tiempo de uso es relativamente alta. Además, combinando con la frecuencia de uso, alentarlos a mantener su frecuencia de uso puede generar un efecto de boca en boca, lo que atraerá indirectamente a nuevos usuarios.",
+        "C": "Diseñe planes de membresía de alto precio para el grupo con el mayor tiempo de uso (más de 3 años, 8.4%), ya que tienen una alta fidelidad. A través de beneficios exclusivos, se puede mantener su frecuencia de uso y atraer a nuevos usuarios.",
+        "D": "Lance promociones limitadas en el tiempo en el rango de tarifas de pago de $31 - $40 (26.5%), ya que la proporción de este grupo es relativamente alta. Además, combinando con los datos de frecuencia, la proporción de usuarios de baja frecuencia es grande (por ejemplo, 1 - 2 veces al año, 3.0%). La actividad puede reactivar efectivamente su participación.",
+        "E": "Lance una actividad de cupones válidos en toda la plataforma (por ejemplo, descuento de $5 en todos los pedidos) para incentivar a todos los usuarios a aumentar la frecuencia de uso de manera sencilla y garantizar la máxima cobertura de la actividad.",
+        "F": "Lance promociones vinculadas a la frecuencia de uso en el rango de pagos principal (por ejemplo, \"cuanto más uses, más ahorras\"), ya que la base de usuarios en este rango es amplia. Además, combinando con la frecuencia de uso, la proporción del grupo de usuarios de actividad media es alta. Este diseño puede incentivar directamente el aumento de la frecuencia de uso y ampliar la cobertura de la actividad.",
+        "G": "Organice eventos de marketing conjunto con marcas de terceros para aumentar la participación de los usuarios a través de la inyección de tráfico externo, lo que mejorará indirectamente la frecuencia de uso y la tasa de retención."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

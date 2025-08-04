@@ -1,0 +1,207 @@
+{
+  "chart": [
+    "chart_80_1",
+    "chart_80_2",
+    "chart_80_3",
+    "chart_80_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the chart 'Market Size and Forecast of Chinese Baby Diapers from 2015 to 2023', does the year corresponding to the minimum value also correspond to the minimum value of the market penetration rate in the chart 'China Baby Diaper Market Penetration Rate and Forecast from 2015 to 2023'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "In chart_80_1, the year corresponding to the minimum value is 2020, which is not the minimum value in chart_80_2.",
+      "charts_involved": [
+        "chart_80_1",
+        "chart_80_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the color - matching styles of the chart 'Proportion of Purchase Channels for Chinese Baby Diaper Products in 2022' and the chart '2022 Purchased Categories of Baby Diaper Products by Chinese Consumers' match? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Chart_80_4 uses blue - green color - matching, while chart_80_3 uses red color - matching.",
+      "charts_involved": [
+        "chart_80_3",
+        "chart_80_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the chart 'Market Size and Forecast of Chinese Baby Diapers from 2015 to 2023' and the chart 'China Baby Diaper Market Penetration Rate and Forecast from 2015 to 2023' show the same overall changing trend? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both show an overall upward trend.",
+      "charts_involved": [
+        "chart_80_1",
+        "chart_80_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the difference in percentage points between the year-on-year growth rate of the baby diaper market size and the year-on-year increase in the penetration rate in 2023? Keep 1 decimal place. Answer: xx.xx percentage points",
+      "answer": "9.8 percentage points",
+      "explanation": "The market size increased from 55.5 billion yuan in 2022 to 62.8 billion yuan in 2023. The year-on-year growth rate = (62.8 - 55.5) / 55.5 × 100 = 13.2%; the penetration rate increased from 85.2% to 88.6%, with a year-on-year increase of 3.4 percentage points; 13.2% - 3.4% = 9.8 percentage points.",
+      "charts_involved": [
+        "chart_80_1",
+        "chart_80_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the proportion of consumers who purchased diapers to the proportion of consumers who chose offline channels for purchasing in 2022? Keep 2 decimal places. Answer: xx.xx times",
+      "answer": "8.99 times",
+      "explanation": "The proportion of purchasing diapers 78.2% ÷ the proportion of offline channels 8.7% = 8.9885. Keeping 2 decimal places, it is 8.99 times.",
+      "charts_involved": [
+        "chart_80_3",
+        "chart_80_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the product of the baby diaper penetration rate and the proportion of purchasing pull-up diapers in 2022? Keep 2 decimal places. Answer: xx.xx%",
+      "answer": "65.10%",
+      "explanation": "The penetration rate 85.2% × the proportion of purchasing pull-up diapers 76.4% = 0.852 × 0.764 = 0.650928. Keeping 2 decimal places, it is 65.10%.",
+      "charts_involved": [
+        "chart_80_2",
+        "chart_80_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the historical and forecast trends of the market size and penetration rate of baby diapers, which options best explain the relationship between the changes in market size and penetration rate?",
+      "answer": {
+        "A": "The fluctuation of the market size is mainly determined by the change in raw material prices and has nothing to do with the change in penetration rate.",
+        "B": "During the period when the penetration rate continuously rises, the market size usually grows. However, in the years when the penetration rate accelerates, the growth rate of the market size slows down, indicating that market saturation or other factors may intervene.",
+        "C": "From 2021 to 2023, for every 1 - percentage - point increase in the penetration rate, the market size increases by an average of 2 billion yuan, indicating a stable linear relationship between the two.",
+        "D": "In 2019, an 8.3 - percentage - point increase in the penetration rate led to a 5.6 - billion - yuan decrease in the market size, proving that the faster the penetration rate grows, the more severely the market size shrinks.",
+        "E": "When the penetration rate grows steadily, the market size resumes an upward trend during the forecast period, indicating that a high penetration rate may drive future demand expansion.",
+        "F": "The market size shows a short - term decline during the period of a relatively high penetration rate, while the penetration rate still grows, which may reflect price competition or external economic impacts.",
+        "G": "An increase in the penetration rate will inevitably lead to a synchronous expansion of the market size, because an increase in the user base will directly boost sales."
+      },
+      "charts_involved": [
+        "chart_80_1",
+        "chart_80_2"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the data of consumer purchase categories and purchase channels in 2022, which options reveal the potential relationship between consumer preferences and channel selection?",
+      "answer": {
+        "A": "The purchase proportion of disposable diaper sheets (51.6%) exceeds the proportion of pure offline channels (8.7%), indicating that offline consumers prefer disposable diaper sheets.",
+        "B": "The proportion of offline channels is the smallest, while the purchase proportion of disposable diaper sheets exceeds half, indicating that offline channels may serve emergency or supplementary needs.",
+        "C": "The purchase proportion of pull - up diapers (76.4%) is lower than that of diapers (78.2%), and the proportion of online channels (15.5%) is higher than that of offline channels (8.7%), proving that pull - up diapers are more dependent on online sales.",
+        "D": "Consumers' choice of channels mainly depends on the brand's marketing efforts and has nothing to do with category preferences.",
+        "E": "The proportion of using exclusive online channels is low, but consumers have a medium purchase rate for disposable diaper sheets, suggesting that online channels may focus more on specific categories.",
+        "F": "Consumers frequently purchase diapers and pull - up diapers, and most of them shop through mixed channels, indicating that multi - category preferences and multi - channel behaviors reinforce each other.",
+        "G": "Offline channels are more popular because of the ability to experience products in kind, so the purchase proportion of disposable diaper sheets is the highest."
+      },
+      "charts_involved": [
+        "chart_80_3",
+        "chart_80_4"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "When combining the long - term growth trends of market size and penetration rate with the 2022 consumer behavior data, which options can explain the sustainability of market expansion?",
+      "answer": {
+        "A": "In 2023, the penetration rate reaches 88.6%, approaching saturation, but the market size is predicted to increase by 7.3 billion yuan, proving that prices must be significantly increased.",
+        "B": "The market size declined briefly during the period of a high penetration rate, but consumers maintained a high purchase rate for mainstream categories, reflecting market resilience.",
+        "C": "The sustainability of market expansion depends on the growth of the number of newborns and has nothing to do with penetration rate or consumer behavior.",
+        "D": "The high proportion of online - offline mixed channels (75.8%) will reduce purchase efficiency and hinder market expansion.",
+        "E": "The penetration rate is approaching saturation, but the market size is predicted to grow, and consumers prefer a variety of categories, indicating that category innovation or upgrading may drive future expansion.",
+        "F": "Online - offline mixed channels dominate, and consumers purchase multiple categories, which is consistent with the upward trend of the penetration rate, supporting the improvement of market efficiency.",
+        "G": "The purchase proportion of disposable diaper sheets (51.6%) is much lower than that of diapers (78.2%). To achieve future growth, priority should be given to increasing the penetration rate of disposable diaper sheets."
+      },
+      "charts_involved": [
+        "chart_80_1",
+        "chart_80_2",
+        "chart_80_3",
+        "chart_80_4"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the chart content, considering the market growth potential and changes in the consumer base, how should the development strategy of the baby diaper product line be adjusted to enhance future competitiveness? Please select the most reasonable suggestions:",
+      "answer": {
+        "A": "Increase R & D investment in high - end or innovative diaper products. Since the market penetration rate has been rising continuously and is approaching saturation, while the market size has started to recover after fluctuations in recent years, this indicates that growth may rely more on product upgrading rather than acquiring new users.",
+        "B": "Reduce product prices to stimulate sales growth, as price sensitivity is a key factor in consumers' decision - making.",
+        "C": "Expand advertising and promotional activities to increase brand awareness and attract more new users into the market.",
+        "D": "Prioritize investment in the disposable diaper sheet product line, as its purchase proportion reaches 51.6%, indicating that this category has high growth potential and can replace the mainstream categories.",
+        "E": "During the stage of rapid penetration rate increase, prioritize expanding the production scale of emerging categories such as pull - up diapers. Since consumer purchase data shows that its popularity is comparable to that of mainstream categories, and market forecasts show that the overall scale will grow, this can effectively capture demand changes and seize market share.",
+        "F": "Given that the market size declined continuously in 2019 and 2020, the overall product line scale should be reduced and R & D investment should be cut to control costs and avoid risks.",
+        "G": "Reduce resource allocation to low - demand categories and shift funds to high - growth categories in high - penetration markets. Since the penetration rate is rising steadily but the market size has declined in some years, optimizing the product portfolio can use resources more efficiently."
+      },
+      "charts_involved": [
+        "chart_80_1",
+        "chart_80_2",
+        "chart_80_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the chart content, regarding consumers' purchasing habits and channel selection, how should the marketing budget allocation be optimized to improve sales efficiency and market coverage? Please select the most effective strategy:",
+      "answer": {
+        "A": "When resources are limited, prioritize ensuring the supply of high - demand categories in offline channels. Since offline channels still account for a certain proportion and the purchase proportion of core categories is prominent, this can avoid sales losses caused by channel shortages.",
+        "B": "Provide membership points and loyalty programs to enhance consumer stickiness and increase the repeat purchase rate.",
+        "C": "Increase investment in social media marketing to attract young parents, as the digital trend is becoming increasingly important in parenting products.",
+        "D": "Focus on strengthening the layout of offline channels. Since offline channels account for 8.7% and the purchase proportion of the diaper category is high, it indicates that physical stores are still the core consumption scenario.",
+        "E": "Increase the promotion of exclusive online products. Since the proportion of online channels is not high but has great growth potential, combined with the high penetration rate of high - demand categories such as diapers, this strategy can attract young consumers at low cost and increase sales volume.",
+        "F": "Concentrate marketing resources on online channels. Since online channels account for 15.5% and have lower costs, they can efficiently reach high - demand categories such as diapers (with a purchase proportion of 78.2%).",
+        "G": "Focus on investing in omni - channel integrated marketing. Since consumers mainly use a combination of online and offline channels for purchasing, and product category preferences are highly concentrated, this can meet mainstream demands through a seamless experience and maximize reach."
+      },
+      "charts_involved": [
+        "chart_80_3",
+        "chart_80_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the chart content, considering the market size forecast and penetration rate changes, how should the resource investment strategy for the next three years be formulated to balance short - term profits and long - term growth? Please select the most reasonable suggestions:",
+      "answer": {
+        "A": "Increase resource allocation to offline channels. Since offline channels account for 8.7% and the purchase proportion of core categories such as diapers is high, it can enhance consumer loyalty through physical experience.",
+        "B": "In years when the market size is forecast to grow strongly, simultaneously increase investment in improving the penetration rate across all channels. Since the penetration rate is rising continuously but the growth rate is slowing down, and channel preferences show that the omni - channel is the mainstream, this can amplify growth dividends through channel optimization.",
+        "C": "In the stage when the penetration rate is approaching a high level, promote product diversification (such as expanding the pull - up diaper line). Since consumer purchase data shows that category demands are balanced, and the recovery of the market size indicates that innovation can drive new consumption, this can avoid the risk of relying on a single category.",
+        "D": "Diversify the product line and enter related markets (such as baby wipes) to disperse risks and capture growth opportunities.",
+        "E": "Since the penetration rate reached 88.6% in 2023 and is approaching saturation, overall resource investment should be reduced and short - term profits should be prioritized to avoid over - investment.",
+        "F": "Optimize production costs and supply chain management to improve short - term profit margins and support long - term expansion.",
+        "G": "Optimize the allocation of marketing resources towards online channels, especially during periods of low market size. Since online channels have high cost - efficiency and the proportion of online channels has room for improvement during market size fluctuations, this can stimulate demand while controlling costs."
+      },
+      "charts_involved": [
+        "chart_80_1",
+        "chart_80_2",
+        "chart_80_3",
+        "chart_80_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    }
+  ]
+}

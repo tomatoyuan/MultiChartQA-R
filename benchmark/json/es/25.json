@@ -1,0 +1,205 @@
+{
+  "chart": [
+    "chart_25_1",
+    "chart_25_2",
+    "chart_25_3",
+    "chart_25_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "En la proporción de edad de las personas preocupadas por el 'Sentido del Ritual de la Fiesta de Primavera', ¿la proporción del grupo de edad con la mayor proporción es mayor que la proporción del asunto con la mayor proporción en 'Los teléfonos móviles son los principales culpables de \"matar\" el sentido del ritual de la Fiesta de Primavera'? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "En el gráfico de proporción de edad, el grupo de edad con la mayor proporción es el de 25 a 34 años, con una proporción del 37%. En el gráfico de 'matar', el asunto con la mayor proporción está relacionado con el teléfono móvil, con una proporción del 60%. El 37% no es mayor que el 60%, por lo tanto, la respuesta es 'No'.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Si se ordenan las proporciones de edad de las personas preocupadas por el 'Sentido del Ritual de la Fiesta de Primavera' según el orden mostrado en el gráfico (25 - 34 años → Menores de 19 años → 19 - 24 años → Mayores de 35 años), y se ordenan la 'Distribución del nivel educativo de la población interesada' según el orden mostrado en el gráfico (Posgrado y superior → Grado → Bachillerato → Secundaria → Inferior a secundaria), ¿ambas curvas de porcentaje presentan una tendencia decreciente progresiva? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "La curva de proporción de edad es 37% → 28% → 18% → 17% en el orden dado, lo que es una tendencia decreciente monotónica. La curva de distribución del nivel educativo es 10% → 30% → 25% → 20% → 15%, que aumenta primero y luego disminuye, no es una tendencia decreciente monotónica. Por lo tanto, las dos curvas no disminuyen al mismo tiempo, por lo que la respuesta debe ser 'No'.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Si se consideran los valores de popularidad de atención en cada categoría del 'Sentido del Ritual de la Fiesta de Primavera' en la región norte (según el orden del gráfico) y las proporciones de cada asunto en 'Los teléfonos móviles son los principales culpables de \"matar\" el sentido del ritual de la Fiesta de Primavera' (según el orden del gráfico) como dos curvas respectivamente, ¿estas dos curvas están en correlación positiva, correlación negativa o sin correlación en general? Por favor, responda 'Correlación positiva', 'Correlación negativa' o 'Sin correlación'.",
+      "answer": "Correlación positiva",
+      "explanation": "La curva de popularidad en el norte (85, 70, 65, 90, 75) y la curva de proporción de asuntos (60%, 40%, 30%, 20%, 10%) presentan una dirección general de descenso en los números correspondientes. El coeficiente de correlación de Pearson calculado para los dos conjuntos de datos es aproximadamente 0.10, que aunque no es alto, es positivo, lo que indica una correlación positiva en general.",
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es mayor, la proporción total de las personas menores de 19 años y de 19 a 24 años o la proporción total de las personas con educación secundaria o inferior? Por favor, responda 'Menores de 19 años & 19 - 24 años' o 'Secundaria o inferior'.",
+      "answer": "Menores de 19 años & 19 - 24 años",
+      "explanation": "La proporción de las personas menores de 19 años es del 28%, y la de las personas de 19 a 24 años es del 18%, en total el 46%. La proporción de las personas con educación secundaria es del 20% y la de las personas con educación inferior a la secundaria es del 15%, en total el 35%. 46% > 35%, por lo tanto, 'Menores de 19 años & 19 - 24 años' es mayor.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es mayor, la diferencia en la popularidad de atención entre la 'Cena de Nochevieja' y el 'Dinero de Suerte' en el sur o la proporción de los asuntos relacionados con el teléfono móvil? Por favor, responda 'Diferencia en la popularidad de atención' o 'Proporción relacionada con el teléfono móvil'.",
+      "answer": "Diferencia en la popularidad de atención",
+      "explanation": "La popularidad de la 'Cena de Nochevieja' en el sur es 95, y la del 'Dinero de Suerte' es 80, entonces la diferencia es 15. La proporción de los asuntos relacionados con el teléfono móvil es 0.6 (es decir, 60%). 15 > 0.6, por lo tanto, 'Diferencia en la popularidad de atención' es mayor.",
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Es igual la proporción de los asuntos relacionados con los juegos online a la proporción de las personas mayores de 35 años? Por favor, responda 'Sí' o 'No'.",
+      "answer": "No",
+      "explanation": "La proporción de los asuntos relacionados con los juegos online es del 40%, y la proporción de las personas mayores de 35 años es del 17%. No son iguales, por lo tanto, la respuesta es 'No'.",
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según la distribución de edad de la población interesada y la comparación de la popularidad del sentido del ritual de la Fiesta de Primavera entre el Norte y el Sur, ¿qué categorías de sentido del ritual pueden ser más apreciadas por el grupo principal de jóvenes?",
+      "answer": {
+        "A": "Los jóvenes prefieren formas de celebración modernas, por lo tanto, generalmente carecen de interés por los rituales tradicionales como la Cena de Nochevieja.",
+        "B": "La Cena de Nochevieja tiene una popularidad más destacada en el sur, y dado que la proporción de jóvenes es alta, esto puede sugerir que la Cena de Nochevieja, como tradición central, mantiene una amplia atracción entre los jóvenes.",
+        "C": "La distribución de la popularidad de todas las categorías de sentido del ritual entre el Norte y el Sur es exactamente la misma en el grupo joven.",
+        "D": "En la categoría de Ver el Espectáculo de Festival de Primavera / Dinero de Suerte / Quedar despierto hasta tarde, la popularidad es alta tanto en el Norte como en el Sur. Considerando la distribución de edad en la que el grupo joven es el predominante, estas actividades integrales pueden atraer más a los jóvenes a participar.",
+        "E": "La popularidad de los Saludos de Año Nuevo en el norte (70) supera con creces la del sur (60). Dado que la proporción de jóvenes es la mayor, esto indica que este es el ritual central más apreciado por los jóvenes.",
+        "F": "La popularidad de Poner fuegos artificiales / Adorar a los dioses y pedir bendiciones en el norte alcanza 75, y dado que la proporción de jóvenes es la más alta, esto indica que esta actividad es muy popular entre los jóvenes.",
+        "G": "En la categoría de Dinero de Suerte, la popularidad en el norte es relativamente más alta, y dado que la proporción de jóvenes es la mayor, esto puede indicar que la tradición del Dinero de Suerte es más valorada entre las nuevas generaciones."
+      },
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_1"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "El teléfono móvil se considera el principal factor que debilita el sentido del ritual de la Fiesta de Primavera, pero la distribución de edad de la población interesada muestra que la proporción de jóvenes es la más alta. ¿Qué contradicción potencial se revela?",
+      "answer": {
+        "A": "Los jóvenes son el grupo principal que presta atención al sentido del ritual de la Fiesta de Primavera, pero el porcentaje de cuestiones relacionadas con el teléfono móvil es el más alto, lo que puede reducir su participación real en los rituales tradicionales y generar un conflicto de comportamiento.",
+        "B": "El uso del teléfono móvil puede mejorar la participación en los rituales tradicionales, por ejemplo, a través de los saludos de Año Nuevo en línea para aumentar el sentido del ritual.",
+        "C": "La proporción de jóvenes es la mayor en la distribución de edad, y el factor del teléfono móvil es el principal responsable de la reducción del sentido del ritual, lo que sugiere que aunque los jóvenes prestan atención a las tradiciones, se distraen con la tecnología moderna.",
+        "D": "El grupo de personas menores de 19 años representa el 28%, y el porcentaje de cuestiones relacionadas con el teléfono móvil es 0,6, lo que demuestra que este grupo es la principal víctima del impacto del teléfono móvil.",
+        "E": "El impacto del teléfono móvil supera con creces a otros factores, pero la alta proporción de jóvenes que prestan atención al sentido del ritual refleja la contradicción de la supervivencia de las tradiciones populares en la era digital.",
+        "F": "La influencia combinada de los juegos online (0,4) y la recopilación de sobres rojos (0,3) supera a la del teléfono móvil (0,6), lo que indica que estos son los principales factores de contradicción.",
+        "G": "El grupo joven reduce activamente el uso del teléfono móvil para garantizar la integridad de los rituales tradicionales."
+      },
+      "charts_involved": [
+        "chart_25_2",
+        "chart_25_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En combinación con la distribución del nivel educativo de la población interesada y la diferencia de la popularidad del sentido del ritual de la Fiesta de Primavera entre el Norte y el Sur, ¿qué grupos educativos pueden tener más preferencia por las tradiciones de sentido del ritual de una región específica?",
+      "answer": {
+        "A": "El grupo con título universitario tiene la proporción más alta, y la popularidad de la Cena de Nochevieja es más destacada en el sur, lo que puede indicar que los grupos con alto nivel educativo valoran más la tradición de la cena familiar característica del sur.",
+        "B": "El grupo con educación secundaria superior (25%) prefiere más la actividad de poner fuegos artificiales en el norte, ya que la popularidad de esta categoría en el norte (75) supera con creces la del sur (55).",
+        "C": "El grupo con estudios de posgrado y superiores (10%) tiene la proporción más alta y domina la distribución de la popularidad de rituales como el Dinero de Suerte.",
+        "D": "La proporción del grupo con educación secundaria es significativa, y en la categoría de Poner fuegos artificiales / Adorar a los dioses y pedir bendiciones, la popularidad en el norte es relativamente más alta, lo que puede reflejar la preferencia de este grupo por las actividades folklóricas del norte.",
+        "E": "El nivel educativo no está relacionado con la preferencia por los rituales, y todos los grupos prestan la misma atención a las tradiciones del Norte y el Sur.",
+        "F": "La proporción del grupo con estudios de posgrado y superiores es baja, pero en la comparación de la popularidad entre el Norte y el Sur, la popularidad del Dinero de Suerte es más alta en el norte, lo que puede sugerir que los grupos con alto nivel educativo prestan atención selectivamente a las tradiciones regionales.",
+        "G": "El grupo con título universitario (30%) prefiere la Cena de Nochevieja en el norte, ya que la popularidad en el norte (85) es cercana a la del sur (95)."
+      },
+      "charts_involved": [
+        "chart_25_3",
+        "chart_25_1"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, ¿cómo se debe optimizar la estrategia de asignación de recursos de la promoción del sentido del ritual de la Fiesta de Primavera para mejorar la participación general y el efecto de la transmisión cultural? Por favor, seleccione la sugerencia de estrategia más razonable",
+      "answer": {
+        "A": "Desarrollar contenido interactivo digital dirigido a los jóvenes (entre 19 y 34 años), ya que este grupo tiene la mayor proporción entre los interesados y la alta influencia del uso del teléfono móvil puede debilitar el sentido del ritual tradicional, por lo que se necesitan formas innovadoras para atraer su participación.",
+        "B": "Priorizar la promoción de actividades relacionadas con la Cena de Nochevieja en el sur, ya que el sur tiene un mayor interés en este tipo de rituales; al mismo tiempo, enfocar la promoción en torno al Dinero de Suerte en el norte para adaptarse a las diferencias de preferencias regionales.",
+        "C": "Diseñar guías de rituales simples y prácticas para las personas con bajo nivel educativo (Secundaria y inferior), ya que tienen una proporción significativa pero pueden enfrentar barreras informativas. Además, combinar medidas para mitigar el impacto del teléfono móvil para garantizar la accesibilidad de las actividades.",
+        "D": "Diseñar actividades de rituales de alta complejidad para las personas mayores de 35 años, ya que representan el 17% y tienen un profundo sentido del ritual. Sin embargo, se debe ignorar la asignación de recursos a los jóvenes para reducir costos.",
+        "E": "Recomendar aumentar uniformemente el presupuesto de publicidad de la Fiesta de Primavera en todo el país para cubrir equitativamente a todas las personas y regiones y así mejorar la conciencia de la transmisión cultural.",
+        "F": "Priorizar la promoción de actividades de Saludos de Año Nuevo en el norte, ya que la popularidad en el norte es de 70, mucho más alta que la de 60 en el sur, lo que indica que el norte tiene una mayor preferencia por este tipo de rituales y los recursos deben inclinarse hacia esta región para aprovechar la ventaja regional."
+      },
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_2",
+        "chart_25_3",
+        "chart_25_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en los datos de los gráficos, ¿qué estrategias se deben adoptar para mitigar el impacto negativo del teléfono móvil en el sentido del ritual de la Fiesta de Primavera y aumentar la participación en las tradiciones tradicionales? Por favor, seleccione la sugerencia de decisión más efectiva",
+      "answer": {
+        "A": "Resolver prioritaria mente los asuntos relacionados con la Recogida de sobres rojos, ya que tiene una proporción del 0.3 y un impacto significativo. Se deben desarrollar actividades alternativas, mientras que los asuntos relacionados con el teléfono móvil (con una proporción del 0.6) se pueden tratar más tarde.",
+        "B": "Promover una aplicación de “detox digital” entre las personas con nivel educativo inferior a Secundaria, ya que representan el 35% (20% de Secundaria + 15% de Inferior a secundaria) y tienen una buena comprensión, lo que les permite difundir eficazmente hábitos fuera de línea.",
+        "C": "Utilizar a las personas con alto nivel educativo (Grado y superior) como nodos de difusión para llevar a cabo actividades de promoción de “detox digital”, ya que este grupo tiene una proporción destacada y una buena comprensión, lo que puede amplificar el impacto positivo. Además, combinarlo con medidas para mitigar el impacto del teléfono móvil para garantizar la accesibilidad de las actividades.",
+        "D": "Diseñar proyectos de experiencia de rituales fuera de línea para los jóvenes (menores de 19 años), ya que este grupo tiene una alta proporción pero es susceptible a la interferencia del teléfono móvil. Se necesitan medidas específicas para guiarles y cultivar hábitos culturales a largo plazo.",
+        "E": "Recomendar que todas las familias dejen de usar dispositivos electrónicos durante la Fiesta de Primavera para reducir por fuerza las interferencias y garantizar la pureza de las tradiciones tradicionales.",
+        "F": "Promover actividades familiares colectivas (como quedarse despierto hasta tarde o dar Saludos de Año Nuevo) para reemplazar el uso del teléfono móvil, ya que el teléfono móvil tiene el mayor impacto y el grupo joven tiene una alta proporción, por lo que es más probable que reduzcan su dependencia digital a través de la interacción familiar."
+      },
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_2",
+        "chart_25_3",
+        "chart_25_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos, ¿cómo se debe formular una estrategia de optimización de las actividades del sentido del ritual de la Fiesta de Primavera para mejorar especialmente la voluntad de participación de diferentes grupos de personas? Por favor, seleccione la sugerencia de estrategia más viable",
+      "answer": {
+        "A": "Priorizar la promoción de actividades relacionadas con Poner fuegos artificiales / Adorar a los dioses y pedir bendiciones en el sur, ya que la popularidad en el sur es de 55, mucho más alta que la de 75 en el norte, lo que indica que el sur tiene una mayor demanda. Los recursos deben concentrarse en esta región para aumentar la participación.",
+        "B": "Fortalecer las actividades de Saludos de Año Nuevo en el sur, ya que el interés en estas actividades es relativamente bajo en el sur pero tiene espacio para mejorar. Al mismo tiempo, promocionarlas entre los jóvenes (entre 19 y 24 años) para equilibrar la distribución por edad.",
+        "C": "Recomendar ampliar el tamaño de las actividades y aumentar los incentivos de premios para atraer a un público más amplio y así mejorar la atmósfera festiva general.",
+        "D": "Crear actividades de participación de bajo umbral para las personas mayores de 35 años, ya que aunque su proporción es baja, pueden tener un profundo sentido del ritual. Se debe evitar una asignación desigual de recursos y utilizar los datos del impacto del teléfono móvil para diseñar alternativas fuera de línea.",
+        "E": "Concentrar los recursos en mejorar la experiencia de ritual de las personas entre 25 y 34 años, ya que este grupo tiene la mayor proporción entre los interesados. Además, considerando la distribución por nivel educativo, es más fácil llegar a ellos a través de canales digitales. Al mismo tiempo, integrar las preferencias regionales (como el Dinero de Suerte en el norte) para aumentar la atracción.",
+        "F": "Diseñar actividades exclusivamente fuera de línea para las personas entre 25 y 34 años, excluyendo completamente elementos digitales, ya que este grupo tiene la mayor proporción (37%) y el teléfono móvil tiene un gran impacto. Sin embargo, se debe ignorar a las personas con alto nivel educativo (Grado y superior, que representan el 40%) para ahorrar recursos."
+      },
+      "charts_involved": [
+        "chart_25_1",
+        "chart_25_2",
+        "chart_25_3",
+        "chart_25_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

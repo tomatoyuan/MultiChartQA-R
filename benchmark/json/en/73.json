@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_73_1",
+    "chart_73_2",
+    "chart_73_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Do both the 'Usage frequency of users' commonly used instant delivery platforms' and the 'Cumulative usage time of users' commonly used platforms' follow the pattern where the middle categories have high percentages and the two ends have low percentages? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The middle categories in both have high percentages, while the categories at the two ends have low percentages.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the '$21 - $30' in the 'Single - payment fees of users' commonly used instant delivery platforms' and the '1 - 2 times per month' in the 'Usage frequency of users' commonly used instant delivery platforms' have the same ranking in terms of percentage in their respective charts? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are the categories with the highest percentages.",
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the 'Usage frequency of users' commonly used instant delivery platforms' and the 'Cumulative usage time of users' commonly used platforms' have the same number of data items selected by the blue dashed box? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both have 3 items.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the total number of platform users is 1 million. How many users are expected to pay between $21 and $30 and use the platform 3 - 4 times a month? Round to the nearest integer. Answer: xx people",
+      "answer": "165,990 people",
+      "explanation": "Total users (1 million) × Proportion of users paying between $21 and $30 (50.3%) × Proportion of users using the platform 3 - 4 times a month (33.0%) = 1,000,000 × 0.503 × 0.33 = 165,990 people.",
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the proportion of users who have used the platform for more than 1 year to the proportion of users who use the platform 1 - 2 times a month? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "1.24 times",
+      "explanation": "Proportion of users who have used the platform for more than 1 year = Proportion of users who have used for over 3 years (8.4%) + Proportion of users who have used for 2 - 3 years (12.5%) + Proportion of users who have used for 1 - 2 years (30.7%) = 51.6%; Proportion of users who use the platform 1 - 2 times a month (41.5%); 51.6% ÷ 41.5% = 1.243 → 1.24 times.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the product of the proportion of users who use the platform 1 - 2 times a month and the proportion of users who have used the platform for 6 - 12 months? Round to 2 decimal places. Answer: xx.xx%",
+      "answer": "9.50%",
+      "explanation": "Proportion of users who use the platform 1 - 2 times a month (41.5%) × Proportion of users who have used the platform for 6 - 12 months (22.9%) = 0.415 × 0.229 = 0.0950 → 9.50%.",
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the charts of users' single - payment fee distribution and usage frequency distribution, which options best describe the consistent pattern between users' consumption behavior and usage habits?",
+      "answer": {
+        "A": "The proportion of users with single - payment fees in the middle range is the highest, and the proportion of users with medium usage frequency is also the highest, indicating that most users tend to have a balanced intensity of consumption and usage.",
+        "B": "The proportion of users with single - payment fees between $10 - $20 is the highest, reaching 50.3%, indicating that the low - price strategy is the most popular.",
+        "C": "The proportion of users with high single - payment fees is the lowest, and the proportion of users with high - frequency usage is also the lowest, suggesting that high - consumption and high - frequency behaviors are not common among users.",
+        "D": "The proportion of users with low single - payment fees is relatively low, while the proportion of users with low - frequency usage is relatively high. However, considering the frequency distribution, low - frequency behaviors may be more scattered.",
+        "E": "The proportion of users who use the service 5 times or more per month is the highest, at 41.5%, indicating that most users rely on instant delivery services for high - frequency consumption.",
+        "F": "The lower the payment fee, the higher the usage frequency, because low - price services are more likely to attract repeat consumption.",
+        "G": "High - frequency users usually pay high fees, which reflects the preference of high - end users on the instant delivery platform."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the charts of users' cumulative usage time distribution and single - payment fee distribution, which options reveal the potential relationship between user loyalty and consumption level?",
+      "answer": {
+        "A": "The proportion of users with a usage time of 1 - 2 years is the lowest, only 6.5%, indicating that there are fewer users with medium loyalty.",
+        "B": "Long - term users are more likely to pay the lowest fees because they get discounts through loyalty programs.",
+        "C": "New users pay the highest fees because they are unfamiliar with the platform and choose high - price services.",
+        "D": "The proportion of users with a medium usage time is the highest, and the proportion of users with single - payment fees in the middle range is also the highest, indicating that the core user group shows medium preferences in terms of loyalty and consumption.",
+        "E": "The proportion of users with single - payment fees between $31 - $40 is the highest, at 50.3%, indicating that high - consumption is the core feature of user loyalty.",
+        "F": "The proportion of users with a long usage time is relatively high, but the proportion of users with high - payment fees is even higher, suggesting that long - term users may be more inclined to higher consumption.",
+        "G": "The proportion of new users is similar to the proportion of users with low - payment fees. However, considering the usage time distribution, the consumption behavior of new users may be more variable."
+      },
+      "charts_involved": [
+        "chart_73_3",
+        "chart_73_1"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the charts of users' usage frequency distribution and cumulative usage time distribution, which options best explain the data inconsistency between high - frequency users and long - term users?",
+      "answer": {
+        "A": "The proportion of users with medium usage frequency is the highest, and the proportion of users with a medium usage time is also the highest. However, the proportion of low - frequency users in the frequency distribution is relatively high, while the proportion of new users in the usage time distribution is relatively low, suggesting that low - frequency users may include some long - term but inactive users.",
+        "B": "High - frequency users must be long - term users because frequent use will naturally accumulate usage time.",
+        "C": "The proportion of users who use the service 3 - 4 times per month is the lowest, only 6.5%, indicating that medium - frequency behaviors are not common.",
+        "D": "The proportion of high - frequency usage is similar to the proportion of users with a long usage time. However, considering the distribution, high - frequency users may be concentrated in the group with a shorter usage time.",
+        "E": "The proportion of users with a usage time of 6 - 12 months is the highest, at 30.7%, indicating that short - term users dominate high - frequency behaviors.",
+        "F": "Low - frequency users are mainly new users because they may reduce their usage after trying the service.",
+        "G": "The proportion of high - frequency users is very low, and the proportion of users with a long usage time is also low, indicating that high - frequency behaviors are not necessarily strongly related to long - term loyalty."
+      },
+      "charts_involved": [
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "As an operator of an instant delivery platform, you find that users' behaviors show specific patterns. Based on these patterns, how should you adjust the pricing and user incentive strategies to simultaneously improve user activity and the platform's overall revenue? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "Offer large discounts for the lowest payment fee range ($10 - $20) because the proportion of this group is relatively low (18.4%). The low - price strategy can quickly attract price - sensitive users and significantly increase usage frequency and revenue.",
+        "B": "Design an on - boarding incentive program (such as a first - order discount) for new users (the group with a shorter usage time) because the usage time data shows that the proportion of new users is significant. Considering the usage frequency, the group of low - frequency users has a certain scale. This strategy can help new users quickly establish usage habits, reduce early churn, and increase usage frequency.",
+        "C": "Strengthen brand advertising and social media promotion to improve the platform's popularity, attract more new users, and naturally increase overall participation.",
+        "D": "Optimize the pricing structure in the range where users' payment amounts are most concentrated (such as introducing gradient discounts) because this range represents the mainstream users' payment habits. Considering the usage frequency, the proportion of medium - active users is relatively high. Optimizing the pricing can stimulate them to increase their usage frequency, thus improving overall participation and revenue.",
+        "E": "Launch a loyalty reward program (such as points redemption) for long - term users (the group with a longer usage time) because the proportion of this group is stable. Considering the usage frequency data, encouraging them to maintain or increase their current usage frequency can strengthen user stickiness and stabilize the revenue source.",
+        "F": "Implement a comprehensive price - reduction strategy (such as a 15% overall price cut) for all users to stimulate demand, expand market share, and indirectly improve user activity and revenue.",
+        "G": "Design exclusive high - value rewards for the group with the highest usage frequency (5 times or more per month, 8.0%) because they have the greatest revenue potential. Optimizing their loyalty can directly improve the platform's overall performance."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The instant delivery platform hopes to allocate marketing resources reasonably to effectively improve user retention rate and usage frequency. Based on user behavior characteristics, which user groups should the resources be prioritized for? Please select the most effective strategy suggestion.",
+      "answer": {
+        "A": "Focus on new users with the shortest usage time (≤1 month, 7.4%) because they have the highest risk of churn. High - intensity incentives (such as a free first order) can quickly increase their usage frequency and convert them into stable users.",
+        "B": "Optimize the platform's APP interface and user experience design to reduce operational friction and naturally increase the usage frequency and loyalty of all users.",
+        "C": "Uniformly increase service subsidies (such as free delivery) for all users to fairly improve satisfaction and retention rate, avoid group discrimination, and maximize resource coverage.",
+        "D": "Design wake - up activities (such as time - limited frequency rewards) for low - frequency users because the usage frequency data shows that the proportion of this group cannot be ignored. Considering the payment fees, preventing them from churning due to price sensitivity, this inclusive strategy can fairly increase participation and conform to the principle of resource efficiency.",
+        "E": "Allocate resources mainly to users with a medium usage time (such as the group with a usage time of 6 months to 2 years) because the proportion of this group is the highest. Considering the usage frequency data, they may be in an active transition period. Targeted resource investment (such as personalized push) can prevent the decline of usage frequency and improve retention.",
+        "F": "Increase service investment (such as optimizing fast delivery) for the user group with medium - range payment amounts because they represent the main body of users. Considering the usage time data, the proportion of new users is relatively high. Improving the service experience can accelerate the conversion of new users to medium - frequency users, thus optimizing the overall frequency distribution.",
+        "G": "Provide personalized services for the group with the highest payment fees ($41 or above, 4.8%) because they contribute a large amount per order. Optimizing their experience can directly improve the retention rate and usage frequency and drive overall revenue."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The instant delivery platform plans to launch a promotion activity to enhance user participation. Combining users' payment habits and usage persistence, how should the activity be designed to cover key groups and maximize the effect? Please select the most reasonable strategy.",
+      "answer": {
+        "A": "Provide time - sensitive incentives (such as a first - month discount) for new users or short - time users because the usage time data shows that the proportion of new users is prominent. Considering the payment fees, avoiding high thresholds, this strategy can accelerate the migration of users from low - frequency to high - frequency and improve initial participation.",
+        "B": "Design high - value retention activities (such as anniversary feedback) for long - term users because the stable group in the usage time has a relatively high proportion. Considering the usage frequency, encouraging them to maintain their usage frequency can generate word - of - mouth effects and indirectly attract new users.",
+        "C": "Design high - price membership packages for the group with the longest usage time (over 3 years, 8.4%) because they have high loyalty. Exclusive benefits can maintain their usage frequency and attract new users.",
+        "D": "Launch a time - limited promotion in the payment fee range of $31 - $40 (26.5%) because the proportion of this group is relatively high. Considering the frequency data, the proportion of low - frequency users is relatively large (such as 1 - 2 times a year, 3.0%). The activity can effectively wake up their participation.",
+        "E": "Launch a platform - wide coupon activity (such as a $5 discount on all orders) to simply encourage all users to increase their usage frequency and ensure maximum activity coverage.",
+        "F": "Launch a frequency - bound promotion (such as 'the more you use, the more you save') in the mainstream payment range because the user base in this range is extensive. Considering the usage frequency, the proportion of medium - active users is high. This design can directly stimulate the increase of usage frequency and expand the activity coverage.",
+        "G": "Cooperate with third - party brands to hold joint marketing events to inject external traffic and improve user participation, thus indirectly optimizing usage frequency and retention."
+      },
+      "charts_involved": [
+        "chart_73_1",
+        "chart_73_2",
+        "chart_73_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

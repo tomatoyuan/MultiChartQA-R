@@ -1,0 +1,175 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the percentage of U.S. adults who say marijuana is NET Legal?\n question2: What is the number of cannabis dispensaries in Florida? Answer with one number.",
+                "rationale": "rationale1: We are asked to obtain the percentage of U.S. adults with a certain view on marijuana's net - legal status from the chart, and we can directly find the corresponding value.\n rationale2: We are looking for the number of cannabis dispensaries in Florida, and it is stated in the chart.",
+                "answer": "88%; 1233",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_7-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the number of cannabis dispensaries in Florida? Answer with one number.\n question2: What proportion of Americans believe that when marijuana is legal for recreational use, it has no impact on the criminal - justice system?\n question3: What proportion of Conserv U.S. adults surveyed say marijuana should be legal for medical use ONLY?",
+                "rationale": "rationale1: We are looking for the number of cannabis dispensaries in Florida, and it is stated in the chart.\n rationale2: We need to extract the proportion of Americans who think legal recreational marijuana has no impact on the criminal - justice system from the chart.\n rationale3: We need to look for the proportion of Conservative U.S. adults who support medical - only legalization in the chart.",
+                "answer": "1233; 38%; 44%",
+                "involved_content_sources": [
+                    "chart_7-4",
+                    "chart_5-5",
+                    "chart_3-38"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the number of cannabis dispensaries in Florida? Answer with one number.\n question2: What was the proportion of Americans who thought the use of marijuana should be legal in 2023?\n question3: What percentage of Americans say that when marijuana is legal for recreational use, it decreases the use of other drugs like heroin, fentanyl and cocaine?\n question4: What proportion of Liberal U.S. adults surveyed say marijuana should be legal for medical AND recreational use?",
+                "rationale": "rationale1: We are looking for the number of cannabis dispensaries in Florida, and it is stated in the chart.\n rationale2: The question directly asks for the proportion of Americans who thought the use of marijuana should be legal in 2023, and we can find this information from the given chart.\n rationale3: The question requires the percentage of Americans holding the opinion that legal recreational marijuana decreases the use of certain other drugs, which is provided in the chart.\n rationale4: By referring to the chart, we can obtain the proportion of Liberal U.S. adults who support both medical and recreational legalization.",
+                "answer": "1233; 70%; 27%; 84%",
+                "involved_content_sources": [
+                    "chart_7-4",
+                    "chart_4-16",
+                    "chart_5-7",
+                    "chart_3-49"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference between the number of cannabis dispensaries in California and the combined number of cannabis dispensaries in Colorado and Michigan? Please provide the answer as a whole number.\n question2: What is the difference in the proportion of Americans who think legalizing marijuana for recreational use is good for local economies and those who think it makes the criminal - justice system more fair?",
+                "rationale": "rationale1: First, we find the combined number of cannabis dispensaries in Colorado and Michigan. The number of dispensaries in Colorado is 1,054 and in Michigan is 942, so their sum is 1054 + 942 = 1996. Then we find the difference between the number of dispensaries in California (3,659) and the combined number of dispensaries in Colorado and Michigan. So, 3659 - 1996 = 1663.\n rationale2: We need to find the proportion of Americans who think legalizing marijuana for recreational use is good for local economies from chart 5 (52%) and the proportion of those who think it makes the criminal - justice system more fair (42%), then calculate the difference between these two proportions.",
+                "answer": "1663; 10%",
+                "involved_content_sources": [
+                    "chart_7-1",
+                    "chart_7-3",
+                    "chart_7-5",
+                    "chart_5-1",
+                    "chart_5-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference between the number of cannabis dispensaries in California and the combined number of cannabis dispensaries in Colorado and Michigan? Please provide the answer as a whole number.\n question2: What is the difference in the proportion of Americans who think legalizing marijuana for recreational use is good for local economies and those who think it makes the criminal - justice system more fair?\n question3: What is the difference between the proportion of U.S. adults who say marijuana is NET Legal and the proportion of U.S. adults who say marijuana should not be legal at all? Please provide the answer as a percentage.",
+                "rationale": "rationale1: First, we find the combined number of cannabis dispensaries in Colorado and Michigan. The number of dispensaries in Colorado is 1,054 and in Michigan is 942, so their sum is 1054 + 942 = 1996. Then we find the difference between the number of dispensaries in California (3,659) and the combined number of dispensaries in Colorado and Michigan. So, 3659 - 1996 = 1663.\n rationale2: We need to find the proportion of Americans who think legalizing marijuana for recreational use is good for local economies from chart 5 (52%) and the proportion of those who think it makes the criminal - justice system more fair (42%), then calculate the difference between these two proportions.\n rationale3: To find the difference, we subtract the proportion of U.S. adults who say marijuana should not be legal at all (11%) from the proportion of U.S. adults who say marijuana is NET Legal (88%). So, 88% - 11% = 77%.",
+                "answer": "1663; 10%; 77%",
+                "involved_content_sources": [
+                    "chart_7-1",
+                    "chart_7-3",
+                    "chart_7-5",
+                    "chart_5-1",
+                    "chart_5-4",
+                    "chart_2-1",
+                    "chart_2-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the number of cannabis dispensaries in California and the combined number of cannabis dispensaries in Colorado and Michigan? Please provide the answer as a whole number.\n question2: What is the difference in the proportion of Americans who think legalizing marijuana for recreational use is good for local economies and those who think it makes the criminal - justice system more fair?\n question3: What is the difference between the proportion of U.S. adults who say marijuana is NET Legal and the proportion of U.S. adults who say marijuana should not be legal at all? Please provide the answer as a percentage.\n question4: What is the difference in the proportion of U.S. adults aged 18 - 29 who say marijuana should be legal for medical AND recreational use and the proportion of U.S. adults aged 75+ who say the same?",
+                "rationale": "rationale1: First, we find the combined number of cannabis dispensaries in Colorado and Michigan. The number of dispensaries in Colorado is 1,054 and in Michigan is 942, so their sum is 1054 + 942 = 1996. Then we find the difference between the number of dispensaries in California (3,659) and the combined number of dispensaries in Colorado and Michigan. So, 3659 - 1996 = 1663.\n rationale2: We need to find the proportion of Americans who think legalizing marijuana for recreational use is good for local economies from chart 5 (52%) and the proportion of those who think it makes the criminal - justice system more fair (42%), then calculate the difference between these two proportions.\n rationale3: To find the difference, we subtract the proportion of U.S. adults who say marijuana should not be legal at all (11%) from the proportion of U.S. adults who say marijuana is NET Legal (88%). So, 88% - 11% = 77%.\n rationale4: We need to find the proportion of U.S. adults aged 18 - 29 who support both medical and recreational legalization and the proportion of U.S. adults aged 75+ who support it. Then subtract the latter from the former to get the difference.",
+                "answer": "1663; 10%; 77%; 40%",
+                "involved_content_sources": [
+                    "chart_7-1",
+                    "chart_7-3",
+                    "chart_7-5",
+                    "chart_5-1",
+                    "chart_5-4",
+                    "chart_2-1",
+                    "chart_2-4",
+                    "chart_3-16",
+                    "chart_3-31"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who say marijuana should be legally used for medical AND recreational use and the proportion of Americans who thought the use of marijuana should be legal in 1969?",
+                "rationale": "The proportion of U.S. adults who say marijuana should be legally used for medical AND recreational use is 57% (from chart 2). The proportion of Americans who thought the use of marijuana should be legal in 1969 is 12% (from chart 4). The difference is 57% - 12% = 45%.",
+                "answer": "45%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_4-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who say marijuana should be legally used for medical AND recreational use, the proportion of Americans who thought the use of marijuana should be legal in 2023, and the proportion of Americans who say when marijuana is legal for recreational use, it is good for local economies? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who say marijuana should be legally used for medical AND recreational use is 57%. The proportion of Americans who thought the use of marijuana should be legal in 2023 is 70%. The proportion of Americans who say when marijuana is legal for recreational use, it is good for local economies is 52%. The average is (57% + 70% + 52%) / 3 = 59.67% (rounded to two decimal places).",
+                "answer": "59.67%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_4-16",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "If we consider the proportion of Americans who think marijuana should be legally used for medical and recreational use, the change in the proportion of those who think it should be legal from 1969 to 2023, the proportion of Americans who think legalizing marijuana for recreational use is good for local economies, and the number of cannabis dispensaries in California, what is the result of multiplying the sum of the first three values by the number of dispensaries in California and then dividing by 100?",
+                "rationale": "From chart_2, the proportion of U.S. adults who say marijuana should be legally used for medical AND recreational use is 57%. From chart_4, the proportion of Americans who thought the use of marijuana should be legal in 1969 was 12%, and in 2023 it was 70%, so the change is 70% - 12% = 58%. From chart_5, the proportion of Americans who say when marijuana is legal for recreational use, it is good for local economies is 52%. The sum of these three values is 57 + 58 + 52 = 167. From chart_7, the number of cannabis dispensaries in California is 3,659. Then, (167 * 3659) / 100 = 6110.53.",
+                "answer": "6110.53",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_4-16",
+                    "chart_5-1",
+                    "chart_7-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of U.S. adults who think marijuana should be legal for medical and recreational use and medical use only in 2024, and the average of the proportions of Americans who thought marijuana should be legal in 1969 and 2023?",
+                "rationale": "In 2024, the proportion of U.S. adults who think marijuana should be legal for medical and recreational use is 57% (chart_2-2), and the proportion of those who think it should be legal for medical use only is 32% (chart_2-3). The sum of these two proportions is 57% + 32% = 89%. In 1969, the proportion of Americans who thought marijuana should be legal was 12% (chart_4-2), and in 2023, it was 70% (chart_4-16). The average of these two proportions is (12% + 70%) / 2 = 41%. Then the difference between the two is 89% - 41% = 48%.",
+                "answer": "48%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_4-2",
+                    "chart_4-16"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of 18 - 29 - year - old U.S. adults who think marijuana should be legal for medical and recreational use, the proportion of Americans in 2023 who thought the use of marijuana should be legal, and the proportion of Americans who say when marijuana is legal for recreational use, it is good for local economies, with weights being 0.2, 0.4, and 0.4 respectively?",
+                "rationale": "The proportion of 18 - 29 - year - old U.S. adults who think marijuana should be legal for medical and recreational use is 71% (chart_3-16); the proportion of Americans in 2023 who thought the use of marijuana should be legal is 70% (chart_4-16); the proportion of Americans who say when marijuana is legal for recreational use, it is good for local economies is 52% (chart_5-1). The weighted average is (71%\u00d70.2 + 70%\u00d70.4 + 52%\u00d70.4) = (0.71\u00d70.2 + 0.7\u00d70.4 + 0.52\u00d70.4) = 0.142 + 0.28 + 0.208 = 0.63 = 63%.",
+                "answer": "63%",
+                "involved_content_sources": [
+                    "chart_3-16",
+                    "chart_3-17",
+                    "chart_4-15",
+                    "chart_4-16",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who think marijuana should be legal for medical and recreational use in 2024, the difference between the proportion of Americans who thought marijuana use should be legal in 2023 and 1969, the proportion of Americans who say legalizing marijuana for recreational use is good for local economies, and the proportion of states with legalized recreational and medical use of marijuana out of all the states mentioned in the state - legalization chart?",
+                "rationale": "From chart 2, the proportion of U.S. adults who say marijuana should be legally used for medical AND recreational use is 57%. From chart 4, the proportion of Americans who thought marijuana use should be legal in 2023 was 70% and in 1969 was 12%, so the difference is 70% - 12% = 58%. From chart 5, the proportion of Americans who say when marijuana is legal for recreational use, it is good for local economies is 52%. From chart 6, the number of states with legalized recreational and medical use is 23, and the total number of states mentioned is 23 + 4+ 16 = 43. So the proportion is (23 / 43) * 100% \u2248 53.49%. The average of these four values is (57% + 58% + 52% + 53.49%) / 4 = 55.12% (rounded to two decimal places).",
+                "answer": "55.12%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_2-4",
+                    "chart_4-2",
+                    "chart_4-16",
+                    "chart_5-1",
+                    "chart_5-13",
+                    "chart_6-1",
+                    "chart_6-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

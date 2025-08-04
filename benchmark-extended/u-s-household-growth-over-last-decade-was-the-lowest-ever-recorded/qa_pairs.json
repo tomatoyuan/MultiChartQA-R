@@ -1,0 +1,204 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the percentage increase in the number of households in West Virginia from 2010 - 2020?\n question2: How many Hispanic adults per 100 in the U.S. live in separate households? Give the answer as a number.",
+                "rationale": "rationale1: The question requires finding the percentage increase of households in West Virginia within the given time - period, and the data is available in the chart.\n rationale2: This question requires the number of Hispanic adults per 100 living in separate households, which can be found in the chart.",
+                "answer": "-3%; 42.2",
+                "involved_content_sources": [
+                    "chart_4-34",
+                    "chart_2-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the percentage increase in the number of households in Texas from 2010 - 2020?\n question2: Among U.S. adults, what is the number of Black adults living in separate households per 100? Answer with a number.\n question3: What is the number of households per 100 U.S. all - adults in 2020?",
+                "rationale": "rationale1: We need to obtain the percentage increase of households in Texas from the chart data for the 2010 - 2020 period.\n rationale2: The query is about the number of Black adults per 100 living in separate households, and the necessary data is in the chart.\n rationale3: The question directly asks for the number of households per 100 U.S. all - adults in 2020, and the relevant information can be found in the given chart.",
+                "answer": "18%; 55.0; 50.9",
+                "involved_content_sources": [
+                    "chart_4-47",
+                    "chart_2-2",
+                    "chart_3-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the percentage growth in the population residing in households in the 2010 - 2020 decade?\n question2: What is the percentage increase in the number of households in West Virginia from 2010 - 2020?\n question3: What is the number of households per 100 U.S. adults aged 35 - 54 in 2020?\n question4: What is the number of Asian adults per 100 in the U.S. living in separate households? Answer with a number.",
+                "rationale": "rationale1: The question asks for the percentage growth in the population residing in households in the 2010 - 2020 decade, which can be retrieved from the chart.\n rationale2: The question requires finding the percentage increase of households in West Virginia within the given time - period, and the data is available in the chart.\n rationale3: We need to find the number of households per 100 U.S. adults aged 35 - 54 in 2020, which is provided in the chart.\n rationale4: The question is asking for the number of Asian adults per 100 living in separate households, and the chart provides this information.",
+                "answer": "7; -3%; 53.5; 41.9",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_4-34",
+                    "chart_3-5",
+                    "chart_2-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference between the sum of the percentage growth in the number of U.S. households and the population residing in households in the 1860 - 1870 decade and the sum of the same in the 2010 - 2020 decade?\n question2: What is the total decrease in the number of households per 100 U.S. adults across all age - groups from 2010 to 2020? The age - groups are all - adults, 18 - 34, 35 - 54, 55 - 64, and 65+. Please provide a single number as the answer.",
+                "rationale": "rationale1: We need to first calculate the sum of the percentage growth in the number of U.S. households and the population residing in households for both the 1860 - 1870 decade and the 2010 - 2020 decade. Then find the difference between these two sums. This requires using four different data points from the chart.\n rationale2: To find the total decrease, we need to calculate the decrease for each age - group by subtracting the 2020 value from the 2010 value for each group and then sum up these decreases. This calculation uses multiple data points from the chart to get the overall change in household numbers across different age - groups from 2010 to 2020.",
+                "answer": "67; 6.6",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_3-9",
+                    "chart_3-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference between the sum of the percentage growth in the number of U.S. households and the population residing in households in the 1860 - 1870 decade and the sum of the same in the 2010 - 2020 decade?\n question2: What is the total decrease in the number of households per 100 U.S. adults across all age - groups from 2010 to 2020? The age - groups are all - adults, 18 - 34, 35 - 54, 55 - 64, and 65+. Please provide a single number as the answer.\n question3: What is the difference in the number of adults living in separate households per 100 between Black adults and Asian adults among U.S. adults of each racial or ethnic group?",
+                "rationale": "rationale1: We need to first calculate the sum of the percentage growth in the number of U.S. households and the population residing in households for both the 1860 - 1870 decade and the 2010 - 2020 decade. Then find the difference between these two sums. This requires using four different data points from the chart.\n rationale2: To find the total decrease, we need to calculate the decrease for each age - group by subtracting the 2020 value from the 2010 value for each group and then sum up these decreases. This calculation uses multiple data points from the chart to get the overall change in household numbers across different age - groups from 2010 to 2020.\n rationale3: To find the difference, we need to subtract the number of Asian adults living in separate households per 100 from the number of Black adults living in separate households per 100. The data for these two values are provided in the chart.",
+                "answer": "67; 6.6; 13.1",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_3-9",
+                    "chart_3-10",
+                    "chart_2-2",
+                    "chart_2-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the sum of the percentage growth in the number of U.S. households and the population residing in households in the 1860 - 1870 decade and the sum of the same in the 2010 - 2020 decade?\n question2: What is the total decrease in the number of households per 100 U.S. adults across all age - groups from 2010 to 2020? The age - groups are all - adults, 18 - 34, 35 - 54, 55 - 64, and 65+. Please provide a single number as the answer.\n question3: What is the difference in the number of adults living in separate households per 100 between Black adults and Asian adults among U.S. adults of each racial or ethnic group?\n question4: What is the average percentage increase in the number of households from 2010 - 2020 for states in the Northwest region (Washington, Oregon, Idaho, Montana)?",
+                "rationale": "rationale1: We need to first calculate the sum of the percentage growth in the number of U.S. households and the population residing in households for both the 1860 - 1870 decade and the 2010 - 2020 decade. Then find the difference between these two sums. This requires using four different data points from the chart.\n rationale2: To find the total decrease, we need to calculate the decrease for each age - group by subtracting the 2020 value from the 2010 value for each group and then sum up these decreases. This calculation uses multiple data points from the chart to get the overall change in household numbers across different age - groups from 2010 to 2020.\n rationale3: To find the difference, we need to subtract the number of Asian adults living in separate households per 100 from the number of Black adults living in separate households per 100. The data for these two values are provided in the chart.\n rationale4: To find the average, we need to sum up the percentage increases of the given states and then divide by the number of states. This involves retrieving the relevant percentage increase data from the chart for each state and performing basic arithmetic operations.",
+                "answer": "67; 6.6; 13.1; 12.5",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_3-9",
+                    "chart_3-10",
+                    "chart_2-2",
+                    "chart_2-4",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "Among the states with a household growth rate close to the national household growth rate in the 2010 - 2020 decade, which state has a lower proportion of Hispanic adults living in separate households compared to the proportion of Asian adults living in separate households? And what is the difference in the number of adults living in separate households per 100 between them?",
+                "rationale": "The national household growth rate in the 2010 - 2020 decade is 9% (chart_1-2). States with a growth rate close to this include Montana (9%, chart_4-4), South Dakota (9%, chart_4-6), and Virginia (9%, chart_4-35). The number of Hispanic adults living in separate households per 100 is 42.2 (chart_2-3), and the number of Asian adults living in separate households per 100 is 41.9 (chart_2-4). The difference is 42.2 - 41.9 = 0.3.",
+                "answer": "0.3",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of dividing the percentage growth in the number of U.S. households in the 2010 - 2020 decade by the number of Hispanic adults living in separate households per 100, and then multiplying by the percentage increase in the number of households in Utah from 2010 - 2020? (Round the result to two decimal places.)",
+                "rationale": "The percentage growth in the number of U.S. households in the 2010 - 2020 decade is 9. The number of Hispanic adults living in separate households per 100 is 42.2. The percentage increase in the number of households in Utah from 2010 - 2020 is 20. The calculation is (9 / 42.2) * 20 \u2248 4.27 (rounded to two decimal places).",
+                "answer": "4.27",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-3",
+                    "chart_4-29"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the percentage growth in the number of U.S. households in the 2010-2020 decade and the percentage growth in the population residing in households in the 2010-2020 decade, the difference between the number of households per 100 U.S. adults aged 18-34 in 2020 and in 2010, the difference between the number of White adults living in separate households per 100 and the number of Asian adults living in separate households per 100, and the difference between the percentage increase in the number of households in Utah from 2010-2020 and the percentage increase in the number of households in West Virginia from 2010-2020?",
+                "rationale": "From chart1-2, the percentage growth in the number of U.S. households in the 2010-2020 decade is 9%, and from chart1-4, the percentage growth in the population residing in households in the 2010-2020 decade is 7%, so the difference is 9% - 7% = 2%. From chart3-3, the number of households per 100 U.S. adults aged 18-34 in 2020 is 34.7, and from chart3-4, in 2010 it is 36.2, so the difference is 34.7 - 36.2 = -1.5. From chart2-1, the number of White adults living in separate households per 100 is 53.3, and from chart2-4, the number of Asian adults living in separate households per 100 is 41.9, so the difference is 53.3 - 41.9 = 11.4. From chart4-29, the percentage increase in the number of households in Utah from 2010-2020 is 20%, and from chart4-34, the percentage increase in the number of households in West Virginia from 2010-2020 is -3%, so the difference is 20% - (-3%) = 23%. The average of these differences is (2% + (-1.5) + 11.4 + 23%) / 4 = 8.225% (converting the non-percentage value -1.5 to a percentage equivalent for the calculation context, considering it as -1.5% here for simplicity of average calculation with other percentage values). In a more proper sense, if we consider the values as they are and calculate the average of 2, -1.5, 11.4 and 23, we get (2 - 1.5 + 11.4 + 23) / 4 = 8.725. Here we assume the context allows for this kind of mixed calculation and present the result as a percentage for consistency with the nature of other data in the problem, so the final answer is 8.725%.).",
+                "answer": "8.725%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_3-3",
+                    "chart_4-29"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average percentage growth of households in Idaho and Utah from 2010 - 2020 and the average number of Asian and Hispanic adults living in separate households per 100?",
+                "rationale": "The percentage increase in the number of households in Idaho from 2010 - 2020 is 17% (chart_4-3), and in Utah is 20% (chart_4-29). The average of these two growth rates is (17% + 20%) / 2 = 18.5%. Among U.S. adults of each racial or ethnic group, the number of Asian adults living in separate households per 100 is 41.9 (chart_2-4), and the number of Hispanic adults living in separate households per 100 is 42.2 (chart_2-3). The average of these two numbers is (41.9 + 42.2) / 2 = 42.05. Then the difference between the two is 42.05 - 18.5 = 23.55.",
+                "answer": "23.55",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_4-3",
+                    "chart_4-29"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the difference between the average percentage growth of households in Idaho and Utah from 2010 - 2020 and the combined ratio of Asian and Hispanic adults living in separate households per 100, and then compare this result with the difference in the number of households per 100 U.S. adults aged 18 - 34 between 2010 and 2020?",
+                "rationale": "The percentage increase in the number of households in Idaho from 2010 - 2020 is 17% (chart_4-3), and in Utah is 20% (chart_4-29). The average is (17% + 20%) / 2 = 18.5%. The number of Asian adults living in separate households per 100 is 41.9 (chart_2-4), and for Hispanic adults it is 42.2 (chart_2-3), and their combined ratio is 41.9 + 42.2 = 84.1. The difference is 84.1 - 18.5 = 65.6. The number of households per 100 U.S. adults aged 18 - 34 in 2010 is 36.2 (chart_3-4), and in 2020 is 34.7 (chart_3-3), and the difference is 36.2 - 34.7 = 1.5. The final result is 65.6 - 1.5 = 64.1.",
+                "answer": "64.1",
+                "involved_content_sources": [
+                    "chart_4-3",
+                    "chart_4-29",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-3",
+                    "chart_3-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in household growth percentage between the 1860 - 1870 and 2010 - 2020 decades, the difference in the number of adults living in separate households per 100 between White and Hispanic adults, the difference in the number of households per 100 U.S. all - adults between 2010 and 2020, and the difference in household growth percentage between Utah and West Virginia from 2010 - 2020?",
+                "rationale": "The percentage growth in the number of U.S. households in the 1860 - 1870 decade is 45 (chart_1-1), and in the 2010 - 2020 decade is 9 (chart_1-2). The difference is 45 - 9 = 36. Among U.S. adults, the number of White adults living in separate households per 100 is 53.3 (chart_2-1), and the number of Hispanic adults living in separate households per 100 is 42.2 (chart_2-3). The difference is 53.3 - 42.2 = 11.1. In 2010, the number of households per 100 U.S. all - adults is 51.5 (chart_3-2), and in 2020, it is 50.9 (chart_3-1). The difference is 51.5 - 50.9 = 0.6. The percentage increase in the number of households in Utah from 2010 - 2020 is 20% (chart_4-29), and in West Virginia is - 3% (chart_4-34). The difference is 20 - (-3)=23. The average of these four values is (36 + 11.1+0.6 + 23) / 4 = 17.675.",
+                "answer": "17.675",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-29",
+                    "chart_4-34"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

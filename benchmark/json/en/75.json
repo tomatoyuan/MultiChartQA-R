@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_75_1",
+    "chart_75_2",
+    "chart_75_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Does the production growth rate in 'Yunnan Province's green coffee bean production in China from 2017 to 2021' have the same changing trend as the consumption growth rate in 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The shapes of the broken lines are the same, showing an overall upward trend.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the year with the highest consumption of green coffee beans in 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' also the year with the highest production of green coffee beans in Yunnan Province in 'Yunnan Province's green coffee bean production in China from 2017 to 2021'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The year with the highest consumption of green coffee beans in chart_75_2 is 2021, while the year with the highest production of green coffee beans in Yunnan in chart_75_3 is 2017.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the color - matching styles of 'Global coffee green bean consumption in major countries in 2020' and 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' match? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Chart_75_1 uses yellow - purple color - matching, and chart_75_3 uses blue - green color - matching.",
+      "charts_involved": [
+        "chart_75_1",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the proportion of Yunnan Province's green coffee bean production to the national green coffee bean consumption in 2021? Keep 2 decimal places. Answer: xx.xx%",
+      "answer": "63.93%",
+      "explanation": "Yunnan Province's production in 2021 (140,000 tons) ÷ National consumption in 2021 (219,000 tons) = 63.93%.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the proportion of Yunnan Province's green coffee bean production to the national net consumption (consumption minus imports) in 2021? Keep 2 decimal places. Answer: xx.xx%",
+      "answer": "77.78%",
+      "explanation": "National net consumption in 2021 = 219,000 tons - 39,000 tons = 180,000 tons; 140,000 tons ÷ 180,000 tons × 100 = 77.78%.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "How many times is the growth rate of national green coffee bean consumption in 2021 compared to the growth rate of Yunnan Province's production in 2021? Keep 2 decimal places. Answer: xx.xx times",
+      "answer": "13.71 times",
+      "explanation": "Growth rate of consumption in 2021 (52.1%) ÷ Growth rate of Yunnan's production in 2021 (3.8%) = 13.7105. Keeping 2 decimal places, it is 13.71 times.",
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the trends of China's green coffee bean consumption and Yunnan Province's green coffee bean production, which factors may jointly lead to the increase in China's coffee consumption?",
+      "answer": {
+        "A": "The significant increase in China's coffee consumption growth rate is associated with the stable trend of import growth rate, and the decrease in domestic production has strengthened this dependence relationship.",
+        "B": "Yunnan Province's coffee production increased by 3.8% in 2021, reaching 140,000 tons, which matches the 52.1% growth rate of consumption, indicating that domestic production is the main driving force.",
+        "C": "The consumption of imported coffee products increased significantly to over 50,000 tons in 2021, making up for the shortage of domestic production and supporting the growth of consumption.",
+        "D": "The high consumption in global coffee - exporting countries indicates that the international market supply is sufficient, which provides a basis for China's imports and thus promotes consumption growth.",
+        "E": "The continuous growth of coffee product imports offsets the downward trend of Yunnan Province's production and supports the expansion of consumption.",
+        "F": "The popularization of coffee - drinking habits among young people in China and cultural influence directly promote the increase in consumption, regardless of production.",
+        "G": "The continuous decline of global coffee prices has reduced the import cost, thus stimulating domestic consumption demand."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3",
+        "chart_75_1"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The overall decline of green coffee bean production in Yunnan Province, China, from 2017 to 2021, while the national green coffee bean consumption increased during the same period. This seems contradictory. Which options can best explain this phenomenon?",
+      "answer": {
+        "A": "In 2018, Yunnan Province's production of 151,000 tons was higher than the national consumption of 99,000 tons, indicating sufficient production and no contradiction; the subsequent increase in consumption is a normal fluctuation.",
+        "B": "The consumption of imported coffee products increased steadily from 33,000 tons in 2017 to 45,000 tons in 2021, and the growth rate accelerated year by year, directly filling the production gap.",
+        "C": "The change in import growth rate is related to the fluctuation of consumption growth rate, while the production trend in Yunnan Province is independent, highlighting the key role of imports.",
+        "D": "The release of domestic coffee inventory backlog makes up for the decline in production and boosts consumption.",
+        "E": "The rapid growth of consumption drives the import demand, rather than relying on domestic production, which contrasts with the high consumption in global exporting countries.",
+        "F": "Consumers' preference has shifted to healthy beverages, such as tea, but coffee consumption has unexpectedly increased, which is attributed to marketing activities.",
+        "G": "The increase in coffee product imports directly makes up for the domestic production gap and meets the rising consumption demand."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3",
+        "chart_75_1"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Analyzing the data of China's green coffee bean consumption and that of major global coffee - consuming countries, which implicit connections can be inferred about the unique characteristics of the Chinese market?",
+      "answer": {
+        "A": "The high consumption in global exporting countries such as Brazil (22,400 thousand bags) indicates a self - sufficient model, and China should also prioritize domestic production.",
+        "B": "China's coffee consumption growth rate reached 52.1% in 2021, while the growth rate in major global consuming countries such as the United States was stable, but China's total consumption is approaching the US level.",
+        "C": "The slowdown in the consumption growth rate of imported coffee products is related to the fluctuation of domestic consumption growth rate, and the data of global consuming countries provides a benchmark reference.",
+        "D": "China's consumption has grown rapidly in recent years, while the consumption in major global consuming countries is relatively stable, indicating that China is an emerging growth market.",
+        "E": "In 2020, China's consumption of 144,000 tons (about 2,400 thousand bags) was similar to Russia's consumption of 4,681 thousand bags, showing that China is approaching the level of medium - consuming countries.",
+        "F": "As a populous country, China's coffee consumption has exceeded that of developed countries such as Japan and Canada, reflecting the market potential.",
+        "G": "The decline in Yunnan Province's production but the increase in China's consumption, in contrast to the high consumption in global exporting countries, implies that China relies more on imports rather than self - sufficiency."
+      },
+      "charts_involved": [
+        "chart_75_3",
+        "chart_75_1",
+        "chart_75_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the rapid growth of China's green coffee bean consumption and the fluctuating trend of domestic production, how should coffee industry decision - makers adjust their resource allocation strategies to efficiently meet market demand and reduce supply risks?",
+      "answer": {
+        "A": "Establish a dynamic inventory management mechanism. Increase imports as a buffer during peak consumption growth periods and reduce import dependence during periods of domestic production growth. This can effectively address the mismatch between consumption fluctuations and production cycles, avoid oversupply or shortages, and optimize overall supply chain costs.",
+        "B": "Invest in organic certification and sustainable packaging of coffee beans to attract environmentally - conscious consumers and increase product premium.",
+        "C": "Expand the coffee retail store network and enhance brand marketing to stimulate consumption demand and improve market penetration.",
+        "D": "Reduce inventory reserves during peak consumption growth periods, as the consumption growth from 2020 - 2021 was stable (from 11.6% to 52.1%), and the predicted future fluctuation risk is low.",
+        "E": "Prioritize reducing the scale of imports, because the domestic production growth rate rebounded to 3.8% in 2021, indicating that the self - sufficiency ability is increasing and can fully cover the consumption growth.",
+        "F": "Increase investment in technological upgrading and sustainable planting in major domestic coffee - producing areas, and give priority to supporting areas where production shows signs of recovery. Given the continuous growth of domestic consumption but the long - term decline in production with recent signs of recovery, by improving yield efficiency and risk - resistance ability, the self - sufficiency rate can be gradually increased and external dependence can be reduced.",
+        "G": "Expand the scale of green coffee bean imports while stabilizing investment in key domestic producing areas. Since domestic production has shown a downward and fluctuating trend in recent years, while consumption demand is growing rapidly, especially during peak periods, it may exceed domestic supply capacity; although the volume of imported products is stable, it is not enough to cover the demand gap. This move can balance short - term gaps and utilize the global supply network."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Given the dominance of traditional large markets and the rapid rise of emerging markets in the global green coffee bean consumption pattern, how should coffee - exporting countries optimize their export resource allocation to capture growth opportunities and enhance competitiveness?",
+      "answer": {
+        "A": "Strengthen cooperation with international logistics companies to optimize transportation routes and reduce global distribution costs.",
+        "B": "Promote the digital transformation of coffee beans, such as using blockchain for traceability, to enhance consumer trust.",
+        "C": "Increase the export priority to emerging high - growth markets, such as Asia. Since the consumption in traditional importing countries is large but the growth potential may be saturated, while the consumption growth rate in some emerging markets is extremely high and the base is expanding rapidly, this can help exporting countries seize new shares and diversify the risk of relying on traditional markets.",
+        "D": "Shift the export focus to China, because its consumption growth rate reached as high as 52.1% in 2021, far higher than that of traditional markets, with the greatest potential.",
+        "E": "Maintain a stable supply to high - consumption traditional markets while exploring strategies that combine with the local consumption demand in exporting countries. The consumption in some exporting countries themselves is considerable. By balancing exports and domestic demand, the resilience of the value chain can be enhanced and over - dependence on external fluctuations can be avoided.",
+        "F": "Optimize production and logistics efficiency to reduce export costs, especially for regional markets with shorter transportation distances. In an environment of rapid consumption growth but intensifying competition, cost advantages can enhance penetration in price - sensitive emerging markets.",
+        "G": "Ignore emerging markets and prioritize ensuring a stable export to the European Union and the United States, because their consumption volumes (40,251 thousand bags and 26,982 thousand bags) are dominant and the growth risk is low."
+      },
+      "charts_involved": [
+        "chart_75_1",
+        "chart_75_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "In response to the trend of the decline in Yunnan Province's green coffee bean production in recent years but the sharp increase in national consumption demand, what strategies should local governments formulate to enhance the competitiveness of the local industry and support sustainable development?",
+      "answer": {
+        "A": "Promote the direct connection between production areas and consumption markets to reduce intermediate - link costs. Given the rapid growth of national consumption and the fluctuating decline of local production, shortening the supply chain can increase the market share of Yunnan coffee and farmers' income, and at the same time, use consumption growth to drive the recovery of local production.",
+        "B": "Expand exports during peak consumption growth periods (such as + 52.1% in 2021), because domestic production fluctuates greatly while international market demand is more stable.",
+        "C": "Reduce investment in local production, because the production growth rate rebounded to 3.8% in 2021, and the national import volume is stable (39,000 tons in 2021), which is sufficient to buffer demand fluctuations.",
+        "D": "Give priority to ensuring local supply during peak consumption growth periods and promote exports or deep - processing during periods of slow growth. This can maximize the utilization efficiency of local resources, avoid waste during production fluctuation periods, and respond to changes in domestic demand.",
+        "E": "Invest in climate - adaptive agricultural technologies and variety improvement, focusing on addressing production fluctuation risks. Since the production growth rate has been mostly negative in recent years but shows signs of recovery, technological upgrading can stabilize output, support long - term growth, and match the consumption expansion trend.",
+        "F": "Provide direct subsidies and low - interest loans to coffee growers to stabilize farmers' income and encourage production enthusiasm.",
+        "G": "Develop coffee - themed rural tourism projects and integrate local culture to increase industrial added value."
+      },
+      "charts_involved": [
+        "chart_75_2",
+        "chart_75_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

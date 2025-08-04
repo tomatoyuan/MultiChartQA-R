@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_15_1",
+    "chart_15_2",
+    "chart_15_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the chart 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics', is the changing trend of the bar length from left to right on the x-axis consistent with the changing trend of the number of Olympic gold medals of Hubei from the 23rd to the 27th Olympics? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former decreases monotonically, while the latter increases gradually.",
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the chart 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics', is the changing trend of the bar length from right to left on the x-axis consistent with the changing trend of the number of Olympic gold medals of Hubei from the 23rd to the 27th Olympics? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase gradually.",
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the chart 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics', is the changing trend of the bar length from left to right on the x-axis consistent with the changing trend of the number of Olympic gold medals of Zhejiang from the 24th to the 27th Olympics? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former increases monotonically, while the latter remains unchanged.",
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2015, what's the ranking of the city with the highest GDP in the 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics'? Just use an integer to represent the ranking.",
+      "answer": "6",
+      "explanation": "The city with the highest GDP in 2015 is Guangdong, which ranks 6th in the 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics'.",
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2015, what's the ranking of the city with the lowest GDP in the 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics'? Just use an integer to represent the ranking.",
+      "answer": "10",
+      "explanation": "The city with the lowest GDP in 2015 is Hunan, which ranks 10th in the 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics'.",
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In the 28th Olympic Games, could the total number of gold medals of Hubei and Zhejiang make it into the 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "In the 28th Olympic Games, the total number of gold medals of Hubei and Zhejiang is 4 + 4 = 8. While the total number of gold medals of the 10th - ranked province in the 'Top 10 Provinces in Total Olympic Gold Medals from the 23rd to the 30th Olympics' is 14. Since 8 < 14, they can't.",
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of the top 10 provinces in total Olympic gold medals and the chart of GDP rankings of Chinese provinces and cities in 2015, which options can best explain the inconsistent phenomenon between sports achievements and economic strength in some provinces?",
+      "answer": {
+        "A": "Hunan has the lowest GDP star rating (1 star), but the total number of Olympic gold medals is 14, with a very small gap compared to Guangdong, which has the highest GDP star rating (10 stars) and 22 gold medals, indicating that the impact of economic strength on sports achievements is weak.",
+        "B": "Sports performance is mainly affected by natural environment and genetic factors, and has nothing to do with economic investment.",
+        "C": "The level of economic development is strictly proportional to sports achievements. Provinces with higher GDP star ratings must have a higher total number of Olympic gold medals.",
+        "D": "Guangdong and Jiangsu have the highest GDP star ratings, and at the same time, their total number of Olympic gold medals also ranks among the top, indicating that economic strength may provide basic support for sports performance.",
+        "E": "Hubei ranks high in the total number of Olympic gold medals, but has a lower GDP star rating, indicating that its investment in sports resources may take precedence over economic development.",
+        "F": "Hubei has a lower GDP star rating (2 stars), but the total number of gold medals is 26, higher than Zhejiang's 16 (GDP star rating 7 stars), proving that the higher the GDP, the lower the number of gold medals.",
+        "G": "Hunan has the lowest GDP star rating, but the total number of Olympic gold medals is relatively high, suggesting that other factors such as culture or training system have a greater impact on sports achievements."
+      },
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the chart of the top 10 provinces in total Olympic gold medals and the chart of the comparison of gold medals in each Olympic Games between Hubei and Zhejiang, which options describe the key trend differences in the Olympic performance of Zhejiang relative to Hubei and the possible reasons?",
+      "answer": {
+        "A": "Hubei has obvious peaks in the data of gold medals in each Olympic Games (such as the 28th Olympic Games), while Zhejiang showed a stable performance in the early sessions but improved in the later sessions, which explains that part of the gap in the total number of gold medals is due to the trend change.",
+        "B": "Zhejiang won 2 gold medals in the early sessions (such as the 23rd Olympic Games), higher than Hubei's 1. However, in the later sessions, such as the 30th Olympic Games, Hubei won 5 gold medals, higher than Zhejiang's 4, resulting in a gap in the total number of gold medals, indicating a decline in Zhejiang's performance.",
+        "C": "Hubei won 6 gold medals in the 28th Olympic Games, while Zhejiang only won 1 in the same period. However, the total gap of 10 gold medals (26 for Hubei vs. 16 for Zhejiang) is mainly contributed by this session, indicating that Hubei's peak is the key to its overall lead.",
+        "D": "Although Zhejiang's total number of gold medals is lower than Hubei's, it has made stable contributions in multiple sessions in the data of gold medals in each Olympic Games, indicating that Zhejiang's sports performance is more sustainable.",
+        "E": "The trend differences in sports performance are mainly due to the individual talents of athletes and have nothing to do with provincial policies.",
+        "F": "The number of Olympic gold medals in all provinces increases year by year over time because the global training level is improving.",
+        "G": "Hubei has a higher total number of gold medals, but Zhejiang has significantly increased its number of gold medals in the later sessions (such as the 29th and 30th Olympic Games), indicating that Zhejiang may have strengthened its sports investment or talent reserve."
+      },
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_2"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the data of gold medals in each Olympic Games of Hubei and Zhejiang and the chart of GDP rankings of Chinese provinces and cities in 2015, which options can best explain the possible conflicts or weak correlations between GDP levels and performance in each Olympic Games?",
+      "answer": {
+        "A": "Zhejiang has a high GDP star rating (7 stars), but only won 1 gold medal in the 28th Olympic Games. In the same period, Hubei, with a low GDP star rating (2 stars), won 6 gold medals. However, in the 30th Olympic Games, Hubei won 2 gold medals, lower than Zhejiang's 4, indicating that the higher the GDP, the more unstable the performance.",
+        "B": "There is a large difference in the GDP star ratings between Hubei and Zhejiang, but there are fluctuations in the data of gold medals in each Olympic Games, reflecting that economic strength does not directly determine the performance in each session, and specific factors of the competitions need to be considered.",
+        "C": "Hubei has a lower GDP star rating, but won a relatively large number of gold medals in multiple sessions (such as the 28th Olympic Games), indicating that economic factors are not the dominant factor, and other factors such as policy support may be more crucial.",
+        "D": "GDP levels directly determine the performance in each Olympic Games. Provinces with a high GDP always have a higher number of gold medals than those with a low GDP in each session.",
+        "E": "Hubei and Zhejiang won the same number of gold medals (3) in the 26th Olympic Games, with GDP star ratings of 2 stars and 7 stars respectively. The large difference in GDP star ratings but the same performance proves that economic strength does not affect the performance in each session.",
+        "F": "The fluctuations in the performance in each Olympic Games are completely random and have nothing to do with economic strength, and only depend on the state of the athletes in that session.",
+        "G": "Zhejiang has a relatively high GDP star rating, but the number of gold medals in the early sessions was relatively low and only increased in the later sessions, indicating that the impact of GDP on sports performance may have a time lag."
+      },
+      "charts_involved": [
+        "chart_15_2",
+        "chart_15_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the provided charts of the total number of Olympic gold medals and economic rankings, how should the allocation of national sports resources be optimized to improve the overall performance in future Olympic Games and promote balanced regional development?",
+      "answer": {
+        "A": "Give priority to investing in provinces with the highest economic rankings and leading total number of gold medals, such as Guangdong (GDP star rating 10, 22 gold medals), because its economic advantages can be directly transformed into higher efficiency in gold medal output.",
+        "B": "Improve the overall competitive level of the national team through strengthening international sports exchanges and cooperation, so as to indirectly improve the performance in the Olympic Games.",
+        "C": "Maintain stable support for economically developed regions with a leading total number of Olympic gold medals, because the high - level economic development in these regions provides better infrastructure and talent base, and continuous investment can consolidate their dominant position and ensure the basic output of national gold medals.",
+        "D": "Allocate sports resources evenly among all provinces to ensure the same investment in each region, so as to eliminate regional differences and improve overall fairness.",
+        "E": "Give priority to increasing the resource investment in regions with lower economic rankings but a relatively high total number of Olympic gold medals, because these regions have achieved outstanding results with limited resources, indicating that they have great sports potential, and targeted investment can further release their competitiveness and reduce regional development imbalance at the same time.",
+        "F": "Tilt resources moderately towards regions with medium - level economies but large room for improvement in Olympic performance, because the combination of their economic rankings and gold medal data shows that a relatively fast progress can be achieved through targeted investment, thus enhancing the overall national competitiveness.",
+        "G": "Reduce the investment in Hubei, which has a relatively high total number of gold medals but a lower economic ranking, because these regions may have reached the upper limit of their potential due to resource constraints. Instead, shift the focus to provinces with medium - level economies and medium - level gold medal achievements, such as Sichuan (14 gold medals, GDP star rating 4)."
+      },
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the changing trends of the number of gold medals in each Olympic Games of Hubei and Zhejiang and their economic ranking charts, how should strategies be formulated to stabilize and improve the future Olympic performance of these two provinces?",
+      "answer": {
+        "A": "Increase the training intensity and scientific support for all athletes to ensure the improvement of the overall competitive level, so as to stabilize the performance of each province.",
+        "B": "Reduce the investment in Hubei, because its number of gold medals dropped to 2 in the 30th Olympic Games (data from chart_15_2), indicating a decline in performance and a low economic ranking (GDP star rating 2). Resources should be concentrated on Zhejiang (the number of gold medals is on an upward trend, reaching 4).",
+        "C": "Increase the resource investment in Zhejiang to tap its growth potential, because the number of its gold medals has shown an upward trend in recent sessions, and its relatively high economic ranking indicates that it has a good foundation to support further breakthroughs, which can bring high returns.",
+        "D": "Increase media exposure and commercial sponsorship for the sports projects in Hubei and Zhejiang to attract more talents to participate.",
+        "E": "Provide special resource support for Hubei to stabilize its output of gold medals, because its number of gold medals fluctuated after reaching a peak in some sessions. Combined with its lower economic ranking, it indicates that external investment is needed to maintain performance and prevent decline.",
+        "F": "Promote the establishment of a regional cooperation mechanism between Hubei and Zhejiang to share training resources and experience. Since Hubei's historical peak performance and Zhejiang's upward trend are complementary, and considering the economic differences, cooperation can achieve complementary advantages and improve overall efficiency.",
+        "G": "Ignore the economic differences and implement the same resource investment in Hubei and Zhejiang, because the gold medal trends of both provinces show fluctuations (Hubei's peak is 6 gold medals, Zhejiang's peak is 4 gold medals), indicating that no targeted strategy is needed."
+      },
+      "charts_involved": [
+        "chart_15_2",
+        "chart_15_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the charts of the total number of Olympic gold medals, the gold medal trends of specific provinces, and economic rankings, how should the national sports investment strategy be designed to maximize the Olympic results and achieve efficient use of resources?",
+      "answer": {
+        "A": "Give priority to investing in regions where the number of gold medals shows an upward trend in recent sessions and have a good economic foundation, because the data of these regions indicate that they are in a development window period, and resource investment can be quickly transformed into performance improvement.",
+        "B": "Establish a dynamic evaluation mechanism and tilt resources towards regions with medium - level economies but large room for improvement in gold medal performance, because the combination of their economic rankings and gold medal data shows that relatively high marginal returns can be achieved through moderate investment.",
+        "C": "Promote the national fitness program to enhance grass - roots sports participation and provide long - term talent for the Olympic Games.",
+        "D": "Implement a differentiated investment strategy: maintain high investment in economically developed regions with a continuously leading total number of gold medals to consolidate their advantages; at the same time, provide special support for regions with weaker economies but outstanding performance to tap potential growth points and promote fairness.",
+        "E": "Give priority to investing in provinces with a high total number of gold medals and high economic rankings, such as Jiangsu (29 gold medals, GDP star rating 9), because the combination of its data indicates that investment can immediately increase the national total number of gold medals.",
+        "F": "Concentrate resources on provinces with a downward trend in gold medal numbers, such as Hubei (chart_15_2 shows that the number of gold medals dropped to 2 in the 30th Olympic Games), to reverse the decline, and ignore Zhejiang, which is on an upward trend (the number of gold medals increased to 4), because the regions with a decline have a higher risk.",
+        "G": "Uniformly increase the national sports budget to cover the infrastructure upgrade of all provinces, so as to improve the overall competitive level."
+      },
+      "charts_involved": [
+        "chart_15_1",
+        "chart_15_2",
+        "chart_15_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    }
+  ]
+}

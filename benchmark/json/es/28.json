@@ -1,0 +1,208 @@
+{
+  "chart": [
+    "chart_28_1",
+    "chart_28_2",
+    "chart_28_3",
+    "chart_28_4",
+    "chart_28_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Comparar la curva de la voluntad de 'comprar hasta desmayarse' en diferentes períodos del día del '11.11' (en orden cronológico) con la curva de atención de diferentes grupos de edad (en orden de edad). ¿Son consistentes las tendencias de las dos curvas? Por favor, responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En orden cronológico, la voluntad de compra se mantiene baja al principio (madrugada y mañana temprano), alcanza el pico en el período intermedio (10:00) y luego disminuye. En orden de edad, la atención también es baja al principio (menores de 18 años), alcanza el pico en el grupo de edad intermedio (de 19 a 24 años) y luego disminuye gradualmente. Ambas curvas presentan una tendencia unimodal de 'ascenso primero y luego descenso', por lo tanto, las tendencias son consistentes.",
+      "charts_involved": [
+        "chart_28_1",
+        "chart_28_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Comparar la dirección de cambio de la atención de hombres y mujeres en los dos grupos de edad de 19 - 24 años y 25 - 34 años hacia el '11.11'. ¿Existe una correlación positiva, negativa o ninguna correlación entre estos dos conjuntos de datos?",
+      "answer": "Correlación negativa",
+      "explanation": "Desde el grupo de edad de 19 - 24 años al grupo de edad de 25 - 34 años, la proporción de atención de los hombres aumenta de 52% a 55%, mientras que la proporción de las mujeres disminuye de 48% a 45%. Mientras uno aumenta, el otro disminuye, lo que muestra una correlación negativa.",
+      "charts_involved": [
+        "chart_28_4",
+        "chart_28_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La región con la mayor cantidad de carritos de compra también aparece en el período con la mayor voluntad de 'comprar hasta desmayarse'? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "La región con la mayor cantidad de carritos de compra es Guangdong, mientras que el período con la mayor voluntad de 'comprar hasta desmayarse' es las 10:00. Estos dos pertenecen a dimensiones de región y tiempo respectivamente y no se superponen, por lo tanto, la respuesta es 'No'.",
+      "charts_involved": [
+        "chart_28_1",
+        "chart_28_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que la distribución de los carritos de compra en Beijing es consistente con la distribución de la hora de 'compra compulsiva' durante todo el día, ¿cuál es la cantidad de carritos de compra en Beijing en el período de las 10:00? Redondea a 0 decimales. Respuesta: xx unidades",
+      "answer": "1 unidad",
+      "explanation": "La cantidad total de carritos de compra en Beijing 2 × la proporción del período de las 10:00 50% = 1.0 ≈ 1 unidad",
+      "charts_involved": [
+        "chart_28_2",
+        "chart_28_1"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es la proporción de atención de los hombres de 25 - 34 años al 11.11 en comparación con la de los hombres de 19 - 24 años? Redondea a 2 decimales. Respuesta: xx veces",
+      "answer": "1.06 veces",
+      "explanation": "La proporción de los hombres de 25 - 34 años 55% ÷ la proporción de los hombres de 19 - 24 años 52% ≈ 1.0577 ≈ 1.06",
+      "charts_involved": [
+        "chart_28_4",
+        "chart_28_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la suma de la proporción total de atención de las mujeres de los dos grupos de edad de 19 - 24 años y 25 - 34 años al 11.11? Redondea a 2 decimales %. Respuesta: xx%",
+      "answer": "43.41%",
+      "explanation": "La proporción de las mujeres de 19 - 24 años 52% × 48% = 24.96%; la proporción de las mujeres de 25 - 34 años 41% × 45% = 18.45%; la suma 24.96% + 18.45% = 43.41%",
+      "charts_involved": [
+        "chart_28_3",
+        "chart_28_4",
+        "chart_28_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en la proporción de atención al 11.11 de diferentes grupos de edad y sus datos segmentados por género, ¿qué opciones describen correctamente la tendencia de cambio de la proporción de atención de los hombres con el aumento de la edad?",
+      "answer": {
+        "A": "La proporción de atención de los hombres en el grupo de mayores de 50 años alcanza el 60%, lo que refleja la alta sensibilidad de los hombres mayores a las promociones.",
+        "B": "Desde el grupo de 19 - 24 años hasta el grupo de 25 - 34 años, la proporción de atención de los hombres presenta una tendencia ascendente, mientras que la proporción de atención de las mujeres disminuye en consecuencia.",
+        "C": "La proporción de atención de los hombres de 19 - 24 años (48%) es menor que la de las mujeres, pero la de los hombres de 25 - 34 años (45%) supera a la de las mujeres.",
+        "D": "En el grupo más joven (19 - 24 años), la proporción de atención de los hombres es ligeramente mayor que la de las mujeres; mientras que en el grupo de edad un poco mayor (25 - 34 años), la ventaja de la proporción de atención de los hombres se amplía aún más.",
+        "E": "La proporción de atención de los hombres en el grupo de 25 - 34 años es mayor que la del grupo de 19 - 24 años, y esta diferencia es más evidente en la segmentación por género.",
+        "F": "La proporción de atención de los hombres de 35 - 49 años aumenta drásticamente al 25%, convirtiéndose en la fuerza dominante en este grupo de edad.",
+        "G": "Desde el grupo de 19 - 24 años hasta el grupo de 25 - 34 años, la proporción de atención de los hombres disminuye un 5%, lo que refleja el declive del interés de consumo."
+      },
+      "charts_involved": [
+        "chart_28_4",
+        "chart_28_5",
+        "chart_28_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Qué conexión implícita puede existir entre el período pico de la voluntad de compra en el 11.11 y el grupo de edad con la mayor proporción de atención al 11.11?",
+      "answer": {
+        "A": "La voluntad de compra alcanza su pico en el período de la mañana, lo que puede estar relacionado con la alta atención del grupo joven (19 - 34 años) al 11.11, lo que refleja su actividad o hábitos de consumo.",
+        "B": "La alta atención del grupo joven puede explicar por qué la voluntad de compra es más concentrada en ciertos períodos del día, en lugar de distribuirse de manera uniforme.",
+        "C": "El período pico a las 20:00 se debe principalmente a la contribución de la población laboral de 35 - 49 años, ya que tienen tiempo libre después del trabajo.",
+        "D": "El grupo de mayores de 50 años está activo comprando a las 05:00 de la mañana, impulsando el pico de demanda en ese período.",
+        "E": "El grupo de 25 - 34 años tiene la mayor voluntad de compra a las 15:00, lo que está directamente relacionado con la siesta.",
+        "F": "Debido a que la proporción de atención del grupo de 19 - 24 años y el grupo de 25 - 34 años al 11.11 es dominante, el período pico puede corresponder a los patrones de comportamiento diarios de estos grupos, como el tiempo de trabajo o el tiempo de ocio.",
+        "G": "El grupo de estudiantes de 19 - 24 años representa más del 30% en el período de 00:00, lo que explica la oleada de compras nocturnas."
+      },
+      "charts_involved": [
+        "chart_28_1",
+        "chart_28_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Para el grupo de edad con la mayor proporción de atención al 11.11, ¿cómo se relaciona la segmentación por género con la tendencia general de atención?",
+      "answer": {
+        "A": "El grupo de edad de 25 - 34 años tiene la segunda mayor proporción de atención, pero la ventaja de la proporción de atención de los hombres es mayor, lo que puede afectar la inclinación de la distribución general de atención por género.",
+        "B": "La proporción de atención de las mujeres en el grupo de menores de 18 años alcanza el 70%, lo que establece la posición dominante de las mujeres jóvenes.",
+        "C": "Aunque el grupo de 19 - 24 años tiene la mayor proporción de atención al 11.11, la diferencia de género es menor; mientras que el grupo de 25 - 34 años tiene una proporción de atención más baja, pero la diferencia de género es más significativa, lo que muestra el cambio en la composición interna del grupo de edad.",
+        "D": "El grupo de edad de 19 - 24 años tiene la mayor proporción de atención total al 11.11, y la proporción de atención de los hombres es ligeramente mayor que la de las mujeres, lo que refuerza la posición dominante de este grupo en general.",
+        "E": "La proporción de atención de las mujeres en el grupo de 25 - 34 años (60%) supera con creces a la de los hombres, invirtiendo la distribución general de género.",
+        "F": "La proporción de hombres mayores de 50 años es del 40%, lo que muestra que el potencial de consumo del grupo de edad mayor está subestimado.",
+        "G": "La proporción de atención de los hombres de 19 - 24 años (45%) es significativamente menor que la de las mujeres (55%), lo que debilita la dominancia de este grupo."
+      },
+      "charts_involved": [
+        "chart_28_3",
+        "chart_28_4",
+        "chart_28_5"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para mejorar la tasa de conversión de ventas durante el 11.11, ¿cómo se debe optimizar la programación de las actividades de promoción en tiempo real (como las ofertas con tiempo limitado)? Elija la sugerencia de estrategia más efectiva en función de los períodos de actividad de los consumidores y las características de la población principal.",
+      "answer": {
+        "A": "Despliegue las ofertas con tiempo limitado principales a las 05:00, ya que en este momento la actividad es la más baja (10%), la competencia es menor, puede atraer a los usuarios que se levantan temprano y lograr una tasa de conversión más alta, al mismo tiempo que reduce la presión en el servidor.",
+        "B": "Organice actividades de promoción complementarias en el período de actividad segunda más alta para satisfacer las necesidades de los usuarios en otros períodos, evitar que la presión en el servidor sea demasiado alta durante el período de pico debido a la concentración excesiva de recursos y capturar oportunidades potenciales durante todo el día.",
+        "C": "Diseñe promociones intensivas para el período de las 20:00, ya que este es el tiempo de ocio por la noche y el grupo de jóvenes de 19 - 24 años (con una proporción de atención del 52%) puede ser más activo en este momento, lo que permite alcanzar de manera eficiente al grupo principal de consumidores.",
+        "D": "Diseñe actividades diferenciadas (como ofertas de pre - calentamiento o continuación de descuentos) para los períodos de baja actividad para atraer a los usuarios fuera del pico, especialmente teniendo en cuenta que la distribución de usuarios durante todo el día es desigual, pero se debe garantizar que el costo de la actividad sea controlable.",
+        "E": "Concentre las actividades de promoción principales en la medianoche (00:00), ya que tradicionalmente el 11.11 comienza en este momento y los usuarios están acostumbrados a comprar nuevos productos en este momento, lo que puede aprovechar las costumbres culturales para aumentar la popularidad inicial.",
+        "F": "Concentre las actividades de promoción principales en el período de mayor actividad de los consumidores durante el día, ya que en este período la conducta de los usuarios está altamente concentrada y coincide con el período preferido del grupo de edad principal de consumo, lo que permite alcanzar de manera máxima a la población de alta participación.",
+        "G": "Distribuya uniformemente las actividades de promoción en todos los períodos del día para garantizar que se cubra a todos los usuarios potenciales, evitar que se ignore cualquier período y, de este modo, maximizar la participación general."
+      },
+      "charts_involved": [
+        "chart_28_1",
+        "chart_28_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "En las actividades de marketing del 11.11, ¿cómo se deben asignar los recursos publicitarios y de promoción a diferentes grupos de edad y género para mejorar la participación general y la equidad? Elija la sugerencia de estrategia más razonable en función de las características de la distribución de atención de la población.",
+      "answer": {
+        "A": "Asigne prioritaria mente los recursos al grupo de jóvenes de 19 - 24 años, que tiene la mayor proporción de atención, ya que este grupo es dominante en el conjunto y la distribución de género es relativamente equilibrada. La inversión de recursos puede cubrir de manera eficiente a una amplia gama de usuarios.",
+        "B": "Asigne la misma cantidad de recursos a todos los grupos de edad y género para garantizar la equidad absoluta de las actividades de marketing, evitar que se ignore cualquier grupo y, de este modo, mejorar la satisfacción general de los usuarios.",
+        "C": "Al mismo tiempo, incline más los recursos hacia el grupo de 25 - 34 años, especialmente hacia los usuarios masculinos, ya que este grupo tiene la segunda mayor atención y la proporción de hombres es más destacada. Se pueden diseñar actividades dirigidas por género para mejorar la conversión.",
+        "D": "Para el grupo de 25 - 34 años, reduzca la inversión de recursos en los hombres (55% de proporción), ya que es probable que estén altamente involucrados. En cambio, asigne más recursos a las mujeres (45% de proporción) para equilibrar la diferencia de género y evitar la dominación masculina.",
+        "E": "Asigne prioritaria mente los recursos al grupo de 35 - 49 años (2% de proporción de atención), ya que es probable que tengan un mayor poder adquisitivo y estabilidad, lo que permite explotar un mercado potencial no suficientemente desarrollado y reducir la dependencia del grupo joven.",
+        "F": "Asegúrese de equilibrar la diferencia de género en la asignación de recursos y mantenga una estrategia de promoción equilibrada entre hombres y mujeres en los grupos de 19 - 24 años y 25 - 34 años, evitar inclinarse demasiado hacia un solo género para promover la inclusión y la lealtad a largo plazo de los usuarios.",
+        "G": "En el grupo de 19 - 24 años, incline más los recursos hacia las mujeres (48% de proporción), ya que la proporción de mujeres es ligeramente menor que la de los hombres (52%). Corregir el desequilibrio de género puede mejorar la equidad y la participación de las usuarios femeninas."
+      },
+      "charts_involved": [
+        "chart_28_3",
+        "chart_28_4",
+        "chart_28_5"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para hacer frente al pico de pedidos durante el 11.11, ¿cómo se debe optimizar la estrategia de asignación regional de recursos de inventario y logística? Elija la sugerencia más sólida en función del potencial de consumo regional y las características de la distribución general de usuarios.",
+      "answer": {
+        "A": "Evite la concentración excesiva de recursos y mantenga la cobertura básica de recursos en las regiones de consumo medio para dispersar el riesgo y atender a un público más amplio, especialmente teniendo en cuenta la importancia de la participación de usuarios en todo el territorio.",
+        "B": "Aumente de manera concentrada los recursos de inventario y logística en las regiones con la mayor cantidad de carritos de compra, ya que la densidad de demanda en estas regiones es alta, lo que puede reducir efectivamente el riesgo de agotamiento de existencias y demoras y mejorar la eficiencia del servicio.",
+        "C": "Combine el pico de actividad a las 10:00 (50% de proporción) y concentre los recursos en todas las regiones durante este período, ya que en este momento la conducta de los usuarios está altamente concentrada y se puede manejar de manera máxima el pico de pedidos nacionales.",
+        "D": "Combine las características de las regiones de alto consumo y el grupo de edad principal de atención, y asigne prioritaria mente recursos flexibles (como inventario dinámico) en las regiones de demanda concentrada. Al mismo tiempo, tenga en cuenta que los jóvenes son el grupo principal de consumo para prevenir picos repentinos.",
+        "E": "Distribuya uniformemente los recursos de inventario y logística en todas las provincias y ciudades del país para garantizar que cada región reciba el mismo servicio, evitar la desigualdad regional y, de este modo, mejorar la satisfacción general de los usuarios.",
+        "F": "Aumente prioritaria mente los recursos en la región de Beijing (2 carritos de compra), ya que es probable que los usuarios de la capital sean más jóvenes (52% de proporción de atención del grupo de 19 - 24 años) y tengan una alta actividad en línea, lo que permite alcanzar de manera eficiente al grupo principal de consumidores.",
+        "G": "Aumente en particular los recursos en las regiones de consumo medio o bajo (como las provincias no mencionadas), estimulando la demanda para reducir la brecha regional y explotar el potencial del mercado emergente."
+      },
+      "charts_involved": [
+        "chart_28_2",
+        "chart_28_3",
+        "chart_28_1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    }
+  ]
+}

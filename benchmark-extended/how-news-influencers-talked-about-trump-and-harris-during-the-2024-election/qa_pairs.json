@@ -1,0 +1,196 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What percentage of all posts from news influencers mentioned Joe Biden in the lead - up to the 2024 U.S. election?\n question2: Among news influencers with no affiliation, what proportion were critical of Kamala Harris in their posts in the lead-up to the 2024 U.S. election? Please provide the percentage.",
+                "rationale": "rationale1: We are looking for the percentage of all posts from news influencers that mentioned Joe Biden, and the chart provides the answer.\n rationale2: The question asks for the proportion of news influencers with no affiliation who were critical of Kamala Harris in the lead-up to the 2024 U.S. election. The chart gives this proportion as 45%, so we just extract this number.",
+                "answer": "4%; 45%",
+                "involved_content_sources": [
+                    "chart_2-6",
+                    "chart_5-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: Among news influencers with news-organization affiliation, what proportion were neutral about Kamala Harris in their posts in the lead-up to the 2024 U.S. election? Please provide the percentage.\n question2: What is the proportion of news influencers that mentioned Kamala Harris and were mostly supportive?\n question3: What percentage of news influencers mentioned Joe Biden in the lead - up to the 2024 U.S. election?",
+                "rationale": "rationale1: The question is about the proportion of news influencers with news-organization affiliation who were neutral about Kamala Harris in the lead-up to the 2024 U.S. election. From the chart, this value is 52%, which we extract as the answer.\n rationale2: We need to obtain the proportion of news influencers who mentioned Kamala Harris and were mostly supportive from the chart.\n rationale3: We need to find the percentage of news influencers who mentioned Joe Biden, and the chart gives us this data.",
+                "answer": "52%; 24; 85%",
+                "involved_content_sources": [
+                    "chart_5-9",
+                    "chart_3-5",
+                    "chart_2-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of news influencers that mentioned Kamala Harris and were mostly supportive?\n question2: What percentage of news influencers mentioned Donald Trump in the lead - up to the 2024 U.S. election?\n question3: Among news influencers with no affiliation, what proportion were neutral about Kamala Harris in their posts in the lead-up to the 2024 U.S. election? Please provide the percentage.\n question4: Among X (Twitter) posts that mentioned Trump/Harris, what is the proportion of posts by right - leaning news influencers?",
+                "rationale": "rationale1: We need to obtain the proportion of news influencers who mentioned Kamala Harris and were mostly supportive from the chart.\n rationale2: The question directly asks for the percentage of news influencers who mentioned Donald Trump in the given time - frame, and the relevant data is provided in the chart.\n rationale3: The question asks for the proportion of news influencers with no affiliation who were neutral about Kamala Harris in the lead-up to the 2024 U.S. election. The chart directly provides this value as 28%, so we extract this percentage.\n rationale4: The question asks for the proportion of right - leaning news influencer posts on X (Twitter) among those mentioning Trump/Harris, as provided in the chart.",
+                "answer": "24; 90%; 28%; 48%",
+                "involved_content_sources": [
+                    "chart_3-5",
+                    "chart_2-1",
+                    "chart_5-12",
+                    "chart_4-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference between the proportion of news influencers who were mostly critical of Donald Trump and the proportion of posts from news influencers that were mostly critical of Donald Trump?\n question2: What is the weighted - average proportion of right - leaning news influencers' posts among all news - influencer posts that mentioned Trump/Harris across different platforms in the lead - up to the 2024 U.S. election?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of posts from news influencers that were mostly critical of Donald Trump from the proportion of news influencers who were mostly critical of Donald Trump. We can find these two values from the given chart.\n rationale2: To find the weighted - average proportion, we need to multiply the proportion of posts on each platform by the proportion of right - leaning news influencers on that platform, and then sum these products. This takes into account the different contributions of each platform to the overall news - influencer posts.",
+                "answer": "11; 46%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-7",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_4-12",
+                    "chart_4-13",
+                    "chart_4-16",
+                    "chart_4-17",
+                    "chart_4-20"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of news influencers who were mostly critical of Donald Trump and the proportion of posts from news influencers that were mostly critical of Donald Trump?\n question2: What is the weighted - average proportion of right - leaning news influencers' posts among all news - influencer posts that mentioned Trump/Harris across different platforms in the lead - up to the 2024 U.S. election?\n question3: What is the difference in the proportion of news influencers with news - organization affiliation who were critical of Donald Trump and those who were supportive of Kamala Harris in their posts in the lead - up to the 2024 U.S. election?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of posts from news influencers that were mostly critical of Donald Trump from the proportion of news influencers who were mostly critical of Donald Trump. We can find these two values from the given chart.\n rationale2: To find the weighted - average proportion, we need to multiply the proportion of posts on each platform by the proportion of right - leaning news influencers on that platform, and then sum these products. This takes into account the different contributions of each platform to the overall news - influencer posts.\n rationale3: We need to find the proportion of news influencers with news - organization affiliation who were critical of Donald Trump and the proportion of those who were supportive of Kamala Harris from the chart. Then subtract the latter from the former to get the difference.",
+                "answer": "11; 46%; 38",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-7",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_4-12",
+                    "chart_4-13",
+                    "chart_4-16",
+                    "chart_4-17",
+                    "chart_4-20",
+                    "chart_5-1",
+                    "chart_5-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of news influencers who were mostly critical of Donald Trump and the proportion of posts from news influencers that were mostly critical of Donald Trump?\n question2: What is the weighted - average proportion of right - leaning news influencers' posts among all news - influencer posts that mentioned Trump/Harris across different platforms in the lead - up to the 2024 U.S. election?\n question3: What is the difference in the proportion of news influencers with news - organization affiliation who were critical of Donald Trump and those who were supportive of Kamala Harris in their posts in the lead - up to the 2024 U.S. election?\n question4: What is the difference between the percentage of news influencers who mentioned Donald Trump and the percentage of all posts from news influencers that mentioned Donald Trump in the lead - up to the 2024 U.S. election?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of posts from news influencers that were mostly critical of Donald Trump from the proportion of news influencers who were mostly critical of Donald Trump. We can find these two values from the given chart.\n rationale2: To find the weighted - average proportion, we need to multiply the proportion of posts on each platform by the proportion of right - leaning news influencers on that platform, and then sum these products. This takes into account the different contributions of each platform to the overall news - influencer posts.\n rationale3: We need to find the proportion of news influencers with news - organization affiliation who were critical of Donald Trump and the proportion of those who were supportive of Kamala Harris from the chart. Then subtract the latter from the former to get the difference.\n rationale4: To find the difference, we need to subtract the percentage of all posts from news influencers that mentioned Donald Trump from the percentage of news influencers who mentioned Donald Trump. This requires using the relevant data from the chart.",
+                "answer": "11; 46%; 38; 78",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-7",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_4-12",
+                    "chart_4-13",
+                    "chart_4-16",
+                    "chart_4-17",
+                    "chart_4-20",
+                    "chart_5-1",
+                    "chart_5-8",
+                    "chart_2-1",
+                    "chart_2-2"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of news - influencer posts about Trump/Harris on X (Twitter) and the proportion of news influencers with news organization affiliation who were critical of Kamala Harris in the lead - up to the 2024 U.S. election?",
+                "rationale": "The proportion of news - influencer posts about Trump/Harris on X (Twitter) is 79%. The proportion of news influencers with news organization affiliation who were critical of Kamala Harris in the lead - up to the 2024 U.S. election is 35%. The difference is 79% - 35% = 44%.",
+                "answer": "44%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_5-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of news - influencer posts about Trump/Harris on TikTok that were posted by left - leaning influencers, the proportion of news influencers with no affiliation who were supportive of Kamala Harris in their posts, and the proportion of posts from news influencers that mentioned Donald Trump and were mostly critical? Use equal weights for each value. (Round the result to two decimal places.)",
+                "rationale": "The proportion of news - influencer posts about Trump/Harris on TikTok that were posted by left - leaning influencers is 45% (from chart_4-18). The proportion of news influencers with no affiliation who were supportive of Kamala Harris in their posts is 27% (from chart_5-11). The proportion of posts from news influencers that mentioned Donald Trump and were mostly critical is 31% (from chart_3-7). The weighted average with equal weights is (45% + 27% + 31%) / 3 = 34.33% (rounded to two decimal places).",
+                "answer": "34.33%",
+                "involved_content_sources": [
+                    "chart_4-18",
+                    "chart_5-11",
+                    "chart_3-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the product of the percentage of news influencers who mentioned Donald Trump and the proportion of news - influencer posts on X that were by right - leaning news influencers to the sum of the proportion of news influencers with news - organization affiliation who were critical of Kamala Harris and the proportion of news influencers with no affiliation who were supportive of Donald Trump?",
+                "rationale": "The percentage of news influencers who mentioned Donald Trump is 90% (chart_2-1). The proportion of news - influencer posts on X that were by right - leaning news influencers is 48% (chart_4-4). Their product is 90%\u00d748% = 0.9\u00d70.48 = 0.432. The proportion of news influencers with news - organization affiliation who were critical of Kamala Harris is 35% (chart_5-7), and the proportion of news influencers with no affiliation who were supportive of Donald Trump is 31% (chart_5-5). Their sum is 35% + 31% = 66% = 0.66. The ratio is 0.432\u00f70.66 \u2248 0.6545, which is approximately 65.45% when converted to a percentage.",
+                "answer": "65.45%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-1",
+                    "chart_4-4",
+                    "chart_5-7"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the product of the percentage of news influencers who mentioned Donald Trump and the proportion of those who were mostly critical among them, and the product of the percentage of news influencers who mentioned Kamala Harris and the proportion of posts about her that were mostly critical?",
+                "rationale": "The percentage of news influencers who mentioned Donald Trump is 90% (chart_2-1), and the proportion of those who were mostly critical among them is 42% (chart_3-1). Their product is 90% * 42% = 37.8%. The percentage of news influencers who mentioned Kamala Harris is 86% (chart_2-3), and the proportion of posts about her that were mostly critical is 38% (chart_3-10). Their product is 86% * 38% = 32.68%. The difference between the two products is 37.8% - 32.68% = 5.12%.",
+                "answer": "5.12%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-1",
+                    "chart_3-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of news influencers who mentioned Donald Trump in the lead - up to the 2024 U.S. election, the proportion of news influencers that mentioned Donald Trump and were mostly critical, and the proportion of X (Twitter) posts that mentioned Trump/Harris and were by right - leaning news influencers, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of news influencers who mentioned Donald Trump in the lead - up to the 2024 U.S. election is 90% (chart_2-1); the proportion of news influencers that mentioned Donald Trump and were mostly critical is 42% (chart_3-1); the proportion of X (Twitter) posts that mentioned Trump/Harris and were by right - leaning news influencers is 48% (chart_4-4). The weighted average is (90%\u00d70.2 + 42%\u00d70.3 + 48%\u00d70.5) = (0.9\u00d70.2 + 0.42\u00d70.3 + 0.48\u00d70.5) = 0.18+ 0.126 + 0.24 = 0.546 = 54.6%.",
+                "answer": "54.6%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-4",
+                    "chart_4-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of news influencers who mentioned Donald Trump and Kamala Harris, the difference between the proportion of posts about Trump and Harris that were mostly critical, the difference between the proportion of X posts by right - leaning and left - leaning news influencers, and the difference between the proportion of news influencers with no affiliation who were critical of Trump and Harris?",
+                "rationale": "From Chart 2, the proportion of news influencers who mentioned Donald Trump is 90% and that of Kamala Harris is 86%, so the difference is 90% - 86% = 4%. From Chart 3, the proportion of posts about Trump that were mostly critical is 31% and for Harris is 38%, so the difference is 38% - 31% = 7%. From Chart 4, the proportion of X posts by right - leaning news influencers is 48% and by left - leaning is 28%, so the difference is 48% - 28% = 20%. From Chart 5, the proportion of news influencers with no affiliation who were critical of Trump is 39% and of Harris is 45%, so the difference is 45% - 39% = 6%. The average of these four differences is (4% + 7% + 20% + 6%) / 4 = 9.25%.",
+                "answer": "9.25%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-7",
+                    "chart_3-10",
+                    "chart_4-2",
+                    "chart_4-4",
+                    "chart_5-4",
+                    "chart_5-10"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

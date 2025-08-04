@@ -1,0 +1,186 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: When was the survey period? Please provide the answer in the format of Month Day - Day, Year.\n question2: What proportion of 50 - 64 - year - olds say gun ownership does more to reduce safety by giving too many people access to firearms and increasing misuse?",
+                "rationale": "rationale1: The question asks for the survey period. By looking at the relevant content in Chart 10, we can get the answer in the required format.\n rationale2: We need to look for the specific proportion of 50 - 64 - year - olds with the view of gun - ownership reducing safety in the chart.",
+                "answer": "April 8 - 14, 2024; 42%",
+                "involved_content_sources": [
+                    "chart_10-53",
+                    "chart_11-20"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of U.S. Black adults think an increase in the number of guns in the U.S. is generally NET Very/Somewhat bad?\n question2: What proportion of U.S. adults aged 30 - 49 think gun laws are about right?\n question3: What proportion of Asian adults say gun ownership does more to reduce safety by giving too many people access to firearms and increasing misuse?",
+                "rationale": "rationale1: We need to extract the proportion of U.S. Black adults who have the view that an increase in the number of guns in the U.S. is generally NET Very/Somewhat bad from the given chart.\n rationale2: We need to find the proportion of U.S. adults aged 30 - 49 who think gun laws are about right from the given chart.\n rationale3: The question asks for a specific proportion value from the chart about Asian adults' view on gun - ownership reducing safety. We can directly find this value from the chart.",
+                "answer": "66%; 26%; 69%",
+                "involved_content_sources": [
+                    "chart_12-15",
+                    "chart_7-30",
+                    "chart_11-14"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What percentage of Americans said it is more important to control gun ownership in 2004? Please provide the answer as a number.\n question2: What proportion of 50 - 64 - year - olds say gun ownership does more to reduce safety by giving too many people access to firearms and increasing misuse?\n question3: What is the proportion of public K - 12 teachers who say they are somewhat worried about the possibility of a shooting ever happening at their school?\n question4: What proportion of U.S. Rep/Lean Rep adults think an increase in the number of guns in the U.S. is generally NET Very/Somewhat bad?",
+                "rationale": "rationale1: The question asks for the percentage of Americans who supported gun - ownership control in 2004. By referring to the relevant data in Chart 10, we can directly obtain the answer.\n rationale2: We need to look for the specific proportion of 50 - 64 - year - olds with the view of gun - ownership reducing safety in the chart.\n rationale3: The question directly asks for the proportion of teachers with a certain level of worry about school shootings. The relevant data is directly provided in the chart.\n rationale4: This question asks for the proportion of a specific political - leaning group (U.S. Rep/Lean Rep adults) who think an increase in the number of guns is generally NET Very/Somewhat bad, and we can get the answer from the chart.",
+                "answer": "60; 42%; 41%; 26%",
+                "involved_content_sources": [
+                    "chart_10-5",
+                    "chart_11-20",
+                    "chart_14-3",
+                    "chart_12-48"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of non - gun owners who say 'I could see myself owning a gun in the future' among non - gun - owning men, non - gun - owning women, and non - gun owners in general?\n question2: What is the difference in the proportion of U.S. adult men and women who think gun laws should be more strict?",
+                "rationale": "rationale1: To find the average, we need to add up the proportions of non - gun owners who say 'I could see myself owning a gun in the future' for non - gun - owning men, non - gun - owning women, and non - gun owners in general, and then divide by 3. We get the relevant proportions from the given chart.\n rationale2: We need to subtract the proportion of U.S. adult men who think gun laws should be more strict from the proportion of U.S. adult women who think gun laws should be more strict. This involves two specific data points from the chart about different genders' views on gun laws.",
+                "answer": "47.67%; 13%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_7-2",
+                    "chart_7-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of non - gun owners who say 'I could see myself owning a gun in the future' among non - gun - owning men, non - gun - owning women, and non - gun owners in general?\n question2: What is the difference in the proportion of U.S. adult men and women who think gun laws should be more strict?\n question3: What is the difference in the proportion of U.S. men and U.S. women who say an increase in the number of guns in the U.S. is generally NET Very/Somewhat bad?",
+                "rationale": "rationale1: To find the average, we need to add up the proportions of non - gun owners who say 'I could see myself owning a gun in the future' for non - gun - owning men, non - gun - owning women, and non - gun owners in general, and then divide by 3. We get the relevant proportions from the given chart.\n rationale2: We need to subtract the proportion of U.S. adult men who think gun laws should be more strict from the proportion of U.S. adult women who think gun laws should be more strict. This involves two specific data points from the chart about different genders' views on gun laws.\n rationale3: We need to find the proportion of U.S. men who think an increase in the number of guns is generally NET Very/Somewhat bad and the proportion of U.S. women with the same view from the chart. Then subtract the proportion of men from that of women to get the difference.",
+                "answer": "47.67%; 13%; 9%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_7-2",
+                    "chart_7-3",
+                    "chart_12-6",
+                    "chart_12-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of non - gun owners who say 'I could see myself owning a gun in the future' among non - gun - owning men, non - gun - owning women, and non - gun owners in general?\n question2: What is the difference in the proportion of U.S. adult men and women who think gun laws should be more strict?\n question3: What is the difference in the proportion of U.S. men and U.S. women who say an increase in the number of guns in the U.S. is generally NET Very/Somewhat bad?\n question4: What is the average percentage of Americans who said it is more important to protect the right of Americans to own guns from 2000 to 2024?",
+                "rationale": "rationale1: To find the average, we need to add up the proportions of non - gun owners who say 'I could see myself owning a gun in the future' for non - gun - owning men, non - gun - owning women, and non - gun owners in general, and then divide by 3. We get the relevant proportions from the given chart.\n rationale2: We need to subtract the proportion of U.S. adult men who think gun laws should be more strict from the proportion of U.S. adult women who think gun laws should be more strict. This involves two specific data points from the chart about different genders' views on gun laws.\n rationale3: We need to find the proportion of U.S. men who think an increase in the number of guns is generally NET Very/Somewhat bad and the proportion of U.S. women with the same view from the chart. Then subtract the proportion of men from that of women to get the difference.\n rationale4: To find the average, we need to sum up the percentages of Americans who support gun - owning rights from 2000 to 2024 and then divide by the number of years. The relevant data can be found in the chart for each year's result on the percentage of supporting gun - owning rights.",
+                "answer": "47.67%; 13%; 9%; 42.73%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_7-2",
+                    "chart_7-3",
+                    "chart_12-6",
+                    "chart_12-9",
+                    "chart_10-2",
+                    "chart_10-4",
+                    "chart_10-6",
+                    "chart_10-8",
+                    "chart_10-10",
+                    "chart_10-12",
+                    "chart_10-14",
+                    "chart_10-16",
+                    "chart_10-18",
+                    "chart_10-20",
+                    "chart_10-22",
+                    "chart_10-24",
+                    "chart_10-26"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of American Republicans/Lean Republicans who personally own a gun and the proportion of Rep/Lean Rep who say it is more important to protect the right of Americans to own guns in 2024?",
+                "rationale": "The proportion of American Republicans/Lean Republicans who personally own a gun is 45% (from chart_2-55). The proportion of Rep/Lean Rep who say it is more important to protect the right of Americans to own guns in 2024 is 83% (from chart_10-51). The difference is 83% - 45% = 38%.",
+                "answer": "38%",
+                "involved_content_sources": [
+                    "chart_2-55",
+                    "chart_10-51"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of American men who personally own a gun, the proportion of U.S. gun - owners who cite protection as a major reason for owning a gun, and the proportion of U.S. adults who think gun laws should be more strict? (Round the result to two decimal places.)",
+                "rationale": "The proportion of American men who personally own a gun is 40% (from chart_2-4). The proportion of U.S. gun - owners who cite protection as a major reason for owning a gun is 72% (from chart_3-1). The proportion of U.S. adults who think gun laws should be more strict is 58% (from chart_7-1). The average is (40% + 72% + 58%) / 3 = 56.67% (rounded to two decimal places).",
+                "answer": "56.67%",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_3-1",
+                    "chart_7-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of American adults who think it's more important to control gun ownership in 2000 and 2024, the difference between the proportion of those who think gun ownership increases safety among Republicans/Lean Republicans and Democrats/Lean Democrats, the difference between the proportion of urban and rural residents who think an increase in the number of guns is bad, and the difference between the proportion of gun - owners and non - gun - owners who think it's too easy to legally obtain a gun?",
+                "rationale": "1. First, calculate the difference between the proportion of American adults who think it's more important to control gun ownership in 2000 and 2024: In 2000, the proportion was 66% (chart_10 - 1), and in 2024, it was 51% (chart_10 - 25). The difference is 66% - 51% = 15%. 2. Then, calculate the difference between the proportion of those who think gun ownership increases safety among Republicans/Lean Republicans and Democrats/Lean Democrats: Among Republicans/Lean Republicans, the proportion is 81% (chart_11 - 31), and among Democrats/Lean Democrats, it is 26% (chart_11 - 37). The difference is 81% - 26% = 55%. 3. Next, calculate the difference between the proportion of urban and rural residents who think an increase in the number of guns is bad: Among urban residents, the proportion is 57% (chart_12 - 44), and among rural residents, it is 34% (chart_12 - 48). The difference is 57% - 34% = 23%. 4. Finally, calculate the difference between the proportion of gun - owners and non - gun - owners who think it's too easy to legally obtain a gun: Among gun - owners, the proportion is 38% (chart_6 - 13), and among non - gun - owners, it is 73% (chart_6 - 16). The difference is 73% - 38% = 35%. The average of these four differences is (15% + 55% + 23% + 35%) / 4 = 32%.",
+                "answer": "32%",
+                "involved_content_sources": [
+                    "chart_10-1",
+                    "chart_11-31",
+                    "chart_12-44",
+                    "chart_6-13"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of American Republicans/Lean Republicans who personally own a gun and those who don't own a gun but someone else in their household does, and the average of the proportions of U.S. Rep/Lean Rep who strongly or somewhat favor banning high - capacity ammunition magazines that hold more than 10 rounds and banning assault - style weapons?",
+                "rationale": "Among American Republicans/Lean Republicans, the proportion of those who personally own a gun is 45% (chart_2-55), and the proportion of those who don't own a gun but someone else in their household does is 10% (chart_2-56). The sum of these two proportions is 45% + 10% = 55%. Among U.S. adults, the proportion of Rep/Lean Rep who strongly or somewhat favor banning high - capacity ammunition magazines that hold more than 10 rounds is 45% (chart_8-7), and the proportion of Rep/Lean Rep who strongly or somewhat favor banning assault - style weapons is 42% (chart_8-10). The average of these two proportions is (45% + 42%) / 2 = 43.5%. Then the difference between the two is 55% - 43.5% = 11.5%.",
+                "answer": "11.5%",
+                "involved_content_sources": [
+                    "chart_2-55",
+                    "chart_2-56",
+                    "chart_8-7",
+                    "chart_8-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of U.S. adults who think gun ownership increases safety, the proportion of U.S. adults who think an increase in the number of guns is good for society, and the proportion of U.S. adults who think gun laws should be more strict, with weights being 0.4, 0.3, and 0.3 respectively?",
+                "rationale": "The proportion of U.S. adults who think gun ownership increases safety is 52% (chart_11-1); the proportion of U.S. adults who think an increase in the number of guns is good for society is 21% (chart_12-1); the proportion of U.S. adults who think gun laws should be more strict is 58% (chart_7-1). The weighted average is (52%\u00d70.4 + 21%\u00d70.3 + 58%\u00d70.3) = (0.52\u00d70.4 + 0.21\u00d70.3 + 0.58\u00d70.3) = 0.208 + 0.063 + 0.174 = 0.445 = 44.5%.",
+                "answer": "44.5%",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_11-2",
+                    "chart_12-1",
+                    "chart_12-2",
+                    "chart_7-1",
+                    "chart_7-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of American adults who think it's more important to protect the right to own guns and those who think it's more important to control gun ownership, the difference between the proportion of U.S. adults who think gun ownership increases safety and those who think it reduces safety, the difference between the proportion of U.S. adults who think an increase in guns is good and those who think it's bad, and the difference between the proportion of Dem/Lean Dem and Rep/Lean Rep who think gun violence is a very big problem in 2024?",
+                "rationale": "In chart_9, the proportion of American adults who think it's more important to protect the right to own guns is 51% and those who think it's more important to control gun ownership is 48%, so the difference is 51% - 48% = 3%. In chart_11, the proportion of U.S. adults who think gun ownership increases safety is 52% and those who think it reduces safety is 47%, so the difference is 52% - 47% = 5%. In chart_12, the proportion of U.S. adults who think an increase in guns is good is 21% and those who think it's bad is 54%, so the difference is 21% - 54% = -33%. In chart_13, in 2024, the proportion of Dem/Lean Dem who think gun violence is a very big problem is 68% and Rep/Lean Rep is 27%, so the difference is 68% - 27% = 41%. The average of these four differences is (3% + 5% - 33% + 41%) / 4 = 4%.",
+                "answer": "4%",
+                "involved_content_sources": [
+                    "chart_9-1",
+                    "chart_9-2",
+                    "chart_11-1",
+                    "chart_11-2",
+                    "chart_12-1",
+                    "chart_12-3",
+                    "chart_13-19",
+                    "chart_13-21"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

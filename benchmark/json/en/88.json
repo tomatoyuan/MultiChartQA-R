@@ -1,0 +1,207 @@
+{
+  "chart": [
+    "chart_88_1",
+    "chart_88_2",
+    "chart_88_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In 'Adult Obesity and Overweight Rates in China from 2000 to 2020' and 'Prevalence of diabetes and hypercholesterolemia among Chinese adults from 2007 to 2020', do both show a continuous upward trend? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_88_1, the obesity rate increased from 7.0% to 14.6%, and the overweight rate increased from 22.8% to 35.0%. In chart_88_2, the diabetes rate increased from 9.7% to 11.9%, and the hypercholesterolemia rate increased from 3.1% to 8.2%.",
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Considering the obesity rate and overweight rate in 'Adult Obesity and Overweight Rates in China from 2000 to 2020' and the market size in 'Market size of sugar - free beverages in China from 2016 to 2026', was 2020 the peak year for both charts? Answer yes or no.",
+      "answer": "No",
+      "explanation": "In chart_88_1, both the obesity rate and overweight rate reached their highest in 2020. However, in chart_88_3, the peak market size was in 2026 (30.1 billion yuan), and in 2020 it was 11.8 billion yuan, not the peak.",
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Considering the prevalence of diabetes and hypercholesterolemia in 'Prevalence of diabetes and hypercholesterolemia among Chinese adults from 2007 to 2020' and the market size in 'Market size of sugar - free beverages in China from 2016 to 2026', was 2020 a node in the continuous upward trend of both? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_88_2, the prevalence of diabetes and hypercholesterolemia continued to rise in 2020. In chart_88_3, the market size of sugar - free beverages has been growing continuously from 2016 to 2026, and 2020 was an intermediate growth stage.",
+      "charts_involved": [
+        "chart_88_2",
+        "chart_88_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the difference in percentage points between the adult overweight rate and the prevalence of diabetes among adults in 2020? Round to 1 decimal place. Answer: xx.xx percentage points",
+      "answer": "23.1 percentage points",
+      "explanation": "Adult overweight rate of 35.0% in 2020 - Prevalence of diabetes among adults of 11.9% = 23.1 percentage points.",
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the adult obesity rate to the prevalence of hypercholesterolemia among adults in 2020? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "1.78 times",
+      "explanation": "Adult obesity rate of 14.6% in 2020 ÷ Prevalence of hypercholesterolemia among adults of 8.2% = 1.7805. Rounded to 2 decimal places, it is 1.78 times.",
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Divide the market size of sugar - free beverages in 2023 by the adult overweight rate in 2020. What is the market size corresponding to each 1 percentage point of the overweight rate in billion yuan? Round to 2 decimal places. Answer: xx.xx billion yuan",
+      "answer": "5.57 billion yuan",
+      "explanation": "195 billion yuan ÷ 35.0% = 195 ÷ 0.35 = 557.14 billion yuan. Then divide by 100 percentage points to get 5.57 billion yuan per 1 percentage point.",
+      "charts_involved": [
+        "chart_88_3",
+        "chart_88_1"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart showing the trends of adult obesity rate and overweight rate in China, the chart showing the trend of adult diabetes prevalence, and the chart showing the growth of the sugar-free beverage market size, which options best explain the potential reasons for the rapid expansion of the sugar-free beverage market?",
+      "answer": {
+        "A": "In 2020, the obesity rate increased significantly from 10.5% in 2014 to 14.6%, which directly stimulated the demand for healthy beverages, leading to a rapid expansion of the market size.",
+        "B": "The growth of the overweight rate and the prevalence of hypercholesterolemia are related to the obesity problem, which may have raised consumers' awareness of reducing sugar intake, thereby driving the expansion of the sugar-free beverage market.",
+        "C": "The expansion of the sugar-free beverage market is mainly due to the increase in advertising investment and the success of brand marketing strategies, which are independent of the trends of health problems.",
+        "D": "The continuous rise of the obesity rate and diabetes prevalence may reflect an increase in public health risks, which has driven the demand for healthy alternative beverages, thus promoting the growth of the sugar-free beverage market.",
+        "E": "The growth rate of the sugar-free beverage market size reached a peak of 11.7% in 2026, indicating the highest degree of exacerbation of health risks, which drove the market expansion.",
+        "F": "Against the background of the overall deterioration of health problems, the annual growth rate of the sugar-free beverage market shows that consumers are choosing low-sugar products to cope with the increasing risk of metabolic diseases.",
+        "G": "The shift of consumers' taste preferences towards a low-sugar diet is a global trend, which has nothing to do with specific health data in China, and this has driven the growth of the sugar-free beverage market."
+      },
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2",
+        "chart_88_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The data shows that the adult obesity rate and diabetes prevalence in China are constantly rising, but the market size of sugar-free beverages is growing rapidly. Which options in these best explain this apparent inconsistency?",
+      "answer": {
+        "A": "Although the overweight rate continues to grow, the annual growth rate of the sugar-free beverage market shows that consumers are actively choosing alternative products to deal with weight-related health problems, which reflects the rise of preventive health behaviors.",
+        "B": "Despite the increase in health problems, the growth of sugar-free beverages is due to government subsidies and price cuts, which have lowered the threshold for consumers to purchase.",
+        "C": "The overweight rate increased steadily from 22.8% in 2000 to 35.0% in 2020, but the sugar-free beverage market had a growth rate of 0% in 2016, proving that there is no direct correlation between the two.",
+        "D": "The increase in the obesity rate and diabetes prevalence may have raised public awareness of the harm of sugar, thus stimulating the demand for sugar-free beverages to alleviate health risks.",
+        "E": "The diabetes prevalence decreased to 11.9% in 2020, which alleviated health risks and thus released the demand for sugar-free beverages.",
+        "F": "Consumers are indifferent to health risks and continue to prefer high-sugar beverages, but the market growth is due to the improvement of supply chain efficiency.",
+        "G": "The increase in the prevalence of hypercholesterolemia is related to the obesity trend. The expansion of the sugar-free beverage market during the same period shows that the enhanced health awareness is being translated into specific consumption choices to offset the deterioration of metabolic diseases."
+      },
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2",
+        "chart_88_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The data shows that the adult obesity rate and diabetes prevalence in China are rising, but the market size of sugar-free beverages is growing rapidly. Which options in these best explain this apparent inconsistency?",
+      "answer": {
+        "A": "The increase in the obesity rate is closely related to the increase in diabetes prevalence in terms of time, which may indicate that obesity is a risk factor for diabetes. The growth of the sugar-free beverage market reflects the public's efforts to manage these risks by reducing sugar intake.",
+        "B": "Hypercholesterolemia is the main cause of obesity, which directly dominates the demand for sugar-free beverages, but the market response is limited by product supply.",
+        "C": "The growth rate of the sugar-free beverage market size is synchronized with the change in the obesity rate. For example, the obesity rate increased rapidly in 2017, corresponding to a high growth of 28.8% in YOY.",
+        "D": "Against the background of the rising trends of both obesity and diabetes prevalence, the change in the annual growth rate of the sugar-free beverage market (such as the slowdown after the early high growth) shows that the market response may be driven by the severity of health problems, but it is adjusted over time.",
+        "E": "The growth of the overweight rate is parallel to the increase in the prevalence of hypercholesterolemia, suggesting that weight problems may lead to abnormal blood lipids. At the same time, the expansion of the sugar-free beverage market shows that consumers are turning to healthy alternatives to alleviate such health problems.",
+        "F": "There is no direct health association between obesity and diabetes. The growth of the sugar-free beverage market is an independent phenomenon, which is due to the improvement of the economic level rather than health problems.",
+        "G": "The obesity rate of 9.9% in 2010 led to a diabetes prevalence of 11.2% in 2017, but the growth rate of the sugar-free beverage market was relatively low (22.1%) in 2017, indicating that health problems did not effectively drive the market."
+      },
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2",
+        "chart_88_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the continuous upward trend of adult obesity, overweight, and related health problems in China, as well as the rapid growth of the sugar-free beverage market, how should public health departments optimize intervention strategies to effectively reduce the risk of chronic diseases? Please select the most reasonable resource allocation recommendation:",
+      "answer": {
+        "A": "Promote policy cooperation with enterprises to subsidize or promote the supply of sugar-free beverages in public institutions. Since the deterioration of health problems requires multi-sectoral collaboration, and the continuous growth of the sugar-free beverage market shows its potential as a supplement to a healthy diet, which can effectively reduce sugar intake.",
+        "B": "Promote mental health services to help the public manage diet disorders caused by stress, because psychological factors are common causes of health problems.",
+        "C": "Give priority to investing in health education and diet guidance programs, emphasizing the reduction of high-sugar food intake. Since the increase in obesity and overweight rates is highly related to diet factors, and the growth of the sugar-free beverage market indicates that consumers' acceptance of low-sugar alternatives is increasing, which can be used as a feasible solution in education.",
+        "D": "Given the rapid growth of the sugar-free beverage market size (e.g., the YOY in 2020 was 22.1%), sugar-containing beverages should be prioritized as an energy supplement, because data shows that insufficient sugar intake may cause health risks such as fatigue.",
+        "E": "Increase the construction of community sports facilities and parks, because physical activity is a general method to prevent obesity, which can encourage residents to exercise daily.",
+        "F": "Strengthen early screening and monitoring programs for diabetes and hypercholesterolemia, because the prevalence of these diseases is on the rise, especially the significant growth of hypercholesterolemia. The expansion of the sugar-free beverage market reflects the improvement of health awareness. Combining the two can improve the participation rate and effectiveness of screening programs.",
+        "G": "Since the obesity rate decreased significantly in 2020 (from 10.5% in 2014 to 14.6%), reduce the budget for obesity intervention and invest in infectious disease prevention and control instead, because the obesity problem has been alleviated."
+      },
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2",
+        "chart_88_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The beverage industry has observed the enhancement of consumers' health awareness and changes in relevant health indicators. How should it adjust product development and marketing strategies to seize market opportunities and contribute to social well-being? Please select the most effective business advice:",
+      "answer": {
+        "A": "Shift the marketing focus to the promotion of health benefits, such as emphasizing the potential contribution of products to weight management and chronic disease prevention. Since the overweight rate continues to rise and the prevalence of hypercholesterolemia is growing rapidly, combined with the increasing acceptance of the sugar-free beverage market, it can enhance brand image and market share.",
+        "B": "Accelerate the expansion of the sugar-free beverage product line and innovate low-sugar formulas. Since the sugar-free beverage market size shows a strong growth momentum, and the rising trend of obesity and diabetes prevalence indicates that consumers' demand for healthy beverages is increasing, which can directly respond to health concerns.",
+        "C": "Since the growth rate of the sugar-free beverage market continues to decline (e.g., the YOY decreased from 61.3% in 2017 to 11.7% in 2026), investment in sugar-free products should be reduced, and the traditional sugar-containing beverage line should be expanded instead, because the market is approaching saturation.",
+        "D": "Given the downward trend of diabetes prevalence (e.g., 11.9% in 2020 vs. 9.7% in 2007), high-sugar beverage series should be developed to meet consumers' demand for energy supplement and take advantage of market growth opportunities.",
+        "E": "Optimize packaging design to attract young consumers, because visual appeal can increase product sales and market competitiveness.",
+        "F": "Strengthen social media marketing activities to improve brand influence and user participation, because digital marketing is the core strategy of modern enterprises.",
+        "G": "Invest in the R & D of functional beverages (e.g., adding dietary fiber) targeting specific health risks such as hypercholesterolemia. Since the prevalence of this disease is rising significantly, and the stable expansion of the sugar-free beverage market provides an innovation foundation and consumer testing platform for enterprises."
+      },
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2",
+        "chart_88_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Facing the challenge of the overall increase in the prevalence of chronic diseases among adults, how should policymakers integrate market dynamics and health data to optimize the national health strategy, for example, in terms of supervision and public advocacy? Please select the most reasonable policy advice:",
+      "answer": {
+        "A": "Since the growth forecast of the sugar-free beverage market shows a slowdown (the YOY in 2026 is 11.7%), the subsidy policy for healthy beverages should be cancelled. Since the market lacks momentum, resources should be invested in the traditional food field instead.",
+        "B": "Introduce food sugar content labeling regulations and strengthen supervision. Since the rising trend of obesity and diabetes prevalence is related to diet, and the rapid growth of the sugar-free beverage market proves that consumers respond to transparent information, which can help the public make healthy choices.",
+        "C": "Implement stricter air pollution control policies, because environmental factors are potential causes of chronic diseases and comprehensive governance is needed.",
+        "D": "Given the decrease in the prevalence of hypercholesterolemia in 2020 (from 8.0% in 2017 to 8.2%), the supervision of high-fat foods should be relaxed, because the data shows that the risk has been reduced, which can release market vitality.",
+        "E": "Increase the number and funds of public medical institutions, because this is a basic measure to deal with any health problems, which can directly improve the accessibility of medical services.",
+        "F": "Establish a tax incentive or subsidy mechanism to encourage enterprises to develop healthy beverages. Since the prevalence of diseases such as hypercholesterolemia is growing rapidly, policy guidance is needed. The positive trend of the sugar-free beverage market indicates the industrial potential, which can promote the coordination between the health industry and public goals.",
+        "G": "Increase the budget for public health campaigns, focusing on promoting a balanced diet and lifestyle interventions. Since the simultaneous increase in the overweight rate and the prevalence of various diseases shows the necessity of comprehensive intervention, the expansion of the sugar-free beverage market can be included in the publicity as a successful case to enhance persuasion."
+      },
+      "charts_involved": [
+        "chart_88_1",
+        "chart_88_2",
+        "chart_88_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    }
+  ]
+}

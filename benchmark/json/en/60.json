@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_60_1",
+    "chart_60_2",
+    "chart_60_3",
+    "chart_60_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the color corresponding to the wearing habit with the highest proportion in the 'Habit of wearing frame glasses among myopic people' the same as the color corresponding to the number of 'Two pairs' in the 'Distribution of the number of frame glasses owned by myopic people'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are light green.",
+      "charts_involved": [
+        "chart_60_1",
+        "chart_60_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Are the color types in the 'Habit of wearing frame glasses among myopic people' exactly the same as those in the 'Replacement Cycle of Framed Eyeglasses'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "There is also red in chart_60_3.",
+      "charts_involved": [
+        "chart_60_1",
+        "chart_60_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the ranking of the proportion of 'Change in vision/eye degree' in the 'Motivations for Changing Glasses' the same as the ranking of the proportion of '1 - 2 years' in the 'Replacement Cycle of Framed Eyeglasses'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The ranking of the proportion of 'Change in vision/eye degree' in chart_60_4 is the 4th, while the proportion of '1 - 2 years' in chart_60_3 is the highest.",
+      "charts_involved": [
+        "chart_60_3",
+        "chart_60_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the difference in percentage points between the proportion of people who wear frame glasses almost all day and the proportion of people whose replacement cycle is 1 - 2 years? Keep 1 decimal place. Answer: xx.xx percentage points",
+      "answer": "12.7 percentage points",
+      "explanation": "The proportion of people who wear glasses almost all day (54.1%) - The proportion of people whose replacement cycle is 1 - 2 years (41.4%) = 12.7%.",
+      "charts_involved": [
+        "chart_60_1",
+        "chart_60_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the proportion of people whose replacement cycle is 1 - 2 years to the proportion of people who change glasses due to glasses being worn, aged or damaged? Keep 1 decimal place. Answer: xx.xx times",
+      "answer": "1.1 times",
+      "explanation": "The proportion of people whose replacement cycle is 1 - 2 years (41.4%) ÷ The proportion of people who change glasses due to wear and other reasons (39.2%) = 1.056 → Keep 1 decimal place as 1.1 times.",
+      "charts_involved": [
+        "chart_60_3",
+        "chart_60_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the sum of the proportion of people who wear frame glasses only when using eyes for a long time and the proportion of people who own three pairs and above of frame glasses? Keep 1 decimal place. Answer: xx.xx%",
+      "answer": "15.7%",
+      "explanation": "The proportion of people who wear glasses when using eyes for a long time (11.6%) + The proportion of people who own three pairs and above of glasses (4.1%) = 15.7%.",
+      "charts_involved": [
+        "chart_60_1",
+        "chart_60_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Among myopic people, what possible associations might exist between the habit of wearing frame glasses and the number of glasses owned? Please analyze the possible reasons based on the charts of wearing habits and the distribution of the number of glasses.",
+      "answer": {
+        "A": "Since 15.5% of people only wear glasses when looking at distant objects, they are more likely to own two pairs of glasses because the proportion of 'Two pairs' in the bar chart is 42.7%, which is the highest.",
+        "B": "The 18.9% of people who wear glasses when they feel the need usually own only one pair of glasses because their random wearing habits reduce the necessity of having multiple pairs of glasses.",
+        "C": "People who only wear glasses when looking at distant objects may own fewer glasses because their low frequency of use reduces the necessity of having multiple pairs of glasses.",
+        "D": "People who have no fixed wearing pattern and wear glasses when they feel the need may be more inclined to own multiple pairs of glasses to deal with uncertain usage scenarios.",
+        "E": "All wearing habit groups tend to own at least two pairs of glasses to deal with unexpected situations such as glasses being lost or damaged.",
+        "F": "The habit of wearing glasses almost all day may prompt people to own multiple pairs of glasses because high - frequency use increases the demand for spare or replacement glasses.",
+        "G": "The wearing habits of myopic people have nothing to do with the number of glasses because the number of glasses is mainly determined by personal economic budgets. High - income earners tend to buy multiple pairs of glasses."
+      },
+      "charts_involved": [
+        "chart_60_1",
+        "chart_60_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "What might be the main motivations for people with a short glasses replacement cycle (e.g., 1 - 2 years) to change their glasses? Please infer the key driving factors based on the charts of the replacement cycle and the motivations for changing glasses.",
+      "answer": {
+        "A": "Since 35.9% of people change their glasses because they are uncomfortable to wear, which highly matches the 41.4% proportion of the 1 - 2 - year replacement cycle, discomfort is the only key driving factor.",
+        "B": "The main motivation for a short replacement cycle is to follow the fashion trend because young people update their glasses more frequently to keep their image fresh.",
+        "C": "The relatively high proportion of the motivation of wearing discomfort (uncomfortable vision/frame discomfort) may prompt more frequent replacement to maintain the comfort of daily use.",
+        "D": "The proportion of the motivation of a change in vision/eye degree is moderate, which may contribute to the short cycle but is not as significant as the previous two.",
+        "E": "All short - cycle replacements are due to changes in vision because unstable myopia degrees are a common phenomenon.",
+        "F": "The relatively high proportion of the motivation of glasses being worn, aged or damaged, affecting use may explain the short replacement cycle because these factors directly lead to the failure of the glasses' functions.",
+        "G": "The proportion of the motivation of following the current trend or getting the same style as celebrities/influencers is 18.3%, which may prompt short - cycle replacement, especially in the 1 - 2 - year group."
+      },
+      "charts_involved": [
+        "chart_60_3",
+        "chart_60_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "For people who own multiple pairs of frame glasses, which aspects might their motivations for changing glasses focus on? Please analyze the potential connections based on the charts of the distribution of the number of glasses and the motivations for changing glasses.",
+      "answer": {
+        "A": "The proportion of the motivation of following the current trend or getting the same style as celebrities/influencers is low but exists. It may be more prominent among some people who own multiple pairs of glasses for matching different styles.",
+        "B": "All holders of multiple pairs of glasses change their glasses due to economic reasons, such as price cuts or promotional activities of glasses.",
+        "C": "Since 39.2% of people change their glasses because of wear/aging, which is directly related to the 46.8% proportion of 'Others' among those who own multiple pairs of glasses, wear is the main focus.",
+        "D": "The proportion of the motivation of meeting the needs of different scenarios is 14.8%, which is very low among people who own multiple pairs of glasses. Therefore, it is not an important factor.",
+        "E": "The main motivation for people who own multiple pairs of glasses to change their glasses is the advice of professional doctors because regular check - ups are part of health management.",
+        "F": "The relatively high proportion of the motivation of wanting to change the image or try a new style may prompt people who own multiple pairs of glasses to change their glasses more frequently to pursue fashion diversity.",
+        "G": "The proportion of the motivation of meeting the needs of different scenarios (such as placing glasses in different locations) is moderate and may be more common among people who own multiple pairs of glasses to support multi - functional use."
+      },
+      "charts_involved": [
+        "chart_60_2",
+        "chart_60_4"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the wearing habits of myopic people and the reasons for changing glasses, which product improvement areas should glasses manufacturers prioritize to reduce the frequency of user replacement and improve user satisfaction? Please select the most effective strategic suggestions:",
+      "answer": {
+        "A": "Reduce the retail price of glasses and increase promotional activities. Since price sensitivity is the core factor for users to change glasses, low prices can directly reduce the replacement demand caused by cost pressure.",
+        "B": "Develop multi - functional glasses that can adapt to different scenarios. Some users only wear glasses in specific situations, and a change in functional requirements is a common motivation for replacement. Providing multi - functional designs can meet diverse needs and reduce frequent replacement.",
+        "C": "Focus on improving the durability and wear - resistance of glasses. Since most users wear glasses all day, which may cause the glasses to age more easily; at the same time, wear and aging are one of the main motivations for replacement. Strengthening this aspect can directly reduce the replacement demand caused by aging.",
+        "D": "Give priority to developing environmentally friendly frame materials that can be biodegraded to comply with the trend of sustainable development and reduce passive replacement caused by the improvement of environmental awareness.",
+        "E": "Strengthen the research and development of anti - blue - light technology for lenses. Since the proportion of wearers who use their eyes for a long time is high (11.6%), and blue - light protection is a current hot demand in the market.",
+        "F": "Optimize the comfort and stability design of the frame. Wearing discomfort is an important reason for replacement, and the proportion of all - day wearers is the highest. Improving comfort can reduce the tendency of users to replace glasses due to discomfort."
+      },
+      "charts_involved": [
+        "chart_60_1",
+        "chart_60_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the number of glasses owned by users and the replacement cycle, how should glasses retailers formulate marketing and education plans to encourage users to buy multiple pairs of glasses and optimize the replacement timing? Please select the most reasonable strategic suggestions:",
+      "answer": {
+        "A": "Cooperate with fashion brands to develop accessory - style frames. Since 'Matching new styles for daily outfits' accounts for 19.5% among the motivations for changing glasses (chart_60_4), it can enhance the willingness of non - functional purchases.",
+        "B": "Shorten the new product release cycle to once every six months. Since the proportion of users with a replacement cycle of 'Less than 1 year' is 5.7% (chart_60_3), high - frequency new product launches can match their needs.",
+        "C": "Establish a replacement reminder service and provide personalized suggestions based on the typical replacement cycle. The distribution of replacement times shows a concentrated trend. Combining with the user number data, the reminder service can prompt users to replace glasses during the efficient period and avoid discomfort or damage caused by procrastination.",
+        "D": "Strengthen user education and emphasize the benefits of regular replacement and scene - based use. The peak of the replacement cycle is in the medium - term years, and the need for different scenarios is one of the motivations for replacement. Education can help users use multiple pairs of glasses according to scenarios and reduce unexpected replacement.",
+        "E": "Launch bundled promotions or trade - in plans for multiple pairs of glasses. Since most users only own one pair of glasses, but the replacement cycle is concentrated in the short - term years, encouraging the purchase of spare glasses can disperse the usage pressure and extend the lifespan of a single pair of glasses.",
+        "F": "Launch limited - edition co - branded glasses to stimulate the collection demand with scarcity. Since the proportion of users with 'Three pairs and above' is 4.1% (chart_60_2), it indicates great potential in the collection market."
+      },
+      "charts_involved": [
+        "chart_60_2",
+        "chart_60_3",
+        "chart_60_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the motivations and cycle for changing glasses, how should optometry service institutions allocate resources to improve service efficiency and reduce passive replacement? Please select the most effective strategic suggestions:",
+      "answer": {
+        "A": "Give priority to providing glasses maintenance and adjustment services. Loose frames or unstable wearing are common reasons for replacement. Combining with the distribution of the replacement cycle, maintenance services can repair problems before the replacement peak and extend the lifespan of glasses.",
+        "B": "Cooperate with manufacturers to promote durable glasses and strengthen communication regarding the advice of professional doctors. The advice of doctors is one of the motivations for replacement, and the proportion of wear and aging is high. Cooperation can reduce frequent replacement caused by aging and optimize resource utilization.",
+        "C": "Give priority to expanding service outlets in remote areas. Since the proportion of users with a replacement cycle of 'More than 5 years' is 2.6% (chart_60_3), it indicates unmet needs in low - penetration areas.",
+        "D": "Open an online virtual try - on service. Since 'Want to change image' accounts for 24.0% (chart_60_4), the technology can quickly meet the demand for style iteration.",
+        "E": "Increase investment in regular vision check - up services. A change in degree is a key motivation for replacement, and the proportion is low when the replacement cycle is long, but most replacements occur in the medium - term. Regular check - ups can timely capture changes in degrees and reduce emergency replacement caused by discomfort due to degree changes.",
+        "F": "Establish a user community operation team to enhance user stickiness through social interaction. Since 'Follow the current trend' accounts for 18.3% (chart_60_4), the community can strengthen the response speed to trends."
+      },
+      "charts_involved": [
+        "chart_60_3",
+        "chart_60_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    }
+  ]
+}

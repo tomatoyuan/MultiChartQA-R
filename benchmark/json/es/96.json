@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_96_1",
+    "chart_96_2",
+    "chart_96_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿Se puede inferir a partir de los dos gráficos 'Ventas y Tasa de Crecimiento de MPV en China de 2011 a 2021' y 'Escenarios de uso de vehículos MPV' que la disminución de las ventas de MPV está relacionada con el hecho de que sus principales escenarios de aplicación son de corta distancia? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "El chart_96_2 muestra que los MPV se utilizan principalmente para ir y volver del trabajo (67.8%), recoger y dejar a los niños (61.2%) y hacer tours en automóvil de corta distancia (59.6%), lo que indica que las necesidades son principalmente de corta distancia en la vida diaria. En el chart_96_1, las ventas han disminuido año tras año desde 2017, lo que puede reflejar que estos escenarios han sido reemplazados por automóviles eléctricos, SUV, etc.",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿En los gráficos 'MPV [Espacio] Puntos débiles' y 'MPV [Comodidad de conducción] Puntos débiles', se concentran ambos en los problemas relacionados con la tercera fila? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En el chart_96_3, los puntos débiles relacionados con el espacio incluyen 'Acceso inconveniente a la tercera fila' y 'Espacio reducido en la tercera fila', y los puntos débiles de comodidad incluyen 'Los asientos de la tercera fila no tienen ventanas', lo que indica que la tercera fila de los MPV es un punto débil en términos de espacio y comodidad.",
+      "charts_involved": [
+        "chart_96_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Después del pico de ventas de MPV (de 2013 a 2016) en el gráfico 'Ventas y Tasa de Crecimiento de MPV en China de 2011 a 2021', los datos de los puntos débiles todavía se mantienen en una alta proporción. ¿Se puede suponer que la lenta mejora de los puntos débiles ha afectado la confianza en el mercado? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En el chart_96_1, las ventas han disminuido significativamente después de 2016. En el chart_96_3, los puntos débiles como 'Espacio de maletero insuficiente cuando se usa la tercera fila' y 'Los asientos de la tercera fila no tienen ventanas' no se han resuelto. La falta de mejora a largo plazo puede haber llevado a los usuarios a cambiar a otros tipos de vehículos.",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Basado en las ventas totales de MPV en 2021 y los escenarios de uso diario, ¿cuál es la estimación de las ventas de MPV utilizadas en el escenario de ir y volver del trabajo en 2021, en unidades de 10,000 vehículos? Redondea a 1 decimal. Respuesta: xx.xx (en 10,000 vehículos)",
+      "answer": "71.5 (en 10,000 vehículos)",
+      "explanation": "Las ventas totales de MPV en 2021, 105.5 (en 10,000 vehículos) × la proporción del escenario de ir y volver del trabajo del 67.8% ≈ 71.529 (en 10,000 vehículos). Redondeando a 1 decimal, es 71.5 (en 10,000 vehículos).",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Por favor, compara la suma de las proporciones de los dos principales puntos débiles en los problemas de “Espacio” con la suma de las proporciones de los dos principales puntos débiles en los problemas de “Comodidad de conducción”. ¿Cuál es la diferencia en puntos porcentuales? Redondea a 1 decimal. Respuesta: xx.xx puntos porcentuales",
+      "answer": "0.7 puntos porcentuales",
+      "explanation": "Las dos principales proporciones de los puntos débiles en el espacio son 30.0% + 28.3% = 58.3%; las dos principales proporciones de los puntos débiles en la comodidad de conducción son 29.9% + 27.7% = 57.6%; la diferencia entre ellos es 58.3% - 57.6% = 0.7%.",
+      "charts_involved": [
+        "chart_96_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Por favor, compara la tasa de crecimiento anual de las ventas de MPV en 2014 con la proporción del escenario de uso de “Recoger y dejar a los niños”. ¿Cuál es la diferencia en puntos porcentuales? Toma el valor absoluto y redondea a 1 decimal. Respuesta: xx.xx puntos porcentuales",
+      "answer": "14.5 puntos porcentuales",
+      "explanation": "La tasa de crecimiento anual de las ventas en 2014 del 46.7% - la proporción del escenario de recoger y dejar a los niños del 61.2% = -14.5%. Tomando el valor absoluto, es 14.5 puntos porcentuales.",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Las ventas de MPV mostraron una tendencia de descenso continuo en algunos años. En combinación con las deficiencias del vehículo que los usuarios informaron, ¿qué problemas específicos podrían haber causado conjuntamente la disminución de la demanda?",
+      "answer": {
+        "A": "Los problemas de comodidad de conducción y viaje (por ejemplo, un mal efecto de amortiguación) son puntos débiles notables que pueden reducir la experiencia general del usuario y agravar la caída de las ventas.",
+        "B": "La caída del 17.1% en las ventas en 2017 se debe principalmente al alto ruido dentro del automóvil (21.6%), pero los problemas con una proporción más alta en los puntos débiles de comodidad real no se tuvieron en cuenta.",
+        "C": "La baja confiabilidad de la marca y el mal servicio después de la venta reducen la confianza de los consumidores y agravan la caída de las ventas.",
+        "D": "El espacio reducido en la tercera fila es el problema principal entre los puntos débiles de espacio (con una proporción del 28.3%), lo que directamente hace que los usuarios familiares compren menos.",
+        "E": "El problema general de acceso inconveniente a la tercera fila supone un obstáculo para las situaciones en las que se utiliza con frecuencia la tercera fila, lo que reduce aún más la demanda.",
+        "F": "Los puntos débiles con una alta proporción de problemas de insuficiencia de espacio (por ejemplo, el espacio de maletero insuficiente cuando se usa la tercera fila) pueden afectar la conveniencia de los viajes familiares y, por lo tanto, suprimir la voluntad de compra.",
+        "G": "El aumento del precio del combustible ha aumentado el costo de uso del vehículo, y los consumidores se han转向 a modelos más económicos, lo que ha suprimido la demanda de MPV."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en los escenarios de uso frecuentes de MPV y las opiniones de los usuarios sobre los puntos débiles, ¿qué puntos débiles son más propensos a afectar directamente la experiencia en los escenarios clave?",
+      "answer": {
+        "A": "La insuficiencia de la seguridad del vehículo es especialmente crucial en escenarios de alto riesgo como recoger y dejar a los niños, pero no se menciona en las opiniones de los usuarios.",
+        "B": "El escenario de visitar a familiares de larga distancia y los puntos débiles de los problemas de comodidad (por ejemplo, la mala comodidad de los asientos) pueden reducir la satisfacción de los viajes largos.",
+        "C": "El escenario de recoger y dejar a los niños (61.2%) está fuertemente relacionado con el punto débil de \"inconveniente para subir y bajar del vehículo\" (18.6%), pero debido a la baja proporción del punto débil, el impacto es limitado.",
+        "D": "El escenario de tour en automóvil de corta distancia tiene la proporción más alta (59.6%), por lo que el espacio de maletero insuficiente (30.0%) es el punto débil central en este escenario.",
+        "E": "La alta prevalencia del escenario de recoger y dejar a los niños está relacionada con el punto débil de acceso inconveniente a la tercera fila, lo que puede afectar la conveniencia diaria de los usuarios familiares.",
+        "F": "La configuración de tecnología inteligente es atrasada y carece de un sistema de navegación o entretenimiento, lo que afecta la conveniencia del uso diario.",
+        "G": "La frecuencia del escenario de tour en automóvil de corta distancia y el punto débil de espacio de maletero insuficiente pueden limitar la practicidad de llevar equipaje."
+      },
+      "charts_involved": [
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "B",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Durante el período de aumento anormal de las ventas de MPV, en combinación con sus principales escenarios de uso, ¿qué factores pueden explicar el conflicto entre este aumento y la demanda diaria?",
+      "answer": {
+        "A": "La política de subsidios para la compra de vehículos del gobierno se implementó temporalmente durante el período de crecimiento, lo que estimuló las compras a corto plazo, pero la demanda cayó después de que la política terminó.",
+        "B": "El aumento repentino del 164.5% en las ventas en 2013 se debe principalmente a la demanda del escenario de tour en automóvil de corta distancia (con una proporción del 59.6%), pero el punto débil de la flexibilidad del espacio (25.0%) limita el crecimiento continuo.",
+        "C": "El escenario de viaje diario al trabajo (67.8%) respalda la base durante el pico de las ventas, pero el punto débil de \"malos efectos de sonido\" (27.7%) hace que la experiencia del usuario no se pueda mantener.",
+        "D": "La posición dominante del escenario de viaje diario al trabajo puede respaldar la base de las ventas, pero los puntos débiles de comodidad impiden que la demanda siga creciendo.",
+        "E": "La proporción de la demanda social (por ejemplo, reunirse con familiares y amigos) está relacionada con el aumento repentino de las ventas, pero el punto débil de la flexibilidad del espacio puede limitar su contribución continua.",
+        "F": "La alta proporción de demanda de actividades familiares (por ejemplo, recoger y dejar a los niños y viajes turísticos de corta distancia) puede impulsar la expansión de las ventas durante el pico, pero la generalidad del viaje diario al trabajo no impide la caída posterior.",
+        "G": "El ciclo económico afecta los ingresos disponibles, y las compras impulsivas aumentan durante el período de prosperidad, pero la insuficiencia de la practicidad diaria causa la caída posterior."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en los principales escenarios de uso de los MPV por parte de los consumidores y los datos de los puntos débiles clave en el diseño del vehículo, ¿cómo se debe optimizar el diseño del producto MPV para mejorar la satisfacción del usuario y la competitividad en el mercado? Elija la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Mejore la capacidad de aislamiento acústico del vehículo para el escenario de visitar a familiares de larga distancia, ya que la proporción de visitar a familiares de larga distancia en los escenarios de uso es del 32,7% y la proporción del problema de aislamiento acústico en los puntos débiles de comodidad es del 21,6% y está relacionada.",
+        "B": "Mejore en primer lugar la disposición del espacio y la comodidad de acceso de los asientos de la tercera fila. Los datos de los puntos débiles de espacio muestran que los problemas relacionados con la tercera fila son los más destacados, y los escenarios de uso indican que el MPV se utiliza con frecuencia para viajes familiares y actividades de corta distancia. Optimizar estos aspectos puede mejorar directamente la experiencia de uso cotidiana y atraer a los usuarios familiares.",
+        "C": "Mejore la flexibilidad y la racionalidad del diseño del espacio de almacenamiento. En los puntos débiles de espacio, la insuficiencia del almacenamiento y la utilización del espacio son problemas comunes. Los escenarios de uso muestran que la proporción de actividades de compras y reuniones es alta. Optimizar el plan de almacenamiento puede satisfacer mejor las demandas frecuentes y mejorar la comodidad del usuario.",
+        "D": "Optimice en primer lugar el espacio y la comodidad de los asientos de la segunda fila, ya que la proporción del espacio pequeño de la segunda fila en los puntos débiles de espacio es del 11,7%, que es el problema más destacado.",
+        "E": "Mejore la comodidad de conducción del vehículo, especialmente la ventilación y el aislamiento acústico de la tercera fila. En los puntos débiles de comodidad, la proporción de los defectos relacionados con la tercera fila es la más alta. Dado que el MPV se utiliza comúnmente para el viaje al trabajo y los viajes de automóvil, estas mejoras pueden reducir significativamente la incomodidad del usuario y aumentar la atractividad del producto.",
+        "F": "Incorpore más configuraciones inteligentes, como el sistema de Internet de Vehículos, para satisfacer las necesidades tecnológicas de los consumidores modernos.",
+        "G": "Mejore la economía de combustible del vehículo para reducir el costo de uso diario del usuario y, por lo tanto, aumentar la atractividad del producto."
+      },
+      "charts_involved": [
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la tendencia histórica de las ventas de MPV y las preferencias de uso de los consumidores, ¿cómo se debe ajustar la estrategia de promoción en el mercado para estimular el aumento de las ventas y expandir la cuota de mercado? Elija la sugerencia más efectiva:",
+      "answer": {
+        "A": "Invierta más en marketing durante los períodos en que las ventas tienden a estabilizarse y destaque especialmente las características de optimización del espacio. La tendencia de las ventas muestra que después de la disminución en los últimos años, ha surgido una señal de estabilización. En los escenarios de uso, la proporción de actividades familiares es la más alta. Combinado con los puntos débiles de espacio, enfatizar el diseño de espacio mejorado puede atraer efectivamente a los usuarios familiares principales.",
+        "B": "Promueva en primer lugar las características de los productos de 2013 - 2016, ya que la tasa de crecimiento de las ventas fue la más alta en este período (por ejemplo, el 164,5% en 2013) y se puede replicar el éxito histórico.",
+        "C": "Amplíe los canales de venta a las ciudades de segundo y tercer nivel para cubrir un grupo de consumidores potenciales más amplio.",
+        "D": "Personalice el contenido de promoción para los escenarios de uso frecuentes, como el viaje al trabajo y los viajes de corta distancia. Los datos de los escenarios de uso muestran que la proporción del viaje al trabajo y la recogida y entrega de niños es superior al 60%, y las ventas aumentaron significativamente durante los períodos de alta demanda. Centrarse en estos escenarios puede alcanzar de manera precisa a la audiencia objetivo y aprovechar la ley de crecimiento histórica.",
+        "E": "Realice una promoción para el escenario de ir de compras en centros comerciales/supermercados, ya que la proporción en los escenarios de uso es del 44,7% y la proporción de la insuficiencia del espacio de almacenamiento en los puntos débiles de espacio es del 22,9% y está relacionada.",
+        "F": "Ofrezca más actividades de promoción, como descuentos y regalos, para aumentar la voluntad de compra a corto plazo.",
+        "G": "Reduzca la promoción excesiva de los puntos débiles poco relacionados y en cambio enfatice los problemas de comodidad que se han resuelto. En los puntos débiles de comodidad, la proporción de problemas como el aislamiento acústico y el aire acondicionado es alta, pero la tendencia de las ventas muestra que el mercado es sensible a los factores negativos. Mostrar en primer lugar las mejoras de comodidad puede aliviar las preocupaciones de los usuarios y aumentar la voluntad de compra."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la distribución de los puntos débiles de los usuarios de MPV y la tendencia general de cambio de las ventas, ¿cómo se debe asignar los recursos de investigación y desarrollo para mejorar rápidamente la competitividad del producto y las ventas? Elija la estrategia óptima:",
+      "answer": {
+        "A": "Concentre los recursos en resolver los problemas de la tercera fila y el maletero en los puntos débiles de espacio. Los datos de los puntos débiles de espacio muestran que la proporción de los defectos relacionados con la tercera fila es la más alta. La tendencia de las ventas indica que en el período de descenso del mercado, se deben priorizar los problemas de alta influencia. Mejorar estos aspectos puede mejorar directamente la utilidad y revertir el crecimiento negativo.",
+        "B": "Resuelva en primer lugar el problema del ruido dentro del automóvil, ya que la proporción en los puntos débiles de comodidad es del 21,6% y es necesario realizar mejoras rápidas durante el período de descenso de las ventas para mejorar la satisfacción del usuario.",
+        "C": "Invierta de manera equilibrada en los puntos débiles de espacio y comodidad, especialmente optimice para los escenarios de uso de larga distancia. En los puntos débiles de comodidad, los problemas de amortiguación y ventilación son destacados. Combinado con la proporción significativa de actividades de larga distancia en los escenarios de uso, optimizar estos aspectos puede cubrir una demanda más amplia y aprovechar la oportunidad del período de estabilidad de las ventas.",
+        "D": "Invierta en la investigación y desarrollo de tecnologías de electrificación para adaptarse a la tendencia de transformación hacia la energía nueva en la industria automotriz.",
+        "E": "Dado que las ventas tienden a estabilizarse en 2021 (la tasa de crecimiento es del 0,1%), se debe centrar en la innovación a largo plazo, como la conducción autónoma, en lugar de la optimización de los puntos débiles inmediatos.",
+        "F": "Fortalezca la construcción de la marca, como patrocinar actividades, para aumentar la知名度 en el mercado y la lealtad de los usuarios.",
+        "G": "Establezca un mecanismo de iteración rápida y priorice los puntos débiles más resaltados por los usuarios, como la flexibilidad del espacio. En los puntos débiles de espacio, la proporción de la baja flexibilidad y la insuficiencia del almacenamiento es alta. Las ventas muestran una alta sensibilidad a las mejoras durante el período de fluctuación. Centrarse en estos aspectos puede responder rápidamente al mercado y mejorar la retención de usuarios."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "G"
+      ]
+    }
+  ]
+}

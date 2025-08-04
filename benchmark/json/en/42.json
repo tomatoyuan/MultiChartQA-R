@@ -1,0 +1,208 @@
+{
+  "chart": [
+    "chart_42_1",
+    "chart_42_2",
+    "chart_42_3",
+    "chart_42_4",
+    "chart_42_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Please compare the changing directions of the two sequences: 'The overall revenue of China's Big Health Industry from 2014 to 2016' and 'The monthly sales of health food - related industries from January to March 2024'. Are their trends consistent? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "The revenue sequence is 2.5 → 2.8 → 3.2 trillion yuan, showing a continuous increase; while the monthly sales are 8 billion → 7 billion → 10 billion, first decreasing and then increasing. The trends are not monotonic and the directions are inconsistent.",
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "The overall revenue of China's Big Health Industry has been increasing year - by - year since 2014. In the 'Monthly sales situation of health food - related industries in 2024', in which month did the sales first show a month - on - month decline? Please directly write the month (format: X month, 2024).",
+      "answer": "February 2024",
+      "explanation": "The revenue curve keeps increasing year by year; the monthly sales decreased from 8 billion in January to 7 billion in February, showing a decline for the first time, forming a divergence point.",
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the two charts 'Growth of Health Food Industry Sales Revenue in 2024' and 'January 2025 Health Food Industry Sales Growth', is the growth rate higher in the period with higher sales? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "The sales in 2024 were 117 billion, with a corresponding growth rate of 17%; the sales in January 2025 were only 9.84 billion, but it had a higher growth rate of 18%. Higher sales did not accompany a higher growth rate.",
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In which month of 2024 was the annual sales volume of health food the highest, and how many billion more was its sales volume than the previous sales volume? Answer: xx billion",
+      "answer": "3 billion",
+      "explanation": "The highest monthly sales volume was 13 billion in October - the previous sales volume of 10 billion = 3 billion",
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the multiple of the predicted revenue increment of the big health industry to the sales increment of the health food industry in 2024? Answer: xx times",
+      "answer": "235.29 times",
+      "explanation": "The predicted revenue of the big health industry in 2024 is 9.0 trillion - the revenue in 2023 is 8.6 trillion = 0.4 trillion = 400 billion; The sales volume of health food is 11.7 billion - 10 billion = 1.7 billion; 400 ÷ 1.7 ≈ 235.29 times",
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What percentage of the average monthly sales volume in 2024 does the sales volume of health food in January 2025 account for? Use percentage as the unit and keep two decimal places. Answer: xx%",
+      "answer": "10.09%",
+      "explanation": "The total sales volume in 2024 is 117 billion ÷ 12 = 9.75 billion; The sales volume in January 2025 is 984 million ÷ 9.75 billion ≈ 0.1009 → 10.09%",
+      "charts_involved": [
+        "chart_42_4",
+        "chart_42_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the overall revenue chart of China's Big Health Industry (titled 'Overall Revenue and Forecast of China's Big Health Industry from 2014 to 2024') and the growth chart of the health food industry (titled 'Growth of Health Food Industry Sales Revenue in 2024'), how is the growth trend of the health food industry reflected in the forecast of the overall industry?",
+      "answer": {
+        "A": "Although the health food industry has grown rapidly, the growth rate of the overall industry may be relatively flat, suggesting that the growth of other parts of the industry is slower or there are drag factors.",
+        "B": "From historical data, the overall industry has grown steadily, and the rapid growth of health food may be a key driving factor, strengthening the upward trend of the overall industry.",
+        "C": "In 2024, the health food industry grew by 17%, while the Big Health Industry grew from 8.6 trillion yuan in 2023 to 9.0 trillion yuan in 2024, with a growth of only 4.65%. Therefore, the growth of health food has a negligible impact on the overall industry.",
+        "D": "In historical data, the overall industry grew the fastest in 2019 (from 5.4 trillion yuan to 6.9 trillion yuan), but there was no reported growth in health food at that time. Therefore, the growth of health food in 2024 is insignificant.",
+        "E": "The overall Big Health Industry is predicted to decline in 2024, but the health food industry has grown, indicating that health food is counter - cyclical.",
+        "F": "The health food industry is the only sub - industry with growth in the overall Big Health Industry, so it directly determines the predicted growth of the overall industry.",
+        "G": "The overall industry is predicted to grow in 2024, and the health food industry also reported significant growth in the same year, indicating that the expansion of the sub - industry may have driven the positive forecast of the overall industry."
+      },
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_2",
+        "chart_42_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the monthly sales chart of health food (titled 'Monthly Sales of Health Food - Related Industries in 2024') and the annual growth chart of 2024 (titled 'Growth of Health Food Industry Sales Revenue in 2024'), which monthly sales characteristics may explain the distribution of the overall growth in 2024?",
+      "answer": {
+        "A": "The high sales volume and relatively high average transaction price in October 2024 may have made a significant contribution to the annual growth. Since the data for this month is prominent, and the annual growth chart shows an overall increase.",
+        "B": "Although the average transaction price was low in some months (such as July), the months with high sales volume (such as March and May) may have compensated for the decline in the average price through increased sales volume, supporting the annual growth.",
+        "C": "The sales in March reached 10 billion yuan, the highest for the whole year, and the average transaction price was low (7). This indicates that low - price promotions significantly drove growth and were the main contributor to the annual growth.",
+        "D": "The growth of the health food industry is mainly driven by seasonal demand during holidays, such as the Spring Festival. However, the data does not clearly show the distribution of holidays.",
+        "E": "The growth in sales is entirely driven by inflation and has nothing to do with the characteristics of specific months. Therefore, the monthly distribution has no explanatory significance.",
+        "F": "The average transaction price fluctuated greatly, but the sales volume increased significantly in the end - of - year months (such as October and November), which may have driven most of the annual growth.",
+        "G": "The sales in December were 9 billion yuan, lower than the annual average, and the average transaction price was 8, far lower than expected for the end - of - year months. Therefore, it dragged down the overall growth."
+      },
+      "charts_involved": [
+        "chart_42_5",
+        "chart_42_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the growth chart of health food in 2024 (titled 'Growth of Health Food Industry Sales Revenue in 2024') and the growth chart of January 2025 (titled 'January 2025 Health Food Industry Sales Growth'), what characteristics does the industry growth trend show during the annual transition?",
+      "answer": {
+        "A": "Although the time points are different (the whole year vs. a single month), the growth percentages are similar, reflecting the stability of the industry's growth and being unaffected by short - term fluctuations.",
+        "B": "The 17% growth in 2024 was based on the annual benchmark, while the 18% growth in January 2025 was based on a benchmark of only 8 billion (a single month). Therefore, the quality of growth is lower, and the trend is weakening.",
+        "C": "The industry growth usually accelerates at the beginning of the year because consumers' willingness to spend increases in the new year. However, the chart does not provide seasonal patterns.",
+        "D": "After the overall growth in 2024, the industry continued to grow in January 2025, and the growth percentage was slightly higher, indicating that the growth trend may be accelerating.",
+        "E": "The growth in January 2025 was based on a higher benchmark (calculated from the 2024 data), which may have strengthened the sustainability of the industry's expansion, consistent with the 2024 trend.",
+        "F": "The decline in the growth percentage in 2025 indicates market saturation, and the growth trend is unsustainable.",
+        "G": "The sales in January 2025 reached 9.84 billion yuan, far higher than the average monthly sales of 9.75 billion yuan in 2024, indicating a significant acceleration of growth."
+      },
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_4"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the overall development trend of China's Big Health Industry and the recent performance of the health food sub - industry, how should the company adjust its investment portfolio to maximize long - term returns? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Give priority to investing in brand building and consumer education to enhance the overall reputation and long - term competitiveness of the enterprise.",
+        "B": "Increase investment during the monthly sales troughs (such as July 2024). Take advantage of the low - price opportunity (average transaction price of 4) to acquire assets to reduce long - term costs.",
+        "C": "Balance the investment strategy to cope with the risk of slowing growth. The overall industry forecast shows that the growth rate has declined in recent years. Although the health food industry has outstanding growth, it may be affected by market saturation. Therefore, maintain a diversified investment to avoid over - concentration, and at the same time, explore synergistic opportunities in related sub - industries using the high - growth experience of health food.",
+        "D": "Give priority to increasing the investment proportion in the health food field. The overall revenue of the Big Health Industry shows a steady upward trend, but the growth rate of the health food sub - industry has been significantly higher than the industry average in the recent period, and the growth momentum continues to be strong. This indicates that this field has higher growth potential and return on investment. Allocating more resources can capture market expansion opportunities.",
+        "E": "Expand investment in traditional sub - industries such as medical equipment because the overall growth of the Big Health Industry is stable, and the traditional fields have lower risks.",
+        "F": "Allocate investment resources concentratedly during the peak months of seasonal demand. The monthly sales data of health food reveals an obvious demand fluctuation cycle. The sales volume in some months is significantly higher than in other periods. Combining with the overall growth trend of the industry, increasing investment during the peak period can more efficiently increase sales volume and capital utilization.",
+        "G": "Reduce the investment proportion in the health food field because the growth rate of the overall Big Health Industry has slowed down significantly in 2024 (from 8.6 trillion yuan in 2023 to 9.0 trillion yuan in 2024, with a growth rate of only about 4.65%), indicating limited potential in this field."
+      },
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_3",
+        "chart_42_5"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the seasonal fluctuations and continuous growth characteristics of the sales data in the health food industry, how should the company optimize its inventory management strategy to reduce costs and avoid stock - outs? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "Optimize the procurement timing by using the relationship between price and sales volume. There is a correlation between the change in the average transaction price and sales volume (for example, low - price months may represent promotional opportunities). Reduce high - cost inventory during months with a low average price (such as July). Combining with the growth trend, promotional strategies can be introduced simultaneously to clear inventory and stimulate demand.",
+        "B": "Ignore seasonal fluctuations and only increase the inventory in all months by 20% according to the annual growth rate (such as the 17% growth in 2024) to match the industry's expansion trend.",
+        "C": "Gradually increase the basic inventory capacity in combination with the industry's growth trend. The sales volume of the health food industry has shown double - digit high growth continuously, and the growth momentum continues into the new year. Inventory planning needs to be adjusted upward prospectively to adapt to the expansion of demand and avoid the risk of stock - outs caused by the inertia of growth.",
+        "D": "Implement a dynamic inventory adjustment mechanism to match the inventory level according to historical monthly sales peaks and troughs. The monthly data shows that demand explodes in specific months. Increase inventory during peak months (such as October) and reduce inventory during trough months (such as July) to balance supply and demand and reduce warehousing waste.",
+        "E": "Implement a standardized inventory process, such as regular audits, to improve management efficiency and reduce human errors.",
+        "F": "Increase the safety stock level to cope with any sudden changes in demand and ensure the resilience of the supply chain.",
+        "G": "Significantly increase inventory during months with a high average transaction price (such as the average price of 10 in October 2024) because a high price represents strong demand and can maximize profits."
+      },
+      "charts_involved": [
+        "chart_42_3",
+        "chart_42_4",
+        "chart_42_5"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "In response to the strong growth momentum and monthly sales characteristics of the health food industry, how should the company design its marketing strategy to increase market share and profits? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Concentrate on increasing marketing investment during the sales peak season. The monthly sales data shows that the natural demand is high in some months (such as October and November). Strengthening marketing activities at this time can amplify the effect of increasing sales volume. Combining with the industry's growth trend, market share can be efficiently captured.",
+        "B": "Increase investment in digital marketing channels, such as social media, to expand consumer coverage and adapt to modern trends.",
+        "C": "Reduce the marketing budget because the industry achieved a high growth of 17% in 2024 (chart_42_3), indicating strong natural demand and no need for additional investment.",
+        "D": "Expand the overall marketing budget during the high - growth period of the industry. The growth rate of the health food industry is far higher than the average level of the Big Health Industry, and the growth momentum continues. The company should increase brand investment and channel coverage to seize market dividends and enhance consumer awareness.",
+        "E": "Develop new product lines to attract a diversified customer base and thus increase overall market penetration.",
+        "F": "Design promotional activities for the months with a low average price to attract price - sensitive groups. In months with a low average transaction price (such as July), stimulate demand through discounts or bundled sales. Combining with the industry's growth background, new users can be converted, customer loyalty can be enhanced, and the profit structure can be optimized.",
+        "G": "Concentrate marketing resources during the months with the lowest sales volume (such as 7 billion yuan in February 2024) to stimulate demand and reverse the performance during the trough period."
+      },
+      "charts_involved": [
+        "chart_42_1",
+        "chart_42_3",
+        "chart_42_4",
+        "chart_42_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

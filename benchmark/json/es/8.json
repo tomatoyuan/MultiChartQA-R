@@ -1,0 +1,210 @@
+{
+  "chart": [
+    "chart_8_1",
+    "chart_8_2",
+    "chart_8_3",
+    "chart_8_4",
+    "chart_8_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La tendencia de la atención de búsqueda general en el \"Tendencia de Atención de Búsqueda de la Industria de Litigios de Divorcio en Mayo\" coincide con la tendencia de cambio de la tasa de crecimiento en las ciudades de primer nivel en el \"Proporción de atención y tasa de crecimiento de la industria de litigios de divorcio por nivel de ciudad en mayo\"? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "La atención de búsqueda general mostró una tendencia ascendente en la segunda mitad de mayo. Las ciudades de primer nivel son las únicas con crecimiento positivo (+3%), por lo que las tendencias coinciden.",
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La ciudad con la proporción más alta en el \"Top 5 ciudades para búsquedas en la industria de litigios de divorcio en mayo\" también pertenece al nivel de ciudad con la proporción de atención más alta en el nivel de ciudad? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Beijing tiene la proporción de búsqueda más alta (19%) y pertenece a las ciudades de primer nivel. Las ciudades de primer nivel tienen la proporción de atención más alta (52%) entre los niveles de ciudad.",
+      "charts_involved": [
+        "chart_8_3",
+        "chart_8_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio de la atención de búsqueda de litigios de divorcio del 16 al 19 de mayo coincide con la tendencia de cambio del índice TGI de litigios de divorcio en el grupo de edad de 18 - 54 años? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas mostraron una tendencia de ascenso primero y luego descenso.",
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que la distribución de dispositivos de búsqueda de litigios de divorcio en mayo es la misma en cada ciudad, ¿qué proporción contribuyó la computadora en la proporción de búsquedas de litigios de divorcio en mayo en Beijing? Expresar en porcentaje y redondear a 2 cifras significativas.",
+      "answer": "2.3%",
+      "explanation": "19.0% * 12.03% = 0.022857",
+      "charts_involved": [
+        "chart_8_2",
+        "chart_8_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que la distribución de dispositivos de búsqueda de litigios de divorcio en mayo es la misma en cada nivel de ciudad, ¿qué proporción contribuyó el móvil en la proporción de búsquedas de litigios de divorcio en mayo en las ciudades de cuarto nivel? Expresar en porcentaje y redondear a 4 cifras significativas.",
+      "answer": "8.797%",
+      "explanation": "10% * 87.97% = 8.797%",
+      "charts_involved": [
+        "chart_8_3",
+        "chart_8_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que las ciudades de primer nivel se ajustan a la distribución de edad de la población en litigios de divorcio proporcionada, y que la cantidad de personas en litigios de divorcio entre 18 y 24 años es la misma que la atención de búsqueda de la industria de litigios de divorcio el 13 de mayo, ¿cuál es la cantidad de personas en litigios de divorcio entre 55 y 64 años en las ciudades de primer nivel?",
+      "answer": "3000",
+      "explanation": "La cantidad de personas en litigios de divorcio entre 18 y 24 años es la misma que la atención de búsqueda de la industria de litigios de divorcio el 13 de mayo, que es de 60,000 personas. La proporción de personas en litigios de divorcio entre 18 y 24 años en las ciudades de primer nivel es del 10%, y la proporción de personas en litigios de divorcio entre 55 y 64 años en las ciudades de primer nivel es del 5%. (5% / 10%) * 60,000 = 3000",
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_3",
+        "chart_8_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "La atención de búsqueda en mayo mostró una tendencia de aumento primero, luego disminución y luego recuperación, mientras que las cinco ciudades principales en términos de búsqueda mostraron que una ciudad en particular tenía una proporción de búsqueda significativamente más alta que las otras. ¿Qué factores podrían explicar conjuntamente estos cambios en la tendencia?",
+      "answer": {
+        "A": "Cuando la tendencia de búsqueda alcanzó su pico a mediados del mes, la ciudad con la proporción más alta de búsqueda probablemente contribuyó con la mayor parte de la cantidad de búsquedas, y la recuperación a fines del mes podría estar relacionada con la superposición de las actividades de búsqueda de varias ciudades con alta proporción de búsqueda.",
+        "B": "La disminución en la tendencia de búsqueda se debe principalmente a la reducción de la proporción de búsqueda en Wuhan (5,5%), ya que Wuhan es la tercera ciudad entre las cinco principales ciudades de búsqueda, y su influencia ha sido subestimada.",
+        "C": "La recuperación a fines del mes está impulsada principalmente por el aumento de la cantidad de búsquedas en Guangzhou. Aunque su proporción de búsqueda es solo del 2,5%, su tasa de crecimiento podría ser más alta que la de otras ciudades.",
+        "D": "Las fluctuaciones en la tendencia de búsqueda podrían estar influenciadas principalmente por las vacaciones estacionales. Por ejemplo, la cantidad de búsquedas disminuye naturalmente durante el Día del Trabajo, lo que explica la diferencia entre el principio y el final del mes.",
+        "E": "Durante la fase de disminución de la tendencia, la reducción de las actividades de búsqueda en la ciudad con la segunda proporción más alta entre las cinco principales ciudades podría haber exacerbado la disminución. Sin embargo, durante la recuperación a fines del mes, la acción conjunta de estas ciudades y la ciudad con la proporción más alta podría haber impulsado el aumento.",
+        "F": "Los informes de los medios de comunicación o los cambios en las políticas en ciudades con alta proporción de búsqueda, como Beijing, podrían haber dominado las fases de aumento y disminución de la tendencia general.",
+        "G": "Las fluctuaciones en la tendencia general podrían reflejar la dinámica de búsqueda de las cinco principales ciudades. Debido a que las ciudades de primer nivel (como la ciudad con la proporción más alta de búsqueda) presentan un rendimiento estable, podrían amortiguar la tendencia de disminución."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Los datos clasificados por nivel de ciudad muestran que la tasa de crecimiento de la búsqueda en las ciudades de primer nivel es positiva, mientras que la tasa de crecimiento en otras ciudades es negativa. Sin embargo, la tendencia general de búsqueda aumentó significativamente a fines del mes. ¿Qué opciones mejor explican este conflicto aparente?",
+      "answer": {
+        "A": "La tasa de crecimiento de las ciudades de primer nivel es solo del 3%, con una proporción del 52%, lo que significa un crecimiento débil. Mientras que la tasa de crecimiento de las ciudades de cuarto nivel es del -18% con una proporción del 10%, lo que significa una disminución significativa. Por lo tanto, la tendencia general debería disminuir, pero el aumento real indica una contradicción en los datos.",
+        "B": "La tasa de crecimiento de las ciudades de segundo nivel es del -18% con una proporción del 15%. La reducción de la cantidad de búsquedas en estas ciudades es compensada por el aumento en las ciudades de tercer nivel, aunque la tasa de crecimiento de las ciudades de tercer nivel es del -30%.",
+        "C": "El aumento de la tendencia de búsqueda a fines del mes podría deberse al efecto acumulativo del crecimiento estable de las ciudades de primer nivel. Aunque las tasas de crecimiento de otras ciudades son negativas, su proporción es baja, por lo que no ejerce una presión significativa en los datos generales.",
+        "D": "Aunque las tasas de crecimiento de las ciudades de segundo nivel y por debajo son negativas, su proporción total es pequeña. Por lo tanto, el efecto negativo de las tasas de crecimiento negativas en la tendencia general es limitado, y el crecimiento de las ciudades de primer nivel podría amplificar la tendencia de aumento.",
+        "E": "La alta proporción y la tasa de crecimiento positiva de las ciudades de primer nivel podrían dominar la tendencia general, compensando el efecto de las tasas de crecimiento negativas de otras ciudades y causando un aumento a fines del mes.",
+        "F": "La base de búsqueda en las ciudades de bajo nivel (como las ciudades de tercer y cuarto nivel) es relativamente grande. Aunque sus tasas de crecimiento son negativas, la cantidad absoluta de búsquedas sigue siendo alta, lo que sustenta el aumento general.",
+        "G": "El aumento general podría deberse a factores económicos a nivel nacional, como políticas de estímulo al consumo, que han aumentado la voluntad de búsqueda en todas las ciudades."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Los datos muestran que la búsqueda en dispositivos móviles domina, y hay diferencias significativas en las preferencias de búsqueda entre diferentes grupos de edad. ¿Qué grupos de edad son más propensos a impulsar la alta tasa de uso de dispositivos móviles?",
+      "answer": {
+        "A": "Dado que todos los grupos de edad prefieren los dispositivos móviles debido a la popularización de Internet móvil, no hay un grupo de edad específico que domine esta tendencia.",
+        "B": "El grupo de edad con la proporción más alta y una fuerte tendencia a la búsqueda podría preferir más los dispositivos móviles, ya que el tamaño de este grupo y su fuerte tendencia son coherentes con la dominancia de los dispositivos móviles.",
+        "C": "El grupo de edad de edad mediana tiene una alta proporción y una fuerte tendencia a la búsqueda, por lo que podría ser el principal grupo de usuarios de dispositivos móviles, lo que explica la inclinación en la distribución de dispositivos.",
+        "D": "Los jóvenes (de 18 a 24 años) están más familiarizados con la tecnología móvil, por lo que son los principales impulsores de la alta tasa de uso de dispositivos móviles.",
+        "E": "El grupo de edad de más de 65 años tiene el índice TGI más alto (180). Aunque su proporción es solo del 3%, su fuerte tendencia los convierte en los principales contribuyentes al uso de dispositivos móviles.",
+        "F": "Aunque el grupo de edad con la tendencia más fuerte a la búsqueda tiene una proporción pequeña, su fuerte tendencia podría aumentar significativamente el uso de dispositivos móviles, lo que está relacionado con la alta proporción de uso de dispositivos móviles.",
+        "G": "El grupo de edad de 45 a 54 años tiene una proporción del 15% y un índice TGI de 90 (cercano a la media), pero su índice TGI es más bajo que el del grupo de edad de 55 a 64 años (110). Por lo tanto, su influencia en la tasa de uso de dispositivos móviles ha sido sobreestimada."
+      },
+      "charts_involved": [
+        "chart_8_2",
+        "chart_8_5"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Las plataformas de servicios en línea de litigios de divorcio deben ajustar la estrategia de asignación de recursos según el patrón de demanda de los usuarios para mejorar la eficiencia del servicio y la satisfacción del usuario. En combinación con la tendencia de búsqueda y las características de uso de dispositivos en los gráficos, ¿qué estrategia se debe adoptar en primer lugar?",
+      "answer": {
+        "A": "Mejorar prioritaria la capacidad de respuesta del servicio en dispositivos móviles durante los picos de atención de búsqueda, ya que la búsqueda móvil es predominante y la tendencia de demanda muestra picos evidentes de fluctuación. Una respuesta oportuna puede reducir la pérdida de usuarios.",
+        "B": "Organizar conferencias legales presenciales durante los períodos de baja demanda (por ejemplo, cuando la atención de búsqueda es inferior a 50,000) para desarrollar la base de usuarios.",
+        "C": "Incrementar la inversión en publicidad de marca para aumentar el conocimiento público sobre los servicios de litigios de divorcio y así atraer a más usuarios potenciales.",
+        "D": "Optimizar el contenido del servicio en dispositivos móviles para el grupo central de usuarios de 25 - 34 años, como simplificar la guía del proceso de divorcio, ya que este grupo tiene la mayor proporción y un índice de preferencia fuerte, y al mismo tiempo la búsqueda móvil es absolutamente predominante.",
+        "E": "Optimizar la interfaz del servicio en el equipo de computadora para las personas mayores de 65 años, ya que su TGI es tan alto como 180, lo que indica un fuerte interés, y la proporción del equipo de computadora del 12.03% puede ser más adecuada para las consultas complejas de los usuarios mayores.",
+        "F": "Incrementar la inversión de recursos y los servicios localizados en las ciudades de primer nivel, ya que estas regiones tienen la mayor proporción de atención y un crecimiento estable, mientras que la demanda en otras categorías de ciudades está en declive. Concentrar los recursos puede aumentar la penetración en el mercado.",
+        "G": "Incrementar prioritaria los recursos del servicio en dispositivos móviles para las ciudades de segundo nivel, ya que su proporción de atención es del 15% y la tasa de crecimiento es del -18%. Se necesita intervención para estabilizar la cuota de mercado."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_2",
+        "chart_8_3",
+        "chart_8_4",
+        "chart_8_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "La plataforma de litigios de divorcio desea mejorar el efecto de captación de usuarios y debe ajustar la estrategia de marketing en función de la distribución de edad de los usuarios y la popularidad de la búsqueda en las ciudades. En combinación con las características geográficas y de la población en los gráficos, ¿qué sugerencia puede aumentar más eficazmente la tasa de conversión?",
+      "answer": {
+        "A": "Incrementar la promoción en las ciudades de primer nivel con tasa de crecimiento positiva y proporcionar contenido educativo (como conferencias en línea gratuitas) para las ciudades de bajo nivel con tasa de crecimiento en declive, para aprovechar el potencial de las regiones de alto crecimiento y desarrollar los mercados en declive.",
+        "B": "Lanzar actividades de promoción con descuentos altos en las ciudades de cuarto nivel con baja popularidad de búsqueda para estimular el crecimiento de la demanda.",
+        "C": "Colaborar con renombradas bufetes de abogados para la promoción y utilizar su respaldo profesional para aumentar la confianza de los usuarios.",
+        "D": "Centrarse en la promoción para las personas de 35 - 44 años en Shenzhen, ya que su proporción de búsqueda es del 6% (chart_8_4) y la proporción de edad es del 25% (chart_8_5). Un TGI de 100 indica un interés estable.",
+        "E": "Desarrollar actividades de marketing preciso para las personas de 25 - 34 años en las principales ciudades con alta popularidad de búsqueda (como Beijing y Shenzhen), ya que este grupo constituye la mayoría de los usuarios y tiene un índice de preferencia alto, y al mismo tiempo estas ciudades tienen la proporción de atención líder.",
+        "F": "Diseñar contenido educativo para las ciudades de tercer nivel (como conferencias en línea), ya que su proporción de atención es del 14% (chart_8_3), aunque la tasa de crecimiento es del -30%. Se necesita contenido para desarrollar el mercado.",
+        "G": "Inclinar el presupuesto de marketing hacia los canales de dispositivos móviles y diseñar contenido amigable para dispositivos móviles (como consultas en video corto), ya que la proporción de búsqueda móvil es extremadamente alta y las personas jóvenes pueden depender más de los dispositivos móviles para obtener información."
+      },
+      "charts_involved": [
+        "chart_8_2",
+        "chart_8_3",
+        "chart_8_4",
+        "chart_8_5"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para responder de manera más eficiente a los cambios en la demanda de litigios de divorcio, la plataforma de servicios debe diseñar una estrategia de servicio dinámica en combinación con la tendencia de búsqueda y las características de los usuarios. ¿Qué sugerencia puede aprovechar mejor los recursos para mejorar la experiencia del usuario?",
+      "answer": {
+        "A": "Optimizar la eficiencia del servicio en el equipo de computadora durante los períodos de baja demanda (como el procesamiento automatizado de documentos), ya que aunque la proporción de búsqueda en el equipo de computadora es pequeña, puede ser utilizada para consultas complejas, y la tendencia muestra que los recursos durante los períodos de baja demanda pueden ser reasignados.",
+        "B": "Incrementar la implementación de servicios de atención al cliente de inteligencia artificial durante los períodos de estabilidad de la atención de búsqueda (por ejemplo, cuando los datos están alrededor de 70,000 - 80,000) para reducir el costo de mano de obra.",
+        "C": "Desarrollar un módulo sencillo en dispositivos móviles para las personas menores de 18 años, ya que aunque su proporción es del 2% (chart_8_5), su TGI de 60 indica una demanda potencial, y la proporción del 87.97% de la búsqueda móvil (chart_8_2) es adecuada para los jóvenes.",
+        "D": "Incrementar la implementación de servicios de atención al cliente en línea en dispositivos móviles durante los períodos de aumento de la atención de búsqueda (por ejemplo, al final del mes), ya que la búsqueda móvil domina la interacción de los usuarios, y la tendencia muestra que una respuesta no oportuna durante el período de aumento de la demanda puede causar pérdidas de oportunidades.",
+        "E": "Fortalecer prioritaria el servicio en el equipo de computadora durante la baja demanda de búsqueda a principios del mes (por ejemplo, los datos del 1 de mayo son 60,000), ya que los usuarios durante los períodos de baja demanda pueden realizar consultas en profundidad, y la proporción del 12.03% del equipo de computadora (chart_8_2) es adecuada para operaciones complejas.",
+        "F": "Desarrollar un módulo de servicio móvil fácil de usar para el grupo de altos índices de interés (como las personas mayores de 65 años). Aunque su proporción es baja, su índice de preferencia es destacado, y la alta proporción de la búsqueda móvil soporta el acceso conveniente para garantizar la inclusividad del servicio.",
+        "G": "Actualizar periódicamente los términos del servicio y la política de privacidad para garantizar el cumplimiento de la normativa y aumentar la seguridad de los usuarios."
+      },
+      "charts_involved": [
+        "chart_8_1",
+        "chart_8_2",
+        "chart_8_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

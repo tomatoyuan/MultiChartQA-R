@@ -1,0 +1,177 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: When was the survey conducted?\n question2: Among U.S. adults aged 18 to 29, what is the proportion who think taking a photo or video of someone without asking permission is rarely/never acceptable?",
+                "rationale": "rationale1: The question is about the survey period, which is directly provided in the chart.\n rationale2: This question requires us to pick out a specific proportion value from the chart for a defined age - group and action.",
+                "answer": "Nov. 12 - 17, 2024; 70%",
+                "involved_content_sources": [
+                    "chart_3-33",
+                    "chart_4-29"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of U.S. adults think bringing a pet into an indoor space like a grocery store or shop is usually - always acceptable?\n question2: What proportion of U.S. adults say it is very easy to know what's appropriate to do in public from Nov. 12 - 17, 2024?\n question3: What percentage of U.S. adults aged 50 to 64 think smoking around other people is rarely/never acceptable?",
+                "rationale": "rationale1: We are seeking the proportion of adults who think bringing a pet into an indoor commercial space is usually - always acceptable, and this data is in the chart.\n rationale2: This question requires the proportion of adults with a'very easy' perception in the given time frame, which can be found in the chart.\n rationale3: This question focuses on getting a specific percentage for a particular age - group and behavior. The answer lies in the corresponding content of the chart.",
+                "answer": "14%; 49%; 81%",
+                "involved_content_sources": [
+                    "chart_3-32",
+                    "chart_5-4",
+                    "chart_4-19"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: When was the survey conducted?\n question2: What proportion of U.S. adults say they sometimes see people behaving rudely when they go out in public? Please answer with a percentage.\n question3: What proportion of U.S. adults say the way people behave in public these days is a lot more rude compared with before the COVID - 19 pandemic?\n question4: What percentage of U.S. adults think cursing out loud is never acceptable?",
+                "rationale": "rationale1: The question is about the survey period, which can be directly found in the chart.\n rationale2: The question is about the proportion of U.S. adults who sometimes see people behaving rudely in public. The chart gives this proportion as 46%, so we just extract this number.\n rationale3: The question asks for the specific proportion of U.S. adults with a particular view on public behavior. We can directly obtain this information from the chart.\n rationale4: The question requires the percentage of adults who believe cursing out loud is never acceptable, which can be found in the given chart.",
+                "answer": "Nov. 12 - 17, 2024; 46%; 20%; 38%",
+                "involved_content_sources": [
+                    "chart_4-33",
+                    "chart_2-3",
+                    "chart_1-1",
+                    "chart_3-17"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who find it easy and those who find it difficult to know what's appropriate to do in public these days?\n question2: What is the difference between the proportion of U.S. adults who think smoking around other people is never acceptable and the proportion who think bringing a child into a place that's typically for adults is never acceptable?",
+                "rationale": "rationale1: To answer this question, we need to subtract the net - proportion of U.S. adults who find it difficult from the net - proportion of U.S. adults who find it easy. The net - proportion of those who find it easy is given as 84%, and the net - proportion of those who find it difficult is given as 16%. By performing the subtraction operation, we can get the difference between the two proportions.\n rationale2: To find the difference, we need to subtract the proportion of adults who think bringing a child into an adult - only place is never acceptable from the proportion of adults who think smoking around others is never acceptable. This involves extracting the relevant data from the chart and performing a subtraction operation.",
+                "answer": "68%; 13",
+                "involved_content_sources": [
+                    "chart_5-5",
+                    "chart_5-6",
+                    "chart_3-1",
+                    "chart_3-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who find it easy and those who find it difficult to know what's appropriate to do in public these days?\n question2: What is the difference between the proportion of U.S. adults who think smoking around other people is never acceptable and the proportion who think bringing a child into a place that's typically for adults is never acceptable?\n question3: What is the average proportion of U.S. adults in all age groups who think cursing out loud is rarely/never acceptable?",
+                "rationale": "rationale1: To answer this question, we need to subtract the net - proportion of U.S. adults who find it difficult from the net - proportion of U.S. adults who find it easy. The net - proportion of those who find it easy is given as 84%, and the net - proportion of those who find it difficult is given as 16%. By performing the subtraction operation, we can get the difference between the two proportions.\n rationale2: To find the difference, we need to subtract the proportion of adults who think bringing a child into an adult - only place is never acceptable from the proportion of adults who think smoking around others is never acceptable. This involves extracting the relevant data from the chart and performing a subtraction operation.\n rationale3: To find the average, we need to sum up the proportions of each age - group who think cursing out loud is rarely/never acceptable and then divide by the number of age groups. We take the proportions from the chart for each age group (18 - 29, 30 - 49, 50 - 64, 65+).",
+                "answer": "68%; 13; 64.5",
+                "involved_content_sources": [
+                    "chart_5-5",
+                    "chart_5-6",
+                    "chart_3-1",
+                    "chart_3-9",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who find it easy and those who find it difficult to know what's appropriate to do in public these days?\n question2: What is the difference between the proportion of U.S. adults who think smoking around other people is never acceptable and the proportion who think bringing a child into a place that's typically for adults is never acceptable?\n question3: What is the average proportion of U.S. adults in all age groups who think cursing out loud is rarely/never acceptable?\n question4: What is the combined proportion of U.S. adults who think people are more rude in public now compared to before the COVID - 19 pandemic? Please give the answer as a percentage.",
+                "rationale": "rationale1: To answer this question, we need to subtract the net - proportion of U.S. adults who find it difficult from the net - proportion of U.S. adults who find it easy. The net - proportion of those who find it easy is given as 84%, and the net - proportion of those who find it difficult is given as 16%. By performing the subtraction operation, we can get the difference between the two proportions.\n rationale2: To find the difference, we need to subtract the proportion of adults who think bringing a child into an adult - only place is never acceptable from the proportion of adults who think smoking around others is never acceptable. This involves extracting the relevant data from the chart and performing a subtraction operation.\n rationale3: To find the average, we need to sum up the proportions of each age - group who think cursing out loud is rarely/never acceptable and then divide by the number of age groups. We take the proportions from the chart for each age group (18 - 29, 30 - 49, 50 - 64, 65+).\n rationale4: To find the combined proportion of U.S. adults who think people are more rude in public now compared to before the COVID - 19 pandemic, we need to add the proportion of those who say people are a lot more rude and those who say people are a little more rude. According to the chart, the proportion of those who say people are a lot more rude is 20% and the proportion of those who say people are a little more rude is 26%. So we add 20% and 26% to get the answer.",
+                "answer": "68%; 13; 64.5; 46%",
+                "involved_content_sources": [
+                    "chart_5-5",
+                    "chart_5-6",
+                    "chart_3-1",
+                    "chart_3-9",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_1-1",
+                    "chart_1-2"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who say the way people behave in public these days is a lot more rude compared with before the COVID - 19 pandemic and the proportion of U.S. adults who say they almost always see people behaving rudely when they go out in public?",
+                "rationale": "The proportion of U.S. adults who say the way people behave in public these days is a lot more rude compared with before the COVID - 19 pandemic is 20%. The proportion of U.S. adults who say they almost always see people behaving rudely when they go out in public is 9%. The difference is 20% - 9% = 11%.",
+                "answer": "11%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who say the way people behave in public these days is a lot more rude compared with before the COVID - 19 pandemic, the proportion of U.S. adults who think taking a photo or video of someone without asking permission is never acceptable, and the proportion of U.S. adults aged 30 to 49 who think smoking around other people is rarely/never acceptable? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who say the way people behave in public these days is a lot more rude compared with before the COVID - 19 pandemic is 20%. The proportion of U.S. adults who think taking a photo or video of someone without asking permission is never acceptable is 46%. The proportion of U.S. adults aged 30 to 49 who think smoking around other people is rarely/never acceptable is 75%. The average is (20% + 46% + 75%) / 3 = 47.00% (rounded to two decimal places).",
+                "answer": "47.00%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_3-5",
+                    "chart_4-19"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the proportion of U.S. adults who think public behavior is a lot more rude compared with before the pandemic to the average of the proportion of U.S. adults who almost always or often see rude behavior in public, the proportion of U.S. adults who think smoking around others is never acceptable, and the proportion of U.S. adults aged 65+ who think cursing out loud is rarely/never acceptable, then multiplied by the proportion of U.S. adults who find it very easy to know what's appropriate in public?",
+                "rationale": "The proportion of U.S. adults who think public behavior is a lot more rude compared with before the pandemic is 20% (chart_1-1). The proportion of U.S. adults who almost always or often see rude behavior in public is 34% (chart_2-6). The proportion of U.S. adults who think smoking around others is never acceptable is 49% (chart_3-1). The proportion of U.S. adults aged 65+ who think cursing out loud is rarely/never acceptable is 89% (chart_4-4). The average of these three proportions is (34% + 49% + 89%) / 3 = 57.33%. The ratio of 20% to 57.33% is 20% / 57.33% \u2248 0.3489. The proportion of U.S. adults who find it very easy to know what's appropriate in public is 49% (chart_5-4). So the final result is 0.3489 * 49% = 17.09%.",
+                "answer": "17.09%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-6",
+                    "chart_3-1",
+                    "chart_4-4",
+                    "chart_5-4"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of U.S. adults who say people are a lot more rude or a little more rude in public compared to before the COVID - 19 pandemic and the average of the proportions of U.S. adults who think smoking around other people and taking a photo or video of someone without asking permission are never acceptable?",
+                "rationale": "The proportion of U.S. adults who say people are a lot more rude in public compared to before the COVID - 19 pandemic is 20% (chart_1-1), and the proportion of those who say people are a little more rude is 26% (chart_1-2). The sum of these two proportions is 20% + 26% = 46%. The proportion of U.S. adults who think smoking around other people is never acceptable is 49% (chart_3-1), and the proportion of those who think taking a photo or video of someone without asking permission is never acceptable is 46% (chart_3-5). The average of these two proportions is (49% + 46%) / 2 = 47.5%. Then the difference between the two is 47.5% - 46% = 1.5%.",
+                "answer": "1.5%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_3-1",
+                    "chart_3-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of U.S. adults who think public behavior is a lot more rude compared to before the pandemic, the proportion of those who almost always see rude behavior in public, and the proportion of those who think smoking around others is never acceptable, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of U.S. adults who think public behavior is a lot more rude compared to before the pandemic is 20% (chart_1-1); the proportion of those who almost always see rude behavior in public is 9% (chart_2-1); the proportion of those who think smoking around others is never acceptable is 49% (chart_3-1). The weighted average is (20%\u00d70.2 + 9%\u00d70.3 + 49%\u00d70.5) = (0.2\u00d70.2 + 0.09\u00d70.3 + 0.49\u00d70.5) = 0.04 + 0.027 + 0.245 = 0.312 = 31.2%.",
+                "answer": "31.2%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who think public behavior is a lot or a little more rude than before the pandemic, the proportion of U.S. adults who almost always or often see rude behavior in public, the proportion of U.S. adults who think smoking around others is never or rarely acceptable, and the proportion of U.S. adults aged 65+ who think cursing out loud is rarely/never acceptable?",
+                "rationale": "The proportion of U.S. adults who think public behavior is a lot more rude than before the pandemic is 20% (chart_1-1), and a little more rude is 26% (chart_1-2). Their sum is 20% + 26% = 46%. The proportion of U.S. adults who almost always see rude behavior in public is 9% (chart_2-1), and often see is 25% (chart_2-2), with a sum of 9% + 25% = 34%. The proportion of U.S. adults who think smoking around others is never acceptable is 49% (chart_3-1), and rarely acceptable is 28% (chart_3-2), with a sum of 49% + 28% = 77%. The proportion of U.S. adults aged 65+ who think cursing out loud is rarely/never acceptable is 89% (chart_4-4). The average of these four values is (46% + 34% + 77% + 89%) / 4 = 61.5%.",
+                "answer": "61.5%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-4",
+                    "chart_4-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

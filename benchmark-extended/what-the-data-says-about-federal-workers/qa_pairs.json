@@ -1,0 +1,184 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: How many USPS employees are there?\n question2: What is the proportion of the total federal workforce as a percentage of all U.S. non - farm payroll employees?",
+                "rationale": "rationale1: The question focuses on the number of USPS employees, which is clearly stated as 0.6 million in the chart.\n rationale2: The question directly asks for the proportion value of the total federal workforce as a percentage of all U.S. non - farm payroll employees, which can be directly obtained from the chart.",
+                "answer": "0.6 million; 1.87%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of federal employees who make $180,000 to $199,999 per year as of March 2024?\n question2: What is the proportion of USPS employees as a percentage of all U.S. non - farm payroll employees?\n question3: What percentage of U.S. adults have a favorable opinion of the FBI? Please answer with a number.",
+                "rationale": "rationale1: This question requires the proportion of federal employees in the salary range of $180,000 - $199,999 as of March 2024, and the answer is in the chart.\n rationale2: The question asks for the proportion of USPS employees as a percentage of all U.S. non - farm payroll employees, and the answer can be retrieved from the given chart.\n rationale3: The question asks for the percentage of U.S. adults with a favorable opinion of the FBI, and the relevant data is in the chart.",
+                "answer": "5.0%; 0.38%; 51",
+                "involved_content_sources": [
+                    "chart_6-8",
+                    "chart_2-3",
+                    "chart_7-34"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: How many USPS employees are there?\n question2: How many federal employees have their work location listed as 'unspecified'?\n question3: What is the proportion of federal employees who make $70,000 to $89,999 per year as of March 2024?\n question4: What is the proportion of the total federal workforce as a percentage of all U.S. non - farm payroll employees?",
+                "rationale": "rationale1: The question focuses on the number of USPS employees, which is clearly stated as 0.6 million in the chart.\n rationale2: The question is about the number of federal employees with an 'unspecified' work location, and the answer is given in the chart.\n rationale3: The question requires the proportion of federal employees with an annual salary between $70,000 and $89,999 as of March 2024, which is given in the chart.\n rationale4: The question directly asks for the proportion value of the total federal workforce as a percentage of all U.S. non - farm payroll employees, which can be directly obtained from the chart.",
+                "answer": "0.6 million; 6524; 16.9%; 1.87%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_4-6",
+                    "chart_6-3",
+                    "chart_2-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the total number of federal employees including those in DC/MD/VA, Guam, other U.S. territories, foreign countries, and with unspecified work locations in March 2024?\n question2: What is the total number of federal civilian workers in the Medical, hospital, dental and public health, Investigation, and General administrative, clerical and office services occupational groups in March 2024?",
+                "rationale": "rationale1: To find the total number of federal employees, we need to sum up the number of federal employees in different work - location categories. We take the number of federal workers in DC/MD/VA, the number of federal employees in Guam, other U.S. territories, foreign countries, and those with unspecified work locations from the chart.\n rationale2: To answer this question, we need to sum up the number of workers in the three specified occupational groups. The data for these groups are directly provided in the chart, and we can obtain the result by simple addition.",
+                "answer": "486695; 910200",
+                "involved_content_sources": [
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-6",
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the total number of federal employees including those in DC/MD/VA, Guam, other U.S. territories, foreign countries, and with unspecified work locations in March 2024?\n question2: What is the total number of federal civilian workers in the Medical, hospital, dental and public health, Investigation, and General administrative, clerical and office services occupational groups in March 2024?\n question3: What percentage of the total federal workforce are USPS employees?",
+                "rationale": "rationale1: To find the total number of federal employees, we need to sum up the number of federal employees in different work - location categories. We take the number of federal workers in DC/MD/VA, the number of federal employees in Guam, other U.S. territories, foreign countries, and those with unspecified work locations from the chart.\n rationale2: To answer this question, we need to sum up the number of workers in the three specified occupational groups. The data for these groups are directly provided in the chart, and we can obtain the result by simple addition.\n rationale3: To find the percentage of USPS employees in the total federal workforce, we need to divide the number of USPS employees by the total federal workforce and then multiply by 100. We get the number of USPS employees and the total federal workforce from the given chart.",
+                "answer": "486695; 910200; 20%",
+                "involved_content_sources": [
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-6",
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_1-1",
+                    "chart_1-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the total number of federal employees including those in DC/MD/VA, Guam, other U.S. territories, foreign countries, and with unspecified work locations in March 2024?\n question2: What is the total number of federal civilian workers in the Medical, hospital, dental and public health, Investigation, and General administrative, clerical and office services occupational groups in March 2024?\n question3: What percentage of the total federal workforce are USPS employees?\n question4: What is the sum of the proportion of all other federal employees and the proportion of USPS employees as a percentage of all U.S. nonfarm payroll employees? Please provide the answer as a percentage with two decimal places.",
+                "rationale": "rationale1: To find the total number of federal employees, we need to sum up the number of federal employees in different work - location categories. We take the number of federal workers in DC/MD/VA, the number of federal employees in Guam, other U.S. territories, foreign countries, and those with unspecified work locations from the chart.\n rationale2: To answer this question, we need to sum up the number of workers in the three specified occupational groups. The data for these groups are directly provided in the chart, and we can obtain the result by simple addition.\n rationale3: To find the percentage of USPS employees in the total federal workforce, we need to divide the number of USPS employees by the total federal workforce and then multiply by 100. We get the number of USPS employees and the total federal workforce from the given chart.\n rationale4: To find the sum, we need to add the proportion of all other federal employees (1.50%) and the proportion of USPS employees (0.38%) as given in the chart. This is a simple addition operation using the relevant data from the chart.",
+                "answer": "486695; 910200; 20%; 1.88%",
+                "involved_content_sources": [
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-6",
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-2",
+                    "chart_2-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the number of federal civilian workers in the Medical, hospital, dental and public health occupational group to the number of federal civilian workforce in the Department of Veterans Affairs?",
+                "rationale": "The number of federal civilian workers in the Medical, hospital, dental and public health occupational group is 363,814 (from chart_5-1). The number of federal civilian workforce in the Department of Veterans Affairs is 486,522 (from chart_3-1). The ratio is 363814 / 486522 \u2248 0.75.",
+                "answer": "0.75",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_3-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "If we assume that the proportion of the number of federal civilian workers in the Medical, hospital, dental and public health occupational group to the total federal workforce is similar to the proportion of the number of federal civilian workers in the Department of Veterans Affairs to a certain 'comparable total', and we want to find this 'comparable total' based on the given data. What is the value of this 'comparable total'? (Round the result to the nearest whole number.)",
+                "rationale": "The number of federal civilian workers in the Medical, hospital, dental and public health occupational group (chart_5-1) is 363,814, and the total federal workforce (chart_1-1) is 3.0 million = 3000000. The number of federal civilian workforce in the Department of Veterans Affairs (chart_3-1) is 486,522. Let the 'comparable total' be x. According to the proportion relationship, we have 363814 / 3000000 = 486522 / x. Solving for x, we get x = (486522 * 3000000) / 363814 \u2248 4011847 (rounded to the nearest whole number).",
+                "answer": "4011847",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_1-1",
+                    "chart_3-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the number of federal civilian workers in the Medical, hospital, dental and public health occupational group to the number of federal civilian workforce in the Department of Veterans Affairs, multiplied by the proportion of federal employees who make $90,000 to $109,999 per year, and then divided by the net - favorable percentage of the IRS?",
+                "rationale": "The number of federal civilian workers in the Medical, hospital, dental and public health occupational group is 363,814 (chart_5-1). The number of federal civilian workforce in the Department of Veterans Affairs is 486,522 (chart_3-1). The proportion of federal employees who make $90,000 to $109,999 per year is 15.8% (chart_6-4). The net - favorable percentage of the IRS is - 12 (chart_7-64). First, calculate the ratio of the number of workers in the medical group to the number of workers in the Department of Veterans Affairs: 363814 / 486522 \u2248 0.748. Then multiply by the proportion: 0.748\u00d70.158 \u2248 0.118. Finally, divide by the net - favorable percentage: 0.118\u00f7(-12)\u2248 - 0.0098.",
+                "answer": "-0.0098",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_5-1",
+                    "chart_6-4",
+                    "chart_7-64"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the number of federal civilian workers in the Medical, hospital, dental and public health occupational group to the number of federal civilian workers in the Engineering and architecture occupational group, and how does this ratio compare to the ratio of the favorable opinion percentage of the National Park Service to the favorable opinion percentage of the IRS?",
+                "rationale": "In March 2024, the number of federal civilian workers in the Medical, hospital, dental and public health occupational group is 363,814 (chart_5-1), and the number of federal civilian workers in the Engineering and architecture occupational group is 140,906 (chart_5-4). The ratio is 363814 / 140906 \u2248 2.58. The percentage of U.S. adults who have a favorable opinion of the National Park Service is 76 (chart_7-2), and the percentage of U.S. adults who have a favorable opinion of the IRS is 38 (chart_7-62). The ratio is 76 / 38 = 2. Then we find the difference between the two ratios: 2.58 - 2 = 0.58.",
+                "answer": "0.58",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-4",
+                    "chart_7-2",
+                    "chart_7-62"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the number of federal civilian workers in the Medical, hospital, dental and public health occupational group to the number of federal civilian workers in the Investigation occupational group, multiplied by the ratio of the number of federal civilian workforce in the Department of Veterans Affairs to the number of federal civilian workforce in the Department of Homeland Security, and then multiplied by the ratio of the proportion of federal employees who make $150,000 to $179,999 per year to the proportion of federal employees who make $70,000 to $89,999 per year?",
+                "rationale": "The number of federal civilian workers in the Medical, hospital, dental and public health occupational group is 363,814 (chart_5-1); the number of federal civilian workers in the Investigation occupational group is 206,455 (chart_5-2). The number of federal civilian workforce in the Department of Veterans Affairs is 486,522 (chart_3-1); the number of federal civilian workforce in the Department of Homeland Security is 222,539 (chart_3-2). The proportion of federal employees who make $150,000 to $179,999 per year is 8.8% (chart_6-7); the proportion of federal employees who make $70,000 to $89,999 per year is 16.9% (chart_6-3). The calculation is ((363814 / 206455) * (486522 / 222539) * (8.8 / 16.9)) \u2248 (1.762 * 2.186 * 0.521) \u2248 2.006.",
+                "answer": "2.006",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_6-3",
+                    "chart_6-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the number of federal civilian workers in the Medical, hospital, dental and public health occupational group to the sum of the number of federal workers in D.C., Maryland and Virginia and those working in foreign countries, then multiplied by the net - favorable percentage of the National Park Service, and finally divided by the proportion of federal employees who make $150,000 to $179,999 per year?",
+                "rationale": "From Chart 5, the number of federal civilian workers in the Medical, hospital, dental and public health occupational group is 363,814 (chart_5-1). From Chart 4, the number of federal workers in D.C., Maryland and Virginia is 449,503 (chart_4-2), and the number of those working in foreign countries is 30,811 (chart_4-5). The sum of these two is 449503 + 30811 = 480314. The ratio of the number of workers in the medical - related group to this sum is 363814 / 480314 \u2248 0.7574. From Chart 7, the net - favorable percentage of the National Park Service is +69 (chart_7-4). Multiplying the ratio by this percentage gives 0.7574 * 69 = 52.2606. From Chart 6, the proportion of federal employees who make $150,000 to $179,999 per year is 8.8% or 0.088 (chart_6-7). Dividing the previous result by this proportion gives 52.2606 / 0.088 \u2248 593.91 (rounded to two decimal places).",
+                "answer": "593.91",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_4-2",
+                    "chart_4-5",
+                    "chart_7-4",
+                    "chart_7-5",
+                    "chart_6-7",
+                    "chart_6-8"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

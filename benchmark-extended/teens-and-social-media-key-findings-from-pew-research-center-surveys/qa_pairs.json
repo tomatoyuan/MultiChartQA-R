@@ -1,0 +1,179 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: When was the survey conducted?\n question2: What is the proportion of U.S. teen boys who say they ever use Instagram?",
+                "rationale": "rationale1: The question asks for the survey period, which is clearly stated in the chart.\n rationale2: We need to extract the specific proportion for U.S. teen boys using Instagram from the chart.",
+                "answer": "April 14 - May 4, 2022; 55%",
+                "involved_content_sources": [
+                    "chart_11-8",
+                    "chart_3-13"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What percentage of U.S. teens think their parents are extremely or very worried about them using social media?\n question2: What was the proportion of U.S. teens (ages 13 - 17) who said they ever used YouTube in 2022? (Answer with a percentage value)\n question3: What proportion of U.S. teens say social media has had neither a positive nor negative effect on them personally?",
+                "rationale": "rationale1: The question directly asks for the percentage of U.S. teens who think their parents are extremely or very worried about their social - media use. This information is directly provided in the given chart.\n rationale2: We are required to get the proportion of U.S. teens who ever used YouTube in 2022 from the chart.\n rationale3: We are looking for the proportion of U.S. teens with this view about their personal experience with social media, which is given in the chart.",
+                "answer": "22%; 95%; 59%",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_2-11",
+                    "chart_6-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What percentage of U.S. teens think that criminal charges for users who bully or harass on social media would help a lot in reducing the amount of harassment and bullying?\n question2: What is the proportion of U.S. teen boys who say they ever use Instagram?\n question3: What percentage of U.S. teens think teens' experiences on social media are better than what parents think?\n question4: What was the proportion of U.S. teens (ages 13 - 17) who said they ever used Twitter in 2022? (Answer with a percentage value)",
+                "rationale": "rationale1: The question directly asks for the proportion of U.S. teens with a specific view from the given chart. We can directly find the corresponding value from the chart.\n rationale2: We need to extract the specific proportion for U.S. teen boys using Instagram from the chart.\n rationale3: The question asks for the percentage of U.S. teens with the view that teens' social - media experiences are better than what parents think, which is presented in the chart.\n rationale4: We search for the proportion of U.S. teens who ever used Twitter in 2022 in the given chart.",
+                "answer": "50%; 55%; 39%; 23%",
+                "involved_content_sources": [
+                    "chart_8-1",
+                    "chart_3-13",
+                    "chart_11-5",
+                    "chart_2-16"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the combined proportion of U.S. teens who think their parents are extremely/very worried or somewhat worried about them using social media, and also think teens' experiences on social media are better than what parents think? (Assume these two factors are independent events)\n question2: What is the difference between the proportion of U.S. teens who say social media has had a mostly positive effect on people their age and the proportion who say it has had a mostly negative effect on them personally?",
+                "rationale": "rationale1: We first need to find the combined proportion of teens whose parents are extremely/very worried or somewhat worried about their social - media use. Then we multiply this proportion by the proportion of teens who think teens' experiences on social media are better than what parents think. From the chart, the proportion of teens whose parents are extremely/very worried is 22% and somewhat worried is 27%, so their sum is 22% + 27% = 49%. The proportion of teens who think teens' experiences on social media are better than what parents think is 39%. We multiply these two values to get the combined proportion.\n rationale2: We need to find the proportion of U.S. teens who say social media has had a mostly positive effect on people their age and the proportion who say it has had a mostly negative effect on them personally from the chart. Then subtract the latter from the former to get the difference.",
+                "answer": "19.11%; 15%",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_11-2",
+                    "chart_11-5",
+                    "chart_6-1",
+                    "chart_6-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the combined proportion of U.S. teens who think their parents are extremely/very worried or somewhat worried about them using social media, and also think teens' experiences on social media are better than what parents think? (Assume these two factors are independent events)\n question2: What is the difference between the proportion of U.S. teens who say social media has had a mostly positive effect on people their age and the proportion who say it has had a mostly negative effect on them personally?\n question3: What is the average proportion of U.S. teens who think criminal charges, permanently locking accounts, and social - media companies deleting posts would help a lot in reducing the amount of harassment and bullying on social media?",
+                "rationale": "rationale1: We first need to find the combined proportion of teens whose parents are extremely/very worried or somewhat worried about their social - media use. Then we multiply this proportion by the proportion of teens who think teens' experiences on social media are better than what parents think. From the chart, the proportion of teens whose parents are extremely/very worried is 22% and somewhat worried is 27%, so their sum is 22% + 27% = 49%. The proportion of teens who think teens' experiences on social media are better than what parents think is 39%. We multiply these two values to get the combined proportion.\n rationale2: We need to find the proportion of U.S. teens who say social media has had a mostly positive effect on people their age and the proportion who say it has had a mostly negative effect on them personally from the chart. Then subtract the latter from the former to get the difference.\n rationale3: To answer this question, we need to take the proportion of teens who think criminal charges would help a lot, the proportion of teens who think permanently locking accounts would help a lot, and the proportion of teens who think social - media companies deleting posts would help a lot. Then we sum these three proportions and divide by 3 to get the average. The relevant data is from Chart 8.",
+                "answer": "19.11%; 15%; 47.33%",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_11-2",
+                    "chart_11-5",
+                    "chart_6-1",
+                    "chart_6-6",
+                    "chart_8-1",
+                    "chart_8-4",
+                    "chart_8-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the combined proportion of U.S. teens who think their parents are extremely/very worried or somewhat worried about them using social media, and also think teens' experiences on social media are better than what parents think? (Assume these two factors are independent events)\n question2: What is the difference between the proportion of U.S. teens who say social media has had a mostly positive effect on people their age and the proportion who say it has had a mostly negative effect on them personally?\n question3: What is the average proportion of U.S. teens who think criminal charges, permanently locking accounts, and social - media companies deleting posts would help a lot in reducing the amount of harassment and bullying on social media?\n question4: What is the average proportion of U.S. teens who say they ever use TikTok, Instagram, and Snapchat?",
+                "rationale": "rationale1: We first need to find the combined proportion of teens whose parents are extremely/very worried or somewhat worried about their social - media use. Then we multiply this proportion by the proportion of teens who think teens' experiences on social media are better than what parents think. From the chart, the proportion of teens whose parents are extremely/very worried is 22% and somewhat worried is 27%, so their sum is 22% + 27% = 49%. The proportion of teens who think teens' experiences on social media are better than what parents think is 39%. We multiply these two values to get the combined proportion.\n rationale2: We need to find the proportion of U.S. teens who say social media has had a mostly positive effect on people their age and the proportion who say it has had a mostly negative effect on them personally from the chart. Then subtract the latter from the former to get the difference.\n rationale3: To answer this question, we need to take the proportion of teens who think criminal charges would help a lot, the proportion of teens who think permanently locking accounts would help a lot, and the proportion of teens who think social - media companies deleting posts would help a lot. Then we sum these three proportions and divide by 3 to get the average. The relevant data is from Chart 8.\n rationale4: To find the average, we need to add the proportions of U.S. teens using TikTok, Instagram, and Snapchat and then divide by the number of platforms (3). ((67 + 62 + 59) / 3) = 62.67 (rounded to two decimal places).",
+                "answer": "19.11%; 15%; 47.33%; 62.67",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_11-2",
+                    "chart_11-5",
+                    "chart_6-1",
+                    "chart_6-6",
+                    "chart_8-1",
+                    "chart_8-4",
+                    "chart_8-7",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. teens who think social media has had a mostly negative effect on people their age and the proportion of U.S. teens who think their parents are extremely or very worried about them using social media?",
+                "rationale": "The proportion of U.S. teens who think social media has had a mostly negative effect on people their age is 32% (from chart_6-3). The proportion of U.S. teens who think their parents are extremely or very worried about them using social media is 22% (from chart_11-1). The difference is 32% - 22% = 10%.",
+                "answer": "10%",
+                "involved_content_sources": [
+                    "chart_6-3",
+                    "chart_11-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. teens who think their parents are extremely or very worried about them using social media, the proportion of U.S. teens in 2022 who said they ever used Reddit, and the proportion of U.S. teens who say social media has had a mostly negative effect on people their age? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. teens who think their parents are extremely or very worried about them using social media is 22%. The proportion of U.S. teens in 2022 who said they ever used Reddit is 14%. The proportion of U.S. teens who say social media has had a mostly negative effect on people their age is 32%. The average is (22% + 14% + 32%) / 3 = 22.67% (rounded to two decimal places).",
+                "answer": "22.67%",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_2-19",
+                    "chart_6-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the result of subtracting the proportion of U.S. teens who think their parents are extremely or very worried about them using social media from the sum of the proportion of U.S. teens who say social media has had a mostly positive effect on people their age, the proportion of U.S. teens who say criminal charges for users who bully or harass on social media would help a lot in reducing the amount of harassment and bullying, and the proportion of U.S. teens aged 13 - 14 who say they ever use Instagram, then dividing by the proportion of U.S. teens who say they ever use Tumblr in 2022?",
+                "rationale": "The proportion of U.S. teens who say social media has had a mostly positive effect on people their age is 24% (chart_6-1). The proportion of U.S. teens who say criminal charges for users who bully or harass on social media would help a lot in reducing the amount of harassment and bullying is 50% (chart_8-1). The proportion of U.S. teens aged 13 - 14 who say they ever use Instagram is 45% (chart_3-63). The sum of these three proportions is 24% + 50% + 45% = 119%. The proportion of U.S. teens who think their parents are extremely or very worried about them using social media is 22% (chart_11-1). Subtracting this from the sum gives 119% - 22% = 97%. The proportion of U.S. teens who say they ever use Tumblr in 2022 is 5% (chart_2-20). Dividing the result by this proportion gives 97% / 5% = 19.4.",
+                "answer": "19.4",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_2-20",
+                    "chart_3-63",
+                    "chart_6-1",
+                    "chart_8-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of U.S. teens who think social media has had a mostly positive effect on people their age and on themselves personally, and the average of the proportions of U.S. teens who say criminal charges and permanently locking users out of their account would help a lot in reducing the amount of harassment and bullying?",
+                "rationale": "Among U.S. teens, the proportion who say social media has had a mostly positive effect on people their age is 24% (chart_6-1), and the proportion who say it has had a mostly positive effect on themselves personally is 32% (chart_6-4). The sum of these two proportions is 24% + 32% = 56%. Among U.S. teens, the proportion who say criminal charges for users who bully or harass on social media would help a lot in reducing the amount of harassment and bullying is 50% (chart_8-1), and the proportion who say permanently locking users out of their account if they bully or harass others would help a lot in reducing the amount of harassment and bullying is 50% (chart_8-4). The average of these two proportions is (50% + 50%) / 2 = 50%. Then the difference between the two is 56% - 50% = 6%.",
+                "answer": "6%",
+                "involved_content_sources": [
+                    "chart_6-1",
+                    "chart_6-4",
+                    "chart_8-1",
+                    "chart_8-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. teens who think their parents are extremely or very worried about them using social media, the difference between the proportion of U.S. teens who said they ever used TikTok in 2022 and 2014 - 15, and the difference between the proportion of U.S. teens who say social media has had a mostly positive effect on people their age and on them personally?",
+                "rationale": "The proportion of U.S. teens who think their parents are extremely or very worried about them using social media is 22% (chart_11-1). The proportion of U.S. teens who said they ever used TikTok in 2022 is 67% (chart_2-12), and in 2014 - 15 it was 0% (chart_2-4), so the difference is 67 - 0 = 67%. The proportion of U.S. teens who say social media has had a mostly positive effect on people their age is 24% (chart_6-1), and on them personally is 32% (chart_6-4), so the difference is 32 - 24 = 8%. The average is (22 + 67 + 8) / 3 = 97 / 3 \u2248 32.33%.",
+                "answer": "32.33%",
+                "involved_content_sources": [
+                    "chart_11-1",
+                    "chart_11-2",
+                    "chart_2-4",
+                    "chart_2-12",
+                    "chart_6-1",
+                    "chart_6-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of U.S. teens who think social media has a mostly positive effect on people their age and on themselves personally, the difference in the proportion of U.S. teens who think criminal charges and requiring real names would help a lot in reducing social - media harassment, the difference in the proportion of U.S. teen boys and girls who ever use TikTok, and the difference in the proportion of U.S. teens who think their parents are extremely/very worried and a little/not at all worried about their social - media use?",
+                "rationale": "First, from Chart 6, the proportion of U.S. teens who say social media has a mostly positive effect on people their age is 24% (chart_6-1), and on themselves personally is 32% (chart_6-4). The difference is 32% - 24% = 8%. Second, from Chart 8, the proportion of U.S. teens who say criminal charges for users who bully or harass on social media would help a lot is 50% (chart_8-1), and the proportion who say requiring users to use their real names and pictures would help a lot is 37% (chart_8-10). The difference is 50% - 37% = 13%. Third, from Chart 3, the proportion of U.S. teen boys who ever use TikTok is 60% (chart_3-12), and that of U.S. teen girls is 73% (chart_3-22). The difference is 73% - 60% = 13%. Fourth, from Chart 11, the proportion of U.S. teens who think their parents are extremely or very worried about their social - media use is 22% (chart_11-1), and the proportion who think their parents are a little or not at all worried is 41% (chart_11-3). The difference is 41% - 22% = 19%. The average of these four differences is (8% + 13% + 13% + 19%) / 4 = 13.25%.",
+                "answer": "13.25%",
+                "involved_content_sources": [
+                    "chart_6-1",
+                    "chart_6-4",
+                    "chart_8-1",
+                    "chart_8-10",
+                    "chart_3-12",
+                    "chart_3-22",
+                    "chart_11-1",
+                    "chart_11-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

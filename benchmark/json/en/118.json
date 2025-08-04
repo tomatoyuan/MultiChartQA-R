@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_118_1",
+    "chart_118_2",
+    "chart_118_3",
+    "chart_118_4",
+    "chart_118_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Sort the proportions of the top five industries with high proportions among Chinese enterprises using AI digital humans in 2025, the enterprise scale distribution, and the top four main purposes of enterprises using AI digital humans in 2025 from high to low respectively and compare them. Do the change trends of these three sequences match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The values of the three sequences decrease successively with the ranking, showing a monotonically decreasing trend in the same direction. Therefore, the trends are consistent.",
+      "charts_involved": [
+        "chart_118_1",
+        "chart_118_2",
+        "chart_118_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Compare the proportions of the top three purposes for enterprises using AI digital humans with the proportions of the top three items of enterprises' functional requirements for AI digital humans. Are they positively correlated? Answer positively correlated, negatively correlated, or not correlated.",
+      "answer": "Positively correlated",
+      "explanation": "Both sets of data decrease with the ranking (48.80% → 43.09% → 36.44% and 32.98% → 25.66% → 24.87%), showing the same direction and a positive correlation.",
+      "charts_involved": [
+        "chart_118_3",
+        "chart_118_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the industry with the highest proportion of AI digital human applications correspond to the range with the highest proportion of efficiency or quality improvement? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The industry distribution and the efficiency improvement range belong to different dimensions, and the data does not show a one - to - one correspondence between them, so they do not correspond.",
+      "charts_involved": [
+        "chart_118_1",
+        "chart_118_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2025, what percentage of small enterprises use AI digital humans for the purpose of 'Improve work efficiency and quality'? Answer in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "28.68%",
+      "explanation": "The proportion of small enterprises is 58.78% × the proportion of enterprises using AI digital humans for the purpose of 'Improve work efficiency and quality' is 48.80% = 0.5878 × 0.4880 = 0.2868464. Rounding to 2 decimal places gives 28.68%.",
+      "charts_involved": [
+        "chart_118_2",
+        "chart_118_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2025, among the enterprises using AI digital humans for the purpose of 'Enhance enterprise digitalization level', what percentage of them reported an efficiency improvement of over 40%? Answer in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "17.26%",
+      "explanation": "The proportion of enterprises using AI digital humans for the purpose of 'Enhance enterprise digitalization level' is 43.09% × the total proportion of enterprises reporting an efficiency improvement of 40 - 50% or over 50% is 40.05% (27.52% + 12.53%) = 0.4309 × 0.4005 = 0.17257545. Rounding to 2 decimal places gives 17.26%.",
+      "charts_involved": [
+        "chart_118_3",
+        "chart_118_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2025, what percentage of enterprises in the e - commerce industry have a demand for 'Multimodal Ability (Text, Image, Voice, Video Processing)'? Answer in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "5.44%",
+      "explanation": "The proportion of the e - commerce industry is 16.49% × the proportion of enterprises with a demand for 'Multimodal Ability (Text, Image, Voice, Video Processing)' is 32.98% = 0.1649 × 0.3298 = 0.054384. Rounding to 2 decimal places gives 5.44%.",
+      "charts_involved": [
+        "chart_118_1",
+        "chart_118_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the industry distribution of enterprises using AI digital humans and the purposes of enterprise use, which industry characteristics may be associated with their main usage purposes?",
+      "answer": {
+        "A": "The e-commerce industry accounts for 16.49%, so it may mainly use AI digital humans to reduce economic costs. However, the purpose of reducing economic costs only accounts for 27.13%, which is not its highest priority.",
+        "B": "The finance industry accounts for 10.51%, so it may mainly use AI digital humans to enhance the corporate image. Because the proportion of the purpose of enhancing the corporate image is 23.14%, which is close to its industry proportion.",
+        "C": "The games industry may mainly use AI digital humans for innovative technology application demonstration, because the games industry often involves the display of cutting-edge technologies.",
+        "D": "Enterprises in the e-commerce industry may be more inclined to use AI digital humans for product endorsement or live-streaming sales, because this industry has a relatively high proportion in the user distribution, and product endorsement is one of the important purposes of enterprises.",
+        "E": "Manufacturing enterprises may widely use AI digital humans for data collection and analysis. Although this industry is not listed in the chart, the manufacturing industry usually relies on data analysis to optimize the production process.",
+        "F": "Enterprises in the finance industry may pay more attention to reducing labor costs, because the finance industry has a medium proportion in the user distribution, and reducing labor costs is a common purpose.",
+        "G": "Enterprises in the health, social security and social welfare industry may pay more attention to improving work efficiency and quality, because this industry has a significant proportion in the distribution, and improving work efficiency is the highest priority purpose of enterprises."
+      },
+      "charts_involved": [
+        "chart_118_1",
+        "chart_118_3"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the scale of enterprises using AI digital humans and the report of efficiency improvement, how is the enterprise scale associated with the amplitude of efficiency improvement?",
+      "answer": {
+        "A": "Small enterprises account for 58.78%, so most reports show an efficiency improvement of over 50%. However, the proportion of efficiency improvement over 50% is only 12.53%.",
+        "B": "Micro-enterprises account for 17.02%, so they may dominate the reports of efficiency improvement between 30 - 40%, because this amplitude is the most common, accounting for 31.61%.",
+        "C": "Small enterprises are more likely to dominate the reports of efficiency improvement between 30 - 40%, because small enterprises have the highest proportion among users, and this improvement amplitude is the most common range.",
+        "D": "Large enterprises may report an efficiency improvement of 40 - 50% or higher. Although the proportion of large enterprises is small, they have more resources, and there are reports of higher improvement amplitudes.",
+        "E": "Large enterprises may report the smallest efficiency improvement, because large scale leads to low flexibility, which is common sense in enterprise management.",
+        "F": "Micro-enterprises may more often report an efficiency improvement of 20 - 30%, because micro-enterprises are small in scale, and the proportion of this improvement amplitude range is moderate, which may be suitable for their resource limitations.",
+        "G": "Enterprises of all scales most often report an efficiency improvement of 20 - 30%, because the proportion of this amplitude range is 18.53%, which is in the middle value."
+      },
+      "charts_involved": [
+        "chart_118_2",
+        "chart_118_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the purposes of enterprises using AI digital humans and the functional requirements, which usage purposes may drive the demand for specific AI functions?",
+      "answer": {
+        "A": "The purpose of product endorsement accounts for 35.37%, so there is a demand for facial recognition function (22.34%). However, the demand for facial recognition is not the highest, and its association with endorsement is weak.",
+        "B": "When enterprises use AI digital humans for product endorsement or live-streaming sales, they may have a greater demand for generation and creation functions, because the purpose of product endorsement has a significant proportion, and the demand for generation and creation functions is relatively high.",
+        "C": "When enterprises aim to improve work efficiency and quality, they may have a greater demand for logic and reasoning functions, because this purpose is the highest priority, and the demand for logic and reasoning functions is above the medium level.",
+        "D": "The purpose of improving work efficiency and quality accounts for 48.80%, so there is a demand for logic and reasoning functions. However, the demand for logic and reasoning is only 19.68%, lower than other functions.",
+        "E": "When enterprises aim to enhance customer interaction and experience, they may have a greater demand for human-machine interaction functions, because this purpose has a moderate proportion, and the demand for human-machine interaction functions ranks high.",
+        "F": "When enterprises aim to reduce economic costs, they may have a demand for emotion recognition functions, because cost control often requires emotion analysis to optimize customer service.",
+        "G": "The purpose of innovative technology application demonstration accounts for 8.11%, so there may be a demand for the highest multimodal function (32.98%), because the demonstration purpose involves multimedia."
+      },
+      "charts_involved": [
+        "chart_118_3",
+        "chart_118_5"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, considering the industry distribution and scale characteristics of enterprises, how should resources for promoting AI digital humans be allocated to achieve broader market coverage and efficient penetration? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Focus on promoting in the health, social security and social welfare industry, because the proportion of enterprises in this industry is the highest (12.91%), and ignore the scale distribution.",
+        "B": "Increase resource investment in the health, social security and social welfare industry. The proportion of enterprises in this industry is relatively high, and the demand is strong. Combining with the significant proportion of medium - sized enterprises in the enterprise scale distribution, the promotion strategy should focus on customized solutions to improve the adoption rate.",
+        "C": "Balance resource allocation and avoid neglecting micro - enterprises. The proportion of micro - enterprises cannot be ignored, and they are concentrated in some industries (such as games or film and television). Developing low - cost and easily deployable AI digital human solutions in a targeted manner can promote fair resource utilization and overall market growth.",
+        "D": "Prioritize promotion in industries where small enterprises are concentrated (such as e - commerce and culture and tourism). Small enterprises have the highest overall proportion, and these industries are widely distributed. Resource inclination can maximize the coverage of potential user groups and improve market penetration efficiency.",
+        "E": "Allocate resources evenly across all industries to ensure fairness and avoid market bias.",
+        "F": "Prioritize promotion for large enterprises because they have strong financial resources and are more likely to accept new technologies.",
+        "G": "Increase resource investment in the games and film and television industries, because the proportion of micro - enterprises in these industries is the highest (17.02%), which can quickly improve market penetration rate."
+      },
+      "charts_involved": [
+        "chart_118_1",
+        "chart_118_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the main purposes of enterprises using AI digital humans and the improvement effects on work efficiency, how should enterprises adjust their implementation strategies to optimize return on investment? Please select the most effective suggestion:",
+      "answer": {
+        "A": "Focus on deploying AI digital human applications with the core purpose of 'Improving work efficiency and quality'. This purpose has the highest proportion, and the efficiency improvement data shows that most enterprises report significant improvements (such as medium to high levels). Focusing on this can directly achieve the maximum benefits.",
+        "B": "Integrate the purposes of 'Reducing labor costs' and 'Enhancing enterprise digitalization level' in application design. Both have relatively high proportions and are highly correlated (for example, digitalization can support efficiency improvement). Combining with the efficiency improvement distribution, the strategy can achieve the dual goals of cost savings and quality improvement.",
+        "C": "Reduce the focus on improving work efficiency and quality because the proportion of this purpose is already very high (48.80%), and resources should be redirected to other areas.",
+        "D": "For purposes with medium proportions such as 'Enhancing customer interaction and experience', it is recommended to conduct pilot projects first in customer - service - intensive industries (such as finance or e - commerce) and then gradually promote. Although the efficiency improvement is not direct, the potential is great, which can avoid wasting resources in low - relevant areas.",
+        "E": "Increase investment in innovative technology application demonstrations because it represents future trends and can enhance the corporate image.",
+        "F": "Prioritize reducing economic costs (with a proportion of 27.13%) because the efficiency improvement data shows that most enterprises report an improvement of over 30%, which can quickly achieve return on investment.",
+        "G": "Ignore enhancing customer interaction and experience (with a proportion of 23.80%) because the proportion in the low - improvement range (below 10%) in the efficiency improvement data is small (3.27%), and the correlation is low."
+      },
+      "charts_involved": [
+        "chart_118_3",
+        "chart_118_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the diversity of enterprises' functional requirements for AI digital humans and the priority of usage purposes, how should technology providers plan functional development resources to efficiently meet the market demand? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Develop all functions to comprehensively cover market demand and avoid missing any potential needs.",
+        "B": "For functions with low demand (such as innovative technology application demonstrations), development can be postponed, and resources should be re - allocated to high - demand areas (such as logic and reasoning or generation and creation). This is based on the matching degree between demand distribution and usage purposes, avoiding wasting resources on secondary functions.",
+        "C": "Prioritize investment in the development of multimodal capabilities (text, image, voice, video processing). This function has the highest demand proportion and is highly related to the main purposes such as 'Enhancing enterprise digitalization level' and 'Enhancing customer interaction'. Resource inclination can quickly respond to core market demand.",
+        "D": "Prioritize investment in the function of innovative technology application demonstration because it is unique and can attract early adopters.",
+        "E": "Focus on developing the emotion recognition function (with a demand proportion of 17.69%) because it is highly related to enhancing the corporate image (with a purpose proportion of 23.14%), which can quickly improve product attractiveness.",
+        "F": "Reduce investment in multimodal capabilities (with a demand proportion of 32.98%) because the demand is too high and the development cost may exceed the return. Resources should be redirected to medium - demand functions such as text classification (21.41%).",
+        "G": "Focus on the development of human - machine interaction and natural language understanding functions. These functions have prominent demand proportions and directly support high - frequency purposes such as 'Improving work efficiency' and 'Customer experience'. The strategy can improve product practicality and enterprise adoption rate."
+      },
+      "charts_involved": [
+        "chart_118_3",
+        "chart_118_5"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    }
+  ]
+}

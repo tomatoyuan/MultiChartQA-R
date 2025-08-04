@@ -1,0 +1,189 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of White people among U.S. adults in their 100s in 2024?\n question2: What is the projected number of Americans ages 100 and older in 2054? Answer with a number.",
+                "rationale": "rationale1: We need to obtain the proportion of White people among U.S. adults in their 100s in 2024, and this information is available in the chart.\n rationale2: The query is about the projected number of Americans ages 100 and older in 2054. The relevant data can be obtained from the chart.",
+                "answer": "77%; 421.7 thousand",
+                "involved_content_sources": [
+                    "chart_3-5",
+                    "chart_2-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: How many centenarians per 10,000 people will there be in Thailand in 2054?\n question2: What is the proportion of Asian people among U.S. adults in their 100s in 2024?\n question3: In which year was the estimated number of Americans ages 100 and older 37.3 thousand? Give the year as the answer.",
+                "rationale": "rationale1: We look for the data of the number of centenarians per 10,000 people in Thailand in 2054 in the chart.\n rationale2: We are looking for the proportion of Asian people among U.S. adults in their 100s in 2024, and the chart has this specific data.\n rationale3: We need to find the year corresponding to the estimated number of 37.3 thousand Americans ages 100 and older, which can be located in the chart.",
+                "answer": "49; 7%; 1990",
+                "involved_content_sources": [
+                    "chart_5-10",
+                    "chart_3-7",
+                    "chart_2-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the number of centenarians per 10,000 people in Hong Kong in 2054?\n question2: What is the proportion of Black people among U.S. adults in their 100s in 2054?\n question3: What is the number of centenarians per 10,000 people in the U.S. in 2054?\n question4: What is the projected number of Americans ages 100 and older in 2054? Answer with a number.",
+                "rationale": "rationale1: The question is about the number of centenarians per 10,000 people in Hong Kong in 2054, and the answer can be found in the chart.\n rationale2: The question requires the proportion of Black people among U.S. adults in their 100s in 2054, which can be retrieved from the chart content.\n rationale3: This question requires extracting the number of centenarians per 10,000 people in the U.S. in 2054 from the chart.\n rationale4: The query is about the projected number of Americans ages 100 and older in 2054. The relevant data can be obtained from the chart.",
+                "answer": "57; 10%; 14; 421.7 thousand",
+                "involved_content_sources": [
+                    "chart_5-9",
+                    "chart_3-10",
+                    "chart_4-8",
+                    "chart_2-10"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average increase in the number of Americans ages 100 and older per decade from 1950 to 2020? Please provide the answer to one decimal place.\n question2: What is the change in the combined proportion of Black and Hispanic people among U.S. adults in their 100s from 2024 to 2054?",
+                "rationale": "rationale1: To find the average increase per decade, first calculate the total increase in the number of centenarians from 1950 to 2020. Then divide this total increase by the number of decades in this time - span. The number of decades from 1950 to 2020 is (2020 - 1950) / 10 = 7. The total increase is the number in 2020 minus the number in 1950. We use the data of the number of centenarians in 1950 and 2020 from the chart.\n rationale2: To find the answer, we first need to calculate the combined proportion of Black and Hispanic people in 2024 and 2054 separately according to the data in the chart. Then subtract the 2024 value from the 2054 value to get the change.",
+                "answer": "11.1; 7",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-8",
+                    "chart_3-6",
+                    "chart_3-8",
+                    "chart_3-10",
+                    "chart_3-12"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average increase in the number of Americans ages 100 and older per decade from 1950 to 2020? Please provide the answer to one decimal place.\n question2: What is the change in the combined proportion of Black and Hispanic people among U.S. adults in their 100s from 2024 to 2054?\n question3: What is the total number of centenarians per 10,000 people in Monaco, Puerto Rico, and Guadeloupe in 2024 and 2054 combined?",
+                "rationale": "rationale1: To find the average increase per decade, first calculate the total increase in the number of centenarians from 1950 to 2020. Then divide this total increase by the number of decades in this time - span. The number of decades from 1950 to 2020 is (2020 - 1950) / 10 = 7. The total increase is the number in 2020 minus the number in 1950. We use the data of the number of centenarians in 1950 and 2020 from the chart.\n rationale2: To find the answer, we first need to calculate the combined proportion of Black and Hispanic people in 2024 and 2054 separately according to the data in the chart. Then subtract the 2024 value from the 2054 value to get the change.\n rationale3: To answer this question, we need to sum up the number of centenarians per 10,000 people for Monaco, Puerto Rico, and Guadeloupe in both 2024 and 2054. We take the values from the given chart and add them together: 85 (Monaco 2024) + 10 (Puerto Rico 2024) + 11 (Guadeloupe 2024) + 61 (Monaco 2054) + 59 (Puerto Rico 2054) + 50 (Guadeloupe 2054).",
+                "answer": "11.1; 7; 276",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-8",
+                    "chart_3-6",
+                    "chart_3-8",
+                    "chart_3-10",
+                    "chart_3-12",
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_5-6",
+                    "chart_5-7",
+                    "chart_5-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average increase in the number of Americans ages 100 and older per decade from 1950 to 2020? Please provide the answer to one decimal place.\n question2: What is the change in the combined proportion of Black and Hispanic people among U.S. adults in their 100s from 2024 to 2054?\n question3: What is the total number of centenarians per 10,000 people in Monaco, Puerto Rico, and Guadeloupe in 2024 and 2054 combined?\n question4: What is the total estimated number of centenarians in Japan, the U.S., China, India, and Thailand in 2024?",
+                "rationale": "rationale1: To find the average increase per decade, first calculate the total increase in the number of centenarians from 1950 to 2020. Then divide this total increase by the number of decades in this time - span. The number of decades from 1950 to 2020 is (2020 - 1950) / 10 = 7. The total increase is the number in 2020 minus the number in 1950. We use the data of the number of centenarians in 1950 and 2020 from the chart.\n rationale2: To find the answer, we first need to calculate the combined proportion of Black and Hispanic people in 2024 and 2054 separately according to the data in the chart. Then subtract the 2024 value from the 2054 value to get the change.\n rationale3: To answer this question, we need to sum up the number of centenarians per 10,000 people for Monaco, Puerto Rico, and Guadeloupe in both 2024 and 2054. We take the values from the given chart and add them together: 85 (Monaco 2024) + 10 (Puerto Rico 2024) + 11 (Guadeloupe 2024) + 61 (Monaco 2054) + 59 (Puerto Rico 2054) + 50 (Guadeloupe 2054).\n rationale4: To answer this question, we need to sum up the estimated number of centenarians in each of these countries in 2024. The relevant data for the estimated number of centenarians in 2024 for Japan, the U.S., China, India, and Thailand are provided in the chart, and we simply add these values together.",
+                "answer": "11.1; 7; 276; 300000",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-8",
+                    "chart_3-6",
+                    "chart_3-8",
+                    "chart_3-10",
+                    "chart_3-12",
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_5-6",
+                    "chart_5-7",
+                    "chart_5-8",
+                    "chart_4-1",
+                    "chart_4-5",
+                    "chart_4-9",
+                    "chart_4-13",
+                    "chart_4-17"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the projected number of American centenarians in 2054 to the proportion of White people among U.S. centenarians in 2054?",
+                "rationale": "The projected number of American centenarians in 2054 is 421.7 thousand (from chart_2-10). The proportion of White people among U.S. centenarians in 2054 is 72% (from chart_3-9). The ratio is 421.7 / 0.72 \u2248 585.69444 (thousand).",
+                "answer": "585.69444 thousand",
+                "involved_content_sources": [
+                    "chart_2-10",
+                    "chart_3-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "If we consider the growth rate of the U.S. centenarian population from 2024 to 2054, the change in the proportion of men among U.S. centenarians in the same period, and the change in the number of centenarians per 10,000 people in Japan from 2024 to 2054, what is the sum of these three values? (Round the growth rate of the U.S. centenarian population to two decimal places.)",
+                "rationale": "First, calculate the growth rate of the U.S. centenarian population from 2024 to 2054. In 2024, the projected number is 101.5 thousand (chart_2-9), and in 2054, it is 421.7 thousand (chart_2-10). The growth rate is ((421.7 - 101.5) / 101.5) * 100% \u2248 315.47%. Second, the proportion of men among U.S. centenarians in 2024 is 22% (chart_3-2), and in 2054, it is 32% (chart_3-4), so the change is 32% - 22% = 10%. Third, in 2024, the number of centenarians per 10,000 people in Japan is 12 (chart_4-2), and in 2054, it is 40 (chart_4-4), so the change is 40 - 12 = 28. The sum of these three values is 315.47 + 10 + 28 = 353.47.",
+                "answer": "353.47",
+                "involved_content_sources": [
+                    "chart_2-10",
+                    "chart_3-4",
+                    "chart_4-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio between (a) the projected increase in U.S. centenarians from 2024 to 2054 and (b) the product of Japan's 2024 centenarian population (chart_ 4) and the percentage of women among U.S. centenarians in 2024 (chart_ 3), divided by Monaco's 2024 centenarians per 10,000 people (chart_ 5)?",
+                "rationale": "1) From chart_2-10 (2054 projection: 421,700) and chart_2-9 (2024: 101,500), increase = 320,200. 2) From chart_4-1, Japan's 2024 centenarians = 146,000. 3) From chart_3-1, 78% of U.S. centenarians are women. Product = 146,000 \u00d7 0.78 = 113,880. 4) From chart_5-1, Monaco has 85 centenarians per 10,000. Final calculation: (320,200) / (113,880 / 85) = (320,200) / 1,339.76 \u2248 239.00",
+                "answer": "239.00",
+                "involved_content_sources": [
+                    "chart_2-10",
+                    "chart_3-1",
+                    "chart_4-1",
+                    "chart_5-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportion of women and White people among U.S. adults in their 100s in 2024 and the ratio of the estimated number of centenarians in the U.S. to that in China in 2054?",
+                "rationale": "Among U.S. adults in their 100s in 2024, the proportion of women is 78% (chart_3-1), and the proportion of White people is 77% (chart_3-5). The average of these two proportions is (78% + 77%) / 2 = 77.5%. In 2054, the estimated number of centenarians in the U.S. is 513,000 (chart_4-7), and in China is 767,000 (chart_4-11). The ratio is 513000 / 767000 \u2248 66.9%. Then the difference between the two is 77.5% - 66.9% = 10.6%.",
+                "answer": "10.6%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-5",
+                    "chart_4-7",
+                    "chart_4-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the increase in the number of U.S. centenarians from 2024 to 2054 to the difference in the proportion of White U.S. centenarians between 2024 and 2054, and then multiplied by the average of the number of centenarians per 10,000 people in Japan and the U.S. in 2054?",
+                "rationale": "The number of U.S. centenarians in 2024 is 101.5 thousand (chart_2-9), and in 2054 is 421.7 thousand (chart_2-10), so the increase is 421.7 - 101.5 = 320.2 thousand. The proportion of White U.S. centenarians in 2024 is 77% (chart_3-5), and in 2054 is 72% (chart_3-9), so the difference is 77% - 72% = 5%. The number of centenarians per 10,000 people in Japan in 2054 is 40 (chart_4-4), and in the U.S. in 2054 is 14 (chart_4-8), and their average is (40 + 14) / 2 = 27. Then the result is (320.2 / 5%) \u00d7 27 = (320200 / 5) \u00d7 27 = 64040 \u00d7 27 = 1729080.",
+                "answer": "1729080",
+                "involved_content_sources": [
+                    "chart_2-9",
+                    "chart_2-10",
+                    "chart_3-5",
+                    "chart_3-9",
+                    "chart_4-4",
+                    "chart_4-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the ratio of the projected number of American centenarians in 2054 to that in 2024, the ratio of the projected proportion of men among U.S. centenarians in 2054 to that in 2024, and the ratio of the estimated number of centenarians per 10,000 people in Japan in 2054 to that in 2024?",
+                "rationale": "From Chart 2, the projected number of American centenarians in 2024 is 101.5 thousand (chart_2-9), and in 2054 is 421.7 thousand (chart_2-10). The ratio is 421.7 / 101.5 \u2248 4.155. From Chart 3, the proportion of men among U.S. centenarians in 2024 is 22% (chart_3-2), and in 2054 is 32% (chart_3-4). The ratio is 32% / 22% \u2248 1.455. From Chart 4, the number of centenarians per 10,000 people in Japan in 2024 is 12 (chart_4-2), and in 2054 is 40 (chart_4-4). The ratio is 40 / 12 \u2248 3.333. The average of these three ratios is (4.155 + 1.455 + 3.333) / 3 \u2248 2.981 (rounded to three decimal places).",
+                "answer": "2.981",
+                "involved_content_sources": [
+                    "chart_2-9",
+                    "chart_2-10",
+                    "chart_3-2",
+                    "chart_3-4",
+                    "chart_4-2",
+                    "chart_4-4",
+                    "chart_5-5",
+                    "chart_5-6"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the total foreign - aid disbursed in inflation - adjusted 2023 dollars in 2023?\n question2: What was the proportion of U.S. adults who would decrease spending on economic assistance to needy people around the world if making up the federal - government budget in 2013?",
+                "rationale": "rationale1: We need to find the total foreign - aid disbursed in inflation - adjusted 2023 dollars in 2023, and this value is given in the chart.\n rationale2: This question requires us to find the proportion of U.S. adults with a particular view on economic assistance spending in 2013, which can be retrieved from the chart.",
+                "answer": "$71.9 billion; 48%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_6-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the proportion of U.S. adults who would keep spending about the same on economic assistance to needy people around the world if making up the federal - government budget in 2011?\n question2: What is the proportion of U.S. foreign - aid for democracy, human rights and governance in fiscal 2023? (Please answer with a percentage)\n question3: What is the amount of U.S. foreign - aid disbursed to West Africa in fiscal 2023? Provide the answer in dollars.",
+                "rationale": "rationale1: The question is about the proportion of a certain group of U.S. adults regarding economic assistance spending in 2011. We look for this specific data in the provided chart.\n rationale2: The question asks for the proportion of U.S. foreign - aid for democracy, human rights and governance in fiscal 2023, and the answer is in the chart.\n rationale3: This question asks for the U.S. foreign - aid amount to West Africa in fiscal 2023, and the chart has the relevant data.",
+                "answer": "29%; 3.2%; $0.2 billion",
+                "involved_content_sources": [
+                    "chart_6-5",
+                    "chart_4-10",
+                    "chart_5-18"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. foreign - aid for the environment in fiscal 2023? (Please answer with a percentage)\n question2: What was the proportion of U.S. adults who would increase spending on economic assistance to needy people around the world if making up the federal - government budget in 2019?\n question3: What was the share of foreign aid disbursements in total federal expenses in fiscal year 2001?\n question4: How much U.S. foreign - aid was disbursed to Ukraine in fiscal 2023? Please answer with a specific dollar amount.",
+                "rationale": "rationale1: We are to find the proportion of U.S. foreign - aid for the environment in fiscal 2023 according to the chart.\n rationale2: The question directly asks for the proportion of U.S. adults with a specific stance on economic assistance spending in 2019. We can find this value directly from the given chart.\n rationale3: The question directly asks for the share of foreign aid disbursements in total federal expenses in fiscal year 2001, which can be found from the given chart.\n rationale4: The question directly asks for the amount of U.S. foreign - aid disbursed to Ukraine in fiscal 2023, which can be found in the given chart.",
+                "answer": "1.9%; 35%; 0.81%; $16.6 billion",
+                "involved_content_sources": [
+                    "chart_4-12",
+                    "chart_6-13",
+                    "chart_3-1",
+                    "chart_5-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the increase in the total foreign - aid disbursed in inflation - adjusted 2023 dollars from 2001 to 2023?\n question2: What is the total amount of U.S. foreign aid disbursed in fiscal 2023 that went towards health initiatives (including both HIV/AIDS and other health initiatives)? Provide the answer in billions of dollars rounded to one decimal place.",
+                "rationale": "rationale1: To find the increase, we need to subtract the inflation - adjusted 2023 dollars foreign - aid disbursed in 2001 from that in 2023. This requires using the inflation - adjusted 2023 dollars data for both years, which are provided in the chart.\n rationale2: First, we know from chart_4-1 that the total amount of U.S. foreign aid disbursed in fiscal 2023 is $71.9 billion. The proportion of foreign aid for HIV/AIDS in fiscal 2023 is 14.7% (from chart_4-8) and the proportion for other health initiatives is 7.7% (from chart_4-9). The combined proportion for health initiatives is 14.7% + 7.7% = 22.4%. To find the amount of aid for health initiatives, we multiply the total aid amount by this combined proportion: $71.9 \times 0.224 = 16.1056$ billion dollars. Rounding to one decimal place, we get $16.1$ billion dollars.",
+                "answer": "$47.3 billion; 16.1 billion dollars",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_4-1",
+                    "chart_4-8",
+                    "chart_4-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the increase in the total foreign - aid disbursed in inflation - adjusted 2023 dollars from 2001 to 2023?\n question2: What is the total amount of U.S. foreign aid disbursed in fiscal 2023 that went towards health initiatives (including both HIV/AIDS and other health initiatives)? Provide the answer in billions of dollars rounded to one decimal place.\n question3: What is the percentage increase in foreign aid disbursements as a share of total federal expenses from fiscal year 2001 to fiscal year 2023? Please provide the answer with two decimal places.",
+                "rationale": "rationale1: To find the increase, we need to subtract the inflation - adjusted 2023 dollars foreign - aid disbursed in 2001 from that in 2023. This requires using the inflation - adjusted 2023 dollars data for both years, which are provided in the chart.\n rationale2: First, we know from chart_4-1 that the total amount of U.S. foreign aid disbursed in fiscal 2023 is $71.9 billion. The proportion of foreign aid for HIV/AIDS in fiscal 2023 is 14.7% (from chart_4-8) and the proportion for other health initiatives is 7.7% (from chart_4-9). The combined proportion for health initiatives is 14.7% + 7.7% = 22.4%. To find the amount of aid for health initiatives, we multiply the total aid amount by this combined proportion: $71.9 \times 0.224 = 16.1056$ billion dollars. Rounding to one decimal place, we get $16.1$ billion dollars.\n rationale3: To find the percentage increase, we use the formula: ((New Value - Old Value) / Old Value) * 100. The old value is the share in 2001 (0.81%) and the new value is the share in 2023 (1.17%). So, we calculate ((1.17 - 0.81) / 0.81) * 100 to get the percentage increase.",
+                "answer": "$47.3 billion; 16.1 billion dollars; 44.44%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_4-1",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the increase in the total foreign - aid disbursed in inflation - adjusted 2023 dollars from 2001 to 2023?\n question2: What is the total amount of U.S. foreign aid disbursed in fiscal 2023 that went towards health initiatives (including both HIV/AIDS and other health initiatives)? Provide the answer in billions of dollars rounded to one decimal place.\n question3: What is the percentage increase in foreign aid disbursements as a share of total federal expenses from fiscal year 2001 to fiscal year 2023? Please provide the answer with two decimal places.\n question4: What is the average proportion of U.S. adults who would increase spending on economic assistance to needy people around the world from 2009 to 2019? Please calculate and round the result to the nearest whole number.",
+                "rationale": "rationale1: To find the increase, we need to subtract the inflation - adjusted 2023 dollars foreign - aid disbursed in 2001 from that in 2023. This requires using the inflation - adjusted 2023 dollars data for both years, which are provided in the chart.\n rationale2: First, we know from chart_4-1 that the total amount of U.S. foreign aid disbursed in fiscal 2023 is $71.9 billion. The proportion of foreign aid for HIV/AIDS in fiscal 2023 is 14.7% (from chart_4-8) and the proportion for other health initiatives is 7.7% (from chart_4-9). The combined proportion for health initiatives is 14.7% + 7.7% = 22.4%. To find the amount of aid for health initiatives, we multiply the total aid amount by this combined proportion: $71.9 \times 0.224 = 16.1056$ billion dollars. Rounding to one decimal place, we get $16.1$ billion dollars.\n rationale3: To find the percentage increase, we use the formula: ((New Value - Old Value) / Old Value) * 100. The old value is the share in 2001 (0.81%) and the new value is the share in 2023 (1.17%). So, we calculate ((1.17 - 0.81) / 0.81) * 100 to get the percentage increase.\n rationale4: To answer this question, we need to find the proportion of U.S. adults who would increase spending on economic assistance to needy people around the world in 2009, 2011, 2013, 2017, and 2019 from the chart, sum these values, and then divide by the number of years (5) to get the average. Finally, round the result to the nearest whole number.",
+                "answer": "$47.3 billion; 16.1 billion dollars; 44.44%; 26",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_4-1",
+                    "chart_4-8",
+                    "chart_4-9",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_6-1",
+                    "chart_6-4",
+                    "chart_6-7",
+                    "chart_6-10",
+                    "chart_6-13"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the amount of U.S. foreign - aid for economic development in fiscal 2023 based on the total foreign - aid disbursed in 2023 and the proportion of economic development aid in that year?",
+                "rationale": "The total foreign - aid disbursed in 2023 is $71.9 billion (chart_2-2). The proportion of U.S. foreign - aid for economic development in fiscal 2023 is 27.0% (chart_4-2). So the amount of economic development aid is $71.9 billion * 27.0% = $19.413 billion.",
+                "answer": "$19.413 billion",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_4-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the amount of U.S. foreign - aid for economic development in fiscal 2023, if we first calculate the product of the total foreign - aid disbursed in inflation - adjusted 2023 dollars in 2023 and the proportion of foreign - aid disbursements as a share of total federal expenses in 2023, and then multiply the result by the proportion of U.S. foreign - aid for economic development in fiscal 2023? (Round the result to two decimal places.)",
+                "rationale": "The total foreign - aid disbursed in inflation - adjusted 2023 dollars in 2023 is $71.9 billion (chart_2 - 2). The proportion of foreign - aid disbursements as a share of total federal expenses in 2023 is 1.17% (chart_3 - 2). The proportion of U.S. foreign - aid for economic development in fiscal 2023 is 27.0% (chart_4 - 2). First, calculate $71.9 billion\u00d71.17% = $71.9\u00d70.0117 = $0.84123 billion. Then, $0.84123 billion\u00d727.0% = $0.84123\u00d70.27 \u2248 $0.23 billion (rounded to two decimal places).",
+                "answer": "$0.23 billion",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_3-2",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the amount of U.S. foreign - aid for economic development in fiscal 2023 and the average of the inflation - adjusted foreign - aid disbursed in 2001, the amount of U.S. foreign - aid disbursed to Israel in fiscal 2023, and the amount by which the proportion of U.S. adults who would decrease spending on economic assistance to needy people around the world in 2013 is higher than those who would increase it?",
+                "rationale": "First, calculate the amount of U.S. foreign - aid for economic development in fiscal 2023. Given that the total amount of U.S. foreign aid disbursed in fiscal 2023 is $71.9 billion (chart_4 - 1) and the proportion for economic development is 27.0% (chart_4 - 2), so the amount is $71.9\u00d70.27 = $19.413 billion. Second, the inflation - adjusted foreign - aid disbursed in 2001 is $24.6 billion (chart_2 - 1). Third, the amount of U.S. foreign - aid (military part) disbursed to Israel in fiscal 2023 is $3.3 billion (chart_5 - 2). Fourth, in 2013, the proportion of U.S. adults who would decrease spending is 48% (chart_6 - 9) and those who would increase is 21% (chart_6 - 7), so the difference is 48% - 21% = 27%. The average of $24.6 billion, $3.3 billion and 27% (we assume 27% is 0.27 for calculation purpose here as we are just dealing with numbers) is \\((24.6 + 3.3+0.27)\\div3=\\frac{28.17}{3}=9.39\\). The difference between the amount of U.S. foreign - aid for economic development in fiscal 2023 and this average is \\(19.413 - 9.39 = 10.023\\) billion. ",
+                "answer": "10023000000",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_4-2",
+                    "chart_5-2",
+                    "chart_6-9"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the amount of U.S. foreign - aid for economic development in 2023 and the sum of the aid amounts disbursed to Jordan and Egypt in 2023?",
+                "rationale": "The total amount of U.S. foreign aid disbursed in fiscal 2023 is $71.9 billion (chart_4-1), and the proportion of U.S. foreign - aid for economic development in fiscal 2023 is 27.0% (chart_4-2). So the amount of U.S. foreign - aid for economic development in 2023 is $71.9\u00d727.0% = $19.413 billion. The amount of U.S. foreign - aid disbursed to Jordan in fiscal 2023 is $1.7 billion (chart_5-4), and the amount of U.S. foreign - aid disbursed to Egypt in fiscal 2023 is $1.4 billion (chart_5-5). The sum of the aid amounts disbursed to Jordan and Egypt in 2023 is $1.7 + $1.4 = $3.1 billion. Then the difference is $19.413 - $3.1 = $16.313 billion.",
+                "answer": "$16.313 billion",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-4",
+                    "chart_5-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "If we calculate a combined index where we take the ratio of the inflation - adjusted foreign - aid in 2001 to that in 2023 (from Chart 2), multiply it by the ratio of the foreign - aid share of total federal expenses in 2001 to that in 2023 (from Chart 3), and then multiply the result by the proportion of U.S. foreign - aid for economic development in 2023 (from Chart 4), what is the value of this combined index?",
+                "rationale": "The inflation - adjusted foreign - aid in 2001 is $24.6 billion (chart_2-1), and in 2023 is $71.9 billion (chart_2-2). The ratio is 24.6 / 71.9. The foreign - aid share of total federal expenses in 2001 is 0.81% (chart_3-1), and in 2023 is 1.17% (chart_3-2). The ratio is 0.81 / 1.17. The proportion of U.S. foreign - aid for economic development in 2023 is 27.0% (chart_4-2). The combined index is (24.6 / 71.9)\u00d7(0.81 / 1.17)\u00d70.27 = (24.6\u00d70.81\u00d70.27) / (71.9\u00d71.17) = 5.37342 / 84.123 \u2248 0.064 = 6.4%.",
+                "answer": "6.4%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-2",
+                    "chart_4-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the increase in inflation - adjusted foreign - aid disbursement from 2001 to 2023, the increase in the share of foreign aid disbursements in total federal expenses from fiscal year 2001 to 2023, the amount of foreign - aid for democracy, human rights and governance in fiscal 2023, and the difference between the amount of U.S. foreign - aid disbursed to Ukraine and Israel in fiscal 2023?",
+                "rationale": "First, calculate the increase in inflation - adjusted foreign - aid disbursement. In 2001, it was $24.6 billion (chart_2-1), and in 2023, it was $71.9 billion (chart_2-2), so the increase is $71.9 - $24.6 = $47.3 billion. Second, calculate the increase in the share of foreign aid disbursements in total federal expenses. In fiscal year 2001, it was 0.81% (chart_3-1), and in fiscal year 2023, it was 1.17% (chart_3-2), so the increase is 1.17% - 0.81% = 0.36%. Third, the amount of foreign - aid for democracy, human rights and governance in fiscal 2023 is 3.2% of $71.9 billion. So it is $71.9\u00d73.2% = $2.3008 billion (chart_4-10, chart_4-1). Fourth, the amount of U.S. foreign - aid disbursed to Ukraine in fiscal 2023 is $16.6 billion (chart_5-1), and the military part to Israel is $3.3 billion (chart_5-2), so the difference is $16.6 - $3.3 = $13.3 billion. Then, find the average of these four values: ($47.3+0.36 + $2.3008+ $13.3)/4 = ($63.2608)/4 = $15.8152 billion. Rounding to two decimal places, it is $15.82 billion.",
+                "answer": "$15.82 billion",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-1",
+                    "chart_4-10",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

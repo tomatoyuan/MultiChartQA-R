@@ -1,0 +1,198 @@
+{
+  "chart": [
+    "chart_1_1",
+    "chart_1_2"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Do the change trends of the search volume proportions in the 'Analysis of Age Groups of Coronary Heart Disease Search Population' and the 'Age Distribution of Stroke Search Population' match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase first and then decrease.",
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the change trends of the search volume proportions from under 18 to 35 - 44 years old in the 'Analysis of Age Groups of Coronary Heart Disease Search Population' and the 'Age Distribution of Stroke Search Population' match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase first and then decrease.",
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the change trends of the search volume proportions from 18 - 35 years old in the 'Analysis of Age Groups of Coronary Heart Disease Search Population' and from under 18 to 24 years old in the 'Age Distribution of Stroke Search Population' match? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The search volume proportion from 18 - 35 years old in the 'Analysis of Age Groups of Coronary Heart Disease Search Population' keeps decreasing; the search volume proportion from under 18 to 24 years old in the 'Age Distribution of Stroke Search Population' keeps increasing.",
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Is the proportion of the 18 - 24 age group in the entire age grouping of the coronary heart disease search population the same as the search proportion of the 18 - 24 age group in the stroke search population? Answer yes or no.",
+      "answer": "No",
+      "explanation": "30/(20+30+15+12+10+8+8)=0.291, while the proportion of the 18 - 24 age group in the stroke population is 28%. Therefore, the proportions are different.",
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "If the number of people over 65 years old in the stroke search population is the same as the number of people over 65 years old in the coronary heart disease search population, then what is the number of people in the 35 - 44 age group in the stroke search population? Answer directly with an integer.",
+      "answer": "10",
+      "explanation": "For people over 65 years old, the number of coronary heart disease searchers is 8, and the search proportion in the stroke population is 5%. The search proportion of the 35 - 44 age group in the stroke population is 10%. So the number of people is 8/5%*10% = 10.",
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "If the proportion of the 45 - 54 age group in the coronary heart disease search population is the same as the search proportion of the 35 - 44 age group in the stroke population, then what is the proportion of people under 18 years old in the coronary heart disease search population? Answer with a percentage and keep 2 significant figures.",
+      "answer": "20%",
+      "explanation": "If the proportion of the 45 - 54 age group in the coronary heart disease search population is the same as the search proportion of the 35 - 44 age group in the stroke population, which is 10%, then the proportion of people under 18 years old in the coronary heart disease search population is 20 / (10 / 10%) = 20%.",
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the charts of the age - group analysis of the coronary heart disease search population and the age distribution of the stroke search population, which statements correctly describe the common characteristics of the age patterns of the searches for the two diseases?",
+      "answer": {
+        "A": "In the 45 - 54 age group, the stroke search proportion (7%) is similar to the number of coronary heart disease searches (10), indicating that the attention of the two diseases in this group is the same.",
+        "B": "For the youngest group (under 18 years old), the search proportion of stroke is higher than that of coronary heart disease.",
+        "C": "The age distribution of health searches is uniform, with no obvious trend.",
+        "D": "The elderly (over 65 years old) are the main users of health searches because they have more serious health problems.",
+        "E": "The overall search attention shows a downward trend with age.",
+        "F": "In the 18 - 24 age group, the search activities for both diseases are the most prominent in their respective distributions.",
+        "G": "In the 25 - 34 age group, the stroke search proportion (14%) is higher than the number of coronary heart disease searches (15), indicating that this age group pays more attention to stroke."
+      },
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "There are inconsistencies in the data of the 55 - 64 and over - 65 age groups in the charts of the age - group analysis of the coronary heart disease search population and the age distribution of the stroke search population. Which options best explain this difference?",
+      "answer": {
+        "A": "The data difference is due to the use of different sampling methods or platforms during data collection.",
+        "B": "In the 55 - 64 age group, the stroke search proportion (6%) is higher than the number of coronary heart disease searches (8), indicating that stroke is more concerned in this group.",
+        "C": "In the over - 65 age group, the number of coronary heart disease searches (8) corresponds directly to the stroke proportion (5%), meaning that the search volume for coronary heart disease is higher, but the proportion does not consider the total base.",
+        "D": "The difference in the proportion data implies that the relative attention to stroke is lower among the elderly, while the uniformity of the number of coronary heart disease searches may reflect a smaller total search base.",
+        "E": "The low Internet usage rate among the elderly leads to inaccurate or missing search data.",
+        "F": "In the coronary heart disease search, the number of searches in the 55 - 64 and over - 65 age groups is the same, but in the stroke search, the proportion in the over - 65 age group is lower than that in the 55 - 64 age group, indicating that the total search volume for stroke may be higher or the age distribution is more skewed."
+      },
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ],
+      "label": [
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the age - distribution charts of the coronary heart disease and stroke search populations, which options can reasonably infer the possible reasons why the 18 - 24 age group dominates the health searches?",
+      "answer": {
+        "A": "In the 35 - 44 age group, the number of coronary heart disease searches (12) is higher than the stroke proportion (10%), indicating that the middle - aged group also dominates health searches.",
+        "B": "The stroke search proportion (22%) among those under 18 is high but does not dominate. Therefore, the dominance of the 18 - 24 age group may be due to specific health events.",
+        "C": "The high disease incidence rate among the 18 - 24 age group leads to their active search for health information.",
+        "D": "This age group shows the highest values in both searches, indicating that young people may be the main users of Internet health information.",
+        "E": "Schools and universities mandate the promotion of health knowledge, increasing the search behavior of this group.",
+        "F": "The similarity in the search distribution (prominent among the young and declining among the elderly) supports the view that health issues receive more attention among young people, possibly due to preventive awareness or Internet accessibility.",
+        "G": "The highest stroke search proportion and the highest number of coronary heart disease searches both occur in this age group, strengthening the general participation of the young group in health searches."
+      },
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the age - distribution data of the coronary heart disease and stroke search populations, how should the allocation of health - education promotion resources be optimized to enhance public awareness of cardiovascular diseases? Please select the most effective strategic suggestions.",
+      "answer": {
+        "A": "Strengthen community - based education and promotion activities for people over 55. Although the proportion of this age group in the search chart is low, the actual risk of cardiovascular diseases increases with age. The weak search interest in the chart may reflect barriers to information access. Therefore, actively reaching out through offline activities (such as community lectures) can bridge the digital divide and improve prevention effectiveness.",
+        "B": "Increase the health - education budget for all age groups because cardiovascular diseases are a national health issue, and fair resource allocation can maximize the coverage effect.",
+        "C": "Adopt a differentiated strategy by age group: Promote preventive knowledge among young people using their high search trend, and combine workplace health plans for middle - aged people. Since the search volume shows a downward trend but the risk increases among the 35 - 44 age group, resources need to be balanced to avoid neglecting potential high - risk groups.",
+        "D": "Prioritize increasing investment in digital education resources for the 18 - 24 age group. This age group has the highest proportion in both coronary heart disease and stroke searches, indicating their strong attention to cardiovascular health issues and preference for online channels. Strengthening digital education can take advantage of their high participation to prevent future risks. At the same time, combined with the leading search volume of this group in the coronary heart disease search data, resource allocation is more efficient.",
+        "E": "Prioritize investment in cardiovascular disease treatment facilities rather than education resources because direct medical intervention can more quickly reduce the disease incidence rate.",
+        "F": "Strengthen online digital education for people over 65. Since the search proportion of this age group is the lowest in the chart (8 for coronary heart disease and 5% for stroke), it indicates that they most need digital resources to bridge the information gap.",
+        "G": "Reduce resource investment in the 18 - 24 age group because they have the highest proportion in both coronary heart disease and stroke searches (30 for coronary heart disease and 28% for stroke), indicating that their health awareness is strong enough and does not require additional intervention."
+      },
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the age - distribution characteristics of the coronary heart disease and stroke search populations, how should the intervention measures for different age groups be adjusted when formulating a stroke prevention plan? Please select the most reasonable strategic suggestions.",
+      "answer": {
+        "A": "Focus on increasing investment in the research and development of stroke treatment drugs because drug intervention is the most direct and effective method for stroke prevention.",
+        "B": "Provide integrated health screening and family - doctor consultation for people aged 45 - 54. The chart shows that the proportion of this age group in both coronary heart disease and stroke searches is moderately low, but the risk of stroke increases with age. The lack of search interest may reflect a lag in health awareness. Therefore, actively intervening through the primary medical system can identify risks early.",
+        "C": "Design interactive online prevention tools for the 18 - 24 age group. This age group has the highest proportion in stroke searches, and the coronary heart disease search data is similar, indicating their high acceptance of cardiovascular health information. Using digital tools can strengthen preventive education and reduce the future incidence rate.",
+        "D": "Prioritize carrying out community screening activities for people aged 25 - 34. The chart shows that the stroke search proportion of this age group is moderate (14%), but the number of coronary heart disease searches is relatively high (15), indicating that their risks are underestimated and the demand is urgent.",
+        "E": "Increase basic school health education among teenagers. Although the search proportion of those under 18 is moderate, the chart shows their search behavior. Combined with external knowledge (the high plasticity of early education), preventive intervention should start from a young age. Using the participation trend of this group in the search data can cultivate long - term health habits.",
+        "F": "Provide standardized stroke prevention education materials for all age groups to ensure information consistency and fairness and avoid age discrimination.",
+        "G": "Ignore intervention for people under 18 because the chart shows that their search proportion is only 22% (for stroke), lower than that of the 18 - 24 age group, and external knowledge indicates that the cardiovascular risk of teenagers is low. Resources should be concentrated on the elderly group."
+      },
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the age - distribution trends of the coronary heart disease and stroke search populations, which resources should be prioritized for investment to improve public health behavior and enhance the efficiency of cardiovascular disease prevention and control? Please select the most feasible strategic suggestions.",
+      "answer": {
+        "A": "Implement a cross - generational health communication project to encourage young people to share knowledge with their families. The 18 - 24 age group has the highest search proportion in the chart, while the search proportion of those over 55 is lower, showing a complementary trend. Using the high participation of young people to drive their families can bridge the age - related information gap and optimize resource coverage.",
+        "B": "Invest in developing mobile health applications, focusing on young adults. The chart shows that the 18 - 24 age group has a prominent proportion in both coronary heart disease and stroke searches, indicating their reliance on digital channels for information access. Optimizing the content of the APP can efficiently utilize their high search participation to promote preventive behavior.",
+        "C": "Prioritize investment in cardiovascular disease research rather than public education because scientific progress can fundamentally reduce the disease incidence rate.",
+        "D": "Cut resources for the 55 - 64 age group because the chart shows that their search proportion is the lowest (6% for stroke and 8 for coronary heart disease), indicating good health behavior and low return on investment.",
+        "E": "Comprehensively increase the government health budget for all cardiovascular disease projects because sufficient resources are the basis for improving public behavior.",
+        "F": "Strengthen targeted services for the elderly at community health centers. Although the search proportion of those over 65 is the lowest, the incidence of cardiovascular diseases is high. The weak search volume in the chart may indicate difficulties in reaching them. Therefore, increasing offline resources (such as free screenings) can improve fairness and early intervention.",
+        "G": "Focus on developing mobile health APPs for the 35 - 44 age group. Since the chart shows that the stroke search proportion is 10% and the number of coronary heart disease searches is 12 in this age group, showing a downward trend, it indicates their high usage rate of digital tools and unmet needs."
+      },
+      "charts_involved": [
+        "chart_1_1",
+        "chart_1_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

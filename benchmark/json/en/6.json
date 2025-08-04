@@ -1,0 +1,203 @@
+{
+  "chart": [
+    "chart_6_1",
+    "chart_6_2",
+    "chart_6_3",
+    "chart_6_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the change trend of the search attention of the legal service industry from May 1st to May 4th consistent with the change trend of the attention growth rate of the legal service industry by city level across first - tier, second - tier, third - tier, and fourth - tier cities in May? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The search attention of the legal service industry in May decreased first and then increased from May 1st to May 4th; the attention growth rate of the legal service industry by city level across first - tier, second - tier, third - tier, and fourth - tier cities in May increased first, then decreased, and then increased; so the trends are inconsistent.",
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of the proportion of divorce lawsuits in the legal service industry from May 12th to May 21st consistent with the change trend of the attention growth rate of the legal service industry by city level across first - tier, second - tier, third - tier, and fourth - tier cities in May? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increased first, then decreased, and then increased.",
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of the proportion of property disputes in the legal service industry from May 1st to May 4th consistent with the change trend of the attention growth rate of the legal service industry by city level across first - tier, second - tier, third - tier, and fourth - tier cities in May? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The change trend of the proportion of property disputes from May 1st to May 4th remained constant, while the latter increased first, then decreased, and then increased.",
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the distribution of retrieval devices in the legal service industry is the same in each city. What percentage of the search share of the legal service industry in Beijing in May is contributed by the computer side? Express it as a percentage and keep 2 significant figures.",
+      "answer": "0.62%",
+      "explanation": "5.5% * 11.26% = 0.6193%",
+      "charts_involved": [
+        "chart_6_2",
+        "chart_6_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the search volume of the legal service industry in Beijing in May is the same as that of the legal service industry on May 1st. What is the search volume of the legal service industry in Shenzhen in May? Use the thousands separator notation, for example: xxx,xxx. Only keep the integer part as the result.",
+      "answer": "763,636",
+      "explanation": "Assume that the search volume of the legal service industry in Beijing in May is the same as that of the legal service industry on May 1st, both are 1,200,000. The search volume in Shenzhen is (3.5% / 5.5%) * 1200000 = 763,636",
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the search volume of the legal service industry in second-tier cities in May is the same as that of the legal service industry on May 31st. What is the search volume of the legal service industry in first-tier cities in May? Use the thousands separator notation, for example: xxx,xxx.",
+      "answer": "4,200,000",
+      "explanation": "Assume that the search volume of the legal service industry in second-tier cities in May is the same as that of the legal service industry on May 31st, both are 2,000,000. The search volume in first-tier cities is (42% / 20%) * 2000000 = 4,200,000",
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the attention proportion and growth rate of the legal service industry by city level and the data of the cities with the highest search popularity, which options can best explain the distribution and change patterns of the search demand for legal services among different city levels?",
+      "answer": {
+        "A": "The search demand for legal services is growing the fastest in fourth - tier cities (+7%), indicating that these areas are becoming emerging growth engines.",
+        "B": "The positive growth in second - tier cities and the fact that some of these cities are among the top in search popularity suggest that these areas are emerging driving forces for the industry's growth, which is consistent with the overall growth rate model of different city levels.",
+        "C": "In the top 5 cities for legal services industry search, the proportions of Chengdu and Hangzhou (2.9% and 2.7% respectively) are higher than that of Beijing (5.5%), indicating that second - tier cities have surpassed first - tier cities as the demand centers.",
+        "D": "The high attention proportion and positive growth trend in high - tier cities (such as first - tier cities) are consistent with the phenomenon that the cities with the highest search popularity are mainly from these areas, indicating that the demand for legal services is more concentrated in economically developed regions.",
+        "E": "The growth rate of third - tier cities is 8%, far higher than 2% of first - tier cities, proving that the demand in low - tier cities is accelerating the transfer.",
+        "F": "The negative growth but still considerable proportion in low - tier cities (such as third - tier and below) contrasts with the lack of these cities among the cities with the highest search popularity, highlighting that the regional development imbalance may lead to the transfer of demand.",
+        "G": "The search attention proportions of all city levels show positive growth, indicating that the demand for legal services has generally increased across the country."
+      },
+      "charts_involved": [
+        "chart_6_3",
+        "chart_6_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the distribution of retrieval devices and the trend of search attention, how does the dominant position of mobile devices implicitly affect the fluctuation pattern of search volume?",
+      "answer": {
+        "A": "The search volume peak of 2.2 million on May 22nd was mainly driven by the computer - side, because the computer - side is more likely to respond to events.",
+        "B": "The overall search volume increased significantly at the end of May. The dominance of mobile devices may amplify this trend, as the convenience of mobile devices accelerates user participation.",
+        "C": "The search trend shows that the overall search volume in May decreased continuously from the beginning to the end of the month. The dominance of mobile devices amplified this downward trend.",
+        "D": "The low usage rate of mobile devices means that the fluctuations in search volume are mainly driven by the computer - side.",
+        "E": "The high popularity of mobile devices may make search behavior more likely to be driven by immediate events, which is associated with multiple irregular peaks in the search trend, indicating that users respond more flexibly.",
+        "F": "The high proportion of computer - side retrieval (11.26%) results in a more stable search volume with smaller fluctuations.",
+        "G": "The low usage rate of the computer - side reflects the lightweight nature of searches, which is consistent with the lack of a continuous and steady growth pattern in the trend, indicating that most searches are for temporary needs rather than in - depth services."
+      },
+      "charts_involved": [
+        "chart_6_2",
+        "chart_6_1"
+      ],
+      "label": [
+        "B",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the changes in the search proportion of sub - industries and the differences in growth rates among city levels, which options can explain the conflicting phenomena between the search demands for property disputes and divorce lawsuits?",
+      "answer": {
+        "A": "The search demand for divorce lawsuits is growing steadily in all city levels, which is positively correlated with the growth rate of high - tier cities.",
+        "B": "The abnormally stable but low - level operation of the search proportion for property disputes corresponds to the fact that there is demand in all city levels but with differentiated growth rates, highlighting that the demand for property disputes is rigid and not dominated by regional changes.",
+        "C": "The 0.5% proportion of property disputes on May 31st directly matches the 2% growth rate of first - tier cities, indicating that urban growth drives a surge in demand.",
+        "D": "The downward trend of the search proportion for divorce lawsuits may be related to the negative growth rate in low - tier cities. The shrinking demand in these areas has pulled down the overall proportion, and the positive growth rate in high - tier cities has not fully offset it.",
+        "E": "Property disputes are a high - demand area, with a proportion higher than that of divorce lawsuits, indicating that it is the dominant sub - industry in legal services.",
+        "F": "The growth rate of third - tier cities is - 8%, but the proportion of divorce lawsuits has increased, proving that the demand in low - tier cities has actually increased.",
+        "G": "The proportion of divorce lawsuits changes more significantly in the fluctuations of the overall search volume. However, the differences in city growth rates indicate that the growth in high - tier cities may mask the decline in low - tier cities, creating an implicit conflict in demand transfer."
+      },
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The legal service industry plans to improve the efficiency of online user acquisition. Based on the search behavior trends and device usage characteristics, how should the digital marketing budget allocation and channel optimization strategies be adjusted? Please select the most reasonable suggestions:",
+      "answer": {
+        "A": "Allocate advertising budgets evenly across all dates to avoid intense competition during peak periods, thereby reducing the average customer acquisition cost and ensuring stable traffic.",
+        "B": "Enhance the overall brand exposure through traditional channels such as TV and outdoor advertising, as legal services rely on trust - building, which can attract a wider range of potential users.",
+        "C": "For divorce lawsuit services, optimize the content push on mobile devices during periods when their attention is relatively high (such as the beginning of the month). Since the proportion of this service fluctuates significantly and mobile search is the main entry point, this can accurately improve user participation.",
+        "D": "Give priority to increasing investment on the computer - side, because computer users are more likely to conduct in - depth consultations and conversions, and although the device proportion is low, it has great growth potential (inferred based on common sense).",
+        "E": "Focus on advertising during the stable period of the proportion of property dispute services (such as most dates throughout the month), because the high consistency of its proportion indicates reliable user demand, which is suitable for long - term budget allocation.",
+        "F": "Reduce general advertising expenditure on dates when the overall search volume is low, and instead test targeted promotions for property disputes, especially when the proportion of this service increases slightly. Design interactive elements according to mobile device preferences to explore potential demand.",
+        "G": "Give priority to increasing the investment of marketing resources on mobile devices, because mobile devices dominate the search market. At the same time, strengthen advertising during peak periods of the overall search volume (such as the end of the month) to maximize traffic capture and conversion rates."
+      },
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_2"
+      ],
+      "label": [
+        "C",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "To promote the balanced growth of the legal service industry across different city levels, how should market promotion resources be allocated and regional strategies be formulated? Please select the best suggestions based on the attention distribution and growth dynamics:",
+      "answer": {
+        "A": "Give priority to investing in first - tier cities, because they have the highest attention proportion (42%) and a stable growth rate (2%), and ignore second - tier cities, because although their growth rate is high (3%), their proportion is low (20%). Resources should be focused on core high - value areas.",
+        "B": "For third - tier and fourth - tier cities, although the growth rate is negative, the proportion cannot be ignored. Analyze the reasons for the decline and formulate a recovery plan (such as increasing online legal service access), and optimize the mobile experience according to device preferences to improve accessibility and user retention.",
+        "C": "Implement a national standardized marketing campaign to ensure that all cities receive the same resources to maintain fairness and brand consistency and avoid regional imbalances.",
+        "D": "Focus on strengthening market investment in first - tier cities, because they have the highest attention proportion and maintain a stable growth trend. At the same time, refer to the data of top cities (such as Beijing and Shenzhen) and give priority to launching high - end service promotions in these high - proportion cities to consolidate the core market.",
+        "E": "Focus on improving the quality of online services, such as optimizing the website response speed, because the digital experience is a key factor for user retention.",
+        "F": "Increase the resource allocation to second - tier cities, because their growth rate is outstanding and the proportion is significant. Stimulate their growth potential through local marketing activities (such as content tailored to regional needs) to avoid over - reliance on first - tier cities.",
+        "G": "Significantly increase the promotion efforts in third - tier and fourth - tier cities and stimulate demand through subsidy activities. Since their combined proportion is 29% (17% + 12%), although the growth rate is negative, the market potential is large, and the downward trend can be quickly reversed."
+      },
+      "charts_involved": [
+        "chart_6_3",
+        "chart_6_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The legal service industry needs to improve the user response efficiency of sub - services (such as divorce lawsuits and property disputes). Combining the search trends, service proportions, and device characteristics, how should the content publishing and demand capture strategies be designed? Please select the most effective suggestions:",
+      "answer": {
+        "A": "Regularly publish general content for all sub - services throughout the entire period to ensure that users can access information at any time and improve the overall service accessibility.",
+        "B": "For property dispute services, although the proportion is stable but low, integrate city - level data during the period when the overall search volume is rising (such as the upward trend stage), focus on testing and promoting in high - attention cities (such as first - tier cities), and increase the exposure according to device preferences.",
+        "C": "Strengthen the promotion on the date when the proportion of divorce lawsuits is the lowest (such as 3.2% on May 13th), because the low proportion indicates weak competition, users are easier to capture, and the overall search volume is stable (such as 1.5 million on May 13th).",
+        "D": "Monitor the period when the proportion of divorce lawsuits is declining (such as the middle of the month), reduce the intensity of relevant advertising, and instead optimize the mobile page of general legal services on days with stable search volume to improve user retention and overall experience.",
+        "E": "Reduce the content push for property dispute services on mobile devices, because the proportion is extremely low (0.3%), and users may prefer the computer - side for complex consultations. Optimize the computer - side channel to improve efficiency.",
+        "F": "Strengthen the email marketing efforts, because email is a high - conversion channel that can accurately push service information to registered users.",
+        "G": "On days when the overall search volume suddenly increases (such as some single - day peaks), give priority to pushing content related to divorce lawsuits, because the proportion of this service is relatively high during some periods, and ensure that the content is optimized for mobile devices to match the main search channel."
+      },
+      "charts_involved": [
+        "chart_6_1",
+        "chart_6_2",
+        "chart_6_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    }
+  ]
+}

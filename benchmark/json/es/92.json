@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_92_1",
+    "chart_92_2",
+    "chart_92_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿En el \"Gasto de consumo per cápita en transporte y comunicaciones de los residentes chinos de 2016 a 2021\" y la \"Proporción de producción de vehículos de energía renovable en China desde 2016 hasta 2021\", ambos presentan una tendencia de descenso en la tasa de crecimiento en 2020? Conteste sí o no.",
+      "answer": "No",
+      "explanation": "En chart_92_1, el crecimiento del gasto en 2020 fue del -3.5%, es decir, una disminución; en chart_92_3, la proporción en 2020 aumentó de 4.8% a 5.4%, aunque el aumento fue pequeño, todavía fue un aumento.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿En el \"Gasto de consumo per cápita en transporte y comunicaciones de los residentes chinos de 2016 a 2021\" y la \"Producción de vehículos de energía renovable en China de 2016 a 2021\", existe al menos un año en el que las tendencias de crecimiento de ambos son opuestas? Conteste sí o no.",
+      "answer": "Sí",
+      "explanation": "En 2020, el crecimiento del gasto en chart_92_1 fue del -3.5% (disminución), y el crecimiento de la producción en chart_92_2 fue del 10.0% (aumento), con tendencias opuestas.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿En la \"Producción de vehículos de energía renovable en China de 2016 a 2021\" y la \"Proporción de producción de vehículos de energía renovable en China desde 2016 hasta 2021\", ambos presentaron un estancamiento o una desaceleración evidente del crecimiento en 2019? Conteste sí o no.",
+      "answer": "Sí",
+      "explanation": "En chart_92_2, la tasa de crecimiento de la producción en 2019 fue del -2.2%; en chart_92_3, la proporción solo aumentó de 4.6% a 4.8% en 2019, con un aumento muy pequeño.",
+      "charts_involved": [
+        "chart_92_2",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Por favor, compare cuántas veces es el cociente entre la tasa de crecimiento del gasto de consumo per cápita en transporte y comunicaciones de los residentes y la tasa de crecimiento de la producción de vehículos de energía renovable en 2021. Redondee a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "0.09 veces",
+      "explanation": "La tasa de crecimiento del gasto de consumo per cápita en transporte y comunicaciones en 2021 es del 14.3% ÷ la tasa de crecimiento de la producción de vehículos de energía renovable del 159.5% = 0.0897. Redondeado a 2 decimales es 0.09 veces.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Por favor, combine el gasto de consumo per cápita en transporte y comunicaciones de los residentes y la proporción de producción de vehículos de energía renovable en 2021 y calcule cuál es su producto. Unidad: yuan, redondeado a 2 decimales. Respuesta: xx.xx yuan",
+      "answer": "429.22 yuan",
+      "explanation": "El gasto de consumo per cápita en transporte y comunicaciones en 2021 es de 3156 yuan × la proporción de producción de vehículos de energía renovable del 13.6% = 429.216 yuan. Redondeado a 2 decimales es 429.22 yuan.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Por favor, calcule cuántas veces es el cociente entre el incremento del gasto de consumo per cápita en transporte y comunicaciones de los residentes y el incremento de la proporción de producción de vehículos de energía renovable durante el período de 2016 a 2021. Redondee a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "6932.20 veces",
+      "explanation": "El incremento del gasto per cápita = 3156 yuan - 2338 yuan = 818 yuan; el incremento de la proporción de producción = 13.6% - 1.8% = 11.8%; 818 ÷ 11.8% = 6932.20 veces.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según la tendencia del gasto de consumo per cápita en transporte y comunicaciones de los residentes y la tendencia de la producción de vehículos de energía renovable, ¿por qué en 2020, cuando el gasto de consumo disminuyó, la producción de vehículos de energía renovable aumentó en cambio?",
+      "answer": {
+        "A": "En 2020, el gasto de consumo solo disminuyó un 3.5%, una disminución mínima, mientras que la producción de vehículos de energía renovable aumentó un 10.0%, lo que indica que el cambio en el consumo tiene un impacto menor en la producción.",
+        "B": "La reducción del costo y la mejora del alcance de autonomía de los vehículos de energía renovable han aumentado su atractivo en el mercado y impulsado el aumento de la producción.",
+        "C": "A pesar de la reducción general del gasto en transporte y comunicaciones, el aumento de la producción de vehículos de energía renovable puede deberse a que los consumidores prefirieron comprar medios de transporte privados durante el período de restricción de viajes, y los vehículos de energía renovable, como una opción energéticamente eficiente, fueron muy populares.",
+        "D": "En comparación con la tendencia inversa en 2019, cuando el gasto de consumo aumentó pero la producción disminuyó, el fenómeno en 2020 puede reflejar que el mercado de los vehículos de energía renovable es más resistente, o que la estructura de consumo se ajustó temporalmente debido a la pandemia.",
+        "E": "El aumento de la producción y la disminución del gasto de consumo ocurrieron al mismo tiempo, lo que indica que el mercado de los vehículos de energía renovable está impulsado por políticas o factores externos (como subsidios o mejora de la infraestructura), en lugar de depender únicamente de los cambios en los ingresos disponibles.",
+        "F": "La pandemia hizo que los consumidores prefirieran comprar medios de transporte privados para reducir el riesgo de infección, lo que estimuló la demanda de vehículos de energía renovable."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según el gráfico de la producción de vehículos de energía renovable y el gráfico de su proporción en la producción total, ¿cómo se explica el fenómeno de que la producción disminuyó pero la proporción aumentó en 2019?",
+      "answer": {
+        "A": "En 2019, la producción fue de 1.24 millones de vehículos, solo 30,000 vehículos menos que en 2018 (1.27 millones de vehículos), una disminución mínima, mientras que la proporción aumentó del 4.6% al 4.8%, lo que refleja la estabilidad de la producción.",
+        "B": "La disminución de la producción pero el aumento de la proporción reflejan que la estabilidad de la producción de vehículos de energía renovable es mayor que la del sector en general, y que los factores externos, como la desaceleración económica, tienen un impacto más significativo en los automóviles tradicionales.",
+        "C": "El mercado de los automóviles tradicionales se vio más afectado por la desaceleración económica, lo que hizo que la proporción relativa de los vehículos de energía renovable aumentara.",
+        "D": "La producción disminuyó ligeramente pero la proporción aumentó, lo que indica que la disminución de la producción total de automóviles fue mayor, lo que hizo que la proporción de los vehículos de energía renovable aumentara relativamente. Esto puede deberse a la contracción del mercado de los automóviles tradicionales.",
+        "E": "El aumento de la conciencia ambiental de los consumidores ha impulsado el aumento de la participación del mercado de los vehículos de energía renovable, a pesar del ajuste temporal de la producción.",
+        "F": "Considerando la tendencia continua del aumento de la proporción, la disminución temporal de la producción puede deberse a un ajuste temporal, pero la penetración del mercado sigue aumentando, lo que muestra un gran potencial de crecimiento a largo plazo."
+      },
+      "charts_involved": [
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en la tendencia del gasto de consumo en transporte y comunicaciones de los residentes, la producción de vehículos de energía renovable y su proporción en la producción total, ¿qué factores pueden haber contribuido conjuntamente al fuerte aumento de la producción de vehículos de energía renovable en 2021?",
+      "answer": {
+        "A": "El aumento repentino de la producción se produjo al mismo tiempo que el aumento del gasto de consumo, y la proporción se elevó significativamente, lo que indica que el apoyo político (como subsidios) y la madurez de la industria (como la reducción del costo) tuvieron un efecto sinérgico.",
+        "B": "Teniendo en cuenta las fluctuaciones del consumo y la acumulación de producción en los años anteriores, el aumento en 2021 puede deberse a los avances tecnológicos y la mejora de la infraestructura, que liberaron el potencial en un contexto de recuperación del consumo.",
+        "C": "Las políticas mundiales de neutralidad de carbono han impulsado un aumento repentino de la demanda de vehículos eléctricos, lo que ha estimulado el aumento de la producción.",
+        "D": "La proporción de la producción aumentó del 5.4% en 2020 al 13.6% en 2021, un aumento moderado. Combinado con la recuperación del gasto de consumo, esto muestra una expansión estable del mercado.",
+        "E": "El gasto de consumo aumentó un 14.3% en 2021, solo un poco más que el -3.5% en 2020, mientras que la producción aumentó un 159.5%, lo que indica que la recuperación del consumo es el principal impulsor.",
+        "F": "La recuperación significativa del gasto de consumo y el aumento considerable de la proporción de los vehículos de energía renovable indican que la demanda del mercado se ha fortalecido y que la aceptación de los consumidores hacia el transporte de energía renovable ha aumentado, lo que ha impulsado conjuntamente el aumento de la producción.",
+        "G": "La rápida difusión de la infraestructura de carga ha reducido la barrera de entrada y atraído a más consumidores."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la tendencia del gasto de consumo en transporte y comunicaciones de los residentes y el desarrollo del mercado de vehículos de energía renovable mostrados en los gráficos, ¿cómo debería el gobierno ajustar las políticas de subsidios e infraestructura para acelerar la difusión de vehículos de energía renovable? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Aumentar la construcción de carriles para bicicletas en las ciudades para reemplazar el uso de vehículos privados, reduciendo la congestión y la contaminación del tráfico.",
+        "B": "En vista de la tendencia continua del aumento de la proporción de producción de vehículos de energía renovable, fortalecer los planes de educación y promoción para los consumidores. El aumento de la proporción indica un aumento de la aceptación del mercado. Combinado con la tendencia general ascendente del gasto de consumo, la educación y promoción pueden eliminar los obstáculos cognitivos y acelerar la difusión, especialmente en un contexto de aumento de la conciencia ambiental.",
+        "C": "En el año en que la proporción de producción de vehículos de energía renovable es la más alta (por ejemplo, el 13,6% en 2021), reducir la inversión en instalaciones de carga, ya que la penetración del mercado es lo suficientemente alta y no se necesita apoyo adicional.",
+        "D": "Cuando el gasto de consumo experimenta una caída, invertir en primer lugar en la infraestructura de carga pública. La disminución del consumo puede inhibir las compras privadas, pero la inversión en infraestructura puede mejorar la conveniencia y la confianza del mercado, apoyar el crecimiento estable de la producción y evitar la contracción del mercado debido a fluctuaciones a corto plazo del consumo.",
+        "E": "Durante los períodos en que el gasto de consumo en transporte y comunicaciones de los residentes crece rápidamente, aumentar la intensidad de los subsidios para la compra de vehículos. Cuando el gasto de consumo crece fuertemente, el poder adquisitivo de los consumidores se fortalece. Combinado con el pico de crecimiento de la producción de vehículos de energía renovable, aumentar los subsidios en este momento puede estimular eficazmente la demanda y aprovechar el potencial de expansión de la producción, maximizando el efecto de la política.",
+        "F": "El gobierno debe promover las ventajas ambientales de los vehículos de energía renovable y alentar al público a reducir las emisiones de carbono para mejorar la conciencia ambiental social.",
+        "G": "Cuando la tasa de crecimiento del gasto de consumo en transporte y comunicaciones de los residentes fluctúa (por ejemplo, el 6,9% en 2017), subsidiar en primer lugar a los vehículos de combustión tradicionales para estabilizar la demanda general de transporte y prevenir el desequilibrio del mercado."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Los gráficos muestran que la producción de vehículos de energía renovable siguió creciendo en 2020 cuando el gasto de consumo de los residentes disminuyó, pero la tasa de crecimiento se desaceleró. Para fortalecer la capacidad de resistencia a riesgos de la industria, ¿cómo deberían las empresas formular políticas de producción y营销策略弹性? Por favor, seleccione la sugerencia más efectiva:",
+      "answer": {
+        "A": "Durante los períodos de crecimiento del gasto de consumo de los residentes (por ejemplo, el 7,0% en 2019), reducir la escala de producción, ya que la fuerte demanda puede digerir naturalmente el inventario y evitar el riesgo de exceso.",
+        "B": "Ampliar la cobertura publicitaria y atraer a más consumidores jóvenes a través de las redes sociales.",
+        "C": "En los años en que la tasa de crecimiento de la producción de vehículos de energía renovable es extremadamente alta (por ejemplo, el 159,5% en 2021), reducir la inversión en la cadena de suministro, ya que una tasa de crecimiento alta indica que la eficiencia de producción se ha optimizado y no se necesita refuerzo adicional.",
+        "D": "Diversificar la línea de productos para cubrir diferentes grupos de consumidores, especialmente el mercado de bajos y medianos ingresos. El gasto de consumo en general aumenta pero con grandes fluctuaciones. Combinado con el aumento constante de la proporción de producción de vehículos de energía renovable, desarrollar modelos económicos puede ampliar la audiencia y garantizar que todavía se puedan atraer a los usuarios sensibles al precio durante los períodos de debilidad del consumo.",
+        "E": "Fortalecer la resistencia de la cadena de suministro, por ejemplo, estableciendo inventarios de piezas clave. Aunque la tasa de crecimiento de la producción se desaceleró en los años de fluctuación del consumo, todavía se mantuvo en positivo, lo que indica que la cadena de suministro es un cuello de botella; factores externos (como eventos globales) pueden aumentar el riesgo, y el almacenamiento anticipado puede garantizar la continuidad de la producción.",
+        "F": "Las empresas deben mejorar la calidad del producto y el servicio después de la venta para fortalecer la lealtad de la marca y la cuota de mercado.",
+        "G": "Antes de la caída prevista del gasto de consumo, implementar medidas promocionales y de incentivos financieros con anticipación. La caída del gasto de consumo puede reducir la demanda, pero los datos de producción muestran que la tasa de crecimiento no se volvió negativa en años similares, lo que indica que las promociones específicas (como préstamos a bajo interés) pueden mantener las ventas. Combinado con las características de fluctuación de la tasa de crecimiento de la producción, esta estrategia puede amortiguar el impacto económico."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en el rápido aumento de la proporción de producción de vehículos de energía renovable y la tendencia de recuperación del gasto en transporte de los residentes, ¿cómo debería el departamento de planificación urbana asignar recursos (como instalaciones de carga y mejora del transporte tradicional) para lograr la transformación verde? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Alentar a los ciudadanos a usar bicicletas compartidas para reducir la dependencia de los vehículos privados y las emisiones.",
+        "B": "En los años en que la tasa de crecimiento de la producción de vehículos de energía renovable es extremadamente alta, dirigir los recursos hacia la investigación y desarrollo de tecnologías. Durante los períodos de alta tasa de crecimiento, el mercado se expande rápidamente. Los datos de la proporción muestran un gran potencial de difusión. Reforzar la investigación y desarrollo (como la eficiencia de las baterías) puede mejorar la competitividad del producto y apoyar objetivos de sostenibilidad a largo plazo.",
+        "C": "Equilibrar la mejora del transporte tradicional y la promoción de energías renovables, por ejemplo, actualizando el sistema de autobuses durante los períodos de lento crecimiento del consumo. Cuando el gasto de consumo fluctúa, la inversión en el sector público es más estable; el aumento de la proporción de producción indica que las energías renovables son la tendencia, pero el sistema tradicional todavía sirve a una amplia gama de personas, lo que garantiza una transición equitativa.",
+        "D": "Dar prioridad a la expansión de la red de carga en las áreas donde el gasto en transporte de los residentes crece rápidamente. El aumento del gasto en transporte refleja una fuerte demanda. Combinado con el aumento significativo de la proporción de vehículos de energía renovable, la inversión en infraestructura puede aliviar la \"ansiedad de autonomía\" y acelerar la transformación a la electrificación, al tiempo que reduce las emisiones de carbono.",
+        "E": "En los años en que la proporción de producción de vehículos de energía renovable es baja (por ejemplo, el 1,8% en 2016), posponer la construcción de instalaciones de carga, ya que la penetración del mercado es baja y la tasa de retorno de la inversión no es alta.",
+        "F": "Dar prioridad a la construcción de más parques y áreas verdes para mejorar la calidad del aire urbano y la salud de los residentes.",
+        "G": "Cuando el gasto en transporte de los residentes aumenta en general (por ejemplo, el 14,3% en 2021), reducir la asignación de recursos a las energías renovables y centrarse en mejorar la eficiencia del transporte tradicional (como la optimización de los autobuses de combustión) para atender a un público más amplio."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

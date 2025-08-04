@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_94_1",
+    "chart_94_2",
+    "chart_94_3",
+    "chart_94_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the charts of 'China's catering market size from 2014 to 2023' and 'Number of Chinese catering stores from 2014 to 2021', did the market size decline and the number of stores increase significantly in 2019? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_94_1, the market size decreased year - on - year (-15.4%) in 2019. In chart_94_2, the number of stores increased by 37.9% year - on - year.",
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the charts of 'Number of Chinese catering stores from 2014 to 2021' and 'Difficulties encountered by catering enterprises when opening new stores', is there a correlation between the decrease in the number of stores in some years and the 'Slow process' among the difficulties of opening new stores? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_94_2, the number of stores decreased in 2017 and 2021. In chart_94_3, 43.6% of the enterprises mentioned 'Slow process' as a difficulty, so there may be a correlation.",
+      "charts_involved": [
+        "chart_94_2",
+        "chart_94_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the charts of 'Difficulties encountered by catering enterprises when opening new stores' and 'Pain points in the use of kitchen appliances', did more than 40% of the respondents in both charts mention problems related to equipment? Answer yes or no.",
+      "answer": "No",
+      "explanation": "In chart_94_3, the proportion of 'Device mismatch' is 33.1%, which does not exceed 40%. However, in chart_94_4, the proportion of 'Traditional and non - intelligent equipment' is 48.9%, which exceeds 40%. Only the latter meets the condition.",
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please compare the year-on-year growth rate of the catering market size in 2020 with the year-on-year growth rate of the number of catering stores in 2020. How many times is the growth rate of the market size that of the number of stores? Keep 2 decimal places. Answer: xx.xx times",
+      "answer": "15.75 times",
+      "explanation": "The year-on-year growth rate of the market size in 2020 (18.9%) ÷ the year-on-year growth rate of the number of stores in 2020 (1.2%) = 15.75 times.",
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please combine the difficulties encountered by catering enterprises when opening new stores and the pain points in the use of kitchen appliances to calculate the difference in percentage points between the pain points of 'Slow process' and 'Traditional and non-intelligent equipment'. Take the absolute value and keep 1 decimal place. Answer: xx.x percentage points",
+      "answer": "5.3 percentage points",
+      "explanation": "The proportion of the pain point of 'Traditional and non-intelligent equipment' (48.9%) - the proportion of the pain point of 'Slow process' when opening new stores (43.6%) = 5.3 percentage points.",
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "During the recovery period of the catering market in 2019, what was the average market size per store in ten thousand yuan? Keep 1 decimal place. Answer: xx.x ten thousand yuan",
+      "answer": "55.2 ten thousand yuan",
+      "explanation": "The market size in 2019 was 5 trillion yuan = 500,000,000 ten thousand yuan; the number of stores in 2019 was 9.06 million; 500,000,000 ten thousand yuan ÷ 9.06 million stores ≈ 55.2 ten thousand yuan.",
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In 2019, the chart of the catering market size shows that the market entered a trough period, while the chart of the number of catering stores shows a significant increase in the number of stores. Which options can best explain this data conflict?",
+      "answer": {
+        "A": "The rapid growth in the number of stores may come from the influx of inefficient or small - scale stores, diluting the overall market revenue, which forms a contrast with the decline in the market size.",
+        "B": "The overall economic recession led to a decrease in consumers' disposable income, reducing the frequency of dining out. However, enterprises misjudged the market trend and blindly expanded their stores to seize market share.",
+        "C": "The decline in the market size may be due to external shocks (such as a decrease in demand), while the increase in the number of stores may be due to the industry's expansion efforts. However, the inefficiency of new stores led to the failure of revenue to grow synchronously.",
+        "D": "The market trough period may prompt enterprises to open stores quickly to cope with competition, but the decline in single - store revenue is reflected in the market size data.",
+        "E": "The year - on - year growth rate of the market size in 2019 was positive (e.g., +10%), but the chart incorrectly showed negative growth. Therefore, the increase in the number of stores was consistent with the growth of the market size.",
+        "F": "The growth in the number of stores mainly came from the inertia of the high growth rate in 2018 (13.5%), but the decline in single - store revenue in 2019 offset the scale effect.",
+        "G": "The government introduced subsidy policies for the catering industry, which stimulated the opening of stores. However, frequent food safety incidents suppressed consumer demand, leading to the shrinkage of the market size."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the chart of difficulties encountered by catering enterprises when opening new stores and the chart of pain points in the use of kitchen appliances, which options reveal how equipment - related issues jointly affect the industry's operational efficiency?",
+      "answer": {
+        "A": "The relatively high proportion of equipment mismatch in the difficulties of opening new stores is related to the high proportion of single - function or non - intelligent equipment in the pain points of kitchen appliances, indicating that improper equipment selection directly leads to difficulties in opening new stores and low operational efficiency.",
+        "B": "The intelligent upgrade of equipment can automatically solve all pain points, such as reducing manpower dependence and improving efficiency, without additional intervention.",
+        "C": "The proportion of poor requirement communication in the difficulties of opening new stores is relatively low (less than 20%), so its impact on the pain points of kitchen appliances, such as complex operation, can be ignored.",
+        "D": "The proportion of equipment mismatch is the highest (about 50%) in the difficulties of opening new stores, while the proportion of short equipment lifespan is the highest (about 40%) in the pain points of kitchen appliances, indicating that poor equipment durability is the main bottleneck.",
+        "E": "Poor requirement communication is common in the difficulties of opening new stores, which may trigger a chain reaction of pain points in kitchen appliances, such as complex operation or low efficiency, because communication problems lead to equipment that does not meet actual needs.",
+        "F": "The relatively high proportion of lack of one - stop service in the difficulties of opening new stores may exacerbate the pain points of kitchen appliances, such as easy - to - break equipment or short equipment lifespan, reflecting the drag on the overall operation caused by the imperfect supply chain.",
+        "G": "The lack of professional training from equipment suppliers is the core problem, because unprofessional suppliers will lead to the failure of equipment installation and debugging, which in turn drags down the overall operation."
+      },
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "From 2020 to 2021, the chart of the catering market size shows that the market entered a recovery period and grew strongly, but the chart of the number of catering stores shows that the growth of stores stagnated. At the same time, some pain points in the chart of pain points in the use of kitchen appliances have a relatively high proportion. Which options can explain this trend?",
+      "answer": {
+        "A": "The optimization of the high - proportion traditional equipment problem in the pain points of kitchen appliances may help enterprises increase their revenue with little change in the number of stores, supporting the rebound of the market size.",
+        "B": "The year - on - year growth rate of the number of stores in 2021 was as high as over 10% because there was bound to be a rebound after the low growth rate in 2020 (1.2%), which was consistent with the growth of the market size.",
+        "C": "The high cost of equipment has the highest proportion (about 30%) in the pain points of kitchen appliances, which restrains the opening of new stores. However, existing stores improve their revenue by optimizing this pain point.",
+        "D": "During the pandemic, the surge in take - out demand increased the order volume of single stores, thus promoting the growth of the market size without the need to open new stores.",
+        "E": "Consumers' enhanced health awareness led to a shift towards high - quality catering, increasing the average consumption amount, which offset the stagnation of the number of stores.",
+        "F": "The growth of the market size while the number of stores remains stable may be due to the fact that the intelligentization and function optimization of equipment in the pain points of kitchen appliances reduce the dependence on manpower and improve the operational efficiency of single stores.",
+        "G": "The slowdown in the growth of stores may be affected by difficulties in opening new stores, such as a slow process. However, existing stores drive the market recovery by reducing pain points in kitchen appliances (such as low equipment efficiency)."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2",
+        "chart_94_4"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, considering the changing trend of the catering market size and the fluctuation of the number of stores, how should future resource allocation be optimized to improve the overall efficiency of the industry? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Establish long - term cooperative relationships with food suppliers to reduce procurement costs and indirectly optimize resource allocation.",
+        "B": "In the year with the highest year - on - year growth rate of the number of stores (e.g., a 49.3% growth in 2015), concentrate resources on opening new stores and ignore the analysis of single - store output.",
+        "C": "Increase staff training to improve service quality, thereby attracting more customers and enhancing overall efficiency.",
+        "D": "During the trough or recovery period of the market size, control the number of new stores opened and focus on optimizing the resource allocation of existing stores. When the market size recovers after the trough, the growth of the number of stores is gentle, but there are obvious signs of improvement in single - store efficiency; the data on the number of stores shows that excessive growth of stores during the trough period may lead to intensified competition, and resources should be redirected to improving the utilization rate of existing assets.",
+        "E": "During the trough period of the market size (e.g., in 2019), rapidly expand the number of stores to seize market share because the number of stores reached a peak (9.06 million) in 2019.",
+        "F": "During the period of rapid growth of the market size, give priority to expanding investment in new stores, but simultaneously improve the operating efficiency of single stores. The market size data shows that the number of stores increases rapidly during the growth period, but the output of single stores may be insufficient; the trend of the number of stores indicates that in some years, the number of stores surges but the market size does not increase synchronously, which suggests that blind expansion may lead to a decline in efficiency. Therefore, efficiency optimization measures should be combined.",
+        "G": "Establish a dynamic monitoring mechanism to match the investment rhythm with the market growth stage: increase investment when the market size enters a new dynamic period, maintain stable investment during the stable period, and avoid excessive expansion during the trough period. The phased characteristics of the market size (such as the stable growth period and the new dynamic period) and the changing trend of the number of stores show that the highest investment efficiency occurs in the stage when the growth period is synchronized with store optimization."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, in response to the main difficulties in the process of opening new stores for catering enterprises and the pain points in the use of kitchen appliances, which improvement strategies should be prioritized to improve the success rate of opening stores and the sustainability of operations? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Optimize the restaurant decoration design to enhance brand appeal and indirectly support the success rate of opening stores.",
+        "B": "Invest in equipment maintenance and the optimization of supplier management, focusing on reducing the equipment damage rate and the problem of lack of professionalism. In the pain points of kitchen appliances, the problems of equipment reliability and lifespan are prominent, and although the proportion of insufficient professionalism of suppliers in the difficulties of opening stores is low, its impact is far - reaching; specifically improving supplier standards can prevent equipment failures and thus support the efficiency of opening stores.",
+        "C": "Focus on reducing the proportion of unprofessional suppliers (only 6.8%) because it has the lowest proportion and is easy to improve, which can quickly improve equipment reliability.",
+        "D": "Give priority to deploying intelligent and multi - functional kitchen appliances to reduce manpower dependence and improve process efficiency. In the pain points of kitchen appliances, the problems of insufficient intelligence and single - function equipment have the highest proportions, and they are directly related to the problem of equipment matching in the difficulties of opening stores; equipment upgrade can simultaneously alleviate the difficulties in installation and debugging and accelerate the process of opening stores.",
+        "E": "Give priority to solving the pain point of loud noise of kitchen appliances (accounting for 37.6%) because it is the most common operational interference factor and is directly related to the poor requirement communication (27.8%) in the difficulties of opening stores.",
+        "F": "Strengthen the provision of one - stop services, including equipment customization, installation and debugging, and requirement communication, to solve the lack of services and communication barriers in the difficulties of opening stores. The data on opening stores shows that the difficulties related to services account for a significant proportion, and the high - frequency problems in the pain points of kitchen appliances (such as easy - to - break equipment) may be due to the breakage of the service chain. Integrating services can reduce the overall operational risk.",
+        "G": "Strengthen the food safety monitoring system to ensure compliance and improve customer trust and operational stability."
+      },
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, considering the recovery trend of the catering market and the pain points in the use of kitchen appliances, how should resources be allocated to enhance the industry's competitiveness? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "During the trough period of the market (in 2019), invest in intelligent kitchen appliances to solve the pain point of single - function equipment (accounting for 48.1%) because efficiency improvement is needed when the market size is low.",
+        "B": "Develop innovative menus to increase the variety of dishes, attract customers and enhance market competitiveness.",
+        "C": "When the market enters a new dynamic period, increase investment in intelligent kitchen appliances to solve high - proportion pain points such as single - function equipment and high manpower dependence. The recovery stage of the market size shows great growth potential, and the demand for intelligence in the pain points of equipment is prominent; investing in advanced equipment can improve the efficiency of dish - serving and the speed of cost recovery, and capture market growth opportunities.",
+        "D": "In response to the pain point of the short lifespan of equipment (accounting for 27.8%), give priority to purchasing high - cost and durable equipment during the recovery period, although the pain point of high equipment cost accounts for 25.6%.",
+        "E": "During the period of market size fluctuation (such as after the trough and during the recovery), give priority to maintaining existing equipment and controlling the cost of new purchases to avoid additional expenditures caused by a high damage rate. The market size data shows that the growth during the recovery period is unstable, and the problems of easy - to - break equipment and high cost are prominent in the pain points of equipment; tilting resources towards maintenance rather than expansion can ensure stable cash flow and support long - term recovery.",
+        "F": "Implement a digital ordering system to improve the customer experience and indirectly support the industry's recovery.",
+        "G": "Optimize the kitchen space design and noise control, aiming at the problems of space occupation and noise in the pain points of equipment, and conduct preventive planning at the initial stage of opening stores. The problems of space and noise in the pain points of equipment account for a significant proportion, and they may be related to the slow process in the difficulties of opening stores; allocating resources to the design stage can reduce the cost of later adjustments and improve the success rate of opening stores."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_3",
+        "chart_94_4"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    }
+  ]
+}

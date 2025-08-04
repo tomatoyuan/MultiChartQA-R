@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_20_1",
+    "chart_20_2",
+    "chart_20_3",
+    "chart_20_4",
+    "chart_20_5",
+    "chart_20_6"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "En la \"Distribución de Grupos de Edad\", ¿es el porcentaje del grupo de edad con la proporción más alta el mismo que el porcentaje de ansiedad de la constelación con la proporción más alta en la \"Ranking de las constelaciones más ansiosas\"? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "En la \"Distribución de Grupos de Edad\", el grupo de edad con la proporción más alta es de 25 - 34 años, con un 49%. En la \"Ranking de las constelaciones más ansiosas\", la constelación con la proporción más alta es Virgo, con un 18%. Las proporciones más altas de ambos son obviamente diferentes (49% vs 18%). La respuesta debe ser \"No\".",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio de la proporción en el gráfico de \"¿Dónde ir a tratarse fuera del país?\" en sentido horario a partir de Europa es la misma que la tendencia de cambio de la proporción en el gráfico de \"Comportamientos posteriores de pacientes con cáncer\" en sentido horario a partir de otros comportamientos? Responda sí o no.",
+      "answer": "No",
+      "explanation": "La primera aumenta gradualmente, mientras que la segunda disminuye primero y luego aumenta.",
+      "charts_involved": [
+        "chart_20_4",
+        "chart_20_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio de la proporción en el gráfico de \"¿Dónde ir a tratarse fuera del país?\" en sentido horario a partir de Europa es la misma que la tendencia de cambio de la proporción en el gráfico de \"Distribución de Grupos de Edad\" en sentido horario a partir de menos de 50 años? Responda sí o no.",
+      "answer": "No",
+      "explanation": "La primera aumenta gradualmente, mientras que la segunda aumenta primero y luego disminuye.",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Supongamos que el número total de personas es 10000, y la distribución de cada grupo de edad y constelación es uniforme e independiente. Calcule: ¿Cuántas personas aproximadamente están en el grupo de ansiedad de Virgo en el rango de edad de 25 - 34 años? Exprese el resultado como un número entero sin agregar la unidad.",
+      "answer": "882",
+      "explanation": "Dado que se asume que las constelaciones y las edades se distribuyen de forma independiente, el número de personas ansiosas de Virgo en el rango de edad de 25 - 34 años = 10000 × 49% × 18% = 10000 × 0.49 × 0.18 = 882 personas",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Supongamos que hay un total de 2000 pacientes con cáncer, y el comportamiento posterior de los pacientes con cáncer y la atención al momento de comprar un seguro son uniformes e independientes. Pregunta: ¿Cuántos pacientes con cáncer finalmente \"compran un seguro y se centran principalmente en las reclamaciones de seguro\"? Formato de respuesta: Redondee hacia arriba a un número entero.",
+      "answer": "353",
+      "explanation": "Pacientes con cáncer que compran seguro = 2000 × 43% = 860 personas; entre ellos, el número de personas que se centran en las reclamaciones de seguro = 860 × 41% = 352.6 personas. Redondeando hacia arriba, se obtiene 353.",
+      "charts_involved": [
+        "chart_20_5",
+        "chart_20_6"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Supongamos que hay 3000 personas con cáncer, y la proporción de personas que desean tratarse en el extranjero es la misma que en la encuesta de \"Tratamiento en el extranjero\". Además, la causa de la enfermedad es consistente con la proporción de causas de cáncer. Pregunta: ¿Cuántas personas con cáncer relacionados con la melamina se espera que elijan tratarse en Estados Unidos? Responda directamente con el resultado entero, redondeado hacia arriba, sin agregar la unidad.",
+      "answer": "476",
+      "explanation": "Pacientes con cáncer relacionados con la melamina = 3000 * 33% = 990; proporción de personas que eligen tratarse en Estados Unidos = 48%; número esperado de personas que eligen tratarse en Estados Unidos = 990 × 48% = 475.2. Redondeando hacia arriba, se obtiene 476 personas.",
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según el gráfico de comportamientos posteriores de pacientes con cáncer y el gráfico de aspectos de atención al comprar un seguro, ¿qué factores pueden explicar conjuntamente por qué comprar seguro se ha convertido en el comportamiento posterior más frecuente de los pacientes con cáncer?",
+      "answer": {
+        "A": "Las actividades de marketing y la divulgación publicitaria de las compañías de seguros han mejorado significativamente el conocimiento y la voluntad de compra de los pacientes sobre el seguro.",
+        "B": "El gráfico muestra que la proporción del comportamiento de comprar seguro es del 43%, que es casi igual a la proporción de atención a las reclamaciones de seguro del 41%, pero la proporción de atención a los tipos de seguro del 25% es más alta, lo que indica que los pacientes prestan más atención a la diversidad del seguro que a las reclamaciones.",
+        "C": "Los pacientes con cáncer compran seguro principalmente debido a los altos costos médicos y necesitan una garantía económica, lo que es una estrategia común de respuesta a la crisis de salud.",
+        "D": "Entre los comportamientos posteriores de los pacientes con cáncer, la proporción de comprar seguro es la más alta, y en los aspectos de atención al comprar un seguro, la proporción de atención a las reclamaciones de seguro también es la más alta, lo que indica que los pacientes prestan gran atención a la cobertura de riesgos, lo que impulsa la compra de seguros.",
+        "E": "La suma de la proporción de atención a los tipos y la duración del seguro es significativamente más alta que la proporción de atención al monto del seguro, lo que es consistente con la alta proporción del comportamiento de comprar seguro, lo que refleja la demanda de los pacientes por una cobertura integral y a largo plazo.",
+        "F": "La proporción de atención al monto del seguro es solo del 12%, que es el valor más bajo, mientras que la proporción de atención a la duración del seguro es del 22%, lo que indica que los pacientes prefieren la cobertura a corto plazo, lo que impulsa el comportamiento de compra de seguros con alta frecuencia."
+      },
+      "charts_involved": [
+        "chart_20_5",
+        "chart_20_6"
+      ],
+      "label": [
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en el gráfico de la proporción de causas de cáncer y el gráfico de la elección de tratamiento médico en el extranjero, ¿qué opciones pueden explicar mejor el conflicto entre las tendencias de datos (por ejemplo, los factores causantes de cáncer locales y la preferencia del lugar de tratamiento médico)?",
+      "answer": {
+        "A": "La alta proporción de factores causantes de cáncer, como la melamina, puede hacer que los pacientes prefieran tratarse en el extranjero para evitar completamente las fuentes de contaminación locales.",
+        "B": "La proporción de tratarse en Europa es solo del 7%, mientras que la proporción de cáncer causado por la decoración interior es del 10%, y la diferencia de proporción es pequeña, lo que indica que los pacientes prefieren la atención médica europea debido a los factores ambientales.",
+        "C": "La proporción de melamina en las causas de cáncer es la más destacada, mientras que la proporción combinada de Estados Unidos y Japón en la elección de tratamiento médico en el extranjero es extremadamente alta, lo que puede reflejar que los recursos médicos locales son insuficientes para tratar los factores causantes de cáncer frecuentes, lo que impulsa a los pacientes a buscar tratamientos avanzados en el extranjero.",
+        "D": "La elección de Estados Unidos y Japón para tratarse en el extranjero se debe a que la tecnología médica de estos países es líder en el mundo, lo que es una tendencia general en el turismo médico internacional.",
+        "E": "Entre las causas de cáncer, la proporción de factores ambientales, como la decoración interior, es significativa, pero la proporción de Europa en la elección de tratamiento médico en el extranjero es la más baja, lo que sugiere que los cánceres relacionados con el entorno pueden depender más de la atención médica local en lugar de tratarse en el extranjero.",
+        "F": "La proporción de melamina en las causas de cáncer es del 33%, que es similar a la proporción de Estados Unidos en la elección de tratamiento médico en el extranjero del 48%, y ambas son mucho más altas que otras causas, lo que indica que los principales factores causantes de cáncer corresponden directamente al lugar de tratamiento médico preferido."
+      },
+      "charts_involved": [
+        "chart_20_3",
+        "chart_20_4"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según el gráfico de la distribución de grupos de edad y el gráfico de los comportamientos posteriores de los pacientes con cáncer, ¿cuáles de las tendencias de distribución de edad pueden implicar la influencia en la elección de los comportamientos posteriores?",
+      "answer": {
+        "A": "Los jóvenes (de 19 a 24 años) representan el 20% en la distribución de edad y es más probable que compren seguro porque se encuentran en la etapa inicial de su carrera y sus ingresos están creciendo.",
+        "B": "El grupo de más de 50 años tiene la proporción más baja del 5%, mientras que la proporción del comportamiento de rezar a los dioses es del 21%, que es mucho más alta que la distribución de edad, lo que indica que este comportamiento está impulsado principalmente por el grupo de edad mayor.",
+        "C": "El grupo de edad de 25 a 34 años tiene la proporción más alta del 49%, pero la proporción del comportamiento de solicitar cita médica es solo del 18%, que es relativamente baja, lo que indica que este grupo tiene una demanda insuficiente de servicios médicos.",
+        "D": "Debido a su fragilidad de salud, los pacientes mayores (más de 50 años) son más propensos a rezar a los dioses, lo que es un modo común de respuesta en la tradición cultural.",
+        "E": "El grupo de edad de 25 a 34 años tiene la proporción más alta en la distribución de edad, y la proporción del comportamiento de comprar seguro entre los pacientes con cáncer también es la más alta, lo que puede reflejar que el grupo de adultos jóvenes tiende a manejar los riesgos de salud a través de la compra de seguros.",
+        "F": "El grupo de más de 50 años tiene la proporción más baja en la distribución de edad, pero la proporción del comportamiento de rezar a los dioses entre los pacientes con cáncer es relativamente alta, lo que sugiere que el grupo de edad mayor puede depender más de métodos no médicos al enfrentarse al cáncer."
+      },
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_5"
+      ],
+      "label": [
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, combinando la distribución de la edad de la población y las tendencias de comportamiento posterior de los pacientes con cáncer, ¿cómo se puede optimizar la estrategia de promoción de seguros de salud para aumentar la cobertura y la aceptación de los grupos de alto riesgo? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Propaganda ampliamente la importancia del seguro de salud a través de las redes sociales para aumentar la conciencia general de salud del público.",
+        "B": "Asegúrese de que la estrategia de promoción cubra a las personas mayores, aunque su proporción en la población sea baja, el riesgo de cáncer puede ser mayor. Simplifique el proceso de seguro y ofrezca planes específicos para lograr una cobertura equitativa y evitar ignorar sus necesidades debido a la baja proporción de la población.",
+        "C": "Promueva prioritaria mente los planes de seguro destinados a personas mayores de 50 años, ya que este grupo de edad tiene el mayor riesgo de cáncer y la distribución de edad muestra que representan el 5%, lo cual vale la pena invertir recursos de forma prioritaria.",
+        "D": "Colabore con las instituciones médicas comunitarias para ofrecer servicios gratuitos de detección de salud y atraer a más personas a prestar atención a los productos de seguro.",
+        "E": "Destaque las ventajas del monto del seguro en la promoción del seguro, ya que el monto representa el 12% en los puntos de atención del seguro, lo cual puede aumentar directamente la voluntad de compra de los usuarios.",
+        "F": "Destaque las ventajas del servicio de reclamación en la promoción del producto de seguro. La proporción de compra de seguro entre los comportamientos posteriores de los pacientes con cáncer es significativa. Combinado con el hecho de que la reclamación de seguro tiene la mayor atención en los puntos de atención de la compra de seguro, destacar la facilidad de reclamación puede aumentar la confianza y la aceptación de los usuarios, y así optimizar el efecto de la promoción.",
+        "G": "Diseñe actividades de promoción de seguro enfocadas en el grupo de jóvenes adultos (por ejemplo, el grupo de edad de 25 - 34 años). Este grupo tiene la mayor proporción en la estructura de la población, y los comportamientos posteriores de los pacientes con cáncer muestran que comprar seguro es la forma de respuesta más común, lo que indica que este grupo de edad tiene una fuerte demanda de seguro, y la inversión de recursos de promoción puede aumentar eficientemente la cobertura."
+      },
+      "charts_involved": [
+        "chart_20_1",
+        "chart_20_5",
+        "chart_20_6"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la distribución de las causas del cáncer y el nivel de ansiedad de grupos específicos, ¿cómo se deben asignar los recursos de educación pública en salud para intervenir prioritaria mente en los factores de alto riesgo de cáncer y aliviar la ansiedad del público? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Realice campañas educativas prioritarias sobre los factores de alto riesgo de cáncer (por ejemplo, la exposición a sustancias químicas). Entre las causas del cáncer, los factores químicos tienen la proporción más destacada. Combinado con el hecho de que los grupos de alta ansiedad (por ejemplo, las personas en la parte superior de la lista de ansiedad) tienen un nivel de ansiedad más alto, los recursos educativos deben centrarse en estos ámbitos de alto riesgo para reducir el riesgo real y aliviar la ansiedad.",
+        "B": "Aumente la inversión en educación sobre los factores de vida controlables (por ejemplo, el entorno interior o el uso de productos de cuidado de la piel). Estas causas del cáncer tienen una proporción significativa y el riesgo se puede reducir a través de cambios en el comportamiento. Combinado con el hecho de que algunos grupos en la lista de ansiedad tienen un nivel de ansiedad medio, la educación puede aumentar el control del público y reducir la ansiedad innecesaria.",
+        "C": "Utilice los medios de televisión y radio para emitir regularmente consejos de salud para cubrir a una amplia audiencia y reducir la ansiedad.",
+        "D": "Realice intervenciones educativas prioritarias en los grupos de Tauro y Acuario, ya que su proporción de ansiedad es la más baja (4%), y es fácil reducir rápidamente el nivel general de ansiedad a través de una simple propaganda.",
+        "E": "Desarrolle actividades de educación pública en salud a nivel nacional para difundir los conocimientos básicos de prevención del cáncer y mejorar la competencia general en salud del público.",
+        "F": "Ofrezca servicios de apoyo psicológico personalizados a los grupos con un nivel de ansiedad más alto. La lista de ansiedad muestra que la proporción de ansiedad de algunos grupos es destacada. Combinado con la proporción de factores ambientales (por ejemplo, la contaminación atmosférica) en las causas del cáncer, la integración de la educación en salud mental puede reducir de manera integral la percepción del riesgo y la incidencia real.",
+        "G": "Enfoque la educación en el riesgo de cáncer causado por la contaminación atmosférica, ya que representa el 7%, y la lista de ansiedad muestra que los grupos de alta ansiedad (por ejemplo, Virgo con un 18%) pueden ser más susceptibles a los factores ambientales, por lo que los recursos deben inclinarse hacia este aspecto."
+      },
+      "charts_involved": [
+        "chart_20_2",
+        "chart_20_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la distribución de las preferencias de tratamiento médico en el extranjero y las tendencias de los puntos de atención en la compra de seguro, ¿cómo se puede diseñar un producto de seguro médico internacional para satisfacer mejor las necesidades de los pacientes y optimizar la asignación de recursos? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Reforce el diseño de la flexibilidad de la duración y el monto del seguro. La atención combinada a la duración y el monto del seguro es significativa en los puntos de atención del seguro. Combinado con la alta proporción de compra de seguro entre los comportamientos posteriores de los pacientes con cáncer, un plan flexible puede adaptarse a diferentes necesidades de tratamiento médico y mejorar la competitividad del producto.",
+        "B": "Cubra prioritaria mente las redes de servicios médicos en los destinos preferidos de tratamiento médico en el extranjero (por ejemplo, Estados Unidos y Japón). La proporción de estos destinos en las opciones de tratamiento médico es muy alta. Combinado con el hecho de que la reclamación de seguro tiene la mayor atención en los puntos de atención de la compra de seguro, asegurar un servicio de reclamación eficiente en estas regiones puede aumentar directamente la satisfacción y la cobertura de los usuarios.",
+        "C": "Reforce el diseño del monto del seguro, ya que el monto tiene una atención del 12%. Combinado con el hecho de que la proporción de compra de seguro entre los pacientes con cáncer es del 43%, un monto alto puede satisfacer mejor las necesidades de tratamiento médico.",
+        "D": "Aumente la inversión en publicidad de productos de seguro para aumentar la知名度 de la marca y atraer a más pacientes internacionales.",
+        "E": "Amplíe prioritaria mente la red de servicios médicos en Europa, ya que la proporción de tratamiento médico en Europa es del 7% y tiene un gran potencial de crecimiento. Además, la proporción de tipos de seguro en los puntos de atención del seguro es del 25%, por lo que se pueden diseñar planes exclusivos.",
+        "F": "Ofrezca opciones de tipos de seguro diversificadas. La atención a los tipos de seguro es relativamente alta en los puntos de atención del seguro, solo después de la reclamación. Combinado con la preferencia de opciones de tratamiento médico concentrada en unas pocas regiones, productos personalizados (por ejemplo, planes exclusivos para diferentes destinos) pueden atraer a un grupo de usuarios más amplio.",
+        "G": "Ofrezca soporte de servicio al cliente en múltiples idiomas para facilitar las consultas de usuarios de diferentes regiones y mejorar la experiencia del usuario."
+      },
+      "charts_involved": [
+        "chart_20_4",
+        "chart_20_5",
+        "chart_20_6"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

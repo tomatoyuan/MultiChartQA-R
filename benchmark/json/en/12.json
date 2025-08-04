@@ -1,0 +1,203 @@
+{
+  "chart": [
+    "chart_12_1",
+    "chart_12_2",
+    "chart_12_3",
+    "chart_12_4",
+    "chart_12_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the length change trend of the bars from left to right in the chart 'Food Attention during the European Cup' consistent with the length change trend of the bars from top to bottom in the chart 'Star Ratings of Brand Off - line Marketing Activities Competing for 'UEFA Euro Night''? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are gradually getting shorter.",
+      "charts_involved": [
+        "chart_12_3",
+        "chart_12_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the length change trend of the bars from top to bottom in the chart 'European Cup Drives the Food Economy - Top 10 Provinces in Total Late - Night Snack Consumption Amount' consistent with the length change trend of the bars from top to bottom in the chart 'Before the Quarter - Finals\nSearch Keyword Distribution Table'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former first gets shorter and then gets longer; the latter continuously gets longer.",
+      "charts_involved": [
+        "chart_12_2",
+        "chart_12_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the length change trend of the bars from left to right in the chart 'Food Attention during the European Cup' consistent with the length change trend of the bars from bottom to top in the chart 'Before the Quarter - Finals\nSearch Keyword Distribution Table'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are gradually getting shorter.",
+      "charts_involved": [
+        "chart_12_3",
+        "chart_12_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assuming that the distribution of search keywords before the quarter - finals of the UEFA European Championship is the same for both genders, what is the female search proportion for the 'Schedule'? Express the answer as a percentage, rounded to two significant figures.",
+      "answer": "9.6%",
+      "explanation": "33.0% * 30% = 9.6%",
+      "charts_involved": [
+        "chart_12_1",
+        "chart_12_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assuming that the age distribution of UEFA European Championship followers is the same in each province, what is the proportion of late - night snack consumption by UEFA European Championship followers under 19 years old in Guangdong Province? Express the answer as a percentage, rounded to one decimal place.",
+      "answer": "1.8%",
+      "explanation": "16.3% * 11.0% = 1.793%",
+      "charts_involved": [
+        "chart_12_1",
+        "chart_12_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assuming that the food attention during the UEFA European Championship is the same for both genders, what is the female attention value for 'Barbecue' during the UEFA European Championship? Express the result as an integer, rounded to the nearest whole number.",
+      "answer": "340",
+      "explanation": "33.0% * 1030 = 339.9",
+      "charts_involved": [
+        "chart_12_1",
+        "chart_12_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the age distribution data of UEFA European Championship followers and the distribution data of search keywords before the quarter - finals, which options best describe the potential patterns of different age groups in obtaining event information?",
+      "answer": {
+        "A": "The proportion of the age group over 50 is relatively low, and the search proportion of championship odds is not high. However, they may follow the event results through non - search methods (such as traditional media).",
+        "B": "The proportion of the 20 - 29 age group is relatively high, and the search proportion of live - streaming URLs is prominent, indicating that young audiences rely more on online platforms to follow the games in real - time.",
+        "C": "The proportion of the 20 - 29 age group is 26%, and the search proportion of live - streaming URLs is 17%, which is prominent among the search keywords, proving that they dominate online real - time viewing.",
+        "D": "The proportion of the 30 - 39 age group is the highest, and the search proportion of European Cup event highlights is also relatively high, reflecting that middle - aged audiences have a stronger interest in peripheral content of the event.",
+        "E": "The proportion of the under - 19 age group is the lowest (11%), indicating that they mainly obtain event information through social media because young people are more familiar with digital platforms.",
+        "F": "The proportion of the 30 - 39 age group is the highest (29%), and the search proportion of European Cup event highlights is also the highest (24%). Therefore, this age group is the main consumer of event highlight content.",
+        "G": "The age group over 50 is more likely to search for the schedule (accounting for 30%) because they need to plan their viewing time in advance."
+      },
+      "charts_involved": [
+        "chart_12_1",
+        "chart_12_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the data of the top 10 provinces in total late - night snack consumption amount and the food attention data during the European Cup, which options can explain the implicit connection between consumption patterns in different regions and food preferences?",
+      "answer": {
+        "A": "The province with the highest consumption proportion also has the highest attention value for crawfish, indicating that this region may drive crawfish to become the main choice for late - night snacks.",
+        "B": "Late - night snack consumption is concentrated in the top 10 provinces, because the proportion of other regions is only 31.9%, indicating that residents in non - top 10 provinces have a lower interest in European - Cup - related foods.",
+        "C": "The consumption proportion in Guangxi is 5.7%, which is directly related to the highest attention value of crawfish (2264), proving that Guangxi is a key region in promoting crawfish as the main late - night snack.",
+        "D": "The low attention value of edamame (462) shows that it is not popular as a late - night snack choice nationwide.",
+        "E": "The combined consumption proportion of other regions is significant, but the food attention values vary greatly, reflecting that the preferences in non - top 10 provinces are more dispersed, which may be affected by regional culture.",
+        "F": "The attention values of beer and cola are relatively high, but the late - night snack consumption data is not detailed for beverages, suggesting that these beverages are common components of late - night snacks across regions.",
+        "G": "The attention value of beer is high (804), but the late - night snack consumption data is not detailed for beverages. Therefore, beverages dominate the consumption amount."
+      },
+      "charts_involved": [
+        "chart_12_2",
+        "chart_12_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the star ratings of brand off - line marketing activities and the distribution data of search keywords before the quarter - finals, which options can explain the potential conflicts between the effects of marketing activities and users' online behaviors?",
+      "answer": {
+        "A": "There are many low - star brands, and the proportion of 'Others' in the search is not high, indicating that brands with insufficient marketing fail to stimulate additional user interest.",
+        "B": "Hisense has a low star rating (4), while the search proportion of European Cup event highlights is high (24%), proving that users are more interested in event content than low - star brands.",
+        "C": "The low search proportion of championship odds (8%) indicates that users are more interested in low - star brands such as Bovard (rating 1).",
+        "D": "There are no brand - related words in the search keywords, but many brands have high star ratings, reflecting that successful marketing is mainly based on off - line experiences and has not been converted into online searches.",
+        "E": "NEC has the highest star rating of 10, and the search proportion of the schedule is the highest at 30%. Therefore, NEC's marketing is the most successful in driving users to search for event information.",
+        "F": "High - star brands have prominent ratings, while the search proportions of the schedule and event highlights are high, indicating that marketing may indirectly increase the demand for event information rather than for the brands themselves.",
+        "G": "High - star brands such as NEC (rating 10) will increase the frequency of users' online searches for brand names because marketing enhances brand awareness."
+      },
+      "charts_involved": [
+        "chart_12_5",
+        "chart_12_4"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the consumption regional distribution data during the European Cup and the food attention data, how should the promotion resources of late - night snack foods be adjusted to improve the overall sales effect? Please select the most reasonable strategic suggestions.",
+      "answer": {
+        "A": "Give priority to promoting beverage - type foods (such as beer and cola) in provinces with a medium consumption proportion, because beverages match well with foods in the late - night snack scenario and can maximize the customer unit price.",
+        "B": "Promote organic and healthy late - night snack foods in all provinces, because the trend of healthy eating can attract a wider consumer group and enhance the brand image.",
+        "C": "Promote the food with the lowest attention (such as popcorn) in the province with the highest consumption proportion to test new market opportunities and avoid over - competition.",
+        "D": "For provinces with a medium consumption proportion, promote foods with medium attention but local characteristics to stimulate local consumption enthusiasm and avoid over - concentrating resources in high - consumption areas.",
+        "E": "Promote cost - effective and easily accessible foods in areas with a relatively low consumption proportion, and combine the successful experiences of other provinces to expand market coverage and promote balanced development.",
+        "F": "Give priority to promoting the food with the highest attention in the area with the highest late - night snack consumption amount, because these provinces have greater consumption potential, and popular foods can better attract consumers to participate, thereby improving sales efficiency.",
+        "G": "Increase the frequency of online advertising for late - night snack foods, because digital marketing can quickly increase product exposure and sales conversion."
+      },
+      "charts_involved": [
+        "chart_12_2",
+        "chart_12_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the age distribution characteristics of UEFA European Championship followers and their event information search behaviors, how should the information service resources be allocated to meet user needs and improve participation? Please select the most effective suggestions.",
+      "answer": {
+        "A": "Give priority to providing real - time schedule services for the age group over 50, because their search proportion of 'Last Game Score' is 14%, and the proportion of this age group is 11%, indicating that their demand is underestimated.",
+        "B": "Increase the investment in digital information services for the 20 - 39 age group, such as real - time schedule updates and live - streaming channels, because this group has a higher proportion, and the search data shows that they have a stronger demand for real - time information, which can effectively improve user satisfaction.",
+        "C": "Develop simplified and user - friendly event information content for the age group over 40, combined with their interest in event reviews and score queries, and distribute it through multiple channels (such as traditional media) to ensure inclusive coverage.",
+        "D": "Balance resource allocation. While meeting the needs of age groups with a high proportion, design interactive content for teenagers to cultivate long - term interest and avoid service blind spots.",
+        "E": "Develop a multi - language event information platform to cover international audiences and improve global participation, because sports events have cross - cultural appeal.",
+        "F": "Increase the information distribution through traditional media (such as TV and radio) to ensure that all users can access the content conveniently and avoid the digital divide.",
+        "G": "When balancing resources, design exclusive interactive content for female users (accounting for 33%), because gender differences may affect information acquisition efficiency."
+      },
+      "charts_involved": [
+        "chart_12_1",
+        "chart_12_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the user search hotspots and the evaluation data of brand marketing activities, how should the design of 'UEFA Euro Night' brand cooperation activities be improved to enhance user attraction and activity effectiveness? Please select the most reasonable suggestions.",
+      "answer": {
+        "A": "Develop in - depth analysis tools for the 'Championship Odds' with a low search proportion (8%), combined with the strategies of high - star brands (such as NEC with a star rating of 10), to attract professional users innovatively.",
+        "B": "Develop innovative interactive content for areas with low search interest but high potential (such as odds information), referring to the strategies of high - star brands, to挖掘 new needs and improve the overall diversity of the activity.",
+        "C": "Ensure that the activity provides convenient live - streaming access support, combined with the high demand for live - streaming URLs in search behaviors, and optimize the content matching of low - star brands to improve user satisfaction and brand ratings.",
+        "D": "Integrate the content of keywords with the highest search proportion, such as real - time schedules and event highlights, into the activity, because high - star brand activities may have successfully incorporated these elements, which can directly attract user interest and improve participation.",
+        "E": "Cooperate with more non - sports brands across industries to expand the influence of the activity and reach new user groups.",
+        "F": "Reduce the content related to the schedule in the activity, because the highest search proportion (30%) may be saturated, and refer to low - star brands (such as Bovard with a star rating of 1) for a differentiated design.",
+        "G": "Increase the activity budget to provide high - end experiences (such as VIP boxes), because luxury can improve user satisfaction and brand loyalty."
+      },
+      "charts_involved": [
+        "chart_12_4",
+        "chart_12_5"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

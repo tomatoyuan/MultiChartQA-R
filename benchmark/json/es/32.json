@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_32_1",
+    "chart_32_2",
+    "chart_32_3",
+    "chart_32_4",
+    "chart_32_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Por favor, compare la tendencia de cambio de la popularidad de búsqueda de 2016 a 2020 en '¡En 2020, la búsqueda de certificados de enseñanza se disparó! ¡Ser profesor se hace más atractivo!' con la tendencia de cambio de la cantidad de búsquedas en el orden de Beijing - Shanghai - Chengdu en 'Comparación de los Volúmenes de Búsqueda del Certificado de Profesorado en Ciudades'. ¿Son consistentes las tendencias en el orden de sus ejes horizontales? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "La popularidad de búsqueda anual aumentó continuamente de 2016 a 2020, mientras que la cantidad de búsquedas de las tres ciudades disminuyó gradualmente de Beijing a Chengdu. Uno aumenta y el otro disminuye, y las direcciones de las tendencias son opuestas. Por lo tanto, las tendencias no son consistentes.",
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Por favor, compare 'Proporción de búsqueda de 'Certificado de Docencia' en diferentes rangos de edad' y 'Porcentajes de hombres y mujeres que buscan 'Certificado de Calificación de Maestro' en diferentes grupos de edad'. A medida que la edad aumenta desde '≤18 años' hasta '25 - 34 años', ¿la relación entre el cambio de la proporción total por edad y el cambio de la proporción de hombres es positiva, negativa o no hay relación?",
+      "answer": "No hay relación",
+      "explanation": "La proporción total por edad aumentó significativamente de baja a alta, pero la proporción de hombres en los grupos de edad correspondientes primero disminuyó y luego aumentó. No se formó una relación estable en la misma dirección o en dirección opuesta. Por lo tanto, la relación no es evidente.",
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿El grupo de edad con la proporción más alta en 'Proporción de búsqueda de 'Certificado de Docencia' en diferentes rangos de edad' también es el grupo de edad con la proporción más alta de mujeres en 'Porcentajes de hombres y mujeres que buscan 'Certificado de Calificación de Maestro' en diferentes grupos de edad'? Por favor, responda sí o no.",
+      "answer": "No",
+      "explanation": "El grupo de edad con la proporción más alta en la búsqueda general es el de 19 - 34 años, mientras que el grupo de edad con la proporción más alta de mujeres es el de 19 - 24 años. No coinciden completamente. Por lo tanto, la respuesta es no.",
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas unidades aumentó el calor de búsqueda en 2020 en comparación con 2019? Luego, divida el área de la burbuja de la palabra clave 'Certificado de Calificación de Maestro' por este aumento y redondee a 2 decimales. Respuesta: xx",
+      "answer": "5066.67",
+      "explanation": "Calor en 2020: 100 - Calor en 2019: 70 = Aumento de 30 unidades; 152000 ÷ 30 ≈ 5066.67",
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces aproximadamente representan las personas de 19 - 34 años en el total de búsquedas de 'Certificado de Calificación de Maestro' en Shanghái? Redondee a 0 decimales. Respuesta: xx veces",
+      "answer": "788500 veces",
+      "explanation": "Total de búsquedas en Shanghái 950000 × Proporción de personas de 19 - 34 años 83% = 788500",
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas búsquedas aproximadamente hicieron los hombres de 25 - 34 años en el total de búsquedas de 'Certificado de Calificación de Maestro' en Chengdu? Redondee a 0 decimales. Respuesta: xx veces",
+      "answer": "110682 veces",
+      "explanation": "Total de búsquedas en Chengdu 780000 × Proporción de personas de 25 - 34 años 33% = 257400; entre ellos, la proporción de hombres es del 43% → 257400 × 43% = 110682",
+      "charts_involved": [
+        "chart_32_4",
+        "chart_32_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Qué características de la población pueden haber influido conjuntamente en la tendencia continua de crecimiento de la popularidad de la búsqueda del Certificado de Calificación de Maestro?",
+      "answer": {
+        "A": "El crecimiento de la popularidad de la búsqueda del Certificado de Calificación de Maestro se debe principalmente a la promoción y la publicidad de las políticas educativas del gobierno. Por ejemplo, la política de 'doble reducción' ha impulsado a más personas a dedicarse a la profesión docente.",
+        "B": "Entre los jóvenes, la proporción de mujeres que realizan búsquedas es relativamente alta, lo que puede contribuir significativamente al aumento del volumen total de búsquedas.",
+        "C": "El grupo de edad de 19 a 34 años representa el 83% de las búsquedas, pero la tendencia de crecimiento está impulsada principalmente por el grupo de 50 años, ya que la proporción de búsquedas de este grupo ha aumentado año tras año.",
+        "D": "En el contexto de que la popularidad de la búsqueda aumenta año tras año, el grupo de edad de 19 a 34 años tiene la mayor proporción de búsquedas y puede ser el grupo central que impulsa el crecimiento.",
+        "E": "Aunque la proporción de búsquedas de otros grupos de edad es relativamente pequeña, el interés de búsqueda del grupo de menos de 18 años es relativamente destacado, lo que puede explicar en parte la motivación temprana de la tendencia de crecimiento.",
+        "F": "El interés de búsqueda de las personas mayores de 35 años ha aumentado drásticamente debido a sus necesidades de transformación profesional, lo que se ha convertido en el principal impulso del crecimiento.",
+        "G": "La proporción de hombres que realizan búsquedas alcanza el 57% en el grupo de edad de 25 a 34 años, por lo que los hombres dominan el crecimiento general de las búsquedas."
+      },
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_2",
+        "chart_32_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Cómo se refleja implícitamente la distribución de género en diferentes grupos de edad entre las personas que buscan el Certificado de Calificación de Maestro en las características del comportamiento general de búsqueda?",
+      "answer": {
+        "A": "La proporción de hombres y mujeres en el grupo de edad mayor de 35 años es similar, pero su proporción en la búsqueda es baja, por lo que su efecto en el equilibrio de la distribución de género general puede ser limitado.",
+        "B": "Aunque la proporción del grupo de edad menor de 18 años es pequeña, la proporción de mujeres que realizan búsquedas es destacada, lo que puede fortalecer la influencia de las mujeres jóvenes en la búsqueda general.",
+        "C": "El comportamiento general de búsqueda refleja una tendencia hacia la igualdad de género, ya que la proporción de hombres y mujeres en todos los grupos de edad es cercana al 50%, lo que refleja el progreso social.",
+        "D": "Las mujeres en el grupo de edad de 19 a 24 años representan el 71%, pero este grupo solo representa el 10% de las personas que realizan búsquedas, por lo que su impacto en la búsqueda general es débil.",
+        "E": "La proporción de hombres y mujeres en el grupo de edad de 35 a 49 años es de 55%:45%, y su proporción en la búsqueda es alta, por lo que juega un papel clave en el equilibrio de género general.",
+        "F": "El grupo de edad de 19 a 34 años tiene la mayor proporción en la búsqueda, y la proporción de mujeres es relativamente alta, lo que puede hacer que el comportamiento general de búsqueda muestre una tendencia de predominio femenino.",
+        "G": "La proporción de hombres en el grupo de edad de 50 años es del 48%, que es más alta que la de otros grupos de edad, lo que hace que la búsqueda general muestre un carácter de predominio masculino."
+      },
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Qué reglas de coordinación pueden existir entre la popularidad de la búsqueda del Certificado de Calificación de Maestro a nivel de ciudad y la atención a las palabras clave de la industria educativa en general?",
+      "answer": {
+        "A": "La ciudad con el mayor volumen de búsqueda coincide con la mayor atención a la palabra clave 'Certificado de Calificación de Maestro', lo que puede reflejar la posición central de este tema en la región y en la práctica.",
+        "B": "La atención a la palabra clave 'Vacaciones de Maestro' es de 6800, que coincide en gran medida con el volumen de búsqueda de 950000 veces en Shanghái, lo que indica que las búsquedas en la ciudad se centran en los beneficios laborales.",
+        "C": "El volumen de búsqueda de 2.2 millones de veces en Pekín es más de 10 veces la atención a la palabra clave 'Certificado de Calificación de Maestro' de 152000, por lo que no hay una relación directa entre los datos de la ciudad y la atención a las palabras clave.",
+        "D": "La atención a las palabras clave relacionadas con la enseñanza, como 'Plaza de Maestro', es relativamente baja, pero el volumen de búsqueda en las principales ciudades sigue siendo significativo, lo que puede indicar que las actividades urbanas prefieren la certificación básica de enseñanza en lugar de otros elementos de la industria.",
+        "E": "Aunque la atención a la palabra clave 'Educación en Línea' es relativamente alta, el volumen de búsqueda en las ciudades se centra en el Certificado de Calificación de Maestro, lo que puede resaltar la relación directa entre las necesidades regionales y las tendencias de la industria.",
+        "F": "La alta popularidad de la búsqueda en las ciudades refleja la popularización de la educación en línea, ya que la palabra clave 'Educación en Línea' tiene la mayor atención, lo que impulsa las búsquedas en ciudades como Pekín y Shanghái.",
+        "G": "El volumen de búsqueda de 780000 veces en Chengdu es mucho más alto que la atención a la palabra clave 'Plaza de Maestro' de 9200, lo que indica que los usuarios urbanos prestan más atención a la plaza de trabajo que a la certificación de enseñanza."
+      },
+      "charts_involved": [
+        "chart_32_4",
+        "chart_32_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "¿Cómo optimizar la estrategia de promoción de mercado para atraer de manera eficiente a los futuros candidatos y aumentar la tasa de inscripción en función de la tendencia de crecimiento de la búsqueda del Certificado de Calificación de Maestro y las características de la distribución por edad de la población? Seleccione la sugerencia más razonable.",
+      "answer": {
+        "A": "Fortalecer la promoción educativa entre los grupos jóvenes (por ejemplo, menores de 18 años) utilizando canales de redes sociales, ya que el aumento de la popularidad de la búsqueda es notable y la proporción de este grupo es considerable. Cultivar previamente el interés puede establecer una reserva a largo plazo de inscripciones y evitar ignorar las demandas emergentes.",
+        "B": "Mejorar la promoción de la reputación social y los beneficios de la profesión docente para atraer a más personas a la industria educativa, sin enfocarse en grupos específicos.",
+        "C": "Asignar el presupuesto de promoción de manera uniforme en todas las edades y canales para garantizar una cobertura equitativa y evitar omitir cualquier grupo potencial.",
+        "D": "Diseñar actividades de promoción digitales enfocadas en el grupo de 19 a 34 años, ya que este grupo tiene la mayor proporción en la búsqueda y la popularidad de la búsqueda presenta una tendencia de aumento rápido y sostenido, lo que indica que son el grupo de demanda central. Aumentar la inversión en anuncios en línea puede maximizar la cobertura y la tasa de conversión.",
+        "E": "Dado que el grupo de 19 a 34 años representa el 83% de la búsqueda, pero la popularidad alcanzó su máximo en 2020 (100), se espera que la demanda se sature en el futuro. Por lo tanto, se debe reducir la inversión en este grupo y centrarse en el grupo de ≤18 años (13% de la proporción) para explotar el mercado emergente.",
+        "F": "Dado que la popularidad de la búsqueda aumentó de 10 en 2016 a 100 en 2020, esta tendencia indica un aumento de la demanda en toda la sociedad. Por lo tanto, se debe priorizar la inversión en anuncios en los medios tradicionales (como la televisión y los periódicos) en lugar de en los canales digitales."
+      },
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_2"
+      ],
+      "label": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "¿Cómo ajustar la asignación de recursos de los programas de capacitación docente para mejorar la tasa de participación y el efecto de la capacitación en función de la estructura de edad y género de la población que busca el Certificado de Calificación de Maestro? Seleccione la estrategia más efectiva.",
+      "answer": {
+        "A": "Aumentar uniformemente la inversión en recursos de capacitación para todas las edades y géneros para garantizar la inclusividad y equidad del servicio, sin realizar una asignación diferenciada.",
+        "B": "En el grupo de 19 a 24 años, dado que las mujeres representan el 71% de la búsqueda (mucho más que el 29% de los hombres), se debe ignorar por completo las necesidades de los hombres y concentrar todos los recursos en cursos exclusivos para mujeres para maximizar la eficiencia.",
+        "C": "Dado que la proporción de hombres y mujeres en el grupo de 25 a 34 años es más equilibrada (el 57% de mujeres y el 43% de hombres) y es el grupo central de búsqueda (alta proporción), se debe priorizar el desarrollo de cursos presenciales de alto costo para este grupo en lugar de un modelo flexible en línea para mejorar la calidad de la capacitación.",
+        "D": "Desarrollar un modelo de aprendizaje flexible (por ejemplo, módulos en línea) para el grupo de 25 a 34 años, ya que este grupo tiene una alta proporción en la búsqueda y la proporción de hombres y mujeres es más equilibrada. Se deben atender las necesidades de combinar el trabajo y el estudio y evitar la desigualdad de género causada por la inclinación de recursos.",
+        "E": "Mantener la inversión básica de recursos en el grupo de más de 35 años. Aunque la proporción de búsqueda es baja, la proporción de hombres y mujeres es cercana, lo que garantiza un servicio inclusivo para satisfacer las necesidades de transformación profesional.",
+        "F": "Priorizar el aumento de los cursos y recursos de capacitación para las mujeres en el grupo de 19 a 24 años, ya que la proporción de búsqueda de las mujeres en este grupo es significativamente más alta que la de los hombres y es el grupo central de búsqueda, lo que indica una demanda concentrada. Optimizar los recursos puede aumentar la tasa de participación.",
+        "G": "Desarrollar más cursos básicos de introducción, ya que el núcleo de la capacitación docente es la transmisión de conocimientos, en lugar de optimizar en función de las características de la población."
+      },
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "¿Cómo optimizar la promoción de cursos y la asignación de recursos de la plataforma de educación en línea para aumentar la participación de los usuarios y el retorno del mercado en función de las diferencias de popularidad de la búsqueda entre ciudades y las características de la atención a las palabras clave de la industria educativa? Seleccione la sugerencia más razonable.",
+      "answer": {
+        "A": "Invertir primero en los cursos relacionados con la palabra clave \"Beneficios de Maestro\" (atención de 4400), ya que los beneficios de los maestros son el problema central de la industria y pueden atraer a una amplia gama de usuarios.",
+        "B": "Ignorar las diferencias entre ciudades y promocionar cursos estandarizados a nivel nacional para reducir los costos de operación y garantizar la consistencia.",
+        "C": "Promocionar intensamente los cursos de preparación para el Certificado de Calificación de Maestro en las ciudades con mayor popularidad de búsqueda, ya que la demanda en esta región es intensa y la atención a la palabra clave es la mayor, lo que puede lograr una alta relación de inversión y rendimiento. Al mismo tiempo, integrar contenido local para aumentar la atracción.",
+        "D": "Dado que la atención a la palabra clave \"Educación en Línea\" es alta (111600) y la popularidad de la búsqueda está en aumento, se debe cambiar por completo a la promoción de cursos exclusivamente en línea y abandonar el modelo local o mixto para maximizar la eficiencia digital.",
+        "E": "En las ciudades con mayor popularidad, desarrollar cursos de aprendizaje mixtos (por ejemplo, en línea + presencial) en función de la atención a la palabra clave \"Educación en Línea\" para satisfacer las preferencias de aprendizaje diversificadas y aprovechar el período de aumento de la tendencia de búsqueda para expandir la cuota de mercado.",
+        "F": "Incrementar la promoción en las ciudades con menor popularidad de búsqueda (por ejemplo, Chengdu con 780000 búsquedas), ya que las ciudades con mayor popularidad (por ejemplo, Beijing con 2200000 búsquedas) pueden estar saturadas en el mercado, mientras que las ciudades con menor popularidad tienen mayor potencial de crecimiento. Se debe evitar la concentración de recursos en las ciudades líderes."
+      },
+      "charts_involved": [
+        "chart_32_4",
+        "chart_32_5"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    }
+  ]
+}

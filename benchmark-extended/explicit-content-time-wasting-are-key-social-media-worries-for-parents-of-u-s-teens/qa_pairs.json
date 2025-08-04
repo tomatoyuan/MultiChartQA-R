@@ -1,0 +1,193 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What proportion of U.S. parents of teens ages 13 - 17 think that teens today have to deal with a completely different set of issues than teens did in the past?\n question2: What is the proportion of White U.S. parents of teens ages 13 to 17 who sometimes check what their teen is doing on social - media? (Hint: Use the NET value and the 'often check' value)",
+                "rationale": "rationale1: The question directly asks for the proportion of a specific group of parents with a certain opinion. The relevant information is clearly provided in the chart.\n rationale2: The NET value is the sum of the proportion of parents who sometimes check and those who often check. So, to find the proportion of those who sometimes check, we subtract the proportion of those who often check from the NET value.",
+                "answer": "77%; 33%",
+                "involved_content_sources": [
+                    "chart_5-2",
+                    "chart_4-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of U.S. parents of teens ages 13 - 17 think that teens today have to deal with a completely different set of issues than teens did in the past?\n question2: What is the proportion of U.S. parents of teens ages 13 to 17 who are a little/not at all worried that their teen's use of social - media could lead to being harassed or bullied by others?\n question3: What is the difference in the proportion of often - limiting social - media time between Black U.S. parents and White U.S. parents of teens ages 13 to 17?",
+                "rationale": "rationale1: The question directly asks for the proportion of a specific group of parents with a certain opinion. The relevant information is clearly provided in the chart.\n rationale2: We need to get the proportion of parents with little or no worry about teens being harassed or bullied on social - media from the given chart.\n rationale3: We need to subtract the proportion of White U.S. parents who often limit social - media time from the proportion of Black U.S. parents who often limit social - media time to get the difference.",
+                "answer": "77%; 45%; 5%",
+                "involved_content_sources": [
+                    "chart_5-2",
+                    "chart_2-18",
+                    "chart_4-11"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What proportion of White parents of U.S. teens aged 13 - 17 are extremely or very worried their teen could be harassed or bullied by others through social - media use?\n question2: What is the difference in the proportion of often - limiting social - media time between Black U.S. parents and White U.S. parents of teens ages 13 to 17?\n question3: What is the proportion of U.S. parents of teens ages 13 to 17 who are a little/not at all worried that their teen's use of social - media could lead to being harassed or bullied by others?\n question4: What proportion of U.S. parents of teens ages 13 - 17 think that teens today have to deal with a completely different set of issues than teens did in the past?",
+                "rationale": "rationale1: We are looking for the proportion of White parents worried about their teens being harassed or bullied on social media, and this value is available in the chart.\n rationale2: We need to subtract the proportion of White U.S. parents who often limit social - media time from the proportion of Black U.S. parents who often limit social - media time to get the difference.\n rationale3: We need to get the proportion of parents with little or no worry about teens being harassed or bullied on social - media from the given chart.\n rationale4: The question directly asks for the proportion of a specific group of parents with a certain opinion. The relevant information is clearly provided in the chart.",
+                "answer": "27%; 5%; 45%; 77%",
+                "involved_content_sources": [
+                    "chart_3-14",
+                    "chart_4-11",
+                    "chart_2-18",
+                    "chart_5-2"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion between U.S. parents of teens ages 13 - 17 who think teens today have to deal with a completely different set of issues and those who think the issues are not that different? (The answer should be a percentage.)\n question2: What is the average proportion of U.S. parents of teens ages 13 - 17 who are extremely or very worried about their teen being exposed to explicit content, sharing too much personal life, and wasting too much time on social - media among Black, White, and Hispanic parents? ",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of parents who think the issues are not that different from the proportion of parents who think teens today have to deal with a completely different set of issues. We get these two proportions from the chart.\n rationale2: We need to find the relevant proportions for each race and each concern from the chart. Then sum up all these proportions and divide by the total number of data points (9 in this case) to get the average. This involves taking values from different parts of the chart and performing addition and division operations. {(42 + 29 + 38 + 45 + 30 + 42 + 54 + 45 + 44) / 9} = 39.67 (rounded to two decimal places)",
+                "answer": "54%; 39.67",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_3-1",
+                    "chart_3-4",
+                    "chart_3-7",
+                    "chart_3-2",
+                    "chart_3-5",
+                    "chart_3-8",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion between U.S. parents of teens ages 13 - 17 who think teens today have to deal with a completely different set of issues and those who think the issues are not that different? (The answer should be a percentage.)\n question2: What is the average proportion of U.S. parents of teens ages 13 - 17 who are extremely or very worried about their teen being exposed to explicit content, sharing too much personal life, and wasting too much time on social - media among Black, White, and Hispanic parents? \n question3: What is the difference between the NET proportion of Black U.S. parents who check what their teen is doing on social - media and the NET proportion of White U.S. parents who check what their teen is doing on social - media?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of parents who think the issues are not that different from the proportion of parents who think teens today have to deal with a completely different set of issues. We get these two proportions from the chart.\n rationale2: We need to find the relevant proportions for each race and each concern from the chart. Then sum up all these proportions and divide by the total number of data points (9 in this case) to get the average. This involves taking values from different parts of the chart and performing addition and division operations. {(42 + 29 + 38 + 45 + 30 + 42 + 54 + 45 + 44) / 9} = 39.67 (rounded to two decimal places)\n rationale3: To find the difference, we need to subtract the NET proportion of White U.S. parents from the NET proportion of Black U.S. parents. The relevant data for Black parents is in chart_4-10 and for White parents is in chart_4-6.",
+                "answer": "54%; 39.67; 15%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_3-1",
+                    "chart_3-4",
+                    "chart_3-7",
+                    "chart_3-2",
+                    "chart_3-5",
+                    "chart_3-8",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_4-6",
+                    "chart_4-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion between U.S. parents of teens ages 13 - 17 who think teens today have to deal with a completely different set of issues and those who think the issues are not that different? (The answer should be a percentage.)\n question2: What is the average proportion of U.S. parents of teens ages 13 - 17 who are extremely or very worried about their teen being exposed to explicit content, sharing too much personal life, and wasting too much time on social - media among Black, White, and Hispanic parents? \n question3: What is the difference between the NET proportion of Black U.S. parents who check what their teen is doing on social - media and the NET proportion of White U.S. parents who check what their teen is doing on social - media?\n question4: What is the difference between the proportion of U.S. parents of teens ages 13 - 17 who are extremely/very worried that their teen's use of social - media could lead to being exposed to explicit content and the proportion who are extremely/very worried about being harassed or bullied by others?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of parents who think the issues are not that different from the proportion of parents who think teens today have to deal with a completely different set of issues. We get these two proportions from the chart.\n rationale2: We need to find the relevant proportions for each race and each concern from the chart. Then sum up all these proportions and divide by the total number of data points (9 in this case) to get the average. This involves taking values from different parts of the chart and performing addition and division operations. {(42 + 29 + 38 + 45 + 30 + 42 + 54 + 45 + 44) / 9} = 39.67 (rounded to two decimal places)\n rationale3: To find the difference, we need to subtract the NET proportion of White U.S. parents from the NET proportion of Black U.S. parents. The relevant data for Black parents is in chart_4-10 and for White parents is in chart_4-6.\n rationale4: We need to find the proportion of parents extremely/very worried about their teens being exposed to explicit content and the proportion of parents extremely/very worried about their teens being harassed or bullied by others from the chart. Then subtract the second proportion from the first one to get the difference.",
+                "answer": "54%; 39.67; 15%; 17",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_3-1",
+                    "chart_3-4",
+                    "chart_3-7",
+                    "chart_3-2",
+                    "chart_3-5",
+                    "chart_3-8",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_3-9",
+                    "chart_4-6",
+                    "chart_4-10",
+                    "chart_2-1",
+                    "chart_2-16"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. parents of teens ages 13 - 17 who are extremely/very worried that their teen's use of social - media could lead to being exposed to explicit content and the proportion of those who say 'Despite some differences, the issues teens have to deal with today are not that different from when they were a teenager'?",
+                "rationale": "The proportion of U.S. parents of teens ages 13 - 17 who are extremely/very worried that their teen's use of social - media could lead to being exposed to explicit content is 46%. The proportion of those who say 'Despite some differences, the issues teens have to deal with today are not that different from when they were a teenager' is 23%. The difference is 46% - 23% = 23%.",
+                "answer": "23%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_5-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. parents of teens ages 13 - 17 who are extremely/very worried that their teen's use of social - media could lead to being exposed to explicit content, the proportion of Hispanic parents of teens ages 13 - 17 who are extremely or very worried their teen could be harassed or bullied by others through social - media use, and the proportion of U.S. parents of teen girls ages 13 - 17 who often check what their teen is doing on social - media? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. parents of teens ages 13 - 17 who are extremely/very worried that their teen's use of social - media could lead to being exposed to explicit content is 46%. The proportion of Hispanic parents of teens ages 13 - 17 who are extremely or very worried their teen could be harassed or bullied by others through social - media use is 40%. The proportion of U.S. parents of teen girls ages 13 - 17 who often check what their teen is doing on social - media is 25%. The average is (46% + 40% + 25%) / 3 = 37% (rounded to two decimal places).",
+                "answer": "37%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-15",
+                    "chart_4-21"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the proportion of parents extremely/very worried about their teen wasting too much time on social media (from Chart 2), and the average of the proportion of White parents extremely/very worried about their teen being exposed to explicit content (from Chart 3), the proportion of U.S. parents who often check what their teen is doing on social media (from Chart 4), and the proportion of parents who think teens today face a completely different set of issues (from Chart 5)?",
+                "rationale": "From Chart 2, the proportion of parents extremely/very worried about their teen wasting too much time on social media is 42%. From Chart 3, the proportion of White parents extremely/very worried about their teen being exposed to explicit content is 45%. From Chart 4, the proportion of U.S. parents who often check what their teen is doing on social media is 23%. From Chart 5, the proportion of parents who think teens today face a completely different set of issues is 77%. The average of these three values is (45% + 23% + 77%) / 3 = 48.33%. The difference is 48.33% - 42% = 6.33%.",
+                "answer": "6.33%",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_3-2",
+                    "chart_4-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of White and Hispanic parents who are extremely or very worried that their teen could waste too much time on social - media sites and the average of the proportions of U.S. parents of teen boys and teen girls who often check what their teen is doing on social - media?",
+                "rationale": "Among U.S. parents of teens ages 13 to 17, the proportion of White parents who are extremely or very worried their teen could waste too much time on social - media sites is 42% (chart_3-8), and the proportion of Hispanic parents is 44% (chart_3-9). The average of these two proportions is (42% + 44%) / 2 = 43%. Among U.S. parents of teens ages 13 to 17, the proportion of parents of teen boys who often check what their teen is doing on social - media is 22% (chart_4-17), and the proportion of parents of teen girls is 25% (chart_4-21). The average of these two proportions is (22% + 25%) / 2 = 23.5%. Then the difference between the two is 43% - 23.5% = 19.5%.",
+                "answer": "19.5%",
+                "involved_content_sources": [
+                    "chart_3-8",
+                    "chart_3-9",
+                    "chart_4-17",
+                    "chart_4-21"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. parents extremely/very worried about their teen wasting too much time on social media, the proportion of Hispanic parents extremely/very worried about their teen being harassed or bullied on social media, and the proportion of U.S. parents of teen girls who often check what their teen is doing on social media?",
+                "rationale": "The proportion of U.S. parents extremely/very worried about their teen wasting too much time on social media is 42% (chart_2-4); the proportion of Hispanic parents extremely/very worried about their teen being harassed or bullied on social media is 40% (chart_3-15); the proportion of U.S. parents of teen girls who often check what their teen is doing on social media is 25% (chart_4-21). The average is (42% + 40% + 25%) / 3 = (0.42 + 0.4 + 0.25) / 3 = 1.07 / 3 \u2248 0.357 = 35.7%.",
+                "answer": "35.7%",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_3-15",
+                    "chart_3-16",
+                    "chart_4-21",
+                    "chart_4-22"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of Hispanic parents and White parents extremely/very worried about their teen being exposed to explicit content, the difference between the proportion of parents of teen girls and teen boys who often check what their teen is doing on social - media, the difference between the proportion of parents extremely/very worried about their teen wasting too much time on social - media and being distracted from homework, and the difference between the proportion of parents who think teens today face completely different issues and those who think the issues are not that different?",
+                "rationale": "1. From Chart 3, the proportion of Hispanic parents extremely/very worried about their teen being exposed to explicit content is 54% (chart_3-3), and that of White parents is 45% (chart_3-2). The difference is 54% - 45% = 9%.\\n2. From Chart 4, the proportion of parents of teen girls who often check what their teen is doing on social - media is 25% (chart_4-21), and that of parents of teen boys is 22% (chart_4-17). The difference is 25% - 22% = 3%.\\n3. From Chart 2, the proportion of parents extremely/very worried about their teen wasting too much time on social - media is 42% (chart_2-4), and that of being distracted from homework is 38% (chart_2-7). The difference is 42% - 38% = 4%.\\n4. From Chart 5, the proportion of parents who think teens today face completely different issues is 77% (chart_5-2), and those who think the issues are not that different is 23% (chart_5-1). The difference is 77% - 23% = 54%.\\nThe average of these four differences is (9% + 3% + 4% + 54%) / 4 = 17.5%.",
+                "answer": "17.5%",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_2-7",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_4-17",
+                    "chart_4-21",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

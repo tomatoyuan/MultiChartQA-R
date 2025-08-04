@@ -1,0 +1,182 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the average audience for CNN in cable TV prime news in 2016? Please answer with a number (in millions).\n question2: What was the percentage of Americans ages 12 and older who listened to terrestrial (AM/FM) radio in 2020? Please provide the answer as a number.",
+                "rationale": "rationale1: The question asks for the average audience of CNN in cable TV prime news in 2016. We can directly find the relevant data from the chart, which is 1.88M.\n rationale2: The question asks for the percentage of Americans ages 12 and older who listened to terrestrial (AM/FM) radio in 2020. The relevant information is directly given in chart 5's second content.",
+                "answer": "1.88; 83%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the average audience for MSNBC in cable TV prime news in 2020? Please answer with a number (in millions).\n question2: What was the approximate range of digital advertising revenue (in U.S. dollars) in 2013? \n question3: In which year was the advertising revenue of the U.S. newspaper industry below $10B? Provide the answer as a four - digit year.",
+                "rationale": "rationale1: The question is about the average audience of MSNBC in cable TV prime news in 2020. From the chart, we get the value of 1.60M.\n rationale2: The question asks for the approximate range of digital advertising revenue in 2013. We can directly find the relevant information from the chart which states that in 2013, digital advertising revenue is approximately around $50B, so we can conclude the range.\n rationale3: The question requires finding the year when the advertising revenue of the U.S. newspaper industry was below $10B. By checking the chart, we can find the corresponding year from the given information.",
+                "answer": "1.60; Around $50B; 2020",
+                "involved_content_sources": [
+                    "chart_2-6",
+                    "chart_4-6",
+                    "chart_1-13"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the percentage of Americans ages 12 and older who listened to terrestrial (AM/FM) radio in 2010? Please provide the answer as a number.\n question2: What was the approximate circulation revenue of the U.S. newspaper industry in 2000? Answer in billions of U.S. dollars.\n question3: What was the average audience for MSNBC in cable TV prime news in 2020? Please answer with a number (in millions).\n question4: What was the total political advertising revenue for five publicly - held local TV station companies in 2017? (Answer in millions of dollars)",
+                "rationale": "rationale1: The question asks for the percentage of Americans ages 12 and older who listened to terrestrial (AM/FM) radio in 2010. The relevant information is directly given in chart 5's first content.\n rationale2: We need to determine the circulation revenue of the U.S. newspaper industry in 2000. The chart provides this specific data, and we just need to pick it out.\n rationale3: The question is about the average audience of MSNBC in cable TV prime news in 2020. From the chart, we get the value of 1.60M.\n rationale4: The chart shows that the total political advertising revenue in 2017 was $0 million, which is the answer to the question.",
+                "answer": "92%; 10; 1.60; 0",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_1-10",
+                    "chart_2-6",
+                    "chart_3-6"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the total average audience of CNN, Fox News, and MSNBC in cable TV prime news in 2016?\n question2: What is the percentage - point decrease in the proportion of Americans ages 12 and older who listen to terrestrial (AM/FM) radio from 2010 to 2020 in a given week?",
+                "rationale": "rationale1: To find the total average audience in 2016, we need to add the average audiences of CNN, Fox News, and MSNBC in that year. The data for these values are provided in the chart, and by adding them together, we can get the total.\n rationale2: To find the percentage - point decrease, we need to subtract the percentage in 2020 from the percentage in 2010. This directly uses the data from the given chart about the percentages in different years.",
+                "answer": "5.936M; 9",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_5-1",
+                    "chart_5-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the total average audience of CNN, Fox News, and MSNBC in cable TV prime news in 2016?\n question2: What is the percentage - point decrease in the proportion of Americans ages 12 and older who listen to terrestrial (AM/FM) radio from 2010 to 2020 in a given week?\n question3: What is the approximate total revenue (advertising revenue + circulation revenue) of the U.S. newspaper industry in 2000?",
+                "rationale": "rationale1: To find the total average audience in 2016, we need to add the average audiences of CNN, Fox News, and MSNBC in that year. The data for these values are provided in the chart, and by adding them together, we can get the total.\n rationale2: To find the percentage - point decrease, we need to subtract the percentage in 2020 from the percentage in 2010. This directly uses the data from the given chart about the percentages in different years.\n rationale3: To find the total revenue in 2000, we need to add the advertising revenue and the circulation revenue in that year. The advertising revenue in 2000 is above $40B and the circulation revenue is around $10B. We approximate the advertising revenue as $40B for calculation. Then we add these two values together.",
+                "answer": "5.936M; 9; $50B",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_1-9",
+                    "chart_1-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the total average audience of CNN, Fox News, and MSNBC in cable TV prime news in 2016?\n question2: What is the percentage - point decrease in the proportion of Americans ages 12 and older who listen to terrestrial (AM/FM) radio from 2010 to 2020 in a given week?\n question3: What is the approximate total revenue (advertising revenue + circulation revenue) of the U.S. newspaper industry in 2000?\n question4: What is the average political advertising revenue for the five publicly - held local TV station companies from 2012 to 2020 (in billions, rounded to two decimal places)?",
+                "rationale": "rationale1: To find the total average audience in 2016, we need to add the average audiences of CNN, Fox News, and MSNBC in that year. The data for these values are provided in the chart, and by adding them together, we can get the total.\n rationale2: To find the percentage - point decrease, we need to subtract the percentage in 2020 from the percentage in 2010. This directly uses the data from the given chart about the percentages in different years.\n rationale3: To find the total revenue in 2000, we need to add the advertising revenue and the circulation revenue in that year. The advertising revenue in 2000 is above $40B and the circulation revenue is around $10B. We approximate the advertising revenue as $40B for calculation. Then we add these two values together.\n rationale4: To find the average, we need to sum up all the political advertising revenues from 2012 to 2020 and then divide by the number of years. First, we convert the revenue in 2012 from millions to billions ($570 million = 0.57 billion). Then we add up all the revenues: 0.57 + 0 + 0.75 + 0 + 0.85 + 0 + 1.2 + 0 + 2.0 = 5.37 billion. There are 9 years from 2012 to 2020. So the average is 5.37 / 9 \u2248 0.5967 billion, rounded to two decimal places is 0.60 billion.",
+                "answer": "5.936M; 9; $50B; 0.60",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_5-1",
+                    "chart_5-2",
+                    "chart_1-9",
+                    "chart_1-10",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_3-9"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the increase in CNN's average cable TV prime news audience from 2017 to 2020 to the decrease in the U.S. newspaper industry's advertising revenue from 2010 to 2020?",
+                "rationale": "The increase in CNN's average cable TV prime news audience from 2017 to 2020 is 1.80M - 1.35M = 0.45M. The decrease in the U.S. newspaper industry's advertising revenue from 2010 to 2020 is $25B - $10B = $15B. The ratio is 0.45M / 15B = 0.45\u00d710\u2076 / (15\u00d710\u2079)= 0.00003.",
+                "answer": "0.00003",
+                "involved_content_sources": [
+                    "chart_1-11",
+                    "chart_2-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the increase in the average audience of CNN in cable TV prime news from 2017 to 2020 to the difference between the advertising revenue and circulation revenue of the U.S. newspaper industry in 2010, then multiplied by the growth rate of the total political advertising revenue for five publicly - held local TV station companies from 2016 to 2020? (Round the result to two decimal places.)",
+                "rationale": "First, calculate the increase in the average audience of CNN in cable TV prime news from 2017 to 2020: 1.80M - 1.35M = 0.45M. Second, calculate the difference between the advertising revenue and circulation revenue of the U.S. newspaper industry in 2010: 25B - 10B = 15B. Third, calculate the growth rate of the total political advertising revenue for five publicly - held local TV station companies from 2016 to 2020: ((2.0B - 0.85B) / 0.85B) \u2248 1.35. Then, calculate the ratio: (0.45M / 15B) \u00d7 1.35. Since 1B = 1000M, 15B = 15000M. So (0.45M / 15000M) \u00d7 1.35 = 0.00003 \u00d7 1.35 = 0.0000405 \u2248 0.00 (rounded to two decimal places).",
+                "answer": "0.00",
+                "involved_content_sources": [
+                    "chart_2-4",
+                    "chart_1-11",
+                    "chart_3-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the difference between the 2020 newspaper advertising revenue and circulation revenue, to the difference between the 2020 digital and non - digital advertising revenue, multiplied by the ratio of the 2020 cable news average audience of CNN to the 2016 average audience of MSNBC, and then divided by the ratio of the 2020 political advertising revenue of five publicly - held local TV station companies to the 2012 revenue?",
+                "rationale": "First, from Chart 1, the 2020 newspaper advertising revenue is below $10B (assume $9B for calculation) and circulation revenue is around $10B, so the difference is $10B - $9B = $1B. From Chart 4, the 2020 non - digital advertising revenue is around $100B and digital advertising revenue is above $100B (assume $101B for calculation), so the difference is $101B - $100B = $1B. The ratio of these two differences is $1B / $1B = 1. From Chart 2, the 2020 average audience of CNN is 1.80M and the 2016 average audience of MSNBC is 976K = 0.976M, so the ratio is 1.80M / 0.976M \u2248 1.84. From Chart 3, the 2020 political advertising revenue of five publicly - held local TV station companies is $2.0 billion and the 2012 revenue is $570 million = $0.57 billion, so the ratio is $2.0B / $0.57B \u2248 3.51. Then, (1\u00d71.84) / 3.51 \u2248 0.53.",
+                "answer": "0.53",
+                "involved_content_sources": [
+                    "chart_1-14",
+                    "chart_2-6",
+                    "chart_3-9",
+                    "chart_4-20"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the ratio of the newspaper advertising revenue in 2020 to that in 2000 and the ratio of the CNN average audience in 2020 to that in 2016 in cable TV prime news?",
+                "rationale": "The advertising revenue of the U.S. newspaper industry in 2000 was above $40B (chart_1-9), and in 2020 was below $10B (chart_1-13). So the ratio of the newspaper advertising revenue in 2020 to that in 2000 is approximately 10B / 40B = 0.25. The average audience for CNN in cable TV prime news in 2016 was 1.88M (chart_2-1), and in 2020 was 1.80M (chart_2-5). So the ratio of the CNN average audience in 2020 to that in 2016 is 1.80M / 1.88M \u2248 0.96. Then the difference between the two ratios is 0.96 - 0.25 = 0.71.",
+                "answer": "0.71",
+                "involved_content_sources": [
+                    "chart_1-9",
+                    "chart_1-13",
+                    "chart_2-1",
+                    "chart_2-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the change in the U.S. newspaper industry's advertising revenue from 2000 to 2020 to the change in the total political advertising revenue for five publicly - held local TV station companies from 2016 to 2020, after adjusting the newspaper revenue to billions of dollars, and then add the difference in the average audience of CNN in cable TV prime news between 2016 and 2020?",
+                "rationale": "The advertising revenue of the U.S. newspaper industry in 2000 was above $40B (chart_1-9), and in 2020 was below $10B (chart_1-13), so the change is approximately $40B - $10B = $30B. The total political advertising revenue for five publicly - held local TV station companies in 2016 was approximately $0.85 billion (chart_3-5), and in 2020 was $2.0 billion (chart_3-9), so the change is $2.0B - $0.85B = $1.15B. The ratio of these two changes is $30B / $1.15B \u2248 26.09. The average audience of CNN in cable TV prime news in 2016 was 1.88M (chart_2-1), and in 2020 was 1.80M (chart_2-5), the difference is 1.88M - 1.80M = 0.08M. Adding this difference to the ratio gives 26.09 + 0.08 = 26.17.",
+                "answer": "26.17",
+                "involved_content_sources": [
+                    "chart_1-9",
+                    "chart_1-13",
+                    "chart_2-1",
+                    "chart_2-5",
+                    "chart_3-5",
+                    "chart_3-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the decrease rate of U.S. newspaper advertising revenue from 2010 to 2020, the growth rate of CNN's average cable TV prime news audience from 2017 to 2020, the growth rate of the total political advertising revenue of five publicly - held local TV station companies from 2018 to 2020, and the increase amount of digital advertising revenue compared to non - digital advertising revenue in 2020?",
+                "rationale": "1. First, calculate the decrease rate of U.S. newspaper advertising revenue from 2010 to 2020:   - In 2010, the advertising revenue of the U.S. newspaper industry was around $25B (chart_1-11). In 2020, it was below $10B (chart_1-13). The decrease amount is \\(25 - 10=15B\\), and the decrease rate is \\(\\frac{15}{25}\\times100\\% = 60\\%\\).2. Then, calculate the growth rate of CNN's average cable TV prime news audience from 2017 to 2020:   - In 2017, the average audience for CNN in cable TV prime news was 1.35M (chart_2-4). In 2020, it was 1.80M (chart_2-5). The growth amount is \\(1.80 - 1.35 = 0.45M\\), and the growth rate is \\(\\frac{0.45}{1.35}\\times100\\%\\approx33.33\\%\\).3. Next, calculate the growth rate of the total political advertising revenue of five publicly - held local TV station companies from 2018 to 2020:   - In 2018, the total political advertising revenue for five publicly - held local TV station companies was approximately $1.2 billion (chart_3-7). In 2020, it was $2.0 billion (chart_3-9). The growth amount is \\(2.0 - 1.2 = 0.8B\\), and the growth rate is \\(\\frac{0.8}{1.2}\\times100\\%\\approx66.67\\%\\).4. Finally, calculate the increase amount of digital advertising revenue compared to non - digital advertising revenue in 2020:   - In 2020, non - digital advertising revenue was approximately around $100B (chart_4-19), and digital advertising revenue was approximately above $100B. Let's assume digital advertising revenue is $101B (since it's above $100B). The increase amount is \\(101 - 100 = 1B\\).   - The average of these four values is \\(\\frac{60 + 33.33+66.67 + 1}{4}=\\frac{161}{4}=40.25\\).",
+                "answer": "40.25",
+                "involved_content_sources": [
+                    "chart_1-11",
+                    "chart_1-13",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_3-7",
+                    "chart_3-9",
+                    "chart_4-19",
+                    "chart_4-20"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

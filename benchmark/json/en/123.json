@@ -1,0 +1,206 @@
+{
+  "chart": [
+    "chart_123_1",
+    "chart_123_2",
+    "chart_123_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "From 2021 to 2023, did the change trends of the online food delivery user scale in China and the national catering revenue match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The two time series rose synchronously in 2021 (the number of users increased from 418.83 million to 544.16 million, and the catering revenue increased from 3.95 trillion yuan to 4.69 trillion yuan), declined synchronously in 2022, and rebounded synchronously in 2023, showing a consistent 'rise - fall - rise' trend.",
+      "charts_involved": [
+        "chart_123_1",
+        "chart_123_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "From 2018 to 2023, was there a positive correlation between the year - on - year growth rate of the national catering revenue and the year - on - year growth rate of the online food delivery market size? Answer positive correlation, negative correlation, or no correlation.",
+      "answer": "No correlation",
+      "explanation": "The growth rate of catering revenue was negative in 2020 and 2022, while the online food delivery market still maintained positive growth. They only rose in the same direction in 2021 and 2023, and the directions were opposite in the remaining years. Overall, the correlation was not obvious.",
+      "charts_involved": [
+        "chart_123_2",
+        "chart_123_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "As of 2023, was the year with the highest online food delivery user scale in the country also the year with the highest online food delivery market size and the highest national catering revenue? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Although the online food delivery user scale and the catering revenue both reached stage highs in 2023 (5.29 trillion yuan), the predicted values of the online food delivery market size from 2024 to 2027 were higher (the highest was 1956.7 billion yuan). Therefore, 2023 was not the year when all three indicators reached their extreme values.",
+      "charts_involved": [
+        "chart_123_1",
+        "chart_123_2",
+        "chart_123_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the proportion of the online food delivery market size in 2023 to the total catering revenue in China in 2023? Express the answer as a percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "28.84%",
+      "explanation": "Online food delivery market size in 2023 (1525.4 billion yuan) ÷ Total catering revenue in 2023 (5290 billion yuan) = 0.288355. Rounding to 2 decimal places gives 28.84%.",
+      "charts_involved": [
+        "chart_123_3",
+        "chart_123_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the approximate per - capita annual catering expenditure in 2023? Round to the nearest integer. Answer: xx yuan",
+      "answer": "9715 yuan",
+      "explanation": "Total catering revenue in 2023 (5290 billion yuan) = 5.29×10^12 yuan; Number of food delivery users in 2023 (544.54 million people) = 5.4454×10^8 people; Per - capita expenditure = 5.29×10^12 yuan ÷ 5.4454×10^8 people ≈ 9715 yuan.",
+      "charts_involved": [
+        "chart_123_2",
+        "chart_123_1"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the difference between the overall food delivery penetration rate and the online food delivery industry penetration rate in 2023? Express the answer as a percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "21.10%",
+      "explanation": "Overall food delivery penetration rate (49.9%) - Online food delivery industry penetration rate (28.8%) = 21.10%.",
+      "charts_involved": [
+        "chart_123_1",
+        "chart_123_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In 2020, the chart of overall catering revenue shows a significant decline, but the chart of the online food delivery market size shows growth. How can this apparent contradiction be explained?",
+      "answer": {
+        "A": "The growth of the online food delivery market size is due to the high - end transformation of the overall catering industry, leading to an increase in unit price, while the decline in revenue is due to the shrinkage of the mid - and low - end catering.",
+        "B": "The government's consumer voucher policy during the epidemic stimulated the demand for online food delivery, while offline catering could not benefit from the lockdown measures, thus explaining the contradiction.",
+        "C": "The catering revenue above the quota increased in 2020 (+5.0%), while the overall catering revenue declined, which directly drove the expansion of the online food delivery market.",
+        "D": "Although the overall catering revenue decreased, the online food delivery market increased against the trend due to the epidemic - driven online demand, resulting in inconsistent trends in penetration rate.",
+        "E": "The decline of catering revenue above the quota was less than that of the overall catering, but the high growth of the online food delivery market was the key factor to alleviate the overall decline.",
+        "F": "The user scale increased slightly but the penetration rate decreased, indicating an expansion of the netizen base, and the growth of the online food delivery market partially offset the overall catering shrinkage.",
+        "G": "In 2020, the scale of online food delivery users decreased significantly, but the penetration rate increased, driving the growth of the market size, indicating that the decrease in users promoted market efficiency instead."
+      },
+      "charts_involved": [
+        "chart_123_1",
+        "chart_123_2",
+        "chart_123_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "From the trends of the online food delivery user scale and the online food delivery market size, which patterns indicate a synergistic effect between the expansion of the user base and market growth?",
+      "answer": {
+        "A": "In 2023, the market size increased by 36.7% year - on - year, while the user scale only increased slightly (from 521.18 million to 544.54 million), and the penetration rate decreased, indicating that user expansion contributed little to market growth.",
+        "B": "When user growth slowed down, market size growth also tended to be moderate, but 2023 was an exception, indicating that other factors (such as unit price or service expansion) may have intervened.",
+        "C": "The expansion of the user base and market growth were always positively correlated, with no exceptional years, proving that the synergistic effect was linear and stable.",
+        "D": "During the periods when the user penetration rate was stable or increasing, the growth rate of the market size tended to accelerate. For example, the increase in penetration rate in 2018 corresponded to an accelerated market growth.",
+        "E": "The increase in the penetration rate of mobile Internet was the core driving force of the synergistic effect, which stimulated both user growth and market expansion.",
+        "F": "In 2019, the user scale increased significantly (from 406.01 million to 397.8 million), but the market size growth rate slowed down to 16.9%, indicating that the synergistic effect failed.",
+        "G": "In the years when the user scale increased significantly, the market size growth rate also increased significantly. For example, the surge in users in 2021 was accompanied by a high - speed expansion of the market."
+      },
+      "charts_involved": [
+        "chart_123_1",
+        "chart_123_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "What is the implicit relationship between the penetration rate of online food delivery and the trend of overall catering revenue? What factors may explain the changes in penetration rate?",
+      "answer": {
+        "A": "In the years when catering revenue grew strongly, the penetration rate of online food delivery also increased significantly, indicating that the overall prosperity of the market accelerated the online transformation. For example, the high - growth of revenue in 2021 corresponded to a leap in penetration rate.",
+        "B": "In the years when catering revenue declined, the penetration rate of online food delivery increased or remained resilient, reflecting the substitution effect of online channels during the crisis. For example, in 2020, the decline in revenue and the change in penetration rate need to be analyzed in combination with user behavior.",
+        "C": "The changes in catering revenue above the quota were similar to the trend of online food delivery penetration rate, but there was a deviation in 2022, suggesting that economic structural changes affected the penetration rate.",
+        "D": "The changes in penetration rate were mainly affected by seasonal factors, such as the peak of holiday catering consumption, while the overall revenue trend was a secondary factor.",
+        "E": "In 2020, the catering revenue declined (-15.4%), but the penetration rate jumped from 12.8% to 21.4%, showing that the substitution effect of online channels was enhanced during the crisis.",
+        "F": "In 2022, the change in catering revenue above the quota (-5.9%) was highly consistent with the change in penetration rate (25.4%), indicating that high - end catering dominated the change in penetration rate.",
+        "G": "During the economic recession, consumers' incomes decreased, resulting in a systematic decline in penetration rate because online food delivery was regarded as a luxury good."
+      },
+      "charts_involved": [
+        "chart_123_2",
+        "chart_123_3",
+        "chart_123_1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the development trend of the food delivery market, how should food delivery platforms adjust their user acquisition and retention strategies to maximize the user base and long - term loyalty in a volatile market? Please select the most reasonable suggestions.",
+      "answer": {
+        "A": "Cooperate with more restaurants to expand the supply options to meet the diverse needs of different users, thus naturally attracting new users.",
+        "B": "Continuously optimize the APP user interface to enhance the overall user experience, as a good design can indirectly increase user stickiness.",
+        "C": "When the growth of the user scale slows down, shift the focus to enhancing the value and retention rate of existing users. Data shows that the period of user scale fluctuation is often accompanied by a slowdown in growth. At this time, optimizing service quality and personalized recommendations can reduce churn and increase the contribution per user.",
+        "D": "Implement differentiated promotion for groups with relatively stagnant penetration rates. In the stage where the overall penetration rate shows no obvious improvement, focus on the underserved user segments (such as specific age groups or regions), tap potential through targeted marketing, and ensure fair coverage of all groups.",
+        "E": "When the user scale declines (such as in 2022), immediately cut the marketing budget significantly to control costs, as data shows that the input efficiency is low during the period of user churn.",
+        "F": "Concentrate resources on price wars in the years when the penetration rate is stable (such as 49.9% in 2023), because a high penetration rate means market saturation, and it is necessary to seize market share through low prices.",
+        "G": "Concentrate resources on user expansion during the period of rapid penetration rate increase. When the user penetration rate shows a significant upward trend, increasing marketing investment can efficiently capture new users. Meanwhile, the simultaneous high - growth of the market size indicates a better input - output ratio at this stage."
+      },
+      "charts_involved": [
+        "chart_123_1",
+        "chart_123_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Given the revenue fluctuations and online - going trend in the catering industry, how should catering enterprises balance the resource allocation between online food delivery and offline dine - in to improve overall revenue and risk - resistance ability? Please select the most effective strategies.",
+      "answer": {
+        "A": "Allocate resources evenly between online and offline channels to ensure business diversification and reduce risks.",
+        "B": "Strengthen food safety management to enhance brand reputation, thus attracting more customers.",
+        "C": "When the industry recovers and grows strongly, focus on upgrading the offline experience. The high - growth period of catering revenue is often accompanied by the release of consumer demand. Optimizing the offline service environment and efficiency can attract more customers while maintaining online business to capture synergistic opportunities.",
+        "D": "Continuously invest in food delivery technology to cope with the long - term upward trend of penetration rate. The steady increase and stable forecast of online penetration rate indicate that the online channel is the core in the future, and systematic investment is needed to improve efficiency and ensure equal benefits for all user groups.",
+        "E": "During the period of overall industry revenue decline, prioritize strengthening the online food delivery channel. When the catering revenue shows negative growth, the food delivery market still maintains a positive growth trend, indicating that the online business can effectively buffer the downward risk. At this time, increasing investment in digital platforms can stabilize revenue.",
+        "F": "During the period of negative growth in catering revenue (such as - 15.4% in 2020), reduce investment in food delivery to focus on offline recovery, because the overall market shrinkage indicates that the online channel is ineffective.",
+        "G": "When the online penetration rate forecast is stable (such as 28.0% in 2027), prioritize investing in the offline dine - in experience, because the stagnant penetration rate means that the online growth potential is exhausted."
+      },
+      "charts_involved": [
+        "chart_123_2",
+        "chart_123_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on historical data and future forecasts, how should investors adjust their investment strategies in the catering food delivery field to maximize returns and manage risks in the industry's fluctuations? Please select the most reasonable suggestions.",
+      "answer": {
+        "A": "Increase the investment scale in high - growth years to capture growth dividends. When the year - on - year growth rate of the market size increases significantly, the user penetration rate and revenue also increase simultaneously, indicating higher capital efficiency at this stage and the ability to quickly magnify returns.",
+        "B": "Reduce investment when the year - on - year growth rate of the market size is high (such as 50.2% in 2021), because high growth may indicate the risk of a market bubble.",
+        "C": "Double the investment when the user penetration rate declines (such as 48.8% in 2022) to seize market share at the low point.",
+        "D": "Dynamically adjust the investment rhythm according to the overall industry cycle. During the period of severe fluctuations in catering revenue (such as recession), investment should be carefully planned, and active investment should be made during the recovery period to reduce risks and take advantage of synergistic growth opportunities.",
+        "E": "During the period of expected slowdown in the growth rate, shift to efficiency - optimizing investments. Under the trend of slowing growth, the user scale and penetration rate may fluctuate. At this time, investing in technology upgrading or operational optimization can improve unit output instead of blind expansion.",
+        "F": "Ignore online food delivery during the period of stable growth in catering revenue (such as 20.9% in 2023), because the offline recovery indicates that the importance of the online channel has decreased.",
+        "G": "Regularly evaluate market trends and consult experts' opinions to make flexible investment decisions.",
+        "H": "Invest in sustainable initiatives such as green and environmentally friendly packaging to enhance the corporate social responsibility image."
+      },
+      "charts_involved": [
+        "chart_123_1",
+        "chart_123_2",
+        "chart_123_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "chart": [
+    "chart_40_1",
+    "chart_40_2",
+    "chart_40_3",
+    "chart_40_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Por favor, compare la tendencia de cambio del tamaño del mercado de los aperitivos picantes en China desde 2022 hasta 2025 en el gráfico 'Tamaño del mercado de los aperitivos picantes en China desde 2022 hasta 2026 (en miles de millones de yuanes)' con la tendencia de cambio de la puntuación promedio de picante de los tres estilos de picante (Picante → Ácido - Picante → Pimentón) en el gráfico 'Porcentaje de Preferencias por los 3 Sabores Picantes Más Populares del Mundo, Picante Promedio de Diferentes Sabores Picantes (SHU)'. ¿Son consistentes las tendencias de estas dos curvas? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "El tamaño del mercado aumentó continuamente entre 2022 → 2023 → 2024 → 2025; al mismo tiempo, la puntuación promedio de picante de los tres estilos también aumentó de 250 SHU → 750 SHU → 1250 SHU. Ambas curvas presentan un aumento monótono, por lo tanto, las tendencias son consistentes.",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Desde la secuencia de Picante → Ácido - Picante → Pimentón en el gráfico 'Porcentaje de Preferencias por los 3 Sabores Picantes Más Populares del Mundo, Picante Promedio de Diferentes Sabores Picantes (SHU)', la proporción de preferencia disminuyó continuamente; mientras tanto, el tamaño del mercado en el gráfico 'Tamaño del mercado de los aperitivos picantes en China desde 2022 hasta 2026 (en miles de millones de yuanes)' aumentó continuamente entre 2022 → 2023. Indique el nombre del estilo de picante correspondiente al momento en que la proporción de preferencia disminuyó por primera vez pero el tamaño del mercado aún estaba aumentando. Escriba directamente el nombre sin descripciones adicionales.",
+      "answer": "Ácido - Picante",
+      "explanation": "La proporción de preferencia disminuyó por primera vez de 45% (Picante) a 35% (Ácido - Picante); al mismo tiempo, el tamaño del mercado aumentó de 1804 mil millones de yuanes en 2022 a 2045 mil millones de yuanes en 2023, todavía en aumento. Por lo tanto, el punto de divergencia corresponde al estilo de Ácido - Picante.",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "En el gráfico 'Tamaño del mercado de los aperitivos picantes en China desde 2022 hasta 2026 (en miles de millones de yuanes)', el año con el mayor tamaño del mercado es 2026; en el gráfico 'Porcentaje de Preferencias por los 3 Sabores Picantes Más Populares del Mundo', el estilo de picante con la mayor proporción de preferencia es el Picante. ¿Son las categorías representadas por estos dos valores extremos las mismas? Responda sí o no.",
+      "answer": "No",
+      "explanation": "Un valor extremo representa un año (2026), mientras que el otro representa un estilo de picante (Picante). Las categorías son completamente diferentes, por lo tanto, no son las mismas.",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el tamaño del mercado de los aperitivos picantes con preferencia por el sabor Ácido - Picante en China en 2025? Redondea a 1 decimal, la unidad es miles de millones de yuanes. Respuesta: xx miles de millones de yuanes",
+      "answer": "878.5 miles de millones de yuanes",
+      "explanation": "Tamaño del mercado en 2025: 2510 miles de millones de yuanes × Preferencia por el sabor Ácido - Picante: 35% = 878.5 miles de millones de yuanes",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Tomando el tamaño del mercado en 2024 como base, ¿cuál es el tamaño del mercado correspondiente a la decisión de canal fuera de línea? Redondea a 2 decimales, la unidad es miles de millones de yuanes. Respuesta: xx miles de millones de yuanes",
+      "answer": "1690.16 miles de millones de yuanes",
+      "explanation": "Tamaño del mercado en 2024: 2284 miles de millones de yuanes × Selección de canal fuera de línea: 74% = 1690.16 miles de millones de yuanes",
+      "charts_involved": [
+        "chart_40_2",
+        "chart_40_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la proporción del canal de tienda de conveniencia entre los consumidores que eligen canales fuera de línea? Redondea a 2 decimales %. Respuesta: xx%",
+      "answer": "86.49%",
+      "explanation": "Proporción del canal de tienda de conveniencia: 64% ÷ Selección de canal fuera de línea: 74% × 100% ≈ 86.49%",
+      "charts_involved": [
+        "chart_40_3",
+        "chart_40_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según los datos de preferencia de canales de los consumidores, ¿qué opciones mejor explican la inconsistencia en la definición y clasificación de canales en diferentes fuentes?",
+      "answer": {
+        "A": "En el chart_40_3, la proporción del 57% del \"Canal fuera de línea (Pinduoduo)\" es similar a la proporción del 74% del \"Canal fuera de línea\" en el chart_40_4, lo que indica que Pinduoduo está correctamente clasificada como un canal fuera de línea, a pesar de ser una plataforma de comercio electrónico.",
+        "B": "La inconsistencia en la clasificación de canales se debe a las diferencias en el nivel de ingresos de los consumidores. Los grupos de altos ingresos prefieren más los canales en línea, mientras que los grupos de bajos ingresos tienden a los canales fuera de línea, lo que afecta los estándares de clasificación de datos.",
+        "C": "La proporción de preferencia del supermercado fuera de línea es consistente con la proporción del canal fuera de línea en la decisión de los consumidores, pero \"Pinduoduo\" está erróneamente clasificada como fuera de línea, lo que contradice la tendencia de alta proporción en línea y destaca la falta de uniformidad del sistema de clasificación.",
+        "D": "Las actividades de promoción estacionales (como el 11 de noviembre) amplifican la proporción de preferencia de los canales en línea, lo que causa conflictos en los datos de diferentes fuentes y no está relacionado con la definición de los canales en sí.",
+        "E": "La proporción del 68% del \"Canal en línea (Directo de Douyin)\" en el chart_40_3 es la misma que la proporción del 68% del \"Canal tanto en línea como fuera de línea\" en el chart_40_4, lo que sugiere que el directo de Douyin debe ser clasificado como un canal mixto, en lugar de un canal puramente en línea.",
+        "F": "La proporción de preferencia del directo de Douyin es la misma que la proporción de decisión de los consumidores que eligen canales mixtos en línea y fuera de línea, pero la forma de clasificación es diferente, lo que sugiere la ambigüedad de los canales emergentes en la clasificación tradicional.",
+        "G": "Una fuente clasifica a \"Pinduoduo\" como un canal fuera de línea, mientras que otra fuente muestra que los canales en línea dominan la decisión de los consumidores. Esto puede ser un conflicto causado por diferencias en la recopilación de datos o en los estándares de clasificación de canales."
+      },
+      "charts_involved": [
+        "chart_40_3",
+        "chart_40_4"
+      ],
+      "label": [
+        "C",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Qué factores de comportamiento de canales de los consumidores pueden influir conjuntamente en la tendencia de rápido crecimiento del tamaño del mercado de los aperitivos picantes en China?",
+      "answer": {
+        "A": "El CAGR del tamaño del mercado se calcula en aproximadamente el 11% (basado en los datos de 2022 - 2026), que supera con creces el CAGR esperado del 9.6% de los alimentos picantes en relación con los aperitivos (6.0% × 1.6), lo que se atribuye a la alta tasa de preferencia del 89% de los canales en línea.",
+        "B": "El patrón de decisión de los consumidores de utilizar tanto canales en línea como fuera de línea es consistente con la expansión continua del tamaño del mercado, lo que puede reflejar que la estrategia de múltiples canales mejora la accesibilidad del producto y la conveniencia de compra.",
+        "C": "La alta tasa de preferencia de los canales en línea en la decisión de los consumidores está asociada con la tendencia de aumento estable del tamaño del mercado año tras año, lo que indica que los canales digitales son el motor clave del crecimiento.",
+        "D": "En el chart_40_4, la proporción del 74% del \"Canal fuera de línea\" es mucho más alta que la proporción del 68% del \"Canal tanto en línea como fuera de línea\", lo que indica que las compras fuera de línea son el principal motor del crecimiento del tamaño del mercado, a pesar de la alta proporción de los canales en línea.",
+        "E": "La tasa de crecimiento de los alimentos picantes supera con creces el nivel general de la industria de los aperitivos. Combinado con la preferencia dominante de los canales en línea, se destaca el efecto multiplicador de los canales digitales en un mercado de alto crecimiento.",
+        "F": "El aumento de la inversión en publicidad en redes sociales ha mejorado la visibilidad de la marca y estimulado la voluntad de compra de los consumidores, lo que no está relacionado con la preferencia de canales.",
+        "G": "Factores macroeconómicos como el crecimiento del PIB y el aumento de la tasa de inflación han impulsado directamente la expansión del tamaño del mercado, en lugar del comportamiento de canales."
+      },
+      "charts_involved": [
+        "chart_40_2",
+        "chart_40_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Cómo pueden las características de preferencia por el sabor picante a nivel mundial influir implícitamente en el desarrollo de productos y el potencial de crecimiento del mercado de los aperitivos picantes en China?",
+      "answer": {
+        "A": "El origen del sabor picante en Asia (como China y el sudeste asiático), combinado con la proximidad geográfica, puede facilitar la innovación local y apoyar indirectamente la expansión del mercado chino.",
+        "B": "El sabor \"Ácido - Picante\" tiene una puntuación Scoville promedio de 750 SHU (nivel medio) y una proporción de preferencia del 35%. Combinado con su origen en el sudeste asiático, puede ser más adecuado para el desarrollo del mercado chino debido a la proximidad geográfica.",
+        "C": "La tendencia mundial hacia una dieta saludable impulsa el desarrollo de productos bajos en grasa y azúcar, lo que afecta indirectamente la innovación de los alimentos picantes, pero no se tiene en cuenta la preferencia por el nivel de picor.",
+        "D": "El sabor \"Pimentón\" tiene una alta puntuación Scoville de 1250 SHU y una proporción de preferencia del 30%, lo que indica que los productos picantes de alto nivel tienen potencial, lo que es consistente con la alta tasa de crecimiento del tamaño del mercado en China (CAGR de aproximadamente el 11%), lo que apoya el desarrollo de productos de nicho de alta gama.",
+        "E": "El sabor \"Picante\" tiene un bajo nivel de picor y la proporción de preferencia más alta, lo que puede hacerlo más fácil de aceptar para el público en general, lo que es consistente con la tendencia de crecimiento estable del tamaño del mercado en China, lo que apoya la estrategia de desarrollo de productos principales.",
+        "F": "La globalización cultural ha promovido la fusión de sabores picantes (como la combinación de occidentales y orientales), lo que ha mejorado la atractividad del mercado y no está relacionado con los datos específicos de preferencia.",
+        "G": "Los sabores \"Ácido - Picante\" y \"Pimentón\" tienen un nivel de picor más alto, lo que puede estar dirigido a mercados de nicho, pero la popularidad del sabor \"Picante\" es consistente con la predicción de aumento del tamaño del mercado, lo que sugiere que el sabor picante suave es más adecuado para las necesidades de crecimiento."
+      },
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en las características de preferencia por el sabor picante de los consumidores y la tendencia de crecimiento del tamaño del mercado, ¿cómo deberían las empresas optimizar la estrategia de combinación de productos de snacks picantes para maximizar la cuota de mercado y satisfacer las necesidades diversificadas? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Aumentar significativamente el precio de los productos para coincidir con el crecimiento del tamaño del mercado (por ejemplo, la predicción de 273.7 mil millones de yuanes en 2026), con el fin de mejorar la rentabilidad, mientras se mantiene la combinación de productos existente sin cambios.",
+        "B": "Desarrollar productos de sabor fusionado con un nivel de picor moderado. Tanto la preferencia por el sabor picante como la acido - picante tienen una proporción alta, pero la diferencia en el nivel de picor es significativa; el crecimiento del tamaño del mercado refleja un aumento en la demanda. Al equilibrar el nivel de picor (por ejemplo, combinando el bajo nivel de picor del sabor picante y el nivel de picor medio del sabor acido - picante), se puede satisfacer la aceptación de la mayoría de los consumidores y reducir los vacíos en el mercado.",
+        "C": "Aumentar el presupuesto publicitario para aumentar la知名度 de la marca, con el fin de atraer a más consumidores a comprar snacks picantes, ya que la publicidad de la marca es una estrategia general para expandir la cuota de mercado.",
+        "D": "Eliminar completamente la línea de productos de bajo nivel de picor, porque los productos de alto nivel de picor (como el sabor pimentón) mejor representan la tendencia del mercado, y la proporción de preferencia por el sabor pimentón del 30% indica que los consumidores se están volviendo hacia sabores más picantes.",
+        "E": "Aumentar la diversidad de productos con sabores acido - picante y pimentón. Aunque la preferencia por el sabor picante es la más alta, el nivel de picor del sabor acido - picante y el sabor pimentón es más alto, lo que puede atraer a segmentos de mercado que buscan sensaciones más picantes; la predicción del tamaño del mercado muestra una expansión estable, lo que indica que hay suficiente espacio para diferenciar los productos según diferentes preferencias y cubrir un grupo de consumidores más amplio.",
+        "F": "Priorizar la expansión de la línea de productos de sabor picante. Este sabor tiene la proporción más alta en la preferencia de los consumidores y un nivel de picor promedio más bajo, lo que lo hace adecuado para el gusto de la mayoría; combinado con la tendencia de crecimiento continuo del tamaño del mercado, aumentar el desarrollo de productos de sabor picante puede atraer efectivamente a los consumidores principales y aumentar las ventas generales.",
+        "G": "Priorizar el desarrollo de productos sin sabor picante para cubrir a los consumidores que no son sensibles al sabor picante, ya que el crecimiento del tamaño del mercado muestra un aumento en la demanda, pero no todos los consumidores les gusta el sabor picante."
+      },
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "De acuerdo con las preferencias de los consumidores por los canales de compra y la predicción del tamaño del mercado de los snacks picantes, ¿cómo se deberían asignar los recursos de marketing para mejorar la eficiencia de los canales y la conversión de ventas? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Abandonar completamente los canales en línea, porque el supermercado fuera de línea tiene la proporción más alta (74%) en el gráfico chart_40_3, y la predicción del tamaño del mercado muestra una demanda estable. Los canales fuera de línea pueden llegar directamente a los compradores inmediatos.",
+        "B": "Invertir en el canal de Pinduoduo, porque su proporción en el gráfico chart_40_3 es del 57%, más alta que la de la tienda de conveniencia (40%), y Pinduoduo, como una plataforma de bajo precio, puede atraer a los consumidores sensibles al precio en un mercado en crecimiento.",
+        "C": "Invertir en los canales en línea, especialmente en las plataformas de compras en línea de alta penetración. Los canales en línea tienen una proporción destacada en la decisión de compra de los consumidores y su costo de inversión es relativamente bajo; combinado con la tendencia de crecimiento rápido del tamaño del mercado, fortalecer el marketing en línea puede llegar eficientemente al grupo objetivo y aumentar las ventas.",
+        "D": "Fortalecer la estrategia de canal de integración de en línea y fuera de línea. La proporción de consumidores que eligen tanto canales en línea como fuera de línea es alta, lo que indica una preferencia por una experiencia integrada; la expansión del tamaño del mercado muestra un potencial de demanda. A través de la interacción O2O (por ejemplo, atraer tráfico en línea y ofrecer experiencias fuera de línea), se puede optimizar el uso de recursos y expandir la cobertura de ventas.",
+        "E": "Optimizar la disposición de los canales de alto tráfico fuera de línea, como supermercados y tiendas de conveniencia. Estos canales tienen una proporción alta y estable en la decisión de compra de los consumidores; el crecimiento continuo del tamaño del mercado significa un aumento en la demanda. Centrarse en estos puntos de contacto puede capturar el comportamiento de compra inmediato y mejorar la eficiencia de los canales.",
+        "F": "Centrar los recursos en el diseño del empaque de los productos en lugar de la asignación de canales, porque un empaque atractivo puede aumentar directamente la conversión, independientemente de la tendencia de expansión del tamaño del mercado.",
+        "G": "Asignar el presupuesto de marketing de manera equitativa en todos los canales para garantizar una cobertura equitativa, porque la asignación equilibrada de recursos es el principio básico para mejorar la eficiencia general."
+      },
+      "charts_involved": [
+        "chart_40_3",
+        "chart_40_4",
+        "chart_40_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combinando las características de origen global de los snacks picantes y la tendencia de preferencia de los consumidores, ¿cómo deberían las empresas formular una estrategia de expansión del mercado para aprovechar las oportunidades de crecimiento? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Expandirse en todas las regiones globales al mismo tiempo para maximizar las oportunidades de cobertura, porque la entrada a múltiples mercados es una estrategia estándar para reducir riesgos.",
+        "B": "Reducir la atención a los datos de preferencia y en su lugar expandirse rápidamente a través de fusiones y adquisiciones, porque la predicción del tamaño del mercado (en el gráfico chart_40_2) muestra un crecimiento fuerte de la industria, y las fusiones y adquisiciones pueden acelerar el aumento de la cuota de mercado.",
+        "C": "Explorar el potencial del mercado de América del Norte y centrarse en los productos de sabor pimentón. El sabor pimentón se originó en esta región, la proporción de preferencia es estable y el nivel de picor es más alto; la expansión continua del tamaño del mercado indica la vitalidad de la industria. Personalizar productos para el gusto de América del Norte puede probar nuevos puntos de crecimiento.",
+        "D": "Entrar primero en el mercado de América del Sur, porque el mapa del gráfico chart_40_1 marca a América del Sur (coordenadas (2,2)) como el lugar de origen del sabor picante, y la preferencia por el sabor picante es la más alta (45%), lo que indica una ventaja de demanda nativa en esta región.",
+        "E": "Profundizar en la fusión de múltiples sabores picantes en el mercado chino y aprovechar la cultura del lugar de encuentro de sabores picantes. El punto de encuentro de estilos de sabor picante está en Asia Central, combinado con la distribución de preferencias por el sabor picante y el sabor acido - picante; el mercado chino tiene el tamaño más grande y un crecimiento fuerte. Desarrollar productos de sabor fusionado puede fortalecer la ventaja local y satisfacer las necesidades diversificadas.",
+        "F": "Abrir primero el mercado de Asia Sudoriental. Esta región es el lugar de origen del sabor acido - picante y la proporción de preferencia de los consumidores es significativa; combinado con la tendencia de crecimiento del tamaño del mercado, lanzar productos acido - picantes locales puede integrarse rápidamente en la demanda local y reducir las barreras de entrada al mercado.",
+        "G": "Ignorar el crecimiento del mercado chino, porque el punto de encuentro de sabores picantes está en Asia Central (coordenadas (5,4)). Debería concentrarse en desarrollar nuevos mercados en Asia Central para aprovechar el punto de fusión cultural."
+      },
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

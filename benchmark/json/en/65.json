@@ -1,0 +1,205 @@
+{
+  "chart": [
+    "chart_65_1",
+    "chart_65_2",
+    "chart_65_3",
+    "chart_65_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Are both 'Main Revenue Sources of Content Creators Who Monetize Their Content in China and Overseas' and 'Platforms Preferred by Overseas Creators for Content Publishing' arranged in descending order of proportion from left to right? Answer yes or no.",
+      "answer": "No",
+      "explanation": "chart_65_2 is not.",
+      "charts_involved": [
+        "chart_65_2",
+        "chart_65_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "What are the platforms that appear in both 'Platforms Preferred by Chinese Creators for Content Publishing' and 'Platforms Preferred by Overseas Creators for Content Publishing'? Only return the literal names of the platforms in the tables without additional descriptions.",
+      "answer": "Others",
+      "explanation": " 'Others' appears in both tables.",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the charts of 'Platforms Preferred by Chinese Creators for Content Publishing' and 'Income distribution of core content creators in China from content creation' have the same color scheme? Answer yes or no.",
+      "answer": "No",
+      "explanation": "chart_65_1 uses a blue - purple color scheme, and chart_65_3 uses a gray - green color scheme.",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the percentage of Douyin among the platforms preferred by Chinese creators for content publishing to the percentage of Tiktok among the platforms preferred by overseas creators for content publishing? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "1.78 times",
+      "explanation": "Percentage of Douyin (53.4%) ÷ Percentage of Tiktok (30.0%) = 1.78",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the percentage of core content creators in China with an income of 0 yuan to the percentage of those who mainly earn income through knowledge payment? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "2.40 times",
+      "explanation": "Percentage of no - income (33.3%) ÷ Percentage of income from knowledge payment (13.9%) = 2.40",
+      "charts_involved": [
+        "chart_65_3",
+        "chart_65_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the total percentage of the top two platforms preferred by Chinese creators for content publishing to the total percentage of the top two platforms preferred by overseas creators for content publishing? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "1.95 times",
+      "explanation": "Total percentage of the top two platforms in China (Douyin 53.4% + Bilibili 48.6% = 102.0%) ÷ Total percentage of the top two platforms overseas (Tiktok 30.0% + Youtube 22.0% = 52.0%) = 1.96 → Rounded to 2 decimal places is 1.96",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Compare the chart of platforms preferred by Chinese creators for content publishing and the chart of platforms preferred by overseas creators for content publishing. Which options correctly reflect the key patterns in platform concentration and diversity between the two?",
+      "answer": {
+        "A": "The proportion of the single most - preferred platform by Chinese creators is much higher than that by overseas creators, indicating a stronger platform dependency in the Chinese market.",
+        "B": "The list of platforms preferred by Chinese creators consists entirely of domestic platforms, while overseas creators mainly prefer international platforms, suggesting that regional market isolation affects platform selection.",
+        "C": "The preference proportions of all platforms are highly similar, with no significant differences, indicating that there is no phenomenon of preference concentration when creators choose platforms.",
+        "D": "The proportions of Douyin and TikTok are the same because they belong to the same company, showing that international platforms have no regional differences.",
+        "E": "Among the platforms preferred by Chinese creators, the proportion of overseas channels is the highest because the trend of globalization has accelerated cross - platform content distribution.",
+        "F": "Among the preferences of overseas creators, the proportions of YouTube and Instagram are the same (both 22.0%), and the proportions of Bilibili and WeChat among Chinese creators are also similar (48.6% and 48.0%), so their concentration levels are exactly the same.",
+        "G": "The preference distribution of overseas creators is more balanced, with similar proportions for multiple platforms, while among Chinese creators, the proportions of the top - ranked platforms have small differences but are more concentrated overall."
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the chart of income distribution of core content creators in China from content creation and the chart of main revenue sources of content creators who monetize their content in China and overseas, which options correctly reveal the main revenue characteristics of content creators who achieve monetization against the background of a relatively high proportion of low - income earners?",
+      "answer": {
+        "A": "The combined proportion of traffic sharing and private orders is 90.7%, but the proportion of those with no income in the income distribution is only 33.3%, so the income of monetized creators is generally high.",
+        "B": "Knowledge payment has the smallest proportion among the revenue sources. Combined with the fact that there are few high - income earners in the income distribution, it implies that knowledge payment may not be the key way to increase income.",
+        "C": "E - commerce product promotion and content marketing have a certain proportion in the revenue sources, but they are far lower than traffic sharing and private orders, which may partially explain the low proportion of high - income earners in the income distribution.",
+        "D": "Content marketing accounts for 18.9%, higher than e - commerce product promotion's 16.5%, indicating that marketing is a more effective revenue channel than e - commerce promotion.",
+        "E": "Knowledge payment is the main revenue source because of the increasing demand for content specialization and education.",
+        "F": "Although the proportion of low - income or no - income earners in the income distribution is high, the revenue sources of monetization show that traffic sharing and private orders are the absolutely dominant ways, with a proportion far exceeding other sources.",
+        "G": "E - commerce product promotion is the highest - revenue source because live - streaming e - commerce has become the mainstream monetization method."
+      },
+      "charts_involved": [
+        "chart_65_3",
+        "chart_65_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "From the chart of platforms preferred by Chinese creators for content publishing and the chart of income distribution, which options best explain the potential conflict between the high concentration of platform preferences and the generally low income level?",
+      "answer": {
+        "A": "The proportions of platforms with relatively high preference, such as WeChat and Bilibili, are close, but the proportion of middle - income earners in the income distribution is much lower than that of low - income earners, suggesting that the monetization mechanisms of these platforms may not effectively convert user preferences into high income.",
+        "B": "WeChat accounts for 48.0%, and the proportion of those with an income of 10,000 - 30,000 yuan in the income distribution is 3.5%, indicating that this platform can effectively increase the income of creators.",
+        "C": "The high concentration of platform preferences naturally leads to high income for creators because the large user scale brings more monetization opportunities.",
+        "D": "Douyin accounts for 53.4%, and the proportion of high - income earners (above 30,000 yuan) in the income distribution is 3.5%, showing a positive correlation between preference and income.",
+        "E": "The proportion of the most - preferred platform by Chinese creators is extremely high, but most creators have very low or no income in the income distribution, indicating that there is no direct positive correlation between platform preference and individual income level.",
+        "F": "The proportion of high - income earners in the income distribution is extremely small, while the proportion of the most - preferred platform is extremely high. Combining with common monetization methods such as traffic sharing, it can be inferred that platform concentration may intensify competition and thus suppress income growth.",
+        "G": "The low income level is because creators avoid mainstream platforms and choose niche platforms, resulting in insufficient exposure."
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "To help Chinese content creators improve their overall income level and reduce the proportion of low - income groups, based on the characteristics of platform preferences and revenue sources, which resource allocation strategies should be prioritized? Please select the most effective suggestions.",
+      "answer": {
+        "A": "Promote the integrated model of content marketing and e - commerce product promotion on social platforms with high penetration but under - utilized revenue sources. Develop new monetization opportunities through in - platform ecological construction (such as brand cooperation and live - streaming functions) to make up for the potential gap in current revenue sources.",
+        "B": "Provide special training and resource tilt for knowledge payment and e - commerce product promotion for low - income creator groups. Since the revenue source distribution shows that these areas have relatively low proportions but growth potential, it can help creators diversify their income and reduce the risk of income instability.",
+        "C": "Encourage creators to increase the frequency of content publishing to enhance user interaction and potential income opportunities. (Easy)",
+        "D": "Prioritize the development of content marketing as a revenue source because it has the highest proportion (18.9%) in the revenue source distribution and is suitable for promotion on high - preference platforms such as Douyin to directly increase creators' income. (Hard)",
+        "E": "Strengthen the monetization support mechanisms for traffic sharing and private orders on the platforms most preferred by Chinese creators (such as short - video and community platforms). Since these platforms have a large user base and the main revenue source data shows that these methods are the most popular, it can quickly expand the income base of creators.",
+        "F": "Invest in platform technology upgrades, such as server bandwidth optimization, to improve user experience and creators' revenue. (Easy)",
+        "G": "Promote the traffic sharing mechanism on Zhihu. Since Zhihu has the highest proportion (11.3%) in platform preferences and traffic sharing is the largest proportion in revenue sources, it can quickly cover low - income groups. (Hard)"
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3",
+        "chart_65_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the differences in platform preferences and revenue model characteristics between Chinese and overseas creators, how should platform selection and resource allocation strategies be formulated to help Chinese creators successfully enter the overseas market? Please select the most reasonable suggestions.",
+      "answer": {
+        "A": "Prioritize the short - video platform most preferred by overseas creators as the first stop for going global. Since this platform is highly similar to the high - preference platforms in China, the migration cost for creators is low, and the revenue source data shows that the traffic sharing mechanism can achieve quick monetization.",
+        "B": "Focus on investing in the Twitter platform. Since it has a relatively high proportion (4.0%) among the preferences of overseas creators and is similar to Sina Weibo in China (24.0%), the private order revenue model (44.5%) can be quickly replicated for monetization. (Hard)",
+        "C": "Simultaneously layout mainstream overseas video and social platforms. Take advantage of their high user preference and content diversity, and focus on integrating revenue methods such as private orders and content marketing to replicate the domestic success model and adapt to the local monetization environment.",
+        "D": "It is recommended that creators first learn about overseas cultural differences to better adapt to the market, without specifying specific platforms. (Easy)",
+        "E": "Increase government subsidies or financial support to help creators reduce the cost of going global, without involving platform or revenue source selection. (Easy)",
+        "F": "Avoid over - investing in low - preference platforms unless they match specific revenue source innovations (such as e - commerce product promotion) to concentrate resources on high - potential channels and improve the efficiency and return on investment of going global.",
+        "G": "Promote e - commerce product promotion on Instagram. Since Instagram has a high proportion (22.0%) in overseas preferences and e - commerce product promotion has the greatest potential (16.5%) in revenue sources, it can help Chinese creators enter the market efficiently. (Hard)"
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2",
+        "chart_65_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Regarding the problem of uneven income distribution among core Chinese content creators, how should support policies be adjusted to increase the proportion of middle - and high - income groups, combined with revenue sources and platform characteristics? Please select the most feasible suggestions.",
+      "answer": {
+        "A": "Strengthen the knowledge payment revenue source on the WeChat platform. Since WeChat has a high proportion (48.0%) in platform preferences and knowledge payment has the largest proportion (13.9%) in revenue sources, it can directly increase the proportion of middle - and high - income groups. (Hard)",
+        "B": "Establish a platform - based support system for private order services (such as a matching platform and training). Utilize its high - proportion revenue characteristics to provide a stable income source, reduce the proportion of creators with no income, and at the same time, expand the coverage combined with the high penetration of social platforms.",
+        "C": "Optimize the tax policy to provide tax relief for creators to indirectly support income growth, without involving revenue sources or platform characteristics. (Easy)",
+        "D": "Encourage creators to innovate in the fields of knowledge payment and e - commerce product promotion. Through policy subsidies or resource matching, tap the potential of these low - proportion revenue sources to diversify the income structure and reduce the dependence on a single method.",
+        "E": "For creators with an income of less than 1000 yuan (33.3%), prioritize promoting e - commerce product promotion. Since it has the highest proportion (16.5%) in revenue sources, combined with high - preference platforms such as Douyin, the proportion of low - income earners can be quickly reduced. (Hard)",
+        "F": "It is recommended that creators participate in industry training to improve their skills and thus increase income opportunities, without specifying specific policies or platforms. (Easy)",
+        "G": "Optimize the traffic sharing algorithm and incentive mechanism on high - preference platforms where creators are concentrated. Since the revenue source data shows that traffic sharing is the largest income pillar, it can effectively help more creators break through the low - income threshold and enter the middle - income range."
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3",
+        "chart_65_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    }
+  ]
+}

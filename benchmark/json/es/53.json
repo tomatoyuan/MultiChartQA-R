@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_53_1",
+    "chart_53_2",
+    "chart_53_3",
+    "chart_53_4",
+    "chart_53_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿Están ordenados en orden ascendente de mayor a menor la \"Participación del mercado de los submercados en alimentos saludables/suplementos nutricionales dietéticos (Categoría de primer nivel)\" y la \"Leche en polvo proteica: Grupos de edad\"? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambos están ordenados en orden ascendente de mayor a menor.",
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Tienen el mismo estilo de coloración la \"Proporción de proteína de suero en el volumen total de ventas de polvos de proteína\" y la \"Proteínas en polvo en general: Nivel educativo\"? Responda sí o no.",
+      "answer": "No",
+      "explanation": "El chart_53_2 tiene una combinación de colores rojo y naranja, mientras que el chart_53_5 tiene una combinación de colores azul y verde.",
+      "charts_involved": [
+        "chart_53_2",
+        "chart_53_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Suponiendo que las condiciones son independientes, para la \"Leche en polvo proteica: Grupos de edad\" y la \"Proteínas en polvo en general: Nivel educativo\", ¿es verdad que el grupo con la mayor proporción es el de edad \"18 - 24\" y nivel educativo \"Secundaria o inferior\"?",
+      "answer": "Sí",
+      "explanation": "En el chart_53_4, el grupo con la mayor proporción es el de edad \"18 - 24\", y en el chart_53_5, el grupo con la mayor proporción es el de nivel educativo \"Secundaria o inferior\".",
+      "charts_involved": [
+        "chart_53_4",
+        "chart_53_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Si el tamaño total del mercado de la categoría de primer nivel de alimentos saludables/suplementos nutricionales dietéticos es de 1000 mil millones de yuanes, ¿cuál es el tamaño del mercado de la proteína de suero en este mercado en mil millones de yuanes? Redondee a 1 decimal. Respuesta: xx.xx millones de yuanes",
+      "answer": "52.1 millones de yuanes",
+      "explanation": "La participación de las proteínas en polvo (en general) en el mercado de la categoría de primer nivel es del 7.4%, y el tamaño correspondiente es de 1000 × 7.4% = 74 mil millones de yuanes; la proporción del volumen de ventas de proteína de suero en las proteínas en polvo (en general) es del 70.4%. Por lo tanto, el tamaño del mercado de la proteína de suero en la categoría de primer nivel es de 74 × 70.4% ≈ 52.1 mil millones de yuanes",
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la proporción aproximada de la población de 18 - 24 años y con una educación de licenciatura o superior en el grupo de consumo general de proteínas en polvo? Redondee a 2 decimales. Respuesta: xx.xx%",
+      "answer": "6.31%",
+      "explanation": "La proporción del grupo de edad de 18 - 24 años en el grupo de consumo general de proteínas en polvo es del 23.3%, y la proporción de la educación de licenciatura o superior en el grupo de consumo general de proteínas en polvo es del 27.1%. Suponiendo que las dos dimensiones son independientes, la proporción de esta población es de 23.3% × 27.1% ≈ 6.31%",
+      "charts_involved": [
+        "chart_53_4",
+        "chart_53_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el índice del volumen de ventas de proteínas vegetales y mixtas en junio de 2022? Redondee a un número entero. Respuesta: xx",
+      "answer": "40",
+      "explanation": "El índice del volumen de ventas total de proteínas en polvo en junio de 2022 es de 260, y el índice del volumen de ventas de proteína de suero es de 220. El índice del volumen de ventas de proteínas vegetales y mixtas = el índice del volumen de ventas total de proteínas en polvo - el índice del volumen de ventas de proteína de suero = 260 - 220 = 40",
+      "charts_involved": [
+        "chart_53_2",
+        "chart_53_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en los datos de la distribución de edad y la distribución de nivel educativo de los consumidores de proteínas en polvo, ¿qué grupos de consumidores tienen una tendencia a comprar productos de proteínas en polvo significativamente más alta que el promedio del mercado?",
+      "answer": {
+        "A": "Los grupos de consumidores mayores de 50 años, ya que las personas mayores suelen tener una mayor demanda de suplementos de salud y, por lo tanto, una mayor tendencia a comprar.",
+        "B": "La combinación de los consumidores de 18 - 24 años y el grupo de nivel educativo de licenciatura o superior, ya que ambos tienen índices de preferencia destacados y se refuerzan mutuamente en la tendencia del mercado.",
+        "C": "El grupo de consumidores de 30 - 34 años, ya que su proporción es del 17.3% y es la misma que la del grupo de 25 - 29 años, y el valor TGI de 93 está cerca de 100, lo que representa una tendencia a comprar por encima del promedio.",
+        "D": "Los consumidores de 25 - 29 años, combinados con la fuerte preferencia del grupo de nivel educativo de carrera técnica, reflejan la atracción del grupo de edad mediana joven y el contexto educativo de carrera técnica.",
+        "E": "Los jóvenes consumidores de 18 - 24 años, combinados con el alto índice de preferencia del grupo de nivel educativo de licenciatura o superior, indican que los jóvenes con alto nivel educativo son los usuarios principales.",
+        "F": "El grupo de consumidores con nivel educativo de secundaria o inferior, ya que su proporción es de hasta el 60.2%, lo que indica que este grupo es el principal fuerza en el mercado y tiene una tendencia a comprar significativamente más alta."
+      },
+      "charts_involved": [
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿A qué características de los consumidores se puede atribuir en parte la tendencia de crecimiento del volumen de transacciones de proteínas en polvo? Explique en combinación con la tendencia del volumen de transacciones y los datos de preferencia de los consumidores.",
+      "answer": {
+        "A": "La preferencia combinada del grupo de 18 - 24 años y el grupo de nivel educativo de licenciatura o superior responde al rápido crecimiento del volumen de transacciones en meses clave, lo que destaca el papel central de los consumidores jóvenes con alto nivel educativo.",
+        "B": "El alto índice de preferencia de los consumidores con alto nivel educativo (como licenciatura o superior) es consistente con el aumento significativo del índice del volumen de transacciones, lo que refleja que la demanda de la población educada impulsa la expansión del mercado.",
+        "C": "El aumento de la inversión en marketing y publicidad de la marca es el principal factor impulsor, ya que puede mejorar directamente la voluntad de compra de los consumidores y el volumen de transacciones.",
+        "D": "El alto índice de preferencia de los jóvenes consumidores (como los de 18 - 24 años), combinado con la tendencia continua de aumento del volumen de transacciones, indica que los jóvenes son el principal motor del crecimiento.",
+        "E": "El alto índice de preferencia (TGI = 89) del grupo de consumidores de 40 - 44 años impulsa el crecimiento del volumen de transacciones, especialmente en enero de 2022 con una tasa de crecimiento del 63.2%.",
+        "F": "El grupo de nivel educativo de carrera técnica es el motor central de crecimiento, ya que su valor TGI de 156 es alto y el volumen de transacciones se mantuvo en crecimiento estable de mayo a junio de 2022."
+      },
+      "charts_involved": [
+        "chart_53_3",
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En el mercado de alimentos saludables, ¿cuál es la relación entre la participación estimada de la proteína de suero y la participación de las proteínas en polvo con probióticos?",
+      "answer": {
+        "A": "La participación de la proteína de suero es ligeramente más alta que la de las proteínas en polvo con probióticos, pero la diferencia es mínima, lo que indica la influencia del liderazgo de la proteína de suero en las subcategorías de proteínas en polvo.",
+        "B": "Las participaciones de ambas son casi iguales, alrededor del 5.2%, lo que indica que tienen una posición similar en el mercado.",
+        "C": "La participación de la proteína de suero es muy cercana a la de las proteínas en polvo con probióticos, lo que refleja que tienen una importancia relativa similar en el mercado.",
+        "D": "Tanto la proteína de suero como las proteínas en polvo con probióticos tienen una participación de nivel medio y sus valores son similares, lo que destaca su posición comparable en el sub - mercado de alimentos saludables.",
+        "E": "La participación de la proteína de suero es mucho más alta que la de las proteínas en polvo con probióticos, ya que la proporción de la proteína de suero dentro de las proteínas en polvo es del 70.4% mientras que la de las proteínas con probióticos es solo del 5.2%, y la diferencia es significativa.",
+        "F": "La participación de las proteínas en polvo con probióticos es más alta, ya que los productos con probióticos son más populares en el campo de la salud y los consumidores tienen una mayor preferencia por ellos."
+      },
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Como empresa de productos alimenticios funcionales, la línea de productos de proteínas en polvo se destaca en el mercado general, pero el desarrollo de las subcategorías internas es desigual. Basado en la estructura del mercado y la tendencia de transacciones, ¿cómo se debería optimizar la asignación de recursos (por ejemplo, presupuesto de investigación y desarrollo, marketing) para mejorar la competitividad general y el potencial de crecimiento?",
+      "answer": {
+        "A": "Se recomienda asignar los recursos de manera equitativa a todas las subcategorías de productos alimenticios funcionales (incluyendo calcio, hierro, zinc y vitaminas, etc.), ya que el desarrollo equilibrado puede reducir el riesgo del mercado y mejorar la estabilidad general.",
+        "B": "Reducir la inversión en proteína de suero, ya que el índice de volumen de transacciones cayó de 180 en diciembre de 2021 a 160 en enero de 2022, lo que indica que su demanda ha entrado en un ciclo descendente y los recursos deben dirigirse a otras subcategorías estables.",
+        "C": "Aumentar moderadamente el desarrollo y la promoción de productos de proteína vegetal. Aunque su participación es relativamente pequeña, combinada con la alta participación y el crecimiento estable del mercado general de proteínas en polvo, puede atraer a un grupo de consumidores con necesidades de salud diversificadas y evitar la dependencia excesiva de una sola subcategoría.",
+        "D": "Invertir priorariamente en la subcategoría de 'Proteínas Enzimáticas', ya que ocupa el quinto lugar en la participación del submercado (4,2%) y es superior a la participación general de la proteína de suero, lo que indica un gran potencial de crecimiento.",
+        "E": "Invertir priorariamente en proteína de suero, ya que ocupa una participación dominante en la categoría de proteínas en polvo y los datos de volumen de transacciones muestran una tendencia de crecimiento continuo, especialmente con aumentos significativos en meses clave, lo que indica que la concentración de recursos puede aumentar rápidamente la participación en el mercado y la tasa de retorno."
+      },
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_2",
+        "chart_53_3"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Los consumidores de proteínas en polvo presentan diferencias evidentes en las preferencias de edad y nivel educativo. Basado en los datos de características de los consumidores, ¿cómo debe la empresa ajustar la estrategia de marketing (por ejemplo, canales publicitarios, diseño de productos) para mejorar de manera más precisa la penetración en el mercado y la lealtad?",
+      "answer": {
+        "A": "Centrarse en campañas de marketing digital y social para el grupo de jóvenes de 18 - 24 años, ya que este grupo tiene la mayor participación en los consumidores y su índice de preferencia está mucho por encima del promedio, lo que indica que son el motor central de crecimiento y la inversión de recursos puede mejorar eficientemente la tasa de conversión.",
+        "B": "Centrarse en el desarrollo de productos para el grupo de 30 - 34 años, ya que este grupo tiene una participación del 17,3%, que es alta y igual al grupo de 18 - 24 años, lo que indica que su potencial de mercado está subestimado.",
+        "C": "Se recomienda utilizar publicidad en redes sociales uniforme para todos los grupos de edad y nivel educativo, ya que el marketing digital es una tendencia moderna que puede cubrir una amplia audiencia y mejorar el reconocimiento de la marca.",
+        "D": "Desarrollar una línea de productos de alta gama para el grupo de personas con licenciatura o superior (por ejemplo, con respaldo científico o formulación personalizada), ya que su índice de preferencia es extremadamente alto. Aunque su participación es mediana, combinada con la tendencia de crecimiento de transacciones, indica que tienen una alta voluntad de pago y un gran potencial de difusión del boca a boca, lo que puede aumentar la plusvalía de la marca.",
+        "E": "Diseñar un marketing educativo para el grupo de personas con educación secundaria o inferior (por ejemplo, difusión de conocimientos de salud y productos asequibles), ya que este grupo es la base de consumo más grande pero su índice de preferencia es bajo. Al mejorar el conocimiento y la accesibilidad de los productos, se puede explotar el potencial del mercado de segmentación inferior y mejorar la estabilidad general del mercado.",
+        "F": "Reducir la inversión en marketing para el grupo de personas con educación secundaria o inferior, ya que su participación del 60,2% es demasiado alta, lo que puede causar un desperdicio de recursos. Los recursos deben concentrarse en el grupo de personas con carrera técnica (participación del 12,7%), cuyo TGI es de 156, lo que indica un mayor espacio de crecimiento."
+      },
+      "charts_involved": [
+        "chart_53_3",
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "El mercado de proteínas en polvo está afectado por las tendencias estacionales y la estructura de los consumidores. Combinando la dinámica de transacciones y las características demográficas, ¿cómo debe la empresa optimizar la combinación de productos (por ejemplo, la énfasis en subcategorías) y el momento de promoción para capturar los picos de ventas y mejorar los resultados anuales?",
+      "answer": {
+        "A": "Equilibrar la línea de productos para el mercado de alto nivel educativo y el mercado general, evitando la excesiva especialización en productos de alta gama. Aunque el grupo de alto nivel educativo tiene fuertes preferencias, el grupo de personas con educación secundaria o inferior constituye el cuerpo principal de consumo. Una combinación diversificada puede cubrir una audiencia más amplia y estabilizar la demanda.",
+        "B": "Concentrar los recursos en promociones y publicidad durante los picos de crecimiento de transacciones (por ejemplo, desde finales de año hasta principios de año), ya que las tendencias históricas muestran que estos períodos tienen los mayores aumentos. Combinado con la participación dominante de la proteína de suero, se puede amplificar rápidamente las ventas y mejorar la participación general en el mercado.",
+        "C": "Promocionar intensivamente los productos de proteína de suero en abril de 2022, ya que en ese mes el índice de volumen de transacciones alcanzó 220 (para proteínas en polvo en general) y 180 (para proteína de suero), que es uno de los puntos más altos del año, lo que indica que la demanda es más fuerte en ese momento.",
+        "D": "Inclinar la combinación de productos hacia las preferencias de los consumidores jóvenes (por ejemplo, lanzar envases portátiles o de moda), ya que este grupo tiene una alta participación y un índice de preferencia destacado. Combinado con la tendencia de crecimiento de transacciones, indica que su demanda está en sincronía con la expansión del mercado y puede aumentar la atractividad de los productos.",
+        "E": "Se recomienda utilizar una combinación de productos y un plan de promoción fijos durante todo el año, evitando depender de las fluctuaciones estacionales, para garantizar la estabilidad de las ventas y reducir los costos operativos.",
+        "F": "Optimizar la combinación de productos para el grupo de personas de 55 - 59 años y mayores, ya que este grupo tiene una participación del 5,3% (50 - 54 años) y del 2,8% (55 - 59 años), pero su TGI es de 75, lo que indica que sus necesidades de salud no se satisfacen completamente y tiene un gran potencial."
+      },
+      "charts_involved": [
+        "chart_53_2",
+        "chart_53_3",
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    }
+  ]
+}

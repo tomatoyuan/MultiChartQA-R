@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_109_1",
+    "chart_109_2",
+    "chart_109_3",
+    "chart_109_4",
+    "chart_109_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "When ranked from high to low in proportion, does the proportion sequence of the top five commonly used sales platforms (Douyin Online Store → Taobao → Pinduoduo → Kuaishou Online Store → JD.com) by Chinese rural e-commerce operators in 2025 follow the same trend as the proportion sequence of the top five types of sold goods (Food and fresh products → Daily necessities → Household appliances → Agricultural and industrial production tools → Clothes, shoes and hats, etc.)? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The proportions of both sequences decrease monotonically with the ranking, showing the same trend.",
+      "charts_involved": [
+        "chart_109_2",
+        "chart_109_3"
+      ],
+      "question_type": "Trend consistency judgment"
+    },
+    {
+      "type": "2",
+      "question": "Compare the proportions of factors considered by Chinese rural e-commerce consumers when buying agricultural products in 2025 (Origin → Quality → Brand → Packaging → Price → Organic/Green Certification → Freshness) with the proportions of measures considered effective in promoting the development of rural e-commerce by these consumers (Industry associations provide more guidance and information → Regulate the e-commerce market and create a good business environment → Support agricultural enterprises to provide more products → Strengthen training of technical and management personnel → Provide high-quality e-commerce operation venues → Policy and financial support from government departments → Strengthen rural network infrastructure construction). Are these two sets of data positively correlated? Answer positively correlated, negatively correlated, or not correlated.",
+      "answer": "Positively correlated",
+      "explanation": "Both sets of values decrease with the ranking, showing the same direction of change, so the correlation is positive.",
+      "charts_involved": [
+        "chart_109_4",
+        "chart_109_5"
+      ],
+      "question_type": "Correlation judgment"
+    },
+    {
+      "type": "2",
+      "question": "Does the year with the highest year-on-year growth rate of China's rural online sales (30.4% in 2018) correspond to the most commonly used sales platform (Douyin Online Store with a proportion of 29.79%) by rural e-commerce operators? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The year with the highest year-on-year growth rate and the platform with the highest usage proportion belong to different dimensions, and there is no corresponding relationship between them.",
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_2"
+      ],
+      "question_type": "Extreme value correspondence"
+    },
+    {
+      "type": "3",
+      "question": "What is the composite growth indicator obtained by multiplying the year-on-year growth rate of rural online sales in 2023 by the usage proportion of Pinduoduo platform? Express the result in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "3.19%",
+      "explanation": "Year-on-year growth rate in 2023 (12.9%) × Usage proportion of Pinduoduo (24.73%) = 0.129 × 0.2473 = 0.0319017. Rounding to 2 decimal places gives 3.19%.",
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the composite value of attention obtained by multiplying the proportion of 'Food and fresh products' in the types of sold goods by the proportion of consumers who value the 'Freshness' factor? Express the result in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "11.03%",
+      "explanation": "Proportion of food and fresh products sales (50.53%) × Proportion of the freshness factor (21.82%) = 0.5053 × 0.2182 = 0.11025646. Rounding to 2 decimal places gives 11.03%.",
+      "charts_involved": [
+        "chart_109_3",
+        "chart_109_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the potential support index obtained by multiplying the proportion of rural e-commerce operators using WeChat Video Account by the proportion of the measure of 'Policy and financial support from government departments'? Express the result in percentage and round to 2 decimal places. Answer: xx%",
+      "answer": "6.07%",
+      "explanation": "Usage proportion of WeChat Video Account (19.95%) × Proportion of policy and financial support from government departments (30.45%) = 0.1995 × 0.3045 = 0.06074775. Rounding to 2 decimal places gives 6.07%.",
+      "charts_involved": [
+        "chart_109_2",
+        "chart_109_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the types of products sold by rural e-commerce operators and the factors valued by consumers when buying agricultural products, which product types may benefit from consumers' emphasis on specific factors?",
+      "answer": {
+        "A": "The factor of freshness has the highest proportion. Therefore, food and fresh products (such as grains and oils, fruits, etc.) will definitely increase their sales due to consumers' emphasis on freshness.",
+        "B": "Household appliances (such as mobile phones, refrigerators, etc.) may gain more market opportunities due to consumers' emphasis on brand and price.",
+        "C": "The price factor is the most important to consumers. So, agricultural and industrial production tools (such as sickles, hoes, etc.) may benefit the most from low-price strategies.",
+        "D": "Food and fresh products (such as grains and oils, fruits, etc.) may increase their sales due to consumers' high attention to origin and quality factors.",
+        "E": "Daily necessities (such as paper products for cleaning, skin-care products, etc.) may increase their attractiveness due to consumers' attention to packaging and purchase convenience.",
+        "F": "The proportion of the packaging factor is 33.64%, higher than the brand factor. Therefore, daily necessities (such as paper products for cleaning, skin-care products, etc.) may significantly benefit from the emphasis on packaging, but the leading role of origin and quality is ignored."
+      },
+      "charts_involved": [
+        "chart_109_3",
+        "chart_109_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the changes in the growth rate of rural online sales and the measures considered effective in promoting the development of rural e-commerce by consumers, which measures may help stabilize or increase the growth rate, especially during periods of low growth?",
+      "answer": {
+        "A": "The policy and financial support measures from government departments may target the trough periods of the growth rate and provide external incentives to promote growth.",
+        "B": "All measures can increase the growth rate, because any external support (such as training or policies) can directly stimulate sales growth.",
+        "C": "The measure of regulating the e-commerce market and creating a good business environment may alleviate the decline in the growth rate. Since the growth rate has fluctuated greatly in recent years, this measure is considered highly effective.",
+        "D": "The proportion of the training measure is 31.67%. After the growth rate rebounded in 2023 (12.9%), it helped with the recovery. Therefore, it is particularly suitable for trough periods of the growth rate.",
+        "E": "When the growth rate was the lowest in 2022 (3.6%), the proportion of the measure of strengthening rural network infrastructure construction was the highest at 30.30%. Therefore, it can most effectively alleviate the decline in the growth rate.",
+        "F": "The measure of strengthening the training of technical and management personnel may support the recovery of the growth rate. Since the growth rate rebounded after a decline, and training can improve operational efficiency."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_5"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the commonly used platforms for e-commerce operators and the types of products sold, which platforms may be more suitable for selling specific products, but there are potential conflicts?",
+      "answer": {
+        "A": "Taobao, as the largest e-commerce platform, is suitable for all product types and has no potential conflicts, because the platform's scale ensures wide coverage.",
+        "B": "JD.com may be beneficial for the sales of household appliances. However, the sales proportion of household appliances is high, while the platform's proportion is medium. It may be necessary to strengthen the matching of the platform.",
+        "C": "The proportion of Douyin Online Store is the highest at 29.79%. It is suitable for selling food and fresh products with the highest proportion (50.53%), but there may be conflicts due to fierce competition on the platform.",
+        "D": "Pinduoduo may be suitable for daily necessities. However, the sales proportion of daily necessities is high, while the platform's proportion is not prominent, which may cause a mismatch of resources.",
+        "E": "The proportion of Pinduoduo is 24.73%, close to that of Taobao (25.00%). It is suitable for daily necessities (with a proportion of 41.76%), but there is a mismatch of resources because the platform users' preferences do not match.",
+        "F": "Douyin Online Store may be more suitable for promoting handicraft products. However, the sales proportion of handicraft products is relatively low, and the competition on the platform is fierce, which may affect the effect."
+      },
+      "charts_involved": [
+        "chart_109_2",
+        "chart_109_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the fluctuating characteristics of the growth rate of China's rural e-commerce sales and the core concerns of consumers when buying agricultural products, how should the commodity supply strategy be optimized to enhance market competitiveness and consumer satisfaction? Please select the most reasonable suggestions:",
+      "answer": {
+        "A": "Give priority to strengthening the origin and quality guarantee measures for food and fresh products. Since these products have the highest proportion in the sales structure and consumers attach the most importance to the origin and quality factors, this can directly enhance trust and repurchase rates.",
+        "B": "For product types with stable demand such as agricultural and industrial production tools, emphasize the freshness and nutritional content information when promoting them on online platforms to attract consumer groups who are increasingly concerned about health factors.",
+        "C": "In years when the growth rate significantly slows down, increase the differentiated marketing investment in daily necessities and household appliances, such as highlighting brand and packaging advantages, to take advantage of their relatively high sales proportion and respond to consumers' secondary important concerns about these factors.",
+        "D": "In the year with the lowest growth rate (e.g., 2022), focus on promoting agricultural and industrial production tools because consumers attach the most importance to freshness and nutritional content, and such products can directly meet health needs.",
+        "E": "Reduce the prices of food and fresh products to attract price-sensitive consumers and thus quickly increase sales volume.",
+        "F": "Increase the advertising budget for all products to enhance brand awareness because brand promotion is a general means to enhance market competitiveness."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_3",
+        "chart_109_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the distribution of commonly used sales platforms for rural e-commerce operators and the key influencing factors of consumers' purchasing decisions, how should promotion resources and channel strategies be allocated to improve sales efficiency and market penetration? Please select the most reasonable suggestions:",
+      "answer": {
+        "A": "Use social media for viral marketing to quickly increase product exposure and user engagement.",
+        "B": "For emerging or niche platforms, give priority to promoting handicraft products and agricultural and industrial production tools, and emphasize origin and supplier reputation information to take advantage of the niche needs of specific user groups on the platforms and respond to consumers' medium-level concerns about trust factors.",
+        "C": "During the period of growth rate recovery, increase the investment in promotional activities on competitive platforms such as Pinduoduo and Kuaishou, combined with price-sensitive products, to capture market expansion opportunities while balancing consumers' consideration of price factors.",
+        "D": "On leading platforms (such as Douyin and Taobao), focus on promoting food and fresh products and daily necessities because these platforms have the highest user coverage and the demand for these product types is large, which can maximize the reach of target consumers.",
+        "E": "Focus on promoting food and fresh products on Vip.com and Suning.com platforms because these platforms have a relatively high proportion (20.74%) and consumers attach the most importance to purchase convenience, which can efficiently reach target users.",
+        "F": "Allocate resources evenly on all e-commerce platforms to ensure fair coverage and avoid missing any potential consumer groups."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_2",
+        "chart_109_3",
+        "chart_109_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the instability of the growth rate of rural e-commerce and the effective measures considered by consumers to promote the development of rural e-commerce, how should policy makers prioritize the allocation of resources and implement interventions to promote sustainable growth and market standardization? Please select the most reasonable suggestions:",
+      "answer": {
+        "A": "Strengthen consumer education programs to enhance their trust and willingness to use e-commerce platforms.",
+        "B": "Give priority to promoting measures to regulate the e-commerce market and strengthen the guidance of industry associations. Since these strategies are considered the most effective by consumers, they can directly enhance market trust and mitigate the risks brought by the fluctuating growth rate.",
+        "C": "Combine the introduction of young talents and the support for agricultural enterprises, and focus on the supply chain innovation of high-demand product types (such as food and fresh products) to create employment opportunities and stabilize the growth rate trend.",
+        "D": "During the period of low growth rate, increase the investment in rural network infrastructure and technical training to solve the basic bottlenecks, support long-term growth, and respond to consumers' relatively high recognition of these measures.",
+        "E": "Provide short-term incentive measures such as tax exemptions to stimulate e-commerce enterprises to expand investment and increase employment.",
+        "F": "During the period of growth rate recovery (e.g., 2023), give priority to investing in the measure of introducing young talents because this is the most supported measure by consumers (accounting for 28.79%), which can directly meet the high demand for food and fresh products (accounting for 50.53%)."
+      },
+      "charts_involved": [
+        "chart_109_1",
+        "chart_109_3",
+        "chart_109_5"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

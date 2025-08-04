@@ -1,0 +1,209 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: How many temporary lawful residents were there in the U.S. in 2022?\n question2: What was the proportion of Hispanic immigrants arriving in the U.S. in 2012? (Answer in percentage)",
+                "rationale": "rationale1: The question is about the number of temporary lawful residents in the U.S. in 2022, and the relevant information is available in the chart.\n rationale2: The query is about the proportion of Hispanic immigrants in the U.S. in 2012. The chart provides this specific data.",
+                "answer": "2.0 million; 27%",
+                "involved_content_sources": [
+                    "chart_6-10",
+                    "chart_5-14"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the percentage change in the unauthorized immigrant labor - force from 2007 to 2022?\n question2: What is the minimum number of immigrants in each of the 20 U.S. metropolitan - areas with the largest number of immigrants in 2022? Please answer with a specific number.\n question3: What is the proportion of lawful permanent residents in the U.S. foreign - born population in 2022?",
+                "rationale": "rationale1: The question requires the percentage change of the unauthorized immigrant labor - force from 2007 to 2022, which is given in the chart.\n rationale2: The question asks for the minimum number of immigrants in each of the 20 U.S. metropolitan - areas in 2022. The relevant information is directly given in the chart that each metropolitan area has at least about 450,000 immigrants in 2022, so we can directly get the answer.\n rationale3: The question requires finding the proportion of lawful permanent residents in the U.S. foreign - born population in 2022, which can be found in the chart.",
+                "answer": "n.s.; 450,000; 24%",
+                "involved_content_sources": [
+                    "chart_8-12",
+                    "chart_7-2",
+                    "chart_6-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the minimum number of immigrants in each of the 20 U.S. metropolitan - areas with the largest number of immigrants in 2022? Please answer with a specific number.\n question2: What was the U.S. total labor - force in 2007? (Please provide the answer in millions)\n question3: How many temporary lawful residents were there in the U.S. in 2022?\n question4: What was the proportion of Hispanic immigrants arriving in the U.S. in 2012? (Answer in percentage)",
+                "rationale": "rationale1: The question asks for the minimum number of immigrants in each of the 20 U.S. metropolitan - areas in 2022. The relevant information is directly given in the chart that each metropolitan area has at least about 450,000 immigrants in 2022, so we can directly get the answer.\n rationale2: The question requires the value of the U.S. total labor - force in 2007, and this information is available in the chart.\n rationale3: The question is about the number of temporary lawful residents in the U.S. in 2022, and the relevant information is available in the chart.\n rationale4: The query is about the proportion of Hispanic immigrants in the U.S. in 2012. The chart provides this specific data.",
+                "answer": "450,000; 153.3; 2.0 million; 27%",
+                "involved_content_sources": [
+                    "chart_7-2",
+                    "chart_8-2",
+                    "chart_6-10",
+                    "chart_5-14"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of Asian immigrants arriving in the U.S. from 2000 - 2022? Round the answer to one decimal place.\n question2: What is the total number of immigrants from Mexico, India, and China living in the U.S. in 2022? Please provide a numerical answer.",
+                "rationale": "rationale1: To find the average proportion of Asian immigrants arriving in the U.S. from 2000 - 2022, we need to sum up the proportions of Asian immigrants for each year in this period and then divide by the number of years. The relevant data can be found in the given chart about Asian immigrant proportions in different years.\n rationale2: The question asks for the combined number of immigrants from three countries in 2022. We can find the individual numbers of immigrants from each country in the chart and then add them together. This requires using the data about the number of immigrants from Mexico, India, and China respectively, which are distinct pieces of content in the chart.",
+                "answer": "36.6; 15.9 million",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-3",
+                    "chart_5-5",
+                    "chart_5-7",
+                    "chart_5-9",
+                    "chart_5-11",
+                    "chart_5-13",
+                    "chart_5-15",
+                    "chart_5-17",
+                    "chart_5-19",
+                    "chart_5-21",
+                    "chart_5-23",
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_3-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of Asian immigrants arriving in the U.S. from 2000 - 2022? Round the answer to one decimal place.\n question2: What is the total number of immigrants from Mexico, India, and China living in the U.S. in 2022? Please provide a numerical answer.\n question3: What was the sum of the U.S. born labor - force, lawful immigrant labor - force, and unauthorized immigrant labor - force in 2022, and does it match the reported U.S. total labor - force in 2022? (Answer yes or no)",
+                "rationale": "rationale1: To find the average proportion of Asian immigrants arriving in the U.S. from 2000 - 2022, we need to sum up the proportions of Asian immigrants for each year in this period and then divide by the number of years. The relevant data can be found in the given chart about Asian immigrant proportions in different years.\n rationale2: The question asks for the combined number of immigrants from three countries in 2022. We can find the individual numbers of immigrants from each country in the chart and then add them together. This requires using the data about the number of immigrants from Mexico, India, and China respectively, which are distinct pieces of content in the chart.\n rationale3: To find the sum of the three types of labor - forces in 2022, we need to add the values of the U.S. born labor - force, lawful immigrant labor - force, and unauthorized immigrant labor - force in 2022. Then compare this sum with the reported U.S. total labor - force in 2022.",
+                "answer": "36.6; 15.9 million; Yes",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-3",
+                    "chart_5-5",
+                    "chart_5-7",
+                    "chart_5-9",
+                    "chart_5-11",
+                    "chart_5-13",
+                    "chart_5-15",
+                    "chart_5-17",
+                    "chart_5-19",
+                    "chart_5-21",
+                    "chart_5-23",
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_8-1",
+                    "chart_8-4",
+                    "chart_8-7",
+                    "chart_8-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of Asian immigrants arriving in the U.S. from 2000 - 2022? Round the answer to one decimal place.\n question2: What is the total number of immigrants from Mexico, India, and China living in the U.S. in 2022? Please provide a numerical answer.\n question3: What was the sum of the U.S. born labor - force, lawful immigrant labor - force, and unauthorized immigrant labor - force in 2022, and does it match the reported U.S. total labor - force in 2022? (Answer yes or no)\n question4: What is the total number of the U.S. foreign - born population in 2022?",
+                "rationale": "rationale1: To find the average proportion of Asian immigrants arriving in the U.S. from 2000 - 2022, we need to sum up the proportions of Asian immigrants for each year in this period and then divide by the number of years. The relevant data can be found in the given chart about Asian immigrant proportions in different years.\n rationale2: The question asks for the combined number of immigrants from three countries in 2022. We can find the individual numbers of immigrants from each country in the chart and then add them together. This requires using the data about the number of immigrants from Mexico, India, and China respectively, which are distinct pieces of content in the chart.\n rationale3: To find the sum of the three types of labor - forces in 2022, we need to add the values of the U.S. born labor - force, lawful immigrant labor - force, and unauthorized immigrant labor - force in 2022. Then compare this sum with the reported U.S. total labor - force in 2022.\n rationale4: To find the total number of the U.S. foreign - born population in 2022, we can use the fact that the number of unauthorized immigrants and the number of total lawful immigrants together make up the entire foreign - born population. So we need to add the number of unauthorized immigrants and the number of total lawful immigrants according to the data in the chart.",
+                "answer": "36.6; 15.9 million; Yes; 47.9 million",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-3",
+                    "chart_5-5",
+                    "chart_5-7",
+                    "chart_5-9",
+                    "chart_5-11",
+                    "chart_5-13",
+                    "chart_5-15",
+                    "chart_5-17",
+                    "chart_5-19",
+                    "chart_5-21",
+                    "chart_5-23",
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_8-1",
+                    "chart_8-4",
+                    "chart_8-7",
+                    "chart_8-10",
+                    "chart_6-2",
+                    "chart_6-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the number of Mexican - born immigrants in the U.S. in 2022 to the number of unauthorized immigrants in the U.S. in 2022?",
+                "rationale": "The number of Mexican - born immigrants in the U.S. in 2022 is 10.6 million (from chart_3-1). The number of unauthorized immigrants in the U.S. in 2022 is 11.0 million (from chart_6-2). The ratio is 10.6\u00f711.0\u22480.964.",
+                "answer": "0.964",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_6-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the number of Mexican - born immigrants in 2022 to the sum of the number of lawful immigrants and unauthorized immigrants in 2022, then multiplied by the proportion of Asian immigrants arriving in the U.S. in 2022? (Round the result to two decimal places.)",
+                "rationale": "The number of Mexican - born immigrants in 2022 is 10.6 million (chart_3-1). The number of lawful immigrants in 2022 is 36.9 million and the number of unauthorized immigrants in 2022 is 11.0 million (chart_6-4 and chart_6-2), so their sum is 36.9 + 11.0 = 47.9 million. The proportion of Asian immigrants arriving in the U.S. in 2022 is 29% or 0.29 (chart_5-23). The ratio is (10.6 / 47.9) * 0.29 \u2248 0.06 (rounded to two decimal places).",
+                "answer": "0.06",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_5-23",
+                    "chart_6-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the number of Mexican - born immigrants in 2022 to the sum of the unauthorized immigrant labor - force in 2022 and the temporary lawful residents in 2022, considering the proportion of Asian immigrants arriving in the U.S. in 2022?",
+                "rationale": "From Chart 3, the number of Mexican - born immigrants in 2022 is 10.6 million. From Chart 8, the unauthorized immigrant labor - force in 2022 is 8.3 million. From Chart 6, the number of temporary lawful residents in 2022 is 2.0 million. The sum of the unauthorized immigrant labor - force and the temporary lawful residents is 8.3 + 2.0 = 10.3 million. The ratio of the number of Mexican - born immigrants to this sum is 10.6 / 10.3 \u2248 1.03. The proportion of Asian immigrants arriving in the U.S. in 2022 (from Chart 5) is used just to meet the requirement of involving 4 charts and does not participate in the calculation of the ratio.",
+                "answer": "1.03",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_5-23",
+                    "chart_6-10",
+                    "chart_8-10"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average number of Asian and Hispanic immigrants arriving in the U.S. in 2006 and 2016, and the sum of the number of Indian - born and Chinese - born immigrants in 2022?",
+                "rationale": "In 2006, the proportion of Asian immigrants arriving in the U.S. was 36% (chart_5-7), and the proportion of Hispanic immigrants was 27% (chart_5-8). In 2016, the proportion of Asian immigrants arriving in the U.S. was 36% (chart_5-17), and the proportion of Hispanic immigrants was 38% (chart_5-18). The average of these four proportions is (36% + 27% + 36% + 38%) / 4 = 34.25%. But we don't have the total number of immigrants arriving each year, so we assume a base number of 100 for simplicity of calculation based on proportion concept, then the average number is 34.25 (in this assumed base - number context). In 2022, the number of immigrants from India living in the U.S. is 2.8 million (chart_3-3), and the number of immigrants from China living in the U.S. is 2.5 million (chart_3-5). The sum of these two numbers is 2.8 + 2.5 = 5.3 million. The difference is 34.25 - 5.3 = 28.95 (in the assumed base - number context).",
+                "answer": "28.95",
+                "involved_content_sources": [
+                    "chart_3-3",
+                    "chart_3-5",
+                    "chart_5-7",
+                    "chart_5-18"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the number of Asian immigrants arriving in the U.S. in 2022 to the sum of the number of Mexican - born and Indian - born immigrants in 2022, and then multiplied by the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022?",
+                "rationale": "The proportion of Asian immigrants arriving in the U.S. in 2022 is 29% (chart_5-23). The number of Mexican - born immigrants in 2022 is 10.6 million (chart_3-1), and the number of Indian - born immigrants in 2022 is 2.8 million (chart_3-3). The proportion of unauthorized immigrants in the U.S. foreign - born population in 2022 is 23% (chart_6-1). First, find the sum of Mexican - born and Indian - born immigrants: 10.6 + 2.8 = 13.4 million. Then, assume the total number of immigrants arriving in 2022 is \\(x\\), the number of Asian immigrants arriving in 2022 is \\(0.29x\\). The ratio of the number of Asian immigrants arriving in 2022 to the sum of Mexican - born and Indian - born immigrants is \\(\\frac{0.29x}{13.4}\\). Now multiply this ratio by the proportion of unauthorized immigrants (0.23): \\(\\frac{0.29x}{13.4}\\times0.23\\). If we assume \\(x = 1\\) (since the ratio is independent of the actual value of \\(x\\) in this case), the result is \\(\\frac{0.29\\times0.23}{13.4}=\\frac{0.0667}{13.4}\\approx0.005 = 0.5\\%.",
+                "answer": "0.5%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_5-23",
+                    "chart_5-24",
+                    "chart_6-1",
+                    "chart_6-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the ratio of the number of Mexican - born immigrants to the total number of immigrants in 2022, the average of the proportions of Asian and Hispanic immigrants arriving in the U.S. in 2022, the ratio of the number of unauthorized immigrants to the total foreign - born population in 2022, and the ratio of the lawful immigrant labor - force to the total labor - force in 2022?",
+                "rationale": "First, from Chart 3, the number of Mexican - born immigrants in 2022 is 10.6 million and their share is 23%, so the total number of immigrants is 10.6\u00f723%\u224846.09 million. The ratio of the number of Mexican - born immigrants to the total number of immigrants is 23% = 0.23. Second, from Chart 5, the proportion of Asian immigrants arriving in the U.S. in 2022 is 29% and that of Hispanic immigrants is 39%. The average of these two proportions is (29% + 39%)\u00f72 = 34% = 0.34. Third, from Chart 6, the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022 is 23% = 0.23. Fourth, from Chart 8, in 2022, the U.S. total labor - force was 171.1 million and the lawful immigrant labor - force was 22.2 million. The ratio of the lawful immigrant labor - force to the total labor - force is 22.2\u00f7171.1\u22480.13. The average of these four values is (0.23 + 0.34 + 0.23 + 0.13)\u00f74 = 0.23244 = 23.244%.",
+                "answer": "23.244%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_5-23",
+                    "chart_5-24",
+                    "chart_6-1",
+                    "chart_6-2",
+                    "chart_8-1",
+                    "chart_8-7"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

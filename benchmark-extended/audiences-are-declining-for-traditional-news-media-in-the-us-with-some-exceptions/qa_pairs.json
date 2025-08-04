@@ -1,0 +1,194 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the estimated Sunday circulation of U.S. daily newspapers in 2020? (Answer in millions, keep one decimal place)\n question2: What was the average number of TVs tuning to morning news for ABC, CBS, NBC and Fox affiliates in 2018? (Please provide a number with one decimal place.)",
+                "rationale": "rationale1: The question is about the estimated Sunday circulation of U.S. daily newspapers in 2020. Referring to chart 1, the data is 20.9M.\n rationale2: We need to extract the relevant data of the average number of TVs tuning to morning news for the given affiliates in 2018 from the chart.",
+                "answer": "20.9; 2.5",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_2-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the estimated Sunday circulation of U.S. daily newspapers in 2020? (Answer in millions, keep one decimal place)\n question2: What was the estimated advertising revenue of U.S. newspapers in 2020? (Please answer in billions of dollars.)\n question3: What was the total annual revenue of MSNBC in 2022? Answer in millions of dollars.",
+                "rationale": "rationale1: The question is about the estimated Sunday circulation of U.S. daily newspapers in 2020. Referring to chart 1, the data is 20.9M.\n rationale2: The question is about the estimated advertising revenue of U.S. newspapers in 2020, which can be obtained from the fourth piece of content of Chart 3.\n rationale3: This question asks for the total annual revenue of MSNBC in 2022, and the answer is in the fifth part of the chart.",
+                "answer": "20.9; 9.8; 903",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_3-4",
+                    "chart_4-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the weekday circulation of U.S. daily newspapers in 1940? (Answer in millions, keep one decimal place)\n question2: What was the total annual revenue of CNN in 2006? Please provide the answer in millions of dollars.\n question3: What was the estimated advertising revenue of U.S. newspapers in 2020? (Please answer in billions of dollars.)\n question4: What was the average number of TVs tuning to morning news for ABC, CBS, NBC and Fox affiliates in 2018? (Please provide a number with one decimal place.)",
+                "rationale": "rationale1: The question asks for the weekday circulation of U.S. daily newspapers in 1940. According to the content of chart 1, the relevant data is directly given as 41.1M.\n rationale2: The question directly asks for the total annual revenue of CNN in 2006, and the relevant information is given in the first part of the chart.\n rationale3: The question is about the estimated advertising revenue of U.S. newspapers in 2020, which can be obtained from the fourth piece of content of Chart 3.\n rationale4: We need to extract the relevant data of the average number of TVs tuning to morning news for the given affiliates in 2018 from the chart.",
+                "answer": "41.1; 823; 9.8; 2.5",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_4-1",
+                    "chart_3-4",
+                    "chart_2-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the total increase in the combined annual revenues of CNN, MSNBC, and Fox News from 2006 to 2022? Please provide the answer in millions of dollars.\n question2: What is the average of the average number of TVs tuning to morning news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022?",
+                "rationale": "rationale1: First, we need to calculate the combined annual revenues of the three news channels in 2006 and 2022 respectively. In 2006, according to the chart, CNN's revenue was $823M, MSNBC's was $271M, and Fox News' was $688M. We sum these values to get the total 2006 revenue. In 2022, CNN's revenue was $1.8B (which is 1800M), MSNBC's was $903M, and Fox News' was $3.3B (which is 3300M). We sum these values to get the total 2022 revenue. Then we subtract the total 2006 revenue from the total 2022 revenue to find the increase.\n rationale2: To find the average, we need to sum up the average number of TVs tuning to morning news for each year (2016, 2018, 2020, 2022) and then divide by the number of years (4). We get the relevant data from the given chart.",
+                "answer": "3421; 2.475M",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-6",
+                    "chart_2-2",
+                    "chart_2-4",
+                    "chart_2-6",
+                    "chart_2-8"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the total increase in the combined annual revenues of CNN, MSNBC, and Fox News from 2006 to 2022? Please provide the answer in millions of dollars.\n question2: What is the average of the average number of TVs tuning to morning news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022?\n question3: What is the total decrease in the combined weekday and Sunday circulation of U.S. daily newspapers from 1940 to 2020? Provide the answer in millions (M).",
+                "rationale": "rationale1: First, we need to calculate the combined annual revenues of the three news channels in 2006 and 2022 respectively. In 2006, according to the chart, CNN's revenue was $823M, MSNBC's was $271M, and Fox News' was $688M. We sum these values to get the total 2006 revenue. In 2022, CNN's revenue was $1.8B (which is 1800M), MSNBC's was $903M, and Fox News' was $3.3B (which is 3300M). We sum these values to get the total 2022 revenue. Then we subtract the total 2006 revenue from the total 2022 revenue to find the increase.\n rationale2: To find the average, we need to sum up the average number of TVs tuning to morning news for each year (2016, 2018, 2020, 2022) and then divide by the number of years (4). We get the relevant data from the given chart.\n rationale3: To find the total decrease, we first need to calculate the combined circulation in 1940 and 2020 separately. Then subtract the 2020 combined circulation from the 1940 combined circulation. In 1940, the combined circulation is the sum of the weekday and Sunday circulations, which is 41.1M + 32.4M. In 2020, the combined circulation is 20.9M + 20.9M. Finally, we subtract the 2020 total from the 1940 total to get the decrease.",
+                "answer": "3421; 2.475M; 31.7",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-6",
+                    "chart_2-2",
+                    "chart_2-4",
+                    "chart_2-6",
+                    "chart_2-8",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the total increase in the combined annual revenues of CNN, MSNBC, and Fox News from 2006 to 2022? Please provide the answer in millions of dollars.\n question2: What is the average of the average number of TVs tuning to morning news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022?\n question3: What is the total decrease in the combined weekday and Sunday circulation of U.S. daily newspapers from 1940 to 2020? Provide the answer in millions (M).\n question4: What is the difference between the estimated circulation revenue of U.S. newspapers in 2020 and the circulation revenue of U.S. newspapers in 1960?",
+                "rationale": "rationale1: First, we need to calculate the combined annual revenues of the three news channels in 2006 and 2022 respectively. In 2006, according to the chart, CNN's revenue was $823M, MSNBC's was $271M, and Fox News' was $688M. We sum these values to get the total 2006 revenue. In 2022, CNN's revenue was $1.8B (which is 1800M), MSNBC's was $903M, and Fox News' was $3.3B (which is 3300M). We sum these values to get the total 2022 revenue. Then we subtract the total 2006 revenue from the total 2022 revenue to find the increase.\n rationale2: To find the average, we need to sum up the average number of TVs tuning to morning news for each year (2016, 2018, 2020, 2022) and then divide by the number of years (4). We get the relevant data from the given chart.\n rationale3: To find the total decrease, we first need to calculate the combined circulation in 1940 and 2020 separately. Then subtract the 2020 combined circulation from the 1940 combined circulation. In 1940, the combined circulation is the sum of the weekday and Sunday circulations, which is 41.1M + 32.4M. In 2020, the combined circulation is 20.9M + 20.9M. Finally, we subtract the 2020 total from the 1940 total to get the decrease.\n rationale4: We subtract the circulation revenue of U.S. newspapers in 1960 from the estimated circulation revenue of U.S. newspapers in 2020. The circulation revenue in 1960 was $1.3B and in 2020 it was $11.6B. So the calculation is $11.6B - $1.3B = $10.3B.",
+                "answer": "3421; 2.475M; 31.7; $10.3B",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_4-6",
+                    "chart_2-2",
+                    "chart_2-4",
+                    "chart_2-6",
+                    "chart_2-8",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_3-2",
+                    "chart_3-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the decline in the average number of TVs tuning to evening news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022 to the decline in the weekday circulation of U.S. daily newspapers from 1940 to 2020?",
+                "rationale": "The decline in the average number of TVs tuning to evening news from 2016 to 2022 is 4.2M - 3.0M = 1.2M. The decline in the weekday circulation of U.S. daily newspapers from 1940 to 2020 is 41.1M - 20.9M = 20.2M. The ratio is 1.2M / 20.2M \u2248 0.0594 (rounded to four decimal places).",
+                "answer": "0.0594",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the decrease in weekday newspaper circulation from 1940 to 2020 to the decrease in the average number of TVs tuning to evening news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022, then multiplied by the ratio of the estimated advertising revenue of U.S. newspapers in 2020 to the total annual revenue of CNN in 2006? (Round the result to two decimal places.)",
+                "rationale": "The decrease in weekday newspaper circulation from 1940 to 2020 is 41.1M - 20.9M = 20.2M (chart_1-1 and chart_1-3). The decrease in the average number of TVs tuning to evening news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022 is 4.2M - 3.0M = 1.2M (chart_2-1 and chart_2-7). The ratio of these two decreases is 20.2M / 1.2M \u2248 16.83. The ratio of the estimated advertising revenue of U.S. newspapers in 2020 to the total annual revenue of CNN in 2006 is 9.8B / 823M \u2248 11.91 (chart_3-4 and chart_4-1). Then the final result is 16.83 * 11.91 \u2248 200.45 (rounded to two decimal places).",
+                "answer": "200.45",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-7",
+                    "chart_3-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the difference between the weekday circulation of U.S. daily newspapers in 1940 and 2020 to the difference between the average number of TVs tuning to evening news for ABC, CBS, NBC and Fox affiliates in 2016 and 2022, multiplied by the ratio of the difference between the advertising revenue of U.S. newspapers in 1960 and 2020 to the difference between the total annual revenue of CNN in 2006 and 2022?",
+                "rationale": "The difference between the weekday circulation of U.S. daily newspapers in 1940 and 2020 is 41.1M - 20.9M = 20.2M. The difference between the average number of TVs tuning to evening news for ABC, CBS, NBC and Fox affiliates in 2016 and 2022 is 4.2M - 3.0M = 1.2M. The ratio of these two differences is 20.2M / 1.2M \u2248 16.83. The difference between the advertising revenue of U.S. newspapers in 1960 and 2020 is $9.8B - $3.2B = $6.6B. The difference between the total annual revenue of CNN in 2006 and 2022 is $1.8B - $0.823B = $0.977B. The ratio of these two differences is $6.6B / $0.977B \u2248 6.76. The final result is 16.83 * 6.76 \u2248 113.72",
+                "answer": "113.72",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-1",
+                    "chart_3-1",
+                    "chart_4-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average decline rate of weekday and Sunday circulation of U.S. daily newspapers from 1940 to 2020 and the average decline rate of evening and morning news TV viewers for ABC, CBS, NBC and Fox affiliates from 2016 to 2022?",
+                "rationale": "For the circulation of U.S. daily newspapers, in 1940, the weekday circulation was 41.1M (chart_1-1) and the Sunday circulation was 32.4M (chart_1-2). In 2020, both the weekday and Sunday estimated circulations were 20.9M (chart_1-3, chart_1-4). The decline rate of weekday circulation is ((41.1 - 20.9) / 41.1) \u00d7 100% \u2248 49.15%. The decline rate of Sunday circulation is ((32.4 - 20.9) / 32.4) \u00d7 100% \u2248 35.49%. The average decline rate is (49.15% + 35.49%) / 2 \u2248 42.32%. For the TV viewers of ABC, CBS, NBC and Fox affiliates, in 2016, the average number of TVs tuning to evening news was 4.2M (chart_2-1) and to morning news was 2.9M (chart_2-2). In 2022, the average number of TVs tuning to evening news was 3.0M (chart_2-7) and to morning news was 2.0M (chart_2-8). The decline rate of evening news viewers is ((4.2 - 3.0) / 4.2) \u00d7 100% \u2248 28.57%. The decline rate of morning news viewers is ((2.9 - 2.0) / 2.9) \u00d7 100% \u2248 31.03%. The average decline rate is (28.57% + 31.03%) / 2 = 29.8%. Then the difference between the two average decline rates is 42.32% - 29.8% = 12.52%.",
+                "answer": "12.52%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the sum of the decline in weekday newspaper circulation from 1940 to 2020 and the decline in evening news viewership from 2016 to 2022 to the difference between the advertising revenue of U.S. newspapers in 1960 and 2020?",
+                "rationale": "The decline in weekday newspaper circulation from 1940 to 2020 is 41.1M - 20.9M = 20.2M (chart_1-1, chart_1-3). The decline in evening news viewership from 2016 to 2022 is 4.2M - 3.0M = 1.2M (chart_2-1, chart_2-7). The sum of these two declines is 20.2M + 1.2M = 21.4M. The advertising revenue of U.S. newspapers in 1960 was $3.2B and in 2020 was $9.8B, so the difference is $9.8B - $3.2B = $6.6B (chart_3-1, chart_3-4). The ratio is 21.4M / 6.6B. Converting 21.4M to billions (21.4M = 0.0214B), the ratio is 0.0214B / 6.6B \u2248 0.00324.",
+                "answer": "0.00324",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-3",
+                    "chart_2-1",
+                    "chart_2-7",
+                    "chart_3-1",
+                    "chart_3-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the percentage decline in weekday newspaper circulation from 1940 to 2020, the percentage decline in the average number of TVs tuning to morning news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022, the percentage decline in newspaper advertising revenue per circulation revenue from 1960 to 2020, and the percentage growth of Fox News' total annual revenue from 2006 to 2022?",
+                "rationale": "1. First, calculate the percentage decline in weekday newspaper circulation from 1940 to 2020:       - In 1940, the weekday circulation of U.S. daily newspapers was 41.1M (chart_1 - 1). In 2020, it was 20.9M (chart_1 - 3).       - The decline amount is \\(41.1 - 20.9 = 20.2\\)M. The percentage decline is \\(\\frac{41.1 - 20.9}{41.1}\\times100\\%=\\frac{20.2}{41.1}\\times100\\%\\approx49.15\\%\\).    2. Then, calculate the percentage decline in the average number of TVs tuning to morning news for ABC, CBS, NBC and Fox affiliates from 2016 to 2022:       - In 2016, the average number of TVs tuning to morning news was 2.9M (chart_2 - 2). In 2022, it was 2.0M (chart_2 - 8).       - The decline amount is \\(2.9 - 2.0 = 0.9\\)M. The percentage decline is \\(\\frac{2.9 - 2.0}{2.9}\\times100\\%=\\frac{0.9}{2.9}\\times100\\%\\approx31.03\\%\\).    3. Next, calculate the percentage decline in newspaper advertising revenue per circulation revenue from 1960 to 2020:       - In 1960, the advertising revenue of U.S. newspapers was \\(3.2\\)B and the circulation revenue was \\(1.3\\)B (chart_3 - 1, chart_3 - 2). The advertising - to - circulation revenue ratio was \\(\\frac{3.2}{1.3}\\approx2.4615\\).       - In 2020, the estimated advertising revenue was \\(9.8\\)B and the estimated circulation revenue was \\(11.6\\)B (chart_3 - 3, chart_3 - 4). The advertising - to - circulation revenue ratio was \\(\\frac{9.8}{11.6}\\approx0.8448\\).       - The decline amount is \\(2.4615 - 0.8448 = 1.6167\\). The percentage decline is \\(\\frac{2.4615 - 0.8448}{2.4615}\\times100\\%=\\frac{1.6167}{2.4615}\\times100\\%\\approx65.7\\%\\).    4. Finally, calculate the percentage growth of Fox News' total annual revenue from 2006 to 2022:       - In 2006, the total annual revenue of Fox News was \\(688\\)M (chart_4 - 3). In 2022, it was \\(3.3\\)B (\\(3300\\)M) (chart_4 - 6).       - The growth amount is \\(3300 - 688 = 2612\\)M. The percentage growth is \\(\\frac{3300 - 688}{688}\\times100\\%=\\frac{2612}{688}\\times100\\%\\approx379.65\\%\\).    5. Calculate the average of these four values:       - \\(\\frac{49.15\\%+31.03\\% + 65.7\\%+379.65\\%}{4}=\\frac{525.53\\%}{4}=131.3825\\%\\).",
+                "answer": "131.38%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-3",
+                    "chart_2-2",
+                    "chart_2-8",
+                    "chart_3-1",
+                    "chart_3-4",
+                    "chart_4-3",
+                    "chart_4-6"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_59_1",
+    "chart_59_2",
+    "chart_59_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the 'Average Daily Activity Duration of National Residents', do the trends of the Internet Usage time and Learning and Training time match the trend of the market size in the 'Retail market size of Chinese eyewear industry from 2019 - 2027e'? Answer 'Yes' or 'No'.",
+      "answer": "Yes",
+      "explanation": "All three show an upward trend during this period.",
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of Internet Usage in the 'Average Daily Activity Duration of National Residents' positively correlated with the trend of the national myopia rate of children and adolescents from 2018 to 2022? Answer 'Positively correlated', 'Negatively correlated' or 'Not correlated'.",
+      "answer": "Not correlated",
+      "explanation": "The Internet Usage time in chart_59_1 shows an upward trend, but the myopia rate in chart_59_2 does not show a continuous upward trend, so the trends do not match.",
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the year with the lowest growth rate in the 'Retail market size of Chinese eyewear industry from 2019 - 2027e', is the myopia rate in the 'National Myopia Rate of Children and Adolescents from 2018 to 2022' also the lowest? Answer 'Yes' or 'No'.",
+      "answer": "No",
+      "explanation": "The year with the lowest growth rate in chart_59_2 is 2022, while the year with the lowest rate in chart_59_3 is 2019.",
+      "charts_involved": [
+        "chart_59_2",
+        "chart_59_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the average daily Internet Usage duration in 2024 to the overall myopia rate of children and adolescents in 2022? Unit: minutes/percentage point, rounded to 2 decimal places. Answer: xx.xx minutes/percentage point",
+      "answer": "6.99 minutes/percentage point",
+      "explanation": "The average daily Internet Usage duration in 2024 is 363 minutes ÷ the overall myopia rate of children and adolescents in 2022 is 51.90% = 6.9942 minutes/percentage point, rounded to 2 decimal places is 6.99.",
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the difference in percentage points between the increase in the overall myopia rate of children and adolescents from 2019 to 2020 and the growth rate of the retail market for Chinese eyewear products in 2020? Rounded to 1 decimal place. Answer: xx.xx percentage points",
+      "answer": "2.7 percentage points",
+      "explanation": "From 2019 to 2020, the myopia rate increased from 50.20% to 52.70%, an increase of 2.50 percentage points; the growth rate of the retail market for eyewear products in 2020 was –0.2%; 2.50 − (–0.2) = 2.7 percentage points.",
+      "charts_involved": [
+        "chart_59_2",
+        "chart_59_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the sum of the average daily duration of Learning and Training and Cultural, Leisure and Entertainment in 2024 to the retail market size of Chinese eyewear products in 2024? Unit: billion yuan/hour, rounded to 1 decimal place. Answer: xx.xx billion yuan/hour",
+      "answer": "128.8 billion yuan/hour",
+      "explanation": "Learning and Training for 287 minutes + Cultural, Leisure and Entertainment for 153 minutes = 440 minutes = 440 ÷ 60 = 7.333 hours; 944 billion yuan ÷ 7.333 hours = 128.8 billion yuan/hour.",
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Analyze the changes in residents' daily activity time and the visual conditions of children and adolescents. Which significant increases in activity duration may explain the phenomenon of the continuously high myopia rate?",
+      "answer": {
+        "A": "The cultural, leisure and entertainment time has increased rapidly, while the sports and fitness time has increased slowly. This imbalance may exacerbate vision problems, which is consistent with the high level of the myopia rate.",
+        "B": "The Internet usage time has skyrocketed, while the vision data shows that the myopia rate has slightly decreased in some years but still remains high, indicating that other factors such as eye - using habits are at play.",
+        "C": "The significant increase in sports and fitness time from 23 minutes in 2008 to 35 minutes in 2024 explains the obvious decrease in the myopia rate from 53.6% in 2018 to 51.9% in 2022.",
+        "D": "Reducing close - range eye - using activities such as reading books can significantly reduce the risk of myopia, but the chart does not provide relevant data.",
+        "E": "The increase in cultural, leisure and entertainment time (from 40 minutes to 153 minutes) is the main reason for the high myopia rate because it has the largest increase.",
+        "F": "The rapid increase in Internet usage and learning and training time usually involves close - range eye use, and the vision data shows that the myopia rate has not decreased significantly.",
+        "G": "Increasing outdoor sports time can effectively prevent myopia, but the data shows that the sports and fitness duration has increased slowly."
+      },
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the vision health data and the trend of the eyewear retail market, which factors can be inferred as the potential reasons for the continuous expansion of the eyewear market size?",
+      "answer": {
+        "A": "The increase in the myopia rate in 2020 (52.7%) directly led to a decrease in the market size (80.2 billion yuan), indicating that the deterioration of vision suppresses demand.",
+        "B": "The cultural, leisure and entertainment time has increased, but the improvement in sports and fitness is limited, and vision problems have not been alleviated. At the same time, the market growth rate has increased in fluctuations, indicating that demand is driven by vision conditions.",
+        "C": "The rapid growth of learning and training time may increase the burden on the eyes. The myopia rate data shows a stable high proportion, which is consistent with the expansion trend of the eyewear market.",
+        "D": "The long - term high myopia rate among children and adolescents and the significant increase in residents' Internet usage time may increase the demand for vision correction, driving the market growth.",
+        "E": "The aging population trend has increased the demand for reading glasses, promoting the expansion of the market size.",
+        "F": "The innovation of eyewear technology (such as anti - blue light lenses) has enhanced the attractiveness of products and stimulated consumption growth.",
+        "G": "The rapid increase in learning and training time (from 27 minutes to 287 minutes) is in sync with the increase in the market size. Especially when the market size decreased in 2022, the learning time still increased, explaining the fluctuations in demand."
+      },
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_2",
+        "chart_59_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Comparing the changes in residents' activity time and the growth rate of the eyewear market, which factors can best explain the conflicting phenomenon of the market growth rate declining in some years?",
+      "answer": {
+        "A": "Seasonal factors or short - term promotional activities cause annual growth rate fluctuations.",
+        "B": "The decrease in Internet usage time in 2020 led to a negative growth rate of the market (- 0.2%) because the demand for close - range eye use decreased.",
+        "C": "The rapid increase in learning and training time should theoretically increase the demand for glasses, but the market growth rate declined in some years, indicating that economic factors or alternative products (such as contact lenses) are at play.",
+        "D": "The significant increase in sports and fitness time from 23 minutes in 2008 to 35 minutes in 2024 explains the obvious decrease in the myopia rate from 53.6% in 2018 to 51.9% in 2022.",
+        "E": "The slow increase in sports and fitness time has limited vision improvement, while the market growth rate fluctuates (such as a negative growth in 2022), which may be related to consumer confidence or policy adjustments.",
+        "F": "Economic recession or a decline in consumer confidence leads to a decrease in optional consumption, affecting the market growth rate.",
+        "G": "The continuous increase in Internet usage time may exacerbate vision problems, but the market growth rate was negative in specific years (such as 2020), which may be due to external events (such as the pandemic) affecting consumption."
+      },
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the changing trends of residents' daily activity patterns and the current situation of adolescents' vision health, how should public health departments optimize preventive intervention strategies to reduce the risk of myopia? Please select the most effective suggestion.",
+      "answer": {
+        "A": "Given the surge in Internet usage time (from 14 minutes in 2008 to 363 minutes in 2024) but a slight decrease in the myopia rate, investment should be made in developing eye - protecting screen technology rather than restricting screen time.",
+        "B": "Since the sports and fitness time has increased slowly (from 23 minutes in 2008 to 35 minutes in 2024) and the myopia rate has decreased from 53.6% in 2018 to 51.9% in 2022, investment in sports intervention should be reduced, and priority should be given to supporting cultural, leisure and entertainment activities instead.",
+        "C": "Embed vision protection courses and regular rest mechanisms in the education system. The significant increase in learning - related activity time, combined with the myopia rate data, indicates that high - intensity learning may exacerbate vision stress. Structured rest and health education can reduce the risk of myopia.",
+        "D": "Encourage the development of non - electronic cultural and leisure activities. The cultural and entertainment time has increased, but some involve electronic devices. Combining with the myopia rate data, promoting outdoor or hands - on leisure options can effectively disperse screen dependence and reduce vision damage.",
+        "E": "Strengthen urban greening construction and increase the number of parks to indirectly promote outdoor activities.",
+        "F": "Strengthen the promotion of outdoor activities and screen time restriction measures. The duration of screen - related activities has shown a significant upward trend, while the growth of sports activities is relatively slow. At the same time, although the adolescent myopia rate has slightly decreased, it is still at a high level, indicating the need to reduce continuous screen exposure and increase outdoor time to relieve vision burden.",
+        "G": "Promote a balanced diet plan nationwide to ensure vitamin A intake for better vision health."
+      },
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the dynamic changes in adolescents' vision health and the growth trend of the eyewear market, how should enterprises adjust their product development and marketing strategies to enhance competitiveness? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "Launch value - added service packages combined with vision protection. The surge in screen activity duration is related to the risk of myopia, and the eyewear market is growing strongly. Providing additional services such as free screenings or eye - care consultations can enhance customer stickiness and differentiate competition.",
+        "B": "Focus on developing a product line of special eye - protecting glasses for adolescents. The myopia rate data of adolescents shows a stable demand base, and the eyewear market size is continuously expanding with a recovering growth rate, indicating that innovative products (such as anti - blue light or adjustable lenses) targeting this group can capture growth opportunities.",
+        "C": "Given that the eyewear market size decreased to 80.2 billion yuan in 2020 (with a growth rate of - 0.2%) but recovered to 94.4 billion yuan in 2024 (with a growth rate of 9.5%), investment in online channels should be suspended, and focus should be on expanding physical stores to avoid risks.",
+        "D": "Due to the significant increase in learning and training time (from 27 minutes in 2008 to 287 minutes in 2024) and the decrease in the myopia rate from 53.6% in 2018 to 51.9% in 2022, enterprises should develop high - priced learning - specific glasses and ignore eye - protection functions to maximize profits.",
+        "E": "Use environmentally friendly materials to produce glasses in response to the trend of sustainable development.",
+        "F": "Improve customer service quality to enhance brand loyalty and word - of - mouth.",
+        "G": "Expand online sales channels and increase digital marketing investment. The Internet usage time has increased rapidly, and the eyewear market has recovered a high growth rate after fluctuations, reflecting the popularization of consumers' online behavior. Marketing through e - commerce platforms and social media can improve market penetration."
+      },
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_2",
+        "chart_59_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the changes in residents' activity duration, adolescents' vision problems, and the trend of the eyewear market, how should the government allocate health resources to balance preventive and treatment needs? Please select the most sustainable strategic suggestion.",
+      "answer": {
+        "A": "Carry out national fitness day publicity activities to encourage regular exercise habits.",
+        "B": "Increase the construction of basic medical facilities to ensure that there is an ophthalmology clinic in each community.",
+        "C": "Since the cultural, leisure and entertainment time has increased significantly (from 40 minutes in 2008 to 153 minutes in 2024) and the myopia rate has decreased from 53.6% in 2018 to 51.9% in 2022, the government should cut the prevention publicity budget and directly subsidize the purchase of glasses to meet treatment needs.",
+        "D": "Provide subsidies to support the technological upgrading of the eyewear industry. Although the myopia rate has slightly decreased, the demand base is large. The growth rate of the eyewear market fluctuates but shows an upward trend in the long term. Supporting the industry to develop low - cost and highly accessible products can improve the fairness of the whole - population vision health.",
+        "E": "Given the continuous expansion of the eyewear market size (from 80.4 billion yuan in 2019 to 121 billion yuan in 2027) and the surge in learning and training time (287 minutes in 2024), the government should give priority to funding school treatment projects and reduce investment in promoting outdoor activities.",
+        "F": "Give priority to investing in vision screening and early intervention projects in schools and communities. The significant increase in learning activity time and the high myopia rate of adolescents, combined with the expansion of the eyewear market size, indicate that early detection can reduce later - stage treatment costs and relieve market pressure.",
+        "G": "Increase the public publicity budget to advocate healthy eye - using habits. The rapid growth of screen activity duration and the limited improvement in outdoor activities highlight the risks in the myopia rate data. Reducing continuous use of electronic devices through media publicity can prevent vision problems."
+      },
+      "charts_involved": [
+        "chart_59_1",
+        "chart_59_2",
+        "chart_59_3"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    }
+  ]
+}

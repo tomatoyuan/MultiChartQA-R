@@ -1,0 +1,203 @@
+{
+  "chart": [
+    "chart_40_1",
+    "chart_40_2",
+    "chart_40_3",
+    "chart_40_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Please compare the changing trend of the market size from 2022 to 2025 in the 'Market Size of Spicy Snacks in China from 2022 to 2026 (in billions of yuan)' with the changing trend of the average spiciness (SHU) of the three styles of Spicy → Sour - Spicy → Peppery in the 'Percentage of Preferences for the World's TOP 3 Popular Spicy Flavors, Average Spiciness (SHU) of Different Spicy Styles'. Are the trends of these two curves consistent? Please answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The market size increased continuously from 2022 → 2023 → 2024 → 2025. Meanwhile, the average spiciness of the three styles also increased from 250 SHU → 750 SHU → 1250 SHU. Both curves are monotonically increasing, so the trends are consistent.",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "From the sequence of Spicy → Sour - Spicy → Peppery in the 'Percentage of Preferences for the World's TOP 3 Popular Spicy Flavors, Average Spiciness (SHU) of Different Spicy Styles', the preference percentage decreased continuously. While the 'Market Size of Spicy Snacks in China from 2022 to 2026 (in billions of yuan)' continued to rise from 2022 → 2023. Please indicate the name of the spicy style corresponding to the first decrease in the preference percentage but the continuous rise in the market size. Just write the name without additional description.",
+      "answer": "Sour - Spicy",
+      "explanation": "The preference percentage decreased from 45% for Spicy to 35% for Sour - Spicy, showing the first decrease. Meanwhile, the market size increased from 1804 billion yuan in 2022 to 2045 billion yuan in 2023, still rising. Therefore, the divergence point corresponds to Sour - Spicy.",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the 'Market Size of Spicy Snacks in China from 2022 to 2026 (in billions of yuan)', the year with the largest market size is 2026. In the 'Percentage of Preferences for the World's TOP 3 Popular Spicy Flavors', the spicy flavor with the highest preference percentage is Spicy. Please determine whether the categories represented by these two extreme values are the same. Please answer yes or no.",
+      "answer": "No",
+      "explanation": "One extreme value is a year (2026), and the other extreme value is a spicy flavor style (Spicy). The two categories are completely different, so they are not the same.",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2025, what is the market size of the sour - spicy flavor preference in the Chinese spicy snack market? Keep 1 decimal place, unit: billion yuan. Answer: xx billion yuan",
+      "answer": "878.5 billion yuan",
+      "explanation": "The market size in 2025 is 251 billion yuan × the preference for sour - spicy flavor is 35% = 87.85 billion yuan",
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Based on the market size in 2024, what is the market size corresponding to offline channel decisions? Keep 2 decimal places, unit: billion yuan. Answer: xx billion yuan",
+      "answer": "1690.16 billion yuan",
+      "explanation": "The market size in 2024 is 2284 billion yuan × the selection of offline channels is 74% = 1690.16 billion yuan",
+      "charts_involved": [
+        "chart_40_2",
+        "chart_40_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among consumers who choose offline channels, what is the proportion of the convenience store channel? Keep 2 decimal places %. Answer: xx%",
+      "answer": "86.49%",
+      "explanation": "The proportion of the convenience store channel is 64% ÷ the selection of offline channels is 74% × 100% ≈ 86.49%",
+      "charts_involved": [
+        "chart_40_3",
+        "chart_40_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the consumer channel preference data, which options best explain the inconsistencies in channel definitions and categorization methods across different sources?",
+      "answer": {
+        "A": "In chart_40_3, the proportion of 'Offline (Pinduoduo)' is 57%, which is close to the 74% proportion of 'Offline Channel' in chart_40_4, indicating that Pinduoduo is correctly categorized as an offline channel, despite being an e - commerce platform.",
+        "B": "The inconsistency in channel classification is due to differences in consumers' income levels. High - income groups prefer online channels, while low - income groups tend to choose offline channels, which affects the data categorization criteria.",
+        "C": "The preference proportion of offline supermarkets is consistent with the proportion of offline channels in consumers' decision - making. However, 'Pinduoduo' is wrongly categorized as offline, which contradicts the trend of high online proportions, highlighting the lack of uniformity in the classification system.",
+        "D": "Seasonal promotional activities (such as Double Eleven) amplify the preference proportion of online channels, causing conflicts in data from different sources, which has nothing to do with the channel definitions themselves.",
+        "E": "In chart_40_3, the proportion of 'Online (Douyin Live)' is 68%, which is the same as the 68% proportion of 'Both Online and Offline Channels' in chart_40_4, suggesting that Douyin Live should be categorized as a hybrid channel rather than a purely online one.",
+        "F": "The preference proportion of Douyin Live is the same as the decision - making proportion of consumers choosing both online and offline channels, but the categorization methods are different, indicating the ambiguity of emerging channels in traditional classifications.",
+        "G": "One source categorizes 'Pinduoduo' as an offline channel, while another source shows that online channels dominate consumers' decision - making. This conflict may be due to differences in data collection or channel classification criteria."
+      },
+      "charts_involved": [
+        "chart_40_3",
+        "chart_40_4"
+      ],
+      "label": [
+        "C",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Which consumer channel behavior factors may jointly influence the rapid growth trend of the market size of spicy snacks in China?",
+      "answer": {
+        "A": "The CAGR of the market size is calculated to be approximately 11% (based on data from 2022 - 2026), far exceeding the expected CAGR of 9.6% (6.0% × 1.6) for spicy foods relative to snacks, which is attributed to the high preference rate of 89% for online channels.",
+        "B": "Consumers' decision - making mode of preferring to use both online and offline channels is consistent with the continuous expansion of the market size, which may reflect that the multi - channel strategy improves product accessibility and purchase convenience.",
+        "C": "The extremely high preference rate of online channels in consumers' decision - making is associated with the steady annual increase in the market size, indicating that digital channels are the key driving force for growth.",
+        "D": "In chart_40_4, the proportion of 'Offline Channels' is 74%, far higher than the 68% proportion of 'Both Online and Offline Channels', indicating that offline purchases are the main driving force for the growth of the market size, despite the high proportion of online channels.",
+        "E": "The growth rate of spicy foods far exceeds the overall level of the snack food industry. Combined with the dominant preference for online channels, it highlights the amplifying effect of digital channels on the high - growth market.",
+        "F": "The increase in social media advertising has improved brand awareness and stimulated consumers' purchase intention, which has nothing to do with channel preferences.",
+        "G": "Macroeconomic factors such as GDP growth and rising inflation directly drive the expansion of the market size, rather than channel behavior."
+      },
+      "charts_involved": [
+        "chart_40_2",
+        "chart_40_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "How may the global spicy flavor preference characteristics potentially influence the product development and growth potential of the spicy snack market in China?",
+      "answer": {
+        "A": "The origin of spicy flavors in Asian regions (such as China and Southeast Asia), combined with geographical proximity, may facilitate local innovation and indirectly support the expansion of the Chinese market.",
+        "B": "The 'Sour - Spicy' style has an average spiciness of 750 SHU (medium level) and a preference proportion of 35%. Combined with its Southeast Asian origin, it may be more suitable for development in the Chinese market due to geographical proximity.",
+        "C": "The global trend of healthy eating promotes the development of low - fat and low - sugar products, which indirectly affects the innovation of spicy foods but does not consider spiciness preferences.",
+        "D": "The 'Peppery' flavor has a high spiciness of 1250 SHU and a preference proportion of 30%, indicating the potential of high - spiciness products, which is consistent with the high growth rate (CAGR of about 11%) of the Chinese market size, supporting the development of high - end niche products.",
+        "E": "The low spiciness and the highest preference proportion of the 'Spicy' style may make it more acceptable to the general public, which is consistent with the steady growth trend of the Chinese market size, supporting the mainstream product development strategy.",
+        "F": "Cultural globalization promotes the fusion of spicy flavors (such as Chinese - Western combination), enhancing market attractiveness, which has nothing to do with specific preference data.",
+        "G": "The higher spiciness of the 'Sour - Spicy' and 'Peppery' styles may target niche markets, but the popularity of the 'Spicy' flavor is consistent with the predicted increase in market size, suggesting that mild spiciness better meets the growth needs."
+      },
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the consumer spicy flavor preference characteristics and the market size growth trend, how should enterprises optimize the product portfolio strategy of spicy snacks to maximize market share and meet diverse needs? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Significantly increase product prices to match the market size growth (such as the predicted 273.7 billion yuan in 2026) to improve profit margins while keeping the existing product portfolio unchanged.",
+        "B": "Develop products with a moderate spiciness and fusion flavors. The preference proportions of both 'Spicy' and 'Sour - Spicy' are relatively high, but the spiciness levels vary significantly. The growth of the market size reflects the rising demand. By balancing the spiciness (such as combining the low spiciness of 'Spicy' and the medium spiciness of 'Sour - Spicy'), it can meet the acceptance of most consumers and reduce market gaps.",
+        "C": "Increase the advertising budget to enhance brand awareness, thereby attracting more consumers to buy spicy snacks, as brand promotion is a general strategy for expanding market share.",
+        "D": "Completely eliminate the low - spiciness product line, because high - spiciness products (such as 'Peppery') better represent the market trend, and the 30% preference proportion of 'Peppery' indicates that consumers are turning to more exciting flavors.",
+        "E": "Increase the product diversity of 'Sour - Spicy' and 'Peppery' flavors. Although the 'Spicy' flavor leads in preference, the higher spiciness of 'Sour - Spicy' and 'Peppery' can attract niche markets seeking excitement. The predicted stable expansion of the market size indicates sufficient space for product differentiation according to different preferences to cover a wider consumer group.",
+        "F": "Prioritize the expansion of the 'Spicy' flavor product line. This flavor has the highest preference proportion among consumers and a relatively low average spiciness, suitable for the general taste. Combined with the continuous growth trend of the market size, increasing the development of 'Spicy' products can effectively attract the mainstream consumer group and boost overall sales.",
+        "G": "Prioritize the development of non - spicy products to cover consumers who are not sensitive to spicy flavors, because the growth of the market size shows rising demand, but not all consumers like spicy food."
+      },
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the consumer shopping channel preferences and the market size forecast of spicy snacks, how should marketing resources be allocated to improve channel efficiency and sales conversion? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Completely abandon online channels, because the proportion of offline supermarkets is 74% in chart_40_3, which is the highest, and the market size forecast shows stable demand. Offline channels can more directly reach immediate buyers.",
+        "B": "Focus on investing in the Pinduoduo channel, because its proportion in chart_40_3 is 57%, higher than that of canteens (40%), and Pinduoduo, as a low - price platform, can attract price - sensitive consumers in the growing market.",
+        "C": "Focus on investing in online channels, especially online shopping platforms with high penetration rates. Online channels have a prominent proportion in consumers' decision - making, and the investment cost is relatively low. Combined with the high - speed growth trend of the market size, strengthening online marketing can efficiently reach the target group and boost sales.",
+        "D": "Strengthen the online - offline integrated channel strategy. The proportion of consumers choosing both online and offline channels is relatively high, indicating a preference for an integrated experience. The expansion of the market size shows potential demand. Through O2O linkage (such as online drainage and offline experience), resource utilization can be optimized and sales coverage can be expanded.",
+        "E": "Optimize the layout of high - traffic offline channels, such as supermarkets and convenience stores. These channels have a relatively high and stable proportion in consumers' decision - making. The continuous growth of the market size means increasing demand. Focusing on these touchpoints can capture immediate purchase behaviors and improve channel efficiency.",
+        "F": "Concentrate resources on product packaging design rather than channel allocation, because attractive packaging can directly improve conversion rates, which has nothing to do with the market size expansion trend.",
+        "G": "Allocate the marketing budget evenly across all channels to ensure fair coverage, as balanced resource allocation is the basic principle for improving overall efficiency."
+      },
+      "charts_involved": [
+        "chart_40_3",
+        "chart_40_4",
+        "chart_40_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the global origin characteristics of spicy snacks and the consumer preference trend, how should enterprises formulate a market expansion strategy to seize growth opportunities? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Expand in all global regions simultaneously to maximize coverage opportunities, as diversified market entry is a standard strategy for risk reduction.",
+        "B": "Reduce the focus on preference data and instead expand rapidly through mergers and acquisitions, because the market size forecast (chart_40_2) shows strong industry growth, and mergers and acquisitions can accelerate market share growth.",
+        "C": "Explore the potential of the North American market and focus on 'Peppery' flavor products. The 'Peppery' flavor originated in this region, with a stable preference proportion and a relatively high spiciness. The continuous expansion of the market size indicates industry vitality. Customizing products according to North American tastes can test new growth points.",
+        "D": "Prioritize entering the South American market, because the map in chart_40_1 marks the origin of 'Spicy' in South America (coordinate (2,2)), and the 45% preference proportion of 'Spicy' is the highest, indicating the advantage of native demand in this region.",
+        "E": "Deepen the integration of diverse spicy flavors in the Chinese market and leverage the cultural confluence of spicy flavors. The confluence point of spicy flavors is in Central Asia. Combining the preference distribution of 'Spicy', 'Sour - Spicy', etc., and considering that the Chinese market has the largest size and strong growth, developing fusion - flavored products can strengthen local advantages and meet diverse needs.",
+        "F": "Prioritize the development of the Southeast Asian market. This region is the origin of the 'Sour - Spicy' flavor, and the consumer preference proportion is significant. Combined with the market size growth trend, launching localized 'Sour - Spicy' products can quickly integrate into local demand and reduce market entry barriers.",
+        "G": "Ignore the growth of the Chinese market, because the confluence point of spicy flavors is in Central Asia (coordinate (5,4)). Resources should be concentrated on developing the new Central Asian market to take advantage of the cultural fusion point."
+      },
+      "charts_involved": [
+        "chart_40_1",
+        "chart_40_2"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

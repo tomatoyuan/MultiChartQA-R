@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_76_1",
+    "chart_76_2",
+    "chart_76_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Do the color - matching styles of 'mUserTracker: Comparison of single - machine daily usage time between Q1 2021 and Q1 2022' and 'Marketing cost per newly - added active user of leading Internet listed companies from 2014 to 2021' match? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Chart_76_1 mainly uses blue and orange, while chart_76_2 mainly uses green.",
+      "charts_involved": [
+        "chart_76_1",
+        "chart_76_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the numbers of data items in 'Marketing cost per newly - added active user of leading Internet listed companies from 2014 to 2021' and 'mUserTracker - Q1 2022 User Application Usage Time Distribution' match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both have 8 items.",
+      "charts_involved": [
+        "chart_76_2",
+        "chart_76_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the ranking of the cost corresponding to 2021 in 'Marketing cost per newly - added active user of leading Internet listed companies from 2014 to 2021' match the ranking of the proportion corresponding to 'Video Services' in 'mUserTracker - Q1 2022 User Application Usage Time Distribution'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both rank first.",
+      "charts_involved": [
+        "chart_76_2",
+        "chart_76_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "How many minutes did users spend on Video Services on average per day in Q1 2022? Round to 2 decimal places. Answer: xx.xx minutes",
+      "answer": "146.14 minutes",
+      "explanation": "The single - machine daily effective usage time in Q1 2022 is 332.9 minutes × The proportion of usage time for Video Services is 43.9% = 146.143 minutes. Rounded to 2 decimal places, it is 146.14 minutes.",
+      "charts_involved": [
+        "chart_76_1",
+        "chart_76_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the marketing cost per newly - added active user in 2021 to the increase in single - machine daily usage time from Q1 2021 to Q1 2022 in yuan/minute? Round to 2 decimal places. Answer: xx.xx yuan/minute",
+      "answer": "35.55 yuan/minute",
+      "explanation": "The increase in single - machine daily usage time = 332.9 minutes - 316.8 minutes = 16.1 minutes; The marketing cost per newly - added active user in 2021 is 572.3 yuan ÷ 16.1 minutes = 35.547 yuan/minute. Rounded to 2 decimal places, it is 35.55 yuan/minute.",
+      "charts_involved": [
+        "chart_76_1",
+        "chart_76_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "If the marketing cost per newly - added active user in 2021 is allocated according to the usage time, how much is the cost allocated to Game Services? Round to 2 decimal places. Answer: xx.xx yuan",
+      "answer": "33.19 yuan",
+      "explanation": "The proportion of usage time for Game Services is 5.8%; The marketing cost per newly - added active user in 2021 is 572.3 yuan × 5.8% = 33.1934 yuan. Rounded to 2 decimal places, it is 33.19 yuan.",
+      "charts_involved": [
+        "chart_76_2",
+        "chart_76_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the growth of single - machine daily usage time from Q1 2021 to Q1 2022 and the distribution of user application usage time in Q1 2022, which application categories are most likely to have dominated this growth?",
+      "answer": {
+        "A": "The Communication and Chat and Comprehensive Information categories together account for a significant time share. Their interactivity and information - acquisition features may have synergistically promoted the increase in overall usage time.",
+        "B": "The Video Services category has the highest proportion in application usage time, and its content usually requires a long continuous usage time. Therefore, it may be the main factor driving the growth of the total usage time.",
+        "C": "The Social Networks category has a high proportion of usage time and strong interactivity, so it is the main driving force for the growth.",
+        "D": "The Utility Tools category accounts for 3.6%. However, due to its efficiency improvement and innovation, it may have made a significant contribution to the growth.",
+        "E": "The collective share of the Others category cannot be ignored. It may include emerging or highly sticky services, providing additional contributions to the growth.",
+        "F": "Since the Game Services category accounts for 5.8% and the overall growth rate from Q1 2021 to Q1 2022 is 5.1%, Game Services may have directly led to most of the growth."
+      },
+      "charts_involved": [
+        "chart_76_1",
+        "chart_76_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the historical change trend of marketing costs per newly - added active user and the growth of single - machine daily usage time in Q1 2022, what factors may explain how marketing investment affects user behavior?",
+      "answer": {
+        "A": "In 2019, the marketing cost dropped to 298.1 yuan per person. Therefore, the user usage time in that year should have decreased significantly, indirectly affecting the growth in 2022.",
+        "B": "A decrease in marketing costs will lead to a decrease in user usage time because low investment cannot maintain user engagement.",
+        "C": "In 2021, the marketing cost was the highest at 572.3 yuan per person, while the growth in Q1 2022 was only 5.1%. This indicates that high marketing investment did not significantly increase the usage time.",
+        "D": "The marketing cost has been continuously rising to a high point in recent years. This may have indirectly promoted the growth of usage time at the beginning of 2022 by enhancing user acquisition and retention.",
+        "E": "Although the marketing cost fluctuated in some years (such as decreasing first and then increasing), the overall upward trend may have accumulated the user base and strengthened usage habits, thus supporting the increase in usage time.",
+        "F": "The increase in the cost per newly - added user reflects the intensification of market competition. However, high investment may be translated into higher user engagement, which is reflected in the increase in usage time."
+      },
+      "charts_involved": [
+        "chart_76_2",
+        "chart_76_1"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the long - term trend of marketing costs per newly - added active user, the distribution of application usage time in Q1 2022, and the growth of single - machine daily usage time, what factors may jointly shape user behavior on high - proportion applications?",
+      "answer": {
+        "A": "The stable time share of the Communication and Chat category is consistent with the upward trend of marketing costs, indicating that the social interaction demand may have been amplified by marketing strategies, contributing to the increase in usage time.",
+        "B": "The Video Services category accounts for 43.9%, and the marketing cost increased from 474.8 yuan per person in 2020 to 572.3 yuan per person in 2021 (a 20.6% increase). Therefore, investment was preferentially concentrated on Video Services, leading to its dominant growth.",
+        "C": "Marketing costs are mainly used for the E - commerce category because it has a high proportion and can directly promote user purchasing behavior.",
+        "D": "Although the time share of the Others category is small, the overall increase in marketing costs may have improved its accessibility, indirectly supporting the usage intensity of major categories such as Video Services.",
+        "E": "The marketing cost has increased significantly in recent years. It may have been preferentially invested in dominant categories such as Video Services, promoting its high usage proportion and thus explaining the increase in overall usage time.",
+        "F": "The Others category accounts for 11.9%, and the marketing cost has increased. It may have indirectly reduced the usage time of Video Services by improving accessibility."
+      },
+      "charts_involved": [
+        "chart_76_2",
+        "chart_76_1",
+        "chart_76_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "As the user device usage time grows steadily, but the marketing cost per newly - added user continues to rise, how should the company adjust its user growth strategy to improve cost - efficiency and maximize long - term value? Please select the most reasonable optimization suggestion.",
+      "answer": {
+        "A": "Raise the product price to cover the increased marketing cost, thus ensuring a stable growth in profit.",
+        "B": "Expand the scale of offline marketing activities to reach a wider potential user group, as traditional channels usually bring stable traffic.",
+        "C": "Given that the single - machine daily usage time in Q1 2021 (316.8) was lower than that in Q1 2022 (332.9), the company should completely stop the user retention plan and concentrate resources on new user acquisition to take advantage of the growth trend of usage time.",
+        "D": "Strengthen the existing user retention plan to reduce the dependence on new user acquisition by enhancing user engagement and loyalty. The growth of user device usage time indicates high - stickiness potential, while the rising trend of marketing cost means that acquiring new users is becoming more and more expensive. Therefore, investing in retention is more efficient and sustainable than simply pursuing new additions.",
+        "E": "Since the marketing cost per newly - added user was the lowest in 2014 (67.6 yuan/person), the company should return to early marketing strategies, such as large - scale TV advertising, to reduce the current cost.",
+        "F": "Embed growth incentives in application areas with a relatively high proportion of user usage time (such as video services) to naturally attract new users. The user engagement in leading applications is strong, and the growth of device usage time provides an opportunity to expand the user base, which can partially offset the pressure of rising marketing costs and achieve more organic user growth.",
+        "G": "Optimize the selection of marketing channels and focus on cost - effective user acquisition methods, such as data - driven precise positioning. The continuous rise of marketing costs reflects the decline in the efficiency of traditional channels. Meanwhile, the growth of user usage time implies rich behavioral data, which can be combined for analysis to improve the matching degree of target users and thus control costs."
+      },
+      "charts_involved": [
+        "chart_76_1",
+        "chart_76_2",
+        "chart_76_3"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Given the uneven distribution of user application usage time and the overall growth of device usage time, how should the company allocate product development and content resources to maximize user engagement? Please select the most effective resource optimization strategy.",
+      "answer": {
+        "A": "Based on the fact that video services have the highest proportion (43.9%), the company should ignore low - share categories such as utility tools (3.6%), but increase investment in 'Other applications' (11.9%) because its share is higher than that of social networks (4.1%).",
+        "B": "Increase the frequency of content updates evenly across all application categories to maintain a balanced user interest.",
+        "C": "Pilot innovative features in categories with medium shares (such as comprehensive information or game services) to test diversification opportunities. Although the leading fields are strong, the growth trend of usage time allows for the exploration of new growth points, avoiding the risk of over - concentration and capturing potential shifts in user interest.",
+        "D": "Enhance the integration functions of low - share categories such as utility tools or e - commerce and embed them in high - usage - time applications. The user time distribution shows that leading applications are highly attractive. Combined with the growth of device usage time, cross - category collaboration can enhance the overall ecosystem stickiness and make resource allocation more efficient.",
+        "E": "Prioritize investment in video services and communication and chat fields because they dominate the user time allocation, and the overall growth of usage time provides an opportunity to expand influence. Concentrating resources here can quickly improve overall engagement.",
+        "F": "Reduce the complexity of the user interface to improve overall usability and attract more users.",
+        "G": "Since the usage time of comprehensive information only accounts for 7.3%, the company should significantly cut resources in this area and transfer them to game services (5.8%) because games usually have greater monetization potential."
+      },
+      "charts_involved": [
+        "chart_76_1",
+        "chart_76_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Facing the historical upward trend of marketing cost per newly - added user and the user application usage pattern, what comprehensive strategies should the company implement to optimize the marketing budget and enhance the user lifetime value? Please select reasonable suggestions based on data trends.",
+      "answer": {
+        "A": "Shift the marketing budget from inefficient channels to application areas with high user stickiness (such as video services). Since the marketing cost continues to rise, it indicates that the marginal benefit of traditional acquisition methods is decreasing. The strong user time proportion in leading applications and the growth of device usage time support internal traffic conversion to reduce costs.",
+        "B": "Given that the marketing cost per newly - added user was relatively high in 2020 (474.8 yuan/person) and even higher in 2021 (572.3 yuan/person), the company should suspend all marketing during the period of growing usage time in Q1 (such as 332.9 in Q1 2022) to save the budget.",
+        "C": "Since the usage time of communication and chat accounts for 19.7%, second only to video services, the company should allocate all the marketing budget to advertising in this area and reduce the investment in video services (43.9%) because users in communication and chat interact more strongly.",
+        "D": "Establish a dynamic marketing investment mechanism, increasing the budget during the period of growing user usage time and contracting it during the peak cost period. The growth of device usage time reflects the active window of users. Combined with the rising trend of marketing cost, matching the time points can improve the input - output ratio.",
+        "E": "Develop user referral or community - driven growth programs, leveraging the natural spread of high - engagement applications (such as communication and chat). Leading applications have a large user base, and the rising marketing cost makes paid acquisition more expensive. This strategy can reduce the unit cost and enhance trust.",
+        "F": "Strengthen employee training to improve the efficiency of the marketing team, thus indirectly reducing the user acquisition cost.",
+        "G": "Increase cooperation with brand ambassadors to enhance market trust because the celebrity effect can attract new users."
+      },
+      "charts_involved": [
+        "chart_76_1",
+        "chart_76_2",
+        "chart_76_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

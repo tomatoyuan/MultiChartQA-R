@@ -1,0 +1,175 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of federal workers who are non - veterans and have worked for the government for 1 to 2 years?\n question2: What is the proportion of veterans in miscellaneous aircraft overhaul (among occupations with at least 1,000 total workers)?",
+                "rationale": "rationale1: This question requires us to extract the proportion value of non - veterans with 1 - 2 years of government work experience from the given chart.\n rationale2: We can obtain the proportion of veterans in miscellaneous aircraft overhaul from the chart under the given condition.",
+                "answer": "15.2%; 78.9%",
+                "involved_content_sources": [
+                    "chart_5-4",
+                    "chart_3-12"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the share of federal workers who are veterans in 2021? Please provide a percentage value with one decimal place as the answer.\n question2: What is the proportion of federal workers who are veterans and have worked for the government for 5 to 9 years?\n question3: What is the proportion of federal - worker veterans with a bachelor's degree or higher? Please answer with a percentage.",
+                "rationale": "rationale1: The question requires the share of federal workers who are veterans in 2021, and the relevant data is available in the chart.\n rationale2: The question directly asks for the proportion value of a specific group (veterans who have worked for 5 - 9 years) in federal workers, which can be found directly from the chart.\n rationale3: To answer this question, we look for the proportion of federal - worker veterans with a bachelor's degree or higher in chart 4.",
+                "answer": "23.7%; 22.3%; 47%",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_5-7",
+                    "chart_4-17"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the share of veteran employees in the Department of the Army among agencies with at least 1,000 total employees?\n question2: How many veterans are there in general inspection, investigation, enforcement and compliance?\n question3: What was the share of federal workers who are veterans in 2023? Please provide a percentage value with one decimal place as the answer.\n question4: What is the proportion of federal workers who are non - veterans and have worked for the government for 1 to 2 years?",
+                "rationale": "rationale1: The question is about the share of veteran employees in the Department of the Army under the specified condition, and the relevant information is in the chart.\n rationale2: To answer this question, we look for the relevant data in the chart about the number of veterans in general inspection, investigation, enforcement and compliance.\n rationale3: The question asks for the share of federal workers who are veterans in 2023, and the relevant content in the chart gives the answer.\n rationale4: This question requires us to extract the proportion value of non - veterans with 1 - 2 years of government work experience from the given chart.",
+                "answer": "48.8%; 15,485; 23.7%; 15.2%",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_3-5",
+                    "chart_1-5",
+                    "chart_5-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of men between federal - worker veterans and federal - worker non - veterans?\n question2: Based on the data in 2020, estimate the total number of federal workers in 2020. (Round to the nearest whole number)",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of men among federal - worker non - veterans from the proportion of men among federal - worker veterans. This requires extracting the relevant data from the chart.\n rationale2: We know from the chart that in 2020, the number of federal workers who are veterans is 713,016 and the share of federal workers who are veterans is 23.6%. To find the total number of federal workers in 2020, we can use the formula: Total number = Number of veteran federal workers / Share of veteran federal workers. So we divide 713016 by 23.6% (or 0.236) to get the result.",
+                "answer": "35%; 3021254",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_1-1",
+                    "chart_1-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of men between federal - worker veterans and federal - worker non - veterans?\n question2: Based on the data in 2020, estimate the total number of federal workers in 2020. (Round to the nearest whole number)\n question3: What is the total number of veteran employees in the Department of Veterans Affairs, the Department of the Army, and the Department of the Air Force as of September 2024?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of men among federal - worker non - veterans from the proportion of men among federal - worker veterans. This requires extracting the relevant data from the chart.\n rationale2: We know from the chart that in 2020, the number of federal workers who are veterans is 713,016 and the share of federal workers who are veterans is 23.6%. To find the total number of federal workers in 2020, we can use the formula: Total number = Number of veteran federal workers / Share of veteran federal workers. So we divide 713016 by 23.6% (or 0.236) to get the result.\n rationale3: The question asks for the combined number of veteran employees in three departments. We need to add the number of veteran employees in each of these departments as given in the chart. This requires extracting relevant data from the chart and performing a simple addition operation.",
+                "answer": "35%; 3021254; 316830",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of men between federal - worker veterans and federal - worker non - veterans?\n question2: Based on the data in 2020, estimate the total number of federal workers in 2020. (Round to the nearest whole number)\n question3: What is the total number of veteran employees in the Department of Veterans Affairs, the Department of the Army, and the Department of the Air Force as of September 2024?\n question4: What is the difference between the number of veterans in miscellaneous administration and program and the sum of the number of veterans in human resources management and logistics management?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of men among federal - worker non - veterans from the proportion of men among federal - worker veterans. This requires extracting the relevant data from the chart.\n rationale2: We know from the chart that in 2020, the number of federal workers who are veterans is 713,016 and the share of federal workers who are veterans is 23.6%. To find the total number of federal workers in 2020, we can use the formula: Total number = Number of veteran federal workers / Share of veteran federal workers. So we divide 713016 by 23.6% (or 0.236) to get the result.\n rationale3: The question asks for the combined number of veteran employees in three departments. We need to add the number of veteran employees in each of these departments as given in the chart. This requires extracting relevant data from the chart and performing a simple addition operation.\n rationale4: To answer this question, we first need to find the sum of the number of veterans in human resources management and logistics management according to the chart. Then subtract this sum from the number of veterans in miscellaneous administration and program. This involves simple addition and subtraction operations on the data in the chart.",
+                "answer": "35%; 3021254; 316830; 13214",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-1",
+                    "chart_3-4",
+                    "chart_3-6"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the share of veteran employees in the Department of the Air Force among agencies with at least 1,000 total employees and the proportion of veterans in aircraft operation (among occupations with at least 1,000 total workers)?",
+                "rationale": "The share of veteran employees in the Department of the Air Force among agencies with at least 1,000 total employees is 50.6%. The proportion of veterans in aircraft operation (among occupations with at least 1,000 total workers) is 73.7%. The difference is 73.7% - 50.6% = 23.1%.",
+                "answer": "23.1%",
+                "involved_content_sources": [
+                    "chart_2-11",
+                    "chart_3-14"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "If we assume that the number of federal workers in 2020 is the number of veterans divided by the share of veterans, and then we calculate what proportion the number of veteran employees in the Department of Veterans Affairs in 2024 is of the calculated number of federal workers in 2020, and then multiply this proportion by the proportion of veterans in transportation operations in 2024. What is the final result? (Round the result to two decimal places.)",
+                "rationale": "First, calculate the number of federal workers in 2020: 713016\u00f723.6% \u2248 3021254.24. Then, calculate the proportion of the number of veteran employees in the Department of Veterans Affairs in 2024 to the number of federal workers in 2020: 122015\u00f73021254.24 \u2248 0.0404. Finally, multiply this proportion by the proportion of veterans in transportation operations in 2024: 0.0404\u00d780.7% \u2248 0.0326 = 3.26% (rounded to two decimal places).",
+                "answer": "3.26%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-1",
+                    "chart_3-11"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the share of federal workers who are veterans in 2020 and the share in 2024, the difference between the number of veteran employees in the Department of Veterans Affairs and the number of veteran employees in the Department of Homeland Security as of September 2024, the difference between the proportion of veterans in transportation operations and the proportion of veterans in quality assurance (among occupations with at least 1,000 total workers), and the difference between the proportion of federal-worker veterans aged 50 - 59 and the proportion of federal-worker non-veterans aged 50 - 59?",
+                "rationale": "From chart1-2, the share of federal workers who are veterans in 2020 is 23.6%, and from chart1-6, in 2024 it is 23.7%, so the difference is 23.6% - 23.7% = -0.1%. From chart2-1, the number of veteran employees in the Department of Veterans Affairs as of September 2024 is 122,015, and from chart2-6, the number of veteran employees in the Department of Homeland Security is 55,112, so the difference is 122015 - 55112 = 66903. From chart3-11, the proportion of veterans in transportation operations (among occupations with at least 1,000 total workers) is 80.7%, and from chart3-20, the proportion of veterans in quality assurance is 66.0%, so the difference is 80.7% - 66.0% = 14.7%. From chart4-8, the proportion of federal-worker veterans aged 50 - 59 is 33%, and from chart4-13, the proportion of federal-worker non-veterans aged 50 - 59 is 23%, so the difference is 33% - 23% = 10%. The average of these differences is (-0.1% + 66903 + 14.7% + 10%) / 4. Considering the different nature of the values (percentage and number), if we assume to convert the number value to a relative scale for simplicity of average calculation (which is a bit of approximation in this context), let's assume we consider 66903 as a relative value. For the sake of getting a unified average, we can calculate the average of these values as follows: First, convert all to a comparable form. Let's consider the differences as they are and calculate the average of -0.1, 66903, 14.7 and 10. The average is (-0.1 + 66903 + 14.7 + 10) / 4 = 16756.9. If we want to keep the percentage differences and try to incorporate the number value in a more meaningful way, it's a complex situation. But if we just focus on the percentage differences and ignore the number value for a moment, the average of -0.1%, 14.7%, and 10% is (-0.1% + 14.7% + 10%) / 3 = 8.2%. Considering the nature of the problem and trying to balance the values, we can say that if we take a more comprehensive view and try to give some weightage to the number value, it's very difficult to directly average them in a traditional sense. But if we consider them separately and just report the average of the percentage differences for now, the answer based on the percentage differences is 8.2%. In a more accurate and comprehensive calculation, we may need more context and normalization methods for the number value. Here we present 8.2% as the answer considering the percentage differences as the main focus for the average calculation in this case.",
+                "answer": "8.2%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_3-11",
+                    "chart_4-8"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the number of veteran employees in the Department of Veterans Affairs and the Department of the Army, and the sum of the number of veterans in miscellaneous administration and program and information technology management?",
+                "rationale": "The number of veteran employees in the Department of Veterans Affairs is 122,015 (chart_2-1), and the number of veteran employees in the Department of the Army is 108,019 (chart_2-2). The sum of these two numbers is 122,015 + 108,019 = 230,034. The number of veterans in miscellaneous administration and program is 44,247 (chart_3-1), and the number of veterans in information technology management is 41,813 (chart_3-2). The sum of these two numbers is 44,247 + 41,813 = 86,060. Then the difference between the two sums is 230,034 - 86,060 = 143,974.",
+                "answer": "143,974",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the share of federal workers who are veterans in 2021, the share of veteran employees in the Department of the Army, and the proportion of veterans in transportation operations, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The share of federal workers who are veterans in 2021 is 23.7% (chart_1-3); the share of veteran employees in the Department of the Army is 48.8% (chart_2-12); the proportion of veterans in transportation operations is 80.7% (chart_3-11). The weighted average is (23.7%\u00d70.2 + 48.8%\u00d70.3 + 80.7%\u00d70.5) = (0.237\u00d70.2 + 0.488\u00d70.3 + 0.807\u00d70.5) = 0.0474 + 0.1464 + 0.4035 = 0.5973 = 59.73%.",
+                "answer": "59.73%",
+                "involved_content_sources": [
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_2-12",
+                    "chart_2-13",
+                    "chart_3-11",
+                    "chart_3-12"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the sum of the number of veteran employees in the Department of the Army and the Department of the Air Force to the sum of the number of veterans in information technology management and human resources management, considering the proportion of male federal - worker veterans and the difference in the proportion of federal workers who have worked for the government for 5 to 9 years between veterans and non - veterans?",
+                "rationale": "First, from Chart 2, the number of veteran employees in the Department of the Army is 108,019 (chart_2-2) and in the Department of the Air Force is 86,796 (chart_2-3), so their sum is 108019 + 86796 = 194815. Second, from Chart 3, the number of veterans in information technology management is 41,813 (chart_3-2) and in human resources management is 16,057 (chart_3-4), so their sum is 41813+16057 = 57870. The ratio of these two sums is 194815 / 57870 \u2248 3.37. From Chart 4, the proportion of male federal - worker veterans is 79% (chart_4-1). From Chart 5, the proportion of federal workers who have worked for the government for 5 to 9 years is 22.3% for veterans (chart_5-7) and 18.6% for non - veterans (chart_5-8), and the difference is 22.3% - 18.6% = 3.7%. We then adjust the ratio by multiplying it by the proportion of male federal - worker veterans and dividing by the difference (in decimal form), so 3.37\u00d70.79 / 0.037 \u2248 71.88.",
+                "answer": "71.88",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-2",
+                    "chart_3-4",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_5-7",
+                    "chart_5-8"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

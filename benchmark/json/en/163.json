@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_163_1",
+    "chart_163_2",
+    "chart_163_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the 'Distribution of Newly Opened Stores from 2019 - 2023', is the changing trend of the proportion of T1 stores consistent with the trend of the lifecycle of T1 stores in the 'Lifecycle (months) of stores in different formats in 2024 - Dining and Retail'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In the 'Distribution of Newly Opened Stores from 2019 - 2023', the proportion of T1 stores decreases year by year. In the 'Lifecycle (months) of stores in different formats in 2024 - Dining and Retail', the lifecycle of T1 stores is the lowest among the three categories, and the trends match.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the 'Distribution of Newly Opened Stores from 2019 - 2023', what is the relationship between the changing trend of the proportion of T3+ stores from 2019 to 2022 and the changing trend of the proportion of the county - level economic scale in the national GDP in the corresponding years? Answer positively correlated, negatively correlated or not correlated.",
+      "answer": "Negatively correlated",
+      "explanation": "From 2019 to 2022, the proportion of newly opened T3+ stores increases year by year, while the latter decreases year by year. There is a negative correlation between the two values.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the 'Lifecycle (months) of stores in different formats in 2024 - Dining and Retail', is the store type with the longest lifecycle for each format corresponding to the store format with the highest proportion in the 'Distribution of Newly Opened Stores from 2019 - 2023'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are T3+.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the national GDP in 2020 is 1000Y, and the economic scale of newly opened stores accounts for 1% of the county - level economic scale. What is the GDP corresponding to the newly opened stores of Type T1 in 2020? Express the result in Y and round to 2 decimal places.",
+      "answer": "0.44Y",
+      "explanation": "The county - level economic scale in 2020 = 1000Y * 40% = 400Y. Then the economic scale of newly opened stores is 4Y. The GDP accounted for by the newly opened stores of Type T1 is 4Y * 11% = 0.44Y.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the total economic scale of all types of stores in 2024 is 100Y. The proportion of the economic scale of each type (T1/T2/T3+) of stores is the same as the proportion of the number of newly opened stores of each type in 2023, and the proportion of the economic scale of each business format in each type of stores is proportional to its lifecycle. What is the economic scale corresponding to the retail - chain stores of Type T1 in 2024? Express the result in Y and round to 2 decimal places.",
+      "answer": "3.14Y",
+      "explanation": "The economic scale of stores of Type T1 in 2024 = 100Y * 10% = 10Y. The economic scale corresponding to the retail - chain stores is 10Y * (38.0 / (20.7 + 24.1 + 38.2 + 38.0)) = 3.14Y.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "If the average lifecycle of each type (T1, T2, T3+) of newly opened stores in 2023 is equal to the geometric mean of the lifecycles of stores in each business format in 2024, please estimate the weighted average lifecycle of the newly opened stores in 2023. Round to 1 decimal place, and the unit is months.",
+      "answer": "33.4 months",
+      "explanation": "The average lifecycle of newly opened stores of Type T1 = (20.7+24.1+38.2+38.0)/4 = 30.25 months. The average lifecycle of newly opened stores of Type T2 = (22.3+25.0+41.2+40.5)/4 = 32.25 months. The average lifecycle of newly opened stores of Type T3+ = (25.3+25.4+43.9+43.3)/4 = 34.475 months. The proportion of T3+ is 48%, the proportion of T2 is 43%, and the proportion of T1 is 10%. The weighted average = 30.25×0.10 + 32.25×0.43 + 34.475×0.48 = 33.4405 = 33.4 months.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of the annual distribution of newly opened stores and the chart of the proportion of county-level economic scale, what possible conflicts exist between the annual change in the total number of newly opened stores and the trend of the proportion of county-level economic scale? What factors can explain this conflict?",
+      "answer": {
+        "A": "The total number of newly opened stores is highly positively correlated with the proportion of county-level economic scale because an improved economic environment directly promotes enterprise expansion.",
+        "B": "The total number of newly opened stores fluctuated overall from 2019 to 2023, while the proportion of county-level economic scale remained at a low level. The inconsistent trends indicate that store-opening behavior is more likely to be affected by short-term industry factors rather than long-term macroeconomic trends.",
+        "C": "The total number of newly opened stores increased significantly in 2021, but the proportion of county-level economic scale did not increase synchronously, indicating that market recovery or policy incentives may play a leading role in promoting the recovery of store opening.",
+        "D": "The total number of newly opened stores decreased significantly in 2020, while the proportion of county-level economic scale remained relatively stable during the same period, suggesting that external events (such as a global health crisis) may have had a short-term impact on store-opening behavior.",
+        "E": "The total number of newly opened stores increased significantly to 7044 in 2021, and the proportion of county-level economic scale also increased significantly to 45%, indicating a synchronous recovery of the two.",
+        "F": "The proportion of county-level economic scale continued to decline, but the number of newly opened stores rebounded to 6221 in 2023, reflecting that enterprises offset macroeconomic risks through digital transformation.",
+        "G": "The total number of newly opened stores decreased to 4114 in 2020, mainly because the proportion of county-level economic scale decreased significantly from 40% in 2019 to 40%, resulting in insufficient market confidence."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of the annual distribution of newly opened stores and the chart of store lifecycles, how might the changing trend of newly opened stores at the T3 level reflect the adjustment of enterprise strategies? What survival ability characteristics support this strategy?",
+      "answer": {
+        "A": "The proportion of the T2 level in the distribution of newly opened stores is relatively stable, but the lifecycle advantage of catering chains at the T2 level is not obvious, suggesting that enterprises may give priority to the retail format to improve the overall survival rate.",
+        "B": "The proportion of newly opened stores at the T3 level has gradually increased in recent years, and the chart of store lifecycles shows that the survival period of T3+ formats (especially retail) is longer, which may indicate that enterprises are more inclined to expand in levels with a high survival rate to reduce risks.",
+        "C": "The data of newly opened stores at the T3 level reached a high point in 2023, and the lifecycle of retail at the T3+ level is significantly longer than that of catering, which reflects that enterprise strategies are shifting from formats with a low survival rate to areas with a high survival rate.",
+        "D": "The number of newly opened stores at the T3 level increased to 48 in 2023, but the lifecycle of retail at the T3+ level is only 20 months, reflecting that enterprise strategies ignore survival ability data.",
+        "E": "The number of newly opened stores at the T3 level decreased from 41 in 2019 to 48 in 2023, indicating that enterprises are reducing investment in high-risk areas.",
+        "F": "Enterprise strategies always give priority to the format with the highest survival rate, such as catering chains, because their lifecycles are generally longer.",
+        "G": "The lifecycle of catering chains at the T1 level is 24.1 months, higher than 38.2 months of non-chain retail at the T1 level. Therefore, enterprises are more inclined to develop the catering format at the T3 level."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the chart of the proportion of county-level economic scale and the chart of store lifecycles, how might the continuous decline trend of the county-level economic scale affect the future choice of store formats? What survival ability data support this impact?",
+      "answer": {
+        "A": "The proportion of county-level economic scale decreased from 55% in 2012 to 41% in 2022, and the lifecycle of non-chain catering at the T1 level is only 20.7 months, lower than 38.2 months of retail. Therefore, enterprises will give priority to reducing the catering format.",
+        "B": "Despite the tightening economic environment, the high survival rate of retail at the T3+ level contrasts with the low and stable proportion of county-level economic scale, suggesting that enterprises can focus on formats with a high survival rate to offset macro risks.",
+        "C": "Under economic pressure, enterprises should completely withdraw from the county-level market and focus on high-growth urban areas instead.",
+        "D": "The proportion of county-level economic scale rebounded to 41% in 2022, indicating a recovery trend. Therefore, enterprises can increase investment in all formats to take advantage of growth opportunities.",
+        "E": "The lifecycle of retail chains at the T3+ level is 43.3 months, but the decline in the proportion of county-level economic scale will make their survival rate lower than 20 months, prompting enterprises to turn to catering.",
+        "F": "The proportion of county-level economic scale has been decreasing year by year, and the lifecycles of the retail format at the T1 and T2 levels are significantly longer than those of catering, which may prompt enterprises to give priority to developing retail in the county-level market to cope with economic pressure.",
+        "G": "The lifecycle of non-chain catering at low levels (such as T1) is short, but the decline in the economic proportion exacerbates the survival challenges of all formats, which may lead to the chain model becoming a more viable strategy in the county-level market."
+      },
+      "charts_involved": [
+        "chart_163_2",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the changing trends of the distribution of newly opened stores in different regions and the store lifecycle data, how should the allocation of store - opening resources in regions at T1, T2, and T3 levels be adjusted in the future to improve the long - term survival rate of stores and return on investment? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Although the store lifecycle in the T3+ region is the highest in the retail format (43.9 months), but the number of newly opened stores decreased in 2023 (the number of T3 stores was 45 in 2022 and 48 in 2023, actually an increase), investment in T3+ should be reduced to avoid resource waste.",
+        "B": "According to the fluctuation trend of the total number of newly opened stores each year, in years with a high number of newly opened stores, resources should be prioritized for allocation in formats and levels with longer lifecycles to match the peak demand and optimize capital efficiency.",
+        "C": "Concentrate store - opening resources in the T2 region, because medium - sized cities usually offer a balanced market opportunity and lower competition, which can stably increase returns.",
+        "D": "In regions at the T1 and T2 levels, focus on promoting the chain operation model, because the lifecycle of chain stores in these levels is longer than that of non - chain models. Combining with the relatively stable number of newly opened stores in the T1 and T2 regions, this strategy can effectively make up for regional disadvantages and improve operational stability.",
+        "E": "Increase the digital marketing investment in all stores, for example, through social media promotion, to enhance brand awareness and customer traffic, thereby indirectly improving the survival rate, without considering regional level differences.",
+        "F": "Prioritize increasing the proportion of newly opened stores in the T3+ level region, because the store lifecycle in this region is generally longer. Combining with the continuous increase in the number of newly opened stores in the T3 region in the historical store - opening trend, this strategy can significantly improve the store survival rate and reduce the risk of store closures.",
+        "G": "Given that the number of newly opened stores in the T1 region decreased from 12 in 2019 to 10 in 2023, and the lifecycle of catering chain stores in T1 is only 24.1 months (lower than that of retail), investment in the T1 region should be completely abandoned, and the non - chain model should be promoted in T2 and T3 regions instead."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the changing trend of the proportion of the county - level economic scale in the national GDP and the data on the distribution of newly opened stores, how should the geographical allocation strategy of store - opening resources be adjusted to cope with economic environment fluctuations and improve long - term benefits? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Copy the store - opening strategy in years when the county - level economic scale accounts for a high proportion of the national GDP (such as 56% in 2014), because the economic environment in these years is more favorable and can ensure high returns.",
+        "B": "Optimize resource allocation to tilt towards the T3 level region. Combining the changes in the economic proportion and the trend of newly opened stores, since the number of newly opened stores in the T3 region is increasing and the store lifecycle is longer, this can buffer the impact of economic fluctuations on store survival.",
+        "C": "Since the total number of newly opened stores was the highest in 2021 (7044), and the proportion of the county - level economy in the national GDP was 40% that year, investment should only be increased in years when the total number of newly opened stores reaches a peak (such as 7044) to match economic fluctuations.",
+        "D": "Given that the proportion of the county - level economic scale in the national GDP decreased from 55% in 2012 to 41% in 2022, and the total number of newly opened stores was the lowest in 2020 (4114), store - opening in the county - level areas should be comprehensively reduced, and resources should be transferred to the urban central areas with a higher GDP proportion.",
+        "E": "Prioritize investment in supply - chain optimization and logistics systems to reduce operating costs, thereby improving overall benefits in any economic environment, without considering the differences between county - level and urban areas.",
+        "F": "During the period when the proportion of the county - level economic scale in the national GDP is continuously decreasing, carefully control the overall scale of newly opened stores, but focus on the timing when the economic proportion shows the first signs of recovery for early layout to take advantage of the demand rebound during the recovery period.",
+        "G": "Increase the investment in store - opening in regions where the proportion of the county - level economic scale in the national GDP is stable or shows signs of recovery, because these regions may provide a more stable business environment. Combining with the trend that the total number of newly opened stores is relatively high in years when the economic proportion is stable, this strategy can capture growth opportunities and reduce risks."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the differences in the store lifecycles of different formats and the changing trend of the county - level economic scale, how should resources be allocated between the catering and retail formats, as well as between the chain and non - chain models, to improve the overall investment resilience and return on investment? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Uniformly improve the customer service quality of all stores, for example, by increasing staff training, to enhance customer loyalty, thereby improving the survival rate of all formats, without distinguishing between models or economic trends.",
+        "B": "In regions where the proportion of the county - level economic scale in the national GDP is low, focus on investing in the catering chain model, because the lifecycle of chain catering is relatively long and it has strong adaptability. Combining with the characteristics of economic environment fluctuations, this strategy can maintain the survival ability of stores during the downward period.",
+        "C": "Since the lifecycle of the retail chain T3+ format is the longest (43.3 months), and the proportion of the county - level economic scale in the national GDP rebounded to 41% in 2022, investment should only be made in the retail chain T3+ format in the county - level areas, ignoring catering and other levels.",
+        "D": "For regions where the economic proportion shows the first signs of recovery, increase the investment in the retail T3+ format, taking advantage of its longest lifecycle and the economic recovery to maximize long - term benefits.",
+        "E": "Focus on developing the non - chain retail model, because it is more flexible, can quickly respond to changes in the county - level economy, and reduce the risk of fixed costs.",
+        "F": "Prioritize the development of the retail format, because its lifecycle is significantly longer than that of catering. Combining with the trend that the proportion of the county - level economic scale in the national GDP has been stable but relatively low in recent years, the long - cycle of retail can better withstand economic pressure and ensure sustainable returns.",
+        "G": "Given that the proportion of the county - level economic scale in the national GDP decreased from 44% in 2016 to 40% in 2019, and the lifecycle of non - chain catering is generally short (for example, only 20.7 months in T1), investment in the catering format in the county - level areas should be completely avoided, and the chain model should be prioritized in urban areas instead."
+      },
+      "charts_involved": [
+        "chart_163_2",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

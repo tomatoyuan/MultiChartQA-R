@@ -1,0 +1,178 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What proportion of U.S. adults aged 18 - 29 say it is somewhat important to live in a community where they have family nearby?\n question2: What is the proportion of Americans in the Northeast who say none of their extended - family members live within an hour's drive?",
+                "rationale": "rationale1: The question focuses on the proportion of 18 - 29 - year - old U.S. adults who think it's somewhat important to have family nearby, and the chart provides this data.\n rationale2: We are required to find a specific proportion of Americans in the Northeast from the chart data.",
+                "answer": "43%; 20%",
+                "involved_content_sources": [
+                    "chart_5-11",
+                    "chart_4-13"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of Americans say some of their extended-family members live within an hour's drive? Please provide the answer as a percentage.\n question2: What is the proportion of Asian adults (English - speakers only) who say none of their extended - family members live within an hour's drive?\n question3: What is the proportion of urban Americans who say all or most of their extended - family members live within an hour's drive?",
+                "rationale": "rationale1: We need to find the proportion of Americans with some of their extended-family members living within an hour's drive. From the chart, this value is stated as 27%.\n rationale2: The question asks for the proportion of Asian English - speaking adults with no extended - family members within an hour's drive, which can be obtained directly from the chart.\n rationale3: The question asks for a specific proportion of urban Americans from the chart. We can directly find this value from the given chart data.",
+                "answer": "27%; 33%; 28%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_3-17",
+                    "chart_4-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What proportion of U.S. adults aged 18 - 29 say it is somewhat important to live in a community where they have family nearby?\n question2: What is the proportion of white adults who say all or most of their extended - family members live within an hour's drive?\n question3: What proportion of Americans say some of their extended-family members live within an hour's drive? Please provide the answer as a percentage.\n question4: What is the proportion of suburban Americans who say only a few of their extended - family members live within an hour's drive?",
+                "rationale": "rationale1: The question focuses on the proportion of 18 - 29 - year - old U.S. adults who think it's somewhat important to have family nearby, and the chart provides this data.\n rationale2: We need to extract the specific proportion of white adults with all or most extended - family members within an hour's drive from the chart.\n rationale3: We need to find the proportion of Americans with some of their extended-family members living within an hour's drive. From the chart, this value is stated as 27%.\n rationale4: We need to extract the relevant proportion of suburban Americans from the chart. The chart provides this specific data.",
+                "answer": "43%; 29%; 27%; 24%",
+                "involved_content_sources": [
+                    "chart_5-11",
+                    "chart_3-8",
+                    "chart_2-2",
+                    "chart_4-6"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of Americans who have extended - family members and at least some of them live within an hour's drive? \n question2: What is the difference in the proportion of adults who say all or most of their extended - family members live within an hour's drive between adults with high school education or less and post - graduate adults?",
+                "rationale": "rationale1: First, we need to find the proportion of Americans who have extended - family. Since the proportion of those who don't have extended family is 1%, the proportion of those who have extended family is 100% - 1% = 99%. Then, we calculate the proportion of Americans with extended family who have at least some of them living within an hour's drive. The proportion of those with all or most, some, and only a few of their extended - family members living within an hour's drive are 28%, 27%, and 24% respectively. The sum of these three proportions is 28%+27%+24% = 79%. So the proportion of Americans who have extended - family members and at least some of them live within an hour's drive is 79% out of the 99% who have extended family. We can calculate this proportion by dividing 79 by 99 and multiplying by 100. But we can also calculate the result in another way. The total proportion of those with at least some extended - family within an hour's drive among all Americans is 28% + 27%+24%=79%, and we just need to note that we are considering the non - 1% (who don't have extended family), so the final proportion is (28% + 27%+24%)/(1 - 1%)=(79%)/(99%)\u224879.8%. \n rationale2: To answer this question, we need to subtract the proportion of post - graduate adults who say all or most of their extended - family members live within an hour's drive from the proportion of adults with high school education or less who say the same. This calculation will show the disparity in this aspect between the two educational groups.",
+                "answer": "79.8%; 18",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_3-24",
+                    "chart_3-36"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of Americans who have extended - family members and at least some of them live within an hour's drive? \n question2: What is the difference in the proportion of adults who say all or most of their extended - family members live within an hour's drive between adults with high school education or less and post - graduate adults?\n question3: What is the difference in the proportion of those who say all or most of their extended - family members live within an hour's drive between rural Americans and Americans in the West?",
+                "rationale": "rationale1: First, we need to find the proportion of Americans who have extended - family. Since the proportion of those who don't have extended family is 1%, the proportion of those who have extended family is 100% - 1% = 99%. Then, we calculate the proportion of Americans with extended family who have at least some of them living within an hour's drive. The proportion of those with all or most, some, and only a few of their extended - family members living within an hour's drive are 28%, 27%, and 24% respectively. The sum of these three proportions is 28%+27%+24% = 79%. So the proportion of Americans who have extended - family members and at least some of them live within an hour's drive is 79% out of the 99% who have extended family. We can calculate this proportion by dividing 79 by 99 and multiplying by 100. But we can also calculate the result in another way. The total proportion of those with at least some extended - family within an hour's drive among all Americans is 28% + 27%+24%=79%, and we just need to note that we are considering the non - 1% (who don't have extended family), so the final proportion is (28% + 27%+24%)/(1 - 1%)=(79%)/(99%)\u224879.8%. \n rationale2: To answer this question, we need to subtract the proportion of post - graduate adults who say all or most of their extended - family members live within an hour's drive from the proportion of adults with high school education or less who say the same. This calculation will show the disparity in this aspect between the two educational groups.\n rationale3: We need to find the proportion of rural Americans who say all or most of their extended - family members live within an hour's drive and the proportion of Americans in the West with the same answer from the chart. Then subtract the latter from the former to get the difference.",
+                "answer": "79.8%; 18; 9%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_3-24",
+                    "chart_3-36",
+                    "chart_4-12",
+                    "chart_4-28"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of Americans who have extended - family members and at least some of them live within an hour's drive? \n question2: What is the difference in the proportion of adults who say all or most of their extended - family members live within an hour's drive between adults with high school education or less and post - graduate adults?\n question3: What is the difference in the proportion of those who say all or most of their extended - family members live within an hour's drive between rural Americans and Americans in the West?\n question4: What is the difference in the net - proportion of U.S. men and U.S. women who say it is important to live in a community where they have family nearby?",
+                "rationale": "rationale1: First, we need to find the proportion of Americans who have extended - family. Since the proportion of those who don't have extended family is 1%, the proportion of those who have extended family is 100% - 1% = 99%. Then, we calculate the proportion of Americans with extended family who have at least some of them living within an hour's drive. The proportion of those with all or most, some, and only a few of their extended - family members living within an hour's drive are 28%, 27%, and 24% respectively. The sum of these three proportions is 28%+27%+24% = 79%. So the proportion of Americans who have extended - family members and at least some of them live within an hour's drive is 79% out of the 99% who have extended family. We can calculate this proportion by dividing 79 by 99 and multiplying by 100. But we can also calculate the result in another way. The total proportion of those with at least some extended - family within an hour's drive among all Americans is 28% + 27%+24%=79%, and we just need to note that we are considering the non - 1% (who don't have extended family), so the final proportion is (28% + 27%+24%)/(1 - 1%)=(79%)/(99%)\u224879.8%. \n rationale2: To answer this question, we need to subtract the proportion of post - graduate adults who say all or most of their extended - family members live within an hour's drive from the proportion of adults with high school education or less who say the same. This calculation will show the disparity in this aspect between the two educational groups.\n rationale3: We need to find the proportion of rural Americans who say all or most of their extended - family members live within an hour's drive and the proportion of Americans in the West with the same answer from the chart. Then subtract the latter from the former to get the difference.\n rationale4: We need to find the net - proportion of U.S. men and U.S. women who say it is important to live near family from the chart, and then calculate the difference between these two values. The net - proportion for U.S. men is given in content 6 and for U.S. women in content 9.",
+                "answer": "79.8%; 18; 9%; 11",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_3-24",
+                    "chart_3-36",
+                    "chart_4-12",
+                    "chart_4-28",
+                    "chart_5-6",
+                    "chart_5-9"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of upper - income adults who say none of their extended - family members live within an hour's drive and the proportion of U.S. men who say it is very important to live in a community where they have family nearby?",
+                "rationale": "The proportion of upper - income adults who say none of their extended - family members live within an hour's drive is 27%. The proportion of U.S. men who say it is very important to live in a community where they have family nearby is 29%. The difference is 29% - 27% = 2%.",
+                "answer": "2%",
+                "involved_content_sources": [
+                    "chart_3-45",
+                    "chart_5-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Asian adults (English - speakers only) who say all or most of their extended - family members live within an hour's drive, the proportion of rural Americans who say some of their extended - family members live within an hour's drive, and the proportion of U.S. adults aged 65+ who say it is very important to live in a community where they have family nearby? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Asian adults (English - speakers only) who say all or most of their extended - family members live within an hour's drive is 18%. The proportion of rural Americans who say some of their extended - family members live within an hour's drive is 30%. The proportion of U.S. adults aged 65+ who say it is very important to live in a community where they have family nearby is 44%. The average is (18% + 30% + 44%) / 3 = 30.67% (rounded to two decimal places).",
+                "answer": "30.67%",
+                "involved_content_sources": [
+                    "chart_3-20",
+                    "chart_4-11",
+                    "chart_5-19"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of all Americans who say all or most of their extended-family members live within an hour's drive and the proportion of post - graduate adults who say all or most of their extended-family members live within an hour's drive, the difference between the proportion of rural Americans who say none of their extended-family members live within an hour's drive and the proportion of urban Americans who say none of their extended-family members live within an hour's drive, the difference between the proportion of U.S. adults aged 65+ who say it is important (very or somewhat) to live in a community where they have family nearby and the proportion of U.S. adults aged 30 - 49 who say it is important (very or somewhat) to live in a community where they have family nearby, and the difference between the proportion of Hispanic adults who say some of their extended-family members live within an hour's drive and the proportion of white adults who say some of their extended-family members live within an hour's drive? Provide the answer as a percentage.",
+                "rationale": "From chart 2, the proportion of all Americans who say all or most of their extended-family members live within an hour's drive is 28%, and from chart 3, the proportion of post - graduate adults who say all or most of their extended-family members live within an hour's drive is 16%. The difference is 28% - 16% = 12%. From chart 4, the proportion of rural Americans who say none of their extended-family members live within an hour's drive is 16%, and the proportion of urban Americans who say none of their extended-family members live within an hour's drive is 20%. The difference is 20% - 16% = 4%. From chart 5, the proportion of U.S. adults aged 65+ who say it is important (very or somewhat) to live in a community where they have family nearby is 81%, and the proportion of U.S. adults aged 30 - 49 who say it is important (very or somewhat) to live in a community where they have family nearby is 70%. The difference is 81% - 70% = 11%. From chart 3, the proportion of Hispanic adults who say some of their extended-family members live within an hour's drive is 28%, and the proportion of white adults who say some of their extended-family members live within an hour's drive is 25%. The difference is 28% - 25% = 3%. The average of these differences is (12% + 4% + 11% + 3%) / 4 = 7.5%",
+                "answer": "7.5%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-36",
+                    "chart_4-9",
+                    "chart_5-21"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average proportion of upper - income and lower - income adults who say all or most of their extended - family members live within an hour's drive, and the average proportion of men and women who say it is very important to live in a community where they have family nearby?",
+                "rationale": "Among upper - income adults, the proportion who say all or most of their extended - family members live within an hour's drive is 22% (chart_3-48). Among lower - income adults, the proportion is 32% (chart_3-40). The average of these two proportions is (22% + 32%) / 2 = 27%. Among U.S. men, the proportion who say it is very important to live in a community where they have family nearby is 29% (chart_5-4). Among U.S. women, the proportion is 42% (chart_5-7). The average of these two proportions is (29% + 42%) / 2 = 35.5%. Then the difference between the two averages is 35.5% - 27% = 8.5%.",
+                "answer": "8.5%",
+                "involved_content_sources": [
+                    "chart_3-40",
+                    "chart_3-48",
+                    "chart_5-4",
+                    "chart_5-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Asian adults (English - speakers only) who say all or most of their extended - family members live within an hour's drive, the proportion of rural Americans who say all or most of their extended - family members live within an hour's drive, and the proportion of U.S. adults aged 65+ who say it is very important to live in a community where they have family nearby?",
+                "rationale": "The proportion of Asian adults (English - speakers only) who say all or most of their extended - family members live within an hour's drive is 18% (chart_3-20); the proportion of rural Americans who say all or most of their extended - family members live within an hour's drive is 31% (chart_4-12); the proportion of U.S. adults aged 65+ who say it is very important to live in a community where they have family nearby is 44% (chart_5-19). The average is (18% + 31% + 44%) / 3 = (0.18 + 0.31 + 0.44) / 3 = 0.93 / 3 = 0.31 = 31%.",
+                "answer": "31%",
+                "involved_content_sources": [
+                    "chart_3-19",
+                    "chart_3-20",
+                    "chart_4-11",
+                    "chart_4-12",
+                    "chart_5-19",
+                    "chart_5-20"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of all adults who say all or most of their extended - family members live within an hour's drive, the proportion of rural Americans who say all or most of their extended - family members live within an hour's drive, the net - proportion of U.S. women who say it is important to live in a community where they have family nearby, and the proportion of black adults who say all or most of their extended - family members live within an hour's drive?",
+                "rationale": "According to Chart 2, the proportion of all adults who say all or most of their extended - family members live within an hour's drive is 28%. From Chart 4, the proportion of rural Americans who say all or most of their extended - family members live within an hour's drive is 31%. In Chart 5, the net - proportion of U.S. women who say it is important to live in a community where they have family nearby is 80%. From Chart 3, the proportion of black adults who say all or most of their extended - family members live within an hour's drive is 31%. The average of these four values is (28% + 31% + 80% + 31%) / 4 = 42.5%.",
+                "answer": "42.5%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-4",
+                    "chart_3-12",
+                    "chart_3-4",
+                    "chart_4-12",
+                    "chart_4-9",
+                    "chart_5-9",
+                    "chart_5-7"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

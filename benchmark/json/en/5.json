@@ -1,0 +1,198 @@
+{
+  "chart": [
+    "chart_5_1",
+    "chart_5_2",
+    "chart_5_3",
+    "chart_5_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the 'February Milk Powder Industry Search Attention Trend' and the 'Search Attention Trends by Category in February', is the change trend of the search attention for pregnant women's milk powder from February 1st to February 11th consistent? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase first, then decrease, and then increase.",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of the attention proportion in second - tier, third - tier, and fourth - tier cities in the 'Attention proportion of the milk powder industry by city level in February' consistent with the change trend of the attention from February 19th to February 23rd in the 'February Milk Powder Industry Search Attention Trend'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase first and then decrease.",
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_2",
+        "chart_5_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the 'February Milk Powder Industry Search Attention Trend' and the 'Search Attention Trends by Category in February', is the change trend of the search attention for children's milk powder from February 1st to February 11th consistent? Answer yes or no.",
+      "answer": "No",
+      "explanation": "In the 'February Milk Powder Industry Search Attention Trend', the search attention increases first, then decreases, and then increases from February 1st to February 11th; while the search attention for children's milk powder remains stable with a slight increase.",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assuming that the search device distribution of the attention in cities of each level is uniform, what is the proportion of the attention contributed by the computer - side in first - tier cities in the 'February Milk Powder Industry Search Attention Trend'? Answer in percentage and keep 2 decimal places.",
+      "answer": "2.72%",
+      "explanation": "33% * 8.24% = 2.719%",
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assuming that the search device distribution of the attention of each category in the milk powder industry is the same, what is the search attention on the mobile - side of the category that contributed the most to the search attention of the milk powder industry in February on February 19th? Use the thousands separator notation, for example: xxx,xxx.",
+      "answer": "22,915",
+      "explanation": "The category that contributed the most attention on February 19th is pregnant women's milk powder. The attention of pregnant women's milk powder on February 19th is 25000, and the proportion of mobile - side search is 91.66%. 25000 * 91.66% = 22,915",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Except for the category that contributed the most to the search attention trend of the milk powder industry in February, what is the total search attention contributed by other categories on February 7th? Answer with an integer.",
+      "answer": "8000",
+      "explanation": "The category that contributed the most is pregnant women's milk powder, which contributed 30000 on February 7th. The total attention on February 7th is 38000. So the total search attention contributed by other categories on February 7th is 38000 - 30000 = 8000",
+      "charts_involved": [
+        "chart_5_2",
+        "chart_5_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the search device distribution in the milk powder industry and the overall industry search attention trend, how does the dominant position of mobile devices affect the peak changes in the search volume in February?",
+      "answer": {
+        "A": "The proportion of computer - side searches exceeds 50%, which keeps the search trend stable on weekdays, so there is no need to consider the impact of mobile devices.",
+        "B": "A low proportion of mobile - side searches (e.g., below 30%) would lead to a significant decline in the search volume at the end of the month, which contradicts industry common sense because mobile devices usually increase user activity.",
+        "C": "The peak search attention of 560,000 on February 21st occurred on the day when the proportion of mobile - side searches was the lowest, indicating that the computer - side drove the peak.",
+        "D": "The proportion of mobile - side searches is extremely high, and there were multiple peaks in the overall industry search attention in the middle and later part of the month, indicating that the active periods of mobile users drove the overall increase in search volume.",
+        "E": "The device distribution is stable, but the search attention trend shows that the search volume is higher in the evenings on weekdays. The convenience of mobile devices needs to be considered to explain the concentrated peaks.",
+        "F": "The proportion of computer - side searches is extremely low, but the overall industry search attention was relatively stable on some dates (e.g., at the beginning of the month), suggesting that the intensity of mobile device use may have magnified the trend fluctuations.",
+        "G": "The search trend shows that the attention of 150,000 on February 1st was the highest peak of the whole month, while the high proportion of mobile - side searches did not drive the later growth."
+      },
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_2"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The attention proportion by city level shows that first - tier cities are dominant, but the search trends of some categories in non - first - tier cities suddenly increased. Which options can explain this data conflict?",
+      "answer": {
+        "A": "The attention of 40,000 for pregnant women's milk powder on February 25th directly matches the 22% proportion of third - tier cities, proving that the 33% proportion of first - tier cities is invalid.",
+        "B": "The attention proportion of first - tier cities is only 15%, which led to the sudden increase of children's milk powder to 4,000 on February 19th, which conforms to the common sense of the surging demand in lower - tier cities.",
+        "C": "The city attention proportion has the same repeated values. It is possible that the data aggregation method masks the category differences. The actual contradiction in the city distribution needs to be analyzed in combination with the category - specific trends.",
+        "D": "The attention of pregnant women's milk powder is generally high and fluctuates sharply, while the city proportion data does not segment the categories, so the high proportion of first - tier cities cannot explain the sudden decline of pregnant women's milk powder at the end of the month.",
+        "E": "Promotion activities have no impact on the search volume. Therefore, the sudden increase in categories has nothing to do with the city level and only depends on brand strategies.",
+        "F": "The attention proportion of fourth - tier cities is the highest (e.g., above 30%), which explains the peak search volume of 2,900 for student milk powder on February 19th.",
+        "G": "The attention proportion of first - tier cities is the highest, but the search volume of children's milk powder suddenly soared on specific dates (e.g., mid - month), which may be due to events in third - or fourth - tier cities (e.g., promotions). The data on city proportions needs to be combined to infer the impact of the sudden demand in lower - tier cities."
+      },
+      "charts_involved": [
+        "chart_5_3",
+        "chart_5_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the search device distribution and the category - specific search trends, which categories of user behavior are more likely to have an implicit association with city level or device preference?",
+      "answer": {
+        "A": "The trend of infant milk powder is relatively stable, and the proportion of computer - side searches is low, which may reflect that parents in lower - tier cities are more inclined to use mobile devices, forming a potential connection with the city attention distribution.",
+        "B": "The search volume of student milk powder is the highest (e.g., an average daily search volume of over 10,000), and the proportion of mobile - side searches is low, indicating that users in lower - tier cities prefer the computer - side.",
+        "C": "The device distribution has no differential impact on all categories. User behavior is only determined by product characteristics and has nothing to do with the city level.",
+        "D": "The search volume of student milk powder is low and stable, and the attention proportion of fourth - tier cities is not high, indicating that this category may be affected by both the city level and device usage. The peak dates need to be compared for analysis.",
+        "E": "The trend of infant milk powder is stable (e.g., from 2,000 on February 1st to 2,000 on February 27th), and the proportion of computer - side searches is over 50%, proving that users in higher - tier cities rely on traditional devices.",
+        "F": "The attention of pregnant women's milk powder is the highest and fluctuates greatly, and the proportion of mobile - side searches is extremely high, suggesting that the maternal and infant group may be concentrated in first - tier cities but highly depends on mobile searches. City - related data needs to be combined for verification.",
+        "G": "The attention of pregnant women's milk powder fluctuates sharply (e.g., 40,000 on February 25th), the proportion of mobile - side searches is 91.66%, but the proportion of third - tier cities is the highest at 22%, which directly explains its fluctuations."
+      },
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_3",
+        "chart_5_4"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on consumer search behavior and the overall search trend, how should the digital marketing channel resources in the milk powder industry be optimized to maximize online exposure and user participation? Please select the most effective strategic suggestions.",
+      "answer": {
+        "A": "Increase the advertising investment on dates when the overall search attention is continuously low (e.g., February 27th) to capture user attention during a period of less competition.",
+        "B": "Optimize the visual design of websites and applications to ensure a smooth user experience on all devices, so as to attract and retain more visitors.",
+        "C": "Increase the overall budget expenditure on digital advertising to improve brand awareness and influence among consumers, thereby indirectly increasing user participation.",
+        "D": "Allocate the main marketing resources to computer - side advertising, because computer users are more likely to engage in in - depth content consumption and high - quality conversions, despite the high proportion of mobile - side searches.",
+        "E": "Allocate the main marketing budget to mobile - side advertising and optimization, because the proportion of mobile - device searches is extremely high, and the overall search trend reaches a peak on specific dates, indicating that mobile devices can capture user traffic more effectively during peak periods.",
+        "F": "Increase the advertising intensity during the period when the search attention is rising (e.g., mid - February), take advantage of the growing consumer interest, and ensure that the advertising content is designed for mobile devices to match the dominant search habits."
+      },
+      "charts_involved": [
+        "chart_5_1",
+        "chart_5_2"
+      ],
+      "label": [
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the attention distribution by city level and the overall search trend, how should the regional marketing resources in the milk powder industry be adjusted to improve market penetration and fair coverage? Please select the most reasonable strategic suggestions.",
+      "answer": {
+        "A": "Emphasize social responsibility and fairness in marketing strategies, and evenly distribute resources among all city levels through public - welfare activities to reflect brand inclusiveness and improve the overall reputation.",
+        "B": "Reduce regional advertising investment when the overall search attention reaches a peak (e.g., February 21st) to avoid excessive competition and budget waste, and instead increase resources during the stable period to maintain coverage.",
+        "C": "Strengthen the resource allocation in third - tier cities, because their attention proportion is relatively high and the overall search trend fluctuates, indicating potential demand. Targeted activities can be used to explore growth opportunities.",
+        "D": "Focus on increasing the resource allocation in second - tier cities. Although their attention proportion (17%) is lower than that of first - tier cities (33%), the overall search trend shows stable fluctuations, indicating that their demand potential is underestimated.",
+        "E": "Give priority to increasing the marketing investment in first - tier cities, because their attention proportion is the highest, and the overall search trend shows a continuously high level of attention, which can effectively improve brand influence.",
+        "F": "Give priority to developing the markets in rural or remote areas, because these areas may be ignored and have untapped growth potential, which can significantly improve fair coverage."
+      },
+      "charts_involved": [
+        "chart_5_3",
+        "chart_5_2"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the category - specific search attention trends and the overall industry dynamics, how should the marketing resource allocation for the milk powder product line be optimized to balance short - term opportunities and long - term growth? Please select the most effective strategic suggestions.",
+      "answer": {
+        "A": "Design short - term promotions or activities for the abnormal search peaks of children's milk powder on specific dates to capture the temporary surge in demand, and monitor the overall trend to optimize the timing.",
+        "B": "Focus on investing in the marketing activities of pregnant women's milk powder, because its search volume is significantly higher than that of other categories, and the overall search trend is prominent on peak days such as February 21st, indicating high consumer demand, which can drive sales growth.",
+        "C": "Implement unified marketing activities for all milk powder categories, emphasizing nutritional value and brand trust to evenly promote the sustainable growth of the entire product line.",
+        "D": "Give priority to allocating resources to student milk powder, because its search trend (e.g., as shown in chart_5_4, it fluctuates little from February 1st to 27th) indicates stable demand, which is suitable for long - term growth, while ignoring the peaks of pregnant women's milk powder.",
+        "E": "Increase short - term promotions for infant milk powder on the starting day of search attention (e.g., February 1st), because the attention on this day (2,000) represents the starting point of demand, which can capture early user interest.",
+        "F": "Reduce the budget for categories with low search volume and concentrate resources on high - potential areas, such as new product development or market research, to drive long - term innovation."
+      },
+      "charts_involved": [
+        "chart_5_4",
+        "chart_5_2"
+      ],
+      "label": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

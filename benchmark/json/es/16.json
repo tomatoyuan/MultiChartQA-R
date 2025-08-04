@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_16_1",
+    "chart_16_2"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio en la cantidad de mejores estudiantes provinciales admitidos por la Universidad de Tsinghua desde 2011 a 2013 es consistente con la tendencia de cambio en el número de estudiantes campeones de las pruebas de ingreso a la universidad que prefieren las carreras de la Universidad de Tsinghua en el gráfico 'Las 10 mejores carreras preferidas por los campeones de las pruebas de ingreso a la universidad (2000 - 2015)', cambiando en sentido horario a partir de la carrera de Automatización? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas cantidades aumentan gradualmente.",
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio en la cantidad de mejores estudiantes provinciales admitidos por la Universidad de Tsinghua desde 2011 a 2013 es consistente con la tendencia de cambio en el número de estudiantes campeones de las pruebas de ingreso a la universidad que prefieren las carreras de la Universidad de Pekín en el gráfico 'Las 10 mejores carreras preferidas por los campeones de las pruebas de ingreso a la universidad (2000 - 2015)', cambiando en sentido horario a partir de la carrera de Derecho? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas aumentan gradualmente.",
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio en la cantidad de mejores estudiantes provinciales admitidos por la Universidad de Pekín desde 2011 a 2013 es consistente con la tendencia de cambio en el número de estudiantes campeones de las pruebas de ingreso a la universidad que prefieren las carreras de la Universidad de Tsinghua en el gráfico 'Las 10 mejores carreras preferidas por los campeones de las pruebas de ingreso a la universidad (2000 - 2015)', cambiando en sentido horario a partir de la carrera de Automatización? Responda sí o no.",
+      "answer": "No",
+      "explanation": "La primera aumenta primero y luego disminuye, mientras que la segunda aumenta continuamente.",
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Supongamos que en 2013, todos los mejores estudiantes provinciales admitidos por la Universidad de Tsinghua eligieron la carrera de \"Ingeniería de Información Electrónica\" de Tsinghua. ¿Cuál es el porcentaje del número de mejores estudiantes provinciales de la carrera de Ingeniería de Información Electrónica de Tsinghua en 2013 en el número total de mejores estudiantes provinciales de esta carrera de 2000 a 2015? (Redondea la respuesta a 1 decimal, con la unidad %)",
+      "answer": "58.1%",
+      "explanation": "Número de mejores estudiantes provinciales admitidos por Tsinghua en 2013: 50; Número total de mejores estudiantes provinciales de la carrera de Ingeniería de Información Electrónica de Tsinghua: 86; Porcentaje = (Número de mejores estudiantes provinciales en 2013 / Número total de la carrera de Ingeniería de Información Electrónica de 2000 a 2015) × 100% = 50 / 86 × 100% = 58.1%",
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Se sabe que de 2012 a 2014, la mitad de los mejores estudiantes provinciales admitidos por la Universidad de Pekín eligieron la carrera de \"Economía\". ¿Cuál es el porcentaje aproximado del número de mejores estudiantes provinciales admitidos por Pekín en la carrera de Economía de 2012 a 2014 en el número total de mejores estudiantes provinciales de esta carrera de Pekín de 2000 a 2015? (Redondea la respuesta a 2 decimales, con la unidad %)",
+      "answer": "20.45%",
+      "explanation": "Número de mejores estudiantes provinciales admitidos por Pekín de 2012 a 2014: (27 + 24 + 48) = 99; La mitad de ellos eligieron Economía: 99/2 = 49.5; Número total de mejores estudiantes provinciales de la carrera de Economía de Pekín de 2000 a 2015 (chart-2): 242; Porcentaje = (49.5 / 242) × 100% = 20.45%",
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Supongamos que entre 2000 y 2015, todos los mejores estudiantes provinciales admitidos por la Universidad de Tsinghua que eligieron la carrera de \"Ciencia y Tecnología de la Computación\" fueron admitidos en 2014. ¿Qué proporción de los mejores estudiantes provinciales admitidos por la Universidad de Tsinghua en 2014 eligieron la carrera de Ciencia y Tecnología de la Computación? (Redondea la respuesta a 3 cifras significativas, con la unidad %)",
+      "answer": "100%",
+      "explanation": "Número de mejores estudiantes provinciales de la carrera de Ciencia y Tecnología de la Computación de Tsinghua de 2000 a 2015: 42; Número de mejores estudiantes provinciales admitidos por Tsinghua en 2014: 42; Proporción = (Número de mejores estudiantes provinciales de la carrera de Ciencia y Tecnología de la Computación / Número total de mejores estudiantes provinciales de Tsinghua en 2014) × 100% = 42/42×100% = 100%",
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según el gráfico de comparación anual del número de mejores estudiantes provinciales admitidos por las Universidades de Tsinghua y Pekín desde 2011 a 2015, y el gráfico de la distribución de las carreras más preferidas por los campeones de las pruebas de ingreso a la universidad desde 2000 a 2015, ¿qué patrones indican que las dos universidades tienen ventajas complementarias en carreras para atraer a los mejores estudiantes?",
+      "answer": {
+        "A": "La ventaja dominante de la Universidad de Tsinghua en la admisión de estudiantes en carreras de ingeniería y tecnología (como Ingeniería de Información Electrónica, Ciencia y Tecnología de la Computación) está relacionada con el número relativamente alto y estable de mejores estudiantes provinciales admitidos en la mayoría de los años. Mientras que la ventaja absoluta de la Universidad de Pekín en campos como Administración de Empresas y Economía explica el aumento repentino del número de admisiones en algunos años (por ejemplo, en 2014).",
+        "B": "La oferta exclusiva de carreras como Ciencias de la Vida y Derecho por parte de la Universidad de Pekín puede haber aumentado su atractivo en años específicos. Mientras que la concentración de la Universidad de Tsinghua en carreras como Arquitectura y Automatización ha ayudado a mantener su competitividad general en la admisión de mejores estudiantes provinciales.",
+        "C": "La ventaja geográfica de ambas universidades (ambas ubicadas en Pekín) es el factor central de complementariedad. Pekín, como centro educativo, naturalmente atrae a más mejores estudiantes provinciales del país, lo que reduce la competencia directa entre las dos universidades.",
+        "D": "La diferenciación en la oferta de carreras de las dos universidades (por ejemplo, la Universidad de Pekín se enfoca en la gestión y las ciencias sociales, mientras que la Universidad de Tsinghua se enfoca en la ingeniería y las ciencias básicas) reduce la competencia directa. Esto se refleja en que las fluctuaciones en el número de admisiones de las dos universidades no son completamente sincrónicas en los datos de admisión. Por ejemplo, en 2013, cuando la Universidad de Tsinghua alcanzó un pico en el número de admisiones, el número de admisiones de la Universidad de Pekín fue bajo.",
+        "E": "En 2013, cuando la Universidad de Tsinghua alcanzó un pico en el número de admisiones, el número de admisiones de la Universidad de Pekín también aumentó de manera sincrónica. Esto refleja que las fluctuaciones sincrónicas en las admisiones de las dos universidades se deben a cambios en las preferencias de carrera, en lugar de una relación complementaria.",
+        "F": "El número de estudiantes admitidos en la carrera de Administración de Empresas en la Universidad de Tsinghua es comparable al de la Universidad de Pekín, lo que indica que hay una fuerte competencia entre las dos universidades en este campo, en lugar de una relación complementaria.",
+        "G": "Los mejores estudiantes provinciales se centran más en sus intereses personales y el contexto familiar al elegir una carrera, en lugar de las diferencias en la oferta de carreras de las universidades. Esto reduce la importancia de la complementariedad."
+      },
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En los datos de admisión de mejores estudiantes provinciales desde 2011 a 2015, el número de admisiones de la Universidad de Pekín aumentó anormalmente en 2014, mientras que el de la Universidad de Tsinghua se mantuvo relativamente estable. En combinación con los datos de preferencias de carrera de los campeones de las pruebas de ingreso a la universidad desde 2000 a 2015, ¿qué factores pueden explicar mejor este fenómeno contradictorio?",
+      "answer": {
+        "A": "El atractivo de carreras exclusivas de la Universidad de Pekín, como el Programa Yuanpei de la Universidad de Pekín (ofrecido solo por la Universidad de Pekín), se incrementó en un año específico, lo que puede haber atraído a más mejores estudiantes provinciales a inscribirse. Mientras que la concentración de la Universidad de Tsinghua en carreras como Ciencia y Tecnología de la Computación, aunque mantuvo su número de admisiones, no pudo contrarrestar el aumento de la Universidad de Pekín en 2014.",
+        "B": "La Universidad de Pekín aumentó la cantidad de becas en 2014. Esta política temporal atrajo a más mejores estudiantes provinciales, mientras que la Universidad de Tsinghua no tomó medidas similares.",
+        "C": "La tendencia del empleo social se inclina hacia puestos de gestión, lo que ha llevado a más mejores estudiantes provinciales a elegir la Universidad de Pekín en general. La estabilidad de la Universidad de Tsinghua se debe a sus carreras técnicas, lo que explica la contradicción.",
+        "D": "El número de estudiantes admitidos en la carrera de Ingeniería de Información Electrónica en la Universidad de Pekín aumentó drásticamente en 2014, lo que impulsó el aumento general. Mientras que la ventaja de la Universidad de Tsinghua en este campo se debilitó.",
+        "E": "Los datos de preferencias de carrera muestran que la Universidad de Pekín tiene ventajas exclusivas en varios campos (como Derecho y Ciencias de la Vida), mientras que la Universidad de Tsinghua tiene ventajas en carreras como Automatización. La contradicción en 2014 puede deberse a un aumento temporal del interés de los mejores estudiantes provinciales en las carreras de gestión de la Universidad de Pekín, mientras que las carreras técnicas de la Universidad de Tsinghua no pudieron absorber completamente la presión de la competencia.",
+        "F": "El número de admisiones de la Universidad de Tsinghua disminuyó significativamente en 2014, lo que hizo que no pudiera competir con la Universidad de Pekín, lo que resultó en un aumento anormal de la Universidad de Pekín.",
+        "G": "La ventaja dominante a largo plazo de la Universidad de Pekín en carreras populares como Administración de Empresas y Economía (estas carreras se encuentran entre las dos primeras en las preferencias de los mejores estudiantes provinciales) puede haber sido amplificada en 2014 a través de estrategias de admisión o tendencias sociales, lo que condujo a un aumento repentino en el número de admisiones. Mientras que la ventaja estable de la Universidad de Tsinghua en carreras de ingeniería (como Ingeniería de Información Electrónica) hizo que su número de admisiones no experimentara fluctuaciones similares."
+      },
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en la tendencia de cambio del número de mejores estudiantes provinciales admitidos por las dos universidades desde 2011 a 2015 y la distribución de las carreras más preferidas por los campeones de las pruebas de ingreso a la universidad desde 2000 a 2015, ¿qué conexiones implícitas revelan cómo las preferencias de carrera afectan la dinámica de la competencia anual de admisión entre las Universidades de Tsinghua y Pekín?",
+      "answer": {
+        "A": "El interés de los mejores estudiantes provinciales en carreras características de la Universidad de Pekín, como el Programa Yuanpei de la Universidad de Pekín, puede haber debilitado indirectamente la competitividad de la Universidad de Tsinghua en campos no relacionados con la ingeniería. Esto se refleja en que en 2013, cuando la Universidad de Tsinghua alcanzó un pico en el número de admisiones, el número de admisiones de la Universidad de Pekín fue bajo, pero en 2014, la Universidad de Pekín superó a la Universidad de Tsinghua.",
+        "B": "La distribución complementaria de las dos universidades en las carreras Top 10 (por ejemplo, la Universidad de Pekín se inclina hacia la gestión y la Universidad de Tsinghua se inclina hacia la tecnología) significa que el foco de la competencia de admisión está en campos específicos. Por ejemplo, la disminución del número de admisiones de la Universidad de Pekín en 2015 puede estar relacionada con el retorno del interés de los mejores estudiantes provinciales en las carreras de ingeniería. Mientras que la estabilidad del número de admisiones de la Universidad de Tsinghua se beneficia de la atracción continua de sus carreras como Ciencia y Tecnología de la Computación.",
+        "C": "El interés general de los mejores estudiantes provinciales en las carreras de ingeniería disminuyó en 2015, lo que condujo a una reducción en el número de admisiones de la Universidad de Tsinghua, mientras que la Universidad de Pekín se benefició de las carreras de gestión.",
+        "D": "La diferencia en la reputación académica de las dos universidades es el factor principal, y las preferencias de carrera solo juegan un papel secundario, lo que simplifica la dinámica de la competencia.",
+        "E": "Eventos externos, como cambios en las políticas económicas, afectan las preferencias de carrera, lo que conduce a fluctuaciones anuales en la admisión. La dinámica de la competencia entre las universidades está dominada por factores macroeconómicos.",
+        "F": "La alta preferencia de los mejores estudiantes provinciales por carreras como Administración de Empresas de la Universidad de Pekín puede convertirse en una ventaja de admisión en algunos años (por ejemplo, en 2014). Mientras que la concentración de la Universidad de Tsinghua en carreras como Ingeniería de Información Electrónica le permite mantener su resistencia en la admisión de mejores estudiantes provinciales en el campo de la ingeniería, pero la competencia general está limitada por la diferencia en la cobertura de carreras.",
+        "G": "El número de estudiantes admitidos en la carrera de Ciencias de la Vida en la Universidad de Tsinghua es mayor que el de la Universidad de Pekín, lo que aumenta la competitividad anual de la Universidad de Tsinghua, especialmente en 2014."
+      },
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, combinando la tendencia anual del número de mejores estudiantes provinciales admitidos por las Universidades de Tsinghua y Pekín y la distribución de preferencias de las carreras de los campeones de las pruebas de ingreso a la universidad, ¿cómo deberían ajustar las estrategias de admisión los departamentos de admisión de las universidades para atraer de manera más efectiva a los estudiantes de élite? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "La Universidad de Pekín debería priorizar el desarrollo de carreras de ingeniería, ya que en 2014 el número de mejores estudiantes provinciales admitidos por la Universidad de Pekín alcanzó un pico (48 personas), lo que indica que las carreras de ingeniería tienen un potencial de atracción para los campeones.",
+        "B": "La Universidad de Pekín debería enfocarse en fortalecer la promoción de admisión y la inversión de recursos en carreras de ciencias sociales, ya que estas carreras son muy populares entre los campeones y el aumento significativo del número de admisiones de la Universidad de Pekín en años específicos puede estar relacionado con la mejora de la atracción de este tipo de carreras.",
+        "C": "La Universidad de Tsinghua debería consolidar su disposición de carreras de excelencia en el campo de la ingeniería, ya que estas carreras han atraído a una gran cantidad de campeones y la Universidad de Tsinghua domina el mercado en este aspecto. Además, combinado con la estabilidad relativa del número de admisiones, se puede garantizar una competitividad a largo plazo.",
+        "D": "Ambas universidades deberían establecer un mecanismo de monitoreo dinámico para seguir la relación entre los cambios en las preferencias de las carreras y la tendencia de admisión, y ajustar en tiempo real el plan de admisión para evitar fluctuaciones significativas en el número de admisiones y mejorar la eficiencia general.",
+        "E": "Las universidades deberían ampliar el alcance de las becas y fortalecer la construcción de las instalaciones del campus para mejorar la atracción general y, por lo tanto, aumentar indirectamente el número de campeones admitidos.",
+        "F": "La Universidad de Tsinghua debería reducir la inversión en la admisión de carreras de ingeniería, como la Ingeniería de Información Electrónica, ya que después de alcanzar el máximo en 2013 (50 personas), el número de admisiones de la Universidad de Tsinghua ha mostrado una tendencia a la baja y la atracción de las carreras de ingeniería puede haberse saturado.",
+        "G": "Los departamentos de admisión de las universidades deberían centrarse en mejorar la visibilidad de la marca, por ejemplo, a través de la promoción en las redes sociales, para hacer frente a las fluctuaciones anuales del número de admisiones."
+      },
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en las características de distribución de las carreras más amadas por los campeones de las pruebas de ingreso a la universidad y la tendencia del número de mejores estudiantes provinciales admitidos por las universidades, ¿cómo deberían optimizar la asignación de recursos educativos (como docentes y fondos) a diferentes campos de carreras las universidades para mejorar la atracción general a los estudiantes de élite? Por favor, seleccione la sugerencia más efectiva.",
+      "answer": {
+        "A": "Las universidades deberían asignar equitativamente los recursos educativos a todas las carreras para garantizar un desarrollo equitativo en cada campo y evitar deficiencias en cualquier carrera.",
+        "B": "La Universidad de Tsinghua debería concentrar los recursos en el desarrollo de carreras de ingeniería y ciencias básicas para aprovechar sus ventajas existentes en estos campos, atraer a más campeones y, combinado con la estabilidad de la tendencia de admisión, garantizar la tasa de retorno de la inversión.",
+        "C": "La Universidad de Pekín debería reducir la inversión de recursos en el Programa Yuanpei de la Universidad de Pekín, ya que el número de campeones en esta carrera (83 personas) es mucho menor que en la Administración de Empresas (284 personas) y esta carrera contribuyó poco durante el pico de admisión de la Universidad de Pekín en 2014.",
+        "D": "Las universidades deberían priorizar el aumento de fondos para proyectos de intercambio internacional para mejorar la competitividad global de las carreras y atraer indirectamente a más campeones.",
+        "E": "Al asignar recursos, las universidades deberían evitar una inclinación excesiva hacia un solo campo y, en cambio, equilibrar el desarrollo de disciplinas cruzadas basadas en los datos de preferencias de las carreras para hacer frente a los cambios en la demanda del mercado y mejorar la competitividad integral.",
+        "F": "La Universidad de Pekín debería priorizar el aumento de la inversión en carreras especiales (como el Programa Yuanpei de la Universidad de Pekín) y carreras con demanda estable, ya que estas carreras tienen una atracción única entre los campeones y pueden ayudar a mitigar el riesgo de fluctuaciones anuales en el número de admisiones.",
+        "G": "La Universidad de Tsinghua debería invertir en carreras de ciencias sociales (como Economía), ya que la Universidad de Pekín ha atraído a una gran cantidad de campeones en estos campos (por ejemplo, 242 personas en Economía), lo que indica que es una tendencia popular actualmente."
+      },
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combinando la tendencia histórica del número de mejores estudiantes provinciales admitidos por las Universidades de Tsinghua y Pekín y la distribución a largo plazo de las preferencias de las carreras de los campeones, ¿qué medidas deberían recomendar los formuladores de políticas educativas a las universidades para mejorar su competitividad entre los estudiantes de élite y adaptarse a los cambios futuros? Por favor, seleccione la sugerencia de estrategia más viable.",
+      "answer": {
+        "A": "Las universidades deberían simplificar el proceso de admisión y adoptar tecnologías de IA para responder de manera más eficiente a los cambios en la demanda del mercado.",
+        "B": "La Universidad de Tsinghua debería profundizar su liderazgo en las carreras de ingeniería y explorar una expansión gradual en campos débiles (como las ciencias sociales) para atraer a un grupo más amplio de campeones y reducir el riesgo aprovechando la estabilidad de la tendencia de admisión.",
+        "C": "Las universidades deberían predecir las tendencias emergentes basadas en los datos de preferencias de las carreras y ajustar previamente la configuración del currículo y la estrategia de promoción para aprovechar la oportunidad en el período de cambio de la popularidad de las carreras y evitar la disminución de la competitividad debido a una respuesta tardía.",
+        "D": "Todas las universidades deberían imitar el modelo de carreras de ciencias sociales de la Universidad de Pekín (como la Administración de Empresas), ya que en 2014 el número de admisiones de la Universidad de Pekín aumentó significativamente (48 personas) y esta carrera ha atraído a más campeones a lo largo del tiempo (284 personas), lo que puede garantizar una mejora en la competitividad.",
+        "E": "La Universidad de Tsinghua debería eliminar gradualmente las carreras de ciencias básicas (como la Clase de Ciencias Básicas de Matemáticas y Física), ya que el número de campeones en estas carreras (32 personas) es menor que en las carreras de ingeniería (como la Ingeniería de Información Electrónica con 86 personas) y el número de admisiones no ha aumentado continuamente después de 2013.",
+        "F": "La Universidad de Pekín debería analizar el mecanismo de relación entre la atracción de las carreras de ciencias sociales y el pico de admisión y fortalecer la construcción innovadora en estos campos para replicar la experiencia exitosa y reducir las fluctuaciones anuales en el número de admisiones.",
+        "G": "Los formuladores de políticas educativas deberían impulsar la establecimiento de un mecanismo de cooperación a largo plazo entre las universidades y las escuelas secundarias para identificar precozmente a los futuros campeones y, por lo tanto, reducir el riesgo de fluctuaciones en el número de admisiones."
+      },
+      "charts_involved": [
+        "chart_16_1",
+        "chart_16_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    }
+  ]
+}

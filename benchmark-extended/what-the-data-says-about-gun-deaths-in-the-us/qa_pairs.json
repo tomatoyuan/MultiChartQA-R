@@ -1,0 +1,186 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the gun - murder rate per 100,000 people (age - adjusted) in 2023? Please provide a number.\n question2: What is the proportion of murders in U.S. gun - deaths in 2023? (Please answer in percentage)",
+                "rationale": "rationale1: The chart gives the gun - murder rate per 100,000 people (age - adjusted) in 2023 as 5.6, which is the answer to the question.\n rationale2: The question directly asks for the proportion of murders in U.S. gun - deaths in 2023, and the relevant data is provided in the chart.",
+                "answer": "5.6; 38%",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_1-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the gun - suicide rate per 100,000 people (age - adjusted) in 1972? Please provide a number.\n question2: What is the proportion of other types of U.S. gun - deaths in 2023? (Please answer in percentage)\n question3: What was the number of gun - related suicides in the U.S. in 1968? (Please answer with a single number)",
+                "rationale": "rationale1: The chart provides that the gun - suicide rate per 100,000 people (age - adjusted) in 1972 was 7.2, so this is the answer.\n rationale2: The question directly asks for the proportion of other types of U.S. gun - deaths in 2023, and the chart has the corresponding data.\n rationale3: The question asks for the number of gun - related suicides in the U.S. in 1968, and the relevant information can be found directly from the given chart.",
+                "answer": "7.2; 3%; 10911",
+                "involved_content_sources": [
+                    "chart_3-3",
+                    "chart_1-3",
+                    "chart_2-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the number of gun - related suicides in the U.S. in 1968? (Please answer with a single number)\n question2: How many active - shooter incidents were there in the U.S. in 2009? Please provide a single number as the answer.\n question3: What is the proportion of murders in U.S. gun - deaths in 2023? (Please answer in percentage)\n question4: What was the gun - suicide rate per 100,000 people (age - adjusted) in 1968? Please provide a number.",
+                "rationale": "rationale1: The question asks for the number of gun - related suicides in the U.S. in 1968, and the relevant information can be found directly from the given chart.\n rationale2: The question asks for the number of active - shooter incidents in the U.S. in 2009, and the relevant information can be directly found from the chart.\n rationale3: The question directly asks for the proportion of murders in U.S. gun - deaths in 2023, and the relevant data is provided in the chart.\n rationale4: The question asks for the gun - suicide rate per 100,000 people (age - adjusted) in 1968, and the relevant information is directly given in the chart as 6.3.",
+                "answer": "10911; 27; 38%; 6.3",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_5-2",
+                    "chart_1-2",
+                    "chart_3-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average gun - suicide rate per 100,000 people (age - adjusted) from 1968 to 2023? (Round the answer to one decimal place.)\n question2: What is the combined proportion of suicides and murders in U.S. gun - deaths in 2023?",
+                "rationale": "rationale1: To find the average gun - suicide rate, we need to sum up the gun - suicide rates in 1968, 1972, 1976, and 2023 and then divide by the number of data points (4).\n rationale2: To find the combined proportion, we need to add the proportion of suicides and the proportion of murders in U.S. gun - deaths in 2023. We can get these two data from the given chart.",
+                "answer": "7.2; 96%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_1-1",
+                    "chart_1-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average gun - suicide rate per 100,000 people (age - adjusted) from 1968 to 2023? (Round the answer to one decimal place.)\n question2: What is the combined proportion of suicides and murders in U.S. gun - deaths in 2023?\n question3: What is the average number of active - shooter incidents in the U.S. from 2009 to 2023 (including 2009 and 2023)?",
+                "rationale": "rationale1: To find the average gun - suicide rate, we need to sum up the gun - suicide rates in 1968, 1972, 1976, and 2023 and then divide by the number of data points (4).\n rationale2: To find the combined proportion, we need to add the proportion of suicides and the proportion of murders in U.S. gun - deaths in 2023. We can get these two data from the given chart.\n rationale3: We need to find the total number of active - shooter incidents from 2009 to 2023 and then divide by the number of years in this period. The data for the number of incidents in 2009, 2017, 2019, 2021, and 2023 are given in the chart. We add these values and divide by the number of data - points (5 in this case).",
+                "answer": "7.2; 96%; 35.4",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_5-4",
+                    "chart_5-5",
+                    "chart_5-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average gun - suicide rate per 100,000 people (age - adjusted) from 1968 to 2023? (Round the answer to one decimal place.)\n question2: What is the combined proportion of suicides and murders in U.S. gun - deaths in 2023?\n question3: What is the average number of active - shooter incidents in the U.S. from 2009 to 2023 (including 2009 and 2023)?\n question4: What is the total increase in the number of gun - related suicides and gun - related murders in the U.S. from 1968 to 2023? Please provide a single number as the answer.",
+                "rationale": "rationale1: To find the average gun - suicide rate, we need to sum up the gun - suicide rates in 1968, 1972, 1976, and 2023 and then divide by the number of data points (4).\n rationale2: To find the combined proportion, we need to add the proportion of suicides and the proportion of murders in U.S. gun - deaths in 2023. We can get these two data from the given chart.\n rationale3: We need to find the total number of active - shooter incidents from 2009 to 2023 and then divide by the number of years in this period. The data for the number of incidents in 2009, 2017, 2019, 2021, and 2023 are given in the chart. We add these values and divide by the number of data - points (5 in this case).\n rationale4: To find the total increase, we need to calculate the increase in gun - related suicides and the increase in gun - related murders separately and then sum them up. The increase in gun - related suicides is the number in 2023 minus the number in 1968, and the same for gun - related murders. We use the data from the chart about the number of these two types of gun - related incidents in 1968 and 2023.",
+                "answer": "7.2; 96%; 35.4; 24891",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_5-2",
+                    "chart_5-3",
+                    "chart_5-4",
+                    "chart_5-5",
+                    "chart_5-6",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the number of gun - related suicides in 2023 to the proportion of suicides in U.S. gun - deaths in 2023?",
+                "rationale": "The number of gun - related suicides in 2023 is 27,300 (from chart_2-3), and the proportion of suicides in U.S. gun - deaths in 2023 is 58% (from chart_1-1). The ratio is 27300\u00f70.58 \u2248 47069 (rounded to the nearest whole number).",
+                "answer": "47069",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "If we consider the proportion of gun - related suicides in 2023 from Chart 1, the number of gun - related suicides in 2023 from Chart 2, and the gun - suicide rate per 100,000 people in 2023 from Chart 3, what would be the estimated total population in 2023 based on the number of gun - related suicides and the gun - suicide rate? (Round the result to the nearest whole number.)",
+                "rationale": "From Chart 1, the proportion of gun - related suicides in 2023 is 58% (this is not used in the calculation). From Chart 2, the number of gun - related suicides in 2023 is 27,300. From Chart 3, the gun - suicide rate per 100,000 people in 2023 is 7.6. We can use the formula: Population = (Number of gun - related suicides / Gun - suicide rate) * 100,000. So, the population = (27300 / 7.6) * 100000 \u2248 359210526 (rounded to the nearest whole number).",
+                "answer": "359210526",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-3",
+                    "chart_3-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the result of dividing the sum of the number of gun - related suicides in 2023 and the number of active - shooter incidents in 2023 by the sum of the proportion of suicides in U.S. gun - deaths in 2023 and the gun - murder rate per 100,000 people in 2023?",
+                "rationale": "The number of gun - related suicides in 2023 is 27,300 (chart_2-3). The number of active - shooter incidents in 2023 is 48 (chart_5-6). The sum of these two values is 27300 + 48 = 27348. The proportion of suicides in U.S. gun - deaths in 2023 is 58% (chart_1-1), and the gun - murder rate per 100,000 people in 2023 is 5.6 (chart_3-6). The sum of these two values is 58 + 5.6 = 63.6. Then, the result of the division is 27348\u00f763.6 = 430.",
+                "answer": "430",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-3",
+                    "chart_3-6",
+                    "chart_5-6"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the ratio of the number of gun - related suicides in 2023 to that in 1968 and the ratio of the gun - suicide rate per 100,000 people (age - adjusted) in 2023 to that in 1968?",
+                "rationale": "The number of gun - related suicides in 1968 was 10,911 (chart_2-1), and in 2023 was 27,300 (chart_2-3). So the ratio of the number of gun - related suicides in 2023 to that in 1968 is 27300 / 10911 \u2248 2.5. The gun - suicide rate per 100,000 people (age - adjusted) in 1968 was 6.3 (chart_3-1), and in 2023 was 7.6 (chart_3-5). So the ratio of the gun - suicide rate per 100,000 people (age - adjusted) in 2023 to that in 1968 is 7.6 / 6.3 \u2248 1.2. Then the difference between the two ratios is 2.5 - 1.2 = 1.3.",
+                "answer": "1.3",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-1",
+                    "chart_3-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the difference between the number of gun - related suicides and gun - related murders in 2023 to the sum of the gun - suicide rate and gun - murder rate per 100,000 people (age - adjusted) in 2023, after adjusting the difference by the proportion of suicides in U.S. gun - deaths in 2023?",
+                "rationale": "The proportion of suicides in U.S. gun - deaths in 2023 is 58% (chart_1-1). In 2023, the number of gun - related suicides in the U.S. was 27,300 (chart_2-3), and the number of gun - related murders in the U.S. was 17,927 (chart_2-4). The difference between the number of gun - related suicides and gun - related murders in 2023 is 27300 - 17927 = 9373. After adjusting by the proportion of suicides, it becomes 9373\u00d70.58 = 5436.34. In 2023, the gun - suicide rate per 100,000 people (age - adjusted) was 7.6 (chart_3-5), and the gun - murder rate per 100,000 people (age - adjusted) was 5.6 (chart_3-6). The sum of the gun - suicide rate and gun - murder rate per 100,000 people (age - adjusted) in 2023 is 7.6 + 5.6 = 13.2. The ratio is 5436.34\u00f713.2 \u2248 411.84.",
+                "answer": "411.84",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-5",
+                    "chart_3-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the sum of the proportions of suicides and murders in 2023 U.S. gun - deaths, the increase in the number of gun - related suicides from 1968 to 2023, the increase in the gun - murder rate per 100,000 people (age - adjusted) from 1968 to 2023, and the increase in the number of active - shooter incidents from 2009 to 2023?",
+                "rationale": "First, from Chart 1, the proportion of suicides in 2023 U.S. gun - deaths is 58% and the proportion of murders is 38%, so their sum is 58%+38% = 96%. Second, from Chart 2, the number of gun - related suicides in 1968 was 10,911 and in 2023 was 27,300, so the increase is 27300 - 10911 = 16389. Third, from Chart 3, the gun - murder rate per 100,000 people (age - adjusted) in 1968 was 5.2 and in 2023 was 5.6, so the increase is 5.6 - 5.2 = 0.4. Fourth, from Chart 5, the number of active - shooter incidents in 2009 was 27 and in 2023 was 48, so the increase is 48 - 27 = 21. The average of these four values is (96%+16389 + 0.4+21)/4. First, convert 96% to 0.96. Then (0.96+16389 + 0.4+21)/4=(16411.36)/4 = 4102.84.",
+                "answer": "4102.84",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-2",
+                    "chart_3-6",
+                    "chart_5-2",
+                    "chart_5-6"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

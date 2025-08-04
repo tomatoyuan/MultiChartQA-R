@@ -1,0 +1,199 @@
+{
+  "chart": [
+    "chart_99_1",
+    "chart_99_2",
+    "chart_99_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Suponiendo que las condiciones de 'Frecuencia de consumo de frutas' (chart_99_2) y 'Escenarios de consumo de frutas' (chart_99_3) son independientes, ¿es cierto que el grupo de usuarios con 'frecuencia de consumo una vez al día o más y consumo principal después de la cena/la reunión' tiene la mayor proporción? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En chart_99_2, la proporción de consumo una vez al día o más es del 54.9%, y en chart_99_3, la proporción de consumo después de la cena/la reunión es del 64.0%. Ambos tienen proporciones relativamente altas, por lo que la probabilidad combinada es grande.",
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "En 'Consumo per cápita de frutas frescas de los residentes nacionales desde 2015 hasta 2020' (chart_99_1), el consumo en 2020 disminuyó ligeramente en comparación con 2019. ¿Esto está relacionado con la proporción relativamente baja de consumo de frutas 'Después del deporte/entrenamiento' en 'Escenarios de consumo de frutas'? Responda sí o no.",
+      "answer": "No",
+      "explanation": "El chart_99_1 muestra que el consumo en 2020 fue de 51.3 kg, ligeramente inferior al de 2019, que fue de 51.4 kg. Mientras que en el chart_99_3, la proporción de consumo 'Después del deporte/entrenamiento' es del 47.5%, no es la más baja. La disminución puede deberse a otros factores.",
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Ambas 'Frecuencia de consumo de frutas' y 'Escenarios de consumo de frutas' se presentan en orden ascendente según la proporción de arriba hacia abajo? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambos están en orden ascendente.",
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la proporción de consumo de frutas en el \"Té de la tarde\" en el año con el mayor aumento en el consumo per cápita de frutas frescas de los residentes nacionales durante el período de 2015 a 2020? Redondea a 1 decimal. Respuesta: xx.x%",
+      "answer": "55.4%",
+      "explanation": "Primero, según el \"Consumo per cápita de frutas frescas de los residentes nacionales desde 2015 hasta 2020\", calculamos el aumento anual: en 2016, el aumento fue de 3.4 kg; en 2017, de 1.7 kg; en 2018, de 1.8 kg; en 2019, de 4.0 kg; y en 2020, hubo una disminución de 0.1 kg. Podemos ver que el año con el mayor aumento fue 2019. Luego, según el \"Escenarios de consumo de frutas\", la proporción de consumo de frutas en el \"Té de la tarde\" es del 55.4%.",
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la proporción estimada de la población que consume frutas una vez cada dos o tres días y también las consume mientras ven programas de televisión/televisión de variedades/películas en relación con la población total? Redondea a 1 decimal. Respuesta: xx.x%",
+      "answer": "16.5%",
+      "explanation": "La proporción de consumo una vez cada dos o tres días es del 27.7% multiplicada por la proporción de consumo mientras ven programas de televisión/televisión de variedades/películas, que es del 59.6%, lo que es aproximadamente 16.5%.",
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es el consumo per cápita de frutas frescas de los residentes nacionales en 2017 en comparación con la proporción de consumo de frutas una vez cada dos semanas o menos? Redondea al entero más cercano. Respuesta: xx veces",
+      "answer": "45600 veces",
+      "explanation": "Según el \"Consumo per cápita de frutas frescas de los residentes nacionales desde 2015 hasta 2020\", el consumo per cápita en 2017 fue de 45.6 kg. Según la \"Frecuencia de consumo de frutas\", la proporción de consumo de frutas una vez cada dos semanas o menos es del 0.1% (es decir, 0.001). Al calcular, obtenemos 45.6 ÷ 0.001 = 45600.",
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Desde 2015 hasta 2020, el consumo per cápita de frutas frescas de los residentes nacionales presentó una tendencia general de crecimiento, pero hubo una ligera disminución en 2020. Teniendo en cuenta la distribución de la frecuencia de consumo de frutas, ¿qué factores podrían explicar conjuntamente este cambio en el patrón de consumo?",
+      "answer": {
+        "A": "En 2020, la proporción de personas con bajo consumo (por ejemplo, una vez cada dos semanas) llegó al 20%, lo que provocó una disminución en el consumo total.",
+        "B": "El grupo de personas que consume frutas con alta frecuencia (por ejemplo, una vez al día o más) tiene una proporción relativamente alta, lo que podría proporcionar un soporte fundamental para el crecimiento continuo del consumo. La ligera disminución en 2020 podría estar relacionada con la proporción pequeña pero existente de personas con bajo consumo.",
+        "C": "El período de crecimiento del consumo (por ejemplo, de 2015 a 2019) coincide con la estabilidad de la proporción de consumo con alta frecuencia. Cuando el consumo disminuyó en 2020, el predominio de los consumidores de frecuencia media y alta podría haber limitado la amplitud de la disminución.",
+        "D": "El aumento del precio de las frutas o problemas en la cadena de suministro podrían haber causado la disminución del consumo en 2020, mientras que el crecimiento económico impulsó el aumento de 2015 a 2019.",
+        "E": "La distribución de la frecuencia de consumo muestra que la mayoría de las personas consume frutas al menos una vez cada tres días, lo que es consistente con la tendencia ascendente anual del consumo. Sin embargo, factores externos en 2020 (como eventos de salud pública) podrían haber causado una ligera disminución al afectar a los grupos de bajo consumo.",
+        "F": "El aumento de la conciencia sobre la salud es el motor central del crecimiento continuo del consumo. La disminución en 2020 podría deberse a que los consumidores se han vuelto hacia otros alimentos saludables.",
+        "G": "La proporción del grupo de consumo frecuente (una vez al día o más) fue inferior al 40% en 2019, por lo que no pudo amortiguar la amplitud de la disminución en 2020."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "La distribución de la frecuencia de consumo de frutas y la distribución de los escenarios de consumo indican que ciertos escenarios pueden promover un consumo más frecuente. Basándose en estos gráficos, ¿qué escenarios están más probablemente relacionados con el grupo de consumidores frecuentes de frutas?",
+      "answer": {
+        "A": "Las frutas son más comunes en el desayuno, lo que promueve directamente la formación de hábitos de consumo frecuente.",
+        "B": "El grupo con frecuencia de consumo semanal tiene una proporción dominante de consumo durante el trabajo/estudio, lo que indica que este escenario impulsa el consumo frecuente.",
+        "C": "La proporción de consumo de frutas después de una reunión/comida es la más alta, y el grupo de consumo frecuente (por ejemplo, una vez al día o más) tiene la mayor proporción, lo que indica que el escenario de comidas diarias podría ser el momento principal del consumo frecuente.",
+        "D": "La proporción de consumo de frutas después del deporte/entrenamiento es la más alta (47,5%), por lo que este escenario está más fuertemente relacionado con el grupo de consumo frecuente.",
+        "E": "La proporción de consumo de frutas durante el trabajo/estudio supera la mitad, y el grupo de consumo frecuente es dominante, lo que indica que el consumo de frutas durante actividades cotidianas podría apoyar un comportamiento de consumo más frecuente.",
+        "F": "La proporción de consumo de frutas durante actividades de ocio (por ejemplo, ver programas de televisión/televisión de variedades/películas) es relativamente alta, lo que es consistente con que los consumidores frecuentes integren las frutas en sus hábitos de entretenimiento diario.",
+        "G": "Las actividades de marketing publicitario han reforzado el consumo en escenarios específicos, como el escenario de regalos festivos, lo que aumenta el consumo frecuente."
+      },
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En 2020, el consumo per cápita de frutas frescas de los residentes nacionales experimentó una ligera disminución, pero la distribución de los escenarios de consumo de frutas muestra una proporción alta de consumo en varios escenarios. Teniendo en cuenta la distribución de la frecuencia de consumo, ¿qué factores pueden explicar este conflicto aparente entre la disminución del consumo y la alta proporción en los escenarios?",
+      "answer": {
+        "A": "La amplia distribución de los escenarios (por ejemplo, el consumo después del deporte y durante viajes al aire libre tiene una proporción no baja) combinada con el predominio del consumo frecuente podría explicar por qué la disminución fue ligera en lugar de una caída drástica.",
+        "B": "La proporción del grupo de consumo frecuente en el escenario de té de la tarde cayó por debajo del 30%, lo que debilitó la resistencia del consumo.",
+        "C": "La proporción de personas con bajo consumo (por ejemplo, una vez cada dos semanas o menos) en varios escenarios superó el 10%, lo que amplificó el impacto de la disminución del consumo en 2020.",
+        "D": "La preferencia de los consumidores se ha dirigido hacia productos de frutas procesadas, lo que ha reducido el consumo de frutas frescas, pero los hábitos de consumo en los escenarios no han cambiado.",
+        "E": "El evento de salud pública en 2020 hizo que el escenario de viaje al aire libre desapareciera por completo, lo que redujo el consumo total.",
+        "F": "La disminución del consumo podría estar relacionada con los consumidores de bajo consumo, pero el consumo estable del grupo de consumo frecuente en varios escenarios (por ejemplo, durante el trabajo/estudio y en el té de la tarde) podría haber limitado la fluctuación del consumo total.",
+        "G": "Aunque el consumo disminuyó ligeramente en 2020, la proporción del grupo de consumo frecuente (una vez al día o más) es alta, y la proporción de consumo en varios escenarios (por ejemplo, después de una reunión y durante el ocio) es alta, lo que podría haber amortiguado la amplitud de la disminución y refleja la resistencia de los hábitos de consumo."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, combinando la tendencia del consumo per cápita de frutas frescas de los residentes nacionales y la distribución de la frecuencia de consumo de frutas, ¿cómo se debería ajustar la estrategia de promoción de salud pública para mejorar aún más el nivel de consumo de frutas de los residentes? Elija la sugerencia más razonable.",
+      "answer": {
+        "A": "Aumentar la importación de frutas para satisfacer la demanda potencial, ya que cualquier aumento del consumo requiere una garantía de suministro, lo cual puede mejorar directamente el nivel general de consumo.",
+        "B": "Realizar intervenciones educativas especiales para el grupo de consumidores de baja frecuencia, ya que aunque la proporción de consumidores de baja frecuencia es relativamente pequeña, la cantidad de consumo ha presentado una ligera fluctuación recientemente. Explorar el potencial de este grupo puede prevenir el riesgo de saturación del mercado y promover la equidad del consumo.",
+        "C": "Colocar anuncios de dietas saludables en todas las plataformas de medios de comunicación, enfatizando los valores nutricionales de las frutas, para mejorar la conciencia de salud pública e indirectamente estimular el consumo.",
+        "D": "Dado que la proporción del grupo de consumidores de baja frecuencia es extremadamente pequeña (por ejemplo, aquellos que consumen frutas menos de una vez cada dos semanas solo representan el 0,1%), se debe ignorar por completo a este grupo y solo realizar actividades de promoción para los consumidores de alta frecuencia (aquellos que consumen frutas una vez al día o más representan el 54,9%) para aumentar rápidamente la cantidad de consumo.",
+        "E": "Dado que la cantidad de consumo experimentó una ligera disminución en 2020 (de 51,4 kg a 51,3 kg), se debe reducir urgentemente la promoción de los hábitos de consumo de alta frecuencia y priorizar la intervención en el grupo de consumidores de baja frecuencia para evitar la reversión de la tendencia de consumo.",
+        "F": "Fortalecer la promoción para consolidar los hábitos de consumo diarios de alta frecuencia, ya que la cantidad de consumo presenta una tendencia general de aumento y la mayoría de los consumidores tienen una frecuencia de consumo alta. Esto puede aprovechar la inercia de consumo existente para aumentar continuamente el consumo per cápita."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2"
+      ],
+      "label": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en las características de distribución de la frecuencia y los escenarios de consumo de frutas, ¿cómo se debería asignar los recursos de marketing de la empresa para maximizar la penetración del mercado de los productos de frutas? Elija la sugerencia de estrategia más efectiva.",
+      "answer": {
+        "A": "Colaborar con instituciones de salud para promocionar los beneficios de las frutas y establecer la confianza en la marca, lo cual puede aumentar indirectamente la frecuencia de consumo.",
+        "B": "Reducir el precio de los productos de frutas para atraer a más consumidores, ya que la sensibilidad al precio es un factor clave que afecta la penetración del mercado.",
+        "C": "Desarrollar soluciones de frutas convenientes para el escenario de trabajo y estudio, ya que la proporción de consumo en este escenario es relativamente alta, pero los datos de la frecuencia de consumo muestran que los hábitos diarios son estables. Optimizar la forma del producto puede liberar aún más el potencial de demanda.",
+        "D": "Invertir优先 en actividades de promoción en los escenarios sociales y de ocio, ya que la proporción de consumo en estos escenarios es significativamente más alta y los consumidores de alta frecuencia son la mayoría. Esto puede alcanzar eficazmente a los consumidores principales y aumentar la frecuencia de consumo.",
+        "E": "Para el grupo de consumidores de baja frecuencia (por ejemplo, aquellos que consumen frutas una vez cada cuatro o cinco días representan el 11,6%), desarrollar productos de alta gama, ya que tienen un intervalo de consumo más largo y pueden ser más sensibles a la calidad. Esto puede aumentar rápidamente la penetración del mercado.",
+        "F": "Dado que la proporción de consumo durante el trabajo/estudio es relativamente alta (51,8%), pero los datos de la frecuencia de consumo muestran que la proporción del grupo de consumidores de baja frecuencia es pequeña (aquellos que consumen frutas una vez a la semana o menos solo representan el 5,3%), se debe reducir la inversión en este escenario y centrarse solo en los escenarios con una proporción alta, como después de la cena/reunión (64,0%), para alcanzar eficazmente a los consumidores principales."
+      },
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Teniendo en cuenta la tendencia de cambio del consumo per cápita de frutas frescas de los residentes nacionales, las características de la frecuencia de consumo y las preferencias de los escenarios de consumo, ¿cómo se debería formular la estrategia de asignación de recursos industriales para hacer frente al cuello de botella del crecimiento del consumo y mejorar la sostenibilidad? Elija la sugerencia más completa.",
+      "answer": {
+        "A": "Fortalecer la resiliencia de la cadena de suministro para apoyar el crecimiento estable del consumo y centrarse en la promoción en escenarios de alta preferencia, como actividades sociales, ya que la tendencia de aumento a largo plazo del consumo es evidente y la proporción de consumo en los escenarios sociales es destacada. Esto puede convertir eficazmente la tendencia en demanda real.",
+        "B": "Monitorear el impacto de los factores externos en las fluctuaciones del consumo y ajustar la estrategia de suministro, ya que la cantidad de consumo experimentó una ligera disminución recientemente, pero los hábitos de consumo de alta frecuencia son estables. Responder en tiempo real puede reducir el desperdicio de recursos.",
+        "C": "Dado que los hábitos de consumo de alta frecuencia son estables (aquellos que consumen frutas una vez al día o más representan el 54,9%) y la cantidad de consumo presenta una tendencia de aumento a largo plazo, solo se debe fortalecer la cadena de suministro (como en la opción A) y no es necesario realizar educación en salud o desarrollar múltiples escenarios, para evitar la dispersión de recursos.",
+        "D": "Dado que la cantidad de consumo experimentó una ligera disminución en 2020 (de 51,4 kg a 51,3 kg), se debe reducir urgentemente la escala de producción y monitorear los factores externos (como en la opción C), pero ignorar las preferencias de los escenarios, para prevenir el riesgo de exceso de producción.",
+        "E": "Ampliar la superficie de cultivo de frutas para aumentar la producción, ya que un suministro suficiente es la garantía fundamental del crecimiento del consumo.",
+        "F": "Integrar la educación en salud y el desarrollo de productos para múltiples escenarios, ya que el grupo de consumidores de baja frecuencia tiene espacio para mejorar y los datos de los escenarios muestran numerosas oportunidades de aplicación. Combinando con la tendencia de consumo, se puede ampliar la base del mercado.",
+        "G": "Introducir tecnologías de embalaje ecológico para mejorar la sostenibilidad del producto y atraer a los consumidores con conciencia ambiental."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

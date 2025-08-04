@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_176_1",
+    "chart_176_2",
+    "chart_176_3",
+    "chart_176_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿En 'Proporción de edad de las personas que regalan a sus parejas en 2023' hay un grupo (o varios grupos) de edad con la proporción más alta que también tenga la tasa de crecimiento interanual más alta? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En 'Proporción de edad de las personas que regalan a sus parejas', los grupos de edad con la proporción más alta son 18 - 24 y 25 - 29 (25%), y el grupo de edad 18 - 24 también tiene la tasa de crecimiento interanual más alta (80%).",
+      "charts_involved": [
+        "chart_176_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿En 'Proporción de edad de usuarios que regalan a amigos' hay un grupo (o varios grupos) de edad con la proporción más alta que también tenga la tasa de crecimiento interanual más alta? Responda sí o no.",
+      "answer": "No",
+      "explanation": "En 'Proporción de edad de usuarios que regalan a amigos', los grupos de edad con la proporción más alta son 18 - 24 y 25 - 29 (25%), pero el grupo de edad con la tasa de crecimiento interanual más alta es 35 - 39 (60%).",
+      "charts_involved": [
+        "chart_176_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Son los grupos de edad con la proporción más alta entre las personas que regalan a sus parejas y las que regalan a sus amigos los mismos?",
+      "answer": "Sí",
+      "explanation": "Los grupos de edad con la proporción más alta entre las personas que regalan a sus parejas son 18 - 24 y 25 - 29, que son exactamente los mismos que los grupos de edad con la proporción más alta entre las personas que regalan a sus amigos.",
+      "charts_involved": [
+        "chart_176_2",
+        "chart_176_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En el Día de San Valentín de 2023, ¿cuál es la proporción de las personas de 18 - 24 años en el total de personas que regalan a sus parejas? Redondea el resultado a 1 decimal y la unidad es %.",
+      "answer": "15.0%",
+      "explanation": "El 60% de los destinatarios de regalos son las parejas, y entre ellos, el 25% son personas de 18 - 24 años. Por lo tanto, la proporción de esta franja de edad en el total de personas es del 60% × 25% = 15.0%.",
+      "charts_involved": [
+        "chart_176_1",
+        "chart_176_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En el Día de San Valentín de 2023, ¿cuál es la proporción de las personas de 30 - 34 años en el total de personas que regalan a sus amigos? Redondea el resultado a 1 decimal y la unidad es %.",
+      "answer": "1.5%",
+      "explanation": "El 10% de los destinatarios de regalos son los amigos, y entre ellos, el 15% son personas de 30 - 34 años. Por lo tanto, la proporción de esta franja de edad en el total de personas es del 10% × 15% = 1.5%.",
+      "charts_involved": [
+        "chart_176_1",
+        "chart_176_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Entre las personas que regalan a sus amigos, ¿cuál es la proporción total de los usuarios mayores de 30 años (30 - 34, 35 - 39, 40+)? Calcula en base a los datos de los gráficos y redondea el resultado a 1 decimal, la unidad es %.",
+      "answer": "5.0%",
+      "explanation": "Entre las personas que regalan a sus amigos, la proporción de edad de 30 - 34 años es del 15%, la de 35 - 39 años es del 20% y la de 40+ años es del 15%. En total es del 15% + 20% + 15% = 50.0%. Por lo tanto, la proporción de esta franja de edad en el total de personas es del 10% × 50% = 5.0%.",
+      "charts_involved": [
+        "chart_176_1",
+        "chart_176_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según la proporción de edad y la tendencia de crecimiento interanual de los usuarios que regalan a sus parejas y a sus amigos en San Valentín, ¿en qué rangos de edad los usuarios tienen un mayor impulso de crecimiento al regalar a sus parejas y un crecimiento relativamente moderado al regalar a sus amigos? ¿Qué preferencias latentes del comportamiento de regalar en San Valentín se reflejan en esto?",
+      "answer": {
+        "A": "Los usuarios de 18 - 24 años tienen un crecimiento rápido al regalar a sus parejas, pero un crecimiento lento al regalar a sus amigos, lo que indica que el grupo joven tiende a considerar San Valentín como una ocasión para expresar amor.",
+        "B": "Los usuarios de 40 + años tienen un crecimiento alto al regalar a sus parejas, pero un crecimiento moderado al regalar a sus amigos, lo que muestra que el grupo mayor también se centra más en sus parejas que en sus amigos en San Valentín.",
+        "C": "Los usuarios de 35 - 39 años tienen un crecimiento fuerte al regalar a sus parejas y un crecimiento moderado al regalar a sus amigos. Aunque este rango de edad tiene una proporción ligeramente más alta al regalar a amigos, la diferencia en la tasa de crecimiento destaca la importancia de los regalos para las parejas.",
+        "D": "Los usuarios de 35 - 39 años tienen una tasa de crecimiento del 85% al regalar a sus parejas y del 60% al regalar a sus amigos, con una diferencia de solo el 25%, lo que indica que este rango de edad también tiene una alta demanda de regalos para amigos y no destaca la preferencia por los regalos para las parejas.",
+        "E": "En todos los rangos de edad, el crecimiento al regalar a las parejas es mucho mayor que al regalar a los amigos, lo que indica que el núcleo de San Valentín es la expresión del amor y que los regalos para amigos son solo un complemento secundario.",
+        "F": "Los usuarios de 18 - 24 años tienen una tasa de crecimiento del 80% al regalar a sus parejas y del 30% al regalar a sus amigos, pero la proporción de regalos para amigos es del 25%, lo que es más alta. Por lo tanto, el crecimiento es relativamente moderado, lo que refleja que los jóvenes prefieren más los regalos sociales.",
+        "G": "Los usuarios de 25 - 29 años tienen un crecimiento más rápido al regalar a sus amigos (15% frente al 10% al regalar a sus parejas) porque son un grupo socialmente activo y valoran más la amistad."
+      },
+      "charts_involved": [
+        "chart_176_2",
+        "chart_176_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Los regalos en San Valentín están dominados por los destinados a las parejas. ¿Cómo la distribución de edad y la tendencia de crecimiento de los usuarios que regalan a sus parejas refuerzan este fenómeno? ¿Qué rangos de edad contribuyen de manera más significativa y se corresponden con la distribución general?",
+      "answer": {
+        "A": "Los usuarios de 40 + años tienen un crecimiento rápido pero una proporción moderada, lo que muestra que el grupo mayor también está aumentando la acción de regalar a sus parejas, lo que complementa la alta proporción de la distribución general.",
+        "B": "Los usuarios de 35 - 39 años tienen la tasa de crecimiento más alta del 85% y una proporción del 15%, lo que los convierte en el rango de edad que contribuye de manera más significativa y impulsa directamente la dominancia de los regalos para las parejas.",
+        "C": "Los usuarios jóvenes de 18 - 29 años en total tienen la proporción más alta en el grupo de personas que regalan a sus parejas, y muchos rangos de edad jóvenes tienen un crecimiento fuerte, lo que impulsa que regalar a las parejas se convierta en un comportamiento principal, lo que es consistente con el objeto central de San Valentín.",
+        "D": "La proporción de regalos para las parejas es del 60%, que es la más alta, porque San Valentín es esencialmente una fiesta romántica y todas las edades naturalmente priorizan a sus parejas.",
+        "E": "Los usuarios de 25 - 29 años tienen una proporción del 25% pero una tasa de crecimiento solo del 10%, por lo que su contribución es menor que la de los usuarios de 18 - 24 años (proporción del 25% y tasa de crecimiento del 80%), por lo que no son un grupo central.",
+        "F": "Los usuarios de 30 - 34 años tienen una proporción estable y un crecimiento significativo, lo que refuerza aún más la dominancia de los regalos para las parejas y refleja la participación activa de los grupos de edad joven y mediana en los regalos para las parejas.",
+        "G": "Los usuarios de 40 + años tienen solo una proporción del 15% en los regalos para las parejas y una tasa de crecimiento moderada del 70%, por lo que su contribución es la menor y no puede reforzar el fenómeno dominante."
+      },
+      "charts_involved": [
+        "chart_176_1",
+        "chart_176_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Durante San Valentín, el crecimiento de las transacciones y la conversión de pago de algunas categorías de maquillaje y cuidado personal presenta diferentes patrones, lo que puede estar relacionado con los principales destinatarios de los regalos. ¿Qué características de crecimiento de las categorías (como un aumento repentino de las transacciones pero una conversión estable, o transacciones estables pero un aumento repentino de la conversión) sugieren que son más adecuadas como regalos para las parejas en lugar de otros destinatarios?",
+      "answer": {
+        "A": "Las categorías con un crecimiento rápido tanto en las transacciones como en la conversión de pago pueden ser populares como regalos prácticos para las parejas, combinando la tendencia y la utilidad.",
+        "B": "Las mascarillas para otoño e invierno tienen un crecimiento alto tanto en las transacciones (382.8%) como en la conversión (163.0%), lo que indica que son adecuadas para todos los destinatarios, no específicamente para las parejas, lo que refleja su universalidad.",
+        "C": "Las categorías con un alto crecimiento en la conversión de pago (como los perfumes para conquistar hombres con un 168.1%) son más adecuadas como regalos para amigos porque entre amigos se presta más atención a la utilidad y la compra eficiente.",
+        "D": "Los perfumes para conquistar hombres tienen solo un crecimiento del 4.4% en las transacciones pero un crecimiento del 168.1% en la conversión, lo que indica que no son adecuados como regalos para las parejas (los regalos para las parejas deben tener un alto volumen de transacciones) y son más adecuados para mayores o para uno mismo.",
+        "E": "Las categorías con un aumento repentino en el índice de transacciones pero un crecimiento moderado en la conversión de pago pueden ser vistas con frecuencia como regalos para las parejas, pero la decisión de compra es más lenta, lo que refleja un comportamiento de regalo impulsivo.",
+        "F": "Todas las categorías con un alto crecimiento en el índice de transacciones (como las sombras de ojos rosadas con un 323.2%) son más adecuadas como regalos para las parejas porque la demanda de regalos para las parejas es alta.",
+        "G": "Las categorías con un crecimiento moderado en el índice de transacciones pero un aumento repentino en la conversión de pago pueden convertirse en regalos para las parejas de manera eficiente, lo que indica una demanda precisa o una orientación emocional."
+      },
+      "charts_involved": [
+        "chart_176_1",
+        "chart_176_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la distribución de los destinatarios de regalos de San Valentín y la tendencia de crecimiento interanual de diferentes grupos de edad, ¿cómo se debe optimizar la asignación de recursos de marketing para mejorar la conversión general de ventas?",
+      "answer": {
+        "A": "Invertir primero en el grupo de jóvenes de 18 - 24 años, ya que tienen la tasa de crecimiento más alta (80%) en el regalo para la pareja, lo que indica que son el motor central de crecimiento más rápido.",
+        "B": "Reducir la inversión en la escena de regalar a amigos, ya que su proporción es solo del 10% y la tasa de crecimiento es relativamente baja.",
+        "C": "Aumentar en especial la inversión de marketing para los grupos de edad mediana y alta (por ejemplo, mayores de 35 años) que regalan, ya que este grupo tiene el impulso de crecimiento más fuerte en el regalo para la pareja y también muestra una tasa de crecimiento notable en el regalo a amigos, lo que indica que su participación en la escena de regalos está aumentando rápidamente. La inclinación de recursos puede capturar eficientemente el mercado de alto potencial.",
+        "D": "Aumentar moderadamente el esfuerzo de diseño y promoción de productos para la escena de regalos a amigos. Aunque la proporción general de este grupo no es alta, la tasa de crecimiento en varios grupos de edad es destacada, especialmente en la generación adulta. Combinado con los datos de distribución de regalos, esto puede abrir nuevos puntos de crecimiento sin entrar en conflicto con el mercado principal.",
+        "E": "Aumentar la asignación de recursos para la escena de regalar a niños, ya que su proporción del 14% es el segundo grupo más grande y se espera que tenga un gran potencial de crecimiento.",
+        "F": "Ampliar el presupuesto general de marketing y aumentar la inversión en anuncios de marca para mejorar la exposición en toda la red durante San Valentín.",
+        "G": "Mantener la cobertura básica de marketing para el grupo joven (por ejemplo, de 18 - 24 años), ya que su tasa de crecimiento en el regalo para la pareja es alta y la proporción es estable, pero se debe controlar la proporción de inversión para evitar el consumo excesivo de recursos, ya que su tasa de crecimiento en la escena de regalar a amigos es relativamente moderada."
+      },
+      "charts_involved": [
+        "chart_176_1",
+        "chart_176_2",
+        "chart_176_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combinando las preferencias de los destinatarios de regalos y los datos de crecimiento de productos de belleza, ¿cómo se deben ajustar las prioridades de desarrollo de productos para maximizar los ingresos de ventas de San Valentín?",
+      "answer": {
+        "A": "Explorar productos innovadores para escenas de regalos minoritarias (por ejemplo, regalarse a sí mismo), pero se debe evaluar estrictamente la relación entre inversión y rendimiento para evitar la dispersión de recursos, ya que la proporción de este grupo es baja y los datos de categorías de alto crecimiento no apuntan directamente a sus necesidades.",
+        "B": "Aumentar en general la inversión en investigación y desarrollo de todas las categorías de productos de belleza para garantizar la diversidad de productos y satisfacer una amplia gama de necesidades.",
+        "C": "Desarrollar primero las categorías de productos de belleza con alto crecimiento de transacciones, como sombras de ojos específicas o mascarillas, ya que su amplitud de crecimiento supera con creces a otros productos y la proporción de los principales destinatarios de regalos es extremadamente alta, lo que puede alcanzar directamente a los consumidores centrales y aprovechar el impulso del mercado.",
+        "D": "Reducir la atención a los labios de bajo saturación y las sombras de ojos con destellos finos, ya que su crecimiento del índice de transacción es inferior al 40% y su potencial es limitado.",
+        "E": "Desarrollar en especial la línea de productos de perfumes para conquistar hombres, ya que su tasa de crecimiento de conversión de pago es de hasta el 168.1%, lo que puede mejorar directamente la eficiencia de ventas.",
+        "F": "Optimizar las líneas de productos con una mejora significativa en la tasa de conversión de pago, como perfumes y mascarillas. Aunque su crecimiento de transacciones puede no ser destacado, el salto en la eficiencia de conversión indica que la voluntad de decisión de los consumidores es fuerte. Es adecuado diseñar promociones combinadas para los principales destinatarios de regalos.",
+        "G": "Aumentar la producción de mascarillas para otoño e invierno, ya que su crecimiento del índice de transacción es el más alto (382.8%) y son adecuadas para todos los destinatarios de regalos."
+      },
+      "charts_involved": [
+        "chart_176_1",
+        "chart_176_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según la diferencia en la tasa de crecimiento de diferentes grupos de edad en el comportamiento de regalar y las características de crecimiento de productos, ¿cómo se debe formular una estrategia de marketing para el público objetivo para optimizar el retorno de la inversión?",
+      "answer": {
+        "A": "Diseñar combinaciones de productos de alta calidad - precio y orientadas a la moda para el grupo joven (por ejemplo, de 18 - 24 años). Dado que su tasa de crecimiento en la escena de regalar a la pareja es notable, pero el crecimiento de productos de conversión de pago es moderado, se debe adaptar a su sensibilidad al precio para mejorar la eficiencia de conversión.",
+        "B": "Invertir en especial en el grupo de 25 - 29 años, ya que su proporción en el regalo a la pareja y a amigos es del 25% y, aunque la tasa de crecimiento es mediana, la base es estable.",
+        "C": "Implementar una estrategia de marketing integrada en diferentes escenas de regalos para los grupos de edad de alto crecimiento (por ejemplo, de 35 - 39 años). Dado que crecen rápidamente tanto en el regalo a la pareja como en el regalo a amigos, y los productos de belleza de alto crecimiento pueden ser más adecuados para su capacidad de consumo, la concentración de recursos puede aumentar el precio unitario de la compra y la lealtad del cliente.",
+        "D": "Promocionar las sombras de ojos rosadas para el grupo de edad de 40+ años, ya que su crecimiento del índice de transacción es alto (323.2%) y este grupo tiene una tasa de crecimiento fuerte del 70% en el regalo a la pareja.",
+        "E": "Reducir la asignación de recursos para el grupo de 35 - 39 años, ya que su proporción en la escena de regalar a amigos es solo del 20% y el espacio de crecimiento es limitado.",
+        "F": "Optimizar el sistema de recomendación personalizada para los grupos de edad joven y mediana (de 25 - 34 años). Dado que su proporción en el regalo a la pareja es alta pero la tasa de crecimiento es diferenciada, combinado con los datos de categorías de alto crecimiento, la coincidencia precisa puede activar el mercado existente y evitar el desperdicio de recursos.",
+        "G": "Implementar actividades de marketing estandarizadas para todos los grupos de edad, como promociones de descuento unificado, para mejorar la participación general."
+      },
+      "charts_involved": [
+        "chart_176_2",
+        "chart_176_3",
+        "chart_176_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    }
+  ]
+}

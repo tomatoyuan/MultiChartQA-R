@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_94_1",
+    "chart_94_2",
+    "chart_94_3",
+    "chart_94_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "En el gráfico 'Tamaño del mercado de catering en China desde 2014 hasta 2023' y en el gráfico 'Número de Tiendas de Catering Chinas desde 2014 hasta 2021', ¿se produjo simultáneamente una disminución del tamaño del mercado y un gran aumento del número de tiendas en 2019? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En el gráfico chart_94_1, el tamaño del mercado en 2019 disminuyó en comparación con el año anterior (-15.4%). En el gráfico chart_94_2, el número de tiendas aumentó un 37.9% en comparación con el año anterior.",
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "En el gráfico 'Número de Tiendas de Catering Chinas desde 2014 hasta 2021' y en el gráfico 'Dificultades encontradas por empresas de catering al abrir nuevas tiendas', ¿existe una relación entre la disminución del número de tiendas en algunos años y la dificultad de 'Proceso lento' al abrir nuevas tiendas? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En el gráfico chart_94_2, el número de tiendas disminuyó en 2017 y 2021. En el gráfico chart_94_3, el 43.6% de las empresas mencionó que 'Proceso lento' era una dificultad, por lo que es posible que exista una relación.",
+      "charts_involved": [
+        "chart_94_2",
+        "chart_94_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "En el gráfico 'Dificultades encontradas por empresas de catering al abrir nuevas tiendas' y en el gráfico 'Puntos problemáticos en el uso de electrodomésticos de cocina', ¿más del 40% de los encuestados mencionó problemas relacionados con los equipos en ambos gráficos? Responda sí o no.",
+      "answer": "No",
+      "explanation": "En el gráfico chart_94_3, la dificultad de 'Desajuste de dispositivos' tiene un porcentaje de 33.1%, que es inferior al 40%. Sin embargo, en el gráfico chart_94_4, la proporción de 'Equipamiento tradicional y no inteligente' es del 48.9%, que supera el 40%. Solo el segundo gráfico cumple con la condición.",
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Por favor, compare la tasa de crecimiento interanual del tamaño del mercado de catering en 2020 con la tasa de crecimiento interanual del número de tiendas en 2020. ¿Cuántas veces es la tasa de crecimiento del tamaño del mercado la tasa de crecimiento del número de tiendas? Redondee a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "15.75 veces",
+      "explanation": "La tasa de crecimiento interanual del tamaño del mercado en 2020 (18.9%) ÷ la tasa de crecimiento interanual del número de tiendas (1.2%) = 15.75 veces.",
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Por favor, combine las dificultades encontradas por las empresas de catering al abrir nuevas tiendas y los puntos problemáticos en el uso de electrodomésticos de cocina, y calcule la diferencia en porcentaje entre los puntos problemáticos de “Proceso lento” y “Equipamiento tradicional y no inteligente”. Tome el valor absoluto y redondee a 1 decimal. Respuesta: xx.x puntos porcentuales",
+      "answer": "5.3 puntos porcentuales",
+      "explanation": "El porcentaje del problema de “Equipamiento tradicional y no inteligente” (48.9%) - el porcentaje del problema de “Proceso lento” (43.6%) = 5.3 puntos porcentuales.",
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En la etapa de recuperación del mercado de catering en 2019, ¿cuál era el tamaño del mercado correspondiente a cada tienda en promedio en yuanes? Redondee a 1 decimal. Respuesta: xx.x yuanes",
+      "answer": "55.2 yuanes",
+      "explanation": "El tamaño del mercado en 2019 era de 5 billones de yuanes = 500,000,000 yuanes; el número de tiendas en 2019 era de 9,060,000; 500,000,000 yuanes ÷ 9,060,000 tiendas ≈ 55.2 yuanes.",
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En 2019, el gráfico del tamaño del mercado de catering muestra que el mercado entró en una etapa de recesión, mientras que el gráfico del número de tiendas de catering muestra un gran aumento en el número de tiendas. ¿Qué opciones mejor explican este conflicto de datos?",
+      "answer": {
+        "A": "El rápido crecimiento del número de tiendas puede provenir de la llegada de tiendas ineficientes o pequeñas, lo que diluye los ingresos totales del mercado y contrasta con la disminución del tamaño del mercado.",
+        "B": "La recesión económica general hizo que los ingresos disponibles de los consumidores disminuyeran, lo que redujo la frecuencia de salir a comer fuera. Sin embargo, las empresas malinterpretaron la tendencia del mercado y expandieron ciegamente el número de tiendas para capturar cuotas de mercado.",
+        "C": "La disminución del tamaño del mercado puede deberse a un impacto externo (como la reducción de la demanda), mientras que el aumento del número de tiendas puede provenir de los esfuerzos de expansión de la industria. Sin embargo, la baja eficiencia de las nuevas tiendas hizo que los ingresos no aumentaran de manera sincrónica.",
+        "D": "La etapa de recesión del mercado puede haber impulsado a las empresas a abrir rápidamente tiendas para hacer frente a la competencia, pero la disminución de los ingresos por tienda se refleja en los datos del tamaño del mercado.",
+        "E": "La tasa de crecimiento interanual del tamaño del mercado en 2019 era positiva (por ejemplo, +10%), pero el gráfico muestra erróneamente una tasa de crecimiento negativa. Por lo tanto, el aumento del número de tiendas es consistente con el crecimiento del tamaño del mercado.",
+        "F": "El crecimiento del número de tiendas se debe principalmente a la inercia de la alta tasa de crecimiento en 2018 (13.5%), pero la disminución de los ingresos por tienda en 2019 contrarrestó el efecto de escala.",
+        "G": "El gobierno promulgó políticas de subsidio para la industria de catering, lo que estimuló la apertura de tiendas. Sin embargo, la frecuencia de incidentes de seguridad alimentaria inhibió la demanda de consumo, lo que provocó la contracción del tamaño del mercado."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En el gráfico de las dificultades que encuentran las empresas de catering al abrir nuevas tiendas y el gráfico de los puntos problemáticos en el uso de electrodomésticos de cocina, ¿qué opciones revelan cómo los problemas relacionados con los equipos afectan conjuntamente la eficiencia operativa de la industria?",
+      "answer": {
+        "A": "La proporción de equipos no adecuados en las dificultades de apertura de tiendas es alta, lo que está relacionado con la alta proporción de equipos de función única o no inteligentes en los puntos problemáticos de los electrodomésticos de cocina. Esto indica que la selección inadecuada de equipos directamente causa dificultades en la apertura de nuevas tiendas y baja la eficiencia operativa.",
+        "B": "La actualización inteligente de los equipos puede resolver automáticamente todos los puntos problemáticos, como reducir la dependencia de mano de obra y mejorar la eficiencia, sin necesidad de intervención adicional.",
+        "C": "La mala comunicación de requisitos tiene una proporción baja (menos del 20%) en las dificultades de apertura de tiendas, por lo que su impacto en los puntos problemáticos de los electrodomésticos de cocina, como la operación compleja, se puede ignorar.",
+        "D": "La proporción de equipos no adecuados es la más alta (alrededor del 50%) en las dificultades de apertura de tiendas, mientras que la proporción de equipos de corta vida útil es la más alta (alrededor del 40%) en los puntos problemáticos de los electrodomésticos de cocina. Esto indica que la baja durabilidad de los equipos es el principal cuello de botella.",
+        "E": "La mala comunicación de requisitos es común en las dificultades de apertura de tiendas y puede causar en cadena puntos problemáticos de los electrodomésticos de cocina, como la operación compleja o la baja eficiencia, porque los problemas de comunicación hacen que los equipos no se ajusten a las necesidades reales.",
+        "F": "La falta de servicio integral tiene una proporción alta en las dificultades de apertura de tiendas y puede agravar los puntos problemáticos de los electrodomésticos de cocina, como la fácil rotura o la corta vida útil de los equipos. Esto refleja el impacto negativo de la imperfección de la cadena de suministro en la operación general.",
+        "G": "La falta de capacitación profesional de los proveedores de equipos es el problema central, porque los proveedores no profesionales causan el fracaso de la instalación y depuración de equipos, lo que ralentiza la operación general."
+      },
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "De 2020 a 2021, el gráfico del tamaño del mercado de catering muestra que el mercado entró en una etapa de recuperación y creció fuertemente, mientras que el gráfico del número de tiendas de catering muestra que el crecimiento de tiendas se detuvo. Al mismo tiempo, algunas proporciones de puntos problemáticos en el uso de electrodomésticos de cocina son altas. ¿Qué opciones pueden explicar esta tendencia?",
+      "answer": {
+        "A": "La optimización de los problemas de equipos tradicionales con alta proporción en los puntos problemáticos de los electrodomésticos de cocina puede ayudar a las empresas a aumentar los ingresos con poco cambio en el número de tiendas, lo que apoya el rebote del tamaño del mercado.",
+        "B": "La tasa de crecimiento interanual del número de tiendas en 2021 fue más del 10%, porque después de la baja tasa de crecimiento en 2020 (1.2%) era inevitable un rebote, lo que coincide con el crecimiento del tamaño del mercado.",
+        "C": "La proporción de alto costo de equipos es la más alta (alrededor del 30%) en los puntos problemáticos de los electrodomésticos de cocina, lo que inhibió la apertura de nuevas tiendas. Sin embargo, las tiendas existentes aumentaron los ingresos mediante la optimización de este punto problemático.",
+        "D": "La demanda de delivery aumentó drásticamente durante la pandemia, lo que aumentó la cantidad de pedidos por tienda y, por lo tanto, impulsó el crecimiento del tamaño del mercado sin necesidad de abrir nuevas tiendas.",
+        "E": "El aumento de la conciencia de salud de los consumidores hizo que se volcaran hacia la catering de alta calidad, lo que aumentó el consumo promedio y contrarrestó el impacto de la estabilidad del número de tiendas.",
+        "F": "El crecimiento del tamaño del mercado mientras el número de tiendas se mantuvo estable puede deberse a que la optimización de la inteligencia y función de los equipos en los puntos problemáticos de los electrodomésticos de cocina redujo la dependencia de mano de obra y mejoró la eficiencia operativa por tienda.",
+        "G": "El desaceleramiento del crecimiento de tiendas puede verse afectado por dificultades de apertura de tiendas, como el proceso lento. Sin embargo, las tiendas existentes impulsaron la recuperación del mercado mediante la reducción de puntos problemáticos de los electrodomésticos de cocina (como la baja eficiencia de equipos)."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2",
+        "chart_94_4"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, combinando la tendencia de cambio del tamaño del mercado de catering y la fluctuación del número de tiendas, ¿cómo se debe optimizar la asignación de recursos futuros para mejorar la eficiencia general de la industria? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Establecer una relación de colaboración a largo plazo con los proveedores de alimentos para reducir los costos de compra y, de manera indirecta, optimizar la asignación de recursos.",
+        "B": "En el año con el mayor crecimiento interanual del número de tiendas (por ejemplo, un crecimiento del 49.3% en 2015), concentrar los recursos en la apertura de nuevas tiendas y omitir el análisis de la producción por tienda.",
+        "C": "Incrementar la capacitación de los empleados para mejorar la calidad del servicio, lo que atraerá a más clientes y mejorará la eficiencia general.",
+        "D": "En la etapa de valle o recuperación del tamaño del mercado, controlar el número de nuevas tiendas abiertas y centrarse en optimizar la asignación de recursos de las tiendas existentes. Cuando el tamaño del mercado se recupera después de la etapa de valle, el crecimiento del número de tiendas es suave, pero los signos de mejora de la eficiencia por tienda son evidentes; los datos del número de tiendas muestran que un crecimiento excesivo de las tiendas durante la etapa de valle puede provocar una mayor competencia, y los recursos deben dirigirse a mejorar la utilización de los activos existentes.",
+        "E": "En la etapa de valle del tamaño del mercado (por ejemplo, en 2019), expandir rápidamente el número de tiendas para capturar cuota de mercado, ya que el número de tiendas alcanzó el pico en 2019 (9,06 millones).",
+        "F": "En la etapa de rápido crecimiento del tamaño del mercado, priorizar la inversión en nuevas tiendas, pero es necesario mejorar simultáneamente la eficiencia de operación por tienda. Los datos del tamaño del mercado muestran que el número de tiendas aumenta rápidamente durante la etapa de crecimiento, pero la producción por tienda puede ser insuficiente; la tendencia del número de tiendas indica que en algunos años el número de tiendas aumentó drásticamente, pero el tamaño del mercado no aumentó de manera sincrónica, lo que sugiere que una expansión descontrolada puede causar una disminución de la eficiencia. Por lo tanto, se deben combinar medidas de optimización de la eficiencia.",
+        "G": "Establecer un mecanismo de monitoreo dinámico y ajustar el ritmo de inversión a las etapas de crecimiento del mercado: aumentar la inversión cuando el tamaño del mercado entra en una etapa de nuevo impulso, mantener una inversión estable durante la etapa de estabilidad y evitar una expansión excesiva durante la etapa de valle. Las características por etapas del tamaño del mercado (por ejemplo, etapa de crecimiento estable, etapa de nuevo impulso) y la tendencia de cambio del número de tiendas muestran que la eficiencia de inversión es más alta cuando la etapa de crecimiento se sincroniza con la optimización de las tiendas."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_2"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, en respuesta a las principales dificultades en el proceso de apertura de tiendas de empresas de catering y los puntos problemáticos en el uso de electrodomésticos de cocina, ¿qué estrategias de mejora deben implementarse en primer lugar para mejorar la tasa de éxito de apertura de tiendas y la sostenibilidad de la operación? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Optimizar el diseño de la decoración del restaurante para aumentar la atracción de la marca y, de manera indirecta, apoyar la tasa de éxito de apertura de tiendas.",
+        "B": "Invertir en la optimización del mantenimiento de equipos y la gestión de proveedores, centrándose en reducir la tasa de daño de equipos y el problema de falta de profesionalismo. Los puntos problemáticos de los electrodomésticos de cocina destacan los problemas de confiabilidad y vida útil de los equipos, y aunque la proporción de falta de profesionalismo de los proveedores en las dificultades de apertura de tiendas es baja, su impacto es profundo; mejorar los estándares de los proveedores de manera específica puede prevenir las fallas de equipos y, por lo tanto, apoyar la eficiencia de apertura de tiendas.",
+        "C": "Centrarse en reducir la proporción de proveedores no profesionales (solo el 6.8%), ya que tiene la proporción más baja y es fácil de mejorar, lo que puede mejorar rápidamente la confiabilidad de los equipos.",
+        "D": "Implementar en primer lugar equipos de cocina inteligentes y multifuncionales para reducir la dependencia de mano de obra y mejorar la eficiencia del proceso. Los puntos problemáticos de los electrodomésticos de cocina muestran que la falta de inteligencia y la función única tienen las proporciones más altas, y están directamente relacionados con el problema de coincidencia de equipos en las dificultades de apertura de tiendas; la actualización de equipos puede aliviar simultáneamente las dificultades de instalación y depuración, acelerando el proceso de apertura de tiendas.",
+        "E": "Resolver en primer lugar el problema de ruido fuerte de los electrodomésticos de cocina (con una proporción del 37.6%), ya que es el factor de interferencia de operación más común y está directamente relacionado con la mala comunicación de requisitos (27.8%) en las dificultades de apertura de tiendas.",
+        "F": "Fortalecer la prestación de servicios integrales, incluyendo la personalización de equipos, instalación, depuración y comunicación de requisitos, para resolver la falta de servicios y las barreras de comunicación en las dificultades de apertura de tiendas. Los datos de apertura de tiendas muestran que las dificultades relacionadas con los servicios tienen una proporción significativa, y los problemas frecuentes en los electrodomésticos de cocina (como la fácil rotura de equipos) pueden deberse a la interrupción de la cadena de servicios. Integrar los servicios puede reducir el riesgo general de operación.",
+        "G": "Fortalecer el sistema de monitoreo de seguridad alimentaria para garantizar el cumplimiento normativo y mejorar la confianza de los clientes y la estabilidad de la operación."
+      },
+      "charts_involved": [
+        "chart_94_3",
+        "chart_94_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Según el contenido de los gráficos proporcionados, combinando la tendencia de recuperación del mercado de catering y los puntos problemáticos en el uso de electrodomésticos de cocina, ¿cómo se debe asignar los recursos para aumentar la competitividad de la industria? Por favor, seleccione la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "En la etapa de valle del mercado (2019), invertir en equipos de cocina inteligentes para resolver el problema de función única (con una proporción del 48.1%), ya que se necesita una mejora de la eficiencia cuando el tamaño del mercado es bajo.",
+        "B": "Desarrollar menús innovadores para aumentar la diversidad de platos, atrayendo a más clientes y mejorando la competitividad en el mercado.",
+        "C": "Cuando el mercado entra en una etapa de nuevo impulso, aumentar la inversión en equipos de cocina inteligentes para resolver los problemas con altas proporciones, como la función única y la dependencia de mano de obra. La etapa de recuperación del tamaño del mercado muestra un gran potencial de crecimiento, y el problema de la necesidad de inteligencia en los equipos es destacado; invertir en equipos avanzados puede mejorar la eficiencia de salida de platos y la velocidad de recuperación de la inversión, aprovechando las oportunidades de crecimiento del mercado.",
+        "D": "En respuesta al problema de corta vida útil de los equipos (con una proporción del 27.8%), priorizar la compra de equipos duraderos de alto costo durante la etapa de recuperación, aunque la proporción del problema de alto costo es del 25.6%.",
+        "E": "En la etapa de fluctuación del tamaño del mercado (por ejemplo, la recuperación después del valle), priorizar el mantenimiento de los equipos existentes y controlar los costos de compra de nuevos equipos, evitando gastos adicionales causados por una alta tasa de daño. Los datos del tamaño del mercado muestran que el crecimiento durante la etapa de recuperación es inestable, y los problemas de fácil rotura y alto costo en los equipos son destacados; desviar los recursos hacia el mantenimiento en lugar de la expansión puede garantizar la estabilidad del flujo de efectivo y apoyar la recuperación a largo plazo.",
+        "F": "Implementar un sistema de pedidos digitales para mejorar la experiencia de los clientes y, de manera indirecta, apoyar la recuperación de la industria.",
+        "G": "Optimizar el diseño del espacio de cocina y el control de ruido, atendiendo a los problemas de ocupación de espacio y ruido en los electrodomésticos de cocina, y realizar una planificación preventiva al principio de la apertura de tiendas. Los problemas de espacio y ruido en los electrodomésticos de cocina tienen proporciones significativas y pueden estar relacionados con la lentitud del proceso en las dificultades de apertura de tiendas; asignar recursos en la etapa de diseño puede reducir los costos de ajuste posteriores y mejorar la tasa de éxito de apertura de tiendas."
+      },
+      "charts_involved": [
+        "chart_94_1",
+        "chart_94_3",
+        "chart_94_4"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    }
+  ]
+}

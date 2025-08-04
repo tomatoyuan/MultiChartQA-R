@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_53_1",
+    "chart_53_2",
+    "chart_53_3",
+    "chart_53_4",
+    "chart_53_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Are both the 'Market Share of Sub - markets in Health Food/Dietary Nutritional Supplements (First - level Category)' and the 'Protein milk powder: Age groups' arranged in ascending order of proportion from top to bottom? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are arranged in ascending order from top to bottom.",
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the color - matching styles of the 'Proportion of Whey Protein in the Total Sales Volume of Protein Powders' and the 'Protein powder overall: Educational background' match? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Chart_53_2 uses red - orange color - matching, while chart_53_5 uses blue - green color - matching.",
+      "charts_involved": [
+        "chart_53_2",
+        "chart_53_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Assuming the conditions are independent, for the 'Protein milk powder: Age groups' and the 'Protein powder overall: Educational background', is the group with the largest proportion the group with an age of '18 - 24' and an educational background of 'High school or below'?",
+      "answer": "Yes",
+      "explanation": "In chart_53_4, the highest proportion is for the age group '18 - 24', and in chart_53_5, the highest proportion is for the educational background 'High school or below'.",
+      "charts_involved": [
+        "chart_53_4",
+        "chart_53_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "If the total market size of the first - level category of health food/dietary nutritional supplements is 10 billion yuan, what is the market size of whey protein in this market in billions of yuan? Round to 1 decimal place. Answer: xx.xx billion yuan",
+      "answer": "5.2 billion yuan",
+      "explanation": "The market share of \"Protein Powder (Overall)\" in the first - level category market is 7.4%, and the corresponding scale is 10×7.4% = 0.74 billion yuan; the proportion of whey protein in the total sales volume of protein powders is 70.4%. Therefore, the market size of whey protein in the first - level category market is 0.74×70.4%≈0.521 billion yuan, rounded to 5.2 billion yuan",
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among the overall consumer group of protein powder, what is the approximate proportion of people aged 18 - 24 and with an educational background of undergraduate or above? Round to 2 decimal places. Answer: xx.xx%",
+      "answer": "6.31%",
+      "explanation": "The proportion of the 18 - 24 age group in the overall consumer group of protein powder is 23.3%, and the proportion of people with an educational background of undergraduate or above in the overall consumer group of protein powder is 27.1%. Assuming that the two dimensions are independent of each other, the proportion of this group of people is 23.3%×27.1%≈6.31%",
+      "charts_involved": [
+        "chart_53_4",
+        "chart_53_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In June 2022, what is the turnover index of plant and mixed protein? Round to an integer. Answer: xx",
+      "answer": "40",
+      "explanation": "In June 2022, the overall turnover index of protein powder is 260, and the turnover index of whey protein is 220. The turnover index of plant and mixed protein = the overall turnover index of protein powder - the turnover index of whey protein = 260 - 220 = 40",
+      "charts_involved": [
+        "chart_53_2",
+        "chart_53_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the age distribution and educational background distribution data of protein powder consumers, which consumer groups have a significantly higher purchasing tendency for protein powder products than the market average?",
+      "answer": {
+        "A": "Consumers aged 50 and above, because the elderly generally have a higher demand for health supplements, so their purchasing tendency is naturally stronger.",
+        "B": "The combination of consumers aged 18 - 24 and those with a bachelor's degree or above, because both have prominent preference indices, which mutually reinforce the market tendency.",
+        "C": "Consumers aged 30 - 34, because their proportion is 17.3%, the same as that of the 25 - 29 age group, and the TGI value of 93 is close to 100, indicating a purchasing tendency higher than the average level.",
+        "D": "Consumers aged 25 - 29, combined with the strong preference of the junior college - educated group, reflects the attractiveness of the middle - aged young group and the junior college educational background.",
+        "E": "Young consumers aged 18 - 24, combined with the high preference index of the group with a bachelor's degree or above, indicating that young and highly - educated people are the core users.",
+        "F": "Consumers with a high school education or below, because their proportion is as high as 60.2%, indicating that this group is the market main force and their purchasing tendency is significantly leading."
+      },
+      "charts_involved": [
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The growth trend of the turnover of protein powder may be partly attributed to which consumer characteristics? Please explain in combination with the turnover trend and consumer preference data.",
+      "answer": {
+        "A": "The combined preference of the 18 - 24 age group and those with a bachelor's degree or above corresponds to the high - speed growth of the turnover in key months, highlighting the core role of young and highly - educated consumers.",
+        "B": "The high preference index of consumers with a high education level (such as those with a bachelor's degree or above) is consistent with the significant growth of the turnover index, reflecting that the demand of educated people has promoted the market expansion.",
+        "C": "The increase in brand marketing and advertising investment is the main driving force, because it can directly enhance consumers' purchasing willingness and turnover.",
+        "D": "The high preference index of young consumers (such as those aged 18 - 24), combined with the continuous upward trend of the turnover, indicates that young people are the main driving force for growth.",
+        "E": "The high preference index (TGI = 89) of consumers aged 40 - 44 has promoted the turnover growth, especially in January 2022 when the growth rate reached 63.2%.",
+        "F": "The junior college - educated group is the core growth engine, because their TGI value of 156 is relatively high, and the turnover has maintained a stable growth from May to June 2022."
+      },
+      "charts_involved": [
+        "chart_53_3",
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the health food market, what is the relationship between the estimated share of whey protein and the share of probiotic protein powder?",
+      "answer": {
+        "A": "The share of whey protein is slightly higher than that of probiotic protein powder, but the difference is tiny, indicating the dominant influence of whey protein in the protein powder sub - category.",
+        "B": "The shares of the two are almost equal, both around 5.2%, indicating their similar positions in the market.",
+        "C": "The share of whey protein is very close to that of probiotic protein powder, reflecting their similar relative importance in the market.",
+        "D": "Both the shares of whey protein and probiotic protein powder are at a medium level and the values are similar, highlighting their comparable positions in the health food sub - market.",
+        "E": "The share of whey protein is much higher than that of probiotic protein powder, because whey protein accounts for 70.4% in the protein powder category while probiotic protein powder only accounts for 5.2%, showing a significant gap.",
+        "F": "The share of probiotic protein powder is higher, because probiotic products are more popular in the health field and consumers have a stronger preference for them."
+      },
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "As a health food company, the protein powder product line stands out in the overall market, but the development of internal sub - categories is uneven. Based on the market structure and turnover trend, how should the company optimize resource allocation (such as R & D and marketing budgets) to enhance overall competitiveness and growth potential?",
+      "answer": {
+        "A": "It is recommended to evenly distribute resources to all health food sub - categories (including calcium, iron, zinc and vitamins, etc.), because balanced development can reduce market risks and improve overall stability.",
+        "B": "Reduce the investment in whey protein, because the turnover index decreased from 180 in December 2021 to 160 in January 2022, indicating that its demand has entered a downward cycle and resources should be shifted to other stable sub - categories.",
+        "C": "Moderately increase the development and promotion of plant - based protein products. Although their share is relatively small, combined with the high proportion and stable growth of the overall protein powder market, they may attract consumer groups with diversified health needs and avoid over - dependence on a single sub - category.",
+        "D": "Give priority to investing in the 'Enzyme Protein' sub - category, because it ranks fifth in the sub - market share (4.2%) and is higher than the overall share of whey protein, indicating its great growth potential.",
+        "E": "Give priority to increasing the investment in whey protein, because it occupies a dominant share in the protein powder category and the turnover data shows a continuous growth trend, especially with significant increases in key months, indicating that concentrating resources can quickly increase market share and return on investment."
+      },
+      "charts_involved": [
+        "chart_53_1",
+        "chart_53_2",
+        "chart_53_3"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Protein powder consumers show obvious preference differences in age and educational background. Based on the consumer characteristic data, how should the company adjust its marketing strategy (such as advertising channels and product design) to more accurately improve market penetration and loyalty?",
+      "answer": {
+        "A": "Focus on carrying out digital and social marketing activities for young people aged 18 - 24, because this group has the highest proportion among consumers and their preference index far exceeds the average level, indicating that they are the core driving force for growth and resource investment can efficiently improve the conversion rate.",
+        "B": "Focus on developing products for the 30 - 34 age group, because this group has a relatively high proportion of 17.3% and is the same as the 18 - 24 age group, indicating that its market potential is underestimated.",
+        "C": "It is recommended to use unified social media advertising for all age groups and educational background groups, because digital marketing is a modern trend that can cover a wide range of people and improve brand awareness.",
+        "D": "Develop high - end product lines (such as scientifically - backed or customized formulas) for consumers with a bachelor's degree or above, because their preference index is extremely high. Although their proportion is medium, combined with the turnover growth trend, it indicates that they have a high willingness to pay and the potential for word - of - mouth spread, which can enhance brand premium.",
+        "E": "Design educational marketing (such as health knowledge popularization and affordable products) for consumers with a high school education or below, because they are the largest consumer base but their preference index is relatively low. By improving product awareness and accessibility, the potential of the sinking market can be tapped and the overall market stability can be enhanced.",
+        "F": "Reduce the marketing investment in consumers with a high school education or below, because their proportion of 60.2% is too high, which may lead to resource waste. Resources should be concentrated on the junior college - educated group (accounting for 12.7%), whose TGI is 156, indicating higher growth potential."
+      },
+      "charts_involved": [
+        "chart_53_3",
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The protein powder market is affected by seasonal trends and consumer structure. Combining the turnover dynamics and demographic characteristics, how should the company optimize the product portfolio (such as sub - category focus) and promotion timing to capture sales peaks and improve annual performance?",
+      "answer": {
+        "A": "Balance the product lines for high - educated and mass markets to avoid over - high - endization. Although the high - educated group has a strong preference, the group with a high school education or below constitutes the main consumer body. A diversified portfolio can cover a wider range of people and stabilize demand.",
+        "B": "Concentrate resources on promotions and advertising during the peak turnover growth periods (such as from the end of the year to the beginning of the year), because historical trends show that the growth rate is the largest during these periods. Combined with the dominant share of whey protein, sales can be quickly increased and the overall market share can be improved.",
+        "C": "Concentrate on promoting whey protein products in April 2022, because the turnover index reached 220 (for the overall protein powder) and 180 (for whey protein) this month, which is one of the highest points of the year, indicating the strongest demand at this time.",
+        "D": "Tilt the product portfolio towards the preferences of young consumers (such as launching portable or fashionable packaging), because this group has a high proportion and a prominent preference index. Combined with the turnover growth trend, it indicates that their demand is in sync with market expansion and can enhance product attractiveness.",
+        "E": "It is recommended to adopt a fixed product portfolio and promotion plan throughout the year to avoid relying on seasonal fluctuations, so as to ensure sales stability and reduce operating costs.",
+        "F": "Optimize the product portfolio for consumers aged 55 - 59 and above, because this group accounts for 5.3% (aged 50 - 54) and 2.8% (aged 55 - 59), but their TGI is 75, indicating that their health needs are not fully met and there is great potential."
+      },
+      "charts_involved": [
+        "chart_53_2",
+        "chart_53_3",
+        "chart_53_4",
+        "chart_53_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    }
+  ]
+}

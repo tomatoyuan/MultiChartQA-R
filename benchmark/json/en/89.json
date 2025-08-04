@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_89_1",
+    "chart_89_2",
+    "chart_89_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the charts 'Liquor Consumption Scenarios (by Age)' and 'Liquor consumption locations', is the consumption proportion of the 18 - 29 age group in the 'Friend Gathering' scenario higher than their consumption proportion in high - end and mid - range restaurants? Answer yes or no.",
+      "answer": "No",
+      "explanation": "In chart_89_2, the proportion in 'Friend Gathering' is 39.2%; in chart_89_3, the proportion in high - end and mid - range restaurants is 41.7%. The former is lower than the latter.",
+      "charts_involved": [
+        "chart_89_2",
+        "chart_89_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the charts 'Liquor consumption locations' and 'Liquor Consumption Scenarios (by Age)', is the consumption proportion of people aged 30 and above in popular restaurants higher than their consumption proportion in the 'Family Gathering' scenario? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_89_3, the proportion in popular restaurants is 34.7%; in chart_89_2, the proportion in 'Family Gathering' is 28.4%. The former is higher than the latter.",
+      "charts_involved": [
+        "chart_89_3",
+        "chart_89_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the color - matching styles used in the charts 'Trend of Baijiu e - commerce sales from 2021Q2 to 2022Q1' and 'Liquor consumption locations' match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both use blue - green color - matching.",
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Multiply the e - commerce sales of Baijiu in the first quarter of 2022 by the consumption proportion of people aged 18 - 29 in the 'Friend Gathering' scenario. Approximately how many billion yuan is it? Round to three decimal places. Answer: xx.xx billion yuan",
+      "answer": "31.830 billion yuan",
+      "explanation": "81.2 billion yuan × 39.2% = 31.8304 billion yuan. Rounded to three decimal places, it is 31.830 billion yuan.",
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Multiply the average quarterly sales in the past four quarters by the consumption proportion of people aged 18 - 29 in the 'High - end and Mid - range Restaurants' scenario. Approximately how many billion yuan is it? Round to three decimal places. Answer: xx.xx billion yuan",
+      "answer": "31.901 billion yuan",
+      "explanation": "The total sales in the past four quarters is 306 billion yuan ÷ 4 = 76.5 billion yuan; 76.5 × 41.7% = 31.9005 billion yuan. Rounded to three decimal places, it is 31.901 billion yuan.",
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Multiply the difference in sales between the first quarter of 2022 and the second quarter of 2021 by the consumption proportion of people aged 30 and above in the 'Business Entertainment' scenario. Approximately how many billion yuan is it? Round to three decimal places. Answer: xx.xx billion yuan",
+      "answer": "2.653 billion yuan",
+      "explanation": "81.2 billion yuan − 64.3 billion yuan = 16.9 billion yuan; 16.9 × 15.7% = 2.65253 billion yuan. Rounded to three decimal places, it is 2.653 billion yuan.",
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the quarterly trend of Baijiu e - commerce sales and the age - segmented data of consumption scenarios, which consumption scenarios' seasonal growth may be mainly related to the significant peak in sales in 2021Q4?",
+      "answer": {
+        "A": "The 'Friend Gathering' scenario also has a relatively high proportion in consumption. It may be due to the increase in year - end social activities, which drives up the sales volume.",
+        "B": "During the holiday season, there are more online promotion activities, which stimulate the sales growth of all consumption scenarios.",
+        "C": "The proportion of the 'Business Entertainment' scenario among the older population is 15.7%. However, the distribution of enterprise bonuses in Q4 leads to a sharp increase in the demand for this scenario, contributing to the peak.",
+        "D": "In the 'Family Gathering' scenario, the consumption proportion of people aged 30 and above is relatively high, which is consistent with the increased demand for family gatherings during the traditional holiday season in Q4.",
+        "E": "The consumption proportion of the 'Couple's Date' scenario among the younger population (3.9%) is relatively low. However, the romantic atmosphere of the festivals in Q4 promotes its growth and becomes the main reason for the peak.",
+        "F": "The proportion of the 'Business Entertainment' scenario is relatively low, but it may make a stable contribution among certain professional groups, which is related to enterprise activities in Q4."
+      },
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_2"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Analyze the age - segmented data of Baijiu consumption scenarios and consumption locations. How do the key differences in consumption habits between people aged 18 - 29 and those aged 30 and above affect their consumption preferences in different locations?",
+      "answer": {
+        "A": "People aged 18 - 29 are more inclined to 'Friend Gathering' and consuming in bars/pubs, while people aged 30 and above are more inclined to 'Family Gathering' and consuming at home. This results in a more prominent consumption location in social places for the younger population.",
+        "B": "The younger population has a relatively high proportion in the 'Business Entertainment' scenario and may consume more often in high - end and mid - range restaurants. While the older population has a high proportion in the 'Family Gathering' scenario and is more associated with consuming at home or in popular restaurants.",
+        "C": "The proportion of people aged 30 and above consuming at home (19.8%) is similar to that in popular restaurants (34.7%), indicating that they have no obvious preference difference, resulting in a scattered location selection.",
+        "D": "The 'Drinking Alone' and 'Couple's Date' scenarios have a slightly higher proportion among the younger population, which may partially explain their consumption in non - traditional locations (such as bars), while the older population is more concentrated in conventional locations.",
+        "E": "The younger people pay more attention to social experiences, so they prefer all outdoor locations, while the older people are more conservative and choose to consume at home.",
+        "F": "The proportion of people aged 18 - 29 consuming in bars/pubs is the highest (10.8%), indicating that this is their preferred location, far exceeding other options."
+      },
+      "charts_involved": [
+        "chart_89_2",
+        "chart_89_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Compare the trend of Baijiu e - commerce sales in 2021Q4 and 2022Q1. Combining the age - segmented data of consumption scenarios, why did the sales volume decline in 2022Q1?",
+      "answer": {
+        "A": "The proportion of the 'Drinking Alone' scenario among the younger population is 13.2%. The cold weather in Q1 promotes its growth, but the sales volume decreases instead, indicating that this scenario does not contribute enough.",
+        "B": "The proportion of the 'Business Entertainment' scenario in consumption is not high, and its stability is not enough to offset the decline in the 'Gathering' scenarios, exacerbating the sales conflict during the quarter transition.",
+        "C": "The 'Friend Gathering' scenario may also decrease because social activities slow down, which is related to the high consumption proportion of the younger population but the weakening of seasonality.",
+        "D": "After the holiday season, the demand for the 'Family Gathering' scenario decreases. Since the proportion of people aged 30 and above in this scenario is relatively high, it leads to an overall decline in sales volume.",
+        "E": "The proportion of the 'Friend Gathering' scenario is high (39.2% among the younger population). However, although social activities increase in Q1, it fails to prevent the decline in sales volume, indicating that other scenarios have a greater drag.",
+        "F": "During the quarter transition, consumers adjust their budgets, resulting in a decrease in overall demand, which affects all scenarios."
+      },
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, considering the age differences in liquor consumption scenarios and the quarterly sales trends, how should the marketing resource allocation for different age groups be optimized to increase overall sales and consumer engagement?",
+      "answer": {
+        "A": "For the group aged 30 and above, strengthen promotional activities during family gatherings. Since this group has a relatively high consumption share in this scenario, and the peak sales in the fourth quarter may be related to family - oriented consumption, concentrating resources here can maximize sales returns and brand loyalty.",
+        "B": "For the young group aged 18 - 29, increase marketing investment during friend gatherings. Since this group has a high consumption tendency in this scenario, and the sales trend shows that there is continuous growth potential during the peak social consumption period (such as the third quarter), this can effectively capture the needs of young consumers and increase quarterly sales.",
+        "C": "Reduce the marketing budget for low - frequency scenarios (such as couple's dates). Since the consumption share of all age groups in such scenarios is relatively low, reallocating resources to high - potential scenarios (such as friend or family gatherings) can improve overall efficiency and avoid waste.",
+        "D": "Allocate more marketing resources to the couple's date scenario for the young group aged 18 - 29. Since the consumption share of this group in this scenario (3.9%) is higher than that of the group aged 30 and above (2.2%), and young people are more sensitive to emerging scenarios.",
+        "E": "Increase social media advertising for all age groups to enhance brand exposure and consumer awareness, thereby indirectly stimulating sales growth.",
+        "F": "Reduce the investment in family gathering scenarios in the fourth quarter of 2021. Since the sales in this quarter are the highest (91.2), indicating that the demand is saturated, resources should be redirected to quarters with lower sales to balance annual sales.",
+        "G": "Launch unified discount activities during holidays. Since holidays usually stimulate consumption enthusiasm and cover all consumption scenarios and age groups."
+      },
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, considering the preferences for liquor consumption locations and the age distribution of consumption scenarios, how should the marketing strategies of offline channels (such as restaurants and homes) be integrated to enhance the consumer experience and expand market share?",
+      "answer": {
+        "A": "Optimize the promotion content of online e - commerce channels during low - consumption quarters. Combine the stable demand in the scenario of drinking alone and launch small - package or home - use products. Since the consumption location data shows that home consumption accounts for a relatively high proportion, and the sales trend shows that quarterly fluctuations require buffer strategies.",
+        "B": "Strengthen joint marketing activities in high - end and mid - range restaurants, especially for the group aged 18 - 29. Since this group has a high consumption tendency in this location, and considering the significant demand in friend gatherings and business entertainment scenarios, launching scenario - based packages can enhance brand attractiveness and sales conversion.",
+        "C": "Improve the liquor packaging design and brand storytelling to enhance the emotional appeal of the product, thus establishing a differential advantage in various offline channels.",
+        "D": "Launch general promotional activities in all types of restaurants (including high - end, mid - range, and popular ones), such as buy - one - get - one - free, to simply and effectively stimulate immediate consumption.",
+        "E": "Promote products related to family gatherings in popular restaurants, especially for the group aged 30 and above. Since this group has a relatively high consumption share in this location, and the consumption performance in family gatherings is strong, this can effectively use high - traffic channels to improve user stickiness and sales.",
+        "F": "Strengthen marketing cooperation with bars/pubs for the group aged 30 and above. Since the consumption share of this group in this location (11.2%) is higher than that of the young group (10.8%), and the bar scenario is suitable for business entertainment (15.7% for the group aged 30+).",
+        "G": "Increase resources for the home consumption location (home/dormitory) for the group aged 18 - 29. Since the consumption share of this group in this location (18.6%) is similar to that of the group aged 30 and above (19.8%), and family gatherings account for 21.1% among young people."
+      },
+      "charts_involved": [
+        "chart_89_2",
+        "chart_89_3",
+        "chart_89_1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, considering the quarterly sales trends of liquor and the preferences for consumption locations of different age groups, how should the marketing budget and product development resources be dynamically adjusted to achieve balanced and growing annual sales?",
+      "answer": {
+        "A": "During quarters with declining sales, balance resource allocation to avoid bias towards a particular age group. For example, launch general products for the scenario of drinking alone. Since the consumption location data shows that there is demand in both home and bar channels, and the share of all age groups in this scenario is stable, this can maintain off - season sales and ensure fair coverage.",
+        "B": "Launch new products for the scenario of drinking alone in the fourth quarter of 2021 (when sales reached a peak of 91.2). Since the share of all age groups in this scenario is stable (13.2% for 18 - 29 years old and 10.1% for 30+), and demand is more likely to be converted during peak quarters.",
+        "C": "Develop a high - end liquor product line to attract high - income consumers, thereby enhancing the overall brand positioning and average selling price.",
+        "D": "During the quarters with peak sales (such as the fourth quarter), increase product development and promotional resources for family gatherings. Since this scenario has a relatively high consumption share among the group aged 30 and above, and the consumption location shows a stable demand in home channels, this can magnify seasonal sales opportunities and increase overall profits.",
+        "E": "During the quarters with growing sales (such as the second to third quarters), increase investment in online channels targeting the young group, focusing on bars/pubs and social scenarios. Since the young group has a high consumption tendency in such locations, and the sales trend shows continuous upward potential, pre - allocating resources can capture emerging demands.",
+        "F": "Maintain a fixed proportion of resource allocation throughout the year to ensure stable coverage for each quarter and age group, avoiding sales fluctuations and market risks.",
+        "G": "Increase marketing for the group aged 30 and above in the second quarter of 2021 (when sales were the lowest at 64.3). Since this group shows stable performance in consumption locations (such as a 30.6% share in high - end and mid - range restaurants) and scenarios (such as a 28.4% share in family gatherings), this can effectively boost sales during the low - sales period."
+      },
+      "charts_involved": [
+        "chart_89_1",
+        "chart_89_2",
+        "chart_89_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "chart": [
+    "chart_151_1",
+    "chart_151_2",
+    "chart_151_3",
+    "chart_151_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the chart 'Overall Online | Proportion of Health Food Sub - categories and Sales Growth Rate % | MAT2406', is the category with the highest growth rate in the'sales growth rate' sub - chart the same as the category with the highest proportion in the 'category proportion' sub - chart? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are Dietary Nutritional Supplements",
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the chart 'MAT2406 Online FMCG and Growth Rates of Each Category', is the growth trend of the online FMCG growth rate consistent with the change trend of the sales in the chart 'Overall Online | Probiotic Sales (Million Yuan) and Average Price (Yuan)'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The online FMCG shows an upward trend, and the probiotic sales also increase period by period (100 → 110 → 115).",
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the chart 'MAT2406 Online FMCG and Growth Rates of Each Category', is the growth trend of the online retail growth rate consistent with the change trend of the average price in the chart 'Overall Online | Probiotic Sales (Million Yuan) and Average Price (Yuan)'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The online retail shows an upward trend, while the average price first decreases and then increases.",
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "During MAT2406, assuming that the food category is the health food category and the growth rate of traditional tonic products is 10%. What is the growth rate of the dietary nutritional supplements category in MAT2406? Express it as a percentage and round to 2 decimal places.",
+      "answer": "7.46%",
+      "explanation": "Since it is assumed that the food category is the health food category and the growth rate of traditional tonic products is 10%, then 25.1% * 10% + 74.9% * [growth rate of dietary nutritional supplements category] = 8.1%. So the growth rate of the dietary nutritional supplements category in MAT2406 is 7.46%.",
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "During MAT2406, if all users who bought probiotics are those who had adverse reactions, and assuming that the total number of all users who had adverse reactions is 100,000, what is the corresponding sales amount per user who took probiotics? Express it in yuan and round to 3 decimal places.",
+      "answer": "7666.667 yuan",
+      "explanation": "115,000,000 / (100,000 * 15.0%) = 7666.667 yuan.",
+      "charts_involved": [
+        "chart_151_3",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "During MAT2206, if a certain type A probiotics accounts for the same share in probiotic sales as traditional tonics in health food, what is the corresponding sales amount of this type A probiotics? Express it in millions of yuan and round to 2 decimal places.",
+      "answer": "25.10 million yuan",
+      "explanation": "Traditional tonics account for 25.1% in health food; the sales amount of probiotics during MAT2206 is 100 million yuan. The estimated corresponding sales amount is: 100 * 25.1% ≈ 25.10 ≈ 25.10 million yuan.",
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on users' preferences for response measures to adverse reactions and the sales trend of probiotics, what factors may jointly explain the changes in the market performance of probiotic products?",
+      "answer": {
+        "A": "The average price of probiotics has been decreasing from MAT2206 to MAT2406 (from 150 yuan to 155 yuan), but the sales volume has increased. This proves that demand is highly sensitive to price, which is inconsistent with the overall trend of the health food category.",
+        "B": "The growth of probiotic sales is mainly due to panic buying triggered by the global health crisis during the pandemic, which has driven a surge in consumer demand for immune - related products.",
+        "C": "The relatively high proportion of users choosing to take probiotics for conditioning may have promoted the continuous upward trend of probiotic sales, despite fluctuations in the overall average price.",
+        "D": "The proportion of users choosing to 'take over - the - counter medications' is the highest (20.3%), which indicates that consumers rely more on drug treatment than probiotic conditioning. Therefore, the growth of probiotic sales should be attributed to other external factors such as advertising.",
+        "E": "The proportion of users taking over - the - counter medications is relatively high, but the growth of probiotic sales may be related to the enhanced preference of users for health - conditioning methods, rather than relying solely on drug treatment."
+      },
+      "charts_involved": [
+        "chart_151_3",
+        "chart_151_4"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Against the background of the overall growth of online fast - moving consumer goods (FMCG), how does the growth rate of the health food category show unique characteristics compared with other categories, and how does the proportion of its sub - categories affect this trend?",
+      "answer": {
+        "A": "The growth rate of the traditional tonic sub - category is relatively low. However, since its proportion in health food is small, it may not have dragged down the overall growth. The higher growth rates of FMCG sub - categories such as maternity & baby may reflect different consumer demands.",
+        "B": "Since the traditional tonic sub - category has the highest proportion (74.9%), its low growth rate (5.9%) has significantly pulled down the overall performance of health food, resulting in its growth rate being lower than that of categories such as maternity & baby.",
+        "C": "The growth rate of the beauty category (8.1%) is higher than the overall growth rate of health food (10.1%) because beauty products are more affected by promotional activities, while the growth of health food is limited by the drag of the traditional tonic sub - category.",
+        "D": "The high growth of the health food category mainly benefits from the fact that Generation Z consumers have become the main force. Their enhanced health awareness has promoted online purchasing behavior, which is consistent with the growth drivers of all FMCG categories.",
+        "E": "The overall growth rate of health food is higher than the overall level of online retail but lower than the growth rate of online FMCG. Among them, the growth rate of the sub - category with a high proportion (such as dietary nutritional supplements) is significantly higher than that of other FMCG sub - categories (such as beauty)."
+      },
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_2"
+      ],
+      "label": [
+        "A",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "What is the potential relationship between the change trend of probiotic sales and the fluctuation of the product's average price, and how is this relationship reflected in the broader health food category?",
+      "answer": {
+        "A": "The growth of probiotic sales is entirely driven by inflation and overall price increases, which is consistent with the general rule that the health food category is affected by the macro - economy.",
+        "B": "The growth rate of 'dietary nutritional supplements' in health food (11.5%) is consistent with the growth rate of probiotic sales (a 15% increase from MAT2206 to MAT2406), which proves that both are affected by the same price mechanism.",
+        "C": "The average price rebounded after a mid - term decline, but the sales volume still increased. This may be due to the stable market demand for probiotic products, which partly explains the resilience of the overall growth rate of health food.",
+        "D": "After the average price of probiotics dropped significantly to 145 yuan in MAT2306, the sales volume soared immediately, indicating high demand elasticity. The overall growth rate of health food (10.1%) is lower than that of other sub - categories due to this volatility.",
+        "E": "The continuous upward trend of probiotic sales, despite a short - term decline and subsequent recovery in the average price, may indicate low demand elasticity, which is consistent with the performance of high - growth sub - categories in health food (such as dietary nutritional supplements)."
+      },
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_4"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the growth trend of the online FMCG market and consumers' health response behaviors, how should the company optimize the resource allocation of its product portfolio to maximize market share and consumer satisfaction?",
+      "answer": {
+        "A": "Focus on investing in the dietary nutritional supplements sub - category. Given its dominant market share and strong growth, and considering consumers' preference for taking probiotics for conditioning in case of adverse reactions, enhance product attractiveness by integrating probiotic elements.",
+        "B": "Prioritize increasing resource investment in the maternity & baby and food categories, as these categories have outstanding online growth performance. At the same time, considering that consumers tend to improve their diet or seek professional advice to deal with health problems, develop educational content to strengthen product trust.",
+        "C": "Appropriately reduce resources for the traditional tonic category, as its growth is relatively slow. Redirect the released funds to faster - growing categories. At the same time, guide consumers to reduce self - medication behavior and advocate a safer way of health management.",
+        "D": "Reduce the resource allocation for dietary nutritional supplements. Although its sales growth rate is as high as 11.5%, the proportion of consumers 'taking probiotics for conditioning' is only 15.0%, indicating insufficient demand for this category. Shift to the traditional tonic category (with a growth rate of 5.9%) to stabilize the market share.",
+        "E": "Increase the overall brand promotion budget to enhance market influence and attract more consumers.",
+        "F": "Invest in improving supply chain efficiency to reduce costs and indirectly enhance consumer satisfaction.",
+        "G": "Focus on investing resources in the beauty category, as its year - on - year growth rate of 5.8% is higher than the overall 4.9% of online retail. And the proportion of consumers choosing to 'improve diet' to deal with adverse reactions is relatively high at 17.4%. Develop beauty - related diet products to capture the market."
+      },
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_2",
+        "chart_151_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "In response to the market structure of health - care diets and the sales trend of probiotics, how should the company adjust its pricing and product innovation strategies to enhance competitiveness and profits?",
+      "answer": {
+        "A": "Reduce product prices across the board to stimulate sales growth and increase market penetration.",
+        "B": "Implement a significant price - cut strategy for probiotic products. Since the average price of MAT2306 is 145 yuan, lower than 150 yuan of MAT2206, it indicates that the market prefers lower prices. And the 15.0% proportion of consumers 'taking probiotics for conditioning' supports the growth of demand. Seize market share through low prices.",
+        "C": "Implement a value - oriented pricing strategy for the probiotic product line. Considering the upward trend of its average price and the continuous growth of sales, and combined with consumers' tendency to choose probiotics for conditioning in health problems, justify the premium through enhanced product functions.",
+        "D": "Optimize the pricing model of dietary nutritional supplements, as it leads in growth and has a large market share. Monitor the fluctuation of the average price of probiotics to avoid price conflicts and ensure the maximization of overall category profits.",
+        "E": "Increase R & D investment and focus on developing new product lines to maintain an innovation - leading advantage.",
+        "F": "Focus on innovating high - end products in the traditional tonic category. Since it accounts for 25.1% and has a stable growth rate of 5.9%, and considering the 13.5% proportion of consumers seeking advice from family and friends, develop social - type tonic products to increase profits.",
+        "G": "Develop innovative products that combine traditional tonics and probiotics. Utilize the stable market foundation of traditional tonics and respond to consumers' preference for diet improvement to create a differentiated advantage."
+      },
+      "charts_involved": [
+        "chart_151_2",
+        "chart_151_3",
+        "chart_151_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on consumers' health response behaviors and the overall growth of the online FMCG market, how should the company design the allocation of marketing and educational resources to reduce the risk of adverse reactions and enhance brand loyalty?",
+      "answer": {
+        "A": "Increase investment in all digital marketing channels to maximize brand exposure and user reach.",
+        "B": "Increase marketing resources for the beauty category, as its online growth rate of 5.8% is stable. And the proportion of consumers'self - medication' is relatively high at 20.3%. Develop beauty - health products to guide medication habits and enhance brand loyalty.",
+        "C": "Strengthen the product quality management process to reduce the incidence of adverse reactions at the source.",
+        "D": "Increase educational and promotional resources for the behavior of 'going to a regular hospital immediately'. Since the proportion of consumers choosing this method is relatively low but it is safer, and combined with the growth trend of the online FMCG market, reach users efficiently through digital channels to reduce the risk of self - medication.",
+        "E": "Allocate more resources to the promotion of probiotic products, as their sales are growing steadily. And considering consumers' preference for using probiotics for conditioning, emphasize their preventive effects through educational content to enhance users' health management awareness.",
+        "F": "Prioritize educating consumers to 'do nothing' about adverse reactions. Since its proportion is only 2.9%, the lowest, indicating that most users have responded actively. Resources can be focused on promoting this behavior to reduce risks.",
+        "G": "Optimize the marketing information of the beauty and food categories, combined with their stable growth. Guide consumers to shift from 'doing nothing' to active response methods, such as improving diet, to build brand trust."
+      },
+      "charts_involved": [
+        "chart_151_1",
+        "chart_151_3",
+        "chart_151_4"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    }
+  ]
+}

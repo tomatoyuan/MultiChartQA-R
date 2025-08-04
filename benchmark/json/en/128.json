@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_128_1",
+    "chart_128_2",
+    "chart_128_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "From 2016 to 2023, is the change trend of the number of newly added VR games/applications on the Steam platform consistent with that of non-VR games/applications? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The number of non-VR games has been continuously rising overall, increasing from 3,935 to 13,765. However, the number of VR games shows a fluctuating trend, experiencing multiple declines and recoveries, and the growth trend is unstable.",
+      "charts_involved": [
+        "chart_128_1",
+        "chart_128_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the manufacturer with the highest proportion in the global VR headset device shipment market also rank among the top in the number of global VR/AR invention patents? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Meta, which has the highest shipment volume, accounts for 75%, but it does not rank among the top ten in the number of invention patents. Meanwhile, companies like Samsung, Tencent, and Baidu, which rank high in the number of patents, are not the main players in headset shipments.",
+      "charts_involved": [
+        "chart_128_1",
+        "chart_128_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Based on the number of global VR/AR invention patents, the market share of VR headset device shipments, and the number of newly added VR games on the Steam platform, can we conclude that the technology accumulation, hardware popularization, and content supply in the VR industry formed a consistent positive growth trend in 2023? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The total number of patents reflects a relatively high level of technology accumulation. Meta's hardware shipment accounts for as high as 75%, indicating a high concentration in the hardware market. However, the number of newly added VR games on the Steam platform in 2023 (689) decreased compared to 2022 (945), indicating that the content supply did not grow in sync with hardware popularization and technology accumulation.",
+      "charts_involved": [
+        "chart_128_1",
+        "chart_128_2",
+        "chart_128_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2023, for every 1% increase in Meta's market share in the VR headset device shipment market on the Steam platform, how many newly added VR games/applications does it correspond to? Round to 2 decimal places. Answer: xx.xx items",
+      "answer": "9.19 items",
+      "explanation": "The number of newly added VR games/applications in 2023 is 689 ÷ Meta's market share of 75% = 689 ÷ 0.75 = 918.67. Converted to the number corresponding to each 1% share = 918.67 ÷ 100 = 9.1867. Rounding to 2 decimal places gives 9.19 items.",
+      "charts_involved": [
+        "chart_128_3",
+        "chart_128_1"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the number of newly added non-VR games/applications on the Steam platform in 2023 to Tencent's number of global VR/AR invention patents? Answer in decimal form, rounded to 2 decimal places. Answer: xx.xx",
+      "answer": "3.37",
+      "explanation": "The number of newly added non-VR games/applications in 2023 is 13765 ÷ Tencent's number of patents 4085 = 13765 ÷ 4085 = 3.369645. Rounding to 2 decimal places gives 3.37.",
+      "charts_involved": [
+        "chart_128_3",
+        "chart_128_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the proportion of newly added VR games/applications on Steam in 2023 in the total newly added quantity to DPVR's shipment market share? Answer in decimal form, rounded to 2 decimal places. Answer: xx.xx",
+      "answer": "0.79",
+      "explanation": "The proportion of newly added VR games/applications in 2023 = 689 ÷ (13765 + 689) = 689 ÷ 14454 ≈ 4.77%; DPVR's market share is 6%; The ratio = 4.77% ÷ 6% = 0.79447 ≈ 0.79.",
+      "charts_involved": [
+        "chart_128_3",
+        "chart_128_1"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of the global VR headset device shipment market share and the chart of the global VR/AR invention patent counts, the leading companies in the hardware market share do not rank among the top in the patent ranking. Which options best explain the discrepancy between market position and innovation performance?",
+      "answer": {
+        "A": "The number of patents mainly reflects academic research rather than commercial applications, so it has nothing to do with market share.",
+        "B": "DPVR and HTC together account for 11% of the market share and have more than 3000 patents, but they do not appear in the patent chart.",
+        "C": "Market leaders maintain their market share through low - price strategies and user subsidies rather than relying on technological innovation.",
+        "D": "The hardware market share is highly concentrated in a single company, but the patent distribution is relatively dispersed and dominated by companies from different regions, indicating that market leaders may rely on business strategies (such as acquisitions or ecosystem integration) rather than independent R & D to maintain their advantages.",
+        "E": "Meta ranks second in the patent ranking, only after Samsung, but the actual patent chart shows that Meta does not make it into the top 10.",
+        "F": "Hardware companies may focus more on user experience and product iteration, while patent leaders focus on basic technology R & D, so market share is not directly corresponding to the number of patents.",
+        "G": "The companies in the patent ranking mainly come from specific regions, while the hardware market leaders come from another region, which reflects the regional division of labor between innovation and production in the global supply chain."
+      },
+      "charts_involved": [
+        "chart_128_1",
+        "chart_128_2"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "From the chart of the global VR headset device shipment market share and the chart of the number of newly added VR games/applications on the Steam platform, what key trends are presented between the high penetration rate of hardware devices and the supply of VR content?",
+      "answer": {
+        "A": "Compared with the stable growth of non - VR game applications, the number of VR game applications is unstable, indicating that despite the high availability of hardware, content development faces unique challenges (such as technical thresholds or profit pressure).",
+        "B": "In 2023, the number of VR game applications reached 13765, a record high, indicating that hardware popularization effectively promotes content supply.",
+        "C": "The development of the content ecosystem is mainly driven by policy support rather than hardware deployment.",
+        "D": "The increase in the penetration rate of VR hardware directly leads to a continuous growth in the supply of VR game content, as developers will prioritize responding to market demand.",
+        "E": "The number of VR game applications has increased steadily year by year from 2016 to 2023, which is consistent with the centralization of the hardware market share.",
+        "F": "Although the VR headset market share is dominated by a few companies, the number of newly added VR game applications has shown a fluctuating or declining trend in recent years, indicating that the development of the content ecosystem may lag behind hardware deployment, affecting the user experience.",
+        "G": "The number of VR game applications has not continued to grow after an early peak, while the hardware market may have been consolidated (assuming the market share data represents the current state), which implies that content creation is limited by the user base or development costs."
+      },
+      "charts_involved": [
+        "chart_128_1",
+        "chart_128_3"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The chart of the global VR/AR invention patent counts shows active innovation, but the chart of the number of newly added VR game applications on the Steam platform shows an unstable trend in content supply. What factors may explain the potential disconnect between technological innovation and actual application?",
+      "answer": {
+        "A": "The patent ranking is dominated by large technology companies, while game application development is mostly carried out by small and medium - sized studios. Therefore, the growth of patents does not necessarily directly translate into an increase in content, indicating a structural obstacle in the transformation of innovation.",
+        "B": "Game developers pay more attention to non - VR content because VR patent technologies are outdated or ineffective.",
+        "C": "VR/AR patents cover a wide range of technological fields (such as hardware and software), but game applications require specific content creation. Patent innovation may not be focused on game development, resulting in inconsistent supply trends.",
+        "D": "Technological innovation can always be quickly transformed into commercial products. Therefore, the disconnect is due to low consumer acceptance rather than R & D problems.",
+        "E": "Samsung has the highest number of patents (4094) and it promoted the peak of the number of VR games in 2022 (945), indicating that patents are directly translated into content growth.",
+        "F": "Although the number of patents has been continuously accumulating, the number of newly added VR games has not significantly increased in recent years, indicating a long cycle from R & D to commercialization or limited market acceptance.",
+        "G": "The number of VR games decreased to 562 in 2021 due to insufficient patent innovation that year, but the patent chart shows that the total number of patents of enterprises is high."
+      },
+      "charts_involved": [
+        "chart_128_2",
+        "chart_128_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the distribution of the VR headset market share and the VR/AR patent innovation trend, how should a medium-sized technology company entering the VR hardware market formulate a resource allocation strategy to effectively challenge the market leader? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "Optimize internal management processes, such as strengthening employee training and performance evaluation, to improve overall operational efficiency.",
+        "B": "Since Meta holds a 75% market share, the company should prioritize imitating its product design and pricing strategies to quickly capture a user base.",
+        "C": "Prioritize investment in core technology R & D to establish a differentiated advantage in patent-intensive areas. Patent data shows that leading enterprises have a large accumulation, indicating that technological innovation is a competitive barrier. At the same time, the market share chart shows that the leader dominates but the shares of other players are small. By focusing on high-potential patent areas (such as display or interaction technology), the company can avoid homogeneous competition and attract niche users.",
+        "D": "Since DPVR and Pico each hold a 6% share and the values are the same, the company should cooperate with these secondary players for acquisitions or mergers to directly expand the market share.",
+        "E": "Significantly increase the advertising budget to enhance brand awareness and attract more consumers through social media and TV advertisements.",
+        "F": "Launch localized products for emerging market regions. The patent chart shows that some enterprises (such as Asian companies) have prominent performance in the number of patents, but their hardware shares are not high in the market share distribution. By developing customized products combined with regional patent advantages, the company can capture the under - penetrated markets and achieve differentiated growth.",
+        "G": "Cooperate with the content ecosystem to improve hardware compatibility and attractiveness. The content platform trend shows that the demand for VR applications fluctuates but persists. Combining with the strong content relevance of the leader in the market share, strengthening content cooperation (such as pre - installing popular applications) can enhance the hardware attractiveness and drive user conversion."
+      },
+      "charts_involved": [
+        "chart_128_1",
+        "chart_128_2"
+      ],
+      "label": [
+        "C",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Analyzing the new addition trend of VR content on the Steam platform and the VR headset market share, how should a game development studio adjust its annual resource allocation to maximize the return on content investment and reduce risks? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "Develop cross - platform compatible content to reduce dependence on a single hardware. The market share distribution shows the existence of multiple secondary players, and many enterprises are actively innovating in the patent chart. Designing content compatible with multiple brands of headsets can disperse risks and take advantage of fragmented market opportunities to improve the long - term adaptability of content.",
+        "B": "Since Meta holds a 75% market share, the studio should only develop Meta - exclusive VR games and abandon compatibility with other platforms to maximize the revenue of a single platform.",
+        "C": "Focus on improving game graphics quality and technical details, ignoring platform compatibility, to create high - end and high - quality games.",
+        "D": "Regularly organize developer community activities, such as online seminars, to collect feedback and improve game design.",
+        "E": "Prioritize content development on platforms with a large user base of headsets to ensure wide coverage and monetization. The market share chart shows that a single enterprise occupies an absolute dominant position with a large user base. Combining with the instability of VR application demand in the content trend, focusing on content development on the dominant platform can reduce market risks and increase content exposure and revenue.",
+        "F": "Since the number of VR games in 2023 (689) is lower than that in 2022 (945), the company should significantly cut resources for VR game development and shift to non - VR content.",
+        "G": "Dynamically adjust the development cycle and concentrate resources during the period of rising content demand. The content platform data shows that the number of new VR applications fluctuates periodically with obvious peaks and troughs. By monitoring the trend and increasing investment during the period of rising demand (such as growth years), the studio can capture the user growth dividend and avoid resource waste during the trough period."
+      },
+      "charts_involved": [
+        "chart_128_1",
+        "chart_128_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the VR/AR patent innovation pattern and the Steam content trend, how should an investment institution allocate funds to support the sustainable development of the VR industry? Please select the best strategic suggestion, emphasizing the balance between long - term growth and risk.",
+      "answer": {
+        "A": "Support the development of content creation tools to solve the problem of unstable content supply. The content trend chart shows that the number of new VR applications fluctuates significantly, which may be due to development difficulties. Many enterprises (such as Tencent and Baidu) have a large number of patents in the patent chart. Developing easy - to - use tools can attract more developers and stabilize the content supply chain.",
+        "B": "Since Tencent and Baidu have a high number of patents (4085 and 3094 respectively), the investment institution should concentrate funds on supporting Chinese VR enterprises and ignore international companies to take advantage of regional patent advantages.",
+        "C": "Promote cross - enterprise cooperation to establish industry standards and improve overall interoperability. The patent number distribution is dispersed but the gap between enterprises is small. In the market share, the leader dominates but secondary players coexist. By integrating the fragmented ecosystem through standardized agreements, the cost of user switching can be reduced and the market scale can be expanded to achieve win - win results.",
+        "D": "Focus on investing in basic technology R & D (such as leading patent areas) to drive breakthroughs in the content ecosystem. Patent data shows that enterprise innovation is concentrated in core areas with dense technological accumulation. Combining with the weak growth of VR applications and the steady rise of non - VR content on the content platform, strengthening underlying technologies (such as graphics processing) can lower the threshold of content development and drive the revival of VR content.",
+        "E": "Strengthen basic research cooperation, such as establishing partnerships with universities, to explore the potential of cutting - edge technologies.",
+        "F": "Invest in market promotion activities, such as sponsoring industry exhibitions, to enhance the public awareness of the VR industry.",
+        "G": "Since the number of non - VR games continues to grow (such as 13765 in 2023), the investment institution should prioritize funding non - VR content development rather than VR technology to avoid the risk of VR demand fluctuations."
+      },
+      "charts_involved": [
+        "chart_128_2",
+        "chart_128_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

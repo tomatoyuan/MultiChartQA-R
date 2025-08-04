@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_108_1",
+    "chart_108_2",
+    "chart_108_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Sorting by proportion from high to low, is the numerical change trend of the top five channels for obtaining financial media information (Weibo/WeChat → Short - video platforms like Douyin and Kuaishou → Information platforms like Toutiao and Baidu Hao → Radio and TV → Official websites of financial media) consistent with the proportion order of each level of the frequency of reading financial news (4 - 5 times a week → 1 - 3 times a week → Read every day → Irregular, fragmented reading)? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "The proportions of both sequences decrease monotonically with the ranking, and the trends are consistent.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the usage proportion of the Weibo/WeChat channel (45.61%) positively correlated with the proportion of Chinese financial news users giving a score of 5 in the 'Real - time Update' dimension (43.53%)? Answer positively correlated, negatively correlated, or not correlated.",
+      "answer": "Positively correlated",
+      "explanation": "Both indicators are at a high level in their respective data sets and have similar values, showing a same - direction change.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the level with the highest proportion of the frequency of reading financial news (4 - 5 times a week, 51.54%) correspond to the dimension with the highest proportion of a score of 5 in the importance scores of financial news 'Real - time Update' (43.53%)? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "High - frequency reading corresponds to a high level of emphasis on 'Real - time Update', both indicating that users have the strongest demand for timely information.",
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What percentage of financial news users in 2025 obtain information through short - video channels like Douyin and Kuaishou and read financial media information 4 - 5 times a week? Answer in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "22.72%",
+      "explanation": "The proportion of users obtaining information through short - video channels (44.08%) × The proportion of users reading 4 - 5 times a week (51.54%) = 0.4408 × 0.5154 = 0.22718832. Rounding to 2 decimal places gives 22.72%.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among the users who read financial news every day in 2025, what percentage gave a score of 5 in the 'Real - time Update' dimension? Answer in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "8.69%",
+      "explanation": "The proportion of users who read financial news every day (19.96%) × The proportion of users giving a score of 5 in the 'Real - time Update' dimension (43.53%) = 0.1996 × 0.4353 = 0.08688588. Rounding to 2 decimal places gives 8.69%.",
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among the users who obtain financial information through the Weibo/WeChat channel in 2025, what percentage gave a score of 5 in the 'Data Support' dimension? Answer in percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "17.35%",
+      "explanation": "The proportion of users obtaining information through the Weibo/WeChat channel (45.61%) × The proportion of users giving a score of 5 in the 'Data Support' dimension (38.05%) = 0.4561 × 0.3805 = 0.17354605. Rounding to 2 decimal places gives 17.35%.",
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the distribution of the main channels through which users obtain financial information and the degree of importance attached to different dimensions of financial news, which channels may more effectively support users' needs for high - importance dimensions?",
+      "answer": {
+        "A": "Traditional media channels such as newspapers/magazines can provide more reliable information because print media has always been regarded as an authoritative source, enhancing user trust.",
+        "B": "Social media channels such as Weibo/WeChat can improve user engagement because interactivity is an inherent advantage of social media platforms, which helps build user loyalty.",
+        "C": "Social media channels such as Weibo/WeChat, because they account for a relatively high proportion in user access, and the real - time update dimension has the highest score in the importance rating, suggesting that this channel may better meet the timeliness needs.",
+        "D": "The official websites of financial media account for a relatively high proportion (31.91%), and the professional and authoritative dimension has the highest score (35.64% of 5 - point scores), indicating that the official website is the most effective channel to meet professional needs.",
+        "E": "The professional financial data provider channel, although the proportion of user access is relatively low, the data support and professional and authoritative dimensions have relatively high scores in the importance rating, indicating that this channel may be more suitable for in - depth professional needs.",
+        "F": "Short - video channels such as Douyin/Kuaishou have a high proportion of user access, but the novel format dimension has a relatively low score in the importance rating, which may mean that although this channel is popular, it does not fully meet the innovation needs.",
+        "G": "Short - video channels such as Douyin/Kuaishou have the highest proportion (44.08%), and the novel format dimension has the highest score in the importance rating (29.82% of 5 - point scores), so this channel can perfectly meet users' needs for innovative forms."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The frequency data of users reading financial information shows a high degree of regularity, but the importance ratings for certain content dimensions are relatively low. Which options can explain this contradiction?",
+      "answer": {
+        "A": "High - frequency reading users (such as 4 - 5 times a week) may value the real - time update and in - depth analysis dimensions more because these two dimensions have relatively high scores in the importance rating, but the interactivity dimension has a low score, suggesting that frequent readers prioritize timeliness over interaction.",
+        "B": "High - frequency reading users may pay more attention to the depth of content because in - depth analysis requires continuous attention to fully understand complex information.",
+        "C": "The novel format dimension has a relatively low score in the importance rating (29.82% of 5 - point scores), but the proportion of users with fragmented reading is relatively high (6.57%), indicating that users do not attach much importance to innovative forms, resulting in a disconnection between reading frequency and dimension needs.",
+        "D": "Although the proportion of users who read every day is not high, the professional and authoritative dimension has a relatively high score, indicating that high - professional needs may drive some users to read daily, rather than frequency dominating all dimensions.",
+        "E": "Users with fragmented reading prefer visual content, so the novel format dimension is crucial to them, which can improve the efficiency of information absorption.",
+        "F": "The proportion of users who read every day is the highest (19.96%), and the real - time update dimension has a high score (43.53% of 5 - point scores), indicating that high - frequency users value timeliness the most and ignore the interactivity dimension (low score).",
+        "G": "The proportion of users with fragmented reading is relatively low, but the novel format dimension has a relatively low score in the importance rating, which may indicate that even non - regular users do not regard innovative forms as core needs."
+      },
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "How do the distribution of mainstream access channels and users' reading frequency jointly affect the importance attached to specific dimensions of financial news?",
+      "answer": {
+        "A": "The proportion of professional financial data provider channels is relatively low (13.27%), but the in - depth analysis dimension has a relatively low score (35.96% of 5 - point scores), indicating that even with a small number of users, this channel cannot meet in - depth needs and is weakly affected by frequency.",
+        "B": "The Weibo/WeChat channel has the highest proportion (45.61%). Combined with the fact that the majority of users read multiple times a week (51.54%), it strengthens the importance attached to the interactivity dimension because the interactivity dimension has a relatively high score in the importance rating (28.07% of 5 - point scores).",
+        "C": "High - frequency reading users are more likely to trust official channels, which may strengthen the importance attached to brand authority because frequent exposure can build familiarity.",
+        "D": "Short - video channels such as Douyin/Kuaishou can expand user coverage, thereby increasing the demand for content diversity because diversity is the key to attracting the public.",
+        "E": "The official websites of financial media and client channels account for a relatively low proportion, and the proportion of high - frequency reading users is high, but the international perspective dimension has a relatively high score, suggesting that even if few users access through official channels, they still attach importance to the global perspective.",
+        "F": "The radio and TV channel accounts for a medium proportion, but the reading frequency data shows that few users read every day, which may weaken the demand for the exclusive report dimension because the score of this dimension fluctuates greatly in the importance rating.",
+        "G": "Information platforms such as Toutiao/Baidu Hao account for a relatively high proportion. Combined with the fact that the majority of users read multiple times a week, it may strengthen the importance attached to the rich content dimension because this dimension has a relatively high score in the importance rating."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the channel preferences and reading habits of financial news users, how should financial media adjust their content distribution strategies to improve user coverage and engagement? Please select the most reasonable suggestions.",
+      "answer": {
+        "A": "Integrate professional data and analysis functions into the official websites and clients of financial media to meet users' demand for in - depth content and make up for the shortage of professional channel coverage.",
+        "B": "Prioritize strengthening the content distribution capabilities of social media and short - video platforms, because these channels have the highest user coverage, and high - frequency reading users rely more on these platforms to obtain timely information.",
+        "C": "Financial media should widely promote their brand images, enhance overall visibility through advertising and public relations activities, and thus indirectly improve user coverage and engagement.",
+        "D": "Financial media should increase the content update frequency and interactivity of information platforms and radio and TV channels to match users' regular reading habits and attract fragmented reading users at the same time.",
+        "E": "Increase investment in the financial blog/personal website channel. Since this channel accounts for 18.64%, it indicates the existence of specific user group needs. Customized in - depth content can attract this part of users.",
+        "F": "Given that the proportion of users with fragmented reading is only 6.57%, media should reduce resource allocation on short - video platforms, as short - videos are usually associated with fragmented consumption, and instead focus on regular update channels such as radio and TV."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "In view of users' emphasis on the characteristics of financial news and their reading behaviors, which content dimensions should the media prioritize to improve to effectively enhance user satisfaction and loyalty? Please select the most effective strategies.",
+      "answer": {
+        "A": "Enhance the in - depth analysis and international perspective of content to attract professional users. At the same time, combine the characteristics of users' access channels to ensure that the content is easily accessible on mainstream platforms.",
+        "B": "Media should ensure that all news content is accurate and reliable, avoid misinformation, and thus build user trust and enhance overall loyalty.",
+        "C": "Media should focus on enhancing the real - time update ability and data support of news, because users give the highest scores to these dimensions, and high - frequency reading habits indicate a strong demand for timely information.",
+        "D": "Since the proportion of users who read 1 - 3 times a week reaches 21.93%, media should strengthen the exclusive report dimension (29.39% of 5 - point scores) to attract the interest of this part of medium - frequency users.",
+        "E": "Since the proportion of 5 - point scores in the strong interaction dimension is the lowest (28.07%), it indicates that users are the least satisfied. Media should increase comment and social functions to enhance the participation of high - frequency users.",
+        "F": "Optimize novel format and interactive elements. Although the scores of these dimensions are relatively low, high - frequency reading users may increase their participation through innovative forms."
+      },
+      "charts_involved": [
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the diversity of users' information acquisition channels and their preferences for content characteristics, how should financial media allocate resources to balance coverage and professionalism and maximize overall influence? Please select the most reasonable suggestions.",
+      "answer": {
+        "A": "Embed professional content elements such as real - time data and in - depth analysis into channels with high user coverage (such as social media and short - videos) to enhance professional influence by leveraging the large user base.",
+        "B": "Since the professional financial data provider channel has the lowest proportion (13.27%), media should gradually reduce investment in this channel and concentrate resources on high - coverage channels such as Weibo/WeChat to prioritize improving coverage.",
+        "C": "Strengthen exclusive reports and authoritative content on the official websites and clients of financial media for high - frequency reading users to make up for the low coverage but high user loyalty of these channels.",
+        "D": "Media should evenly allocate resources to all channels and content dimensions to ensure equal support for each channel and achieve a balance between comprehensive coverage and professionalism.",
+        "E": "Given that the proportion of 5 - point scores in the international perspective dimension is high (35.96%), media should focus on providing international content in the newspapers/magazines channel. Since this channel accounts for 24.67%, it is suitable for in - depth and professional output.",
+        "F": "Integrate fragmented content from traditional channels such as radio and TV and newspapers/magazines, and provide summary - style updates according to users' reading frequencies to maintain the participation of low - and medium - frequency users."
+      },
+      "charts_involved": [
+        "chart_108_1",
+        "chart_108_2",
+        "chart_108_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    }
+  ]
+}

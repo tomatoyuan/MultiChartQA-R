@@ -1,0 +1,207 @@
+{
+  "chart": [
+    "chart_14_1",
+    "chart_14_2",
+    "chart_14_3",
+    "chart_14_4",
+    "chart_14_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the change trend of the search index related to 'Air - conditioning sickness' from May 2015 to November 2015 consistent with the change trend of the heatstroke search index from July 11th to July 21st? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase first and then decrease.",
+      "charts_involved": [
+        "chart_14_3",
+        "chart_14_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of the search index related to 'Air - conditioning sickness' from November 2015 to May 2016 consistent with the change trend of the heatstroke search index from July 11th to July 21st? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former remains stable; the latter increases first and then decreases.",
+      "charts_involved": [
+        "chart_14_3",
+        "chart_14_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the change trend of the search index related to 'Air - conditioning sickness' from May 2016 to September 2016 consistent with the change trend of the air - condition illness search index from July 21st to July 26th? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase continuously.",
+      "charts_involved": [
+        "chart_14_3",
+        "chart_14_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the search index of 'air - conditioning sickness' in July 2015 is equal to the sum of the summer 'combat power' of insect repellent and watermelon. What is the total summer combat power of insect repellent? Express the result as an integer.",
+      "answer": "2000",
+      "explanation": "The ratio of the combat power of insect repellent to watermelon is 10% : 5% = 2 : 1. So the summer combat power of insect repellent is 1/3 * 6000 = 2000",
+      "charts_involved": [
+        "chart_14_1",
+        "chart_14_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the higher the attention of a province to air - conditioners, the higher the search index of 'air - conditioning sickness'. Which province, Guangdong or Zhejiang, has a higher search index for 'air - conditioning sickness' in September 2016? Answer directly with 'Guangdong' or 'Zhejiang'.",
+      "answer": "Guangdong",
+      "explanation": "Based on the assumption, since Guangdong has a higher attention to air - conditioners, Guangdong has a higher search index for 'air - conditioning sickness' in September 2016.",
+      "charts_involved": [
+        "chart_14_2",
+        "chart_14_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the higher the attention of a province to air - conditioners, the higher the search index of 'air - conditioning sickness'. Which province, Hebei or Zhejiang, has a higher search index for 'air - conditioning sickness' in September 2016? Answer directly with 'Hebei' or 'Zhejiang'.",
+      "answer": "Zhejiang",
+      "explanation": "Based on the assumption, since Zhejiang has a higher attention to air - conditioners, Zhejiang has a higher search index for 'air - conditioning sickness' in September 2016.",
+      "charts_involved": [
+        "chart_14_2",
+        "chart_14_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the combat power distribution of summer essentials and the search trend of air-conditioning sickness, how might the high popularity of air conditioners affect the occurrence of summer health problems?",
+      "answer": {
+        "A": "The combat power of the cool mat shows a negative value, and the search for air-conditioning sickness peaks in summer, indicating that the neglect of traditional cooling methods may fail to alleviate the health risks brought by air conditioners.",
+        "B": "The combat power of the cool mat is -7.9%, indicating its popularity. However, the search for air-conditioning sickness is high in hot months, suggesting that the use of cool mats exacerbates health risks.",
+        "C": "Air conditioners have the highest combat power among summer essentials, and the search index for air-conditioning sickness shows significant peaks in hot months (such as July and September), indicating that the widespread use of air conditioners may be associated with an increase in health problems.",
+        "D": "The increased use of air conditioners may reduce the risk of heatstroke because air conditioners can effectively cool down, thus reducing overall health problems.",
+        "E": "The combat power of sunscreen is 48%, indicating its widespread use can prevent skin problems, indirectly reducing the dependence on air conditioners and related health risks.",
+        "F": "The combat power of air conditioners is 73.15%, while that of electric fans is only 8.4%. However, the search for air-conditioning sickness reaches 9000 in July, suggesting that the low popularity of electric fans is the main cause of health problems.",
+        "G": "The combat power of electric fans as alternative cooling products is relatively low, but the search for air-conditioning sickness remains high during the same period, implying that the dominant use of air conditioners may exacerbate the risk of related diseases."
+      },
+      "charts_involved": [
+        "chart_14_1",
+        "chart_14_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "What potential conflicts exist between the high attention of each province to air conditioners and the influence levels of groups prone to air-conditioning sickness?",
+      "answer": {
+        "A": "The attention to air conditioners does not directly match the influence levels (e.g., Beijing has medium attention, but the influence level for the elderly is high), indicating a disconnect between regional usage habits and group susceptibility.",
+        "B": "The attention in Beijing is 60%, the influence level for women is 6, but the influence level for the elderly is 8, suggesting that women are more susceptible to air-conditioning sickness.",
+        "C": "In provinces with high attention (such as Guangdong and Zhejiang), the use of air conditioners may be more common. However, the influence levels of air-conditioning sickness on the elderly and children are the highest, highlighting the contradiction between popularity and the health risks of vulnerable groups.",
+        "D": "In provinces with low attention, such as Hebei, natural ventilation may be relied on, reducing the overall incidence of air-conditioning sickness.",
+        "E": "The attention in Hebei is 30%, and the influence level for pets is 5, indicating that the risk for pets is higher in low-attention areas.",
+        "F": "In high-attention provinces such as Guangdong, the widespread use of air conditioners may lead to an equal increase in health risks for all groups.",
+        "G": "In provinces with low attention (such as Hebei), the use of air conditioners may be less, and the influence level of air-conditioning sickness on pets is relatively low, indirectly reflecting that regional differences may magnify the health problems of specific groups."
+      },
+      "charts_involved": [
+        "chart_14_2",
+        "chart_14_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "From the comparison trend of the search indices for air-conditioning sickness and heatstroke, combined with the combat power of summer essentials, what implicit rules about summer health risk management can be inferred?",
+      "answer": {
+        "A": "The combat power of air conditioners is much higher than that of other cooling products (such as swimsuits or watermelons). The search for air-conditioning sickness and heatstroke both surge in late July, indicating that the popularity of air conditioners may not fully address the complex health threats brought by high temperatures.",
+        "B": "The search for heatstroke reaches 42000 on July 26th, and that for air-conditioning sickness is 21000. However, the combat power of air conditioners is 73.15%, suggesting that air conditioners are ineffective in alleviating health risks.",
+        "C": "The search for heatstroke fluctuates sharply, while the search for air-conditioning sickness increases steadily. With the dominant combat power of air conditioners, it reflects that over - reliance on air conditioners may lead to the accumulation of health problems rather than immediate relief.",
+        "D": "The combat power of electric fans is 8.4%, but the search for heatstroke fluctuates sharply (e.g., from 7000 on July 1st to 42000 on July 26th), indicating that electric fans are the main cause of health risks.",
+        "E": "The search index for heatstroke is higher on extremely hot days, and the search index for air-conditioning sickness also rises significantly but is relatively lower. Meanwhile, air conditioners have the highest combat power, implying that air conditioners may partially relieve heatstroke but introduce new risks.",
+        "F": "When the search for heatstroke is high, the search for air-conditioning sickness is low, indicating that air conditioners can effectively replace traditional cooling methods and reduce complex risks.",
+        "G": "The combat power of swimsuits is 26% and that of watermelons is 5%. Their use can disperse the dependence on air conditioners and optimize health risk management."
+      },
+      "charts_involved": [
+        "chart_14_5",
+        "chart_14_1"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the chart data, how should the allocation of public health promotion resources be optimized to reduce the health risks (such as air-conditioning sickness) caused by summer air-conditioner use? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "In the months when the search index for air-conditioning sickness shows significant peaks (such as July and September), prioritize health education activities for vulnerable groups such as the elderly and children. Since the search trend shows a sharp increase in public attention during these periods, combined with the data of vulnerable groups, risks can be more accurately prevented and resource utilization can be improved.",
+        "B": "In provinces with high attention to air conditioners (such as Guangdong and Zhejiang), strengthen the promotion of the safe use of air conditioners and promote auxiliary cooling products. In these areas, the demand for air conditioners is more common. However, combined with the data of essential products, relying solely on air conditioners may increase health risks. Promoting complementary products can improve overall health benefits.",
+        "C": "Allocate health promotion resources evenly throughout the year to ensure continuous public attention to the risks of air-conditioning sickness. Since health promotion should be normalized, seasonal omissions should be avoided.",
+        "D": "In the months when the search index for air-conditioning sickness is the lowest (such as November or January), concentrate resources on promoting the use of air conditioners. A low search index indicates a lack of public awareness of health risks, and early prevention is needed.",
+        "E": "Coordinate the promotion resources for heatstroke and air-conditioning sickness. During the periods when the search indices of both reach their peaks simultaneously (such as late July), implement joint prevention activities. Since the trend comparison shows that the peak periods of the two coincide, sharing resources can avoid duplicate investment and address overlapping health threats.",
+        "F": "For the group with the lowest influence level of air-conditioning sickness (such as pets), prioritize educational activities in provinces with high attention to air conditioners (such as Guangdong). Although the risk for the pet group is low, it is easily overlooked. Combining with regional high attention can maximize coverage."
+      },
+      "charts_involved": [
+        "chart_14_1",
+        "chart_14_2",
+        "chart_14_3",
+        "chart_14_4",
+        "chart_14_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Regarding the demand trend of summer essentials, how should the product promotion strategy be optimized to balance market coverage and health safety? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "In areas where the combat power percentage of air conditioners is the highest (such as the implied national scope), prioritize the promotion of products with the lowest combat power (such as cool mats with a combat power of -7.9%), because high - combat - power products are saturated, and low - combat - power products need to stimulate demand.",
+        "B": "For women with a relatively low influence level (level 6) among the groups susceptible to air-conditioning sickness, promote high - combat - power products (such as air conditioners) when the search index peaks (such as July). Since the female group is large, combined with the health risk period, sales can be increased.",
+        "C": "In provinces leading in attention to air conditioners, prioritize the promotion of health products配套 with air conditioners (such as sunscreen) and emphasize safety use guidelines. In these areas, the demand for air conditioners is prominent. However, combined with the data of essential products, the dominance of a single product may ignore auxiliary needs. Promoting配套 products can improve user health protection.",
+        "D": "When promoting high - combat - power products for groups vulnerable to air-conditioning sickness (such as women), combine health risk education. Since the group data reflects that specific populations are more vulnerable, and high - combat - power products are highly popular according to the essential product data, the promotion strategy should ensure safety and avoid health hazards.",
+        "E": "In months when the search index for air-conditioning sickness is low (such as from November to March of the following year), deploy marketing activities for mild cooling products (such as electric fans) in advance. Since the search trend shows a periodic decline in the attention to health risks, combined with the data of essential products, promoting low - risk alternatives can cultivate the market and reduce health problems caused by the dependence on air conditioners.",
+        "F": "Promote all summer essentials (such as air conditioners, sunscreen, electric fans, etc.) simultaneously in all provinces to ensure comprehensive market coverage and user choice diversity."
+      },
+      "charts_involved": [
+        "chart_14_1",
+        "chart_14_2",
+        "chart_14_3",
+        "chart_14_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the health search trend and risk group data, how should the allocation of medical resources be optimized to deal with high - incidence summer diseases (such as air-conditioning sickness and heatstroke)? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "Integrate the response resources for heatstroke and air-conditioning sickness and deploy mobile medical units on the dates when the search indices of both soar simultaneously. Since the trend comparison shows that the peak periods highly coincide, sharing resources can improve the response speed and handle complex health events.",
+        "B": "In provinces with high attention to air conditioners but possibly tight medical resources (such as Hebei), strengthen the screening ability of primary medical points for air-conditioning sickness. Since the attention data reflects regional demand differences, combined with the periodic peaks of the search trend, it can specifically alleviate the problem of uneven resource distribution.",
+        "C": "Prioritize dealing with heatstroke rather than air-conditioning sickness in provinces with the highest attention to air conditioners (such as Guangdong), because the peak value of the heatstroke search index is higher (such as 42000 on July 26th), indicating a greater risk.",
+        "D": "In months when the search index for air-conditioning sickness is not at its peak (such as March or May), deploy resources for vulnerable groups (such as children) in provinces with low attention (such as Hebei). Since the resource demand is small during the low - index period, prevention can be achieved at low cost.",
+        "E": "During the periods when the search index for air-conditioning sickness rises rapidly (such as from mid - July to late July), concentrate medical resources on vulnerable groups such as the elderly and children. Since the search trend shows a sharp increase in demand, combined with the group risk data, severe cases can be efficiently prevented and resource waste can be reduced.",
+        "F": "Increase the number of primary medical points throughout the year to improve the response ability to all diseases, especially during the high - incidence summer period."
+      },
+      "charts_involved": [
+        "chart_14_2",
+        "chart_14_3",
+        "chart_14_4",
+        "chart_14_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    }
+  ]
+}

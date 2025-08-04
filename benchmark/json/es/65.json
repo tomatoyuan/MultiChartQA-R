@@ -1,0 +1,205 @@
+{
+  "chart": [
+    "chart_65_1",
+    "chart_65_2",
+    "chart_65_3",
+    "chart_65_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿Están ordenadas en orden descendente de proporción de izquierda a derecha tanto las 'Principales fuentes de ingresos de creadores de contenido que monetizan su contenido en China y el extranjero' como las 'Plataformas preferidas por creadores internacionales para la publicación de contenido'? Conteste sí o no.",
+      "answer": "No",
+      "explanation": "El gráfico chart_65_2 no lo está.",
+      "charts_involved": [
+        "chart_65_2",
+        "chart_65_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Qué plataformas aparecen tanto en 'Plataformas preferidas por creadores chinos para la publicación de contenido' como en 'Plataformas preferidas por creadores internacionales para la publicación de contenido'? Solo devuelva el nombre literal de las plataformas en la tabla, sin descripciones adicionales.",
+      "answer": "Otros",
+      "explanation": "La opción 'Otros' aparece en ambas tablas.",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Tienen las mismas tonalidades de color los gráficos de 'Plataformas preferidas por creadores chinos para la publicación de contenido' y 'Distribución de ingresos de creadores de contenido esenciales en China a partir de la creación de contenido'? Conteste sí o no.",
+      "answer": "No",
+      "explanation": "El gráfico chart_65_1 utiliza tonos azul y púrpura, mientras que el gráfico chart_65_3 utiliza tonos gris y verde.",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es la proporción de Douyin en las plataformas preferidas por los creadores chinos para la publicación de contenido en comparación con la proporción de TikTok en las plataformas preferidas por los creadores internacionales para la publicación de contenido? Redondea a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "1.78 veces",
+      "explanation": "Proporción de Douyin 53.4% ÷ Proporción de TikTok 30.0% = 1.78",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es la proporción de los creadores esenciales en China con ingresos de 0 yuan en comparación con la proporción de los creadores que obtienen ingresos principalmente a través del pago por conocimiento? Redondea a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "2.40 veces",
+      "explanation": "Proporción de sin ingresos 33.3% ÷ Proporción de ingresos por pago por conocimiento 13.9% = 2.40",
+      "charts_involved": [
+        "chart_65_3",
+        "chart_65_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es la proporción total de las dos principales plataformas preferidas por los creadores chinos para la publicación de contenido en comparación con la proporción total de las dos principales plataformas preferidas por los creadores internacionales para la publicación de contenido? Redondea a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "1.95 veces",
+      "explanation": "Las dos principales plataformas en China (Douyin 53.4% + Bilibili 48.6% = 102.0%) ÷ Las dos principales plataformas internacionales (TikTok 30.0% + YouTube 22.0% = 52.0%) = 1.96 → Redondeado a 2 decimales es 1.96",
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Comparando el gráfico de plataformas preferidas por creadores chinos para la publicación de contenido y el gráfico de plataformas preferidas por creadores internacionales para la publicación de contenido, ¿cuáles opciones reflejan correctamente las leyes clave en cuanto a la concentración y diversidad de plataformas entre ambos grupos?",
+      "answer": {
+        "A": "La proporción de la plataforma más preferida por los creadores chinos es mucho más alta que la de la plataforma más preferida por los creadores internacionales, lo que indica que el mercado chino es más dependiente de las plataformas.",
+        "B": "Todas las plataformas preferidas por los creadores chinos son locales, mientras que los creadores internacionales prefieren principalmente plataformas internacionales, lo que demuestra que el aislamiento del mercado regional afecta la elección de plataformas.",
+        "C": "Las proporciones de preferencia de todas las plataformas son altamente similares y no hay diferencias significativas, lo que indica que los creadores no tienen una preferencia concentrada al elegir plataformas.",
+        "D": "Douyin y TikTok tienen la misma proporción porque pertenecen a la misma empresa, lo que muestra que no hay diferencias territoriales en las plataformas internacionales.",
+        "E": "En las plataformas preferidas por los creadores chinos, los canales internacionales tienen la proporción más alta debido a que la tendencia de globalización ha acelerado la distribución de contenido entre plataformas.",
+        "F": "Entre las preferencias de los creadores internacionales, YouTube e Instagram tienen la misma proporción (ambas 22.0%), y en China, Bilibili y WeChat también tienen proporciones similares (48.6% y 48.0%), por lo tanto, la concentración de ambos es exactamente la misma.",
+        "G": "La distribución de preferencias de los creadores internacionales es más equitativa, con varias plataformas teniendo proporciones similares, mientras que entre las preferencias de los creadores chinos, las proporciones de las principales plataformas tienen diferencias menores pero en general están más concentradas."
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combinando el gráfico de la distribución de ingresos de creadores de contenido esenciales en China y el gráfico de las fuentes de ingresos de creadores de contenido que monetizan su contenido, ¿cuáles opciones revelan correctamente las principales características de ingresos de los creadores que logran monetizar su contenido en un contexto de alta proporción de bajos ingresos?",
+      "answer": {
+        "A": "La proporción combinada de la compartición de tráfico y los pedidos privados es del 90.7%, pero la proporción de personas sin ingresos en la distribución de ingresos es solo del 33.3%, por lo tanto, los ingresos de los creadores que monetizan su contenido son generalmente altos.",
+        "B": "El pago por conocimiento tiene la proporción más baja como fuente de ingresos. Considerando que hay pocos altos ingresos en la distribución de ingresos, esto sugiere que el pago por conocimiento puede no ser la forma clave de aumentar los ingresos.",
+        "C": "La promoción de productos de comercio electrónico y el marketing de contenido tienen una cierta proporción como fuentes de ingresos, pero son mucho más bajas que la compartición de tráfico y los pedidos privados, lo que puede explicar en parte la baja proporción de altos ingresos en la distribución de ingresos.",
+        "D": "El marketing de contenido tiene una proporción del 18.9%, más alta que la promoción de productos de comercio electrónico del 16.5%, lo que muestra que el marketing es una forma de ingresos más efectiva que la promoción de productos.",
+        "E": "El pago por conocimiento es la fuente de ingresos principal debido al aumento de la demanda de contenido especializado y educación.",
+        "F": "A pesar de que la proporción de bajos ingresos o sin ingresos es alta en la distribución de ingresos, las fuentes de ingresos de la monetización muestran que la compartición de tráfico y los pedidos privados son las formas absolutamente dominantes, con una proporción mucho más alta que otras fuentes.",
+        "G": "La promoción de productos de comercio electrónico es la fuente de ingresos más alta porque la transmisión en vivo de promoción de productos se ha convertido en la forma principal de monetización."
+      },
+      "charts_involved": [
+        "chart_65_3",
+        "chart_65_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "A partir del gráfico de plataformas preferidas por creadores chinos para la publicación de contenido y el gráfico de la distribución de ingresos, ¿cuáles opciones explican mejor el conflicto potencial entre la alta concentración de preferencias de plataformas y el nivel general bajo de ingresos?",
+      "answer": {
+        "A": "Las proporciones de plataformas más preferidas como WeChat y Bilibili son cercanas, pero la proporción de ingresos medios en la distribución de ingresos es mucho más baja que la de bajos ingresos, lo que sugiere que el mecanismo de monetización de estas plataformas puede no convertir efectivamente las preferencias de los usuarios en altos ingresos.",
+        "B": "WeChat tiene una proporción del 48.0%, y la proporción de ingresos entre 10,000 - 30,000 yuan en la distribución de ingresos es del 3.5%, lo que indica que esta plataforma puede aumentar efectivamente los ingresos de los creadores.",
+        "C": "La alta concentración de preferencias de plataformas naturalmente conduce a altos ingresos de los creadores porque el gran tamaño de usuarios brinda más oportunidades de monetización.",
+        "D": "Douyin tiene una proporción del 53.4%, y la proporción de altos ingresos (más de 30,000 yuan) en la distribución de ingresos es del 3.5%, lo que muestra que la preferencia está positivamente correlacionada con los ingresos.",
+        "E": "La proporción de la plataforma más preferida por los creadores chinos es extremadamente alta, pero en la distribución de ingresos, la mayoría de los creadores tienen bajos ingresos o no tienen ingresos, lo que indica que no hay una correlación positiva directa entre la preferencia de la plataforma y el nivel de ingresos personal.",
+        "F": "La proporción de altos ingresos en la distribución de ingresos es extremadamente baja, mientras que la proporción de la plataforma más preferida es extremadamente alta. Combinado con formas comunes de monetización como la compartición de tráfico, se infiere que la concentración de plataformas puede aumentar la competencia y en realidad inhibir el aumento de ingresos.",
+        "G": "El nivel bajo de ingresos se debe a que los creadores evitan las plataformas principales y eligen plataformas menos populares, lo que resulta en una exposición insuficiente."
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para ayudar a los creadores de contenido chinos a mejorar el nivel general de ingresos y reducir la proporción de grupos de bajos ingresos, ¿qué estrategias de asignación de recursos se deben implementar en primer lugar en función de las preferencias de la plataforma y las características de las fuentes de ingresos? Elija la sugerencia más efectiva.",
+      "answer": {
+        "A": "Promover el modelo integrado de marketing de contenido y promoción de productos de comercio electrónico en las plataformas sociales con alta penetración pero insuficiente utilización de fuentes de ingresos. Desarrollar nuevas oportunidades de monetización a través de la construcción del ecosistema dentro de la plataforma (por ejemplo, la colaboración de marcas y la función de transmisión en vivo) para compensar la brecha de potencial de las fuentes de ingresos actuales.",
+        "B": "Ofrecer capacitación especializada y asignación preferencial de recursos en pago por conocimiento y promoción de productos de comercio electrónico a los creadores de bajos ingresos, ya que la distribución de las fuentes de ingresos muestra que la proporción de estos campos es relativamente baja pero tiene espacio de crecimiento, lo que puede ayudar a los creadores a diversificar sus ingresos y reducir el riesgo de inestabilidad de ingresos.",
+        "C": "Alentar a los creadores a aumentar la frecuencia de publicación de contenido para mejorar la interacción de los usuarios y las oportunidades de ingresos potenciales. (Fácil)",
+        "D": "Desarrollar en primer lugar la fuente de ingresos de marketing de contenido, ya que tiene la proporción más alta (18.9%) en la distribución de las fuentes de ingresos y es adecuada para promocionarse en plataformas de alta preferencia como Douyin para aumentar directamente los ingresos de los creadores. (Difícil)",
+        "E": "Fortalecer los mecanismos de apoyo a la monetización de compartición de tráfico y pedidos privados en las plataformas con la preferencia más alta de los creadores (como plataformas de videos cortos y comunidades), ya que estas plataformas tienen una base de usuarios enorme y los datos de las principales fuentes de ingresos muestran que estos métodos son los más populares, lo que puede ampliar rápidamente la base de ingresos de los creadores.",
+        "F": "Invertir en la actualización de la tecnología de la plataforma, por ejemplo, la optimización del ancho de banda del servidor, para mejorar la experiencia del usuario y los ingresos de los creadores. (Fácil)",
+        "G": "Promover en primer lugar el mecanismo de compartición de tráfico en la plataforma Zhihu, ya que Zhihu tiene la proporción más alta (11.3%) en las preferencias de la plataforma y la compartición de tráfico es la forma con la mayor proporción en las fuentes de ingresos, lo que puede cubrir rápidamente a los grupos de bajos ingresos. (Difícil)"
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3",
+        "chart_65_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en las diferencias de preferencias de plataformas entre creadores chinos y extranjeros y las características de los modelos de ingresos, ¿cómo se debe formular la estrategia de selección de plataformas y asignación de recursos para ayudar a los creadores chinos a entrar con éxito en el mercado internacional? Elija la sugerencia más razonable.",
+      "answer": {
+        "A": "Elegir en primer lugar la plataforma de videos cortos con la preferencia más alta en el extranjero como la primera parada para salir al extranjero, ya que esta plataforma es muy similar a las plataformas de alta preferencia en China, el costo de migración de los creadores es bajo, y los datos de las fuentes de ingresos indican que el mecanismo de compartición de tráfico puede lograr la monetización rápidamente.",
+        "B": "Invertir en primer lugar en la plataforma Twitter, ya que tiene una proporción relativamente alta (4.0%) en las preferencias de los creadores extranjeros y es similar a la plataforma Weibo en China (24.0%), y se puede replicar rápidamente el modelo de ingresos de pedidos privados (44.5%) para lograr la monetización. (Difícil)",
+        "C": "Desplegar simultáneamente en las plataformas de video y redes sociales principales en el extranjero, aprovechar su alta preferencia de usuarios y diversidad de contenido, y combinar en primer lugar las fuentes de ingresos de pedidos privados y marketing de contenido para replicar el modelo exitoso en China y adaptarse al entorno de monetización local.",
+        "D": "Sugerir a los creadores que aprendan en primer lugar las diferencias culturales en el extranjero para adaptarse mejor al mercado, sin especificar plataformas concretas. (Fácil)",
+        "E": "Aumentar los subsidios o el apoyo financiero del gobierno para ayudar a los creadores a reducir el costo de salir al extranjero, sin involucrar la selección de plataformas o fuentes de ingresos. (Fácil)",
+        "F": "Evitar invertir en exceso en plataformas de baja preferencia, a menos que se correspondan con innovaciones específicas en fuentes de ingresos (por ejemplo, promoción de productos de comercio electrónico), para concentrar los recursos en canales de alto potencial y mejorar la eficiencia de salida al extranjero y la tasa de retorno de la inversión.",
+        "G": "Promover el mecanismo de promoción de productos de comercio electrónico en la plataforma Instagram, ya que Instagram tiene una proporción alta (22.0%) en las preferencias en el extranjero y la promoción de productos de comercio electrónico es la fuente de ingresos con el mayor potencial (16.5%), lo que puede ayudar a los creadores chinos a entrar eficientemente en el mercado. (Difícil)"
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_2",
+        "chart_65_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para solucionar el problema de la desigualdad en la distribución de ingresos de los creadores de contenido esenciales en China, ¿cómo se deben ajustar las políticas de apoyo para aumentar la proporción de grupos de ingresos medios y altos en función de las fuentes de ingresos y las características de las plataformas? Elija la sugerencia más viable.",
+      "answer": {
+        "A": "Fortalecer la fuente de ingresos de pago por conocimiento en la plataforma WeChat, ya que WeChat tiene una proporción alta (48.0%) en las preferencias de la plataforma y el pago por conocimiento tiene la proporción más alta (13.9%) en las fuentes de ingresos, lo que puede aumentar directamente la proporción de grupos de ingresos medios y altos. (Difícil)",
+        "B": "Establecer un sistema de apoyo en plataforma para los servicios de pedidos privados (por ejemplo, una plataforma de intermediación y capacitación), aprovechar su alta proporción de ingresos para proporcionar una fuente de ingresos estable, reducir la proporción de creadores sin ingresos y al mismo tiempo ampliar la cobertura en combinación con la alta penetración de las plataformas sociales.",
+        "C": "Optimizar la política tributaria para ofrecer exenciones a los creadores y apoyar indirectamente el crecimiento de ingresos, sin involucrar las fuentes de ingresos o las características de las plataformas. (Fácil)",
+        "D": "Alentar a los creadores a innovar en los campos de pago por conocimiento y promoción de productos de comercio electrónico, excavar el potencial de estas fuentes de ingresos con baja proporción a través de subsidios políticos o conexión de recursos para diversificar la estructura de ingresos y reducir la dependencia de un solo método.",
+        "E": "Promover en primer lugar la promoción de productos de comercio electrónico a los creadores con ingresos inferiores a 1000 yuan (33.3%), ya que tiene la proporción más alta (16.5%) en las fuentes de ingresos y en combinación con plataformas de alta preferencia como Douyin, se puede reducir rápidamente la proporción de bajos ingresos. (Difícil)",
+        "F": "Sugerir a los creadores que participen en capacitaciones industriales para mejorar sus habilidades y aumentar las oportunidades de ingresos, sin especificar políticas o plataformas concretas. (Fácil)",
+        "G": "Optimizar el algoritmo de compartición de tráfico y el mecanismo de incentivos en las plataformas de alta preferencia donde se concentran los creadores, ya que los datos de las fuentes de ingresos indican que la compartición de tráfico es la columna vertebral principal de los ingresos, lo que puede ayudar eficazmente a más creadores a superar el umbral de bajos ingresos y entrar en el rango de ingresos medios."
+      },
+      "charts_involved": [
+        "chart_65_1",
+        "chart_65_3",
+        "chart_65_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    }
+  ]
+}

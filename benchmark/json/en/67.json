@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_67_1",
+    "chart_67_2",
+    "chart_67_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the city with the highest vacancy rate the same in '2021 Grade A office building market scale and vacancy rate in core business districts of major first - and second - tier cities in China' and 'Vacancy rate of high - quality office buildings in first - tier cities in China in 2021'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The city with the highest vacancy rate in chart_67_1 is Wuhan, while in chart_67_3 it is Shenzhen.",
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Are the data in '2021 Grade A office building market scale and vacancy rate in core business districts of major first - and second - tier cities in China' and 'Leasing Demand Share of Main Office Building Tenants in 2021' arranged in ascending order from left to right and top to bottom? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Only the data in chart_67_2 is arranged in ascending order according to the share from top to bottom.",
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the chart color - matching styles of '2021 Grade A office building market scale and vacancy rate in core business districts of major first - and second - tier cities in China' and 'Vacancy rate of high - quality office buildings in first - tier cities in China in 2021' match? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both use blue - green color matching.",
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2021, in the net absorption area of the core business district in Beijing, the leasing demand share of the Technology industry is 33.6%. Then what is the net absorption area of the Technology industry in 10,000 square meters? Keep 2 decimal places. Answer: xx.xx 10,000 square meters",
+      "answer": "11.46 10,000 square meters",
+      "explanation": "The net absorption area of the core business district in Beijing is 34.1 10,000 square meters × the leasing demand share of the Technology industry 33.6% = 11.4576 10,000 square meters. Keeping 2 decimal places, it is 11.46 10,000 square meters.",
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "The vacancy rate data of the core business district in Beijing shows 10.0%, while the vacancy rate of high - quality office buildings in the core business district is 9.8%. What is the difference in percentage points? Keep 1 decimal place. Answer: xx.xx percentage points",
+      "answer": "0.2 percentage points",
+      "explanation": "The vacancy rate of the core business district 10.0% - the vacancy rate of high - quality office buildings in the core business district 9.8% = 0.2 percentage points.",
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2021, in the net absorption area of the core business district in Guangzhou, the leasing demand share of the Manufacturing industry is 8.2%. Then what is the net absorption area of the Manufacturing industry in 10,000 square meters? Keep 2 decimal places. Answer: xx.xx 10,000 square meters",
+      "answer": "3.49 10,000 square meters",
+      "explanation": "The net absorption area of the core business district in Guangzhou is 42.6 10,000 square meters × the leasing demand share of the Manufacturing industry 8.2% = 3.4932 10,000 square meters. Keeping 2 decimal places, it is 3.49 10,000 square meters.",
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the office building market data of first-tier cities in China in 2021, why are there slight differences in the reports of the vacancy rates in core business districts in different charts?",
+      "answer": {
+        "A": "The definitions of the geographical scope of core business districts in different cities are inconsistent. Chart_67_1 covers a wider area, while Chart_67_3 only covers a narrow business area, resulting in differences in the calculation of the vacancy rate.",
+        "B": "The differences are due to different data collection time points. Chart_67_1 uses the data from the first half of the year, while Chart_67_3 uses the data from the second half of the year, leading to numerical deviations.",
+        "C": "The differences in the vacancy rate are mainly due to the interference of data from second-tier cities. Chart_67_1 includes second-tier cities such as Shenyang and Dalian, while Chart_67_3 only focuses on first-tier cities, which raises the average value.",
+        "D": "The data statistical scopes may be different: one chart covers the core business districts of major first- and second-tier cities, while the other only focuses on first-tier cities but distinguishes between core business districts and the whole city scope, which explains the differences.",
+        "E": "One chart reports the vacancy rate of Grade A office buildings in core business districts, while the other reports the vacancy rate of high-quality office buildings in core business districts. Different definitions may lead to inconsistent data.",
+        "F": "The calculation standards for the vacancy rate are inconsistent. For example, one chart may be based on a more stringent screening of office building quality, while the other is more comprehensive, resulting in numerical deviations."
+      },
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The technology industry has the highest demand share as the main tenant of office buildings. How might this affect the net absorption volume of the office building market in specific cities?",
+      "answer": {
+        "A": "Wuhan has a high vacancy rate but a medium net absorption volume. This may be because the demand from the technology industry has not fully offset the low demand share of other industries (such as the manufacturing industry).",
+        "B": "The technology industry has the highest demand share of 33.6%. Therefore, the net absorption volume in all cities has increased significantly, especially in second-tier cities such as Shenyang, which have benefited the most.",
+        "C": "Shenzhen has the highest net absorption volume, which may benefit from the dominant demand of the technology industry, reflecting its status as a technology center.",
+        "D": "The net absorption volumes in Beijing and Shanghai are stable but lower than that in Shenzhen. This may be because the demand shares of the finance and professional services industries are high, which disperses the influence of the technology industry.",
+        "E": "Hangzhou has a net absorption volume of only 64,000 square meters and a vacancy rate of 16%. The technology demand has not effectively reduced the vacancy rate because the demand share of the manufacturing industry is higher.",
+        "F": "Shenzhen has the highest net absorption volume of 641,000 square meters, but the technology demand share is only 33.6%, indicating that the influence of the technology industry is weak and other factors are dominant."
+      },
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_2"
+      ],
+      "label": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the office building market, what is the general trend of the vacancy rate in core business districts compared to the whole city scope?",
+      "answer": {
+        "A": "The vacancy rate in the core business district of Shenzhen is 18.8%, higher than the 16.6% in the whole city, indicating that the core area usually has a higher vacancy rate and the whole city is more balanced.",
+        "B": "Among first-tier cities, the city with the lowest vacancy rate in the core business district (such as Guangzhou) also maintains a relatively low vacancy rate in the whole city, showing the resilience of the overall market.",
+        "C": "The vacancy rate in core business districts is generally lower than that in the whole city, indicating that the core area is more attractive and the demand is more concentrated.",
+        "D": "The vacancy rate in core business districts is always lower because the core area has strong economic vitality and concentrated demand, while the vacancy rate in the whole city is pulled up by the suburbs.",
+        "E": "The vacancy rate in the core business district of Shenzhen is relatively high, but the vacancy rate in the whole city is relatively low, which may reflect that the non-core areas perform well and balance the overall market.",
+        "F": "The vacancy rate in the core business district of Tianjin is 29% (Chart_67_1). It is inferred that the vacancy rate in the whole city is higher, proving that the core area is generally better than the whole city."
+      },
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "As a real estate investment company, based on the office building market data, how should the investment priorities in different cities be adjusted to minimize the vacancy risk and improve the return? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Give priority to investing in all first-tier cities (such as Beijing, Shanghai, Guangzhou, and Shenzhen) because these cities have developed economies and dense populations, which can naturally reduce the vacancy risk and improve the investment return.",
+        "B": "Give priority to investing in first-tier cities with low vacancy rates in core business districts and pay attention to cities with outstanding net absorption volume performance. Because these areas have stable demand and strong absorption capacity, they can effectively reduce the investment risk and increase the rental rate.",
+        "C": "Significantly reduce the rent level in cities with high vacancy rates (such as Shenyang and Dalian) to quickly attract tenants and reduce the vacant area, thereby improving the investment return.",
+        "D": "In cities where the vacancy rate in the core business district is much lower than that in the whole city (such as Beijing with 9.8% in the core vs 17.1% in the whole city), focus on investing in non-core areas because the large difference in vacancy rates means that non-core areas have higher potential and lower costs.",
+        "E": "Based on the fact that the technology industry has the highest leasing demand share (33.6%), give priority to developing office building projects in science and technology parks in all cities to utilize the high-demand industry to promote the rental rate.",
+        "F": "In second-tier cities with high vacancy rates, reduce investment in new development projects and instead attract tenants from high-demand industries (such as technology or finance) to revitalize the existing stock because these industries have the highest leasing demand share and can quickly improve the vacancy situation.",
+        "G": "In cities where there is a significant difference in the vacancy rate between the core business district and the whole city, focus on investing in the core area rather than the whole city scope because the vacancy rate in the core business district is generally lower and more resilient, which can ensure a more stable cash flow."
+      },
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_2",
+        "chart_67_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "An office building property management company needs to improve the leasing efficiency. Combining the tenant demand trend and the market vacancy situation, how should the tenant recruitment strategy be optimized? Please select the most effective suggestion.",
+      "answer": {
+        "A": "For cities with high net absorption volume but still high vacancy rates, provide flexible leasing terms to attract more tenants and monitor industry demand changes to prevent the risk of oversupply.",
+        "B": "Increase online and offline advertising investment to enhance brand awareness and attract more potential tenants, thereby accelerating the leasing process.",
+        "C": "In cities with low vacancy rates (such as Guangzhou with a vacancy rate of 8%), reduce the investment in tenant recruitment resources because the demand is saturated, and shift the focus to other markets.",
+        "D": "Based on the fact that the finance industry has a demand share of 21.9%, give priority to recruiting financial tenants in cities with high vacancy rates (such as Wuhan with a vacancy rate of 35%) because this industry has strong payment ability and can quickly reduce the vacancy rate.",
+        "E": "Focus on targeted tenant recruitment for the technology and finance industries because these industries have the highest shares in leasing demand, which can significantly improve the leasing speed and reduce the vacancy rate in cities with high vacancy rates.",
+        "F": "In cities with high net absorption volume (such as Shenzhen with a net absorption volume of 641,000 square meters), ignore the vacancy rate data (19%) and directly expand the tenant recruitment scale to match the high absorption capacity and avoid future supply shortages.",
+        "G": "In cities where the vacancy rate in the core business district is low but the vacancy rate in the whole city is high, adopt a differentiated leasing strategy (such as maintaining high-end tenants in the core area and introducing cost-sensitive industries in non-core areas) to balance the overall market supply and demand."
+      },
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_2",
+        "chart_67_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The government planning department aims to promote the balanced development of the office building market. Based on the vacancy rate and demand characteristics in the data, how should the industrial development resources be allocated? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "For cities with continuously high net absorption volume, control the new supply to avoid a future increase in the vacancy rate and guide resources towards industries with stable demand growth.",
+        "B": "Give priority to supporting the manufacturing industry (with a share of 8.2%) and the real estate industry (with a share of 6.0%) because these industries are the foundation of the real economy and can drive long-term stable demand for office buildings.",
+        "C": "In cities with high vacancy rates, give priority to introducing the technology and finance industries because these industries have the largest leasing demand share, which can directly stimulate the demand for office buildings and improve the vacancy situation.",
+        "D": "Allocate industrial development resources evenly in all cities to ensure regional balance and fairness and avoid over-concentration or backwardness in some areas.",
+        "E": "In cities with high net absorption volume (such as Shenzhen with a net absorption volume of 641,000 square meters), concentrate resources on new office building supply to meet the high absorption demand and prevent future shortages.",
+        "F": "In cities where the vacancy rate in the core business district is low but the vacancy rate in the whole city is high, strengthen the infrastructure construction in non-core areas to disperse the demand and reduce the difference in the vacancy rate in the whole city.",
+        "G": "Based on the fact that the vacancy rate in core business districts is generally low (such as Shanghai with 9.9% in the core), restrict the allocation of industrial development resources in the core area and instead focus on developing non-core areas to narrow the vacancy rate gap."
+      },
+      "charts_involved": [
+        "chart_67_1",
+        "chart_67_2",
+        "chart_67_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "F"
+      ]
+    }
+  ]
+}

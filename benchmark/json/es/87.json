@@ -1,0 +1,206 @@
+{
+  "chart": [
+    "chart_87_1",
+    "chart_87_2",
+    "chart_87_3",
+    "chart_87_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿En 'Número total de estudiantes miopes de primaria, secundaria y bachillerato en China desde 2010 - 2020' y 'Situación de deportes al aire libre de niños y adolescentes chinos en 2018' se puede observar la tendencia de que cuanto mayor es la edad, menos tiempo se dedica a deportes al aire libre y más es el número de estudiantes miopes? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En chart_87_2, la duración de los deportes al aire libre disminuye con el aumento de la edad; en chart_87_1, en 2018, el número de estudiantes miopes de primaria < el de secundaria < el de bachillerato.",
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿En 'Razones para no obtener gafas inmediatamente o no tenerlas aún' y 'Expectativas de los padres sobre las funciones de los productos de salud visual de niños y adolescentes', el porcentaje de la razón 'Asesoramiento del médico' es mayor que la expectativa de los padres sobre la función 'Rápida comprensión del estado de salud ocular'? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En chart_87_3, 'Asesoramiento del médico' es 41.2%; en chart_87_4, 'Rápida comprensión del estado de salud ocular' es 37.1%.",
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿El estilo de color de 'Situación de deportes al aire libre de niños y adolescentes chinos en 2018' y 'Expectativas de los padres sobre las funciones de los productos de salud visual de niños y adolescentes' es el mismo? Responda sí o no.",
+      "answer": "No",
+      "explanation": "chart_87_2 tiene un color verde y gris, y chart_87_4 tiene un color azul.",
+      "charts_involved": [
+        "chart_87_2",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la razón entre el número de estudiantes miopes de primaria en 2018 y la duración promedio de deportes al aire libre de niños de 10 - 13 años? Unidad: diez miles de personas/minuto, redondeado a 2 decimales. Respuesta: xx.xx diez miles de personas/minuto",
+      "answer": "67.07 diez miles de personas/minuto",
+      "explanation": "El número de estudiantes miopes de primaria en 2018 es 3722.13 diez miles de personas ÷ la duración promedio de deportes al aire libre de niños de 10 - 13 años es 55.5 minutos = 67.065 diez miles de personas/minuto. Redondeado a 2 decimales es 67.04 diez miles de personas/minuto.",
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la razón entre el porcentaje de personas que no obtuvieron gafas inmediatamente por asesoramiento del médico y el porcentaje de expectativas de los padres sobre la función de 'alta precisión'? Redondeado a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "1.01 veces",
+      "explanation": "El porcentaje de personas que no obtuvieron gafas inmediatamente por asesoramiento del médico es 41.2% ÷ el porcentaje de expectativas de los padres sobre la función de 'alta precisión' es 40.9% = 1.0073. Redondeado a 2 decimales es 1.01 veces.",
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el resultado de multiplicar el número de estudiantes miopes de secundaria en 2014 por el porcentaje de expectativas sobre la función de 'rápida comprensión del estado de salud ocular'? Unidad: diez miles de personas·porcentaje, redondeado a 2 decimales. Respuesta: xx.xx",
+      "answer": "1210.45",
+      "explanation": "El número de estudiantes miopes de secundaria en 2014 es 3262.66 diez miles de personas × el porcentaje de expectativas sobre la función de 'rápida comprensión del estado de salud ocular' es 37.1% = 3262.66 × 0.371 = 1210.447.",
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combinando la tendencia de cambio del número total de estudiantes miopes en todo el país y la situación de deportes al aire libre de niños y adolescentes, ¿qué factores pueden explicar la regularidad de que el problema de la miopía se agrave con la edad?",
+      "answer": {
+        "A": "El número de estudiantes miopes de bachillerato aumentó continuamente desde 2010 hasta 2020, lo que indica que el aumento de la edad inevitablemente agrava la miopía.",
+        "B": "Los estudiantes de primaria tienen el menor tiempo de deportes al aire libre (44.9 min), por lo tanto, tienen el mayor número de miopes.",
+        "C": "El aumento del tiempo de uso de dispositivos electrónicos empeora la miopía, especialmente entre los adolescentes mayores.",
+        "D": "Los factores genéticos son la principal causa de que la miopía se agrave con la edad, ya que la miopía tiende a heredarse en la familia.",
+        "E": "En el mismo año (por ejemplo, 2018), el grupo con la menor duración de deportes al aire libre corresponde a un nivel educativo más alto, y el número de miopes en este nivel no se redujo significativamente, lo que respalda la hipótesis de que el tiempo al aire libre está negativamente correlacionado con la miopía.",
+        "F": "El tiempo de deportes al aire libre de los adolescentes mayores se redujo significativamente, mientras que el número de estudiantes miopes de bachillerato, aunque disminuyó en algunos años, se mantuvo en un nivel alto, lo que sugiere que la falta de actividades al aire libre puede acelerar el desarrollo de la miopía.",
+        "G": "Los estudiantes de primaria tienen un tiempo de deportes al aire libre relativamente largo, pero el número de miopes fluctúa mucho (por ejemplo, cayó después del pico en 2014), mientras que los estudiantes de bachillerato tienen el menor tiempo al aire libre y el número de miopes es estable, lo que indica que la reducción del tiempo al aire libre que acompaña al aumento de la edad puede aumentar el riesgo de miopía."
+      },
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Analizando las razones por las que no se obtienen gafas inmediatamente y las expectativas de los padres sobre las funciones de los productos de salud visual, ¿qué forma de intervención en la miopía de niños y adolescentes prefieren los padres?",
+      "answer": {
+        "A": "La proporción de “Quieren probar otros métodos primero” es menor que la de “Personalmente piensan que no es necesario usar gafas”, pero los padres todavía dependen en gran medida de los esquemas de corrección.",
+        "B": "La función que los padres esperan más es “Rápida velocidad de examen”, ya que su proporción del 27.0% es la más alta.",
+        "C": "La proporción de niños que no quieren usar gafas es baja, pero los padres esperan más las funciones de “Alta precisión” y “Análisis integral de los resultados de los exámenes”, lo que muestra que los padres valoran la evaluación confiable en lugar de la corrección pasiva.",
+        "D": "La principal razón por la que no se usan gafas es que los niños no quieren usarlas, con una proporción de más del 40%.",
+        "E": "La sugerencia del médico es la principal razón por la que no se usan gafas, y los padres esperan más la función de “Alerta temprana para problemas de salud ocular”, lo que indica que los padres dependen más de la guía profesional y las medidas preventivas.",
+        "F": "El uso de gafas es la forma de intervención más efectiva y la mayoría de los padres la eligen en primer lugar.",
+        "G": "Una de las principales razones por las que no se usan gafas es “Quieren probar otros métodos primero”, y los padres esperan mucho que el producto ofrezca “Provisión de soluciones posteriores para la salud ocular”, lo que refleja que los padres prefieren la intervención no correctora en lugar de usar gafas directamente."
+      },
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En 2018, los datos del tiempo de deportes al aire libre y el número de estudiantes miopes en diferentes niveles educativos muestran conflictos potenciales. ¿Qué factores pueden explicar esta inconsistencia?",
+      "answer": {
+        "A": "El tiempo de deportes al aire libre en todos los niveles educativos superó el estándar mínimo de 120 min, lo que indica que el tiempo suficiente no es un problema.",
+        "B": "Los estudiantes de secundaria tienen el mayor tiempo de deportes al aire libre (64.3 min), pero también el mayor número de miopes (37.2213 millones de personas).",
+        "C": "El tiempo promedio de deportes al aire libre es bajo, pero el número de estudiantes miopes de primaria es el más alto, mientras que el número de estudiantes miopes de bachillerato no aumentó同步, lo que refleja que los factores de edad o desarrollo juegan un papel más importante en la formación de la miopía.",
+        "D": "Los estudiantes de secundaria tienen un tiempo de deportes al aire libre intermedio, y el número de miopes es cercano al de los estudiantes de bachillerato y menor que el pico de los estudiantes de primaria, lo que sugiere que el efecto del tiempo al aire libre puede ser contrarrestado por otros factores (como la presión académica).",
+        "E": "Los estudiantes de bachillerato tienen el menor tiempo de deportes al aire libre, pero el número de miopes es menor que el de los estudiantes de primaria, lo que puede deberse a que la base de estudiantes miopes de primaria es mayor y las diferencias en los hábitos de estudio causan esta contradicción.",
+        "F": "El número de estudiantes miopes de bachillerato es mayor que el de los estudiantes de primaria (38.1824 millones vs 37.2213 millones) porque tienen menos tiempo al aire libre."
+      },
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en los datos de los gráficos, ¿cómo deberían las escuelas y los departamentos educativos optimizar la asignación de recursos para reducir la tasa de miopía de los estudiantes? Elija la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Aumentar el tiempo de aprendizaje en clase diariamente a 10 horas y reducir el tiempo de actividades al aire libre de los estudiantes para concentrarse en el aprendizaje y reducir el riesgo de miopía.",
+        "B": "Promover activamente el deporte al aire libre entre los estudiantes de primaria. Aunque el número de estudiantes miopes de primaria tiene ciertas fluctuaciones, la base es grande. Mientras que la duración del deporte al aire libre es relativamente alta en los estudiantes de menor edad pero aún es insuficiente. Al diseñar actividades al aire libre atractivas, se puede atraer a los estudiantes de primaria a participar y prevenir la empeoramiento de la miopía aprovechando su mejor base física.",
+        "C": "Aumentar especialmente el tiempo de actividades al aire libre de los estudiantes de los grados superiores. La duración del deporte al aire libre se reduce明显 en los estudiantes de los grados superiores, y los datos del número de estudiantes miopes muestran que la tasa de miopía en los estudiantes de secundaria y bachillerato sigue siendo alta. Al programar priorariamente cursos al aire libre para los estudiantes de los grados superiores, se puede aliviar de manera específica el riesgo de miopía de este grupo y mejorar la eficiencia general de la intervención.",
+        "D": "Dado que la duración del deporte al aire libre de los niños de 6 - 9 años es la más alta (64.3 minutos), cerca del estándar mínimo de 120 minutos, no es necesario promover más actividades al aire libre para esta edad.",
+        "E": "Dado que el número de estudiantes miopes de primaria en 2018 cayó a 37.2213 millones de personas, por debajo de los 44.5878 millones de personas en 2014, se debería reducir drásticamente los recursos de intervención de la miopía de los estudiantes de primaria y centrarse en los estudiantes de secundaria.",
+        "F": "Integrar la detección de salud visual y las funciones esperadas por los padres en el plan de salud de la escuela. La demanda de los padres para conocer rápidamente la salud ocular y las funciones de alerta es destacada. Considerando que la sugerencia del médico es el factor dominante entre las razones para no obtener gafas, las escuelas pueden introducir herramientas de detección portátiles para proporcionar análisis e indicaciones inmediatas y reducir la demora en la intervención.",
+        "G": "Promover el uso de equipos de enseñanza electrónicos de alta luminosidad, como tabletas, para mejorar la iluminación del aula y la protección de la vista."
+      },
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2",
+        "chart_87_3",
+        "chart_87_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "¿Cómo debería una empresa de productos de salud visual diseñar una estrategia de funciones de productos para satisfacer mejor las necesidades del mercado y promover una intervención oportuna? Elija la sugerencia más efectiva basada en el contenido de los gráficos.",
+      "answer": {
+        "A": "Reducir el precio del producto y aumentar la publicidad para mejorar la知名度 de la marca y la cuota de mercado.",
+        "B": "Integrar un sistema de seguimiento de salud y alerta en el producto. Los padres tienen altas expectativas sobre las funciones de monitoreo continuo y alerta, y los datos del número de estudiantes miopes muestran que los problemas de vista de los estudiantes requieren una gestión a largo plazo. Al proporcionar registros de expedientes y alertas de riesgo, el producto puede ayudar a detectar cambios tempranos y optimizar la asignación de recursos a los grupos de alto riesgo.",
+        "C": "Dado que el tiempo de deporte al aire libre es generalmente insuficiente (promedio de 54.9 minutos), el producto debe agregar especialmente la función de registro de la duración del deporte para reemplazar el servicio de detección de la vista.",
+        "D": "Dado que la demanda de los padres por la función de \"múltiples ítems de examen\" es la más baja (22.1%), se debería simplificar el producto y reducir el número de ítems de examen para reducir los costos.",
+        "E": "Desarrollar una función integrada con juegos electrónicos para atraer a los niños a usar el producto activamente.",
+        "F": "Optimizar la comodidad del producto para aumentar su uso. La atención de los padres a la velocidad y la comodidad del examen es mediana pero no debe ignorarse. Considerando el tiempo insuficiente de deporte al aire libre, diseñar un producto rápido y fácil de usar puede adaptarse a la realidad de la tensión del tiempo familiar y aumentar la cobertura de la intervención.",
+        "G": "Desarrollar priorariamente las funciones de alta precisión y análisis integral. La demanda de los padres por estas funciones es la más destacada. Considerando que la mayoría de las personas dependen de la sugerencia profesional entre las razones para no obtener gafas, mejorar la confiabilidad del producto puede apoyar la decisión de los padres y reducir la demora en la intervención causada por la indecisión."
+      },
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4",
+        "chart_87_2"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para mejorar la oportunidad de intervención de la miopía en niños y adolescentes, ¿cómo deberían los establecimientos médicos ajustar su estrategia de servicio? Elija la mejor sugerencia de asignación de recursos en combinación con los datos de los gráficos.",
+      "answer": {
+        "A": "Fortalecer el servicio de educación y comunicación sanitaria dirigido por médicos. La sugerencia del médico es el factor dominante entre las razones para no obtener gafas, y la demanda de los padres por la función de análisis integral es alta. Al capacitar a los médicos para brindar explicaciones y planes más detallados, se puede reducir la indecisión de los padres y optimizar la asignación de recursos de consulta.",
+        "B": "Desarrollar proyectos de intervención no relacionados con las gafas diversificados. Muchas personas no obtienen gafas porque quieren probar otros métodos primero. Considerando las expectativas de los padres sobre las soluciones y las funciones de alerta, los establecimientos médicos pueden lanzar servicios como entrenamiento de la vista o guía de actividades al aire libre y asignar recursos a estos proyectos para proporcionar opciones alternativas.",
+        "C": "Dado que la expectativa de los padres por la función de \"alerta temprana para problemas de salud ocular\" es baja (36.4%), los establecimientos médicos no necesitan fortalecer el desarrollo del sistema de alerta y deben centrarse en las funciones de alta demanda, como la mejora de la precisión.",
+        "D": "Ampliar la publicidad y la promoción en las redes sociales de los establecimientos médicos para mejorar el conocimiento público sobre el problema de la miopía.",
+        "E": "Fortalecer la detección y el seguimiento en los estudiantes de secundaria. El número de estudiantes miopes de secundaria tiene una tendencia lenta de aumento, y la duración del deporte al aire libre en esta edad disminuye显著. Al concentrar los recursos en la detección periódica en las escuelas secundarias, se pueden detectar tempranamente los riesgos y integrar sugerencias de deporte para prevenir la empeoramiento.",
+        "F": "Dado que el número de estudiantes miopes de bachillerato en 2020 es de 33.5123 millones de personas, por debajo de los 35.5452 millones de personas en 2010, se debería reducir los recursos de detección en los estudiantes de bachillerato y asignarlos priorariamente a los estudiantes de secundaria.",
+        "G": "Ofrecer servicios de gafas gratuitas para atraer a más familias a participar en la detección de la vista."
+      },
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4",
+        "chart_87_1",
+        "chart_87_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of U.S. Black adults who say their community is more than half Black and who say they see or hear news coverage about their local community rarely/never?\n question2: What is the proportion of U.S. Black adults who feel somewhat attached to their local community and say local journalists in their area are mostly in touch with their local community?",
+                "rationale": "rationale1: We need to find the proportion of a specific community - demographic group (more than half Black) for the 'rarely/never' news coverage frequency in the chart.\n rationale2: This question requires us to extract the relevant proportion from the chart. By looking at the content about those who feel somewhat attached to the local community and the perception of local journalists, we can get the answer.",
+                "answer": "20; 62%",
+                "involved_content_sources": [
+                    "chart_1-18",
+                    "chart_4-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. Black adults who feel extremely/very attached to their local community and say they see or hear news coverage about their local community extremely/fairly often?\n question2: What is the proportion of Dem/Lean Dem U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair?\n question3: What is the proportion of U.S. Black adults aged 18 - 29 who say they see or hear news coverage about their local community sometimes?",
+                "rationale": "rationale1: The question directly asks for the proportion stated in the given content. We can find the answer by referring to the corresponding data in the chart.\n rationale2: The question is about getting the proportion of a political - leaning group's positive view on local community news coverage from the chart information.\n rationale3: We need to extract the proportion of a specific age - group (18 - 29) for the'sometimes' news coverage frequency from the chart.",
+                "answer": "52%; 47%; 45",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_3-19",
+                    "chart_1-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of Rep/Lean Rep U.S. Black adults who say local journalists in their area are in - touch?\n question2: What is the proportion of 50 - 64 - year - old U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair?\n question3: What is the proportion of U.S. Black adults who feel somewhat attached to their local community and say local journalists in their area are mostly in touch with their local community?\n question4: What is the proportion of all U.S. Black adults who say they see or hear news coverage about their local community extremely/fairly often?",
+                "rationale": "rationale1: We need to find the proportion of Rep/Lean Rep U.S. Black adults who consider local journalists in - touch from the given chart data.\n rationale2: We are looking for the proportion of a particular age - group's positive view on local community news coverage as presented in the chart.\n rationale3: This question requires us to extract the relevant proportion from the chart. By looking at the content about those who feel somewhat attached to the local community and the perception of local journalists, we can get the answer.\n rationale4: The question asks for a specific proportion value directly presented in the chart. We can find this value in the chart's description of all U.S. Black adults' responses regarding local community news coverage frequency.",
+                "answer": "52%; 51%; 62%; 36%",
+                "involved_content_sources": [
+                    "chart_2-12",
+                    "chart_3-10",
+                    "chart_4-5",
+                    "chart_1-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of U.S. Black adults aged 18 - 29, 30 - 49, 50 - 64, and 65+ who say local journalists in their area are out - of - touch?\n question2: What is the difference in the proportion of U.S. Black adults who say local journalists in their area are mostly in touch with their local community between those who feel extremely/very attached and those who feel not too/not at all attached to their local community?",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of each age - group (18 - 29, 30 - 49, 50 - 64, 65+) who say local journalists are out - of - touch from the chart and then calculate their average. The calculation involves adding these four values and then dividing the sum by 4.\n rationale2: To find the difference, we need to subtract the proportion of those who feel not too/not at all attached from the proportion of those who feel extremely/very attached. We get the relevant proportions from the given chart data.",
+                "answer": "37.75%; 17%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_2-7",
+                    "chart_2-9",
+                    "chart_4-4",
+                    "chart_4-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of U.S. Black adults aged 18 - 29, 30 - 49, 50 - 64, and 65+ who say local journalists in their area are out - of - touch?\n question2: What is the difference in the proportion of U.S. Black adults who say local journalists in their area are mostly in touch with their local community between those who feel extremely/very attached and those who feel not too/not at all attached to their local community?\n question3: What is the average proportion of U.S. Black adults in different age - groups who say local community coverage is very/somewhat fair?",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of each age - group (18 - 29, 30 - 49, 50 - 64, 65+) who say local journalists are out - of - touch from the chart and then calculate their average. The calculation involves adding these four values and then dividing the sum by 4.\n rationale2: To find the difference, we need to subtract the proportion of those who feel not too/not at all attached from the proportion of those who feel extremely/very attached. We get the relevant proportions from the given chart data.\n rationale3: To answer this question, we need to extract the proportion of U.S. Black adults in each age - group (18 - 29, 30 - 49, 50 - 64, 65+) who say local community coverage is very/somewhat fair from the chart and then calculate their average. The average is calculated by summing up these proportions and dividing by the number of age - groups. ((35 + 40 + 51 + 55) / 4) = 45.25.",
+                "answer": "37.75%; 17%; 45.25",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_2-7",
+                    "chart_2-9",
+                    "chart_4-4",
+                    "chart_4-6",
+                    "chart_3-4",
+                    "chart_3-7",
+                    "chart_3-10",
+                    "chart_3-13"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of U.S. Black adults aged 18 - 29, 30 - 49, 50 - 64, and 65+ who say local journalists in their area are out - of - touch?\n question2: What is the difference in the proportion of U.S. Black adults who say local journalists in their area are mostly in touch with their local community between those who feel extremely/very attached and those who feel not too/not at all attached to their local community?\n question3: What is the average proportion of U.S. Black adults in different age - groups who say local community coverage is very/somewhat fair?\n question4: What is the average proportion of U.S. Black adults aged 18 - 29, 30 - 49, 50 - 64, and 65+ who say they see or hear news coverage about their local community extremely/fairly often?",
+                "rationale": "rationale1: To answer this question, we need to take the proportion of each age - group (18 - 29, 30 - 49, 50 - 64, 65+) who say local journalists are out - of - touch from the chart and then calculate their average. The calculation involves adding these four values and then dividing the sum by 4.\n rationale2: To find the difference, we need to subtract the proportion of those who feel not too/not at all attached from the proportion of those who feel extremely/very attached. We get the relevant proportions from the given chart data.\n rationale3: To answer this question, we need to extract the proportion of U.S. Black adults in each age - group (18 - 29, 30 - 49, 50 - 64, 65+) who say local community coverage is very/somewhat fair from the chart and then calculate their average. The average is calculated by summing up these proportions and dividing by the number of age - groups. ((35 + 40 + 51 + 55) / 4) = 45.25.\n rationale4: To find the average, we need to sum up the proportions of each age - group who say they see or hear news coverage about their local community extremely/fairly often and then divide by the number of age - groups. This requires extracting the relevant data from the chart and performing a simple arithmetic operation.",
+                "answer": "37.75%; 17%; 45.25; 36",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_2-7",
+                    "chart_2-9",
+                    "chart_4-4",
+                    "chart_4-6",
+                    "chart_3-4",
+                    "chart_3-7",
+                    "chart_3-10",
+                    "chart_3-13",
+                    "chart_1-4",
+                    "chart_1-7",
+                    "chart_1-10",
+                    "chart_1-13"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. Black adults aged 65+ who say they see or hear news coverage about their local community extremely/fairly often and the proportion of 18 - 29 - year - old U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair?",
+                "rationale": "The proportion of U.S. Black adults aged 65+ who say they see or hear news coverage about their local community extremely/fairly often is 46% (from chart_1-13). The proportion of 18 - 29 - year - old U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair is 35% (from chart_3-4). The difference is 46% - 35% = 11%.",
+                "answer": "11%",
+                "involved_content_sources": [
+                    "chart_1-13",
+                    "chart_3-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of 18 - 29 - year - old U.S. Black adults who say they see or hear news coverage about their local community extremely/fairly often, the proportion of 18 - 29 - year - old U.S. Black adults who say local journalists in their area are in - touch, and the proportion of 18 - 29 - year - old U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair, with weights 0.2, 0.3, and 0.5 respectively? (Round the result to two decimal places.)",
+                "rationale": "The proportion of 18 - 29 - year - old U.S. Black adults who say they see or hear news coverage about their local community extremely/fairly often is 23% (chart_1-4). The proportion of 18 - 29 - year - old U.S. Black adults who say local journalists in their area are in - touch is 49% (chart_2-4). The proportion of 18 - 29 - year - old U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair is 35% (chart_3-4). The weighted average is 23%\u00d70.2 + 49%\u00d70.3 + 35%\u00d70.5 = 4.6%+14.7% + 17.5% = 36.80%.",
+                "answer": "36.80%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_2-4",
+                    "chart_3-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. Black adults aged 65+ who say local journalists are in-touch (from Chart 2) and the proportion of U.S. Black adults aged 18-29 who say local journalists are in-touch, the difference between the proportion of U.S. Black adults who feel extremely/very attached to their local community and see or hear news coverage about their local community extremely/fairly often (from Chart 4) and the proportion of all U.S. Black adults who say they see or hear news coverage about their local community extremely/fairly often (from Chart 1), and the difference between the proportion of Dem/Lean Dem U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair (from Chart 3) and the proportion of Rep/Lean Rep U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair? (Round the result to two decimal places)",
+                "rationale": "First difference: The proportion of U.S. Black adults aged 65+ who say local journalists are in-touch is 65% (Chart 2-10), and the proportion of U.S. Black adults aged 18-29 who say local journalists are in-touch is 49% (Chart 2-4), so the difference is 65% - 49% = 16%. Second difference: The proportion of U.S. Black adults who feel extremely/very attached to their local community and see or hear news coverage about their local community extremely/fairly often is 52% (Chart 4-1), and the proportion of all U.S. Black adults who say they see or hear news coverage about their local community extremely/fairly often is 36% (Chart 1-1), so the difference is 52% - 36% = 16%. Third difference: The proportion of Dem/Lean Dem U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair is 47% (Chart 3-19), and the proportion of Rep/Lean Rep U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair is 35% (Chart 3-16), so the difference is 47% - 35% = 12%. The average of these three differences is (16% + 16% + 12%) / 3 = 14.67% (rounded to two decimal places).",
+                "answer": "14.67%",
+                "involved_content_sources": [
+                    "chart_2-10",
+                    "chart_4-1",
+                    "chart_1-1",
+                    "chart_3-19"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of U.S. Black adults aged 18 - 29 who see or hear local news coverage extremely/fairly often and those who see or hear it rarely/never, and the average of the proportions of 18 - 29 - year - old U.S. Black adults who say local community coverage is very/somewhat fair and those who say it is very/somewhat unfair?",
+                "rationale": "Among U.S. Black adults aged 18 - 29, the proportion who see or hear news coverage about their local community extremely/fairly often is 23% (chart_1-4), and the proportion who see or hear it rarely/never is 31% (chart_1-6). The sum of these two proportions is 23% + 31% = 54%. Among 18 - 29 - year - old U.S. Black adults who see or hear news about their local community at least sometimes, the proportion who say local community coverage is very/somewhat fair is 35% (chart_3-4), and the proportion who say it is very/somewhat unfair is 13% (chart_3-6). The average of these two proportions is (35% + 13%) / 2 = 24%. Then the difference between the two is 54% - 24% = 30%.",
+                "answer": "30%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-6",
+                    "chart_3-4",
+                    "chart_3-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of 18 - 29 - year - old U.S. Black adults who see or hear local news extremely/fairly often, the proportion of 18 - 29 - year - old U.S. Black adults who think local journalists are in - touch, and the proportion of 18 - 29 - year - old U.S. Black adults who see or hear local news at least sometimes and think local community coverage is very/somewhat fair, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of 18 - 29 - year - old U.S. Black adults who see or hear local news extremely/fairly often is 23% (chart_1-4); the proportion of 18 - 29 - year - old U.S. Black adults who think local journalists are in - touch is 49% (chart_2-4); the proportion of 18 - 29 - year - old U.S. Black adults who see or hear local news at least sometimes and think local community coverage is very/somewhat fair is 35% (chart_3-4). The weighted average is (23%\u00d70.2 + 49%\u00d70.3 + 35%\u00d70.5) = (0.23\u00d70.2 + 0.49\u00d70.3 + 0.35\u00d70.5) = 0.046 + 0.147 + 0.175 = 0.368 = 36.8%.",
+                "answer": "36.8%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-5",
+                    "chart_2-4",
+                    "chart_2-5",
+                    "chart_3-4",
+                    "chart_3-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of seeing or hearing local news extremely/fairly often between 65+ year - old U.S. Black adults and 18 - 29 year - old U.S. Black adults, the difference in the proportion of thinking local journalists are in - touch between 65+ year - old U.S. Black adults and 18 - 29 year - old U.S. Black adults, the difference in the proportion of saying local community coverage is very/somewhat fair between 65+ year - old U.S. Black adults and 18 - 29 year - old U.S. Black adults, and the difference in the proportion of saying they see or hear news coverage about their local community extremely/fairly often between U.S. Black adults who feel extremely/very attached to their local community and those who feel not too/not at all attached to their local community?",
+                "rationale": "1. First, from Chart 1:       - The proportion of 65+ year - old U.S. Black adults who say they see or hear news coverage about their local community extremely/fairly often is 46% (chart_1 - 13).       - The proportion of 18 - 29 year - old U.S. Black adults who say they see or hear news coverage about their local community extremely/fairly often is 23% (chart_1 - 4).       - The difference is 46% - 23% = 23%.    2. From Chart 2:       - The proportion of 65+ year - old U.S. Black adults who say local journalists in their area are in - touch is 65% (chart_2 - 10).       - The proportion of 18 - 29 year - old U.S. Black adults who say local journalists in their area are in - touch is 49% (chart_2 - 4).       - The difference is 65% - 49% = 16%.    3. From Chart 3:       - The proportion of 65+ year - old U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair is 55% (chart_3 - 13).       - The proportion of 18 - 29 year - old U.S. Black adults who see or hear news about their local community at least sometimes and say local community coverage is very/somewhat fair is 35% (chart_3 - 4).       - The difference is 55% - 35% = 20%.    4. From Chart 4:       - The proportion of U.S. Black adults who feel extremely/very attached to their local community and say they see or hear news coverage about their local community extremely/fairly often is 52% (chart_4 - 1).       - The proportion of U.S. Black adults who feel not too/not at all attached to their local community and say they see or hear news coverage about their local community extremely/fairly often is 26% (chart_4 - 3).       - The difference is 52% - 26% = 26%.    5. Calculate the average:       - The average of these four differences is (23%+16% + 20%+26%) / 4 = 21.25%.",
+                "answer": "21.25%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-13",
+                    "chart_2-4",
+                    "chart_2-10",
+                    "chart_3-4",
+                    "chart_3-13",
+                    "chart_4-1",
+                    "chart_4-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

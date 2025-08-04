@@ -1,0 +1,175 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of tweets expressing a negative sentiment from Republicans among all 2022 office - seeking candidates' tweets? Please answer with a percentage.\n question2: What percentage of out - party mentions express disagreement?",
+                "rationale": "rationale1: The question asks for the proportion of negative - sentiment tweets from Republicans among all 2022 office - seeking candidates' tweets. We can directly find this value from the chart content which is 33%.\n rationale2: To answer this question, we look for the percentage of out - party mentions that express disagreement in the chart.",
+                "answer": "33%; 95.2%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_6-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of candidate tweets for office in 2022 related to climate & environment produced by Democrats?\n question2: What is the average number of tweets mentioning the opposing - party each week from Jan - Mar?\n question3: How many federal, state and local candidates for office are there in the data?",
+                "rationale": "rationale1: The question asks for the proportion of tweets related to climate & environment in 2022 produced by Democrats, and the chart provides this data.\n rationale2: The question directly asks for the average number of tweets mentioning the opposing - party each week from Jan - Mar, and the relevant data can be found in the given chart.\n rationale3: The question is about the number of candidates for office in the data. We can obtain the answer by referring to the relevant information in the chart.",
+                "answer": "69%; 5,000; 7,720",
+                "involved_content_sources": [
+                    "chart_2-5",
+                    "chart_6-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What percentage of tweets by Democrats mention Biden?\n question2: What is the proportion of tweets expressing a negative sentiment from Republicans among tweets about the economy from 2022 office - seeking candidates? Please answer with a percentage.\n question3: What percentage of all tweets by candidates for office in 2022 mentioned Jan. 6th? \n question4: When did both parties have a peak in foreign policy - related tweets?",
+                "rationale": "rationale1: We are tasked with finding the percentage of tweets by Democrats that mention Biden, which is provided in the chart.\n rationale2: The question focuses on the proportion of negative - sentiment tweets from Republicans in economy - related tweets of 2022 office - seeking candidates. The chart provides this value as 53%.\n rationale3: The percentage of tweets about Jan. 6th is directly presented in the chart.\n rationale4: The question asks about the time of the peak in foreign policy - related tweets for both parties, and the chart says it was around the start of Russia invasion of Ukraine.",
+                "answer": "1.6%; 53%; 1%; Around the start of Russia invasion of Ukraine",
+                "involved_content_sources": [
+                    "chart_6-10",
+                    "chart_4-5",
+                    "chart_1-16",
+                    "chart_5-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the total number of tweets by candidates for office in 2022 that mentioned Abortion, Education, and Economy?\n question2: What is the difference in the proportion of tweets related to LGBTQ+ issues & identity and climate & environment produced by Democrats in candidate tweets for office in 2022?",
+                "rationale": "rationale1: To find the total number of tweets for these three topics, we need to add the number of tweets for each topic as given in the chart. This involves simple addition based on the data presented in the chart.\n rationale2: To answer this question, we need to find the proportion of tweets related to LGBTQ+ issues & identity produced by Democrats and the proportion of tweets related to climate & environment produced by Democrats from the chart. Then subtract the latter from the former. The relevant information is provided in chart 2.",
+                "answer": "496; 5",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_2-3",
+                    "chart_2-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the total number of tweets by candidates for office in 2022 that mentioned Abortion, Education, and Economy?\n question2: What is the difference in the proportion of tweets related to LGBTQ+ issues & identity and climate & environment produced by Democrats in candidate tweets for office in 2022?\n question3: During the time when there were peak abortion - related tweets for Democrats and Republicans around the official Dobbs ruling, how many more abortion - related tweets did Democrats have than Republicans? (Assume the maximum values at the peak for each party are considered.)",
+                "rationale": "rationale1: To find the total number of tweets for these three topics, we need to add the number of tweets for each topic as given in the chart. This involves simple addition based on the data presented in the chart.\n rationale2: To answer this question, we need to find the proportion of tweets related to LGBTQ+ issues & identity produced by Democrats and the proportion of tweets related to climate & environment produced by Democrats from the chart. Then subtract the latter from the former. The relevant information is provided in chart 2.\n rationale3: We need to subtract the maximum number of abortion - related tweets of Republicans at the peak around the official Dobbs ruling from the maximum number of abortion - related tweets of Democrats at the peak around the official Dobbs ruling. The maximum number of abortion - related tweets for Democrats at the peak is given as up to around 9,000 tweets in some weeks, and for Republicans, it is up to around 3,000 tweets in some weeks.",
+                "answer": "496; 5; 6000",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_5-3",
+                    "chart_5-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the total number of tweets by candidates for office in 2022 that mentioned Abortion, Education, and Economy?\n question2: What is the difference in the proportion of tweets related to LGBTQ+ issues & identity and climate & environment produced by Democrats in candidate tweets for office in 2022?\n question3: During the time when there were peak abortion - related tweets for Democrats and Republicans around the official Dobbs ruling, how many more abortion - related tweets did Democrats have than Republicans? (Assume the maximum values at the peak for each party are considered.)\n question4: What is the average number of tweets per federal, state and local candidate for office during the date - range of collected tweets? ",
+                "rationale": "rationale1: To find the total number of tweets for these three topics, we need to add the number of tweets for each topic as given in the chart. This involves simple addition based on the data presented in the chart.\n rationale2: To answer this question, we need to find the proportion of tweets related to LGBTQ+ issues & identity produced by Democrats and the proportion of tweets related to climate & environment produced by Democrats from the chart. Then subtract the latter from the former. The relevant information is provided in chart 2.\n rationale3: We need to subtract the maximum number of abortion - related tweets of Republicans at the peak around the official Dobbs ruling from the maximum number of abortion - related tweets of Democrats at the peak around the official Dobbs ruling. The maximum number of abortion - related tweets for Democrats at the peak is given as up to around 9,000 tweets in some weeks, and for Republicans, it is up to around 3,000 tweets in some weeks.\n rationale4: To find the average number of tweets per candidate, we need to divide the total number of tweets by the number of candidates. The total number of tweets is given as 3.4 million (3400000) and the number of candidates is 7720. The calculation is straightforward division based on the data in the chart.  (approximate, calculated as 3400000 / 7720)",
+                "answer": "496; 5; 6000; 440.4145",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_5-3",
+                    "chart_5-4",
+                    "chart_3-1",
+                    "chart_3-2"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "Considering the total number of tweets in the source (3.4 million) and the number of tweets by candidates for office in 2022 that mentioned Race (194K), what percentage of the total tweets does the number of tweets about Race represent in decimal form (rounded to three decimal places)?",
+                "rationale": "First, convert 194K to 194000. Then, calculate the percentage as (194000 / 3400000) * 100 = 5.706%. In decimal form, this is 0.057. We used the total number of tweets from chart3-1 and the number of tweets about Race from chart1-1 to perform this calculation.",
+                "answer": "0.057",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_1-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "Considering the total number of tweets and the proportion of tweets expressing negative sentiment about the economy from Republicans, how many negative - sentiment tweets about the economy from Republicans are there approximately? (Round the result to the nearest whole number.)",
+                "rationale": "The total number of tweets is 3.4 million (chart_3 - 1). The proportion of tweets expressing negative sentiment about the economy from Republicans is 53% (chart_4 - 5). So the number of negative - sentiment tweets about the economy from Republicans is 3400000\u00d753% = 1802000.",
+                "answer": "1802000",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_4-5",
+                    "chart_5-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "If we consider the total number of tweets as 3.4 million (from Chart 3), and we want to find the number of Republican tweets related to immigration (using data from Chart 1 and Chart 2), and then calculate what percentage of the total number of tweets expressing a negative sentiment from Republicans (from Chart 4) this number represents, what is the result (rounded to two decimal places)? First, find the number of Republican tweets related to immigration: The number of tweets about immigration is 44 (Chart 1-15), and the proportion of Republican tweets related to immigration is 63% (Chart 2-14). Then, find the total number of tweets expressing a negative sentiment from Republicans which is 33% of 3.4 million (Chart 4-1).",
+                "rationale": "First, calculate the number of Republican tweets related to immigration: 44 * 0.63 = 27.72. The total number of tweets expressing a negative sentiment from Republicans is 3.4 million * 0.33 = 1122000. Now, calculate the percentage: (27.72 / 1122000) * 100 \u2248 0.0025%. We used the total number of tweets from chart3-1, the number of tweets about immigration from chart1-15, the proportion of Republican tweets related to immigration from chart2-14, and the proportion of tweets expressing a negative sentiment from Republicans from chart4-1 to perform this calculation.",
+                "answer": "0.0025%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_1-15",
+                    "chart_2-14",
+                    "chart_4-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average number of tweets related to abortion from Democrats and Republicans during their respective peak weeks, and the average proportion of tweets expressing a negative sentiment about immigration from Democrats and Republicans?",
+                "rationale": "The peak number of abortion - related tweets for Democrats is around 9,000 (chart_5-3), and for Republicans is around 3,000 (chart_5-4). The average of these two values is (9000 + 3000) / 2 = 6000. The proportion of tweets expressing a negative sentiment about immigration from Democrats is 39% (chart_4-10), and from Republicans is 54% (chart_4-9). The average of these two proportions is (39% + 54%) / 2 = 46.5%. The difference between them is 6000 - 46.5 (assuming we are just doing a simple numerical difference here) = 5953.5.",
+                "answer": "5953.5",
+                "involved_content_sources": [
+                    "chart_4-9",
+                    "chart_4-10",
+                    "chart_5-3",
+                    "chart_5-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the combined number of negative - sentiment tweets from Republicans and Democrats about the economy and immigration, considering the total number of tweets and the respective proportions of negative - sentiment tweets?",
+                "rationale": "The total number of tweets is 3.4 million (chart_3-1). The proportion of negative - sentiment tweets about the economy from Republicans is 53% (chart_4-5), and from Democrats is 32% (chart_4-6). The proportion of negative - sentiment tweets about immigration from Republicans is 54% (chart_4-9), and from Democrats is 39% (chart_4-10). The number of tweets about the economy is 153,000 (chart_1-4), and about immigration is 44,000 (chart_1-15). \\n\\nFor the economy, the number of negative - sentiment tweets from Republicans is 153000\u00d753% = 153000\u00d70.53 = 81090, and from Democrats is 153000\u00d732% = 153000\u00d70.32 = 48960. \\n\\nFor immigration, the number of negative - sentiment tweets from Republicans is 44000\u00d754% = 44000\u00d70.54 = 23760, and from Democrats is 44000\u00d739% = 44000\u00d70.39 = 17160. \\n\\nThe combined number is 81090 + 48960+23760 + 17160 = 170970.",
+                "answer": "170970",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-15",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-5",
+                    "chart_4-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the weighted average of the proportion of negative - sentiment tweets about the economy and immigration from Republicans, considering the number of tweets about the economy and immigration, and then compare it with the average proportion of negative - sentiment tweets from all Republicans' tweets, taking into account the proportion of all tweets produced by Republicans?",
+                "rationale": "First, from Chart 1, the number of tweets about the economy is 153 and about immigration is 44. From Chart 4, the proportion of negative - sentiment tweets about the economy from Republicans is 53% and about immigration is 54%. The weighted average of negative - sentiment tweets about the economy and immigration from Republicans is \\((153\\times53\\% + 44\\times54\\%)\\div(153 + 44)\\approx(153\\times0.53+44\\times0.54)\\div197=(81.09 + 23.76)\\div197 = 104.85\\div197\\approx53.22\\%\\). From Chart 2, the proportion of all tweets produced by Republicans is 33%. From Chart 4, the proportion of all negative - sentiment tweets from Republicans is 33%. The average of these two values is \\((53.22\\%+33\\%)\\div2=(0.5322 + 0.33)\\div2 = 0.4311 = 43.11\\%\\).",
+                "answer": "43.11%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-15",
+                    "chart_2-2",
+                    "chart_2-14",
+                    "chart_4-1",
+                    "chart_4-5",
+                    "chart_4-9",
+                    "chart_4-10"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

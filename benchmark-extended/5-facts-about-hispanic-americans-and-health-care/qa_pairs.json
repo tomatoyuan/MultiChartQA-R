@@ -1,0 +1,172 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of Hispanic adults who say their race is Black and felt they were treated with less respect than other patients?\n question2: When was the survey conducted?",
+                "rationale": "rationale1: This question focuses on the proportion of a particular group (Hispanic adults who say their race is Black) regarding the experience of being treated with less respect than other patients. The data is available in the chart.\n rationale2: The question simply asks for the time period of the survey, which can be directly found in the chart.",
+                "answer": "37%; Nov. 30 - Dec. 12, 2021",
+                "involved_content_sources": [
+                    "chart_5-19",
+                    "chart_3-23"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What percentage of Hispanic adults say 'are more likely to have preexisting health conditions' is a minor reason for generally worse health outcomes than other adults in the U.S.?\n question2: What is the proportion of Hispanic adults with a high school education or less who have seen a health - care provider in the past 12 months?\n question3: What is the proportion of Hispanic adults who say their race is Black and whose pain was not taken seriously?",
+                "rationale": "rationale1: The task is to find the percentage of Hispanic adults who think 'are more likely to have preexisting health conditions' is a minor reason for worse health outcomes from the provided chart.\n rationale2: We need to extract the proportion of the specified group (Hispanic adults with a high school education or less) seeing a healthcare provider in the past 12 months from the chart.\n rationale3: This question requires us to find the proportion of a particular subgroup (Hispanic adults who say their race is Black) about the issue of pain not being taken seriously. The relevant data can be obtained from the chart.",
+                "answer": "33%; 67%; 46%",
+                "involved_content_sources": [
+                    "chart_3-12",
+                    "chart_2-21",
+                    "chart_5-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of foreign - born Hispanic adults living in the U.S. for 11 - 20 years who have a primary care provider?\n question2: What is the proportion of Hispanic adults who say their race is some other race and felt they received lower - quality care than other patients?\n question3: When was the survey conducted?\n question4: What proportion of English - dominant Hispanic adults for whom it makes no difference to see a Spanish - speaking doctor or other health care provider for routine care?",
+                "rationale": "rationale1: The question focuses on a specific subgroup (foreign - born Hispanic adults living in the U.S. for 11 - 20 years) and their proportion of having a primary care provider, which can be found in the chart.\n rationale2: We need to find the proportion of a specific subgroup (Hispanic adults who say their race is some other race) in terms of feeling they received lower - quality care than other patients. The answer can be found in the given chart.\n rationale3: The question simply asks for the time period of the survey, which can be directly found in the chart.\n rationale4: We are required to find the proportion of English - dominant Hispanic adults who are indifferent about seeing a Spanish - speaking healthcare provider for routine care, which can be retrieved from the chart.",
+                "answer": "57%; 27%; Nov. 30 - Dec. 12, 2021; 69%",
+                "involved_content_sources": [
+                    "chart_2-40",
+                    "chart_5-14",
+                    "chart_3-23",
+                    "chart_4-27"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of seeing a health - care provider in the past 12 months between Hispanic adults with health insurance and those without health insurance?\n question2: What is the difference in the proportion of Hispanic adults who had at least one of the six negative experiences between those who say their race is Black and those who say their race is White?",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of Hispanic adults without health insurance who have seen a health - care provider in the past 12 months from the proportion of those with health insurance. We get the relevant proportions from the chart.\n rationale2: To answer this question, we need to find the proportion of Hispanic adults who had at least one of the six negative experiences for those who say their race is Black and for those who say their race is White from the chart, and then calculate the difference between these two proportions.",
+                "answer": "28%; 19%",
+                "involved_content_sources": [
+                    "chart_2-29",
+                    "chart_2-31",
+                    "chart_5-25",
+                    "chart_5-27"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of seeing a health - care provider in the past 12 months between Hispanic adults with health insurance and those without health insurance?\n question2: What is the difference in the proportion of Hispanic adults who had at least one of the six negative experiences between those who say their race is Black and those who say their race is White?\n question3: What is the difference in the proportion of strongly preferring to see a Spanish - speaking doctor for routine care between foreign - born Hispanics living in the U.S. for 0 - 10 years and U.S. - born Hispanic adults?",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of Hispanic adults without health insurance who have seen a health - care provider in the past 12 months from the proportion of those with health insurance. We get the relevant proportions from the chart.\n rationale2: To answer this question, we need to find the proportion of Hispanic adults who had at least one of the six negative experiences for those who say their race is Black and for those who say their race is White from the chart, and then calculate the difference between these two proportions.\n rationale3: To answer this question, we need to find the proportion of strongly preferring to see a Spanish - speaking doctor for routine care among foreign - born Hispanics living in the U.S. for 0 - 10 years and U.S. - born Hispanic adults from the chart, and then calculate the difference between these two proportions.",
+                "answer": "28%; 19%; 58%",
+                "involved_content_sources": [
+                    "chart_2-29",
+                    "chart_2-31",
+                    "chart_5-25",
+                    "chart_5-27",
+                    "chart_4-10",
+                    "chart_4-16"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of seeing a health - care provider in the past 12 months between Hispanic adults with health insurance and those without health insurance?\n question2: What is the difference in the proportion of Hispanic adults who had at least one of the six negative experiences between those who say their race is Black and those who say their race is White?\n question3: What is the difference in the proportion of strongly preferring to see a Spanish - speaking doctor for routine care between foreign - born Hispanics living in the U.S. for 0 - 10 years and U.S. - born Hispanic adults?\n question4: What is the difference between the proportion of Hispanic adults who say 'more likely to work in jobs with risk for health problems' is a major reason for generally worse health outcomes and the proportion who say 'hospitals and medical centers give lower priority to well - being' is a major reason for generally worse health outcomes? Please provide the answer as a percentage.",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of Hispanic adults without health insurance who have seen a health - care provider in the past 12 months from the proportion of those with health insurance. We get the relevant proportions from the chart.\n rationale2: To answer this question, we need to find the proportion of Hispanic adults who had at least one of the six negative experiences for those who say their race is Black and for those who say their race is White from the chart, and then calculate the difference between these two proportions.\n rationale3: To answer this question, we need to find the proportion of strongly preferring to see a Spanish - speaking doctor for routine care among foreign - born Hispanics living in the U.S. for 0 - 10 years and U.S. - born Hispanic adults from the chart, and then calculate the difference between these two proportions.\n rationale4: We need to subtract the proportion of Hispanic adults who think 'hospitals and medical centers give lower priority to well - being' is a major reason from the proportion of those who think 'more likely to work in jobs with risk for health problems' is a major reason. The data for these two proportions are given in the chart, and by performing a simple subtraction operation, we can get the required difference.",
+                "answer": "28%; 19%; 58%; 26%",
+                "involved_content_sources": [
+                    "chart_2-29",
+                    "chart_2-31",
+                    "chart_5-25",
+                    "chart_5-27",
+                    "chart_4-10",
+                    "chart_4-16",
+                    "chart_3-2",
+                    "chart_3-20"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of Hispanic adults who strongly prefer seeing a Spanish - speaking doctor for routine care and the proportion of Hispanic adults who say 'health care providers are less likely to give advanced care' is a major reason for generally worse health outcomes?",
+                "rationale": "The proportion of Hispanic adults who strongly prefer seeing a Spanish - speaking doctor for routine care is 35% (from chart 4 - 1). The proportion of Hispanic adults who say 'health care providers are less likely to give advanced care' is a major reason for generally worse health outcomes is 30% (from chart 3 - 17). The difference is 35% - 30% = 5%.",
+                "answer": "5%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_3-17"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Hispanic adults aged 18 - 29 who have seen a health - care provider in the past 12 months, the proportion of Hispanic adults who say 'more communication problems from language, cultural differences' is a major reason for generally worse health outcomes than other adults in the U.S., and the proportion of foreign - born Hispanics living in the U.S. for 0 - 10 years who strongly prefer seeing a Spanish - speaking doctor or other health care provider for routine care? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Hispanic adults aged 18 - 29 who have seen a health - care provider in the past 12 months is 59%. The proportion of Hispanic adults who say 'more communication problems from language, cultural differences' is a major reason for generally worse health outcomes than other adults in the U.S. is 44%. The proportion of foreign - born Hispanics living in the U.S. for 0 - 10 years who strongly prefer seeing a Spanish - speaking doctor or other health care provider for routine care is 70%. The average is (59% + 44% + 70%) / 3 = 57.67% (rounded to two decimal places).",
+                "answer": "57.67%",
+                "involved_content_sources": [
+                    "chart_2-7",
+                    "chart_3-8",
+                    "chart_4-16"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the average of the proportion of Hispanic adults who have seen a health - care provider in the past 12 months and the proportion who strongly prefer seeing a Spanish - speaking doctor for routine care, and the proportion of Hispanic adults who think health risks in jobs are a major reason for worse health outcomes, then multiplied by the proportion of Black Hispanic adults who had to speak up to get the proper care?",
+                "rationale": "The proportion of Hispanic adults who have seen a health - care provider in the past 12 months is 70% (chart_2-1). The proportion who strongly prefer seeing a Spanish - speaking doctor for routine care is 35% (chart_4-1). The average of these two is (70% + 35%) / 2 = 52.5%. The proportion of Hispanic adults who think health risks in jobs are a major reason for worse health outcomes is 53% (chart_3-1). The difference is 52.5% - 53%=-0.5%. The proportion of Black Hispanic adults who had to speak up to get the proper care is 52% (chart_5-3). The final result is - 0.5%\u00d752%=-0.26%.",
+                "answer": "-0.26%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-1",
+                    "chart_4-1",
+                    "chart_5-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of Hispanic adults who say 'less access to quality medical care where they live' is a major or minor reason for generally worse health outcomes than other adults in the U.S., and the average of the proportions of foreign - born Hispanic adults living in the U.S. for 0 - 10 years and 11 - 20 years who have seen a health - care provider in the past 12 months?",
+                "rationale": "Among Hispanic adults, the proportion who say 'less access to quality medical care where they live' is a major reason for generally worse health outcomes than other adults in the U.S. is 48% (chart_3-5), and the proportion who say it is a minor reason is 27% (chart_3-6). The average of these two proportions is (48% + 27%) / 2 = 37.5%. Among foreign - born Hispanic adults living in the U.S. for 0 - 10 years, the proportion who have seen a health - care provider in the past 12 months is 55% (chart_2-37), and among those living in the U.S. for 11 - 20 years, the proportion is 63% (chart_2-39). The average of these two proportions is (55% + 63%) / 2 = 59%. Then the difference between the two is 59% - 37.5% = 21.5%.",
+                "answer": "21.5%",
+                "involved_content_sources": [
+                    "chart_2-37",
+                    "chart_2-39",
+                    "chart_3-5",
+                    "chart_3-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of Hispanic adults who have seen a health - care provider in the past 12 months between those with health insurance and those without, the proportion of Hispanic adults who say 'more communication problems from language, cultural differences' is a major reason for generally worse health outcomes, and the proportion of foreign - born Hispanics living in the U.S. for 0 - 10 years who strongly prefer seeing a Spanish - speaking doctor or other health care provider for routine care?",
+                "rationale": "The proportion of Hispanic adults with health insurance who have seen a health - care provider in the past 12 months is 77% (chart_2-29), and the proportion of those without health insurance is 49% (chart_2-31), so the difference is 77% - 49% = 28%. The proportion of Hispanic adults who say 'more communication problems from language, cultural differences' is a major reason for generally worse health outcomes is 44% (chart_3-8). The proportion of foreign - born Hispanics living in the U.S. for 0 - 10 years who strongly prefer seeing a Spanish - speaking doctor or other health care provider for routine care is 70% (chart_4-16). The average is (28% + 44% + 70%) / 3 = (0.28 + 0.44 + 0.7) / 3 = 1.42 / 3 \u2248 0.4733 = 47.33%.",
+                "answer": "47.33%",
+                "involved_content_sources": [
+                    "chart_2-29",
+                    "chart_2-31",
+                    "chart_3-8",
+                    "chart_3-9",
+                    "chart_4-16",
+                    "chart_4-17"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of Hispanic adults with health insurance and those without health insurance who have seen a health - care provider in the past 12 months, the proportion of Hispanic adults who say health risks in jobs are a major reason for generally worse health outcomes, the difference between the proportion of foreign - born Hispanic adults living in the U.S. for 0 - 10 years and U.S. - born Hispanic adults who strongly prefer seeing a Spanish - speaking doctor or other health care provider for routine care, and the difference between the proportion of Hispanic adults who say their race is Black and all Hispanic adults who had at least one of the six negative experiences in health - care?",
+                "rationale": "From Chart 2, the proportion of Hispanic adults with health insurance who have seen a health - care provider in the past 12 months is 77% (chart_2-29), and those without health insurance is 49% (chart_2-31). The difference is 77% - 49% = 28%. From Chart 3, the proportion of Hispanic adults who say health risks in jobs are a major reason for generally worse health outcomes is 53% (chart_3-1). From Chart 4, the proportion of foreign - born Hispanic adults living in the U.S. for 0 - 10 years who strongly prefer seeing a Spanish - speaking doctor or other health care provider for routine care is 70% (chart_4-16), and for U.S. - born Hispanic adults it is 12% (chart_4-10). The difference is 70% - 12% = 58%. From Chart 5, the proportion of Hispanic adults who say their race is Black who had at least one of the six negative experiences in health - care is 69% (chart_5-27), and for all Hispanic adults it is 52% (chart_5-28). The difference is 69% - 52% = 17%. The average of these four values is (28% + 53% + 58% + 17%) / 4 = 39%",
+                "answer": "39%",
+                "involved_content_sources": [
+                    "chart_2-29",
+                    "chart_2-31",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-10",
+                    "chart_4-16",
+                    "chart_5-27",
+                    "chart_5-28"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

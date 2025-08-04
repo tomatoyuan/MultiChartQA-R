@@ -1,0 +1,206 @@
+{
+  "chart": [
+    "chart_87_1",
+    "chart_87_2",
+    "chart_87_3",
+    "chart_87_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the charts 'Total Number of Myopic Primary, Middle, and High School Students in China from 2010 - 2020' and 'Outdoor sports situation of Chinese children and adolescents in 2018', can we observe a trend that the older the age, the less the outdoor sports time and the more the number of myopic students? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_87_2, the duration of outdoor sports decreases with age groups; in chart_87_1, in 2018, the number of myopic students shows primary school students < middle school students < high school students.",
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the charts 'Reasons for not getting glasses immediately or not getting glasses yet' and 'Parents' expectations for the functions of children and adolescents' visual health products', is the proportion of people who think 'Doctor's advice' is the reason higher than parents' expectation for the function of 'Quick understanding of eye health status'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_87_3, 'Doctor's advice' accounts for 41.2%; in chart_87_4, 'Quick understanding of eye health status' accounts for 37.1%.",
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the color - matching styles of the charts 'Outdoor sports situation of Chinese children and adolescents in 2018' and 'Parents' expectations for the functions of children and adolescents' visual health products' match? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Chart_87_2 uses green - gray color - matching, while chart_87_4 uses blue color - matching.",
+      "charts_involved": [
+        "chart_87_2",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the number of myopic primary school students in 2018 to the average outdoor sports duration of children aged 10 - 13? Unit: 10,000 people/minute, rounded to 2 decimal places. Answer: xx.xx 10,000 people/minute",
+      "answer": "67.07 10,000 people/minute",
+      "explanation": "The number of myopic primary school students in 2018 is 37.2213 million people ÷ The average outdoor sports duration of children aged 10 - 13 is 55.5 minutes = 67.065 10,000 people/minute, rounded to 2 decimal places is 67.04 10,000 people/minute.",
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the proportion of those who did not get glasses immediately due to the doctor's advice to the proportion of parents' expectation for the 'High accuracy' function? Rounded to 2 decimal places. Answer: xx.xx times",
+      "answer": "1.01 times",
+      "explanation": "The proportion of those who did not get glasses immediately due to the doctor's advice is 41.2% ÷ The proportion of expectation for the 'High accuracy' function is 40.9% = 1.0073, rounded to 2 decimal places is 1.01 times.",
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the result of multiplying the number of myopic middle school students in 2014 by the proportion of expectation for the 'Quick understanding of eye health status' function? Unit: 10,000 people·percentage point, rounded to 2 decimal places. Answer: xx.xx",
+      "answer": "1210.45",
+      "explanation": "The number of myopic middle school students in 2014 is 32.6266 million people × The proportion of expectation for the 'Quick understanding of eye health status' function is 37.1% = 32.6266 × 0.371 = 1210.447.",
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the changing trend of the number of myopic students nationwide and the outdoor sports situation of children and adolescents, which factors may explain the pattern that the myopia problem intensifies with age?",
+      "answer": {
+        "A": "The number of myopic high school students has been continuously increasing from 2010 to 2020, indicating that age growth necessarily exacerbates myopia.",
+        "B": "Primary school students have the lowest outdoor sports time (44.9 min), so the number of myopic students is the highest.",
+        "C": "The increase in the time of using electronic devices leads to the deterioration of myopia, which is more common among older adolescents.",
+        "D": "Genetic factors are the main reason for the exacerbation of myopia with age, because myopia often runs in families.",
+        "E": "In the same year (e.g., 2018), the group with the lowest outdoor sports duration corresponds to the higher education stage, and the number of myopic students in this stage has not significantly decreased, supporting the hypothesis that there is a negative correlation between outdoor time and myopia.",
+        "F": "The outdoor sports time of older adolescents has significantly decreased, while the number of myopic high school students, although decreased in some years, still remains at a high level, suggesting that insufficient outdoor activities may accelerate the development of myopia.",
+        "G": "Primary school students have relatively longer outdoor sports time, but the number of myopic students fluctuates greatly (e.g., it dropped after reaching the peak in 2014). High school students have the shortest outdoor time and a stable number of myopic students, indicating that the reduction of outdoor time associated with age growth may increase the risk of myopia."
+      },
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Analyze the reasons for not getting glasses immediately and parents' expectations for the functions of children and adolescents' visual health products. Which approach do parents prefer in the intervention of children and adolescents' myopia?",
+      "answer": {
+        "A": "The proportion of 'wanting to try other methods first' is lower than that of 'personally thinking it's unnecessary to wear glasses', but parents still highly rely on corrective solutions.",
+        "B": "Parents' most expected function is 'fast examination speed' because it has the highest proportion of 27.0%.",
+        "C": "The proportion of children being unwilling to wear glasses is relatively low, but parents have the highest expectations for the functions of 'high accuracy' and 'comprehensive analysis of examination results', indicating that parents attach importance to reliable evaluation rather than passive correction.",
+        "D": "Children's unwillingness to wear glasses is the main reason for not getting glasses, accounting for more than 40%.",
+        "E": "Doctor's advice is the primary reason for not getting glasses, and parents have a strong expectation for the function of 'early warning for eye health problems', indicating that parents rely more on professional guidance and preventive measures.",
+        "F": "Wearing glasses is the most effective intervention method, and parents generally choose it as a priority.",
+        "G": "One of the main reasons for not getting glasses is 'wanting to try other methods first', and parents highly expect the products to provide 'subsequent eye health solutions', which reflects that parents prefer non - corrective interventions rather than direct glasses - wearing."
+      },
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In 2018, the data on the outdoor sports time and the number of myopic students in different education stages show potential conflicts. Which factors may explain this inconsistency?",
+      "answer": {
+        "A": "The outdoor sports time of all education stages exceeds the minimum standard of 120 min, indicating that sufficient time is not a problem.",
+        "B": "The outdoor sports time of junior high school students is the highest (64.3 min), but the number of myopic students is also the highest (37.2213 million).",
+        "C": "The average outdoor sports time is relatively low, but the number of myopic primary school students is the highest, while the number of myopic high school students does not increase synchronously, reflecting that age or development factors play a stronger role in the formation of myopia.",
+        "D": "The outdoor sports time of junior high school students is in the middle, and the number of myopic students is close to that of high school students and lower than the peak number of primary school students, suggesting that the influence of outdoor time may be offset by other factors (e.g., schoolwork pressure).",
+        "E": "High school students have the shortest outdoor sports time, but the number of myopic students is lower than that of primary school students, which may be due to the larger base of myopic primary school students and differences in study habits, resulting in the contradiction.",
+        "F": "The number of myopic high school students is higher than that of primary school students (38.1824 million vs 37.2213 million) because of less outdoor time."
+      },
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the chart data, how should schools and education departments optimize resource allocation to reduce the myopia rate among students? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Increase the daily classroom learning time to 10 hours and reduce students' outdoor activity time to concentrate on learning and reduce the risk of myopia.",
+        "B": "Intensify the promotion of outdoor sports for primary school students. Although the number of myopic primary school students fluctuates to some extent, the base is large. The outdoor sports duration is relatively longer in the lower - age group but still insufficient. By designing interesting outdoor activities, primary school students can be attracted to participate, and their relatively good sports foundation can be used to prevent the deterioration of myopia.",
+        "C": "Focus on increasing the outdoor activity time of senior students. The outdoor sports duration is significantly shorter among senior students, and the data on the number of myopic students shows that the myopia rate in the middle - school and high - school student groups remains relatively high. By prioritizing the arrangement of outdoor courses for senior students, the myopia risk of this group can be alleviated in a targeted manner, and the overall intervention efficiency can be improved.",
+        "D": "Since the outdoor sports duration of children aged 6 - 9 is the longest (64.3 minutes), which is close to the minimum standard of 120 minutes, there is no need to increase the promotion of outdoor activities for this age group.",
+        "E": "In view of the fact that the number of myopic primary school students decreased to 37.2213 million in 2018, lower than 44.5878 million in 2014, the resources for preventing myopia among primary school students should be significantly reduced, and the focus should be shifted to middle - school students.",
+        "F": "Integrate eye - health screening and functions expected by parents into the school health plan. Parents have prominent demands for quickly understanding the eye - health status and early - warning functions. Combined with the fact that most people rely on doctors' advice when not getting glasses immediately, schools can introduce portable screening tools to provide instant analysis and suggestions, so as to reduce the delay in intervention.",
+        "G": "Promote the use of high - brightness electronic teaching equipment, such as tablets, to improve classroom lighting and vision protection."
+      },
+      "charts_involved": [
+        "chart_87_1",
+        "chart_87_2",
+        "chart_87_3",
+        "chart_87_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "How should a visual - health product company design its product - function strategy to better meet market demand and promote timely intervention? Please select the most effective suggestion based on the chart content.",
+      "answer": {
+        "A": "Reduce the product price and increase advertising to enhance brand awareness and market share.",
+        "B": "Integrate health - tracking and early - warning systems into the products. Parents have high expectations for continuous monitoring and early - warning functions, and the data on the number of myopic students shows that students' vision problems require long - term management. By providing archive records and risk warnings, the products can help detect changes at an early stage and optimize the allocation of resources to high - risk groups.",
+        "C": "Since the outdoor sports duration is generally insufficient (average 54.9 minutes), the products should focus on adding a function to record the sports duration to replace the vision - screening service.",
+        "D": "In view of the fact that parents have the lowest demand for the 'diverse examination items' function (22.1%), the products should be simplified by reducing the number of examination items to cut costs.",
+        "E": "Develop functions integrated with video games to attract children to use the products actively.",
+        "F": "Optimize the product's convenience to increase its usage rate. Parents' attention to the convenience of examination speed and methods is moderate but cannot be ignored. Combined with the phenomenon of generally insufficient outdoor sports time, designing fast - and - easy - to - use products can adapt to the reality of busy family schedules and improve the intervention coverage rate.",
+        "G": "Prioritize the development of high - accuracy and comprehensive - analysis functions. Parents' demand for these functions is the most prominent. Combined with the fact that most people rely on professional advice when not getting glasses immediately, improving the reliability of the products can support parents' decision - making and reduce the delay in intervention caused by hesitation."
+      },
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4",
+        "chart_87_2"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "To improve the timeliness of myopia intervention among children and adolescents, how should medical institutions adjust their service strategies? Please select the best resource - allocation suggestion based on the chart data.",
+      "answer": {
+        "A": "Strengthen doctor - led health education and communication services. Doctors' advice is the dominant reason for not getting glasses immediately, and parents have a high demand for comprehensive - analysis functions. By training doctors to provide more detailed explanations and solutions, parents' hesitation can be reduced, and the allocation of consultation resources can be optimized.",
+        "B": "Develop diversified non - glasses - wearing intervention programs. Many people do not get glasses because they want to try other methods first. Combined with parents' expectations for solutions and early - warning functions, medical institutions can launch services such as vision training or outdoor - activity guidance, and allocate resources to these programs to provide alternative options.",
+        "C": "In view of the fact that parents have relatively low expectations for the 'early - warning for eye - health problems' function (36.4%), medical institutions do not need to strengthen the development of the early - warning system but should focus on high - demand functions such as improving accuracy.",
+        "D": "Expand the advertising and social - media promotion of medical institutions to enhance public awareness of myopia problems.",
+        "E": "Intensify screening and follow - up for middle - school students. The number of myopic middle - school students shows a slow upward trend, and the outdoor sports duration at this age group decreases significantly. By concentrating resources on regular screening in middle schools, risks can be detected early, and sports suggestions can be integrated to prevent deterioration.",
+        "F": "Since the number of myopic high - school students was 33.5123 million in 2020, lower than 35.5452 million in 2010, the screening resources for high - school students should be reduced, and priority should be given to junior - middle - school students.",
+        "G": "Provide free glasses - fitting services to attract more families to participate in vision examinations."
+      },
+      "charts_involved": [
+        "chart_87_3",
+        "chart_87_4",
+        "chart_87_1",
+        "chart_87_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "E"
+      ]
+    }
+  ]
+}

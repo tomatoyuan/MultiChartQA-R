@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_96_1",
+    "chart_96_2",
+    "chart_96_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the two charts of 'China MPV Sales and Growth Rate from 2011 to 2021' and 'MPV vehicle usage scenarios', can we infer that the decline in MPV sales is related to its main application scenarios being short - distance? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Chart_96_2 shows that MPVs are mainly used for commuting to and from work (67.8%), picking up and dropping off children (61.2%), and short - distance self - driving tours (59.6%), indicating that they are mainly for daily short - distance needs. In chart_96_1, the sales have been declining year by year since 2017, which may reflect that these scenarios have been replaced by new - energy sedans, SUVs, etc.",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the 'MPV [Space] Pain Points' and 'MPV [Driving Comfort] Pain Points', are both concentrated on problems related to the third row? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_96_3, the space - related pain points include 'Inconvenient access to the third row' and 'Small space in the third row', and the comfort - related pain points include 'The third - row seats cannot open windows', indicating that the third row of MPVs is a weak link in both space and comfort design.",
+      "charts_involved": [
+        "chart_96_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "After the peak period of MPV sales (from 2013 to 2016) in the 'China MPV Sales and Growth Rate from 2011 to 2021', the pain - point feedback data still remains at a high proportion. Can we推测 that the slow improvement of pain points has affected market confidence? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_96_1, the sales declined significantly after 2016. In chart_96_3, pain points such as 'Insufficient trunk space when using the third row' and 'The third - row seats cannot open windows' have not been solved. The long - term non - improvement may cause users to switch to other models.",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Based on the total sales volume of MPVs in 2021 and their daily usage scenarios, estimate the sales volume of MPVs used for commuting to and from work in 2021 in ten thousand vehicles. Round to one decimal place. Answer: xx.x ten thousand vehicles",
+      "answer": "71.5 ten thousand vehicles",
+      "explanation": "The total sales volume of MPVs in 2021 was 1.055 million vehicles × the proportion of commuting scenarios (67.8%) ≈ 715,290 vehicles. Rounded to one decimal place, it is 715,000 vehicles.",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Compare the sum of the percentages of the top two pain points in the 'Space' category with the sum of the percentages of the top two pain points in the 'Driving Comfort' category. What is the difference in percentage points? Round to one decimal place. Answer: xx.x percentage points",
+      "answer": "0.7 percentage points",
+      "explanation": "The sum of the top two space pain points is 30.0% + 28.3% = 58.3%; the sum of the top two driving comfort pain points is 29.9% + 27.7% = 57.6%; the difference between the two is 58.3% - 57.6% = 0.7%.",
+      "charts_involved": [
+        "chart_96_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Compare the annual growth rate of MPV sales in 2014 with the proportion of the 'Picking up and dropping off children' usage scenario. What is the difference in percentage points? Take the absolute value and round to one decimal place. Answer: xx.x percentage points",
+      "answer": "14.5 percentage points",
+      "explanation": "The annual growth rate of sales in 2014 was 46.7% - the proportion of the 'Picking up and dropping off children' scenario (61.2%) = -14.5%. Taking the absolute value, it is 14.5 percentage points.",
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "MPV sales showed a continuous decline trend in some years. Considering the vehicle drawbacks feedback from users, which specific problems might jointly lead to the decrease in demand?",
+      "answer": {
+        "A": "The significant pain points in driving and riding comfort issues (such as poor shock absorption effect) may have reduced the overall user experience and intensified the sales decline.",
+        "B": "The 17.1% decline in sales in 2017 was mainly due to high in - car noise (21.6%), but problems with a higher proportion among the actual comfort pain points were not considered.",
+        "C": "Poor brand reliability and sub - standard after - sales service reduced consumer trust and intensified the sales decline.",
+        "D": "Small space in the third row is the most prominent problem among space pain points (accounting for 28.3%), directly leading to a decrease in purchases by family users.",
+        "E": "The common problem of inconvenient access to the third row creates obstacles for scenarios where the third row is frequently used, further reducing demand.",
+        "F": "High - proportion pain points related to insufficient space (such as insufficient trunk space when using the third row) may have affected the convenience of family trips, thereby suppressing the willingness to purchase.",
+        "G": "The increase in fuel prices led to higher vehicle usage costs, causing consumers to switch to more economical models, thus suppressing the demand for MPVs."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the high - frequency usage scenarios of MPVs and user pain - point feedback, which pain points are most likely to directly affect the experience of key scenarios?",
+      "answer": {
+        "A": "Insufficient vehicle safety performance is particularly crucial in high - risk scenarios such as picking up and dropping off children, but it is not covered in user feedback.",
+        "B": "The pain points related to the long - distance visiting relatives scenario and comfort issues (such as poor seat comfort) may reduce the satisfaction of long - distance trips.",
+        "C": "The scenario of picking up and dropping off children (61.2%) is strongly associated with the pain point of 'inconvenient getting on and off the vehicle' (18.6%), but the impact is limited due to the low proportion of the pain point.",
+        "D": "The short - distance self - driving tour scenario has the highest proportion (59.6%), so insufficient trunk space (30.0%) is the core pain point in this scenario.",
+        "E": "The high prevalence of the picking up and dropping off children scenario is associated with the pain point of inconvenient access to the third row, which may affect the daily convenience of family users.",
+        "F": "Backward intelligent technology configuration, lacking navigation or entertainment systems, affects the convenience of daily use.",
+        "G": "The combination of the common short - distance self - driving tour scenario and the pain point of insufficient trunk space may limit the practicality of carrying luggage."
+      },
+      "charts_involved": [
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "B",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "During the period when MPV sales showed abnormal growth, considering its main usage scenarios, which factors might explain the conflict between this growth and daily demand?",
+      "answer": {
+        "A": "The government's vehicle purchase subsidy policy was temporarily introduced during the growth period, stimulating short - term purchases, but the demand declined after the policy ended.",
+        "B": "The 164.5% surge in sales in 2013 was mainly due to the dominant demand in the short - distance self - driving tour scenario (accounting for 59.6%), but the pain point of weak flexibility in space use (25.0%) limited the continuous growth.",
+        "C": "The daily commuting scenario (67.8%) supported the foundation during the peak sales period, but the pain point of 'poor sound effect' (27.7%) made it impossible to maintain the user experience.",
+        "D": "The dominant position of the daily commuting scenario may have supported the sales foundation, but the comfort pain points prevented the demand from maintaining growth.",
+        "E": "The proportion of social needs (such as gatherings with relatives and friends) is associated with the sales surge, but the pain point of weak flexibility in space use may limit its continuous contribution.",
+        "F": "The high demand proportion of family activities (such as picking up and dropping off children and short - distance tourism) may have promoted the expansion of sales during the peak period, but the universality of daily commuting did not prevent the subsequent decline.",
+        "G": "The economic cycle affects disposable income. Impulse purchases increased during the prosperous period, but the lack of daily practicality led to the subsequent decline."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the main scenarios of consumers using MPVs and the key pain points in vehicle design data, how should the MPV product design be optimized to improve user satisfaction and market competitiveness? Please select the most reasonable strategic suggestions:",
+      "answer": {
+        "A": "Strengthen the vehicle's sound insulation performance for the long - distance visiting relatives scenario. In the usage scenarios, long - distance visiting relatives accounts for 32.7%, and the sound insulation problem accounts for 21.6% in the comfort pain points, which are relevant.",
+        "B": "Prioritize the improvement of the space layout and access convenience of the third - row seats. The space pain point data shows that the problems related to the third row are the most prominent. The usage scenarios indicate that MPVs are frequently used for family outings and short - distance activities. Optimizing these aspects can directly improve the daily use experience and attract family users.",
+        "C": "Improve the flexibility and rationality of the storage space design. Insufficient storage and space utilization are common problems in the space pain points. The usage scenarios show that the proportions of shopping and gathering activities are high. Optimizing the storage plan can better meet the high - frequency needs and improve user convenience.",
+        "D": "Prioritize the optimization of the space and comfort of the second - row seats, because the small space in the second row accounts for 11.7% in the space pain points, which is the most prominent problem.",
+        "E": "Enhance the driving comfort of the vehicle, especially the ventilation and sound insulation performance of the third row. The defects related to the third row account for the highest proportion in the comfort pain points. Considering that MPVs are often used for commuting and self - driving tours, these improvements can significantly reduce user discomfort and enhance product attractiveness.",
+        "F": "Introduce more intelligent configurations such as the Internet of Vehicles system to meet the technological needs of modern consumers.",
+        "G": "Improve the vehicle's fuel economy to reduce the user's daily use cost, thereby enhancing product attractiveness."
+      },
+      "charts_involved": [
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the historical trend of MPV sales and consumers' usage preferences, how should the market promotion strategy be adjusted to stimulate sales recovery and expand market share? Please select the most effective suggestions:",
+      "answer": {
+        "A": "Increase marketing investment during the period when sales tend to be stable, and highlight the space optimization features. The sales trend shows that there are signs of stabilization after the decline in recent years. In the usage scenarios, family activities account for the highest proportion. Combining with the space pain points, emphasizing the improved space design can effectively attract core family users.",
+        "B": "Focus on promoting the product features from 2013 - 2016, because the sales growth rate was the highest during this period (e.g., 164.5% in 2013), which can replicate historical success.",
+        "C": "Expand the sales channels to second - and third - tier cities to cover a wider range of potential consumers.",
+        "D": "Customize the promotion content for high - frequency usage scenarios such as commuting and short - distance trips. The usage scenario data shows that commuting and picking up and dropping off children account for more than 60%, and the sales increased significantly during the peak demand period. Focusing on these scenarios can accurately reach the target population and take advantage of the historical growth pattern.",
+        "E": "Conduct marketing for the shopping at malls/supermarkets scenario, because it accounts for 44.7% in the usage scenarios and the insufficient storage space accounts for 22.9% in the space pain points, which are relevant.",
+        "F": "Provide more promotional activities such as discounts and gifts to increase the purchase intention in the short term.",
+        "G": "Reduce the excessive publicity of low - related pain points and instead emphasize the solved comfort problems. The sound insulation and air - conditioning problems account for a high proportion in the comfort pain points, but the sales trend shows that the market is sensitive to negative factors. Prioritizing the display of comfort improvements can alleviate users' concerns and boost the purchase intention."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_2",
+        "chart_96_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the distribution characteristics of MPV user pain points and the overall sales change trend, how should the R & D resources be allocated to quickly improve product competitiveness and sales? Please select the optimal strategy:",
+      "answer": {
+        "A": "Concentrate resources on solving the problems of the third row and the trunk in the space pain points. The space pain point data shows that the defects related to the third row account for the highest proportion. The sales trend indicates that high - impact problems need to be prioritized during the market downturn. Improving these can directly improve the practicality and reverse the negative growth.",
+        "B": "Prioritize solving the in - car noise problem, because it accounts for 21.6% in the comfort pain points, and rapid improvement is needed during the sales decline period to improve user satisfaction.",
+        "C": "Balance the investment in space and comfort pain points, especially optimize for long - distance usage scenarios. The shock absorption and ventilation problems are prominent in the comfort pain points. Combining with the significant proportion of long - distance activities in the usage scenarios, optimizing these aspects can cover a wider range of needs and take advantage of the sales stability period.",
+        "D": "Invest in the R & D of electrification technology to comply with the new energy transformation trend in the automotive industry.",
+        "E": "Since the sales tend to be stable in 2021 (growth rate of 0.1%), long - term innovation such as autonomous driving should be focused on rather than immediate pain point optimization.",
+        "F": "Strengthen brand building such as sponsoring activities to improve market awareness and user loyalty.",
+        "G": "Establish a rapid iteration mechanism and prioritize the pain points with the strongest user feedback, such as space flexibility. The low flexibility and insufficient storage account for a high proportion in the space pain points. The sales show high sensitivity to improvements during the fluctuation period. Focusing on these can quickly respond to the market and improve user retention."
+      },
+      "charts_involved": [
+        "chart_96_1",
+        "chart_96_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "G"
+      ]
+    }
+  ]
+}

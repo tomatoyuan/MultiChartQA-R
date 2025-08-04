@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_90_1",
+    "chart_90_2",
+    "chart_90_3",
+    "chart_90_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the charts 'Proportion of Beer E - commerce Sales from 2021Q2 to 2022Q1 (Unit: Billion Yuan)' and 'Bubble Chart of E - commerce Beer Sales from 2021Q2 to 2022Q1', was the sales volume in 2022Q1 the highest among the four quarters? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In both charts, the sales volume in 2022Q1 was 10.9 billion, much higher than that of other quarters, so it was indeed the highest.",
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the charts 'Beer Purchase Consideration Factors' and 'Top 10 beer selling points for which consumers are willing to pay a higher price', did the content related to malt juice concentration rank the same in both charts? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_90_3, 'Wort Concentration' accounted for 31.3%, ranking 2nd; in chart_90_4, 'High - concentration malt juice' accounted for 26.0%, also ranking 2nd.",
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the charts 'Beer Purchase Consideration Factors' and 'Top 10 beer selling points for which consumers are willing to pay a higher price', did the factors related to 'Shelf Life' rank relatively low in both charts? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_90_3, 'Shelf Life' accounted for 17.9%, ranking 4th from the bottom; in chart_90_4, 'Shorter shelf life, fresher' accounted for 19.2%, ranking 3rd from the bottom.",
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Given the total e-commerce sales of beer in the past 4 quarters and the proportion of consumers who consider taste factors, estimate the sales driven by taste. Round to 2 decimal places. Answer: xx.xx billion yuan",
+      "answer": "10.41 billion yuan",
+      "explanation": "2.71 billion × 38.4% = 1.04064 billion. Rounded to 2 decimal places, it is 1.041 billion yuan.",
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of the proportion of the selling point of 'richer taste' for which consumers are willing to pay a higher price to the proportion of consumers who consider taste factors? Round to 2 decimal places. Answer: xx.xx times",
+      "answer": "0.83 times",
+      "explanation": "32.0% ÷ 38.4% = 0.8333. Rounded to 2 decimal places, it is 0.83 times.",
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In the first quarter of 2022, what is the proportion of the e-commerce sales of beer in the total sales from 2021Q2 to 2022Q1? Express it as a percentage and round to 1 decimal place. Answer: xx.xx%",
+      "answer": "40.2%",
+      "explanation": "The sales in 2022Q1 is 1.09 billion ÷ the total sales of 2.71 billion = 0.402 × 100% = 40.2%",
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the charts of beer purchase consideration factors and beer selling points for which consumers are willing to pay a higher price, which factors are both highly prioritized in consumers' decision - making and have a strong willingness to pay a premium?",
+      "answer": {
+        "A": "Taste factors dominate the purchase decision, and consumers are also willing to pay extra for a richer taste experience.",
+        "B": "Wort concentration is a core purchase consideration, and its high - concentration version is one of the main drivers for consumers to pay a premium.",
+        "C": "The cost - performance ratio factor is important in the purchase decision (24.8%), and consumers are willing to pay extra for high - cost - performance products.",
+        "D": "The alcohol content factor accounts for 28.1% in the purchase consideration, and consumers are very willing to pay a higher price for the selling point of low alcohol content (22.4%).",
+        "E": "Brand awareness accounts for a relatively high proportion in the purchase consideration (26.5%), and consumers are also willing to pay a higher price for well - known brands.",
+        "F": "Although brewing with traditional processes does not rank prominently in the purchase consideration, it shows strong performance in the willingness to pay, indicating consumers' premium recognition of process inheritance.",
+        "G": "Brewing process ranks high in the purchase consideration factors (25.8%), and consumers are highly willing to pay a premium for brewing with high - tech processes (18.4%)."
+      },
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the charts of beer purchase consideration factors and beer selling points for which consumers are willing to pay a higher price, which factors are highly valued in consumers' decision - making but have relatively low willingness when it comes to paying extra?",
+      "answer": {
+        "A": "Taste factors dominate the purchase decision (38.4%), but consumers are not willing to pay extra for a richer taste.",
+        "B": "Wort concentration is important in the purchase consideration (31.3%), but its proportion in the willingness to pay a higher price is very low.",
+        "C": "The new flavors/new tastes factor accounts for 20.5% in the purchase consideration, and consumers are not inclined to pay a higher price for it.",
+        "D": "The foam richness factor accounts for 22.7% in the purchase consideration, and consumers' willingness to pay is relatively low.",
+        "E": "Word - of - mouth evaluation is a key factor in the purchase decision, but it is not prominent in the willingness to pay a premium, reflecting that its influence does not directly translate into price - sensitive scenarios.",
+        "F": "Brand awareness accounts for a relatively high proportion in the purchase consideration, but it is absent among the factors driving consumers to pay a higher price, indicating that brand loyalty does not necessarily increase the willingness to pay.",
+        "G": "The cost - performance ratio factor is widely considered when purchasing, but it does not make it into the top ten selling points in the willingness to pay a higher price, indicating that consumers value value but are not willing to pay a premium."
+      },
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the quarterly changes in beer e - commerce sales and consumers' willingness to pay for beer selling points, what high - willingness - to - pay selling points may have a potential connection with the significant increase in sales in 2022Q1?",
+      "answer": {
+        "A": "The sales in 2021Q3 were the lowest at 500 million, but the willingness to pay for brewing with traditional processes was high (24.4%), which may have had an impact in that quarter.",
+        "B": "The prominent willingness to pay for high - concentration malt juice may have attracted consumers to increase their purchase volume in that quarter.",
+        "C": "The selling point of natural ingredients ranks highest in the willingness to pay, which may be strongly related to the sales growth in 2022Q1.",
+        "D": "A richer taste, as the selling point with the strongest willingness to pay, may be related to the sales peak in that quarter.",
+        "E": "The premium appeal of brewing with traditional processes may have promoted sales growth in that quarter.",
+        "F": "The KOL recommendation factor accounts for 11.1% in the willingness to pay, and consumers may have increased their purchases because of it, driving the sales growth in 2022Q1.",
+        "G": "The purchase convenience factor accounts for 20.0% in the purchase consideration, and it may have promoted the quarterly sales peak by improving convenience."
+      },
+      "charts_involved": [
+        "chart_90_2",
+        "chart_90_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on consumers' preference characteristics for beer and the trend of their willingness to pay, how should the product R & D team optimize product features to enhance market competitiveness and sales? Please select the most reasonable strategic suggestion:",
+      "answer": {
+        "A": "Increase investment in brand promotion and advertising endorsers, because brand factors are generally important in consumers' decision - making and can enhance the overall market influence.",
+        "B": "Strengthen the optimization of wort concentration. Since this factor ranks second in purchase considerations and has a significant proportion among the selling points with high willingness to pay, it helps to differentiate products in a highly competitive market.",
+        "C": "Focus on reducing product costs and prices to attract more price - sensitive consumers and expand market share.",
+        "D": "Prioritize the optimization of foam richness. Since this factor accounts for 22.7% in purchase considerations, consumers may be willing to pay a premium for it.",
+        "E": "Focus on the improvement of traditional processes and natural ingredients. Since these selling points rank high in terms of willingness to pay and are highly related to the brewing ingredients and processes in purchase consideration factors, they can enhance the high - end perception of the product.",
+        "F": "Prioritize investment in enhancing the richness of taste. Since taste accounts for the highest proportion in consumers' purchase decisions and is the selling point that consumers are most willing to pay a premium for, it can directly attract the core consumer group and improve the product's premium ability."
+      },
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the quarterly change pattern of beer e - commerce sales and consumers' core preferences, how should marketing resources and event timing be allocated to maximize sales and profits? Please select the most effective strategic suggestion:",
+      "answer": {
+        "A": "Concentrate the marketing budget in the peak sales quarter (such as the first quarter) and highlight the purchase factors with the highest proportion, such as taste. Since the sales volume increases significantly in this quarter, and core preferences can amplify the marketing effect, a high input - output ratio can be achieved.",
+        "B": "Maintain a balanced marketing investment throughout the year. Focus on high - end selling points with high willingness to pay (such as traditional processes) in the peak quarters and shift to purchase consideration factors such as convenience or word - of - mouth in the trough quarters to adapt to demand fluctuations and improve the overall channel efficiency.",
+        "C": "Increase promotional activities in the trough sales quarter (such as the fourth quarter) and emphasize secondary preference factors such as cost - performance ratio or new flavors. Since the demand is weak in this quarter and these factors account for a moderate proportion in purchase considerations, they can stimulate incremental sales.",
+        "D": "Maintain a fixed marketing budget allocation throughout the year to ensure brand consistency and avoid risks caused by quarterly fluctuations.",
+        "E": "Concentrate marketing resources in Q3 (2021Q3). Since the sales volume in this quarter is 5.0 billion, which is at a medium level, it is suitable to highlight the word - of - mouth evaluation factor (accounting for 29.4%) to stimulate demand.",
+        "F": "Increase promotional activities in Q4 (2021Q4) and emphasize purchase convenience (accounting for 20.0%) and cost - performance ratio (accounting for 24.8%). Since these factors rank moderately in purchase considerations, they can effectively increase sales volume in the trough quarter."
+      },
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_2",
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "In view of consumers' willingness to pay a higher price and the e - commerce sales trend, how should enterprises design high - end beer product lines to enhance the premium ability and market share? Please select the best strategic suggestion:",
+      "answer": {
+        "A": "Integrate high - tech brewing processes. Since this selling point accounts for 18.4% in terms of willingness to pay and brewing process accounts for 25.8% in purchase considerations, it can reflect product innovation and high - end sense.",
+        "B": "Design products with high alcohol content. Since alcohol content accounts for 28.1% in purchase considerations and 22.4% in willingness to pay, it can attract a niche market that pursues strong - flavored beer.",
+        "C": "Expand the product line to include more mid - and low - end options to cover price - sensitive consumers and thus increase the overall market share.",
+        "D": "Integrate emerging selling points such as light burden or freshness. Since these account for a moderate proportion in terms of willingness to pay but have great growth potential, and the e - commerce sales volume shows demand elasticity in peak quarters, they can capture a differentiated market.",
+        "E": "Innovate products with high - concentration malt juice or traditional processes. Since these selling points rank high in terms of willingness to pay and are related to the wort concentration, which ranks second in purchase consideration factors, they can attract a niche market that pursues quality.",
+        "F": "Develop high - end products centered on rich taste. Since taste accounts for the highest proportion in consumers' purchase decisions and is the selling point that consumers are most willing to pay a premium for, it can directly convert consumers' preferences into premium income."
+      },
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

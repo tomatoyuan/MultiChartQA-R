@@ -1,0 +1,206 @@
+{
+  "chart": [
+    "chart_61_1",
+    "chart_61_2",
+    "chart_61_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio de la tasa de crecimiento mensual en el período de enero de 2024 a marzo de 2025 en el gráfico 'mUserTracker - Dispositivos Independientes Mensuales en Internet Móvil de China de 2024.1 a 2025.3' es consistente con la tendencia de cambio del tiempo efectivo diario por máquina de enero a marzo de 2024 en el gráfico 'mUserTracker - Tiempo efectivo diario por máquina en el primer trimestre de 2023 - 2025'? Responda sí o no.",
+      "answer": "No",
+      "explanation": "La tasa de crecimiento mensual en el gráfico chart_61_1 fluctúa明显. En el gráfico chart_61_2, el tiempo efectivo diario por máquina aumentó continuamente de enero a marzo de 2024.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Existe una correlación positiva entre el número de dispositivos independientes mensuales en el gráfico 'mUserTracker - Dispositivos Independientes Mensuales en Internet Móvil de China de 2024.1 a 2025.3' y el tiempo efectivo diario por máquina de enero a marzo de 2024 en el gráfico 'mUserTracker - Tiempo efectivo diario por máquina en el primer trimestre de 2023 - 2025'? Responda correlación positiva, correlación negativa o no hay correlación.",
+      "answer": "Correlación positiva",
+      "explanation": "Ambos mostraron un aumento.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Es el mes y el año en que el número de usos diarios por máquina es el más alto en el gráfico 'mUserTracker - Tiempos de uso diario de dispositivos únicos' el mismo que el mes y el año en que el tiempo efectivo diario por máquina es el más largo en el gráfico 'mUserTracker - Tiempo efectivo diario por máquina en el primer trimestre de 2023 - 2025'? Responda sí o no.",
+      "answer": "No",
+      "explanation": "El valor máximo en el gráfico chart_61_2 ocurrió en marzo de 2023, mientras que en el gráfico chart_61_3, el valor máximo ocurrió en enero de 2025.",
+      "charts_involved": [
+        "chart_61_2",
+        "chart_61_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En marzo de 2025, ¿cuál es la duración promedio de cada uso diario por máquina? Unidad: minutos/uso, redondeado a 2 decimales. Respuesta: xx.xx minutos/uso",
+      "answer": "4.23 minutos/uso",
+      "explanation": "El tiempo efectivo diario por máquina en marzo de 2025 es de 268.0 minutos ÷ el número de usos diarios por máquina es de 63.4 veces = 4.227 minutos/uso, redondeado a 2 decimales es 4.23.",
+      "charts_involved": [
+        "chart_61_2",
+        "chart_61_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Entre enero y marzo de 2025, ¿cuál es la proporción entre la tasa de crecimiento del tiempo efectivo diario por máquina en Internet móvil y la tasa de crecimiento del número de dispositivos independientes mensuales? Redondeado a 2 decimales. Respuesta: xx.xx",
+      "answer": "13.43",
+      "explanation": "El número de dispositivos independientes mensuales aumentó de 14.3800 millones a 14.3900 millones, la tasa de crecimiento = (14.39 - 14.38) / 14.38 × 100 = 0.07%; el tiempo efectivo diario por máquina aumentó de 265.5 minutos a 268.0 minutos, la tasa de crecimiento = (268.0 - 265.5) / 265.5 × 100 = 0.94%; 0.94% ÷ 0.07% = 13.43.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En comparación con marzo de 2024, ¿cuál es la proporción entre el aumento del número de dispositivos independientes mensuales (en cientos de millones de unidades) y la variación del número de usos diarios por máquina en marzo de 2025? Redondeado a 2 decimales. Respuesta: xx.xx",
+      "answer": "2.70",
+      "explanation": "El número de dispositivos independientes mensuales aumentó de 14.1200 millones a 14.3900 millones, el aumento = 0.2700 millones de unidades; el número de usos diarios por máquina aumentó de 63.3 veces a 63.4 veces, la variación = 0.1 veces; 0.27 ÷ 0.1 = 2.70.",
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en la tendencia general de la cantidad de dispositivos independientes en Internet móvil y la evolución a largo plazo del tiempo efectivo diario por máquina en los gráficos, ¿cuáles opciones mejor explican el posible cambio en el comportamiento de los usuarios?",
+      "answer": {
+        "A": "Cuando la tasa de crecimiento mensual de los dispositivos alcanzó su pico (1.01%) en 2024, el tiempo efectivo por máquina también llegó al valor máximo.",
+        "B": "La fluctuación de la tasa de crecimiento de los dispositivos y la amplitud de la reducción del tiempo efectivo pueden estar relacionadas en períodos específicos (por ejemplo, al principio del año), pero las tendencias generales son opuestas.",
+        "C": "La cantidad total de dispositivos ha aumentado continuamente, pero el tiempo de uso diario promedio de cada dispositivo se ha acortado año tras año, lo que puede reflejar que la base de usuarios se ha ampliado pero la profundidad de uso individual se ha debilitado.",
+        "D": "El crecimiento de los dispositivos está impulsado principalmente por las compras empresariales, pero el tiempo de uso diario de los usuarios individuales ha aumentado al mismo tiempo.",
+        "E": "La dependencia de los usuarios hacia Internet móvil se ha reducido, lo que ha dado lugar a la disminución de la cantidad total de dispositivos y el aumento del tiempo efectivo.",
+        "F": "La tendencia a largo plazo muestra una alta correlación positiva entre la cantidad de dispositivos y el tiempo efectivo, y la ampliación de la base de usuarios ha reforzado directamente la profundidad de uso.",
+        "G": "A pesar del crecimiento de la cantidad de dispositivos, el tiempo efectivo ha disminuido constantemente en la comparación de los mismos meses, lo que indica que los hábitos de uso de los usuarios se están volviendo más fragmentados."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En enero de 2025, los datos de los gráficos muestran que las direcciones de cambio de la cantidad de dispositivos independientes, el tiempo efectivo diario por máquina y el número de usos están en conflicto. ¿Cuáles opciones mejor explican esta inconsistencia?",
+      "answer": {
+        "A": "La preferencia de los usuarios se ha dirigido hacia un uso inmersivo de larga duración, por lo que el tiempo efectivo ha aumentado significativamente.",
+        "B": "La llegada de nuevos usuarios ha provocado una disminución del número de usos, pero el tiempo efectivo de los usuarios existentes ha aumentado.",
+        "C": "El crecimiento de los dispositivos se debe a las promociones festivas, pero el tiempo de uso diario de los usuarios ha aumentado debido a la optimización de la red.",
+        "D": "El crecimiento de los dispositivos puede haber introducido nuevos grupos de usuarios, pero la combinación de la disminución del tiempo efectivo y el aumento del número de usos indica una mejora en la eficiencia del comportamiento de los usuarios existentes.",
+        "E": "La combinación del aumento del número de usos (69.7 veces) y la disminución del tiempo efectivo (265.5 minutos) indica que el tiempo de uso por vez se mantiene constante.",
+        "F": "El aumento del número de usos no ha compensado la disminución del tiempo efectivo, lo que puede deberse a la optimización del diseño de la aplicación o a la dispersión de la atención de los usuarios.",
+        "G": "La cantidad de dispositivos ha aumentado ligeramente, el número de usos ha aumentado significativamente, pero el tiempo efectivo ha disminuido, lo que sugiere que los usuarios tienen sesiones de uso más frecuentes pero más cortas."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Al observar los datos de enero a marzo de cada año en los gráficos, ¿cuáles opciones describen la ley de cambio común de la cantidad de dispositivos independientes, el tiempo efectivo diario por máquina y el número de usos en este trimestre?",
+      "answer": {
+        "A": "La tasa de crecimiento de los dispositivos y la tasa de cambio del número de usos son altamente consistentes de enero a marzo, lo que indica que el comportamiento de los usuarios es sincrónico.",
+        "B": "Cada año en marzo, cuando la cantidad de dispositivos alcanza el pico trimestral, el tiempo efectivo disminuye al mismo tiempo al punto más bajo.",
+        "C": "El crecimiento de la cantidad de dispositivos va acompañado de un aumento constante del número de usos, lo que refleja una continua mejora de la adhesión de los usuarios.",
+        "D": "En el mismo mes (por ejemplo, marzo), el aumento de la cantidad de dispositivos va acompañado de una disminución del tiempo efectivo, pero el número de usos cambia poco, lo que indica una disminución de la intensidad de uso.",
+        "E": "La cantidad de dispositivos generalmente muestra una tendencia de crecimiento de enero a marzo de cada año, pero el tiempo efectivo por máquina se reduce año tras año, mientras que el número de usos es relativamente estable o tiene fluctuaciones leves.",
+        "F": "De enero a marzo es la temporada alta anual, y la cantidad de dispositivos, el tiempo efectivo y el número de usos presentan una tendencia de aumento año tras año.",
+        "G": "El número de usos aumentó anormalmente a principios de 2025, pero el tiempo efectivo siguió disminuyendo, lo que no está relacionado con el crecimiento de los dispositivos y puede reflejar un cambio en los hábitos de los usuarios."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la tendencia de cambio de comportamiento de los usuarios de Internet móvil, ¿cómo debe la empresa ajustar el diseño de la aplicación y la estrategia de envío de contenido para mejorar la participación y la tasa de retención de los usuarios?",
+      "answer": {
+        "A": "Fortalecer la frecuencia y precisión del envío de contenido personalizado: el aumento de la frecuencia de uso de los usuarios pero la disminución de la duración promedio de uso refleja que los usuarios valoran más la eficiencia. Combinado con el crecimiento constante del número total de dispositivos, aumentar la frecuencia de envío durante los períodos de mayor uso (por ejemplo, al principio del año) puede capturar más efectivamente la atención de los usuarios y mejorar la participación.",
+        "B": "Optimizar la interfaz de la aplicación para admitir sesiones de interacción más cortas: dado que la duración promedio de uso de los usuarios muestra una tendencia a la baja, pero la frecuencia de uso ha aumentado, esto indica que los usuarios prefieren el acceso fragmentado. Al simplificar el flujo de operaciones y reducir el tiempo de carga, se puede mejorar la experiencia del usuario en sesiones más cortas y, por lo tanto, aumentar la tasa de retención.",
+        "C": "Aumentar la frecuencia de envío en los meses en que el número de dispositivos tiene un crecimiento mensual negativo (por ejemplo, abril de 2024 - 0,63%), y recuperar a los usuarios perdidos a través de una exposición intensiva.",
+        "D": "Lanzar priorariamente nuevas funciones en los meses de rápido crecimiento de usuarios: la tasa de crecimiento mensual del número total de dispositivos fluctúa mucho. En los meses con una tasa de crecimiento más alta, la base de usuarios se expande significativamente. Lanzar funciones innovadoras (como herramientas rápidas) en este momento puede aprovechar el beneficio de los nuevos usuarios y, combinado con la tendencia al aumento de la frecuencia de uso, maximizar la adhesión de los usuarios.",
+        "E": "Dado que el tiempo efectivo diario por máquina ha disminuido continuamente (por ejemplo, de 300,6 minutos en marzo de 2023 a 268,0 minutos en marzo de 2025), se deben desarrollar más contenidos largos inmersivos (como flujos de video) para prolongar el tiempo de sesión de los usuarios y contrarrestar la tendencia a la disminución de la duración.",
+        "F": "Ampliar el alcance de las funciones de la aplicación para atraer a un público más amplio y, por lo tanto, aumentar la cuota de mercado.",
+        "G": "Fortalecer las medidas de seguridad de datos para establecer la confianza de los usuarios y, indirectamente, aumentar la tasa de retención."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Dado el desaceleramiento del crecimiento del mercado de Internet móvil y la evolución de los hábitos de los usuarios, ¿cómo debe la empresa asignar los recursos de marketing e investigación y desarrollo para lograr un equilibrio entre el tamaño de la base de usuarios y los ingresos?",
+      "answer": {
+        "A": "Inclinar los recursos de investigación y desarrollo hacia herramientas que mejoren la eficiencia de uso: la duración promedio de uso de los usuarios ha disminuido continuamente, pero la frecuencia de uso ha aumentado, lo que indica que los usuarios valoran más la interacción eficiente. Desarrollar funciones livianas (como operaciones de un solo clic) puede reducir la fricción en la inversión de tiempo de los usuarios, mejorar la satisfacción y la tasa de retención, y hacer frente al desafío del desaceleramiento del crecimiento de dispositivos.",
+        "B": "Asignar equitativamente los recursos a todos los departamentos para garantizar la estabilidad del negocio y la dispersión de riesgos.",
+        "C": "Mejorar la capacitación de los empleados para aumentar la eficiencia del equipo y apoyar el crecimiento a largo plazo.",
+        "D": "Dado que el número de usos diarios por máquina aumentó significativamente en 2025 (por ejemplo, 69,7 en enero de 2025 vs. 67,2 en enero de 2024), se deben invertir priorariamente los recursos de investigación y desarrollo en la expansión de la profundidad del contenido (como artículos largos), en lugar de en herramientas de eficiencia.",
+        "E": "Centrarse en la retroalimentación de los usuarios y la optimización en los meses de crecimiento débil: la tasa de crecimiento mensual del número de dispositivos muestra valores negativos en algunos meses. Combinado con la tendencia a la disminución de la duración de uso, el riesgo de pérdida de usuarios es más alto en estos períodos. En este momento, se debe reducir el gasto en adquisición de usuarios y, en cambio, realizar encuestas y optimizar la experiencia de los usuarios existentes para acumular impulso para períodos de crecimiento posteriores.",
+        "F": "Incrementar la inversión en marketing de adquisición de usuarios durante los períodos de pico de crecimiento de dispositivos: la tasa de crecimiento mensual del número total de dispositivos fluctúa, y el crecimiento es significativo en algunos meses. Combinado con la tendencia al aumento de la frecuencia de uso, concentrar recursos (como la publicidad) durante estos períodos de pico puede adquirir usuarios a bajo costo y aprovechar el comportamiento de uso frecuente para aumentar la tasa de conversión.",
+        "G": "Reducir el gasto en marketing en los meses en que el número de dispositivos tiene un crecimiento mensual positivo (por ejemplo, marzo de 2024 1,01%), ya que el crecimiento natural de usuarios es suficiente, y en lugar de eso, utilizar los fondos para la optimización de ingresos."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Dado los rasgos estacionales del comportamiento de los usuarios de Internet móvil, ¿cómo se debe planificar la actualización del servicio y la publicación de contenido para maximizar la participación trimestral de los usuarios?",
+      "answer": {
+        "A": "Introducir un sistema de retroalimentación de usuarios para recopilar sugerencias durante todo el año y guiar las actualizaciones.",
+        "B": "Publicar funciones de alta complejidad en el trimestre con el menor tiempo efectivo diario por máquina (por ejemplo, un promedio de 267,1 minutos en el primer trimestre de 2025), y aprovechar el período de menor atención de los usuarios para capturar cuota de mercado.",
+        "C": "Priorizar el fortalecimiento del contenido interactivo en los meses en que la frecuencia de uso de los usuarios vuelve a subir: la frecuencia de uso muestra signos de aumento en trimestres específicos (por ejemplo, al principio de 2025), y el crecimiento de dispositivos se estabiliza. Aumentar elementos de juego o interacción social en este momento puede aprovechar el comportamiento de uso frecuente para mejorar la profundidad de participación y compensar la disminución de la eficiencia de tiempo.",
+        "D": "Cuando el número de usos muestra una disminución año tras año (por ejemplo, 63,3 en marzo de 2024 vs. 62,9 en marzo de 2023), reducir la frecuencia de actualización de contenido para evitar la fatiga de los usuarios y centrarse en el mantenimiento del servicio existente.",
+        "E": "Probar funciones livianas a mediados del año o en períodos de estancamiento de crecimiento: la tasa de crecimiento mensual del número de dispositivos muestra una disminución en algunos meses. Combinado con la tendencia a la disminución continua de la duración promedio de uso, la tolerancia de los usuarios es más baja en estos períodos. Lanzar optimizaciones a pequeña escala (como ajustes de interfaz) puede recopilar retroalimentación sin molestar a los usuarios y prepararse para el pico final del año.",
+        "F": "Centrarse en la publicación de actualizaciones importantes al principio del año (primer trimestre): la frecuencia de uso de los usuarios es relativamente alta al principio del año, y el número total de dispositivos mantiene una tendencia a la alza durante el mismo período. Aunque la duración promedio de uso ha disminuido, el acceso frecuente proporciona más oportunidades de alcance, y las actualizaciones pueden atraer a los usuarios más efectivamente y mejorar la actividad trimestral.",
+        "G": "Ajustar los tiempos de publicación de acuerdo con las tendencias del mercado global para garantizar la sincronización con eventos internacionales."
+      },
+      "charts_involved": [
+        "chart_61_1",
+        "chart_61_2",
+        "chart_61_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_92_1",
+    "chart_92_2",
+    "chart_92_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In 'Per capita consumption expenditure on transportation and communication of Chinese residents from 2016 to 2021' and 'New energy vehicle production ratio in China from 2016 to 2021', did both show a trend of slowing growth in 2020? Answer yes or no.",
+      "answer": "No",
+      "explanation": "In chart_92_1, the expenditure growth in 2020 was -3.5%, indicating a decline; in chart_92_3, the ratio in 2020 increased from 4.8% to 5.4%, showing a small but still upward trend.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In 'Per capita consumption expenditure on transportation and communication of Chinese residents from 2016 to 2021' and 'New energy vehicle production in China from 2016 to 2021', was there at least one year when the growth trends of the two were in opposite directions? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In 2020, the expenditure growth in chart_92_1 was -3.5% (a decline), while the production growth in chart_92_2 was 10.0% (an increase), showing opposite trends.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In 'New energy vehicle production in China from 2016 to 2021' and 'New energy vehicle production ratio in China from 2016 to 2021', did both experience stagnant growth or a significant slowdown in 2019? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_92_2, the production growth rate in 2019 was -2.2%; in chart_92_3, the ratio only increased from 4.6% to 4.8% in 2019, with a very small increase.",
+      "charts_involved": [
+        "chart_92_2",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please compare the ratio of the growth rate of per capita consumption expenditure on transportation and communication of residents to the growth rate of new energy vehicle production in 2021. What is the multiple? Keep 2 decimal places. Answer: xx.xx times",
+      "answer": "0.09 times",
+      "explanation": "The growth rate of per capita consumption expenditure on transportation and communication in 2021 is 14.3% ÷ the growth rate of new energy vehicle production is 159.5% = 0.0897. Keeping 2 decimal places, it is 0.09 times.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please combine the per capita consumption expenditure on transportation and communication of residents and the proportion of new energy vehicle production in 2021. What is the product of the two? Unit: yuan. Keep 2 decimal places. Answer: xx.xx yuan",
+      "answer": "429.22 yuan",
+      "explanation": "The per capita consumption expenditure on transportation and communication in 2021 is 3156 yuan × the proportion of new energy vehicle production is 13.6% = 429.216 yuan. Keeping 2 decimal places, it is 429.22 yuan.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please calculate the ratio of the increase in per capita consumption expenditure on transportation and communication of residents from 2016 to 2021 to the increase in the proportion of new energy vehicle production during the same period. What is the multiple? Keep 2 decimal places. Answer: xx.xx times",
+      "answer": "6932.20 times",
+      "explanation": "The increase in per capita expenditure = 3156 yuan - 2338 yuan = 818 yuan; the increase in the proportion of production = 13.6% - 1.8% = 11.8%; 818 ÷ 11.8% = 6932.20 times.",
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the trend of per capita consumption expenditure on transportation and communication of residents and the trend of new energy vehicle production, why did the production of new energy vehicles increase when the consumption expenditure decreased in 2020?",
+      "answer": {
+        "A": "In 2020, the consumption expenditure decreased by only 3.5%, a very small decline, while the production of new energy vehicles increased by 10.0%, indicating that the change in consumption had little impact on the production.",
+        "B": "The cost reduction and range improvement of new energy vehicles enhanced the market attractiveness and promoted the production growth.",
+        "C": "Although the overall consumption expenditure on transportation and communication decreased, the production of new energy vehicles increased. This may be because consumers were more inclined to buy private vehicles during the period of restricted travel, and new energy vehicles were favored as an energy - saving option.",
+        "D": "Comparing the reverse trend in 2019 when the consumption expenditure increased but the production decreased, the phenomenon in 2020 may reflect that the market's resilience to new energy vehicles has increased, or the consumption structure has been adjusted in the short term due to the pandemic.",
+        "E": "The simultaneous occurrence of production growth and consumption expenditure decline indicates that the new energy vehicle market is driven by policies or external factors (such as subsidies or infrastructure improvement), rather than relying solely on changes in disposable income.",
+        "F": "The pandemic made consumers more inclined to buy private vehicles to reduce the risk of infection, thus stimulating the demand for new energy vehicles."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ],
+      "label": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the chart of new energy vehicle production and the chart of its production ratio, how to explain the phenomenon that the production decreased but the ratio increased in 2019?",
+      "answer": {
+        "A": "In 2019, the production was 1.24 million vehicles, only 30,000 vehicles less than 1.27 million vehicles in 2018, a slight decline, while the ratio increased from 4.6% to 4.8%, reflecting the stability of production.",
+        "B": "The decrease in production but the increase in the ratio reflect that the stability of new energy vehicle production is stronger than that of the overall industry. External factors such as economic slowdown have a more significant impact on traditional vehicles.",
+        "C": "The traditional vehicle market was more affected by the economic slowdown, resulting in an increase in the relative ratio of new energy vehicles.",
+        "D": "The slight decrease in production but the increase in the ratio indicate that the decline in the total vehicle production was greater, leading to a relative increase in the share of new energy vehicles, which may be due to the contraction of the traditional vehicle market.",
+        "E": "The increasing environmental awareness of consumers promoted the increase in the market share of new energy vehicles, despite the short - term adjustment of production.",
+        "F": "Combined with the continuous upward trend of the ratio, the temporary decrease in production may be due to short - term adjustment, but the market penetration is still increasing, showing long - term growth potential."
+      },
+      "charts_involved": [
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the trends of residents' consumption expenditure on transportation and communication, new energy vehicle production and its production ratio, what factors may jointly lead to the rapid growth of new energy vehicle production in 2021?",
+      "answer": {
+        "A": "The surge in production was synchronous with the growth of consumption expenditure, and the ratio jumped, indicating that policy support (such as subsidies) and industry maturity (such as cost reduction) had a synergistic effect.",
+        "B": "Combined with the consumption fluctuations and production accumulation in previous years, the growth in 2021 may have benefited from technological breakthroughs and infrastructure improvement, releasing potential in the context of consumption recovery.",
+        "C": "The global carbon - neutral policy promoted the surge in demand for electric vehicles, stimulating production growth.",
+        "D": "The production ratio increased from 5.4% in 2020 to 13.6% in 2021, with a gentle growth. Combined with the recovery of consumption expenditure, it shows a steady expansion of the market.",
+        "E": "In 2021, the consumption expenditure increased by 14.3%, slightly higher than - 3.5% in 2020, while the production increased by 159.5%, indicating that consumption recovery was the main driving force.",
+        "F": "The significant recovery of consumption expenditure and the substantial increase in the ratio of new energy vehicles show that the market demand has increased and consumers' acceptance of new energy transportation has improved, jointly promoting the production growth.",
+        "G": "The rapid popularization of charging infrastructure reduced the usage threshold and attracted more consumers."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the consumption trend of residents' transportation and communication and the development of the new energy vehicle market shown in the charts, how should the government adjust subsidy and infrastructure policies to accelerate the popularization of new energy vehicles? Please select the most reasonable strategic suggestions:",
+      "answer": {
+        "A": "Increase the construction of urban bicycle lanes to replace the use of private vehicles, reducing traffic congestion and pollution.",
+        "B": "In response to the continuous upward trend of the proportion of new - energy vehicle production, strengthen consumer education and publicity programs. The increase in the proportion indicates an increase in market acceptance. Combined with the overall upward trend of consumption expenditure, education and publicity can eliminate cognitive barriers and accelerate popularization, especially in the context of increasing environmental awareness.",
+        "C": "In the year when the proportion of new - energy vehicle production is the highest (e.g., 13.6% in 2021), reduce investment in charging facilities because the market penetration is high enough and no additional support is needed.",
+        "D": "When consumption expenditure declines, give priority to investing in public charging infrastructure. A decline in consumption may suppress private purchases, but infrastructure investment can improve market convenience and confidence, support stable growth in production, and prevent market shrinkage due to short - term consumption fluctuations.",
+        "E": "During periods when residents' transportation and communication consumption expenditure is growing rapidly, increase car purchase subsidies. When consumption expenditure is growing strongly, consumers' purchasing power increases. Combined with the peak period of the growth rate of new - energy vehicle production, increasing subsidies at this time can effectively stimulate demand and utilize the potential for production expansion, maximizing the policy effect.",
+        "F": "The government should promote the environmental advantages of new - energy vehicles and encourage the public to reduce carbon emissions to enhance social environmental awareness.",
+        "G": "When the growth rate of residents' transportation and communication consumption expenditure fluctuates (e.g., 6.9% in 2017), give priority to subsidizing traditional fuel - powered vehicles to stabilize overall transportation demand and prevent market imbalance."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The charts show that the production of new - energy vehicles continued to grow in 2020 when residents' consumption expenditure declined, but the growth rate slowed down. To enhance the industry's risk - resistance ability, how should enterprises formulate flexible production and marketing strategies? Please select the most effective suggestions:",
+      "answer": {
+        "A": "During the period when residents' consumption expenditure is growing (e.g., 7.0% in 2019), reduce the production scale because strong demand can naturally digest inventory and avoid the risk of overstocking.",
+        "B": "Expand the advertising coverage and attract more young consumers through social media.",
+        "C": "When the growth rate of new - energy vehicle production is extremely high (e.g., 159.5% in 2021), cut investment in the supply chain because a high growth rate indicates that production efficiency has been optimized and no additional strengthening is needed.",
+        "D": "Diversify the product line to cover different consumer groups, especially the low - and middle - income markets. The overall consumption expenditure is rising but fluctuating greatly. Combined with the steady increase in the proportion of new - energy vehicle production, developing economical models can expand the audience and ensure that price - sensitive users can still be attracted during periods of weak consumption.",
+        "E": "Strengthen the resilience of the supply chain, such as building inventories of key components. Although the growth rate of production slowed down but remained positive in years with consumption fluctuations, it indicates that the supply chain is the bottleneck; external factors (such as global events) may exacerbate the risk, and advance reserves can ensure production continuity.",
+        "F": "Enterprises should improve product quality and after - sales service to enhance brand loyalty and market share.",
+        "G": "When a decline in consumption expenditure is expected, deploy promotion and financial incentive measures in advance. A decline in consumption expenditure may reduce demand, but the production data shows that the growth rate did not turn negative in similar years, indicating that targeted promotions (such as low - interest loans) can maintain sales volume. Combined with the characteristics of fluctuating production growth rates, this strategy can buffer economic shocks."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the rapid increase in the proportion of new - energy vehicle production and the upward trend of residents' transportation consumption, how should urban planning departments allocate resources (such as charging facilities and traditional transportation upgrades) to achieve a green transformation? Please select the most reasonable strategic suggestions:",
+      "answer": {
+        "A": "Encourage citizens to use shared bicycles to reduce dependence on private cars and emissions.",
+        "B": "In years when the growth rate of new - energy vehicle production is extremely high, guide resources towards technology R & D. During the high - growth period, the market expands rapidly. The proportion data shows great potential for popularization. Strengthening R & D (such as battery efficiency) can enhance product competitiveness and support long - term sustainable goals.",
+        "C": "Balance traditional transportation upgrades and new - energy promotion, such as upgrading the bus system during periods of slow consumption growth. When consumption expenditure fluctuates, public - sector investment is more stable; the increasing proportion of production indicates that new - energy is the trend, but the traditional system still serves a wide range of people, ensuring a fair transition.",
+        "D": "Give priority to expanding the charging network in areas where transportation consumption expenditure is growing rapidly. An increase in consumption expenditure reflects strong demand. Combined with the significant increase in the proportion of new - energy vehicles, infrastructure investment can alleviate 'range anxiety', accelerate the electrification transformation, and reduce carbon emissions.",
+        "E": "In years when the proportion of new - energy vehicle production is low (e.g., 1.8% in 2016), postpone the construction of charging facilities because the market penetration is low and the return on investment is not high.",
+        "F": "Give priority to building more parks and green spaces to improve urban air quality and residents' health.",
+        "G": "When residents' transportation consumption expenditure is rising overall (e.g., 14.3% in 2021), reduce the allocation of resources to new - energy and focus on improving the efficiency of traditional transportation (such as optimizing fuel - powered buses) to serve a wider range of people."
+      },
+      "charts_involved": [
+        "chart_92_1",
+        "chart_92_2",
+        "chart_92_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

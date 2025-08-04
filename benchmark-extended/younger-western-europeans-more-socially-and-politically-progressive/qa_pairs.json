@@ -1,0 +1,221 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of 30 - 49 - year - olds in Germany who say EU membership has been a good thing for their country's economy?\n question2: What is the difference in the proportion of the youngest and the oldest groups in the UK on the ideological - left scale?",
+                "rationale": "rationale1: The question aims to get a specific percentage from the chart. We search for the corresponding information about this age - group in Germany.\n rationale2: The question asks for the difference in the proportion of the youngest (18 - 29) and the oldest (50+) groups in the UK on the ideological - left scale. We can directly find this value from the given chart.",
+                "answer": "76%; +23",
+                "involved_content_sources": [
+                    "chart_6-30",
+                    "chart_3-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of 18 - 29 - year - olds in the UK who say EU membership has been a good thing for their country's economy?\n question2: What is the difference in the proportion of the youngest and the oldest groups in the UK on the ideological - left scale?\n question3: In Spain, what is the proportion of the 30 - 49 age - group who think immigrants make the economy stronger because of their work and talents?",
+                "rationale": "rationale1: The question directly asks for a specific data point from the chart. We need to find the relevant content in the chart to get the answer.\n rationale2: The question asks for the difference in the proportion of the youngest (18 - 29) and the oldest (50+) groups in the UK on the ideological - left scale. We can directly find this value from the given chart.\n rationale3: We need to look for the proportion of the 30 - 49 age - group in Spain from the chart content.",
+                "answer": "75%; +23; 60%",
+                "involved_content_sources": [
+                    "chart_6-1",
+                    "chart_3-4",
+                    "chart_5-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of 18 - 29 - year - olds and 50+ - year - olds in Italy who think gays and lesbians should be able to adopt children?\n question2: What is the difference in the proportion of the youngest and the oldest groups in the UK on the ideological - left scale?\n question3: In France, what is the proportion of the 18 - 29 age - group who think immigrants make the economy stronger because of their work and talents?\n question4: What is the proportion of 50+ - year - olds in Italy who say EU membership has been a good thing for their country's economy?",
+                "rationale": "rationale1: The question asks for the difference between the proportion of 18 - 29 - year - olds and 50+ - year - olds in Italy who support gay and lesbian adoption. We can directly find the relevant data in the chart and subtract the proportion of 50+ - year - olds from that of 18 - 29 - year - olds.\n rationale2: The question asks for the difference in the proportion of the youngest (18 - 29) and the oldest (50+) groups in the UK on the ideological - left scale. We can directly find this value from the given chart.\n rationale3: The question directly asks for a specific data point from the chart. We can find the relevant information about the proportion of the 18 - 29 age - group in France from the given chart content.\n rationale4: This is a straightforward query for a particular data value in the chart. We just need to locate the relevant entry.",
+                "answer": "41; +23; 71%; 38%",
+                "involved_content_sources": [
+                    "chart_4-12",
+                    "chart_3-4",
+                    "chart_5-3",
+                    "chart_6-23"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average difference in the proportion of the youngest (18 - 29) and the oldest (50+) age - groups who think gays and lesbians should be able to adopt children across all the countries in the chart?\n question2: What is the average proportion of people in the 18 - 29 age - group across all the countries in the chart who think immigrants make the economy stronger because of their work and talents?",
+                "rationale": "rationale1: We need to find the difference values for each country from the chart and then calculate their average. The difference values for each country are given in the chart, and we sum them up and divide by the number of countries.\n rationale2: To answer this question, we need to collect the proportion data of the 18 - 29 age - group from each country in the chart, sum them up, and then divide by the number of countries. This involves extracting multiple data points from the chart and performing basic arithmetic operations.",
+                "answer": "16.125; 71.75",
+                "involved_content_sources": [
+                    "chart_4-4",
+                    "chart_4-8",
+                    "chart_4-12",
+                    "chart_4-16",
+                    "chart_4-20",
+                    "chart_4-24",
+                    "chart_4-28",
+                    "chart_4-32",
+                    "chart_5-3",
+                    "chart_5-7",
+                    "chart_5-11",
+                    "chart_5-15",
+                    "chart_5-19",
+                    "chart_5-23",
+                    "chart_5-27",
+                    "chart_5-31"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average difference in the proportion of the youngest (18 - 29) and the oldest (50+) age - groups who think gays and lesbians should be able to adopt children across all the countries in the chart?\n question2: What is the average proportion of people in the 18 - 29 age - group across all the countries in the chart who think immigrants make the economy stronger because of their work and talents?\n question3: What is the average proportion of adults aged 18 - 29 who place themselves on the left of an ideological scale across all the countries in the chart?",
+                "rationale": "rationale1: We need to find the difference values for each country from the chart and then calculate their average. The difference values for each country are given in the chart, and we sum them up and divide by the number of countries.\n rationale2: To answer this question, we need to collect the proportion data of the 18 - 29 age - group from each country in the chart, sum them up, and then divide by the number of countries. This involves extracting multiple data points from the chart and performing basic arithmetic operations.\n rationale3: To answer this question, we need to collect the proportion data of adults aged 18 - 29 from each country in the chart and then calculate their average. This involves addition and division operations on multiple data points.",
+                "answer": "16.125; 71.75; 33.5",
+                "involved_content_sources": [
+                    "chart_4-4",
+                    "chart_4-8",
+                    "chart_4-12",
+                    "chart_4-16",
+                    "chart_4-20",
+                    "chart_4-24",
+                    "chart_4-28",
+                    "chart_4-32",
+                    "chart_5-3",
+                    "chart_5-7",
+                    "chart_5-11",
+                    "chart_5-15",
+                    "chart_5-19",
+                    "chart_5-23",
+                    "chart_5-27",
+                    "chart_5-31",
+                    "chart_3-3",
+                    "chart_3-7",
+                    "chart_3-11",
+                    "chart_3-15",
+                    "chart_3-19",
+                    "chart_3-23",
+                    "chart_3-27",
+                    "chart_3-31"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average difference in the proportion of the youngest (18 - 29) and the oldest (50+) age - groups who think gays and lesbians should be able to adopt children across all the countries in the chart?\n question2: What is the average proportion of people in the 18 - 29 age - group across all the countries in the chart who think immigrants make the economy stronger because of their work and talents?\n question3: What is the average proportion of adults aged 18 - 29 who place themselves on the left of an ideological scale across all the countries in the chart?\n question4: What is the average proportion of 18 - 29 - year - olds in the UK, France, and the Netherlands who say EU membership has been a good thing for their country's economy?",
+                "rationale": "rationale1: We need to find the difference values for each country from the chart and then calculate their average. The difference values for each country are given in the chart, and we sum them up and divide by the number of countries.\n rationale2: To answer this question, we need to collect the proportion data of the 18 - 29 age - group from each country in the chart, sum them up, and then divide by the number of countries. This involves extracting multiple data points from the chart and performing basic arithmetic operations.\n rationale3: To answer this question, we need to collect the proportion data of adults aged 18 - 29 from each country in the chart and then calculate their average. This involves addition and division operations on multiple data points.\n rationale4: To answer this question, we need to extract the relevant proportions from the chart for the 18 - 29 - year - olds in the UK, France, and the Netherlands, and then calculate their average. The average is calculated by adding up these values and dividing by the number of values (3 in this case).",
+                "answer": "16.125; 71.75; 33.5; 76.33",
+                "involved_content_sources": [
+                    "chart_4-4",
+                    "chart_4-8",
+                    "chart_4-12",
+                    "chart_4-16",
+                    "chart_4-20",
+                    "chart_4-24",
+                    "chart_4-28",
+                    "chart_4-32",
+                    "chart_5-3",
+                    "chart_5-7",
+                    "chart_5-11",
+                    "chart_5-15",
+                    "chart_5-19",
+                    "chart_5-23",
+                    "chart_5-27",
+                    "chart_5-31",
+                    "chart_3-3",
+                    "chart_3-7",
+                    "chart_3-11",
+                    "chart_3-15",
+                    "chart_3-19",
+                    "chart_3-23",
+                    "chart_3-27",
+                    "chart_3-31",
+                    "chart_6-1",
+                    "chart_6-5",
+                    "chart_6-9"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "In France, what is the difference between the difference in the proportion of the youngest and the oldest groups on the ideological - left scale and the difference between the youngest and oldest age - groups on the view that immigrants make the economy stronger because of their work and talents?",
+                "rationale": "From Chart 3, the difference in the proportion of the youngest and the oldest groups in France on the ideological - left scale is +15 (chart_3-8). From Chart 5, the difference between the youngest and oldest age - groups in France on the view that immigrants make the economy stronger because of their work and talents is +29 (chart_5-4). The difference between these two values is 29 - 15 = 14.",
+                "answer": "14",
+                "involved_content_sources": [
+                    "chart_3-8",
+                    "chart_5-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of the youngest and the oldest groups in the UK on the ideological - left scale, the difference between the proportion of the youngest and the oldest in the UK who think gays and lesbians should be able to adopt children, and the difference between the youngest and oldest age - groups in the UK on the view that immigrants make the economy stronger because of their work and talents? (Round the result to two decimal places.)",
+                "rationale": "The difference in the proportion of the youngest and the oldest groups in the UK on the ideological - left scale is +23 (chart_3-4). The difference between the proportion of the youngest and the oldest in the UK who think gays and lesbians should be able to adopt children is +20 (chart_4-16). The difference between the youngest and oldest age - groups in the UK on the view that immigrants make the economy stronger because of their work and talents is +25 (chart_5-8). The average is (23 + 20 + 25) / 3 = 22.67 (rounded to two decimal places).",
+                "answer": "22.67",
+                "involved_content_sources": [
+                    "chart_3-4",
+                    "chart_4-16",
+                    "chart_5-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of the youngest and the oldest groups on the ideological - left scale in the UK, the difference between the proportion of the youngest and the oldest in France who think gays and lesbians should be able to adopt children, the difference between the youngest and oldest age - groups in Spain on the view that immigrants make the economy stronger because of their work and talents, and the difference in the proportion of the youngest and the oldest age groups in Germany who say EU membership has been a good thing for their country's economy?",
+                "rationale": "The difference in the proportion of the youngest and the oldest groups on the ideological - left scale in the UK is +23 (chart_3-4). The difference between the proportion of the youngest and the oldest in France who think gays and lesbians should be able to adopt children is +20 (chart_4-8). The difference between the youngest and oldest age - groups in Spain on the view that immigrants make the economy stronger because of their work and talents is +23 (chart_5-12). The difference in the proportion of the youngest and the oldest age groups in Germany who say EU membership has been a good thing for their country's economy is - 4 (chart_6-32). The average of these four values is [(+23)+(+20)+(+23)+(-4)] / 4 = 15.5.",
+                "answer": "15.5",
+                "involved_content_sources": [
+                    "chart_3-4",
+                    "chart_4-8",
+                    "chart_5-12",
+                    "chart_6-32"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the differences in the proportion of the youngest and the oldest groups on the ideological - left scale in the UK and France, and the average of the differences between the proportion of the youngest and the oldest in the UK and France who think gays and lesbians should be able to adopt children?",
+                "rationale": "In Chart 3, the difference in the proportion of the youngest and the oldest groups in the UK on the ideological - left scale is +23 (chart_3-4), and in France is +15 (chart_3-8). The average of these two differences is (23 + 15) / 2 = 19. In Chart 4, the difference between the proportion of the youngest and the oldest in the UK who think gays and lesbians should be able to adopt children is +20 (chart_4-16), and in France is +20 (chart_4-8). The average of these two differences is (20 + 20) / 2 = 20. Then the difference between the two averages is 20 - 19 = 1.",
+                "answer": "1",
+                "involved_content_sources": [
+                    "chart_3-4",
+                    "chart_3-8",
+                    "chart_4-8",
+                    "chart_4-16"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the differences in the proportion of those on the ideological - left scale between the youngest and oldest groups in the UK and France, the differences in the proportion of those who think gays and lesbians should be able to adopt children between the youngest and oldest groups in Italy and the UK, and the differences in the proportion of those who think immigrants make the economy stronger between the youngest and oldest groups in Spain and Denmark?",
+                "rationale": "The difference in the proportion of those on the ideological - left scale between the youngest and oldest groups in the UK is +23 (chart_3-4), and in France is +15 (chart_3-8). The difference in the proportion of those who think gays and lesbians should be able to adopt children between the youngest and oldest groups in Italy is +20 (chart_4-12), and in the UK is +20 (chart_4-16). The difference in the proportion of those who think immigrants make the economy stronger between the youngest and oldest groups in Spain is +23 (chart_5-12), and in Denmark is +22 (chart_5-16). The average is ((23 + 15)+(20 + 20)+(23 + 22))\u00f76=(38 + 40+45)\u00f76 = 123\u00f76 = 20.5.",
+                "answer": "20.5",
+                "involved_content_sources": [
+                    "chart_3-4",
+                    "chart_3-8",
+                    "chart_4-12",
+                    "chart_4-16",
+                    "chart_5-12",
+                    "chart_5-16"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of the youngest and the oldest groups on the ideological - left scale in the UK and France, the difference between the proportion of the youngest and the oldest in Denmark and the UK who think gays and lesbians should be able to adopt children, the difference between the youngest and oldest age - groups in Spain and Germany on the view that immigrants make the economy stronger because of their work and talents, and the difference in the proportion of the youngest and the oldest age groups in Italy and the Netherlands who say EU membership has been a good thing for their country's economy?",
+                "rationale": "In Chart 3, the difference in the proportion of the youngest and the oldest groups on the ideological - left scale in the UK is +23 (chart_3-4), and in France is +15 (chart_3-8). The average of these two values is (23 + 15) / 2 = 19. In Chart 4, the difference between the proportion of the youngest and the oldest in Denmark who think gays and lesbians should be able to adopt children is +22 (chart_4-4), and in the UK is +20 (chart_4-16). The average of these two values is (22 + 20) / 2 = 21. In Chart 5, the difference between the youngest and oldest age - groups in Spain on the view that immigrants make the economy stronger because of their work and talents is +23 (chart_5-12), and in Germany is +14 (chart_5-20). The average of these two values is (23 + 14) / 2 = 18.5. In Chart 6, the difference in the proportion of the youngest and the oldest age groups in Italy who say EU membership has been a good thing for their country's economy is +12 (calculated as 50 - 38 from chart_6-21 and chart_6-23), and in the Netherlands is +9 (calculated as 79 - 70 from chart_6-9 and chart_6-11). The average of these two values is (12 + 9) / 2 = 10.5. The average of these four averages is (19 + 21 + 18.5 + 10.5) / 4 = 17.25.",
+                "answer": "17.25",
+                "involved_content_sources": [
+                    "chart_3-4",
+                    "chart_3-8",
+                    "chart_4-4",
+                    "chart_4-16",
+                    "chart_5-12",
+                    "chart_5-20",
+                    "chart_6-9",
+                    "chart_6-21"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

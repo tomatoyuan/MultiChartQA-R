@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_90_1",
+    "chart_90_2",
+    "chart_90_3",
+    "chart_90_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿En el gráfico “Proporción de ventas de cerveza en comercio electrónico desde 2021T2 hasta 2022T1 (Unidad: Mil millones de yuanes)” y el gráfico “Diagrama de Burbujas de Ventas de Cerveza en Comercio Electrónico desde 2021T2 hasta 2022T1”, las ventas en el trimestre 2022T1 son las más altas de los últimos cuatro trimestres? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En ambos gráficos, las ventas en el trimestre 2022T1 son de 10.9 mil millones de yuanes, mucho más altas que las de otros trimestres, por lo que son las más altas.",
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿En el gráfico “Factores de consideración de compra de cerveza” y el gráfico “Los 10 principales puntos de venta de la cerveza por los que los consumidores están dispuestos a pagar un precio más alto”, el contenido relacionado con la concentración de mosto tiene el mismo ranking en ambos gráficos? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En el chart_90_3, el factor “Concentración de mosto” tiene un porcentaje de 31.3% y ocupa el segundo lugar; en el chart_90_4, el punto de venta “Jugo de malta de alta concentración” tiene un porcentaje de 26.0% y también ocupa el segundo lugar.",
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿En el gráfico “Factores de consideración de compra de cerveza” y el gráfico “Los 10 principales puntos de venta de la cerveza por los que los consumidores están dispuestos a pagar un precio más alto”, los factores relacionados con la “Vida útil” están en posiciones bajas en ambos gráficos? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En el chart_90_3, el factor “Vida útil” tiene un porcentaje de 17.9% y ocupa el cuarto lugar desde el final; en el chart_90_4, el punto de venta “Vida útil más corta, más fresca” tiene un porcentaje de 19.2% y ocupa el tercer lugar desde el final.",
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Dado el total de las ventas de cerveza en comercio electrónico en los últimos 4 trimestres y el porcentaje de consumidores que consideran el factor de sabor, ¿cuál es la estimación de las ventas impulsadas por el sabor? Redondee a 2 decimales. Respuesta: xx.xx mil millones de yuanes",
+      "answer": "10.41 mil millones de yuanes",
+      "explanation": "27.1 mil millones × 38.4% = 10.4064 mil millones. Redondeado a 2 decimales es 10.41 mil millones de yuanes.",
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es la proporción del punto de venta de 'Sabor intenso' por el que los consumidores están dispuestos a pagar un precio más alto en comparación con el porcentaje de consumidores que consideran el factor de sabor? Redondee a 2 decimales. Respuesta: xx.xx veces",
+      "answer": "0.83 veces",
+      "explanation": "32.0% ÷ 38.4% = 0.8333. Redondeado a 2 decimales es 0.83 veces.",
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es la proporción de las ventas de cerveza en comercio electrónico en el primer trimestre de 2022 en relación con el total de las ventas de 2021T2 - 2022T1? Expresar en porcentaje y redondear a 1 decimal. Respuesta: xx.xx%",
+      "answer": "40.2%",
+      "explanation": "Ventas en 2022T1: 10.9 mil millones ÷ Total de ventas: 27.1 mil millones = 0.402 × 100% = 40.2%",
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en las gráficas de factores de consideración de compra de cerveza y puntos de venta de la cerveza por los que los consumidores están dispuestos a pagar un precio más alto, ¿qué factores son altamente prioritarios en la toma de decisiones de los consumidores y también tienen una fuerte voluntad de pagar un precio más alto?",
+      "answer": {
+        "A": "Los factores de sabor ocupan un lugar dominante en la toma de decisiones de compra, y los consumidores también están dispuestos a pagar un costo adicional por una experiencia de sabor más rica.",
+        "B": "La concentración de mosto de malta es un punto central de consideración de compra, y su versión de alta concentración es uno de los principales factores impulsadores para que los consumidores paguen un precio más alto.",
+        "C": "El factor de relación calidad - precio es importante en la toma de decisiones de compra (24.8%), y los consumidores están dispuestos a pagar un costo adicional por productos de alta relación calidad - precio.",
+        "D": "El factor del contenido de alcohol ocupa el 28.1% en la consideración de compra, y los consumidores están muy dispuestos a pagar un precio más alto por la característica de bajo contenido de alcohol (22.4%).",
+        "E": "El factor del conocimiento de la marca tiene una proporción relativamente alta en la consideración de compra (26.5%), y los consumidores también están dispuestos a pagar un precio más alto por las marcas conocidas.",
+        "F": "Aunque la cerveza elaborada con proceso tradicional no se destaca en la consideración de compra, se muestra fuerte en la voluntad de pago, lo que indica que los consumidores reconocen el precio más alto por la herencia del proceso.",
+        "G": "El proceso de elaboración se encuentra en un lugar destacado en los factores de consideración de compra (25.8%), y los consumidores están muy dispuestos a pagar un precio más alto por la cerveza elaborada con proceso de alta tecnología (18.4%)."
+      },
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en las gráficas de factores de consideración de compra de cerveza y puntos de venta de la cerveza por los que los consumidores están dispuestos a pagar un precio más alto, ¿qué factores son altamente valorados en la toma de decisiones de los consumidores, pero la voluntad de pagar un costo adicional es relativamente baja?",
+      "answer": {
+        "A": "El factor de sabor domina en la toma de decisiones de compra (38.4%), pero los consumidores no están dispuestos a pagar un costo adicional por un sabor más rico.",
+        "B": "La concentración de mosto de malta es importante en la consideración de compra (31.3%), pero su proporción en la voluntad de pagar un precio más alto es muy baja.",
+        "C": "El factor de nuevos sabores/nuevas sensaciones ocupa el 20.5% en la consideración de compra, y los consumidores no tienden a pagar un precio más alto por ello.",
+        "D": "El factor de la riqueza de la espuma ocupa el 22.7% en la consideración de compra, y la voluntad de pago de los consumidores es baja.",
+        "E": "La evaluación de boca en boca, como un factor clave en la toma de decisiones de compra, no se destaca en la voluntad de pagar un precio más alto, lo que refleja que su influencia no se convierte directamente en una situación sensible al precio.",
+        "F": "El conocimiento de la marca tiene una proporción relativamente alta en la consideración de compra, pero falta en los factores impulsadores para pagar un precio más alto, lo que muestra que la lealtad a la marca no necesariamente aumenta la voluntad de pago.",
+        "G": "El factor de relación calidad - precio se considera ampliamente en la compra, pero no entra en los diez principales puntos de venta en la voluntad de pagar un precio más alto, lo que indica que los consumidores valoran el valor pero no quieren pagar un precio más alto."
+      },
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en la variación trimestral de las ventas de cerveza en comercio electrónico y la voluntad de los consumidores de pagar por los puntos de venta de la cerveza, ¿qué puntos de venta con alta voluntad de pago pueden estar potencialmente relacionados con el aumento significativo de las ventas en el primer trimestre de 2022?",
+      "answer": {
+        "A": "Las ventas en el tercer trimestre de 2021 fueron de 500 millones de yuanes, el mínimo, pero la voluntad de pago por la cerveza elaborada con proceso tradicional es alta (24.4%), lo que puede haber tenido un impacto en ese trimestre.",
+        "B": "La voluntad de pago por la alta concentración de mosto de malta es destacada, lo que puede haber atraído a los consumidores a aumentar la cantidad de compra en ese trimestre.",
+        "C": "El punto de venta de ingredientes naturales ocupa el primer lugar en la voluntad de pago, lo que puede estar fuertemente relacionado con el aumento de las ventas en el primer trimestre de 2022.",
+        "D": "El sabor intenso, como el punto de venta con la voluntad de pago más fuerte, su tendencia de popularidad puede estar relacionada con el pico de ventas en ese trimestre.",
+        "E": "La atractividad del precio más alto de la cerveza elaborada con proceso tradicional puede haber impulsado el aumento de las ventas en ese trimestre.",
+        "F": "El factor de las recomendaciones de KOL ocupa el 11.1% en la voluntad de pago, y los consumidores pueden haber aumentado la compra por ello, impulsando el aumento de las ventas en el primer trimestre de 2022.",
+        "G": "La conveniencia de compra ocupa el 20.0% en la consideración de compra, lo que puede haber promovido el pico de ventas trimestral al mejorar la conveniencia."
+      },
+      "charts_involved": [
+        "chart_90_2",
+        "chart_90_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en las características de preferencia y la tendencia de la voluntad de pago de los consumidores hacia la cerveza, ¿cómo debería la equipo de desarrollo de productos optimizar las características del producto para mejorar la competitividad en el mercado y las ventas? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Incrementar la inversión en la promoción de la marca y en anunciantes, ya que el factor de la marca es generalmente importante en la decisión de los consumidores y puede mejorar la influencia general en el mercado.",
+        "B": "Mejorar la optimización de la concentración de mosto de malta, ya que este factor ocupa el segundo lugar en las consideraciones de compra y tiene una proporción significativa en los puntos de venta con alta voluntad de pago, lo que ayudará a diferenciar el producto en un mercado altamente competitivo.",
+        "C": "Centrarse en reducir el costo y el precio del producto para atraer a más consumidores sensibles al precio y ampliar la cuota de mercado.",
+        "D": "Optimizar en primer lugar la riqueza de la espuma, ya que este factor representa el 22.7% en las consideraciones de compra y los consumidores podrían estar dispuestos a pagar un plus por ello.",
+        "E": "Centrarse en la mejora del proceso tradicional y de los ingredientes naturales, ya que estos puntos de venta ocupan puestos altos en la voluntad de pago y están altamente relacionados con los ingredientes y el proceso de elaboración en las consideraciones de compra, lo que puede mejorar la percepción de alta gama del producto.",
+        "F": "Invertir en primer lugar en mejorar la riqueza del sabor, ya que el sabor tiene la mayor proporción en la decisión de compra de los consumidores y es el punto de venta por el que los consumidores están más dispuestos a pagar un plus, lo que puede atraer directamente a los grupos de consumo principales y aumentar la capacidad de plus del producto."
+      },
+      "charts_involved": [
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combinando el patrón de cambio trimestral de las ventas de cerveza en comercio electrónico y las preferencias centrales de los consumidores, ¿cómo se deberían asignar los recursos de marketing y el momento de las actividades para maximizar las ventas y los beneficios? Por favor, seleccione la sugerencia de estrategia más efectiva:",
+      "answer": {
+        "A": "Concentrar el presupuesto de marketing en el trimestre de pico de ventas (por ejemplo, el primer trimestre) y resaltar los factores de compra con mayor proporción, como el sabor, ya que las ventas aumentan significativamente en este trimestre y las preferencias centrales pueden amplificar el efecto del marketing y lograr una alta relación de retorno de la inversión.",
+        "B": "Mantener una inversión de marketing equilibrada durante todo el año, pero centrarse en los puntos de venta de alta gama con alta voluntad de pago (como el proceso tradicional) en los trimestres de pico y en los factores de compra, como la conveniencia o la reputación, en los trimestres de baja, para adaptarse a las fluctuaciones de la demanda y mejorar la eficiencia general de los canales.",
+        "C": "Incrementar las actividades de promoción en el trimestre de baja de ventas (por ejemplo, el cuarto trimestre) y enfatizar factores de preferencia secundarios, como la relación calidad - precio o los nuevos sabores, ya que la demanda es débil en este trimestre y estos factores tienen una proporción moderada en las consideraciones de compra, lo que puede estimular las ventas adicionales.",
+        "D": "Mantener una asignación fija del presupuesto de marketing durante todo el año para garantizar la coherencia de la marca y evitar los riesgos causados por las fluctuaciones trimestrales.",
+        "E": "Concentrar los recursos de marketing en el Q3 (2021Q3), ya que las ventas en este trimestre son de 5.0 mil millones y se encuentra en un nivel medio, es adecuado resaltar el factor de la evaluación de boca en boca (que representa el 29.4%) para estimular la demanda.",
+        "F": "Incrementar las actividades de promoción en el Q4 (2021Q4) y enfatizar la conveniencia de compra (que representa el 20.0%) y la relación calidad - precio (que representa el 24.8%), ya que estos factores ocupan posiciones moderadas en las consideraciones de compra y pueden aumentar efectivamente las ventas en el trimestre de baja."
+      },
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_2",
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "En función de la voluntad de los consumidores de pagar un precio más alto y la tendencia de las ventas de cerveza en comercio electrónico, ¿cómo debería la empresa diseñar una línea de productos de cerveza de alta gama para mejorar la capacidad de plus y la cuota de mercado? Por favor, seleccione la sugerencia de estrategia óptima:",
+      "answer": {
+        "A": "Integrar un proceso de elaboración de alta tecnología, ya que este punto de venta representa el 18.4% en la voluntad de pago y el proceso de elaboración representa el 25.8% en las consideraciones de compra, lo que puede reflejar la innovación y la alta gama del producto.",
+        "B": "Diseñar productos con alto contenido de alcohol, ya que el contenido de alcohol representa el 28.1% en las consideraciones de compra y el 22.4% en la voluntad de pago, lo que puede atraer a un segmento de mercado que busca cervezas fuertes.",
+        "C": "Ampliar la línea de productos para incluir más opciones de gama media y baja para cubrir a los consumidores sensibles al precio y aumentar así la cuota de mercado general.",
+        "D": "Integrar puntos de venta emergentes, como bajo impacto (por ejemplo, bajo en calorías, bajo en grasa, bajo en azúcar) o frescura, ya que estos tienen una proporción moderada en la voluntad de pago pero un gran potencial de crecimiento, y las ventas de cerveza en comercio electrónico muestran elasticidad de demanda en los trimestres de pico, lo que permite capturar un mercado diferenciado.",
+        "E": "Innovar en productos con alta concentración de mosto de malta o procesos tradicionales, ya que estos puntos de venta ocupan puestos altos en la voluntad de pago y están relacionados con la concentración de mosto de malta, que ocupa el segundo lugar en las consideraciones de compra, lo que puede atraer a un segmento de mercado que busca calidad.",
+        "F": "Desarrollar productos de alta gama centrándose en la riqueza del sabor, ya que este punto de venta tiene la mayor proporción en la voluntad de pago de los consumidores y el sabor tiene la mayor proporción en las consideraciones de compra de los consumidores, lo que puede convertir directamente las preferencias de los consumidores en capacidad de plus del producto."
+      },
+      "charts_involved": [
+        "chart_90_1",
+        "chart_90_3",
+        "chart_90_4"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

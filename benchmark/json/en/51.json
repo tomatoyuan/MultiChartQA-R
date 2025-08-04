@@ -1,0 +1,208 @@
+{
+  "chart": [
+    "chart_51_1",
+    "chart_51_2",
+    "chart_51_3",
+    "chart_51_4",
+    "chart_51_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Is the change trend of the overall income in 'Original Premium Income and Growth Rate of the Chinese Insurance Industry from 2019 to 2026' and the overall investment in 'China Insurance Industry Frontier Technology Investment from 2024 to 2029' consistent from 2024 to 2026? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are increasing.",
+      "charts_involved": [
+        "chart_51_1",
+        "chart_51_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is there a positive correlation between the overall technology investment in 'China Insurance Industry Frontier Technology Investment from 2024 to 2029' and the technology investment in 'China Insurance Industry Technology Investment from 2023 to 2028' from 2023 to 2028? Answer positive correlation, negative correlation or no correlation.",
+      "answer": "Positive correlation",
+      "explanation": "When the overall technology investment in chart_51_4 increases, the technology investment in chart_51_3 also increases accordingly.",
+      "charts_involved": [
+        "chart_51_3",
+        "chart_51_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "When the growth rate in 'China Insurance Industry Technology Investment from 2023 to 2028' reaches the minimum value, does the AI technology investment in 'China Insurance Industry Frontier Technology Investment from 2024 to 2029' also reach the minimum value? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The minimum growth rate in chart_51_3 is in 2026e, and the AI technology investment in chart_51_4 is still increasing at this time.",
+      "charts_involved": [
+        "chart_51_3",
+        "chart_51_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the proportion of China's insurance industry's AI technology investment in the industry's total technology investment in 2024? Express the result as a percentage and round to 2 decimal places. Answer: xx.xx%",
+      "answer": "10.41%",
+      "explanation": "In 2024, China's insurance industry's AI technology investment was 61.1 billion yuan, and the total technology investment in the insurance industry was 586.7 billion yuan. The proportion is (61.1 ÷ 586.7) × 100% ≈ 10.41%.",
+      "charts_involved": [
+        "chart_51_3",
+        "chart_51_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2025, if we exclude the total investment in frontier technologies from the total technology investment in China's insurance industry, what is the remaining amount in billion yuan? Round to 1 decimal place. Answer: xx.x billion yuan",
+      "answer": "528.0 billion yuan",
+      "explanation": "In 2025, the total technology investment in China's insurance industry was 672.9 billion yuan, and the total investment in frontier technologies was 14.6 + 32.3 + 73.7 + 24.3 = 144.9 billion yuan. The remaining amount is 672.9 - 144.9 = 528.0 billion yuan.",
+      "charts_involved": [
+        "chart_51_3",
+        "chart_51_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the ratio of China's insurance industry's technology investment in 2023 to the productivity improvement brought by generative AI in the insurance industry in the same year (assuming 1 US dollar = 7 Chinese yuan)? Round to 3 decimal places. Answer: xx.xxx",
+      "answer": "0.011",
+      "explanation": "In 2023, China's insurance industry's technology investment was 517.6 billion yuan. The productivity improvement brought by generative AI in the insurance industry in 2023 was 70 billion US dollars (i.e., 700 billion US dollars, which is equivalent to 700 × 7 = 49000 billion yuan in Chinese yuan). The ratio is 517.6 ÷ 49000 ≈ 0.011.",
+      "charts_involved": [
+        "chart_51_2",
+        "chart_51_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the premium income trend and technology investment data of the Chinese insurance industry, what factors may drive the continuous increase in technology investment?",
+      "answer": {
+        "A": "The growth rate of technology investment is similar to the compound annual growth rate (CAGR) of premium income, indicating that while the industry is expanding its business, it is simultaneously increasing digital investment to improve efficiency.",
+        "B": "The growth rate of technology investment is much lower than the compound annual growth rate (CAGR) of premium income, indicating that funds are mainly used for business expansion rather than technological innovation.",
+        "C": "Government policies promote the digital transformation of the insurance industry, directly stimulating the increase in technology investment, which is a common trend in the industry.",
+        "D": "The overall upward trend of premium income, especially the stable growth of health insurance and life insurance, may provide financial support for technology investment, which is consistent with the annual increase in the amount of technology investment.",
+        "E": "The rapid decline in health insurance premium income forces insurance companies to increase technology investment to optimize costs.",
+        "F": "The growth rate of technology investment in 2023 was 13.4%, while the growth rate of life insurance premium income in the same year was negative, indicating that the decrease in income actually drove technology investment.",
+        "G": "From 2019 to the end of the forecast period, the scale of premium income has expanded, while technology investment has accelerated since 2023, indicating that the growth of income may release more resources for technological innovation."
+      },
+      "charts_involved": [
+        "chart_51_1",
+        "chart_51_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the productivity improvement potential of generative AI in different industries and the distribution of winning bids for large - scale financial industry models, what contradictory phenomena exist in the application of AI in the insurance industry?",
+      "answer": {
+        "A": "The health and wellness industry ranks lowest in AI productivity improvement, but the insurance industry, as a related industry, has a relatively high winning bid share, highlighting the misallocation of resources.",
+        "B": "The insurance industry shows a medium - level performance in AI productivity improvement, but its share of the amount in winning bids for large - scale financial models is extremely low, indicating that its potential has not been fully translated into actual project deployment.",
+        "C": "The productivity of the banking industry in AI is lower than that of the insurance industry (the productivity of the banking industry is $10 billion), but the banking industry accounts for 56% of the amount in winning bids, reflecting that the insurance industry has more advantages but is not valued.",
+        "D": "The insurance industry takes a conservative attitude towards AI technology, resulting in a lag in application, which is a common problem in the financial field.",
+        "E": "The health and wellness industry ranks high in AI productivity, but the insurance industry, as a related field, has a small share in large - scale financial model projects, suggesting that there may be deficiencies in cross - industry resource integration or priority setting.",
+        "F": "The insurance industry ranks first in AI productivity improvement (with productivity data of $45 billion), but it only accounts for 8% of the amount in winning bids for large - scale financial models, indicating that its potential has not been translated into implementation.",
+        "G": "Although the AI productivity data shows that the insurance industry has significant room for improvement, the actual number and amount of winning bids in the financial field are far lower than those of the banking industry, reflecting a lag in market implementation or a competitive disadvantage."
+      },
+      "charts_involved": [
+        "chart_51_2",
+        "chart_51_5"
+      ],
+      "label": [
+        "B",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the trend of total technology investment in the insurance industry and the specific investment data of frontier technologies, what key role does AI technology play in the industry's digital transformation?",
+      "answer": {
+        "A": "The stable growth of total technology investment is partly driven by the high investment in AI technology, because the proportion of AI investment in technology investment is significant and its growth rate is faster.",
+        "B": "The scale of total technology investment is expanding, and at the same time, the investment in AI technology continues to rise and its proportion increases during the forecast period, implying that AI is becoming the core of the digital transformation of the insurance industry.",
+        "C": "AI technology is the most basic technology in the insurance industry because all industries give priority to investing in AI to improve efficiency.",
+        "D": "From the start year to the end year of the forecast, the compound growth rate of AI technology investment far exceeds the average growth rate of total technology investment, indicating that AI is the main engine of growth among frontier technologies.",
+        "E": "The compound annual growth rate (CAGR) of total technology investment far exceeds the CAGR of AI technology investment, indicating that AI is not the main growth engine.",
+        "F": "The investment in cloud technology accounts for the highest proportion and has the fastest growth rate, leading the digital transformation, while AI only plays an auxiliary role.",
+        "G": "The proportion of AI technology investment in the total investment in frontier technologies is less than 20% (for example, it was only 25% in 2024), indicating that its importance is relatively low."
+      },
+      "charts_involved": [
+        "chart_51_3",
+        "chart_51_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the growth trend of insurance industry premium income and the productivity improvement potential of generative AI in different industries, how should insurance companies prioritize the allocation of technology resources to maximize operational efficiency and market competitiveness? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "It is recommended that insurance companies increase investment in brand marketing and customer service, such as promoting brand awareness through social media advertising, to indirectly enhance market competitiveness.",
+        "B": "Focus on increasing investment in AI technology in the health insurance field. The premium income of health insurance has a strong and continuous growth momentum, and the productivity improvement potential of generative AI in the health and wellness industry is prominent, which can effectively improve the efficiency of underwriting and claims settlement and capture high - growth market opportunities.",
+        "C": "Moderately control the proportion of technology investment in the accident insurance field and shift resources to the AI application in property insurance or life insurance. The premium growth of accident insurance is relatively flat, and the productivity improvement potential of generative AI in the insurance industry as a whole is relatively low; while the premium of property insurance is growing steadily, and the productivity of AI in related industries (such as banking) is relatively high, which can achieve more efficient use of resources.",
+        "D": "Give priority to investing in the upgrade of basic IT infrastructure, such as updating office software and hardware equipment, to ensure the stability of daily operations without specifying a specific technology field.",
+        "E": "In view of the flat growth of accident insurance premium income (from 110 billion yuan in 2020 to 170 billion yuan in 2026e), but the high productivity improvement potential of generative AI in the insurance industry (7 billion US dollars), AI technology should be mainly deployed in the accident insurance field to significantly improve efficiency.",
+        "F": "Balance and increase the integrated investment in cloud technology and AI. The predicted growth rate of cloud technology investment is stable and continues to expand on a high base, and the application of generative AI highly depends on cloud infrastructure; combined with the productivity improvement data of AI in multiple industries, this strategy can strengthen the technological foundation and support the efficiency optimization of all types of insurance.",
+        "G": "Due to the strong growth of health insurance premium income (from 817.3 billion yuan in 2020 to 1059.1 billion yuan in 2026e), but the prominent potential of generative AI in the health and wellness industry (26 billion US dollars), it is recommended to reduce the technology investment in health insurance to avoid wasting resources in the already high - growth field."
+      },
+      "charts_involved": [
+        "chart_51_1",
+        "chart_51_2",
+        "chart_51_4"
+      ],
+      "label": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "In view of the rapid growth trend of technology investment in the insurance industry and the current share in large - scale financial industry model projects, how should insurance companies adjust their technology investment strategies to enhance project influence and market share? Please select the most effective suggestion.",
+      "answer": {
+        "A": "Give priority to expanding emerging markets such as overseas business through an internationalization strategy to increase market share without focusing on optimizing technology investment.",
+        "B": "It is recommended that insurance companies strengthen industry alliances, such as cooperating with banks to develop shared technology platforms, to share costs and expand influence.",
+        "C": "Give priority to deploying large - scale model technology in the health insurance field and increase relevant capital investment. The premium income of health insurance is leading in growth and has great potential, and the productivity improvement of generative AI in the health and wellness industry is significant; focusing on this field can utilize synergies, enhance project success rates, and drive premium growth.",
+        "D": "Since the insurance projects only account for 8% of the amount in large - scale financial models (chart_51_5), but the growth rate of technology investment is high (from 13.4% in 2023 to 16.8% in 2028), investment in large - scale models should be reduced and resources should be shifted to traditional marketing channels to quickly increase market share.",
+        "E": "Significantly increase the investment priority and proportion of AI large - scale model projects. Although the proportion of insurance projects in the financial industry is relatively low, the overall technology investment in the insurance industry has a high and accelerating growth rate. Combined with the productivity improvement potential of generative AI, this strategy can quickly narrow the gap with leading industries (such as banking) and increase innovation returns.",
+        "F": "In view of the low productivity potential of generative AI in the insurance industry (7 billion US dollars), but the high potential in the health and wellness industry (26 billion US dollars), it is recommended to shift technology resources to the development of health and wellness services rather than the core insurance business.",
+        "G": "Optimize the investment structure to strengthen the fundamental role of cloud technology in large - scale model projects. The growth rate of cloud technology investment in frontier technology investment is stable and the scale is expanding rapidly, and the application of generative AI highly depends on cloud resources; combined with the overall high - growth trend of technology investment, this can ensure the scalability and long - term efficiency of projects."
+      },
+      "charts_involved": [
+        "chart_51_5",
+        "chart_51_3",
+        "chart_51_2",
+        "chart_51_1"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "According to the predicted growth of frontier technology investment in the insurance industry and the cost structure of each technology category, how should resources be dynamically allocated among AI, cloud technology, RPA/IPA and other fields to achieve the best cost - effectiveness? Please select the most reasonable strategy.",
+      "answer": {
+        "A": "In view of the large scale of cloud technology investment (from 1.88 billion yuan in 2024e to 8.85 billion yuan in 2029e), but the growth rate is lower than that of AI (AI investment increases from 6.11 billion yuan to 15.36 billion yuan), it is recommended to reduce cloud investment and concentrate resources on AI to maximize benefits.",
+        "B": "Significantly tilt resources towards AI technology investment. The predicted growth rate of AI investment is the fastest and the base is large. Although the current productivity improvement potential of generative AI in the insurance industry is relatively low, there is a large growth space; combined with the high - growth trend of health insurance premium income, this strategy can maximize the return on unit investment and drive innovation.",
+        "C": "Since the investment scale of RPA/IPA is small and the growth rate is flat (from 1.22 billion yuan in 2024e to 2.93 billion yuan in 2029e), but the base of AI investment is large (6.11 billion yuan in 2024e), the proportion of RPA/IPA investment should be significantly increased because of its low cost and quick return.",
+        "D": "Give priority to investing in sustainable development projects, such as carbon footprint management systems, to enhance corporate reputation and indirectly optimize long - term costs.",
+        "E": "It is recommended that insurance companies implement a comprehensive cost - cutting plan, such as reducing the scale of the R & D team, to save resources in the short term and improve efficiency.",
+        "F": "Control the growth rate of RPA/IPA investment and mainly use it for the optimization of automated processes. The investment in RPA/IPA is relatively small and the growth rate is flat, but the overall premium income of the insurance industry is growing steadily; this strategy can shift the saved resources to high - potential technologies (such as AI) to improve the overall efficiency of resource utilization.",
+        "G": "Maintain a high proportion of cloud technology investment but optimize the growth rate rhythm. The scale of cloud technology investment is large and the compound growth rate is high, and the application of generative AI in various industries depends highly on cloud infrastructure; referring to the overall accelerating trend of technology investment, this can balance short - term costs and long - term efficiency."
+      },
+      "charts_involved": [
+        "chart_51_4",
+        "chart_51_2",
+        "chart_51_1",
+        "chart_51_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    }
+  ]
+}

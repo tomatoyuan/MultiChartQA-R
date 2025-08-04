@@ -1,0 +1,194 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of U.S. teens ages 13 to 17 from households with income $75K+ who say they ever use Facebook? Please answer with a percentage.\n question2: What proportion of U.S. adults with household income between $70K - $99,999 say they ever use Facebook?",
+                "rationale": "rationale1: The question asks for the proportion of U.S. teens in the 13 - 17 age range from high - income households who use Facebook, and the answer can be found in the chart.\n rationale2: The question requires us to find the specific proportion for U.S. adults with the given income range from the chart.",
+                "answer": "27%; 74%",
+                "involved_content_sources": [
+                    "chart_4-14",
+                    "chart_2-14"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults who say they ever use YouTube? Please answer with a percentage.\n question2: What was the proportion of U.S. teens ages 13 to 17 who said they ever used Reddit in 2022 - 2023? Please answer with a percentage.\n question3: What is the proportion of boys among U.S. teens ages 13 to 17 who say they ever use Facebook? Please answer with a percentage.",
+                "rationale": "rationale1: The question directly asks for the proportion of U.S. adults who use YouTube, and the relevant data is provided in the chart.\n rationale2: The question asks for the proportion of U.S. teens ages 13 - 17 who ever used Reddit in 2022 - 2023, which can be obtained from the chart.\n rationale3: The question is about the proportion of boys in the specified age - group who use Facebook, and the relevant data is in the chart.",
+                "answer": "83%; 14%; 29%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_3-15",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of suburban U.S. teens ages 13 to 17 who say they ever use Facebook? Please answer with a percentage.\n question2: What is the proportion of U.S. adults who say they ever use YouTube? Please answer with a percentage.\n question3: What was the proportion of U.S. teens ages 13 to 17 who said they ever used BeReal in 2022 - 2023? Please answer with a percentage.\n question4: What proportion of U.S. adults with household income between $70K - $99,999 say they ever use Facebook?",
+                "rationale": "rationale1: The question asks for the proportion of suburban U.S. teens in the given age - range who use Facebook, and the data is in the chart.\n rationale2: The question directly asks for the proportion of U.S. adults who use YouTube, and the relevant data is provided in the chart.\n rationale3: We are looking for the proportion of U.S. teens ages 13 - 17 who ever used BeReal in 2022 - 2023, and this data is in the chart.\n rationale4: The question requires us to find the specific proportion for U.S. adults with the given income range from the chart.",
+                "answer": "28%; 83%; 13%; 74%",
+                "involved_content_sources": [
+                    "chart_4-10",
+                    "chart_1-1",
+                    "chart_3-16",
+                    "chart_2-14"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of U.S. adults who ever use YouTube and those who ever use Twitter (X)?\n question2: What is the average proportion of U.S. teens ages 13 - 17 who say they ever use Facebook based on gender, age group (13 - 14 and 15 - 17), and household income level ($30K - $74,999 and $75K+)?",
+                "rationale": "rationale1: The question asks for the difference between the proportion of U.S. adults using YouTube and those using Twitter (X). We can find this by subtracting the proportion of Twitter (X) users from the proportion of YouTube users. This requires the proportion data of both platforms from the chart.\n rationale2: We need to find the average of the proportions of different subgroups. The subgroups considered are boys, girls, 13 - 14 year - olds, 15 - 17 year - olds, teens from households with income $30K - $74,999, and teens from households with income $75K+. We will add up these proportions and divide by the number of subgroups (6 in this case).",
+                "answer": "61%; 33",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-9",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-7",
+                    "chart_4-8",
+                    "chart_4-13",
+                    "chart_4-14"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of U.S. adults who ever use YouTube and those who ever use Twitter (X)?\n question2: What is the average proportion of U.S. teens ages 13 - 17 who say they ever use Facebook based on gender, age group (13 - 14 and 15 - 17), and household income level ($30K - $74,999 and $75K+)?\n question3: What is the total increase in the proportion of U.S. teens ages 13 - 17 who said they ever used YouTube, TikTok, and Snapchat from 2014 - 2015 to 2022 - 2023?",
+                "rationale": "rationale1: The question asks for the difference between the proportion of U.S. adults using YouTube and those using Twitter (X). We can find this by subtracting the proportion of Twitter (X) users from the proportion of YouTube users. This requires the proportion data of both platforms from the chart.\n rationale2: We need to find the average of the proportions of different subgroups. The subgroups considered are boys, girls, 13 - 14 year - olds, 15 - 17 year - olds, teens from households with income $30K - $74,999, and teens from households with income $75K+. We will add up these proportions and divide by the number of subgroups (6 in this case).\n rationale3: We need to find the increase in proportion for each platform (YouTube, TikTok, and Snapchat) separately by subtracting the 2014 - 2015 proportion from the 2022 - 2023 proportion, and then sum up these increases. This involves multiple data points from the chart to calculate the overall change for these three platforms.",
+                "answer": "61%; 33; 57",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-9",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-7",
+                    "chart_4-8",
+                    "chart_4-13",
+                    "chart_4-14",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of U.S. adults who ever use YouTube and those who ever use Twitter (X)?\n question2: What is the average proportion of U.S. teens ages 13 - 17 who say they ever use Facebook based on gender, age group (13 - 14 and 15 - 17), and household income level ($30K - $74,999 and $75K+)?\n question3: What is the total increase in the proportion of U.S. teens ages 13 - 17 who said they ever used YouTube, TikTok, and Snapchat from 2014 - 2015 to 2022 - 2023?\n question4: What is the average proportion of U.S. adults who ever use Facebook among different age groups (18 - 29, 30 - 49, 50 - 64, 65 and above)?",
+                "rationale": "rationale1: The question asks for the difference between the proportion of U.S. adults using YouTube and those using Twitter (X). We can find this by subtracting the proportion of Twitter (X) users from the proportion of YouTube users. This requires the proportion data of both platforms from the chart.\n rationale2: We need to find the average of the proportions of different subgroups. The subgroups considered are boys, girls, 13 - 14 year - olds, 15 - 17 year - olds, teens from households with income $30K - $74,999, and teens from households with income $75K+. We will add up these proportions and divide by the number of subgroups (6 in this case).\n rationale3: We need to find the increase in proportion for each platform (YouTube, TikTok, and Snapchat) separately by subtracting the 2014 - 2015 proportion from the 2022 - 2023 proportion, and then sum up these increases. This involves multiple data points from the chart to calculate the overall change for these three platforms.\n rationale4: To find the average, we need to sum up the proportions of different age - groups and then divide by the number of age - groups. The relevant data about different age - groups' proportions of using Facebook are provided in the chart, and we will use these values for the calculation.",
+                "answer": "61%; 33; 57; 67.25%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-9",
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_4-7",
+                    "chart_4-8",
+                    "chart_4-13",
+                    "chart_4-14",
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_2-8",
+                    "chart_2-9",
+                    "chart_2-10",
+                    "chart_2-11"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who use Facebook and the proportion of U.S. teens who used Facebook in 2022 - 2023?",
+                "rationale": "The proportion of U.S. adults who use Facebook is 68% (from Chart 2). The proportion of U.S. teens who used Facebook in 2022 - 2023 is 33% (from Chart 3). The difference is 68% - 33% = 35%.",
+                "answer": "35%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_3-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the difference between the average of the proportion of U.S. adults who ever use Facebook, the proportion of U.S. adult women who ever use Facebook, and the proportion of U.S. teens in 2022 - 2023 who ever used Facebook, and the proportion of U.S. adults who ever use TikTok? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who ever use Facebook is 68% (chart_1-2). The proportion of U.S. adult women who ever use Facebook is 76% (chart_2-3). The proportion of U.S. teens in 2022 - 2023 who ever used Facebook is 33% (chart_3-10). The average of these three values is (68% + 76% + 33%) / 3 = 59%. The proportion of U.S. adults who ever use TikTok is 33% (chart_1-5). The difference is 59% - 33% = 26%.",
+                "answer": "26.00%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-3",
+                    "chart_3-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the proportion of U.S. adults who ever use Facebook and the average of the proportion decrease of U.S. teens using Facebook from 2014 - 2015 to 2022 - 2023, the proportion of U.S. adult men using Facebook, and the proportion of U.S. teens from households with income $75K+ using Facebook?",
+                "rationale": "The proportion of U.S. adults who ever use Facebook is 68% (chart_1-2). The proportion decrease of U.S. teens using Facebook from 2014 - 2015 to 2022 - 2023 is 95% - 33% = 62% (chart_3-9 and chart_3-10). The proportion of U.S. adult men using Facebook is 59% (chart_2-2). The proportion of U.S. teens from households with income $75K+ using Facebook is 27% (chart_4-14). The average of these three values is (62% + 59% + 27%) / 3 = 49.33%. The difference between the proportion of U.S. adults using Facebook and this average is 68% - 49.33% = 18.67%.",
+                "answer": "18.67%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_2-2",
+                    "chart_3-9",
+                    "chart_4-14"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average proportion of U.S. adults aged 18 - 29 and 30 - 49 who use Facebook, and the average proportion of U.S. teens aged 13 - 14 and 15 - 17 who use Facebook?",
+                "rationale": "Among U.S. adults, the proportion of those aged 18 - 29 who use Facebook is 67% (chart_2-8), and the proportion of those aged 30 - 49 who use Facebook is 75% (chart_2-9). The average of these two proportions is (67% + 75%) / 2 = 71%. Among U.S. teens, the proportion of those aged 13 - 14 who use Facebook is 24% (chart_4-7), and the proportion of those aged 15 - 17 who use Facebook is 38% (chart_4-8). The average of these two proportions is (24% + 38%) / 2 = 31%. Then the difference between the two is 71% - 31% = 40%.",
+                "answer": "40%",
+                "involved_content_sources": [
+                    "chart_2-8",
+                    "chart_2-9",
+                    "chart_4-7",
+                    "chart_4-8"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of U.S. adults who use Facebook, the change in the proportion of U.S. teens using Facebook from 2014 - 2015 to 2022 - 2023, and the proportion of U.S. teen girls who use Facebook, with weights being 0.4, 0.3, and 0.3 respectively?",
+                "rationale": "The proportion of U.S. adults who use Facebook is 68% (chart_1-2). The proportion of U.S. teens using Facebook in 2014 - 2015 was 95% (chart_3-9), and in 2022 - 2023 it was 33% (chart_3-10), so the change is 95% - 33% = 62%. The proportion of U.S. teen girls who use Facebook is 36% (chart_4-3). The weighted average is (68%\u00d70.4 + 62%\u00d70.3 + 36%\u00d70.3) = (0.68\u00d70.4 + 0.62\u00d70.3 + 0.36\u00d70.3) = 0.272 + 0.186 + 0.108 = 0.566 = 56.6%.",
+                "answer": "56.6%",
+                "involved_content_sources": [
+                    "chart_1-2",
+                    "chart_1-3",
+                    "chart_3-9",
+                    "chart_3-10",
+                    "chart_4-3",
+                    "chart_4-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. adult men and women who use Facebook, the difference between the proportion of U.S. teens using Facebook in 2014 - 2015 and 2022 - 2023, the difference between the proportion of U.S. adults using Facebook and TikTok, and the difference between the proportion of rural and suburban U.S. teens using Facebook?",
+                "rationale": "From Chart 2, the proportion of U.S. adult men who use Facebook is 59% (chart_2-2), and that of U.S. adult women is 76% (chart_2-3). The difference is 76% - 59% = 17%. From Chart 3, the proportion of U.S. teens using Facebook in 2014 - 2015 was 95% (chart_3-9), and in 2022 - 2023 it was 33% (chart_3-10). The difference is 95% - 33% = 62%. From Chart 1, the proportion of U.S. adults using Facebook is 68% (chart_1-2), and that using TikTok is 33% (chart_1-5). The difference is 68% - 33% = 35%. From Chart 4, the proportion of rural U.S. teens using Facebook is 40% (chart_4-11), and that of suburban U.S. teens is 28% (chart_4-10). The difference is 40% - 28% = 12%. The average of these four differences is (17% + 62% + 35% + 12%) / 4 = 31.5%.",
+                "answer": "31.5%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-9",
+                    "chart_3-10",
+                    "chart_1-2",
+                    "chart_1-5",
+                    "chart_4-10",
+                    "chart_4-11"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the proportion of Mexican adults who have not too much/none at all confidence in Putin regarding world - affairs?\n question2: What was the percentage of U.S. adults who had a favorable view of Mexico in 2010?",
+                "rationale": "rationale1: We need to find the proportion of Mexican adults with not too much/none at all confidence in Putin regarding world - affairs, which can be obtained directly from the chart.\n rationale2: The question is about the percentage of U.S. adults having a favorable view of Mexico in 2010, and the relevant data is provided in the chart.",
+                "answer": "69%; 53%",
+                "involved_content_sources": [
+                    "chart_7-3",
+                    "chart_1-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the percentage of U.S. adults who had a favorable view of Mexico in 2010?\n question2: What is the proportion of Mexican adults who have a lot/some confidence in Macron regarding world - affairs?\n question3: What percentage of Mexican adults surveyed think the U.S. government is doing a somewhat good job dealing with the large number of people seeking asylum at the U.S. - Mexico border?",
+                "rationale": "rationale1: The question is about the percentage of U.S. adults having a favorable view of Mexico in 2010, and the relevant data is provided in the chart.\n rationale2: We can directly obtain the proportion of Mexican adults having a lot/some confidence in Macron regarding world - affairs from the given chart.\n rationale3: The question requires the percentage of Mexican adults who think the government is doing a somewhat good job. The relevant data is in chart_4-10.",
+                "answer": "53%; 29%; 41%",
+                "involved_content_sources": [
+                    "chart_1-5",
+                    "chart_7-14",
+                    "chart_4-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults surveyed who think the Mexican government is doing a bad job dealing with the large - number of people seeking asylum at the U.S. - Mexico border? (Answer in percentage)\n question2: What percentage of American adults surveyed think the U.S. government is doing a bad job dealing with the large number of people seeking asylum at the U.S. - Mexico border?\n question3: What is the proportion of White U.S. adults who have a favorable opinion of Mexico? (Answer in percentage)\n question4: In 2017, what was the proportion of Mexican adults who had no confidence in the U.S. president to do the right - thing regarding world affairs? Provide the answer as a percentage.",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults who think the Mexican government is doing a bad job. The relevant content in the chart directly provides this information.\n rationale2: The question asks for the percentage of American adults who think the government is doing a bad job. According to the chart, this information is directly given in chart_4-1.\n rationale3: The question focuses on the proportion of White U.S. adults with a favorable opinion of Mexico, and this data is available in the chart.\n rationale4: The question is about the proportion of Mexican adults lacking confidence in the U.S. president regarding world affairs in 2017. We can obtain this value from the relevant content in the chart.",
+                "answer": "67%; 83%; 30%; 93%",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_4-1",
+                    "chart_2-12",
+                    "chart_6-11"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who think the Mexican government is doing a bad job and the proportion of Mexican adults who think the Mexican government is doing a bad job in dealing with the large - number of people seeking asylum at the U.S. - Mexico border?\n question2: What is the average proportion of U.S. adults who have an unfavorable opinion of Mexico across different age groups (18 - 29, 30 - 49, 50 - 64, 65+)?",
+                "rationale": "rationale1: To answer this question, we need to extract the proportion of U.S. adults who think the Mexican government is doing a bad job and the proportion of Mexican adults who think the Mexican government is doing a bad job from the chart. Then we subtract the latter from the former. According to the chart, for U.S. adults, the proportion of those who think the Mexican government is doing a bad job is 67% (chart_5-1), and for Mexican adults, the proportion is 38% (chart_5-7).\n rationale2: To find the average, we need to sum up the proportions of unfavorable opinions for each age - group and then divide by the number of age - groups. The proportions for different age - groups are given in the chart, and we can use basic arithmetic operations to calculate the average.",
+                "answer": "29%; 59.5",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-7",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_2-7",
+                    "chart_2-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who think the Mexican government is doing a bad job and the proportion of Mexican adults who think the Mexican government is doing a bad job in dealing with the large - number of people seeking asylum at the U.S. - Mexico border?\n question2: What is the average proportion of U.S. adults who have an unfavorable opinion of Mexico across different age groups (18 - 29, 30 - 49, 50 - 64, 65+)?\n question3: What is the average proportion of Mexican adults who have confidence in the U.S. president to do the right - thing regarding world affairs from 2007 to 2024?",
+                "rationale": "rationale1: To answer this question, we need to extract the proportion of U.S. adults who think the Mexican government is doing a bad job and the proportion of Mexican adults who think the Mexican government is doing a bad job from the chart. Then we subtract the latter from the former. According to the chart, for U.S. adults, the proportion of those who think the Mexican government is doing a bad job is 67% (chart_5-1), and for Mexican adults, the proportion is 38% (chart_5-7).\n rationale2: To find the average, we need to sum up the proportions of unfavorable opinions for each age - group and then divide by the number of age - groups. The proportions for different age - groups are given in the chart, and we can use basic arithmetic operations to calculate the average.\n rationale3: To answer this question, we need to sum up the proportions of Mexican adults who have confidence in the U.S. president to do the right - thing regarding world affairs from 2007 to 2024 and then divide by the number of years. The relevant data can be found in the given chart.",
+                "answer": "29%; 59.5; 33.25",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-7",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_2-7",
+                    "chart_2-9",
+                    "chart_6-2",
+                    "chart_6-4",
+                    "chart_6-6",
+                    "chart_6-8",
+                    "chart_6-10",
+                    "chart_6-12",
+                    "chart_6-14",
+                    "chart_6-16",
+                    "chart_6-18"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference between the proportion of U.S. adults who think the Mexican government is doing a bad job and the proportion of Mexican adults who think the Mexican government is doing a bad job in dealing with the large - number of people seeking asylum at the U.S. - Mexico border?\n question2: What is the average proportion of U.S. adults who have an unfavorable opinion of Mexico across different age groups (18 - 29, 30 - 49, 50 - 64, 65+)?\n question3: What is the average proportion of Mexican adults who have confidence in the U.S. president to do the right - thing regarding world affairs from 2007 to 2024?\n question4: What is the difference in the proportion of those who think the U.S. government is doing a bad job dealing with the large number of asylum - seekers at the U.S. - Mexico border between American adults and Mexican adults?",
+                "rationale": "rationale1: To answer this question, we need to extract the proportion of U.S. adults who think the Mexican government is doing a bad job and the proportion of Mexican adults who think the Mexican government is doing a bad job from the chart. Then we subtract the latter from the former. According to the chart, for U.S. adults, the proportion of those who think the Mexican government is doing a bad job is 67% (chart_5-1), and for Mexican adults, the proportion is 38% (chart_5-7).\n rationale2: To find the average, we need to sum up the proportions of unfavorable opinions for each age - group and then divide by the number of age - groups. The proportions for different age - groups are given in the chart, and we can use basic arithmetic operations to calculate the average.\n rationale3: To answer this question, we need to sum up the proportions of Mexican adults who have confidence in the U.S. president to do the right - thing regarding world affairs from 2007 to 2024 and then divide by the number of years. The relevant data can be found in the given chart.\n rationale4: We need to subtract the proportion of Mexican adults who think the U.S. government is doing a bad job from the proportion of American adults who think so. The proportion data for American and Mexican adults can be found in the chart.",
+                "answer": "29%; 59.5; 33.25; 31",
+                "involved_content_sources": [
+                    "chart_5-1",
+                    "chart_5-7",
+                    "chart_2-3",
+                    "chart_2-5",
+                    "chart_2-7",
+                    "chart_2-9",
+                    "chart_6-2",
+                    "chart_6-4",
+                    "chart_6-6",
+                    "chart_6-8",
+                    "chart_6-10",
+                    "chart_6-12",
+                    "chart_6-14",
+                    "chart_6-16",
+                    "chart_6-18",
+                    "chart_4-1",
+                    "chart_4-7"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of Mexican adults who have a favorable view of the U.S. in 2024 and the proportion of Mexican adults who have confidence in the U.S. president to do the right - thing regarding world affairs in 2024?",
+                "rationale": "The proportion of Mexican adults who have a favorable view of the U.S. in 2024 is 63% (from chart_1-12). The proportion of Mexican adults who have confidence in the U.S. president to do the right - thing regarding world affairs in 2024 is 36% (from chart_6-18). The difference is 63% - 36% = 27%.",
+                "answer": "27%",
+                "involved_content_sources": [
+                    "chart_1-12",
+                    "chart_6-18"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the percentage of Mexican adults who have a favorable view of the U.S. in 2024, the proportion of U.S. adults aged 18 - 29 who have a favorable opinion of Mexico in 2024, and the percentage of Democratic/Lean - Democratic U.S. adults who have a favorable opinion of Mexico in 2024? (Round the result to two decimal places.)",
+                "rationale": "The percentage of Mexican adults who have a favorable view of the U.S. in 2024 is 63%. The proportion of U.S. adults aged 18 - 29 who have a favorable opinion of Mexico in 2024 is 48%. The percentage of Democratic/Lean - Democratic U.S. adults who have a favorable opinion of Mexico in 2024 is 52%. The average is (63% + 48% + 52%) / 3 = 54.33% (rounded to two decimal places).",
+                "answer": "54.33%",
+                "involved_content_sources": [
+                    "chart_1-12",
+                    "chart_2-4",
+                    "chart_3-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. adults with an unfavorable view of Mexico in 2024 and the proportion of Mexican adults with a favorable view of the U.S. in 2024, the difference between the proportion of American adults who think the U.S. government is doing a bad job dealing with asylum - seekers and the proportion of Mexican adults who think the same, and the difference between the proportion of Mexican adults having no confidence in Trump regarding world - affairs and the proportion of Mexican adults having confidence in Biden regarding world - affairs?",
+                "rationale": "The proportion of U.S. adults with an unfavorable view of Mexico in 2024 is 60% (chart_2 - 1), and the proportion of Mexican adults with a favorable view of the U.S. in 2024 is 63% (chart_1 - 12). The difference is 60% - 63%=- 3%. The proportion of American adults who think the U.S. government is doing a bad job dealing with asylum - seekers is 83% (chart_4 - 1), and the proportion of Mexican adults who think the same is 52% (chart_4 - 7). The difference is 83% - 52% = 31%. The proportion of Mexican adults having no confidence in Trump regarding world - affairs is 86% (chart_7 - 1), and the proportion of Mexican adults having confidence in Biden regarding world - affairs is 36% (chart_7 - 12). The difference is 86% - 36% = 50%. The average of these three differences is ((-3%)+31% + 50%)/3 = 26%.",
+                "answer": "26%",
+                "involved_content_sources": [
+                    "chart_1-12",
+                    "chart_2-1",
+                    "chart_4-1",
+                    "chart_7-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of U.S. adults who have a favorable view of Mexico in 2018 and 2024, and the proportion of Rep/Lean Rep U.S. adults who have a favorable opinion of Mexico in 2024?",
+                "rationale": "The proportion of U.S. adults who have a favorable view of Mexico in 2018 is 65% (chart_1-8), and in 2024 is 37% (chart_1-13). The average of these two proportions is (65% + 37%) / 2 = 51%. The proportion of Rep/Lean Rep U.S. adults who have a favorable opinion of Mexico in 2024 is 22% (chart_2-20). Then the difference between the two is 51% - 22% = 29%.",
+                "answer": "29%",
+                "involved_content_sources": [
+                    "chart_1-8",
+                    "chart_1-13",
+                    "chart_2-20",
+                    "chart_2-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of U.S. adults who have a favorable view of Mexico in 2024, the proportion of Democratic/Lean - Democratic U.S. adults who have a favorable opinion of Mexico in 2024, and the proportion of Mexican adults who say the U.S. government is doing a good job dealing with the large number of people seeking asylum at the U.S. - Mexico border, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of U.S. adults who have a favorable view of Mexico in 2024 is 37% (chart_1-13); the proportion of Democratic/Lean - Democratic U.S. adults who have a favorable opinion of Mexico in 2024 is 52% (chart_3-9); the proportion of Mexican adults who say the U.S. government is doing a good job dealing with the large number of people seeking asylum at the U.S. - Mexico border is 45% (chart_4-12). The weighted average is (37%\u00d70.2 + 52%\u00d70.3 + 45%\u00d70.5) = (0.37\u00d70.2 + 0.52\u00d70.3 + 0.45\u00d70.5) = 0.074 + 0.156 + 0.225 = 0.455 = 45.5%.",
+                "answer": "45.5%",
+                "involved_content_sources": [
+                    "chart_1-13",
+                    "chart_1-12",
+                    "chart_3-9",
+                    "chart_3-10",
+                    "chart_4-12",
+                    "chart_4-11"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. adults with a favorable view of Mexico in 2018 and 2024, the difference between the proportion of Democratic/Lean - Democratic U.S. adults with a favorable view of Mexico in 2017 and 2024, the difference between the proportion of Mexican adults who think the U.S. government is doing a good job dealing with asylum - seekers in 2024 and the proportion of American adults who think so, and the difference between the proportion of Mexican adults having confidence in the U.S. president in 2017 and 2024?",
+                "rationale": "1. First, calculate the difference in the proportion of U.S. adults with a favorable view of Mexico: In 2018, the proportion is 65% (chart_1-8), and in 2024, it is 37% (chart_1-13). The difference is 65% - 37% = 28%. 2. Then, calculate the difference in the proportion of Democratic/Lean - Democratic U.S. adults with a favorable view of Mexico: In 2017, it is 79% (chart_3-7), and in 2024, it is 52% (chart_3-9). The difference is 79% - 52% = 27%. 3. Next, calculate the difference in the proportion of adults who think the U.S. government is doing a good job dealing with asylum - seekers: Among Mexican adults, it is 45% (chart_4-12), and among American adults, it is 16% (chart_4-6). The difference is 45% - 16% = 29%. 4. Finally, calculate the difference in the proportion of Mexican adults having confidence in the U.S. president: In 2017, it is 5% (chart_6-12), and in 2024, it is 36% (chart_6-18). The difference is 36% - 5% = 31%. The average of these four differences is (28% + 27% + 29% + 31%) / 4 = 28.75%.",
+                "answer": "28.75%",
+                "involved_content_sources": [
+                    "chart_1-8",
+                    "chart_1-13",
+                    "chart_3-7",
+                    "chart_3-9",
+                    "chart_4-6",
+                    "chart_4-12",
+                    "chart_6-12",
+                    "chart_6-18"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

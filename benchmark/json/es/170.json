@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_170_1",
+    "chart_170_2",
+    "chart_170_3",
+    "chart_170_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La tendencia de la proporción de usuarios con depresión desde ninguno hasta grave (el grado se profundiza gradualmente) en la 'Evaluación del estado de depresión de los usuarios en la evaluación psicológica' es consistente con la tendencia de cambio del número promedio de sesiones de consulta de los visitantes de Simple Psychology entre 2020 y 2023? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas aumentan primero y luego disminuyen. La primera es 15.8 - 29.3 - 25.3 - 17.7 - 11.9; la segunda es 10.8 - 11.8 - 12.8 - 12.7.",
+      "charts_involved": [
+        "chart_170_1",
+        "chart_170_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Entre 2021 y 2023, ¿cuál es la relación entre el número promedio de sesiones de consulta de los visitantes de Simple Psychology y la proporción de visitantes varones? Responda correlación positiva, correlación negativa o no correlación.",
+      "answer": "Correlación negativa",
+      "explanation": "Entre 2021 y 2023, el número promedio de sesiones de consulta de los visitantes de Simple Psychology aumentó año tras año, mientras que la proporción de visitantes varones disminuyó año tras año. Existe una relación de correlación negativa entre los dos.",
+      "charts_involved": [
+        "chart_170_3",
+        "chart_170_5"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio de la proporción de visitantes varones en los visitantes de Simple Psicología Consulta entre 2022 y 2023 es consistente con la tendencia de cambio de la proporción de la edad entre 20 y 29 años en la 'Distribución de edades de los visitantes de Simple Psicología Consulta'? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas disminuyen.",
+      "charts_involved": [
+        "chart_170_4",
+        "chart_170_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En 2023, entre los visitantes que recibieron consulta psicológica, si el número promedio de sesiones de consulta del grupo de 30 - 39 años es el mismo que el promedio general, estime cuántas sesiones de consulta en total generó este grupo. Suponga que el número total de visitantes es de 10000 personas. En unidades de veces, redondee a 1 decimal.",
+      "answer": "47117.0 veces",
+      "explanation": "La proporción de personas de 30 - 39 años es del 37.1%. El número total de personas es de 10000, y el número correspondiente es de 3710. En 2023, el número promedio de sesiones de consulta es de 12.7 veces. 3710 × 12.7 = 47117.0 veces",
+      "charts_involved": [
+        "chart_170_3",
+        "chart_170_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En 2023, entre las visitantes femeninas de la plataforma de Simple Psicología, ¿cuántas son aproximadamente las que sufren depresión moderada o más grave en proporción a las mujeres, estimadas según la distribución general de los niveles de depresión? Suponga que el número total de visitantes es de 10000 personas. En unidades de personas, redondee a un número entero.",
+      "answer": "4282 personas",
+      "explanation": "La proporción de depresión moderada o más grave = 25.3% (moderada) + 17.7% + 11.9% = 54.9%. El número de mujeres es de 10000 × 78% = 7800. 7800 × 54.9% = 4282.2 ≈ 4282 personas",
+      "charts_involved": [
+        "chart_170_1",
+        "chart_170_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En la plataforma en 2023, entre los usuarios que presentan síntomas evidentes de depresión (depresión grave). Si el número total de usuarios en ese año es de 10000 y los resultados de la auto - evaluación de la salud mental de los usuarios con depresión evidente son los mismos que el conjunto, ¿cuántos son los que presentan síntomas evidentes de ansiedad? En unidades de personas, redondee a un número entero.",
+      "answer": "199 personas",
+      "explanation": "Entre los que presentan depresión evidente, el nivel de gravedad es del 11.9%. Es decir, cuando el número total de usuarios es de 10000, el número de personas con gravedad es de 10000 × 11.9% = 1190. La proporción de ansiedad evidente es del 16.7%. 1190 × 16.7% = 198.73 ≈ 199 personas",
+      "charts_involved": [
+        "chart_170_1",
+        "chart_170_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en la evaluación del estado de depresión de los usuarios y la distribución de los resultados de la auto - evaluación de salud mental, ¿cuál podría ser la relación implícita entre la distribución del grado de depresión en la evaluación y el informe de la dimensión de depresión en la auto - evaluación?",
+      "answer": {
+        "A": "La proporción de depresión grave en la evaluación es del 11.9%, mientras que la proporción de depresión obvia en la auto - evaluación es del 24.6%. El valor de la segunda es más alto, lo que indica que la auto - evaluación es más propensa a detectar depresiones graves.",
+        "B": "La proporción de salud en la dimensión de depresión de la auto - evaluación de salud mental es relativamente alta, pero la proporción de ausencia de depresión en la evaluación es baja. Esto refleja las diferencias entre la herramienta de evaluación y el autoconocimiento del usuario.",
+        "C": "La proporción de depresión leve en la auto - evaluación es del 40.3%, que es muy cercana a la proporción de depresión leve del 29.3% en la evaluación, lo que indica que los síntomas leves son identificados de manera consistente en ambos métodos.",
+        "D": "La evaluación muestra que la proporción de depresión moderada o más grave es alta, mientras que la proporción de depresión \"obvia\" en la auto - evaluación es relativamente baja, lo que indica que la auto - evaluación puede subestimar la gravedad de la depresión.",
+        "E": "La proporción de depresión \"leve\" en la auto - evaluación es alta, y la proporción de depresión leve en la evaluación también es significativa, lo que sugiere que los síntomas leves son identificados o reportados con más frecuencia en la auto - evaluación.",
+        "F": "La capacidad de autoconocimiento de los usuarios es deficiente, lo que hace que los resultados de la auto - evaluación sean completamente no confiables, mientras que los resultados de la evaluación son más autorizados.",
+        "G": "Tanto la evaluación como la auto - evaluación muestran que la mayoría de los usuarios no tienen problemas de depresión, por lo tanto, las dos herramientas de evaluación son altamente consistentes."
+      },
+      "charts_involved": [
+        "chart_170_1",
+        "chart_170_2"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "El número de sesiones de consulta mostró una tendencia general ascendente entre 2020 y 2023, pero disminuyó ligeramente en 2023. ¿Qué relación podría haber con el cambio en la distribución de edades de los visitantes entre 2022 y 2023?",
+      "answer": {
+        "A": "El número de sesiones de consulta aumentó continuamente entre 2020 y 2022 y disminuyó ligeramente en 2023. Mientras que la proporción de personas mayores de 40 años aumentó ligeramente en 2023. Debido a las diferentes necesidades de consulta del grupo mayor, el cambio en la estructura de edad podría haber amortiguado la amplitud de la disminución.",
+        "B": "Desde 2022 hasta 2023, la proporción del grupo de edad principal cambió (por ejemplo, la proporción de 20 - 29 años disminuyó). El número de sesiones de consulta se mantuvo en un nivel alto pero disminuyó ligeramente, lo que sugiere que la optimización de la distribución de edades podría afectar el número promedio de sesiones.",
+        "C": "La proporción de personas de 20 - 29 años disminuyó del 48.6% en 2022 al 46.9% en 2023, una reducción del 1.7%, mientras que el número de sesiones de consulta solo disminuyó 0.1 (de 12.8 a 12.7). Aunque la reducción de la proporción es grande, la reducción del número de sesiones es pequeña, lo que indica que el cambio de edad tiene un impacto débil.",
+        "D": "La proporción de visitantes de 20 - 29 años disminuyó en 2023, mientras que la proporción de 30 - 39 años aumentó. Dado que el grupo joven puede tener más tendencia a realizar consultas de alta frecuencia, el cambio en la estructura de edad explica en parte la disminución del número de sesiones de consulta.",
+        "E": "El cambio en la distribución de edades no tiene impacto en el número de sesiones de consulta, ya que las necesidades de salud mental son iguales en todas las edades.",
+        "F": "La proporción de visitantes mayores de 60 años se mantuvo estable en 2023 (0.4%), pero la demanda de consulta de los ancianos es baja, lo que causó la disminución del número de sesiones.",
+        "G": "La proporción de personas de 30 - 39 años aumentó del 35.8% en 2022 al 37.1% en 2023, pero el número de sesiones de consulta disminuyó, lo que demuestra que este grupo tiene una frecuencia de consulta más baja."
+      },
+      "charts_involved": [
+        "chart_170_3",
+        "chart_170_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "La proporción de reporte de ciertos problemas (como síntomas obsesivos - compulsivos o depresión) en la auto - evaluación de salud mental es alta, pero el número de sesiones de consulta disminuyó ligeramente en 2023. ¿Qué opciones mejor explican este conflicto potencial?",
+      "answer": {
+        "A": "Una proporción alta de problemas de salud mental necesariamente conduce a un aumento de la demanda de consulta. Por lo tanto, la disminución del número de sesiones de consulta en 2023 es un error en la recopilación de datos.",
+        "B": "Las dimensiones con una proporción alta de salud en la auto - evaluación (como fobia) son consistentes con la tendencia ascendente del número de sesiones de consulta, pero las dimensiones con una proporción alta de problemas (como depresión) no impulsaron el aumento del número de sesiones en 2023, lo que refleja las necesidades insatisfechas o las diferencias en el conocimiento y el comportamiento.",
+        "C": "El número de sesiones de consulta en 2023 fue de 12.7, solo 0.1 menos que los 12.8 en 2022, y la proporción de problemas se mantuvo estable. Por lo tanto, no existe un conflicto.",
+        "D": "La proporción de problemas de ansiedad y sensibilidad en relaciones interpersonales en la auto - evaluación es significativa, pero el número de sesiones de consulta disminuyó en 2023. Combinado con el aumento de la proporción de 30 - 39 años en la distribución de edades, es posible que este grupo busque menos consultas.",
+        "E": "La proporción de síntomas obsesivos - compulsivos obvios en la auto - evaluación es del 19.2%, más alta que la ansiedad del 16.7%, pero el número de sesiones de consulta disminuyó, lo que indica que los síntomas obsesivos - compulsivos impulsan menos las consultas.",
+        "F": "Es un patrón de comportamiento común que los usuarios reporten problemas pero no tomen medidas. Esto no está relacionado con los datos.",
+        "G": "La proporción de problemas de síntomas obsesivos - compulsivos y depresión en la auto - evaluación es alta, y el número de sesiones de consulta aumentó en general entre 2020 y 2023 pero disminuyó ligeramente en 2023. Esto puede deberse a la saturación del servicio o a factores externos (como el impacto económico) que contrarrestan la demanda."
+      },
+      "charts_involved": [
+        "chart_170_2",
+        "chart_170_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para una asignación más efectiva de los recursos de intervención en salud mental, ¿a qué síntomas o grupos de usuarios se deben priorizar para formular estrategias de refuerzo? Elija la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Proporcionar manuales de educación en salud mental estandarizados a todos los usuarios para reducir los costos de intervención y garantizar una cobertura básica.",
+        "B": "Diseñar más recursos de terapia cognitivo - conductual para los síntomas obsesivos - compulsivos, ya que la proporción obvia de este síntoma en la auto - evaluación es alta, la proporción leve también es grande y el número de sesiones de consulta ha aumentado en los últimos años, lo que indica que la demanda de los usuarios está en aumento, y la intervención oportuna puede prevenir la empeoramiento.",
+        "C": "Desarrollar cursos en línea preventivos para usuarios con problemas leves de salud mental, ya que la depresión leve tiene la mayor proporción y, combinado con la proporción general de síntomas leves en la auto - evaluación, la intervención temprana puede reducir el riesgo de progresar a una etapa grave.",
+        "D": "Fortalecer la intervención especializada en síntomas de hostilidad, ya que la proporción obvia de hostilidad del 14.3% es la más alta en la auto - evaluación y, combinado con la tendencia creciente del número de sesiones de consulta, indica que tiene el mayor riesgo.",
+        "E": "Recomendar aumentar la difusión de anuncios públicos sobre salud mental para mejorar el nivel general de conocimiento de la sociedad sobre la salud mental.",
+        "F": "Asignar recursos priorariamente a los usuarios con depresión moderadamente grave, ya que la proporción de depresión moderadamente grave del 17.7% es mayor que la de depresión grave del 11.9%, lo que indica que esta población tiene la mayor necesidad urgente.",
+        "G": "Priorizar la intervención especializada en síntomas de depresión, ya que el problema de depresión es más común entre los usuarios, la proporción obvia de los síntomas relacionados en la auto - evaluación es destacada y, combinado con la alta demanda de consulta, indica que la inversión de recursos en este campo puede mejorar más directamente el efecto general."
+      },
+      "charts_involved": [
+        "chart_170_1",
+        "chart_170_2",
+        "chart_170_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en los cambios en la distribución de edades de los usuarios y la tendencia de conducta de consulta, ¿cómo se deben optimizar las formas de servicio de consulta para mejorar la participación y satisfacción de los usuarios? Elija la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Desarrollar servicios en línea especialmente para usuarios de 40 - 49 años, ya que la proporción en 2023 del 6.9% es mayor que la de 2022 del 6.5% y el número de sesiones de consulta está en un nivel alto, lo que indica un aumento repentino de la demanda.",
+        "B": "Reducir los recursos destinados a usuarios de 30 - 39 años, ya que la proporción en 2023 del 37.1% solo es ligeramente mayor que la de 2022 del 35.8% y, combinado con que el número de sesiones de consulta en 2023 de 12.7 es menor que el de 2022 de 12.8, muestra una disminución en la participación.",
+        "C": "Optimizar el proceso general de servicio al cliente de la plataforma de consulta para mejorar la satisfacción y lealtad de los usuarios.",
+        "D": "Aumentar la plataforma de consulta digital para usuarios de 20 - 29 años, ya que esta edad tiene la mayor proporción y el número de sesiones de consulta ha aumentado en los últimos años pero ha disminuido ligeramente en el último año, lo que indica que se necesita una forma de servicio innovadora para reactivar la participación.",
+        "E": "Lanzar un plan de descuento para miembros de salud mental para incentivar a más usuarios a participar continuamente en la consulta.",
+        "F": "Expandir servicios mixtos (por ejemplo, en línea + presencial) para usuarios de 30 - 39 años, ya que la proporción de esta edad está en aumento, el número de sesiones de consulta se mantiene en un nivel alto y, combinado con la prevalencia de síntomas relacionados con la presión laboral, puede adaptarse mejor a sus necesidades.",
+        "G": "Proporcionar más servicios convenientes (por ejemplo, apoyo comunitario) para usuarios mayores de 40 años. Aunque la proporción es baja, el número de sesiones de consulta no ha disminuido significativamente y, combinado con los desafíos únicos de salud mental que pueden enfrentar los usuarios mayores, garantizar la inclusión del servicio puede ampliar la cobertura."
+      },
+      "charts_involved": [
+        "chart_170_3",
+        "chart_170_4"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Teniendo en cuenta la diversidad de síntomas de salud mental y la tendencia de conducta de consulta de los usuarios, ¿cómo se debe diseñar una estrategia de asignación de recursos integrada para mejorar la eficiencia de la intervención? Elija la sugerencia de estrategia más razonable.",
+      "answer": {
+        "A": "Aumentar las funciones de la comunidad en línea de salud mental para promover la ayuda mutua y el apoyo entre usuarios.",
+        "B": "Diseñar consultas grupales para usuarios menores de 20 años, ya que la proporción en 2023 del 6.8% es mayor que la de 2022 del 6.6% y la proporción leve de sensibilidad en relaciones interpersonales en la auto - evaluación es del 39.6%, lo que muestra una demanda social destacada.",
+        "C": "Establecer un proceso estandarizado de servicio de salud mental para garantizar una intervención de alta calidad para todos los usuarios.",
+        "D": "Promover herramientas de auto - ayuda de bajo costo para otros síntomas (por ejemplo, problemas de sueño), ya que la proporción de salud es relativamente alta pero la proporción leve es significativa y, combinado con la tendencia al aumento del número de sesiones de consulta, es adecuado como recurso complementario para aliviar la presión de los servicios profesionales.",
+        "E": "Integrar un plan de intervención combinado para depresión y ansiedad, ya que la proporción obvia de estos síntomas en la auto - evaluación es alta y el número de sesiones de consulta ha aumentado en general en los últimos años, lo que indica que la demanda de los usuarios está concentrada y la integración de recursos puede mejorar la eficiencia del servicio.",
+        "F": "Asignar recursos priorariamente a los síntomas de fobia, ya que la proporción de salud del 63.7% es la más alta y, combinado con el aumento del número de sesiones de consulta, indica que es más eficiente mantener el estado de salud.",
+        "G": "Fortalecer los proyectos de consulta grupal en el aspecto de sensibilidad en relaciones interpersonales, ya que la proporción de síntomas leves es alta y, combinado con la distribución de edades dominada por usuarios jóvenes, la intervención de apoyo social puede ser más efectiva."
+      },
+      "charts_involved": [
+        "chart_170_2",
+        "chart_170_3",
+        "chart_170_4"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    }
+  ]
+}

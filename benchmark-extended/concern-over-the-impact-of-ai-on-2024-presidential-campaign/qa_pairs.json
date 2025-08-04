@@ -1,0 +1,177 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What proportion of Dem/Lean Dem U.S. adults surveyed in October 2018 think technology companies like Facebook, X (formerly Twitter), TikTok and Google have a responsibility to prevent the misuse of their platforms to influence the election?\n question2: What is the percentage of Americans who are extremely/very concerned that AI will be used to create and distribute fake information about the presidential candidates and campaigns? Answer with a number.",
+                "rationale": "rationale1: We need to extract the proportion of a specific demographic (Dem/Lean Dem U.S. adults) at a given time (October 2018) from the chart data.\n rationale2: The question asks for the proportion of highly - concerned Americans regarding AI - generated fake information about candidates and campaigns, which is presented in the chart.",
+                "answer": "80%; 57",
+                "involved_content_sources": [
+                    "chart_2-7",
+                    "chart_1-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What proportion of U.S. adults aged 50 - 64 are extremely/very concerned about AI's influence on the 2024 election?\n question2: What was the proportion of Republicans/Lean Republicans in September 2024 who were not at all confident in tech - companies like Facebook, X (formerly Twitter), TikTok and Google to prevent the misuse of their platforms to influence the election? Answer in percentage.\n question3: When was the survey conducted? Answer with the date range.",
+                "rationale": "rationale1: We need to find the proportion of a particular age - group (50 - 64) regarding their high - level concern about AI's influence on the 2024 election, and the chart provides this data.\n rationale2: The question is about a particular proportion for Republicans/Lean Republicans in September 2024. We can find the corresponding value from the given chart content.\n rationale3: The question asks for the survey period, and the chart provides this information.",
+                "answer": "58%; 33%; Aug. 26 - Sept. 2, 2024",
+                "involved_content_sources": [
+                    "chart_4-41",
+                    "chart_3-32",
+                    "chart_1-7"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What proportion of Rep/Lean Rep U.S. adults surveyed in August 2020 think technology companies like Facebook, X (formerly Twitter), TikTok and Google do not have a responsibility to prevent the misuse of their platforms to influence the election?\n question2: What proportion of U.S. adults aged 50 - 64 are extremely/very concerned about AI's influence on the 2024 election?\n question3: What is the percentage of Americans who say they are not too/not at all concerned that AI will be used to create and distribute fake information about the presidential candidates and campaigns? Answer with a number.\n question4: What was the proportion of U.S. adults in October 2018 who were very confident in tech - companies like Facebook, X (formerly Twitter), TikTok and Google to prevent the misuse of their platforms to influence the election? Please provide the answer as a percentage.",
+                "rationale": "rationale1: The question is about a particular proportion of a specific group (Rep/Lean Rep U.S. adults) at a specific time (August 2020). The required data can be located in the provided chart content.\n rationale2: We need to find the proportion of a particular age - group (50 - 64) regarding their high - level concern about AI's influence on the 2024 election, and the chart provides this data.\n rationale3: The question is about the proportion of Americans with low or no concern about AI - generated fake information for candidates and campaigns, and the data is in the chart.\n rationale4: The question asks for a specific proportion from the data in Chart 3. By referring to the relevant content in the chart, we can directly obtain the answer.",
+                "answer": "34%; 58%; 7; 6%",
+                "involved_content_sources": [
+                    "chart_2-14",
+                    "chart_4-41",
+                    "chart_1-6",
+                    "chart_3-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of all U.S. adults surveyed who think technology companies have a responsibility to prevent the misuse of their platforms to influence the election across the three surveyed time - points (October 2018, August 2020, September 2024)?\n question2: What is the change in the net proportion of those who are confident in tech - companies to prevent the misuse of their platforms to influence the election from October 2018 to September 2024 among all U.S. adults?",
+                "rationale": "rationale1: To answer this question, we need to find the proportion values for all U.S. adults who think technology companies have a responsibility at each of the three time - points from the chart and then calculate their average. The average is calculated by adding up the values and dividing by the number of values.\n rationale2: We need to find the net proportion of confident people in October 2018 and September 2024 from the chart and then calculate the difference between them. The net proportion of confident people is the sum of those who are very confident and somewhat confident. For October 2018, we take the value from chart_3-37, and for September 2024, we take the value from chart_3-39. Then we subtract the October 2018 value from the September 2024 value to get the change.",
+                "answer": "76; 4%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-37",
+                    "chart_3-39"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of all U.S. adults surveyed who think technology companies have a responsibility to prevent the misuse of their platforms to influence the election across the three surveyed time - points (October 2018, August 2020, September 2024)?\n question2: What is the change in the net proportion of those who are confident in tech - companies to prevent the misuse of their platforms to influence the election from October 2018 to September 2024 among all U.S. adults?\n question3: What is the difference in the proportion of all U.S. adults surveyed who think AI will be mostly used for bad during the presidential campaign and the proportion of those who think it will be mostly used for good?",
+                "rationale": "rationale1: To answer this question, we need to find the proportion values for all U.S. adults who think technology companies have a responsibility at each of the three time - points from the chart and then calculate their average. The average is calculated by adding up the values and dividing by the number of values.\n rationale2: We need to find the net proportion of confident people in October 2018 and September 2024 from the chart and then calculate the difference between them. The net proportion of confident people is the sum of those who are very confident and somewhat confident. For October 2018, we take the value from chart_3-37, and for September 2024, we take the value from chart_3-39. Then we subtract the October 2018 value from the September 2024 value to get the change.\n rationale3: To find the difference, we need to subtract the proportion of those who think AI will be mostly used for good from the proportion of those who think it will be mostly used for bad. We get these two proportions from the chart.",
+                "answer": "76; 4%; 34%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-37",
+                    "chart_3-39",
+                    "chart_4-1",
+                    "chart_4-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of all U.S. adults surveyed who think technology companies have a responsibility to prevent the misuse of their platforms to influence the election across the three surveyed time - points (October 2018, August 2020, September 2024)?\n question2: What is the change in the net proportion of those who are confident in tech - companies to prevent the misuse of their platforms to influence the election from October 2018 to September 2024 among all U.S. adults?\n question3: What is the difference in the proportion of all U.S. adults surveyed who think AI will be mostly used for bad during the presidential campaign and the proportion of those who think it will be mostly used for good?\n question4: What is the proportion of Americans who think AI will have a negative impact (mostly for bad or equally for good and bad) during the presidential campaign and are extremely/very or somewhat concerned about AI being used to create and distribute fake information about the candidates and campaigns?",
+                "rationale": "rationale1: To answer this question, we need to find the proportion values for all U.S. adults who think technology companies have a responsibility at each of the three time - points from the chart and then calculate their average. The average is calculated by adding up the values and dividing by the number of values.\n rationale2: We need to find the net proportion of confident people in October 2018 and September 2024 from the chart and then calculate the difference between them. The net proportion of confident people is the sum of those who are very confident and somewhat confident. For October 2018, we take the value from chart_3-37, and for September 2024, we take the value from chart_3-39. Then we subtract the October 2018 value from the September 2024 value to get the change.\n rationale3: To find the difference, we need to subtract the proportion of those who think AI will be mostly used for good from the proportion of those who think it will be mostly used for bad. We get these two proportions from the chart.\n rationale4: First, we need to find the proportion of Americans who think AI will have a negative impact during the presidential campaign by adding the proportion of those who think it will be used mostly for bad and those who think it will be used equally for good and bad. Then, we find the proportion of those who are extremely/very or somewhat concerned about AI - created fake information. Finally, we assume these are independent events and multiply the two proportions (this is a simplified approach as in reality, there may be correlations). ((39 + 27) * (57 + 25)) / 100 = 54.12%.",
+                "answer": "76; 4%; 34%; 54.12%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_3-37",
+                    "chart_3-39",
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_1-4",
+                    "chart_1-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of Americans who think AI will be used mostly for bad during the presidential campaign and the net proportion of those who are confident in tech companies to prevent platform misuse in the 2024 election?",
+                "rationale": "The proportion of Americans who think AI will be used mostly for bad during the presidential campaign is 39% (from Chart 1). The net proportion of those who are confident in tech companies to prevent platform misuse in the 2024 election is 37% (from Chart 3). The difference is 39% - 37% = 2%.",
+                "answer": "2%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_3-39"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who say artificial intelligence (AI) will be used mostly for bad during the presidential campaign, the proportion of all U.S. adults surveyed in September 2024 who think technology companies have a responsibility to prevent platform misuse in the election, and the net proportion of Republicans/Lean Republicans in September 2024 who are confident in tech - companies to prevent platform misuse in the election? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Americans who say artificial intelligence (AI) will be used mostly for bad during the presidential campaign is 39% (from chart 1). The proportion of all U.S. adults surveyed in September 2024 who think technology companies have a responsibility to prevent platform misuse in the election is 77% (from chart 2). The net proportion of Republicans/Lean Republicans in September 2024 who are confident in tech - companies to prevent platform misuse in the election is 34% (from chart 3). The average is (39% + 77% + 34%) / 3 = 50.00%.",
+                "answer": "50.00%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_2-3",
+                    "chart_3-42"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio between (a) the sum of Americans who think AI will be used mostly for bad (chart_ 1) and those extremely/very concerned about AI's influence (chart_ 4), and (b) the product of tech companies' responsibility perception in 2024 (chart_ 2) and confidence in tech companies to prevent misuse (chart_ 3)?",
+                "rationale": "1) From chart_1-1, 39% think AI will be mostly used for bad. 2) From chart_4-29, 57% are extremely/very concerned (sum = 96%). 3) From chart_2-3, 77% think tech companies have responsibility. 4) From chart_3-25, 20% are very confident in tech companies. Product = 77% \u00d7 20% = 15.4%. Ratio = 96% / 15.4% \u2248 6.23",
+                "answer": "6.23",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_4-29",
+                    "chart_2-3",
+                    "chart_3-25"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of Americans who think AI will be used mostly for bad and about equally for good and bad during the presidential campaign, and the average of the net proportions of Republicans/Lean Republicans and Democrats/Lean Democrats who are confident in tech - companies to prevent platform misuse in September 2024?",
+                "rationale": "The proportion of Americans who think AI will be used mostly for bad during the presidential campaign is 39% (chart_1-1), and the proportion of those who think it will be used about equally for good and bad is 27% (chart_1-2). The sum of these two proportions is 39% + 27% = 66%. The net proportion of Republicans/Lean Republicans who are confident in tech - companies to prevent platform misuse in September 2024 is 34% (chart_3-42), and the net proportion of Democrats/Lean Democrats is 37% (chart_3-45). The average of these two net proportions is (34% + 37%) / 2 = 35.5%. Then the difference between the two is 66% - 35.5% = 30.5%.",
+                "answer": "30.5%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_3-42",
+                    "chart_3-45"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who say AI will be used mostly for bad during the presidential campaign, the proportion of U.S. adults in September 2024 who are very confident in tech companies to prevent platform misuse in the election, and the proportion of Republicans/Lean Republicans who are extremely/very concerned about AI's influence on the 2024 election?",
+                "rationale": "The proportion of Americans who say AI will be used mostly for bad during the presidential campaign is 39% (chart_1-1); the proportion of U.S. adults in September 2024 who are very confident in tech companies to prevent platform misuse in the election is 20% (chart_3-25); the proportion of Republicans/Lean Republicans who are extremely/very concerned about AI's influence on the 2024 election is 56% (chart_4-49). The average is (39% + 20% + 56%) / 3 = (0.39 + 0.2 + 0.56) / 3 = 1.15 / 3 \u2248 0.3833 = 38.33%.",
+                "answer": "38.33%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-4",
+                    "chart_3-25",
+                    "chart_3-26",
+                    "chart_4-49",
+                    "chart_4-50"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of Americans who say AI will be used mostly for bad during the presidential campaign, the net proportion of U.S. adults in September 2024 who are not confident in tech - companies to prevent platform misuse for election - influencing, the proportion of U.S. adults aged 18 - 29 who think AI will be about equally for good and bad during the presidential campaign, and the proportion of Democrats/Lean Democrats who think technology companies have a responsibility to prevent platform misuse in September 2024?",
+                "rationale": "From Chart 1, the proportion of Americans who say AI will be used mostly for bad during the presidential campaign is 39%. From Chart 3, the net proportion of U.S. adults in September 2024 who are not confident in tech - companies to prevent platform misuse for election - influencing is 79%. From Chart 4, the proportion of U.S. adults aged 18 - 29 who think AI will be about equally for good and bad during the presidential campaign is 35%. From Chart 2, the proportion of Democrats/Lean Democrats who think technology companies have a responsibility to prevent platform misuse in September 2024 is 84%. The average of these four values is (39% + 79% + 35% + 84%) / 4 = 59.25%.",
+                "answer": "59.25%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-4",
+                    "chart_2-9",
+                    "chart_2-18",
+                    "chart_3-48",
+                    "chart_3-54",
+                    "chart_4-6",
+                    "chart_4-27"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

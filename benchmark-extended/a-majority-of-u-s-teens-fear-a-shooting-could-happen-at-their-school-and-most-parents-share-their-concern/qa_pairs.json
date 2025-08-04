@@ -1,0 +1,172 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: Among lower - income parents of teens in the U.S. (less than $30,000), what is the proportion who are somewhat worried about the possibility of a shooting happening at their teen's school? Provide the answer as a percentage.\n question2: What is the net - proportion of U.S. teen boys aged 13 - 17 who are worried about the possibility of a shooting happening at their school?",
+                "rationale": "rationale1: The question focuses on the proportion of lower - income parents (less than $30,000) who are somewhat worried about school shootings. The chart has the specific data for this, and we just need to pick it out as a percentage.\n rationale2: The question requires the net - proportion of worried U.S. teen boys aged 13 - 17, and the corresponding data is provided in the chart.",
+                "answer": "46%; 51%",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_3-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the net - proportion of U.S. teen boys aged 13 - 17 who are worried about the possibility of a shooting happening at their school?\n question2: What proportion of Republicans/lean - Rep think preventing people with mental illnesses from purchasing guns is very or somewhat effective at preventing school shootings?\n question3: What proportion of black U.S. teens aged 13 - 17 think allowing teachers and school officials to carry guns would be very or somewhat effective at preventing school shootings?",
+                "rationale": "rationale1: The question requires the net - proportion of worried U.S. teen boys aged 13 - 17, and the corresponding data is provided in the chart.\n rationale2: This question requires retrieving the relevant proportion of Republicans/lean - Rep regarding preventing people with mental illnesses from buying guns to prevent school shootings from the chart.\n rationale3: The question is about the proportion of black U.S. teens aged 13 - 17 regarding the effectiveness of allowing teachers and school officials to carry guns. The relevant data is provided in the chart.",
+                "answer": "51%; 87%; 23%",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_7-5",
+                    "chart_6-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What percentage of U.S. teens ages 13 to 17 say improving mental health screening and treatment is very effective at preventing school shootings? Please provide the answer as a percentage.\n question2: Among parents of teens in the U.S. with an income of $75,000 or more, what is the proportion who are very worried about the possibility of a shooting happening at their teen's school? State the answer as a percentage.\n question3: What is the proportion of Hispanic U.S. teens aged 13 - 17 who say banning assault - style weapons would be very or somewhat effective at preventing school shootings?\n question4: What is the proportion of black U.S. teens aged 13 - 17 who are very worried about the possibility of a shooting happening at their school?",
+                "rationale": "rationale1: The question requires us to find the percentage of teens who think improving mental health screening and treatment is very effective. We can directly get this value from the chart.\n rationale2: The question is seeking the proportion of high - income parents ($75,000 or more) who are very worried about school shootings. The chart contains this data, which we provide as a percentage.\n rationale3: We need to extract the proportion of Hispanic U.S. teens aged 13 - 17 for the effectiveness of banning assault - style weapons from the chart.\n rationale4: We are looking for the proportion of black U.S. teens aged 13 - 17 who are very worried about school shootings, and the answer is in the chart.",
+                "answer": "55%; 17%; 79%; 27%",
+                "involved_content_sources": [
+                    "chart_5-4",
+                    "chart_4-10",
+                    "chart_6-3",
+                    "chart_3-13"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of Democrats/lean - Dem and Republicans/lean - Rep who think banning assault - style weapons is very or somewhat effective at preventing school shootings?\n question2: What is the difference in the net - proportion of worried teens between Hispanic U.S. teens and white U.S. teens aged 13 - 17?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of Republicans/lean - Rep from the proportion of Democrats/lean - Dem regarding the effectiveness of banning assault - style weapons in preventing school shootings. This involves two specific data points from the chart.\n rationale2: To answer this question, we need to find the net - proportion of worried teens for Hispanic U.S. teens and white U.S. teens respectively from the chart and then calculate the difference between them. This calculation process involves extracting relevant data from different parts of the chart as required.",
+                "answer": "46%; 22%",
+                "involved_content_sources": [
+                    "chart_7-10",
+                    "chart_7-11",
+                    "chart_3-12",
+                    "chart_3-18"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of Democrats/lean - Dem and Republicans/lean - Rep who think banning assault - style weapons is very or somewhat effective at preventing school shootings?\n question2: What is the difference in the net - proportion of worried teens between Hispanic U.S. teens and white U.S. teens aged 13 - 17?\n question3: What is the difference in the proportion of worried (very + somewhat) parents between lower - income parents (less than $30,000) and parents with an income of $75,000 or more?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of Republicans/lean - Rep from the proportion of Democrats/lean - Dem regarding the effectiveness of banning assault - style weapons in preventing school shootings. This involves two specific data points from the chart.\n rationale2: To answer this question, we need to find the net - proportion of worried teens for Hispanic U.S. teens and white U.S. teens respectively from the chart and then calculate the difference between them. This calculation process involves extracting relevant data from different parts of the chart as required.\n rationale3: We need to subtract the proportion of worried parents (very + somewhat) of parents with an income of $75,000 or more from that of lower - income parents (less than $30,000). We get the proportion of worried lower - income parents from chart_4-6 and the proportion of worried parents with an income of $75,000 or more from chart_4-12, and then perform the subtraction operation.",
+                "answer": "46%; 22%; 29%",
+                "involved_content_sources": [
+                    "chart_7-10",
+                    "chart_7-11",
+                    "chart_3-12",
+                    "chart_3-18",
+                    "chart_4-6",
+                    "chart_4-12"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of Democrats/lean - Dem and Republicans/lean - Rep who think banning assault - style weapons is very or somewhat effective at preventing school shootings?\n question2: What is the difference in the net - proportion of worried teens between Hispanic U.S. teens and white U.S. teens aged 13 - 17?\n question3: What is the difference in the proportion of worried (very + somewhat) parents between lower - income parents (less than $30,000) and parents with an income of $75,000 or more?\n question4: What is the difference in the proportion of black teens who think banning assault - style weapons would be very or somewhat effective at preventing school shootings and the proportion of black teens who think allowing teachers and school officials to carry guns would be very or somewhat effective at preventing school shootings?",
+                "rationale": "rationale1: To answer this question, we need to subtract the proportion of Republicans/lean - Rep from the proportion of Democrats/lean - Dem regarding the effectiveness of banning assault - style weapons in preventing school shootings. This involves two specific data points from the chart.\n rationale2: To answer this question, we need to find the net - proportion of worried teens for Hispanic U.S. teens and white U.S. teens respectively from the chart and then calculate the difference between them. This calculation process involves extracting relevant data from different parts of the chart as required.\n rationale3: We need to subtract the proportion of worried parents (very + somewhat) of parents with an income of $75,000 or more from that of lower - income parents (less than $30,000). We get the proportion of worried lower - income parents from chart_4-6 and the proportion of worried parents with an income of $75,000 or more from chart_4-12, and then perform the subtraction operation.\n rationale4: We need to subtract the proportion of black teens who support teachers and school officials carrying guns from the proportion of black teens who support banning assault - style weapons to get the difference. The data for these two proportions are provided in the chart.",
+                "answer": "46%; 22%; 29%; 57",
+                "involved_content_sources": [
+                    "chart_7-10",
+                    "chart_7-11",
+                    "chart_3-12",
+                    "chart_3-18",
+                    "chart_4-6",
+                    "chart_4-12",
+                    "chart_6-2",
+                    "chart_6-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of Hispanic U.S. teens aged 13 - 17 who are worried about a shooting at their school and the proportion of U.S. adults who think banning assault - style weapons is very or somewhat effective at preventing school shootings?",
+                "rationale": "The proportion of Hispanic U.S. teens aged 13 - 17 who are worried about a shooting at their school is 73% (from chart_3-18). The proportion of U.S. adults who think banning assault - style weapons is very or somewhat effective at preventing school shootings is 61% (from chart_7-12). The difference is 73% - 61% = 12%.",
+                "answer": "12%",
+                "involved_content_sources": [
+                    "chart_3-18",
+                    "chart_7-12"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of Hispanic U.S. teens aged 13 - 17 who are worried about the possibility of a shooting happening at their school, the proportion of lower - income parents of teens in the U.S. who are worried about the possibility of a shooting happening at their teen's school, and the proportion of U.S. teens ages 13 to 17 who say preventing people with mental illnesses from purchasing guns is effective at preventing school shootings? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Hispanic U.S. teens aged 13 - 17 who are worried about the possibility of a shooting happening at their school is 73%. The proportion of lower - income parents of teens in the U.S. who are worried about the possibility of a shooting happening at their teen's school is 82%. The proportion of U.S. teens ages 13 to 17 who say preventing people with mental illnesses from purchasing guns is effective at preventing school shootings is 86%. The average is (73% + 82% + 86%) / 3 = 80.33% (rounded to two decimal places).",
+                "answer": "80.33%",
+                "involved_content_sources": [
+                    "chart_3-18",
+                    "chart_4-6",
+                    "chart_5-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. teen girls who are worried (very + somewhat) about a shooting at their school and U.S. teen boys who are worried (very + somewhat) about a shooting at their school, the difference between the proportion of lower-income parents of teens worried (very + somewhat) about a shooting at their teen's school and parents of teens with an income of $75,000 or more worried (very + somewhat) about a shooting at their teen's school, the difference between the proportion of black U.S. teens who think banning assault-style weapons is effective (very + somewhat) at preventing school shootings and white U.S. teens who think banning assault-style weapons is effective (very + somewhat) at preventing school shootings, and the difference between the proportion of Democrats/lean-Dem who think allowing teachers and school officials to carry guns in schools is effective (very + somewhat) at preventing school shootings and Republicans/lean-Rep who think allowing teachers and school officials to carry guns in schools is effective (very + somewhat) at preventing school shootings? Provide the answer as a percentage.",
+                "rationale": "From chart 3, the proportion of U.S. teen girls who are worried (very + somewhat) about a shooting at their school is 64% and for boys is 51%, so the difference is 64% - 51% = 13%. From chart 4, the proportion of lower-income parents of teens worried (very + somewhat) about a shooting at their teen's school is 82% and for parents with an income of $75,000 or more is 53%, so the difference is 82% - 53% = 29%. From chart 6, the proportion of black U.S. teens who think banning assault-style weapons is effective (very + somewhat) at preventing school shootings is 80% and for white U.S. teens is 59%, so the difference is 80% - 59% = 21%. From chart 7, the proportion of Democrats/lean-Dem who think allowing teachers and school officials to carry guns in schools is effective (very + somewhat) at preventing school shootings is 24% and for Republicans/lean-Rep is 78%, so the difference is 78% - 24% = 54%. The average of these differences is (13% + 29% + 21% + 54%) / 4 = 29.25%.",
+                "answer": "29.25%",
+                "involved_content_sources": [
+                    "chart_3-9",
+                    "chart_4-6",
+                    "chart_6-2",
+                    "chart_7-14"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the net - proportions of white and black U.S. teens worried about school shootings and the average of the proportions of Democrats/lean - Dem and Republicans/lean - Rep who think banning assault - style weapons is effective at preventing school shootings?",
+                "rationale": "Among U.S. teens, the net - proportion of white teens worried about school shootings is 51% (chart_3-12), and the net - proportion of black teens worried about school shootings is 60% (chart_3-15). The average of these two proportions is (51% + 60%) / 2 = 55.5%. Among U.S. adults, the proportion of Democrats/lean - Dem who think banning assault - style weapons is effective at preventing school shootings is 81% (chart_7-10), and the proportion of Republicans/lean - Rep who think banning assault - style weapons is effective at preventing school shootings is 35% (chart_7-11). The average of these two proportions is (81% + 35%) / 2 = 58%. Then the difference between the two is 58% - 55.5% = 2.5%.",
+                "answer": "2.5%",
+                "involved_content_sources": [
+                    "chart_3-12",
+                    "chart_3-15",
+                    "chart_7-10",
+                    "chart_7-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the net-proportion of U.S. teen girls who are worried about a shooting at school, the proportion of lower-income parents of teens in the U.S. who are very worried about a shooting at their teen's school, and the proportion of U.S. teens who say allowing teachers and school officials to carry guns in schools is very effective at preventing school shootings, with weights being 0.4, 0.3, and 0.3 respectively?",
+                "rationale": "The net-proportion of U.S. teen girls who are worried about a shooting at school is 64% (chart_3-9). The proportion of lower-income parents of teens in the U.S. who are very worried about a shooting at their teen's school is 36% (chart_4-4). The proportion of U.S. teens who say allowing teachers and school officials to carry guns in schools is very effective at preventing school shootings is 12% (chart_5-13). The weighted average is (64%\u00d70.4 + 36%\u00d70.3 + 12%\u00d70.3) = (0.64\u00d70.4 + 0.36\u00d70.3 + 0.12\u00d70.3) = 0.256 + 0.108 + 0.036 = 40.0%.",
+                "answer": "40.0%",
+                "involved_content_sources": [
+                    "chart_3-8",
+                    "chart_3-9",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_5-13",
+                    "chart_5-14"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of worried Hispanic U.S. teens and white U.S. teens about school shootings, the difference between the proportion of worried lower - income parents and parents with an income of $75,000 or more about school shootings, the difference between the proportion of U.S. teens who think banning assault - style weapons is effective and the proportion who think allowing teachers to carry guns is effective at preventing school shootings, and the difference between the proportion of Democrats/lean - Dem and Republicans/lean - Rep who think banning assault - style weapons is effective at preventing school shootings?",
+                "rationale": "First, from Chart 3, the proportion of worried Hispanic U.S. teens is 73% (chart_3-18), and that of white U.S. teens is 51% (chart_3-12). The difference is 73% - 51% = 22%. Second, from Chart 4, the proportion of worried lower - income parents is 82% (chart_4-6), and that of parents with an income of $75,000 or more is 53% (chart_4-12). The difference is 82% - 53% = 29%. Third, from Chart 5, the proportion of U.S. teens who think banning assault - style weapons is effective is 66% (chart_5-12), and the proportion who think allowing teachers to carry guns is effective is 39% (chart_5-15). The difference is 66% - 39% = 27%. Fourth, from Chart 7, the proportion of Democrats/lean - Dem who think banning assault - style weapons is effective is 81% (chart_7-10), and the proportion of Republicans/lean - Rep who think banning assault - style weapons is effective is 35% (chart_7-11). The difference is 81% - 35% = 46%. The average of these four differences is (22% + 29% + 27% + 46%) / 4 = 31%.",
+                "answer": "31%",
+                "involved_content_sources": [
+                    "chart_3-12",
+                    "chart_3-18",
+                    "chart_4-6",
+                    "chart_4-12",
+                    "chart_5-12",
+                    "chart_5-15",
+                    "chart_7-10",
+                    "chart_7-11"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

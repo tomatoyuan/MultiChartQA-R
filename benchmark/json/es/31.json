@@ -1,0 +1,204 @@
+{
+  "chart": [
+    "chart_31_1",
+    "chart_31_2",
+    "chart_31_3",
+    "chart_31_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Por favor, compare los datos de la 'Distribución Regional de la Búsqueda de Seguridad Turística durante Fines de Semana Cortos' y la 'Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'. ¿Existe alguna correlación entre los dos? Por favor, responda 'correlación positiva', 'correlación negativa' o 'sin correlación'.",
+      "answer": "Sin correlación",
+      "explanation": "El primer gráfico muestra los datos de la popularidad de búsqueda de diferentes ciudades, concentrados en Beijing, Xiamen, Hangzhou y Harbin. El segundo gráfico muestra la distribución por edad de los incidentes de esquemas Ponzi en Internet, que se refiere principalmente a las personas menores de 25 años, de 25 a 40 años y mayores de 40 años. Ambos se centran en datos regionales y de edad respectivamente, y no tienen una relación directa o una correlación significativa. Por lo tanto, no están correlacionados.",
+      "charts_involved": [
+        "chart_31_1",
+        "chart_31_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Por favor, compare los datos de la 'Proporción de Género de Usuarios de Búsqueda de Préstamos Universitarios' y la 'Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'. ¿Existe algún punto de divergencia?",
+      "answer": "Sí",
+      "explanation": "En el primer gráfico, entre los usuarios de búsqueda de préstamos universitarios, las mujeres representan el 57% y los hombres el 40%, donde la proporción de mujeres es más alta. El segundo gráfico muestra que la proporción de búsqueda de incidentes de esquemas Ponzi en Internet entre las personas de 25 a 40 años es del 37%. En este rango de edad, hay una divergencia entre los préstamos universitarios y los esquemas Ponzi en Internet, especialmente en la diferencia de la proporción de género y la distribución por edad.",
+      "charts_involved": [
+        "chart_31_2",
+        "chart_31_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Por favor, compare los datos de la 'Distribución de Proporción de Canales de Quejas por Infracción' y la 'Distribución Regional de la Búsqueda de Seguridad Turística durante Fines de Semana Cortos'. ¿Es consistente la tendencia de cambio de los valores de las barras de izquierda a derecha? Por favor, responda 'Sí' o 'No'.",
+      "answer": "Sí",
+      "explanation": "Ambos disminuyen gradualmente.",
+      "charts_involved": [
+        "chart_31_1",
+        "chart_31_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponiendo que el número total de usuarios que buscan préstamos universitarios es igual al número total de búsquedas de seguridad turística durante fines de semana cortos, ¿cuántas mujeres aproximadamente buscan préstamos universitarios? Redondea a 0 decimales. Respuesta: xx personas",
+      "answer": "114000 personas",
+      "explanation": "El número total de usuarios que buscan préstamos universitarios es igual al número total de búsquedas de seguridad turística durante fines de semana cortos (80.000 + 60.000 + 40.000 + 20.000 = 200.000 veces). 200.000 × proporción de mujeres 57% = 114.000",
+      "charts_involved": [
+        "chart_31_1",
+        "chart_31_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "En las búsquedas relacionadas con los esquemas ponzi en Internet, ¿cuántas veces es el número de búsquedas de la edad “menos de 25 años” en comparación con el número de búsquedas de seguridad turística durante fines de semana cortos en Hangzhou? Redondea a 2 decimales. Respuesta: xx veces",
+      "answer": "1.45 veces",
+      "explanation": "El número de búsquedas de edad menos de 25 años 322.000 × 18% = 57.960; el número de búsquedas de seguridad turística en Hangzhou es 40.000; 57.960 ÷ 40.000 ≈ 1.45",
+      "charts_involved": [
+        "chart_31_1",
+        "chart_31_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Si se considera el número de búsquedas relacionadas con los esquemas ponzi en Internet como el número total de casos de quejas por infracción, ¿cuántas quejas aproximadamente se realizan a través del canal de teléfono? Redondea a 0 decimales. Respuesta: xx veces",
+      "answer": "70840 veces",
+      "explanation": "El número de búsquedas relacionadas con los esquemas ponzi en Internet (322.000 veces) se considera como el número total de casos de quejas por infracción. 322.000 × proporción del canal de teléfono 22% = 70.840",
+      "charts_involved": [
+        "chart_31_3",
+        "chart_31_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según los datos de la distribución de género de los usuarios de búsqueda de préstamos universitarios y la distribución de edad de la búsqueda de esquemas ponzi en Internet, ¿qué opciones describen correctamente las características de los grupos de usuarios potenciales de diferentes temas de riesgo?",
+      "answer": {
+        "A": "Tanto los usuarios de búsqueda de préstamos universitarios como los de esquemas ponzi en Internet son mayoritariamente mujeres, lo que indica que el factor de género juega un papel dominante en los riesgos financieros.",
+        "B": "Las mujeres tienen una proporción más alta en la búsqueda de préstamos universitarios, mientras que las personas mayores de 40 años tienen una proporción más alta en la búsqueda de esquemas ponzi en Internet, lo que muestra que los factores de edad y género juegan un papel clave en la atención a diferentes riesgos.",
+        "C": "La búsqueda de préstamos universitarios es mayoritaria entre las usuarias femeninas, mientras que la búsqueda de esquemas ponzi en Internet es mayoritaria entre los usuarios mayores, lo que refleja las diferencias en los grupos demográficos atraídos por diferentes tipos de riesgos financieros.",
+        "D": "Los préstamos universitarios pueden estar más dirigidos a los jóvenes (basado en la proporción de género), mientras que los esquemas ponzi en Internet son más propensos a afectar a las personas de mediana y mayor edad (basado en la distribución de edad), lo que revela la diferenciación de los grupos de usuarios de los temas de riesgo.",
+        "E": "La proporción de hombres es la más alta (57%) entre los usuarios de búsqueda de préstamos universitarios, lo que indica que los hombres son el grupo objetivo principal.",
+        "F": "La búsqueda de esquemas ponzi en Internet tiene una proporción más alta (45%) entre los usuarios menores de 25 años, lo que refleja que los jóvenes son más propensos a verse afectados por este tipo de riesgos."
+      },
+      "charts_involved": [
+        "chart_31_2",
+        "chart_31_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en la distribución de la popularidad regional de la búsqueda de seguridad turística durante fines de semana cortos y los datos generales de la búsqueda de esquemas ponzi en Internet, ¿qué opciones pueden inferir el nivel de atención pública a diferentes temas?",
+      "answer": {
+        "A": "La popularidad total de la búsqueda de seguridad turística en las principales ciudades es alta, pero el número total de búsquedas de esquemas ponzi en Internet es aún mayor, lo que indica que el riesgo de fraude en línea puede haber atraído una atención pública más amplia.",
+        "B": "La popularidad de la búsqueda de seguridad turística se concentra en regiones específicas (por ejemplo, Beijing destaca), mientras que la búsqueda de esquemas ponzi en Internet cubre una mayor cantidad de usuarios, lo que refleja la diferencia en la escala de atención entre los riesgos regionales y los riesgos digitales.",
+        "C": "La popularidad de la búsqueda de esquemas ponzi en Internet en Harbin es de 20,000 veces, menor que la popularidad de la búsqueda de seguridad turística en Beijing (80,000 veces), lo que indica que la atención al riesgo regional es mayor.",
+        "D": "La popularidad de la búsqueda de todos los temas de riesgo se concentra en ciudades de primer nivel como Beijing, Shanghai y Guangzhou, lo que refleja que los residentes de las ciudades tienen una mayor conciencia de riesgo.",
+        "E": "La popularidad total de la búsqueda de seguridad turística (200,000 veces) es mucho mayor que la de la búsqueda de esquemas ponzi en Internet (322,000 veces), lo que indica que el público presta más atención a la seguridad turística.",
+        "F": "A pesar de que la búsqueda de seguridad turística muestra una alta popularidad en las ciudades populares, la cantidad total de la búsqueda de esquemas ponzi en Internet es mayor, lo que indica que los riesgos relacionados con la red pueden recibir más atención en el entorno actual."
+      },
+      "charts_involved": [
+        "chart_31_1",
+        "chart_31_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Los datos de la búsqueda de esquemas ponzi en Internet muestran que la proporción de usuarios mayores es alta, mientras que el canal de quejas por infracción de derechos con la mayor proporción es el sitio web, lo que parece entrar en conflicto con la expectativa de que los mayores prefieren métodos tradicionales. ¿Qué opciones pueden explicar razonablemente este fenómeno?",
+      "answer": {
+        "A": "Todos los usuarios de todas las edades prefieren primero la queja por correo electrónico, porque los canales digitales son más convenientes, lo que explica la alta proporción del sitio web.",
+        "B": "Los datos de los canales de quejas por infracción de derechos demuestran que la proporción de quejas por teléfono es la más alta (68%), lo que es consistente con la preferencia de los mayores por métodos tradicionales y elimina el conflicto.",
+        "C": "Los datos de los canales de quejas por infracción de derechos no se refieren específicamente a los esquemas ponzi en Internet (pueden incluir otros tipos de infracciones de derechos), y la conveniencia del sitio web es dominante, lo que explica por qué la preferencia de los canales no coincide completamente con la distribución de edad de los usuarios.",
+        "D": "A pesar de que los usuarios mayores buscan más sobre esquemas ponzi en Internet, pueden haberse adaptado a los canales digitales, por lo que prefieren usar el sitio web cuando realizan quejas, lo que hace que la proporción del sitio web sea la más alta.",
+        "E": "La proporción de personas mayores (mayores de 40 años) en la búsqueda de esquemas ponzi en Internet es baja (solo 18%), por lo que se adaptan mejor a las quejas por sitio web, lo que hace que la proporción del sitio web sea alta.",
+        "F": "La alta proporción de búsqueda de los usuarios mayores y la alta proporción de quejas por sitio web coexisten, lo que indica que la mejora de la alfabetización digital o la optimización del diseño de los canales pueden aliviar el conflicto previsto."
+      },
+      "charts_involved": [
+        "chart_31_3",
+        "chart_31_4"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en los gráficos proporcionados, ¿cómo se debe optimizar la estrategia de asignación de recursos de educación pública sobre seguridad en cuanto a la vulnerabilidad de diferentes grupos de personas en riesgos financieros y seguridad cibernética? Elija la sugerencia más razonable para mejorar la cobertura y el efecto de la educación.",
+      "answer": {
+        "A": "En los casos de pirámides ponzi en Internet, el grupo de personas mayores de 40 años tiene la mayor proporción de búsquedas (45%). Por lo tanto, se debe ignorar por completo a los grupos jóvenes (la proporción de personas menores de 25 años es del 18%) y concentrar todos los recursos en la educación de personas mayores para maximizar el efecto de cobertura.",
+        "B": "Aumentar uniformemente el presupuesto de todos los canales de educación sobre seguridad en todo el país, ya que la seguridad pública es una necesidad universal y no es necesario dirigirse a grupos o regiones específicas.",
+        "C": "Priorizar la realización de actividades de educación cibernética en áreas rurales, ya que es posible que las áreas urbanas estén saturadas y las áreas rurales sean zonas con mayor brecha digital.",
+        "D": "Dado que la proporción de mujeres en los usuarios de búsqueda de préstamos universitarios es más alta (57%), se debe reducir la inversión en educación dirigida a las mujeres, ya que una alta popularidad de búsqueda indica que ellas ya tienen suficiente conciencia de riesgos.",
+        "E": "Fortalecer el desarrollo de herramientas de prevención de pirámides ponzi en Internet para personas mayores, ya que el grupo de personas mayores de 40 años tiene la mayor proporción de búsquedas en pirámides ponzi en Internet, lo que indica que son más propensos a ser engañados. Teniendo en cuenta que la mayoría de los canales de quejas por infracción son en línea, se debe optimizar la facilidad de uso y la accesibilidad de los recursos de educación para garantizar que la brecha digital no afecte el efecto de protección.",
+        "F": "Priorizar la intensificación de actividades locales de promoción de seguridad cibernética en regiones con alta popularidad de búsqueda (por ejemplo, Beijing y Xiamen), ya que las búsquedas de seguridad turística muestran que estas regiones tienen una atención destacada, lo que puede reflejar una alta densidad de población o ser destinos turísticos populares. Combinado con el hecho de que las quejas por infracción dependen principalmente de canales en línea, se deben enviar contenidos educativos a través de sitios web y dispositivos móviles para mejorar la eficiencia de utilización de recursos.",
+        "G": "Aumentar la inversión en educación especializada sobre riesgos de préstamos universitarios para usuarios femeninos, ya que la proporción de mujeres en las búsquedas de préstamos universitarios es significativamente más alta que la de hombres, lo que indica que son un grupo de alto riesgo. Al mismo tiempo, teniendo en cuenta que el grupo de personas menores de 25 años tiene una cierta proporción de búsquedas en casos de pirámides ponzi en Internet, también se debe fortalecer la conciencia de prevención de los grupos jóvenes para cubrir riesgos superpuestos."
+      },
+      "charts_involved": [
+        "chart_31_2",
+        "chart_31_3",
+        "chart_31_1",
+        "chart_31_4"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para mejorar la eficiencia de respuesta a las quejas por infracción, combinando los datos de comportamiento de búsqueda de usuarios y preferencias de canales, ¿cómo se deben ajustar la asignación de recursos del sistema de manejo de quejas y la estrategia de optimización de canales? Elija las sugerencias efectivas para acortar el tiempo de procesamiento y mejorar la satisfacción de los usuarios.",
+      "answer": {
+        "A": "Basado en la popularidad de búsqueda de seguridad turística (por ejemplo, 80,000 veces en Beijing), se debe agregar soporte de quejas telefónicas en todas las regiones con alta popularidad de búsqueda. Aunque la proporción del canal telefónico es baja (22%), la alta popularidad de búsqueda indica que estas regiones necesitan respuestas en tiempo real, por lo que el teléfono debería convertirse en el canal principal.",
+        "B": "Simplificar el proceso de canales de quejas auxiliares (como correo electrónico) y aumentar el procesamiento automatizado. Aunque su proporción es pequeña, teniendo en cuenta que el grupo de personas mayores de 40 años tiene una alta proporción de búsquedas en casos de pirámides ponzi en Internet, es posible que los canales auxiliares sean más adecuados para grupos con menos habilidades digitales, por lo que se debe garantizar la inclusión.",
+        "C": "Priorizar la ampliación y actualización de los servidores y funciones de la plataforma de quejas en línea, ya que el canal en línea tiene la mayor proporción en las quejas por infracción, lo que indica que los usuarios prefieren ampliamente este canal. Combinado con la gran cantidad de búsquedas en casos de pirámides ponzi en Internet, el sistema en línea puede procesar rápidamente los tipos de quejas frecuentes y evitar acumulaciones.",
+        "D": "Mejorar en general la velocidad de respuesta de todos los canales de quejas, incluyendo aumentar la inversión en mano de obra y tecnología, ya que la mejora de la eficiencia debe cubrir de manera equitativa para evitar injusticias.",
+        "E": "Agregar equipos de soporte de quejas telefónicas en ciudades con alta popularidad de búsqueda de seguridad turística, ya que las búsquedas de seguridad turística muestran que la demanda está concentrada en ciertas regiones, lo que puede involucrar problemas urgentes en tiempo real. Aunque la proporción del canal telefónico en las quejas es baja, puede proporcionar respuestas inmediatas, lo que coincide con los requisitos de temporalidad de las regiones de alta demanda.",
+        "F": "Invertir priorizar en plataformas de redes sociales como nuevos canales de quejas, ya que las redes sociales son la tendencia principal de interacción de los usuarios actualmente y pueden atraer más quejas.",
+        "G": "Dado que el canal en línea tiene la mayor proporción en las quejas por infracción (el sitio web tiene un 68%), se debe reducir la inversión en canales telefónicos y de correo electrónico y concentrar los recursos en la plataforma en línea para reducir costos y acelerar el procesamiento."
+      },
+      "charts_involved": [
+        "chart_31_4",
+        "chart_31_3",
+        "chart_31_1"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Para los grupos con mayor incidencia de fraudes financieros y riesgos de seguridad cibernética, ¿cómo diseñar una estrategia integral de prevención para maximizar el efecto de protección? Elija sugerencias basadas en los datos de los gráficos para garantizar que la estrategia cubra a los grupos con mayor incidencia y canales eficientes.",
+      "answer": {
+        "A": "Basado en que el grupo de personas mayores de 40 años tiene la mayor proporción de búsquedas en casos de pirámides ponzi en Internet (45%) y teniendo en cuenta que la mayoría de los canales de quejas por infracción son en línea (el sitio web tiene un 68%), se debe reducir la educación en línea para grupos jóvenes, ya que las personas mayores dependen más de canales en línea y necesitan optimizarse en primer lugar.",
+        "B": "Fortalecer la promoción educativa en medios tradicionales (como televisión y radio), ya que estos canales tienen una amplia cobertura y son especialmente adecuados para la difusión de información.",
+        "C": "Utilizar regiones con alta popularidad de búsqueda de seguridad turística como puntos de prueba para llevar a cabo actividades de promoción conjunta de múltiples riesgos, ya que estos usuarios en estas regiones tienen una alta atención. Combinado con la distribución de canales de quejas por infracción, se debe priorizar la transmisión de información a través de canales en línea para cubrir una amplia audiencia con bajo costo.",
+        "D": "Promover contenidos de educación estandarizados sobre seguridad en todos los grupos de edad y género, ya que la protección contra riesgos requiere cobertura general y no se debe segmentar demasiado.",
+        "E": "Desarrollar guías de prevención en línea simplificadas para personas mayores, ya que el grupo de personas mayores de 40 años tiene la mayor proporción de búsquedas en pirámides ponzi en Internet. Combinado con el hecho de que las quejas por infracción dependen principalmente del canal de sitio web, se debe optimizar y enviar a través del sitio web para mejorar la capacidad de autoprotección digital de los grupos con mayor incidencia.",
+        "F": "Promover educación financiera integrada en grupos universitarios, especialmente dirigida a usuarios femeninos, ya que las búsquedas de préstamos universitarios muestran que la proporción de mujeres es destacada. Al mismo tiempo, teniendo en cuenta que el grupo joven tiene una proporción considerable de búsquedas en casos de pirámides ponzi en Internet, el contenido educativo debe cubrir la identificación de préstamos universitarios y pirámides ponzi para formar una defensa coordinada.",
+        "G": "Dado que la proporción de mujeres en las búsquedas de préstamos universitarios es destacada (57%), se debe diseñar estrategias de prevención solo para mujeres y ignorar a hombres (40%) y otros grupos para concentrar recursos en resolver el riesgo más alto."
+      },
+      "charts_involved": [
+        "chart_31_2",
+        "chart_31_3",
+        "chart_31_1",
+        "chart_31_4"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    }
+  ]
+}

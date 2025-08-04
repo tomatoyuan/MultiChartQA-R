@@ -1,0 +1,173 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: During which period was the survey conducted? Please answer in the format of 'Month Day - Day, Year'.\n question2: What is the proportion of U.S. adult White people who say they have ever invested in, traded or used a cryptocurrency?",
+                "rationale": "rationale1: The question asks about the survey period. We can obtain this information directly from the chart.\n rationale2: The question requires the proportion of U.S. adult White people with cryptocurrency - related experience, which can be found from the chart.",
+                "answer": "Feb. 7 - 11, 2024; 14%",
+                "involved_content_sources": [
+                    "chart_1-8",
+                    "chart_2-13"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults who have used cryptocurrency and say their investments have done worse than expected? Please answer with a percentage.\n question2: What is the proportion of U.S. adults who are very confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies? Please answer in percentage.\n question3: What is the proportion of U.S. adult women who say they have ever invested in, traded or used a cryptocurrency?",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults who have used cryptocurrency and say their investments have done worse than expected. The relevant information is directly provided in the chart, so we just need to extract the corresponding percentage value.\n rationale2: The question directly asks for the proportion of U.S. adults with a 'very confident' attitude towards the reliability and safety of current cryptocurrency - related ways. We can find this value directly from the chart.\n rationale3: The question is about the proportion of U.S. adult women having invested in, traded or used a cryptocurrency, and the answer can be obtained from the given chart.",
+                "answer": "38%; 4%; 10%",
+                "involved_content_sources": [
+                    "chart_4-3",
+                    "chart_1-4",
+                    "chart_2-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults who have used cryptocurrency and say their investments have done worse than expected? Please answer with a percentage.\n question2: What is the proportion of U.S. adults who are NET Not very/Not at all confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies? Please answer in percentage.\n question3: What proportion of lower - income U.S. adults who have ever invested in, traded or used cryptocurrency first did this within the past year?\n question4: What is the proportion of upper - income U.S. adults who have ever invested in, traded or used cryptocurrency and currently do have any crypto?",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults who have used cryptocurrency and say their investments have done worse than expected. The relevant information is directly provided in the chart, so we just need to extract the corresponding percentage value.\n rationale2: The question requires the proportion of U.S. adults with a 'NET Not very/Not at all confident' attitude. This specific value is provided in the chart, and we just need to extract it.\n rationale3: The question asks for the proportion of lower - income adults in the relevant group who first started with cryptocurrency within the past year, and the chart gives this information.\n rationale4: We need to extract the specific proportion of upper - income U.S. adults with the given conditions from the chart.",
+                "answer": "38%; 63%; 31%; 64%",
+                "involved_content_sources": [
+                    "chart_4-3",
+                    "chart_1-7",
+                    "chart_5-19",
+                    "chart_3-4"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of people who first invested in, traded or used cryptocurrency within the past year between lower - income people and upper - income people?\n question2: What is the combined proportion of U.S. adults who have used cryptocurrency and say their investments have done better than expected or about as expected? Please provide the answer as a percentage.",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of upper - income people who first did this within the past year from the proportion of lower - income people who first did this within the past year. The relevant data can be found in the chart.\n rationale2: To find the combined proportion, we need to add the proportion of those who say their investments have done better than expected and the proportion of those who say their investments have done about as expected. The relevant data can be found in the given chart.",
+                "answer": "23%; 57%",
+                "involved_content_sources": [
+                    "chart_5-13",
+                    "chart_5-19",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of people who first invested in, traded or used cryptocurrency within the past year between lower - income people and upper - income people?\n question2: What is the combined proportion of U.S. adults who have used cryptocurrency and say their investments have done better than expected or about as expected? Please provide the answer as a percentage.\n question3: What is the difference in the proportion of cryptocurrency investment, trading or use between U.S. adult men aged 18 - 29 and U.S. adult women aged 50 and above?",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of upper - income people who first did this within the past year from the proportion of lower - income people who first did this within the past year. The relevant data can be found in the chart.\n rationale2: To find the combined proportion, we need to add the proportion of those who say their investments have done better than expected and the proportion of those who say their investments have done about as expected. The relevant data can be found in the given chart.\n rationale3: To find the difference, we need to subtract the proportion of U.S. adult women aged 50 and above who have ever invested in, traded or used a cryptocurrency from the proportion of U.S. adult men aged 18 - 29 with the same experience. The relevant data can be found in the given chart.",
+                "answer": "23%; 57%; 37%",
+                "involved_content_sources": [
+                    "chart_5-13",
+                    "chart_5-19",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_2-7",
+                    "chart_2-12"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of people who first invested in, traded or used cryptocurrency within the past year between lower - income people and upper - income people?\n question2: What is the combined proportion of U.S. adults who have used cryptocurrency and say their investments have done better than expected or about as expected? Please provide the answer as a percentage.\n question3: What is the difference in the proportion of cryptocurrency investment, trading or use between U.S. adult men aged 18 - 29 and U.S. adult women aged 50 and above?\n question4: What is the proportion of U.S. adults who are either somewhat confident, very confident, or extremely confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies? Please calculate and provide the answer as a percentage.",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of upper - income people who first did this within the past year from the proportion of lower - income people who first did this within the past year. The relevant data can be found in the chart.\n rationale2: To find the combined proportion, we need to add the proportion of those who say their investments have done better than expected and the proportion of those who say their investments have done about as expected. The relevant data can be found in the given chart.\n rationale3: To find the difference, we need to subtract the proportion of U.S. adult women aged 50 and above who have ever invested in, traded or used a cryptocurrency from the proportion of U.S. adult men aged 18 - 29 with the same experience. The relevant data can be found in the given chart.\n rationale4: To find the proportion of U.S. adults with a certain level of confidence, we need to add the proportions of those who are somewhat confident, very confident, and extremely confident. The relevant data can be found in the given chart.",
+                "answer": "23%; 57%; 37%; 23%",
+                "involved_content_sources": [
+                    "chart_5-13",
+                    "chart_5-19",
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_2-7",
+                    "chart_2-12",
+                    "chart_1-3",
+                    "chart_1-4",
+                    "chart_1-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who are NET Not very/Not at all confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies and the proportion of U.S. adult women who have ever invested in, traded or used a cryptocurrency?",
+                "rationale": "The proportion of U.S. adults who are NET Not very/Not at all confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies is 63%. The proportion of U.S. adult women who have ever invested in, traded or used a cryptocurrency is 10%. The difference is 63% - 10% = 53%.",
+                "answer": "53%",
+                "involved_content_sources": [
+                    "chart_1-7",
+                    "chart_2-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of multiplying the proportion of U.S. adults who are extremely confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies, the proportion of U.S. adult men aged 18 - 29 who have ever invested in, traded or used a cryptocurrency, and the proportion of U.S. adults who have used cryptocurrency and say their investments have done better than expected? (Round the result to four decimal places.)",
+                "rationale": "The proportion of U.S. adults who are extremely confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies is 1% (0.01). The proportion of U.S. adult men aged 18 - 29 who have ever invested in, traded or used a cryptocurrency is 42% (0.42). The proportion of U.S. adults who have used cryptocurrency and say their investments have done better than expected is 20% (0.2). The result of the multiplication is 0.01 * 0.42 * 0.2 = 0.00084, rounded to four decimal places is 0.0008.",
+                "answer": "0.0008",
+                "involved_content_sources": [
+                    "chart_1-5",
+                    "chart_2-7",
+                    "chart_4-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the proportion of U.S. adults who are net extremely/very confident in the reliability and safety of cryptocurrency to the proportion of U.S. adults who have ever used cryptocurrency and currently have no crypto, after multiplying the former by the proportion of those who have used cryptocurrency and say their investments have done better than expected and dividing by the proportion of those who first used cryptocurrency within the past year?",
+                "rationale": "The proportion of U.S. adults who are net extremely/very confident in the reliability and safety of cryptocurrency is 5% (chart_1-6). The proportion of U.S. adults who have ever used cryptocurrency and currently have no crypto is 39% (chart_3-1). The proportion of those who have used cryptocurrency and say their investments have done better than expected is 20% (chart_4-1). The proportion of those who first used cryptocurrency within the past year is 16% (chart_5-1). First, multiply the proportion of net extremely/very confident adults by the proportion of those with better - than - expected investments: 5%\u00d720% = 1%. Then divide by the proportion of those who first used within the past year: 1%\u00f716% = 0.0625. Finally, find the ratio to the proportion of those with no current crypto: 0.0625\u00f739%\u22480.16 (rounded to two decimal places).",
+                "answer": "0.16",
+                "involved_content_sources": [
+                    "chart_1-6",
+                    "chart_3-1",
+                    "chart_4-1",
+                    "chart_5-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of U.S. adults who are extremely/very confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies and U.S. adults who are not very/not at all confident in it, and the average of the proportions of U.S. adult men and U.S. adult women who have ever invested in, traded or used a cryptocurrency?",
+                "rationale": "The proportion of U.S. adults who are extremely/very confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies is 5% (chart_1-6), and the proportion of U.S. adults who are not very/not at all confident in it is 63% (chart_1-7). The average of these two proportions is (5% + 63%) / 2 = 34%. The proportion of U.S. adult men who have ever invested in, traded or used a cryptocurrency is 25% (chart_2-2), and the proportion of U.S. adult women who have ever invested in, traded or used a cryptocurrency is 10% (chart_2-3). The average of these two proportions is (25% + 10%) / 2 = 17.5%. Then the difference between the two is 34% - 17.5% = 16.5%.",
+                "answer": "16.5%",
+                "involved_content_sources": [
+                    "chart_1-6",
+                    "chart_1-7",
+                    "chart_2-2",
+                    "chart_2-3"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of U.S. adults who are extremely/very confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies, the proportion of U.S. adult Asian (English - speakers only) people who have ever invested in, traded or used a cryptocurrency, and the proportion of U.S. adults who have used cryptocurrency and say their investments have done better than expected, with weights being 0.2, 0.4, and 0.4 respectively?",
+                "rationale": "The proportion of U.S. adults who are extremely/very confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies is 5% (chart_1-6); the proportion of U.S. adult Asian (English - speakers only) people who have ever invested in, traded or used a cryptocurrency is 28% (chart_2-16); the proportion of U.S. adults who have used cryptocurrency and say their investments have done better than expected is 20% (chart_4-1). The weighted average is (5%\u00d70.2 + 28%\u00d70.4 + 20%\u00d70.4) = (0.05\u00d70.2 + 0.28\u00d70.4 + 0.2\u00d70.4) = 0.01 + 0.112 + 0.08 = 0.202 = 20.2%.",
+                "answer": "20.2%",
+                "involved_content_sources": [
+                    "chart_1-6",
+                    "chart_1-7",
+                    "chart_2-15",
+                    "chart_2-16",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who are not at all or not very confident in cryptocurrency safety, the proportion of male U.S. adults aged 18 - 29 who have used cryptocurrency, the proportion of lower - income U.S. adults who have used cryptocurrency but currently do not have any, and the proportion of U.S. adults who have used cryptocurrency and say their investments have done worse than expected?",
+                "rationale": "From Chart 1, the proportion of U.S. adults who are not at all or not very confident in the reliability and safety of current ways to invest in, trade or use cryptocurrencies is 30% + 33% = 63%. From Chart 2, the proportion of U.S. adult men aged 18 - 29 who say they have ever invested in, traded or used a cryptocurrency is 42%. From Chart 3, the proportion of lower - income U.S. adults who have ever invested in, traded or used cryptocurrency and currently do NOT have any crypto is 51%. From Chart 4, the proportion of U.S. adults who have used cryptocurrency and say their investments have done worse than expected is 38%. The average of these four values is (63% + 42% + 51% + 38%) / 4 = 48.5%.",
+                "answer": "48.5%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-2",
+                    "chart_2-7",
+                    "chart_2-13",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_4-3",
+                    "chart_4-4"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_13_1",
+    "chart_13_2",
+    "chart_13_3",
+    "chart_13_4"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Does the length change trend of the bars corresponding to the sample coverage in the chart 'Observation Mode: Office Workers are the Most Affected' from left to right match the length change trend of the bars in the chart 'Interest Distribution of Rainstorm Public Opinion (Differentiation)' from top to bottom? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former fluctuates, while the latter shows a monotonic increase.",
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the length change trend of the bars corresponding to the total coverage in the chart 'Observation Mode: Office Workers are the Most Affected' from left to right match the length change trend of the bars in the chart 'Interest Distribution of Rainstorm Public Opinion (Differentiation)' from top to bottom? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former first gets longer and then gets shorter; the latter keeps getting longer.",
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Does the length change trend of the bars corresponding to the total coverage of those under 34 years old in the chart 'Observation Mode: Office Workers are the Most Affected' from left to right match the length change trend of the bars in the chart 'Interest Distribution of Rainstorm Public Opinion (Differentiation)' from top to bottom? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both gradually get longer.",
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the maximum value between the maximum sample coverage in the chart 'Observation Mode: Office Workers are the Most Affected' and the growth rate of takeaway search times on rainy days from July 19th to July 20th? Answer directly with the values on the chart.",
+      "answer": "41%",
+      "explanation": "39.41% < 41%",
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the maximum value between the maximum total coverage in the chart 'Observation Mode: Office Workers are the Most Affected' and the growth rate of takeaway search times on rainy days from July 19th to July 20th? Answer directly with the values on the chart.",
+      "answer": "41%",
+      "explanation": "36.63% < 41%",
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the minimum value between the maximum total coverage in the chart 'Observation Mode: Office Workers are the Most Affected' and the growth rate of takeaway search times on rainy days from July 19th to July 20th? Answer directly with the values on the chart.",
+      "answer": "36.63%",
+      "explanation": "36.63% < 41%",
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "How is the change in geographical attention associated with the change in user behavior during the rainstorm event?",
+      "answer": {
+        "A": "The increase in takeaway search times on July 20th mainly comes from elderly users aged 50 and above, because chart_13_2 shows that the coverage rate of this group is low.",
+        "B": "During the rainstorm, users in high - attention provinces are more likely to dine out because takeaway delivery may be delayed.",
+        "C": "Provinces with low attention to rainstorms (such as Xinjiang and Ningxia) are associated with a relatively low base number of takeaway searches but a stable growth rate, indicating that these areas are less affected by rainstorms and there is no obvious change in behavior.",
+        "D": "Users in low - attention provinces do not use takeaway services at all during the rainstorm because they are not affected by the rainstorm.",
+        "E": "In high - attention provinces for rainstorms (such as Beijing and Hebei), the number of takeaway searches actually decreased on July 20th because the rainstorm made delivery impossible.",
+        "F": "On July 20th, high - attention provinces for rainstorms (such as Beijing and Hebei) combined with the sharp increase in takeaway search times indicate that users in these areas go out less due to the rainstorm and instead rely on takeaway services."
+      },
+      "charts_involved": [
+        "chart_13_1",
+        "chart_13_4",
+        "chart_13_2"
+      ],
+      "label": [
+        "C",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "How does the coverage rate of specific age groups correspond to the distribution of user interests in the rainstorm public opinion?",
+      "answer": {
+        "A": "In the rainstorm public opinion, users aged 50 and above are most concerned about financial management topics because rainstorms may cause economic losses.",
+        "B": "The 25 - 34 age group has the highest sample coverage rate, but the 'Foodie' interest differentiation is the highest, indicating that this group has less interest in rainstorm topics than other groups.",
+        "C": "The 25 - 34 age group has the highest coverage rate in the sample, and the 'Foodie' interest differentiation is the highest, suggesting that this age group is more concerned about diet - related topics during the rainstorm.",
+        "D": "Users under 18 cannot go out because of the rainstorm, so they are most concerned about game topics in the public opinion.",
+        "E": "The sample coverage rate of the under - 18 age group is higher than the overall coverage rate, while the 'Gamer' interest differentiation is the lowest, indicating that the Gamer group has the highest coverage rate in this age group.",
+        "F": "The sample coverage rate of the under - 18 age group is higher than the overall coverage rate, but the 'Gamer' interest differentiation is the lowest, reflecting that teenagers' interests in the rainstorm public opinion tend to be in non - game fields.",
+        "G": "The 50 - and - above age group has the lowest coverage rate, and the 'Financial Family' interest differentiation is relatively low, indicating that the elderly group has a weak interest in rainstorm - related financial management topics."
+      },
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_3"
+      ],
+      "label": [
+        "C",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the rainstorm data, which phenomena reveal the potential conflict between geographical attention and interest distribution?",
+      "answer": {
+        "A": "High - attention provinces for rainstorms (such as Shandong and Henan) stand out on July 20th, but the 'Home Decorator' interest differentiation is lower than the average level, indicating that users in these areas, although concerned about rainstorms, have little interest in home - related topics.",
+        "B": "The 'Tech Enthusiast' interest differentiation in low - attention provinces (such as Guangdong) is lower than 0.8, while that in high - attention provinces is higher than 1.2, showing an obvious conflict.",
+        "C": "The 'Home Decorator' interest differentiation in high - attention provinces for rainstorms (such as Shandong and Henan) is actually 1.2, higher than the average level, so it is consistent with the rainstorm attention.",
+        "D": "Low - attention provinces for rainstorms (such as Guangdong) combined with a medium 'Tech Enthusiast' interest differentiation reflect that users in low - attention areas may be more concerned about technology rather than the impact of the weather.",
+        "E": "Users in low - attention provinces (such as Guangdong) have an interest differentiation of less than 0.5 for all interest topics, indicating that they are completely uninterested in rainstorm topics.",
+        "F": "Users in high - attention provinces for rainstorms are very interested in home topics because they can only stay at home during the rainstorm."
+      },
+      "charts_involved": [
+        "chart_13_1",
+        "chart_13_3"
+      ],
+      "label": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the changes in attention to the rainstorm event in the time and geographical dimensions and the trend of surging demand, how should emergency resource allocation (such as drainage, transportation, and people's livelihood services) be optimized? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Prioritize deploying additional resources to provinces with the lowest attention to rainstorms (such as Xinjiang and Ningxia) because these areas may face greater potential disaster risks due to insufficient risk awareness.",
+        "B": "Allocate emergency resources evenly across all provinces to ensure a unified response to rainstorm events nationwide and avoid resource shortages in any area due to differences in attention.",
+        "C": "Deploy resources only based on the data of attention provinces from July 1 - 7, ignoring subsequent time changes, to simplify the decision - making process and reduce scheduling costs.",
+        "D": "Prioritize deploying emergency resources and people's livelihood services in provinces where the attention rises sharply during the peak period of the rainstorm, because the data shows that the demand in these areas surges during the critical period, and at the same time, the takeaway search volume soars, indicating that the pressure on people's livelihood is concentrated and a quick response is needed to mitigate the impact.",
+        "E": "Reduce resource investment during the peak period of the rainstorm because the rising attention indicates that the problem has been noticed by the public, and resources should be saved for post - disaster reconstruction.",
+        "F": "Strengthen preventive publicity and infrastructure inspections in provinces with continuously low attention. Considering that low attention may reflect insufficient risk awareness or few historical events, but there are potential risks due to geographical factors, early intervention can avoid a lag in response during sudden disasters.",
+        "G": "Establish a resource scheduling mechanism to concentrate service capabilities (such as increasing delivery capacity) on the peak days of rainstorm attention. Since the time data reflects a high synchronization between attention and people's livelihood needs, this dynamic matching can improve resource utilization efficiency and reduce waste."
+      },
+      "charts_involved": [
+        "chart_13_1",
+        "chart_13_4"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the representativeness differences of different age groups in the rainstorm event and the distribution of public opinion interests, how should targeted support services (such as information dissemination and commuting assistance) be designed? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "Provide standardized rainstorm alerts and commuting services for all age groups without segmenting the groups to ensure the comprehensiveness and consistency of service coverage.",
+        "B": "Prioritize the development of services for people under 18 because the sample coverage rate is relatively high (23.1%), indicating that this group is over - represented in the rainstorm event and needs additional support.",
+        "C": "Strengthen multi - channel protection publicity for people aged 35 - 49. Since they are under - represented in the sample but have a high overall coverage rate, they may face an information gap. Combining with the prominent attention of family - related groups in the interest distribution, designing family - centered content can improve information reach and risk prevention.",
+        "D": "Develop digital flood prevention tools (such as APP push) for the 18 - 24 young group. Considering that they have a high overall coverage rate but are slightly under - represented in the sample, and the 'Tech Enthusiast' group has a relatively high differentiation in the interest data, this strategy can enhance participation and service efficiency by leveraging interest preferences.",
+        "E": "Focus on designing services for people aged 50 and above because they have the lowest coverage rate in the sample (2.8%) and may face greater information gaps and assistance needs.",
+        "F": "Provide flexible commuting arrangements and real - time rainstorm alerts for people aged 25 - 34. Since this group is over - represented in the sample and the title indicates that they are most affected by the rainstorm, and at the same time, high - interest groups (such as housewives) have high public opinion attention, integrating services can cover relevant needs.",
+        "G": "Based on the distribution of public opinion interests, prioritize pushing services to the group with the lowest differentiation (such as gamers) because their lack of interest may indicate a higher probability of risk neglect."
+      },
+      "charts_involved": [
+        "chart_13_2",
+        "chart_13_3"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the differentiation of rainstorm public opinion interests and the actual demand changes, how should resources (such as information dissemination and takeaway services) be accurately allocated to improve the response effect? Please select the most appropriate suggestion.",
+      "answer": {
+        "A": "Design interactive educational content for groups with lower differentiation (such as gamers) to raise rainstorm awareness. Considering that the lack of interest may lead to risk neglect, combined with the coverage differences among all age groups, customized communication can fill the blind spots and promote overall protection.",
+        "B": "Prioritize pushing takeaway services and home safety guidelines to high - differentiation interest groups (such as foodies) because the data shows that they are highly sensitive to rainstorm public opinion, and at the same time, the surging demand trend indicates a large pressure on people's livelihood services. Concentrating resources can efficiently meet the urgent needs and reduce chaos.",
+        "C": "Optimize resource allocation based on the number of takeaway searches on July 19th (234,381), ignoring the data and growth rate on July 20th to stabilize service supply.",
+        "D": "Push the same rainstorm safety guidelines and takeaway discounts to all public opinion interest groups to ensure that information and services cover all people without discrimination.",
+        "E": "Prioritize allocating resources to groups with lower differentiation (such as gamers) because their low interest value (0.5915) may indicate a higher risk blind spot, and education and services need to be strengthened to avoid accidents.",
+        "F": "Optimize the scheduling of takeaway delivery capacity and increase investment in areas where high - interest groups gather during the peak demand period on rainy days. Since public opinion attention is highly correlated with demand growth, this matching can improve service satisfaction and reduce resource idleness.",
+        "G": "Reduce takeaway service resources on rainy days because the surging demand (such as high search times) is only a temporary phenomenon, and excessive investment may lead to resource waste."
+      },
+      "charts_involved": [
+        "chart_13_3",
+        "chart_13_4",
+        "chart_13_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

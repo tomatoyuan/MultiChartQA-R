@@ -1,0 +1,186 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the proportion of U.S. adults who said news organizations were declining in influence in 2021?\n question2: What is the proportion of Black U.S. adults who say news organizations are growing in influence? (Answer in percentage)",
+                "rationale": "rationale1: This question asks for the proportion of U.S. adults who believed news organizations were declining in influence in 2021, and the relevant data is in the chart.\n rationale2: We search the chart for the proportion of Black U.S. adults who believe news organizations are growing in influence.",
+                "answer": "33%; 48%",
+                "involved_content_sources": [
+                    "chart_1-5",
+                    "chart_4-26"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adult men who say news organizations are declining in influence? (Answer in percentage)\n question2: In 2021, what proportion of U.S. adult Republicans/lean Republicans say news organizations are declining in influence?\n question3: What was the proportion of U.S. adults who said news organizations were neither growing nor declining in influence in 2021?",
+                "rationale": "rationale1: We need to extract the proportion of U.S. adult men who believe news organizations are declining in influence from the given chart.\n rationale2: We need to find the proportion of U.S. adult Republicans/lean Republicans who claim news organizations are declining in influence in 2021 from the given chart data.\n rationale3: We are required to find the proportion of U.S. adults with the opinion that news organizations were neither growing nor declining in influence in 2021, which can be found in the chart.",
+                "answer": "38%; 41%; 25%",
+                "involved_content_sources": [
+                    "chart_4-4",
+                    "chart_2-8",
+                    "chart_1-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What proportion of U.S. adults who trust the accuracy of political news from national news organizations not much say news organizations are declining in influence?\n question2: Among U.S. adults with a high - school education or less, what is the proportion of those who say news organizations are declining in influence? (Answer in percentage)\n question3: In 2020, what proportion of U.S. adult Republicans/lean Republicans say news organizations are growing in influence?\n question4: What was the proportion of U.S. adults who said news organizations were neither growing nor declining in influence in 2021?",
+                "rationale": "rationale1: The query is about the proportion of the 'trust not much' group believing news organizations are declining in influence. We get the answer from the relevant part of the chart.\n rationale2: The question focuses on a specific educational - level group (high - school education or less) of U.S. adults and asks for the proportion of those who think news organizations are declining in influence. We get this data from the chart.\n rationale3: This question asks for the proportion of U.S. adult Republicans/lean Republicans who believe news organizations are growing in influence in 2020, and the relevant data is in the chart.\n rationale4: We are required to find the proportion of U.S. adults with the opinion that news organizations were neither growing nor declining in influence in 2021, which can be found in the chart.",
+                "answer": "42%; 30%; 28%; 25%",
+                "involved_content_sources": [
+                    "chart_3-7",
+                    "chart_4-34",
+                    "chart_2-5",
+                    "chart_1-6"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the change of the proportion of U.S. adult Democrats/lean Democrats who say news organizations are growing in influence and the change of the proportion of those who say news organizations are declining in influence from 2020 to 2021?\n question2: What is the average proportion of U.S. adults who think news organizations are growing in influence among those who trust the accuracy of political news from national news organizations at different levels (a great deal, some, not much, not at all)?",
+                "rationale": "rationale1: First, calculate the change in the proportion of Democrats/lean Democrats who say news organizations are growing in influence from 2020 to 2021, which is 43% - 36%. Then, calculate the change in the proportion of those who say news organizations are declining in influence from 2020 to 2021, which is 28% - 42%. Finally, find the difference between these two changes.\n rationale2: To find the average, we need to add up the proportions of those who think news organizations are growing in influence for each trust - level group and then divide by the number of groups. The relevant data for the proportion of those who think news organizations are growing in influence are in different parts of the chart according to the trust - level. We have 4 trust - level groups: a great deal, some, not much, and not at all.",
+                "answer": "11%; 39.75",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-2",
+                    "chart_3-5",
+                    "chart_3-8",
+                    "chart_3-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the change of the proportion of U.S. adult Democrats/lean Democrats who say news organizations are growing in influence and the change of the proportion of those who say news organizations are declining in influence from 2020 to 2021?\n question2: What is the average proportion of U.S. adults who think news organizations are growing in influence among those who trust the accuracy of political news from national news organizations at different levels (a great deal, some, not much, not at all)?\n question3: What is the change in the proportion of U.S. adults who say news organizations are growing in influence from 2020 to 2021?",
+                "rationale": "rationale1: First, calculate the change in the proportion of Democrats/lean Democrats who say news organizations are growing in influence from 2020 to 2021, which is 43% - 36%. Then, calculate the change in the proportion of those who say news organizations are declining in influence from 2020 to 2021, which is 28% - 42%. Finally, find the difference between these two changes.\n rationale2: To find the average, we need to add up the proportions of those who think news organizations are growing in influence for each trust - level group and then divide by the number of groups. The relevant data for the proportion of those who think news organizations are growing in influence are in different parts of the chart according to the trust - level. We have 4 trust - level groups: a great deal, some, not much, and not at all.\n rationale3: To find the change in the proportion of U.S. adults who think news organizations are growing in influence from 2020 to 2021, we need to subtract the proportion in 2020 from the proportion in 2021. This calculation involves two specific data points from the chart which are relevant to understanding the trend of the perceived influence growth of news organizations over the two - year period.",
+                "answer": "11%; 39.75; 9%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-2",
+                    "chart_3-5",
+                    "chart_3-8",
+                    "chart_3-11",
+                    "chart_1-1",
+                    "chart_1-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the change of the proportion of U.S. adult Democrats/lean Democrats who say news organizations are growing in influence and the change of the proportion of those who say news organizations are declining in influence from 2020 to 2021?\n question2: What is the average proportion of U.S. adults who think news organizations are growing in influence among those who trust the accuracy of political news from national news organizations at different levels (a great deal, some, not much, not at all)?\n question3: What is the change in the proportion of U.S. adults who say news organizations are growing in influence from 2020 to 2021?\n question4: What is the average proportion of U.S. adults across all age groups who say news organizations are growing in influence?",
+                "rationale": "rationale1: First, calculate the change in the proportion of Democrats/lean Democrats who say news organizations are growing in influence from 2020 to 2021, which is 43% - 36%. Then, calculate the change in the proportion of those who say news organizations are declining in influence from 2020 to 2021, which is 28% - 42%. Finally, find the difference between these two changes.\n rationale2: To find the average, we need to add up the proportions of those who think news organizations are growing in influence for each trust - level group and then divide by the number of groups. The relevant data for the proportion of those who think news organizations are growing in influence are in different parts of the chart according to the trust - level. We have 4 trust - level groups: a great deal, some, not much, and not at all.\n rationale3: To find the change in the proportion of U.S. adults who think news organizations are growing in influence from 2020 to 2021, we need to subtract the proportion in 2020 from the proportion in 2021. This calculation involves two specific data points from the chart which are relevant to understanding the trend of the perceived influence growth of news organizations over the two - year period.\n rationale4: To find the average, we need to sum up the proportions of U.S. adults in each age group who say news organizations are growing in influence and then divide by the number of age groups. The age groups are 18 - 29, 30 - 49, 50 - 64, and 65+. We take the relevant proportions from the chart and perform the necessary calculations.",
+                "answer": "11%; 39.75; 9%; 40.75",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-2",
+                    "chart_3-5",
+                    "chart_3-8",
+                    "chart_3-11",
+                    "chart_1-1",
+                    "chart_1-4",
+                    "chart_4-11",
+                    "chart_4-14",
+                    "chart_4-17",
+                    "chart_4-20"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adult Democrats/lean Democrats who say news organizations are growing in influence in 2021 and the proportion of U.S. adults who trust the accuracy of political news from national news organizations not at all and say news organizations are growing in influence?",
+                "rationale": "The proportion of U.S. adult Democrats/lean Democrats who say news organizations are growing in influence in 2021 is 43% (from chart_2-3). The proportion of U.S. adults who trust the accuracy of political news from national news organizations not at all and say news organizations are growing in influence is 33% (from chart_3-11). The difference is 43% - 33% = 10%.",
+                "answer": "10%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_3-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults who say news organizations are growing in influence in 2021, the proportion of U.S. adult Republicans/lean Republicans who say news organizations are growing in influence in 2021, and the proportion of U.S. adults who trust the accuracy of political news from national news organizations a great deal and say news organizations are growing in influence? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who say news organizations are growing in influence in 2021 is 41%. The proportion of U.S. adult Republicans/lean Republicans who say news organizations are growing in influence in 2021 is 40%. The proportion of U.S. adults who trust the accuracy of political news from national news organizations a great deal and say news organizations are growing in influence is 48%. The average is (41% + 40% + 48%) / 3 = 43.00% (rounded to two decimal places).",
+                "answer": "43.00%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_2-7",
+                    "chart_3-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the change in the proportion of all U.S. adults who say news organizations are growing in influence from 2020 to 2021, the change in the proportion of Democrats/lean Democrats who say news organizations are growing in influence from 2020 to 2021, the difference between the proportion of those who trust the accuracy of political news from national news organizations a great deal and say news organizations are growing in influence and those who trust not at all and say so, and the difference between the proportion of Black U.S. adults and white U.S. adults who say news organizations are growing in influence?",
+                "rationale": "1. The change in the proportion of all U.S. adults who say news organizations are growing in influence from 2020 to 2021: 41% - 32% = 9%. 2. The change in the proportion of Democrats/lean Democrats who say news organizations are growing in influence from 2020 to 2021: 43% - 36% = 7%. 3. The difference between the proportion of those who trust the accuracy of political news from national news organizations a great deal and say news organizations are growing in influence and those who trust not at all and say so: 48% - 33% = 15%. 4. The difference between the proportion of Black U.S. adults and white U.S. adults who say news organizations are growing in influence: 48% - 39% = 9%. The average of these four values is (9% + 7% + 15% + 9%) / 4 = 10%.",
+                "answer": "10%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_2-3",
+                    "chart_3-2",
+                    "chart_4-26"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the proportions of Democrats who thought news organizations were growing in influence in 2020 and 2021, and the sum of the proportions of adults who trust the accuracy of political news from national news organizations 'not much' and 'not at all' and think news organizations are growing in influence in 2021?",
+                "rationale": "Among U.S. adult Democrats/lean Democrats, the proportion who say news organizations are growing in influence in 2020 is 36% (chart_2-1), and in 2021 is 43% (chart_2-3). The sum of these two proportions is 36% + 43% = 79%. Among U.S. adults who trust the accuracy of political news from national news organizations 'not much', the proportion who say news organizations are growing in influence is 34% (chart_3-8), and among those who trust 'not at all', the proportion is 33% (chart_3-11). The sum of these two proportions is 34% + 33% = 67%. Then the difference between the two sums is 79% - 67% = 12%.",
+                "answer": "12%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-3",
+                    "chart_3-8",
+                    "chart_3-11"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the change in the proportion of U.S. adults who say news organizations are growing in influence from 2020 to 2021, the difference in the proportion of Republicans/lean Republicans and Democrats/lean Democrats who say news organizations are growing in influence in 2021, and the difference in the proportion of U.S. adult men and women who say news organizations are growing in influence in 2021, with weights being 0.4, 0.3, and 0.3 respectively?",
+                "rationale": "The change in the proportion of U.S. adults who say news organizations are growing in influence from 2020 to 2021 is 41% - 32% = 9% (chart_1-1, chart_1-4). The difference in the proportion of Republicans/lean Republicans and Democrats/lean Democrats who say news organizations are growing in influence in 2021 is 43% - 40% = 3% (chart_2-3, chart_2-7). The difference in the proportion of U.S. adult men and women who say news organizations are growing in influence in 2021 is 43% - 39% = 4% (chart_4-5, chart_4-8). The weighted average is (9%\u00d70.4 + 3%\u00d70.3 + 4%\u00d70.3) = (0.09\u00d70.4 + 0.03\u00d70.3 + 0.04\u00d70.3) = 0.036 + 0.009 + 0.012 = 0.057 = 5.7%.",
+                "answer": "5.7%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-4",
+                    "chart_2-3",
+                    "chart_2-7",
+                    "chart_4-5",
+                    "chart_4-8"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of those who think news organizations are growing in influence between 2021 and 2020 among all U.S. adults, the difference in the proportion of Republicans who think news organizations are growing in influence between 2021 and 2020, the difference in the proportion of those who trust the news a great deal and those who trust it not at all and think news organizations are growing in influence, and the difference in the proportion of men and women who think news organizations are growing in influence?",
+                "rationale": "First, for all U.S. adults, the proportion who think news organizations are growing in influence is 41% in 2021 (chart_1-4) and 32% in 2020 (chart_1-1). The difference is 41% - 32% = 9%. Second, among Republicans, the proportion who think news organizations are growing in influence is 40% in 2021 (chart_2-7) and 28% in 2020 (chart_2-5). The difference is 40% - 28% = 12%. Third, among those who trust the news a great deal, the proportion who think news organizations are growing in influence is 48% (chart_3-2), and among those who trust it not at all, the proportion is 33% (chart_3-11). The difference is 48% - 33% = 15%. Fourth, among men, the proportion who think news organizations are growing in influence is 39% (chart_4-5), and among women, it is 43% (chart_4-8). The difference is 43% - 39% = 4%. The average of these four differences is (9% + 12% + 15% + 4%) / 4 = 10%.",
+                "answer": "10%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_1-4",
+                    "chart_2-5",
+                    "chart_2-7",
+                    "chart_3-2",
+                    "chart_3-11",
+                    "chart_4-5",
+                    "chart_4-8"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

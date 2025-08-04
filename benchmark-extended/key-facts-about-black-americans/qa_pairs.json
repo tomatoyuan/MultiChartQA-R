@@ -1,0 +1,177 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the percentage change of the Black population in Florida from 2010 - 2023?\n question2: What is the proportion of married U.S. Black women in 2023?",
+                "rationale": "rationale1: This question simply asks for the specific percentage change of the Black population in Florida during the given time - period, and the answer can be retrieved from the chart.\n rationale2: We are looking for the proportion of married U.S. Black women in 2023, and the necessary data is in the chart.",
+                "answer": "25%; 29%",
+                "involved_content_sources": [
+                    "chart_3-49",
+                    "chart_6-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of married Black men who are married to a non - Black person? (Answer in percentage)\n question2: How many Black Hispanics were there in 2010? (Answer with a single number)\n question3: What is the proportion of never - married U.S. Black men in 2023?",
+                "rationale": "rationale1: The question focuses on the proportion of married Black men married to a non - Black person. We can obtain this value directly from the given chart.\n rationale2: The query is about the number of Black Hispanics in 2010, and the chart provides this specific data.\n rationale3: The question focuses on the proportion of never - married U.S. Black men in 2023, and the answer can be obtained from the chart.",
+                "answer": "21%; 1.7 million; 49%",
+                "involved_content_sources": [
+                    "chart_7-4",
+                    "chart_2-6",
+                    "chart_6-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the percentage change of the Black population from 2010 in the Los Angeles - Long Beach - Anaheim, CA metropolitan area?\n question2: How many Black Hispanics were there in 2010? (Answer with a single number)\n question3: What is the proportion of married Black men who are married to a non - Black person? (Answer in percentage)\n question4: What is the percentage change of the Black population in Florida from 2010 - 2023?",
+                "rationale": "rationale1: This question asks for the percentage change of the Black population from 2010 in a particular metro area, and the answer can be found in the chart.\n rationale2: The query is about the number of Black Hispanics in 2010, and the chart provides this specific data.\n rationale3: The question focuses on the proportion of married Black men married to a non - Black person. We can obtain this value directly from the given chart.\n rationale4: This question simply asks for the specific percentage change of the Black population in Florida during the given time - period, and the answer can be retrieved from the chart.",
+                "answer": "-1%; 1.7 million; 21%; 25%",
+                "involved_content_sources": [
+                    "chart_4-30",
+                    "chart_2-6",
+                    "chart_7-4",
+                    "chart_3-49"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of married Black men and married Black women who are married to a non - Black person?\n question2: What is the average percentage change of the Black population in the states of Nevada, Arizona, and Minnesota from 2010 - 2023?",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of married Black women married to a non - Black person from the proportion of married Black men married to a non - Black person. This calculation directly uses the relevant data from the chart to answer the question about the difference in these two proportions.\n rationale2: To find the average, we need to sum up the percentage changes of the Black population in Nevada, Arizona, and Minnesota and then divide by the number of states (3). We take the values from the chart which shows the respective percentage changes for these states.",
+                "answer": "8%; 60",
+                "involved_content_sources": [
+                    "chart_7-4",
+                    "chart_7-6",
+                    "chart_3-5",
+                    "chart_3-7",
+                    "chart_3-14"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of married Black men and married Black women who are married to a non - Black person?\n question2: What is the average percentage change of the Black population in the states of Nevada, Arizona, and Minnesota from 2010 - 2023?\n question3: What is the difference in the proportion of never - married between U.S. non - Black adults and U.S. Black adults in 2023?",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of married Black women married to a non - Black person from the proportion of married Black men married to a non - Black person. This calculation directly uses the relevant data from the chart to answer the question about the difference in these two proportions.\n rationale2: To find the average, we need to sum up the percentage changes of the Black population in Nevada, Arizona, and Minnesota and then divide by the number of states (3). We take the values from the chart which shows the respective percentage changes for these states.\n rationale3: To find the difference in the proportion of never - married between U.S. non - Black adults and U.S. Black adults, we need to subtract the proportion of never - married U.S. non - Black adults from the proportion of never - married U.S. Black adults. We can get the relevant data from the chart.",
+                "answer": "8%; 60; 19%",
+                "involved_content_sources": [
+                    "chart_7-4",
+                    "chart_7-6",
+                    "chart_3-5",
+                    "chart_3-7",
+                    "chart_3-14",
+                    "chart_6-3",
+                    "chart_6-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of married Black men and married Black women who are married to a non - Black person?\n question2: What is the average percentage change of the Black population in the states of Nevada, Arizona, and Minnesota from 2010 - 2023?\n question3: What is the difference in the proportion of never - married between U.S. non - Black adults and U.S. Black adults in 2023?\n question4: What is the increase in the number of the U.S. Black population from 2000 to 2023, and how much of this increase is accounted for by the growth in the number of Black Hispanic individuals during the same period? Provide the answers as whole numbers separated by a comma. The first number is the total increase in the U.S. Black population, and the second number is the increase in the number of Black Hispanic individuals.",
+                "rationale": "rationale1: To find the difference, we need to subtract the proportion of married Black women married to a non - Black person from the proportion of married Black men married to a non - Black person. This calculation directly uses the relevant data from the chart to answer the question about the difference in these two proportions.\n rationale2: To find the average, we need to sum up the percentage changes of the Black population in Nevada, Arizona, and Minnesota and then divide by the number of states (3). We take the values from the chart which shows the respective percentage changes for these states.\n rationale3: To find the difference in the proportion of never - married between U.S. non - Black adults and U.S. Black adults, we need to subtract the proportion of never - married U.S. non - Black adults from the proportion of never - married U.S. Black adults. We can get the relevant data from the chart.\n rationale4: First, to find the increase in the U.S. Black population from 2000 to 2023, we subtract the population in 2000 (36.2 million) from the population in 2023 (48.3 million). So, 48.3 - 36.2 = 12.1 million, which we round to 12 million as a whole number. Next, to find the increase in the number of Black Hispanic individuals from 2000 to 2023, we subtract the number in 2000 (1.0 million) from the number in 2023 (3.0 million). So, 3.0 - 1.0 = 2.0 million, which we round to 2 million as a whole number.",
+                "answer": "8%; 60; 19%; 12,2",
+                "involved_content_sources": [
+                    "chart_7-4",
+                    "chart_7-6",
+                    "chart_3-5",
+                    "chart_3-7",
+                    "chart_3-14",
+                    "chart_6-3",
+                    "chart_6-6",
+                    "chart_2-1",
+                    "chart_2-2",
+                    "chart_2-9",
+                    "chart_2-10"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the increase in the number of Black Hispanic people from 2000 to 2023 to the percentage change of the Black population in Nevada from 2010 - 2023?",
+                "rationale": "The increase in the number of Black Hispanic people from 2000 to 2023 is 3.0 - 1.0 = 2.0 million. The percentage change of the Black population in Nevada from 2010 - 2023 is 60%. The ratio is 2.0 / 60 = 1 / 30 \u2248 0.0333 (in million per percentage).",
+                "answer": "0.0333",
+                "involved_content_sources": [
+                    "chart_2-10",
+                    "chart_3-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the increase in the number of Black Hispanic people from 2000 to 2023 to the percentage change of the Black population in Nevada from 2010 - 2023, and then multiplied by the percentage of the metro population that is Black in the Atlanta - Sandy Springs - Roswell, GA metropolitan area in 2023? (Round the result to two decimal places.)",
+                "rationale": "The number of Black Hispanic people in 2000 was 1.0 million (chart_2-2), and in 2023 it was 3.0 million (chart_2-10), so the increase is 3.0 - 1.0 = 2.0 million. The percentage change of the Black population in Nevada from 2010 - 2023 is 60% (chart_3-5). The percentage of the metro population that is Black in the Atlanta - Sandy Springs - Roswell, GA metropolitan area in 2023 is 37% (chart_4-5). The ratio of the increase in the number of Black Hispanic people to the percentage change in Nevada is 2.0 / 60 = 0.0333 (approx.). Then multiplying by the percentage in Atlanta gives 0.0333 * 37 = 1.23 (rounded to two decimal places).",
+                "answer": "1.23",
+                "involved_content_sources": [
+                    "chart_2-10",
+                    "chart_3-5",
+                    "chart_4-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the percentage change of the Black population in Nevada from 2010 - 2023 to the difference between the proportion of U.S. Black women aged 25 and older with a bachelor's degree or higher in 2023 and the proportion of U.S. Black men aged 25 and older with a bachelor's degree or higher in 2000, multiplied by the proportion of married Black adults who are married to a non - Black person, and then divided by the percentage of the metro population that is Black in the Atlanta - Sandy Springs - Roswell, GA metropolitan area in 2023?",
+                "rationale": "The percentage change of the Black population in Nevada from 2010 - 2023 is 60% (chart_3-5). The proportion of U.S. Black women aged 25 and older with a bachelor's degree or higher in 2023 is 30.1% (chart_5-4), and the proportion of U.S. Black men aged 25 and older with a bachelor's degree or higher in 2000 is 13.4% (chart_5-3). The difference is 30.1% - 13.4% = 16.7%. The proportion of married Black adults who are married to a non - Black person is 18% (chart_7-2). The percentage of the metro population that is Black in the Atlanta - Sandy Springs - Roswell, GA metropolitan area in 2023 is 37% (chart_4-5). The calculation is (60% / 16.7%) * 18% / 37% \u2248 1.7479. Converting to percentage gives approximately 174.79%.",
+                "answer": "174.79%",
+                "involved_content_sources": [
+                    "chart_3-5",
+                    "chart_4-5",
+                    "chart_5-4",
+                    "chart_7-2"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the sum of the percentage change of the Black population in Utah and Nevada from 2010 - 2023, and the sum of the percentage change of the Black population from 2010 in the Atlanta - Sandy Springs - Roswell and Dallas - Fort Worth - Arlington metropolitan areas?",
+                "rationale": "The percentage change of the Black population in Utah from 2010 - 2023 is 89% (chart_3-6), and in Nevada from 2010 - 2023 is 60% (chart_3-5). The sum of these two percentages is 89% + 60% = 149%. The percentage change of the Black population from 2010 in the Atlanta - Sandy Springs - Roswell metropolitan area is 33% (chart_4-6), and in the Dallas - Fort Worth - Arlington metropolitan area is 47% (chart_4-15). The sum of these two percentages is 33% + 47% = 80%. Then the difference between the two sums is 149% - 80% = 69%.",
+                "answer": "69%",
+                "involved_content_sources": [
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_4-6",
+                    "chart_4-15"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the increase in the number of Black Hispanic population from 2000 to 2023 to the percentage change of the Black population in Nevada from 2010 - 2023, multiplied by the difference between the proportion of U.S. Black women aged 25 and older with a bachelor's degree or higher in the Black population in 2023 and in 2000?",
+                "rationale": "The number of Black Hispanic population in 2000 was 1.0 million (chart_2-2), and in 2023 was 3.0 million (chart_2-10), so the increase is 3.0 - 1.0 = 2.0 million. The percentage change of the Black population in Nevada from 2010 - 2023 is 60% (chart_3-5). The proportion of U.S. Black women aged 25 and older with a bachelor's degree or higher in the Black population in 2000 was 15.4% (chart_5-1), and in 2023 was 30.1% (chart_5-4), so the difference is 30.1 - 15.4 = 14.7%. The ratio of the increase in the number of Black Hispanic population to the percentage change of the Black population in Nevada is 2.0 / 60 = 1 / 30. Then multiply it by the difference of the educational attainment proportion: (1 / 30) \u00d7 14.7 = 0.49 = 49%.",
+                "answer": "49%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_2-10",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_5-1",
+                    "chart_5-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the growth rate of the total U.S. Black population from 2000 to 2023, the average percentage change of the Black population in Utah, Arizona, and Nevada from 2010 - 2023, the percentage change of the Black population in the Atlanta - Sandy Springs - Roswell, GA metropolitan area from 2010, and the increase in the proportion of all U.S. Black people aged 25 and older with a bachelor's degree or higher from 2000 to 2023?",
+                "rationale": "First, calculate the growth rate of the total U.S. Black population from 2000 to 2023. In 2000, the population was 36.2 million (chart_2-1), and in 2023, it was 48.3 million (chart_2-9). The growth rate is ((48.3 - 36.2) / 36.2) * 100% \u2248 33.43%. Second, find the average percentage change of the Black population in Utah, Arizona, and Nevada from 2010 - 2023. Utah had an 89% change (chart_3-6), Arizona had a 60% change (chart_3-7), and Nevada had a 60% change (chart_3-5). The average is (89% + 60% + 60%) / 3 = 69.67%. Third, the percentage change of the Black population in the Atlanta - Sandy Springs - Roswell, GA metropolitan area from 2010 was 33% (chart_4-6). Fourth, in 2000, the proportion of all U.S. Black people aged 25 and older with a bachelor's degree or higher was 14.5% (chart_5-2), and in 2023, it was 27.0% (chart_5-5). The increase is 27.0% - 14.5% = 12.5%. The average of these four values is (33.43% + 69.67% + 33% + 12.5%) / 4 = 37.15% (rounded to two decimal places).",
+                "answer": "37.15%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_2-9",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_4-6",
+                    "chart_4-7",
+                    "chart_5-2",
+                    "chart_5-5"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

@@ -1,0 +1,201 @@
+{
+  "chart": [
+    "chart_163_1",
+    "chart_163_2",
+    "chart_163_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "¿La tendencia de cambio de la proporción de las tiendas T1 en la 'Distribución de nuevas tiendas abiertas entre 2019 y 2023' coincide con la tendencia del ciclo de vida de las tiendas T1 en el 'Ciclo de vida de las tiendas de diferentes formatos en 2024 (meses) - Restauración y Retail'? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "En la 'Distribución de nuevas tiendas abiertas entre 2019 y 2023', la proporción de las tiendas T1 disminuye año tras año; en el 'Ciclo de vida de las tiendas de diferentes formatos en 2024 (meses) - Restauración y Retail', el ciclo de vida de las tiendas T1 es el más bajo entre las tres categorías, y las tendencias coinciden.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿Qué relación existe entre la tendencia de cambio de la proporción de las tiendas T3+ en la 'Distribución de nuevas tiendas abiertas entre 2019 y 2023' durante el período de 2019 - 2022 y la tendencia de cambio del tamaño de la economía rural y la proporción del PIB nacional en los mismos años? Responda correlación positiva, correlación negativa o no correlación.",
+      "answer": "Correlación negativa",
+      "explanation": "Entre 2019 y 2022, la proporción de las nuevas tiendas T3+ aumenta año tras año; mientras que la proporción del PIB nacional de la economía rural disminuye año tras año, lo que muestra una relación de correlación negativa entre los dos valores.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "¿El tipo de tienda con el ciclo de vida más largo en cada formato en el 'Ciclo de vida de las tiendas de diferentes formatos en 2024 (meses) - Restauración y Retail' corresponde al tipo de tienda con la proporción más alta en la 'Distribución de nuevas tiendas abiertas entre 2019 y 2023'? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambos son T3+.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponga que el PIB nacional en 2020 es de 1000Y, y el tamaño económico de las nuevas tiendas abiertas representa el 1% del tamaño económico rural. ¿Cuál es el PIB correspondiente a las nuevas tiendas de tipo T1 en 2020? Exprese el resultado en Y y redondee a 2 decimales.",
+      "answer": "0.44Y",
+      "explanation": "El tamaño económico rural en 2020 = 1000Y * 40% = 400Y. Entonces, el tamaño económico de las nuevas tiendas abiertas es de 4Y. El PIB correspondiente a las nuevas tiendas de tipo T1 es 4Y * 11% = 0.44Y.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Suponga que el tamaño económico total de todas las tiendas en 2024 es de 100Y, la proporción del tamaño económico de cada tipo de tienda (T1/T2/T3+) es la misma que la proporción del número de nuevas tiendas de cada tipo en 2023, y la proporción del tamaño económico de cada formato de negocio en cada tipo de tienda es proporcional a su ciclo de vida. ¿Cuál es el tamaño económico correspondiente a las tiendas de retail encadenadas de tipo T1 en 2024? Exprese el resultado en Y y redondee a 2 decimales.",
+      "answer": "3.14Y",
+      "explanation": "El tamaño económico de las tiendas de tipo T1 en 2024 = 100Y * 10% = 10Y. El tamaño económico correspondiente a las tiendas de retail encadenadas es 10Y * (38.0 / (20.7 + 24.1 + 38.2 + 38.0)) = 3.14Y.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Si el ciclo de vida promedio de cada tipo de tienda (T1, T2, T3+) en las nuevas tiendas abiertas en 2023 es igual a la media geométrica del ciclo de vida de cada formato de negocio en 2024, estime cuál es el ciclo de vida promedio ponderado de las nuevas tiendas abiertas en 2023. Redondee a 1 decimal y la unidad es meses.",
+      "answer": "33.4 meses",
+      "explanation": "El ciclo de vida promedio de las nuevas tiendas de tipo T1 = (20.7+24.1+38.2+38.0)/4 = 30.25 meses. El ciclo de vida promedio de las nuevas tiendas de tipo T2 = (22.3+25.0+41.2+40.5)/4 = 32.25 meses. El ciclo de vida promedio de las nuevas tiendas de tipo T3+ = (25.3+25.4+43.9+43.3)/4 = 34.475 meses. La proporción de T3+ es del 48%, la proporción de T2 es del 43% y la proporción de T1 es del 10%. El promedio ponderado = 30.25×0.10 + 32.25×0.43 + 34.475×0.48 = 33.4405 = 33.4 meses.",
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Según el gráfico de distribución anual de nuevas tiendas y el gráfico de la proporción del tamaño de la economía rural, ¿qué conflicto puede existir entre la variación anual del total de nuevas tiendas y la tendencia de la proporción del tamaño de la economía rural? ¿Qué factores pueden explicar este conflicto?",
+      "answer": {
+        "A": "El total de nuevas tiendas está altamente correlacionado positivamente con la proporción del tamaño de la economía rural, ya que la mejora del entorno económico promueve directamente la expansión empresarial.",
+        "B": "El total de nuevas tiendas fluctúa en general entre 2019 y 2023, mientras que la proporción del tamaño de la economía rural se mantiene en un nivel bajo y constante. La discrepancia en las tendencias refleja que la apertura de tiendas está más influida por factores sectoriales a corto plazo que por la tendencia macroeconómica a largo plazo.",
+        "C": "El total de nuevas tiendas aumentó significativamente en 2021, pero la proporción del tamaño de la economía rural no aumentó al mismo tiempo, lo que indica que la recuperación del mercado o el estímulo de políticas pueden haber jugado un papel dominante en impulsar la recuperación de la apertura de tiendas.",
+        "D": "El total de nuevas tiendas disminuyó significativamente en 2020, mientras que la proporción del tamaño de la economía rural se mantuvo relativamente estable durante el mismo período, lo que sugiere que eventos externos (como la crisis sanitaria global) pueden haber tenido un impacto a corto plazo en la apertura de tiendas.",
+        "E": "El total de nuevas tiendas aumentó significativamente a 7044 en 2021, y al mismo tiempo, la proporción del tamaño de la economía rural también aumentó significativamente al 45%, lo que indica una recuperación sincronizada de ambos.",
+        "F": "La proporción del tamaño de la economía rural ha disminuido constantemente, pero el número de nuevas tiendas se recuperó a 6221 en 2023, lo que refleja que las empresas han compensado los riesgos macroeconómicos a través de la transformación digital.",
+        "G": "El total de nuevas tiendas disminuyó a 4114 en 2020, principalmente debido a que la proporción del tamaño de la economía rural se redujo significativamente del 40% en 2019 al 40%, lo que provocó una falta de confianza en el mercado."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Basado en el gráfico de distribución anual de nuevas tiendas y el gráfico del ciclo de vida de las tiendas, ¿cómo puede la tendencia de cambio de las nuevas tiendas en el nivel T3 reflejar el ajuste de la estrategia empresarial? ¿Qué características de capacidad de supervivencia respaldan esta estrategia?",
+      "answer": {
+        "A": "La proporción del nivel T2 en la distribución de nuevas tiendas es relativamente estable, pero la ventaja del ciclo de vida de las cadenas de restauración en T2 no es evidente, lo que sugiere que las empresas pueden priorizar el sector minorista para mejorar la tasa de supervivencia general.",
+        "B": "La proporción de nuevas tiendas en el nivel T3 ha aumentado gradualmente en los últimos años, y el gráfico del ciclo de vida de las tiendas muestra que los formatos T3+ (especialmente el minorista) tienen un ciclo de vida más largo, lo que puede indicar que las empresas prefieren expandirse en niveles de alta tasa de supervivencia para reducir riesgos.",
+        "C": "Los datos de nuevas tiendas T3 alcanzaron un máximo en 2023, y al mismo tiempo, el ciclo de vida del minorista T3+ es significativamente más largo que el de la restauración, lo que refleja que la estrategia empresarial está cambiando de formatos de baja tasa de supervivencia a áreas de alta tasa de supervivencia.",
+        "D": "El número de nuevas tiendas T3 aumentó a 48 en 2023, pero el ciclo de vida del minorista T3+ es solo de 20 meses, lo que refleja que la estrategia empresarial ignora los datos de capacidad de supervivencia.",
+        "E": "El número de nuevas tiendas en el nivel T3 disminuyó de 41 en 2019 a 48 en 2023, lo que indica que las empresas están reduciendo la inversión en áreas de alto riesgo.",
+        "F": "La estrategia empresarial siempre prioriza los formatos con la tasa de supervivencia más alta, como las cadenas de restauración, ya que su ciclo de vida es generalmente más largo.",
+        "G": "El ciclo de vida de las cadenas de restauración T1 es de 24.1 meses, más largo que el de las tiendas minoristas no encadenadas T1 de 38.2 meses, por lo que las empresas prefieren desarrollar el sector de la restauración en T3."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combinando el gráfico de la proporción del tamaño de la economía rural y el gráfico del ciclo de vida de las tiendas, ¿cómo puede la tendencia de disminución continua del tamaño de la economía rural afectar la selección del formato de tiendas futuras? ¿Qué datos de capacidad de supervivencia respaldan este impacto?",
+      "answer": {
+        "A": "La proporción del tamaño de la economía rural disminuyó del 55% en 2012 al 41% en 2022, y el ciclo de vida de las restauraciones no encadenadas T1 es solo de 20.7 meses, más corto que el del minorista de 38.2 meses, por lo que las empresas pueden reducir priorariamente el sector de la restauración.",
+        "B": "A pesar de que el entorno económico se ha vuelto más restrictivo, la alta tasa de supervivencia del minorista T3+ contrasta con la estabilidad en un nivel bajo de la proporción del tamaño de la economía rural, lo que sugiere que las empresas pueden centrarse en formatos de alta tasa de supervivencia para compensar los riesgos macroeconómicos.",
+        "C": "Bajo la presión económica, las empresas deben salir completamente del mercado rural y centrarse en áreas urbanas de alto crecimiento.",
+        "D": "La proporción del tamaño de la economía rural se recuperó al 41% en 2022, lo que indica una tendencia de recuperación, por lo que las empresas pueden aumentar la inversión en todos los formatos para aprovechar las oportunidades de crecimiento.",
+        "E": "El ciclo de vida del minorista encadenado T3+ es de 43.3 meses, pero la disminución de la proporción del tamaño de la economía rural hará que su tasa de supervivencia sea menor a 20 meses, lo que impulsará a las empresas a cambiar al sector de la restauración.",
+        "F": "La proporción del tamaño de la economía rural ha disminuido año tras año, y el ciclo de vida del sector minorista en los niveles T1 y T2 es significativamente más largo que el de la restauración, lo que puede impulsar a las empresas a desarrollar priorariamente el minorista en el mercado rural para hacer frente a la presión económica.",
+        "G": "El ciclo de vida de las restauraciones no encadenadas en niveles bajos (como T1) es corto, pero la disminución de la proporción económica ha agravado los desafíos de supervivencia de todos los formatos, lo que puede hacer que el modelo de cadena sea una estrategia más viable en el área rural."
+      },
+      "charts_involved": [
+        "chart_163_2",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en la tendencia de cambio de la distribución geográfica de las nuevas tiendas abiertas y los datos del ciclo de vida de las tiendas, ¿cómo se debería ajustar la asignación de recursos para abrir tiendas en las regiones de los niveles T1, T2 y T3 en el futuro para mejorar la tasa de supervivencia a largo plazo de las tiendas y la rentabilidad de la inversión? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Dado que el ciclo de vida de las tiendas en la región T3+ es el más largo en el sector minorista (43.9 meses), pero la cantidad de nuevas tiendas abiertas disminuyó en 2023 (en 2022, la proporción de T3 era del 45%, y en 2023, del 48%, lo que en realidad es un aumento), se debería reducir la inversión en T3+ para evitar el desperdicio de recursos.",
+        "B": "De acuerdo con la tendencia de fluctuación del total de tiendas abiertas anualmente, en los años con un alto número de tiendas abiertas, se deben priorizar la asignación de recursos en los formatos y niveles con un ciclo de vida más largo para satisfacer el pico de demanda y optimizar la eficiencia del capital.",
+        "C": "Concentrar los recursos para abrir tiendas en la región T2, ya que las ciudades medianas generalmente ofrecen una combinación equilibrada de oportunidades de mercado y una menor competencia, lo que puede mejorar de manera estable la rentabilidad.",
+        "D": "En las regiones de los niveles T1 y T2, se debe promover enérgicamente el modelo de gestión en cadena, ya que el ciclo de vida de las tiendas en cadena en estos niveles es más largo que el de las tiendas no encadenadas. Combinado con la característica de que la cantidad de tiendas abiertas en las regiones T1 y T2 es relativamente estable, esta estrategia puede compensar efectivamente las desventajas regionales y mejorar la estabilidad de la gestión.",
+        "E": "Incrementar la inversión en marketing digital de todas las tiendas, por ejemplo, a través de la promoción en redes sociales, para aumentar la知名度 de la marca y el flujo de clientes, y así mejorar indirectamente la tasa de supervivencia, sin considerar las diferencias de niveles regionales.",
+        "F": "Priorizar el aumento de la proporción de tiendas abiertas en la región del nivel T3+, ya que el ciclo de vida de las tiendas en esta región es generalmente más largo. Combinado con la tendencia histórica de que la cantidad de tiendas abiertas en la región T3 ha aumentado continuamente, esta estrategia puede mejorar significativamente la tasa de supervivencia de las tiendas y reducir el riesgo de cierre de tiendas.",
+        "G": "Dado que la cantidad de tiendas abiertas en la región T1 disminuyó de 12 en 2019 a 10 en 2023, y el ciclo de vida de las cadenas de restaurantes en T1 es solo de 24.1 meses (menor que en el sector minorista), se debería abandonar por completo la región T1 y en su lugar promover el modelo no encadenado en T2 y T3."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_2"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Teniendo en cuenta la tendencia de cambio de la proporción del tamaño de la economía rural en el PIB nacional y los datos de la distribución de las nuevas tiendas abiertas, ¿cómo se debería ajustar la estrategia de asignación geográfica de los recursos para abrir tiendas para hacer frente a las fluctuaciones del entorno económico y mejorar los beneficios a largo plazo? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Copiar la estrategia de apertura de tiendas en los años en que la proporción económica es alta (por ejemplo, 56% en 2014), ya que el entorno económico es más favorable en estos años y puede garantizar una alta rentabilidad.",
+        "B": "Optimizar la asignación de recursos hacia las regiones del nivel T3, combinando la variación de la proporción económica y la tendencia de las nuevas tiendas abiertas. Dado que la cantidad de tiendas abiertas en la región T3 está en aumento y el ciclo de vida es más largo, esto puede amortiguar el impacto de las fluctuaciones económicas en la supervivencia de las tiendas.",
+        "C": "Dado que el total de tiendas abiertas en 2021 fue el más alto (7044), y la proporción de la economía rural en ese año era del 40%, se debería aumentar la inversión solo en los años de pico de la cantidad de tiendas abiertas (por ejemplo, 7044) para adaptarse a las fluctuaciones económicas.",
+        "D": "Dado que la proporción de la economía rural disminuyó de 55% en 2012 a 41% en 2022, y el total de tiendas abiertas en 2020 fue el más bajo (4114), se debería reducir en general la apertura de tiendas en las áreas rurales y transferir los recursos hacia las zonas centrales de las ciudades con una mayor proporción en el PIB.",
+        "E": "Priorizar la inversión en la optimización de la cadena de suministro y el sistema de logística para reducir los costos operativos y, por lo tanto, mejorar los beneficios generales en cualquier entorno económico, sin considerar las diferencias entre áreas rurales y urbanas.",
+        "F": "Durante los períodos en que la proporción de la economía rural está en descenso continuo, controlar审慎 el tamaño general de la apertura de tiendas, pero prestar atención especialmente a los momentos en que aparecen señales de recuperación de la proporción económica para realizar una planificación anticipada y aprovechar el repunte de la demanda durante la fase de recuperación.",
+        "G": "Incrementar la inversión en la apertura de tiendas en las regiones donde la proporción de la economía rural es estable o muestra signos de recuperación, ya que estas regiones pueden ofrecer un entorno comercial más estable. Combinado con la tendencia de que el total de nuevas tiendas abiertas es más alto en los años de proporción económica estable, esta estrategia puede captar oportunidades de crecimiento y reducir riesgos."
+      },
+      "charts_involved": [
+        "chart_163_1",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Basado en las diferencias en el ciclo de vida de las tiendas de diferentes formatos y la tendencia de cambio del tamaño de la economía rural, ¿cómo se debería asignar los recursos entre los sectores de restauración y minorista, así como entre los modelos encadenados y no encadenados, para mejorar la resistencia general de la inversión y la rentabilidad? Por favor, seleccione la sugerencia de estrategia más razonable:",
+      "answer": {
+        "A": "Mejorar uniformemente la calidad del servicio al cliente de todas las tiendas, por ejemplo, aumentando la capacitación de los empleados, para aumentar la lealtad de los clientes y, por lo tanto, mejorar la tasa de supervivencia de cada formato, sin distinguir entre modelos o tendencias económicas.",
+        "B": "En las regiones donde la proporción de la economía rural es baja, se debe invertir en el modelo de cadenas de restaurantes, ya que el ciclo de vida de las cadenas de restaurantes es relativamente más largo y es más adaptable. Combinado con las características de las fluctuaciones del entorno económico, esta estrategia puede mantener la capacidad de supervivencia de las tiendas durante la fase descendente.",
+        "C": "Dado que el ciclo de vida del formato minorista encadenado T3+ es el más largo (43.3 meses) y la proporción de la economía rural se recuperó a 41% en 2022, se debería invertir solo en el formato minorista encadenado T3+ en las áreas rurales, ignorando la restauración y otros niveles.",
+        "D": "En las regiones donde la proporción económica comienza a mostrar señales de recuperación, aumentar la inversión en el formato minorista T3+ para aprovechar la doble ventaja de su ciclo de vida más largo y la recuperación económica y maximizar los beneficios a largo plazo.",
+        "E": "Desarrollar en prioridad el modelo minorista no encadenado, ya que es más flexible, puede responder rápidamente a los cambios de la economía rural y reducir el riesgo de costos fijos.",
+        "F": "Desarrollar en prioridad el sector minorista, ya que su ciclo de vida es significativamente más largo que el de la restauración. Combinado con la tendencia de que la proporción de la economía rural ha sido estable pero baja en los últimos años, el ciclo largo del sector minorista puede resistir mejor la presión económica y garantizar una rentabilidad sostenible.",
+        "G": "Dado que la proporción de la economía rural disminuyó de 44% en 2016 a 40% en 2019, y el ciclo de vida de las restaurantes no encadenadas es generalmente corto (por ejemplo, solo 20.7 meses en T1), se debería evitar por completo invertir en el sector de restauración en las áreas rurales y en su lugar priorizar el modelo encadenado en las áreas urbanas."
+      },
+      "charts_involved": [
+        "chart_163_2",
+        "chart_163_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

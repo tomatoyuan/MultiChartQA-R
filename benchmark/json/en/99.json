@@ -1,0 +1,199 @@
+{
+  "chart": [
+    "chart_99_1",
+    "chart_99_2",
+    "chart_99_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Assuming that the 'Fruit consumption frequency' (chart_99_2) and the 'Fruit consumption scenarios' (chart_99_3) are conditionally independent, does the user group with the highest combined probability, which is 'with a frequency of once a day or more and mainly consume fruits after dinner/gathering', account for the largest proportion? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "In chart_99_2, the proportion of those who consume fruits once a day or more is 54.9%. In chart_99_3, the proportion of those who consume fruits after dinner/gathering is 64.0%. Both proportions are relatively high, resulting in a relatively large combined probability.",
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the 'Per capita fresh fruit consumption of national residents from 2015 to 2020' (chart_99_1), the consumption in 2020 decreased slightly compared with that in 2019. Is this related to the relatively low proportion of fruit consumption 'After sports/fitness' in the 'Fruit consumption scenarios'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "Chart_99_1 shows that the consumption in 2020 was 51.3 kg, slightly lower than 51.4 kg in 2019. In chart_99_3, the proportion of fruit consumption 'After sports/fitness' is 47.5%, which is not the lowest. The decrease may be caused by other factors.",
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do both the 'Fruit consumption frequency' and the 'Fruit consumption scenarios' satisfy the ascending order of proportions from top to bottom? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both are in ascending order.",
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "During the period from 2015 to 2020, what is the proportion of people who eat fruits during the 'Afternoon tea' scenario in the year when the per capita fresh fruit consumption of national residents increased the most? Keep 1 decimal place. Answer: xx.xx%",
+      "answer": "55.4%",
+      "explanation": "First, calculate the annual growth based on the 'Per capita fresh fruit consumption of national residents from 2015 to 2020': In 2016, the growth was 3.4 kg; in 2017, 1.7 kg; in 2018, 1.8 kg; in 2019, 4.0 kg; and in 2020, there was a decrease of 0.1 kg. It can be seen that the year with the most growth was 2019. Then, according to the 'Fruit consumption scenarios', the proportion of people who eat fruits during the 'Afternoon tea' scenario is 55.4%.",
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Please estimate the proportion of the population who belong to the group with a consumption frequency of once every two to three days and eat fruits while watching TV shows/variety shows/movies. Keep 1 decimal place. Answer: xx.xx%",
+      "answer": "16.5%",
+      "explanation": "The proportion of the group with a consumption frequency of once every two to three days (27.7%) × the proportion of people who eat fruits while watching shows (59.6%) ≈ 16.5%.",
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2017, how many times is the per capita fresh fruit consumption of national residents compared to the proportion of people with a fruit consumption frequency of 'Less than once every two weeks'? Keep an integer. Answer: xx times",
+      "answer": "45600 times",
+      "explanation": "According to the 'Per capita fresh fruit consumption of national residents from 2015 to 2020', the per capita consumption in 2017 was 45.6 kg. According to the 'Fruit consumption frequency', the proportion of people with a consumption frequency of 'Less than once every two weeks' is 0.1% (i.e., 0.001). By calculation, 45.6 ÷ 0.001 = 45600.",
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "From 2015 to 2020, the per capita fresh fruit consumption of national residents showed an overall increasing trend, but there was a slight decline in 2020. Combining with the distribution of fruit consumption frequency, what factors might jointly explain the change in this consumption pattern?",
+      "answer": {
+        "A": "In 2020, the proportion of low - frequency consumers (e.g., once every two weeks) was as high as 20%, leading to a decline in the overall consumption volume.",
+        "B": "The group with high - frequency fruit consumption (e.g., once a day or more) accounted for a relatively high proportion, which might provide basic support for the continuous growth of consumption volume. The slight decline in 2020 might be related to the existence of a small but existing proportion of low - frequency consumers.",
+        "C": "During the period of consumption volume growth (e.g., from 2015 - 2019), it was consistent with the stability of the high - frequency consumption proportion. When the consumption volume declined in 2020, the dominance of medium - and high - frequency consumers might limit the decline range.",
+        "D": "The increase in fruit prices or supply chain problems might have led to the decline in consumption volume in 2020, while economic growth promoted the growth from 2015 - 2019.",
+        "E": "The distribution of consumption frequency shows that the vast majority of people consume fruits at least once every three days, which is consistent with the trend of increasing consumption volume year by year. However, external factors in 2020 (such as public health events) might have led to a slight decline by affecting the low - frequency group.",
+        "F": "The improvement of health awareness was the core driving force for the continuous growth of consumption volume. The decline in 2020 might be due to consumers switching to other healthy foods.",
+        "G": "The proportion of the high - frequency consumption group (once a day or more) was less than 40% in 2019, so it could not buffer the decline range when the consumption volume declined in 2020."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2"
+      ],
+      "label": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "The distribution of fruit consumption frequency and the distribution of fruit consumption scenarios show that certain scenarios might promote high - frequency consumption more. Based on these charts, which scenarios are most likely to be associated with the high - frequency fruit - consuming group?",
+      "answer": {
+        "A": "Fruits are more commonly consumed in the breakfast scenario, which directly promotes the formation of high - frequency consumption habits.",
+        "B": "The group with a once - a - week consumption frequency accounts for the majority when consuming fruits during work/study, indicating that this scenario drives high - frequency consumption.",
+        "C": "The proportion of consuming fruits after dinner/gathering is the highest, and the high - frequency consumption group (e.g., once a day or more) accounts for the largest proportion, indicating that the daily dining scenario might be the main opportunity for high - frequency consumption.",
+        "D": "The proportion of consuming fruits after sports/fitness is the highest (47.5%), so this scenario is most strongly associated with the high - frequency group.",
+        "E": "The proportion of consuming fruits during work/study exceeds half, and the high - frequency consumption group dominates, indicating that consuming fruits during regular activities might support more frequent consumption behavior.",
+        "F": "The proportion of consuming fruits during leisure activities (e.g., watching TV shows/variety shows/movies) is relatively high, which is consistent with the fact that high - frequency consumers might integrate fruits into their daily entertainment habits.",
+        "G": "Advertising and marketing activities strengthen the consumption in specific scenarios, such as the festival gift - giving scenario, thereby promoting high - frequency consumption."
+      },
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "C",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In 2020, the per capita fresh fruit consumption of national residents showed a slight decline, but the distribution of fruit consumption scenarios shows that the consumption proportions in multiple scenarios are relatively high. Combining with the distribution of consumption frequency, what factors can explain the apparent conflict between the decline in consumption volume and the high proportions in scenarios?",
+      "answer": {
+        "A": "The wide distribution of scenarios (e.g., the proportions after sports and during outdoor travel are not low) combined with the dominance of high - frequency consumption might explain why the decline is slight rather than a significant drop.",
+        "B": "The proportion of the high - frequency consumption group in the afternoon tea scenario declined to below 30%, weakening the consumption resilience.",
+        "C": "The low - frequency consumers (e.g., once every two weeks or more) accounted for more than 10% in multiple scenarios, magnifying the impact of the decline in consumption volume in 2020.",
+        "D": "Consumers' preference shifted to processed fruit products, reducing the consumption of fresh fruits, but the scenario - related consumption habits remained unchanged.",
+        "E": "The public health event in 2020 led to the complete disappearance of the outdoor travel scenario, thus reducing the overall consumption volume.",
+        "F": "The decline in consumption volume might be related to low - frequency consumers, but the stable consumption of the high - frequency group in multiple scenarios (e.g., during work/study and at afternoon tea) might limit the overall consumption fluctuation.",
+        "G": "Although the consumption volume declined slightly in 2020, the high - frequency consumption group (e.g., once a day or more) accounted for a large proportion, and the consumption proportions in multiple scenarios (e.g., after dinner/gathering and during leisure) were high, which might buffer the decline range, reflecting the resilience of consumption habits."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "A",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the provided chart content, considering the per capita fresh fruit consumption trend of national residents and the distribution of fruit consumption frequency, how should the public health promotion strategy be adjusted to further improve the residents' fruit consumption level? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "Increase fruit imports to meet potential demand. Since any consumption growth requires supply support, this can directly improve the overall consumption level.",
+        "B": "Conduct special educational interventions for the low - frequency consumption group. Although the low - frequency consumers account for a relatively small proportion, their consumption has shown slight fluctuations recently. Tapping the potential of this group can prevent the risk of market saturation and promote consumption fairness.",
+        "C": "Place healthy diet advertisements on all media platforms, emphasizing the nutritional value of fruits to raise public health awareness and indirectly stimulate consumption.",
+        "D": "Since the low - frequency consumption group accounts for a very small proportion (e.g., those who consume less than once every two weeks only account for 0.1%), this group should be completely ignored. Only carry out promotional activities for high - frequency consumers (those who consume once a day or more account for 54.9%) to quickly increase consumption.",
+        "E": "In view of the slight decline in consumption in 2020 (from 51.4 kg to 51.3 kg), the publicity for high - frequency consumption habits should be urgently reduced, and priority should be given to intervening in the low - frequency group to avoid a reversal of the consumption trend.",
+        "F": "Strengthen the publicity to consolidate the daily high - frequency consumption habits. Since the overall consumption shows an upward trend and most consumers have a relatively high consumption frequency, this can use the existing consumption inertia to continuously increase the per capita consumption."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2"
+      ],
+      "label": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the distribution characteristics of fruit consumption frequency and consumption scenarios, how should the enterprise's marketing resources be allocated to maximize the market penetration rate of fruit products? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "Cooperate with health institutions to promote the benefits of fruits to build brand trust and indirectly increase the consumption frequency.",
+        "B": "Reduce the price of fruit products to attract more consumers, because price sensitivity is a key factor affecting market penetration.",
+        "C": "Develop convenient fruit solutions for work and study scenarios. Since the consumption proportion in this scenario is relatively high, but the consumption frequency data shows that the daily habits are stable, optimizing the product form can further release the demand potential.",
+        "D": "Give priority to promoting activities in social and leisure scenarios. Since the consumption proportion in these scenarios is significantly higher and high - frequency consumers dominate, it can efficiently reach core consumers and increase the consumption frequency.",
+        "E": "Develop high - end products for the low - frequency consumption group (e.g., those who consume once every four to five days account for 11.6%). Since their consumption intervals are relatively long, they may be more sensitive to quality, which can quickly increase the market penetration rate.",
+        "F": "In view of the relatively high consumption proportion during work/study (51.8%), but the consumption frequency data shows that the low - frequency group accounts for a small proportion (only 5.3% for those who consume once a week or less), the investment in this scenario should be reduced, and only focus on high - proportion scenarios such as after dinner/gathering (64.0%) to efficiently reach core users."
+      },
+      "charts_involved": [
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering the change trend of per capita fresh fruit consumption of national residents, the characteristics of consumption frequency and scenario preferences, how should the industrial resource allocation strategy be formulated to deal with the bottleneck of consumption growth and improve sustainability? Please select the most comprehensive suggestion.",
+      "answer": {
+        "A": "Strengthen the resilience of the supply chain to support the stable growth of consumption, and focus on promoting in high - preference scenarios such as social activities. Since the long - term upward trend of consumption is obvious and the consumption proportion in social scenarios is prominent, it can effectively transform the trend into actual demand.",
+        "B": "Monitor the impact of external factors on consumption fluctuations and adjust the supply strategy. Since the consumption has shown a slight decline recently, but the high - frequency consumption habits are stable, timely response can reduce resource waste.",
+        "C": "Since the high - frequency consumption habits are stable (those who consume once a day or more account for 54.9%) and the consumption has been increasing in the long term, only strengthen the supply chain (as in option A), without health education or multi - scenario development, to avoid resource dispersion.",
+        "D": "In view of the slight decline in consumption in 2020 (from 51.4 kg to 51.3 kg), the production scale should be reduced first, and external factors should be monitored (as in option C), but ignore scenario preferences to prevent the risk of over - supply.",
+        "E": "Expand the fruit planting area to increase production, because sufficient supply is the basic guarantee for consumption growth.",
+        "F": "Integrate health education with multi - scenario product development. Since there is room for improvement in the low - frequency consumption group, and the scenario data shows a wide range of application opportunities, combined with the consumption trend, the market base can be expanded.",
+        "G": "Introduce environmentally friendly packaging technology to improve product sustainability and attract environmentally conscious consumers."
+      },
+      "charts_involved": [
+        "chart_99_1",
+        "chart_99_2",
+        "chart_99_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    }
+  ]
+}

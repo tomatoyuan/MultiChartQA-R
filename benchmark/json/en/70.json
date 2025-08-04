@@ -1,0 +1,202 @@
+{
+  "chart": [
+    "chart_70_1",
+    "chart_70_2",
+    "chart_70_3"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Are the market sizes in 'Year - on - year change in recruitment demand for major Internet technical directions in Spring 2022' and 'Cloud Consensus: China's Overall Cloud Service Market Size and Growth Rate from 2020 to 2025' both organized in ascending order of numerical values from left to right? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The data in chart_70_1 is in descending order.",
+      "charts_involved": [
+        "chart_70_1",
+        "chart_70_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Do the market growth rate in 'Cloud Consensus: China's Overall Cloud Service Market Size and Growth Rate from 2020 to 2025' and the number of financings over 100 million yuan in 'Number of low - code financing events in China from 2016 to July 2022' have the same changing trend? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The growth rate in chart_70_2 first rises and then falls, while the number of financings over 100 million yuan in chart_70_3 remains basically stable.",
+      "charts_involved": [
+        "chart_70_2",
+        "chart_70_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the year with the highest growth rate in 'Cloud Consensus: China's Overall Cloud Service Market Size and Growth Rate from 2020 to 2025' the same as the year with the largest total number of financings in 'Number of low - code financing events in China from 2016 to July 2022'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The year with the highest growth rate in chart_70_2 is 2021, and the year with the largest total number of financings in chart_70_3 is 2020.",
+      "charts_involved": [
+        "chart_70_2",
+        "chart_70_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "In 2022, the year-on-year growth rate of recruitment demand in the Artificial Intelligence direction was 87.7%, and the growth rate of the overall cloud service market in the same year was 42.8%. How many times is the growth rate of the Artificial Intelligence direction compared to that of the cloud service market? Keep 2 decimal places. Answer: xx.xx times",
+      "answer": "2.05 times",
+      "explanation": "87.7% ÷ 42.8% = 2.0491. Keeping 2 decimal places gives 2.05 times.",
+      "charts_involved": [
+        "chart_70_1",
+        "chart_70_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "How many times is the year-on-year growth rate of recruitment demand in the Artificial Intelligence direction compared to the number of low-code financing events exceeding 100 million yuan in 2021? Keep 1 decimal place. Answer: xx.xx times",
+      "answer": "29.2 times",
+      "explanation": "There were 3 financing events exceeding 100 million yuan in 2021; 87.7% ÷ 3 = 29.233… Keeping 1 decimal place gives 29.2 times.",
+      "charts_involved": [
+        "chart_70_1",
+        "chart_70_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What is the result in percentage points after multiplying the proportion of low-code financing events exceeding 100 million yuan to the total financing events in 2018 by the year-on-year growth rate of 44.2% in the Big Data direction in 2022? Keep 2 decimal places. Answer: xx.xx percentage points",
+      "answer": "7.37 percentage points",
+      "explanation": "In 2018, the proportion of financing events exceeding 100 million yuan was 2 ÷ 12 = 16.67%; 16.67% × 44.2% = 7.3667%. Keeping 2 decimal places gives 7.37 percentage points.",
+      "charts_involved": [
+        "chart_70_3",
+        "chart_70_1"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of year - on - year change in recruitment demand for major Internet technical directions in Spring 2022 and the chart of China's overall cloud service market size and growth rate from 2020 to 2025, which technical directions' recruitment demand growth may have a potential association with the expansion trend of the cloud service market?",
+      "answer": {
+        "A": "The recruitment demand growth for Big Data is 44.2%, lower than the cloud service growth rate of 42.8% in 2022. Therefore, there is no potential association between the growth of Big Data and the expansion of cloud services.",
+        "B": "The expansion of the cloud service market will directly lead to a synchronous increase in recruitment demand for all technical positions because cloud technology is a common infrastructure in the Internet industry.",
+        "C": "The recruitment demand growth for Backend Development is 35.1%, far lower than the compound annual growth rate of the cloud service market size. Therefore, Backend Development has nothing to do with the cloud service trend.",
+        "D": "The recruitment demand growth of 38.5% in the Testing direction indicates that it has nothing to do with cloud services because testing work does not depend on cloud platforms.",
+        "E": "The significant growth in recruitment demand for Artificial Intelligence may be related to the high - speed growth of the cloud service market because cloud platforms often support the deployment and training of AI models.",
+        "F": "The stable growth of recruitment demand for Operation/Technical Support may be related to the growth trend of the cloud service market because the popularization of cloud services increases the demand for technical maintenance.",
+        "G": "The relatively high growth of recruitment demand for Big Data may be related to the continuous expansion of the cloud service market size because big data processing depends on the expansion of cloud infrastructure."
+      },
+      "charts_involved": [
+        "chart_70_1",
+        "chart_70_2"
+      ],
+      "label": [
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Based on the chart of the number of low - code financing events and the chart of year - on - year change in Internet technical recruitment demand in Spring 2022, which technical recruitment demand trends may conflict with the fluctuations in low - code financing from 2021 to 2022, and how to explain it?",
+      "answer": {
+        "A": "A decrease in technology financing always leads to a decline in recruitment demand. Therefore, there is no conflict between low - code financing fluctuations and recruitment trends.",
+        "B": "The number of low - code financings over 100 million yuan remained stable in 2022, but the recruitment demand growth for Mobile Development was relatively low. This conflict may be due to the fact that low - code automation reduces the demand for some development positions.",
+        "C": "There were 2 low - code financings over 100 million yuan in July 2022, but the recruitment demand growth for Mobile Development was only 21.1%. This conflict is because low - code automation has replaced Mobile Development positions.",
+        "D": "The total number of low - code financings decreased year - on - year to 6 in 2021, while the recruitment demand for Artificial Intelligence increased by 87.7%, the highest. This conflict indicates that low - code is ineffective in the AI field.",
+        "E": "The total number of low - code financings decreased in 2021, while the recruitment demand for most technical positions increased significantly in the same year. This conflict may be due to the fact that the financing cycle lags behind the talent demand because the development of low - code platforms needs to precede the recruitment peak.",
+        "F": "Low - code financing partially recovered after a decrease in 2021, while the recruitment demand for Artificial Intelligence continued to grow at a high rate. This conflict may reflect the insufficient integration of low - code and AI technologies, resulting in financing not fully matching the talent trend.",
+        "G": "The fluctuations in low - code financing are due to changes in market risk preferences and have nothing to do with technical recruitment demand."
+      },
+      "charts_involved": [
+        "chart_70_3",
+        "chart_70_1"
+      ],
+      "label": [
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the chart of the cloud service market size and growth rate and the chart of low - code financing events, how might the expected slowdown in the growth of the cloud service market affect the number of future low - code financing events?",
+      "answer": {
+        "A": "The growth rate of the cloud service market is expected to decline gradually from 2023, but the proportion of financings over 100 million yuan in low - code financing remains stable, which may indicate that large - scale financings are more risk - resistant because low - code depends on cloud platform integration.",
+        "B": "Low - code financing is independent of the cloud service market, so the slowdown in growth will not affect the number of financings.",
+        "C": "The slowdown in the growth of the cloud service market will directly reduce financing in all technical fields, including low - code.",
+        "D": "The continuous expansion of the cloud service market size but with a slowdown in growth may drive low - code financing events to shift from quantity to quality because a mature market requires more efficient solutions.",
+        "E": "The decrease in the growth rate of the cloud service market is similar to the decrease in the total number of low - code financing events in 2021, which may indicate that financing is sensitive to changes in the cloud market, and the number of future financings may be restricted.",
+        "F": "The growth rate of the cloud service market decreased from 40.2% in 2023 to 30.6% in 2025, and low - code financing decreased in 2021. Therefore, future financing will decline at an accelerated rate.",
+        "G": "The growth rate of the cloud service market in 2024 is 32.8%, still higher than 39.9% in 2020, but the proportion of low - code financings over 100 million yuan remains stable. Therefore, the number of financings will increase significantly."
+      },
+      "charts_involved": [
+        "chart_70_2",
+        "chart_70_3"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the changes in technical recruitment demand and the growth trend of the cloud service market, how should enterprises optimize their technical talent recruitment strategies from 2023 to 2025 to support efficient business expansion? Please select the most reasonable strategy suggestion.",
+      "answer": {
+        "A": "Simultaneously expand the recruitment scale in all technical directions because the growth rate of the cloud service market is accelerating year by year (the actual growth rate decreased from 42.8% to 30.6%) and the recruitment demand is growing strongly across the board (the actual lowest growth rate is only 21.1%).",
+        "B": "Prioritize the recruitment of Frontend and Mobile Development talents because the expansion of the cloud service market will directly increase the demand for user interface development, and recruitment data shows that their growth rates are higher than those in the Operation field (the actual Frontend growth rate of 22.2% < Operation growth rate of 38.0%).",
+        "C": "Comprehensively reduce the recruitment budget for technical talents and shift resources to the construction of the marketing team because the core driving force for business expansion is market exposure rather than technical capabilities.",
+        "D": "Moderately increase the recruitment proportion of Operation/Technical Support and Backend Development talents. The recruitment demand in these fields maintains stable growth, and the rapid expansion of the cloud service market size requires more infrastructure support teams. This strategy can ensure system stability and scalability.",
+        "E": "Completely stop recruiting in the Artificial Intelligence field because the growth rate of 87.7% may lead to an oversupply of talent, and instead focus on Testing talents (growth rate of 38.5%) to ensure product stability.",
+        "F": "Prioritize expanding the talent recruitment scale in the Artificial Intelligence and Big Data fields. Recruitment demand data shows that these technical directions have the strongest growth. At the same time, the continuous high - speed expansion of the cloud service market indicates that these skills are the core driving forces for cloud service development. Increasing investment can quickly enhance business competitiveness.",
+        "G": "Maintain the recruitment plan for Frontend and Mobile Development talents but avoid large - scale expansion. The recruitment demand in these fields has relatively gentle growth, and the growth of the cloud service market may indirectly drive relevant demand. Therefore, resources need to be balanced to avoid waste while ensuring basic product development needs."
+      },
+      "charts_involved": [
+        "chart_70_1",
+        "chart_70_2"
+      ],
+      "label": [
+        "D",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the growth rate forecast of the cloud service market and the trend of low - code financing activities, how should investment institutions adjust their technical investment portfolios from 2023 to 2025 to maximize returns and reduce risks? Please select the most reasonable strategy suggestion.",
+      "answer": {
+        "A": "Increase early - stage investment in low - code tools and platforms. The number of low - code financing events shows an upward trend in fluctuations, and the expansion of the cloud service market may accelerate the application demand for low - code tools. This strategy can capture emerging opportunities and diversify investment risks.",
+        "B": "Allocate investment in cloud services and low - code equally because the growth rates of both exceed 40% (there is actually no growth rate data for low - code, and the cloud service growth rate is 30.6% in 2025), and the number of financing events increases by 20% annually (the actual number fluctuates without stable growth).",
+        "C": "Focus on increasing the investment proportion in the cloud service field. Although the growth rate of the cloud service market is gradually slowing down, it is still at a high level, and the market size is expected to rise significantly. At the same time, low - code financing activities show that the technology industry is generally active. This strategy can capture the high - growth core track and enhance the overall return potential.",
+        "D": "Completely withdraw from technical field investment and turn to the consumer goods industry because the slowdown in the growth of the cloud service market (30.6%) and the fluctuations in low - code financing (only 6 financings in 2021) indicate the decline of the technology track.",
+        "E": "Dynamically balance investment allocation to avoid over - concentration in areas where the growth rate may decline. The growth rate of the cloud service market decreases year by year but remains at an appreciable level, while low - code financing shows fluctuations in industry interest. This strategy emphasizes monitoring trend changes and adjusting in a timely manner to ensure long - term robustness.",
+        "F": "Heavily invest in the low - code field because the number of financing events is growing rapidly (it reached 9 in July 2022, but ignores the sharp drop to 6 in 2021), and the growth rate of the cloud service market will rebound to over 50% (the actual growth rate is 30.6% in 2025).",
+        "G": "Prioritize investing in early - stage Mobile Development startups because the proportion of financings over 100 million yuan in low - code financing is high (3 out of 6 financings in 2021) and cloud services rely on mobile access."
+      },
+      "charts_involved": [
+        "chart_70_2",
+        "chart_70_3"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Considering technical recruitment demand, the growth of the cloud service market, and low - code financing activities, how should technology companies allocate R & D and human resources in 2023 to improve innovation efficiency and market response speed? Please select the most reasonable strategy suggestion.",
+      "answer": {
+        "A": "Bet on low - code to replace all development positions because the proportion of financings over 100 million yuan is high (50% in 2021) and the recruitment growth rates for Frontend/Mobile Development are low (22.2%/21.1%), which can completely optimize labor costs.",
+        "B": "Allocate 80% of the R & D budget to employee training because the fluctuations in low - code financing (from 6 financings in 2021 to 9 in 2022) indicate rapid technological iteration, and the skills of existing employees need to be improved.",
+        "C": "Reduce R & D investment in Artificial Intelligence because the growth rate of recruitment demand (87.7%) is much higher than the growth rate of the cloud service market (the highest is 45.4%), which may lead to technological redundancy.",
+        "D": "Strengthen the construction of the Operation and Technical Support teams. The recruitment demand in this field maintains stable growth, and the rapid expansion of the cloud service market requires a stronger support system. At the same time, the fluctuations in low - code financing suggest the need for a solid foundation. This strategy can ensure service reliability and customer satisfaction.",
+        "E": "Invest in the development of low - code platforms to optimize human resource allocation. Low - code financing events show an increase in industry interest, which may reduce the demand for traditional development. Recruitment data shows that the demand for Frontend and Mobile Development has slow growth. This strategy can improve development efficiency and release resources for high - growth fields.",
+        "F": "Focus on expanding the Operation team because its recruitment growth rate reaches 45% (the actual growth rate is 38.0%), and the cloud service market size will double in three years (from 4769 billion yuan in 2022 to 12683 billion yuan in 2025, actually 2.66 times), so system stability needs to be prioritized.",
+        "G": "Tilt R & D resources towards Artificial Intelligence and Big Data projects. The recruitment demand in these fields grows most rapidly. The expansion of the cloud service market depends on these technologies, and low - code financing activities indicate accelerated industry innovation. This strategy can quickly produce high - value solutions."
+      },
+      "charts_involved": [
+        "chart_70_1",
+        "chart_70_2",
+        "chart_70_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "G"
+      ]
+    }
+  ]
+}

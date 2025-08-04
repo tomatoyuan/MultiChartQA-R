@@ -1,0 +1,210 @@
+{
+  "chart": [
+    "chart_29_1",
+    "chart_29_2",
+    "chart_29_3",
+    "chart_29_4",
+    "chart_29_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Please compare the change trend from 4:00 to 20:00 in the '24 - hour trend chart of World Cup search heat' with the change trend of the heat data from 4:00 to 20:00 in the 'The time period with the highest World Cup search heat'. Are the two trends consistent? Please answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both show an M - shaped change.",
+      "charts_involved": [
+        "chart_29_3",
+        "chart_29_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Please compare the change trend from 12:00 to 20:00 in the '24 - hour trend chart of World Cup search heat' with the change trend of the heat data from 12:00 to 20:00 in the 'The time period with the highest World Cup search heat'. Are the two trends consistent? Please answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both increase first and then decrease.",
+      "charts_involved": [
+        "chart_29_3",
+        "chart_29_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Please compare the data in the 'The time period with the highest World Cup search heat' and the 'Top 5 Popularity Ranking of the First Round of the World Cup Group Stage'. Does the hottest period of the World Cup correspond to the hottest match? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "The first chart shows the data of the time period with the highest search heat, and the search heat reaches its peak at 8:00 and 16:00. The second chart shows the popularity ranking of the matches, in which the popularity of the match between Russia and Saudi Arabia is 1.5 million, which obviously does not correspond to the peak time of the search heat. Therefore, the hottest period does not coincide with the hottest match.",
+      "charts_involved": [
+        "chart_29_2",
+        "chart_29_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What percentage of the total popularity of the first round of the group stage on the 14th does the popularity of the Russia vs. Saudi Arabia match account for? Keep 2 decimal places in %. Answer: xx%.",
+      "answer": "3.19%",
+      "explanation": "Popularity of this match (1.5 million) ÷ Total popularity on the 14th (46.98 million) × 100% ≈ 3.19%",
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "How many times is the popularity of the Brazil vs. Switzerland match compared to the popularity of Ramos? Keep 1 decimal place. Answer: xx times.",
+      "answer": "5.2 times",
+      "explanation": "Popularity of the match (780,000) ÷ Popularity of Ramos (150,000) = 5.2",
+      "charts_involved": [
+        "chart_29_2",
+        "chart_29_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "What percentage of the average popularity of the first day of the first round of the group stage does the sum of the popularity of Messi and Neymar account for? Keep 2 decimal places in %. Answer: xx%.",
+      "answer": "3.58%",
+      "explanation": "Average popularity on the first day = (46.98 million + 37.08 million + 31.31 million + 22.04 million + 23.25 million + 28.92 million) ÷ 6 = 31.5967 million; Messi + Neymar = 800,000 + 330,000 = 1.13 million; 1.13 million ÷ 31.5967 million × 100% ≈ 3.58%",
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the two charts of World Cup search heat, why is there a discrepancy in the search heat values during the noon period? One chart shows a lower heat during this period, while the other shows a higher one.",
+      "answer": {
+        "A": "The two charts have different time granularities: one uses fixed intervals (e.g., every 4 hours), and the other records continuously every hour. Therefore, the average or representative values for the same period may differ due to the data aggregation method.",
+        "B": "Both charts show that the heat at 12 o'clock is 12 million, so there is no inconsistency, and the difference is a visual error.",
+        "C": "The data during the peak heat periods (such as morning and afternoon) are relatively close in the two charts, but during the non - peak periods (such as noon), one chart simplifies the data and makes it appear lower, while the other chart reflects the actual fluctuations.",
+        "D": "Users are busy having lunch and taking a break during noon, so the search volume is naturally low. However, the other chart may have incorrectly counted a composite period that includes the lunch break peak.",
+        "E": "The first chart only selects data points from key peak periods, while the second chart provides a complete hourly trend. This causes the values during non - peak periods to deviate due to different sampling methods.",
+        "F": "Differences in data sources lead to collection errors. One chart is from mobile search data, and the other is from PC data. Device differences cause the heat deviation.",
+        "G": "The noon heat is the lowest point in the complete trend chart, which is consistent with the simplified chart, both reflecting the trough of user activity."
+      },
+      "charts_involved": [
+        "chart_29_3",
+        "chart_29_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "In the first round of the group stage, what impacts might the daily search heat decline trend be subject to from the event heat?",
+      "answer": {
+        "A": "The reduction of media publicity leads to a natural decline in search heat, which has nothing to do with specific events.",
+        "B": "The day with the lowest heat (the 17th with 22.04 million) directly corresponds to the match with the lowest event heat, Tunisia vs. England (650,000), proving that low - heat matches pull down the overall search volume.",
+        "C": "The day with the highest heat (such as the first day) may correspond to the most - watched opening event. Its event heat value is significantly higher than other matches, thus boosting the overall search volume.",
+        "D": "The days when the heat rebounds (such as a later day) may be related to events involving high - heat football stars. The personal heat of these stars indirectly enhances the event's attention.",
+        "E": "The heat decline is because the quality of the matches gradually decreases, and users lose interest in subsequent events.",
+        "F": "Although the heat is low on some days, the distribution of matches in the event heat ranking may be uneven. Therefore, the heat fluctuation is not dominated by a single event but by multiple factors.",
+        "G": "Messi's match was held on the 14th, with the highest heat (46.98 million), because Messi's personal heat (800,000) is significantly higher than other stars."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_2",
+        "chart_29_5"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "What factors might drive the peak periods (such as morning and afternoon) of the World Cup search heat in a day?",
+      "answer": {
+        "A": "The difference between peak and trough heat may be affected by star - related searches. The attention to high - heat stars surges at specific times, but the overall trend is still consistent with the event schedule.",
+        "B": "The secondary peak at 16:00 (31 million) is driven by Ronaldo's match. Ronaldo's heat (200,000) is relatively high and concentrated in the afternoon.",
+        "C": "During peak periods, people use their mobile phones during commuting or work breaks, increasing search behavior.",
+        "D": "TV ads are concentrated during peak periods, guiding users to search online.",
+        "E": "The secondary peak of search heat in the afternoon (around 16:00) may be due to consecutive events or the fans' daily routines, while the low - heat periods (such as late at night) are due to reduced activities.",
+        "F": "The heat peak at 8:00 in the morning (32 million) corresponds to the Russia vs. Saudi Arabia match (heat of 1.5 million) because this match was held at 8:00.",
+        "G": "The peak periods (around 8:00 in the morning) may correspond to the start times of important matches. These events have high heat values, attracting concentrated searches."
+      },
+      "charts_involved": [
+        "chart_29_4",
+        "chart_29_2",
+        "chart_29_5"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "As the person - in - charge of World Cup digital content operation, how should you adjust the content release schedule to maximize user search and interaction? Please choose the most effective strategy based on the heat trend data.",
+      "answer": {
+        "A": "Increase the frequency of content release during the period when the overall event heat rebounds to take advantage of the upward trend of user interest. Ensure that content release is synchronized with heat fluctuations to capture more traffic.",
+        "B": "[Easy] It is recommended to increase the frequency of content release on days when the overall heat continues to decline (such as the 17th with 22.04 million) to test whether the downward trend of user interest can be reversed.",
+        "C": "Balance content release to cover different periods, but focus on promotion activities during peak heat periods to balance coverage and efficiency. Also, consider the users' participation patterns throughout the day.",
+        "D": "[Easy] Ignore the specific release time and focus on creating more diverse content themes to cover different user groups, rather than relying on heat data.",
+        "E": "Prioritize releasing key content during the daily search heat peak periods because users are most active during these periods, which can significantly increase content exposure and interaction rates. At the same time, avoid releasing content during periods of continuous low heat to save resources.",
+        "F": "[Hard] Based on the heat trend chart, reduce content release on the day with the lowest heat in the first round of the group stage (such as the 17th with 22.04 million) to save resources for subsequent high - heat days (such as the 19th with 28.92 million).",
+        "G": "[Hard] Prioritize releasing key content during the search heat trough periods (such as 0 - 4 am with a heat of 11 million) because there is less competition among users at this time, and the content is easier to be discovered and interacted with."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_3",
+        "chart_29_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "The World Cup organizers need to allocate limited marketing resources to enhance event attention. How should they formulate a promotion strategy based on the event and star heat? Please choose a reasonable suggestion that can amplify audience attraction.",
+      "answer": {
+        "A": "[Hard] Prioritize promoting the event with the lowest heat (such as Tunisia vs. England with 650,000) because it has great potential for improvement and can maximize the overall attention.",
+        "B": "[Easy] Allocate resources evenly to all events and stars to ensure fair coverage without considering heat differences.",
+        "C": "Increase the promotion intensity on days when the overall heat is rising to take advantage of the growth period of user interest. At the same time, avoid over - investing during the heat decline phase to optimize resource utilization.",
+        "D": "[Easy] Reduce the promotion of high - heat stars to avoid over - commercialization affecting the brand image.",
+        "E": "Concentrate resources on promoting the event with the highest heat and integrate the promotion of related high - heat stars. The combination of high - heat events and star influence can produce a synergistic effect and attract more audiences.",
+        "F": "[Hard] Arrange promotion activities during the search heat trough periods (such as 0 - 4 am) because the advertising cost is low at this time, which can save resources and improve efficiency.",
+        "G": "Arrange event promotion activities during the peak periods of user search activity to maximize exposure opportunities. Ensure that the promotion period matches the users' online peak to improve the conversion rate of participation."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_2",
+        "chart_29_4",
+        "chart_29_5"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "As a digital advertising manager, how should you adjust the advertising bids and time - slot allocation during the World Cup to reduce costs and improve effectiveness? Please choose a strategy that can enhance ROI based on the heat pattern.",
+      "answer": {
+        "A": "[Easy] Reduce advertising bids on days when the overall heat is rising (such as the 19th with 28.92 million) because users have high interest, and the ads will be naturally seen.",
+        "B": "[Hard] Place ads for content related to high - heat stars (such as Messi with 800,000) during the search heat trough periods (such as 0 - 4 am) because targeted users may be more focused at this time.",
+        "C": "Increase advertising bids during search heat peak periods to compete for high - traffic exposure opportunities. At the same time, dynamically adjust the budget according to the overall heat trend to ensure that the ads are aligned with the users' active peaks.",
+        "D": "Reduce advertising bids or decrease ad placement during search heat trough periods to save costs and re - allocate the budget to peak periods because users' attention is low during these periods, and the advertising effectiveness is poor.",
+        "E": "[Easy] Ignore time - slot allocation and only target ads based on star heat without considering users' online time patterns.",
+        "F": "Increase targeted ad placement for content related to high - heat stars because the attention to stars can drive search behavior. Place ads during relevant periods to improve ad relevance and click - through rates.",
+        "G": "[Hard] Reduce advertising bids or decrease ad placement during search heat peak periods (such as 8:00 with 32 million) to avoid high - competition costs."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_3",
+        "chart_29_4",
+        "chart_29_5"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

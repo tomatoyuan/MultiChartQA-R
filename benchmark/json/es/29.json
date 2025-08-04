@@ -1,0 +1,210 @@
+{
+  "chart": [
+    "chart_29_1",
+    "chart_29_2",
+    "chart_29_3",
+    "chart_29_4",
+    "chart_29_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Por favor, compare la tendencia de cambio entre las 4 y las 20 horas en el 'Gráfico de tendencia de 24 horas del calor de búsqueda de la Copa del Mundo' con la tendencia de cambio entre las 4 y las 20 horas de los datos de calor de búsqueda en el 'El período de tiempo con mayor calor de búsqueda de la Copa del Mundo'. ¿Son las tendencias de los dos gráficos consistentes? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas tienen una tendencia en forma de 'M'.",
+      "charts_involved": [
+        "chart_29_3",
+        "chart_29_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Por favor, compare la tendencia de cambio entre las 12 y las 20 horas en el 'Gráfico de tendencia de 24 horas del calor de búsqueda de la Copa del Mundo' con la tendencia de cambio entre las 12 y las 20 horas de los datos de calor de búsqueda en el 'El período de tiempo con mayor calor de búsqueda de la Copa del Mundo'. ¿Son las tendencias de los dos gráficos consistentes? Responda sí o no.",
+      "answer": "Sí",
+      "explanation": "Ambas suben primero y luego bajan.",
+      "charts_involved": [
+        "chart_29_3",
+        "chart_29_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Por favor, compare los datos en el 'El período de tiempo con mayor calor de búsqueda de la Copa del Mundo' y el 'Ranking de Popularidad Top 5 de la Primera Ronda de la Fase de Grupos de la Copa del Mundo'. ¿Corresponde el período con mayor calor de la Copa del Mundo con el partido más popular? Responda sí o no.",
+      "answer": "No",
+      "explanation": "El primer gráfico muestra los datos del período con mayor calor de búsqueda, y el calor de búsqueda alcanza su pico a las 8 y las 16 horas. El segundo gráfico muestra el ranking de popularidad de los partidos, en el que el partido entre Rusia y Arabia Saudí tiene una popularidad de 1.5 millones, lo cual obviamente no corresponde con el tiempo del pico de calor de búsqueda. Por lo tanto, el período con mayor calor no coincide con el partido más popular.",
+      "charts_involved": [
+        "chart_29_2",
+        "chart_29_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el porcentaje de la popularidad del partido entre Rusia y Arabia Saudí en la popularidad total del primer día (14 de) de la primera ronda de la fase de grupos? Redondea a 2 decimales %. Respuesta: xx%",
+      "answer": "3.19%",
+      "explanation": "La popularidad del partido es de 1.5 millones ÷ La popularidad total del 14 de es de 46.98 millones × 100% ≈ 3.19%",
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_2"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuántas veces es la popularidad del partido entre Brasil y Suiza en comparación con la popularidad de Ramos? Redondea a 1 decimal. Respuesta: xx veces",
+      "answer": "5.2 veces",
+      "explanation": "La popularidad del partido es de 7.8 millones ÷ La popularidad de Ramos es de 1.5 millones = 5.2",
+      "charts_involved": [
+        "chart_29_2",
+        "chart_29_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "¿Cuál es el porcentaje de la suma de la popularidad de Messi y Neymar en la popularidad promedio del primer día de la primera ronda de la fase de grupos? Redondea a 2 decimales %. Respuesta: xx%",
+      "answer": "3.58%",
+      "explanation": "La popularidad promedio del primer día = (46.98 + 37.08 + 31.31 + 22.04 + 23.25 + 28.92) ÷ 6 = 31.5967 millones; La suma de la popularidad de Messi y Neymar = 0.8 millones + 0.33 millones = 1.13 millones; 1.13 millones ÷ 31.5967 millones × 100% ≈ 3.58%",
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_5"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En los dos gráficos de la intensidad de búsqueda de la Copa del Mundo, ¿por qué hay una inconsistencia en los valores de la intensidad de búsqueda durante el horario del mediodía? Un gráfico muestra una intensidad de búsqueda baja en ese período, mientras que el otro muestra una alta.",
+      "answer": {
+        "A": "Las dos gráficas tienen diferentes grados de detalle en el tiempo: una utiliza intervalos fijos (por ejemplo, cada 4 horas), mientras que la otra registra datos cada hora. Por lo tanto, los valores promedio o representativos del mismo período pueden diferir debido a la forma de agregar los datos.",
+        "B": "Ambos gráficos muestran que la intensidad de búsqueda a las 12 horas es de 12 millones, por lo que no hay inconsistencia y la diferencia es un error visual.",
+        "C": "Los datos de los períodos de pico de intensidad (por ejemplo, por la mañana y por la tarde) son bastante parecidos en los dos gráficos, pero en los períodos no pico (por ejemplo, el mediodía), una gráfica muestra un valor más bajo debido a un procesamiento simplificado, mientras que la otra refleja las fluctuaciones reales.",
+        "D": "Durante el mediodía, los usuarios están ocupados con el almuerzo y el descanso, por lo que la cantidad de búsquedas es naturalmente baja. Sin embargo, el otro gráfico puede haber contabilizado erróneamente un período compuesto que incluye la hora punta del descanso.",
+        "E": "El primer gráfico solo selecciona puntos de datos de períodos de pico clave, mientras que el segundo gráfico muestra la tendencia completa de cada hora, lo que hace que los valores en los períodos no pico difieran debido a la forma de muestreo.",
+        "F": "La diferencia en las fuentes de datos causa errores de recopilación. Un gráfico proviene de datos de búsqueda móvil, mientras que el otro proviene de datos de búsqueda de PC. La diferencia en los dispositivos causa una desviación en la intensidad de búsqueda.",
+        "G": "La intensidad de búsqueda en el mediodía es el punto más bajo en la gráfica de tendencia completa, lo que es consistente con la gráfica simplificada y ambos reflejan el valle de la actividad de los usuarios."
+      },
+      "charts_involved": [
+        "chart_29_3",
+        "chart_29_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "En la primera ronda de la fase de grupos, ¿qué influencia puede tener la popularidad de los partidos en la tendencia descendente de la intensidad de búsqueda diaria?",
+      "answer": {
+        "A": "La reducción de la publicidad en los medios hace que la intensidad de búsqueda baje naturalmente, sin relación con los partidos específicos.",
+        "B": "La intensidad de búsqueda más baja el 17 de (22 millones) corresponde directamente al partido con la menor popularidad, Túnez vs Inglaterra (6,5 millones), lo que demuestra que los partidos de baja popularidad disminuyen la intensidad de búsqueda general.",
+        "C": "Los días con mayor intensidad de búsqueda (por ejemplo, el primer día) pueden corresponder a los partidos de apertura más populares, cuya popularidad es significativamente más alta que la de otros partidos, lo que aumenta la cantidad de búsquedas general.",
+        "D": "Los días en que la intensidad de búsqueda aumenta (por ejemplo, un día posterior) pueden estar relacionados con partidos que involucran a jugadores de alta popularidad. La popularidad individual de estos jugadores aumenta indirectamente el interés en los partidos.",
+        "E": "La intensidad de búsqueda baja porque la calidad de los partidos disminuye gradualmente y los usuarios pierden interés en los partidos posteriores.",
+        "F": "Aunque la intensidad de búsqueda es baja en algunos días, la distribución de los partidos en la clasificación de popularidad de los partidos puede ser desigual, lo que hace que las fluctuaciones de la intensidad de búsqueda no estén dominadas por un solo partido, sino por la combinación de múltiples factores.",
+        "G": "El partido de Messi se llevó a cabo el 14 de y tuvo la mayor intensidad de búsqueda (46,98 millones) porque la popularidad individual de Messi (800.000) es significativamente más alta que la de otros jugadores."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_2",
+        "chart_29_5"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "¿Qué factores pueden impulsar los períodos de pico de la intensidad de búsqueda de la Copa del Mundo durante el día (por ejemplo, por la mañana y por la tarde)?",
+      "answer": {
+        "A": "La diferencia entre los picos y valles de la intensidad de búsqueda puede verse afectada por las búsquedas relacionadas con los jugadores. La atención a los jugadores de alta popularidad aumenta bruscamente en períodos específicos, pero la tendencia general sigue siendo consistente con el calendario de los partidos.",
+        "B": "El segundo pico de intensidad de búsqueda a las 16 horas (31 millones) está impulsado por un partido de Cristiano Ronaldo. La popularidad de Cristiano Ronaldo (200.000) es alta y se concentra en la tarde.",
+        "C": "Durante los períodos de pico, la gente usa sus teléfonos móviles durante el viaje al trabajo o en los intervalos de trabajo, lo que aumenta la actividad de búsqueda.",
+        "D": "Los anuncios televisivos se concentran en los períodos de pico, lo que induce a los usuarios a buscar en línea.",
+        "E": "El segundo pico de intensidad de búsqueda en el período de la tarde (alrededor de las 16 horas) puede deberse a la programación continua de partidos o a las rutinas de los aficionados, mientras que los períodos de baja intensidad de búsqueda (por ejemplo, en la medianoche) se deben a la reducción de la actividad.",
+        "F": "El pico de intensidad de búsqueda a las 8 horas (32 millones) corresponde al partido de Rusia vs Arabia Saudí (popularidad de 15 millones) porque ese partido se llevó a cabo a las 8 horas.",
+        "G": "Los períodos de pico (alrededor de las 8 horas de la mañana) pueden corresponder al comienzo de partidos importantes. La popularidad de estos partidos es alta y atrae búsquedas concentradas."
+      },
+      "charts_involved": [
+        "chart_29_4",
+        "chart_29_2",
+        "chart_29_5"
+      ],
+      "label": [
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Como responsable de la operación de contenido digital de la Copa Mundial, ¿cómo debería ajustar el horario de publicación de contenido para maximizar la búsqueda e interacción de los usuarios? Elija la estrategia más efectiva según los datos de la tendencia de popularidad.",
+      "answer": {
+        "A": "Aumente la frecuencia de publicación de contenido durante la etapa de recuperación de la popularidad general del torneo para aprovechar la tendencia ascendente del interés de los usuarios y garantizar que la publicación de contenido se sincronice con las fluctuaciones de popularidad, capturando así más tráfico.",
+        "B": "[Fácil] Se recomienda aumentar la frecuencia de publicación de contenido en los días en que la popularidad general está en descenso continuo (por ejemplo, el 17 con 22.04 millones), para probar si se puede revertir la tendencia de disminución del interés de los usuarios.",
+        "C": "Equilibre la publicación de contenido para cubrir diferentes períodos, pero centre las actividades de promoción en los períodos de pico de popularidad para equilibrar el alcance y la eficiencia, teniendo en cuenta al mismo tiempo el patrón de participación de los usuarios durante todo el día.",
+        "D": "[Fácil] Ignore el momento específico de publicación y concéntrese en crear temas de contenido más diversos para cubrir diferentes grupos de usuarios, en lugar de depender de los datos de popularidad.",
+        "E": "Publique el contenido clave preferentemente durante los períodos de pico de popularidad de búsqueda diaria, ya que en estos períodos la actividad de los usuarios es la más alta, lo que puede aumentar significativamente la exposición y la interacción del contenido. Al mismo tiempo, evite publicar en períodos de baja popularidad continua para ahorrar recursos.",
+        "F": "[Difícil] Basado en el gráfico de tendencia de popularidad, reduzca la publicación de contenido en los días de menor popularidad en la primera ronda de la fase de grupos (por ejemplo, el 17 con 22.04 millones) para ahorrar recursos y utilizarlos en días de mayor popularidad posteriores (por ejemplo, el 19 con 28.92 millones).",
+        "G": "[Difícil] Publique el contenido clave preferentemente durante los períodos de valle de popularidad de búsqueda (por ejemplo, de 0 a 4 de la madrugada, con una popularidad de 11 millones), ya que en este momento hay menos competencia entre los usuarios y el contenido es más fácil de descubrir e interactuar."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_3",
+        "chart_29_4"
+      ],
+      "label": [
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Los organizadores de la Copa Mundial deben asignar recursos de marketing limitados para aumentar la atención del torneo. ¿Cómo deberían formular una estrategia de promoción basada en la popularidad del torneo y de los jugadores? Elija las sugerencias razonables que puedan aumentar la atracción para el público.",
+      "answer": {
+        "A": "[Difícil] Promueva primero los partidos de menor popularidad (por ejemplo, Túnez vs Inglaterra, con 650.000), ya que tienen un gran potencial de mejora y pueden maximizar la atención general.",
+        "B": "[Fácil] Distribuya los recursos de manera uniforme a todos los partidos y jugadores, para garantizar una cobertura equitativa sin considerar las diferencias de popularidad.",
+        "C": "Aumente la intensidad de la promoción en los días de aumento general de la popularidad para aprovechar el período de crecimiento del interés de los usuarios. Al mismo tiempo, evite invertir demasiado en la etapa de descenso de la popularidad para optimizar la utilización de recursos.",
+        "D": "[Fácil] Reduzca la promoción de los jugadores de alta popularidad para evitar que la sobrecomercialización afecte la imagen de la marca.",
+        "E": "Concentre los recursos en la promoción de los partidos de mayor popularidad y combine la promoción de jugadores de alta popularidad relacionados, ya que la combinación de la influencia de los partidos y jugadores de alta popularidad puede generar un efecto sinérgico y atraer a más espectadores.",
+        "F": "[Difícil] Organice actividades de promoción durante los períodos de valle de popularidad de búsqueda (por ejemplo, de 0 a 4 de la madrugada), ya que en este momento el costo de la publicidad es bajo, lo que puede ahorrar recursos y mejorar la eficiencia.",
+        "G": "Organice actividades de promoción de partidos durante los períodos de pico de actividad de búsqueda de los usuarios para maximizar las oportunidades de exposición y garantizar que el período de promoción coincida con el pico de usuarios en línea, lo que aumentará la tasa de conversión de participación."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_2",
+        "chart_29_4",
+        "chart_29_5"
+      ],
+      "label": [
+        "C",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Como gerente de publicidad digital, ¿cómo debería ajustar las ofertas de publicidad y la distribución de períodos durante la Copa Mundial para reducir costos y mejorar la efectividad? Elija la estrategia que pueda mejorar el ROI basado en el patrón de popularidad.",
+      "answer": {
+        "A": "[Fácil] Reduzca las ofertas de publicidad en los días de aumento general de la popularidad (por ejemplo, el 19 con 28.92 millones), ya que el interés de los usuarios es alto y la publicidad se verá naturalmente.",
+        "B": "[Difícil] Coloque anuncios relacionados con jugadores de alta popularidad (por ejemplo, Messi con 800.000) durante los períodos de valle de popularidad de búsqueda (por ejemplo, de 0 a 4 de la madrugada), ya que en este momento los usuarios segmentados pueden estar más concentrados.",
+        "C": "Aumente las ofertas de publicidad durante los períodos de pico de popularidad de búsqueda para competir por oportunidades de exposición de alto tráfico. Al mismo tiempo, ajuste dinámicamente el presupuesto en función de la tendencia general de popularidad para garantizar que la publicidad coincida con el pico de actividad de los usuarios.",
+        "D": "Reduzca las ofertas de publicidad o la cantidad de anuncios durante los períodos de valle de popularidad de búsqueda para ahorrar costos y redistribuya el presupuesto a los períodos de pico, ya que en estos períodos la atención de los usuarios es baja y la rentabilidad de la publicidad es mala.",
+        "E": "[Fácil] Ignore la distribución de períodos y dirija la publicidad solo en función de la popularidad de los jugadores, sin considerar el patrón de tiempo en línea de los usuarios.",
+        "F": "Aumente la colocación de anuncios dirigidos relacionados con jugadores de alta popularidad, ya que la atención hacia los jugadores puede impulsar la búsqueda. Coloque anuncios en los períodos correspondientes para mejorar la relevancia y la tasa de clic de la publicidad.",
+        "G": "[Difícil] Reduzca las ofertas de publicidad o la cantidad de anuncios durante los períodos de pico de popularidad de búsqueda (por ejemplo, a las 8 con 32 millones) para evitar costos de alta competencia."
+      },
+      "charts_involved": [
+        "chart_29_1",
+        "chart_29_3",
+        "chart_29_4",
+        "chart_29_5"
+      ],
+      "label": [
+        "C",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: Among U.S. adults, what proportion often/sometimes get local news and information from other online-only sources in 2024? Please provide the percentage.\n question2: Among U.S. adults, what proportion often/sometimes get local crime news from friends, family and neighbors? Please provide the percentage.",
+                "rationale": "rationale1: The question asks for the proportion of U.S. adults who often or sometimes obtain local news from other online-only sources in 2024. According to the chart, this proportion is 33%, which we extract as the answer.\n rationale2: The question asks for the proportion of U.S. adults who obtain local crime news from friends, family and neighbors. According to the chart, this proportion is 71%, which we extract as the answer.",
+                "answer": "33%; 71%",
+                "involved_content_sources": [
+                    "chart_3-19",
+                    "chart_5-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: Among U.S. adults, what proportion often/sometimes get local news and information from local govt. agencies and officials in 2018? Please provide the percentage.\n question2: What percentage of U.S. adults who get local crime news from local politicians think the information is somewhat accurate?\n question3: Among U.S. adults who get local news from friends, family and neighbors in 2018, what proportion get that news via word-of-mouth (in person or on the phone)? Please provide the percentage.",
+                "rationale": "rationale1: The question requires finding the proportion of U.S. adults who often or sometimes get local news from local government agencies and officials in 2018. The chart directly provides this value as 30%, so we extract this percentage.\n rationale2: We need to find the percentage of a defined group (U.S. adults getting local crime news from local politicians) having a certain view (thinking the information is somewhat accurate), and this data can be found in the chart.\n rationale3: The question asks for the proportion of U.S. adults who get local news from friends, family and neighbors via word-of-mouth in 2018. The chart directly provides this value as 71%, so we extract this percentage.",
+                "answer": "30%; 42%; 71%",
+                "involved_content_sources": [
+                    "chart_3-12",
+                    "chart_6-23",
+                    "chart_4-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What percentage of U.S. adults who get local crime news from friends, family, neighbors think the information is not too accurate?\n question2: Among U.S. adults, what proportion often/sometimes get local news and information from local govt. agencies and officials in 2018? Please provide the percentage.\n question3: Among U.S. adults, what proportion often/sometimes get local political news from local news outlets? Please provide the percentage.\n question4: Among U.S. adults who get local news from friends, family and neighbors in 2024, what proportion get that news via social media? Please provide the percentage.",
+                "rationale": "rationale1: The question focuses on the percentage of a defined group (U.S. adults getting local crime news from friends, family, neighbors) having a certain opinion (thinking the information is not too accurate), and the relevant data is in the chart.\n rationale2: The question requires finding the proportion of U.S. adults who often or sometimes get local news from local government agencies and officials in 2018. The chart directly provides this value as 30%, so we extract this percentage.\n rationale3: The question requires finding the proportion of U.S. adults who get local political news from local news outlets. The chart gives this value as 66%, which we extract as the answer.\n rationale4: The question is about the proportion of U.S. adults who get local news from friends, family and neighbors via social media in 2024. According to the chart, this proportion is 25%, so we extract this percentage.",
+                "answer": "17%; 30%; 66%; 25%",
+                "involved_content_sources": [
+                    "chart_6-12",
+                    "chart_3-12",
+                    "chart_5-2",
+                    "chart_4-3"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the total change in the proportion of U.S. adults who often/sometimes get local news and information from daily newspapers and non - daily newspapers from 2018 to 2024?\n question2: What is the difference in the proportion of U.S. adults getting local news from friends, family and neighbors via word - of - mouth between 2018 and 2024?",
+                "rationale": "rationale1: To answer this question, we first need to find the change in the proportion for daily newspapers and non - daily newspapers separately by subtracting the 2024 proportion from the 2018 proportion for each. Then we add these two changes together. This calculation uses the data from the chart about the proportions of getting local news from daily and non - daily newspapers in 2018 and 2024.\n rationale2: To answer this question, we need to extract the proportion of U.S. adults getting local news from friends, family and neighbors via word - of - mouth in 2018 and 2024 from the chart and then calculate the difference between these two values.",
+                "answer": "13; 9",
+                "involved_content_sources": [
+                    "chart_3-13",
+                    "chart_3-14",
+                    "chart_3-17",
+                    "chart_3-18",
+                    "chart_4-1",
+                    "chart_4-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the total change in the proportion of U.S. adults who often/sometimes get local news and information from daily newspapers and non - daily newspapers from 2018 to 2024?\n question2: What is the difference in the proportion of U.S. adults getting local news from friends, family and neighbors via word - of - mouth between 2018 and 2024?\n question3: What is the difference in the proportion of U.S. adults who often/sometimes get local political news from friends, family and neighbors and the proportion who get it from local politicians? ",
+                "rationale": "rationale1: To answer this question, we first need to find the change in the proportion for daily newspapers and non - daily newspapers separately by subtracting the 2024 proportion from the 2018 proportion for each. Then we add these two changes together. This calculation uses the data from the chart about the proportions of getting local news from daily and non - daily newspapers in 2018 and 2024.\n rationale2: To answer this question, we need to extract the proportion of U.S. adults getting local news from friends, family and neighbors via word - of - mouth in 2018 and 2024 from the chart and then calculate the difference between these two values.\n rationale3: To answer this question, we need to subtract the proportion of U.S. adults who often/sometimes get local political news from local politicians from the proportion who get it from friends, family and neighbors. This requires using the relevant data from the given chart.",
+                "answer": "13; 9; 40%",
+                "involved_content_sources": [
+                    "chart_3-13",
+                    "chart_3-14",
+                    "chart_3-17",
+                    "chart_3-18",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_5-1",
+                    "chart_5-6"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the total change in the proportion of U.S. adults who often/sometimes get local news and information from daily newspapers and non - daily newspapers from 2018 to 2024?\n question2: What is the difference in the proportion of U.S. adults getting local news from friends, family and neighbors via word - of - mouth between 2018 and 2024?\n question3: What is the difference in the proportion of U.S. adults who often/sometimes get local political news from friends, family and neighbors and the proportion who get it from local politicians? \n question4: What is the difference in the proportion of U.S. adults who think the crime - related information from local law enforcement is very accurate and the proportion who think the crime - related information from local politicians is very accurate?",
+                "rationale": "rationale1: To answer this question, we first need to find the change in the proportion for daily newspapers and non - daily newspapers separately by subtracting the 2024 proportion from the 2018 proportion for each. Then we add these two changes together. This calculation uses the data from the chart about the proportions of getting local news from daily and non - daily newspapers in 2018 and 2024.\n rationale2: To answer this question, we need to extract the proportion of U.S. adults getting local news from friends, family and neighbors via word - of - mouth in 2018 and 2024 from the chart and then calculate the difference between these two values.\n rationale3: To answer this question, we need to subtract the proportion of U.S. adults who often/sometimes get local political news from local politicians from the proportion who get it from friends, family and neighbors. This requires using the relevant data from the given chart.\n rationale4: We need to find the proportion of U.S. adults who think the crime - related information from local law enforcement is very accurate and the proportion who think the crime - related information from local politicians is very accurate from the chart, and then calculate the difference between them.",
+                "answer": "13; 9; 40%; 23",
+                "involved_content_sources": [
+                    "chart_3-13",
+                    "chart_3-14",
+                    "chart_3-17",
+                    "chart_3-18",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_5-1",
+                    "chart_5-6",
+                    "chart_6-2",
+                    "chart_6-22"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults who often/sometimes get local news from friends, family and neighbors in 2024 and the proportion of those who get local political news from local nonprofits, advocacy groups?",
+                "rationale": "The proportion of U.S. adults who often/sometimes get local news from friends, family and neighbors in 2024 is 73% (from Chart 3). The proportion of those who get local political news from local nonprofits, advocacy groups is 31% (from Chart 5). The difference is 73% - 31% = 42%.",
+                "answer": "42%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_5-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the increase in the proportion of U.S. adults who often/sometimes get local news from friends, family and neighbors from 2018 to 2024, the proportion of U.S. adults who get local news from friends, family and neighbors via social media in 2024, and the proportion of U.S. adults who often/sometimes get local political news from social media? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults who often/sometimes get local news from friends, family and neighbors in 2018 is 66% (chart_3-2), and in 2024 is 73% (chart_3-1). So the increase is 73% - 66% = 7%. The proportion of U.S. adults who get local news from friends, family and neighbors via social media in 2024 is 25% (chart_4-3). The proportion of U.S. adults who often/sometimes get local political news from social media is 54% (chart_5-3). The average is (7% + 25% + 54%) / 3 = 28.67% (rounded to two decimal places).",
+                "answer": "28.67%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_4-3",
+                    "chart_5-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of U.S. adults getting local news from friends, family and neighbors in 2024 and 2018, the increase in the proportion of getting local news from friends, family and neighbors via social media from 2018 to 2024, the difference between the proportion of getting local political news from friends, family and neighbors and local government websites, and the difference between the proportion of U.S. adults who think crime - related information from friends, family, neighbors is at least somewhat accurate and from local politicians?",
+                "rationale": "1. The difference between the proportion of U.S. adults getting local news from friends, family and neighbors in 2024 and 2018 is 73% - 66% = 7%. (from chart_3) 2. The increase in the proportion of getting local news from friends, family and neighbors via social media from 2018 to 2024 is 25% - 17% = 8%. (from chart_4) 3. The difference between the proportion of getting local political news from friends, family and neighbors and local government websites is 70% - 32% = 38%. (from chart_5) 4. The proportion of U.S. adults who think crime - related information from friends, family, neighbors is at least somewhat accurate is 10% + 62% = 72%, and from local politicians is 4% + 42% = 46%. The difference is 72% - 46% = 26%. (from chart_6) The average of these four differences is (7% + 8% + 38% + 26%) / 4 = 19.75%.",
+                "answer": "19.75%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_4-3",
+                    "chart_5-1",
+                    "chart_6-10"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average proportion of U.S. adults who often/sometimes get local news from friends, family and neighbors in 2018 and 2024, and the average proportion of those who get local crime news from local news outlets and social media in 2024?",
+                "rationale": "The proportion of U.S. adults who often/sometimes get local news from friends, family and neighbors in 2018 is 66% (chart_3-2), and in 2024 is 73% (chart_3-1). The average of these two proportions is (66% + 73%) / 2 = 69.5%. The proportion of U.S. adults who often/sometimes get local crime news from local news outlets in 2024 is 70% (chart_5-8), and from social media is 53% (chart_5-9). The average of these two proportions is (70% + 53%) / 2 = 61.5%. Then the difference between the two is 69.5% - 61.5% = 8%.",
+                "answer": "8%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_5-8",
+                    "chart_5-9"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the change in the proportion of U.S. adults getting local news from friends, family and neighbors from 2018 to 2024, the change in the proportion of getting local news from social media among those getting news from friends, family and neighbors from 2018 to 2024, and the difference in the proportion of getting local political news from friends, family and neighbors and local government websites, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of U.S. adults getting local news from friends, family and neighbors in 2018 is 66% (chart_3-2), and in 2024 is 73% (chart_3-1), so the change is 73% - 66% = 7%. The proportion of getting local news from social media among those getting news from friends, family and neighbors in 2018 is 17% (chart_4-6), and in 2024 is 25% (chart_4-3), so the change is 25% - 17% = 8%. The proportion of getting local political news from friends, family and neighbors is 70% (chart_5-1), and from local government websites is 32% (chart_5-4), so the difference is 70% - 32% = 38%. The weighted average is (7%\u00d70.2 + 8%\u00d70.3 + 38%\u00d70.5) = (0.07\u00d70.2 + 0.08\u00d70.3 + 0.38\u00d70.5) = 0.014 + 0.024 + 0.19 = 0.228 = 22.8%.",
+                "answer": "22.8%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-3",
+                    "chart_4-6",
+                    "chart_5-1",
+                    "chart_5-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of U.S. adults getting local news from friends, family, and neighbors between 2024 and 2018, the difference in the proportion of getting local news via word - of - mouth and social media from friends, family, and neighbors in 2024, the difference in the proportion of getting local political news from friends, family, and neighbors and local government websites, and the difference in the proportion of U.S. adults who think crime - related information from friends, family, and neighbors is very accurate and from local politicians?",
+                "rationale": "In chart 3, the proportion of U.S. adults getting local news from friends, family, and neighbors in 2024 is 73% (chart_3-1), and in 2018 is 66% (chart_3-2). The difference is 73% - 66% = 7%. In chart 4, the proportion of getting local news via word - of - mouth from friends, family, and neighbors in 2024 is 62% (chart_4-1), and via social media is 25% (chart_4-3). The difference is 62% - 25% = 37%. In chart 5, the proportion of getting local political news from friends, family, and neighbors is 70% (chart_5-1), and from local government websites is 32% (chart_5-4). The difference is 70% - 32% = 38%. In chart 6, the proportion of U.S. adults who think crime - related information from friends, family, and neighbors is very accurate is 10% (chart_6-10), and from local politicians is 4% (chart_6-22). The difference is 10% - 4% = 6%. The average of these four differences is (7% + 37% + 38% + 6%) / 4 = 22%.",
+                "answer": "22%",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_5-1",
+                    "chart_5-4",
+                    "chart_6-10",
+                    "chart_6-22"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

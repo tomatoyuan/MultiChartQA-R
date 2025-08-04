@@ -1,0 +1,217 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the range of unauthorized immigrant population in California in 2022?\n question2: What was the unauthorized - immigrant population in the U.S. in 2005? (Please answer with a number.)",
+                "rationale": "rationale1: The question directly asks for the range of unauthorized immigrant population in California in 2022, and the relevant information can be found from the chart.\n rationale2: The question directly asks for the unauthorized - immigrant population in the U.S. in 2005, and we can find this value directly from the given chart.",
+                "answer": "400K - 1.9M; 11.1 million",
+                "involved_content_sources": [
+                    "chart_5-42",
+                    "chart_1-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: How many unauthorized immigrants were there in the U.S. workforce (working or looking for work) in 2010? Please answer with a specific number.\n question2: Which range does the unauthorized immigrant population in Vermont fall into in 2022?\n question3: What was the unauthorized - immigrant population in the U.S. in 2005? (Please answer with a number.)",
+                "rationale": "rationale1: The question directly asks for the number of unauthorized immigrants in the U.S. workforce in 2010, and the relevant information can be found in the given chart.\n rationale2: The query is about the range of unauthorized immigrant population in Vermont in 2022, and the answer can be obtained from the given chart.\n rationale3: The question directly asks for the unauthorized - immigrant population in the U.S. in 2005, and we can find this value directly from the given chart.",
+                "answer": "8.3 million; <25K; 11.1 million",
+                "involved_content_sources": [
+                    "chart_6-4",
+                    "chart_5-4",
+                    "chart_1-4"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the unauthorized immigrant population from South America in 2022? (Please provide the answer in thousands.)\n question2: What was the U.S. unauthorized - immigrant population from Mexico in 2022? Give the answer in millions.\n question3: How many naturalized citizens were there in 2022? Please answer with a number in millions.\n question4: What is the range of unauthorized immigrant population in California in 2022?",
+                "rationale": "rationale1: The question is about the unauthorized immigrant population from South America in 2022, and the answer can be obtained from the chart.\n rationale2: The question is about the specific value of the U.S. unauthorized - immigrant population from Mexico in 2022, which can be obtained from the chart.\n rationale3: The question requires the number of naturalized citizens in 2022, and the answer is given in chart 2.\n rationale4: The question directly asks for the range of unauthorized immigrant population in California in 2022, and the relevant information can be found from the chart.",
+                "answer": "1000; 4.3; 23.4 million; 400K - 1.9M",
+                "involved_content_sources": [
+                    "chart_4-12",
+                    "chart_3-17",
+                    "chart_2-4",
+                    "chart_5-42"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the total U.S. unauthorized - immigrant population in 2005 and how much did it increase compared to 1990?\n question2: What is the average number of unauthorized immigrants in the U.S. workforce from 1995 to 2022? Please round the answer to one decimal place.",
+                "rationale": "rationale1: To find the total U.S. unauthorized - immigrant population in 2005, we need to add the population from Mexico and other countries in 2005 according to the chart. To calculate the increase compared to 1990, we first find the total population in 1990 in the same way and then subtract it from the 2005 total. This involves using data from different time - points in the chart to understand the population change over time. In 2005, the total population was 6.3 + 4.8 = 11.1 million. In 1990, the total population was 2.0+1.5 = 3.5 million. The increase was 11.1 - 3.5 = 7.6 million.\n rationale2: To find the average, we need to sum up the number of unauthorized immigrants in the U.S. workforce for each given year and then divide by the number of years. The years are 1995, 2000, 2005, 2010, 2015, 2020, and 2022, so there are 7 data - points in total. We take the values from each corresponding year's data in the chart and perform the average calculation.",
+                "answer": "7.6 million; 6.8",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_6-1",
+                    "chart_6-2",
+                    "chart_6-3",
+                    "chart_6-4",
+                    "chart_6-5",
+                    "chart_6-6",
+                    "chart_6-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the total U.S. unauthorized - immigrant population in 2005 and how much did it increase compared to 1990?\n question2: What is the average number of unauthorized immigrants in the U.S. workforce from 1995 to 2022? Please round the answer to one decimal place.\n question3: What is the average unauthorized - immigrant population in the U.S. from 2005 to 2022?",
+                "rationale": "rationale1: To find the total U.S. unauthorized - immigrant population in 2005, we need to add the population from Mexico and other countries in 2005 according to the chart. To calculate the increase compared to 1990, we first find the total population in 1990 in the same way and then subtract it from the 2005 total. This involves using data from different time - points in the chart to understand the population change over time. In 2005, the total population was 6.3 + 4.8 = 11.1 million. In 1990, the total population was 2.0+1.5 = 3.5 million. The increase was 11.1 - 3.5 = 7.6 million.\n rationale2: To find the average, we need to sum up the number of unauthorized immigrants in the U.S. workforce for each given year and then divide by the number of years. The years are 1995, 2000, 2005, 2010, 2015, 2020, and 2022, so there are 7 data - points in total. We take the values from each corresponding year's data in the chart and perform the average calculation.\n rationale3: To find the average, we need to sum up the unauthorized - immigrant populations from 2005 to 2022 and then divide by the number of years. We use the relevant data from the given chart for the calculation.",
+                "answer": "7.6 million; 6.8; 11.0375",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_6-1",
+                    "chart_6-2",
+                    "chart_6-3",
+                    "chart_6-4",
+                    "chart_6-5",
+                    "chart_6-6",
+                    "chart_6-7",
+                    "chart_1-4",
+                    "chart_1-5",
+                    "chart_1-6",
+                    "chart_1-7",
+                    "chart_1-8",
+                    "chart_1-9",
+                    "chart_1-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What was the total U.S. unauthorized - immigrant population in 2005 and how much did it increase compared to 1990?\n question2: What is the average number of unauthorized immigrants in the U.S. workforce from 1995 to 2022? Please round the answer to one decimal place.\n question3: What is the average unauthorized - immigrant population in the U.S. from 2005 to 2022?\n question4: How many states have an unauthorized immigrant population range of 25K - 75K in 2022?",
+                "rationale": "rationale1: To find the total U.S. unauthorized - immigrant population in 2005, we need to add the population from Mexico and other countries in 2005 according to the chart. To calculate the increase compared to 1990, we first find the total population in 1990 in the same way and then subtract it from the 2005 total. This involves using data from different time - points in the chart to understand the population change over time. In 2005, the total population was 6.3 + 4.8 = 11.1 million. In 1990, the total population was 2.0+1.5 = 3.5 million. The increase was 11.1 - 3.5 = 7.6 million.\n rationale2: To find the average, we need to sum up the number of unauthorized immigrants in the U.S. workforce for each given year and then divide by the number of years. The years are 1995, 2000, 2005, 2010, 2015, 2020, and 2022, so there are 7 data - points in total. We take the values from each corresponding year's data in the chart and perform the average calculation.\n rationale3: To find the average, we need to sum up the unauthorized - immigrant populations from 2005 to 2022 and then divide by the number of years. We use the relevant data from the given chart for the calculation.\n rationale4: We need to count the number of states whose unauthorized immigrant population range in 2022 is 25K - 75K according to the data in Chart 5.",
+                "answer": "7.6 million; 6.8; 11.0375; 16",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-7",
+                    "chart_3-8",
+                    "chart_6-1",
+                    "chart_6-2",
+                    "chart_6-3",
+                    "chart_6-4",
+                    "chart_6-5",
+                    "chart_6-6",
+                    "chart_6-7",
+                    "chart_1-4",
+                    "chart_1-5",
+                    "chart_1-6",
+                    "chart_1-7",
+                    "chart_1-8",
+                    "chart_1-9",
+                    "chart_1-10",
+                    "chart_5-5",
+                    "chart_5-6",
+                    "chart_5-7",
+                    "chart_5-8",
+                    "chart_5-9",
+                    "chart_5-10",
+                    "chart_5-11",
+                    "chart_5-12",
+                    "chart_5-13",
+                    "chart_5-14",
+                    "chart_5-15",
+                    "chart_5-16",
+                    "chart_5-17",
+                    "chart_5-18",
+                    "chart_5-19",
+                    "chart_5-20"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the unauthorized immigrant population from Mexico in 2022 to the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022?",
+                "rationale": "The unauthorized immigrant population from Mexico in 2022 is 4.3 million (from chart_3-17), and the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022 is 23% (from chart_2-1). The ratio is 4.3\u00f70.23 \u2248 18.7 (in millions per percentage point).",
+                "answer": "18.7",
+                "involved_content_sources": [
+                    "chart_3-17",
+                    "chart_2-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the change in the unauthorized immigrant population from South America from 2019 - 2022 to the difference between the number of unauthorized immigrants in the U.S. workforce in 2022 and in 2020, then multiplied by the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022? (Round the result to three decimal places.)",
+                "rationale": "The change in the unauthorized immigrant population from South America from 2019 - 2022 is 190 thousand (chart_4-14). The number of unauthorized immigrants in the U.S. workforce in 2022 is 8.3 million and in 2020 is 7.4 million, so the difference is 8.3 - 7.4 = 0.9 million = 900 thousand. The proportion of unauthorized immigrants in the U.S. foreign - born population in 2022 is 23% = 0.23. The ratio is (190 / 900) * 0.23 \u2248 0.049 (rounded to three decimal places).",
+                "answer": "0.049",
+                "involved_content_sources": [
+                    "chart_4-14",
+                    "chart_6-7",
+                    "chart_2-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022 and the ratio of the change in the unauthorized immigrant population from South America from 2019 - 2022 to the change in the total U.S. unauthorized immigrant population from 2019 - 2022, and then add the ratio of the number of unauthorized immigrants in the U.S. workforce in 2022 to the total U.S. unauthorized immigrant population in 2022, and finally subtract the ratio of the U.S. unauthorized - immigrant population from Mexico in 2022 to the total U.S. unauthorized - immigrant population in 2022?",
+                "rationale": "First, from chart_2, the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022 is 23%. From chart_4, the change in the unauthorized immigrant population from South America from 2019 - 2022 is 190 thousand, and the change in the total U.S. unauthorized immigrant population from 2019 - 2022 is 825 thousand. So the ratio is 190 / 825 \u2248 23%. The difference between them is 23% - 23% = 0%. From chart_6, the number of unauthorized immigrants in the U.S. workforce in 2022 is 8.3 million, and from chart_1, the total U.S. unauthorized - immigrant population in 2022 is 11.0 million. The ratio is 8.3 / 11.0 \u2248 75%. From chart_3, the U.S. unauthorized - immigrant population from Mexico in 2022 is 4.3 million, and the ratio to the total U.S. unauthorized - immigrant population in 2022 (11.0 million) is 4.3 / 11.0 \u2248 39.09%. Then -0.03% + 75.46% - 39.09% = 36.3%.",
+                "answer": "36.3%",
+                "involved_content_sources": [
+                    "chart_2-1",
+                    "chart_4-14",
+                    "chart_6-7",
+                    "chart_3-17"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the increase in the unauthorized immigrant population from 2019 to 2022 to the increase in the number of unauthorized immigrants in the U.S. workforce from 2020 to 2022?",
+                "rationale": "The total U.S. unauthorized immigrant population in 2019 was 10,200 thousand (chart_4-2), and in 2022 it was 11,000 thousand (chart_4-1). So the increase is 11000 - 10200 = 800 thousand. The number of unauthorized immigrants in the U.S. workforce in 2020 was 7.4 million (chart_6-6), and in 2022 it was 8.3 million (chart_6-7). So the increase is 8.3 - 7.4 = 0.9 million = 900 thousand. Then the ratio is 800 / 900 \u2248 0.89.",
+                "answer": "0.89",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-2",
+                    "chart_6-6",
+                    "chart_6-7"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the ratio of the change in the unauthorized immigrant population from 2019 - 2022 to the difference between the number of unauthorized immigrants in the U.S. workforce in 2022 and that in 2020, multiplied by the proportion of unauthorized immigrants in the U.S. foreign - born population in 2022?",
+                "rationale": "The change in the total U.S. unauthorized immigrant population from 2019 - 2022 is 825 thousand (chart_4-3). The number of unauthorized immigrants in the U.S. workforce in 2022 is 8.3 million and in 2020 is 7.4 million, so the difference is 8.3 - 7.4 = 0.9 million = 900 thousand (chart_6-6, chart_6-7). The proportion of unauthorized immigrants in the U.S. foreign - born population in 2022 is 23% (chart_2-1). The ratio is (825 / 900)\u00d723% = (825 / 900)\u00d70.23 \u2248 0.21 = 21%.",
+                "answer": "21%",
+                "involved_content_sources": [
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_6-6",
+                    "chart_6-7",
+                    "chart_2-1",
+                    "chart_2-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the change in the total U.S. unauthorized immigrant population from 2019 - 2022, the difference between the number of unauthorized immigrants in the U.S. workforce in 2022 and 2020, the difference between the U.S. unauthorized - immigrant population from other countries in 2022 and 2019, and the ratio of the number of unauthorized immigrants in 2022 to the total lawful immigrants in 2022?",
+                "rationale": "The change in the total U.S. unauthorized immigrant population from 2019 - 2022 is 825 thousand (chart_4-3). The number of unauthorized immigrants in the U.S. workforce in 2022 is 8.3 million and in 2020 is 7.4 million, so the difference is 8.3 - 7.4 = 0.9 million = 900 thousand (chart_6-6, chart_6-7). The U.S. unauthorized - immigrant population from other countries in 2022 is 6.9 million and in 2019 is 5.4 million, so the difference is 6.9 - 5.4 = 1.5 million = 1500 thousand (chart_3-14, chart_3-18). The number of unauthorized immigrants in 2022 is 11.0 million and the total lawful immigrants in 2022 is 36.9 million, so the ratio is 11.0 / 36.9 \u2248 0.298 (chart_2-2, chart_2-3). The average of these four values is (825 + 900 + 1500 + 0.298\u00d71000) / 4 = (825 + 900 + 1500 + 298) / 4 = 3523 / 4 = 880.776 thousand.",
+                "answer": "880.776 thousand",
+                "involved_content_sources": [
+                    "chart_4-2",
+                    "chart_4-3",
+                    "chart_6-6",
+                    "chart_6-7",
+                    "chart_3-14",
+                    "chart_3-18",
+                    "chart_2-2",
+                    "chart_2-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

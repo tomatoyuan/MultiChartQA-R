@@ -1,0 +1,195 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What was the proportion of fatal motor vehicle crashes involving a hit - and - run in the U.S. in 2022?\n question2: What was the estimated number of deaths from motor - vehicle crashes in the U.S. in 2005? Please provide the answer as a single number.",
+                "rationale": "rationale1: The question is about the proportion of fatal motor vehicle crashes involving a hit - and - run in 2022, and the chart has the relevant data.\n rationale2: The question directly asks for the number of deaths from motor - vehicle crashes in the U.S. in 2005, and the relevant data can be found in the given chart.",
+                "answer": "7.3%; 42000",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_1-4"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What was the percentage of injury - only motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2019? Provide the answer as a number.\n question2: How many estimated deaths from motor - vehicle crashes were there in the U.S. in 2021? Give a single - number answer.\n question3: What is the number of victims killed with a gun in U.S. road - rage incidents?",
+                "rationale": "rationale1: The query is about the specific percentage of injury - only motor - vehicle crashes related to distracted driving with cellphone use in 2019, which can be obtained from the given chart data.\n rationale2: The question focuses on the number of deaths from motor - vehicle crashes in the U.S. in 2021, and the chart provides the required information.\n rationale3: The question seeks the number of victims killed with a gun in U.S. road - rage incidents, and the answer can be obtained from the chart.",
+                "answer": "7.0; 46000; 118",
+                "involved_content_sources": [
+                    "chart_2-14",
+                    "chart_1-12",
+                    "chart_4-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: How many suspects were shot with a gun in U.S. road - rage incidents?\n question2: What was the estimated number of deaths from motor - vehicle crashes in the U.S. in 2005? Please provide the answer as a single number.\n question3: What was the proportion of fatal motor vehicle crashes involving a hit - and - run in the U.S. in 2008?\n question4: What was the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2015? Please provide the answer as a number.",
+                "rationale": "rationale1: The question requires the number of suspects shot with a gun in U.S. road - rage incidents, which can be found in the chart.\n rationale2: The question directly asks for the number of deaths from motor - vehicle crashes in the U.S. in 2005, and the relevant data can be found in the given chart.\n rationale3: We need to obtain the proportion of fatal motor vehicle crashes involving a hit - and - run in 2008 as stated in the question, and the chart provides this information.\n rationale4: The question directly asks for the percentage of fatal motor - vehicle crashes involving a distracted driver with cellphone use as a factor in 2015. We can find this information directly from the chart.",
+                "answer": "17; 42000; 4.6%; 14.0",
+                "involved_content_sources": [
+                    "chart_4-2",
+                    "chart_1-4",
+                    "chart_3-3",
+                    "chart_2-1"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the increase in the proportion of property - damage - only, injury - only, and fatal motor vehicle crashes involving a hit - and - run in the U.S. from 2008 to 2022 in total?\n question2: What is the number of suspects and victims shot with a gun but not killed in U.S. road - rage incidents?",
+                "rationale": "rationale1: To answer this question, we need to find the increase in the proportion of each type of crash (property - damage - only, injury - only, and fatal) from 2008 to 2022 and then sum them up. We use the data of the proportion of each type of crash in 2008 and 2022 from the chart.\n rationale2: To find the number of suspects and victims shot but not killed, we need to subtract the number of suspects and victims killed from the total number of suspects and victims shot. We know from the chart that the total number of suspects and victims shot is 516, the number of suspects killed is 14, and the number of victims killed is 118. So we perform the calculation 516-(14 + 118).",
+                "answer": "6.3; 384",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_4-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the increase in the proportion of property - damage - only, injury - only, and fatal motor vehicle crashes involving a hit - and - run in the U.S. from 2008 to 2022 in total?\n question2: What is the number of suspects and victims shot with a gun but not killed in U.S. road - rage incidents?\n question3: What is the average number of deaths from motor - vehicle crashes in the U.S. from 2017 to 2021?",
+                "rationale": "rationale1: To answer this question, we need to find the increase in the proportion of each type of crash (property - damage - only, injury - only, and fatal) from 2008 to 2022 and then sum them up. We use the data of the proportion of each type of crash in 2008 and 2022 from the chart.\n rationale2: To find the number of suspects and victims shot but not killed, we need to subtract the number of suspects and victims killed from the total number of suspects and victims shot. We know from the chart that the total number of suspects and victims shot is 516, the number of suspects killed is 14, and the number of victims killed is 118. So we perform the calculation 516-(14 + 118).\n rationale3: To answer this question, we need to find the number of deaths from motor - vehicle crashes in the U.S. for the years 2017, 2019, and 2021 from the bar - chart part of Chart 1. Then we calculate the average by adding these values and dividing by the number of years. The values are estimated from the bar chart in the given content. ((38000 + 39000+46000) / 3) = 41000.",
+                "answer": "6.3; 384; 41000",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_1-10",
+                    "chart_1-11",
+                    "chart_1-12"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the increase in the proportion of property - damage - only, injury - only, and fatal motor vehicle crashes involving a hit - and - run in the U.S. from 2008 to 2022 in total?\n question2: What is the number of suspects and victims shot with a gun but not killed in U.S. road - rage incidents?\n question3: What is the average number of deaths from motor - vehicle crashes in the U.S. from 2017 to 2021?\n question4: What is the average percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor from 2015 to 2022?",
+                "rationale": "rationale1: To answer this question, we need to find the increase in the proportion of each type of crash (property - damage - only, injury - only, and fatal) from 2008 to 2022 and then sum them up. We use the data of the proportion of each type of crash in 2008 and 2022 from the chart.\n rationale2: To find the number of suspects and victims shot but not killed, we need to subtract the number of suspects and victims killed from the total number of suspects and victims shot. We know from the chart that the total number of suspects and victims shot is 516, the number of suspects killed is 14, and the number of victims killed is 118. So we perform the calculation 516-(14 + 118).\n rationale3: To answer this question, we need to find the number of deaths from motor - vehicle crashes in the U.S. for the years 2017, 2019, and 2021 from the bar - chart part of Chart 1. Then we calculate the average by adding these values and dividing by the number of years. The values are estimated from the bar chart in the given content. ((38000 + 39000+46000) / 3) = 41000.\n rationale4: To find the average, we need to sum up the percentages of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor for each year from 2015 to 2022 and then divide by the number of years (8 years). The data for each year is given in the chart. ((14.0 + 14.0 + 14.0 + 14.0 + 14.0 + 13.0 + 12.5 + 12.1) / 8) = 13.65.",
+                "answer": "6.3; 384; 41000; 13.65",
+                "involved_content_sources": [
+                    "chart_3-1",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_3-4",
+                    "chart_3-5",
+                    "chart_3-6",
+                    "chart_4-1",
+                    "chart_4-4",
+                    "chart_4-5",
+                    "chart_1-10",
+                    "chart_1-11",
+                    "chart_1-12",
+                    "chart_2-1",
+                    "chart_2-4",
+                    "chart_2-7",
+                    "chart_2-10",
+                    "chart_2-13",
+                    "chart_2-16",
+                    "chart_2-19",
+                    "chart_2-22"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the ratio of the increase in the proportion of fatal motor - vehicle crashes involving a hit - and - run from 2008 to 2022 to the increase in the number of deaths from motor - vehicle crashes from 2019 to 2021?",
+                "rationale": "The increase in the proportion of fatal motor - vehicle crashes involving a hit - and - run from 2008 to 2022 is 7.3% - 4.6% = 2.7%. The increase in the number of deaths from motor - vehicle crashes from 2019 to 2021 is 46000 - 39000 = 7000. The ratio is 2.7% / 7000 \u2248 0.000386% (we can also express it as 2.7 / 7000 = 0.000386).",
+                "answer": "0.000386",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_1-12"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "If we assume that the total number of motor vehicle crashes in 2022 is 100,000 for simplicity, and based on the proportion of fatal motor vehicle crashes involving a hit - and - run in 2022 and the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2022, and the number of victims killed with a gun in U.S. road - rage incidents, what is the number of victims killed with a gun in road - rage incidents as a percentage of the number of fatal crashes due to both distracted driving with cellphone use and hit - and - run crashes combined (rounded to two decimal places)?",
+                "rationale": "First, calculate the number of fatal crashes due to distracted driving with cellphone use in 2022: 100,000 * 12.1% = 12100. Then calculate the number of fatal crashes due to hit - and - run in 2022: 100,000 * 7.3% = 7300. The combined number of these two types of fatal crashes is 12100 + 7300 = 19400. The number of victims killed with a gun in road - rage incidents is 118. So the percentage is (118 / 19400) * 100 \u2248 0.61%. We used the proportion of fatal motor vehicle crashes involving a hit - and - run in 2022 from chart3-6, the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2022 from chart2-22, and the number of victims killed with a gun in U.S. road - rage incidents from chart4-5 to perform this calculation.",
+                "answer": "0.61%",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_2-22",
+                    "chart_4-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the ratio of the increase in the age - adjusted death rate per 100,000 people from motor - vehicle crashes from 2019 to 2021 to the increase in the proportion of fatal motor vehicle crashes involving a hit - and - run from 2008 to 2022, multiplied by the difference between the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2015 and 2022, and then divided by the ratio of the number of victims killed with a gun in U.S. road - rage incidents to the total number of suspects and victims shot with a gun in U.S. road - rage incidents?",
+                "rationale": "First, the increase in the age - adjusted death rate per 100,000 people from motor - vehicle crashes from 2019 to 2021 is 14.0 - 12.0 = 2.0. Second, the increase in the proportion of fatal motor vehicle crashes involving a hit - and - run from 2008 to 2022 is 7.3 - 4.6 = 2.7. The ratio of these two increases is 2.0 / 2.7. Third, the difference between the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2015 and 2022 is 14.0 - 12.1 = 1.9. The product of the ratio and the difference is (2.0 / 2.7) * 1.9. Fourth, the ratio of the number of victims killed with a gun in U.S. road - rage incidents to the total number of suspects and victims shot with a gun in U.S. road - rage incidents is 118 / 516. Finally, the result is ((2.0 / 2.7) * 1.9) / (118 / 516) \u2248 6.15. ",
+                "answer": "6.15",
+                "involved_content_sources": [
+                    "chart_1-24",
+                    "chart_2-1",
+                    "chart_3-6",
+                    "chart_4-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the increase in the proportion of fatal motor vehicle crashes involving a hit - and - run from 2008 to 2022 and the decrease in the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor from 2019 to 2022?",
+                "rationale": "In 2008, the proportion of fatal motor vehicle crashes involving a hit - and - run was 4.6% (chart_3-3), and in 2022, it was 7.3% (chart_3-6). So the increase is 7.3% - 4.6% = 2.7%. In 2019, the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor was approximately 14.0% (chart_2-13), and in 2022, it was 12.1% (chart_2-22). So the decrease is 14.0% - 12.1% = 1.9%. Then the difference between the two is 2.7% - 1.9% = 0.8%.",
+                "answer": "0.8%",
+                "involved_content_sources": [
+                    "chart_2-13",
+                    "chart_2-22",
+                    "chart_3-3",
+                    "chart_3-6"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the sum of the average of the death rate per 100,000 people (age - adjusted) from motor - vehicle crashes in 2019 and 2021, the average of the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2020 and 2022, and the average of the proportion of injury - only motor vehicle crashes involving a hit - and - run in 2008 and 2022?",
+                "rationale": "The death rate per 100,000 people (age - adjusted) from motor - vehicle crashes in 2019 was around 12.0 (chart_1-23), and in 2021 was around 14.0 (chart_1-24). The average is (12.0 + 14.0) / 2 = 13.0. The percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor in 2020 was approximately 13.0% (chart_2-16), and in 2022 was 12.1% (chart_2-22). The average is (13.0 + 12.1) / 2 = 12.55%. The proportion of injury - only motor vehicle crashes involving a hit - and - run in 2008 was 8.4% (chart_3-2), and in 2022 was 11.4% (chart_3-5). The average is (8.4 + 11.4) / 2 = 9.9%. The sum is 13.0 + 12.55 + 9.9 = 35.45.",
+                "answer": "35.45",
+                "involved_content_sources": [
+                    "chart_1-23",
+                    "chart_1-24",
+                    "chart_2-16",
+                    "chart_2-22",
+                    "chart_3-2",
+                    "chart_3-5"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the age - adjusted death rate per 100,000 people from motor - vehicle crashes between 2021 and 2019, the change in the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor from 2019 to 2022, the increase in the proportion of fatal motor vehicle crashes involving a hit - and - run from 2008 to 2022, and the ratio of the number of victims killed with a gun in U.S. road - rage incidents to the total number of suspects and victims shot with a gun in U.S. road - rage incidents?",
+                "rationale": "1. First, calculate the difference in the age - adjusted death rate per 100,000 people from motor - vehicle crashes between 2021 and 2019: From chart 1, in 2019, the death rate per 100,000 people (age - adjusted) was around 12.0, and in 2021, it was around 14.0. The difference is 14.0 - 12.0 = 2.0. 2. Then, calculate the change in the percentage of fatal motor - vehicle crashes involving a distracted driver in which cellphone use was a factor from 2019 to 2022: From chart 2, in 2019, the percentage was approximately 14.0%, and in 2022, it was 12.1%. The change is 12.1% - 14.0%=- 1.9%. 3. Next, calculate the increase in the proportion of fatal motor vehicle crashes involving a hit - and - run from 2008 to 2022: From chart 3, in 2008, the proportion was 4.6%, and in 2022, it was 7.3%. The increase is 7.3% - 4.6% = 2.7%. 4. Finally, calculate the ratio of the number of victims killed with a gun in U.S. road - rage incidents to the total number of suspects and victims shot with a gun in U.S. road - rage incidents: From chart 4, the number of victims killed with a gun is 118, and the total number of suspects and victims shot with a gun is 516. The ratio is 118\u00f7516\u22480.2287 (or 22.87%). Now, calculate the average of these four values: \\((2.0 - 1.9+2.7 + 22.87)\\div4=(0.1+2.7 + 22.87)\\div4 = 25.67\\div4 = 6.4175\\).",
+                "answer": "6.42%",
+                "involved_content_sources": [
+                    "chart_1-23",
+                    "chart_1-24",
+                    "chart_2-13",
+                    "chart_2-22",
+                    "chart_3-3",
+                    "chart_3-6",
+                    "chart_4-1",
+                    "chart_4-5"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

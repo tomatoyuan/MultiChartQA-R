@@ -1,0 +1,174 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of Hispanic U.S. adults (DEM - REP) who say they at least sometimes see or hear news coverage about Black people that is racist or racially insensitive?\n question2: What is the proportion of U.S. Black adults who say they extremely/fairly often see news coverage about Black people that is racist or racially insensitive and also say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them?",
+                "rationale": "rationale1: The question asks for the difference in proportions for Hispanic U.S. adults, which is provided in the chart.\n rationale2: The question directly asks for a specific proportion value which can be found in the given chart. We just need to extract the relevant data from the chart.",
+                "answer": "25; 50%",
+                "involved_content_sources": [
+                    "chart_2-9",
+                    "chart_4-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. Black adults who say they extremely/fairly often see news coverage about Black people that is racist or racially insensitive and also say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them?\n question2: What is the proportion of Black U.S. adults who are Dem/Lean Dem and say they at least sometimes see or hear news coverage about Black people that is racist or racially insensitive?\n question3: What proportion of Asian U.S. adults (English - speakers only) say they see or hear news coverage about Black people that is racist or racially insensitive rarely/never?",
+                "rationale": "rationale1: The question directly asks for a specific proportion value which can be found in the given chart. We just need to extract the relevant data from the chart.\n rationale2: We are looking for the proportion of Black Dem/Lean Dem U.S. adults with the given view, and the chart has this data.\n rationale3: The question is about the proportion of Asian U.S. adults (English - speakers only) with the described experience rarely/never, and the relevant data is in the chart.",
+                "answer": "50%; 83%; 35%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_2-10",
+                    "chart_1-9"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. Black adults who say they extremely/fairly often see news coverage about Black people that is racist or racially insensitive and also say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them?\n question2: What proportion of White U.S. adults say they see or hear news coverage about Black people that is racist or racially insensitive rarely/never?\n question3: What is the proportion of U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who share their political views?\n question4: What is the proportion of Rep/Lean Rep White U.S. adults who say they at least sometimes see or hear news coverage about Black people that is racist or racially insensitive?",
+                "rationale": "rationale1: The question directly asks for a specific proportion value which can be found in the given chart. We just need to extract the relevant data from the chart.\n rationale2: The question requires finding the proportion of White U.S. adults with the described experience rarely/never from the chart.\n rationale3: The question directly asks for the proportion of U.S. adults with a specific view on news source importance from the given chart. We can directly find the relevant data in the chart.\n rationale4: We need to extract the proportion of Rep/Lean Rep White U.S. adults with the mentioned perception from the chart.",
+                "answer": "50%; 48%; 11%; 40%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_1-15",
+                    "chart_3-1",
+                    "chart_2-5"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of U.S. Black adults who say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them between those who extremely/fairly often see racist or racially insensitive news coverage about Black people and those who rarely/never see such coverage?\n question2: What is the difference between the proportion of U.S. adults who think it is extremely/very important that the news comes from journalists with the same political views and the proportion of Black adults who think it is extremely/very important that the news comes from journalists with the same religious views?",
+                "rationale": "rationale1: We need to subtract the proportion of those who rarely/never see such coverage from the proportion of those who extremely/fairly often see such coverage according to the data in the chart. The data for the two groups are provided in the chart, and by performing this subtraction operation, we can get the required difference.\n rationale2: To find the difference, we need to extract the proportion of U.S. adults who think it is extremely/very important that the news comes from journalists with the same political views and the proportion of Black adults who think it is extremely/very important that the news comes from journalists with the same religious views from the chart, and then subtract the latter from the former.",
+                "answer": "25; 2",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_3-1",
+                    "chart_3-10"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of U.S. Black adults who say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them between those who extremely/fairly often see racist or racially insensitive news coverage about Black people and those who rarely/never see such coverage?\n question2: What is the difference between the proportion of U.S. adults who think it is extremely/very important that the news comes from journalists with the same political views and the proportion of Black adults who think it is extremely/very important that the news comes from journalists with the same religious views?\n question3: What is the difference in the proportion of those who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often between Black U.S. adults and White U.S. adults?",
+                "rationale": "rationale1: We need to subtract the proportion of those who rarely/never see such coverage from the proportion of those who extremely/fairly often see such coverage according to the data in the chart. The data for the two groups are provided in the chart, and by performing this subtraction operation, we can get the required difference.\n rationale2: To find the difference, we need to extract the proportion of U.S. adults who think it is extremely/very important that the news comes from journalists with the same political views and the proportion of Black adults who think it is extremely/very important that the news comes from journalists with the same religious views from the chart, and then subtract the latter from the former.\n rationale3: To answer this question, we need to subtract the proportion of White U.S. adults who say they see or hear such news coverage extremely/fairly often from the proportion of Black U.S. adults who say the same. We can find these two proportions in the given chart.",
+                "answer": "25; 2; 18%",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_3-1",
+                    "chart_3-10",
+                    "chart_1-4",
+                    "chart_1-13"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the difference in the proportion of U.S. Black adults who say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them between those who extremely/fairly often see racist or racially insensitive news coverage about Black people and those who rarely/never see such coverage?\n question2: What is the difference between the proportion of U.S. adults who think it is extremely/very important that the news comes from journalists with the same political views and the proportion of Black adults who think it is extremely/very important that the news comes from journalists with the same religious views?\n question3: What is the difference in the proportion of those who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often between Black U.S. adults and White U.S. adults?\n question4: What is the average difference in the proportion of those who say they at least sometimes see or hear news coverage about Black people that is racist or racially insensitive among U.S. adults, White U.S. adults, Hispanic U.S. adults, and Black U.S. adults?",
+                "rationale": "rationale1: We need to subtract the proportion of those who rarely/never see such coverage from the proportion of those who extremely/fairly often see such coverage according to the data in the chart. The data for the two groups are provided in the chart, and by performing this subtraction operation, we can get the required difference.\n rationale2: To find the difference, we need to extract the proportion of U.S. adults who think it is extremely/very important that the news comes from journalists with the same political views and the proportion of Black adults who think it is extremely/very important that the news comes from journalists with the same religious views from the chart, and then subtract the latter from the former.\n rationale3: To answer this question, we need to subtract the proportion of White U.S. adults who say they see or hear such news coverage extremely/fairly often from the proportion of Black U.S. adults who say the same. We can find these two proportions in the given chart.\n rationale4: We need to find the differences in the proportion for each group from the chart (U.S. adults, White U.S. adults, Hispanic U.S. adults, and Black U.S. adults), then calculate their average. The differences are given in the chart for each group and we will sum them up and divide by the number of groups (4 in this case).",
+                "answer": "25; 2; 18%; 23.75",
+                "involved_content_sources": [
+                    "chart_4-1",
+                    "chart_4-3",
+                    "chart_3-1",
+                    "chart_3-10",
+                    "chart_1-4",
+                    "chart_1-13",
+                    "chart_2-3",
+                    "chart_2-6",
+                    "chart_2-9",
+                    "chart_2-12"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "Among U.S. adults, what is the difference between the proportion of those who at least sometimes see or hear news coverage about Black people that is racist or racially insensitive and the proportion of those who say it is extremely/very important that the news they get comes from journalists or reporters who are the same race or ethnicity as them?",
+                "rationale": "The proportion of U.S. adults who at least sometimes see or hear news coverage about Black people that is racist or racially insensitive is (26% + 33%) = 59%. The proportion of U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who are the same race or ethnicity as them is 5%. The difference is 59% - 5% = 54%.",
+                "answer": "54%",
+                "involved_content_sources": [
+                    "chart_1-1",
+                    "chart_3-19"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the result of multiplying the proportion of Black U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often by the difference in the proportion of Dem/Lean Dem and Rep/Lean Rep among White U.S. adults who at least sometimes see such racist or racially insensitive news coverage, and then dividing by the proportion of U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who share their political views? (Round the result to two decimal places.)",
+                "rationale": "The proportion of Black U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often is 39% (chart_1-4). The difference in the proportion of Dem/Lean Dem and Rep/Lean Rep among White U.S. adults who at least sometimes see such racist or racially insensitive news coverage is 29 (chart_2-6). The proportion of U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who share their political views is 11% (chart_3-1). The result is (39% * 29) / 11% = (0.39 * 29) / 0.11 \u2248 102.82.",
+                "answer": "102.82",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_2-6",
+                    "chart_3-1"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the difference between the average proportion of Black U.S. adults who say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them based on how often they see racist news, and the proportion of Black U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who share their political views, then divided by the difference in the proportion of Black U.S. adults (Dem/Lean Dem - Rep/Lean Rep) who at least sometimes see racist news coverage about Black people, and finally multiplied by the proportion of White U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often?",
+                "rationale": "First, calculate the average proportion of Black U.S. adults who say it is at least somewhat important that their news comes from journalists who are the same race or ethnicity as them based on how often they see racist news: (50% + 40% + 25%) / 3 = 38.33%. The proportion of Black U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who share their political views is 13%. The difference between them is 38.33% - 13% = 25.33%. The difference in the proportion of Black U.S. adults (Dem/Lean Dem - Rep/Lean Rep) who at least sometimes see racist news coverage about Black people is 10%. So, 25.33% / 10% = 2.533. The proportion of White U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often is 21%. Then, 2.533 * 21% = 53.193% \u2248 53.2%.",
+                "answer": "53.2%",
+                "involved_content_sources": [
+                    "chart_1-14",
+                    "chart_2-12",
+                    "chart_3-4",
+                    "chart_4-1"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the product of the proportion of Black U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often and the proportion of Black adults who say it is extremely/very important that the news they get comes from journalists or reporters who are the same race or ethnicity as them, and the product of the proportion of White U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often and the proportion of U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who are the same race or ethnicity as them?",
+                "rationale": "The proportion of Black U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often is 39% (chart_1-4), and the proportion of Black adults who say it is extremely/very important that the news they get comes from journalists or reporters who are the same race or ethnicity as them is 14% (chart_3-22). Their product is 39% * 14% = 5.46%. The proportion of White U.S. adults who say they see or hear news coverage about Black people that is racist or racially insensitive extremely/fairly often is 21% (chart_1-13), and the proportion of U.S. adults who say it is extremely/very important that the news they get comes from journalists or reporters who are the same race or ethnicity as them is 5% (chart_3-19). Their product is 21% * 5% = 1.05%. Then the difference between the two products is 5.46% - 1.05% = 4.41%.",
+                "answer": "4.41%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-13",
+                    "chart_3-19",
+                    "chart_3-22"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of Black U.S. adults who say they see racist news about Black people extremely/fairly often, the proportion of Black U.S. adults (Dem/Lean Dem) who say they at least sometimes see racist news about Black people, and the proportion of Black adults who say it is extremely/very important that the news comes from journalists of the same race or ethnicity as them, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of Black U.S. adults who say they see racist news about Black people extremely/fairly often is 39% (chart_1-4); the proportion of Black U.S. adults (Dem/Lean Dem) who say they at least sometimes see racist news about Black people is 83% (chart_2-10); the proportion of Black adults who say it is extremely/very important that the news comes from journalists of the same race or ethnicity as them is 14% (chart_3-22). The weighted average is (39%\u00d70.2 + 83%\u00d70.3 + 14%\u00d70.5) = (0.39\u00d70.2 + 0.83\u00d70.3 + 0.14\u00d70.5) = 0.078 + 0.249 + 0.07 = 0.397 = 39.7%.",
+                "answer": "39.7%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-5",
+                    "chart_2-10",
+                    "chart_2-11",
+                    "chart_3-22",
+                    "chart_3-23"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference between the proportion of Black U.S. adults who say they see racist or racially insensitive news coverage about Black people extremely/fairly often and the proportion of White U.S. adults who say the same, the difference between the proportion of Dem/Lean Dem Black U.S. adults and Rep/Lean Rep Black U.S. adults who at least sometimes see such news coverage, the difference between the proportion of Black adults who say it is extremely/very important that news comes from journalists of the same race or ethnicity and the proportion of U.S. adults who say the same, and the difference between the proportion of U.S. Black adults who extremely/fairly often see racist news coverage and say it is at least somewhat important that news comes from journalists of the same race or ethnicity and the proportion of those who rarely/never see such news coverage and say the same?",
+                "rationale": "First, from Chart 1, the proportion of Black U.S. adults who say they see racist or racially insensitive news coverage about Black people extremely/fairly often is 39% (chart_1-4), and for White U.S. adults it is 21% (chart_1-13). The difference is 39% - 21% = 18%. Second, from Chart 2, the proportion of Dem/Lean Dem Black U.S. adults who at least sometimes see such news coverage is 83% (chart_2-10), and for Rep/Lean Rep Black U.S. adults it is 73% (chart_2-11). The difference is 83% - 73% = 10%. Third, from Chart 3, the proportion of Black adults who say it is extremely/very important that news comes from journalists of the same race or ethnicity is 14% (chart_3-22), and for U.S. adults it is 5% (chart_3-19). The difference is 14% - 5% = 9%. Fourth, from Chart 4, the proportion of U.S. Black adults who extremely/fairly often see racist news coverage and say it is at least somewhat important that news comes from journalists of the same race or ethnicity is 50% (chart_4-1), and for those who rarely/never see such news coverage it is 25% (chart_4-3). The difference is 50% - 25% = 25%. The average of these four differences is (18% + 10% + 9% + 25%) / 4 = 15.5%.",
+                "answer": "15.5%",
+                "involved_content_sources": [
+                    "chart_1-4",
+                    "chart_1-13",
+                    "chart_2-10",
+                    "chart_2-11",
+                    "chart_3-19",
+                    "chart_3-22",
+                    "chart_4-1",
+                    "chart_4-3"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]

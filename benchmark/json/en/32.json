@@ -1,0 +1,200 @@
+{
+  "chart": [
+    "chart_32_1",
+    "chart_32_2",
+    "chart_32_3",
+    "chart_32_4",
+    "chart_32_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "Please compare the changing trend of the search popularity from 2016 to 2020 in 'In 2020, the search for teacher qualification certificates skyrocketed! Becoming a teacher is more appealing!' with the changing trend of the search volumes arranged in the order of Beijing - Shanghai - Chengdu in 'Comparison of Teacher Qualification Certificate Search Volumes in Cities'. Are the trends of the two consistent in the order of their respective horizontal axes? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "The annual search popularity continuously increased from 2016 to 2020, while the search volumes of the three cities decreased step - by - step from Beijing to Chengdu. One increased and the other decreased, so the trends are opposite and thus inconsistent.",
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_4"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Please compare 'Proportion of different age groups searching for 'Teacher Qualification Certificate'' and 'Male and female percentages of searching for 'Teacher Qualification Certificate' in different age groups'. As the age increases from '≤18 years old' to '25 - 34 years old', is the change in the overall age proportion positively correlated, negatively correlated, or uncorrelated with the change in the male proportion?",
+      "answer": "Uncorrelated",
+      "explanation": "The overall age proportion increased significantly from low to high, but the male proportion in the corresponding age groups first decreased and then increased. There is no stable same - direction or opposite - direction relationship between the two, so the correlation is not obvious.",
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "Is the age group with the highest proportion in 'Proportion of different age groups searching for 'Teacher Qualification Certificate'' also the age group with the highest female percentage in 'Male and female percentages of searching for 'Teacher Qualification Certificate' in different age groups'? Please answer yes or no.",
+      "answer": "No",
+      "explanation": "The age group with the highest overall search proportion is the 19 - 34 years old group, while the age group with the highest female percentage is the subdivided 19 - 24 years old group. The two do not exactly correspond, so the answer is no.",
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "How many units did the search popularity increase in 2020 compared to 2019? Secondly, divide the bubble area of the keyword 'Teacher Qualification Certificate' by this increase value and keep 2 decimal places. Answer: xx",
+      "answer": "5066.67",
+      "explanation": "Popularity in 2020 (100) - Popularity in 2019 (70) = Increase of 30 units; 152000 ÷ 30 ≈ 5066.67",
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_5"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among the total search volume of 'Teacher Qualification Certificate' in Shanghai, approximately how many times did the people aged 19 - 34 search? Keep 0 decimal places. Answer: xx times",
+      "answer": "788500 times",
+      "explanation": "Total search volume in Shanghai (950000) × Proportion of people aged 19 - 34 (83%) = 788500",
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Among the total search volume of 'Teacher Qualification Certificate' in Chengdu, approximately how many times did men aged 25 - 34 search? Keep 0 decimal places. Answer: xx times",
+      "answer": "110682 times",
+      "explanation": "Total search volume in Chengdu (780000) × Proportion of people aged 25 - 34 (33%) = 257400; Among them, the proportion of men is 43% → 257400 × 43% = 110682",
+      "charts_involved": [
+        "chart_32_4",
+        "chart_32_3"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Which population characteristics may jointly influence the continuous growth trend of the search popularity for Teacher Qualification Certificates?",
+      "answer": {
+        "A": "The growth of the search popularity for Teacher Qualification Certificates mainly stems from the incentives and publicity of government education policies. For example, the 'Double Reduction' policy has encouraged more people to switch to the teaching profession.",
+        "B": "Among the young population, the proportion of females in the search is relatively high, which may significantly contribute to the increase in the overall search volume.",
+        "C": "People aged 19 - 34 account for 83% of the searches, but the growth trend is mainly driven by the 50 - plus age group because the search proportion of this group has been increasing year by year.",
+        "D": "With the search popularity rising year by year, people aged 19 - 34 have the largest search proportion and may be the core group driving the growth.",
+        "E": "Although the search proportion of other age groups is relatively small, the search interest of those under 18 is relatively prominent, which may partly explain the early - stage impetus of the growth trend.",
+        "F": "The search interest of people over 35 has surged because they face the need for career transformation, which has become the main driving force for the growth.",
+        "G": "The male search proportion reaches 57% in the 25 - 34 age group, so men dominate the overall search growth."
+      },
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_2",
+        "chart_32_3"
+      ],
+      "label": [
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "How does the gender distribution among different age groups in the population searching for Teacher Qualification Certificates implicitly shape the characteristics of the overall search behavior?",
+      "answer": {
+        "A": "The gender ratio among the group over 35 is close, but their proportion is low, so they may have limited effect on balancing the overall gender distribution.",
+        "B": "Although the proportion of the group under 18 is small, the female search proportion is prominent, which may strengthen the influence of young women in the overall search.",
+        "C": "The overall search behavior shows a trend of gender equality because the gender ratio in all age groups is close to 50%, reflecting social progress.",
+        "D": "Females account for 71% in the 19 - 24 age group, but this group only accounts for 10% of the search population, so their impact on the overall situation is weak.",
+        "E": "The gender ratio in the 35 - 49 age group is 55%:45%, and their proportion is high, so they play a key role in balancing the overall gender distribution.",
+        "F": "The group aged 19 - 34 has the largest proportion, and the female proportion is relatively high, which may make the overall search behavior show a female - dominated tendency.",
+        "G": "Males account for 48% in the 50 - plus age group, higher than the male proportion in other age groups, so the overall search is male - dominated."
+      },
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "What synergistic rules may exist between the search popularity of Teacher Qualification Certificates at the city level and the keyword attention in the teaching industry?",
+      "answer": {
+        "A": "The city with the highest search volume is consistent with the keyword 'Teacher Qualification Certificate' having the highest attention, which may reflect the core position of this topic in the region and in practice.",
+        "B": "The attention of the keyword 'Teacher Holidays' is 6800, which highly matches the search volume of 950,000 times in Shanghai, indicating that the city's search focuses on welfare benefits.",
+        "C": "The search volume in Beijing is more than 10 times the attention of the keyword 'Teacher Qualification Certificate' (152,000), so there is no direct correlation between the city data and the keyword attention.",
+        "D": "The attention of teacher - related keywords such as 'Teacher Establishment' is relatively low, but the search volumes in major cities are still significant, which may indicate that urban activities prefer basic qualification certificates over other industry elements.",
+        "E": "Although the keyword 'Online Education' has relatively high attention, the city search volume focuses on Teacher Qualification Certificates, which may highlight the direct correlation between regional needs and industry hotspots.",
+        "F": "The high search popularity in cities reflects the popularization of online education because the keyword 'Online Education' has the highest attention, driving the searches in cities like Beijing and Shanghai.",
+        "G": "The search volume in Chengdu is 780,000 times, far higher than the attention of the keyword 'Teacher Establishment' (9200), indicating that urban users are more concerned about teacher establishment than qualification certificates."
+      },
+      "charts_involved": [
+        "chart_32_4",
+        "chart_32_5"
+      ],
+      "label": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the growth trend of the search for Teacher Qualification Certificates and the age - distribution characteristics of the population, how should the market promotion strategy be optimized to efficiently attract potential candidates and increase the application rate? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "Strengthen educational publicity among the young population (such as those under 18) through social media channels. Since the search popularity is growing significantly and this group has a considerable proportion, cultivating interest in advance can build a long - term application reserve and avoid ignoring emerging demands.",
+        "B": "Focus on enhancing the social reputation and welfare publicity of the teaching profession to attract more people to the education industry without targeting specific populations.",
+        "C": "Allocate the promotion budget evenly among all age groups and channels to ensure fair coverage and avoid missing any potential groups.",
+        "D": "Design digital promotion activities targeting people aged 19 - 34. Since this age group has the highest proportion in the search population and the search popularity is rising rapidly, they are the core demand group. Increasing online advertising investment can maximize coverage and conversion rates.",
+        "E": "Although people aged 19 - 34 account for 83% of the searches, the popularity reached its peak (100) in 2020. It is expected that the demand will be saturated in the future, so investment in this group should be reduced, and attention should be shifted to the group under 18 (accounting for 13%) to explore emerging markets.",
+        "F": "Based on the fact that the search popularity increased from 10 in 2016 to 100 in 2020, this trend indicates a surge in the whole - society demand. Therefore, advertising investment should be prioritized in traditional media (such as TV and newspapers) rather than digital channels."
+      },
+      "charts_involved": [
+        "chart_32_1",
+        "chart_32_2"
+      ],
+      "label": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the age and gender structure of the population searching for Teacher Qualification Certificates, how should the resource allocation of teacher training programs be adjusted to improve participation rates and training effects? Please select the most effective strategy.",
+      "answer": {
+        "A": "Increase the investment in training resources for all age groups and genders uniformly to ensure service inclusiveness and fairness without differential allocation.",
+        "B": "Among the 19 - 24 age group, since females account for 71% of the searches (far higher than 29% for males), male needs should be completely ignored, and all resources should be concentrated on female - exclusive courses to maximize efficiency.",
+        "C": "Given that the gender ratio in the 25 - 34 age group is relatively balanced (57% females and 43% males) and they are the core search population (with a high proportion), high - cost offline courses should be developed for this group rather than flexible online models to improve training quality.",
+        "D": "Develop flexible learning models (such as online modules) for the 25 - 34 age group. Since this age group has a high search proportion but a relatively balanced gender ratio, the needs of work and study should be taken into account to avoid gender imbalance caused by resource inclination.",
+        "E": "Maintain basic resource investment for the group over 35. Although the search proportion is relatively low, the gender ratio is close, ensuring inclusive services to support the needs of career transformation.",
+        "F": "Prioritize increasing training courses and resources for females in the 19 - 24 age group. Since the female search proportion in this age group is significantly higher than that of males and they are the core search population, optimizing resources can improve participation rates.",
+        "G": "Develop more basic introductory courses because the core of teacher training is knowledge transfer rather than optimizing according to population characteristics."
+      },
+      "charts_involved": [
+        "chart_32_2",
+        "chart_32_3"
+      ],
+      "label": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Combining the differences in search popularity among cities and the characteristics of keyword attention in the teaching industry, how should the course promotion and resource allocation of online education platforms be optimized to improve user participation and market returns? Please select the most reasonable suggestion.",
+      "answer": {
+        "A": "Prioritize investing in courses related to the keyword 'Teacher Benefits' (with an attention of 4400) because teacher welfare is a core pain point in the industry and can attract a wide range of users.",
+        "B": "Ignore city differences and promote standardized courses uniformly across the country to reduce operating costs and ensure consistency.",
+        "C": "Concentrate on promoting 'Teacher Qualification Certificate' preparation courses in cities with the highest search popularity. Since the demand in these areas is intensive and the keyword attention is the highest, a high input - output ratio can be achieved. At the same time, integrate local content to enhance attractiveness.",
+        "D": "Since the keyword 'Online Education' has relatively high attention and the search popularity is rising overall, the promotion should be completely shifted to pure online courses, and local or hybrid models should be abandoned to maximize digital efficiency.",
+        "E": "In cities with high search popularity, develop hybrid learning courses (such as online + offline) in combination with the attention of the keyword 'Online Education' to meet diverse learning preferences and expand market share during the rising period of the search trend.",
+        "F": "Increase the promotion efforts in cities with low search popularity (such as Chengdu with 780,000 searches). Since the market in high - popularity cities (such as Beijing with 2.2 million searches) may be saturated, low - popularity cities have greater growth potential, and resources should not be concentrated in leading cities."
+      },
+      "charts_involved": [
+        "chart_32_4",
+        "chart_32_5"
+      ],
+      "label": [
+        "C",
+        "E"
+      ]
+    }
+  ]
+}

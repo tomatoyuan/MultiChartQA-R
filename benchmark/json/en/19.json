@@ -1,0 +1,203 @@
+{
+  "chart": [
+    "chart_19_1",
+    "chart_19_2",
+    "chart_19_3",
+    "chart_19_4",
+    "chart_19_5"
+  ],
+  "qa_pairs": [
+    {
+      "type": "2",
+      "question": "In the chart 'Reasons for regret on Double Eleven', does the changing trend of the bar length as the horizontal axis goes to the right match the changing trend of the bar length as the horizontal axis goes from top to bottom in the chart 'Regional Distribution of Consumers with Shopping Regrets'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both show a gradually decreasing trend.",
+      "charts_involved": [
+        "chart_19_1",
+        "chart_19_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the chart 'Reasons for regret on Double Eleven', does the changing trend of the bar length as the horizontal axis goes from right to left match the changing trend of the bar length as the horizontal axis goes from top to bottom in the chart 'Regional Distribution of Consumers with Shopping Regrets'? Answer yes or no.",
+      "answer": "No",
+      "explanation": "The former gradually increases from right to left, while the latter gradually decreases.",
+      "charts_involved": [
+        "chart_19_1",
+        "chart_19_2"
+      ]
+    },
+    {
+      "type": "2",
+      "question": "In the chart 'Reasons for regret on Double Eleven', does the changing trend of the length of the blue bar from left to right match the changing trend of the bar length from left to right in the chart 'Gender Distribution of 'Most Regretful' Consumers'? Answer yes or no.",
+      "answer": "Yes",
+      "explanation": "Both show a decreasing bar length.",
+      "charts_involved": [
+        "chart_19_1",
+        "chart_19_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the gender distribution of consumers who 'regret the most' is the same in each province. How many female consumers with shopping regrets are there in Guangdong approximately? Round up the result to the nearest integer.",
+      "answer": "18",
+      "explanation": "The number of consumers with shopping regrets in Guangdong is 30. The proportion of females is 60%. Calculate the number of female consumers with shopping regrets in Guangdong based on the national average ratio. 30 × 60% = 18.",
+      "charts_involved": [
+        "chart_19_2",
+        "chart_19_4"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the age distribution of consumers with shopping regrets is the same in each province. Please estimate the number of consumers with shopping regrets aged 30 - 39 in Jiangsu approximately. Round up the result to the nearest integer.",
+      "answer": "7",
+      "explanation": "The number of consumers with shopping regrets in Jiangsu is 23. The national proportion of the age group 30 - 39 is 28%. Estimate the number in Jiangsu according to the same ratio. 23 × 28% = 6.44. Round up to 7 people.",
+      "charts_involved": [
+        "chart_19_2",
+        "chart_19_3"
+      ]
+    },
+    {
+      "type": "3",
+      "question": "Assume that the gender distribution of consumers who 'regret the most' is the same in each province. How many male consumers with shopping regrets are there in Beijing approximately? Round up the result to the nearest integer.",
+      "answer": "10",
+      "explanation": "The number of consumers with shopping regrets in Beijing is 24. The proportion of males is 40%. Calculate the number in Beijing based on the national ratio. 24 × 40% = 9.6. Round up to 10 people.",
+      "charts_involved": [
+        "chart_19_2",
+        "chart_19_4"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the chart of reasons for regret and the chart of age distribution of consumers, which age groups are more likely to regret due to the option with the highest value among the reasons for regret? Please explain in combination with the trends in the charts.",
+      "answer": {
+        "A": "Consumers under 19 years old, because teenagers have insufficient shopping experience and are more likely to find that the purchased items are unnecessary (Easy).",
+        "B": "Consumers aged 30 - 39, because this age group has a relatively high proportion of regret, and the reason for regret with the highest value dominates among all the reasons, which may also have a significant impact on this group.",
+        "C": "Consumers aged 40 - 49, because this group has the lowest proportion of regret (9%), but the value of 'finding unnecessary after purchase' is the highest, which may highlight the impact of this reason (Hard).",
+        "D": "Consumers aged 20 - 29, because this age group accounts for the largest proportion among the regretful consumers, and the reason for regret with the highest value ('finding unnecessary after purchase') may affect this group more frequently.",
+        "E": "Consumers over 50 years old, because the elderly are easily influenced by promotions and impulsively buy unnecessary goods (Easy).",
+        "F": "Consumers aged 30 - 39, because the proportion of regret in this group (28%) is close to that of the 20 - 29 age group (36%), and the value of 'finding unnecessary after purchase' (10) is twice the sum of other reasons, so it has a more significant impact on this group (Hard)."
+      },
+      "charts_involved": [
+        "chart_19_1",
+        "chart_19_3"
+      ],
+      "label": [
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "Combining the chart of regional distribution of consumers and the chart of gender distribution, in which regions are the number of female regretful consumers likely to be higher? Please infer based on the data trends in the charts.",
+      "answer": {
+        "A": "Shandong, because the number of consumers in this region ranks among the top. Combining with the overall dominance of females in the gender distribution, the number of female regretful consumers may be significant.",
+        "B": "The number of female regretful consumers in Shanghai is higher than that in Shandong, because the number of consumers in Shanghai (22) is close to that in Shandong (25) and the economy in Shanghai is more developed (Hard).",
+        "C": "Anhui, because the proportion of females may be higher than the overall 60%, so the number of female regretful consumers may exceed that in regions with a higher total number of consumers (Easy).",
+        "D": "The number of female regretful consumers in Hubei is higher than that in Jiangsu, because the number of consumers in Hubei (20) > that in Jiangsu (23) and Hubei is more centrally located (Hard).",
+        "E": "Zhejiang, because the number of consumers in this region is relatively high, and the proportion of females is dominant, which may also lead to a relatively large number of female regretful consumers.",
+        "F": "Guangdong, because the number of consumers in this region is the largest, and females account for the highest proportion among the regretful consumers, so the number of female regretful consumers may be more prominent."
+      },
+      "charts_involved": [
+        "chart_19_2",
+        "chart_19_4"
+      ],
+      "label": [
+        "A",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "type": "4",
+      "question": "According to the chart of ranking of e - commerce product categories regretted to buy on Double Eleven and the chart of reasons for regret, which reasons for regret are more likely for the top - ranked categories? Please explain in combination with the ranking and the numerical trends of the reasons.",
+      "answer": {
+        "A": "The furniture and home appliances category ranked second is more likely to cause regret due to 'product does not match description', because the value of this reason is relatively high, and the complexity of product descriptions for furniture and home appliances may increase the risk of non - conformity.",
+        "B": "The food and fresh produce category ranked third is more likely to cause regret due to 'express delivery delay', because fresh produce has strong timeliness and the value of this reason (0.3) exists (Hard).",
+        "C": "The beauty and personal care category ranked fifth is more likely to cause regret due to 'poor customer service attitude', because this category requires consulting customer service (Easy).",
+        "D": "The food and fresh produce category ranked third is more likely to cause regret due to 'counterfeit or shoddy goods', because although the value of this reason is not the highest, it exists, and food and fresh produce are prone to quality problems.",
+        "E": "The clothing and footwear category ranked first is more likely to cause regret due to 'size or model does not match', because size problems are common in clothing and the value of this reason (2) is relatively high (Hard).",
+        "F": "The clothing and footwear category ranked first is more likely to cause regret due to 'found unnecessary after purchase', because the value of this reason is the highest, and high - ranked categories may involve more impulse purchases, making this reason more common."
+      },
+      "charts_involved": [
+        "chart_19_5",
+        "chart_19_1"
+      ],
+      "label": [
+        "A",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "To reduce the regret rate of Double Eleven shopping, which consumer group should e - commerce platforms prioritize to launch shopping decision - making auxiliary tools (such as 'cooling - off period' reminders or virtual try - ons)? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "Launch general auxiliary tools for all consumer groups, because Double Eleven promotional activities cover all users, and a wide coverage can maximize the reduction of the overall regret rate.",
+        "B": "Target the young consumer group aged 20 - 29, because they account for the highest proportion among the regretful consumers, and impulse purchases (such as finding unnecessary after purchase) are the main reasons for regret. Auxiliary tools can help reduce irrational consumption.",
+        "C": "Provide exclusive customer service for the consumer group aged 40 - 49, because their regret proportion is 9% (chart_19_3), and they may be more sensitive to services. Strengthened support can reduce their regret risk.",
+        "D": "Strengthen the training of the after - sales service team for female consumers, because they account for a higher proportion among the regretful consumers, and difficult after - sales service is one of the reasons for regret. Professional support can improve satisfaction.",
+        "E": "Allocate resources evenly among all gender groups, because the distribution of regretful consumers is relatively uniform, and a fair strategy can cover all needs.",
+        "F": "Prioritize increasing customer service staff in regions with a high number of regretful consumers (such as Guangdong and Zhejiang), because regret events are concentrated in these regions, and poor customer service attitude is one of the reasons for regret. Strengthened service can quickly respond to problems.",
+        "G": "Reduce customer service resources in regions with a relatively low number of regretful consumers (such as Jiangxi and Fujian), because the demand is low (chart_19_2 shows 9 in Jiangxi and 8 in Fujian), and save costs to invest in high - demand regions."
+      },
+      "charts_involved": [
+        "chart_19_1",
+        "chart_19_2",
+        "chart_19_3",
+        "chart_19_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "For e - commerce product categories with a high regret rate on Double Eleven, which quality control measures should e - commerce platforms prioritize to implement? Please select the most reasonable strategic suggestion.",
+      "answer": {
+        "A": "Implement unified quality standards for all e - commerce product categories to ensure consistency and fairness and avoid regret events.",
+        "B": "For furniture and home appliances, strictly review the consistency between product descriptions and actual products, because it is the second - highest category in terms of regret rate, and product non - conformity with description is one of the main reasons for regret. Improving authenticity can enhance trust.",
+        "C": "Prioritize measures for emerging categories (such as virtual goods), because they have rapid growth and high risks, which are likely to cause regret.",
+        "D": "Strengthen the inspection of counterfeit and shoddy goods for medical and health care products, because counterfeit or shoddy goods is one of the reasons for regret (value 1), and this category ranks 6th. High - risk products need to be prioritized for control.",
+        "E": "Optimize the size guide for mobile phones and digital products, because size or model non - conformity is a reason for regret (value 2), and this category ranks 4th. This measure can reduce discomfort related to size.",
+        "F": "For all high - regret categories, optimize the after - sales service response mechanism, because difficult after - sales service is one of the reasons for regret, especially for high - priced categories (such as furniture and home appliances). Quick support can relieve consumers' dissatisfaction.",
+        "G": "For clothing and footwear, strengthen the size guide and virtual try - on function, because it is the category with the highest regret rate, and size or model non - conformity is a common reason for regret. Improvements can directly reduce consumers' discomfort."
+      },
+      "charts_involved": [
+        "chart_19_1",
+        "chart_19_5"
+      ],
+      "label": [
+        "B",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "type": "5",
+      "question": "Based on the data of consumers' regret, how should e - commerce platforms optimize the allocation of customer service resources (such as customer service staff or training) to reduce the regret rate? Please select the most effective strategic suggestion.",
+      "answer": {
+        "A": "Comprehensively increase the budget for customer service staff and training to improve the overall service response speed and quality and reduce consumers' dissatisfaction.",
+        "B": "Provide exclusive online customer service channels for the consumer group aged 20 - 29, because this group has the highest proportion of regret, and the problem of impulse purchases is prominent. Instant guidance can reduce the risk of regret.",
+        "C": "Provide exclusive customer service for the consumer group aged 40 - 49, because their regret proportion is 9% (chart_19_3), and they may be more sensitive to services. Strengthened support can reduce their regret risk.",
+        "D": "Strengthen the training of the after - sales service team for female consumers, because they account for a higher proportion among the regretful consumers, and difficult after - sales service is one of the reasons for regret. Professional support can improve satisfaction.",
+        "E": "Allocate resources evenly among all gender groups, because the distribution of regretful consumers is relatively uniform, and a fair strategy can cover all needs.",
+        "F": "Prioritize increasing customer service staff in regions with a high number of regretful consumers (such as Guangdong and Zhejiang), because regret events are concentrated in these regions, and poor customer service attitude is one of the reasons for regret. Strengthened service can quickly respond to problems.",
+        "G": "Reduce customer service resources in regions with a relatively low number of regretful consumers (such as Jiangxi and Fujian), because the demand is low (chart_19_2 shows 9 in Jiangxi and 8 in Fujian), and save costs to invest in high - demand regions."
+      },
+      "charts_involved": [
+        "chart_19_1",
+        "chart_19_2",
+        "chart_19_3",
+        "chart_19_4"
+      ],
+      "label": [
+        "B",
+        "D",
+        "F"
+      ]
+    }
+  ]
+}

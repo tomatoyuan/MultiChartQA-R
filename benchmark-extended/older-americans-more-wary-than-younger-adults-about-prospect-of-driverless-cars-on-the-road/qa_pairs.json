@@ -1,0 +1,179 @@
+[
+    {
+        "qa_type": "parallel_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who think older adults and people with disabilities would be able to live more independently if driverless passenger vehicles become widespread?\n question2: What is the proportion of all - age groups of U.S. adults who favor the use of technology to operate driverless 18 - wheeler trucks?",
+                "rationale": "rationale1: The question asks for the difference in proportions between two age - groups on the independence improvement for certain groups with driverless vehicles, and the value is given in the chart.\n rationale2: We are looking for the proportion of all - age groups in favor of using technology for driverless 18 - wheeler trucks, and the chart has this information.",
+                "answer": "+10; 20%",
+                "involved_content_sources": [
+                    "chart_4-10",
+                    "chart_3-15"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the proportion of U.S. adults aged 18 - 49 who favor the use of technology to operate driverless taxis and ride - sharing vehicles?\n question2: What proportion of U.S. adults aged 18 - 49 feel somewhat comfortable sharing the road with driverless passenger vehicles if their use became widespread?\n question3: What is the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who think older adults and people with disabilities would be able to live more independently if driverless passenger vehicles become widespread?",
+                "rationale": "rationale1: We need to extract the proportion of 18 - 49 - year - old U.S. adults in favor of using technology for driverless taxis and ride - sharing vehicles from the chart.\n rationale2: We are asked to find the proportion of a specific age - group (18 - 49) of U.S. adults regarding their comfort level of sharing the road with driverless vehicles. The chart provides this data.\n rationale3: The question asks for the difference in proportions between two age - groups on the independence improvement for certain groups with driverless vehicles, and the value is given in the chart.",
+                "answer": "48%; 38%; +10",
+                "involved_content_sources": [
+                    "chart_3-6",
+                    "chart_2-35",
+                    "chart_4-10"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: When was the survey period?\n question2: What proportion of U.S. adults aged 50 and older think the widespread use of driverless passenger vehicles would increase the number of people killed or injured in traffic accidents?\n question3: What is the proportion of U.S. adults aged 18 - 49 who think getting from place to place would be less stressful if driverless passenger vehicles become widespread?\n question4: What is the difference in the proportion of 18 - 49 - year - olds and 50+ - year - olds who favor the use of technology to operate driverless public transportation buses?",
+                "rationale": "rationale1: The question simply asks for the survey period, and this information is clearly stated in the chart.\n rationale2: We need to look for the proportion of U.S. adults aged 50 and older with a specific view on driverless vehicles and traffic accidents. The answer can be obtained directly from the chart.\n rationale3: This question is about the proportion of a specific age - group (18 - 49) regarding the stress - reduction of travel with driverless vehicles. The answer can be obtained from the chart.\n rationale4: The question requires the difference in proportions for driverless public transportation buses between the two age groups, which is directly provided in the chart.",
+                "answer": "Nov. 1 - 7, 2021; 31%; 48%; +14",
+                "involved_content_sources": [
+                    "chart_5-13",
+                    "chart_2-12",
+                    "chart_4-5",
+                    "chart_3-12"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "parallel_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "question1: What is the average proportion of U.S. adults aged 18 - 49 who think driverless passenger vehicles would bring positive impacts (less stressful travel and more independence for certain groups) among the aspects mentioned in the chart?\n question2: What is the average proportion of all - age groups who favor the use of technology to operate different types of driverless vehicles (delivery vehicles, taxis and ride - sharing vehicles, public transportation buses, 18 - wheeler trucks)?",
+                "rationale": "rationale1: We need to find the proportion of 18 - 49 - year - old U.S. adults who think getting from place to place would be less stressful (48%) and the proportion who think older adults and people with disabilities would be able to live more independently (67%). Then calculate their average by adding these two proportions and dividing by 2.\n rationale2: To find the average, we need to sum up the proportions of all - age groups for each type of vehicle and then divide by the number of vehicle types. We take the proportions from the given chart for all - age groups of delivery vehicles (content 3), taxis and ride - sharing vehicles (content 7), public transportation buses (content 11), and 18 - wheeler trucks (content 15), and then perform the average calculation.",
+                "answer": "57.5; 34.25",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_4-8",
+                    "chart_3-3",
+                    "chart_3-7",
+                    "chart_3-11",
+                    "chart_3-15"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "question1: What is the average proportion of U.S. adults aged 18 - 49 who think driverless passenger vehicles would bring positive impacts (less stressful travel and more independence for certain groups) among the aspects mentioned in the chart?\n question2: What is the average proportion of all - age groups who favor the use of technology to operate different types of driverless vehicles (delivery vehicles, taxis and ride - sharing vehicles, public transportation buses, 18 - wheeler trucks)?\n question3: What is the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50 and older who think the widespread use of driverless passenger vehicles would decrease the number of people killed or injured in traffic accidents?",
+                "rationale": "rationale1: We need to find the proportion of 18 - 49 - year - old U.S. adults who think getting from place to place would be less stressful (48%) and the proportion who think older adults and people with disabilities would be able to live more independently (67%). Then calculate their average by adding these two proportions and dividing by 2.\n rationale2: To find the average, we need to sum up the proportions of all - age groups for each type of vehicle and then divide by the number of vehicle types. We take the proportions from the given chart for all - age groups of delivery vehicles (content 3), taxis and ride - sharing vehicles (content 7), public transportation buses (content 11), and 18 - wheeler trucks (content 15), and then perform the average calculation.\n rationale3: To find the difference, we need to subtract the proportion of U.S. adults aged 50 and older from the proportion of U.S. adults aged 18 - 49 who think the widespread use of driverless passenger vehicles would decrease the number of people killed or injured in traffic accidents. The relevant data can be found in the given chart.",
+                "answer": "57.5; 34.25; 14%",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_4-8",
+                    "chart_3-3",
+                    "chart_3-7",
+                    "chart_3-11",
+                    "chart_3-15",
+                    "chart_2-14",
+                    "chart_2-15"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "question1: What is the average proportion of U.S. adults aged 18 - 49 who think driverless passenger vehicles would bring positive impacts (less stressful travel and more independence for certain groups) among the aspects mentioned in the chart?\n question2: What is the average proportion of all - age groups who favor the use of technology to operate different types of driverless vehicles (delivery vehicles, taxis and ride - sharing vehicles, public transportation buses, 18 - wheeler trucks)?\n question3: What is the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50 and older who think the widespread use of driverless passenger vehicles would decrease the number of people killed or injured in traffic accidents?\n question4: What is the average proportion of all U.S. adults who find the use of driverless passenger vehicles more acceptable under the three given requirements (travel in dedicated lanes, be labeled as driverless, and have regular accident reports)?",
+                "rationale": "rationale1: We need to find the proportion of 18 - 49 - year - old U.S. adults who think getting from place to place would be less stressful (48%) and the proportion who think older adults and people with disabilities would be able to live more independently (67%). Then calculate their average by adding these two proportions and dividing by 2.\n rationale2: To find the average, we need to sum up the proportions of all - age groups for each type of vehicle and then divide by the number of vehicle types. We take the proportions from the given chart for all - age groups of delivery vehicles (content 3), taxis and ride - sharing vehicles (content 7), public transportation buses (content 11), and 18 - wheeler trucks (content 15), and then perform the average calculation.\n rationale3: To find the difference, we need to subtract the proportion of U.S. adults aged 50 and older from the proportion of U.S. adults aged 18 - 49 who think the widespread use of driverless passenger vehicles would decrease the number of people killed or injured in traffic accidents. The relevant data can be found in the given chart.\n rationale4: To find the average, we need to sum up the proportions of all U.S. adults for the three requirements and then divide by 3. The proportions are given in the chart for each of these requirements.",
+                "answer": "57.5; 34.25; 14%; 69.33%",
+                "involved_content_sources": [
+                    "chart_4-5",
+                    "chart_4-8",
+                    "chart_3-3",
+                    "chart_3-7",
+                    "chart_3-11",
+                    "chart_3-15",
+                    "chart_2-14",
+                    "chart_2-15",
+                    "chart_5-2",
+                    "chart_5-6",
+                    "chart_5-10"
+                ],
+                "chart_count": "4"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_per_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the proportion of U.S. adults aged 50 and older who think the widespread use of driverless passenger vehicles would be a bad idea for society and the proportion of U.S. adults aged 50+ who favor the use of technology to operate driverless delivery vehicles?",
+                "rationale": "The proportion of U.S. adults aged 50 and older who think the widespread use of driverless passenger vehicles would be a bad idea for society is 53%. The proportion of U.S. adults aged 50+ who favor the use of technology to operate driverless delivery vehicles is 33%. The difference is 53% - 33% = 20%.",
+                "answer": "20%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_3-1"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the average of the proportion of U.S. adults aged 50 and older who think the widespread use of driverless passenger vehicles would be a bad idea for society, the proportion of U.S. adults aged 50+ who favor the use of technology to operate driverless public transportation buses, and the proportion of U.S. adults aged 50+ who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk? (Round the result to two decimal places.)",
+                "rationale": "The proportion of U.S. adults aged 50 and older who think the widespread use of driverless passenger vehicles would be a bad idea for society is 53%. The proportion of U.S. adults aged 50+ who favor the use of technology to operate driverless public transportation buses is 27%. The proportion of U.S. adults aged 50+ who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk is 83%. The average is (53% + 27% + 83%) / 3 = 54.33% (rounded to two decimal places).",
+                "answer": "54.33%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_3-9",
+                    "chart_4-3"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of 18 - 49 - year - olds and 50+ - year - olds who favor the use of technology to operate driverless delivery vehicles, the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk, and the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say the use of driverless passenger vehicles would be more acceptable if they were required to travel in dedicated lanes?",
+                "rationale": "The difference in the proportion of 18 - 49 - year - olds and 50+ - year - olds who favor the use of technology to operate driverless delivery vehicles is +17 (chart_3-4). The difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk is - 13 (chart_4-4). The difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say the use of driverless passenger vehicles would be more acceptable if they were required to travel in dedicated lanes is -9 (chart_5-4). The average of these three differences is [(+17)+(-13)+(-9)] / 3 = -5 / 3 \u2248 -1.67. But since we are dealing with proportions, we keep it in percentage - related terms. So, considering the context, we take the values as they are presented in the charts and calculate the average: (17 + | - 13|+| - 9|) / 3=(17 + 13+9) / 3 = 13.",
+                "answer": "13%",
+                "involved_content_sources": [
+                    "chart_2-2",
+                    "chart_3-4",
+                    "chart_4-4",
+                    "chart_5-4"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    },
+    {
+        "qa_type": "union_per_chart_multi_content",
+        "qa_pairs": [
+            {
+                "question": "What is the difference between the average of the proportions of younger adults (18 - 49) who think the widespread use of driverless passenger vehicles would be a good idea for society and who think it would decrease traffic casualties, and the average of the proportions of older adults (50 and above) who favor the use of technology to operate driverless delivery vehicles and driverless taxis and ride - sharing vehicles?",
+                "rationale": "Among U.S. adults aged 18 - 49, the proportion of those who think the widespread use of driverless passenger vehicles would be a good idea for society is 33% (chart_2-5), and the proportion of those who think it would decrease the number of people killed or injured in traffic accidents is 46% (chart_2-14). The average of these two proportions is (33% + 46%) / 2 = 39.5%. Among U.S. adults, the proportion of those aged 50+ who favor the use of technology to operate driverless delivery vehicles is 33% (chart_3-1), and the proportion of those aged 50+ who favor the use of technology to operate driverless taxis and ride - sharing vehicles is 32% (chart_3-5). The average of these two proportions is (33% + 32%) / 2 = 32.5%. Then the difference between the two averages is 39.5% - 32.5% = 7%.",
+                "answer": "7%",
+                "involved_content_sources": [
+                    "chart_2-5",
+                    "chart_2-14",
+                    "chart_3-1",
+                    "chart_3-5"
+                ],
+                "chart_count": "2"
+            },
+            {
+                "question": "What is the weighted average of the proportion of adults aged 50 and older who think the widespread use of driverless passenger vehicles would be a bad idea for society, the proportion of adults aged 18 - 49 who favor the use of technology to operate driverless delivery vehicles, and the proportion of adults aged 18 - 49 who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk, with weights being 0.2, 0.3, and 0.5 respectively?",
+                "rationale": "The proportion of adults aged 50 and older who think the widespread use of driverless passenger vehicles would be a bad idea for society is 53% (chart_2-3); the proportion of adults aged 18 - 49 who favor the use of technology to operate driverless delivery vehicles is 50% (chart_3-2); the proportion of adults aged 18 - 49 who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk is 70% (chart_4-1). The weighted average is (53%\u00d70.2 + 50%\u00d70.3 + 70%\u00d70.5) = (0.53\u00d70.2 + 0.5\u00d70.3 + 0.7\u00d70.5) = 0.106 + 0.15 + 0.35 = 0.606 = 60.6%.",
+                "answer": "60.6%",
+                "involved_content_sources": [
+                    "chart_2-3",
+                    "chart_2-4",
+                    "chart_3-2",
+                    "chart_3-3",
+                    "chart_4-1",
+                    "chart_4-2"
+                ],
+                "chart_count": "3"
+            },
+            {
+                "question": "What is the average of the difference in the proportion of 18 - 49 - year - olds and 50+ - year - olds who favor the use of technology to operate driverless delivery vehicles, the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk, the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say getting from place to place would be less stressful if driverless passenger vehicles become widespread, and the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say the use of driverless passenger vehicles would be more acceptable if they were required to travel in dedicated lanes?",
+                "rationale": "From Chart 3, the difference in the proportion of 18 - 49 - year - olds and 50+ - year - olds who favor the use of technology to operate driverless delivery vehicles is +17 (chart_3-4). From Chart 4, the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say if driverless passenger vehicles become widespread, the computer systems in them would be easily hacked in ways that put safety at risk is -13 (chart_4-4). The difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say getting from place to place would be less stressful if driverless passenger vehicles become widespread is +15 (chart_4-7). From Chart 5, the difference in the proportion of U.S. adults aged 18 - 49 and those aged 50+ who say the use of driverless passenger vehicles would be more acceptable if they were required to travel in dedicated lanes is -9 (chart_5-4). The average of these four differences is [(+17)+(-13)+(+15)+(-9)] / 4 = 2.5",
+                "answer": "2.5",
+                "involved_content_sources": [
+                    "chart_3-2",
+                    "chart_3-4",
+                    "chart_4-4",
+                    "chart_4-7",
+                    "chart_5-1",
+                    "chart_5-4",
+                    "chart_2-17",
+                    "chart_2-18"
+                ],
+                "chart_count": "4 or more"
+            }
+        ]
+    }
+]
