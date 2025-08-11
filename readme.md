@@ -1,4 +1,4 @@
-# MultiChartQA-X:
+# MultiChartQA-X
 
 MultiChartQA-X: A Scalable Multilingual Benchmark for Multi-Chart Question Answering with Diverse Reasoning Tasks for Vision-Language Models
 
@@ -6,7 +6,32 @@ MultiChartQA-X: A Scalable Multilingual Benchmark for Multi-Chart Question Answe
 
 MultiChartQA-X includes 180 sets of charts and 695 chart-code pairs, covering three languages (extendable) and four types of multi-chart tasks, meeting the requirements for multi-chart analysis research. In terms of chart types, it not only includes common types such as bar charts and line graphs, but also features more complex chart structures, such as heatmaps, radar charts, bubble charts, and composite charts. MultiChartQA-X spans multiple domains, including automotive, healthcare, beauty, and home appliances, aligning with real-world multi-chart question answering scenarios.
 
+Furthermore, we have designed an extended benchmark comprising 512 charts and 1,212question-answer pairs, aimed at exploring how the information retrieval capabilities of MLLMs evolve as the number of charts increases.
+
 ## Overview
 
 ![Visualization_3_01](readme.assets/Visualization_3_01.png)
+
+## Data Loading
+
+**MultiChartQA-X Benchmark**
+
+```bash
+cd code
+python load_benchmark.py
+```
+
+**Extended Benchmark**
+
+```bash
+cd code
+python load_exbenchmark.py
+```
+
+## Evaluation
+
+```bash
+cd code
+python evaluation.py
+```
 
