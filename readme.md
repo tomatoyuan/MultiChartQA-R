@@ -1,4 +1,4 @@
-# MultiChartQA-X
+# MultiChartQA-R
 
 MultiChartQA-X: A Scalable Multilingual Benchmark for Multi-Chart Question Answering with Diverse Reasoning Tasks for Vision-Language Models
 
@@ -14,7 +14,7 @@ Furthermore, we have designed an extended benchmark comprising 512 charts and 1,
 
 ## Data Loading
 
-**MultiChartQA-X Benchmark**
+**MultiChartQA-R Benchmark**
 
 ```bash
 cd code
