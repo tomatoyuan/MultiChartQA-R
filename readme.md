@@ -32,6 +32,19 @@ The benchmark currently supports **English**, **Chinese**, and **Spanish**, and 
 
 In addition, we provide an **extended benchmark** for retrieval-oriented analysis, built from **101** multi-chart articles with **1,212** QA pairs, to study how model performance changes as the number of charts and the amount of relevant information increase.
 
+## JSON Format Notes
+
+The main benchmark JSON files are stored under `benchmark/json/{cn,en,es}`. Each file contains a multi-chart set and its `qa_pairs`.
+
+- **Task 1 / Task 2** entries include direct answers and, for Task 2, explanatory calculations in the `explanation` field.
+- **Task 3 / Task 4** entries include the released multi-select supervision fields:
+  - `label`: correct option set
+  - `easy_error`: distractors corresponding to clearly unsupported or obviously incorrect choices
+  - `hard_error`: distractors corresponding to more plausible but ultimately incorrect choices
+- **Task 4** entries additionally include a `cot` field, which stores option-level explanations for why each option is correct or incorrect.
+
+This makes the released JSON suitable not only for answer evaluation, but also for instruction construction, explanation analysis, and option-level supervision.
+
 ## Task Definition
 
 MultiChartQA-R includes four progressively more complex task types:
@@ -118,6 +131,24 @@ Additional public utilities are also provided in `code/`:
 - `eval_task2_accuracy.py`: Task 2 answer-level accuracy
 - `eval_task34_strict_risk_aware.py`: Task 3/4 Strict Risk-Aware `MF_beta`
 - `inference_api_template.py`: API inference template using environment variables instead of hardcoded credentials
+
+### Prompt and evaluation utilities
+
+```bash
+cd code
+python load_benchmark.py
+python eval_task1_accuracy.py --result-file path/to/task1_predictions.jsonl
+python eval_task2_accuracy.py --result-file path/to/task2_predictions.jsonl
+python eval_task34_strict_risk_aware.py --result-file path/to/task3_or_task4_predictions.jsonl
+```
+
+For API-based inference, use environment variables rather than editing scripts:
+
+```bash
+export OPENAI_BASE_URL=https://your-endpoint/v1
+export OPENAI_API_KEY=your_api_key
+python inference_api_template.py --model your-model-name --task 3 --language en --sample-index 0
+```
 
 ## Evaluation Protocol
 
