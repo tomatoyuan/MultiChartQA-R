@@ -1,37 +1,113 @@
 # MultiChartQA-R
 
-MultiChartQA-X: A Scalable Multilingual Benchmark for Multi-Chart Question Answering with Diverse Reasoning Tasks for Vision-Language Models
+**MultiChartQA-R: A Benchmark for Multi-Chart Question Answering in Real-World Reasoning Scenarios**
 
-## Introduction
+MultiChartQA-R is a benchmark for **multi-chart question answering**, designed to evaluate multimodal large language models (MLLMs) in realistic reasoning settings. It extends prior multi-chart resources with broader task coverage, multilingual data, a scalable data construction pipeline, and evaluation protocols for both **multi-select** and **generative** settings.
 
-MultiChartQA-X includes 180 sets of charts and 695 chart-code pairs, covering three languages (extendable) and four types of multi-chart tasks, meeting the requirements for multi-chart analysis research. In terms of chart types, it not only includes common types such as bar charts and line graphs, but also features more complex chart structures, such as heatmaps, radar charts, bubble charts, and composite charts. MultiChartQA-X spans multiple domains, including automotive, healthcare, beauty, and home appliances, aligning with real-world multi-chart question answering scenarios.
+## Resources
 
-Furthermore, we have designed an extended benchmark comprising 512 charts and 1,212question-answer pairs, aimed at exploring how the information retrieval capabilities of MLLMs evolve as the number of charts increases.
+- **Appendix PDF:** [appendix.pdf](./appendix.pdf)
+- **Main benchmark:** `benchmark/`
+- **Extended benchmark:** `benchmark-extended/`
+- **Utility scripts:** `code/`
 
 ## Overview
 
+MultiChartQA-R studies reasoning over **multiple related charts**, rather than isolated single-chart understanding. The benchmark is designed to cover a progression of abilities from basic cross-chart perception to decision-oriented reasoning.
+
+Each language version currently contains:
+
+- **180** multi-chart sets
+- **695** chart-code pairs
+- **2,160** QA pairs
+- **4** task types
+
+The benchmark currently supports **English**, **Chinese**, and **Spanish**, and is designed to be extendable to additional languages.
+
+In addition, we provide an **extended benchmark** for retrieval-oriented analysis, built from **101** multi-chart articles with **1,212** QA pairs, to study how model performance changes as the number of charts and the amount of relevant information increase.
+
+## Task Definition
+
+MultiChartQA-R includes four progressively more complex task types:
+
+1. **Cross-chart Trend Inference**  
+   Determine whether trends or patterns across charts are aligned, divergent, or otherwise related.
+
+2. **Complementary Data Integration**  
+   Combine evidence from multiple charts to derive a missing value, comparison, or aggregated conclusion.
+
+3. **Anomaly and Pattern Analysis**  
+   Identify and explain non-trivial anomalies or patterns grounded in multi-chart evidence.
+
+4. **Strategy Recommendation**  
+   Produce decision-oriented recommendations supported by cross-chart analysis.
+
+## Preview
+
 ![Visualization_3_01](readme.assets/Visualization_3_01.png)
 
-## Data Loading
+## Repository Structure
 
-**MultiChartQA-R Benchmark**
+```text
+MultiChartQA-R/
+├── benchmark/              # Main benchmark data
+│   ├── images/
+│   ├── images_info/
+│   ├── code/
+│   └── json/
+├── benchmark-extended/     # Retrieval-oriented extended benchmark
+├── code/                   # Data loading and evaluation utilities
+├── readme.assets/          # README figures
+└── appendix.pdf            # Appendix document
+```
+
+## Quick Start
+
+### Load the main benchmark
 
 ```bash
 cd code
 python load_benchmark.py
 ```
 
-**Extended Benchmark**
+This script loads the main benchmark and prints example QA items for Task 1-4.
+
+### Load the extended benchmark
 
 ```bash
 cd code
 python load_exbenchmark.py
 ```
 
-## Evaluation
+This script loads the extended benchmark and prints examples from its retrieval-oriented subsets.
+
+### Run evaluation examples
 
 ```bash
 cd code
 python evaluation.py
 ```
 
+This script contains minimal examples for the official evaluators used by the benchmark:
+
+- Task 1: relaxed answer matching
+- Task 2: rationale-to-code verification
+- Task 3: multi-option evaluation
+- Task 4: multi-option evaluation
+
+## Evaluation Protocol
+
+For the main benchmark:
+
+- **Task 1-2** use accuracy-based evaluation.
+- **Task 3-4 (multi-select)** use a **Strict Risk-Aware** \( MF_{\beta} \) metric.
+- **Task 3-4 (generative)** use a free-form generation protocol aligned with the benchmark’s option-level evaluation principle.
+
+## Notes
+
+- Some scripts still contain legacy comments using the earlier internal name **MultiChartQA-X**. The released benchmark name is **MultiChartQA-R**.
+- The benchmark is intended for research on realistic multi-chart reasoning, including multilingual analysis, retrieval scalability, and decision-oriented evaluation.
+
+## Citation
+
+If you find MultiChartQA-R useful, please cite the project/paper once the final bibliographic information is available.
