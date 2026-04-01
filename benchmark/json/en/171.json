@@ -85,6 +85,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distraction. Based on common sense (e.g., the growth of e - commerce platforms depends on users and advertising), it does not rely on any chart data and only makes general statements, so it cannot specifically explain the correlation in the charts.",
+        "B": "This is a hard distraction. It misinterprets the chart values: chart_171_1 shows that the year - on - year growth rate of the total retail sales of consumer goods in 2023 is 0.07 (not 0.12, which is the data for 2021), and the growth rate of Douyin in September is 0.32, which is not directly driven by the overall highest growth rate. Misassociating the values distorts the causal reasoning.",
+        "C": "All options need to be inferred by combining chart_171_1 and chart_171_2. Chart_171_1 provides a macro - background (e.g., the trends of the total retail sales of consumer goods and online retail sales of physical goods), and chart_171_2 provides micro - details (e.g., the monthly sales growth of Douyin apparel, shoes and bags). This option compares the stagnant period in 2022 with the recovery period in 2023 and explains that the platform's performance may be affected by the macro - environment but has a magnifying effect. These conclusions cannot be drawn from a single chart (for example, chart_171_2 alone cannot explain the macro - drive).",
+        "D": "This is an easy distraction. Based on industry common sense (e.g., promotional activities affect sales), it does not quote chart data and cannot provide specific reasoning for the correlation between the sales of Douyin apparel, shoes and bags and the overall retail trend.",
+        "E": "All options need to be inferred by combining chart_171_1 and chart_171_2. Chart_171_1 provides a macro - background (e.g., the trends of the total retail sales of consumer goods and online retail sales of physical goods), and chart_171_2 provides micro - details (e.g., the monthly sales growth of Douyin apparel, shoes and bags). This option focuses on the contradiction between the slowdown of the growth rate of online retail sales and the high growth of Douyin, implying the uniqueness of the platform. These conclusions cannot be drawn from a single chart (for example, chart_171_2 alone cannot explain the macro - drive).",
+        "F": "All options need to be inferred by combining chart_171_1 and chart_171_2. Chart_171_1 provides a macro - background (e.g., the trends of the total retail sales of consumer goods and online retail sales of physical goods), and chart_171_2 provides micro - details (e.g., the monthly sales growth of Douyin apparel, shoes and bags). This option deduces the platform's growth from the overall growth, reflecting a positive correlation. These conclusions cannot be drawn from a single chart (for example, chart_171_2 alone cannot explain the macro - drive).",
+        "G": "This is a hard distraction. It misinterprets the chart differences: chart_171_2 shows that the sales data of Douyin in 2022 are [87, 100, 96, 88, 92, 91, 98] (there is no year - on - year decline, and the sales in some months, such as 10 billion yuan in July, are relatively high), but the distraction wrongly describes it as 'year - on - year decline' and wrongly attributes the rebound in 2023 to the overall stagnation, ignoring the actual data trend."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "All options need to be inferred by combining chart_171_3 and chart_171_4. Chart_171_3 shows the change in the sales volume share (e.g., +12% in the low - price band), and chart_171_4 shows the change in the sales revenue proportion (e.g., +9% in the low - price band). This option compares the difference between the changes in sales volume and sales revenue and infers the impact of unit price. A single chart cannot explain the conflict (for example, chart_171_3 alone cannot infer the impact on sales revenue).",
+        "B": "This is an easy distraction. Based on macro - economic common sense (e.g., consumption downgrading), it does not rely on the chart content and only generally describes the phenomenon without analyzing specific values.",
+        "C": "All options need to be inferred by combining chart_171_3 and chart_171_4. Chart_171_3 shows the change in the sales volume share (e.g., +12% in the low - price band), and chart_171_4 shows the change in the sales revenue proportion (e.g., +9% in the low - price band). This option deduces the consumption downgrading trend from the overall structural shift. A single chart cannot explain the conflict (for example, chart_171_3 alone cannot infer the impact on sales revenue).",
+        "D": "All options need to be inferred by combining chart_171_3 and chart_171_4. Chart_171_3 shows the change in the sales volume share (e.g., +12% in the low - price band), and chart_171_4 shows the change in the sales revenue proportion (e.g., +9% in the low - price band). This option analyzes the conflict between the decrease in sales volume and the decrease in sales revenue in the mid - and high - price bands, implying the price factor. A single chart cannot explain the conflict (for example, chart_171_3 alone cannot infer the impact on sales revenue).",
+        "E": "This is a hard distraction. It misinterprets the chart differences: in chart_171_3, the sales volume share of the 100 - 300 yuan price band decreases from 22% to 17% (-5%), and in chart_171_4, the sales revenue proportion decreases from 27% to 24% (-3%), but the distraction wrongly attributes it to 'price increase'. In fact, the decrease in the sales revenue proportion is less than the decrease in the sales volume, implying that the price may have decreased rather than increased.",
+        "F": "This is a hard distraction. It misinterprets the chart values: chart_171_3 and chart_171_4 show that the sales volume share of the low - price band (below 50 yuan) increases from 38% to 50% (+12%), and the sales revenue proportion increases from 30% to 39% (+9%), but the distraction wrongly infers 'unit price increase'. The actual data shows that the increase in the sales revenue proportion is less than the increase in the sales volume share, implying that the unit price may have decreased or remained unchanged rather than increased.",
+        "G": "This is an easy distraction. Based on common sense (e.g., the economics of low - price goods), it does not quote chart data and cannot specifically explain the gap between the sales volume share and the sales revenue proportion in the charts."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "All options need to be inferred by combining chart_171_2, chart_171_3 and chart_171_4. Chart_171_2 provides the absolute value of sales and the growth rate (e.g., the monthly data in 2023), and chart_171_3 and chart_171_4 provide the price - band structure (changes in the sales volume and sales revenue shares). This option explains the structural reasons for the low - growth months. A single chart cannot complete the inference (for example, chart_171_2 alone cannot explain the role of the price band).",
+        "B": "This is a hard distraction. It misinterprets the chart differences: chart_171_3 shows that the sales volume share of the low - price band increases from 38% in 2022 to 50% in 2023 (+12%), and in chart_171_2, the growth rate in December is 0.02 corresponding to sales of 10 billion yuan (higher than 9.8 billion yuan in 2022), but the distraction wrongly describes it as 'decrease in the sales volume share' and wrongly associates it with the low growth rate, ignoring the actual increase in the share data.",
+        "C": "This is an easy distraction. Based on common sense (e.g., the impact of promotional activities), it does not rely on chart data and cannot explain the fluctuations in specific months or the interaction of price bands.",
+        "D": "This is a hard distraction. It misinterprets the chart values: chart_171_4 shows that the sales revenue proportion of the high - price band (over 300 yuan) decreases from 15% in 2022 to 11% in 2023 (-4%), while the growth rate in September is as high as 0.32. The distraction wrongly describes it as 'increase in the proportion', which contradicts the actual downward trend and leads to wrong reasoning about the growth - driving factors.",
+        "E": "This is an easy distraction. Based on industry common sense (e.g., platform technology factors), it does not quote chart values and only makes general descriptions, so it cannot provide data support for the fluctuations in the growth rate.",
+        "F": "All options need to be inferred by combining chart_171_2, chart_171_3 and chart_171_4. Chart_171_2 provides the absolute value of sales and the growth rate (e.g., the monthly data in 2023), and chart_171_3 and chart_171_4 provide the price - band structure (changes in the sales volume and sales revenue shares). This option deduces the impact of the price band from the monthly growth fluctuations. A single chart cannot complete the inference (for example, chart_171_2 alone cannot explain the role of the price band).",
+        "G": "All options need to be inferred by combining chart_171_2, chart_171_3 and chart_171_4. Chart_171_2 provides the absolute value of sales and the growth rate (e.g., the monthly data in 2023), and chart_171_3 and chart_171_4 provide the price - band structure (changes in the sales volume and sales revenue shares). This option analyzes the association between the high - growth months and the share of the low - price band and infers the growth - driving factors. A single chart cannot complete the inference (for example, chart_171_2 alone cannot explain the role of the price band)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Option 3 refers to the long - term trend of the growth but slowing growth rate of online retail in chart_171_1. Combining with external knowledge (innovative promotions can attract traffic), the core reasoning relies on the chart data, and the strategy conforms to values (encouraging fair competition and consumer welfare).",
+        "B": "Option 2 is based on the volatility of Douyin's sales data in chart_171_2 (e.g., the low growth rate in December) and the slowdown in the growth of the total retail sales of consumer goods in chart_171_1 (the growth rate in 2023 is 0.07, down from 0.12 in 2021), and derives the dynamic adjustment of the budget to improve resource utilization.",
+        "C": "Hard distractor: Apparently based on chart_171_2 (data of high - growth months), but it confuses the relationship - reducing investment in high - growth months will waste opportunities (e.g., the sales volume in September is 1.16 billion yuan). Chart_171_1 shows that the overall growth is slowing down, so it is more necessary to take advantage of the high - growth period; the wrong logic will reduce the input - output ratio.",
+        "D": "Easy distractor: It does not rely on the charts, but only on common sense (expanding offline channels). However, the focus of the question is the Douyin platform, and chart_171_1 shows that the online retail sales of physical goods continue to grow (1.3 trillion yuan in 2023), and the online market is the main battlefield; offline expansion is irrelevant and deviates from the platform strategy.",
+        "E": "Easy distractor: It does not rely on the chart data, but only on general common sense (evenly distributing the budget can stabilize sales). However, it ignores the monthly sales fluctuations (e.g., the growth rate in chart_171_2 ranges from 0.13 to 0.32), and even distribution will reduce efficiency; the chart shows that the overall online retail growth is slowing down (the year - on - year growth rate in chart_171_1 is decreasing), and precise rather than average investment is required.",
+        "F": "Hard distractor: Apparently using the data in chart_171_2 (the growth rate of 0.02 in December 2023), but it misinterprets the trend - low - growth months (e.g., December) indicate weak demand or external factors, and investment may be ineffective; the correct strategy should focus on high - growth months (e.g., the growth rate of 32% in September) to improve efficiency.",
+        "G": "Option 1 combines the high - growth months of Douyin's monthly sales of apparel, shoes, and bags in chart_171_2 (e.g., the prominent growth rates in September and October) and the trend of the year - on - year decline in the online retail sales of physical goods in chart_171_1 (the growth rate of 0.08 in 2023 is significantly lower than 0.14 in 2020), and derives the need to increase investment during the high - growth period to leverage the timing."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Hard distractor: Apparently using chart_171_3 (sales volume share - 5%) and chart_171_4 (sales revenue proportion - 3%), but it misinterprets the data - the share of the mid - price band is declining across the board, indicating a shift in consumer preferences. Increasing inventory may lead to overstock; the correct strategy should prioritize the low - price band (where demand is rising).",
+        "B": "Easy distractor: It does not rely on the data, but only on industry experience (high - end products have high profits). However, chart_171_3 and chart_171_4 show that the sales volume share and sales revenue proportion of the high - price band are both declining (-1% and - 4%), and the demand is weakening, so promotion may be ineffective.",
+        "C": "Hard distractor: Apparently based on chart_171_3 (sales volume +12%) and chart_171_4 (sales revenue +9%), but it confuses the relationship - the low - price band is the only one with growth, and reducing promotion will result in missed market share; the data shows that the demand is strong, and it is the key to increasing sales volume.",
+        "D": "Option 2 combines the changes in the share of the mid - price band (e.g., 100 - 300 yuan) in chart_171_3 and chart_171_4 (the sales volume share is declining, but the decrease in the sales revenue proportion is relatively mild), and derives the need to maintain profits through value optimization rather than price wars, which is different from the low - price focus of Option 1.",
+        "E": "Option 3 is based on the trend of the declining share of the highest price band in chart_171_3 and chart_171_4 (sales volume - 1%, sales revenue - 4%), and derives a resource reallocation strategy to avoid ineffective investment.",
+        "F": "Easy distractor: It does not rely on the charts, but only on common sense (unified inventory can meet customers). However, it ignores the changes in the price bands (chart_171_3 and chart_171_4 show a shift in demand towards the low - price band), and the unified strategy will miss the opportunity for profit optimization.",
+        "G": "Option 1 integrates the significant increase in the sales volume share of the lowest price band in chart_171_3 (change +12%) and the growth in the sales revenue proportion of the same price band in chart_171_4 (change +9%), and derives that the demand for low - price products is strong. The strategy conforms to values (enhancing consumer accessibility)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Hard distractor: Apparently using chart_171_3 (the sales volume share of 50 - 100 yuan is - 6%) and chart_171_4 (the sales revenue proportion is - 1%), but it confuses the trend - the mid - price band is declining across the board, while the low - price band is growing significantly (sales volume +12%). Reducing low - price SKUs will result in missed sales opportunities; the data supports expanding the low - price band.",
+        "B": "Hard distractor: Apparently combining chart_171_2 (sales volume of 1 billion yuan in December, growth rate of 0.02) and chart_171_3 (share of the high - price band), but it misinterprets the data - both the low - growth months and the high - price band perform weakly (e.g., weak growth in December and a decline in the high - end share). Joint promotion may be ineffective; the correct strategy should focus on high - growth months and the low - price band.",
+        "C": "Option 2 integrates the rising sales volume share of the low - price band in chart_171_3 and the slowdown in the growth of the online retail sales of physical goods in chart_171_1, and derives the need to focus on low - price products to cope with market changes. The strategy conforms to values (promoting inclusive consumption).",
+        "D": "Easy distractor: It does not rely on the data, but only on general observation (the market is healthy and does not need adjustment). However, the year - on - year growth rate in chart_171_1 is declining (0.07 in 2023 vs 0.12 in 2021), and chart_171_3 shows a shift in preferences towards the low - price band. Maintaining the status quo will ignore the risks of change.",
+        "E": "Option 1 combines the year - on - year growth of the total retail sales of consumer goods in chart_171_1 (positive growth in 2023 but slower than previous years), the high - growth months of Douyin's monthly sales in chart_171_2 (e.g., September and October), and the rising sales volume share of the lowest price band in chart_171_3, and derives a strategy that coordinates timing and price bands.",
+        "F": "Option 3 is based on the declining share of the mid - high - end price bands in chart_171_3 and chart_171_4 (but the decline in the mid - end is relatively small), the overall growth slowdown in chart_171_1, and the sales fluctuations in chart_171_2, and derives a portfolio optimization strategy, which is different from the single - dimension focus of Options 1 and 2.",
+        "G": "Easy distractor: It does not rely on the charts, but only on common sense (using high - end products to cope with the slowdown). However, chart_171_3 and chart_171_4 show that the share of the high - price band is declining (-1% and - 4%), and chart_171_1 shows that the overall growth is slowing down. Shifting to high - end products will exacerbate the mismatch between supply and demand."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     }
   ]

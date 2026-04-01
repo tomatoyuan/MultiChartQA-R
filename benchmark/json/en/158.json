@@ -86,6 +86,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "In the data on skin problems caused by sleep problems, the proportions of increased fine lines/wrinkles and decreased skin elasticity are the highest. In the data on common skin aging problems, the proportions of wrinkles/fine lines and loose skin are similar and the problems correspond, suggesting that sleep problems are the direct cause of these core problems. Joint reasoning is necessary because looking at the data on skin problems caused by sleep problems alone cannot confirm their relative importance among all problems.",
+        "B": "Wrong interpretation of the gap in this option: In chart_158_3, the proportion of people with skin pigmentation is 35%, while in chart_158_1, the proportion of people with melanin precipitation is 51%. The difference between 35% and 51% is significant (a 16% difference), but the option says 'almost the same', which is wrong. In fact, the proportion of skin pigmentation caused by sleep is relatively low.",
+        "C": "This option is based on dermatological common sense or general knowledge (such as lack of sleep damaging the skin barrier) and does not quote any chart data. It is an easily recognizable common - sense interference.",
+        "D": "Wrong numerical comparison in this option: In chart_158_3, the proportion of people with decreased skin moisture is 52%, while in chart_158_1, the proportion of people with moisture loss is 65%. Since 52% < 65%, but the option says 'far higher', which is wrong. It should be 'lower', which misleadingly implies that sleep has a greater impact on moisture loss.",
+        "E": "Wrong association in this option: Chart_158_3 shows that the proportion of people with acne and pimples caused by sleep is 33%, while chart_158_1 shows that acne and pimples are not listed among the aging problems (the highest proportion is moisture loss at 65%). The option fabricates a comparison of 'a relatively low proportion' and relies on common sense (young people are prone to acne), but there is no generational data support in the actual charts.",
+        "F": "It is necessary to combine the data on common skin aging problems and the data on skin problems caused by sleep problems. The data on common skin aging problems show that moisture loss, dullness, etc. are the problems with the highest proportions. The data on skin problems caused by sleep problems show that the proportions of increased fine lines/wrinkles and decreased skin elasticity are also the highest. The problem types are similar and the proportion levels are close, indicating a strong association between sleep problems and overall aging problems. This pattern cannot be inferred from a single chart; it is necessary to compare the problem types and proportion trends across charts.",
+        "G": "In the data on skin problems caused by sleep problems, the proportion of people with decreased skin moisture is relatively high. In the data on common skin aging problems, the proportion of people with moisture loss is the highest. The proportions are relatively high and the problem mechanisms are related, indicating that sleep problems may exacerbate aging by affecting skin moisture. It is necessary to combine the two charts to establish this causal relationship, as a single chart only shows independent data."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D",
+        "B"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Combine the data on the increase in working hours, the data on skin problems caused by sleep problems, and the data on the age distribution of the first perception of aging. The data on the increase in working hours show that the proportion of people with a 1 - 2 - hour increase in working hours is significant. The data on skin problems caused by sleep problems show that the proportions of excessive oil secretion and rough and dull skin are high. The data on the age distribution of the first perception of aging show that the proportion of post - 00s who perceive aging under the age of 20 is high, but the proportions of the corresponding problems in the data on common skin aging problems are medium. The early perception of the younger generations is associated with this, indicating that work pressure exacerbates specific problems, but the differences in reporting behavior among generations may magnify the contradictions. It is necessary to analyze the proportions and generational trends across charts.",
+        "B": "It is necessary to combine the data on the increase in working hours, the data on skin problems caused by sleep problems, and the data on the age distribution of the first perception of aging. The data on the increase in working hours show that the proportion of people with an increase in working hours within 1 hour is relatively high. The data on skin problems caused by sleep problems show that the proportion of people with increased fine lines/wrinkles caused by sleep problems is high. The data on the age distribution of the first perception of aging show that the proportion of post - 00s who perceive aging under the age of 20 is high, but the proportion of wrinkles in the data on common skin aging problems is relatively low, creating a contradiction. Joint reasoning shows that work pressure may indirectly accelerate aging through sleep, but the younger generations are more sensitive in reporting. A single chart cannot explain this conflict.",
+        "C": "This option generalizes work experience, does not quote specific charts, and relies on common sense (young employees neglect their health), but there is no direct data in the charts to support 'a decline in repair ability'.",
+        "D": "This option is based on physiological common sense (the association between cortisol and skin aging) and does not involve chart data. It is an easily recognizable common - sense interference.",
+        "E": "Wrong numerical value in this option: Chart_158_4 shows that the proportion of people with an increase in working hours of more than 2 hours is only 17%, far lower than the 55% (the highest proportion) of those with an increase within 1 hour, but the option says 'the highest', which is wrong. This misleadingly exaggerates the impact of extreme work pressure.",
+        "F": "It involves the data on the increase in working hours, the data on skin problems caused by sleep problems, and the data on the age distribution of the first perception of aging. The data on the increase in working hours show that the proportion of people with an increase in working hours of more than 2 hours is relatively low. The data on skin problems caused by sleep problems show that the proportions of poor complexion and decreased skin radiance are over 50%. The data on the age distribution of the first perception of aging show that the proportion of pre - 85s who perceive aging between 41 - 45 years old is low. A low proportion of increase in working hours corresponds to a high proportion of sleep problems, but the perception proportion of the older generations is low, indicating that the younger generations are more likely to be affected by work pressure on their skin because they are in a high - pressure age group. Joint reasoning is necessary because a single chart cannot associate the work pressure mechanism.",
+        "G": "Wrong association in this option: In chart_158_3, the proportion of people with excessive oil secretion is 59%, but in chart_158_2, the proportion of post - 95s who perceive aging between 26 - 30 years old is 70%, which is age - distribution data, not the proportion of a specific problem. The option forcibly associates them as 'apparently higher', but in fact, the proportion of oil secretion is the same among all people without generational segmentation, and 70% is the proportion of the perception age, which has nothing to do with the oil problem."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This option is based on biological common sense (aging intensifies with age) and does not quote chart data. It is an easily recognizable common - sense interference.",
+        "B": "Combine the data on the age distribution of the first perception of aging and the data on common skin aging problems. The data on the age distribution of the first perception of aging show that the proportion of post - 90s who perceive aging between 26 - 30 years old is high. The data on common skin aging problems show that the proportions of wrinkles and loose skin are similar. The peak of the perception proportion is similar to the problem proportion, and the age of 26 - 30 is the period when problems appear, indicating accelerated aging in a specific age group of the generation. Joint reasoning is necessary because the data on the age distribution of the first perception of aging alone cannot explain the severity of the problems.",
+        "C": "It is necessary to combine the data on the age distribution of the first perception of aging and the data on common skin aging problems. The data on the age distribution of the first perception of aging show that the proportion of post - 00s who perceive aging under the age of 20 is high. The data on common skin aging problems show that moisture loss and dullness are the problems with the highest proportions, indicating that the early perception of the younger generations is associated with high - incidence problems, possibly due to modern stress or skin - care habits. A single chart cannot establish this connection; it is necessary to compare the proportion trends across charts.",
+        "D": "This option relies on environmental common sense (pollution affects the skin), but there is no environmental data in the charts to support it. It is a generalized inference and not based on specific charts.",
+        "E": "It involves the data on the age distribution of the first perception of aging and the data on common skin aging problems. The data on the age distribution of the first perception of aging show that the proportion of pre - 85s who perceive aging between 35 - 40 years old is relatively low. The data on common skin aging problems show that the proportions of enlarged pores and melanin precipitation are high. The perception proportion is relatively low, but the problem proportion is high, implying that the older generations may report later or have a higher tolerance for problems, but the problems objectively exist. It is necessary to analyze across charts to discover this generational difference pattern.",
+        "F": "Wrong interpretation in this option: Chart_158_2 shows that the proportion of pre - 85s who perceive aging over the age of 45 is low (9%), but the proportion of loose skin in chart_158_1 is as high as 53%. The option wrongly implies that 'the problems are not serious'. In fact, the data only show a late perception age, and the severity of the problems has not decreased.",
+        "G": "Wrong association in this option: In chart_158_2, the 52% proportion of post - 00s who perceive aging under the age of 20 is age - distribution data, and the 65% proportion of moisture loss in chart_158_1 is the proportion of a problem, but there is no direct causal or matching evidence in the data. The option imposes a 'highly matched' relationship, but in fact, the perception proportion and the problem proportion belong to different dimensions (age vs. problem type), and 65% is the proportion of the overall problem, not specific to a generation."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor because it is not based on any chart data but makes a general statement about marketing strategies (such as 'strengthen social media promotion') without specifically guiding R & D resource allocation or prioritizing problems. It can be excluded by common sense as the question focuses on product development rather than marketing.",
+        "B": "Referring to the relatively low proportion of poor metabolic capacity in chart_158_1 and the moderate proportion of sleep - related problems such as uneven skin tone in chart_158_3, it is recommended to balance resource allocation to avoid neglecting niche needs.",
+        "C": "This is a hard distractor. On the surface, it uses the charts (poor metabolic capacity only accounts for 30% in chart_158_1 and uneven skin tone accounts for 40% in chart_158_3), but misinterprets the data: the proportion of poor metabolic capacity is the lowest (30%), not an 'emerging growth point' (there is no trend data in the chart), and the association with uneven skin tone is exaggerated (the proportion of uneven skin tone is moderate, but it is not a core pain point). The correct strategy should prioritize high - proportion problems (such as 65% for moisture loss).",
+        "D": "This is a hard distractor. On the surface, it quotes the charts (enlarged pores account for 57% in chart_158_1 and 54% in chart_158_3), but confuses the importance of problems: the proportions of moisture loss (65%) and increased fine lines/wrinkles (63%) are higher and should be prioritized. The distractor wrongly elevates a moderate - proportion problem (enlarged pores) to the core while ignoring higher - proportion problems.",
+        "E": "This is an easy distractor because it suggests 'equal resource allocation', ignoring the priority differences shown in the charts (e.g., 65% for moisture loss vs. 30% for poor metabolic capacity). Commonly, resource allocation should focus on high - demand areas rather than equalizing them.",
+        "F": "Combining the high proportion of dull skin and rough dull yellowish skin problems in chart_158_1 and the relatively high proportion of rough dull yellowish skin caused by sleep problems in chart_158_3, it highlights the value of developing multi - effect products.",
+        "G": "Based on the highest proportion of moisture loss/dry skin problems in chart_158_1 and the extremely high proportion of increased fine lines/wrinkles caused by sleep problems in chart_158_3 (described as 'over 60%'), it emphasizes that an integrated strategy can cover high - proportion pain points."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor because it focuses on the educational form ('digital platform') rather than content or timing, ignoring the generational age differences shown in the chart. Commonly, the choice of form should serve specific target groups rather than being an independent strategy.",
+        "B": "Based on the relatively high proportion of the first perception of aging in the under - 20 age group of post - 00s in chart_158_2 (described as'significantly higher proportion') and the highest proportion of moisture loss problems in chart_158_1, it emphasizes the necessity of early intervention.",
+        "C": "Referring to the moderate proportion of the first perception in the 35 - 40 age group of pre - 85s in chart_158_2 and the relatively high proportion of loose and sagging skin problems in chart_158_1, it is recommended not to neglect the older group in resource allocation, which conforms to the value of fairness.",
+        "D": "This is a hard distractor. On the surface, it quotes the chart (the proportion of post - 90s in the 26 - 30 age group is 60% in chart_158_2), but confuses the data: there is no data for post - 90s in the under - 20 age group (fictitious in the distractor), and a high proportion in the 26 - 30 age group should not lead to the conclusion of early intervention in the under - 20 age group. The distractor wrongly shifts the high - incidence period backward while ignoring the actual peak (e.g., 52% for post - 00s in the under - 20 age group).",
+        "E": "Combining the extremely high proportion of the first perception of aging in the 26 - 30 age group of post - 90s in chart_158_2 and the high proportion of dull skin and wrinkles problems in chart_158_1, it highlights the customized strategy for the peak period.",
+        "F": "This is an easy distractor because it is not based on the chart but makes a general health suggestion ('balanced diet and exercise') without a strategy for the timing or generations of the 'peak population with the first perception of aging'. Commonly, resources should focus on high - incidence periods rather than being evenly distributed.",
+        "G": "This is a hard distractor. On the surface, it uses the charts (the proportion of post - 00s over 45 years old is only 1% in chart_158_2 and moisture loss is 65% in chart_158_1), but misinterprets the data: the 1% proportion is extremely low and is not a reasonable priority intervention point; the distractor forcibly associates it with 'preventing future risks', but there is no future trend data in the chart. The correct strategy should cover high - proportion age groups (e.g., 52% for post - 00s in the under - 20 age group)."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Referring to the proportion distribution of increased working hours in chart_158_4 and the moderate proportion of problems such as decreased skin moisture in chart_158_3, it is recommended to implement auxiliary welfare strategies to ensure full coverage.",
+        "B": "Based on the obvious trend of increased working hours in chart_158_4 (most people reported an increase) and the extremely high proportion of increased fine lines/wrinkles and decreased skin elasticity caused by sleep problems in chart_158_3, it emphasizes the causal relationship of work mode reform.",
+        "C": "This is an easy distractor because it is not based on the chart but makes a general statement about environmental improvement ('improve lighting and ventilation') without specifically combining work mode adjustment or health intervention. Commonly, it is too broad to directly address skin problems.",
+        "D": "This is a hard distractor. On the surface, it uses the charts (acne and pimples account for 33% and skin sensitivity accounts for 25% in chart_158_3; increased working hours are common in chart_158_4), but wrongly prioritizes: the proportion of acne and pimples (33%) is much lower than that of increased fine lines (63%) and decreased skin elasticity (60%), and the distractor exaggerates its importance. The correct strategy should prioritize high - proportion problems.",
+        "E": "This is a hard distractor. On the surface, it quotes the charts (the proportion of an increase of more than 2 hours is 17% in chart_158_4 and decreased skin elasticity is 60% in chart_158_3), but confuses the data: the proportion of an increase of less than 1 hour is the highest (55%), not more than 2 hours; the distractor wrongly regards the low - proportion problem (17%) as the'most serious' while ignoring the more common problem (55%). The correct strategy should target the main stress sources.",
+        "F": "Combining the relatively high proportion of various skin problems caused by sleep problems in chart_158_3 and the common phenomenon of increased working hours in chart_158_4, it highlights the dual benefits of direct intervention.",
+        "G": "This is an easy distractor because it suggests 'organizing leisure activities' while ignoring the core association in the charts (increased working hours and skin problems caused by sleep problems). Commonly, activity organization is supplementary rather than a core work mode reform."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     }
   ]

@@ -84,6 +84,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combina la alta cantidad de estudiantes destacados de la Universidad de Tsinghua en especialidades de ingeniería (como Ingeniería de Información Electrónica y Ciencia y Tecnología de la Computación) del gráfico de distribución de especialidades preferidas por los campeones de las pruebas de ingreso con la tendencia de que la Universidad de Tsinghua admitió más estudiantes destacados en la mayoría de los años de 2011 a 2015 según el gráfico de comparación anual; al mismo tiempo, relaciona la ventaja absoluta de la Universidad de Pekín en Administración de Empresas y Economía del gráfico de distribución de especialidades con el aumento repentino en las admisiones de la Universidad de Pekín en 2014 del gráfico de comparación anual. Esto requiere razonamiento transversal, ya que un solo gráfico no puede explicar cómo las ventajas profesionales afectan las fluctuaciones anuales de admisión.",
+        "B": "Depende de los datos de especialidades exclusivas como Ciencias de la Vida de la Universidad de Pekín y Arquitectura de la Universidad de Tsinghua del gráfico de distribución de especialidades preferidas, y los analiza conjuntamente con el aumento en las admisiones de la Universidad de Pekín en 2014 y la estabilidad de la Universidad de Tsinghua en 2015 del gráfico de comparación anual. Esto revela cómo la exclusividad profesional contribuye al atractivo de las universidades, requiriendo ambos gráficos para inferirlo.",
+        "C": "Esta opción se basa en conocimiento geográfico general, no en datos de los gráficos (como distribución de especialidades o comparación de admisiones), ignorando la evidencia de complementariedad de ventajas profesionales en los gráficos específicos.",
+        "D": "Extrae la complementariedad en la distribución profesional de ambas universidades (Pekín en gestión, Tsinghua en ingeniería) del gráfico de distribución de especialidades preferidas, y la contrasta con las tendencias de admisión del gráfico de comparación anual (como la alta admisión de Tsinghua en 2013 vs. la baja de Pekín), mostrando cómo la diferenciación amortigua la competencia. El razonamiento requiere considerar tanto la distribución profesional como la serie temporal de admisiones.",
+        "E": "Interpretación errónea de datos anuales: chart_16_1 muestra que en 2013 la Universidad de Tsinghua admitió 50 y la Universidad de Pekín 24 (Pekín más bajo), pero esta opción afirma 'aumento sincronizado', malinterpretando el orden y la brecha, ignorando las fluctuaciones asincrónicas reales.",
+        "F": "Interpretación errónea de datos profesionales: chart_16_2 muestra 284 estudiantes en Administración de Empresas en la Universidad de Pekín y 0 en la Universidad de Tsinghua, pero esta opción afirma 'número de admisiones comparable', malinterpretando la brecha numérica y exagerando la presencia de Tsinghua.",
+        "G": "Esta es una declaración general de conocimiento común (como que los intereses personales influyen en las decisiones), que no utiliza los datos de admisión profesional o la comparación anual de los gráficos, y no puede explicar los patrones de complementariedad."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -106,6 +123,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Depende de los datos exclusivos del Programa Yuanpei y Ciencias de la Vida de la Universidad de Pekín del gráfico de preferencias profesionales de campeones 2000-2015, y los contrasta con el crecimiento de Pekín en 2014 del gráfico de admisiones 2011-2015; al mismo tiempo, relaciona la ventaja de la Universidad de Tsinghua en Ciencia y Tecnología de la Computación del gráfico de preferencias con la estabilidad de Tsinghua en admisiones, infiriendo el impacto de especialidades exclusivas en años específicos. Un solo gráfico no puede explicar independientemente el conflicto de 2014.",
+        "B": "Esta es una suposición de conocimiento común (como cambios en políticas de admisión), sin información relevante en los gráficos, ignorando la evidencia directa de los datos de preferencias profesionales.",
+        "C": "Esta opción se basa en conocimiento económico general (como el impacto del mercado laboral), no en datos de los gráficos, y no puede explicar concretamente el fenómeno anómalo de 2014.",
+        "D": "Interpretación errónea de datos profesionales: chart_16_2 muestra 0 estudiantes en Ingeniería de Información Electrónica en la Universidad de Pekín y 86 en la Universidad de Tsinghua, pero esta opción afirma 'aumento repentino de Pekín', malinterpretando los valores (Pekín sin admisiones) y atribuyendo erróneamente.",
+        "E": "Extrae la exclusividad de Pekín en varias especialidades (como Derecho) y la ventaja de Tsinghua en Automatización del gráfico de preferencias profesionales 2000-2015, y los analiza conjuntamente con el conflicto de 2014 del gráfico de admisiones (aumento de Pekín, ligera disminución de Tsinghua), explicando que los cambios en intereses profesionales pueden causar anomalías. El razonamiento requiere sintetizar distribución profesional y tendencias de admisión.",
+        "F": "Interpretación errónea de datos anuales: chart_16_1 muestra que la Universidad de Tsinghua admitió 42 en 2014 (frente a 50 en 2013, una disminución), pero 43 en 2012 y 43 en 2015, generalmente estable; esta opción afirma 'disminución significativa', exagerando la brecha e ignorando la descripción 'relativamente estable'.",
+        "G": "Combina el crecimiento anómalo de admisiones de la Universidad de Pekín en 2014 del gráfico de admisiones 2011-2015 con la ventaja absoluta de la Universidad de Pekín en Administración de Empresas y Economía del gráfico de preferencias profesionales 2000-2015, infiriendo que las especialidades populares pueden impulsar anomalías anuales. Simultáneamente, relaciona la ventaja de la Universidad de Tsinghua en especialidades de ingeniería (como Ingeniería de Información Electrónica) con la estabilidad en las admisiones de Tsinghua, lo que requiere comparación transversal para explicar por qué Tsinghua no mostró fluctuaciones similares."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -128,6 +162,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Parte de la exclusividad del Programa Yuanpei de la Universidad de Pekín del gráfico de distribución de especialidades preferidas 2000-2015, y la contrasta con el pico de admisiones de Tsinghua en 2013 y la superación de Pekín en 2014 del gráfico de tendencias de admisiones 2011-2015, infiriendo cómo las especialidades distintivas desvían las intenciones de aplicación de los campeones. Los datos de admisión por sí solos no pueden explicar esta relación competitiva implícita.",
+        "B": "Combina la complementariedad en la distribución profesional del gráfico de especialidades preferidas 2000-2015 (como Administración de Empresas de Pekín vs. Arquitectura de Tsinghua) con las tendencias de admisión 2011-2015, específicamente la disminución de Pekín y la estabilidad de Tsinghua en 2015, infiriendo un retorno del interés en especialidades de ingeniería. El razonamiento depende del rango temporal y los datos profesionales de ambos gráficos.",
+        "C": "Interpretación errónea de tendencias: chart_16_1 muestra que la Universidad de Tsinghua admitió 43 en 2015 (similar a 42 en 2014), estable; y chart_16_2 muestra la ventaja de Tsinghua en especialidades de ingeniería (como Ingeniería de Información Electrónica); esta opción afirma 'disminución de Tsinghua debido a menor interés', malinterpretando la estabilidad numérica y el atractivo profesional.",
+        "D": "Esta es una declaración general de conocimiento común (como la prioridad de la reputación), que ignora las asociaciones implícitas entre la distribución profesional y los números de admisión anual en los gráficos.",
+        "E": "Esta opción se basa en conocimiento social general (como el impacto de eventos económicos), no en datos de los gráficos, y no puede revelar conexiones específicas entre preferencias profesionales y tendencias de admisión.",
+        "F": "Vincula implícitamente la alta cantidad de campeones en Administración de Empresas de la Universidad de Pekín del gráfico de distribución de especialidades 2000-2015 con el aumento repentino de admisiones de Pekín en 2014 del gráfico de tendencias de admisiones 2011-2015, combinando simultáneamente la ventaja de la Universidad de Tsinghua en Ingeniería de Información Electrónica con la estabilidad de las admisiones de Tsinghua (como en 2015). Esto revela cómo las preferencias profesionales afectan dinámicamente la competitividad institucional, requiriendo razonamiento transversal entre tendencias y distribución.",
+        "G": "Interpretación errónea de datos profesionales: chart_16_2 muestra 63 estudiantes en Ciencias de la Vida en la Universidad de Pekín y 0 en la Universidad de Tsinghua, pero esta opción afirma 'Tsinghua más alto', malinterpretando valores y orden, invirtiendo completamente la ventaja."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -150,6 +201,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Aparentemente utiliza la información del gráfico (la Universidad de Pekín admitió 48 estudiantes en 2014), pero interpreta erróneamente la tendencia y la distribución de preferencias de carreras. El gráfico chart_16_2 muestra que la Universidad de Pekín tiene 0 campeones de las pruebas de ingreso a la universidad en carreras de ingeniería (como Ingeniería de Información Electrónica), y el pico de admisiones en 2014 podría estar relacionado con carreras de ciencias sociales (como Administración de Empresas). La sugerencia de invertir en carreras de ingeniería contradice los datos y puede llevar a una asignación errónea de recursos.",
+        "B": "La opción A se refiere a la dominancia de la Universidad de Pekín en carreras de ciencias sociales como Administración de Empresas y Economía en el gráfico chart_16_2 (con una proporción extremadamente alta), y el aumento repentino en el número de mejores estudiantes provinciales admitidos por la Universidad de Pekín en 2014 en el gráfico chart_16_1 (saltando desde un punto bajo). Esto sugiere que la atracción de las carreras podría haber impulsado el pico de admisiones.",
+        "C": "La opción B se refiere a la ventaja absoluta de la Universidad de Tsinghua en carreras de ingeniería como Ingeniería de Información Electrónica y Ciencia y Tecnología de la Computación en el gráfico chart_16_2 (la Universidad de Tsinghua tiene un número alto de admisiones y la Universidad de Pekín tiene 0), y el hecho de que el número de admisiones de la Universidad de Tsinghua sea en general estable pero alcance un pico en 2013 en el gráfico chart_16_1, lo que indica que las carreras de ingeniería son la competitividad central de Tsinghua.",
+        "D": "La opción C se refiere a las fluctuaciones anuales en el número de admisiones de las dos universidades en el gráfico chart_16_1 (por ejemplo, la diferencia entre el punto bajo de Pekín en 2013 y el punto alto en 2014), y combina los datos de preferencias de carreras del gráfico chart_16_2 para inferir que se necesita flexibilidad en las estrategias a través de la interacción de datos.",
+        "E": "Esta es una opción de distracción fácil: Se basa en conocimientos generales de educación (por ejemplo, que las becas y la construcción de instalaciones pueden atraer a los estudiantes), pero no combina los datos de preferencias de carreras o tendencias de admisiones en los gráficos. La expresión es amplia y sin indicaciones de acción específicas, y no puede abordar los problemas de fluctuación de los mejores estudiantes o en los gráficos.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente utiliza la información del gráfico (la Universidad de Tsinghua admitió 50 estudiantes en 2013 y descendió a 42 en 2014), pero confunde la tendencia y la atracción de las carreras. El gráfico chart_16_2 muestra que las carreras de ingeniería (por ejemplo, 86 en Ingeniería de Información Electrónica) son la principal ventaja de Tsinghua, y el número de admisiones es en general estable. Reducir la inversión debilitará la competitividad y atribuye erróneamente la fluctuación a corto plazo a la saturación de las carreras.",
+        "G": "Esta es una opción de distracción fácil: Se basa en estrategias de marketing generales (por ejemplo, la promoción de la marca), no cita datos de los gráficos, ignora las fluctuaciones de las tendencias de admisiones y la distribución de preferencias de carreras, no puede resolver problemas específicos y puede ser fácilmente descartada por conocimientos comunes."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -172,6 +240,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Se basa en el principio de equidad, pero no considera la distribución de preferencias de carreras en los gráficos (por ejemplo, Pekín es fuerte en ciencias sociales y Tsinghua en ingeniería). La expresión es amplia y sin enfoque específico, y no puede optimizar la atracción para los mejores estudiantes.",
+        "B": "La opción B se refiere al buen desempeño de la Universidad de Tsinghua en carreras de ingeniería como Arquitectura y Automatización en el gráfico chart_16_2 (el número de admisiones de Tsinghua es significativo y la Universidad de Pekín tiene 0), y el hecho de que el número de admisiones de la Universidad de Tsinghua sea en general estable (excepto el pico en 2013) en el gráfico chart_16_1, lo que indica que las carreras de ingeniería son una dirección de inversión confiable.",
+        "C": "Esta es una opción de distracción difícil: Aparentemente utiliza la información del gráfico (83 en el Programa Yuanpei vs. 284 en Administración de Empresas), pero interpreta erróneamente los datos y la tendencia. El gráfico chart_16_2 muestra que el Programa Yuanpei es una carrera característica de la Universidad de Pekín y atrae a los campeones, y el pico de admisiones en 2014 podría estar relacionado con ello. Reducir la inversión reducirá la singularidad y atribuye erróneamente la comparación de números a la prioridad.",
+        "D": "Esta es una opción de distracción fácil: Se basa en la tendencia de educación globalizada, pero no cita datos de tendencias de admisiones o preferencias de carreras. La expresión es amplia y sin acciones específicas, y no puede estar directamente relacionada con las características de distribución en los gráficos.",
+        "E": "La opción C se refiere a la concentración de la distribución de carreras en el gráfico chart_16_2 (por ejemplo, Pekín tiende a ciencias sociales y Tsinghua a ingeniería), y combina las diferencias en las tendencias de admisiones de las dos universidades en el gráfico chart_16_1 (Pekín tiene fluctuaciones grandes y Tsinghua es estable) para inferir que el equilibrio de recursos puede reducir el riesgo.",
+        "F": "La opción A se refiere al alto porcentaje de la Universidad de Pekín en carreras como Economía y Derecho en el gráfico chart_16_2 (un número extremadamente alto de admisiones), y el pico en el número de admisiones de la Universidad de Pekín en 2014 en el gráfico chart_16_1 (un aumento considerable desde un punto bajo anterior), lo que permite inferir que la atracción de las carreras es el factor clave que impulsa el crecimiento de las admisiones.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente utiliza la información del gráfico (242 en Economía de Pekín), pero confunde la ventaja de las universidades. El gráfico chart_16_2 muestra que la Universidad de Tsinghua tiene 0 campeones en carreras de ciencias sociales (por ejemplo, Economía), mientras que Tsinghua es fuerte en el campo de la ingeniería. Invertir en ciencias sociales es ineficaz porque Tsinghua no tiene atractivo básico, y se ignora la estabilidad de las tendencias de admisiones."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -194,6 +279,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Se basa en la idea de optimización técnica, pero no cita datos de preferencias de carreras o tendencias históricas. La expresión es demasiado generalizada y no puede abordar los problemas de competitividad entre los mejores estudiantes o la adaptación al futuro.",
+        "B": "La opción B se refiere al dominio de la Universidad de Tsinghua en carreras de ingeniería (por ejemplo, Ingeniería de Información Electrónica y Ciencia y Tecnología de la Computación) y la ventaja de la Universidad de Pekín en carreras de ciencias sociales en el gráfico chart_16_2, y combina el hecho de que el número de admisiones de la Universidad de Tsinghua sea más estable pero el de la Universidad de Pekín tenga grandes fluctuaciones en el gráfico chart_16_1, y sugiere que Tsinghua utilice su estabilidad para expandirse a nuevos campos.",
+        "C": "La opción C se refiere a los cambios anuales en las tendencias de admisiones en el gráfico chart_16_1 (por ejemplo, el descenso de Pekín en 2015 después del pico en 2014), y los datos a largo plazo de la distribución de carreras en el gráfico chart_16_2 (de 2000 a 2015), y deduce que se necesitan estrategias prospectivas para hacer frente a la evolución de las preferencias.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente utiliza la información del gráfico (el pico de admisiones de Pekín en 2014 con 48 personas y 284 en Administración de Empresas), pero generaliza erróneamente la tendencia. El gráfico chart_16_1 muestra que las admisiones de Pekín fluctúan mucho (por ejemplo, 24 personas en 2013), y Tsinghua tiene una ventaja única en el campo de la ingeniería. Imitar el modelo ignora las diferencias entre las universidades y puede ser ineficaz y aumentar el riesgo.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente utiliza la información del gráfico (32 en la Clase de Ciencias Básicas de Matemáticas y Física vs. 86 en Ingeniería de Información Electrónica), pero interpreta erróneamente la tendencia y la distribución. El gráfico chart_16_1 muestra que las admisiones de Tsinghua son en general estables, y el gráfico chart_16_2 muestra que las ciencias básicas son un campo de ventaja de Tsinghua. Eliminarla debilitará la competitividad y atribuye erróneamente la comparación de valores a una señal de declive.",
+        "F": "La opción A se refiere al porcentaje absoluto de la Universidad de Pekín en carreras como Economía y Derecho en el gráfico chart_16_2 (un número extremadamente alto de admisiones), y el pico en el número de admisiones de la Universidad de Pekín en 2014 en el gráfico chart_16_1 (un aumento considerable desde un punto bajo anterior), lo que permite inferir que la atracción de las carreras es el factor clave que impulsa el crecimiento de las admisiones.",
+        "G": "Esta es una opción de distracción fácil: Se basa en conocimientos comunes de cooperación educativa, pero no combina las tendencias históricas o la distribución de carreras en los gráficos. La expresión es amplia y sin medidas específicas, y no puede manejar las fluctuaciones de admisiones o los cambios en las preferencias de carreras."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     }
   ]

@@ -87,6 +87,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente los valores: la proporción real del equipo de escritorio es solo del 8.24% (chart_5_1), mucho menor que el 50%, y la tendencia de búsqueda (chart_5_2) muestra fluctuaciones (por ejemplo, de 430000 el 15 de febrero a 560000 el 21 de febrero), no es estable.",
+        "B": "Esta opción se basa en un error de conocimiento común: la proporción real del dispositivo móvil es tan alta como el 91.66% (chart_5_1). En términos de conocimiento común, la conveniencia del dispositivo móvil debería aumentar la actividad de búsqueda, en lugar de causar una disminución. La opción de distracción inventa 'baja proporción' y 'disminución', sin relación con el gráfico.",
+        "C": "Esta opción asocia erróneamente los datos: la proporción del dispositivo móvil es la distribución general (chart_5_1), no cambia con la fecha; mientras que el pico de 560000 el 21 de febrero (chart_5_2) es la tendencia de toda la industria, no se puede demostrar que esté impulsado por el equipo de escritorio (en realidad, la proporción del equipo de escritorio es extremadamente baja).",
+        "D": "Combinando la distribución de dispositivos de búsqueda en la industria de la leche en polvo (alta proporción del dispositivo móvil) y la tendencia de atención de búsqueda de toda la industria (picos de atención de búsqueda), se infiere que la alta proporción del dispositivo móvil hace que la cantidad de búsqueda sea fácilmente afectada por el comportamiento de los usuarios (como el uso por la noche) y aparezcan picos.",
+        "E": "Dependiendo de la distribución de dispositivos de búsqueda en la industria de la leche en polvo (proporción de dispositivos) y la tendencia de atención de búsqueda de toda la industria (tendencia de fechas), es necesario analizar de manera transversal cómo la conveniencia del dispositivo móvil contribuye a los picos nocturnos de los días laborables.",
+        "F": "Comparando la distribución de dispositivos de búsqueda en la industria de la leche en polvo (baja proporción del equipo de escritorio) y la tendencia de atención de búsqueda de toda la industria (baja atención y tendencia plana en algunas fechas), se muestra que la dominancia del dispositivo móvil puede aumentar la inestabilidad de la cantidad de búsqueda, en lugar de la función de amortiguamiento del equipo de escritorio.",
+        "G": "Esta opción compara erróneamente los valores: la atención el 1 de febrero es de 150000 (chart_5_2), menor que muchas fechas posteriores (por ejemplo, 560000 el 21 de febrero). La alta proporción del dispositivo móvil debería promover los picos posteriores, en lugar de que el pico más alto esté al principio del mes."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción asocia erróneamente los datos: el valor de 40000 el 25 de febrero de la leche en polvo para mujeres embarazadas (chart_5_4) es un valor diario, mientras que la proporción de atención por nivel de ciudad es general (chart_5_3), no se puede hacer coincidir directamente; además, la proporción de las ciudades de primer nivel es del 33%, que es dominante, no debería ser 'invalida'.",
+        "B": "Esta opción se basa en un error de conocimiento común y valores: la proporción real de las ciudades de primer nivel es del 33%, la más alta (chart_5_3). En términos de conocimiento común, la demanda de las ciudades de nivel superior es más fuerte; la opción de distracción inventa 'baja proporción del 15%' y no utiliza los datos del gráfico, solo generaliza el impacto de las ciudades de nivel inferior.",
+        "C": "Dependiendo de la proporción de atención por nivel de ciudad (datos de proporción de ciudades repetidos) y la tendencia de búsqueda por categoría (diferentes tendencias por categoría), es necesario inferir de manera transversal que la forma de reportar los datos causa un conflicto aparente.",
+        "D": "Comparando la proporción de atención por nivel de ciudad (valor estático de la proporción de ciudades) y la tendencia de búsqueda por categoría (brusca disminución de la búsqueda de la leche en polvo para mujeres embarazadas), se muestra que el cambio dinámico de la categoría no coincide con la proporción estática de las ciudades.",
+        "E": "Esta opción es un error de conocimiento común: las actividades de promoción generalmente aumentan la cantidad de búsqueda (por ejemplo, la brusca aumento de la leche en polvo para niños a 4000 el 19 de febrero, chart_5_4), pero la opción de distracción niega este conocimiento común y no se basa en el gráfico.",
+        "F": "Esta opción interpreta erróneamente la clasificación: la proporción real de las ciudades de cuarto nivel es solo del 15% (chart_5_3), no es la más alta; el valor de 2900 el 19 de febrero de la leche en polvo para estudiantes (chart_5_4) no es el pico (en realidad, el valor de la leche en polvo para bebés es de 2500, más alto), y no hay evidencia directa con el nivel de ciudad.",
+        "G": "Combinando la proporción de atención por nivel de ciudad (alta proporción de las ciudades de primer nivel) y la tendencia de búsqueda por categoría (brusca aumento de la búsqueda de la leche en polvo para niños a su pico), se infiere que eventos en ciudades de nivel inferior (como actividades regionales) causan un conflicto entre la tendencia de la categoría y la proporción de las ciudades."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Dependiendo de la tendencia de búsqueda por categoría (tendencia estable de la leche en polvo para bebés) y la distribución de dispositivos de búsqueda (baja proporción del equipo de escritorio), y comparando la proporción de atención por nivel de ciudad (proporción combinada de ciudades de segundo/tercer nivel), se infiere que los usuarios de las ciudades de nivel inferior pueden depender más del dispositivo móvil.",
+        "B": "Esta opción es un error de valores y conocimiento común: el valor real de la leche en polvo para estudiantes es bajo (por ejemplo, 2500 el 1 de febrero, chart_5_4), mucho menor que 10000; la proporción del dispositivo móvil es tan alta como el 91.66% (chart_5_1). En términos de conocimiento común, las ciudades de nivel inferior dependen más del dispositivo móvil, pero la opción de distracción inventa 'cantidad de búsqueda más alta' y 'baja proporción del dispositivo móvil'.",
+        "C": "Esta opción es un error de conocimiento común: la distribución de dispositivos (por ejemplo, el dominio del dispositivo móvil, chart_5_1) y el nivel de ciudad (por ejemplo, el 33% de las ciudades de primer nivel, chart_5_3) deberían afectar el comportamiento de los usuarios, pero la opción de distracción generaliza 'sin diferencia' y no utiliza los datos del gráfico.",
+        "D": "Combinando la tendencia de búsqueda por categoría (sin picos significativos de la leche en polvo para estudiantes) y la proporción de atención por nivel de ciudad (proporción de las ciudades de cuarto nivel), y asociando la distribución de dispositivos de búsqueda (distribución de dispositivos), es necesario analizar de manera transversal la interacción entre la categoría, la ciudad y el dispositivo.",
+        "E": "Esta opción interpreta erróneamente los valores: el valor de la leche en polvo para bebés es relativamente estable pero tiene fluctuaciones (por ejemplo, 2300 el 21 de febrero, chart_5_4), la proporción real del equipo de escritorio es solo del 8.24% (chart_5_1), no más del 50%; además, la proporción de las ciudades de nivel superior es alta, no debería depender solo del equipo de escritorio.",
+        "F": "Combinando la tendencia de búsqueda por categoría (pico de la leche en polvo para mujeres embarazadas) y la distribución de dispositivos de búsqueda (alta proporción del dispositivo móvil), e implícitamente la proporción de atención por nivel de ciudad (proporción más alta de las ciudades de primer nivel), se infiere que las categorías de alta atención se coordinan con el dispositivo/ciudad.",
+        "G": "Esta opción asocia erróneamente los datos: la leche en polvo para mujeres embarazadas tiene grandes fluctuaciones (por ejemplo, 40000 el 25 de febrero, chart_5_4), la proporción del dispositivo móvil es alta (chart_5_1), pero la proporción real de las ciudades de tercer nivel es del 22%, no es la más alta (el 33% de las ciudades de primer nivel, chart_5_3), no se puede 'explicar directamente' las fluctuaciones."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -152,6 +203,22 @@
       "label": [
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza chart_5_2 (tendencia de atención de búsqueda), pero interpreta erróneamente el significado de la tendencia. El chart_5_2 muestra que la atención el 27 de febrero fue de 340,000 (punto bajo), pero la opción de distracción sugiere aumentar la inversión en un período de bajas, con la razón de que 'hay menos competencia' (el gráfico no muestra datos de competencia). En realidad, una baja atención puede indicar un bajo interés de los usuarios, y la eficiencia de la inversión sería peor, lo que contradice el objetivo de maximizar la exposición.",
+        "B": "Esta es una opción de distracción fácil: igualmente no se basa en los gráficos, y solo presenta sugerencias generales de optimización de la experiencia del usuario (como 'optimizar el diseño visual'). Ignora el núcleo del marketing digital (como los canales y momentos de la publicidad), y no puede maximizar directamente la exposición o la participación, lo que es un error común en la industria.",
+        "C": "Esta es una opción de distracción fácil: no se basa en ningún dato de los gráficos, sino en conocimientos generales de marketing (como 'aumentar el presupuesto para mejorar el nivel de conocimiento'). Esta sugerencia carece de orientación de acciones específicas (como no especificar el dispositivo o el momento), y es fácil de descartar por conocimiento general, ya que no optimiza la asignación de recursos en función del comportamiento de búsqueda o la tendencia.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza chart_5_1 (distribución de dispositivos de búsqueda), pero interpreta erróneamente la relación de los valores. El chart_5_1 muestra que la proporción de búsquedas desde el móvil es del 91.66%, mucho más alta que la del ordenador (8.24%), pero la opción de distracción sugiere priorizar el ordenador, con la razón de que sus usuarios son'más concentrados' (el gráfico no respalda esta inferencia). Esto crea confusión, ya que se basa en las propiedades del dispositivo, pero ignora la tendencia dominante.",
+        "E": "La opción 1 combina chart_5_1 (la proporción de búsquedas desde el móvil es extremadamente alta) y chart_5_2 (la atención de búsqueda alcanzó un pico en una fecha específica, como el 21 de febrero). Razonamiento: el móvil es el dispositivo de búsqueda dominante, y el día de pico de búsqueda representa un período de alta actividad de los usuarios. Priorizar el móvil puede maximizar la exposición.",
+        "F": "La opción 2 combina chart_5_2 (la tendencia ascendente de la atención de búsqueda) y chart_5_1 (el móvil es el dominante). Razonamiento: invertir más recursos en un período de aumento de la búsqueda puede capturar oportunidades de crecimiento, y la coincidencia del dispositivo garantiza la eficiencia."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -172,6 +239,22 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: no se basa en los datos de los gráficos, sino en conocimientos generales de responsabilidad social empresarial (como 'distribuir uniformemente los recursos para mejorar la equidad'). Ignora la distribución de atención por nivel de ciudad (chart_5_3), y no puede mejorar de manera específica la penetración del mercado. Es fácil de descartar por conocimiento general, ya que no cuantifica las diferencias regionales.",
+        "B": "Esta es una opción de distracción difícil: aparentemente utiliza chart_5_2 (tendencia de búsqueda), pero interpreta erróneamente el significado de la tendencia. El chart_5_2 muestra que el pico de atención el 21 de febrero fue de 560,000, pero la opción de distracción sugiere reducir la inversión, con la razón de 'evitar la competencia' (el gráfico no muestra datos de competencia). En realidad, en el día de pico, el interés de los usuarios es alto, y es el mejor momento para la inversión. Reducir los recursos reducirá la penetración del mercado.",
+        "C": "La opción 2 combina chart_5_3 (la atención en las ciudades de tercer nivel tiene la segunda proporción más alta) y chart_5_2 (la tendencia de búsqueda fluctúa). Razonamiento: las ciudades de tercer nivel tienen una proporción alta pero una tendencia inestable, lo que puede representar un mercado no saturado. Aumentar la inversión puede capturar oportunidades en las fluctuaciones.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza chart_5_3 (atención por nivel de ciudad) y chart_5_2 (tendencia de búsqueda), pero interpreta erróneamente la relación de los valores. El chart_5_3 muestra que la proporción de atención en las ciudades de segundo nivel es solo del 17%, mucho más baja que la de las ciudades de primer nivel (33%) y de tercer nivel (22%), pero la opción de distracción la interpreta erróneamente como 'un potencial subestimado' (el gráfico no proporciona datos de potencial). La fluctuación en chart_5_2 se extiende erróneamente como evidencia de demanda en las ciudades de segundo nivel, creando confusión.",
+        "E": "La opción 1 combina chart_5_3 (la proporción de atención en las ciudades de primer nivel es la más alta) y chart_5_2 (la tendencia general de búsqueda tiene días de alta atención, como el 15 de febrero). Razonamiento: la alta proporción de atención en las ciudades de primer nivel se combina con la tendencia general de pico, y la inversión puede maximizar el retorno.",
+        "F": "Esta es una opción de distracción fácil: no se basa en los gráficos, y presenta una sugerencia general de concentración de recursos (como 'reducir las categorías de baja búsqueda'). No especifica qué categoría o cómo equilibrar las oportunidades, y el gráfico no respalda la inferencia de 'áreas de alto potencial', lo que es un error lógico sin base de datos (es factible en términos generales, pero no está respaldado por los gráficos)."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -192,6 +275,22 @@
       "label": [
         "A",
         "B"
+      ],
+      "cot": {
+        "A": "La opción 2 combina chart_5_4 (la leche en polvo para niños tiene un pico anormal el 19 de febrero) y chart_5_2 (la tendencia general fluctúa). Razonamiento: el pico temporal de la leche en polvo para niños representa una ventana de oportunidad. Combinado con la fluctuación de la tendencia general, la estrategia a corto plazo puede utilizar eficientemente esta oportunidad.",
+        "B": "La opción 1 combina chart_5_4 (la cantidad de búsqueda de la leche en polvo para mujeres embarazadas es significativamente más alta que la de la leche en polvo para niños, bebés y estudiantes) y chart_5_2 (la tendencia general de búsqueda tiene días de pico). Razonamiento: la alta atención de la leche en polvo para mujeres embarazadas se superpone con el pico general, y la inclinación de recursos puede maximizar la conversión.",
+        "C": "Esta es una opción de distracción fácil: no se basa en los datos de los gráficos, sino en principios generales de marketing (como 'promover el crecimiento con actividades unificadas'). Ignora las diferencias en las tendencias de búsqueda por categoría (chart_5_4), y no puede equilibrar objetivos a corto y largo plazo. Es fácil de descartar por conocimiento general, ya que no optimiza la asignación de recursos en función de categorías específicas.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza chart_5_4 (atención de búsqueda por categoría) y chart_5_2 (tendencia general), pero interpreta erróneamente la relación de los valores. El chart_5_4 muestra que la cantidad de búsqueda de la leche en polvo para estudiantes es baja (por ejemplo, 2500 el 1 de febrero frente a 15000 de la leche en polvo para mujeres embarazadas), y aunque la tendencia es estable, la cantidad es pequeña. La opción de distracción la interpreta erróneamente como 'adecuada para el crecimiento a largo plazo' (el gráfico no demuestra esta relación), y ignora la alta cantidad de búsqueda de la leche en polvo para mujeres embarazadas (por ejemplo, 40,000 el 25 de febrero).",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza chart_5_4 (atención de búsqueda por categoría), pero interpreta erróneamente el punto de la tendencia. El chart_5_4 muestra que la atención de la leche en polvo para bebés el 1 de febrero fue de 2000 (punto bajo), y la opción de distracción sugiere aumentar la inversión en este 'día de inicio', con la razón de 'capturar el interés temprano' (el gráfico no muestra el significado del día de inicio). En realidad, la eficiencia en un día de baja atención es baja, lo que contradice la captura de oportunidades a corto plazo (la opción correcta B se dirige al pico de 4000 de la leche en polvo para niños).",
+        "F": "Esta es una opción de distracción fácil: no se basa en los gráficos, y presenta una sugerencia general de concentración de recursos (como'reducir las categorías de baja búsqueda'). No especifica qué categoría o cómo equilibrar las oportunidades, y el gráfico no respalda la inferencia de 'áreas de alto potencial', lo que es un error común sin base de datos."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     }
   ]

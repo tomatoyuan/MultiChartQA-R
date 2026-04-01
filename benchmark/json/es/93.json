@@ -88,6 +88,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误解读chart_93_1的数值。实际数据中，2021年6月天猫国际成交额指数为900000000，远低于天猫+淘宝的2200000000（天猫+淘宝更高），但干扰项反转为“天猫国际更高”，制造数值理解错误。",
+        "B": "这是一个Easy干扰项：它基于电商常识（促销活动带动销量），不依赖任何图表数据，而是泛泛而谈市场机制。",
+        "C": "联合显示2021年11月天猫国际成交额指数达峰值和高消费人群占比远高于天猫+淘宝的图表，推理出高消费群体在高峰期的放大效应。",
+        "D": "联合新锐白领和Generación Z人群占比合计和11月成交额峰值的图表，推理出年轻活跃人群在促销期（如双11）的集中消费行为。所有选项需跨图分析人群特征与成交额趋势的规律，无法单图推断。",
+        "E": "这是一个Easy干扰项：它依赖行业常识（关税政策影响价格），但未在图表中提及，因此无法从数据中验证。",
+        "F": "联合本科以上学历人群占比和天猫国际件单价同比增长高于天猫+淘宝的图表，推理出高学历人群可能更愿意为高价产品买单，推高成交额。",
+        "G": "这是一个Hard干扰项：错误解读chart_93_3的人群占比数据。实际天猫国际高消费人群占比为40%，高于天猫+淘宝的20%，但干扰项反转为“天猫国际更低”，扭曲了人群特征对高峰期表现的影响。"
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误解读chart_93_3的数据。实际2021年天猫国际高收入人群占比为50%（未提供2022年数据），但干扰项虚构“提升至60%”，并错误关联chart_93_1的7月低成交额（1100000000），制造数据误读。",
+        "B": "这是一个Hard干扰项：错误解读chart_93_3的人群占比变化。实际2021年天猫国际一二线人群占比为65%（无2022年数据），但干扰项反转为“下降至55%”，并错误链接到2022年同比增长，制造排序错误。",
+        "C": "联合2022年3月件单价同比增长高于天猫+淘宝和2021年成交额从6月高峰跌至7月低点的图表，推理出件单价增长贡献2022年增长，但2021年波动抑制年增长。",
+        "D": "这是一个Easy干扰项：它基于宏观经济常识（供应链和消费信心），未引用图表数据，属于泛泛而谈的外部因素。",
+        "E": "联合2021年成交额指数波动大，如7月降至低点且年增长仅+12.3%和一二线人群占比、高收入人群占比的图表，推理出2021年低点拉低年增长，而2022年增长可能源自人群消费力提升。",
+        "F": "联合30岁以下人群占比和2022年3月成交额同比增长的图表，推理出年轻人群消费趋势强化了短期增长，但2021年整体数据受月份间不均影响。所有选项需对比时间序列趋势与人群/价量变化，解释冲突的核心在于2021年内部波动 vs. 2022年短期提升。",
+        "G": "这是一个Hard干扰项：错误解读chart_93_2的时间范围。实际件单价增长数据（天猫国际18%）是针对2022年3月同比，而非2021年全年，但干扰项错误描述为“2021年加速”，扭曲了增长动因。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "G",
+        "B"
       ]
     },
     {
@@ -134,6 +168,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "联合本科以上学历、高收入人群占比和新锐白领占比最高及11月成交额峰值的图表，推理出高教育/收入群体在促销期贡献不成比例的增长动力。",
+        "B": "联合女性人群占比远高于天猫+淘宝和天猫国际成交额同比增长高于天猫+淘宝的图表，推理出女性主导的消费群体更易响应件单价提升，推高增长。",
+        "C": "联合一二线人群占比和同比增长的图表，推理出城市人群的消费升级隐含支撑长期增长趋势。所有选项需从人群画像推导增长机制，隐含联系在于特定人群（如女性、高学历）与价量指标的协同效应，单张图表无法得出。",
+        "D": "这是一个Hard干扰项：错误解读chart_93_2和chart_93_3的关联。实际女性占比高（85%）与件单价增长快（18%）正相关，但干扰项反转为“增长缓慢”，并虚构因果关系（女性偏好低价），制造数值逻辑错误。",
+        "E": "这是一个Easy干扰项：它基于消费者行为常识（高学历人群偏好品质），未依赖图表数据，而是通用知识。",
+        "F": "这是一个Hard干扰项：错误解读chart_93_3的人群占比数据。实际本科以上学历天猫国际占比55%高于天猫+淘宝的35%，但干扰项反转为“天猫国际更低”，扭曲了人群特征影响。",
+        "G": "这是一个Hard干扰项：错误解读chart_93_4和chart_93_2的数据。实际新锐白领占比高（22%）与增长数据（天猫国际成交额同比增长35%）正相关，但干扰项错误描述为“消费力不足”，制造差距理解错误。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "F",
+        "G"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en el conocimiento general de marketing (atraer a jóvenes a través de las redes sociales), pero no se basa en los datos específicos de los gráficos (como el retrato de la población o la tendencia del volumen de transacciones mensual). Es una declaración general sin una guía de acción clara y no puede optimizar la asignación de recursos para el mercado de belleza y cuidado del cabello.",
+        "B": "La opción B se refiere al chart_93_1 (el índice del volumen de transacciones mensual presenta picos significativos en meses específicos como junio y noviembre) y al chart_93_3 (la proporción de la población menor de 30 años es más alta). La inferencia conjunta muestra que la demanda de la población joven se concentra en los meses de pico, y la asignación de recursos debe ajustarse a esta tendencia.",
+        "C": "Esta opción cita el chart_93_1 (el índice de Tmall + Taobao es más alto, por ejemplo, 3200000000 en noviembre vs 1400000000 en Tmall Global), pero ignora el chart_93_2 (el crecimiento del volumen de transacciones de Tmall Global es del 35% vs 25%) y el chart_93_3 (la proporción de la población de alto consumo en Tmall Global es del 40% vs 20%). Se llega a la conclusión errónea de que Tmall + Taobao tiene más potencial, mientras que en realidad Tmall Global crece más rápido y la población tiene un mayor poder adquisitivo.",
+        "D": "La opción A se refiere al chart_93_3 (la proporción de la población de altos ingresos y alto consumo en Tmall Global es más alta) y al chart_93_2 (el crecimiento del volumen de transacciones de Tmall Global en el mismo período es del 35%, superior al 25% de Tmall + Taobao). La inferencia conjunta muestra que esta plataforma tiene más potencial de crecimiento.",
+        "E": "La opción C se refiere al chart_93_3 (la proporción de la población con educación posgraduada en Tmall Global es más alta) y al chart_93_2 (el crecimiento del precio unitario de Tmall Global es del 18%, superior al 10% de Tmall + Taobao). La inferencia conjunta muestra que la población con alto nivel educativo es menos sensible al precio y es adecuada para una estrategia de productos de alta gama.",
+        "F": "Esta opción aparentemente utiliza los datos del chart_93_1 (el índice del volumen de transacciones en julio es bajo), pero lo interpreta erróneamente: los meses de valle (por ejemplo, el índice de julio es 1100000000) indican una demanda débil, y la inversión puede ser ineficiente (la estrategia correcta debe ser en los meses de pico como junio o noviembre); la opción de distracción confunde la 'supresión de la demanda' con la 'ineficiencia real'.",
+        "G": "Esta opción se centra en la perspectiva de la cadena de suministro, que es una estrategia comercial general, pero no cita ningún gráfico (como la fluctuación del volumen de transacciones o las características de la población). No puede mejorar directamente las ventas y ignora el problema central (la asignación de recursos de marketing)."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "La opción C se refiere al chart_93_1 (el índice del volumen de transacciones mensual alcanza el pico en noviembre) y al chart_93_2 (el crecimiento del volumen de transacciones del mercado general es positivo). La inferencia conjunta muestra que la demanda es fuerte en los meses de pico, y una estrategia de multicanal puede ampliar la cobertura.",
+        "B": "La opción B se refiere al chart_93_2 (el crecimiento del volumen de transacciones de Tmall Global en el mismo período es del 35%, superior a otros canales) y al chart_93_3 (la proporción de la población de alto consumo en Tmall Global es más alta). La inferencia conjunta muestra que esta plataforma tiene más potencial en los meses de crecimiento.",
+        "C": "Esta opción se basa en la lógica general de promoción (actividades continuas para mantener el impulso), pero no se basa en los datos de los gráficos (como la fluctuación del volumen de transacciones). Es una declaración general sin un punto de tiempo o un canal específico y no puede optimizar la eficiencia de ventas.",
+        "D": "Esta opción aparentemente utiliza los datos del chart_93_1 (el índice en abril es 1400000000), pero interpreta erróneamente la tendencia: el índice en mayo disminuye a 1200000000, lo que indica que abril no es un mes de crecimiento constante; los datos correctos (el pico en junio es 2200000000) muestran que la demanda aumenta en el medio del año. La opción de distracción confunde los puntos de tiempo.",
+        "E": "La opción A se refiere al chart_93_1 (el índice del volumen de transacciones mensual disminuye significativamente en meses como julio) y al chart_93_1 (el crecimiento anual del volumen de transacciones es +12.3%). La inferencia conjunta muestra que la eficiencia es baja en los períodos de valle, y los recursos deben priorizarse en los períodos de crecimiento.",
+        "F": "Esta opción sugiere expandir los canales físicos, pero los datos de los gráficos son todos de plataformas en línea (como Tmall y Taobao) y no cita ningún gráfico para respaldar la sugerencia. Es un error basado en el conocimiento general y ignora el problema central (la planificación de promociones en línea).",
+        "G": "Esta opción cita el chart_93_1 (el crecimiento anual es +12.3%) y la tendencia general, pero llega a la conclusión errónea de que el mercado está saturado: en realidad, el crecimiento es positivo y el chart_93_2 muestra que el crecimiento de Tmall Global es del 35%, lo que indica un gran potencial; la opción de distracción ignora las características de crecimiento y sugiere transferir recursos, lo que es contradictorio con el objetivo de mejorar la eficiencia de ventas."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -203,6 +288,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "La opción C se refiere al chart_93_4 (la proporción de la clase media alta y las madres exquisitas en Tmall Global es del 12% y el 10% respectivamente, superior a Tmall + Taobao) y al chart_93_2 (la tendencia de crecimiento del precio unitario es evidente). La inferencia conjunta muestra que la población de alta gama es menos sensible al precio y es adecuada para productos con un precio más alto.",
+        "B": "Esta opción aparentemente utiliza los datos del chart_93_4 (la proporción de adultos mayores y personas de mediana edad de ciudades pequeñas en Tmall + Taobao es del 24% vs 15% en Tmall Global), pero los interpreta erróneamente: el público objetivo de Tmall Global es la población de alto consumo (la proporción de la población de altos ingresos en Tmall Global es del 50% según el chart_93_3). La opción de distracción confunde el enfoque de la plataforma y sugiere desarrollar productos para la población de bajo precio, lo que es contradictorio con la posición de alta gama de Tmall Global.",
+        "C": "Esta opción se centra en la perspectiva del servicio, que es una sugerencia de optimización general, pero no cita ningún gráfico (como las ocho principales poblaciones o el retrato de la población). Ignora el problema central (la posición del producto y la asignación de recursos) y no puede mejorar directamente la competitividad.",
+        "D": "La opción A se refiere al chart_93_4 (la proporción de la nueva generación de trabajadores intelectuales en Tmall Global es del 22%, superior al 12% de Tmall + Taobao) y al chart_93_3 (la proporción de la población con alto nivel educativo y altos ingresos en Tmall Global es más alta). La inferencia conjunta muestra que esta población tiene un gran potencial de consumo.",
+        "E": "Esta opción cita el chart_93_3 (la proporción de la población con educación posgraduada en Tmall Global es del 55% vs 35% en Tmall + Taobao), pero llega a la conclusión errónea: la proporción del 55% es significativamente más alta y el crecimiento del precio unitario del 18% en Tmall Global según el chart_93_2 respalda el hecho de que la población con alto nivel educativo puede aceptar un precio más alto. La opción de distracción sugiere reducir la inversión, lo que es una interpretación errónea de la relación entre los datos.",
+        "F": "Esta opción se basa en una estrategia de mercado general (productos de bajo precio para atraer al público en general), pero no se basa en los datos de los gráficos (como los ingresos o las características de consumo de la población). Es una declaración general sin una posición específica del producto y no puede optimizar la competitividad de Tmall Global.",
+        "G": "La opción B se refiere al chart_93_4 (la proporción de la Generación Z en Tmall Global es del 20%) y al chart_93_3 (la proporción de la población menor de 30 años es más alta). La inferencia conjunta muestra que la demanda de la población joven está creciendo rápidamente y es adecuada para una estrategia innovadora."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

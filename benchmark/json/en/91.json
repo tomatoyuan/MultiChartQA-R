@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Based on the dominant structure of China in chart_91_1 (descriptive trend) and the fluctuating pattern in chart_91_2 (overall trend), infer global uncertainties. A combined analysis is needed to obtain the amplification effect.",
+        "B": "Combining the proportion of other regions in chart_91_1 (e.g., 8% in North America and 9% in Europe) and the unstable price trend in chart_91_2 (e.g., price fluctuations at multiple time points), infer the limitations of the coping strategies of other regions. A comparison of the values in the two charts (production distribution vs. price trend) is required.",
+        "C": "This is an easy distraction. Based on industry common sense, high production is often regarded as a factor driving innovation, but this statement is independent of the chart (e.g., the production proportion in chart_91_1) and does not involve reasoning with specific values.",
+        "D": "This is a hard distraction. There is an incorrect calculation of the chart gap: In chart_91_1, the proportion of Europe is 9% and that of North America is 8%, totaling 17%, but the distraction exaggerates it to 25% (the actual gap is large), misjudging their buffering capacity.",
+        "E": "This is an easy distraction. Based on language common sense, price fluctuations are usually associated with a decline in demand, but this statement does not rely on the chart data (e.g., the price trend in chart_91_2) and is just a general statement. The actual chart does not cover consumer demand.",
+        "F": "Relying on China's high proportion of 65% in chart_91_1 (numerical value) and the price fluctuation trend in chart_91_2 (e.g., the price data changes from 2017 to 2021 and the high point of 2.2 in 2021), infer the sensitivity of the global supply chain to China's price changes. It cannot be inferred from only one chart (for example, the production proportion alone cannot explain the price impact).",
+        "G": "This is a hard distraction. There is an incorrect interpretation of the chart values: Chart_91_2 shows that the price in 2017 was 18,000 yuan/ton and in 2021 was 22,000 yuan/ton (data for key dates), but the distraction incorrectly exchanges the values (saying that 1.8 in 2021 is lower than 2.2 in 2017). In fact, the price has increased, leading to a distorted inference."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Combining the market structure in chart_91_3 (other enterprises account for 75%) and the purchase time distribution in chart_91_4 (e.g., the proportion of purchases from half a year to one year is the largest), infer the advantages of small enterprises. A combined analysis of the values in the two charts (market share vs. frequency distribution) is required.",
+        "B": "This is an easy distraction. Based on model knowledge, high - frequency consumption is often associated with market saturation, but this statement does not rely on the chart data (e.g., the purchase frequency in chart_91_4) and is just a general statement based on common sense.",
+        "C": "Based on the total of 42% of the top 10 enterprises in chart_91_3 (structure) and the dominant trend of high - frequency consumption in chart_91_4 (description), infer market opportunities. A combined reasoning is needed to achieve a balance between competition and opportunities.",
+        "D": "This is a hard distraction. There is an incorrect interpretation of the chart ranking: Chart_91_4 shows that the purchase frequency over two years is only 3.3% (the lowest), but the distraction incorrectly quotes it as 23.6% (actually, the proportion from one year to two years is 23.6%), misjudging consumer behavior.",
+        "E": "Relying on the low - concentration trend in chart_91_3 (the top 5 enterprises only account for 17% of the market share, numerical value) and the high - frequency trend in chart_91_4 (the combined proportion of purchases within half a year and from half a year to one year is high), infer the innovation pressure. It cannot be inferred from only one chart (for example, the frequency data alone cannot explain enterprise behavior).",
+        "F": "This is a hard distraction. There is an incorrect understanding of the chart values: In chart_91_3, the market share of the top 10 enterprises is 25%, but the distraction misuses the 'total of 42%' data (the description 'the total market share of the top 10 revenue - generating enterprises (including the top 5) is 42%' may be a slip of the pen or a confusion; actually, the top 10 is 25%), exaggerating the concentration.",
+        "G": "This is an easy distraction. Based on industry common sense, low concentration is often considered to facilitate monopoly, but this statement is independent of the chart (e.g., the market share in chart_91_3) and does not use specific values."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distraction. Based on model knowledge, efficient production is often associated with a decentralized structure, but this statement is independent of the chart values (e.g., production proportion or market share) and does not involve specific analysis.",
+        "B": "Based on the production structure in chart_91_1 (the total proportion of other regions is 35%) and the total of 42% of the top 10 enterprises in chart_91_3 (structure), infer the low entry threshold and the contribution of small and medium - sized enterprises. A combined analysis is needed to explain the contradiction.",
+        "C": "Relying on China's high proportion of 65% in chart_91_1 (numerical value) and the low - concentration trend in chart_91_3 (the top 5 enterprises only account for 17%), infer the role of small and medium - sized enterprises. It cannot be inferred from only one chart (for example, the global proportion alone cannot explain the domestic structure).",
+        "D": "This is an easy distraction. Based on language common sense, trade policies are often used to explain industrial contradictions, but this statement does not rely on the chart data (e.g., chart_91_1 or chart_91_3) and is just a general reasoning.",
+        "E": "Combining China's dominant position in chart_91_1 (description) and the 75% market share of other enterprises in chart_91_3 (numerical value), infer the separation of exports and domestic demand. A comparison of the values in the two charts (global proportion vs. domestic market share) is required.",
+        "F": "This is a hard distraction. There is an incorrect citation of the chart values: Chart_91_3 shows that the market share of the top 5 enterprises is 17%, but the distraction incorrectly quotes it as 42% (possibly confusing the 'total of 42%' description), misjudging the matching between domestic concentration and global production.",
+        "G": "This is a hard distraction. There is an incorrect reversal of the chart gap: In chart_91_3, the market share of other enterprises is 75% (indicating low concentration), but the distraction incorrectly states it as 25% (actually, the top 10 is 25%), misinterpreting the data and leading to an opposite conclusion."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Combining chart_91_2 (long - term upward price trend) and chart_91_1 (China's scale advantage), we can infer that: the pressure of rising costs and the scale effect of the main production area jointly support technological investment to improve resource utilization.",
+        "B": "This is a hard distractor: It quotes the data of secondary production areas in chart_91_1 (North America 8%, Europe 9%), but confuses the global production pattern. China, as the main production area with a 65% share, has a scale advantage. Establishing a supply chain in secondary production areas may increase logistics and management costs, ignoring efficiency improvement, and does not consider the price trend (chart_91_2), so the strategic direction is deviated.",
+        "C": "Combining chart_91_2 (price fluctuations and an overall upward trend) and chart_91_1 (China dominates production and is highly sensitive to costs), we can infer that: price fluctuations provide a window for procurement timing, and China's high share makes cost savings have an impact on global production.",
+        "D": "Combining chart_91_1 (global production distribution, with shares in secondary production areas such as Europe and North America) and chart_91_2 (price fluctuations, increasing supply chain risks), we can infer that: the combination of production concentration and price instability indicates that geographical diversification can mitigate risks.",
+        "E": "This is a hard distractor: It seemingly uses the price data in chart_91_2 (showing that the price in 2021 was 22,000 yuan/ton), but misinterprets the trend. The chart shows that the price generally increased from 2017 to 2021 (from 1.8 to 2.2), but there were fluctuations (such as a low point of 1.6). Purchasing at a high price will lock in high costs, ignoring opportunities during price troughs (such as 1.6 in 2018), which contradicts the goal of cost reduction.",
+        "F": "This is an easy distractor: It suggests improving efficiency through automation, which is a general industry strategy (such as manufacturing optimization), but does not quote chart data (such as price fluctuation cycles or the scale of the main production area), and cannot specifically address cost fluctuations, appearing vague and lacking data support.",
+        "G": "This is an easy distractor: The statement is broad, based on general supply chain management common sense (such as emphasizing supplier relationships), but does not combine specific data in the charts (such as global production distribution or price trends), lacking action guidelines for cost fluctuations or production patterns, and is easy to rule out through common sense (due to the lack of quantification of risks or efficiency improvement)."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -173,6 +241,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It suggests general marketing methods (such as brand promotion), without combining chart data (such as market concentration or purchase frequency). The statement is broad and lacks specific actions (such as not targeting high - frequency users), and is easy to rule out through common sense (because it does not address the core issue of increasing market share).",
+        "B": "Combining chart_91_4 (high consumer purchase frequency, dominated by short - term repurchases) and chart_91_3 (low market concentration, limited share of the top 10 enterprises), we can infer that: a high repurchase rate indicates that customers are easy to retain, and low concentration provides an opportunity to seize market share. A loyalty program directly responds to this relationship.",
+        "C": "This is a hard distractor: It uses the purchase frequency data in chart_91_4 (the proportion of purchases over two years is 3.3%), but confuses consumer behavior. The high - frequency repurchase group (the total proportion of purchases within half a year and from half a year to one year is 74.1%) is the main market. Launching products for low - frequency users will waste resources, ignoring the goal of 'quickly increasing market share', and does not consider market concentration (chart_91_3), with a wrong understanding of the figures.",
+        "D": "Combining chart_91_3 (a fragmented market with large integration potential) and chart_91_4 (high repurchase rate, high customer value), we can infer that: the combination of low concentration and high repurchase behavior indicates that mergers and acquisitions can efficiently aggregate customer resources and enhance market influence.",
+        "E": "This is a hard distractor: It quotes the market concentration data in chart_91_3 (the top 5 enterprises account for 17%), but misinterprets it. Low concentration (other enterprises account for 75%) means a fragmented market with many opportunities. Suggesting to 'avoid competition' will miss the opportunity to seize market share, and it does not integrate the purchase frequency data (chart_91_4). The strategic direction contradicts the goal of quickly increasing market share.",
+        "F": "Combining chart_91_4 (diverse purchase frequency distribution) and chart_91_3 (a fragmented and highly competitive market), we can infer that: the segmented frequency data and low concentration jointly support a customized product strategy to increase market share through targeted marketing."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -196,6 +279,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combining chart_91_4 (consumer purchase frequency distribution, with some groups having a longer repurchase cycle) and chart_91_1 (global production distribution, with shares in secondary production areas such as North America and Europe), we can infer that: the data on long repurchase cycles and the global production pattern jointly indicate that entry - level products are suitable for new market penetration, using local production capacity to reduce dependence.",
+        "B": "Combining chart_91_2 (upward trend of raw material prices) and chart_91_4 (high consumer repurchase rate, high proportion within half a year to one year), we can infer that: the combination of rising costs and high - frequency repurchase behavior supports premium pricing, and product upgrading can maintain demand.",
+        "C": "Combining chart_91_1 (China dominates production) and chart_91_2 (price fluctuations), we can infer that: the combination of production concentration and price instability indicates that large - scale procurement can optimize costs and enhance pricing flexibility.",
+        "D": "This is a hard distractor: It quotes the purchase frequency data in chart_91_4 (the proportion of purchases from one to two years is 23.6%), but wrongly optimizes. The high - frequency repurchase group (the total proportion of purchases within half a year and from half a year to one year is 74.1%) should be prioritized. Promoting products for low - frequency users will dilute resources, ignoring the goal of 'international competitiveness', and it does not integrate raw material costs (chart_91_2).",
+        "E": "This is a hard distractor: It quotes the price data in chart_91_2 (fluctuation points such as 1.6 and 1.9), but misapplies it. The chart shows an overall upward trend (from 1.8 in 2017 to 2.2 in 2021). Frequent price adjustments will cause customer confusion and loss of trust, ignoring the need for stability, and it does not combine consumer behavior (chart_91_4) or production distribution.",
+        "F": "This is an easy distractor: It suggests market expansion, which is a common international strategy, but does not integrate any chart data (such as cost trends, production distribution, or consumer behavior). The statement is broad and lacks details on pricing or resource allocation, and is easy to rule out (because it does not address specific cost or efficiency issues).",
+        "G": "This is a hard distractor: It uses the data of 'other regions' in chart_91_1 (accounting for 10%), but confuses the global production pattern. China, as the main production area with a 65% scale advantage, is more conducive to cost control. Marketing in secondary regions may be inefficient, and it does not consider the rising cost trend (chart_91_2), resulting in a deviation in resource allocation."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "G",
+        "D"
       ]
     }
   ]

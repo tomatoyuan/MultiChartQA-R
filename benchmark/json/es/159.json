@@ -86,6 +86,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "需要联合chart_159_1和chart_159_3：增长率放缓（chart_159_1）但购买比例高（chart_159_3），结合chart_159_2的内容策略（格式 de vídeo为主），推理内容创新如何抵消增长减速对购物行为的影响。所有选项都依赖多图表数值（如用户数、增长率、内容占比、购物比例）进行跨图推理，不能仅凭单一图表推断。",
+        "B": "需要联合chart_159_1、chart_159_2和chart_159_3：用户基数扩大（chart_159_1的数值从1869增至5036）与内容策略（chart_159_2的Reels主导）联合解释chart_159_3的redes sociales高比例，推理受众规模与内容格式如何提升购物影响力。",
+        "C": "无关常识干扰：asistentes de voz在品牌内容中未被提及（chart_159_2），且其购买阶段比例（24%）与内容策略无隐含联系。",
+        "D": "错误理解数据：carrusel占比仅5.6%（chart_159_2），而Reels占99.8%，选项将次要内容夸大为'主导'。",
+        "E": "需要联合chart_159_1和chart_159_2：chart_159_1显示用户数从2014年到2024年整体增长但增长率逐年下降（如从12.0%降至5.6%），chart_159_2显示Insta360的内容以Reels为主（99.8%），这隐含联系到内容策略适应了用户增长趋势；同时，选项还需推理到chart_159_3中redes sociales在发现阶段（50%）和购买阶段（59%）的高比例，表明增长和内容策略共同支持购物行为。",
+        "F": "曲解关联性：用户增长率下降（如2024年仅5.6%）与Reels高占比无因果关系；选项强行关联且忽略内容策略实际维持了转化（chart_159_3购买阶段59%）。",
+        "G": "违反常识和图表数据：用户数量持续增长（2014 - 2024年从1869增至5036），且品牌99.8%内容为Reels视频，选项与事实相反。"
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合chart_159_1和chart_159_3：用户基数大（chart_159_1的5036）与购买比例高（chart_159_3的59%）对比其他渠道（如aplicaciones de mensajería 36%），推理增长减速下忠实用户的购物行为；隐含联系到chart_159_2的内容策略，但不直接依赖，确保仅需两张图表。所有选项都从冲突角度出发，依赖多图表数值（增长率、购物比例、内容占比）进行推理，选项之间区分度高（如市场饱和 vs 内容优化 vs 忠实用户）。",
+        "B": "错误关联渠道：aplicaciones de mensajería购买阶段占比36%（chart_159_3），但用户基数持续增长（chart_159_1），无证据表明用户'转向'；促销活动属泛泛常识。",
+        "C": "需要联合chart_159_1、chart_159_2和chart_159_3：增长率下降（chart_159_1）与发现阶段比例（50%）联合，推理发现阶段的引流作用；再结合chart_159_2的Reels主导（高效内容格式），解释购买阶段高比例如何被内容策略强化。",
+        "D": "需要联合chart_159_1和chart_159_3：chart_159_1显示增长率从12.0%降至5.6%，表明增长减速，而chart_159_3显示redes sociales在购买阶段比例高达59%，冲突在于增长慢但购物比例高；选项通过chart_159_2的内容策略（Reels占99.8%）推理高活跃度内容可能维持用户参与，从而解释矛盾。",
+        "E": "无关数据混淆：vídeo en directo占比21%与用户增长率无直接逻辑关联（chart_159_3），且品牌内容中无直播视频数据（chart_159_2）。",
+        "F": "过度简化数据：虽有influencers购买阶段占比0%，但redes sociales高比例（59%）还可能受其他因素影响（如Reels内容），选项忽略多因素交互。",
+        "G": "数值理解错误：vídeo/chat en tiempo real在发现阶段（8%）与购买阶段（20%）差距实际为12%，选项误判'差距较小'；且未解释增长率下降的影响。"
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "无关行业常识：asistentes de voz在品牌内容中未出现（chart_159_2），且其发现阶段占比0%（chart_159_3），无法推导出'需增加语音内容'。",
+        "B": "渠道混淆：carrusel是Instagram内容格式，aplicaciones de mensajería是独立渠道（chart_159_3），两者无数据关联；选项强行链接。",
+        "C": "需要联合chart_159_2和chart_159_3：chart_159_2的视频内容（包括Reels）占主导，而chart_159_3的vídeo/chat en tiempo real在购买阶段占20%，推理视频格式的交互性强化购物；选项区分于其他，聚焦视频交互。所有选项都隐含联系内容类型与购物行为，依赖多图表数值（如内容占比、渠道比例）进行推理，选项之间区分明显（主导格式 vs 辅助整合 vs 交互强化）。",
+        "D": "概念偷换：品牌视频内容（Reels）与vídeo en directo属不同类别（chart_159_2 vs. chart_159_3），选项错误等同两者。",
+        "E": "需要联合chart_159_2和chart_159_3：chart_159_2显示Reels占99.8%（视频格式），而chart_159_3显示redes sociales在发现阶段50%和购买阶段59%均为最高比例，推理视频内容可能直接驱动购物行为；不能仅凭一张图表，需跨图比较数值（如Reels占比与redes sociales比例）。",
+        "F": "需要联合chart_159_2和chart_159_3：chart_159_2的carrusel占5.6%和imágenes占2.6%较小，但chart_159_3的aplicaciones de mensajería在购买阶段占36%（较高），推理小比例内容可能通过辅助渠道（如消息应用）整合提升购买；依赖两张图表数值（内容占比与渠道比例）。",
+        "G": "常识性错误：imágenes占比仅2.6%（chart_159_2），远低于Reels的99.8%，选项夸大次要内容作用。"
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 1 involucra el gráfico chart_159_1 (el número de usuarios de redes sociales aumenta año tras año. Aunque la tasa de crecimiento fluctúa, la tendencia de aumento de la base general es evidente) y el gráfico chart_159_2 (el formato de videos cortos Reels tiene una proporción extremadamente alta, lo que indica su predominio en las preferencias de contenido).",
+        "B": "Esta es una opción de distracción fácil: no se basa en ningún dato de los gráficos, solo en conocimientos comerciales generales (por ejemplo, 'la cobertura integral puede aumentar la exposición'), pero la formulación es demasiado amplia y vaga, sin indicaciones de acción específicas (por ejemplo, no se especifica la proporción de asignación de recursos). En general, la distribución uniforme de recursos es generalmente ineficiente cuando los recursos son limitados y puede ser fácilmente eliminada directamente.",
+        "C": "Esta es una opción de distracción fácil: no se basa en la lógica central de los gráficos, solo en conocimientos generales (por ejemplo, 'ignorar las formas de bajo porcentaje'), pero no considera los detalles de los datos (la proporción de carruseles es del 5,5%, aunque es baja, no es cero; y la tendencia de crecimiento de usuarios no niega directamente los carruseles). La formulación es amplia y carece de profundidad estratégica, y puede ser fácilmente eliminada por conocimiento general.",
+        "D": "La opción 2 involucra el gráfico chart_159_1 (los cambios en la tasa de crecimiento de usuarios sugieren que las demandas pueden ser diversas) y el gráfico chart_159_2 (otros tipos de contenido, como carruseles e imágenes, aunque tienen una proporción relativamente baja, tienen un valor potencial).",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de tasa de crecimiento del gráfico chart_159_1 (de 12,0% a 5,6%), pero interpreta erróneamente la tendencia (la disminución de la tasa de crecimiento no significa que los videos cortos estén obsoletos; en realidad, el número de usuarios sigue creciendo, y el gráfico chart_159_2 muestra que Reels representa el 90,2%, lo que domina las preferencias de contenido). La distracción radica en confundir 'la disminución de la tasa de crecimiento' con 'la obsolecencia de la forma' y en ignorar la popularidad de los videos cortos en los datos.",
+        "F": "La opción 3 involucra el gráfico chart_159_1 (la fluctuación de la tasa de crecimiento requiere un ajuste dinámico de la estrategia) y el gráfico chart_159_3 (las redes sociales tienen una proporción alta en la etapa de descubrimiento, y la optimización del contenido debe conectarse con el comportamiento de compra).",
+        "G": "Esta es una opción de distracción difícil: aparentemente combina los datos del gráfico chart_159_2 (la proporción de imágenes es del 2,6%) y el gráfico chart_159_1 (la tendencia de crecimiento de usuarios), pero establece una relación errónea (la proporción de imágenes es extremadamente baja, mientras que el crecimiento de usuarios es una tendencia general, no impulsado por imágenes; en realidad, el gráfico chart_159_2 muestra que Reels domina). La distracción radica en ignorar selectivamente la forma de contenido dominante y crear una falsa imagen de que 'las imágenes son confiables'."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: no se basa en ningún dato de los gráficos, solo en conocimientos comerciales generales (por ejemplo, 'distribuir los recursos de manera uniforme para garantizar la cobertura'), pero la formulación es amplia y no tiene enfoque (no se optimiza para la etapa de descubrimiento o compra). En general, la asignación de recursos debe basarse en datos de preferencias específicas, no en una distribución uniforme, y puede ser fácilmente eliminada directamente.",
+        "B": "La opción 2 involucra el gráfico chart_159_3 (las aplicaciones de mensajería y los videos en directo tienen una proporción alta en la etapa de compra) y el gráfico chart_159_2 (el formato de contenido de video, como Reels, es popular y se puede integrar sin problemas con funciones de guía de compra).",
+        "C": "Esta es una opción de distracción fácil: no se basa en los gráficos, solo cita conocimientos industriales generales (el marketing de influencers es popular), pero ignora los datos específicos (el gráfico chart_159_3 muestra que la proporción del canal de influencers en la etapa de compra es del 0%). La distracción radica en que el conocimiento es correcto pero no tiene soporte de datos y contradice las preferencias de la etapa de compra.",
+        "D": "La opción 3 involucra el gráfico chart_159_3 (el canal de influencers contribuye en la etapa de descubrimiento pero es ineficaz en la etapa de compra) y el gráfico chart_159_1 (la tendencia de crecimiento de usuarios respalda la optimización de canales para adaptarse a los cambios de comportamiento).",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza los datos del gráfico chart_159_3 (el asistente de voz tiene un 0% en la etapa de descubrimiento y un 24% en la etapa de compra), pero interpreta erróneamente la relación (el 0% indica que es ineficaz en la etapa de descubrimiento, y aunque el 24% en la etapa de compra es alto, no demuestra 'un gran potencial'; en realidad, las redes sociales representan el 59% y son dominantes). La distracción radica en exagerar el potencial de un canal de baja proporción y confundir 'la existencia de una proporción' con 'eficiencia'.",
+        "F": "La opción 1 involucra el gráfico chart_159_3 (las redes sociales tienen la proporción más alta en la etapa de descubrimiento) y el gráfico chart_159_1 (la tendencia de crecimiento de usuarios indica que la influencia de las redes sociales sigue aumentando).",
+        "G": "Esta es una opción de distracción difícil: aparentemente combina los datos del gráfico chart_159_3 (la proporción de las redes sociales) y el gráfico chart_159_1 (la fluctuación de la tasa de crecimiento de usuarios), pero establece una relación errónea (las redes sociales son dominantes tanto en la etapa de descubrimiento como en la de compra (50% y 59%), y la fluctuación de la tasa de crecimiento (por ejemplo, de 20,9% a 5,6%) no significa baja eficiencia; en realidad, el número de usuarios sigue creciendo). La distracción radica en utilizar incorrectamente los datos de tasa de crecimiento para negar la eficiencia de las redes sociales."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 1 involucra el gráfico chart_159_2 (los videos cortos Reels tienen una proporción extremadamente alta, lo que refleja la popularidad del contenido) y el gráfico chart_159_3 (las redes sociales tienen una proporción alta tanto en la etapa de descubrimiento como en la de compra, lo que indica el potencial de sinergia de canales).",
+        "B": "La opción 2 involucra el gráfico chart_159_3 (los videos en directo tienen una proporción relativamente alta tanto en la etapa de descubrimiento como en la de compra) y el gráfico chart_159_2 (la base del formato de contenido de video se puede expandir a videos en directo).",
+        "C": "Esta es una opción de distracción difícil: aparentemente combina los datos del gráfico chart_159_2 (la proporción de carruseles es del 5,5%) y el gráfico chart_159_3 (la proporción de videos en directo), pero establece una relación errónea (los carruseles y los videos en directo son formatos diferentes; la proporción de carruseles es baja y la de videos en directo es mediana, pero no se demuestra la sinergia; en realidad, el gráfico chart_159_2 muestra que Reels representa el 90,2%). La distracción radica en crear una relación falsa de datos e ignorar la forma dominante.",
+        "D": "Esta es una opción de distracción fácil: no se basa en los gráficos, solo cita conocimientos industriales generales (el costo de los videos es alto), pero ignora los datos específicos (el gráfico chart_159_2 muestra que Reels representa el 90,2%, lo que domina las preferencias de contenido). La distracción radica en preocupaciones de conocimiento general pero sin soporte de datos y en contradicción con la popularidad.",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza los datos del gráfico chart_159_2 (la proporción de imágenes es del 2,6%) y el gráfico chart_159_3 (el 36% en la etapa de compra de las aplicaciones de mensajería), pero interpreta erróneamente (la proporción de imágenes es extremadamente baja, mientras que la proporción de aplicaciones de mensajería es alta, pero no hay una relación directa; en realidad, Reels domina el contenido). La distracción radica en utilizar selectivamente datos de baja proporción para sugerir que 'las imágenes son eficientes' e ignorar las formas populares.",
+        "F": "Esta es una opción de distracción fácil: no se basa en ningún dato de los gráficos, solo en conocimientos comerciales generales (por ejemplo, 'el texto aumenta la confianza'), pero la formulación es amplia (no se menciona el formato específico o la sinergia de canales). No hay datos relacionados con contenido de texto en los gráficos y puede ser fácilmente eliminada por conocimiento general.",
+        "G": "La opción 3 involucra el gráfico chart_159_3 (las aplicaciones de mensajería tienen una proporción destacada en la etapa de compra) y el gráfico chart_159_2 (el contenido, como carruseles o videos, se puede diseñar en un formato compartible para promover la migración de canales)."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

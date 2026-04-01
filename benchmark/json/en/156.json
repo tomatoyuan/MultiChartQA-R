@@ -86,6 +86,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This option is a hard干扰项: Misinterprets the chart values (chart_156_3). The proportion of Flesh-colored/Skin-tone style is 61%, which is the absolute dominant, while the proportion of Black style is only 32%. It is not a 'high preference' or the'main driving force'. The growth of the share of leading brands is more likely to be related to the mainstream preference for Flesh-colored/Skin-tone style. This option misjudges the importance of the color preference data.",
+        "B": "Option A needs to combine chart_156_3 (color preference, the proportion of Flesh-colored/Skin-tone style is the highest) and chart_156_4 (functional selling points, the sales ratio of 'Natural' and 'Bare-skin feel' is high and the year-on-year growth rate is positive) to infer the trend of consumers' preference for naturalness, and associate it with chart_156_1 (the share of TOP5 brands increases year by year) to explain the possible reasons for the growth of leading brands. A single chart cannot complete the reasoning. For example, chart_156_1 alone shows the share change, but cannot explain the reason; chart_156_3 or chart_156_4 alone can only show the preference or function, and cannot link to the brand dynamics.",
+        "C": "Option C needs to combine chart_156_3 (color preference, the proportion of Flesh-colored/Skin-tone style is the highest) and chart_156_4 (functional selling points, the sales ratio of 'Natural' and 'Bare-skin feel' is high and the year-on-year growth rate is positive) to infer the trend of consumers' preference for naturalness, and associate it with chart_156_1 (the share of TOP5 brands increases year by year) to explain the reasons for leading brands to consolidate their market positions by emphasizing the consistency of the trend. A single chart cannot complete the reasoning. For example, chart_156_1 alone shows the share change, but cannot explain the reason; chart_156_3 or chart_156_4 alone can only show the preference or function, and cannot link to the brand dynamics.",
+        "D": "This option is a hard干扰项: Misinterprets the chart values and gaps (chart_156_4). The sales ratio of 'Skin-feel' is only 0.05 (very low). Although the growth rate is high (2.8), the overall share is small. While the sales ratio of 'Natural' is 0.55 with a growth rate of 0.1 and the sales ratio of 'Bare-skin feel' is 0.75 with a growth rate of 0.12, which have high ratios and stable growth rates and are the main driving forces. This option exaggerates the role of 'Skin-feel' and ignores the mainstream functional needs.",
+        "E": "This option is an easy干扰项: Based on common sense (brand marketing and price strategy), but the chart data does not mention advertising, price cuts or any marketing factors, and it is impossible to infer the impact of these factors on the share from the provided data. Although common sense in the industry may think that marketing is important, the focus of the question is on color preference and functional needs, so this option is out of the chart content.",
+        "F": "Option B needs to combine chart_156_3 (color preference, the proportion of Flesh-colored/Skin-tone style is the highest) and chart_156_4 (functional selling points, the sales ratio of 'Natural' and 'Bare-skin feel' is high and the year-on-year growth rate is positive) to infer the trend of consumers' preference for naturalness, and associate it with chart_156_1 (the share of TOP5 brands increases year by year) to explain the reasons for the growth of leading brands by emphasizing the consistency of the trend. A single chart cannot complete the reasoning. For example, chart_156_1 alone shows the share change, but cannot explain the reason; chart_156_3 or chart_156_4 alone can only show the preference or function, and cannot link to the brand dynamics."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -107,6 +122,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option A needs to combine chart_156_2 (wearing scenarios, the proportions of 'Dating' and 'Commuting to work' are the highest) and chart_156_3 (color preference, the proportion of Flesh-colored/Skin-tone style is the highest) to infer the implicit connection between high-frequency scenarios and the mainstream color preference. A single chart cannot complete the reasoning. For example, chart_156_2 alone shows the scenario proportions, but cannot link to the colors; chart_156_3 alone shows the color preference, but cannot associate with the scenarios.",
+        "B": "This option is an easy干扰项: Based on common sense (color versatility), but the chart data (chart_156_3) shows that the proportion of Black style is 32% and the proportion of 'Buying both colors' is 7%, indicating that the preference is not single. The scenario data (chart_156_2) does not prove that all scenarios have a unified preference. This option overgeneralizes.",
+        "C": "This option is a hard干扰项: Misinterprets the chart ranking and gaps (chart_156_2 and chart_156_3). The proportion of the 'Staying warm at home' scenario is only 18% (low), while high-proportion scenarios such as 'Dating' (55%) or 'Commuting to work' (52%) are more likely to prefer Flesh-colored/Skin-tone style. This option wrongly associates the low-proportion scenario with the mainstream preference and ignores the difference in scenario proportions.",
+        "D": "Option B needs to combine chart_156_2 (wearing scenarios, the proportions of 'Staying warm at home', 'Attending classes' etc. are relatively low) and chart_156_3 (color preference, Black style is not the mainstream) to introduce a conflict point (the possible application of Black style in low-proportion scenarios). A single chart cannot complete the reasoning. For example, chart_156_2 alone shows the scenario proportions, but cannot link to the colors; chart_156_3 alone shows the color preference, but cannot associate with the scenarios.",
+        "E": "Option C needs to combine chart_156_2 (wearing scenarios, the proportions of 'Photo-taking' and 'Traveling' scenarios are medium) and chart_156_3 (color preference, the proportion of Flesh-colored/Skin-tone style is the highest and the proportion of Black style is small) to emphasize the consistency of preferences in medium scenarios. A single chart cannot complete the reasoning. For example, chart_156_2 alone shows the scenario proportions, but cannot link to the colors; chart_156_3 alone shows the color preference, but cannot associate with the scenarios.",
+        "F": "This option is a hard干扰项: Misinterprets the chart values (chart_156_2 and chart_156_3). The proportion of the 'Traveling' scenario is 43% (medium), but the color preference shows that the proportion of Flesh-colored/Skin-tone style is 61% (dominant) and the proportion of Black style is only 32%. This option assumes that Black style is suitable for traveling, but the data does not support this association and is contradictory to the high preference for Flesh-colored/Skin-tone style."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -128,6 +158,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This option is a hard干扰项: Misinterprets the chart growth rate (chart_156_4). The growth rate of 'Natural' is 0.1 (positive) and the sales ratio is high (0.55), indicating strong demand. The decline in the share of non-leading brands (TOP6 - 10 in chart_156_1 decreased from 15% to 11%) is more likely due to the failure to meet this demand. This option misjudges the growth rate as 'low' and interprets the trend in the opposite direction.",
+        "B": "Option B needs to combine chart_156_1 (the overall share of other brands decreases) and chart_156_4 (among the functional selling points, the sales ratio of 'Invisible' is low and the growth rate is negative) to focus on the conflict point (negative growth rate of 'Invisible' vs. decline in the share of other brands). A single chart cannot complete the reasoning. For example, chart_156_1 alone shows the share change, but cannot explain the functional impact; chart_156_4 alone shows the functional performance, but cannot link to the brand level.",
+        "C": "Option C needs to combine chart_156_1 (the shares of TOP6 - 10 and TOP11 - 20 brands decline year by year) and chart_156_4 (high growth of naturalness characteristics among the functional selling points) to refine the dilemmas of non-leading brands. A single chart cannot complete the reasoning. For example, chart_156_1 alone shows the share change, but cannot explain the functional impact; chart_156_4 alone shows the functional performance, but cannot link to the brand level.",
+        "D": "Option A needs to combine chart_156_1 (brand share, TOP5 grows while TOP6 - 10 and TOP11 - 20 decline) and chart_156_4 (functional selling points, the sales ratio of 'Bare-skin feel' and 'Natural' is high and the growth rate is positive) to infer that leading brands gain advantages through mainstream functions (such as naturalness), and the decline in the share of non-leading brands may be due to insufficient functional response. A single chart cannot complete the reasoning. For example, chart_156_1 alone shows the share change, but cannot explain the functional impact; chart_156_4 alone shows the functional performance, but cannot link to the brand level.",
+        "E": "This option is an easy干扰项: Based on common sense (price competition and innovation), but the chart data (chart_156_1) shows that the share of other brands decreased from 45% to 41%, and the shares of TOP6 - 10 and TOP11 - 20 continued to decline, and the trend is not stable. The functional data (chart_156_4) does not mention price or innovation, so this option is out of the chart content.",
+        "F": "This option is a hard干扰项: Misinterprets the chart values and trends (chart_156_4). The growth rate of 'Invisible' is negative (-0.02), indicating a decline in demand, and the sales ratio is only 0.04 (low). The share of non-leading brands declines overall (chart_156_1), but this option assumes that the negative growth rate represents an increase in demand, which is obviously contradictory."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -151,6 +196,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Combining chart_156_2 (high proportions of dating, commuting, etc. in wearing scenarios) and chart_156_3 (preference for natural colors), optimize the design for high - demand scenarios.",
+        "B": "Based on chart_156_4 (among the functional selling points, the skin - feel has a high growth rate but a low proportion, and the invisibility has a negative growth rate) and chart_156_3 (the preference data supports the dominance of natural colors), it is recommended to re - allocate resources to avoid risks and挖掘 growth points.",
+        "C": "This option is an easy distraction. It also relies on common sense (internet celebrity marketing) and ignores consumer preferences and functional trends in the charts. Chart_156_3 shows that the preference for natural colors is 61%, much higher than that for black. However, this suggestion does not optimize product design accordingly and only generally talks about promotion.",
+        "D": "This option is a hard distraction. It misuses the data in chart_156_4: the growth rate of the invisibility function is - 0.02 (negative growth), and the sales proportion is only 0.04, indicating a shrinking demand. But the distraction misinterprets it as 'being able to seize the blank market after improvement'. In fact, investment in negatively growing areas should be avoided, which is out of line with consumer preferences (chart_156_3) and scenario needs (chart_156_2).",
+        "E": "This option is an easy distraction. It only relies on general business common sense (cost control) and does not use any chart data. The question requires optimizing the product line design, but this suggestion is broad and has no specific actions, so it cannot directly increase the market share of 'Skinny Legs Artifact' or meet consumer preferences.",
+        "F": "This option is a hard distraction. It seemingly uses chart_156_3 (color preference) and chart_156_4 (functional selling points) but misinterprets the data. In chart_156_3, the proportion of black is 32%, lower than 61% of natural colors. And in chart_156_4, the bare - skin feel has a high growth rate, but it is related to natural - color - related functions, and black is not mentioned in the functions. It wrongly associates color preference with functional trends and ignores the dominant position of natural colors.",
+        "G": "Based on chart_156_3 (natural colors have the highest proportion in consumer color preferences) and chart_156_4 (among the functional selling points, natural and bare - skin feel have high sales proportions and positive year - on - year growth rates), emphasize the strategy of matching product functions with preferences."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -175,6 +237,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Combining chart_156_2 (the proportion of staying warm at home in wearing scenarios is low but exists) and chart_156_3 (natural - color preference data),挖掘 the unmet scenario needs, which conforms to the value of not neglecting niche groups.",
+        "B": "This option is a hard distraction. It wrongly combines chart_156_2 (wearing scenarios) and chart_156_3 (color preferences): the proportion of the attending classes scenario is only 12%, the lowest, indicating low demand. But the distraction misinterprets it as 'less competition and high potential'. In chart_156_1, other brands have a high share (41%), which is more suitable for segmentation. However, the attending classes scenario has no direct connection with color preferences, and the data does not support its growth potential.",
+        "C": "This option is a hard distraction. It seemingly uses the data in chart_156_1 but misinterprets it: the share of TOP5 has increased (from 27% to 37%), indicating market concentration. It is difficult for new brands to have an advantage by imitating the strategies of leading brands. In fact, they should avoid it (as mentioned in option A), but the distraction misinterprets it as 'high - growth opportunities' and ignores the limited resources of new brands.",
+        "D": "This option is an easy distraction. It relies on general marketing suggestions (off - line activities) and does not combine the share changes or consumer preferences in the charts. Chart_156_1 shows that the share of other brands has decreased, but this suggestion does not provide specific actions to respond to this trend.",
+        "E": "Based on chart_156_4 (the skin - feel has a high growth rate among the functional selling points) and chart_156_1 (the growth trend of the share of TOP5 brands), use functional innovation to counter market concentration.",
+        "F": "This option is an easy distraction. It only relies on common sense (price war) and does not use chart data. The question is about the entry strategy for new brands, but this suggestion ignores the market competition pattern (chart_156_1 shows the concentration of TOP5 share), and price war may lead to profit decline and cannot sustainably expand the share.",
+        "G": "Based on chart_156_1 (other brands have a high and stable share in brand share) and chart_156_3 (natural colors have the highest proportion in color preferences), launch customized products for the long - tail market."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -198,6 +277,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This option is an easy distraction. It only relies on general management common sense (average budget allocation) and does not use chart data. The question requires matching consumer behavior and trends, but this suggestion is broad and has no specific focus, so it cannot improve sales performance.",
+        "B": "This option is a hard distraction. It wrongly uses the data in chart_156_4: the natural function has the largest proportion of 0.55 (55%) and a stable growth rate of 0.1 (10%), but the distraction compares it with the growth rate of 0.12 (12%) of the bare - skin feel and thinks that 'it has insufficient potential'. In fact, the natural function is the core, and the color preference in chart_156_3 supports natural colors. It wrongly ignores the overall trend and may mislead resource allocation.",
+        "C": "This option is a hard distraction. It seemingly uses chart_156_2 (wearing scenarios) and chart_156_4 (functional selling points) but misinterprets them: the proportion of staying warm at home is only 18%, the lowest, indicating weak demand. The skin - feel has a high growth rate of 2.8 but a low sales proportion of only 0.05, with a small base. The distraction misinterprets it as 'unmet demand', while the high - frequency scenarios in chart_156_2 (such as dating with 55%) should be prioritized, and the skin - feel function has no direct connection with the warming scenario.",
+        "D": "This option is an easy distraction. It relies on traditional marketing common sense (TV advertising) and ignores the specific scenarios and functional trends in the charts (such as the high - frequency scenarios in chart_156_2). It provides no data support and is out of line with the question.",
+        "E": "Based on chart_156_4 (the invisibility has a negative growth rate among the functional selling points) and chart_156_2 (scenario demand data), identify inefficient areas and re - allocate resources, which conforms to the value of efficiency optimization.",
+        "F": "Combining chart_156_4 (the bare - skin feel and natural have high sales proportions and positive growth rates among the functional selling points) and chart_156_1 (the growth trend of the share of TOP5 brands), use the product function advantages to compete for market share.",
+        "G": "Based on chart_156_2 (high proportions of dating, commuting, etc. in wearing scenarios) and chart_156_3 (natural colors have the highest proportion in color preferences), formulate marketing activities for core scenarios."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     }
   ]

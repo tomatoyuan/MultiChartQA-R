@@ -86,6 +86,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It relies on model knowledge (income affects consumption), but the charts do not cover income or economic factors, so it is irrelevant.",
+        "B": "This is a hard distractor: It misinterprets the chart values (chart_154_1). Although the proportion of people who cook every day is 38%, the combined proportion of those who cook no more than 3 days a week (37%) and those who can't even guarantee cooking once (5%) is 42%, indicating that nearly half of the population has a low frequency of cooking. And the penetration rate of 49.9% is close to half, suggesting that food delivery effectively substitutes for home - cooking. However, this option wrongly infers that home - cooking is the main way, ignoring the data distribution.",
+        "C": "This is an easy distractor: It is based on common sense (such as advertising effects), but does not rely on the chart data (the charts do not mention advertising or income). A real explanation needs to combine the data of cooking frequency and penetration rate, while this option makes a general statement.",
+        "D": "We need to analyze the 'Scenario Selection' from chart_154_1 (38% cook every day) and chart_154_2 (increasing penetration rate). These conclusions cannot be drawn from a single chart; we need to cross - compare trends and proportions.",
+        "E": "We need to combine chart_154_1 (showing that 37% of people cook no more than 3 days a week, indicating some unmet demand) and chart_154_2 (penetration rate increasing from 48.8% to 49.9%, showing that food delivery covers nearly half of the population) to infer the 'Substitution' relationship. These conclusions cannot be drawn from a single chart; we need to cross - compare trends and proportions.",
+        "F": "We need to infer the 'Demand Attraction' from chart_154_1 (5% hardly cook) and chart_154_2 (the number of users increasing from 520 million to 548 million). These conclusions cannot be drawn from a single chart; we need to cross - compare trends and proportions.",
+        "G": "This is a hard distractor: It wrongly compares the differences (chart_154_1 and chart_154_2). Although the penetration rate only increases by 0.1%, the user scale increases from 520 million to 548 million (an increase of 28 million). And the proportion of those who cook no more than 3 days a week (37%) combined with the penetration rate of 49.9% shows a large demand. This option wrongly judges that the slight increase in penetration rate means ineffectiveness, while the actual user scale has a significant increase."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It misinterprets the numerical relationship (chart_154_2 and chart_154_3). The user scale increases by 28 million (about 5.4%), but the order growth rate increases significantly from 13.21% to 20.16%. In fact, it may be due to the more frequent use of existing users (as in option B). This option wrongly assumes that new users are the main drivers, while the charts do not provide the proportion of orders from new users.",
+        "B": "This is a hard distractor: It wrongly understands the differences (chart_154_2 and chart_154_3). Although the penetration rate only increases by 0.1%, the order growth rate increases by nearly 7 percentage points (from 13.21% to 20.16%). Combined with the growth of the user scale, it actually implies that existing users use the service more frequently. However, this option wrongly infers a decrease in the usage frequency, which is contrary to the data trend.",
+        "C": "We need to combine chart_154_2 (the number of users increasing from 520 million to 548 million) and chart_154_3 (the order growth rate increasing from 13.21% to 20.16%) to infer the 'Synchronous Enhancement'. A single chart can only provide partial information (such as the number of users or the growth rate), and we need to jointly analyze the trend changes.",
+        "D": "This is an easy distractor: It relies on model knowledge (technology popularization), but the charts do not cover data on smartphones. It is a general statement.",
+        "E": "We need to analyze the 'Contribution of New Users' from chart_154_2 (the growth of the number of users) and chart_154_3 (the accelerating growth rate). A single chart can only provide partial information (such as the number of users or the growth rate), and we need to jointly analyze the trend changes.",
+        "F": "We need to infer the 'Increase in Frequency' from chart_154_2 (the penetration rate only increases by 1.1 percentage points) and chart_154_3 (the order growth rate increases by nearly 7 percentage points). A single chart can only provide partial information (such as the number of users or the growth rate), and we need to jointly analyze the trend changes.",
+        "G": "This is an easy distractor: It is based on industry common sense (policy influence), but the charts do not mention policies. Therefore, it does not rely on data. The real trend needs to be analyzed based on the user scale and order growth rate."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It relies on model knowledge (technology optimization), but the charts do not mention the recommendation system. It is a generally correct but irrelevant statement.",
+        "B": "We need to combine chart_154_3 (the order growth rate increasing from 13.21% to 20.16%) and chart_154_4 (the requirement for fresh food is 77.2%) to infer the 'Driven by Core Demand'. A single chart cannot establish a causal relationship; we need to combine the numerical values and trends.",
+        "C": "This is an easy distractor: It is based on common sense (environmental protection trends), but the charts do not cover packaging or AI. Therefore, it does not rely on data. The real factors need to be combined with the order growth and the distribution of dish requirements.",
+        "D": "This is a hard distractor: It misinterprets the ranking and differences (chart_154_3 and chart_154_4). Although the proportion of the requirement for 'Maintaining food temperature' (31.9%) is lower than that of 'Fresh food' (77.2%), the order growth rate increases from 13.21% to 20.16%. In fact, all requirements may jointly promote the development. This option wrongly assumes that a low - proportion requirement has a small impact, while the data does not prove a causal relationship.",
+        "E": "We need to infer the 'Optimization Guided by Preferences' from chart_154_3 (accelerating order growth) and chart_154_4 (good taste 68.0% and balanced nutrition 68.2%). A single chart cannot establish a causal relationship; we need to combine the numerical values and trends.",
+        "F": "This is a hard distractor: It wrongly compares the numerical changes (chart_154_3 and chart_154_4). The growth rate of the number of food items increases from 15.16% to 18.28%, and the proportion of the requirement for 'Wide variety' is 48.6% (the fourth - highest), which actually supports the demand for diversity. However, this option wrongly infers that slow growth and a medium - proportion requirement mean unimportance, ignoring the positive correlation.",
+        "G": "We need to analyze the 'Growth Supported by Diversity' from chart_154_3 (the growth rate of the number of food items increasing from 15.16% to 18.28%) and chart_154_4 (the requirement for wide variety is 48.6%). A single chart cannot establish a causal relationship; we need to combine the numerical values and trends."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Option 2 combines chart_154_4 (high proportion of nutrition and taste) and chart_154_3 (order growth trend), and infers that healthy elements can enhance user attraction.",
+        "B": "This is a hard distractor: It seemingly uses the order growth rate data from chart_154_3 (20.16% vs 13.21%), but misinterprets the trend - the accelerating order growth should emphasize optimizing core services (such as dish quality) to maintain user stickiness, rather than simply expanding delivery; at the same time, it ignores the highest priority of food freshness (77.2%) in chart_154_4.",
+        "C": "Option 3 combines chart_154_4 (demand for variety and customization) and chart_154_3 (rapid growth in the number of food items), and infers that diversity can meet the growing demand.",
+        "D": "This is an easy distractor: It proposes a general marketing strategy (social media promotion) without referring to the consumer requirements or order growth data in the charts. It is a common - sense suggestion lacking in pertinence.",
+        "E": "Option 1 combines chart_154_4 (the highest proportion of freshness in consumer requirements) and chart_154_3 (accelerating order growth rate, indicating a vibrant market), and infers that quality assurance is the core demand.",
+        "F": "This is a hard distractor: It quotes the proportion of customization demand (31.8%) from chart_154_4 and the order growth from chart_154_3, but confuses the relationship - the customization demand is relatively low (ranked behind), while the growth trend should prioritize meeting high - proportion demands (such as freshness), showing an obvious deviation in the strategic direction.",
+        "G": "This is an easy distractor: It is based on general industry common sense (APP optimization can improve user experience) but does not rely on any chart data (such as the core requirements or growth trends in chart_154_3 or chart_154_4). The strategy is broad and lacks clear action guidelines, and can be easily excluded."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It quotes the data from chart_154_1 (5% have difficulty guaranteeing cooking), but misinterprets it - although this group is small, they may be heavy takeaway users; at the same time, it ignores the high - proportion group (37%) of 'no more than 3 days a week', and the strategic direction is opposite to the correct option A (targeting the group with low cooking frequency).",
+        "B": "This is an easy distractor: It suggests improvements in physical stores but does not relate to any data in chart_154_1, chart_154_2, or chart_154_4 (such as cooking habits or user scale). The strategy is general and has nothing to do with takeaway services, and can be excluded based on common sense.",
+        "C": "This is an easy distractor: It proposes a promotional activity (free tasting), based on marketing common sense, but does not use the specific group proportions or user scale changes in the charts. The strategy is vague without data support.",
+        "D": "Option 2 combines chart_154_1 (some groups cook less and rely more on takeaway) and chart_154_4 (high proportion of nutrition and freshness), and infers that quality improvement can enhance user stickiness.",
+        "E": "Option 1 combines chart_154_1 (high proportion of the group with low cooking frequency) and chart_154_2 (large user scale but slow growth in penetration rate), and infers that precise targeting can expand the user base.",
+        "F": "This is a hard distractor: It uses the penetration rate data from chart_154_2 (48.8% to 49.9%), but confuses the trend - the gentle growth does not mean saturation (the user scale has increased to 548 million), and it does not combine the cooking habits from chart_154_1. It wrongly suggests cutting investment instead of optimizing services.",
+        "G": "Option 3 combines chart_154_4 (demand for maintaining food temperature) and chart_154_3 (accelerating order growth), and infers that delivery optimization can support the growing demand."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It uses the proportion (38%) of 'cooking every day' from chart_154_1, but confuses the relationship - this group may not order takeaway often, and it does not combine the order growth from chart_154_3 or the penetration rate from chart_154_2. It wrongly targets non - core users; the correct strategy should explore low - penetration areas (Option C).",
+        "B": "Option 2 combines chart_154_3 (rapid growth in the number of food items) and chart_154_4 (high proportion of demand for variety), and infers that innovation can drive demand.",
+        "C": "This is an easy distractor: It proposes a price - war strategy, based on common business logic (lowering prices to attract users), but does not rely on specific data from chart_154_2, chart_154_3, or chart_154_1 (such as penetration rate or growth trend). The strategy is broad and unsustainable.",
+        "D": "This is a hard distractor: It quotes the order growth rate of 20.16% from chart_154_3, but misinterprets the trend - the accelerating growth rate should focus on the repurchase of existing users (the correct option A), rather than acquiring new users; at the same time, it ignores the gentle growth in the penetration rate (only 1.1 percentage points) in chart_154_2, showing a strategic deviation.",
+        "E": "Option 1 combines chart_154_2 (gentle growth in penetration rate) and chart_154_3 (rising order growth rate), and infers that deepening the relationship with existing users is more efficient than acquiring new users.",
+        "F": "Option 3 combines chart_154_2 (the penetration rate is not saturated) and chart_154_1 (some groups in the cooking frequency data may be potential users), and infers that there are market expansion opportunities, which conforms to the value of fair resource allocation.",
+        "G": "This is an easy distractor: It proposes supply - chain optimization, which is an operational common sense, but does not quote the user penetration rate or order growth dynamics in the charts. It is not targeted and can be easily excluded."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

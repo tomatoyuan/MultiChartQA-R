@@ -86,6 +86,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项，错误解读图表数值：chart_40_3将Pinduoduo列为线下（占比57%），chart_40_4显示线下渠道占比74%，表面相似性暗示归类正确。但实际上，Pinduoduo是线上平台，图表归类本身矛盾，该选项忽略了这种冲突，错误强化了错误归类。",
+        "B": "这是一个Easy干扰项，基于常识（收入水平影响渠道偏好），不依赖任何图表数据。图表未提及收入或人口统计因素，因此该解释与问题无关且错误。",
+        "C": "依赖一张图表中'Fuera de línea (Supermercado)'占比和另一张图表中'Fuera de línea'占比的联合推理：数值一致显示部分数据可靠，但'Pinduoduo'归类冲突与线上主导趋势形成对比，需联合评估才能识别整体分类问题。",
+        "D": "这是一个Easy干扰项，依赖行业常识（促销活动影响渠道偏好），但图表数据未涉及季节性或事件驱动因素，因此无法解释归类不一致。",
+        "E": "这是一个Hard干扰项，错误关联图表数值：数值相同（68%）被误读为抖音直播应属混合渠道。但chart_40_3明确将抖音直播列为线上，该选项对图表数据理解错误，制造了虚假关联。",
+        "F": "依赖一张图表中'En línea (Directo de Douyin)'占比和另一张图表中'Tanto en línea como fuera de línea'占比的联合推理：数值相同但归类不同（抖音直播是纯线上，而决策占比是混合渠道），需跨图分析才能揭示新兴渠道在分类中的歧义。",
+        "G": "依赖一张图表中'Fuera de línea (Pinduoduo)'占比且Pinduoduo本质是线上平台和另一张图表中线上渠道占比高主导决策的联合推理：两者冲突在于一张图表的分类错误（将线上平台列为线下），而另一张图表强调线上主导，需跨图比较才能发现此定义不一致。"
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项，错误计算和关联数值：实际CAGR基于数据（(2737/1804)^(1/4)-1 ≈ 11%）与预期9.6%有差距，但该选项错误归因于线上渠道。线上偏好是静态占比，而非动态增长因素，该解读对图表数据理解错误。",
+        "B": "依赖一张图表中市场规模逐年扩大且复合年增长率较高和另一张图表中'Tanto en línea como fuera de línea'占比的联合推理：需联合分析市场规模趋势和消费者行为特征（混合渠道决策）才能推断多渠道策略对市场可及性的影响。",
+        "C": "依赖一张图表中市场规模稳定上升趋势和另一张图表中'En línea'占比极高偏好的联合推理：需跨图对比趋势（规模增长）和特征（线上主导）才能得出线上渠道推动增长的规律。",
+        "D": "这是一个Hard干扰项，错误解读图表差距：chart_40_4线下渠道占比74%被误读为主要增长动力。但市场规模增长（chart_40_2）与线上渠道高占比（89%）趋势一致，该选项忽略了线上主导，错误放大了线下作用。",
+        "E": "依赖一张图表中辣味食品与休闲食品行业增长率差异和另一张图表中'En línea'占比的联合推理：需跨图比较增长率差异和渠道偏好才能揭示线上渠道对高增长的贡献。",
+        "F": "这是一个Easy干扰项，依赖营销常识（广告作用），但图表数据未提及广告或品牌，因此与问题无关且错误。",
+        "G": "这是一个Easy干扰项，基于经济常识（GDP影响市场），但图表未涉及宏观因素，该选项无法解释渠道行为对增长的影响。"
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "依赖一张图表中Picante和Ácido - Picante发源地包括中国、韩国、泰国等亚洲地区和另一张图表中中国市场增长预测的联合推理：需跨图评估起源地和市场地理才能揭示本地化优势对创新的潜在影响。",
+        "B": "这是一个Hard干扰项，错误解读图表排序和关联：chart_40_1中'Ácido - Picante'辣度中等（750 SHU）和占比35%被误读为更适合中国市场。但'Picante'占比45%最高且辣度最低（250 SHU），更易被大众接受，该选项忽略了主流偏好，错误强调了次要风格。",
+        "C": "这是一个Easy干扰项，基于健康常识（低脂趋势），但图表未涉及健康因素，该选项无法解释辣味偏好特征的影响。",
+        "D": "这是一个Hard干扰项，错误关联数值差距：chart_40_1中'Pimentón'高辣度1250 SHU和低偏好30%被误与市场规模高增长（chart_40_2）关联。但'Picante'温和特征更契合增长趋势，该选项对辣度与增长潜力理解错误。",
+        "E": "依赖一张图表中Picante偏好占比高且平均辣度最低和另一张图表中市场规模持续增长的联合推理：需跨图对比辣味特征（低辣度、高偏好）和市场趋势（稳定增长）才能推断Picante对大众市场的适配性。",
+        "F": "这是一个Easy干扰项，依赖文化常识（全球化作用），但图表数据未提及文化融合，因此与问题无关且错误。",
+        "G": "依赖一张图表中Ácido - Picante和Pimentón辣度较高、偏好占比低于Picante和另一张图表中市场规模逐年扩大的联合推理：需联合分析辣度差异和增长趋势才能得出高辣度产品可能为小众，而Picante主导增长的隐含联系。"
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: aparentemente cita los datos del tamaño del mercado del chart_40_2 (crecimiento entre 2022 y 2026), pero equivocadamente asocia el crecimiento del tamaño con 'oportunidades de aumento de precios'. El gráfico no aborda la sensibilidad a los precios ni los márgenes de beneficio; aumentar los precios podría reducir las ventas, lo que entra en conflicto con el objetivo de satisfacer las demandas diversificadas.",
+        "B": "La opción 3 integra la proporción de preferencia por el sabor picante y ácido - picante en el chart_40_1 (un total del 80%) y la diferencia en el nivel de picor (250 SHU vs 750 SHU), junto con la estabilidad del crecimiento del tamaño del mercado en el chart_40_2. La estrategia mejora la universalidad del producto a través de la optimización del nivel de picor.",
+        "C": "Esta es una distracción fácil: no se basa en ningún dato del gráfico, solo en conocimientos comerciales generales (como 'la publicidad mejora la marca'), pero no ofrece orientación específica para la acción y no puede optimizarse en función de las preferencias por el sabor picante o la tendencia de crecimiento. Puede ser descartada por conocimiento general.",
+        "D": "Esta es una distracción difícil: aparentemente utiliza los datos del chart_40_1 (preferencia por el sabor pimentón del 30%, nivel de picor de 1250 SHU), pero llega a la conclusión errónea de que 'los consumidores se están volviendo a los sabores de alto nivel de picor'. El gráfico muestra que la preferencia por el sabor picante es la más alta (45%), y no hay datos de tendencia que respalden un cambio en las preferencias; de hecho, los sabores de alto nivel de picor podrían alejar al mercado general, lo que entra en conflicto con el objetivo de maximizar la cuota de mercado.",
+        "E": "La opción 2 combina los datos de la proporción de preferencia por el sabor ácido - picante del 35% y el sabor pimentón del 30% en el chart_40_1, así como su alto nivel de picor (750 SHU y 1250 SHU), con la tendencia de expansión continua del tamaño del mercado en el chart_40_2 (CAGR superior al promedio de la industria). La estrategia se centra en la diversificación del mercado segmentado para hacer frente al aumento de la demanda.",
+        "F": "La opción 1 combina la característica de que la proporción de preferencia por el sabor picante es la más alta (45%) y el nivel de picor promedio es el más bajo (250 SHU) en el chart_40_1, así como la tendencia general de crecimiento anual del tamaño del mercado en el chart_40_2 (de 180.4 mil millones de yuanes en 2022 a 273.7 mil millones de yuanes en 2026). La estrategia enfatiza aprovechar las preferencias principales para capturar oportunidades de crecimiento.",
+        "G": "Esta es una distracción fácil: ignora el contenido del gráfico (tanto las preferencias por el sabor picante como el tamaño del mercado se centran en los productos picantes), asume basándose en el conocimiento general que 'existe un grupo de no picantes', pero el núcleo del problema es optimizar la combinación de sabores picantes, y esta estrategia se desvía claramente de la dirección. Puede ser descartada por conocimiento general."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: aparentemente cita los datos del chart_40_3 y el chart_40_4 (la proporción del supermercado es del 74%, la proporción del canal fuera de línea es del 74%), pero ignora erróneamente la dominancia en línea (la proporción en línea es del 89%). El gráfico muestra que la preferencia en línea es más alta, y además la proporción de la fusión de en línea y fuera de línea es del 68%; abandonar completamente la línea en línea resultaría en la pérdida del tráfico principal, lo que entra en conflicto con el objetivo de mejorar la eficiencia.",
+        "B": "Esta es una distracción difícil: aparentemente utiliza los datos del chart_40_3 (la proporción de Pinduoduo es del 57%), pero erróneamente clasifica a Pinduoduo como un 'canal de alto potencial'. En realidad, Pinduoduo está mal etiquetado como 'fuera de línea' en el gráfico (debería ser en línea), y su proporción es menor que la de la plataforma de compras en línea (89%) y la transmisión en vivo de Douyin (68%); además, el crecimiento del tamaño del mercado (chart_40_2) no respalda directamente la prioridad de las plataformas de bajo precio, lo que es una confusión errónea de los datos.",
+        "C": "La opción 1 combina la característica de que la proporción de toma de decisiones en el canal en línea es la más alta (89%) en el chart_40_4, los datos de la alta proporción de la plataforma de compras en línea (89%) en el chart_40_3, y se combina con la tendencia de rápido crecimiento del tamaño del mercado en el chart_40_2 (alta tasa de crecimiento compuesto anual entre 2022 y 2026). La estrategia enfatiza la ventaja de escala de los canales en línea.",
+        "D": "La opción 2 combina los datos de que la proporción de toma de decisiones tanto en línea como fuera de línea es del 68% en el chart_40_4, la interactividad en línea de canales como la transmisión en vivo de Douyin (68%) en el chart_40_3, y la tendencia de crecimiento estable del tamaño del mercado en el chart_40_2. La estrategia utiliza la sinergia de los canales para hacer frente al aumento de la demanda.",
+        "E": "La opción 3 integra los datos de que la proporción de toma de decisiones en el canal fuera de línea es del 74% en el chart_40_4 y la alta proporción del supermercado (74%) y la tienda de conveniencia (64%) en el chart_40_3, junto con la tendencia de expansión anual del tamaño del mercado en el chart_40_2 (por ejemplo, alcanzará 273.7 mil millones de yuanes en 2026). La estrategia optimiza los recursos para escenarios de alta frecuencia fuera de línea.",
+        "F": "Esta es una distracción fácil: ignora los gráficos de preferencia por el canal (chart_40_3 y chart_40_4), solo se basa en conocimientos generales ('el diseño del empaque es importante'), pero se desvía del tema de la asignación de recursos de canal y no ayuda a optimizar la conversión de ventas. Puede ser descartada por conocimiento general.",
+        "G": "Esta es una distracción fácil: no se basa en los datos del gráfico, solo en conocimientos generales de gestión ('distribuir los recursos de manera equitativa'), pero no tiene una estrategia específica de optimización de canal y no puede mejorar la eficiencia en función de los datos de preferencia. Puede ser descartada por conocimiento general."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción fácil: no se basa en ningún dato del gráfico, solo en conocimientos generales de expansión ('cobertura global'), pero no tiene una base específica en cuanto al origen o las preferencias, y no puede abordar el lugar de origen o la tendencia de crecimiento. Puede ser descartada por conocimiento general.",
+        "B": "Esta es una distracción fácil: ignora los gráficos de origen y preferencias (chart_40_1), solo se basa en conocimientos generales del tamaño del mercado ('las adquisiciones aceleran el crecimiento'), pero no ofrece orientación específica para la acción y la estrategia es demasiado amplia. Puede ser descartada por conocimiento general.",
+        "C": "La opción 2 combina las características de que el lugar de origen del sabor pimentón está marcado como EE. UU., México, etc. (platos representativos como la barbacoa de Texas) en el chart_40_1, su proporción de preferencia del 30% y el nivel de picor de 1250 SHU, con el crecimiento estable del tamaño del mercado en el chart_40_2 (CAGR es 1.6 veces la industria de los aperitivos). La estrategia se centra en la innovación en las regiones con preferencia por el sabor de alto nivel de picor.",
+        "D": "Esta es una distracción difícil: aparentemente utiliza los datos del chart_40_1 (preferencia por el sabor picante del 45%, marcado en el mapa como Sudamérica), pero llega a la conclusión errónea de que el marcado en el mapa es equivalente a la ventaja del lugar de origen. En realidad, la descripción textual indica que el lugar de origen del sabor picante es China, Corea del Sur, etc. (no Sudamérica), y el marcado de las coordenadas (2,2) en el mapa puede ser malinterpretado; los datos de preferencia provienen de consumidores globales y no respaldan directamente la prioridad del mercado de Sudamérica.",
+        "E": "La opción 3 integra la marca del lugar de convergencia de sabores picantes como Asia Central (coordenadas 5,4) en el chart_40_1 y los datos de preferencia por el sabor picante (45%) y ácido - picante (35%), con la posición dominante y la tendencia de crecimiento del tamaño del mercado en China en el chart_40_2. La estrategia fortalece el mercado central a través de la fusión cultural.",
+        "F": "La opción 1 combina las características de que el lugar de origen del sabor ácido - picante está marcado como Asia Sudoriental (coordenadas 8,2) y su proporción de preferencia del 35% en el chart_40_1, con la tendencia de crecimiento del tamaño del mercado en el chart_40_2 (por ejemplo, se predice que serán 273.7 mil millones de yuanes en 2026). La estrategia aprovecha la ventaja del lugar de origen para capturar oportunidades regionales.",
+        "G": "Esta es una distracción difícil: aparentemente cita los datos del chart_40_1 (marcado de Asia Central en las coordenadas (5,4) del lugar de convergencia), pero ignora erróneamente las preferencias de los consumidores y el tamaño del mercado. El gráfico muestra que la preferencia por el sabor picante y ácido - picante es alta (45% y 35%), y el mercado chino en el chart_40_2 está creciendo fuertemente; ignorar a China resultaría en la pérdida de la mayor oportunidad, lo que entra en conflicto con el objetivo de aprovechar el crecimiento."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     }
   ]

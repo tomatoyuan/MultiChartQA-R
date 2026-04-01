@@ -86,6 +86,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on a cross - chart comparison, involving the share of consumer medical services (chart_155_1) and the lack of e - commerce data (chart_155_2 does not highlight this category), inferring the limitations of service - based products in e - commerce; Joint reasoning required: This option must rely on both charts simultaneously. It cannot be concluded from chart_155_1 or chart_155_2 alone. The overall market and e - commerce platform situations need to be considered comprehensively.",
+        "B": "This option is incorrect because it is based on common sense (e - commerce logistics and low prices can promote sales) but ignores the chart content: The medical service share in the overall market is the highest (53.9%), but health supplements dominate in e - commerce sales (67.09% - 70.83%), and medical services are not reflected in the e - commerce data, indicating that e - commerce is not service - oriented. Without relying on the charts, it can be easily recognized by common sense.",
+        "C": "This option is incorrect. On the surface, it is based on the chart: The share of consumer medical services in the overall market is 9.8%, but the e - commerce sales data (chart_155_2) does not list this category, wrongly inferring that “the proportions are similar”. In fact, the e - commerce data focuses on products (such as health supplements), and service - based products are not covered, indicating insufficient penetration rather than full penetration.",
+        "D": "This option is incorrect. It infers high drug sales based solely on industry common sense (consumers trust online pharmacies), but the chart shows that the drug share in the overall market is 19.6%, and the proportion of medical and health care products (which may include drugs) in e - commerce is only 28.83% - 24.53%, far lower than the 67.09% - 70.83% of health supplements. Therefore, drugs are not dominant. Without relying on the charts, it can be easily refuted by common sense.",
+        "E": "Option correctness: This option is based on a cross - chart comparison, comparing the drug share (chart_155_1) and the growth of health supplements in e - commerce (the proportion of health supplements in chart_155_2 is increasing), implying differences in consumer behavior; Joint reasoning required: This option must rely on both charts simultaneously. It cannot be concluded from a single chart. The overall market and e - commerce platform data need to be combined.",
+        "F": "This option is incorrect. On the surface, it is based on the chart: The share of non - pharmaceutical products in the overall market is 13.7%, and the proportion of health supplements (which can be regarded as a subset of non - pharmaceutical products) in e - commerce is 67.09% - 70.83%, but it wrongly interprets it as “the gap is not large”. In fact, the gap is significant (about 54 percentage points). The chart data clearly shows that the proportion of health supplements in e - commerce is much higher than the overall non - pharmaceutical share.",
+        "G": "Option correctness: This option is based on a cross - chart comparison, comparing the overall market share (chart_155_1 shows that medical services have the largest share) and the e - commerce category proportion (chart_155_2 shows that the proportion of health supplements is much higher than the overall drug share), inferring the preference of e - commerce for standardized products; Joint reasoning required: This option must rely on both charts simultaneously. It cannot be inferred from chart_155_1 alone because the e - commerce data (chart_155_2) provides evidence of category preference. Conversely, the e - commerce data alone cannot explain why the proportion of health supplements is high. The overall share benchmark needs to be referred to."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option is incorrect. On the surface, it is based on the chart: chart_155_3 shows that the scale in 2023 is 290 billion > 250 billion in 2022, and the scale data of Douyin and Kuaishou in chart_155_4 in 2023 is higher than that in 2022, wrongly inferring “scale shrinkage”. In fact, the scale is growing, and the growth rate is declining due to the increasing base.",
+        "B": "This option is incorrect. It infers based solely on common sense (technical problems affect sales), but there is no relevant data in the chart, and the scale is continuously growing (such as the increasing scale data of Douyin and Kuaishou industries), indicating that technical problems are not the main reason. Without relying on the charts, it can be easily refuted.",
+        "C": "This option is incorrect because it is based on common sense (demand shrinkage) but ignores the chart: chart_155_3 and chart_155_4 show that the market scale is continuously growing (such as the pharmaceutical e - commerce increasing from 250 billion to 290 billion, and the scale data of Douyin and Kuaishou rising). The slowdown in growth rate is not due to demand shrinkage but to the increasing base. Without relying on the charts, it can be easily recognized by common sense.",
+        "D": "Option correctness: This option is based on a trend comparison. Chart_155_3 shows that the scale of the pharmaceutical e - commerce is growing but the growth rate is declining, and chart_155_4 shows that the year - on - year growth rate of Douyin and Kuaishou has also declined significantly, inferring the base effect; Joint reasoning required: This option requires the combination of two charts. It cannot be inferred from the declining growth rate in chart_155_3 alone. The declining growth rate trend of Douyin and Kuaishou in chart_155_4 is needed to confirm the commonality.",
+        "E": "Option correctness: This option supplements external factors but relies on evidence of scale growth (chart_155_3 and chart_155_4 show that the scale is continuously rising); Joint reasoning required: This option needs to combine the data of two charts. It cannot be judged whether the market is mature rather than shrinking based on a single chart alone.",
+        "F": "This option is incorrect. On the surface, it is based on the chart: The growth rate of Douyin has dropped from 500% to 3% (a drop of 497 percentage points), and that of Kuaishou has dropped from 200% to 1% (a drop of 199 percentage points), wrongly interpreting it as “similar drops”. In fact, the difference in drops is large (about 298 percentage points). The chart data does not show consistent external shocks but the base effect.",
+        "G": "Option correctness: This option is based on a trend comparison. By comparing the consistent decline in growth rates in chart_155_3 and chart_155_4, it infers that intensified market competition or increased saturation has led the industry to enter a stable period from high - growth; Joint reasoning required: This option needs to compare the competition signals (such as the consistent decline in growth rates) in the two sets of data. A single chart cannot lead to the common reason."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on the association between category changes and growth. Chart_155_2 shows a slight increase in the proportion of traditional tonics and nutritional products, and chart_155_3 shows the growth of the pharmaceutical e - commerce scale, inferring that traditional tonics and nutritional products play an auxiliary role in the overall growth, and the dominant position of health supplements is more crucial; Joint reasoning required: This option must span charts. It is necessary to combine the data of two charts to draw a conclusion. A single chart cannot reflect the role of categories in the overall growth.",
+        "B": "This option is incorrect. It infers based solely on numerical changes (an increase of 0.56 percentage points in proportion), but the chart shows that the proportion of traditional tonics and nutritional products is small (4.08% - 4.64%), while the proportion of health supplements is 67.09% - 70.83% and dominates, wrongly overestimating its contribution. Without relying on the charts, it can be easily refuted.",
+        "C": "Option correctness: This option is based on the association between category changes and growth. Comparing the decline in the proportion of medical care (chart_155_2) with the overall growth (chart_155_3), it implies the role of non - e - commerce channels; Joint reasoning required: This option must span charts. It cannot be concluded from chart_155_2 or chart_155_3 alone. The changes in category proportions and the growth of the overall market scale need to be considered comprehensively.",
+        "D": "This option is incorrect. On the surface, it is based on the chart: The proportion of the medical care category has decreased (24.53% < 28.83%), but the overall market scale has increased (from 250 billion to 290 billion in chart_155_3), wrongly interpreting it as “the largest absolute growth”. In fact, the decrease in proportion means that its growth may be lower than the average level, and its contribution is less. Health supplements are the main force.",
+        "E": "Option correctness: This option is based on the association between category changes and growth. Chart_155_2 shows an increase in the proportion of health supplements, and chart_155_3 shows the growth of the pharmaceutical e - commerce scale, inferring that health supplements dominate the growth; Joint reasoning required: This option must span charts. It is necessary to combine the increase in the category proportion in chart_155_2 and the scale growth in chart_155_3 to infer the driving role of health supplements. Looking at chart_155_2 alone cannot link to the overall market, and looking at chart_155_3 alone cannot explain the category contribution.",
+        "F": "This option is incorrect because it is based on common sense (the growth of all categories promotes the overall growth) but ignores the chart: Chart_155_2 shows that the proportion of the medical care category has decreased from 28.83% to 24.53%, and it may have slow growth or negative growth. Not all categories have increased significantly. Without relying on the charts, it can be easily recognized by common sense.",
+        "G": "This option is incorrect. On the surface, it is based on the chart: The proportion of health supplements has increased (+3.74 percentage points), and that of medical care has decreased (-4.3 percentage points), wrongly inferring “the scale of other categories has shrunk”. In fact, the overall market scale has increased (data in chart_155_3), and the proportion of other categories (such as traditional tonics) has increased slightly, and the scale may still be growing rather than shrinking."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option seemingly uses the data from chart_155_1 (Medical Infrastructure has the smallest share), but it ignores that there is no e-commerce sales data for this area (not covered in chart_155_2). Moreover, the low overall share may reflect limited demand. The distractor wrongly assumes that 'a small share means large growth potential'. In fact, resource allocation should prioritize high-demand areas (such as health supplements). The strategic direction has a significant deviation.",
+        "B": "This option does not rely on any chart data. It is only based on general marketing common sense (such as brand exposure can attract consumers). However, it does not specifically explain how to allocate resources or target high-potential areas. The strategy is broad and lacks action guidelines, so it can be easily excluded by common sense.",
+        "C": "Based on chart_155_1 (the share of the Consumer Medical Services Market is 9.8%) and chart_155_2 (the trends of other categories, such as the growth of health supplements), although there is no direct data, the overall expansion of e-commerce (chart_155_3) implies opportunities. The strategy avoids neglecting the medium-share areas, which is in line with the value of balanced development.",
+        "D": "This option ignores the chart content and is based on general management advice (such as optimizing operational efficiency). However, it does not involve the segmented market shares or e-commerce trends, so it cannot ensure market balance or prioritize the development of high-potential areas. The logic is unclear.",
+        "E": "Based on chart_155_1 (the Non - Pharmaceutical Products Market has a moderate share, and health supplements can be classified into this category) and chart_155_2 (health supplements/dietary nutritional supplements have the highest sales proportion on Douyin and Kuaishou e-commerce platforms and increased from 67.09% in 2022 to 70.83% in 2023, showing an obvious growth trend). This indicates that the online demand for this category is strong, and resource investment can effectively improve market penetration.",
+        "F": "This option misinterprets the data in chart_155_2: The sales proportion of traditional tonics and nutritional products increased from 4.08% to 4.64%, while the proportion of health supplements/dietary nutritional supplements increased from 67.09% to 70.83%, with a higher absolute growth (about 3.74% vs 0.56%). The distractor confuses 'growth amplitude' with 'potential' and wrongly suggests shifting to the low - base area, while the chart shows that health supplements are the dominant category with a stronger upward trend.",
+        "G": "Based on chart_155_1 (the Medical Services Market has the highest share) and chart_155_2 (the sales proportion of medical care decreased from 28.83% in 2022 to 24.53% in 2023, showing a downward trend), combined with the importance of e-commerce channels, the strategy needs innovation to reverse the online weakness."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option does not rely on the charts and is only based on common - sense advice (such as increasing the budget to improve visibility). However, it does not optimize the strategy according to the change in growth rate or the platform characteristics. The statement is broad and lacks specific actions, so it can be easily excluded.",
+        "B": "This option seemingly combines chart_155_2 and chart_155_4: The proportion of the medical care category was 24.53% in 2023, but chart_155_2 shows that its proportion decreased from 28.83% to 24.53%, indicating a downward trend. Although the scale of Kuaishou is growing, its growth rate is low in the later stage (such as 1%). The distractor wrongly ignores the decreasing proportion and the growth - rate risk, while the correct option should focus on high - growth categories (such as health supplements).",
+        "C": "Based on chart_155_3 (the sales scale of the pharmaceutical e-commerce industry increased from 70 billion yuan in 2018 to 290 billion yuan in 2023, with an absolute scale expansion, but the year - on - year growth rate decreased from 55% to 15%, showing a downward trend in growth rate) and chart_155_4 (the industry scale data of Kuaishou shows an overall upward trend, and the year - on - year growth rate is relatively high in the later stage, such as at the end of 2023. Although it decreased from 10% to 1%, the decline is relatively gentle). This shows that Kuaishou is more resilient during the slow - down period of growth rate, and the strategy can take advantage of its stable growth.",
+        "D": "This option ignores the chart data and is based on general business principles (such as improving product quality). However, it does not involve channel optimization or coping with the growth rate. The strategic direction is off - topic from the question, and the logic is general but ineffective.",
+        "E": "Based on chart_155_3 (the market scale is continuously growing) and chart_155_4 (the year - on - year growth rate of Douyin fluctuates greatly, such as from 500% in the early stage to 3% in the later stage, with obvious peaks and valleys), the strategy needs to be time - sensitive to maximize the input - output ratio.",
+        "F": "This option misinterprets the data in chart_155_4: The growth rate of Douyin was high in early 2022 (such as 500%), but it decreased significantly to 3% in late 2023 (at the end of 2023). The distractor confuses 'short - term peak' with 'long - term driving force'. Chart_155_3 shows that the overall growth rate of the industry decreased from 55% to 15%. The correct strategy requires dynamic management rather than single - minded reliance.",
+        "G": "Based on chart_155_3 (the downward trend of growth rate) and chart_155_2 (the high - growth sales proportion of health supplements), combined with chart_155_4 (the overall downward trend of platform growth rates), the strategy of shifting to high - growth categories (such as health supplements) can hedge channel risks, which is in line with the value of efficiency optimization."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option seemingly uses the data from chart_155_3 (the decreasing growth rate), but it misinterprets it: The market scale increased from 70 billion yuan to 290 billion yuan (chart_155_3), and it is still growing. Chart_155_4 shows that the platform scale is rising. The distractor ignores the absolute growth and the online trend and wrongly suggests shifting to offline, which goes against the e - commerce development trend. The strategic direction has an obvious deviation.",
+        "B": "Based on chart_155_1 (the Medical Services Market has the highest share of 53.9%), chart_155_2 (the decreasing sales proportion of medical care), and chart_155_4 (the overall growth of the scale of Douyin and Kuaishou platforms), the strategy can make up for the e - commerce weakness through service innovation (such as combining the scale data in chart_155_4) and improve the overall market coverage.",
+        "C": "This option does not rely on the charts and is only based on general strategic advice (such as mergers and acquisitions to expand scale). However, it does not specifically involve consumer preferences, e - commerce trends, or product innovation. The strategy is broad and lacks data support, so it can be easily excluded by common sense.",
+        "D": "This option wrongly combines chart_155_1 and chart_155_3: The share of the pharmaceutical market is 19.6%, but chart_155_2 shows that the sales proportion of health supplements/dietary nutritional supplements on e - commerce platforms is 70.83%, far higher than that of pharmaceuticals (not directly listed). The scale of the pharmaceutical e - commerce industry is growing but the growth rate is slowing down. The distractor confuses 'overall share' with 'e - commerce potential' and wrongly prioritizes the pharmaceutical market, while the data shows that health supplements are the dominant category.",
+        "E": "Based on chart_155_3 (the year - on - year growth rate decreased from 55% to 15%, showing a slow - down trend) and chart_155_4 (the year - on - year growth rates of both Douyin and Kuaishou decreased significantly), combined with the need for efficiency improvement, the strategy of shifting to technology investment rather than budget expansion is in line with the value of sustainable growth.",
+        "F": "Based on chart_155_2 (the sales proportion of health supplements/dietary nutritional supplements is the highest and increased from 67.09% to 70.83%, showing an upward trend) and chart_155_3 (the market scale of the pharmaceutical e - commerce industry increased year by year to 290 billion yuan), it shows that this category has a strong synergy with online channels, and the strategy can capture the core growth driving force.",
+        "G": "This option ignores the chart content and is based on social trends (such as environmental protection appeal). However, it does not link to category focus or service innovation and cannot cope with growth challenges. The logic is unclear and lacks pertinence."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

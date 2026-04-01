@@ -89,6 +89,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "依赖chart_141_1（孕产知识关注比例较高）和chart_141_4（孕前检查新增消费比例最高），需联合分析知识型内容与医疗消费的隐含联系，不能单从一张图表推断。",
+        "B": "这是一个Hard干扰项，错误比较图表差距：孕产知识关注67.9%与备孕书籍消费31.7%实际差异36.2%（67.9 - 31.7），远非'差异小'；图表中书籍消费比例低，表明知识关注不直接驱动书籍消费。",
+        "C": "依赖chart_141_1（备孕同房技巧和产后恢复关注比例）和chart_141_4（验孕和家居家电新增消费比例），需对比中等关注与中等消费、低关注与低消费的规律，揭示整体相关性。",
+        "D": "这是一个Easy干扰项，基于常识推断备孕人群可能因家庭需求增加汽车消费，但未依赖图表数据（汽车新增消费仅5.7%，为最低）。常识上，备孕阶段通常不涉及汽车消费升级，因此错误。",
+        "E": "这是一个Easy干扰项，基于行业常识（产后恢复可能关联家居家电）泛化，但未依赖数据：产后恢复关注48.3%虽中等，家居家电消费仅15.5%，图表未显示直接驱动；常识上，产后恢复更可能服务消费，而非产品。",
+        "F": "这是一个Hard干扰项，错误解读图表数值：营养补充关注88.7%与备孕保健品消费77.4%看似接近，但实际差距11.3%（88.7 - 77.4），并非'几乎相同'；且其他内容如孕产知识关注67.9%与孕前检查消费78.5%有差异，显示非一一对应。",
+        "G": "依赖chart_141_1（营养补充关注比例最高）和chart_141_4（备孕保健品和饮食新增消费比例均高），需跨图比较关注度与消费强度的数值趋势，发现健康相关关注直接转化为消费行为。"
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "依赖chart_141_2（短视频偏好比例很高）和chart_141_5（短视频平台接触占比极低，母婴APP接触占比最高），需联合分析偏好与实际接触的冲突（高偏好但低平台使用），隐含短视频内容可能被整合到母婴APP中。",
+        "B": "这是一个Hard干扰项，错误解读图表数值差距：短视频偏好75.5%与平台接触4.9%实际差异70.6%（75.5 - 4.9），巨大而非'接近'；图表显示强烈冲突（偏好高但接触低），但此选项错误描述为一致。",
+        "C": "这是一个Hard干扰项，错误关联图表排序：图文偏好81.9%最高，但内容社区平台接触仅12.0%（中等），而母婴APP接触61.5%最高；选项错误将'较高'归因于通用社区，而实际母婴APP是专业平台。",
+        "D": "依赖chart_141_2（直播偏好比例中等）和chart_141_5（线下活动和社交平台接触占比低，母婴APP接触占比高），需对比偏好与接触平台的分布，说明直播形式依赖于综合平台而非小众渠道。",
+        "E": "这是一个Easy干扰项，基于常识（语音课程偏好可能依赖社交平台）推断，但未依赖图表数据：语音课程偏好仅27.9%（较低），社交平台接触仅5.0%（最低），常识上私密需求不直接关联商品平台，因此错误。",
+        "F": "这是一个Easy干扰项，基于行业常识（直播和线下活动偏好相似应提升平台使用）泛化，但未依赖数据：偏好比例40.3%和40.4%确实相近，但图表中社交平台接触仅5.0%，未提及线下活动平台；常识上，直播可通过APP集成，不直接冲突。",
+        "G": "依赖chart_141_2（图文偏好比例最高）和chart_141_5（母婴APP接触占比最高，内容社区占比中等），需跨图比较偏好与平台实际使用的数值，发现图文需求高度依赖专业平台而非其他，揭示平台功能差异。"
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -136,6 +170,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "依赖chart_141_3（普通妈妈网友信赖比例较高）和chart_141_1（备孕同房技巧关注比例）及chart_141_5（内容社区平台接触占比），需联合信赖来源、关注内容与平台使用，揭示社群信赖对隐私话题的影响。",
+        "B": "依赖chart_141_3（医生信赖比例最高）和chart_141_1（营养补充和作息调理关注比例最高），需跨图分析信赖来源与关注内容的数值趋势，发现权威信赖强化核心健康关注，不能单图推断。",
+        "C": "这是一个Hard干扰项，错误比较图表数值：医生信赖77.0%与营养补充关注88.7%实际差异11.7%（88.7 - 77.0），并非'相似'；且消费行为（如保健品77.4%）未直接关联信赖，选项错误简化驱动关系。",
+        "D": "这是一个Easy干扰项，基于常识（社群信赖可能提升平台使用）泛化，但未依赖数据：普通妈妈网友信赖55.1%与内容社区平台接触12.0%实际差异43.1%，图表未显示显著影响；常识上，社群信赖更可能影响信息获取而非消费，因此错误。",
+        "E": "这是一个Hard干扰项，错误关联图表数据：母婴媒体编辑信赖61.1%和图文偏好81.9%虽均较高，但未直接链接消费（如备孕产品消费52.8%中等）；图表中信赖来源与消费无显性关联，此选项过度解读为'直接提升'。",
+        "F": "依赖chart_141_3（KOL信赖比例最低）和chart_141_2（短视频偏好比例很高）及chart_141_4（孕产产品新增消费比例中等），需比较信赖低但偏好高的冲突，并关联消费行为，表明偏好与信赖脱节但消费仍存在。",
+        "G": "这是一个Easy干扰项，基于常识（低信赖可能导致消费减少）推断，但未依赖图表数据：KOL信赖虽低20.4%，但备孕产品新增消费52.8%中等，且其他消费如保健品77.4%高；常识上，消费受多因素影响，非单一信赖驱动，因此错误。"
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -158,6 +209,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "La opción 1 combina chart_141_1 (la proporción de atención a la suplementación nutricional y el ajuste de trabajo y descanso es la más alta) y chart_141_2 (la proporción de preferencia por los gráficos y los vídeos cortos es la más alta), y se deduce que la alta coincidencia entre el tema y la forma del contenido puede aumentar la cobertura.",
+        "B": "La opción 2 combina chart_141_2 (se prefieren fuertemente los gráficos y los vídeos cortos) y chart_141_3 (los médicos y los editores de medios profesionales de maternas e infantes tienen la mayor confianza), y se deduce que la combinación de la forma de alta preferencia y la fuente de alta confianza puede aumentar la credibilidad.",
+        "C": "Esta es una opción de distracción fácil: La sugerencia de \"aumentar la frecuencia de actualización y la diversidad\" es un conocimiento general en la industria (como el principio básico del marketing de contenido), no se basa en ningún dato de los gráficos (por ejemplo, no se menciona el tema de atención específico o la forma de preferencia), y no tiene una guía de acción clara (por ejemplo, no se especifica cómo combinar los puntos de atención o las preferencias), por lo tanto, se puede excluir directamente por conocimiento general.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente se utilizan datos de los gráficos (la preferencia por la transmisión en vivo es del 40.3% según chart_141_2), pero se interpreta erróneamente la tendencia. En realidad, la preferencia por la transmisión en vivo es solo del 40.3%, mucho menor que la de los gráficos (81.9%) y los vídeos cortos (75.5%), y no se combina efectivamente con el tema de alta atención (por ejemplo, la suplementación nutricional con un 88.7%). Esta sugerencia confunde el \"interés medio\" con la \"prioridad\" y crea la ilusión de que la transmisión en vivo es una forma eficiente.",
+        "E": "La opción 3 combina chart_141_3 (la confianza en los KOL y las marcas es baja) y chart_141_2 (los datos de la forma de preferencia), y se deduce que la inversión en fuentes de baja confianza es poco eficiente y se debe optimizar la asignación de recursos.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente se utilizan datos de los gráficos (la confianza en los KOL es del 20.4% según chart_141_3), pero se asocia erróneamente la confianza y el efecto de propagación. En realidad, la confianza en los KOL es la más baja (20.4%), mucho menor que la de los médicos (77.0%), pero esta sugerencia sobreestima su influencia y omite el problema de la credibilidad (mejorar la credibilidad es el núcleo del problema), lo que lleva a un desvío en la dirección de la estrategia."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -179,6 +245,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: La sugerencia de \"distribuir el presupuesto de manera equitativa\" es un conocimiento general en el marketing (como una estrategia de dispersión de recursos), no se basa en los datos de los gráficos (por ejemplo, no se menciona la tendencia de consumo específica o el hábito de acceso a la plataforma), y no tiene una guía de acción eficiente (se omite las categorías de alto consumo como el control prenatal con un 78.5%), por lo tanto, se puede excluir directamente.",
+        "B": "La opción 2 combina chart_141_4 (la proporción de nuevo consumo en la dieta prenatal es alta) y chart_141_5 (el acceso a las aplicaciones de gestión de salud femenina y las plataformas de comunidades de contenido es el segundo más alto), y se deduce que la coincidencia entre los puntos calientes de consumo y las plataformas con potencial puede evitar la dependencia excesiva de un solo canal.",
+        "C": "Esta es una opción de distracción difícil: Aparentemente se utilizan datos de los gráficos (el consumo de automóviles es del 5.7% según chart_141_4 y el acceso a las plataformas de vídeos cortos es del 4.9% según chart_141_5), pero se interpreta erróneamente la relación entre los valores. En realidad, la proporción de consumo de automóviles es la más baja (5.7%) y el acceso a las plataformas de vídeos cortos también es el más bajo (4.9%), pero esta sugerencia crea la ilusión de que \"la baja proporción representa potencial\" y omite que una estrategia eficiente debe centrarse en las categorías de alta proporción (como el control prenatal con un 78.5%) y las plataformas de alto acceso (las aplicaciones para madres e infantes con un 61.5%), lo que lleva a un desperdicio de recursos.",
+        "D": "La opción 1 combina chart_141_4 (la proporción de nuevo consumo en el control prenatal y los productos de salud prenatal es la más alta) y chart_141_5 (la proporción de acceso a las aplicaciones para madres e infantes es la más alta), y se deduce que la sinergia entre las categorías de alto consumo y las plataformas de alto acceso puede optimizar la producción de recursos.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente se utilizan datos de los gráficos (el acceso a las aplicaciones para madres e infantes es del 61.5% y el acceso a las aplicaciones de salud femenina es del 16.6% según chart_141_5), pero se confunde erróneamente el \"alto acceso\" con el \"saturado\". En realidad, el acceso a las aplicaciones para madres e infantes es el más alto (61.5%), lo que indica que es el canal principal, pero esta sugerencia juzga erróneamente que está \"saturado\" y sobreestima el espacio de crecimiento de las plataformas de baja proporción (16.6%), omitiendo los datos de la tendencia de consumo (como la alta demanda de control prenatal), lo que lleva a un desvío evidente en la dirección de la estrategia.",
+        "F": "La opción 3 combina chart_141_5 (la proporción de acceso a las plataformas de vídeos cortos y las plataformas sociales es la más baja) y chart_141_4 (los datos de las categorías de alto consumo), y se deduce que el beneficio marginal de las plataformas de bajo acceso es bajo y la redistribución de recursos puede mejorar el ROI."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -202,6 +283,21 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Aparentemente se utilizan datos de los gráficos (la confianza en los amigos cercanos es del 44.2% según chart_141_3 y el acceso a las plataformas sociales es del 5.0% según chart_141_5), pero se asocia erróneamente la confianza y la efectividad de la plataforma. En realidad, el acceso a las plataformas sociales es el más bajo (5.0%) y la confianza en los amigos (44.2%) es mucho menor que la de los médicos (77.0%), pero esta sugerencia crea la ilusión de que \"la confianza mediana y el bajo acceso representan una oportunidad\" y omite las plataformas de alto acceso (las aplicaciones para madres e infantes con un 61.5%) y las fuentes de alta confianza (los médicos), lo que lleva a un soporte integral no completo.",
+        "B": "La opción 2 combina chart_141_1 (la proporción de atención a la suplementación nutricional y el ajuste de trabajo y descanso es la más alta), chart_141_3 (la confianza en los editores de medios profesionales de maternas e infantes es fuerte) y chart_141_4 (la proporción de consumo en la dieta prenatal es alta), y se deduce que la combinación del tema del contenido, la distribución confiable y el comportamiento de consumo puede aumentar la fidelidad de los usuarios.",
+        "C": "Esta es una opción de distracción difícil: Aparentemente se utilizan datos de los gráficos (el consumo de electrodomésticos es del 15.5% y los libros de prenatalidad es del 31.7% según chart_141_4 y el acceso a las plataformas de comunidades de contenido es del 12.0% según chart_141_5), pero se interpreta erróneamente la tendencia de consumo. En realidad, la proporción de consumo de electrodomésticos es la más baja (15.5%), no es una necesidad central (como el control prenatal con un 78.5%), pero esta sugerencia combina erróneamente con las categorías de consumo mediana (los libros con un 31.7%) y las plataformas de bajo acceso (las comunidades de contenido con un 12.0%), omitiendo las categorías de alto consumo y las fuentes de alta confianza, lo que lleva a un desvío evidente en la dirección de la estrategia.",
+        "D": "La opción 1 combina chart_141_5 (la proporción de acceso a las aplicaciones para madres e infantes es la más alta), chart_141_3 (la confianza en los médicos es la más alta) y chart_141_4 (la proporción de consumo en el control prenatal y los productos de salud prenatal es la más alta), y se deduce que la integración tridimensional de la plataforma, la fuente y el consumo puede mejorar la eficiencia del servicio.",
+        "E": "La opción 3 combina chart_141_3 (la confianza en los KOL es baja), chart_141_4 (la proporción de consumo de automóviles es la más baja) y chart_141_1 (los datos del contenido de atención), y se deduce que la redistribución de recursos en los campos de bajo valor es coherente con el principio de utilización eficiente de recursos.",
+        "F": "Esta es una opción de distracción fácil: La sugerencia de \"establecer un sistema de retroalimentación\" es una estrategia de optimización general (como la gestión de la experiencia del usuario), no se basa en los datos de los gráficos (por ejemplo, no se involucra la demanda de información, el comportamiento de consumo o la confianza en la fuente), y no tiene una guía de integración (por ejemplo, no se vinculan recursos específicos), por lo tanto, es general y se puede excluir directamente."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     }
   ]

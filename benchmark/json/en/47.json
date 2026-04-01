@@ -86,6 +86,22 @@
       "label": [
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: Misinterpret chart_47_4 (Douyin's proportion is 45% and Taotian's is 45% in MAT2024, not exceeding 50%), and chart_47_1 shows that the online share only increased slightly (from 41% to 43%), not a significant leap.",
+        "B": "Option 1 is correct and relies on the combined reasoning of chart_47_4 and chart_47_3: Chart_47_4 shows that Douyin's platform share increased from 30% to 45% (a significant increase for the emerging platform), while chart_47_3 shows that the retail sales increased from 276.3 billion yuan to 295.9 billion yuan (a steady annual growth), indicating that Douyin's expansion may have directly driven the sales growth. This connection cannot be inferred from a single chart (for example, only looking at chart_47_4, we cannot know the overall retail trend).",
+        "C": "Option 2 is correct and relies on the combined reasoning of chart_47_4 and chart_47_1: Chart_47_4 shows that Taotian's share decreased from 60% to 45% (a decline for the traditional platform), while chart_47_1 shows that the online share increased from 41% to 43% (a slight overall increase), indicating that Douyin's growth offset Taotian's decline and drove the increase in the online share. Combined with the retail growth in chart_47_3, this implies that the internal structural adjustment of the online channels supported the market expansion. The reasoning needs to consider both the internal changes in the channels and the overall sales trend.",
+        "D": "This is an easy distractor: It generally talks about brand promotions (industry common sense), but there is no relevant data in the charts to support it. The original question involves channel changes, not promotion details.",
+        "E": "This is an easy distractor: It is based on common sense (such as the digital trend) and does not rely on any chart data. In fact, the charts do not mention consumer preferences but focus on share values and retail sales.",
+        "F": "This is a hard distractor: Misinterpret chart_47_4 (JD's share is always 10%, no growth), and wrongly infer its driving force. In fact, Douyin is the main growth driver."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -107,6 +123,22 @@
       "label": [
         "A",
         "C"
+      ],
+      "cot": {
+        "A": "Option 1 is correct and relies on the combined reasoning of chart_47_2 and chart_47_1: Chart_47_2 shows that biotech raw materials account for 42% (the largest proportion of investment), while chart_47_1 shows that the online share increased from 41% to 43% (a slight increase), indicating that biotech investment may have enhanced the attractiveness of online channels through innovative products (such as high - efficiency ingredients) and promoted the share increase. The reasoning needs to connect the investment focus with the channel trend across charts. Neither chart_47_2 nor chart_47_1 alone can lead to this conclusion.",
+        "B": "This is a hard distractor: Misinterpret chart_47_2 (beauty and skincare brands account for 25%, not the highest; the highest is biotech at 42%), and wrongly associate it with chart_47_4 (Douyin's rise is reflected by the share change, not driven by investment).",
+        "C": "Option 2 is correct and relies on the combined reasoning of chart_47_2 and chart_47_4: Chart_47_2 shows that the investment in beauty and skincare brands accounts for 25% (relatively high but not dominant), while chart_47_4 shows that Douyin's share increased from 30% to 45% (the rise of the emerging platform), but the online share in chart_47_1 increased gently (only 2 percentage points), indicating that the investment may have been prioritized in the technology field (such as biotech) rather than directly promoting the brand channel expansion, thus explaining why the online share did not increase significantly. This requires comparing the investment distribution with the internal dynamics of the channels.",
+        "D": "This is a hard distractor: Misinterpret chart_47_1 (the offline share decreased) and wrongly associate it with chart_47_2 (medical technology accounts for 20%, not the main part); the investment data does not involve channel preferences.",
+        "E": "This is an easy distractor: Based on common sense (investment enhances competitiveness) and does not rely on the charts; the charts do not discuss brand competitiveness or conversion mechanisms.",
+        "F": "This is a hard distractor: Misinterpret chart_47_2 (biotech raw materials account for 42%, but the investment direction does not specify the channel), and chart_47_1 shows that the offline share decreased (from 59% to 57%), not optimized; there is no direct association between investment and channels."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B",
+        "D"
       ]
     },
     {
@@ -129,6 +161,22 @@
       "label": [
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: Misinterpret chart_47_2 (medical technology accounts for 20%, not the largest; the largest is biotech at 42%), and wrongly infer the full - channel expansion; the investment data does not show details of supply chain optimization.",
+        "B": "This is an easy distractor: Based on macro - economic common sense (consumption upgrading) and does not rely on the charts; the charts do not mention GDP or macro - factors.",
+        "C": "This is a hard distractor: Misinterpret chart_47_2 (42% of biotech is investment, not sales), and exaggerate Douyin's influence (chart_47_4 shows that Douyin increased from 30% to 45%, not a sharp increase); and the retail sales growth is stable (chart_47_3), not a sharp increase.",
+        "D": "Option 2 is correct and relies on the combined reasoning of chart_47_1, chart_47_3, and chart_47_2: Chart_47_3 shows that the retail sales increased to 295.9 billion yuan (increasing annually), chart_47_1 shows that the offline share decreased to 57% (a slight decrease), while chart_47_2 shows a high proportion of investment in biotech raw materials, indicating that the investment has improved the product strength (such as raw material innovation), prompting consumers to turn to emerging online platforms (the growth of Douyin in chart_47_4), thus driving sales. This requires connecting investment, channel transfer, and sales trends, and a single chart cannot cover it.",
+        "E": "This is a hard distractor: Misinterpret chart_47_1 (the offline share decreased from 59% to 57%, not increased), and wrongly associate it with chart_47_3 (the growth of retail sales); in fact, the offline share decreased.",
+        "F": "Option 1 is correct and relies on the combined reasoning of chart_47_1, chart_47_4, and chart_47_2: Chart_47_1 shows that the online share increased to 43% (an overall increase), chart_47_4 shows that Douyin's share increased to 45% (a significant increase for the emerging platform), while chart_47_2 shows that the investment in biotech raw materials accounts for 42% (dominant), indicating that biotech investment may have spawned innovative products and promoted sales through high - growth channels such as Douyin (the retail growth in chart_47_3). The reasoning needs to integrate three charts. For example, only looking at chart_47_2 and chart_47_3 cannot explain the role of channels."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "C",
+        "A"
       ]
     },
     {
@@ -152,6 +200,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option misinterprets chart_47_4: Taotian's share decreased from 60% in MAT2022 to 45% in MAT2024, showing a downward trend; while Douyin's share increased from 30% to 45%. The suggestion to 'increase investment in Taotian' ignores the downward trend of the share and conflicts with the correct strategy (such as reducing investment in traditional e - commerce).",
+        "B": "This option has multiple errors: First, chart_47_1 shows that the online share increased from 41% in 2022 to 43% in 2024, showing an upward trend, but the interference option claims 'only 43%' and suggests reducing; Second, chart_47_3 shows that the retail sales volume increased from 2763 billion yuan in 2022 to 2959 billion yuan in 2024 (an increase of 196 billion yuan), with a stable growth rate, but the interference option misjudges it as'slow growth'; Finally, it does not consider the high - growth of core online channels (such as Douyin).",
+        "C": "Option 1 involves chart_47_1 (the online channel share has been growing steadily from 2022 - 2024) and chart_47_4 (Douyin's share increased from 30% to 45%, with the fastest growth rate).",
+        "D": "Option 2 involves chart_47_1 (although the offline channel share has decreased, it still exceeds 50%) and chart_47_3 (the retail sales volume has been increasing year by year, expanding by 196 billion yuan from 2022 - 2024, and offline is still an important channel).",
+        "E": "Option 3 involves chart_47_4 (Taotian's share decreased from 60% to 45%, showing an obvious decline) and chart_47_1 (the overall online share increased, indicating a change in the channel structure).",
+        "F": "This option is based on general marketing common sense (advertising to increase brand awareness) and does not cite any chart data (such as channel share or growth rate), so it cannot provide action guidelines for specific trends (such as online growth or the rise of Douyin) and is easy to be excluded.",
+        "G": "This option relies on common - sense price strategies, ignores the stable growth of retail sales volume shown in the chart (chart_47_3) and channel migration (chart_47_1), and does not optimize resource allocation in combination with data. The strategy is broad and ineffective."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -174,6 +239,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option uses general investment principles (diversification) and does not cite any chart data (such as investment and financing distribution or retail sales volume trend), so it cannot provide specific guidelines for high - growth opportunities (such as the biotech hot spot) and is easy to be excluded by common sense.",
+        "B": "This option seriously misinterprets the trend: In chart_47_2, the proportion of biotech raw materials is 42%, which is the highest, indicating a hot spot; but the interference option wrongly quotes chart_47_3 (a growth of 55 billion yuan from 2022 - 2023) and ignores the growth of 141 billion yuan from 2023 - 2024 (acceleration), misjudging it as 'lack of growth momentum'. Biotech is a high - potential field, and reducing investment conflicts with the data.",
+        "C": "This option misinterprets the data: Chart_47_2 shows that the proportion of beauty and skincare brands is 25%, lower than that of biotech raw materials (42%), but the interference option exaggerates its importance; Chart_47_3 shows that the retail sales volume has increased overall, but it does not prove that brand investment has the highest return rate. The correct strategy should prioritize biotech (with the highest proportion).",
+        "D": "Option 2 involves chart_47_2 (beauty and skincare brands account for 25%, the second - highest share) and chart_47_3 (the retail sales volume increases by about 2 - 5% annually, and the brand end can capture the increment).",
+        "E": "Option 3 involves chart_47_2 (medical technology accounts for 20%, complementary to other fields) and chart_47_3 (the growth of retail sales volume provides a market foundation, and innovative products can stimulate demand).",
+        "F": "This option is based on common - sense strategies (brand cooperation), ignores the investment and financing hot spots in chart_47_2 (such as biotech raw materials accounting for 42%) and the growth of retail sales volume in chart_47_3. The strategy is vague and lacks data support.",
+        "G": "Option 1 involves chart_47_2 (biotech raw materials account for 42%, the largest share) and chart_47_3 (the retail sales volume increased by 7.1% from 2022 - 2024, supporting the demand for raw materials)."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -198,6 +280,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option misinterprets the trend: The upward trend of the online share in chart_47_1 (from 41% to 43%) is misjudged as'slight increase', ignoring the dynamics of core channels (such as the doubling of Douyin's share); The growth of retail sales volume in chart_47_3 supports strategy adjustment, but the interference option suggests 'postponing'; At the same time, the proportion of medical technology in chart_47_2 is 20%, lower than that of biotech (42%), so it is wrong to prioritize investment in it.",
+        "B": "This option is based on general business common sense (improving services) and does not integrate any chart data (such as channel migration or investment and financing). The strategy is broad and lacks specific actions (such as product development or channel selection) and is easy to be excluded.",
+        "C": "Option 2 involves chart_47_1 (the offline share exceeds 55% and is still dominant), chart_47_3 (the growth of retail sales volume provides budget space), and chart_47_4 (JD's share is stable at 10%, which can be optimized rather than reduced).",
+        "D": "This option relies on common - sense product strategies (increasing SKUs), ignores data such as investment and financing hot spots (chart_47_2) or channel dynamics (chart_47_4), and does not optimize for high - growth opportunities (such as biotech or the Douyin platform).",
+        "E": "Option 3 involves chart_47_4 (Douyin's share has doubled, and Taotian has declined), chart_47_3 (the continuous growth of retail sales volume requires agile strategies), and chart_47_1 (channel migration requires dynamic responses).",
+        "F": "This option has multiple errors: First, chart_47_4 shows that JD's share is stable but only 10%, far lower than Douyin's growth (from 30% to 45%), and the interference option's suggestion to 'focus on promotion' overestimates its impact; Second, chart_47_1 shows that the offline share has decreased (from 59% to 57%), but the interference option claims it is 'dominant' and suggests combination; Finally, the biotech hot spot (42%) in chart_47_2 is not prioritized, and the strategy confuses channels and products.",
+        "G": "Option 1 involves chart_47_2 (biotech raw materials account for 42%, an investment and financing hot spot), chart_47_4 (Douyin's share has increased to 45%, a high - growth online channel), and chart_47_1 (the online share has increased, and product innovation needs to be adapted to the channel)."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     }
   ]

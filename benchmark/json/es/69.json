@@ -85,6 +85,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：它错误解读了图表数据；chart_69_2显示2021年Fiesta de la Primavera人次恢复103.2%，但旅游支出比例在chart_69_1中仅为15.2%（较低），干扰项误将'人次恢复高'等同于'支出比例应高'，忽略了支出比例是未来计划而非过去数据，且收入恢复率（77.0%）仍低于100%。",
+        "B": "这是一个Easy干扰项：它依赖一般经济常识（投资偏好），但图表未讨论投资行为；chart_69_1显示Educación、Salud等支出增加，但未比较投资，因此错误。",
+        "C": "需要联合Viajes支出比例低和2022年多个假期恢复数据下滑（如Fiesta de la Primavera旅游收入恢复仅36.2%，Festival de Rastrillo恢复44.0%）。推理逻辑是：2022年恢复率下降显示旅游业脆弱性，可能使支出意向保守，需比较两张图表的时间趋势和数值。",
+        "D": "需要联合Viajes支出比例低和2022上半年residentes rurales旅游人次减少35.4%。推理逻辑是：农村市场疲软可能代表broader经济问题，减少旅游支出需求，需跨图关联人群变化与支出意向。",
+        "E": "这是一个Hard干扰项：它错误比较了图表差距；chart_69_2指出2022上半年residentes rurales旅游人次减少35.4% vs residentes urbanos减少16.6%，干扰项误认为'减少少'表示'拖累小'，但实际农村减少更多（35.4% > 16.6%），表明农村影响更大，而非城市。",
+        "F": "这是一个Easy干扰项：它基于常识（如油价影响旅行成本），但未在图表中提及；图表数据未涉及外部因素如油价，仅关注支出项目和恢复率，因此与图表无关。",
+        "G": "需要联合Viajes支出增加比例仅为15.2%（在支出项目中排名较低）和例如2021年Día Nacional假期旅游收入恢复至68.0%但人次恢复至85.0%（收入恢复率低于人次恢复率，表明人均消费下降）。推理逻辑是：收入恢复不足可能暗示经济压力，影响人们对未来旅游支出的信心，不能仅从单张图表推断。"
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合2022年旅游恢复下滑（如Fiesta de la Primavera收入恢复36.2%）和Higiene y Seguridad偏好91.2%。推理逻辑是：高卫生需求与恢复下滑的冲突暗示健康风险持续影响旅游业，需比较偏好数据和恢复趋势，不能单张图表解释矛盾。",
+        "B": "这是一个Hard干扰项：它错误归因图表数据；chart_69_2显示2021年Día Nacional收入恢复68.0%，chart_69_3显示Higiene y Seguridad偏好91.2%，干扰项误认为'高偏好导致低恢复'，但实际冲突源于外部事件（如疫情反复），且偏好是需求侧，恢复受供给侧影响。",
+        "C": "这是一个Easy干扰项：它泛化行业常识（娱乐驱动旅游），但图表未证明此因果；chart_69_3有Experiencia Única偏好，但chart_69_2显示恢复波动（如2021年Festival del Medio Otoño收入恢复56.3%），偏好未转化为稳定消费。",
+        "D": "这是一个Hard干扰项：它错误量化了图表差距；chart_69_2中2022年Festival del Bote del Dragón人次恢复75.0%，chart_69_3 Higiene y Seguridad偏好91.2%，干扰项误推'偏好高应导致恢复高'，但75.0%与91.2%差距大（16.2个百分点），且收入恢复仅58.0%，表明偏好不直接决定恢复水平。",
+        "E": "需要联合如2021年Día del Trabajo收入恢复78.6%，人次恢复87.2%（收入低于人次）和Experiencia Única偏好49.8%。推理逻辑是：偏好较高但消费恢复不足，表明体验需求未驱动收入增长，需跨图分析偏好与消费行为的关系。",
+        "F": "这是一个Easy干扰项：它基于常识（卫生安全重要性），但未考虑图表上下文；chart_69_3显示Higiene y Seguridad偏好高，但chart_69_2中2022年恢复数据下滑（如收入恢复率低），表明外部因素（如疫情）可能导致波动，因此错误。",
+        "G": "需要联合2021年Fiesta de la Primavera人次恢复103.2%和Higiene y Seguridad 91.2%。推理逻辑是：人次恢复高但偏好强调卫生，冲突可能源于疫情不确定性（如2022年下滑），需联合评估偏好与外部事件的影响。"
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：它使用行业泛论（政策作用），但图表未涉及政策；chart_69_1、69_2、69_3仅讨论消费者行为数据，无外部干预内容。",
+        "B": "需要联合Educación支出28.1%，Viajes支出15.2%和2022上半年residentes rurales旅游人次减少35.4%。推理逻辑是：教育支出高可能挤占旅游预算，农村市场下降加剧此趋势，需跨图比较支出优先级与人群变化。",
+        "C": "这是一个Hard干扰项：它错误解读了图表排序和差距；chart_69_1中Educación支出28.1% vs Viajes 15.2%（差距12.9个百分点），chart_69_2显示2021年Día del Trabajo人次恢复87.2%，干扰项误认为'教育支出高但旅游恢复好，因此无关'，但实际教育支出可能挤占旅游预算，且人次恢复不等于收入恢复（78.6%）。",
+        "D": "需要联合Higiene y Seguridad偏好91.2%和如2020年Festival del Medio Otoño y Día Nacional人次恢复79.0%。推理逻辑是：高卫生偏好与早期恢复较好时段对应，暗示健康措施促进旅游，需联合偏好数据和恢复率，不能单图推断。",
+        "E": "这是一个Easy干扰项：它依赖常识（天气影响），但未在图表中出现；所有图表聚焦支出、恢复和偏好，未提天气，因此无关。",
+        "F": "这是一个Hard干扰项：它错误比较了图表数值；chart_69_3 Higiene y Seguridad偏好91.2%，chart_69_2中2020年Festival del Medio Otoño y Día Nacional人次恢复79.0%，干扰项误将'79.0%接近91.2%'视为相当，但实际差距12.2个百分点，且收入恢复仅69.9%，表明健康措施未完全解决复苏问题（如2022年数据下滑）。",
+        "G": "需要联合Bienes de gran valor支出18.7%，Cultura y entretenimiento social支出18.1%和旅游收入恢复率波动（如2021年Festival del Bote del Dragón收入恢复59.9%）。推理逻辑是：其他类别支出较高可能分流旅游资金，导致恢复不稳定，需跨图分析支出分配与消费趋势。"
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción de conocimiento general: no se basa en los datos de ningún gráfico, solo en la lógica comercial general (la mercadotecnia puede mejorar la marca). Sin embargo, la pregunta solicita ajustes específicos en las estrategias, y esta sugerencia es demasiado general y no ofrece orientación de acción específica, por lo que es fácil de descartar.",
+        "B": "Aparentemente utiliza los datos del chart_69_1, pero interpreta erróneamente la relación: la voluntad de gasto en bienes de gran valor (18.7%) y la voluntad de gasto en viajes (15.2%) son categorías independientes. Se confunden ambas (se interpreta erróneamente los bienes de gran valor como relacionados con los viajes). La interpretación correcta debe centrarse en los datos propios del turismo (como la tendencia de recuperación o las preferencias), en lugar de desviarse hacia un campo no relacionado.",
+        "C": "Razonamiento combinado de la opción 2: en el chart_69_3, la preferencia por la 'Experiencia Única' tiene la segunda proporción más alta (49.8%); en el chart_69_1, la voluntad de gasto en cultura y entretenimiento social es relativamente alta (18.1%); y el chart_69_2 muestra que las fiestas de experiencia como el Festival del Medio Otoño y el Día Nacional se recuperaron bien (por ejemplo, la recuperación de los ingresos turísticos en el Día Nacional de 2021 fue del 68.0%), lo que indica que los productos de experiencia coinciden con la tendencia de demanda.",
+        "D": "Aparentemente utiliza los datos del chart_69_2, pero interpreta erróneamente la tendencia: la recuperación del número de visitantes turísticos durante la Fiesta de la Primavera en 2021 del 103.2% solo refleja la recuperación interna, no el turismo internacional; y los datos de 2022 (como la recuperación del 68.0% durante la Fiesta de la Primavera) muestran una tendencia descendente fluctuante. La tendencia general no respalda la promoción internacional. Esta sugerencia ignora selectivamente los datos negativos, lo que resulta en una interpretación engañosa.",
+        "E": "Otra opción de distracción de conocimiento general: se ignora el gráfico y solo se parte del conocimiento económico general (el precio afecta la demanda). Sin embargo, el chart_69_1 muestra que la voluntad de gasto en viajes es baja (15.2%), por lo que la sensibilidad al precio no es el factor dominante. Esta sugerencia carece de soporte de datos.",
+        "F": "Razonamiento combinado de la opción 3: en el chart_69_3, la preferencia por los 'Programas para Familias' es del 36.6%; en el chart_69_1, la voluntad de gasto en educación es la más alta (28.1%); y el conocimiento externo (estabilidad del consumo familiar) destaca el potencial del turismo educativo; no se utiliza el chart_69_2 para evitar la repetición de opciones.",
+        "G": "Razonamiento combinado de la opción 1: el chart_69_3 muestra que la preferencia por la 'Higiene y Seguridad' tiene la proporción más alta (91.2%); el chart_69_1 muestra que la voluntad de gasto en viajes es baja (15.2%, con un ranking posterior entre todos los ítems), lo que indica que la seguridad es un problema fundamental; el conocimiento externo (prioridad de la salud) respalda esta estrategia para aumentar equitativamente la participación de todas las personas."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Razonamiento combinado de la opción 2: en el chart_69_3, la preferencia por la 'Higiene y Seguridad' es la más destacada (91.2%); el chart_69_2 muestra que la recuperación del turismo es inestable (por ejemplo, la recuperación de los ingresos turísticos durante la Fiesta de la Primavera en 2022 fue solo del 36.2%), lo que indica que la innovación puede mejorar la capacidad de resistencia a riesgos; el conocimiento externo (apoyo a las pequeñas y medianas empresas) garantiza que los valores sean coherentes.",
+        "B": "Aparentemente utiliza los datos del chart_69_1, pero interpreta erróneamente: aunque la voluntad de gasto en compra de vivienda (16.9%) es ligeramente más alta que la de viajes (15.2%), el enfoque de la pregunta es 'promover un crecimiento equitativo', y el chart_69_2 muestra que la recuperación del turismo rural es más lenta (una disminución del 35.4%). Se interpreta erróneamente la compra de vivienda como una prioridad del gobierno, ignorando áreas con mayor voluntad de gasto como la educación y la salud.",
+        "C": "Razonamiento combinado de la opción 3: en el chart_69_2, la disminución del número de visitantes turísticos de residentes rurales es mayor (35.4% frente al 16.6% de los residentes urbanos); en el chart_69_3, la preferencia por la 'Experiencia Única' es la segunda más alta (49.8%); y el conocimiento externo (revitalización rural) respalda la promoción del turismo rural equitativo a través del turismo con características.",
+        "D": "Otra opción de distracción de conocimiento general: se ignoran los datos del gráfico y se sugiere una inversión general en infraestructura. Sin embargo, el chart_69_1 y el chart_69_2 revelan tendencias específicas de consumo (como el alto gasto en educación y la recuperación desigual del turismo). Esta sugerencia carece de soporte de datos y es fácil de descartar.",
+        "E": "Razonamiento combinado de la opción 1: el chart_69_1 muestra que la voluntad de gasto en educación y salud es la más alta (28.1% y 27.4% respectivamente); el chart_69_2 muestra que el número de visitantes turísticos rurales disminuyó significativamente en 2022 (una disminución del 35.4%); y el conocimiento externo (desarrollo equitativo) respalda la priorización de los recursos para satisfacer las necesidades básicas.",
+        "F": "Aparentemente utiliza los datos del chart_69_2, pero interpreta erróneamente la tendencia: la disminución del 35.4% del número de visitantes turísticos de residentes rurales indica una escasez de demanda, pero la pregunta solicita 'promover un crecimiento equitativo'. Esta sugerencia realiza la operación inversa (reducir el apoyo), interpretando erróneamente la disminución de los datos como una razón para abandonar en lugar de una señal de intervención; la interpretación correcta debe ser fortalecer el apoyo para aliviar la desigualdad.",
+        "G": "Opción de distracción de conocimiento general: no se cita el gráfico y solo se basa en el conocimiento general de la política económica macro (la reducción de impuestos estimula el consumo). Sin embargo, la pregunta solicita medidas específicas para áreas de alta prioridad (como la educación y la salud). Esta sugerencia es demasiado general y no se centra en áreas específicas."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Otra opción de distracción de conocimiento general: se ignora la tendencia de consumo y se sugiere una gestión general de inventario. Sin embargo, el chart_69_1 y el chart_69_3 revelan preferencias (como la dominancia de la higiene y seguridad). Esta sugerencia carece de especificidad y es fácil de descartar.",
+        "B": "Razonamiento combinado de la opción 1: en el chart_69_3, la preferencia por la 'Higiene y Seguridad' tiene la proporción más alta (91.2%); en el chart_69_1, la voluntad de gasto en salud es relativamente alta (27.4%, en segundo lugar); y el conocimiento externo (actualización del consumo de salud) respalda esta estrategia para cubrir una amplia gama de personas.",
+        "C": "Aparentemente utiliza los datos del chart_69_3, pero interpreta erróneamente las preferencias: la higiene y seguridad con un 91.2% es la necesidad central, pero esta sugerencia sugiere inversamente'reducir la inversión'. Se interpreta erróneamente la 'Experiencia Única' (49.8%) como una prioridad más alta, ignorando el papel fundamental de la higiene y seguridad; la estrategia correcta debe fortalecer en lugar de debilitar la higiene y seguridad.",
+        "D": "Razonamiento combinado de la opción 3: en el chart_69_3, la preferencia por 'Apto para Mascotas' es del 28.7%; en el chart_69_1, la voluntad de gasto en bienes de gran valor es mediana (18.7%); y el conocimiento externo (crecimiento de la economía de mascotas) respalda el desarrollo de productos de alto valor. La diferencia entre las opciones radica en el público objetivo (personas preocupadas por la salud vs. personas en busca de conveniencia vs. amantes de las mascotas).",
+        "E": "Razonamiento combinado de la opción 2: en el chart_69_3, la proporción de preferencia por 'Todo Incluido' es relativamente baja (12.0%), pero en el chart_69_1, la voluntad de gasto en cultura y entretenimiento social es relativamente alta (18.1%); y el conocimiento externo (necesidad de conveniencia) indica que los servicios empaquetados pueden simplificar la toma de decisiones. No se utilizan directamente los valores para evitar la descripción del problema.",
+        "F": "Opción de distracción de conocimiento general: no se basa en el gráfico y solo se parte del conocimiento general de gestión comercial (la capacitación mejora el servicio). Sin embargo, la pregunta solicita ajustes específicos en la combinación de productos. Esta sugerencia carece de base de datos y es demasiado general.",
+        "G": "Aparentemente utiliza los datos del chart_69_1 y el chart_69_3, pero interpreta erróneamente la relación: la voluntad de gasto en seguros (13.9%) y la preferencia por la 'Higiene y Seguridad' (91.2%) son dimensiones independientes (los seguros pueden no estar directamente relacionados). Se asocia erróneamente con la demanda de seguros de salud; los ajustes en la combinación de productos de los minoristas deben centrarse más en el campo del consumo directo (como bienes o servicios), en lugar de en campos cruzados."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     }
   ]

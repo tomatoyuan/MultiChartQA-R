@@ -87,6 +87,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Opción correcta: Esta opción se basa en el razonamiento conjunto de los gráficos de ingresos por primas (título: \"Ingreso de Prima Original y Tasa de Crecimiento de la Industria de Seguros China de 2019 a 2026\") y de inversión en tecnología (título: \"Inversión en Tecnología de la Industria de Seguros en China de 2023 a 2028\"). El gráfico de ingresos por primas muestra CAGRs del 5-6%, y el gráfico de inversión en tecnología muestra tasas de crecimiento del 14-16%, lo que indica una correlación positiva. Se requiere razonamiento conjunto: un solo gráfico solo puede mostrar tendencias individuales, pero el análisis conjunto revela la similitud en las tasas de crecimiento.",
+        "B": "Esta es una opción de interferencia difícil, que malinterpreta los valores del gráfico: chart_51_1 muestra un CAGR de ingresos por primas del 6% para 2019-2024, mientras que chart_51_3 muestra tasas de crecimiento de la inversión en tecnología entre 13-16% (por ejemplo, 13.4% en 2023). En realidad, la inversión en tecnología crece más rápido, pero la opción de interferencia afirma erróneamente que \"la tasa de crecimiento es mucho menor\".",
+        "C": "Esta es una opción de interferencia fácil, basada en conocimiento general (como el apoyo político que impulsa la digitalización), no depende de los datos del gráfico y puede identificarse solo con conocimiento general del sector.",
+        "D": "Opción correcta: Esta opción se basa en el razonamiento conjunto de los gráficos de ingresos por primas (título: \"Ingreso de Prima Original y Tasa de Crecimiento de la Industria de Seguros China de 2019 a 2026\") y de inversión en tecnología (título: \"Inversión en Tecnología de la Industria de Seguros en China de 2023 a 2028\"). El gráfico de ingresos por primas muestra una tendencia general al alza, y el crecimiento de Seguro de Salud y Seguro de Vida (por ejemplo, Seguro de Salud aumentó de 7066 mil millones de yuanes en 2019 a 10591 mil millones de yuanes en 2026e) puede proporcionar fondos para la inversión en tecnología; el gráfico de inversión en tecnología muestra un aumento anual, consistente con el crecimiento de los ingresos por primas. Se requiere razonamiento conjunto: un solo gráfico solo muestra tendencias individuales, pero el análisis conjunto infiere causalidad.",
+        "E": "Esta es una opción de interferencia fácil, basada en un error de conocimiento general (los ingresos por primas de Seguro de Salud en realidad están aumentando, por ejemplo, 9035 mil millones de yuanes en 2023 vs 8653 mil millones de yuanes en 2022), pero la opción afirma \"descenso\", sin relación con los gráficos.",
+        "F": "Esta es una opción de interferencia difícil, que malinterpreta la brecha del gráfico: en chart_51_1, los ingresos por primas de Seguro de Vida en 2023 (27646 mil millones de yuanes) crecieron aproximadamente un 12.7% respecto a 2022 (24519 mil millones de yuanes), no hubo crecimiento negativo; la opción de interferencia interpreta erróneamente la \"tasa de crecimiento\" como negativa y asocia falsamente con la inversión en tecnología.",
+        "G": "Opción correcta: Esta opción se basa en el razonamiento conjunto de los gráficos de ingresos por primas (título: \"Ingreso de Prima Original y Tasa de Crecimiento de la Industria de Seguros China de 2019 a 2026\") y de inversión en tecnología (título: \"Inversión en Tecnología de la Industria de Seguros en China de 2023 a 2028\"). El gráfico de ingresos por primas muestra una escala de ingresos en expansión desde 2019 hasta el final del período proyectado, y el gráfico de inversión en tecnología muestra un crecimiento acelerado a partir de 2023, lo que indica que el crecimiento de los ingresos puede liberar más recursos para la innovación tecnológica. Se requiere razonamiento conjunto: un solo gráfico solo muestra tendencias individuales, pero el análisis conjunto infiere causalidad."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, basada en un error de conocimiento general: en chart_51_2, la productividad de Salud y Bienestar es de 260 mil millones de dólares (índice 6), clasificada alta (7º lugar), pero la opción de interferencia afirma erróneamente \"clasificada más baja\", sin relación con los gráficos.",
+        "B": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de productividad de IA (título: \"Mejora de la Productividad de la IA Generativa por Industria\") y del gráfico de distribución de modelos de gran escala financieros (título: \"Distribución de las ofertas ganadoras para modelos de gran escala de la industria financiera en 2024\"). El gráfico de productividad de IA muestra que la productividad de Seguros está en un nivel medio, mientras que el gráfico de distribución muestra que Seguros tiene una baja participación en el monto de los proyectos (8%), creando una contradicción. Se requiere razonamiento conjunto: un solo gráfico muestra hechos aislados, pero el análisis conjunto revela la contradicción.",
+        "C": "Esta es una opción de interferencia difícil, que malinterpreta la brecha del gráfico: en chart_51_2, la productividad de Banca es de 340 mil millones de dólares (superior a los 70 mil millones de dólares de Seguros), pero la opción de interferencia afirma erróneamente \"Banca por debajo de Seguros\" y asocia incorrectamente con la participación del monto de Banca del 56% en chart_51_5.",
+        "D": "Esta es una opción de interferencia fácil, basada en conocimiento general (como la conservadurismo del sector), no depende de los datos del gráfico y puede juzgarse solo con conocimiento general o insights del modelo.",
+        "E": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de productividad de IA (título: \"Mejora de la Productividad de la IA Generativa por Industria\") y del gráfico de distribución de modelos de gran escala financieros (título: \"Distribución de las ofertas ganadoras para modelos de gran escala de la industria financiera en 2024\"). El gráfico de productividad de IA muestra que Salud y Bienestar tiene una productividad de 260 mil millones de dólares (índice 6) y Seguros tiene 70 mil millones de dólares (índice 19), mientras que el gráfico de distribución muestra que Seguros tiene una pequeña participación en los proyectos financieros, lo que sugiere una desconexión. Se requiere razonamiento conjunto: un solo gráfico muestra hechos aislados, pero el análisis conjunto revela posibles problemas en la integración de recursos o prioridades entre industrias.",
+        "F": "Esta es una opción de interferencia difícil, que malinterpreta la clasificación y los valores del gráfico: en chart_51_2, la productividad de Seguros es de 70 mil millones de dólares (índice 19), clasificada penúltima (solo por encima de Agricultura), pero la opción de interferencia la eleva erróneamente a \"clasificada primera\" (cuando Tecnología de Alta es 450 mil millones de dólares) y compara falsamente con la participación del monto de Seguros del 8% en chart_51_5.",
+        "G": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de productividad de IA (título: \"Mejora de la Productividad de la IA Generativa por Industria\") y del gráfico de distribución de modelos de gran escala financieros (título: \"Distribución de las ofertas ganadoras para modelos de gran escala de la industria financiera en 2024\"). El gráfico de productividad de IA muestra que Seguros tiene un espacio significativo de mejora, mientras que el gráfico de distribución muestra que la cantidad real de proyectos y el monto de Seguros en el sector financiero están muy por debajo de Banca, lo que refleja un retraso en la implementación del mercado o una desventaja competitiva. Se requiere razonamiento conjunto: un solo gráfico muestra hechos aislados, pero el análisis conjunto revela contradicciones y causas implícitas."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de inversión total en tecnología (título: \"Inversión en Tecnología de la Industria de Seguros en China de 2023 a 2028\") y del gráfico de inversión en tecnologías de vanguardia (título: \"Inversión en tecnologías de vanguardia de la industria de seguros en China de 2024 a 2029\"). El gráfico de inversión total muestra crecimiento en la inversión total, y el gráfico de tecnologías de vanguardia muestra que la inversión en IA tiene una participación significativa y crece más rápido, lo que indica que la inversión en IA impulsa el crecimiento total. Se requiere razonamiento conjunto: un solo gráfico proporciona información parcial, pero el análisis conjunto infiere la contribución de la IA.",
+        "B": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de inversión total en tecnología (título: \"Inversión en Tecnología de la Industria de Seguros en China de 2023 a 2028\") y del gráfico de inversión en tecnologías de vanguardia (título: \"Inversión en tecnologías de vanguardia de la industria de seguros en China de 2024 a 2029\"). El gráfico de inversión total muestra una escala de inversión en expansión, y el gráfico de tecnologías de vanguardia muestra que la inversión en IA aumenta continuamente y su participación crece durante el período proyectado, lo que implica que la IA se está convirtiendo en el núcleo de la transformación digital del sector seguros. Se requiere razonamiento conjunto: un solo gráfico proporciona información parcial, pero el análisis conjunto infiere el papel central de la IA.",
+        "C": "Esta es una opción de interferencia fácil, basada en conocimiento general (como la importancia universal de la IA), no depende de los datos del gráfico y puede identificarse solo con conocimiento general del sector.",
+        "D": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de inversión total en tecnología (título: \"Inversión en Tecnología de la Industria de Seguros en China de 2023 a 2028\") y del gráfico de inversión en tecnologías de vanguardia (título: \"Inversión en tecnologías de vanguardia de la industria de seguros en China de 2024 a 2029\"). El gráfico de inversión total muestra la tasa de crecimiento promedio de la inversión total, y el gráfico de tecnologías de vanguardia muestra que la tasa de crecimiento compuesto de la inversión en IA supera con creces la tasa promedio de la inversión total, lo que indica que la IA es el motor principal de crecimiento entre las tecnologías de vanguardia. Se requiere razonamiento conjunto: un solo gráfico proporciona información parcial, pero el análisis conjunto revela la posición central de crecimiento de la IA.",
+        "E": "Esta es una opción de interferencia difícil, que malinterpreta las tasas de crecimiento del gráfico: chart_51_3 muestra tasas de crecimiento de la inversión total en tecnología entre 13-16% (por ejemplo, 14.7% en 2024), mientras que chart_51_4 muestra un CAGR de la inversión en IA del 22.5% de 2024e a 2029e (basado en valores inicial y final); en realidad, la IA crece más rápido, pero la opción de interferencia afirma erróneamente que \"el CAGR total supera con creces al de la IA\".",
+        "F": "Esta es una opción de interferencia fácil, basada en un error de conocimiento general: la inversión real en tecnología en la nube (por ejemplo, 18.8 mil millones de yuanes en 2024) es inferior a la de IA (61.1 mil millones de yuanes), pero la opción de interferencia generaliza \"la tecnología en la nube domina\", sin relación con los gráficos.",
+        "G": "Esta es una opción de interferencia difícil, que malinterpreta los valores del gráfico: en chart_51_4, la inversión en IA en 2024e es de 61.1 mil millones de yuanes, y la inversión total en tecnologías de vanguardia es 61.1 + 12.2 + 25.8 + 18.8 = 117.9 mil millones de yuanes, por lo que la participación de la IA es aproximadamente 51.8% (muy por encima del 20%), pero la opción de interferencia calcula erróneamente \"menos del 20%\"."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Opcion de distracción fácil: Esta opción se basa en el conocimiento general de negocios (la promoción de marketing aumenta la competitividad), pero no involucra los datos de los gráficos o la asignación específica de recursos tecnológicos, y omite el núcleo de la pregunta (por ejemplo, IA, tecnología en la nube).",
+        "B": "Basado en chart_51_1 (las primas de seguros de salud aumentaron de 706.6 mil millones de yuanes en 2019 a 1059.1 mil millones de yuanes en 2026e, con un crecimiento significativamente más rápido que otros tipos de seguros) y chart_51_2 (la mejora de la productividad de la IA generativa en la industria de salud y bienestar es de 26 mil millones de dólares, el índice 6 está marcado especialmente, con el mayor potencial); la estrategia se centra en áreas de alto crecimiento, lo que se ajusta al principio de maximización de la eficiencia.",
+        "C": "Referenciando chart_51_1 (el aumento de las primas de seguros de accidentes es el más lento, por ejemplo, de 100 mil millones de yuanes en 2019 a 170 mil millones de yuanes en 2026e) y chart_51_2 (la mejora de la productividad en la industria de seguros es solo de 7 mil millones de dólares, el índice 19 está marcado como de bajo potencial; la industria bancaria tiene 34 mil millones de dólares, que es relativamente alto); la redistribución de recursos mejora la eficiencia general, lo que se ajusta al valor de control de costos.",
+        "D": "Opcion de distracción fácil: Sugiere de manera general la actualización de la infraestructura IT, sin combinar los datos de crecimiento de primas o el potencial de IA. La estrategia es oscura y no tiene una guía de acción.",
+        "E": "Opcion de distracción difícil: Interpreta incorrectamente chart_51_2 (el potencial de la IA generativa en la industria de seguros es solo de 7 mil millones de dólares, uno de los más bajos en todas las industrias) y chart_51_1 (el crecimiento de los seguros de accidentes es el más suave), con una lógica contradictoria (no se debe invertir en áreas de bajo potencial).",
+        "F": "Combinando chart_51_4 (la inversión en tecnología en la nube aumentó de 18.8 mil millones de yuanes en 2024e a 88.5 mil millones de yuanes en 2029e, con un rápido crecimiento y una TIR del 22.5%) y chart_51_2 (los datos de productividad de la IA generativa dependen de la tecnología en la nube, como la industria de alta tecnología con 45 mil millones de dólares); enfatiza la sinergia tecnológica y evita el riesgo de inversión en un solo punto.",
+        "G": "Opcion de distracción difícil: Tiene una lógica errónea. Chart_51_1 muestra que los seguros de salud tienen el crecimiento más rápido, y chart_51_2 muestra que el potencial de la IA en la salud y bienestar es alto. Debería aumentarse la inversión en lugar de reducirla; confunde 'alto crecimiento' con 'no necesitar inversión'."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -178,6 +246,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Opcion de distracción fácil: Se enfoca en la expansión del mercado en lugar de la tecnología, y omite el foco de la pregunta (estrategia de inversión), sin relación con los gráficos.",
+        "B": "Opcion de distracción fácil: Se basa en el conocimiento general de cooperación (la alianza comparte costos), pero no utiliza los datos de los gráficos (como la cuota o el crecimiento), y la estrategia es general sin una orientación tecnológica.",
+        "C": "Combinando chart_51_1 (el aumento de las primas de seguros de salud es destacado, por ejemplo, de 903.5 mil millones de yuanes en 2023 a 1059.1 mil millones de yuanes en 2026e) y chart_51_2 (la productividad de la IA en la industria de salud y bienestar es de 26 mil millones de dólares, la más alta); centrarse en áreas de alto potencial, evitar la dispersión de recursos, lo que se ajusta al valor de equidad (sin reducir otras inversiones).",
+        "D": "Opcion de distracción difícil: Interpreta incorrectamente chart_51_5 (la cuota es baja pero las oportunidades son grandes) y chart_51_3 (el crecimiento es rápido), con una lógica invertida (con un crecimiento alto, se debería aumentar la inversión en lugar de reducirla).",
+        "E": "Basado en chart_51_5 (la proporción del monto ganado de proyectos de seguros en los modelos de gran escala financiera es solo del 8%, mucho menor que el 56% de los bancos) y chart_51_3 (el crecimiento de la inversión en tecnología de la industria de seguros aumentó del 13.4% en 2023 al 16.8% en 2028, con una inversión general en aumento constante) y chart_51_2 (la IA generativa tiene un potencial de 7 mil millones de dólares en la industria de seguros, aunque es bajo pero se puede explotar); la estrategia se dirige a la desventaja de la cuota y mejora la competitividad a través de una inversión de alto crecimiento.",
+        "F": "Opcion de distracción difícil: Cita incorrectamente los datos de chart_51_2 (el potencial de la IA), pero se aleja del núcleo del negocio de seguros; chart_51_1 muestra un aumento de las primas de seguros de salud, se debería optimizar internamente en lugar de cambiar de industria.",
+        "G": "Referenciando chart_51_4 (la inversión en tecnología en la nube aumentó de 18.8 mil millones de yuanes en 2024e a 88.5 mil millones de yuanes en 2029e, con un rápido crecimiento) y chart_51_3 (el crecimiento general de la inversión en tecnología aumentó del 13.4% al 16.8%) y chart_51_2 (la productividad de la IA depende de la tecnología en la nube); enfatizar la infraestructura tecnológica básica para garantizar la sostenibilidad de los proyectos."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Opcion de distracción difícil: Compara incorrectamente los datos de chart_51_4 (el crecimiento de la tecnología en la nube es estable), y omite que la IA depende de la infraestructura en la nube; reducir la inversión en la nube perjudicará la eficiencia de la IA, lo que viola el principio de rentabilidad de costos.",
+        "B": "Basado en chart_51_4 (la inversión en tecnología de IA aumentó de 61.1 mil millones de yuanes en 2024e a 153.6 mil millones de yuanes en 2029e, con el crecimiento más rápido) y chart_51_2 (el potencial de productividad de la IA generativa se puede explotar, como 7 mil millones de dólares en la industria de seguros) y chart_51_1 (el aumento de las primas de seguros de salud es constante); la estrategia se dirige a tecnologías de alto crecimiento y evita inversiones ineficientes.",
+        "C": "Opcion de distracción difícil: Interpreta incorrectamente chart_51_4 (aunque el crecimiento de RPA/IPA es alto, su escala absoluta es pequeña, y con una TIR del 22.5%, el crecimiento de la IA es más rápido), con una lógica confusa (una escala pequeña no significa necesariamente una alta rentabilidad, y el potencial de la IA es mayor).",
+        "D": "Opcion de distracción fácil: Introduce un tema irrelevante (desarrollo sostenible), sin involucrar análisis de tecnologías de vanguardia o rentabilidad de costos, y se aleja de la pregunta.",
+        "E": "Opcion de distracción fácil: Es una sugerencia de reducción de costos basada en el conocimiento general, sin combinar los datos de tecnología de los gráficos (como el aumento de la inversión), y la estrategia es generalizada sin detalles de asignación de tecnología.",
+        "F": "Referenciando chart_51_4 (la inversión en RPA/IPA aumentó de 12.2 mil millones de yuanes en 2024e a 29.3 mil millones de yuanes en 2029e, con el crecimiento más bajo) y chart_51_1 (la TIR de las primas totales es del 5 - 6%, con un crecimiento estable); la redistribución de recursos a áreas de alta rentabilidad mejora la relación de rentabilidad de costos general.",
+        "G": "Combinando chart_51_4 (la TIR de la inversión en tecnología en la nube es del 22.5%, y la escala aumentó de 1880 millones a 8850 millones de yuanes) y chart_51_3 (el crecimiento general de la inversión en tecnología aumentó del 13.4% al 16.8%) y chart_51_2 (la productividad de la IA depende de la nube); garantizar una base tecnológica sólida, lo que se ajusta al valor de gestión de riesgos."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     }
   ]

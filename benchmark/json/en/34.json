@@ -87,6 +87,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "It relies on the market size growth chart and the consumer attitude chart. The growth trend in the market size growth chart, combined with the proportion of 'placing more emphasis on brand value and quality' in the consumer attitude chart, indicates that the focus on quality may drive the growth of the high - end market. The reasoning requires cross - verification of the two charts because looking at the attitude data alone cannot link to the market size.",
+        "B": "It requires joint reasoning of the market size growth chart and the consumer attitude chart. The market size growth chart shows a steady increase in market size from 2015 to 2026, while the consumer attitude chart indicates that the proportion of consumers who 'place more emphasis on comfort and health performance' is the highest. This implies the law that a high - demand proportion drives market expansion, but the reasoning must compare the two charts: the market size trend alone cannot explain the reason and needs to be combined with consumer attitude data.",
+        "C": "It combines the market size growth chart and the consumer attitude chart. The continuous growth in the market size growth chart, combined with 'placing more emphasis on self - pleasure' and 'placing more emphasis on functionality in specific scenarios' in the consumer attitude chart, shows that diverse demands may stimulate the development of new products. The reasoning needs to infer the market impact from the attitude data, and the size data provides the trend background.",
+        "D": "This is an Easy distraction: it is completely divorced from the chart content and is wrong based only on industry common sense. The charts focus on domestic consumer attitudes (chart_34_2) and market size (chart_34_1), and do not involve international factors.",
+        "E": "This is an Easy distraction: it does not rely on the chart data and is based only on common sense. The charts emphasize the demand for quality such as comfort and health (e.g., chart_34_2 shows that 76.0% value comfort), rather than price. Commonly, the upgrade of the underwear market relies more on quality than on low prices.",
+        "F": "This is a Hard distraction: it seems to be based on the data in chart_34_1, but misinterprets the trend. The market size decreased briefly in 2016 (28 compared to 29.4 in 2015), but the overall CAGR of 4.04% shows growth. It wrongly interprets the local fluctuation as having no impact on demand.",
+        "G": "This is a Hard distraction: it seems to be based on the data in chart_34_2, but misinterprets the numerical ranking. The proportion of the demand for self - pleasure (52.7%) is lower than that for comfort (76.0%). It wrongly describes it as 'the highest' and wrongly associates it with the growth trend."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "It combines the chart of consumers' functional enhancement requirements and the chart of the growth rate of the selling points of tech underwear on the Douyin platform, and implicitly refers to the consumer attitude chart. In the chart of consumers' functional enhancement requirements, the demand proportion for 'Sports professional functionality' is high, but there are no direct sports - related items in the top 10 growth rates of the selling points in the chart of the growth rate of the selling points of tech underwear on the Douyin platform. Instead, sensory selling points such as 'Fragrance' stand out. The emphasis on the market is explained by 'placing more emphasis on self - pleasure' in the consumer attitude chart. The reasoning requires multi - chart comparison: the conflict between the sports demand data and the growth rate of the selling points reveals the market response direction.",
+        "B": "It requires joint reasoning of the chart of consumers' functional enhancement requirements and the chart of the growth rate of the selling points of tech underwear on the Douyin platform. The chart of consumers' functional enhancement requirements shows that 'Enhance comfort' is the most desired function by consumers, and the 'Zero - feeling' selling point (implying comfort and no burden) in the chart of the growth rate of the selling points of tech underwear on the Douyin platform has a relatively high growth rate. This implies the connection between demand and market supply, but the reasoning must compare the two charts: looking at the functional demand data alone cannot directly link to the growth rate of the selling points.",
+        "C": "This is a Hard distraction: it seems to be based on the data, but misinterprets the numerical gap. The demand for 'Improve health' is relatively high at 57%, but the growth rate of the selling point 'Hyaluronic acid' is only 4.0%, which is lower than the 10.0% of 'Fragrance'. It wrongly ignores the difference in growth rates.",
+        "D": "This is a Hard distraction: it seems to be based on the data in chart_34_5, but has a logical error. A high GMV index (e.g., 71 for 'Fragrance') does not mean weak demand; in fact, the growth rate of 10.0% is relatively high. It wrongly confuses the index size with the demand intensity.",
+        "E": "This is a Hard distraction: it seems to be based on the data in chart_34_3 and chart_34_5, but misinterprets the ranking and association. The demand for 'Sports professional functionality' is 55%, but the selling points with the highest growth rates are 'Fragrance' and 'Camellia' (both 10.0%), not 'Zero - feeling' (8.0%). It wrongly equates the demand with the growth rate directly.",
+        "F": "It relies on the chart of consumers' functional enhancement requirements and the chart of the growth rate of the selling points of tech underwear on the Douyin platform. The relatively high proportion of the demand for 'Improve health' in the chart of consumers' functional enhancement requirements, combined with the health - related selling points such as 'Sterile' and 'Hyaluronic acid' in the chart of the growth rate of the selling points of tech underwear on the Douyin platform, indicates that material innovation responds to the health demand. The reasoning requires cross - analysis of functional preferences and selling point performance because the selling point data alone cannot explain the source of the demand.",
+        "G": "This is an Easy distraction: it does not rely on the chart data and is wrong based only on common sense. The charts do not mention marketing factors. Commonly, the question focuses on the demand association, not external drivers."
+      },
+      "easy_error": [
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "C",
+        "D"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard distraction: it seems to be based on the data in chart_34_4 and chart_34_2, but ignores the distribution details. The proportion of '4 scenarios' in the scenario distribution is 1 (the same as '1 scenario', '2 scenarios', and '3 scenarios'), but the average is only 2.4 scenarios. It wrongly directly associates the demand without considering the balance (the original option C emphasizes the need for balance).",
+        "B": "It requires joint reasoning of the chart of the distribution of users' underwear usage scenarios and the consumer attitude chart. The chart of the distribution of users' underwear usage scenarios shows the average number of usage scenarios by users, and the proportion of 'placing more emphasis on functionality in specific scenarios' in the consumer attitude chart is relatively high. This reveals the law between scenario diversity and scenario demand, but the reasoning must compare the two charts: the scenario distribution data alone does not explain the demand and needs to be combined with the attitude data.",
+        "C": "This is a Hard distraction: it seems to be based on the data in chart_34_4, but misinterprets the numerical value and ranking. The proportion of '5 scenarios' is the lowest at 0.4 (lower than 1 for '1 scenario', '2 scenarios', '3 scenarios', and '4 scenarios'). It wrongly describes it as 'the highest' and wrongly associates it with the demand for multi - functionality.",
+        "D": "It relies on the chart of the distribution of users' underwear usage scenarios and the consumer attitude chart. The scenario distribution in the chart of the distribution of users' underwear usage scenarios indicates diversity, which, combined with the proportion of 'placing more emphasis on the composite functions of products' in the consumer attitude chart, implies that diverse scenarios drive the demand for multi - functionality. The reasoning requires cross - verification because a single chart cannot establish a causal relationship.",
+        "E": "This is an Easy distraction: it does not rely on the chart data and is wrong based only on common sense. Chart_34_4 shows that the average number of scenarios is 2.4 and there are multiple scenarios in the distribution (e.g., each of '1 scenario' to '4 scenarios' accounts for 1). Commonly, the demand for multiple scenarios encourages functional diversity rather than simplification.",
+        "F": "This is a Hard distraction: it seems to be based on the data, but misinterprets the numerical value. An average of 2.4 scenarios represents moderate diversity, which is consistent with the 49.4% demand for specific scenarios in chart_34_2 (not contradictory). It wrongly interprets'moderate' as 'low'.",
+        "G": "It combines the chart of the distribution of users' underwear usage scenarios and the consumer attitude chart. The average number of scenarios in the chart of the distribution of users' underwear usage scenarios, combined with the proportion of the demand for composite functions in the consumer attitude chart, indicates that although the demand exists, product design should prioritize core functions. The reasoning needs to infer the demand intensity from the distribution data, and the attitude data provides the context."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F",
+        "A"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option is broad and lacks action orientation. It only emphasizes brand marketing rather than product innovation, which is out of touch with the focus of the question, 'product innovation strategy', and does not cite any chart data.",
+        "B": "It involves chart_34_2 (a high proportion of consumers' demand for composite functions and functionality in specific scenarios) and chart_34_4 (the average number of user - used scenarios is 2.4, indicating that multi - scenario demand is common). The data emphasizes the necessity of multi - functional products.",
+        "C": "This option misinterprets chart_34_4: The distribution proportions of user scenarios are 1, 1, 1, 1, 0.4 (labels from '1' to '5'), but the average number of scenarios is 2.4, indicating that most users use multiple scenarios. The distractor mistakenly regards the proportion values as percentages (such as 25%), and the actual sum of the proportions is 4.4 (not 100%). Logically, it should support multi - function rather than a single scenario.",
+        "D": "This option does not rely on chart data and is only based on general business common sense (such as economies of scale). However, it ignores the core trend of consumers' preferences shifting to diversification and does not provide specific guidance for functional innovation. It can be easily excluded by common sense.",
+        "E": "It involves chart_34_5 (high GMV growth rates of emerging selling points such as fragrance and camellia) and chart_34_2 (a significant demand for self - pleasure in consumers' attitudes). Combining emerging trends with psychological needs to capture growth points.",
+        "F": "It involves chart_34_1 (stable growth of the market size with a CAGR of 4.04%, providing innovation opportunities), chart_34_2 (the highest proportion of comfort in consumers' attitudes), and chart_34_3 (prominent proportions of comfort and health in the demand for functional enhancement). Combining market growth with core needs to ensure a robust strategy.",
+        "G": "This option confuses chart_34_2 and chart_34_5: The demand for health performance is 76.0%, which is the current highest priority (chart_34_2), while the growth rate of 'fragrance' is high but the GMV index is relatively low (71). Also, the demand for health improvement is 57% (chart_34_3), indicating its continuous importance. The distractor wrongly assumes that the demand for health is growing weakly, which contradicts the data."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "It involves chart_34_2 (the highest proportion of consumers' demand for comfort) and chart_34_1 (stable growth of the market size, and basic needs are the cornerstone of the market). Avoiding neglecting mainstream demand to ensure the sustainability of the strategy.",
+        "B": "This option misinterprets chart_34_3: Although the proportion of sports attributes is 55%, it is lower than that of comfort (71%) and health (57%). The distractor wrongly claims it as the 'highest', while in fact, comfort is the dominant demand, leading to a deviation in the strategic direction.",
+        "C": "This option confuses chart_34_3 and chart_34_5: The demand for comfort is still the core at 71% (chart_34_3), while the growth rates of emerging selling points are high but the GMV indexes are relatively low (such as the GMV of 'fragrance' is 71), and the priority of comfort in consumers' attitudes is 76.0% (chart_34_2). The distractor wrongly assumes that the interest in basic functions is declining, which contradicts the data.",
+        "D": "It involves chart_34_5 (high growth rates of emerging selling points such as fragrance and camellia) and chart_34_2 (significant demand for self - pleasure and health performance in consumers' attitudes). Matching high - growth selling points with psychological needs to improve marketing ROI.",
+        "E": "This option is based on general marketing common sense (such as channel balance), but does not provide specific optimization strategies for emerging selling points or functional expectations in the data. It is broad and ineffective.",
+        "F": "This option ignores the digital trend and only relies on traditional experience. It does not cite any chart data (such as the growth rate of selling points on Douyin) and has no direct connection with the requirement of 'improving sales conversion rates' in the question.",
+        "G": "It involves chart_34_3 (a prominent proportion of the demand for health improvement in functional enhancement) and chart_34_2 (high attention to health performance in consumers' attitudes). The data shows that health is a long - lasting demand, and marketing investment can enhance trust."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -203,6 +288,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "It involves chart_34_3 (a high proportion of the demand for sports professional functionality in functional enhancement) and chart_34_2 (significant demand for functionality in specific scenarios in consumers' attitudes). Combining sports demand with scenario targeting to explore niche markets.",
+        "B": "This option misinterprets chart_34_4: The distribution proportions of user scenarios are 1, 1, 1, 1, 0.4 (labels from '1' to '5'). The distractor wrongly regards 0.4 as 40%, and the actual sum of the proportions is 4.4 (not 100%). Also, the average number of scenarios is 2.4, indicating that users prefer a medium number of scenarios rather than the extreme high - end.",
+        "C": "It involves chart_34_4 (the average number of user - used scenarios is 2.4, and the labels show a multi - scenario distribution) and chart_34_2 (a high proportion of the demand for composite functions in consumers' attitudes). Combining multi - scenario data with functional preferences to improve product practicality.",
+        "D": "This option misreads chart_34_2: Although the demand for composite functions is 49.1%, which is lower than that of comfort, it is higher than that of functionality in specific scenarios (49.4%) and matches the average number of scenarios of 2.4. The distractor wrongly assumes that multi - function should be weakened, while the data supports its importance.",
+        "E": "This option is correctly stated but lacks action orientation. It only suggests conducting research rather than optimizing product design and does not cite chart data. It can be easily excluded by common sense.",
+        "F": "This option is based on general supply - chain common sense but does not provide specific solutions for scenario diversification or functional expectations. It also ignores the average number of scenarios of 2.4 in the data, and the strategy is broad.",
+        "G": "It involves chart_34_3 (the highest proportion of the demand for comfort in functional enhancement) and chart_34_4 (the user scenario distribution shows that underwear is a daily necessity). Combining core needs with high - frequency usage scenarios to ensure product reliability."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

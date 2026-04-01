@@ -85,6 +85,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Hard：错误理解排序逻辑——最低占比（23%）≠阻碍增长（实际规模持续上升）。",
+        "B": "Hard：扭曲数值差距——\"Portátil\"（45%）与\"Novedoso\"（30%）实际差15%，非\"极小\"；且未关联翻倍增长机制。",
+        "C": "Easy：未涉及疫情或囤货信息，且2021年疫情缓解后规模仍增长，与常识矛盾。",
+        "D": "所有选项都依赖联合推理：消费规模趋势图显示2019 - 2021年消费规模逐年倍增，而消费者选择因素图显示2021年消费者对\"Fácil de tomar\"\"Buen efecto\"等有高认同比例。选项必须结合这两张图，才能推断高认同偏好如何驱动增长。单张图表无法完成推理：仅从消费趋势图无法知道驱动因素，仅从偏好图无法联系到增长趋势。",
+        "E": "所有选项都依赖联合推理：消费规模趋势图显示2019 - 2021年消费规模逐年倍增，而消费者选择因素图显示2021年消费者对\"Portátil\"等有高认同比例。选项必须结合这两张图，才能推断高认同偏好如何驱动增长。单张图表无法完成推理：仅从消费趋势图无法知道驱动因素，仅从偏好图无法联系到增长趋势。",
+        "F": "Easy：图表未提及品牌或广告数据，纯属常识性臆测（行业常识）。",
+        "G": "所有选项都依赖联合推理：消费规模趋势图显示2019 - 2021年消费规模逐年倍增，而消费者选择因素图显示2021年消费者对\"Novedoso\"和\"Bonito empaque\"认同比例较低。选项必须结合这两张图，才能推断低占比因素如何在高占比主导下补充增长。单张图表无法完成推理：仅从消费趋势图无法知道驱动因素，仅从偏好图无法联系到增长趋势。"
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Hard：错误跨图表对比——2021年规模（300为指数值）与2022年满意度（32.7%）无单位可比性。",
+        "B": "Hard：混淆比例逻辑——\"Satisfecho\"群体45.7%≠产品目标群体（实际不满+一般人群达39.8%）。",
+        "C": "所有选项都依赖联合推理：消费规模趋势图显示2019 - 2021年消费持续增长，而健康满意度图显示2022年多数人满意或一般。选项必须跨图推理，对比高消费与高满意度比例，暗示预防性作用。单张图表无法推断：仅消费趋势图不能联系健康状态，仅满意度图不能解释市场增长。",
+        "D": "所有选项都依赖联合推理：消费规模趋势图显示2019 - 2021年消费持续增长，而健康满意度图显示2022年多数人满意或一般，不满意比例较低。选项必须跨图推理，结合增长趋势和满意度中的\"Insatisfecho\"比例，推断需求来源。单张图表无法推断：仅消费趋势图不能联系健康状态，仅满意度图不能解释市场增长。",
+        "E": "Easy：\"Muy Satisfecho\"实际仅14.5%（非较高），且未关联消费数据（常识错误）。",
+        "F": "Easy：未提及可支配收入；健康满意度与消费动机无直接因果（常识臆测）。",
+        "G": "所有选项都依赖联合推理：消费规模趋势图显示2019 - 2021年消费持续增长，而健康满意度图显示2022年多数人满意或一般，不满意比例较低。选项必须跨图推理，还隐含结合消费者偏好图中的\"Buen efecto\"因素。单张图表无法推断：仅消费趋势图不能联系健康状态，仅满意度图不能解释市场增长。"
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "所有选项都依赖联合推理：消费者选择因素图显示2021年\"Buen efecto\"认同比例高，而健康满意度图显示2022年\"Insatisfecho\"比例。选项必须跨图推理潜在冲突，对比\"Buen efecto\"期望与\"Insatisfecho\"现实。单张图表无法揭示冲突：仅偏好图不能联系健康结果，仅满意度图不能解释消费者动机。",
+        "B": "Easy：武断归因——未证明方便性与满意度因果（常识错误）。",
+        "C": "Easy：极端推理——低不满意率≠因素无效（忽略满意度复杂性）。",
+        "D": "Hard：强行数值关联——\"Portátil\"占比（45%）与\"Promedio\"满意度（32.7%）无逻辑可比性（单位/维度不同）。",
+        "E": "所有选项都依赖联合推理：消费者选择因素图显示2021年\"Portátil\"等因素有吸引力，而健康满意度图显示2022年\"Muy Satisfecho\"比例较低。选项必须跨图推理潜在冲突，结合\"Portátil\"等偏好与低\"Muy Satisfecho\"比例。单张图表无法揭示冲突：仅偏好图不能联系健康结果，仅满意度图不能解释消费者动机。",
+        "F": "Hard：错误归因——健康满意度是对整体健康的评价，非仅针对功能性零食效果（数据误解）。",
+        "G": "所有选项都依赖联合推理：消费者选择因素图显示2021年\"Fácil de tomar\"高，而健康满意度图显示2022年\"Promedio\"比例较高。选项必须跨图推理潜在冲突，对比\"Fácil de tomar\"偏好与\"Promedio\"满意度。单张图表无法揭示冲突：仅偏好图不能联系健康结果，仅满意度图不能解释消费者动机。"
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Se refiere a la tendencia de rápido crecimiento de la escala de consumo en chart_84_1 y la alta proporción (el valor más alto) de 'Fácil de tomar' y 'Buen efecto' en chart_84_2.",
+        "B": "Se refiere a la tendencia de crecimiento en chart_84_1 y la proporción notable (moderadamente alta) de 'Portátil' y 'No se siente como 'tomar medicina'' en chart_84_2.",
+        "C": "También es general y sin enfoque. Solo sugiere medios de marketing y no se combina con los factores clave en los gráficos (como la facilidad de consumo o el efecto), ignorando la base de la estrategia específica.",
+        "D": "Interpretación errónea de la tendencia: chart_84_1 muestra que la escala de consumo aumentó de 100 a 300 en tres años (tasa de crecimiento compuesto anual de aproximadamente 73%), lo que indica un crecimiento fuerte, pero la opción de distracción lo juzga erróneamente como 'lento'. La sugerencia de una estrategia conservadora es contraria a los datos.",
+        "E": "Se refiere a la comparación entre la proporción relativamente baja de 'Bonito empaque' y la proporción moderada de 'Novedoso' en chart_84_2, así como a la tendencia de crecimiento en chart_84_1, lo que refleja la lógica de la redistribución de recursos.",
+        "F": "Interpretación errónea de los datos del gráfico: chart_84_2 muestra que la proporción de 'Portátil' es del 45.0%, pero es menor que la de 'Buen efecto' (56.0%) y 'Fácil de tomar' (65.0%), pero la opción de distracción afirma que la portabilidad es 'mayor' que el efecto, confundiendo las prioridades; los factores dominantes son la facilidad de consumo y el efecto.",
+        "G": "Esta opción se basa en conocimientos comerciales generales (como la expansión de canales) y no involucra ningún dato de los gráficos (como la tendencia de crecimiento del consumo o las preferencias de los consumidores), por lo que es fácil de descartar."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Se refiere a la proporción notable de 'No se siente como 'tomar medicina'' en chart_84_2 y la alta satisfacción general con la salud en chart_84_3 (la suma de 'Satisfecho' y 'Muy Satisfecho' es preponderante), pero se debe evitar la percepción negativa.",
+        "B": "Se refiere a la alta proporción de 'Promedio' en la satisfacción con la salud en chart_84_3 y la alta proporción de 'Fácil de tomar' y 'Buen efecto' en chart_84_2, lo que refleja la orientación a un grupo específico.",
+        "C": "Sugerencia general que se basa en conocimientos de marketing y no se combina con los datos de los gráficos (como la distribución de la satisfacción con la salud o las preferencias de los consumidores), careciendo de enfoque.",
+        "D": "Se refiere a la proporción (nivel moderado) de 'Portátil' y 'Novedoso' en chart_84_2 y la distribución de la satisfacción con la salud en chart_84_3 (incluyendo el grupo insatisfecho), y se utiliza para la segmentación de la población mediante razonamiento conjunto.",
+        "E": "Estrategia general que no utiliza el contenido de los gráficos (como los factores de preferencia o los datos de satisfacción) y solo se basa en la idea general de marketing de salud.",
+        "F": "Interpretación errónea del gráfico: chart_84_3 muestra que el grupo 'Insatisfecho' solo representa el 7.1%, mucho menos que los grupos 'Promedio' (32.7%) o 'Satisfecho' (45.7%), pero la opción de distracción sugiere enfocarse primero en el grupo pequeño, ignorando la audiencia principal; además, no se asocia con los datos de preferencias de los consumidores.",
+        "G": "Comparación errónea de datos: en chart_84_2, la proporción de 'Bonito empaque' es del 23.0%, menor que la de 'Novedoso' (30.0%), pero la opción de distracción afirma que es 'mayor' y la juzga erróneamente como el atractivo principal; los factores dominantes son la facilidad de consumo (65.0%) y el efecto (56.0%)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Es general y sin soporte de datos. Solo sugiere una distribución equilibrada y no integra los factores clave en los gráficos (como las preferencias de los consumidores o la satisfacción con la salud), por lo que es fácil de descartar por conocimiento general.",
+        "B": "Se refiere a la alta proporción combinada de 'Satisfecho' y 'Muy Satisfecho' en la satisfacción con la salud en chart_84_3 (que muestra una base positiva) y los datos de preferencias en chart_84_2, y se utiliza para la orientación de la salud preventiva mediante razonamiento conjunto.",
+        "C": "Orientación errónea al grupo: chart_84_3 muestra que 'Muy Satisfecho' solo representa el 14.5%, un grupo pequeño, mientras que 'Promedio' representa el 32.7% y es más probable que se beneficie. La sugerencia de la opción de distracción ignora el grupo grande, lo que resulta en una baja eficiencia en la asignación de recursos y no se combina con el crecimiento del consumo (chart_84_1).",
+        "D": "Se refiere a la proporción de 'Insatisfecho' en la satisfacción con la salud en chart_84_3 (aunque es baja pero existe) y la alta proporción de 'Fácil de tomar' en chart_84_2, lo que refleja los valores de inclusión (no ignorar a los grupos vulnerables).",
+        "E": "Integración errónea de datos: en chart_84_2, la proporción de 'Novedoso' es del 30.0%, significativamente menor que la de 'Fácil de tomar' (65.0%) o 'Buen efecto' (56.0%), pero la opción de distracción lo enfatiza como prioridad. Además, la alta satisfacción con la salud en chart_84_3 (60.2% de 'Satisfecho' + 'Muy Satisfecho') no respalda directamente la innovación como motor, ignorando las preferencias principales.",
+        "F": "Se refiere a la tendencia de rápido crecimiento de la escala de consumo en chart_84_1 y la alta proporción de 'Buen efecto' y 'Fácil de tomar' en chart_84_2, centrándose en la eficiencia de los recursos.",
+        "G": "Interpretación errónea de la tendencia: chart_84_1 muestra un fuerte crecimiento del consumo (de 100 a 300), pero la opción de distracción sugiere reducir la inversión en funciones principales (como el efecto o la facilidad), lo que es contrario a las preferencias de los consumidores (chart_84_2). Aunque la optimización de la cadena de suministro es relevante, no es el foco de la estrategia."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "C",
+        "G"
       ]
     }
   ]

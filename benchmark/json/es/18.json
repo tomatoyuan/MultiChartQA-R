@@ -86,6 +86,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: basado en el sentido común, los costos generales del informe suelen ser más completos (posiblemente incluyendo vivienda), mientras que el caso específico solo enumera los gastos superficiales, pero los gráficos no mencionan diferencias en los métodos de cálculo; la diferencia real se debe principalmente a que los costos generales incluyen gastos importantes como bienes raíces (la opción B es correcta).",
+        "B": "Esta es una opción de distracción fácil: en términos de sentido común, los grupos de altos ingresos pueden tener costos de boda más altos, pero el caso de la Sra. Liu en el gráfico no menciona el nivel de ingresos, y los costos generales son el promedio de la ciudad (chart_18_3), sin relación con los ingresos; el error radica en no basarse en los gráficos.",
+        "C": "Basado en el conflicto de datos de los gráficos y las conexiones implícitas. Depende de la distribución de gastos de boda en Shanghái (las joyas y la luna de miel representan un pequeño porcentaje) y el top 10 de costos de ciudades nacionales (el alto costo en Shanghái puede incluir más ítems) de los gráficos, pero el costo total de la distribución de gastos de boda es bajo, requiriendo un razonamiento conjunto de que el porcentaje de los ítems no es suficiente para alcanzar el nivel general.",
+        "D": "Esta es una opción de distracción difícil: basado en un razonamiento erróneo de los gráficos, en chart_18_2 el banquete de 6 millones representa el 28% de 21.5 millones, pero en el costo general de 200 millones la vivienda representa una gran parte (chart_18_3), los valores no son cercanos; el error radica en subestimar la brecha (21.5 millones vs 200 millones).",
+        "E": "La opción se basa en el conflicto de datos de los gráficos (el costo total de una boda específica en Shanghái es mucho menor que el costo general de matrimonio en Shanghái del informe) y razona las conexiones implícitas (diferencias en la composición de costos). Depende de un gráfico que muestra la distribución de gastos de boda de la Sra. Liu en Shanghái (muestra gastos directos como banquete, suministros de boda, etc.) y un gráfico del top 10 de costos de ciudades nacionales (alto costo en Shanghái, implícitamente incluyendo ítems importantes como bienes raíces). Solo con el gráfico de distribución de gastos de boda no se puede explicar el costo general, debe combinarse con la diferencia de escala del gráfico del top 10 de costos de ciudades.",
+        "F": "También se basa en el conflicto de datos de los gráficos y las conexiones implícitas. Depende del gráfico de distribución de gastos de boda de la Sra. Liu en Shanghái y del gráfico del top 10 de costos de ciudades nacionales: los ítems de gastos del gráfico de distribución de gastos de boda no son suficientes para cubrir el costo general, y el costo de ciudad del gráfico del top 10 generalmente incluye vivienda, requiriendo un razonamiento conjunto de la composición de los datos promedio y el caso individual.",
+        "G": "Esta es una opción de distracción difícil: basado en un razonamiento erróneo de los gráficos, chart_18_2 muestra que la luna de miel de 4 millones es solo una parte del costo total de 21.5 millones, mientras que el costo general de 200 millones es mucho mayor, la diferencia se debe principalmente a la vivienda (chart_18_3), los gastos de luna de miel no se calculan duplicados; el error radica en malinterpretar la brecha de valores (4 millones vs 200 millones)."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción se basa en la regularidad (la proporción histórica se estabiliza pero el valor absoluto crece) y la tendencia de comparación con el extranjero, fuertemente relacionada con la tendencia numérica de los gráficos. Depende del gráfico de la historia de cambios en los costos de matrimonio en China (muestra la proporción de costo-ingreso mensual y la situación histórica de costos) y el gráfico de comparación de costos de matrimonio en el extranjero (bajo costo en EE. UU.). Solo con la historia de cambios en costos de matrimonio en China no se puede comparar con el extranjero, debe combinarse con el gráfico de comparación de costos en el extranjero para razonar factores de ingresos o culturales.",
+        "B": "Basado en la regularidad y la tendencia de comparación. Depende del gráfico de la historia de cambios en costos de matrimonio en China (costos y proporción en cierto período) y el gráfico de comparación de costos en el extranjero (costo similar en Corea del Sur), pero los costos históricos de la historia de cambios en China son menores que los costos de ciudad del gráfico del top 10 de ciudades nacionales, requiriendo un razonamiento conjunto de que la urbanización causa un salto en los costos.",
+        "C": "Esta es una opción de distracción difícil: basado en un razonamiento erróneo de los gráficos, chart_18_4 muestra costo en EE. UU. de 140,000 yuanes menor que 250,000 yuanes en China en 2016 (chart_18_1), y los ingresos en EE. UU. pueden ser mayores, pero la opción dice \"costo en EE. UU. mayor\" error; malinterpreta los valores (14<25).",
+        "D": "Esta es una opción de distracción fácil: basado en el sentido común, los países asiáticos pueden tener culturas similares, pero los gráficos muestran Japón con 410,000 yuanes (chart_18_4) vs China 2016 con 250,000 yuanes (chart_18_1) con gran diferencia, y costos de ciudad mayores; error en no basarse en valores específicos.",
+        "E": "Esta es una opción de distracción difícil: basado en un razonamiento erróneo de los gráficos, chart_18_4 Egipto 440,000 yuanes vs chart_18_3 Chengdu 550,000 yuanes, 44<55, pero la opción dice \"mucho menor\" error (realmente Egipto 440,000 < Chengdu 550,000); malinterpreta el orden y la brecha.",
+        "F": "Basado en la regularidad y la tendencia de comparación. Depende del gráfico del top 10 de costos de ciudades nacionales (alto valor absoluto en ciudades chinas) y el gráfico de comparación de costos en el extranjero (alto costo en Egipto). El gráfico del top 10 de ciudades muestra alto valor absoluto en ciudades chinas, pero debe combinarse con los datos de Egipto del gráfico de comparación en el extranjero para razonar presiones comunes en economías emergentes.",
+        "G": "Esta es una opción de distracción fácil: basado en el sentido común, bajo la tendencia global de inflación los costos de matrimonio suelen aumentar (como China de 10 yuanes a 250,000), pero los gráficos muestran altos costos en China y Egipto; error en no basarse en los gráficos, generalizando."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: basado en un razonamiento erróneo de los gráficos, chart_18_2 muestra joyas de 3 millones representando 14%, pero en la historia como 1990 \"tres joyas de oro\" no da valores, no se puede comparar porcentaje; y la opción dice \"alto porcentaje\" sin base; error en inventar comparación numérica.",
+        "B": "Basado en conexiones implícitas. Depende del gráfico de la historia de cambios en costos de matrimonio en China (ningún año menciona vivienda) y el gráfico del top 10 de costos de ciudades nacionales (alto costo en ciudades, implícitamente bienes raíces). La historia de cambios en China no involucra vivienda, requiere combinar con el gráfico del top 10 de ciudades para razonar nuevas fuentes de presión modernas.",
+        "C": "Esta es una opción de distracción fácil: basado en el sentido común, la frugalidad puede reducir gastos, pero los gráficos muestran costos disparados de 10 yuanes a nivel de millones (chart_18_1 y 18_3); error en no basarse en datos de los gráficos.",
+        "D": "Basado en conexiones implícitas. Depende del gráfico de la historia de cambios en costos de matrimonio en China (\"tres vueltas y un sonido\" y otros productos industriales) y el gráfico de distribución de gastos de boda en Shanghái (gastos en joyas, fotos de boda). La historia de cambios muestra objetos históricos, requiere combinar con los ítems de lujo del gráfico de distribución de gastos en Shanghái para razonar la mejora en el consumo.",
+        "E": "Esta es una opción de distracción fácil: basado en el sentido común, la digitalización es una tendencia, pero los gráficos no mencionan servicios en línea (chart_18_1 y 18_2 solo enumeran ítems físicos/servicios); error en no basarse en los gráficos, generalizando.",
+        "F": "Esta es una opción de distracción difícil: basado en un razonamiento erróneo de los gráficos, en chart_18_1 1970 \"tres vueltas y un sonido\" se refiere a objetos como bicicletas, no incluye luna de miel; chart_18_2 luna de miel es un ítem nuevo; error en malinterpretar el contenido de los ítems (sin luna de miel históricamente).",
+        "G": "La opción se basa en conexiones implícitas (evolución de ítems de costos de objetos a servicios), fuertemente relacionada con el contenido de ítems descrito en los gráficos. Depende del gráfico de la historia de cambios en costos de matrimonio en China (objetos tempranos como muebles, refrigerador, etc.) y el gráfico de distribución de gastos de boda en Shanghái (ítems de servicio como banquete, maestro de ceremonias, luna de miel). Solo con la historia de cambios en China no se puede inferir el consumo moderno de servicios, debe combinarse con el gráfico de distribución de gastos en Shanghái para razonar la evolución de tipos de ítems."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Se refiere a chart_18_1 (tendencia de aumento de costos históricos, que muestra que los costos han evolucionado de una simple certificación a artículos y servicios de alto costo) y chart_18_3 (diferencias de costos entre ciudades, que muestra que los costos en las grandes ciudades son mucho más altos que en otras regiones).",
+        "B": "Se refiere a chart_18_1 (modelos de bajo costo histórico, como las prácticas de bajo costo entre 1950 - 1960) y chart_18_3 (datos de costos de ciudades, que proporcionan una base para la selección regional).",
+        "C": "Esta es una distracción fácil: no se basa en ningún dato de los gráficos y se puede descartar basándose en conocimientos financieros generales (pedir préstamos puede aumentar la carga de deuda a largo plazo); la formulación es amplia, sin indicaciones de acción específicas y se ignora el objetivo central de reducir los gastos.",
+        "D": "Esta es una distracción fácil: se basa en conocimientos de la industria (las bodas colectivas pueden ahorrar dinero), pero no cita el contenido de los gráficos; la estrategia es vaga y no se combina con la evolución histórica o las diferencias entre ciudades, y es fácil de descartar por conocimiento general.",
+        "E": "Se refiere a chart_18_2 (distribución de gastos de boda, que muestra que los servicios opcionales como la cavalcada y el maestro de ceremonias tienen costos altos) y chart_18_1 (evolución histórica, que muestra que la adición de servicios ha causado un aumento de los costos).",
+        "F": "Esta es una distracción difícil: se aplica erróneamente los datos de chart_18_3; el costo en Shenzhen es de 2.08 millones de yuanes, el más alto, pero el gráfico enfatiza que las diferencias de costos se deben a servicios adicionales, no a la garantía de calidad; la sugerencia de celebrar la boda en una ciudad de alto costo aumentará significativamente los gastos, lo que contradice el objetivo de reducir los gastos y confunde la relación entre costos y calidad.",
+        "G": "Esta es una distracción difícil: se interpreta erróneamente los datos de chart_18_1; el costo de 10 yuanes en 1950 se basaba en las condiciones socio - económicas de la época, pero el gráfico muestra que los costos posteriores aumentaron debido al aumento de artículos esenciales (como la nevera y la televisión en 1980), se ignoran las necesidades centrales de una boda moderna (como el banquete y las joyas), y la dirección de la estrategia está desviada (es irrealista ser completamente retro)."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: se aplica erróneamente los datos de chart_18_4 y chart_18_2; el costo de las joyas es de 300,000 yuanes, que representa el 14% de la distribución, pero el costo en Corea del Sur de 3.1 millones de yuanes no especifica la composición de los gastos; la sugerencia de invertir el doble en joyas ignora el objetivo de \"evitar el desperdicio\" y se infiere erróneamente la relación entre costos y la importancia del proyecto (un costo alto no significa que se deba aumentar el gasto).",
+        "B": "Esta es una distracción fácil: no se basa en los gráficos y se puede descartar basándose en conocimientos generales (un gasto más alto puede mejorar la calidad); la estrategia es amplia y contradice directamente el objetivo de \"evitar el desperdicio\", sin indicaciones específicas de distribución de presupuesto.",
+        "C": "Se refiere a chart_18_2 (distribución de gastos, que destaca la importancia de las joyas y los suministros de boda) y chart_18_4 (datos internacionales, como los costos en Japón y Corea del Sur, que proporcionan un estándar de referencia).",
+        "D": "Esta es una distracción fácil: se basa en conocimientos generales de gestión (herramientas para controlar los gastos), pero no cita los datos de los gráficos; la formulación es generalizada y no se combina con la distribución de gastos o la comparación internacional, y es fácil de considerar como una sugerencia irrelevante.",
+        "E": "Se refiere a chart_18_2 (distribución de gastos, que muestra que los gastos en el banquete y la luna de miel son altos) y chart_18_4 (comparación de costos internacionales, como el bajo costo en Estados Unidos, que indica que las actividades grandes se pueden optimizar).",
+        "F": "Esta es una distracción difícil: se interpreta erróneamente los datos de chart_18_4 y chart_18_2; el costo en Estados Unidos es de 1.4 millones de yuanes, el más bajo, pero chart_18_2 muestra que el banquete de 600,000 yuanes y la luna de miel de 400,000 yuanes son proyectos de gastos centrales (que representan casi el 50% del costo total); cancelarlos puede afectar gravemente la calidad y la satisfacción; se confunde el control de costos con las diferencias culturales (el modelo estadounidense puede no ser aplicable).",
+        "G": "Se refiere a chart_18_2 (distribución de gastos, que muestra que los gastos en la cavalcada y otros son altos) y chart_18_4 (comparación internacional, como la eficiencia de costos del estilo sencillo en Estados Unidos)."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: se aplica erróneamente los datos de chart_18_4 y chart_18_1; el costo en Egipto es de 4.4 millones de yuanes, el más alto, pero el gráfico no indica que esté en correlación positiva con la calidad; aumentar el presupuesto contradice el objetivo de \"evitar gastos excesivos\" y se infiere erróneamente la relación entre costos internacionales y estándares de calidad (un costo alto puede deberse a factores culturales, no a la garantía de calidad).",
+        "B": "Esta es una distracción fácil: se basa en conocimientos de la industria (descuentos en temporada baja), pero no cita las tendencias o comparaciones de los gráficos; la formulación es generalizada y no se combina con el aumento a largo plazo o los datos globales, y es fácil de descartar por conocimiento general.",
+        "C": "Se refiere a chart_18_3 (diferencias de costos entre ciudades, que muestra que la brecha de costos entre regiones es grande) y chart_18_1 (datos históricos, como las prácticas de bajo costo entre 1950 - 1970).",
+        "D": "Se refiere a chart_18_1 (tendencia de aumento de costos históricos, que muestra que la adición de servicios ha causado un aumento de los costos) y chart_18_4 (comparación internacional, como el modelo de bajo costo en Estados Unidos).",
+        "E": "Esta es una distracción fácil: no se basa en los gráficos y se puede descartar basándose en conocimientos políticos (los subsidios pueden aliviar la carga); la estrategia es amplia, no se refiere a la planificación personal o a datos, y se ignora la adaptabilidad a las condiciones económicas.",
+        "F": "Se refiere a chart_18_1 (proporción de ingresos históricos, que muestra que el costo representa una proporción fija de los ingresos) y chart_18_3 (datos de costos de ciudades, que resaltan la presión económica).",
+        "G": "Esta es una distracción difícil: se interpreta erróneamente los datos de chart_18_1 y chart_18_3; el aumento de costos históricos muestra un aumento en valor absoluto, pero no proporciona datos de tasa de crecimiento; la sugerencia de casarse de emergencia en Chengdu (con un costo de 550,000 yuanes) ignora las diferencias económicas entre ciudades (Chengdu todavía tiene un costo alto) y la estrategia de \"bloquear el precio\" no es práctica (el costo está afectado por muchos factores)."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

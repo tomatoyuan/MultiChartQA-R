@@ -85,6 +85,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "该选项不依赖图表数据，仅基于常识（技术进步推动在线服务增长），是泛泛而谈的正确观点，容易被直接识别为无关图表。",
+        "B": "依赖健康生活方式素养（2020年从19.2%跳至26.4%）和线上健身渗透率（2020年从33.2%跳至42.7%）的数值变化。单张图表无法解释跳跃原因；联合推理可识别外部事件（如疫情）的共同影响，但不能仅靠内部知识。",
+        "C": "该选项基于图表数据（2020年数值），但错误比较了差距。渗透率42.7%与健康素养23.2%的差值被夸大，错误暗示'影响甚微'，实际上图表显示2020年两者同步跳跃（健康生活方式素养从19.2%到26.4%，渗透率从33.2%到42.7%），表明相关性而非无关。",
+        "D": "需要联合分析健康素养水平数据（如2015 - 2021年整体和健康生活方式素养的上升趋势）和线上健身渗透率数据（如从2015年0.0%增长到2021年45.5%）。仅凭单张图表无法推断两者在时间上的同步性（例如，2017年健康素养14.3%对应渗透率17.5%，2020年23.2%对应42.7%），必须跨图比较趋势才能得出健康意识推动线上健身的结论。",
+        "E": "该选项表面上基于图表数据（引用2017年数值），但错误解读了数值关系。健康素养从11.6%到14.3%的增幅（+2.7%）远小于渗透率从0.8%到17.5%的增幅（+16.7%），选项却错误推断'小幅提升是主要驱动'，忽略了渗透率跳跃可能由其他因素（如APP兴起）引起。",
+        "F": "基于健康素养整体从10.4%升至25.4%和线上健身渗透率从0.0%升至45.5%的长期趋势。仅看一张图（如渗透率增长）无法联系到健康素养；必须跨图对比起点和增速，才能隐含健康知识作为基础因素的规律。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合痛点数据（如'Alto estrés entre trabajo y vida privada, propenso a la tensión emocional/depresión'55.1%和'Dificultad para equilibrar trabajo y vida privada, con poco tiempo libre'39.9%）和未选择传统健身房原因数据（如'El modo de tarjeta anual tiene una duración larga y es difícil de mantener'47.5%）。单张图表只能列出问题（如仅痛点或仅原因）；跨图推理可发现压力和时间痛点如何放大年卡模式的缺点，从而隐含推动灵活健身方式的联系。",
+        "B": "该选项不依赖图表，仅基于行业常识（价格敏感驱动消费选择），是泛泛而谈的正确观点，易被直接选出。",
+        "C": "基于'El marketing en redes sociales desencadena ansiedad corporal/o sobre el estilo de vida'43.8%和'A menudo envían folletos o hacen ventas directas, lo que deja una mala impresión'39.9%、'El estilo de la tienda está desactualizado y carece de atractivo'42.4%。单张图表无法建立社交媒体焦虑与健身房营销问题的关系；跨图比较占比趋势（如两者均超40%）可隐含线上平台更贴合社交媒体习惯的联系。",
+        "D": "该选项表面上基于图表数据（引用痛点55.1%和原因47.5%），但错误解读了数值排序和差距。工作压力（55.1%）比年卡问题（47.5%）高7.6%，选项却错误地称'高度相似'并推断'唯一决定性因素'，忽略了其他高占比痛点如身材不满意（50.7%）或亚健康（47.0%）。",
+        "E": "该选项基于图表数据（社交媒体焦虑43.8%和推销印象39.9%），但错误比较了差距（仅差3.9%），并错误归因'主导推动力'。实际上，推销印象属于传统健身房原因（chart_82_4），而社交媒体焦虑属于用户痛点（chart_82_2），两者并非直接相关，且痛点中工作压力（55.1%）占比更高。",
+        "F": "依赖'Estado de salud subóptima, padecimiento de enfermedades crónicas como la espondilitis cervical'47.0%和'Insatisfecho con la actitud y habilidades de enseñanza del entrenador'43.0%、'Los cursos son bastante homogéneos y no pueden satisfacer las necesidades'30.4%。仅凭单图（如痛点）无法链接到健身房具体问题；联合分析数值（如亚健康近半数）和原因（如教练不满高占比）才能推断用户转向更健康管理的替代方案。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "该选项基于图表数据（2021年25.4%和2022年47.0%），但错误比较了数值和群体。健康素养数据针对全体居民，而痛点针对健身用户特定群体，选项错误地推断'无效或恶化'，实际痛点高占比可能源于新挑战（如疫情后压力），而非素养提升本身。",
+        "B": "该选项表面上基于图表数据（引用2016年9.8%和2022年41.6%），但错误解读了时间跨度和相关性。2016年素养下降（仅一年）与2022年痛点间隔6年，选项却错误推断'直接导致'，忽略了健康素养整体上升趋势（2021年28.1%）和外部因素如工作压力。",
+        "C": "需要联合健康生活方式素养数据（如2016年9.8%低于2015年10.3%）和痛点数据（如'Tener malos hábitos de vida/adicciones como acostarse tarde y fumar'41.6%）。单张图表（如素养趋势）无法解释冲突；跨图推理比较具体年份下降和痛点高占比，才能得出知识行为差距的解释。",
+        "D": "该选项不依赖图表，仅基于常识（知识与行为脱节），是泛泛而谈的正确解释，易被直接识别。",
+        "E": "基于健康素养上升趋势和痛点数据，但需隐含结合线上健身渗透率增长作为背景。然而，选项核心依赖两张图表：健康素养数据无法单独解释痛点（如亚健康47.0%），必须跨图识别健康素养在行为转化上的不足；线上健身作为第三方因素在解释中提及，但选项主体推理基于健康素养数据和痛点数据的冲突点。",
+        "F": "依赖健康素养到2021年升至25.4%和2022年痛点如'Estado de salud subóptima'47.0%。仅看单图（如痛点）会误判冲突；联合分析时间差（2021 vs 2022）和群体差异（健身用户可能更敏感）可解释表面矛盾。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -151,6 +196,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción confunde la relación entre los gráficos: el gráfico 82_3 muestra un crecimiento en la penetración del fitness online, pero el gráfico 82_4 indica que los usuarios tienen preocupaciones sobre los gimnasios tradicionales (por ejemplo, los riesgos de la tarjeta anual), no los abandonan por completo. La sugerencia de 'abandonar por completo' es una tendencia extremada y se ignora la necesidad de integración (como el modelo mixto de la opción correcta C), lo que puede alejar a los usuarios que prefieren las instalaciones físicas.",
+        "B": "Basado en la tendencia ascendente constante del nivel de alfabetización en salud en el gráfico 82_1 y el rápido crecimiento de la penetración del fitness online en el gráfico 82_3 (desde cero hasta una alta penetración), combinado con los puntos problemáticos predominantes de los usuarios de fitness en el gráfico 82_2, como 'dificultad para equilibrar trabajo y vida privada, con poco tiempo libre' y 'tener malos hábitos de vida/adicciones como acostarse tarde y fumar', la plataforma online puede resolver directamente estas necesidades de accesibilidad y flexibilidad.",
+        "C": "Dado el alto porcentaje del 'alto estrés entre trabajo y vida privada, propenso a la tensión emocional/depresión' en el gráfico 82_2 (el problema más destacado) y la fluctuación del nivel de alfabetización en estilos de vida saludables y conductas saludables en los primeros años en el gráfico 82_1 (por ejemplo, la disminución en 2016), los recursos deben centrarse en la gestión del estrés para estabilizar la mejora de conductas.",
+        "D": "Esta opción interpreta erróneamente los gráficos: el gráfico 82_1 muestra que el nivel de alfabetización en estilos de vida saludables disminuyó en 2016, pero la tendencia general (de 2015 a 2021) es ascendente (de 10.3% a 28.1%), y los datos de otros años indican que la fluctuación es temporal. La sugerencia de'reducir la inversión' ignora la tendencia ascendente a largo plazo y puede causar un desequilibrio en la asignación de recursos.",
+        "E": "Esta opción no se basa en ningún dato de los gráficos, solo en el conocimiento general (los servicios médicos son la base de la salud), pero no ofrece acciones específicas en relación con la alfabetización en salud o los puntos problemáticos del fitness (como el alto estrés o la tendencia online), y la formulación es amplia y sin base en los gráficos.",
+        "F": "Basado en las razones con alto porcentaje en el gráfico 82_4, como 'el modo de tarjeta anual tiene una duración larga y es difícil de mantener' y 'el modo de tarjeta anual tiene altos riesgos, se preocupa por que el comerciante se marche', y la tendencia continua de alto crecimiento de la penetración del fitness online en el gráfico 82_3, la estrategia debe combinar las ventajas de las plataformas online y offline para optimizar el servicio.",
+        "G": "Esta opción se basa en la promoción de la salud de sentido común (como la educación alimentaria), pero no cita las tendencias o los puntos problemáticos de los gráficos (como el aumento de la alfabetización en salud o la poca disponibilidad de tiempo libre de los usuarios), la dirección de la estrategia es difusa y no puede aumentar directamente la tasa de adopción."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -173,6 +235,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Basado en el alto porcentaje de 'alto estrés entre trabajo y vida privada, propenso a la tensión emocional/depresión' (el problema más destacado) y 'círculo social reducido, deseo de hacer más amigos' en el gráfico 82_2, combinado con la razón de 'los cursos son bastante homogéneos y no pueden satisfacer las necesidades' en el gráfico 82_4, la innovación de cursos puede resolver las necesidades psicológicas y sociales.",
+        "B": "Esta opción no se basa en los gráficos, solo en el conocimiento comercial general (la publicidad mejora la marca), pero no aborda los puntos problemáticos específicos (como la mala impresión de las ventas directas o el alto estrés) o las razones por las que no se eligieron los gimnasios tradicionales (como el modo de tarjeta anual), y la estrategia es amplia y sin soporte de datos.",
+        "C": "Esta opción interpreta erróneamente los gráficos: el gráfico 82_4 muestra que la insatisfacción con el entrenador es un obstáculo principal (43.0%), pero la sugerencia de'reducir costos' puede empeorar la calidad del servicio (por ejemplo, entrenadores a tiempo parcial con menos habilidades), y se ignora la necesidad de capacitación de mejora de la opción correcta B. Además, no se considera la dependencia de la guía profesional de los usuarios de fitness debido a los puntos problemáticos (como la insatisfacción con el cuerpo).",
+        "D": "Basado en las razones con alto porcentaje en el gráfico 82_4, como 'el modo de tarjeta anual tiene una duración larga y es difícil de mantener' (el porcentaje más alto) y 'a menudo envían folletos o hacen ventas directas, lo que deja una mala impresión', combinado con los puntos problemáticos de los usuarios de fitness en el gráfico 82_2, como 'dificultad para equilibrar trabajo y vida privada, con poco tiempo libre' y 'los ingresos disponibles son insuficientes para satisfacer las necesidades de consumo', un modelo flexible puede reducir la barrera de entrada.",
+        "E": "Esta opción se basa en métodos de promoción comunes (como pruebas gratuitas), pero no cita datos de los gráficos (como la insatisfacción con el precio o la homogeneidad de los cursos), carece de pertinencia y no puede resolver directamente el problema de la tasa de retención de usuarios.",
+        "F": "Esta opción aplica erróneamente los gráficos: el gráfico 82_2 muestra el problema de poca disponibilidad de tiempo libre (39.9%), pero la sugerencia de 'extender el horario de apertura' ignora la factibilidad práctica (por ejemplo, el aumento de costos) y el problema central (falta de flexibilidad). Además, no se combina con las razones por las que no se eligieron los gimnasios tradicionales (como la duración larga de la tarjeta anual), lo que puede ser ineficaz e incluso aumentar la preocupación de los usuarios.",
+        "G": "Combinando las razones con alto porcentaje en el gráfico 82_4, como 'insatisfecho con la actitud y habilidades de enseñanza del entrenador' y 'el estilo de la tienda está desactualizado y carece de atractivo', y los puntos problemáticos destacados de los usuarios de fitness en el gráfico 82_2, como 'insatisfacción subjetiva con el propio cuerpo/físico' y 'estado de salud subóptima, padecimiento de enfermedades crónicas como la espondilitis cervical', el servicio personalizado puede atender a las necesidades de mejora de la salud de los usuarios."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -197,6 +276,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción aplica erróneamente los gráficos: el gráfico 82_2 muestra el problema de ansiedad causado por el marketing en redes sociales (43.8%), pero la sugerencia de 'prohibir la publicidad' es extremada y se ignora el crecimiento de la penetración del fitness online (gráfico 82_3), que depende de la comercialización digital. La dirección de la estrategia está desviada (debería ser educación en lugar de prohibición), lo que puede reducir la eficiencia de los canales online.",
+        "B": "Combinando los puntos problemáticos con alto porcentaje en el gráfico 82_2, como 'estado de salud subóptima, padecimiento de enfermedades crónicas como la espondilitis cervical' y 'alto estrés entre trabajo y vida privada, propenso a la tensión emocional/depresión', y la disminución temporal del nivel de alfabetización en estilos de vida saludables en 2016 en el gráfico 82_1 (tendencia de fluctuación), los proyectos comunitarios pueden compensar la brecha en la salud básica.",
+        "C": "Esta opción se basa en la promoción general de la salud (como conferencias), pero no cita datos de los gráficos (como el aumento de la alfabetización en salud o los puntos problemáticos de los usuarios), y no puede optimizar los recursos en relación con la evolución del fitness (como la tendencia online), la formulación es difusa.",
+        "D": "Esta opción no se basa en los gráficos, solo en el conocimiento general (la preparación para emergencias es importante), pero no se relaciona con la tendencia de la alfabetización en salud o la evolución del modo de fitness (como el crecimiento de la penetración del fitness online), la estrategia es amplia y no tiene una guía de acción específica.",
+        "E": "Basado en la tendencia general ascendente del nivel de alfabetización en salud en el gráfico 82_1 (desde un nivel bajo hasta un nivel alto) y el rápido crecimiento de la penetración del fitness online en el gráfico 82_3 (desde cero hasta una alta penetración), combinado con los puntos problemáticos de los usuarios de fitness en el gráfico 82_2, como 'el marketing en redes sociales desencadena ansiedad corporal/o sobre el estilo de vida' y 'tener malos hábitos de vida/adicciones como acostarse tarde y fumar', la asignación de recursos digitales es eficiente y tiene una amplia cobertura.",
+        "F": "Esta opción interpreta erróneamente los gráficos: el gráfico 82_1 muestra un salto en el nivel de alfabetización en 2020 (de 19.2% a 26.4%), pero puede haber sido influenciado por factores externos (como la pandemia). La sugerencia de'reproducir la estrategia de 2020' ignora la tendencia general (ascendente de 2015 a 2021) y los datos de 2021 (25.4%), lo que puede causar un desequilibrio en la asignación de recursos y no integra los puntos problemáticos del fitness (como el alto estrés).",
+        "G": "Basado en las razones con alto porcentaje en el gráfico 82_4, como 'el modo de tarjeta anual tiene altos riesgos, se preocupa por que el comerciante se marche' y 'el precio es alto, insatisfecho con la relación calidad - precio', combinado con la tendencia continua de crecimiento de la penetración del fitness online en el gráfico 82_3 (que refleja el cambio de preferencias de los usuarios), la estrategia de regulación puede reducir los riesgos y promover la equidad en la industria."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     }
   ]

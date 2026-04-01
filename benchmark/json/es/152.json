@@ -85,6 +85,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Difícil：asociación temporal ficticia (sin base de fecha de publicación de informes), y el factor de elasticidad solo ocupa el cuarto lugar (30%), no es la causa principal del pico",
+        "B": "Fácil：los gráficos no involucran información de portavoces, dependen del conocimiento general de la industria (el efecto de las celebridades impulsa las ventas) en lugar del análisis de gráficos",
+        "C": "El gráfico de tendencias de ventas muestra múltiples picos de ventas (como valores significativamente superiores a la línea base), mientras que el gráfico de factores de influencia en la compra enumera los factores clave que influyen en la decisión del consumidor y su importancia relativa (como 'Se ajusta bien' que tiene el porcentaje más alto). La opción infiere que los picos pueden ser causados por la promoción de factores específicos, lo que requiere combinar ambos gráficos: identificar los períodos de pico del gráfico de tendencias e inferir qué factores se priorizaron del gráfico de factores. Solo con el gráfico de tendencias no se puede conocer la clasificación de los factores, solo con el gráfico de factores no se puede explicar el momento del pico; se debe realizar un análisis cruzado de los eventos de pico (como fechas) y la importancia de los factores (como la clasificación) para derivar conexiones implícitas (como que la marca puede haber intensificado la promoción de factores de alta clasificación en los días de pico).",
+        "D": "El gráfico de tendencias de ventas muestra múltiples picos de ventas (como valores significativamente superiores a la línea base), mientras que el gráfico de factores de influencia en la compra enumera los factores clave que influyen en la decisión del consumidor y su importancia relativa (como 'Se ajusta bien' que tiene el porcentaje más alto). La opción infiere que los picos pueden ser causados por la promoción de factores específicos, lo que requiere combinar ambos gráficos: identificar los períodos de pico del gráfico de tendencias e inferir qué factores se priorizaron del gráfico de factores. Solo con el gráfico de tendencias no se puede conocer la clasificación de los factores, solo con el gráfico de factores no se puede explicar el momento del pico; se debe realizar un análisis cruzado de los eventos de pico (como fechas) y la importancia de los factores (como la clasificación) para derivar conexiones implícitas (como que la marca puede haber intensificado la promoción de factores de alta clasificación en los días de pico).",
+        "E": "Difícil：asociación incorrecta de valores y porcentajes: el valor máximo de 105 son datos de ventas, 28% es el porcentaje de influencia del factor, las dos tienen unidades/dimensiones diferentes",
+        "F": "Fácil：el gráfico de tendencias de ventas no menciona nodos promocionales, y la asociación entre promociones y picos es conocimiento común, pero los gráficos no tienen datos que lo respalden",
+        "G": "El gráfico de tendencias de ventas muestra múltiples picos de ventas (como valores significativamente superiores a la línea base), mientras que el gráfico de factores de influencia en la compra enumera los factores clave que influyen en la decisión del consumidor y su importancia relativa (como 'Se ajusta bien' que tiene el porcentaje más alto). La opción infiere que los picos pueden ser causados por la promoción de factores específicos, lo que requiere combinar ambos gráficos: identificar los períodos de pico del gráfico de tendencias e inferir qué factores se priorizaron del gráfico de factores. Solo con el gráfico de tendencias no se puede conocer la clasificación de los factores, solo con el gráfico de factores no se puede explicar el momento del pico; se debe realizar un análisis cruzado de los eventos de pico (como fechas) y la importancia de los factores (como la clasificación) para derivar conexiones implícitas (como que la marca puede haber intensificado la promoción de factores de alta clasificación en los días de pico)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "El gráfico de factores de influencia en la compra muestra el grado de aceptación de los factores por parte de los consumidores (como 'Se ajusta bien' con el porcentaje más alto), el gráfico de distribución de preferencias de población muestra el orden de porcentaje de diferentes grupos (como 'Madres sofisticadas' con el porcentaje más alto). La opción infiere que grupos específicos (como grupos con alto porcentaje) pueden ser más susceptibles a factores de alta clasificación, lo que requiere combinar ambos gráficos: obtener el peso del grupo del gráfico de población y la prioridad de los factores del gráfico de factores, para así hacer coincidir patrones (como que los grupos con alto porcentaje son más propensos a impulsar decisiones basadas en factores de alta clasificación). Solo con el gráfico de población no se puede conocer la importancia de los factores, solo con el gráfico de factores no se puede relacionar con características del grupo; se debe combinar el orden de porcentaje del grupo y la clasificación de los factores (como el grupo con mayor porcentaje correspondiente al factor de mayor clasificación) para descubrir patrones implícitos (como la alineación de las preferencias del grupo objetivo con los puntos de venta del producto).",
+        "B": "Fácil：depende de estereotipos de edad (los adultos mayores necesitan modelar la figura), pero los adultos mayores urbanos representan solo el 3%, sin base en los gráficos",
+        "C": "Difícil：comparación incorrecta de valores: Gen Z representa el 8% y el factor de modelado de la figura el 33% no tiene relación directa, y el factor de modelado de la figura está relacionado con los jóvenes de los pueblos (opción B)",
+        "D": "El gráfico de factores de influencia en la compra muestra el grado de aceptación de los factores por parte de los consumidores (como 'Se ajusta bien' con el porcentaje más alto), el gráfico de distribución de preferencias de población muestra el orden de porcentaje de diferentes grupos (como 'Madres sofisticadas' con el porcentaje más alto). La opción infiere que grupos específicos (como grupos con alto porcentaje) pueden ser más susceptibles a factores de alta clasificación, lo que requiere combinar ambos gráficos: obtener el peso del grupo del gráfico de población y la prioridad de los factores del gráfico de factores, para así hacer coincidir patrones (como que los grupos con alto porcentaje son más propensos a impulsar decisiones basadas en factores de alta clasificación). Solo con el gráfico de población no se puede conocer la importancia de los factores, solo con el gráfico de factores no se puede relacionar con características del grupo; se debe combinar el orden de porcentaje del grupo y la clasificación de los factores (como el grupo con mayor porcentaje correspondiente al factor de mayor clasificación) para descubrir patrones implícitos (como la alineación de las preferencias del grupo objetivo con los puntos de venta del producto).",
+        "E": "Fácil：error de conocimiento común: los trabajadores calificados senior representan solo el 1% (el más bajo), y el factor de tela no menciona durabilidad",
+        "F": "Difícil：coincidencia forzada de diferencias de porcentaje: el factor de comodidad del 38% son datos de toda la población, no exclusivos de los adultos mayores de los pueblos; ese grupo representa solo el 9%",
+        "G": "El gráfico de factores de influencia en la compra muestra el grado de aceptación de los factores por parte de los consumidores (como 'Se ajusta bien' con el porcentaje más alto), el gráfico de distribución de preferencias de población muestra el orden de porcentaje de diferentes grupos (como 'Madres sofisticadas' con el porcentaje más alto). La opción infiere que grupos específicos (como grupos con alto porcentaje) pueden ser más susceptibles a factores de alta clasificación, lo que requiere combinar ambos gráficos: obtener el peso del grupo del gráfico de población y la prioridad de los factores del gráfico de factores, para así hacer coincidir patrones (como que los grupos con alto porcentaje son más propensos a impulsar decisiones basadas en factores de alta clasificación). Solo con el gráfico de población no se puede conocer la importancia de los factores, solo con el gráfico de factores no se puede relacionar con características del grupo; se debe combinar el orden de porcentaje del grupo y la clasificación de los factores (como el grupo con mayor porcentaje correspondiente al factor de mayor clasificación) para descubrir patrones implícitos (como la alineación de las preferencias del grupo objetivo con los puntos de venta del producto)."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Fácil：el gráfico de tendencias no etiqueta festivos, depende de patrones generales de consumo (promociones festivas), pero no hay datos que lo respalden",
+        "B": "Fácil：los trabajadores calificados urbanos representan solo el 2% (penúltimo), en el conocimiento común 'alto poder adquisitivo' no tiene soporte en los gráficos",
+        "C": "El gráfico de tendencias de ventas muestra los picos de valores de ventas (como significativamente por encima de la línea base), el gráfico de distribución de preferencias de población revela el orden de porcentaje de los grupos (como 'Madres sofisticadas' con el porcentaje más alto). La opción infiere que los eventos de pico pueden ser impulsados por grupos de alto porcentaje, lo que requiere combinar ambos gráficos: identificar la magnitud y el momento de los picos del gráfico de tendencias e inferir la influencia del grupo del gráfico de población (como que los grupos de alto porcentaje son más propensos a causar cambios abruptos en las ventas). Solo con el gráfico de tendencias no se puede confirmar la contribución del grupo, solo con el gráfico de población no se puede explicar la dinámica de ventas; se debe realizar un análisis cruzado de las características del pico (como saltos de valor) y el peso del grupo (como el orden de porcentaje) para derivar conexiones implícitas (como que los picos pueden originarse de acciones concentradas del grupo más grande).",
+        "D": "El gráfico de tendencias de ventas muestra los picos de valores de ventas (como significativamente por encima de la línea base), el gráfico de distribución de preferencias de población revela el orden de porcentaje de los grupos (como 'Madres sofisticadas' con el porcentaje más alto). La opción infiere que los eventos de pico pueden ser impulsados por grupos de alto porcentaje, lo que requiere combinar ambos gráficos: identificar la magnitud y el momento de los picos del gráfico de tendencias e inferir la influencia del grupo del gráfico de población (como que los grupos de alto porcentaje son más propensos a causar cambios abruptos en las ventas). Solo con el gráfico de tendencias no se puede confirmar la contribución del grupo, solo con el gráfico de población no se puede explicar la dinámica de ventas; se debe realizar un análisis cruzado de las características del pico (como saltos de valor) y el peso del grupo (como el orden de porcentaje) para derivar conexiones implícitas (como que los picos pueden originarse de acciones concentradas del grupo más grande).",
+        "E": "Difícil：causalidad ficticia: sin base para la temporada de regreso a clases, y Gen Z representa solo el 8%, no es el grupo principal",
+        "F": "El gráfico de tendencias de ventas muestra los picos de valores de ventas (como significativamente por encima de la línea base), el gráfico de distribución de preferencias de población revela el orden de porcentaje de los grupos (como 'Madres sofisticadas' con el porcentaje más alto). La opción infiere que los eventos de pico pueden ser impulsados por grupos de alto porcentaje, lo que requiere combinar ambos gráficos: identificar la magnitud y el momento de los picos del gráfico de tendencias e inferir la influencia del grupo del gráfico de población (como que los grupos de alto porcentaje son más propensos a causar cambios abruptos en las ventas). Solo con el gráfico de tendencias no se puede confirmar la contribución del grupo, solo con el gráfico de población no se puede explicar la dinámica de ventas; se debe realizar un análisis cruzado de las características del pico (como saltos de valor) y el peso del grupo (como el orden de porcentaje) para derivar conexiones implícitas (como que los picos pueden originarse de acciones concentradas del grupo más grande).",
+        "G": "Difícil：conversión incorrecta de proporciones: el valor de ventas de 90 y el porcentaje de población del 9% no tienen asociación matemática (por ejemplo: el 22% de madres sofisticadas no corresponde a un pico específico)"
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Opción 1 combina chart_152_1 (muestra múltiples fechas de pico, como 25 de septiembre y 13 de diciembre, con valores significativamente más altos que el nivel base) y chart_152_2 (el porcentaje de 'Se ajusta bien, sin apretar ni abrochar' es el más alto, y el de 'Modela el trasero y mejora el contorno' es el segundo más alto). Razón: La demanda se concentra en los períodos de pico. Enfatizar los factores de mayor influencia puede maximizar el efecto de la marketing.",
+        "B": "Opción 2 combina chart_152_1 (los datos base presentan un crecimiento lineal, pero hay períodos estables entre los picos) y chart_152_2 (el porcentaje de 'Tela de alta calidad, suave y delicada con la piel' y 'Alta elasticidad y gran capacidad de adaptación' es similar y alto). Razón: En los períodos no pico, es necesario mantener la demanda. Destacar los factores secundarios puede evitar el desperdicio de recursos.",
+        "C": "Interpretación errónea de chart_152_2: El porcentaje de 'Modelado con presión suave, adelgazante y ajustado' es del 28%, el más bajo entre los cinco factores más influyentes, pero se considera 'puede maximizar la conversión', mientras que el factor con el porcentaje más alto (por ejemplo, 'Se ajusta bien, sin apretar ni abrochar' con un 38%) no se enfatiza, lo que conduce a una desviación en la dirección de la estrategia.",
+        "D": "Interpretación errónea de chart_152_1: Del 1 de septiembre de 2023 al 24 de septiembre de 2023 es un período de aumento de la demanda pero no un pico (el pico está en el 25 de septiembre de 2023). Invertir más en este período se perderá la oportunidad de conversión en el pico; además, atribuir el pico a la 'aleatoriedad' ignora que el pico en el gráfico es un evento significativo.",
+        "E": "Esta estrategia ignora las fluctuaciones de la demanda mostradas en chart_152_1 (por ejemplo, el pico de 100 en el 25 de septiembre de 2023). La distribución uniforme no puede aprovechar el aumento repentino de la demanda en el período de pico para aumentar las ventas. Es una sugerencia general de sentido común sin enfoque.",
+        "F": "La sugerencia de mejorar la知名度 de la marca no se combina con los factores concretos de decisión de los consumidores (por ejemplo, 'Se ajusta bien, sin apretar ni abrochar' con un 38% en chart_152_2). Es demasiado genérica y carece de respuesta a las fluctuaciones de la demanda.",
+        "G": "Opción 3 combina chart_152_1 (el valor del pico en el 13 de diciembre alcanza 105) y chart_152_2 (el porcentaje de 'Modelado con presión suave, adelgazante y ajustado' es el más bajo pero aún tiene influencia). Razón: Aprovechar el pico para hacer promociones y probar factores con bajo porcentaje puede optimizar la estrategia a largo plazo."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Opción 2 combina chart_152_3 (el porcentaje de Jóvenes profesionales urbanos y Gen Z es medio, 16.0% y 8.0% respectivamente) y chart_152_2 (el porcentaje de 'Modela el trasero y mejora el contorno' y 'Modelado con presión suave, adelgazante y ajustado' es relativamente alto). Razón: Los grupos jóvenes prefieren lo moderno. Personalizar productos combinando factores de influencia puede descubrir puntos de crecimiento.",
+        "B": "Esta estrategia no considera las diferencias de preferencias de las personas mostradas en chart_152_3 (por ejemplo, Madres sofisticadas 22% vs. Trabajadores calificados senior 1%). La distribución equitativa causará un desperdicio de recursos en grupos con bajo ROI. Es un conocimiento general de equidad.",
+        "C": "Interpretación errónea de múltiples gráficos: chart_152_1 muestra que el 16 de octubre de 2023 es un pico (valor 85), no se debe'reducir la inversión'; en chart_152_3, el porcentaje de Gen Z es solo 8%, no es una prioridad, y el factor de 'Modela el trasero y mejora el contorno' (33%) no es exclusivo de Gen Z, lo que conduce a una asignación errónea de recursos.",
+        "D": "Opción 3 combina chart_152_3 (el porcentaje de Adultos mayores urbanos y Trabajadores calificados senior es el más bajo, 3.0% y 1.0% respectivamente) y chart_152_2 (el porcentaje de 'Se ajusta bien, sin apretar ni abrochar' es el más alto). Razón: Los grupos con baja preferencia necesitan una cobertura básica. Enfatizar la comodidad coincide con los valores y evita el descuido.",
+        "E": "Interpretación errónea de chart_152_3 y chart_152_1: El grupo con baja preferencia (Trabajadores calificados senior 1%) se ha confundido con un'mercado no explotado', pero invertir en ellos puede ser ineficiente; combinar la promoción en el período de pico debería enfocarse en grupos con alta preferencia (por ejemplo, Madres sofisticadas 22%), lo que muestra una clara desviación en la dirección de la estrategia.",
+        "F": "La sugerencia de mejorar la imagen general de la marca no se combina con los datos de preferencias de las personas o tendencias del mercado (por ejemplo, los períodos de pico en chart_152_1). Es demasiado genérica y no ayuda al crecimiento eficiente.",
+        "G": "Opción 1 combina chart_152_3 (el porcentaje de Madres sofisticadas y Jóvenes de los pueblos es el más alto, 22.0% y 20.0% respectivamente) y chart_152_1 (la serie temporal muestra picos como el 7 de noviembre y el 13 de diciembre). Razón: Los grupos con alta preferencia contribuyen mucho. Invertir recursos en los períodos de pico puede mejorar el ROI."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta estrategia no integra los factores concretos de demanda de chart_152_2 (por ejemplo, 'Se ajusta bien, sin apretar ni abrochar' con un 38%). Mejorar la calidad de manera general no puede optimizar en función de los factores con alto porcentaje. Es una sugerencia de sentido común.",
+        "B": "Opción 3 combina chart_152_2 (el porcentaje de 'Modelado con presión suave, adelgazante y ajustado' es el más bajo, 28%) y chart_152_3 (el porcentaje de Adultos mayores de los pueblos y Gen Z es medio, 9.0% y 8.0% respectivamente) y chart_152_1 (crecimiento lineal base). Razón: Optimizar factores secundarios para grupos con preferencia media - baja y lanzar productos por etapas puede evitar conflictos de recursos.",
+        "C": "Combinación errónea de chart_152_2 y chart_152_3: Optimizar factores secundarios ('Modelado con presión suave, adelgazante y ajustado' 28%) para grupos con baja preferencia (Adultos mayores de los pueblos 9%), mientras que los factores principales (por ejemplo, 'Se ajusta bien, sin apretar ni abrochar' 38%) y los grupos con alta preferencia (por ejemplo, Madres sofisticadas 22%) no se priorizan, lo que hace que la estrategia sea ineficiente.",
+        "D": "Opción 2 combina chart_152_1 (el valor del pico en el 13 de diciembre alcanza 105) y chart_152_2 (el porcentaje de 'Alta elasticidad y gran capacidad de adaptación' es 30%) y chart_152_3 (el porcentaje de Jóvenes de los pueblos es 20.0%). Razón: Lanzar nuevos productos en el período de pico puede amplificar la influencia. La característica de elasticidad coincide con las necesidades del grupo con el segundo porcentaje más alto.",
+        "E": "Interpretación errónea de chart_152_1 y chart_152_2: En el período de pico (7 de noviembre de 2023) se debería fortalecer el factor principal (por ejemplo, 'Se ajusta bien, sin apretar ni abrochar' 38%), pero se sugiere probar factores secundarios ('Alta elasticidad y gran capacidad de adaptación' 30%); además, 'probar nuevos puntos de venta' ignora la oportunidad de maximizar la conversión en el período de pico.",
+        "F": "La sugerencia de aumentar las opciones de estilos no se basa en la distribución de las personas (chart_152_3) o las características de demanda. Es demasiado genérica y no puede satisfacer eficientemente las necesidades diversificadas.",
+        "G": "Opción 1 combina chart_152_2 (el porcentaje de 'Se ajusta bien, sin apretar ni abrochar' y 'Tela de alta calidad, suave y delicada con la piel' es el más alto y similar) y chart_152_3 (el porcentaje de Clase media senior y Madres sofisticadas es alto, 19.0% y 22.0% respectivamente). Razón: Los factores de mayor influencia coinciden con los grupos con alta preferencia. Fortalecer atributos core puede mejorar la satisfacción."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

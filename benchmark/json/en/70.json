@@ -85,6 +85,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: It misinterprets the chart values (Big Data growth of 44.2% in chart_70_1 vs. cloud growth rate of 42.8% in chart_70_2). The actual difference is small (44.2% > 42.8%), and the original answer B points out that Big Data is related to the cloud; the distractor misjudges 'lower' as no association.",
+        "B": "This is an Easy distractor: It is based on industry common sense (cloud technology as a foundation) but does not rely on chart data. The chart shows a large difference in recruitment demand growth (e.g., AI 87.7% vs. Mobile Development 21.1%), not all directions grow synchronously, and only some directions are associated in the original answer.",
+        "C": "This is a Hard distractor: It incorrectly compares indicators (Backend growth of 35.1% in chart_70_1 vs. compound growth of the market size in chart_70_2). The market size is an absolute value, and the growth rate is a percentage; the distractor confuses the indicators and ignores that the expansion of cloud services may drive backend demand (e.g., cloud - native development).",
+        "D": "This is an Easy distractor: It comes from general knowledge (Testing is independent of the cloud), but the chart does not provide a direct relationship between Testing and the cloud; the original answer C implies that Operation/Technical Support is related to the cloud, and Testing is not mentioned, which may be wrong.",
+        "E": "Option 1 is correct: The year - on - year change in Artificial Intelligence recruitment demand is the highest, while the cloud service market growth rate remains high from 2021 - 2023, and cloud services are the basic platform for AI applications. The combined reasoning of the two shows that the growth of AI demand may be driven by the cloud market. All options require combined reasoning: It is impossible to infer the impact of the cloud market from the recruitment demand chart alone, and it is impossible to determine the demand for specific technical directions from the cloud service market chart alone; the implicit association can only be obtained by combining the trends of the two charts (such as growth rate and scale changes).",
+        "F": "Option 3 is correct: The recruitment demand for Operation/Technical Support grows steadily, and the cloud service growth rate is expected to slow down but still remains positive. Cloud services rely on operation and maintenance support, and the market expansion may continuously drive the demand for this position. All options require combined reasoning: It is impossible to infer the impact of the cloud market from the recruitment demand chart alone, and it is impossible to determine the demand for specific technical directions from the cloud service market chart alone; the implicit association can only be obtained by combining the trends of the two charts (such as growth rate and scale changes).",
+        "G": "Option 2 is correct: The recruitment demand for Big Data grows relatively high, and the cloud service market size is expected to increase significantly from 2020 to 2025. Big Data technology is often integrated with cloud storage and analysis, and the scale expansion may drive up the recruitment demand. All options require combined reasoning: It is impossible to infer the impact of the cloud market from the recruitment demand chart alone, and it is impossible to determine the demand for specific technical directions from the cloud service market chart alone; the implicit association can only be obtained by combining the trends of the two charts (such as growth rate and scale changes)."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: It is based on economic common sense (financing drives recruitment) but does not rely on the chart. Chart_70_3 shows a decrease in financing in 2021, but most recruitment demands in chart_70_1 increase (e.g., AI 87.7%), and there is a conflict; the distractor makes a generalization error.",
+        "B": "Option 2 is correct: The financing of over 100 million yuan in 2022 is stable, but the growth of recruitment demand for Mobile Development is relatively low. The conflict stems from the fact that low - code platforms simplify development, which may suppress the demand for traditional positions, and it is necessary to reason based on the technical content of the two charts. All options require combined reasoning: It is impossible to explain the recruitment demand by looking at the low - code financing event number chart alone, and it is impossible to analyze the financing change by looking at the recruitment demand chart alone; the reason for the conflict can only be identified by cross - comparing the time series and technical directions.",
+        "C": "This is a Hard distractor: It seems to be based on the chart (2 financings of over 100 million yuan in 2022 in chart_70_3; 21.1% growth of Mobile Development in chart_70_1), but it incorrectly attributes the difference. The growth of Mobile Development is relatively low (21.1% vs. AI 87.7%), but the distractor misjudges it as'replacing positions'; there is no direct evidence in the original data, and the original answer B has a similar but different explanation.",
+        "D": "This is a Hard distractor: It misinterprets the trend (6 financings in total in 2021 in chart_70_3 vs. 14 in 2020, a decrease; 87.7% growth of AI in chart_70_1). The actual conflict is a decrease in financing vs. an increase in demand, but the distractor misattributes it to 'low - code is ineffective in AI'; the original data does not prove ineffectiveness, and they may be integrated (e.g., AI - driven low - code).",
+        "E": "Option 1 is correct: The total number of low - code financings decreased in 2021, while the demand for Backend, Frontend and other development positions increased relatively high in Spring 2022. The data conflict (decrease in financing vs. increase in demand) requires combined reasoning from the two charts: Financing events may reflect previous investments, and recruitment demand is the later result, and the lag effect explains the conflict. All options require combined reasoning: It is impossible to explain the recruitment demand by looking at the low - code financing event number chart alone, and it is impossible to analyze the financing change by looking at the recruitment demand chart alone; the reason for the conflict can only be identified by cross - comparing the time series and technical directions.",
+        "F": "Option 3 is correct: The number of low - code financing events decreased in 2021 and then increased slightly in 2022, and the growth of AI demand is much higher than others. The conflict is due to the fact that the combination of low - code and AI is not close, and it is necessary to reason from the implicit technical association of the two charts. All options require combined reasoning: It is impossible to explain the recruitment demand by looking at the low - code financing event number chart alone, and it is impossible to analyze the financing change by looking at the recruitment demand chart alone; the reason for the conflict can only be identified by cross - comparing the time series and technical directions.",
+        "G": "This is an Easy distractor: It uses external factors (market risk) to explain and ignores the chart data. The chart does not mention the risk, and the original answers A/B emphasize the internal relationship between financing and talent demand; the distractor deviates from the data."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option 1 is correct: The cloud service growth rate gradually decreases from 2023, and the proportion of financings of over 100 million yuan in low - code financing is stable. Combined reasoning is required: The slowdown in growth rate may affect the overall financing, but large - scale events are more robust due to their strong binding with cloud services (e.g., deployment platforms). All options require combined reasoning: Only the cloud service market size and growth rate chart provides future trends, and only the low - code financing event chart provides historical financing; the impact can only be predicted by associating the time series and implicit causal relationship of the two charts (cloud services are the foundation for low - code).",
+        "B": "This is an Easy distractor: It uses industry knowledge (low - code may be independent), but the chart shows that low - code relies on cloud platforms (e.g., cloud integration); the original answers A/B emphasize the association, and the distractor deviates from the chart content.",
+        "C": "This is an Easy distractor: It is based on common sense (cloud growth rate affects financing) but does not rely on the chart. The growth rate in chart_70_2 slows down but the market size expands (12683 billion yuan in 2025), which may support financing; the distractor ignores the data and over - generalizes.",
+        "D": "Option 2 is correct: The cloud service market size increases until 2025 but the growth rate decreases, and the total number of low - code financing events fluctuates. Combined reasoning is required: The expansion of the scale requires more efficient tools (such as low - code), and the financing may shift to high - quality projects rather than an increase in quantity. All options require combined reasoning: Only the cloud service market size and growth rate chart provides future trends, and only the low - code financing event chart provides historical financing; the impact can only be predicted by associating the time series and implicit causal relationship of the two charts (cloud services are the foundation for low - code).",
+        "E": "Option 3 is correct: The cloud service growth rate slightly decreased in 2021, and the total number of low - code financings decreased in 2021. Combined reasoning is required: The historical growth rate change is similar to the financing fluctuation, and the future slowdown in the growth rate may repeat this pattern. All options require combined reasoning: Only the cloud service market size and growth rate chart provides future trends, and only the low - code financing event chart provides historical financing; the impact can only be predicted by associating the time series and implicit causal relationship of the two charts (cloud services are the foundation for low - code).",
+        "F": "This is a Hard distractor: It incorrectly links the trends (decrease in growth rate in chart_70_2 vs. decrease in financing in 2021 in chart_70_3). In fact, the decrease in financing in 2021 (6 times) is not directly related to the high cloud growth rate (45.4% in 2021); the distractor misinterprets 'accelerated decline' and ignores the partial recovery of financing in 2022 (9 times) and the growth of the cloud scale.",
+        "G": "This is a Hard distractor: It incorrectly compares the values (growth rate of 32.8% in 2024 in chart_70_2 vs. 39.9% in 2020; proportion of financings of over 100 million yuan in chart_70_3). The growth rate of 32.8% in 2024 < 39.9% in 2020, but the distractor misjudges it as 'higher'; and the proportion of financings of over 100 million yuan is stable (e.g., 3/6 times in 2021), but it does not prove an increase in the number of financings; the decrease in the growth rate in the original data may suppress financing."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Hard distractor: Double data error: The growth rate of cloud services actually slows down year by year (42.8% → 30.6%), and the recruitment demand varies significantly (87.7% for Artificial Intelligence vs 21.1% for Mobile Development).",
+        "B": "Hard distractor: Incorrectly associate chart data (misjudge the growth rate of Frontend Development > Operation/Technical Support), and misinterpret the impact of cloud service market expansion on Frontend Development (in fact, cloud services rely more on Backend/Infrastructure).",
+        "C": "Easy distractor: Ignore the core logic of technology - driven business expansion, oppose technology investment to market exposure, and violate the common sense that the growth of the cloud service market requires technical support.",
+        "D": "Jointly infer from chart_70_1 (stable growth in the demand for Operation/Technical Support and Backend Development) and chart_70_2 (the expansion of the cloud service market requires infrastructure support), emphasizing the necessity of supportive roles.",
+        "E": "Easy distractor: Make an anti - common - sense assumption that there will be an oversupply of talents in high - growth fields, ignoring the relevance of AI as the core driving force of cloud services (chart_70_2).",
+        "F": "Jointly infer from chart_70_1 (the most significant growth in recruitment demand for Artificial Intelligence and Big Data) and chart_70_2 (the continuous growth of the cloud service market size and high - level growth rate), highlighting the synergy between high - demand fields and market expansion.",
+        "G": "Jointly infer from chart_70_1 (slow growth in the demand for Frontend and Mobile Development) and chart_70_2 (the growth of cloud services may bring indirect demand), suggesting resource balance to avoid over - investment."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Jointly infer from chart_70_3 (the fluctuating upward trend of low - code financing events) and chart_70_2 (the growth of cloud services may drive the demand for low - code), emphasizing opportunities in emerging technologies.",
+        "B": "Hard distractor: Incorrectly quantify the growth rate of low - code (only the number of events without growth rate), and overestimate the growth rate of cloud services (40.2% in 2023 ≠ more than 40%).",
+        "C": "Jointly infer from chart_70_2 (the cloud service market size is expanding with a slow - down growth rate but still growing) and chart_70_3 (the overall increase in the number of low - code financing events), highlighting the correlation between the cloud service as the main track and industry activity.",
+        "D": "Easy distractor: Misinterpret the slow - down growth as industry recession, ignoring the continuous potential of the cloud service market with a scale of 12,683 billion yuan in 2025.",
+        "E": "Jointly infer from chart_70_2 (the decreasing trend of cloud service growth rate) and chart_70_3 (the fluctuation of low - code financing), suggesting risk management and dynamic adjustment.",
+        "F": "Hard distractor: Fictitiously claim a “continuous growth” of low - code (the financing was halved in 2021), and tamper with the growth rate of cloud services (the actual highest is 45.4% and 30.6% in 2025).",
+        "G": "Easy distractor: Forcibly associate Mobile Development with low - code/cloud services (there is no Mobile Development data in chart_70_3, and chart_70_1 shows its lowest demand growth rate)."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Easy distractor: Over - interpret low - code financing (the proportion of financings over 100 million yuan only reaches 50% in some years), and ignore the irreplaceability of AI/Big Data technology (chart_70_1).",
+        "B": "Easy distractor: Replace technology investment with training, ignore that innovation requires resource tilt (such as the 87.7% growth rate of AI recruitment), and misinterpret the meaning of financing fluctuations.",
+        "C": "Hard distractor: Incorrectly compare the AI recruitment growth rate with the cloud service growth rate (their relevance is confirmed by chart_70_2), and make an anti - common - sense assumption that there will be redundancy in high - growth fields.",
+        "D": "Jointly infer from chart_70_1 (stable growth in the demand for Operation/Technical Support) and chart_70_2 (the expansion of cloud services requires support), and implicitly from chart_70_3 (financing fluctuations indicate risks), suggesting basic investment.",
+        "E": "Jointly infer from chart_70_3 (the upward trend of low - code financing) and chart_70_1 (slow growth in the demand for Frontend and Mobile Development), explaining how technology substitution can optimize resources.",
+        "F": "Hard distractor: Tamper with the growth rate of Operation/Technical Support (38.0% → 45%), and misjudge the doubling speed of the cloud service market size (a 166% growth in 3 years ≠ doubling).",
+        "G": "Jointly infer from chart_70_1 (high - growth recruitment demand for Artificial Intelligence and Big Data), chart_70_2 (the growth of the cloud service market depends on advanced technology), and chart_70_3 (low - code financing shows an innovation trend), covering all three charts and emphasizing core technology innovation."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     }
   ]

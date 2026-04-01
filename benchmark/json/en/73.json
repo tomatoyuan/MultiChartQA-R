@@ -85,6 +85,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Option 1 is correct. In the single - payment fee chart (chart_73_1), the percentage of the $21 - $30 range is the highest (50.3%), and in the usage frequency chart (chart_73_2), the percentage of the 1 - 2 times per month range is the highest (41.5%). Both represent the'medium' level, and we need to combine the two charts to find this dominant pattern.",
+        "B": "This option is incorrect because it seems to be based on the charts but has a wrong understanding of the values. The chart_73_1 shows that the actual percentage of single - payment fees in the $10 - $20 range is 18.4%, while the highest percentage is in the $21 - $30 range (50.3%). The distracter wrongly attributes the percentage of the $21 - $30 range to the $10 - $20 range, leading to an overestimation of the proportion of low - price users.",
+        "C": "Option 2 is correct. In the payment fee chart, the percentage of $41 or above is the lowest (4.8%), and in the frequency chart, the percentage of 5 times or more per month is the lowest (8.0%). We need to compare the two charts to confirm the scarcity of high - consumption and high - frequency behaviors.",
+        "D": "Option 3 is correct. In the payment fee chart, the percentage of the $10 - $20 range is relatively low (18.4%, but not the lowest), while in the frequency chart, the total percentage of low - frequency usage (such as 1 - 2 times per quarter and 1 - 2 times per year) is relatively high (17.5%). However, we need to jointly infer whether low - frequency users are more inclined to low - payment fees (the chart does not directly group them). The option reflects the implicit connection by describing it as 'dispersed'.",
+        "E": "This option is incorrect because it seems to be based on the charts but has a wrong understanding of the values. The chart_73_2 shows that the actual percentage of using 5 times or more per month is 8.0%, while the highest percentage is in the 1 - 2 times per month range (41.5%). The distracter wrongly attributes the percentage of the medium - frequency range (41.5%) to the high - frequency range, leading to a misunderstanding of users' high - frequency behaviors.",
+        "F": "This option is incorrect because it is generated based on common sense (low - price services attract repeated consumption) and does not rely on the chart data. In fact, the chart shows that the percentage of the lowest single - payment fees ($10 - $20) is only 18.4%, and the percentage of the highest usage frequency (5 times or more per month) is only 8.0%. Neither is the highest percentage, so the common - sense inference does not match the data.",
+        "G": "This option is incorrect because it is generated based on common sense (high - end users prefer high - frequency consumption) and does not rely on the chart data. In fact, in the chart, the percentage of high - payment fees ($41 or above) is the lowest (4.8%), and the percentage of high - frequency usage is also the lowest (8.0%). The common - sense inference ignores the fact that high - consumption and high - frequency behaviors are not common in the data."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This option is incorrect because it seems to be based on the charts but has a wrong understanding of the values. The chart_73_3 shows that the actual highest percentage of usage time is in the 1 - 2 years range (30.7%), while the lowest percentage is in the 1 - 3 months range (6.5%). The distracter wrongly attributes the percentage of the 1 - 3 months range to the 1 - 2 years range, leading to a misjudgment of the proportion of medium - loyalty users.",
+        "B": "This option is incorrect because it is generated based on common sense (loyalty programs bring discounts) and does not rely on the chart data. In fact, in the chart, the percentage of the lowest single - payment fees ($10 - $20) is 18.4%, and the total percentage of users with longer usage times (such as 2 - 3 years or over 3 years) is 20.9%. However, the data does not show a direct connection that long - term users pay the lowest fees, and the common - sense inference is over - generalized.",
+        "C": "This option is incorrect because it is generated based on common sense (new users choose high - price services) and does not rely on the chart data. In fact, in the chart, the percentage of new users (usage time ≤ 1 month) is 7.4%, and the percentage of high - payment fees ($41 or above) is the lowest (4.8%). The common - sense inference ignores the trend that new users' consumption may be low or variable.",
+        "D": "Option 1 is correct. In the usage time chart (chart_73_3), the percentage of the 1 - 2 years range is the highest (30.7%), and in the payment fee chart (chart_73_1), the percentage of the $21 - $30 range is the highest (50.3%). Both represent the'medium' level, and we need to combine the two charts to identify this implicit characteristic of the user group.",
+        "E": "This option is incorrect because it seems to be based on the charts but has a wrong understanding of the values. The chart_73_1 shows that the highest percentage of single - payment fees is in the $21 - $30 range (50.3%), while the percentage of the $31 - $40 range is 26.5%. The distracter wrongly attributes the percentage of the $21 - $30 range to the $31 - $40 range and exaggerates the association between high - consumption and loyalty, but the actual high - fee percentage is not high.",
+        "F": "Option 2 is correct. In the usage time chart, the percentage of longer usage times (such as 2 - 3 years) is relatively high (12.5%, but not the highest), and in the payment fee chart, the percentage of the $31 - $40 range is relatively high (26.5%). We need to jointly infer that long - term users may consume more (although the percentage of users with usage time over 3 years is low).",
+        "G": "Option 3 is correct. The percentage of ≤ 1 month in the usage time chart (7.4%) is similar to the percentage of the $10 - $20 range in the payment fee chart (18.4%), but we need to jointly analyze the trends. The option describes the implicit connection as 'variable', indicating that new users may start with low consumption."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option 2 is correct. In the frequency chart, the percentage of 1 - 2 times per month is the highest (41.5%), and in the usage time chart, the percentage of 1 - 2 years is the highest (30.7%). However, in the frequency chart, the percentage of low - frequency usage (such as 1 - 2 times per quarter) is relatively high (14.5%), while in the usage time chart, the percentage of ≤ 1 month is relatively low (7.4%). We need to jointly infer why low - frequency users do not correspond to new users, revealing the implicit contradiction of 'inactive but loyal'.",
+        "B": "This option is incorrect because it is generated based on common sense (frequent use accumulates usage time) and does not rely on the chart data. In fact, in the chart, the percentage of high - frequency usage (5 times or more per month) is only 8.0%, and the total percentage of long - term users (such as 2 - 3 years or over 3 years) is 20.9%. However, the data does not show a strong correlation, and the common - sense inference ignores the fact that the high - frequency percentage is low and does not necessarily correspond to long - term users.",
+        "C": "This option is incorrect because it seems to be based on the charts but has a wrong understanding of the values. The chart_73_2 shows that the actual percentage of using 3 - 4 times per month is 33.0%, while the lowest percentage is 1 - 2 times per year (3.0%). The distracter wrongly attributes the percentage of the 1 - 3 months usage time (6.5% in chart_73_3) to the frequency distribution, leading to a misreading of the medium - frequency percentage.",
+        "D": "Option 3 is correct. The percentage of 5 times or more per month in the frequency chart (8.0%) is similar to the percentage of over 3 years in the usage time chart (8.4%). However, in the frequency chart, high - frequency usage may be associated with a shorter usage time (such as 3 - 6 months). We need to jointly analyze the distribution trends to explain this inconsistency.",
+        "E": "This option is incorrect because it seems to be based on the charts but has a wrong understanding of the values and the ranking. The chart_73_3 shows that the highest percentage of usage time is in the 1 - 2 years range (30.7%), while the percentage of 6 - 12 months is 22.9% (not the highest). At the same time, the percentage of high - frequency users is low (8.0%). The distracter wrongly regards the percentage of 6 - 12 months as the highest and wrongly associates it with high - frequency behaviors, but the actual high - frequency user percentage is small and the usage time distribution does not match.",
+        "F": "This option is incorrect because it is generated based on common sense (new users reduce usage after trying) and does not rely on the chart data. In fact, in the chart, the percentage of new users (usage time ≤ 1 month) is 7.4%, and the total percentage of low - frequency usage (such as per quarter or per year) is 17.5%. However, low - frequency users may include long - term users, and the common - sense inference is too simplistic.",
+        "G": "Option 1 is correct. In the usage frequency chart (chart_73_2), the percentage of 5 times or more per month is very low (8.0%), and in the usage time chart (chart_73_3), the percentage of over 3 years is very low (8.4%). We need to combine the two charts to find the scarcity and potential conflict between high - frequency and long - term users (high - frequency usage does not directly lead to long - term use)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It superficially uses the data from chart_73_1 (payment fee ratio), but misinterprets the'mainstream range' - the ratio of the $10 - $20 range is only 18.4%, not the majority ($21 - $30 accounts for 50.3%). The suggestion targets non - mainstream groups, which may lead to resource waste and ignores the frequency data (medium - frequency users are more crucial).",
+        "B": "It involves chart_73_3 (among the usage durations, the combined proportion of users with less than 1 - year usage is relatively high, indicating a significant proportion of new users) and chart_73_2 (among the usage frequencies, the proportion of low - frequency users such as those who use once or twice a quarter or once or twice a year is considerable). The onboarding plan aims to reduce the loss of new users and enhance their activity.",
+        "C": "This is an easy distractor: Similarly, it doesn't involve the charts and only generally suggests marketing activities (such as advertising), but doesn't combine specific patterns such as payment fees, frequencies, or usage durations. The statement is correct but lacks clear strategic guidance and cannot directly boost activity or revenue.",
+        "D": "It involves chart_73_1 (among the user payment fee distributions, the $21 - $30 range has the highest proportion, indicating the mainstream payment habit) and chart_73_2 (among the usage frequencies, the combined proportion of users who use 1 - 4 times a month is high, reflecting the dominance of the medium - active group). Optimizing pricing targets the mainstream users' habits to stimulate frequency improvement.",
+        "E": "It involves chart_73_3 (among the usage durations, the combined proportion of users with more than 1 - 2 years of usage is relatively high, indicating a stable long - term user base) and chart_73_2 (among the usage frequencies, although the proportion of high - frequency users is small, the proportion of medium - frequency users is high). Loyalty rewards utilize the stability of long - term users to increase frequency and revenue.",
+        "F": "This is an easy distractor: It doesn't rely on any chart data and is only based on general business common sense (price reduction stimulates demand), but ignores user behavior patterns (such as the payment habit concentrated in the $21 - $30 range). The strategy is too broad, lacks targeted actions, and can be easily excluded by common sense.",
+        "G": "This is a hard distractor: It superficially uses the data from chart_73_2 (usage frequency ratio), but wrongly magnifies the weight of high - frequency users (only 8.0%). Combining with chart_73_3 (usage duration), this group has a small proportion. The strategy may not cover mainstream users and deviate from the goal of increasing overall revenue (such as ignoring the medium - frequency group)."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It superficially uses the data from chart_73_3 (usage duration ratio), but wrongly overestimates the scale of new users (users with ≤1 - month usage is only 7.4%, not significant). Combining with chart_73_2 (frequency), although there are low - frequency users, investing resources in a small group may be inefficient and ignores the high proportion of medium - and long - term users (such as 30.7% for 1 - 2 years of usage).",
+        "B": "This is an easy distractor: It doesn't quote any chart data and generally suggests technological optimization (such as APP improvement). The statement is reasonable but lacks specific group focus, cannot directly improve retention or frequency, and doesn't combine payment or frequency patterns.",
+        "C": "This is an easy distractor: It doesn't rely on the charts and only suggests general subsidies based on the principle of fairness. However, it ignores user behavior differences (such as frequency and duration distribution). The strategy is not targeted, has low resource efficiency, and can be easily excluded by common sense.",
+        "D": "It involves chart_73_2 (among the usage frequencies, the proportion of low - frequency users such as those who use once or twice a quarter or once or twice a year is considerable) and chart_73_1 (among the payment fees, there are distributions in the $10 - $20 range and higher ranges, indicating that price factors may affect frequency). The reactivation campaign ensures fairness, increases the participation of low - frequency users, and avoids resource waste.",
+        "E": "It involves chart_73_3 (among the usage durations, the combined proportion of the 6 - 12 months and 1 - 2 years ranges is the highest, indicating a large medium - term user group) and chart_73_2 (among the usage frequencies, the proportion of medium - frequency users is high, indicating that they may affect overall activity). Focusing resources on medium - term users prevents loss and improves retention.",
+        "F": "It involves chart_73_1 (among the payment fees, the $21 - $30 range has the highest proportion, representing the core users' payment habit) and chart_73_3 (among the usage durations, the proportion of users with less than 1 - year usage is significant, reflecting the influx of new users). Optimizing services targets the mainstream payment group to attract new users and promote frequency growth.",
+        "G": "This is a hard distractor: It superficially uses the data from chart_73_1 (payment fee ratio), but misinterprets the 'high - value group' - the proportion of the $41 or above range is only 4.8%, extremely small. The strategy over - targets a niche group, doesn't combine frequency data (such as medium - frequency users being more crucial), and may lead to resource misallocation."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "It involves chart_73_3 (among the usage durations, the combined proportion of users with less than 6 - month usage is relatively high, indicating a significant new - user group) and chart_73_1 (among the payment fees, the distributions in the $10 - $20 and $21 - $30 ranges are wide, indicating possible price sensitivity). Time - sensitive incentives lower the threshold for new users and promote frequency growth.",
+        "B": "It involves chart_73_3 (among the usage durations, the combined proportion of users with more than 1 - 2 years of usage is stable) and chart_73_2 (among the usage frequencies, the proportion of medium - frequency users is high). The retention campaign utilizes the stability of long - term users to increase loyalty and drive overall participation.",
+        "C": "This is a hard distractor: It superficially uses the data from chart_73_3 (usage duration ratio), but wrongly magnifies the influence of long - term users (users with over 3 - year usage is only 8.4%). Combining with chart_73_2 (frequency), this group is small. The strategy may not cover the mainstream (such as 41.5% for using once or twice a month) and misinterprets the relevance of 'attracting new users'.",
+        "D": "This is a hard distractor: It superficially combines the data from chart_73_1 and chart_73_2, but confuses the relationship between payment and frequency - the payment ratio of the $31 - $40 range is 26.5%, not the highest ($21 - $30 accounts for 50.3%), and the proportion of low - frequency users is small (only 3.0% for using once or twice a year). The suggestion wrongly targets the non - mainstream payment range and misjudges the reactivation potential.",
+        "E": "This is an easy distractor: It doesn't rely on the charts and only suggests general promotions (such as coupons). The strategy is broad and lacks user - behavior targeting (such as ignoring the payment habit concentrated in the $21 - $30 range), and can be easily excluded as inefficient by common sense.",
+        "F": "It involves chart_73_1 (among the payment fees, the $21 - $30 range has the highest proportion, indicating concentrated user payment habits) and chart_73_2 (among the usage frequencies, the combined proportion of users who use 1 - 4 times a month is high, reflecting an incentivizable group). Frequency - bound promotions target mainstream users to increase activity.",
+        "G": "This is an easy distractor: It doesn't quote the charts and generally proposes cooperative marketing. The statement is correct but lacks specific actions (such as combining frequency or payment) and cannot ensure covering key groups (such as medium - frequency users)."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

@@ -83,6 +83,20 @@
       "label": [
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, basada en un error de sentido común: el gráfico muestra claramente que la esperanza de vida disminuyó de 73.2 años en 2019 a 71.4 años en 2021, y la tendencia general a la baja indica un deterioro de la salud, no una mejora. Esta opción no se basa en los datos del gráfico y puede descartarse solo con el sentido común (como suponer erróneamente que la pandemia promovió la salud).",
+        "B": "Combina el chart_35_1 (tendencia a la baja de la esperanza de vida) y el chart_35_4 (baja proporción de problemas respiratorios, pero alta proporción de problemas de peso). El razonamiento es que la disminución de la esperanza de vida suele estar relacionada con eventos de salud agudos, pero la baja prominencia de los problemas respiratorios en los datos del consumidor (posiblemente debido a protecciones como el uso de mascarillas) y la alta incidencia de problemas de peso pueden estar relacionados con el confinamiento domiciliario durante la pandemia, requiriendo una comparación entre gráficos para explicar la contradicción.",
+        "C": "Se basa en el chart_35_1 (que muestra la tendencia a la baja de la esperanza de vida entre 2019 y 2021) y el chart_35_4 (que muestra altas proporciones de susceptibilidad a la fatiga y estado de ánimo ansioso/depresivo). El razonamiento es que la disminución de la esperanza de vida refleja el impacto general de la pandemia en la salud, y el aumento de fatiga y ansiedad reportado por los consumidores puede estar directamente relacionado con el estrés pandémico o cambios en el estilo de vida, lo que sugiere conjuntamente que la pandemia exacerbó los problemas de salud física y mental.",
+        "D": "Esta es una opción de interferencia difícil, basada en una mala interpretación de los datos del gráfico: el chart_35_4 muestra que los problemas respiratorios tienen una proporción del 19% (baja), pero la opción de interferencia cita erróneamente la proporción de problemas de piel del 48% como la proporción de problemas respiratorios y extrapola en exceso que causa la disminución de la esperanza de vida. En los datos reales, la proporción de problemas respiratorios no es alta y no hay evidencia causal directa con la disminución de la esperanza de vida.",
+        "E": "Esta es una opción de interferencia difícil, basada en una mala interpretación de los datos del gráfico: el chart_35_4 muestra que la susceptibilidad a la fatiga es efectivamente del 53% (la más alta), pero la opción de interferencia infiere erróneamente que 'explica directamente' la disminución de la esperanza de vida. El chart_35_1 muestra que la disminución de la esperanza de vida puede estar relacionada con múltiples factores, pero la alta proporción de fatiga solo refleja problemas de salud subjetivos y no prueba causalidad o un papel dominante; las brechas reales (como fatiga 53% vs problemas respiratorios 19%) no se analizan adecuadamente."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -104,6 +118,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Combina el chart_35_3 (las enfermedades respiratorias crónicas representan una cierta proporción de las causas de muerte) y el chart_35_4 (baja proporción de reportes de problemas respiratorios). El razonamiento es que los datos de causas de muerte indican la importancia de las enfermedades del sistema respiratorio, pero la baja proporción de reportes de los consumidores puede reflejar una protección efectiva o una subestimación del riesgo, requiriendo un análisis entre gráficos para identificar efectos preventivos implícitos o brechas de monitoreo.",
+        "B": "Esta es una opción de interferencia difícil, basada en una mala interpretación de los datos del gráfico: el chart_35_4 muestra una proporción de problemas de peso del 50%, el chart_35_3 muestra que 'otros' representan el 10% de las causas de muerte por enfermedades crónicas, y la opción de interferencia clasifica erróneamente los problemas de peso en 'otros' y compara las proporciones. En los datos reales, los problemas de peso pueden afectar las enfermedades cardiovasculares o el cáncer (principales causas de muerte) a través de la obesidad, pero la opción de interferencia malinterpreta la brecha numérica (50% vs 10%) como evidencia de falta de asociación.",
+        "C": "Esta es una opción de interferencia fácil, basada en un error de sentido común: la composición de las causas de muerte por enfermedades crónicas (chart_35_3) está dominada por enfermedades cardiovasculares y cáncer (80%), y los problemas de piel no se mencionan; por sentido común, el cáncer de piel no es una causa principal de muerte, por lo que esta opción puede descartarse sin necesidad de los gráficos.",
+        "D": "Se basa en el chart_35_3 (muestra que las enfermedades cardiovasculares y cerebrovasculares representan la mayor proporción de muertes por enfermedades crónicas) y el chart_35_4 (muestra una alta proporción de problemas de presión arterial, azúcar y lípidos sanguíneos altos). El razonamiento es que los problemas de tres altos (como la hipertensión) son factores de riesgo comunes para enfermedades cardiovasculares y cerebrovasculares, y la combinación de gráficos puede inferir que los problemas de salud de los consumidores pueden predecir futuras cargas de enfermedades crónicas, requiriendo conectar factores de riesgo con la composición de causas de muerte entre gráficos.",
+        "E": "Se basa en el chart_35_4 (altas proporciones de problemas de peso y problemas del tracto gastrointestinal/digestivo) y el chart_35_3 (la categoría 'otros' de causas de muerte, que puede incluir enfermedades relacionadas con la obesidad). El razonamiento es que los problemas de peso a menudo se asocian con enfermedades crónicas como la diabetes, y los problemas gastrointestinales pueden apuntar a enfermedades inflamatorias intestinales; la combinación de gráficos puede inferir que estos problemas de salud, aunque no se enumeran directamente como causas principales de muerte, contribuyen indirectamente al riesgo de enfermedades crónicas a través de la categoría 'otros'.",
+        "F": "Esta es una opción de interferencia difícil, basada en una mala interpretación de los datos del gráfico: el chart_35_3 muestra que las muertes cardiovasculares y cerebrovasculares representan el 53%, el chart_35_4 muestra que los problemas de tres altos representan el 29%, y la opción de interferencia compara erróneamente la brecha numérica (53% vs 29%), ignorando que los tres altos son factores de riesgo clave para enfermedades cardiovasculares y cerebrovasculares. En los datos reales, el 29% de problemas de tres altos puede contribuir indirectamente al 53% de muertes, pero la opción de interferencia malinterpreta esto como 'baja proporción significa sin riesgo'."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -125,6 +154,20 @@
       "label": [
         "A",
         "C"
+      ],
+      "cot": {
+        "A": "Combina el chart_35_2 (alta proporción de enfermedades crónicas) y el chart_35_4 (alta proporción de problemas de tres altos en consumidores). El razonamiento es que los factores de riesgo de enfermedades crónicas son comunes entre los consumidores, pero la pandemia (sugerida por la disminución de la esperanza de vida en el chart_35_1) puede haber exacerbado estos factores a través del estrés o dificultades en la atención médica; la combinación de gráficos puede inferir que la pandemia amplificó la amenaza de las enfermedades crónicas, en lugar de reemplazarla.",
+        "B": "Esta es una opción de interferencia difícil, basada en una mala interpretación de los datos del gráfico: el chart_35_4 muestra una proporción de fatiga del 53% y el chart_35_3 muestra una proporción de muertes cardiovasculares del 53%; la opción de interferencia interpreta erróneamente el mismo valor numérico como causalidad directa e ignora la dimensión temporal (la fatiga es un problema reciente, los datos de mortalidad son de 2019). Los datos reales no prueban que la fatiga aumente directamente el riesgo de muerte, y la coincidencia de proporciones no representa un cambio dinámico.",
+        "C": "Se basa en el chart_35_2 (muestra una proporción extremadamente alta de muertes por enfermedades crónicas en 2019) y el chart_35_1 (muestra una disminución de la esperanza de vida en 2020-2021). El razonamiento es que los datos de enfermedades crónicas (previos a la pandemia) indican que las amenazas de salud a largo plazo dominan, pero la pandemia causó una rápida disminución de la esperanza de vida (posiblemente debido a infecciones agudas o saturación de recursos médicos); el conflicto radica en la estabilidad de las enfermedades crónicas versus el impacto agudo de la pandemia, requiriendo la combinación de gráficos para explicar las diferencias temporales y el cambio en el enfoque de salud.",
+        "D": "Esta es una opción de interferencia fácil, basada en un error de sentido común: el chart_35_2 muestra que las muertes por enfermedades crónicas representaron el 88.5% en 2019, pero los datos no se actualizan con los cambios durante la pandemia; por sentido común, la pandemia puede haber exacerbado el riesgo de enfermedades crónicas (como interrupciones médicas), no reducir la proporción. Esta opción puede descartarse sin necesidad de los gráficos.",
+        "E": "Esta es una opción de interferencia difícil, basada en una mala interpretación de los datos del gráfico: el chart_35_4 muestra una proporción de problemas respiratorios del 19%, el chart_35_3 muestra que las enfermedades respiratorias crónicas representan el 10% de las muertes, y la opción de interferencia compara erróneamente la brecha (19% vs 10%) para inferir 'bajo impacto de la pandemia'. Pero la pandemia es un evento agudo que puede afectar indirectamente la mortalidad a través de problemas respiratorios; en los datos reales, la disminución de la esperanza de vida (chart_35_1) no tiene una relación cuantificada directa con la proporción de problemas respiratorios."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -149,6 +192,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "La declaración es amplia y no tiene una guía de acción clara, solo refleja una estrategia general de optimización de los recursos médicos; los datos de los gráficos se centran en impactos sanitarios específicos (como la disminución de la esperanza de vida y el riesgo de enfermedades crónicas), y no abordan el problema de la cobertura de las instalaciones, por lo que es fácil identificarla como ineficaz a través del conocimiento lógico común.",
+        "B": "La opción 2 involucra el chart_35_1 (tendencia a la disminución de la esperanza de vida), el chart_35_2 (una proporción extremadamente alta de muertes por enfermedades crónicas) y el chart_35_3 (la composición específica de las enfermedades crónicas, por ejemplo, las enfermedades cardiovasculares y cerebrovasculares son dominantes). Razonamiento: las enfermedades crónicas son una amenaza básica para la salud, y la COVID - 19 aumenta el riesgo. La prevención puede mejorar la eficiencia de la recuperación.",
+        "C": "La opción 3 involucra el chart_35_4 (una proporción destacada de susceptibilidad a la fatiga, problemas de peso, etc.) y el chart_35_2 (una alta proporción de enfermedades crónicas). Razonamiento: los problemas de estilo de vida están causalmente relacionados con el riesgo de enfermedades crónicas, y la intervención educativa puede reducir la tasa de incidencia.",
+        "D": "Aparentemente utiliza los datos de los gráficos (el chart_35_4 muestra que el porcentaje de problemas respiratorios es del 19%, y el chart_35_1 muestra la disminución de la esperanza de vida), pero lo interpreta incorrectamente: la tasa de informes de problemas respiratorios no es la más alta (el 53% de la fatiga es más alto), y la principal causa de la disminución de la esperanza de vida puede ser las enfermedades crónicas (el chart_35_2 y el chart_35_3 muestran que las enfermedades crónicas son las principales causas de muerte), en lugar de simplemente problemas respiratorios; la opción de distracción confunde los síntomas secundarios con la causa principal de la muerte.",
+        "E": "La opción 1 involucra el chart_35_1 (la esperanza de vida disminuyó significativamente durante la pandemia de COVID - 19, lo que muestra un impacto en la salud) y el chart_35_4 (una alta proporción de estado de ánimo ansioso/depresivo, lo que indica un aumento de los problemas de salud mental). Razonamiento: la salud mental está relacionada con la esperanza de vida general, y la asignación de recursos puede aliviar las secuelas de la COVID - 19.",
+        "F": "Cita los datos de los gráficos (el 48% de problemas de piel en el chart_35_4), pero los asocia incorrectamente: los problemas de piel no aparecen en la composición de las causas de muerte de las enfermedades crónicas (chart_35_3), y no tienen una relación lógica directa con la recuperación de la esperanza de vida; la opción de distracción exagera la importancia de los problemas secundarios y omite factores de salud mental o enfermedades crónicas de mayor prioridad.",
+        "G": "Se basa en el conocimiento general de salud pública (por ejemplo, la importancia de las vacunas en la prevención de enfermedades infecciosas), pero no depende de los datos de los gráficos; los gráficos no mencionan las vacunas o la prevención futura de enfermedades infecciosas, solo describen el impacto de la COVID - 19 en la esperanza de vida (chart_35_1) y los problemas de salud (chart_35_4), por lo que se puede excluir a través del conocimiento común."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -172,6 +232,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Es una sugerencia basada en el conocimiento común, sin especificidad; los datos de los gráficos enfatizan la prioridad de las causas de muerte (por ejemplo, el 53% de enfermedades cardiovasculares y cerebrovasculares), en lugar del mecanismo de detección temprana. La opción de distracción no tiene una guía de acción y omite los valores específicos de los gráficos.",
+        "B": "La opción 2 involucra el chart_35_3 (la proporción de enfermedades respiratorias crónicas) y el chart_35_1 (la disminución de la esperanza de vida causada por la pandemia de COVID - 19, lo que sugiere la vulnerabilidad de la salud respiratoria). Razonamiento: aunque la proporción de causas de muerte es baja, la COVID - 19 destaca el riesgo respiratorio, y el equilibrio de recursos evita las debilidades.",
+        "C": "Se basa en el conocimiento general del sistema de salud, es una declaración amplia y sin una base específica en los gráficos; los gráficos se centran en la proporción de muertes por enfermedades crónicas (chart_35_2) y la composición de las causas de muerte (chart_35_3), y no abordan las habilidades de los personal, por lo que es fácil excluirla por conocimiento común.",
+        "D": "Utiliza los datos de los gráficos (el 44% de problemas emocionales en el chart_35_4), pero los asocia incorrectamente: aunque los trastornos emocionales son frecuentes, no se enumeran directamente como causas de muerte de enfermedades crónicas (las principales causas en el chart_35_3 son las enfermedades cardiovasculares y cerebrovasculares y el cáncer); la opción de distracción confunde los factores relacionados (los trastornos emocionales pueden afectar indirectamente) con la causa principal de la muerte y omite las enfermedades de mayor proporción.",
+        "E": "La opción 1 involucra el chart_35_3 (la proporción más alta de enfermedades cardiovasculares y cerebrovasculares) y el chart_35_4 (una proporción significativa de problemas de presión arterial, azúcar y lípidos sanguíneos altos, como factores de riesgo). Razonamiento: las enfermedades cardiovasculares y cerebrovasculares son las principales causas de muerte, y los síntomas de los consumidores muestran la fuente del riesgo. La inversión prioritaria puede reducir eficazmente la tasa de muerte.",
+        "F": "Aparentemente cita los gráficos (el 10% de “otros” en el chart_35_3), pero los interpreta incorrectamente: esta proporción es mucho más baja que el 53% de enfermedades cardiovasculares y cerebrovasculares y el 27% de cáncer. La asignación de recursos debe basarse en los ámbitos de mayor riesgo; la opción de distracción invierte las prioridades y puede llevar a un desperdicio de recursos.",
+        "G": "La opción 2 involucra el chart_35_3 (la segunda proporción más alta de cáncer) y el chart_35_4 (una alta proporción de problemas de peso, ansiedad/depresión). Razonamiento: el cáncer es una causa importante de muerte, y los problemas de los consumidores, como la obesidad y el estrés, son factores de riesgo conocidos. La prevención temprana puede optimizar los efectos."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -195,6 +272,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción 2 involucra el chart_35_4 (una proporción destacada de problemas de peso, problemas gastrointestinales/digestivos) y el chart_35_3 (la proporción combinada de enfermedades cardiovasculares y cerebrovasculares y cáncer es del 80%, que está relacionada con el estilo de vida). Razonamiento: los síntomas de los consumidores son factores de riesgo de enfermedades crónicas, y las iniciativas de nutrición y ejercicio pueden prevenir las principales causas de muerte.",
+        "B": "Cita los datos de los gráficos (el 47% de problemas gastrointestinales en el chart_35_4), pero los interpreta incorrectamente: los problemas gastrointestinales no son destacados en la composición de las causas de muerte de las enfermedades crónicas (chart_35_3, la principal causa es el 53% de enfermedades cardiovasculares y cerebrovasculares), y en comparación con problemas frecuentes como la fatiga (53%) o el peso (50%), la relación es más débil; la opción de distracción exagera demasiado los síntomas secundarios y omite la necesidad de una estrategia más integral.",
+        "C": "Utiliza los datos de los gráficos (el 19% de problemas respiratorios en el chart_35_4 y el 10% de enfermedades respiratorias en el chart_35_3), pero interpreta incorrectamente la tendencia: la tasa de informes de problemas respiratorios es baja (muy por debajo del 53% de fatiga), y el impacto de la COVID - 19 (chart_35_1) no debe dominar la prevención de enfermedades crónicas; la opción de distracción confunde los eventos sanitarios repentinos con el riesgo a largo plazo de enfermedades crónicas, y la asignación de recursos está claramente desviada.",
+        "D": "La opción 1 involucra el chart_35_4 (la proporción más alta de susceptibilidad a la fatiga) y el chart_35_2 (una proporción extremadamente alta de muertes por enfermedades crónicas). Razonamiento: la fatiga, como un síntoma frecuente, puede acelerar las enfermedades crónicas, y las estrategias en el lugar de trabajo pueden intervenir en la fuente del problema.",
+        "E": "La opción 3 involucra el chart_35_4 (una proporción significativa de estado de ánimo ansioso/depresivo) y el chart_35_2 (una alta proporción general de enfermedades crónicas). Razonamiento: la salud mental y las enfermedades físicas se afectan mutuamente, y los servicios integrados pueden asignar recursos eficazmente y cubrir necesidades múltiples.",
+        "F": "Se basa en el conocimiento general de la tendencia de la salud digital, es una declaración amplia y sin base en los gráficos; los gráficos (chart_35_4) enumeran problemas de salud específicos (como fatiga, peso), pero no abordan las herramientas tecnológicas, por lo que es fácil excluirla por conocimiento común.",
+        "G": "Es una sugerencia general de promoción de la salud, sin especificidad; los datos de los gráficos muestran problemas frecuentes como la fatiga (53%), pero la opción de distracción no cita directamente los datos y omite la relación específica con la prevención de enfermedades crónicas (chart_35_2 y chart_35_3)."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     }
   ]

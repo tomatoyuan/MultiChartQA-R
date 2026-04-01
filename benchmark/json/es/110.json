@@ -87,6 +87,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La opción requiere combinar chart_110_1 (frecuencia) y chart_110_2 (escenarios). Los escenarios de hacer tareas domésticas y hacer ejercicio o dar un paseo tienen una proporción significativa en el gráfico de escenarios. Combinados con la alta proporción de uso varias veces por semana en el gráfico de frecuencia, esto indica que los escenarios fragmentados no fijos respaldan los hábitos de uso regulares. Esta conclusión no se puede obtener de un solo gráfico.",
+        "B": "Elemento de distracción fácil: se basa únicamente en el sentido común, sin depender de los gráficos. La promoción de marca es una opinión generalizada; los gráficos no mencionan ningún factor de marca o marketing. Aunque el escenario de ir y volver del trabajo (31.91%) y el uso de una o dos veces al día (41.49%) tienen cierta correlación, la opción agrega factores irrelevantes.",
+        "C": "La opción requiere combinar chart_110_1 (frecuencia) y chart_110_2 (escenarios). El uso diario (más del 50% en total en el gráfico de frecuencia) requiere el apoyo de escenarios fragmentados de alta frecuencia. Escuchar antes de dormir (35.24%) e ir y volver del trabajo (31.91%) son los escenarios fragmentados con mayor proporción. La regla implícita es que 'el uso de alta frecuencia depende de escenarios fragmentados de alta proporción'. Esta complementariedad no se puede inferir de un solo gráfico.",
+        "D": "La opción requiere combinar chart_110_1 (frecuencia) y chart_110_2 (escenarios). Los escenarios de cuidados personales por la mañana y la noche y conducir tienen una proporción moderada en el gráfico de escenarios. Esto se correlaciona con la proporción destacada de uso de una o dos veces al día en el gráfico de frecuencia, lo que refleja que los usuarios de frecuencia media dependen de escenarios de corta duración. Este razonamiento no se puede completar con un solo gráfico.",
+        "E": "Elemento de distracción difícil: confusión numérica. El escenario de educación entre padres e hijos tiene una proporción del 21.68% (el valor más bajo), y el uso de más de tres veces al día tiene una proporción baja del 8.91%. No hay correlación entre ellos; la relación complementaria debería basarse en escenarios de alta proporción (como escuchar antes de dormir) y uso de alta frecuencia.",
+        "F": "Elemento de distracción fácil: error de sentido común. La fatiga del usuario es una especulación subjetiva; los gráficos no tienen datos relevantes. El escenario de hacer ejercicio o dar un paseo tiene solo una proporción moderada del 28.99%, y no tiene una relación causal directa con el uso de cuatro a seis veces a la semana (39.23%).",
+        "G": "Elemento de distracción difícil: interpretación incorrecta de los datos. El escenario de reuniones sociales tiene solo una proporción del 22.61% (penúltimo lugar), y el uso de una vez a la semana o menos tiene la proporción más baja del 3.32%. No hay relación complementaria entre ellos; en realidad, los escenarios de alta frecuencia (como escuchar antes de dormir, 35.24%) corresponden al uso de alta frecuencia (como una o dos veces al día, 41.49%)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Elemento de distracción difícil: mala interpretación de los datos. La adaptación de IP tiene una proporción del 34.57% (cuarto lugar), y la preferencia por audiolibros completos tiene una proporción del 35.11% para 5 estrellas (segundo lugar), pero la opción describe erróneamente esto como 'consistente'. El conflicto real es la falta de coincidencia entre los factores declarados (como contenido 40.82%) y el comportamiento de experiencia (como preferencia por obras completas).",
+        "B": "Elemento de distracción fácil: declaración razonable pero desconectada de los gráficos. La voz y habilidad del narrador tiene la segunda proporción más alta (38.70%), y la valoración del conocimiento tiene una proporción del 32.18% para 5 estrellas (moderada), pero la opción agrega una inferencia de sentido común sobre 'mejorar la satisfacción' que los gráficos no prueban causalmente.",
+        "C": "Elemento de distracción fácil: generalización de sentido común. El factor de precio no es el más alto (34.04%), y la opción infiere subjetivamente 'baja disposición a pagar', pero los gráficos no cubren el comportamiento de pago. La facilidad de uso es una dimensión independiente, sin base para un conflicto.",
+        "D": "La opción requiere combinar chart_110_3 (factores de elección) y chart_110_4 (evaluación de experiencia). El contenido tiene la proporción más alta entre los factores de elección (40.82%), pero en la experiencia, la preferencia por escuchar audiolibros con altos datos existentes tiene la proporción más alta para 5 estrellas (39.23%). El conflicto implícito es que 'los usuarios declaran priorizar la calidad del contenido, pero su comportamiento depende más de los indicadores de datos'. Se necesita comparar la distribución de valores en ambos gráficos para descubrir esta contradicción.",
+        "E": "La opción requiere combinar chart_110_3 (factores de elección) y chart_110_4 (evaluación de experiencia). El factor de precio tiene una alta proporción entre los factores de elección, y la experiencia tiene altas valoraciones por la facilidad de uso. La comparación de ambos gráficos puede revelar un conflicto, indicando que la disposición a pagar está modulada por la satisfacción con la experiencia. Este razonamiento no se puede completar con un solo gráfico.",
+        "F": "La opción requiere combinar chart_110_3 (factores de elección) y chart_110_4 (evaluación de experiencia). La voz y habilidad del narrador tiene una alta prioridad entre los factores de elección, y la experiencia muestra una fuerte preferencia por los audiolibros completos. La combinación de ambos gráficos puede sugerir que los usuarios podrían preocuparse más por la experiencia a largo plazo que por el contenido individual. Esta conclusión no se puede obtener de un solo gráfico.",
+        "G": "Elemento de distracción difícil: asociación incorrecta de clasificaciones. La frecuencia de actualización ocupa el sexto lugar entre los factores principales (33.38%), y los datos existentes altos ocupan el primer lugar en la experiencia (5 estrellas, 39.23%), pero la opción los contrasta erróneamente como un conflicto. El conflicto real debería basarse en el factor de mayor prioridad (contenido 40.82%) y el comportamiento de experiencia (preferencia por datos altos)."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Elemento de distracción difícil: error en la comprensión numérica. La facilidad de uso tiene una alta proporción para 5 estrellas (30.32%, y combinada con 4 estrellas 37.63% es aún más destacada), mientras que la necesidad de mejora de la interfaz de usuario es solo moderada (32.05%). La opción identifica erróneamente esto como una 'contradicción', pero en realidad las valoraciones positivas (como facilidad de uso) y las necesidades de mejora (como recomendación personalizada 32.71%) son dimensiones diferentes.",
+        "B": "La opción requiere combinar chart_110_4 (evaluación de experiencia) y chart_110_5 (direcciones de mejora). La evaluación de experiencia muestra una fuerte preferencia por los audiolibros completos, y la dirección de mejora identifica el problema de homogeneización del contenido como clave. La combinación de ambos gráficos puede explicar que las preferencias concentradas de los usuarios conducen a cuellos de botella en la diversidad de contenido. Este razonamiento no se puede completar con un solo gráfico.",
+        "C": "La opción requiere combinar chart_110_4 (evaluación de experiencia) y chart_110_5 (direcciones de mejora). En la experiencia, la dimensión de 'aumentar el conocimiento' tiene una alta proporción combinada para 4 y 5 estrellas (69.02%), pero en las direcciones de mejora, 'enriquecer la variedad' y 'mejorar la calidad del contenido' son las necesidades más altas (38.16% cada una). El conflicto surge de la 'satisfacción con la funcionalidad pero insatisfacción con la profundidad del contenido', lo que requiere un análisis cruzado de las valoraciones y las prioridades de mejora.",
+        "D": "Elemento de distracción fácil: razonamiento de sentido común. Existe una fuerte preferencia por los audiolibros completos, pero la opción agrega una explicación subjetiva de 'satisfecho con la profundidad/insatisfecho con la amplitud'. En los gráficos, la necesidad de mejora de 'enriquecer la variedad' es la más alta (38.16%), pero no entra directamente en conflicto con la preferencia por obras completas.",
+        "E": "La opción requiere combinar chart_110_4 (evaluación de experiencia) y chart_110_5 (direcciones de mejora). La evaluación de experiencia muestra altas valoraciones por la facilidad de uso, y las direcciones de mejora indican que los usuarios requieren algoritmos de recomendación más precisos. La combinación de ambos gráficos puede indicar que la experiencia básica es buena pero la personalización es insuficiente. Esta conclusión no se puede obtener de un solo gráfico.",
+        "F": "Elemento de distracción difícil: mala interpretación de la clasificación. La valoración del conocimiento tiene una proporción del 32.18% para 5 estrellas, que no es la más alta entre las dimensiones de experiencia (es menor que los datos existentes 39.23%), y la necesidad de mejora de la homogeneización del contenido ocupa el tercer lugar (35.37%). La opción asocia erróneamente estos dos; la explicación real de la contradicción debería basarse en la tendencia general de las valoraciones (por ejemplo, satisfacción con la funcionalidad vs. insatisfacción con el contenido).",
+        "G": "Elemento de distracción fácil: generalización del conocimiento del sector. Las funciones de interacción en comunidad son una opción de mejora, pero la opción inventa 'resolver la dependencia de los datos de reproducción', lo cual no está asociado en los gráficos. La preferencia por datos altos es un comportamiento de experiencia, y no tiene un conflicto directo con las necesidades de mejora."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de chart_110_1 (frecuencia de uso de los usuarios: la proporción de 1 - 2 veces al día es la más alta, lo que indica un hábito de uso diario) y chart_110_2 (escenarios de uso: los escenarios de antes de dormir y el viaje al trabajo y de regreso tienen la proporción más alta, destacando los escenarios). La estrategia se basa en la coincidencia entre la frecuencia y los escenarios, evitando la referencia directa de los valores numéricos.",
+        "B": "Esta opción es un distractor fácil: se basa solo en conocimientos generales de marketing (por ejemplo, aumentar la publicidad para atraer a los usuarios), sin depender de los datos de los gráficos ni abordar las características específicas de frecuencia y escenarios. La estrategia es amplia y sin enfoque (por ejemplo, no menciona la estrategia de recomendación o el diseño de funciones), y es fácil de descartar por conocimiento general (la publicidad puede interrumpir la experiencia del usuario y no está relacionada con la optimización de la actividad).",
+        "C": "Razonamiento conjunto de chart_110_1 (frecuencia de uso de los usuarios: la proporción de una vez a la semana o menos es baja, pero existe un grupo de usuarios de baja frecuencia) y chart_110_2 (escenarios de uso: los escenarios de hacer ejercicio o dar un paseo y hacer tareas domésticas tienen una alta proporción, con características de períodos de ocio). La estrategia se dirige a aumentar la actividad de los usuarios de baja frecuencia, lo que coincide con los valores (no se ignoran los grupos minoritarios).",
+        "D": "Esta opción es un distractor difícil: aparentemente utiliza los gráficos (se cita la proporción del 24.07% del escenario de conducir y los datos de frecuencia), pero tiene un error lógico: el escenario de conducir requiere concentración, por lo que no es adecuado recomendar contenido interactivo (puede causar problemas de seguridad); además, los datos de frecuencia muestran una alta tasa de uso diario, pero no están fuertemente relacionados con el escenario de conducir (los viajes al trabajo y antes de dormir son más destacados). La dirección de la estrategia está desviada (puede reducir la experiencia del usuario en lugar de aumentar la actividad).",
+        "E": "Razonamiento conjunto de chart_110_1 (frecuencia de uso de los usuarios: las proporciones de 1 - 2 veces al día y 4 - 6 veces a la semana son altas, mostrando una tendencia de uso diario) y chart_110_2 (escenarios de uso: los escenarios de viaje al trabajo y antes de dormir tienen una alta proporción). La estrategia enfatiza la optimización del algoritmo, lo que la diferencia de las dos opciones anteriores.",
+        "F": "Esta opción es un distractor difícil: aparentemente utiliza los gráficos (se cita la frecuencia del 39.23% de 4 - 6 veces a la semana y la proporción del 35.24% del escenario de antes de dormir), pero es una interpretación errónea: los usuarios con una frecuencia de 4 - 6 veces a la semana ya son de alta frecuencia y no necesitan ser optimizados en primer lugar; recomendar novelas largas en el escenario de antes de dormir puede ser razonable, pero los datos de frecuencia originales indican un uso diario predominante (la suma de 1 - 2 veces al día y más de tres veces al día es del 50.4%), por lo que se deben priorizar los contenidos cortos (como en la opción correcta A). Esta estrategia asigna recursos de manera inapropiada.",
+        "G": "Esta opción es un distractor fácil: se basa en conocimientos generales de gestión de contenido (optimizar la frecuencia de actualización), sin combinar en profundidad los gráficos; la estrategia es amplia (por ejemplo, recomendar contenido de noticias no tiene soporte de datos) y omite el núcleo de la distribución de escenarios (antes de dormir y el viaje al trabajo son más destacados), por lo que es fácil de descartar por falta de base de datos."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción es un distractor fácil: se basa en conocimientos generales de funciones sociales (por ejemplo, optimizar el contenido interactivo), sin combinar las tendencias de los gráficos; la estrategia es amplia (por ejemplo, recomendar contenido para múltiples personas no tiene soporte de datos), y la proporción del escenario de reuniones sociales del 22.61% no es la más alta, por lo que es fácil de descartar por falta de prioridad.",
+        "B": "Razonamiento conjunto de chart_110_5 (dirección de mejora: el problema de homogeneización del contenido tiene una alta proporción y necesita ser mejorado) y chart_110_3 (factor de selección: la diversidad de contenido es crucial). La estrategia integra las necesidades de mejora y las preferencias de los usuarios, lo que coincide con los valores (mejorar el acceso equitativo al contenido).",
+        "C": "Razonamiento conjunto de chart_110_3 (factor de selección: el contenido tiene la proporción más alta, lo que destaca su importancia) y chart_110_4 (evaluación de la experiencia: en la dimensión de “ayudar a desarrollar hábitos de lectura”, la proporción de puntuaciones altas es significativa, lo que indica que los usuarios reconocen el valor del conocimiento). La estrategia se centra en la optimización del contenido central, lo que la diferencia de otras opciones.",
+        "D": "Esta opción es un distractor difícil: aparentemente utiliza los gráficos (se cita la proporción del 34.04% del precio y la tendencia de preferencia por los audiolibros con altos datos en la evaluación de la experiencia), pero tiene un error lógico: el precio está en un puesto posterior entre los factores (por debajo del contenido con un 40.82% y el narrador con un 38.70%), y la evaluación de la experiencia no respalda directamente la estrategia de bajo precio; considerando la preferencia por los audiolibros con altos datos, se debe priorizar la calidad del contenido. Esta estrategia tiene una dirección desviada (puede atraer a los usuarios sensibles al precio pero ignorar los factores que impulsan la satisfacción central).",
+        "E": "Razonamiento conjunto de chart_110_3 (factor de selección: la voz y la habilidad del narrador tienen una alta proporción, y la frecuencia de actualización también tiene una proporción significativa) y chart_110_4 (evaluación de la experiencia: en las dimensiones de “preferir escuchar audiolibros con altos datos” y “preferir escuchar audiolibros completos”, la proporción de puntuaciones altas es alta). La estrategia se dirige a un grupo específico de usuarios (por ejemplo, los sensibles a los datos), basada en la preferencia por los datos y los audiolibros completos.",
+        "F": "Esta opción es un distractor fácil: se basa solo en conocimientos generales de tecnología (por ejemplo, mejorar el rendimiento del servidor), sin depender de los datos de los gráficos ni abordar las dimensiones de contenido; la estrategia es amplia sin enfoque en el contenido (por ejemplo, no menciona factores centrales como la calidad del contenido o el narrador), y es fácil de descartar por conocimiento general (la optimización técnica no es el foco principal de la inversión en recursos de contenido).",
+        "G": "Esta opción es un distractor difícil: aparentemente utiliza los gráficos (se cita el escenario de educación entre padres e hijos y la evaluación del conocimiento), pero confunde erróneamente las dimensiones: la educación entre padres e hijos no es el núcleo de los factores de selección o las direcciones de mejora (la proporción de enriquecer la variedad de audiolibros en las direcciones de mejora es del 38.16% y tiene prioridad); además, la evaluación del conocimiento se refiere a los usuarios en general, no a un escenario específico. Esta estrategia asigna recursos de manera inapropiada (la proporción del escenario de educación entre padres e hijos es baja, 21.68%)."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es un distractor fácil: se basa solo en conocimientos generales de marketing (por ejemplo, la cooperación de marca), sin depender de los datos de los gráficos ni abordar el diseño de funciones; la estrategia es amplia sin una asignación específica de recursos (por ejemplo, no menciona la optimización de la interfaz de usuario o la recomendación), y es fácil de descartar por conocimiento general (el marketing no es el foco principal de los recursos de desarrollo).",
+        "B": "Esta opción es un distractor difícil: aparentemente utiliza los gráficos (se cita la proporción del 3.32% de los usuarios de baja frecuencia, la mejora del 32.31% de la interacción en comunidad y la evaluación de la habilidad de lectura), pero es una interpretación errónea: la proporción de usuarios de baja frecuencia es pequeña (3.32%), por lo que no se deben asignar recursos en primer lugar; la función de comunidad puede aumentar la complejidad en lugar de mejorar la conveniencia para los nuevos usuarios (la evaluación de la experiencia muestra que es más importante que el modo de uso sea simple). Esta estrategia desperdicia recursos.",
+        "C": "Esta opción es un distractor difícil: aparentemente utiliza los gráficos (se cita la proporción del 24.07% del escenario de conducir y la evaluación de los audiolibros completos), pero tiene un error lógico: el escenario de conducir requiere seguridad, y aunque el control por voz está relacionado, la conveniencia para los nuevos usuarios debe prestar más atención a la interfaz de usuario básica o la recomendación (por ejemplo, la proporción de una mejor interfaz de usuario en las direcciones de mejora es del 32.05%); además, la preferencia por los audiolibros completos no es exclusiva del escenario de conducir. La dirección de la estrategia está desviada (puede ignorar escenarios de alta frecuencia como antes de dormir).",
+        "D": "Razonamiento conjunto de chart_110_5 (dirección de mejora: la enriquecimiento de la variedad de audiolibros y la mejora de la calidad del contenido tienen las proporciones más altas y son similares) y chart_110_3 (factor de selección: el contenido tiene la proporción más alta, que es la preferencia central de los usuarios). La estrategia enfatiza el equilibrio de recursos, lo que la diferencia de las opciones de optimización del algoritmo.",
+        "E": "Razonamiento conjunto de chart_110_5 (dirección de mejora: una mejor interfaz de usuario y algoritmos de recomendación más precisos tienen una alta proporción), chart_110_4 (evaluación de la experiencia: en la dimensión de “el modo de uso es simple y tiene bajos requisitos para la habilidad de lectura”, la proporción de puntuaciones altas es alta) y chart_110_1 (frecuencia de uso de los usuarios: existe una proporción de una vez a la semana o menos, lo que muestra las características de los usuarios de baja frecuencia). La estrategia se centra en la facilidad de uso, atrayendo a los usuarios periféricos, lo que coincide con los valores (diseño inclusivo).",
+        "F": "Razonamiento conjunto de chart_110_5 (dirección de mejora: la optimización de la recomendación personalizada y la adición de funciones de interacción en comunidad tienen una alta proporción, lo que destaca la necesidad) y chart_110_4 (evaluación de la experiencia: en la dimensión de “preferir escuchar audiolibros con altos datos”, la proporción de puntuaciones altas es significativa, lo que muestra el comportamiento impulsado por los datos de los usuarios). La estrategia se dirige a los nuevos usuarios, basada en la recomendación y las funciones de comunidad.",
+        "G": "Esta opción es un distractor fácil: se basa en conocimientos generales de gestión de contenido (optimizar la homogeneización), sin combinar en profundidad el diseño de funciones; la estrategia es amplia (por ejemplo, centrarse en el escenario de hacer ejercicio no es necesario) y omite las direcciones de mejora centrales (por ejemplo, la enriquecimiento de la variedad y la calidad del contenido cada una tiene una proporción del 38.16%). Es fácil de descartar por falta de enfoque en la atracción de nuevos usuarios."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     }
   ]

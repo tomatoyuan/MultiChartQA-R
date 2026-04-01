@@ -88,6 +88,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "It requires joint reasoning of the chart of residents' disposable income (showing a year - on - year increase in income) and the chart of the market size of fitness equipment (showing a continuous expansion of the size). A single chart cannot establish a causal relationship - the income trend alone cannot explain the market expansion. It is necessary to combine the growth data of the fitness equipment market to infer that the increase in income may drive consumption.",
+        "B": "This option is incorrect because it relies on industry common sense (technology reduces costs) rather than the content of the charts. There is no information about production costs or price changes in the charts, so this factor cannot be inferred from the data.",
+        "C": "It relies on the comparison of a relatively high growth rate in a certain year in the income chart and a relatively high growth rate in the same year in the fitness equipment chart to infer a positive correlation. The conclusion of 'response between years' cannot be drawn by only looking at the income chart or the fitness equipment chart.",
+        "D": "This option is incorrect because it has a wrong understanding of the chart values: the growth rate of the fitness equipment market in 2021 is actually 15.0% (point 11 in chart_147_2), not 6.0%; the income growth of 9.1% (point 15 in chart_147_1) is positively correlated with the high market growth (15.0%), but this option wrongly describes it as 'only 6.0%', misleading the relationship.",
+        "E": "It combines the conflict between a relatively low growth rate in a certain year in the income chart and a relatively high growth rate in the same year in the fitness equipment chart to infer the role of non - income factors (such as health awareness). This requires cross - chart comparison to explain the anomaly.",
+        "F": "This option is incorrect because it misinterprets the data gap: the income data in 2013 is not provided in chart_147_1 (only from 2018 to 2022), and the fitness equipment market decreased by 3.3% in 2013 (point 3 in chart_147_2), but the income chart starts from 2018, so there is no way to make a comparison; the option fabricates the 'steady growth of income', resulting in a wrong comparison.",
+        "G": "This option is incorrect because it only relies on common sense (such as the global health trend) and does not rely on the chart data. There is no mention of global factors or social media in the charts, and the question requires explaining the common factors based on the charts, not external common sense."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "It combines the fluctuation in the income chart (such as a decrease in the growth rate in that year) and the relatively stable growth in the slimming food chart to infer the independence of the market. This requires cross - chart analysis of the trend differences.",
+        "B": "It requires joint reasoning of the income chart (the income growth rate in that year is lower than that in the previous and subsequent years) and the slimming food chart (the growth rate in that year is relatively high). A single chart cannot reveal the cause of the conflict - the income chart alone shows an economic slowdown, but the slimming food chart shows a counter - trend growth. It is necessary to conduct cross - chart reasoning on external factors (such as a health crisis).",
+        "C": "This option is incorrect because it misinterprets the data gap: the growth rate of slimming foods in 2020 is actually 17.4% (point 4 in chart_147_3), not 0%; the growth rate in 2019 is not provided (only the market size value), and the option fabricates '0%', creating a non - existent comparison.",
+        "D": "This option is incorrect because it relies on industry common sense (the convenience of online shopping) rather than the chart content. There is no channel data in the charts, and the question requires explaining based on the data conflict, not relying on general statements.",
+        "E": "This option is incorrect because it is based on language common sense (inherent health needs) and does not use the chart data. There is no mention of demand changes in the charts, and the question requires an explanation based on the data conflict, not general talk.",
+        "F": "This option is incorrect because it has a wrong understanding of the chart values: the growth rate of residents' income in 2020 is actually 4.7% (positive growth, point 14 in chart_147_1), not a negative value; the option wrongly writes it as '- 4.7%', wrongly exaggerating the income decline and misleading the explanation of the conflict.",
+        "G": "It relies on the comparison between the low growth rate in that year in the income chart and the high growth rate in the slimming food chart to infer the role of non - income factors (such as innovation). Only looking at the slimming food chart cannot explain why the market still grows when the income is low."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "It relies on the growth trend in the slimming food chart and the high proportion of the low - amount range in the expenditure proportion chart to infer the driving force of mass consumption. Only looking at the market size chart cannot draw the conclusion of 'consumption hierarchy'.",
+        "B": "This option is incorrect because it relies on industry common sense (the convenience of online shopping) rather than the chart content. There is no channel data in the charts, and the question requires revealing the behavior characteristics based on the charts.",
+        "C": "It combines the predicted growth in the slimming food chart and the low proportion of the high - amount range in the expenditure proportion chart to infer the influence of price strategy. This requires cross - chart analysis of the implicit relationship between the scale and the distribution.",
+        "D": "This option is incorrect because it misinterprets the data relationship: there is no direct causal relationship between the market size growth rate of 21.2% in 2022 (point 8 in chart_147_3) and the 20.1% in the 100 - 1000 yuan range in the expenditure proportion (point 2 in chart_147_4); and the low - end range (20.1%) is not the smallest (the smallest is 1.4% above 10,000 yuan), and the option wrongly implies 'weak contribution', while the data does not support this inference.",
+        "E": "This option is incorrect because it has a wrong understanding of the chart ranking: the range above 10,000 yuan in the expenditure proportion actually only accounts for 1.4% (the smallest proportion, point 7 in chart_147_4), not the highest; the highest range is 2001 - 4000 yuan (32.7%), and the option wrongly assigns values, misleading the consumption behavior.",
+        "F": "This option is incorrect because it is based on population common sense (the preference of young consumers) and does not rely on the chart data. There is no information about age or consumer groups in the charts, and this characteristic cannot be inferred from the data.",
+        "G": "It requires joint reasoning of the slimming food chart (the market size increases year by year) and the expenditure proportion chart (a certain proportion of netizens spend in the corresponding amount range). A single chart cannot infer the consumption structure - the market size data alone cannot show the amount distribution. It is necessary to combine the expenditure proportion to infer the leading role of mid - range consumption."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Combine chart_147_4 (the proportion of netizens' weight - loss expenditure in the range of 100 - 4000 yuan is the highest, indicating the mainstream consumer group), chart_147_1 (the income growth trend supports the improvement of the general public's consumption ability), and chart_147_3 (the market size of slimming foods is expanding). Reasoning logic: The expenditure data guides product positioning, and the income trend ensures feasibility. Targeting the mid - low - end market can maximize user coverage.",
+        "B": "This is a hard distractor: On the surface, it uses the data from chart_147_2 and chart_147_3, but misinterprets the comparison of market sizes. Chart_147_2 shows that the predicted market size of fitness equipment in 2024 is 79.96 billion yuan, while chart_147_3 shows that the predicted market size of functional slimming foods in 2024 is 474.45 billion yuan (larger). However, the distractor reverses the facts and claims that the market size of fitness equipment is 'far higher' than that of slimming foods, misleading decision - making. The actual data shows that both the market size and growth rate of slimming foods are higher. This suggestion will mislead the investment direction.",
+        "C": "Combine chart_147_1 (the per capita disposable income of residents has been increasing year by year, and although the growth rate fluctuates, there is an overall upward trend) and chart_147_3 (the market size of functional slimming foods is growing rapidly, and the year - on - year growth rate remains at a high level, indicating strong expanding demand). Reasoning logic: The income growth enhances consumption ability, and investing in the high - growth market (slimming foods) can bring higher returns.",
+        "D": "This is an easy distractor: It is based on general business common sense (such as the importance of brand marketing), but the statement is broad and does not specifically combine the chart data or provide a clear investment allocation strategy (e.g., fitness equipment vs. slimming foods). Commonly, although brand marketing is beneficial, it cannot directly answer the core question of 'optimizing resource allocation' and ignores the details of income and market trends, so it is easy to be excluded.",
+        "E": "Combine chart_147_1 (the overall income growth trend is stable), chart_147_2 (the market size of fitness equipment is growing steadily, and the predicted growth rate is stable), and chart_147_3 (slimming foods are growing fast but may attract more competition due to high growth). Reasoning logic: The income growth supports health consumption, and the two markets are complementary (fitness equipment has more long - term demand, while slimming foods have more explosive growth). Balanced investment can diversify risks.",
+        "F": "This is an easy distractor: It relies on common - sense concerns (such as market bubbles), but is not based on the chart trends. Chart_147_3 shows that the growth of functional slimming foods has been strong (the growth rate from 2021 to 2024 is over 15%), with no signs of a bubble. This suggestion is too broad and subjective and ignores data support, so it is easy to be excluded by common sense.",
+        "G": "This is a hard distractor: It is based on the income growth rate data in chart_147_1 (e.g., the growth rate in 2020 was 4.7%, a low point), but the reasoning is wrong. The distractor suggests increasing investment when the income growth is low to'stimulate demand'. However, when the income growth slows down, consumers are usually more cautious in spending, and increasing investment may be ineffective or risky (as shown in the chart, the market growth may be suppressed in 2020), which is contrary to the actual strategy (such as investing in the high - growth period)."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses the expenditure data from chart_147_4 (the proportion of the high - expenditure range: 5.3% for 8001 - 10000 yuan and 1.4% for over 10000 yuan), but the reasoning is wrong. The distractor suggests focusing on the high - expenditure group to obtain high profits, but the data shows that the proportion of this group is extremely small (6.7% in total), while the middle - range (e.g., 32.7% for 2001 - 4000 yuan) is the main force. The actual strategy should prioritize the mass market. This suggestion will waste resources.",
+        "B": "This is an easy distractor: It is based on general marketing common sense (such as the role of online advertising), but the statement is vague and does not combine the chart data (such as expenditure distribution or market trends). Commonly, advertising is beneficial, but it provides no specific action guidance (such as targeting which expenditure range) and does not optimize the budget allocation, so it is easy to be excluded.",
+        "C": "Combine chart_147_4 (the proportion of netizens' weight - loss expenditure in the range of 100 - 4000 yuan is the highest, indicating the mainstream consumer group) and chart_147_2 (the market size of fitness equipment is growing steadily, and the year - on - year growth rate is stable). Reasoning logic: The expenditure data guides the selection of the target group, and the market trend ensures the existence of demand. Targeting the middle - expenditure group can maximize sales.",
+        "D": "This is a hard distractor: It is based on the market growth rate data in chart_147_2 (e.g., the growth rate in 2016 was 4.6%, a low point), but confuses the trend. The distractor suggests cutting marketing when the growth is slow to'save costs'. However, in the low - growth period, more marketing is needed to stimulate demand (as shown in the chart, the growth rebounded in subsequent years), and this may actually miss opportunities, which is contrary to the data logic.",
+        "E": "Combine chart_147_4 (the proportion of the high - expenditure range such as over 8000 yuan is very low) and chart_147_2 (the overall growth trend of the fitness equipment market is good). Reasoning logic: The expenditure data reveals the low - potential group, and the market trend supports resource optimization to avoid inefficient investment.",
+        "F": "This is an easy distractor: It relies on general business intuition (such as attracting users with low prices), but does not refer to the charts. Chart_147_4 shows that the proportion of the middle - expenditure range is the highest. Ignoring this group will result in losing the main market. The suggestion is broad and against common sense, so it is easy to be excluded.",
+        "G": "Combine chart_147_2 (the predicted growth rate of the fitness equipment market remains at a high level) and chart_147_1 (the income growth trend of residents, especially the peak growth rate period such as 2021). Reasoning logic: When the disposable income increases during the peak income growth period and matches the peak of market growth, increasing marketing investment can improve the input - output ratio."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on common business practices (such as supply - chain optimization), but the statement is generalized and does not combine the data of income fluctuations or expenditure characteristics. Commonly, cost control is beneficial, but it does not target'market expansion' or competition response, and there is no specific strategy (such as product line design), so it is easy to be excluded.",
+        "B": "Combine chart_147_3 (the market size of functional slimming foods is growing rapidly, and the year - on - year growth rate is at a high level) and chart_147_1 (the overall income growth trend enhances consumption ability). Reasoning logic: The high - growth market requires innovation - driven development, and the income trend guarantees demand. Investing in R & D can enhance competitiveness.",
+        "C": "This is a hard distractor: On the surface, it uses the income data from chart_147_1 (the growth rate in 2021 was 9.1%) and the expenditure data from chart_147_4, but makes a wrong inference. The distractor suggests launching high - end products when the income growth is high. However, chart_147_4 shows that the proportion of the high - expenditure range is very small (21% for over 4001 yuan in total), while the middle - range (32.7% for 2001 - 4000 yuan) is the main group. High income growth may be more beneficial to the mass market. This suggestion may misjudge the demand.",
+        "D": "Combine chart_147_4 (the proportion of the high - expenditure range such as over 10000 yuan is extremely low) and chart_147_3 (the overall expansion trend of the slimming food market). Reasoning logic: The expenditure data reveals the niche group, and the market trend supports a mass - market strategy to avoid misallocation of resources.",
+        "E": "This is a hard distractor: It is based on the expenditure data from chart_147_4 (the proportion of the low - range is 20.1%) and the income trend from chart_147_1, but confuses the logic. The distractor suggests focusing on the low - expenditure group, but the data shows that the proportion of the middle - range (32.7% for 2001 - 4000 yuan) is the highest, and the overall income growth supports consumption upgrading. The actual strategy should prioritize the mainstream group. This suggestion will ignore the larger market.",
+        "F": "This is an easy distractor: It is based on subjective assumptions (such as market stabilization), but does not refer to the chart trends. Chart_147_3 shows that the growth rate of functional slimming foods is still high (the predicted growth rate in 2024 is 18.0%), and there is no sign of stabilization. The suggestion is broad and ignores the risk of intensified competition, so it is easy to be excluded by common sense.",
+        "G": "Combine chart_147_1 (the year - on - year growth rate of residents' income fluctuates, e.g., the growth rate was low in 2020), chart_147_4 (the proportion of netizens' weight - loss expenditure in the range of 100 - 4000 yuan is the highest), and chart_147_3 (the market size of slimming foods continues to grow). Reasoning logic: Consumers are more cautious in spending during the period of slow income growth. The expenditure data supports the positioning of economy - type products to ensure market resilience."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

@@ -85,6 +85,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción malinterpreta los datos del gráfico: marzo de 2024 tuvo la tasa de crecimiento mensual más alta de dispositivos (1.01%), pero el tiempo efectivo en el mismo período (278.9 minutos) fue inferior al de marzo de 2023 (300.6 minutos), no siendo el valor más alto; el tiempo efectivo realmente disminuye año tras año.",
+        "B": "Involucra la interacción potencial entre las tasas de crecimiento (gráfico de número de dispositivos) y la magnitud de la disminución (gráfico de tiempo efectivo), pero requiere una tendencia integral en lugar de datos de un solo mes, reflejando conexiones implícitas. No se puede inferir solo con un gráfico, por ejemplo, el gráfico de número de dispositivos no proporciona información sobre el tiempo de uso, y el gráfico de tiempo efectivo no muestra cambios en los dispositivos.",
+        "C": "Basado en el aumento general del número de dispositivos (gráfico de número de dispositivos) y la disminución anual del tiempo efectivo (gráfico de tiempo efectivo), revela un cambio en el comportamiento del usuario de 'uso prolongado' a 'ligero'. No se puede inferir solo con un gráfico, por ejemplo, el gráfico de número de dispositivos no proporciona información sobre el tiempo de uso, y el gráfico de tiempo efectivo no muestra cambios en los dispositivos.",
+        "D": "Esta opción se basa en un error de conocimiento común: los gráficos no abordan el origen de los dispositivos (como compras empresariales), y el tiempo efectivo muestra una tendencia a la baja (por ejemplo, de 267.9 minutos en enero de 2024 a 265.5 minutos en enero de 2025), en lugar de una mejora.",
+        "E": "Esta opción se basa en un error de conocimiento común: los datos del gráfico muestran que el número total de dispositivos aumenta continuamente (por ejemplo, de 1.395 mil millones en enero de 2024 a 1.439 mil millones en marzo de 2025), y el tiempo efectivo disminuye anualmente (por ejemplo, el tiempo efectivo en enero disminuye de 286.5 minutos en 2023 a 265.5 minutos en 2025), lo que indica que la dependencia del usuario no ha disminuido.",
+        "F": "Esta opción malinterpreta la tendencia: el número de dispositivos aumenta en general, pero el tiempo efectivo disminuye continuamente (por ejemplo, 267.9 minutos en enero de 2024 vs. 265.5 minutos en enero de 2025), mostrando una correlación negativa, no positiva.",
+        "G": "Enfatiza la comparación del mismo mes (como enero), donde el número de dispositivos aumenta pero el tiempo efectivo disminuye, dependiendo del razonamiento conjunto de puntos de datos interanuales. No se puede inferir solo con un gráfico, por ejemplo, el gráfico de número de dispositivos no proporciona información sobre el tiempo de uso, y el gráfico de tiempo efectivo no muestra cambios en los dispositivos."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en un error de conocimiento común: el tiempo efectivo en enero de 2025 (265.5 minutos) es menor que en enero de 2024 (267.9 minutos), no mayor, lo que no coincide con una preferencia del usuario hacia la inmersión.",
+        "B": "Esta opción malinterpreta los datos: el número de usos en enero de 2025 (69.7 veces) es mayor que en enero de 2024 (67.2 veces), no menor; y el tiempo efectivo disminuye, no aumenta.",
+        "C": "Esta opción se basa en un error de conocimiento común: los gráficos no mencionan promociones festivas u optimización de red, y el tiempo efectivo realmente disminuye (265.5 minutos vs. 267.9 minutos), no aumenta.",
+        "D": "Introduce el concepto de 'nuevos usuarios', basado en el conflicto entre el crecimiento de dispositivos (gráfico de número de dispositivos) y los cambios de comportamiento (gráficos de tiempo efectivo y número de usos). Ningún gráfico individual puede explicar independientemente la contradicción, por ejemplo, el gráfico de número de usos no proporciona información sobre el número de dispositivos o el tiempo.",
+        "E": "Esta opción malinterpreta el cálculo de datos: tiempo por uso en enero de 2024 ≈ 267.9 minutos / 67.2 veces ≈ 3.99 minutos/vez, en enero de 2025 ≈ 265.5 minutos / 69.7 veces ≈ 3.81 minutos/vez, el tiempo por uso disminuye, no permanece igual.",
+        "F": "Enfatiza la 'eficiencia', requiriendo la relación cuantitativa entre el aumento de usos y la disminución del tiempo. Ningún gráfico individual puede explicar independientemente la contradicción, por ejemplo, el gráfico de número de usos no proporciona información sobre el número de dispositivos o el tiempo.",
+        "G": "Compara directamente la contradicción entre el crecimiento de dispositivos, el aumento de usos y la disminución del tiempo, dependiendo de los valores de los tres gráficos. Ningún gráfico individual puede explicar independientemente la contradicción, por ejemplo, el gráfico de número de usos no proporciona información sobre el número de dispositivos o el tiempo."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción malinterpreta la correlación: la tasa de crecimiento de dispositivos fluctúa (por ejemplo, enero 2024 0.21%, febrero 0.15%, marzo 1.01%), pero la tasa de cambio en el número de usos no es consistente (por ejemplo, disminución de 67.2 veces en enero 2024 a 64.9 veces en febrero), sin alta consistencia.",
+        "B": "Esta opción malinterpreta los datos: el número de dispositivos en marzo de 2024 (1.412 mil millones) es relativamente alto en el trimestre, pero el tiempo efectivo (278.9 minutos) es mayor que en marzo de 2025 (268.0 minutos), no es el punto más bajo; el tiempo efectivo en marzo de 2023 (300.6 minutos) es el más alto, se desconoce el número de dispositivos.",
+        "C": "Esta opción es parcialmente incorrecta: el número de dispositivos aumenta (por ejemplo, de 1.395 mil millones en enero 2024 a 1.412 mil millones en marzo), pero el número de usos fluctúa en lugar de aumentar establemente (por ejemplo, disminución de 67.2 veces en enero a 63.3 veces en marzo).",
+        "D": "Se enfoca en marzo, mostrando la tendencia conjunta de aumento de dispositivos y disminución del tiempo (gráficos de número de dispositivos y tiempo efectivo), pero el número de usos cambia mínimamente (gráfico de número de usos), reflejando razonamiento entre gráficos. Un solo gráfico (como el de número de dispositivos) no puede capturar patrones de comportamiento de uso.",
+        "E": "Basado en el aumento del número de dispositivos a principios de año (gráfico de número de dispositivos), la disminución anual del tiempo efectivo (gráfico de tiempo efectivo) y la estabilidad del número de usos (gráfico de número de usos), revela un patrón general. Un solo gráfico (como el de número de dispositivos) no puede capturar patrones de comportamiento de uso.",
+        "F": "Esta opción se basa en un error de conocimiento común: el tiempo efectivo disminuye anualmente (por ejemplo, enero: 286.5 minutos en 2023, 267.9 minutos en 2024, 265.5 minutos en 2025), no aumenta; aunque el número de dispositivos aumenta, no todos los indicadores suben.",
+        "G": "Dirigido a la anomalía de enero de 2025 (aumento significativo en usos, disminución en tiempo), dependiendo de la comparación de datos de años anteriores en los tres gráficos. Un solo gráfico (como el de número de dispositivos) no puede capturar patrones de comportamiento de uso."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B",
+        "A"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando chart_61_3 (tendencia ascendente de las veces de uso) y chart_61_1 (crecimiento del número total de dispositivos), se infiere que se debe mejorar la eficiencia de la推送 durante el período de crecimiento para compensar la pérdida de participación causada por la disminución del tiempo.",
+        "B": "Combinando chart_61_2 (el tiempo efectivo diario por máquina sigue disminuyendo) y chart_61_3 (las veces de uso diarias por máquina aumentan en 2025), se infiere que el comportamiento de los usuarios se ha vuelto fragmentado y es necesario optimizar la experiencia de las sesiones cortas.",
+        "C": "Comprensión errónea de la relación (chart_61_1 muestra que la base de usuarios se contrae en los meses de crecimiento negativo). Sugerir 'aumentar la frecuencia de la推送' puede tener el efecto contrario (causar反感 a los usuarios). La estrategia correcta debe ser optimizar la experiencia en lugar de hacer una propuesta forzada durante el crecimiento negativo.",
+        "D": "Combinando chart_61_1 (la tasa de crecimiento mensual fluctúa, como el crecimiento significativo en marzo de 2024) y chart_61_3 (las veces de uso son más altas en enero), se infiere que actuar en el pico de la tasa de crecimiento puede aprovechar eficientemente la tendencia del comportamiento de los usuarios.",
+        "E": "Interpretación errónea de la tendencia de la gráfica (chart_61_2 muestra que el tiempo efectivo disminuye, lo que indica que los usuarios prefieren la fragmentación). Sugerir 'desarrollar contenido largo inmersivo' va en contra de la tendencia (puede aumentar la fricción de los usuarios). En realidad, se debe optimizar las sesiones cortas.",
+        "F": "La estrategia es demasiado general ('ampliar el alcance de las funciones') y no se basa en los datos de la gráfica. Solo se basa en el conocimiento común de la industria (agregar funciones puede atraer a los usuarios), pero no hay una guía de acción específica ni una respuesta a la tendencia del comportamiento, por lo que es fácil de descartar.",
+        "G": "La declaración es correcta (la seguridad de los datos es importante), pero es demasiado general y no está relacionada con el cambio en el comportamiento de la participación de los usuarios. No puede mejorar directamente la tasa de retención y se puede descartar por conocimiento común."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Combinando chart_61_2 (disminución del tiempo efectivo) y chart_61_3 (aumento de las veces de uso diarias por máquina), se infiere que la disminución de la eficiencia del tiempo requiere la optimización de las herramientas para mejorar el valor por unidad de tiempo.",
+        "B": "La estrategia es demasiado general ('distribución equilibrada') y no se basa en la gráfica. Solo es una sugerencia basada en el conocimiento común (equilibrio de recursos), pero no hay una acción específica para el desaceleramiento del crecimiento o la evolución de los hábitos de los usuarios, por lo que es fácil de descartar.",
+        "C": "La declaración es razonable (la capacitación es importante), pero no hay datos de la gráfica para respaldarla y no está relacionada con el equilibrio entre el tamaño de los usuarios y los ingresos. Se puede descartar por conocimiento común.",
+        "D": "Interpretación errónea de la tendencia (chart_61_3 muestra un aumento en las veces de uso, pero chart_61_2 muestra una disminución en el tiempo efectivo, lo que indica que los usuarios prefieren la eficiencia). Sugerir 'invertir en la profundidad del contenido' confunde la relación (se deberían desarrollar herramientas de eficiencia) y puede causar un desperdicio de recursos.",
+        "E": "Combinando chart_61_1 (meses de crecimiento mensual negativo, como junio de 2024) y chart_61_2 (disminución continua del tiempo), se infiere que el período de bajo crecimiento es una oportunidad para la optimización para reducir la fuga de usuarios.",
+        "F": "Combinando chart_61_1 (la tasa de crecimiento mensual de los dispositivos fluctúa, como el pico en marzo de 2024) y chart_61_3 (aumento de las veces de uso), se infiere que la eficiencia del marketing es mayor en el pico de crecimiento.",
+        "G": "Lectura errónea de los valores (chart_61_1 muestra que los meses de crecimiento positivo son oportunidades para adquirir clientes). Sugerir 'reducir el gasto en marketing' va en contra de la tendencia (se debería aumentar la inversión durante el período de alto crecimiento). Se comete el error de considerar el crecimiento natural como autosuficiente."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "La declaración es correcta (el sistema de retroalimentación es útil), pero es demasiado general y no se centra en la estacionalidad. Es aplicable durante todo el año pero no puede maximizar la participación trimestral. Se puede descartar por conocimiento común.",
+        "B": "Interpretación errónea de la tendencia (chart_61_2 muestra que el tiempo efectivo es bajo, lo que indica que el tiempo de los usuarios se ha vuelto fragmentado). Sugerir 'publicar funciones de alta complejidad' va en contra de los datos (se deberían promocionar funciones livianas) y puede causar que los usuarios abandonen el servicio.",
+        "C": "Combinando chart_61_3 (el número de veces de uso aumenta de enero a febrero de 2025) y chart_61_2 (disminución del tiempo), se infiere que el contenido interactivo puede mejorar la eficiencia cuando la frecuencia vuelve a subir.",
+        "D": "Confusión de valores (chart_61_3 muestra que el número de veces de uso en marzo de 2024 es de 63.3, mayor que 62.9 en marzo de 2023, en realidad es un aumento). Sugerir 'reducir la frecuencia de actualización' es una interpretación errónea de la disminución año tras año (en realidad es un aumento año tras año) y puede hacer que se pierdan oportunidades de participación.",
+        "E": "Combinando chart_61_1 (meses de crecimiento mensual negativo, como junio de 2024) y chart_61_2 (disminución continua del tiempo), se infiere que el período de bajo crecimiento es adecuado para la optimización de bajo riesgo.",
+        "F": "Combinando chart_61_3 (el número de veces de uso es más alto en enero, como el aumento significativo en enero de 2025) y chart_61_1 (el número de dispositivos crece de manera estable al principio del año), se infiere que el principio del año es la época dorada para la publicación.",
+        "G": "La estrategia es demasiado general ('ajustarse a las tendencias globales') y no se basa en los datos estacionales de la gráfica. Solo se basa en el conocimiento común (internacionalización) y no hay una guía de acción trimestral específica, por lo que es fácil de descartar."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

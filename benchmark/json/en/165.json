@@ -85,6 +85,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "It depends on chart_165_1 (e.g., the recovery ratio of the number of travelers during the Tomb - Sweeping Festival in 2023 was relatively high, but the recovery ratio of tourism revenue was relatively low) and chart_165_2 (the year - on - year growth rate of social retail in April 2023 was relatively high, but it fluctuated in subsequent months). This requires comparing travel revenue and social retail trends to reveal the laws of consumption downgrade or expenditure transfer, and it cannot be inferred from a single chart.",
+        "B": "It depends on chart_165_1 (e.g., the recovery ratio of tourism revenue during the Dragon Boat Festival in 2023 was lower than that of the number of travelers) and chart_165_2 (the year - on - year growth rate of social retail in June 2023 was relatively low). This requires correlating holiday data with subsequent retail trends to reveal the pre - and post - impacts of consumer behavior, which is an implicit relationship.",
+        "C": "The year - on - year growth rate of social retail in the Tomb - Sweeping Festival in 2024 was 3.1%, which is the overall retail data. There is no direct conflict with the 112.7% recovery of tourism revenue (tourism is a细分领域), and the chart does not show a squeezing relationship between the two.",
+        "D": "Actual data: the revenue recovery of the Dragon Boat Festival in 2023 was 94.9% < 101.5% of the Mid - Autumn Festival and National Day. The option wrongly reverses the numerical relationship.",
+        "E": "The chart does not cover international tourism data, and the number of domestic tourists in 2023 has exceeded the pre - pandemic level (e.g., 119.1%). Commonly, the assumption that cross - border tourism diverts domestic consumption is not valid.",
+        "F": "It depends on chart_165_1 (both the recovery ratios of the number of travelers and tourism revenue during the Tomb - Sweeping Festival in 2024 were high and close) and chart_165_2 (the year - on - year growth rate of online retail has been at a high level in 2024). This requires cross - chart analysis of time correspondence and the role of online consumption. The conclusion of 'popularization of online channels' cannot be drawn from a single chart."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "It depends on chart_165_2 (the year - on - year growth rate of online retail has been consistently higher than that of social retail, e.g., the gap was significant from February to March 2024) and chart_165_4 (the value of 'Necessary Demand' is much higher than other demands). This requires comparing growth trends and demand types to reveal the law dominated by pragmatism. A single chart cannot explain 'why online consumption is stronger'.",
+        "B": "The growth rate of online retail (14.4%) is a cumulative value and cannot be directly compared with the absolute value of 'Impulse Buying' (11). Moreover, 'Necessary Demand' (55) is the main driving factor.",
+        "C": "The chart does not mention logistics efficiency. In the appliance demand, 'Necessary Demand' (55) is more likely to drive the resilience of online consumption, which is an irrelevant common - sense factor.",
+        "D": "Actual data: the year - on - year growth rate of social retail in November 2023 (10.1%) > online retail (8.3%). The option wrongly describes the 'narrowest gap'. Moreover, 'Self - Pleasure' has no direct correlation with the growth rate.",
+        "E": "It depends on chart_165_2 (the year - on - year growth rate of social retail fluctuated and declined, but online retail was stable) and chart_165_4 (the values of 'Self - Pleasure' and 'Recommendation/Influenced by Others' were relatively high). This requires cross - chart analysis of trend conflicts and demand correlations to explain that the resilience of online consumption stems from emotional factors, which is an implicit relationship.",
+        "F": "It depends on chart_165_2 (the growth rate of online retail increased in 2024) and chart_165_4 (the values of 'Renewal' and 'Curiosity - Driven' were relatively low). This requires joint identification of the conflict between growth and demand (high growth but low innovation demand) and inference that online consumption relies on basic demand, which cannot be drawn from a single chart."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "It depends on chart_165_3 (the proportion of Compound Prepared Dishes/Recipe - Style Seasonings remained the same) and chart_165_2 (online retail grew steadily, but social retail growth fluctuated). This requires correlating category stability and channel trends to infer the supporting role of the online channel for the demand for convenience and compare the pressure on the offline channel, which cannot be drawn from a single chart.",
+        "B": "The proportion of Compound Prepared Dishes/Recipe - Style Seasonings remained unchanged (38%). The growth rate of online retail (14.4%) is the data for February 2024. There is no evidence that it relies on new products (the proportion of Regional Specialty Seasonings has always been 0%).",
+        "C": "It depends on chart_165_3 (the proportion of categories changed slightly, but the proportion of basic categories decreased) and chart_165_2 (the growth of online retail was higher than the overall social retail). This requires joint analysis of proportion stability and growth differences, implying an upgrade in online consumption preferences, which is a cross - chart inference.",
+        "D": "Actual data: the proportion of basic seasonings decreased from 35% to 33%, which contradicts the 'rising demand'. The chart does not mention health factors.",
+        "E": "The year - on - year growth rate of social retail in June 2023 (3.1%) is the overall retail data, and the proportion of condiments is quarterly data (35% of basic products in Q1). There is no time - corresponding relationship between the two.",
+        "F": "It depends on chart_165_3 (the proportion of basic seasonings decreased from Q1 2023 to Q1 2024, and the proportion of Compound Non - Prepared Dishes Seasonings increased) and chart_165_2 (the cumulative year - on - year growth rate of online retail of physical goods has been at a high level). This requires cross - chart comparison of category changes and online trends to reveal the law of 'convenience, diversification + online - oriented', and the correlation cannot be inferred from a single chart."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -149,6 +194,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Incorrect confusion of trends: Chart_165_1 shows that the revenue recovery rate exceeded the number of travelers in the later period, but this is mainly due to the consumption rebound during holidays (e.g., 101.5% during the Mid - Autumn Festival & National Day in 2023), not the offline channels; Chart_165_2 shows that the year - on - year growth rate of online retail has been continuously high (e.g., 11.6% in March 2024), indicating that online channels are more efficient, and offline investment may be inefficient.",
+        "B": "In Chart_165_1, the recovery ratio of tourism revenue has been lower than the number of travelers for a long time (e.g., revenue 39.2% vs. number of travelers 68.0% during the Tomb - sweeping Festival in 2023), indicating a problem in consumption conversion; In Chart_165_2, the year - on - year growth rate of the accumulated value of physical goods online retail has been continuously higher than that of social retail as a whole (e.g., 11.6% vs. 3.1% in March 2024), proving the growth advantage of online channels.",
+        "C": "This is a common - sense suggestion that does not combine the chart data (such as the growth trend of online retail) and does not solve the core problem of low revenue conversion rate.",
+        "D": "In Chart_165_1, the revenue recovery rate exceeded the number of travelers in the later period (e.g., revenue 112.7% vs. number of travelers 111.5% during the Tomb - sweeping Festival in 2024), reflecting the improvement of experiential consumption; In Chart_165_2, the year - on - year growth rate of social retail in holiday months (e.g., 12.7% in May 2023) shows the driving force of emotional demand.",
+        "E": "This option is based on general marketing common sense, but it does not address the problem of the recovery gap between revenue and the number of travelers in the charts, and there are no specific actions (such as bundled packages or high - value - added services), so it seems broad and ineffective.",
+        "F": "In Chart_165_1, the revenue recovery rate has large seasonal differences (e.g., 94.9% during the Dragon Boat Festival in 2023 vs. 112.7% during the Tomb - sweeping Festival in 2024); In Chart_165_2, the year - on - year growth rate of social retail fluctuates greatly (e.g., from 3.1% in June 2023 to 10.1% in November 2023), so dynamic pricing is needed to deal with it.",
+        "G": "Incorrect understanding of the chart: Chart_165_1 shows that the revenue recovery rate (39.2%) is much lower than the number of travelers' recovery rate (68.0%) during off - peak seasons (such as the Tomb - sweeping Festival), indicating that off - peak seasons need more improvement in consumption conversion rather than reducing investment; Reducing marketing will widen the revenue gap, which is contrary to the goal."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -172,6 +234,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "In Chart_165_3, the proportion of basic seasonings decreased from 35% to 33%, but it is still the second - largest category; In Chart_165_2, the year - on - year growth rate of social retail during the low - growth period (e.g., 3.1% in March 2024) shows that the consumption of necessities is stable, and channel optimization is needed.",
+        "B": "In Chart_165_3, the proportion of regional specialty seasonings is zero, indicating a blank market; In Chart_165_4, there is potential in the demand for giving gifts to relatives and friends (value 15) and the demand for self - pleasure (value 42); The rebound of social retail during holidays in Chart_165_2 (e.g., 7.6% in October 2023) supports the gifting scenario.",
+        "C": "Incorrect understanding of the trend: Chart_165_3 shows that the proportion of compound prepared dishes is stable (38%), but the proportion of compound non - prepared dishes seasonings increased from 27% to 29%, indicating growth potential; Cutting the production capacity of prepared dishes may miss opportunities, and the decline in the proportion of basic seasonings (from 35% to 33%) shows that innovation is needed rather than simply focusing on one aspect.",
+        "D": "Incorrect interpretation of the chart: Chart_165_3 shows that the proportion of regional specialty seasonings is 0% (in Q1 2023 and Q1 2024), with no sign of growth; In Chart_165_4, the demand for giving gifts to relatives and friends is only 15 (one of the lowest values), and the social retail data (Chart_165_2) shows a rebound in emotional consumption but does not directly support this category; Over - inference may lead to resource waste.",
+        "E": "This option is based on industry common sense, but it does not address the specific changes in categories (such as the rise of compound non - prepared dishes) or the channel trend, and there is no clear guidance on resource allocation.",
+        "F": "This is a broad suggestion that does not combine the online retail growth data in the chart. Traditional channels may be inefficient, and the product portfolio is not optimized.",
+        "G": "In Chart_165_3, the proportion of compound non - prepared dishes seasonings increased from 27% in Q1 2023 to 29% in Q1 2024, showing a clear growth trend; In Chart_165_2, the year - on - year growth rate of the accumulated value of physical goods online retail has been higher than that of social retail for a long time (e.g., 11.6% vs. 3.1% in March 2024), verifying the efficiency of online channels."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -195,6 +274,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Incorrect interpretation: Chart_165_4 shows that the demand for self - pleasure (42) and showing taste (36) is strong; The high year - on - year growth rate of online retail (11.6%) in Chart_165_2 indicates that online channels are suitable for emotional marketing; Reducing investment may ignore high - potential demand, and emotional consumption may still be resilient when social retail slows down.",
+        "B": "This option is based on general business logic, but it does not address the specific demand characteristics (such as self - pleasure or essential needs), and there is no adjustment to product development or marketing focus, so it is too general.",
+        "C": "In Chart_165_4, the demand value for giving gifts to relatives and friends is 15, and the value for curiosity - driven is 21, showing the potential of scenarios; The holiday travel recovery rate in Chart_165_1 exceeded 100% (e.g., 119.1% during the Labor Day in 2023). Combined with the rebound of social retail during festivals in Chart_165_2, the feasibility of the scenarios is verified.",
+        "D": "This is a common - sense suggestion that does not combine the chart data (such as the online retail trend or demand weights), and cross - border linkage may not directly increase market share.",
+        "E": "In Chart_165_4, the value of necessary demand is 55, which is the highest, and the value of renewal is 36, ranking third; The overall year - on - year growth rate of social retail in Chart_165_2 is slowing down (e.g., 3.1% in March 2024), so enterprises need to focus on products with strong functionality.",
+        "F": "In Chart_165_4, the demand for self - pleasure (value 42) and showing taste (value 36) is prominent; The year - on - year growth rate of the accumulated value of physical goods online retail in Chart_165_2 has been continuously high (e.g., 14.4% in February 2024), which is suitable for emotional marketing.",
+        "G": "Incorrect inference: In Chart_165_4, the demand for giving gifts to relatives and friends is only 15 (one of the lowest values), far lower than the necessary demand (55) or self - pleasure demand (42); The travel recovery data (Chart_165_1) shows that the recovery of the number of travelers is good, but the revenue recovery (e.g., 39.2% during the Tomb - sweeping Festival in 2023) indicates a problem in consumption conversion, and the gifting scenario may not be efficient."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

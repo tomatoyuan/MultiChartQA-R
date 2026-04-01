@@ -84,7 +84,21 @@
         "D",
         "E",
         "F"
-      ]
+      ],
+      "cot": {
+        "A": "Los títulos de los gráficos indican claramente que ambos se refieren a 'distritos comerciales centrales', por lo que el alcance geográfico debería ser similar; chart_67_1 y chart_67_3 describen áreas centrales, no hay evidencia que respalde diferencias en la definición del alcance, la opción de interferencia asume erróneamente diferencias en los criterios estadísticos.",
+        "B": "Los títulos de los gráficos no especifican el momento de recolección de datos, y la pregunta se centra en los datos anuales de 2021, las diferencias en el momento temporal no son una razón válida; las diferencias leves reales (como Beijing 10% vs 9.8%) son más probablemente debidas a diferentes definiciones del tipo de edificio de oficinas (clase A vs calidad superior).",
+        "C": "La pregunta compara ciudades de primer nivel (Beijing, Shanghai, etc.), los datos de ciudades de primer nivel en chart_67_1 se enumeran por separado (por ejemplo, Beijing 10%), las ciudades de segundo nivel no afectan los valores de las ciudades de primer nivel; la diferencia surge de los criterios de selección de calidad de los edificios de oficinas (clase A vs calidad superior), no de la mezcla de tipos de ciudades.",
+        "D": "Un gráfico incluye múltiples ciudades de primer y segundo nivel (como Shenyang, Wuhan), mientras que el otro se limita a ciudades de primer nivel (Beijing, Shanghai, etc.), pero los datos de los distritos comerciales centrales se superponen (por ejemplo, Beijing, Shanghai). El otro también proporciona tasas de vacancia para toda la ciudad (por ejemplo, Beijing ciudad completa 17.1%), lo que sugiere diferencias en el alcance estadístico (distritos comerciales centrales vs ciudad completa), es necesario analizar conjuntamente cómo la inconsistencia en el alcance conduce a desviaciones en los datos de los distritos comerciales centrales.",
+        "E": "Un gráfico informa una tasa de vacancia de edificios de oficinas de clase A en el distrito comercial central de Beijing del 10%, el otro informa una tasa de vacancia de edificios de oficinas de calidad superior en el distrito comercial central de Beijing del 9.8%. Esta ligera diferencia (0.2 puntos porcentuales) puede deberse a diferentes definiciones de 'edificios de oficinas de clase A' y 'edificios de oficinas de calidad superior' (como estándares de calidad o alcance de selección), es necesario comparar los valores de ambos gráficos para descubrir el conflicto y explicar la razón.",
+        "F": "Un gráfico etiqueta claramente 'edificios de oficinas de calidad superior', lo que puede implicar estándares de calidad más altos, mientras que la definición de 'edificios de oficinas de clase A' en el otro gráfico puede ser más amplia. Por ejemplo, Shenzhen tiene una tasa de vacancia del distrito comercial central del 19% en un gráfico y del 18.8% en el otro, la diferencia aunque pequeña requiere razonar conjuntamente con ambos gráficos la influencia de los estándares de definición (no se puede inferir solo con un gráfico)."
+      },
+      "easy_error": [
+        "B",
+        "A",
+        "C"
+      ],
+      "hard_error": []
     },
     {
       "type": "4",
@@ -105,7 +119,21 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "cot": {
+        "A": "En uno, la demanda de la industria manufacturera es solo del 8.2%, mientras que en el otro, Wuhan tiene la tasa de vacancia más alta del 35% y una absorción neta media de 171,000 metros cuadrados. Razonamiento conjunto: la alta tasa de vacancia de Wuhan puede deberse en parte a la baja demanda manufacturera, la demanda tecnológica (33.6%) no puede compensar completamente, es necesario comparar entre gráficos la relación entre la participación de la industria y la tasa de vacancia/absorción neta de la ciudad.",
+        "B": "Generalización basada en conocimiento común, pero la absorción neta real varía según la ciudad (por ejemplo, Shenyang solo 35,000 metros cuadrados), la demanda tecnológica no necesariamente domina todas las ciudades; chart_67_2 muestra que la participación tecnológica es la más alta, pero no especifica la distribución por ciudad, la opción de interferencia ignora las diferencias del mercado.",
+        "C": "Un gráfico muestra que la participación de la demanda de la industria tecnológica es la más alta con 33.6%, mientras que en el otro, Shenzhen tiene la absorción neta más alta de todas las ciudades con 641,000 metros cuadrados. Razonamiento conjunto: la demanda de alta tecnología puede impulsar la alta absorción neta de Shenzhen (necesita combinar los valores de ambos gráficos, no se puede inferir solo con la participación industrial de un gráfico o los datos de Shenzhen del otro).",
+        "D": "En uno, la participación de la demanda de la industria financiera es 21.9% y servicios profesionales 8.8%, mientras que en el otro, la absorción neta de Beijing es 341,000 metros cuadrados y Shanghai 531,000 metros cuadrados, ambas altas pero inferiores a Shenzhen. Razonamiento conjunto: la demanda diversificada de industrias en Beijing y Shanghai (finanzas + servicios profesionales) puede respaldar su absorción neta sólida, en lugar de estar dominada por una sola tecnología, es necesario comparar ambos gráficos para analizar la relación entre la participación industrial y el desempeño de la ciudad.",
+        "E": "Asociación errónea de datos: la participación de la demanda manufacturera en Hangzhou es 8.2% (chart_67_2), inferior a la tecnología 33.6%; la baja absorción neta puede deberse a otros factores (como exceso de oferta), pero la opción de interferencia atribuye erróneamente el dominio a la manufactura, cuando la tecnología es la mayor fuente de demanda.",
+        "F": "Interpretación errónea de valores: la participación tecnológica del 33.6% es la más alta entre las industrias (chart_67_2), debería fortalecer la influencia; la alta absorción neta de Shenzhen puede beneficiarse de esto (la opción A es correcta), la opción de interferencia contradice diciendo 'impacto débil'."
+      },
+      "easy_error": [
+        "B",
+        "F",
+        "E"
+      ],
+      "hard_error": []
     },
     {
       "type": "4",
@@ -126,7 +154,21 @@
         "B",
         "C",
         "E"
-      ]
+      ],
+      "cot": {
+        "A": "Generalización errónea de un caso excepcional: Shenzhen es la única ciudad de primer nivel donde la tasa de vacancia del distrito comercial central es mayor que la de toda la ciudad (chart_67_3), otras ciudades como Beijing (distrito central 9.8% < ciudad completa 17.1%) muestran lo contrario; la opción de interferencia toma erróneamente el caso excepcional de Shenzhen como una tendencia general.",
+        "B": "En uno, la tasa de vacancia del distrito comercial central de Guangzhou es la más baja con 8%, mientras que en el otro, la tasa de vacancia de toda la ciudad de Guangzhou también es relativamente baja (11.9%, inferior a Beijing y Shanghai). Razonamiento conjunto: Guangzhou mantiene bajas tasas de vacancia tanto en el distrito comercial central como en toda la ciudad, reflejando la estabilidad general de su mercado, es necesario comparar conjuntamente el gradiente de tasas de vacancia entre ciudades (como distrito central vs ciudad completa).",
+        "C": "Un gráfico informa tasas de vacancia del distrito comercial central (por ejemplo, Beijing 10%, Shanghai 10%), mientras que el otro informa tasas de vacancia de toda la ciudad (Beijing 17.1%, Shanghai 16.6%). Razonamiento conjunto: todas las ciudades de primer nivel en el otro gráfico tienen tasas de vacancia de toda la ciudad más altas que sus datos del distrito comercial central (en un gráfico), formando la regla de 'tasas de vacancia del distrito comercial central más bajas' (es necesario contrastar la tendencia de valores de ambos gráficos, no se puede inferir solo con un gráfico).",
+        "D": "Basado en conocimiento común de la industria, pero Shenzhen es una excepción (distrito central 18.8% > ciudad completa 16.6%); chart_67_3 muestra que las tasas de vacancia del distrito central de Beijing, Shanghai, etc., son todas más bajas que las de toda la ciudad, pero 'siempre' es una absolutización errónea, ignora la excepción de Shenzhen.",
+        "E": "En uno, la tasa de vacancia del distrito comercial central de Shenzhen es alta con 19%, mientras que en el otro, la tasa de vacancia de toda la ciudad de Shenzhen es baja con 16.6%. Razonamiento conjunto: los datos de toda la ciudad son más bajos que los del distrito comercial central (16.6% < 19%), posiblemente porque las áreas no centrales tienen mejor desempeño (como alta absorción neta), es necesario analizar entre gráficos las diferencias entre el distrito central y toda la ciudad para descubrir tendencias implícitas.",
+        "F": "Suposición errónea de datos: la tasa de vacancia de toda la ciudad de Tianjin no se proporciona en los gráficos; basado en datos de ciudades de primer nivel en chart_67_3 (distrito central generalmente más bajo que toda la ciudad), la opción de interferencia especula que Tianjin tiene una tasa de vacancia de toda la ciudad más alta, pero sin base, y otras ciudades muestran que el distrito central suele ser más atractivo."
+      },
+      "easy_error": [
+        "D",
+        "A",
+        "F"
+      ],
+      "hard_error": []
     },
     {
       "type": "5",
@@ -149,6 +191,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción solo se basa en el conocimiento general (las ciudades de primer nivel son más desarrolladas) y no utiliza los datos de los gráficos (por ejemplo, la tasa de vacante en el centro de Shenzhen es de 18,8%, lo que es bastante alta; la tasa de vacante en Tianjin es del 29%, lo que indica un riesgo), y además ignora el rendimiento de las ciudades de segundo nivel (por ejemplo, la tasa de vacante en Chengdu es del 13%, lo que es baja).",
+        "B": "Razonamiento conjunto de la opción 1: Se involucran el chart_67_1 (por ejemplo, las tasas de vacante en los distritos comerciales centrales de Beijing y Shanghai son bajas y la absorción neta es alta, lo que muestra una demanda fuerte) y el chart_67_3 (las tasas de vacante en los distritos comerciales centrales de las ciudades de primer nivel son generalmente más bajas que las de toda la ciudad, lo que indica la estabilidad de las zonas centrales). La estrategia se basa en las tendencias de datos de tasas de vacante bajas y absorción neta alta.",
+        "C": "Esta opción se basa en el conocimiento general (reducir los precios para atraer inquilinos), pero no se combina con los gráficos (por ejemplo, la tasa de vacante en Shenyang es del 33%, pero la absorción neta es solo de 35.000 metros cuadrados. Reducir los precios puede que no mejore fundamentalmente la demanda), y además puede comprimir los rendimientos.",
+        "D": "Esta opción confunde los datos del chart_67_3 (por ejemplo, la tasa de vacante en el centro de Beijing es del 9,8% frente al 17,1% de toda la ciudad) y juzga erróneamente que el potencial de las zonas no centrales es mayor; en realidad, la tasa de vacante en las zonas centrales es más baja, lo que muestra más estabilidad. La inversión en las zonas no centrales puede aumentar el riesgo de vacante.",
+        "E": "Esta opción interpreta erróneamente el chart_67_2 (la demanda de la industria de tecnología representa el 33,6%), pero ignora los datos de las tasas de vacante de las ciudades (por ejemplo, la tasa de vacante en Wuhan es del 35%, lo que es alta. La demanda de tecnología puede que no sea capaz de absorber rápidamente la oferta); la sugerencia de \"todas las ciudades\" es una medida general y no se ajusta a las diferencias de riesgo.",
+        "F": "Razonamiento conjunto de la opción 2: Se involucran el chart_67_1 (por ejemplo, las tasas de vacante en ciudades de segundo nivel como Shenyang y Wuhan son relativamente altas) y el chart_67_2 (la demanda de las industrias de tecnología y finanzas representa más del 50% en total, lo que muestra su papel dominante). La estrategia combina los datos de las ciudades con altas tasas de vacante y la distribución de la demanda industrial para proponer una optimización de inquilinos específica.",
+        "G": "Razonamiento conjunto de la opción 3: Se involucran el chart_67_3 (por ejemplo, la tasa de vacante en el distrito comercial central de Beijing es mucho más baja que la de toda la ciudad) y el chart_67_1 (los datos de los distritos comerciales centrales respaldan las diferencias regionales). La estrategia utiliza las características de las diferencias en las tasas de vacante para la asignación de recursos."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -172,6 +231,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de la opción 3: Se involucran el chart_67_1 (por ejemplo, la absorción neta en Shenzhen es alta, pero la tasa de vacante también es alta) y el chart_67_2 (la tendencia de la demanda industrial, que puede guiar la inclinación de recursos). La estrategia combina el rendimiento de la absorción neta y la estructura de la demanda, y enfatiza la gestión preventiva.",
+        "B": "Esta opción solo se basa en el conocimiento general (publicidad para aumentar la知名度), no utiliza los datos de la demanda de inquilinos o las tasas de vacante (por ejemplo, el chart_67_2 muestra la proporción de la demanda industrial), y además no tiene una guía de acción específica.",
+        "C": "Esta opción interpreta erróneamente el chart_67_1 (la tasa de vacante en Guangzhou es del 8%, lo que es baja), pero ignora la absorción neta de 426.000 metros cuadrados, que muestra una demanda fuerte; reducir la inversión puede causar la pérdida de oportunidades, y además no se tiene en cuenta la tasa de vacante de toda la ciudad (el 11,9% de toda la ciudad de Guangzhou en el chart_67_3).",
+        "D": "Esta opción aparentemente utiliza el chart_67_2 (la demanda de la industria financiera es del 21,9%) y el chart_67_1 (la tasa de vacante en Wuhan es del 35%), pero juzga erróneamente la idoneidad de los inquilinos financieros en las ciudades con altas tasas de vacante; en realidad, las altas tasas de vacante pueden deberse a factores económicos, y la demanda financiera puede que no pueda mejorar directamente la situación (por ejemplo, la demanda de servicios profesionales es solo del 8,8%, que es aún más débil).",
+        "E": "Razonamiento conjunto de la opción 1: Se involucran el chart_67_2 (la demanda de las industrias de tecnología y finanzas ocupa un porcentaje líder) y el chart_67_1 (por ejemplo, la tasa de vacante en Shenzhen es alta, pero la absorción neta también es alta, lo que indica un potencial de demanda). La estrategia utiliza la proporción de la demanda industrial y los datos de las tasas de vacante de las ciudades para enfatizar la optimización del tipo de inquilinos.",
+        "F": "Esta opción confunde los datos del chart_67_1 (la absorción neta en Shenzhen es de 641.000 metros cuadrados, pero la tasa de vacante es del 19%, lo que es alta), y se cree erróneamente que una alta absorción neta significa bajo riesgo; en realidad, una alta tasa de vacante indica un exceso de oferta. Expandir la captación de inquilinos puede empeorar la situación de vacante.",
+        "G": "Razonamiento conjunto de la opción 2: Se involucran el chart_67_3 (por ejemplo, las tasas de vacante en los distritos comerciales centrales de Beijing y Shanghai son más bajas que las de toda la ciudad) y el chart_67_1 (los datos a nivel de ciudad respaldan las diferencias regionales). La estrategia se basa en las características de desequilibrio regional de las tasas de vacante para optimizar la asignación de recursos."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -195,6 +271,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de la opción 3: Se involucran el chart_67_1 (por ejemplo, la absorción neta en Shenzhen y Shanghai es alta) y el chart_67_2 (la tendencia de la demanda industrial, que puede guiar la inclinación de recursos). La estrategia combina el rendimiento de la absorción neta y la estructura de la demanda, y enfatiza la gestión preventiva.",
+        "B": "Esta opción se basa en el conocimiento general (la industria manufacturera es importante), pero no se combina con los datos de la proporción de la demanda (el chart_67_2 muestra que la industria manufacturera representa el 8,2%, que es menor que el 33,6% de la industria de tecnología); la sugerencia puede que no mejore rápidamente las altas tasas de vacante (por ejemplo, la tasa de vacante en Tianjin es del 29%).",
+        "C": "Razonamiento conjunto de la opción 1: Se involucran el chart_67_1 (por ejemplo, las tasas de vacante en ciudades como Tianjin y Shenyang son altas) y el chart_67_2 (la demanda de las industrias de tecnología y finanzas ocupa un porcentaje destacado). La estrategia utiliza los datos de las altas tasas de vacante y la distribución de la demanda industrial para proponer una prioridad de introducción de industrias.",
+        "D": "Esta opción solo se basa en el conocimiento general (la distribución equitativa es justa), no utiliza los datos de los gráficos (por ejemplo, la tasa de vacante en Wuhan es del 35%, lo que es alta y necesita una intervención prioritaria), y además ignora las diferencias de demanda (la demanda de tecnología en el chart_67_2 es del 33,6%, lo que es alta).",
+        "E": "Esta opción interpreta erróneamente el chart_67_1 (la absorción neta en Shenzhen es de 641.000 metros cuadrados), pero ignora la tasa de vacante del 19% (chart_67_1) y la tasa de vacante de toda la ciudad del 16,6% (chart_67_3); la nueva oferta puede empeorar la situación de vacante, en lugar de prevenir la escasez.",
+        "F": "Razonamiento conjunto de la opción 2: Se involucran el chart_67_3 (por ejemplo, la tasa de vacante de toda la ciudad de Beijing es significativamente más alta que la de los distritos comerciales centrales) y el chart_67_1 (los datos de las ciudades respaldan el análisis de diferencias). La estrategia se basa en las características de desequilibrio regional de las tasas de vacante para optimizar la asignación de recursos.",
+        "G": "Esta opción confunde los datos del chart_67_3 (las tasas de vacante en los distritos comerciales centrales son bajas, como el 7,6% en Guangzhou) y juzga erróneamente que se debe restringir el desarrollo de las zonas centrales; en realidad, las zonas centrales son más resistentes y la asignación de recursos debe fortalecerse en lugar de transferirse."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     }
   ]

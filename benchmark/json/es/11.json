@@ -88,6 +88,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "强调‘趋势一致’需对比两张图表的比例分布，通过交叉分析推导出整体模式。单独一张图表仅能提供部分行为，但联合推理揭示了决策连贯性。",
+        "B": "此选项为Hard干扰项：它错误比较图表数据，chart_11_3中“Escuchar a los padres”占比36.0%低于“Decidir por sí mismo”的58.0%，却声称前者最高；同时chart_11_2中“No”比例61%较高，却被描述为“较低”。错误在于对排序和差距的误读（自主行为在两者中均占主导）。",
+        "C": "此选项为Hard干扰项：它错误解读图表数据，将chart_11_2的数值颠倒（实际“Sí”共同查分为39%，“No”为61%），却声称“Sí”占多数，并与chart_11_3的自主趋势矛盾。错误源于对数值的误解（61% vs 39%差距显著）。",
+        "D": "此选项为Easy干扰项：它基于常识（如家庭支持的重要性）而非图表数据，但实际图表（chart_11_2）显示61%学生选择不与父母共同查分，表明独立趋势，而非依赖。常识性错误在于忽略了数据体现的多数独立行为。",
+        "E": "依赖两张图表联合推理：前者显示‘No’选项的比例更高，后者显示‘Decidir por sí mismo’选项的比例最高，通过比较两个图表的行为趋势，得出学生自主性增强的规律，而非单张图表可独立推断。",
+        "F": "此选项为Easy干扰项：它依赖行业常识（如专家建议的可靠性），但图表（chart_11_3）中“Escuchar a expertos u otros”仅占6.0%，远低于“Decidir por sí mismo”的58.0%，因此与数据矛盾。常识错误在于高估了专家影响。",
+        "G": "通过‘远高于’和‘多数’等描述，结合志愿决策和查分行为的相对优势，推导出整体模式。单独一张图表仅能提供部分行为，但联合推理揭示了决策连贯性。"
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "需要交叉分析：专业爱好关注度与金融学搜索指数的正向关联，但生物工程搜索低的负向对比，突显脱节。",
+        "B": "此选项为Hard干扰项：它错误解读chart_11_5数据，Bioingeniería搜索指数仅323（低），而Ingeniería de Comunicación为1060（中等），并非所有工程类都“很高”；同时，与chart_11_4的El interés profesional关注度高不符。错误源于对数值差距的误解（Bioingeniería远低于Finanzas的1374）。",
+        "C": "此选项为Easy干扰项：它基于常识（兴趣主导行为），但图表（chart_11_5）显示搜索指数受多种因素影响（如Finanzas高搜索可能因就业前景），与El interés profesional关注度高但部分专业搜索低的数据冲突不符。常识错误在于简化了行为驱动因素。",
+        "D": "结合La fuerza de la escuela关注度与Ingeniería de Comunicación搜索指数较高，推理出学生更重专业实用性而非学校因素。每个选项都强制依赖两张图表，避免单图推断。",
+        "E": "此选项为Easy干扰项：它基于常识（地理位置的重要性），但图表（chart_11_4）显示El interés profesional关注度36%最高，La ubicación geográfica仅13%，因此与数据冲突。常识错误在于忽略图表中的主导因素。",
+        "F": "此选项为Hard干扰项：它颠倒chart_11_5的数值，Bioingeniería搜索指数323实际低于Finanzas 1374，却错误声称Bioingeniería更高，这歪曲了兴趣与热点的冲突（实际Bioingeniería低搜索与高关注矛盾）。错误在于数值比较错误。",
+        "G": "依赖两张图表联合推理：前者显示‘El interés profesional’比例最高，后者显示‘Bioingeniería’搜索指数较低，通过比较关注度与搜索热度的冲突，推导出外部因素的解释，单张图表无法揭示这种不一致。"
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "依赖两张图表联合推理：前者显示Universidad de Harvard搜索指数最高，后者显示Finanzas搜索指数最高，通过比较‘最高’的相对趋势，得出协同关系，而非单张图表能推断。",
+        "B": "需要交叉分析：Instituto Tecnológico de Massachusetts关注度与Aplicaciones de Computación搜索指数的不完全匹配，推导出名校声誉的独立影响。",
+        "C": "此选项为Easy干扰项：它泛化常识（学生追求高薪），但图表（chart_11_6）显示Universidad de Toronto关注度0.5较低，与Finanzas高搜索不直接协同；常识错误在于过度简化，未考虑数据中部分名校（如Universidad de Oxford 0.45）与专业脱节。",
+        "D": "此选项为Hard干扰项：它错误解读图表数据，chart_11_5中Bioingeniería搜索指数仅323（低），远低于Finanzas 1374，却声称“最高”；同时chart_11_6中Universidad Johns Hopkins关注度0.7中等（低于Universidad de Harvard 1.0）。错误源于对数值和排序的误读（Bioingeniería非高需求）。",
+        "E": "结合Universidad Johns Hopkins关注度和Bioingeniería搜索指数，推理出学校专长驱动关注，尽管专业热度弱。每个选项强制依赖两张图表，确保联合推理。",
+        "F": "此选项为Easy干扰项：它基于常识（学校声誉优先），但图表（chart_11_6和chart_11_5）可能隐含协同（如Finanzas高搜索与Universidad de Harvard高关注），常识错误在于忽略潜在数据关联，且不依赖具体数值。",
+        "G": "此选项为Hard干扰项：它错误比较数据，chart_11_5中Aplicaciones de Computación搜索指数581实际中等（低于Finanzas 1374），chart_11_6中Instituto Tecnológico de Massachusetts关注度0.9第二高，却声称Aplicaciones de Computación“最高”且Instituto Tecnológico de Massachusetts“不是最高”以否定协同。错误在于数值误解（差距显著）。"
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en el conocimiento general (la opinión familiar es importante), pero ignora los datos de los gráficos (por ejemplo, el gráfico 11_3 muestra que el 58% de los estudiantes tienden a decidir por sí mismos). Además, no proporciona una guía de acción específica y su formulación es tan genérica que es fácil de descartar.",
+        "B": "Basado en el gráfico 11_2 (la proporción de 'no' es mayor cuando se revisan las calificaciones del examen, lo que muestra una tendencia a la conducta independiente) y el gráfico 11_3 (la proporción de 'escuchar a los padres' en la decisión de la solicitud a la universidad es significativa), se analiza el efecto de la participación familiar temprana en la mitigación de los conflictos en las decisiones posteriores.",
+        "C": "Esta opción utiliza superficialmente los datos del gráfico 11_2 (el 61% no revisa las calificaciones del examen juntos), pero interpreta erróneamente la tendencia: la estrategia correcta en realidad (como la opción A) sugiere promover la interacción temprana para reducir los conflictos, mientras que esta opción de distracción sugiere 'evitar la interacción', lo que contradice la necesidad de equilibrio implícita en los datos (el gráfico 11_3 muestra que la opinión de los padres tiene una proporción significativa).",
+        "D": "Integrando el gráfico 11_3 (la proporción de 'decidir por sí mismo' es la más alta) y el gráfico 11_2 (la tendencia a la independencia al revisar las calificaciones del examen), se enfatiza la optimización de la coherencia entre la autonomía de los estudiantes y sus conductas.",
+        "E": "Esta opción cita los datos del gráfico 11_3 (el 36% escucha a los padres y el 58% decide por sí mismo), pero confunde las relaciones: la opinión de los expertos solo representa el 6%, pero sugiere 'intervenir obligatoriamente a los expertos', lo que exagera erróneamente los datos de baja proporción y ignora la tendencia dominante de la decisión propia, lo que conduce a un desvío en la dirección de la estrategia.",
+        "F": "Combinando el gráfico 11_3 (la proporción de 'escuchar a expertos u otros' es baja pero no nula) y el gráfico 11_2 (la distribución de las preferencias al revisar las calificaciones del examen), se infiere que los recursos de los expertos pueden llenar la brecha en la comunicación familiar.",
+        "G": "Esta opción se basa en el conocimiento general de la industria (la publicidad aumenta la participación), pero no cita ningún contenido de los gráficos (como los datos del gráfico 11_2 o el gráfico 11_3). La estrategia es vaga y no tiene soporte de datos, por lo que es fácil de identificar como ineficaz a través del conocimiento general."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en el conocimiento general (la ubicación geográfica afecta la elección), pero no utiliza ningún dato de los gráficos (por ejemplo, el gráfico 11_4 muestra que la atención a la ubicación geográfica solo es del 13%). La estrategia es genérica y no tiene enfoque, por lo que es fácil de descartar a través del conocimiento general.",
+        "B": "Integrando el gráfico 11_4 (la proporción de 'ubicación geográfica' es baja) y el gráfico 11_6 (el índice de búsqueda de las universidades extranjeras famosas es generalmente alto), se sugiere que los recursos se utilicen para la promoción conjunta del factor geográfico y las rutas internacionales.",
+        "C": "Basado en el gráfico 11_4 (la proporción de 'interés profesional' es la más alta) y el gráfico 11_5 (por ejemplo, los índices de búsqueda de finanzas e ingeniería de comunicaciones son altos), se analiza la relación entre el interés profesional y la demanda del mercado y se sugiere que los recursos se enfoquen en la orientación por interés.",
+        "D": "Esta opción se basa en el conocimiento general de la industria (los casos de ex - alumnos motivan), pero no cita los gráficos (como el gráfico 11_5 o el gráfico 11_6). La formulación es vacía y carece de soporte de datos, por lo que es fácil de identificar como una sugerencia ineficaz.",
+        "E": "Esta opción utiliza superficialmente los datos del gráfico 11_5 (el índice de búsqueda de bioingeniería es 323), pero interpreta erróneamente los valores: en realidad, la bioingeniería tiene el índice de búsqueda más bajo (323 vs 1374 de finanzas), pero sugiere 'invertir en gran medida', lo que confunde las carreras de baja y alta popularidad, lo que conduce a una asignación errónea de recursos.",
+        "F": "Esta opción cita el gráfico 11_4 (la ubicación geográfica es el 13%) y el gráfico 11_6 (el índice de búsqueda de las universidades extranjeras famosas), pero establece una relación errónea: la atención a la ubicación geográfica es baja, pero sugiere 'ignorar completamente las universidades nacionales', mientras que el índice de búsqueda de las universidades extranjeras, aunque alto, solo representa la atención y no se combina con el interés profesional (el interés profesional representa el 36% en el gráfico 11_4), lo que conduce a un desvío evidente en la dirección de la estrategia.",
+        "G": "Combinando el gráfico 11_4 (la atención a la 'fuerza de la escuela' es estable) y el gráfico 11_5 (los cambios en el índice de búsqueda, por ejemplo, la ingeniería de comunicaciones es más alta que la bioingeniería), se infiere una asignación basada en la tendencia para hacer frente a la evolución de la popularidad de las carreras."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Combinando el gráfico 11_4 (la proporción de 'interés profesional' es la más alta) y el gráfico 11_5 (los cambios en el índice de búsqueda, por ejemplo, la economía y el comercio internacional es menor que las finanzas), se analiza el equilibrio entre el interés y la tendencia y se sugiere un ajuste dinámico de la selección.",
+        "B": "Basado en el gráfico 11_5 (los índices de búsqueda de las carreras, como las finanzas son los más altos y la bioingeniería es más baja) y el gráfico 11_6 (los índices de búsqueda de las universidades famosas como Harvard son destacados), se infiere que las carreras populares deben coincidir con la reputación de la universidad para evitar riesgos.",
+        "C": "Esta opción se basa en el conocimiento general (la influencia de las redes sociales), pero no cita los gráficos (como el índice de búsqueda del gráfico 11_5). La formulación es vaga y carece de soporte de datos, por lo que es fácil de identificar como ineficaz.",
+        "D": "Esta opción utiliza superficialmente el gráfico 11_4 (el interés profesional es el 36%) y el gráfico 11_5 (el índice de búsqueda de las aplicaciones de computación es 581), pero interpreta erróneamente la relación: la atención al interés profesional es en realidad la más alta (36%), pero sugiere 'ignorar el interés', y el índice de búsqueda de las aplicaciones de computación es medio (581 vs 1374 de finanzas), lo que confunde la tendencia de los valores y conduce a un desequilibrio en la estrategia.",
+        "E": "Esta opción se basa en el conocimiento general (la carga económica es importante), pero no utiliza ningún dato de los gráficos (como el gráfico 11_5 o el gráfico 11_6). La estrategia es genérica y no aborda el equilibrio entre la popularidad a corto plazo y el desarrollo a largo plazo, por lo que es fácil de descartar.",
+        "F": "Integrando el gráfico 11_4 (la atención a la 'fuerza de la escuela' es mediana) y el gráfico 11_6 (el índice de búsqueda de las universidades extranjeras famosas es generalmente alto), se infiere el papel de la fuerza integral de la universidad como estabilizador.",
+        "G": "Esta opción cita el gráfico 11_6 (el índice de búsqueda de las universidades extranjeras) y el gráfico 11_4 (la ubicación geográfica es el 13%), pero lo aplica erróneamente: la atención a la ubicación geográfica es baja, pero sugiere 'dar prioridad a las universidades extranjeras', y se ignora la popularidad de las carreras (el gráfico 11_5 muestra la decadencia de algunas carreras) y la fuerza de la universidad (representa el 24% en el gráfico 11_4), lo que conduce a un desvío evidente en la dirección de la estrategia."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     }
   ]

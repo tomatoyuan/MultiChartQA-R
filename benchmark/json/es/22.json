@@ -87,6 +87,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "（Difícil）Contraste erróneo: Los socios oficiales (Shell + TAG Heuer = 0.6亿) tienen un patrocinio total muy inferior al total de patrocinadores titulares (4.165亿), pero la opción de distracción invierte la relación de tamaño.",
+        "B": "（Fácil）Confusión de tipos de ingresos: Los derechos de medios (10亿) y el patrocinio de titulares (4.165亿) difieren enormemente en escala, la opción de distracción los equipara forzadamente.",
+        "C": "（Difícil）Error de comprensión numérica: La proporción real es del 87%, la opción de distracción inventa una proporción extremadamente baja de 'menos del 30%'.",
+        "D": "En el gráfico de distribución de ingresos totales de la empresa de la Superliga China, los ingresos por patrocinio comercial se pueden calcular mediante la lista de patrocinadores, y la suma en el gráfico de montos de patrocinio de titulares también se acerca, muy cercana a los ingresos totales por patrocinio comercial. Esto requiere cálculo y comparación entre gráficos, un solo gráfico no puede revelar esta regla implícita.",
+        "E": "（Fácil）Generado solo por el conocimiento común de que 'las fuentes de patrocinio están dispersas', ignorando el hecho de que los patrocinadores titulares representan el 87% del patrocinio comercial en el gráfico.",
+        "F": "Depende del razonamiento conjunto de dos gráficos: el gráfico de montos de patrocinio de titulares enumera los montos de patrocinio de Nike, JD.com, etc., que coinciden con los montos correspondientes en el gráfico de distribución de ingresos totales de la empresa de la Superliga China; después de calcular la suma, al compararla con la parte de patrocinio comercial, se puede inferir la posición dominante de los titulares. Un solo gráfico solo proporciona información parcial.",
+        "G": "Requiere comparar el gráfico de distribución de ingresos totales de la empresa de la Superliga China (que enumera el monto de patrocinio de Ping An Insurance) y el gráfico de montos de patrocinio de titulares (que también enumera el monto de patrocinio de Ping An Insurance), los valores coinciden completamente, lo que indica la consistencia y alta importancia de los datos de los titulares. Solo con un gráfico no se puede confirmar esta consistencia."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Requiere combinar el gráfico de datos financieros de los clubes de la Superliga China (gastos en contratación de jugadores extranjeros) y el gráfico de distribución de ingresos totales de la empresa de la Superliga China (ingresos totales y proporción de derechos de medios). Los gastos son mucho mayores que los ingresos, lo que indica que el conflicto surge del desajuste entre los ítems de gasto (como jugadores extranjeros) y los ítems de ingreso (como derechos). Un solo gráfico solo muestra datos de un lado.",
+        "B": "El gráfico de distribución de ingresos totales de la empresa de la Superliga China muestra ingresos por patrocinio comercial, mientras que el gráfico de datos financieros de los clubes muestra gastos en contratación de jugadores extranjeros; al comparar valores entre gráficos, los ingresos por patrocinio son mucho menores que los gastos en jugadores extranjeros, revelando un desequilibrio. Esto requiere un razonamiento conjunto para contrastar gastos e ingresos directamente.",
+        "C": "（Difícil）Falacia numérica: Los ingresos por derechos de medios (10亿) son mucho menores que los gastos en jugadores extranjeros (34.3亿), la opción de distracción inventa inversamente una 'cobertura completa'.",
+        "D": "Depende de dos gráficos: el gráfico de datos financieros de los clubes tiene inversión total y composición de ingresos, mientras que el gráfico de distribución de ingresos totales de la empresa muestra que los derechos de medios son el núcleo de los ingresos; la comparación revela que los ingresos de los clubes son más diversificados, pero los ingresos de la empresa están concentrados, y esta diferencia estructural explica el conflicto. Solo con un gráfico no se puede analizar este contraste estructural.",
+        "E": "（Fácil）Error de conocimiento común: Los gastos en contratación de jugadores extranjeros (34.3亿) claramente se refieren a jugadores extranjeros, no a formación juvenil; la opción de distracción se desvía del gráfico.",
+        "F": "（Fácil）Mecanismo ficticio: El gráfico no menciona reparto de taquilla, y los 'negocios, transferencias, boletos' de los clubes (30.9亿) pueden incluir ingresos; la opción de distracción supone causalidades.",
+        "G": "（Difícil）Confusión conceptual: Los 30.9亿 de los clubes pueden ser ingresos, pero los ingresos totales de la empresa (15亿) se calculan independientemente; la opción de distracción fuerza la comparación para crear una contradicción."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Depende del gráfico de tendencia de ingresos (ingresos por patrocinio comercial en 2016) y del gráfico de montos de patrocinio de titulares (montos de patrocinio de grandes patrocinadores). Los montos de los titulares son grandes y su suma es significativa, consistentes con los altos ingresos por patrocinio comercial en 2016; requiere comparar valores de patrocinio y valores de tendencia entre gráficos.",
+        "B": "El gráfico de tendencia de ingresos muestra los ingresos por intercambio de recursos y su crecimiento, pero el gráfico de distribución de ingresos totales de la empresa muestra la proporción de otros ingresos; la comparación revela que el intercambio de recursos crece pero tiene una proporción pequeña, mientras que los derechos y el patrocinio son los principales impulsores del aumento. Esto requiere combinar datos de tendencia y distribución de ingresos para analizar factores impulsores implícitos.",
+        "C": "（Fácil）Falacia de atribución: El gráfico de titulares no menciona cambios en la cantidad, y los ingresos por patrocinio en realidad disminuyeron; la opción de distracción utiliza el conocimiento común de 'duplicación de cantidad' para误导.",
+        "D": "（Difícil）Error de proporción: Los ingresos por intercambio de recursos en 2016 (1.7亿) son solo el 11.3% de los ingresos totales de la empresa (15亿); la opción de distracción exagera hasta el 30%.",
+        "E": "Requiere combinar el gráfico de tendencia de ingresos (ingresos por derechos en 2016) y el gráfico de distribución de ingresos totales de la empresa de la Superliga China (ingresos por derechos de medios). La tendencia muestra un aumento significativo en 2016, y en el gráfico de la empresa los derechos de medios son la mayor fuente de ingresos; ambas coinciden, indicando que los derechos impulsan el crecimiento. Un solo gráfico no puede relacionar la tendencia temporal con la estructura de ingresos.",
+        "F": "（Difícil）Manipulación numérica: Los ingresos reales por patrocinio comercial en 2016 fueron 5亿 (inferiores a los 8亿 de 2015); la opción de distracción inventa 'aumento a 12亿' para falsificar un crecimiento positivo.",
+        "G": "（Fácil）Inventado: Ningún gráfico menciona ingresos por taquilla; la opción de distracción inventa una fuente de ingresos."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Combinando chart_22_1 (el gasto en la contratación de jugadores extranjeros es extremadamente alto, superando significativamente la mitad de la inversión total) y chart_22_2 (el valor total de los ingresos es bajo, lo que indica que los ingresos generales no pueden cubrir los altos gastos), se deduce que la estructura de gastos está desequilibrada y necesita ser optimizada.",
+        "B": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos de chart_22_1 (el gasto en jugadores extranjeros es 34.3), pero se interpreta incorrectamente: el gráfico muestra que el gasto en jugadores extranjeros es mayor que los ingresos comerciales (30.9), y los ingresos totales (15 en chart_22_2) son mucho más bajos que la inversión total (41), lo que indica un desequilibrio en los gastos. Aumentar la inversión en jugadores extranjeros aumentaría las pérdidas en lugar de mejorar las finanzas.",
+        "C": "Esta es una opción de distracción difícil. Aparentemente, se citan los ingresos comerciales de chart_22_1 (30.9), pero se interpreta incorrectamente: los ingresos comerciales son la principal fuente de ingresos (tienen una alta proporción en los ingresos totales en chart_22_2), y la tendencia histórica (la fluctuación de los ingresos por patrocinio comercial en chart_22_5) muestra su potencial. Reducir la inversión ignoraría las oportunidades de crecimiento de los ingresos.",
+        "D": "Esta es una opción de distracción fácil. Se basa en conocimientos comerciales generales (mejorar la marca puede aumentar indirectamente los ingresos), pero no hay datos concretos para respaldar o indicaciones de acción. No incluye los datos financieros de los gráficos y no puede resolver directamente el problema de las pérdidas.",
+        "E": "Combinando chart_22_1 (los ingresos de negocios, transferencias y boletos son relativamente altos pero aún tienen espacio para mejorar) y chart_22_5 (la tendencia histórica de los ingresos por patrocinio comercial muestra fluctuaciones pero un potencial de crecimiento general), se deduce que el desarrollo comercial puede fortalecer la base de ingresos.",
+        "F": "Esta es una opción de distracción fácil. Es una estrategia de 'ahorro' de sentido común, pero es demasiado amplia y extrema y puede perjudicar el desarrollo a largo plazo del club. No se citan datos de los gráficos, como la estructura de la inversión total o la distribución de los ingresos.",
+        "G": "Combinando chart_22_2 (los ingresos por patrocinio tienen la proporción más alta en los ingresos totales y varios patrocinadores contribuyen) y chart_22_3 (la distribución de los montos de patrocinio de los patrocinadores muestra la coexistencia de patrocinadores grandes y pequeños), se deduce que la diversificación de los patrocinadores puede mejorar la estabilidad."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos de chart_22_4 (la proporción de Shell es 0.2), pero se interpreta incorrectamente: el gráfico muestra que los patrocinadores principales (como Ping An Insurance con 181.5 millones de yuanes en chart_22_3) contribuyen mucho más que los proveedores oficiales (Shell con 20 millones de yuanes). Priorizar a los proveedores ignoraría las fuentes de ingresos de alto valor, y la tendencia histórica (la fluctuación de los ingresos por patrocinio en chart_22_5) no respalda esta estrategia.",
+        "B": "Esta es una opción de distracción fácil. Se basa en conocimientos industriales generales (la diversificación puede reducir el riesgo), pero no hay datos de los gráficos para respaldar. No se dirige a la distribución específica de los patrocinadores de la Compañía de la Superliga China (como en chart_22_2 y 22_3). La estrategia es demasiado amplia y no es operativa.",
+        "C": "Combinando chart_22_3 (el monto de patrocinio de algunos patrocinadores principales es mucho más alto que el de otros) y chart_22_2 (los ingresos por patrocinio son la principal parte de los ingresos totales y el patrocinio importante de Ping An Insurance tiene una proporción destacada), se deduce el papel dominante de los grandes patrocinadores en los ingresos.",
+        "D": "Esta es una opción de distracción fácil. Es una estrategia de 'ganar por cantidad' de sentido común, pero puede reducir los ingresos unitarios. No se citan gráficos, como la distribución de los montos de patrocinio (la gran diferencia en los montos de los patrocinadores en chart_22_3), y se ignora el objetivo de maximizar los ingresos.",
+        "E": "Esta es una opción de distracción difícil. Aparentemente, se citan los montos de patrocinio de los patrocinadores medianos y pequeños en chart_22_2 y 22_3 (como Carlsberg con 20 millones de yuanes), pero se interpreta incorrectamente: los grandes patrocinadores (Ping An Insurance con 181.5 millones de yuanes) dominan los ingresos (tienen una alta proporción en los ingresos totales de patrocinio de aproximadamente 476.5 millones de yuanes). La suma de los patrocinadores medianos y pequeños es menor. Esta estrategia subestimaría el papel clave de los grandes patrocinadores y podría reducir los ingresos totales.",
+        "F": "Combinando chart_22_4 (la proporción de socios oficiales como TAG Heuer es significativamente más alta) y chart_22_2 (el papel de los ingresos de los socios en la distribución total), se deduce que la optimización de la estructura puede mejorar la eficiencia.",
+        "G": "Combinando chart_22_2 (varios pequeños patrocinadores contribuyen con valores bajos pero la suma es considerable) y chart_22_5 (la fluctuación de los ingresos por patrocinio comercial en los últimos años muestra la necesidad de una diversificación para amortiguar), se deduce que los patrocinadores medianos y pequeños pueden dispersar el riesgo."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Combinando chart_22_5 (los ingresos por patrocinio comercial disminuyeron después de la cima pero tienen una base de crecimiento general) y chart_22_2 (los ingresos por patrocinio son una parte clave de los ingresos totales), se deduce que es necesario innovar para hacer frente a las fluctuaciones.",
+        "B": "Esta es una opción de distracción fácil. Se basa en conocimientos generales de gestión (la mejora tecnológica aumenta la eficiencia), pero no hay datos de los gráficos para respaldar. No se dirige a la tendencia histórica de los ingresos (como en chart_22_5). La estrategia es demasiado amplia y no tiene indicaciones específicas de asignación de recursos.",
+        "C": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos de chart_22_5 (los ingresos por derechos de autor en 2016 son 1000 millones de yuanes), pero se interpreta incorrectamente: la tendencia muestra que los ingresos por derechos de autor aumentaron explosivamente desde 50 millones de yuanes en 2012, lo que indica un gran potencial. Reducir la inversión se perdería la oportunidad de crecimiento, y estos ingresos ocupan una posición dominante en los ingresos totales de 2016 (1500 millones de yuanes en chart_22_2).",
+        "D": "Esta es una opción de distracción difícil. Aparentemente, se citan los datos de chart_22_5 (los ingresos por intercambio de recursos crecen de manera estable), pero se interpreta incorrectamente: el crecimiento de los ingresos por intercambio de recursos es lento (de 100 millones de yuanes en 2012 a 170 millones de yuanes en 2016), mucho más lento que la tasa de crecimiento de los ingresos por derechos de autor (1000 millones de yuanes). Aumentar la inversión ignoraría el área de alto crecimiento (derechos de autor) y los desafíos de fluctuación potenciales.",
+        "E": "Esta es una opción de distracción fácil. Es una estrategia de expansión de sentido común, pero no se consideran la composición de los ingresos en los gráficos (como la dominancia de los derechos de medios en chart_22_2). Puede aumentar los costos en lugar de enfrentarse directamente a las oportunidades de crecimiento.",
+        "F": "Combinando chart_22_5 (los ingresos por derechos de autor aumentaron drásticamente desde un nivel bajo al principio hasta los últimos años) y chart_22_2 (los ingresos por derechos de medios tienen la proporción más alta en los ingresos totales), se deduce que el potencial de crecimiento debe ser priorizado en la inversión.",
+        "G": "Combinando chart_22_5 (los ingresos por intercambio de recursos aumentan gradualmente año tras año) y chart_22_2 (la proporción de otras categorías de ingresos), se deduce que su estabilidad puede servir como un amortiguador de ingresos."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

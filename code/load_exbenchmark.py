@@ -1,28 +1,14 @@
-from utils import GetBenchmarkData
+from pathlib import Path
+
+from data_utils import load_extended_benchmark, split_extended_by_chart_count
 
 if __name__ == "__main__":
-
-    '''extended-benchmark qa list'''
-    benchmarkData = GetBenchmarkData()
-    parallel_pcpc_list, parallel_pcmc_list, union_pcpc_list, union_pcmc_list = benchmarkData.get_benchmark_extended_data()
-    parallel_pcpc_2c_list, parallel_pcpc_3c_list, parallel_pcpc_4c_list = benchmarkData.split_qa_pairs(parallel_pcpc_list)
-    parallel_pcmc_2c_list, parallel_pcmc_3c_list, parallel_pcmc_4c_list = benchmarkData.split_qa_pairs(parallel_pcmc_list)
-    union_pcpc_2c_list, union_pcpc_3c_list, union_pcpc_4c_list = benchmarkData.split_qa_pairs(union_pcpc_list)
-    union_pcmc_2c_list, union_pcmc_3c_list, union_pcmc_4c_list = benchmarkData.split_qa_pairs(union_pcmc_list)
-    print("extended-benchmark example: ")
-    print("parallel-pcpc: ")
-    print(parallel_pcpc_2c_list[0])
-    print(parallel_pcpc_3c_list[0])
-    print(parallel_pcpc_4c_list[0])
-    print("parallel-pcmc: ")
-    print(parallel_pcmc_2c_list[0])
-    print(parallel_pcmc_3c_list[0])
-    print(parallel_pcmc_4c_list[0])
-    print("union-pcpc: ")
-    print(union_pcpc_2c_list[0])
-    print(union_pcpc_3c_list[0])
-    print(union_pcpc_4c_list[0])
-    print("union-pcmc: ")
-    print(union_pcmc_2c_list[0])
-    print(union_pcmc_3c_list[0])
-    print(union_pcmc_4c_list[0])
+    repo_root = Path(__file__).resolve().parents[1]
+    benchmark = load_extended_benchmark(repo_root / "benchmark-extended")
+    print("Extended benchmark example:")
+    for subset_name, qa_pairs in benchmark.items():
+        split_2c, split_3c, split_4c = split_extended_by_chart_count(qa_pairs)
+        print(subset_name)
+        print("  2-chart:", split_2c[0])
+        print("  3-chart:", split_3c[0])
+        print("  4-chart:", split_4c[0])

@@ -85,6 +85,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项，基于图表数值理解错误：实际数据中，2023P用户规模增速为8.5%，市场规模增速为27.4%；2024P用户规模增速为7.1%，市场规模增速为22.3%。干扰项错误地将用户规模增速解读为高于市场规模增速，可能源于对增速数据点的误读（如混淆年份顺序）。",
+        "B": "依赖比较两张图表的增速数据，但市场规模绝对值仍在增长（如2025P预测值2808.8亿元），表明用户付费意愿增强而非用户数量驱动。仅看一张图表（如用户规模增速）无法推断此关系。",
+        "C": "结合历史年份（如2015 - 2022年）和预测年份（2023P - 2025P）数据，历史年份两者增速均高（如2021年市场规模增速72.2%、用户规模增速14.1%），但预测年份用户增速降至个位数（2025P为4.8%），市场规模增速仍较高（2025P为22.3%），暗示增长模式转型。这需要交叉分析两张图表的趋势。",
+        "D": "这是一个Easy干扰项，基于语言常识错误：常识上，如果市场规模增速（预测年份27.4%到22.3%）高于用户规模增速（预测年份8.5%到4.8%），平均每用户付费额应上升而非下降。不依赖图表数据，仅模型知识推断。",
+        "E": "需要联合市场规模图表和消费者规模图表计算平均每用户付费额（市场规模 ÷ 用户规模）。例如，2022年市场规模为1126.5亿元、用户规模为5.3亿人，计算得约212元/人；2025P预测市场规模2808.8亿元、用户规模6.4亿人，计算得约439元/人，显示上升趋势。单张图表无法得出此结论。",
+        "F": "这是一个Hard干扰项，基于图表趋势理解错误：实际市场规模增速在预测年份呈下降趋势（2023P 27.4% → 2024P 22.3%），但干扰项错误描述为“加速上升”，可能源于对增速序列的误判（如忽略2023P到2024P的下降）。",
+        "G": "这是一个Easy干扰项，基于常识错误：常识上，用户规模增速在预测年份显著放缓（如2024P仅7.1%），而市场规模增长仍较高（如2024P增速22.3%），表明增长不完全依赖新用户，而是用户价值提升。不依赖图表数据，仅凭行业常识（市场成熟期用户增长放缓）。"
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "结合内容类型分布图表和消费者规模图表。内容类型分布图表音频占比仅13.2%（较低），但消费者规模图表用户规模预测持续增长（2025P达6.4亿人），暗示音频未被充分利用，未来可能随用户基数扩大而增长。仅看分布图表无法推断此隐含联系。",
+        "B": "这是一个Easy干扰项，基于语言常识错误：常识上，内容类型分布不均（如短视频75.7% vs 音频13.2%），贡献不可能均等。不依赖图表数据，仅模型知识推断。",
+        "C": "这是一个Hard干扰项，基于图表数值和趋势理解错误：实际用户规模增速在预测年份持续下降（如2024P仅7.1%），且内容分布是2022年静态数据，无法直接关联预测年份增速。干扰项错误地将静态占比解读为动态增长加速，可能源于混淆时间维度。",
+        "D": "这是一个Hard干扰项，基于图表排序理解错误：实际图文占比22.0%并非最低（其他类型7.6%更低），且占比不直接等同于影响力（如直播25.6%可能驱动高付费）。干扰项错误地将占比排序等同于影响大小，可能源于对分布数据的误读。",
+        "E": "需要联合内容类型分布图表和消费者规模图表。内容类型分布图表显示短视频占比75.7%（最高），而消费者规模图表的用户规模从2015年0.5亿人增长至2022年5.3亿人，增速虽降但绝对值高（如2022年增速10.5%），暗示短视频作为入门内容吸引新用户。单张图表无法建立此因果。",
+        "F": "依赖内容类型分布图表和市场规模图表。内容类型分布图表中直播占比25.6%、图文22.0%（合计高），而市场规模图表的市场规模在2022年达1126.5亿元且增速66.9%，表明这些内容可能驱动高付费（如课程或订阅）。需联合推理内容偏好与市场规模数据。",
+        "G": "这是一个Easy干扰项，基于常识错误：常识上，音频占比仅13.2%（低于短视频75.7%），不可能是主要驱动力。不依赖图表数据，仅凭行业常识（短视频更易传播和吸引用户）。"
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合市场规模增速图表和消费者规模增速图表。市场规模增速图表增速从2016年85.3%降至2025P预测22.3%（降幅约63个百分点），消费者规模增速图表增速从2016年95.8%降至2025P预测4.8%（降幅约91个百分点），但用户规模增速降幅更大，而市场规模增速绝对值更高（2025P为22.3% vs 用户增速4.8%），表明冲突：用户增长放缓更快，但市场增长更稳健，暗示付费深度增强。单张图表无法比较降幅差异。",
+        "B": "这是一个Hard干扰项，基于图表数值理解错误：实际2020年用户规模增速为20.7%，市场规模增速为41.0%，因此市场规模增速更高。干扰项错误地反转了关系，可能源于对增速年份的误记（如将2018年用户增速56.9%与2020年混淆）。",
+        "C": "这是一个Easy干扰项，基于行业常识错误：常识上，早期用户规模增速高（如2016年95.8% vs 市场规模85.3%），但预测年份用户增速低于市场增速（如2024P 7.1% vs 22.3%），且下降幅度不同。不依赖图表数据，仅模型知识推断。",
+        "D": "基于预测数据联合推理。消费者规模增速图表用户增速2025P预测仅4.8%（低位），但市场规模增速图表市场规模增速2025P预测22.3%（显著更高），计算平均每用户付费额增长（从2022年约212元/人到2025P约439元/人），显示冲突解决：用户增长弱化，但每用户价值驱动市场。仅看一张图表无法解释此差异。",
+        "E": "这是一个Hard干扰项，基于图表差距理解错误：实际预测年份市场规模增速下降幅度更大（2022年66.9% → 2025P 22.3%，下降约44.6点），而用户规模增速下降较平缓（2022年10.5% → 2025P 4.8%，下降约5.7点）。干扰项错误描述为“市场规模增速下降幅度更小”，可能源于对下降幅度计算的误判（如忽略具体数值差异）。",
+        "F": "依赖比较两张图表的增速趋势。早期（如2016 - 2017年）用户规模增速更高（95.8% vs 市场规模增速85.3%），但后期（如2021年后）市场规模增速（66.9%降至22.3%）始终高于用户增速（14.1%降至4.8%），结合内容类型图表隐含内容创新（如短视频）提升付费意愿。需联合推理趋势变化。",
+        "G": "这是一个Easy干扰项，基于常识错误：常识上，增速数据波动不同（如市场规模增速有2020年41.0%的低点，用户增速有2018年56.9%的高点），不可能完全一致。不依赖图表数据，仅凭语言常识。"
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de la opción A: chart_101_3 (en las preferencias de contenido de los usuarios, los vídeos cortos y las transmisiones en vivo tienen la proporción más alta y son las formas dominantes) y chart_101_2 (la tasa de crecimiento de la escala de usuarios ha disminuido año tras año desde los niveles altos iniciales hasta las previsiones bajas). La estrategia se basa en la tendencia de concentración de preferencias y la desaceleración del crecimiento de la escala, y se recomienda una inclinación de recursos para mejorar la eficiencia.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se cita el chart_101_3 (los vídeos cortos representan el 75.7%), pero se interpreta erróneamente la tendencia - el chart_101_3 muestra que el 22.0% y el 13.2% de los usuarios prefieren gráficos y textos y audio respectivamente, y la escala de usuarios sigue creciendo en el chart_101_2 (por ejemplo, alcanzará 640 millones de personas en 2025E). Eliminar estos contenidos ignoraría a los grupos de usuarios estables y causaría un desequilibrio en la asignación de recursos.",
+        "C": "Esta es una opción de distracción fácil: la expresión es amplia y se basa en el conocimiento común (por ejemplo, \"ampliar la inversión en publicidad\"), no cita ningún dato de los gráficos ni se dirige a una estrategia específica, por lo que es fácil de descartar.",
+        "D": "Razonamiento conjunto de la opción B: chart_101_3 (los gráficos y textos y el audio tienen una proporción considerable pero no son dominantes) y chart_101_1 (la previsión de la tasa de crecimiento del tamaño del mercado sigue disminuyendo). La estrategia combina el contexto de desaceleración del crecimiento y enfatiza la innovación en las formas secundarias para explotar el potencial.",
+        "E": "Razonamiento conjunto de la opción C: chart_101_3 (el tipo de contenido \"Otros\" tiene la proporción más baja) y chart_101_1 y 101_2 (tanto la tasa de crecimiento del tamaño del mercado como la de la escala de usuarios se desaceleran significativamente). La estrategia se basa en la baja preferencia y la presión de crecimiento, y se recomienda una redistribución de recursos, lo cual es coherente con los valores de optimización (no es una reducción discriminatoria, sino orientada a la eficiencia).",
+        "F": "Esta es una opción de distracción fácil: la sugerencia de \"mejorar la calidad de la capacitación\" no tiene una guía de acción clara, no se combina con las preferencias de los usuarios o la tendencia de crecimiento en los gráficos, y solo habla en términos generales de mejorar la calidad del contenido.",
+        "G": "Esta es una opción de distracción difícil: aparentemente se cita el chart_101_2 (datos de la desaceleración de la tasa de crecimiento de la escala de usuarios), pero se confunde la relación causal - la desaceleración del crecimiento no significa la contracción de la escala de usuarios (la escala de usuarios seguirá creciendo hasta 640 millones de personas en 2025E). Reducir la inversión en nuevos desarrollos aceleraría la pérdida de usuarios, lo cual es contradictorio con el objetivo de aumentar la participación."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de la opción A: chart_101_3 (las transmisiones en vivo tienen una alta proporción, lo que refleja las preferencias de los usuarios) y chart_101_2 (la tasa de crecimiento de la escala de usuarios ha disminuido desde niveles altos hasta las previsiones bajas). La estrategia se basa en la tendencia de preferencias y la desaceleración del crecimiento, y se recomienda mejorar la retención a través de formas interactivas.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se cita el chart_101_2 (la tasa de crecimiento fue del 95.8% en 2016), pero se interpreta erróneamente la tendencia - la tasa de crecimiento se ha desacelerado continuamente hasta el 4.8% en 2025E. Las estrategias iniciales (como la prueba gratuita) pueden no ser efectivas en un entorno de desaceleración del crecimiento, y se ignora el valor de la alta interactividad de las transmisiones en vivo en la retención de usuarios en las preferencias de los usuarios (chart_101_3).",
+        "C": "Esta es una opción de distracción fácil: la expresión es amplia (por ejemplo, \"optimizar la interfaz de usuario\"), no cita ningún dato de los gráficos (como las preferencias de contenido de los usuarios o la tendencia de la escala), y carece de una guía de estrategia específica.",
+        "D": "Razonamiento conjunto de la opción C: chart_101_3 (los gráficos y textos tienen una proporción considerable) y chart_101_1 (la tasa de crecimiento del tamaño del mercado disminuye pero el valor absoluto aumenta, lo que implica oportunidades de ingresos por usuario). La estrategia se dirige a la desaceleración del crecimiento y enfatiza la actualización del servicio en lugar de la expansión, lo cual es coherente con los valores (mejorar la calidad en lugar de reducir el servicio).",
+        "E": "Esta es una opción de distracción difícil: aparentemente se cita el chart_101_1 (datos de la tasa de crecimiento del tamaño del mercado), pero se confunde la relación - la tasa de crecimiento se desacelera (22.3% en 2025E) y la tasa de crecimiento de la escala de usuarios también disminuye (chart_101_2). Aumentar los precios puede acelerar la pérdida de usuarios, lo cual es contradictorio con el objetivo de retención, y no se considera la tendencia de concentración de las preferencias de los usuarios.",
+        "F": "Esta es una opción de distracción fácil: la sugerencia de \"fortalecer el marketing en redes sociales\" no tiene base en los gráficos, es un conocimiento comercial general y no se dirige a las preferencias de los usuarios o la tendencia de crecimiento del pago por conocimiento.",
+        "G": "Razonamiento conjunto de la opción B: chart_101_3 (los vídeos cortos tienen la proporción más alta y son la forma dominante) y chart_101_2 (la tasa de crecimiento de la escala de usuarios fue fuerte al principio pero es débil en el período de previsión). La estrategia combina la concentración de preferencias y la debilidad del crecimiento, y se recomienda atraer nuevos usuarios a bajo costo."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: la expresión es vaga (por ejemplo, \"aumentar la cooperación con KOL\"), no se combina con los datos de los gráficos (como la distribución de preferencias de contenido o la tendencia de crecimiento), y carece de una guía específica para el ajuste del modelo de negocio.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se cita el chart_101_3 (los vídeos cortos representan el 75.7%), pero se interpreta erróneamente las preferencias - las transmisiones en vivo y los gráficos y textos tienen una demanda del 25.6% y el 22.0% de los usuarios respectivamente. Detener el desarrollo causaría la pérdida de mercados segmentados y se ignoraría que la desaceleración de la tasa de crecimiento del tamaño del mercado (la tasa de crecimiento en el chart_101_1 se reduce al 22.3%) requiere fuentes de ingresos diversificadas.",
+        "C": "Esta es una opción de distracción fácil: la sugerencia de \"establecer un mecanismo de retroalimentación\" no tiene base en los gráficos, es un conocimiento de gestión general y no se dirige al crecimiento de ingresos o las preferencias de los usuarios.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se cita el chart_101_1 (valores del tamaño del mercado), pero se confunde la tendencia - la tasa de crecimiento sigue desacelerando (desde el 72.2% en 2020 hasta el 22.3% en 2025E). Expandir ciegamente la escala de producción puede aumentar los costos sin mejorar la eficiencia, y no se considera la restricción de la concentración de preferencias de los usuarios en el modelo de negocio.",
+        "E": "Razonamiento conjunto de la opción C: chart_101_3 (el audio tiene una baja proporción pero no es cero) y chart_101_2 (la tasa de crecimiento de la escala de usuarios ha disminuido desde niveles altos). La estrategia se dirige a la desaceleración del crecimiento y se recomienda innovar y abrir nuevos mercados, lo cual es coherente con los valores (crecimiento inclusivo, no abandonar a los grupos de baja proporción).",
+        "F": "Razonamiento conjunto de la opción B: chart_101_3 (tanto las transmisiones en vivo como los gráficos y textos tienen una proporción significativa) y chart_101_1 (la tasa de crecimiento del tamaño del mercado se desacelera). La estrategia combina la diversidad de preferencias y la tendencia de crecimiento, y se recomienda combinar productos para mejorar la eficiencia.",
+        "G": "Razonamiento conjunto de la opción A: chart_101_3 (los vídeos cortos tienen la proporción más alta) y chart_101_1 (la previsión de la tasa de crecimiento del tamaño del mercado sigue disminuyendo hasta niveles bajos). La estrategia se basa en las preferencias dominantes y la presión de crecimiento, y se recomienda una monetización profunda en lugar de una simple expansión."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

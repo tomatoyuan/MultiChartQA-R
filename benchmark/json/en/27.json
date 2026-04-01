@@ -89,6 +89,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Rely on the chart showing that the search index of 'In the Name of the People' is much higher than other TV dramas in the same period and the chart showing the continuous growth of the search index of this drama from low to high. Joint reasoning: The former provides a benchmark comparison, and the latter shows the dynamic growth, together indicating that the popularity is prominent and continuously rising.",
+        "B": "Rely on the chart showing the percentage of male viewers of 'In the Name of the People' and its comparison with other anti - corruption dramas and the chart showing that the search indexes of other anti - corruption dramas are much lower than it after the broadcast of 'In the Name of the People'. Joint reasoning: The former reveals the consistency of gender distribution, and the latter provides a comparison of search indexes, together indicating that gender characteristics are not the only factor, and other factors such as time or topics need to be considered.",
+        "C": "This is a Hard interference item: Misinterpreted the trend of chart_27_2 (the search index continuously increased from 1,160,000 on April 5th to 1,740,000 on April 9th) and misjudged it as a downward trend.",
+        "D": "This is a Hard interference item: Misinterpreted the ranking in chart_27_1 (the search index of 'In the Name of the People' is 243,831, the highest, much higher than 75,744 of 'Edge of the Razor') and made a numerical comparison error.",
+        "E": "Rely on the chart showing the growth trend of the search index of 'In the Name of the People' and the chart showing the low search indexes of other anti - corruption dramas. Joint reasoning: The dynamic data of the former and the static comparison of the latter reveal the uniqueness of the popularity and the transfer law.",
+        "F": "This is an Easy interference item: It relies on common sense (such as the role of social media algorithms), does not quote chart values, and ignores the actual data.",
+        "G": "This is an Easy interference item: It is based on common sense (such as the influence of TV drama quality or technology on popularity), does not rely on any chart data, but is a general industry knowledge."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard interference item: Made a wrong comparison between the search indexes in chart_27_3 and the gender ratios in chart_27_4 (for example, 'State Cadre' has 30% female viewers with an index of 111.05 vs. 'State Prosecution' has 26% female viewers with an index of 526.24, which is disproportionate) and misjudged the trend.",
+        "B": "Rely on the chart showing the similar gender ratios of different anti - corruption dramas and the chart showing the different search indexes of these dramas. Joint reasoning: The similar gender ratios of the former conflict with the different indexes of the latter, and other charts such as regional data need to be combined for explanation.",
+        "C": "This is a Hard interference item: Misinterpreted the values in chart_27_3 and chart_27_4 ('Absolute Power' has 75% male viewers but the lowest search index of 183.28, while 'State Prosecution' has 74% male viewers and the highest search index of 526.24) and created a false positive correlation.",
+        "D": "This is an Easy interference item: It relies on common sense (such as the influence of broadcast time), does not involve chart values, and avoids the data conflict.",
+        "E": "This is an Easy interference item: It is based on common sense (such as gender preference), does not use chart data, and ignores the fact that chart_27_4 shows male dominance.",
+        "F": "Rely on the chart showing the ranking of search indexes of different anti - corruption dramas and the chart showing the percentage of male viewers of different anti - corruption dramas. Joint reasoning: The former provides the ranking of search indexes, and the latter provides gender data, together revealing the inverted contradiction between the index and the gender ratio, and time or topic factors need to be introduced.",
+        "G": "Rely on the chart showing the concentrated distribution of the percentage of male viewers of all anti - corruption dramas and the chart showing the large gap in search indexes of different anti - corruption dramas. Joint reasoning: The regional structure of the former and the drama comparison of the latter reveal that the regional basis is the same but the popularity varies greatly, and time factors (such as the growth trend of 'In the Name of the People') need to be introduced."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -135,6 +169,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Rely on the chart showing the provinces with high regional search indexes and the chart showing the low search indexes of other anti - corruption dramas. Joint reasoning: The regional structure of the former and the drama comparison of the latter reveal that the regional basis is the same but the popularity varies greatly, and time factors (such as the growth trend of 'In the Name of the People') need to be introduced.",
+        "B": "This is a Hard interference item: Wrongly associated the regional indexes in chart_27_5 (general data, not for a specific drama) with the peak value (1,740,000) in chart_27_2, and mistakenly thought that the regional index directly corresponded to the drama peak value.",
+        "C": "This is an Easy interference item: It is based on common sense (such as the influence of regional economy), does not quote chart data (for example, chart_27_5 does not mention Shanghai), and is a generalized statement.",
+        "D": "Rely on the chart showing the provinces with lower regional search indexes and the chart showing that the search index of 'In the Name of the People' far exceeds other dramas. Joint reasoning: The low regional activity of the former is compared with the high index of the latter, indicating that a single popular drama may improve the overall regional performance.",
+        "E": "This is an Easy interference item: It relies on common sense (such as the influence of infrastructure), ignores the chart content, and does not associate with the trend of 'In the Name of the People'.",
+        "F": "This is a Hard interference item: Misinterpreted the low - index regions in chart_27_5 (Sichuan has an index of 9) and the anti - corruption drama indexes in chart_27_3 (generally low), misjudged it as a causal relationship, and ignored other factors.",
+        "G": "Rely on the chart showing the ranking of regional search indexes and the chart showing the dynamic growth of the search index of 'In the Name of the People'. Joint reasoning: The former provides the regional ranking, and the latter provides the dynamic growth, together inferring that high - activity regions (such as Guangdong) are positively correlated with the national popularity."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -159,6 +210,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: It superficially quotes data (the search index of 'Crossing Oceans to See You' is 16,693), but the strategic logic is wrong - it fails to consider that the index of this drama is much lower than others (e.g., 'In the Name of the People' with an index of 243,831). Common sense suggests that the return on investment for a drama with a low index is low; the distractor ignores the leading advantage and subjectively infers based on 'potential'.",
+        "B": "This is a Hard distractor: It misuses the data in chart_27_3 - among the related dramas, 'State Cadre' has the lowest search index of 111.05, but the data shows that 'State Prosecution' has the highest index of 526.24 and benefits more from the influence of the top - ranked drama; the distractor reversely suggests promoting the drama with the lowest index, wrongly inferring that the 'room for improvement' can bring greater benefits and ignoring the actual difference in attention.",
+        "C": "Option 2 is based on the comparison of the search indexes of related dramas in chart_27_3 (the index of 'State Prosecution' is relatively high), combined with the leading advantage of 'In the Name of the People' in chart_27_1, and infers a bundled promotion strategy using the highly - concerned related drama.",
+        "D": "This is a Hard distractor: It misinterprets the data in chart_27_2 - the data shows that the search index of 'In the Name of the People' has been continuously rising from 290,000 on March 28th to 1,740,000 on April 9th, with no downward trend; the distractor fabricates a 'decline' and suggests reducing marketing, which contradicts the upward trend and easily confuses the model's understanding of the trend.",
+        "E": "Option 3 is based on the gender ratio of users of 'In the Name of the People' in chart_27_4 (the female viewer percentage is 36%, higher than 25% - 30% of other dramas), combined with the overall attention of related dramas in chart_27_3, and infers a gender - balanced strategy to expand the audience.",
+        "F": "Option 1 is based on the continuous upward trend of the search index of 'In the Name of the People' from the end of March to the beginning of April in chart_27_2 (the data points show a doubling growth), combined with the significant leading position of this drama in the spring season search index in chart_27_1 (far exceeding other dramas), and infers that investing resources during the peak growth period can maximize the benefits.",
+        "G": "This is an Easy distractor: It is based on general business common sense (balanced investment), but does not use any chart data, and has no specific action guidelines for the specific search index or trend. It can be easily excluded by common sense (resource allocation should focus on hot spots rather than being averaged)."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -181,6 +249,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Option 2 is based on the relatively high female viewer percentage of 'In the Name of the People' in chart_27_4 (36%, compared to 25% - 30% of other dramas), combined with the regions with medium search indexes in chart_27_5 (e.g., Henan with an index of 15 and Zhejiang with an index of 14), and infers a strategy to optimize channels for women in potential regions.",
+        "B": "Option 3 is based on the regions with low search indexes in chart_27_5 (e.g., Sichuan with an index of 9), combined with the common feature of male - dominance in all related dramas in chart_27_4, and infers a localization strategy to activate the regions with low attention.",
+        "C": "This is a Hard distractor: It misinterprets the data in chart_27_5 and chart_27_4 - Sichuan has the lowest search index of 9, but the data shows no potential (the index is stable); at the same time, chart_27_4 shows male - dominance, but the distractor suggests investing more resources in the low - index region, wrongly believing that 'low index + high potential' can bring high returns, which contradicts the principle of resource efficiency.",
+        "D": "This is an Easy distractor: It relies on industry common sense (female purchasing power), but does not use the data in chart_27_4 - the male percentage in all dramas is higher than the female percentage (e.g., the female viewer percentage of 'In the Name of the People' is 36%). The distractor fabricates 'regions with a relatively high female percentage', which contradicts the data and can be easily identified by common sense.",
+        "E": "This is an Easy distractor: It is based on general management principles (standardization to save costs), but does not refer to any chart data (such as regional or gender distribution), and has no specific actions for the specific popularity. It can be excluded by common sense (precise placement requires customization).",
+        "F": "This is a Hard distractor: It superficially combines data (the search index of Zhejiang is 14 and the male viewer percentage of 'In the Name of the People' is 64%), but the logic is confusing - chart_27_5 shows that the index of Zhejiang is 14, which is not medium (the highest is Guangdong with an index of 18), and no gender data is provided for all regions; the distractor wrongly infers that 'medium - level region + male' can balance risks, ignoring that high - index regions are more efficient.",
+        "G": "Option 1 is based on the regional search indexes in chart_27_5 (regions with high indexes such as Guangdong and Shandong), combined with the generally high male percentage in multiple dramas in chart_27_4 (70% - 75%), and infers a strategy to strengthen male - oriented advertising in high - popularity regions."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -205,6 +290,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: It confuses the data in chart_27_3 - 'State Prosecution' has the highest index of 526.24 among the related dramas (higher than 'Absolute Power' with an index of 183.28), but the distractor wrongly describes it as 'not having a high index' and suggests avoiding it, instead promoting the drama with a lower index; this misinterprets the impact of attention and easily misleads the model's understanding of the data relationship.",
+        "B": "This is an Easy distractor: It relies on a common view (female purchasing power), but does not refer to the data in chart_27_4 - the male percentage in all dramas is high (e.g., the female viewer percentage of 'In the Name of the People' is only 36%). The distractor reversely suggests a female - oriented strategy, which contradicts the data trend and can be easily identified by common sense.",
+        "C": "Option 2 is based on the comparison of the search indexes of related dramas in chart_27_3 ('State Prosecution' has an index of 526.24 compared to less than 200 for other dramas), combined with the leading advantage of the top - ranked drama in chart_27_1, and infers a strategy of borrowing elements.",
+        "D": "This is an Easy distractor: It is based on a broad strategy (diversification to reduce risks), but does not use any chart data (such as the index or impact of the top - ranked drama), and has no specific action guidelines. It can be excluded by common sense (resources should focus on high - return areas).",
+        "E": "Option 3 is based on the high male percentage in multiple dramas in chart_27_4 (70% - 75%), combined with the regions with high indexes in chart_27_5 (such as Guangdong and Shandong), and infers a resource allocation strategy that matches regions and genders.",
+        "F": "Option 1 is based on the fact that the search index of 'In the Name of the People' in chart_27_1 is significantly higher than other dramas (e.g., 243,831 vs 75,744), and infers the market potential of its theme without the need for direct numerical values.",
+        "G": "This is a Hard distractor: It misinterprets the data in chart_27_1 - although the index of 'Edge of the Razor' is the second - highest at 75,744, it is far lower than 243,831 of 'In the Name of the People'; the distractor wrongly infers that 'the second - highest = stable demand' and subjectively adds the assumption of 'low cost', ignoring the absolute leading advantage of the top - ranked drama."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

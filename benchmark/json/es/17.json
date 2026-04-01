@@ -86,6 +86,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "9月6日真实热度为19500（chart_17_1），31000是8月31日的数值，错误转移数据。",
+        "B": "8月29日涉案1760万元（chart_17_4），但当日热度仅17500（chart_17_1），未达30000。",
+        "C": "Opción C basada en la relación entre el evento de Duan y el repunte en la popularidad de búsqueda, mostrando que los eventos graves con daños personales están directamente relacionados con los picos de popularidad de búsqueda. La respuesta no puede inferirse solo de un gráfico; chart_17_1 proporciona la tendencia de popularidad pero no puede explicar las causas; chart_17_4 proporciona fechas y naturaleza de eventos pero no puede cuantificar cambios en popularidad. Es necesario combinar ambos gráficos, comparando fechas de eventos con los valores de popularidad correspondientes, para descubrir la regla de que los eventos desencadenan un aumento en la atención pública.",
+        "D": "9月4日实际热度仅9000（chart_17_1），且无事件发生（chart_17_4），选项虚构了“飙升”现象。",
+        "E": "Opción A basada en la relación entre el evento de Xu Yuyu y el pico de popularidad de búsqueda, mostrando que los eventos graves con daños personales están directamente relacionados con los picos de popularidad de búsqueda. La respuesta no puede inferirse solo de un gráfico; chart_17_1 proporciona la tendencia de popularidad pero no puede explicar las causas; chart_17_4 proporciona fechas y naturaleza de eventos pero no puede cuantificar cambios en popularidad. Es necesario combinar ambos gráficos, comparando fechas de eventos con los valores de popularidad correspondientes, para descubrir la regla de que los eventos desencadenan un aumento en la atención pública.",
+        "F": "Opción B basada en la relación entre el evento de Cai Yanyan y el pico de popularidad de búsqueda, mostrando que los eventos graves con daños personales están directamente relacionados con los picos de popularidad de búsqueda. La respuesta no puede inferirse solo de un gráfico; chart_17_1 proporciona la tendencia de popularidad pero no puede explicar las causas; chart_17_4 proporciona fechas y naturaleza de eventos pero no puede cuantificar cambios en popularidad. Es necesario combinar ambos gráficos, comparando fechas de eventos con los valores de popularidad correspondientes, para descubrir la regla de que los eventos desencadenan un aumento en la atención pública.",
+        "G": "8月29日真实热度为17500（chart_17_1），而32000是8月21日的峰值，错误匹配数值。"
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Opción C se refiere a Beijing y el evento del profesor de Tsinghua, mostrando una correlación positiva entre el ranking de atención y la frecuencia o gravedad de eventos, también sugiere que la atención no es el único factor. chart_17_2 proporciona el ranking de atención pero no puede confirmar la ocurrencia de eventos; chart_17_4 proporciona las provincias de eventos pero no puede cuantificar la atención. Es necesario combinar ambos gráficos, emparejando provincias de eventos con datos de atención, para inferir la conexión implícita de que las provincias con alta atención son más propensas a tener reportes de eventos.",
+        "B": "Henan en realidad no tiene casos (chart_17_4), y tiene la atención más baja (chart_17_2), la opción inventa datos de manera inversa.",
+        "C": "Opción A se refiere a Guangdong y el evento de Cai Yanyan, mostrando una correlación positiva entre el ranking de atención y la frecuencia o gravedad de eventos. chart_17_2 proporciona el ranking de atención pero no puede confirmar la ocurrencia de eventos; chart_17_4 proporciona las provincias de eventos pero no puede cuantificar la atención. Es necesario combinar ambos gráficos, emparejando provincias de eventos con datos de atención, para inferir la conexión implícita de que las provincias con alta atención son más propensas a tener reportes de eventos.",
+        "D": "El número de eventos en Shandong (2 casos) es cercano al de Guangdong (1 caso), pero la atención de 6.5 no es la mitad de 11.0 de Guangdong (realmente alrededor del 59%), exagera la diferencia.",
+        "E": "Beijing solo tiene 1 caso (caso del profesor de Tsinghua), y la atención es menor que Guangdong/Jiangsu/Shandong (chart_17_2).",
+        "F": "Opción B se refiere a Shandong y los eventos de Xu Yuyu y Song, mostrando una correlación positiva entre el ranking de atención y la frecuencia o gravedad de eventos. chart_17_2 proporciona el ranking de atención pero no puede confirmar la ocurrencia de eventos; chart_17_4 proporciona las provincias de eventos pero no puede cuantificar la atención. Es necesario combinar ambos gráficos, emparejando provincias de eventos con datos de atención, para inferir la conexión implícita de que las provincias con alta atención son más propensas a tener reportes de eventos.",
+        "G": "Jiangsu no tiene casos (chart_17_4), Guangdong tiene 1 caso, el número de eventos no es el mismo."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "8月27日无事件（chart_17_4），但选项归因于“认知减弱”，脱离数据依赖。",
+        "B": "8月31日真实热度31000（chart_17_1），9000是9月4日数值，错误置换日期。",
+        "C": "Opción B se refiere al 27 de agosto sin eventos y la popularidad en tendencia descendente entre eventos, mostrando la relación entre la ausencia de eventos y la disminución de popularidad. chart_17_1 proporciona la tendencia de disminución de popularidad pero no puede explicar las causas; chart_17_4 proporciona fechas y naturaleza de eventos pero no puede cuantificar directamente la popularidad. Es necesario combinar ambos gráficos, comparando fechas de eventos con valores de popularidad, para descubrir la relación entre la ausencia de eventos y la disminución de popularidad.",
+        "D": "Opción A se refiere al 2 y 4 de septiembre sin eventos y los valles de popularidad, mostrando la relación conflictiva entre la ausencia de eventos y los valles de popularidad. chart_17_1 proporciona la tendencia de disminución de popularidad pero no puede explicar las causas; chart_17_4 proporciona fechas y naturaleza de eventos pero no puede cuantificar directamente la popularidad. Es necesario combinar ambos gráficos, comparando fechas de eventos con valores de popularidad, para descubrir la relación conflictiva entre la ausencia de eventos y los valles de popularidad.",
+        "E": "9月2日 - 4日无事件（chart_17_4），选项虚构“政府辟谣”因素。",
+        "F": "段某事件实际发生在9月6日（chart_17_4），9月4日无事件，选项错误匹配时间。",
+        "G": "Opción C se refiere al evento del profesor de Tsinghua del 29 de agosto con gran monto involucrado pero sin víctimas y la popularidad más baja que otros eventos con víctimas, mostrando la relación conflictiva entre las diferencias en la naturaleza del evento y los valles de popularidad. chart_17_1 proporciona la tendencia de disminución de popularidad pero no puede explicar las causas; chart_17_4 proporciona fechas y naturaleza de eventos pero no puede cuantificar directamente la popularidad. Es necesario combinar ambos gráficos, comparando fechas de eventos con valores de popularidad, para descubrir la relación conflictiva entre las diferencias en la naturaleza del evento y los valles de popularidad."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando chart_17_1 (la popularidad de búsqueda tiene fluctuaciones en fechas específicas, como finales de agosto) y chart_17_4 (los casos de fraude se producen con más frecuencia durante la temporada de inicio del semestre escolar), se deduce que el patrón temporal puede predecir las ventanas de riesgo y se pueden realizar intervenciones preventivas.",
+        "B": "Interpretación errónea de los datos de chart_17_1: La popularidad de búsqueda el 9 - 04 es la más baja (9000), pero una baja popularidad generalmente indica un bajo nivel de atención del público, por lo que el efecto de la campaña de promoción es pobre; la estrategia correcta debe aprovechar los picos de atención (por ejemplo, 31000 el 8 - 31) en lugar de los valles. Esta opción de distracción confunde 'bajos costos de recursos' con 'efecto máximo' y omite la ley de aumento de la popularidad después de un evento.",
+        "C": "Basado en las características de la tendencia a largo plazo de chart_17_1 (la popularidad de búsqueda tiene una tendencia a la baja durante períodos sin eventos importantes, como principios de septiembre), se deduce que se debe fortalecer la educación durante los períodos de baja popularidad para compensar la brecha de atención.",
+        "D": "Basado en la tendencia de la popularidad de búsqueda de chart_17_1 (por ejemplo, la popularidad aumenta drásticamente después de un evento) y la línea de tiempo de casos típicos de chart_17_4 (las fechas de los eventos corresponden a los picos de popularidad), se deduce que los eventos impulsan el aumento de la atención, y el momento de la campaña de promoción debe sincronizarse con la respuesta a los eventos.",
+        "E": "Se utiliza parcialmente la línea de tiempo de eventos de chart_17_4 (por ejemplo, el evento del 8 - 21), pero se ignora erróneamente la variación de la popularidad antes de la temporada de inicio del semestre en chart_17_1 (por ejemplo, la popularidad es de 19500 después del evento del 9 - 06). Esta opción de distracción se centra demasiado en la respuesta a los eventos y omite los momentos preventivos (por ejemplo, la campaña de promoción de pre - temporada de inicio del semestre en la opción C), lo que hace que la estrategia sea unilateral.",
+        "F": "Igualmente basado en el conocimiento común (las redes sociales tienen una amplia cobertura), pero no se combina con la tendencia de la popularidad de búsqueda o el patrón impulsado por eventos en los gráficos. La expresión es demasiado general y carece de ajuste dinámico del momento, lo que puede resultar en un desperdicio de recursos durante períodos ineficientes.",
+        "G": "Esta opción no se basa en ningún dato de los gráficos, solo en el conocimiento común general (el riesgo de fraude es alto durante las vacaciones), pero ignora las fluctuaciones específicas de la popularidad en los gráficos (chart_17_1) y la línea de tiempo de los eventos (chart_17_4). Es demasiado general y carece de optimización específica del momento, por lo que no puede maximizar el aumento de la conciencia pública."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Basado en la relación de equilibrio de chart_17_2 (la atención al fraude telefónico y el PIB de cada provincia, por ejemplo, Henan tiene una baja atención pero un PIB no muy alto), se deduce que el principio de equidad requiere cubrir las regiones desfavorecidas para evitar puntos ciegos.",
+        "B": "Basado en la relación de datos de chart_17_2 (la comparación entre la atención al fraude telefónico y el PIB de cada provincia, por ejemplo, las provincias con un alto PIB tienen una mayor atención), se deduce que las regiones económicamente activas concentran más riesgos, y la asignación de recursos debe inclinarse hacia estas regiones para optimizar el efecto.",
+        "C": "Esta opción no se basa en los gráficos, solo en el conocimiento común (un mayor número de población significa un mayor riesgo), pero no utiliza los datos de atención o PIB de chart_17_2 (por ejemplo, Guangdong tiene una atención de 11 pero un PIB de 9.5). Omite las características reales del riesgo (por ejemplo, la relación entre la atención y el PIB), es demasiado general y puede resultar en una mala asignación de recursos.",
+        "D": "Interpretación errónea de los datos de chart_17_2: Henan tiene la atención más baja (4) y un PIB relativamente bajo (2.2), pero una baja atención generalmente indica un bajo riesgo o una falta de conciencia, no un riesgo urgente; esta opción de distracción confunde 'baja atención' con 'alto riesgo' y omite que las provincias con alta atención (por ejemplo, Guangdong con 11) necesitan priorizar los recursos. La estrategia correcta debe combinar la atención con el nivel de riesgo.",
+        "E": "Sugerencia basada en el conocimiento común (educación estandarizada), no se combina con las características regionales (por ejemplo, las diferencias de atención entre provincias), por lo que no puede optimizar las medidas de prevención para las provincias de alto riesgo. La expresión es demasiado general y carece de la utilización de chart_17_2 y chart_17_3, por lo que la estrategia es ineficiente.",
+        "F": "Combinando las diferencias de atención entre provincias de chart_17_2 y la distribución de métodos de fraude de chart_17_3 (por ejemplo, el método de 'falsificar la identidad de seguridad pública, fiscalía y tribunal' tiene la mayor proporción), se deduce que las medidas específicas de prevención deben combinar la prioridad regional para lograr una prevención eficiente.",
+        "G": "Combinación errónea de la distribución de métodos de fraude de chart_17_3 (la proporción del método de 'falsificar la identidad de seguridad pública, fiscalía y tribunal' es del 30%) y los datos de PIB de chart_17_2 (el PIB de Guangdong es 9.5), pero limita las medidas especiales a las provincias de alto PIB, omitiendo que los métodos deben ser aplicados en todo el país (por ejemplo, Henan también debe ser cubierto). Esta opción de distracción asume erróneamente que las provincias de alto PIB pueden representar la situación general y confunde el equilibrio entre la región y el método."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Basado en el impacto temporal de chart_17_1 (la tendencia de la popularidad de búsqueda, como los picos después de un evento) y chart_17_4 (la línea de tiempo de casos), así como las características regionales de chart_17_2 (la atención al fraude telefónico y el PIB de cada provincia), se deduce que el mecanismo debe integrar la sensibilidad temporal y la prioridad regional.",
+        "B": "Basado en la distribución de métodos de fraude de chart_17_3 (por ejemplo, la prominencia de los métodos con alta proporción) y las diferencias de PIB entre provincias de chart_17_2 (por ejemplo, el nivel económico afecta la demanda de recursos), se deduce que las medidas de prevención deben estar dirigidas a los métodos más frecuentes y adaptarse a las condiciones económicas regionales.",
+        "C": "Combinación errónea de los datos de PIB de chart_17_2 (el PIB de Guangdong es 9.5), la distribución de métodos de fraude de chart_17_3 (el método de 'falsificar la identidad de seguridad pública, fiscalía y tribunal' tiene una proporción del 30%) y la tendencia temporal de chart_17_1, pero se enfoca unilateralmente en las provincias de alto PIB y omite las provincias de bajo PIB (por ejemplo, el PIB de Henan es 2.2) y el equilibrio en todo el tiempo (por ejemplo, los eventos de chart_17_4). Esta opción de distracción da prioridad a la relación costo - beneficio por encima de la comprensión integral, lo que resulta en un desequilibrio de la estrategia.",
+        "D": "Interpretación errónea de los datos de chart_17_1: La popularidad de búsqueda disminuye de 19000 a 17500 entre el 8 - 25 y el 8 - 29, pero chart_17_4 muestra que hubo un evento el 8 - 29 (un profesor de la Universidad Tsinghua fue estafado), una disminución de la popularidad no significa una reducción de las actividades de fraude; esta opción de distracción confunde 'disminución de la popularidad' con'reducción del riesgo' y omite que se debe responder durante los períodos de aumento de la popularidad (por ejemplo, la opción A). Una estrategia dinámica correcta debe combinar la influencia de los eventos.",
+        "E": "Sugerencia basada en el conocimiento común (cooperación con bancos), no utiliza ningún dato de los gráficos (por ejemplo, la distribución de métodos de fraude o la línea de tiempo de eventos), la estrategia es estática y no abarca todos los aspectos, y omite la consideración de la sensibilidad temporal y la adaptación regional.",
+        "F": "Esta opción no se basa en los gráficos, solo en el conocimiento común (campañas de promoción en fechas fijas), pero no integra la tendencia temporal (las fluctuaciones de la popularidad de búsqueda de chart_17_1), las características regionales (las diferencias entre provincias de chart_17_2) o la distribución de métodos de fraude (chart_17_3). La expresión es demasiado general y carece de ajuste dinámico, por lo que no puede equilibrar múltiples factores.",
+        "G": "Combinando la tendencia de fluctuación de la popularidad de chart_17_1, la regularidad de los casos de chart_17_4 y los datos regionales de chart_17_2, se deduce que un sistema dinámico puede responder a los cambios de las tendencias de múltiples gráficos y optimizar la utilización de recursos."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     }
   ]

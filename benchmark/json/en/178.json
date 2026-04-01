@@ -87,6 +87,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on the importance rule of health attributes and requires joint inference from chart data. One chart shows that the attention ratio of health attributes is the highest, and the other chart provides the TGI values for giving health gifts. The TGI of Post-00s is 105. This option focuses on the continuous trend among the young group. Joint reasoning is required: Only from the attention ratio chart, we cannot infer age differences, and only from the TGI value chart, we cannot know the overall importance of health attributes. We must cross - analyze the attention ratio and TGI values to conclude the prominence of health attributes among different age groups.",
+        "B": "This is an Easy distraction option, relying only on common sense (health is a general need) and not based on chart data. In fact, the proportion of health attributes in the chart is very high (87%), but the distraction option does not quote the data.",
+        "C": "This is a Hard distraction option, misinterpreting the chart values. Chart_178_2 shows that the attention ratio of health attributes is 87% (the highest), and the cost - effectiveness ratio is 58%. The distraction option mistakenly states the health ratio as 58% (which is actually the cost - effectiveness ratio), distorting the ranking.",
+        "D": "This is a Hard distraction option, misinterpreting the TGI gap. Chart_178_3 shows that the TGI of Post-90s for giving health gifts is 101 (slightly higher than the average of 100), while 97 is the TGI of Post-70s. The distraction option mistakenly states the TGI of Post-90s as 97 (lower than the average) and wrongly infers that the young group does not attach importance.",
+        "E": "Option correctness: This option is based on the importance rule of health attributes and requires joint inference from chart data. One chart shows that the attention ratio of health attributes is the highest, and the other chart provides the TGI values for giving health gifts (TGI > 100 means higher than the average level). This option combines the high attention ratio and the TGI trend. Joint reasoning is required: Only from the attention ratio chart, we cannot infer age differences, and only from the TGI value chart, we cannot know the overall importance of health attributes. We must cross - analyze the attention ratio and TGI values to conclude the prominence of health attributes among different age groups.",
+        "F": "This is an Easy distraction option, based on general knowledge (the older the age, the more attention to health). However, the chart shows that the TGI of Post-85s is the highest (106), not a linear increase. The TGI of Post-00s (105) is also higher than the average, so common sense is not completely consistent with the data.",
+        "G": "Option correctness: This option is based on the importance rule of health attributes and requires joint inference from chart data. One chart shows that the attention ratio of health attributes is the highest, and the other chart provides the TGI values for giving health gifts. The TGI of Post-85s is 106. This option emphasizes that the peak TGI of Post-85s strengthens the dominance of health. Joint reasoning is required: Only from the attention ratio chart, we cannot infer age differences, and only from the TGI value chart, we cannot know the overall importance of health attributes. We must cross - analyze the attention ratio and TGI values to conclude the prominence of health attributes among different age groups."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Option correctness: This option reveals the conflict or implicit explanation between the budget and the attitude. One chart shows the budget changes in 2024, and the other chart shows the proportion of consumption attitudes. This option attributes the decline of the budget over 10k to external factors (such as the economy), rather than just the downgrading attitude. Joint reasoning is required: Only from the budget change chart, we cannot associate it with the attitude, and only from the consumption attitude chart, we cannot explain the budget change. We must compare the attitude proportion and the budget trend to reason about the cause of the conflict.",
+        "B": "This is an Easy distraction option, based on common sense (the consumption level should remain the same), but it does not quote the chart. In the actual data, the change in the budget distribution (such as the increase in the 5 - 8k range) may involve internal adjustments within the attitude of maintaining the same consumption level (49%), not absolutely unchanged.",
+        "C": "Option correctness: This option reveals the conflict or implicit explanation between the budget and the attitude. One chart shows the budget changes in 2024, and the other chart shows the proportion of consumption attitudes. This option uses the attitude of maintaining the same consumption level to explain the increase in the medium - high budget. Joint reasoning is required: Only from the budget change chart, we cannot associate it with the attitude, and only from the consumption attitude chart, we cannot explain the budget change. We must compare the attitude proportion and the budget trend to reason about the cause of the conflict.",
+        "D": "Option correctness: This option reveals the conflict or implicit explanation between the budget and the attitude. One chart shows the budget changes in 2024, for example, the proportion in the 5 - 8k range increases from 8% to 13%, but the proportion over 10k decreases from 2% to 1%. The other chart shows that the proportion of consumption upgrade is 42%, the proportion of maintaining the same consumption level is 49%, and the proportion of consumption downgrade is 8%. This option points out that the upgrade attitude drives the growth in the 5 - 8k range, but the decline in the budget over 10k may conflict with the downgrading attitude. Joint reasoning is required: Only from the budget change chart, we cannot associate it with the attitude, and only from the consumption attitude chart, we cannot explain the budget change. We must compare the attitude proportion and the budget trend to reason about the cause of the conflict.",
+        "E": "This is a Hard distraction option, misinterpreting the gap. In chart_178_4, the proportion in the 3 - 4k range does decrease slightly from 27% to 25%, but the overall budget change also includes the increase in other ranges (such as the 5 - 8k range from 8% to 13%). The distraction option views a single range in isolation and ignores the overall trend.",
+        "F": "This is a Hard distraction option, misinterpreting the value. Chart_178_4 shows that the proportion of the budget over 10k in 2024 decreases from 2% to 1% (a decline), while the distraction option claims a “substantial increase”. At the same time, the consumption upgrade attitude is only 42% (from chart_178_5), not dominant.",
+        "G": "This is an Easy distraction option, relying only on economic common sense (a slump leads to a budget decrease). However, in the chart, the proportion of the budget in the 5 - 8k range in 2024 increases from 8% to 13%, which contradicts the distraction option."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on the implicit connection between the dominant position of the Spring Festival and the concerns about New Year gifts. One chart shows that the proportion of traditional festivals such as the Spring Festival is the highest at 96%, and the other chart focuses on the concerns about New Year gifts. The proportion of cost - effectiveness is 58%. This option links the high proportion with cost - effectiveness, highlighting the cost - awareness. Joint reasoning is required: Only from the festival proportion chart, we cannot know the concerns about New Year gifts, and only from the New Year gift concern chart, we cannot confirm the context of the Spring Festival. We must cross - analyze the festival proportion and the concern proportion to infer how festival characteristics shape gift selection.",
+        "B": "This is an Easy distraction option, based on a general view (content is more important than packaging). However, chart_178_2 shows that the proportion of “ready - made gift boxes for more convenience” is 71%, which is relatively high. The distraction option ignores the data.",
+        "C": "This is a Hard distraction option, wrongly associating the charts. In chart_178_1, the proportion of birthdays, weddings, and anniversaries is 92%, which is an independent category and has nothing to do with the Spring Festival (96%). The distraction option wrongly links this with the concerns about New Year gifts (chart_178_2). In fact, the proportion of health attributes is 87% and the proportion of practicality is 70%, both of which are high.",
+        "D": "Option correctness: This option is based on the implicit connection between the dominant position of the Spring Festival and the concerns about New Year gifts. One chart shows that the proportion of traditional festivals such as the Spring Festival is the highest at 96%, and the other chart focuses on the concerns about New Year gifts. The proportion of health attributes is 87%. This option associates the high proportion with health attributes. Joint reasoning is required: Only from the festival proportion chart, we cannot know the concerns about New Year gifts, and only from the New Year gift concern chart, we cannot confirm the context of the Spring Festival. We must cross - analyze the festival proportion and the concern proportion to infer how festival characteristics shape gift selection.",
+        "E": "This is an Easy distraction option, relying on cultural common sense (Spring Festival traditions). However, the chart does not involve specific elements such as red envelopes. The concern data (chart_178_2) focuses on attributes such as health.",
+        "F": "This is a Hard distraction option, misinterpreting the ranking. Chart_178_2 shows that the proportion of “expensive, good for showing off” is only 41% (one of the lowest), and the proportion of health attributes is 87% (the highest). The distraction option wrongly states the proportion of “show - off” as 87% (which is actually the health proportion) and wrongly infers the association with the Spring Festival.",
+        "G": "Option correctness: This option is based on the implicit connection between the dominant position of the Spring Festival and the concerns about New Year gifts. One chart shows that the proportion of traditional festivals such as the Spring Festival is the highest at 96%, and the other chart focuses on the concerns about New Year gifts. The proportion of “ready - made gift boxes for more convenience” is 71% and the proportion of practicality is 70%. This option combines the festival dominance with convenience and practicality, reflecting the convenience of festival gift - giving. Joint reasoning is required: Only from the festival proportion chart, we cannot know the concerns about New Year gifts, and only from the New Year gift concern chart, we cannot confirm the context of the Spring Festival. We must cross - analyze the festival proportion and the concern proportion to infer how festival characteristics shape gift selection."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "In chart_178_1, the proportion of shopping festivals is the lowest (48%), but chart_178_5 shows that 42% of consumers upgrade their consumption in the New Year gift - giving scenario. The strategy can use price leverage to tap into incremental sales.",
+        "B": "This option confuses festival preferences. Chart_178_1 shows that the proportion of Father's Day and Mother's Day is 76%, but the attention to practicality (70%) in chart_178_2 is for New Year gifts. There is no evidence that this preference applies to other festivals. Blindly applying New Year preferences to different festivals (Father's Day/Mother's Day) may misjudge consumer needs.",
+        "C": "Chart_178_1 shows that traditional festivals (Spring Festival/Mid - Autumn Festival/Dragon Boat Festival) have a very high proportion, reflecting their core status. Chart_178_2 reveals that health attributes are the highest - concern point for New Year gifts (87%). The strategy can reuse this preference for other high - proportion festivals.",
+        "D": "This option suggests a customer loyalty program, which is a general business strategy and does not involve any chart data (such as festival proportions or consumption attitudes). It ignores the core issue of festival marketing and can be excluded based on common sense (since the question focuses on festival resource allocation, not long - term user management).",
+        "E": "This option misinterprets the charts. Chart_178_1 shows that the proportion of Christmas and New Year's Day is only 53%, far lower than that of traditional festivals (96% for festivals like the Spring Festival). It is unreasonable to allocate resources preferentially. At the same time, the consumption upgrade ratio (42%) in chart_178_5 is for New Year gift - giving and does not directly apply to Christmas. Confusing festival scenarios may lead to resource waste.",
+        "F": "This option only relies on general marketing common sense (such as brand promotion to enhance influence) and does not combine festival distribution or consumer preference data in the charts. It cannot provide specific resource allocation strategies for festivals or preferences and can be easily excluded based on common sense (because the question requires optimizing the allocation of annual marketing resources, not general brand building).",
+        "G": "In chart_178_1, the proportion of Valentine's Day and Qixi Festival is medium but stable. Chart_178_2 shows that the attention to practicality (70%) and cost - effectiveness (58%) is high. The data indicates that a practical - oriented approach can cover the mid - end market."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -178,6 +246,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "In chart_178_2, the attention to health attributes (87%) and gift - box packaging (71%) is both high. Chart_178_3 shows that the TGI of Post - 85s and Post - 80s for giving health gifts is higher than 100 (strong preference). The strategy can meet the mainstream demand by combining health and convenience.",
+        "B": "This option is only based on industry trends (such as environmental protection) and does not quote any chart data (such as population age, budget, or concerns). It cannot provide specific design suggestions for New Year gift - giving characteristics and can be excluded based on common sense (since the question requires designing gifts to match population characteristics, not a general environmental protection strategy).",
+        "C": "Chart_178_4 reveals a wide budget distribution (from ≤1k to >10k). In chart_178_5, 49% of consumers choose to maintain the same consumption level. The strategy can avoid over - spending or downgrading by offering different price tiers.",
+        "D": "This option misinterprets the charts. Chart_178_3 shows that the health TGI of Post - 00s is 105 (slightly higher than the benchmark of 100), but the proportion of Post - 00s in the gift - giving population is only 11% (lower than 25% of Post - 90s). And the increase in the budget (the proportion of 5 - 8k is 13%) in chart_178_4 is overall data, not specific to Post - 00s. Over - focusing on a niche group (Post - 00s) may ignore the main groups of Post - 85s and Post - 90s.",
+        "E": "In chart_178_3, the total proportion of Post - 00s and Post - 95s in gift - giving is 28% (the main force of the young group). Chart_178_4 shows that the New Year budget is concentrated in the 2 - 4k range (the highest proportion), and the attention to the expensive attribute in chart_178_2 is the lowest (41%). The data supports a practical and affordable positioning.",
+        "F": "This option suggests operational improvements such as logistics optimization, which is a general e - commerce strategy and does not combine consumer concerns (such as health attributes or budget) in the charts. It ignores the core requirement of gift design itself and can be easily excluded based on common sense.",
+        "G": "This option misjudges the consumption attitude. In chart_178_5, the proportion of consumers maintaining the same consumption level is the highest (49%), not the proportion of consumption upgrade (42%). And the proportion of the budget of ≤1k in chart_178_4 is still 4 - 5%. Reducing low - price options will ignore budget - sensitive groups (such as the young) and contradicts the concern for cost - effectiveness (58% in chart_178_2)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "In chart_178_3, the combined proportion of Post - 85s (18%) and Post - 80s (15%) is 33%, and the TGI of giving health gifts is 106 and 103 respectively (higher than the average). In chart_178_2, the attention to health attributes is the highest (87%). The strategy focuses on high - potential groups.",
+        "B": "In chart_178_3, the proportion of the older groups (Post - 70s/Pre - 70s) is low (11%), but the TGI is close to 100 (stable demand). In chart_178_2, practicality (70%) and convenient packaging (71%) are highly concerned. The strategy ensures fair coverage, which is in line with values.",
+        "C": "This option suggests innovative designs such as IP co - branding, which is a broad marketing strategy and does not quote the charts (such as age proportion or budget). It ignores the specific group preferences (such as health concerns) and can be easily excluded based on common sense.",
+        "D": "This option relies on technological trends (such as AI recommendation) and does not combine age - cohort data or health preferences in the charts. It cannot provide a resource allocation strategy for age differences and can be excluded based on common sense (since the question requires allocating development resources, not technological upgrading).",
+        "E": "In chart_178_3, the combined proportion of Post - 00s (11%) and Post - 95s (17%) is 28% and is continuously increasing. Chart_178_4 shows that the budget is mostly distributed in the 1 - 4k range (62% in proportion), and the attention to practicality (70%) in chart_178_2 is higher than that to expensiveness (41%). The data supports a practical and lightweight design.",
+        "F": "This option misuses budget data. The budget distribution in chart_178_4 is overall data, not specific to Post - 90s. In chart_178_3, the proportion of Post - 90s is the highest at 25%, but their budget preference is not shown. And in chart_178_2, the attention to 'expensiveness' is only 41% (lower than 87% for health). Luxury gifts may not match the mainstream demand.",
+        "G": "This option misinterprets the charts. Chart_178_3 shows that the health TGI of Post - 95s is 90 (slightly lower than 100), but the overall attention to health attributes in chart_178_2 reaches 87%, which is a general demand. Cutting resources for Post - 95s (with a proportion of 17%) will ignore this group, and a small deviation in TGI is not enough to justify resource reduction."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     }
   ]

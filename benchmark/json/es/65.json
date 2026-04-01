@@ -86,6 +86,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "通过对比中国创作者最偏好平台（Douyin）和海外创作者最偏好平台（TikTok）在各自图表中的占比，中国最偏好平台的占比显著更高，体现了集中度差异，需联合两张图表推理。",
+        "B": "中国创作者偏好图表所有平台均为中国本土名称，海外创作者偏好图表平台为国际名称，结合内容描述，隐含区域市场隔离规律，需联合两张图表推理。",
+        "C": "此选项错误，因为不依赖图表内容：常识上，平台偏好通常存在头部效应（如少数平台主导），而图表数据（chart_65_1 和 chart_65_2）显示中国Douyin占比53.4%远超其他，海外TikTok占比30.0%也领先，表明集中度明显。",
+        "D": "此选项错误，因为错误解读图表数值：图表中（chart_65_1 和 chart_65_2），Douyin占比53.4%，TikTok占比30.0%，数值差距较大（23.4%），并非相同；尽管同属一公司，但区域市场数据隔离（中国vs海外）导致偏好不同。",
+        "E": "此选项错误，因为不依赖图表内容：常识上，中国创作者主要使用本土平台（如Douyin），而图表数据（chart_65_1）显示Canales Internacionales仅占19.5%，远低于Douyin的53.4%。全球化趋势虽存在，但数据不支持海外渠道主导。",
+        "F": "此选项错误，因为错误比较图表差距：图表中（chart_65_2），YouTube和Instagram占比相同（22.0%），显示海外多样性高；但中国（chart_65_1）Bilibili和WeChat占比相近（48.6%和48.0%），却有Douyin以53.4%绝对领先，导致中国整体集中度更高（前三平台合计150% vs 海外前三74%）。选项忽略了中国头部平台（Douyin）的显著优势。",
+        "G": "海外创作者偏好图表中第二和第三偏好平台占比与第一偏好差距小，分布均匀；中国创作者偏好图表中第二和第三偏好占比接近，但与第一偏好差距小，整体前三位占比高，显示中国虽有多元但更集中，需跨图比较分布趋势。"
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "此选项错误，因为错误解读图表数值：收益来源图表（chart_65_4）中Compartición de tráfico和Pedidos privados合计90.7%，但这是针对实现变现的创作者；收益分布图表（chart_65_3）显示Sin ingresos比例33.3%和Menos de 1000 yuan比例33.3%，表明许多创作者收入低或为零，选项错误推断“收入普遍较高”，忽略了低收入群体可能包括部分变现但收益微薄的创作者。",
+        "B": "变现收益来源图表中Pago por conocimiento占比最低，联合收益分布图表高收入比例少，推理出知识付费的贡献较弱，与低收入趋势关联，需联合两张图表推理。",
+        "C": "变现收益来源图表中Promoción de productos de comercio electrónico和Marketing de contenido占比中等，但远低于Compartición de tráfico；联合收益分布图表中高收入比例极低，隐含这些来源的变现效率不足，可能限制了收入提升，需联合两张图表推理。",
+        "D": "此选项错误，因为错误比较图表差距：Marketing de contenido占比18.9%和Promoción de productos de comercio electrónico16.5%差距小（仅2.4%），但主要收益特征是Compartición de tráfico和Pedidos privados占比远超其他（合计90.7%）；选项夸大微小差距，且未结合收益分布中低收入比例高（如Menos de 1000 yuan33.3%）的特征。",
+        "E": "此选项错误，因为不依赖图表内容：常识上知识付费可能增长，但图表数据（chart_65_4）显示Pago por conocimiento仅占13.9%，远低于Compartición de tráfico（46.2%）和Pedidos privados（44.5%），不是主导来源。",
+        "F": "中国创作者收益分布图表显示低收入或无收入合计占比高，变现收益来源图表显示Compartición de tráfico和Pedidos privados占比极高，两者联合揭示即使低收入比例大，但实现变现的创作者主要依赖这两大来源，需联合两张图表推理。",
+        "G": "此选项错误，因为不依赖图表内容：常识上电商带货流行，但图表数据（chart_65_4）显示Promoción de productos de comercio electrónico占比仅16.5%，低于Compartición de tráfico和Pedidos privados；收益分布（chart_65_3）中高收入比例小（如Más de 30000 yuan仅3.5%），不支持其为最高来源。"
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "中国创作者偏好发布内容的平台图表中WeChat和Bilibili偏好占比高且接近，但收益分布图表中中等收入区间远低于低收入区间，推理出偏好未转化为收益的冲突，需联合两张图表推理。",
+        "B": "此选项错误，因为错误比较图表差距：WeChat偏好占比48.0%较高，但收益分布中10000 - 30000 yuan比例仅3.5%，比例极低；选项错误推断WeChat能提升收入，但数据未显示直接因果，且中等收入区间（1001 - 5000 yuan17.0% + 5001 - 10000 yuan9.4% = 26.4%）虽存在，但整体仍以低收入为主（66.6%包括Menos de 1000 yuan和Sin ingresos），无法解释冲突。",
+        "C": "此选项错误，因为不依赖图表内容：常识上用户规模大不一定保证高收入（可能竞争激烈），而图表数据（chart_65_1 和 chart_65_3）显示平台集中（Douyin53.4%）但收益分布中低收入比例高（如Menos de 1000 yuan33.3%和Sin ingresos33.3%），冲突明显。",
+        "D": "此选项错误，因为错误解读图表数值：偏好图表（chart_65_1）中Douyin占比53.4%最高，但收益分布（chart_65_3）中高收入比例极小（Más de 30000 yuan仅3.5%），无法支持正相关；选项忽略多数创作者收入低的事实。",
+        "E": "中国创作者偏好发布内容的平台图表显示最偏好平台占比超过50%，收益分布图表中低收入或无收入合计占比高，数值对比揭示偏好集中但收益低的冲突，需跨图分析趋势。",
+        "F": "中国创作者偏好发布内容的平台图表最偏好平台占比高，联合收益分布图表高收入比例极低，严格基于这两张图表的数值冲突，推断平台集中可能导致收益稀释，需联合两张图表推理。",
+        "G": "此选项错误，因为不依赖图表内容：常识上创作者倾向于主流平台以获取流量，图表数据（chart_65_1）显示偏好高度集中（Douyin、Bilibili等主导），选项与数据矛盾。"
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Razón combinada de chart_65_1 (las plataformas como WeChat tienen alta preferencia pero no son dominantes en las fuentes de ingresos) y chart_65_4 (la proporción de ingresos de marketing de contenido y promoción de productos de comercio electrónico es solo del 18,9% y 16,5%, respectivamente, lo que es menor que la compartición de tráfico, lo que indica que hay potencial no explotado). La estrategia optimiza los modelos de monetización en función de las características de la plataforma para evitar el desperdicio de recursos.",
+        "B": "Razón combinada de chart_65_3 (en la distribución de ingresos de los creadores esenciales en China, la proporción de ingresos inferiores a 1000 yuan o sin ingresos alcanza un total del 66,6%, lo que destaca el problema de los bajos ingresos) y chart_65_4 (la proporción de ingresos de pago por conocimiento y promoción de productos de comercio electrónico es baja, 13,9% y 16,5% respectivamente, pero se pueden considerar áreas de alto crecimiento). La estrategia mejora las habilidades de los grupos vulnerables a través de capacitación, promueve la equidad en los ingresos y se ajusta a los valores de crecimiento sostenible.",
+        "C": "Esta es una opción de distracción fácil, ya que se basa en conocimientos generales (aumentar la frecuencia de publicación puede aumentar los ingresos), pero no utiliza ningún dato de los gráficos, y la estrategia es amplia y sin indicaciones de acción específicas (por ejemplo, no se especifica la plataforma o la fuente de ingresos), por lo que es fácil de descartar.",
+        "D": "Esta es una opción de distracción difícil. Aparentemente, se citan los gráficos (la proporción de marketing de contenido en chart_65_4 es del 18,9%), pero se interpreta erróneamente los datos: el marketing de contenido no es la fuente de ingresos más alta (la compartición de tráfico es del 46,2% y los pedidos privados son del 44,5% y son más altos); además, no se combina con las características de los grupos de bajos ingresos (chart_65_3 muestra que el 33,3% no tiene ingresos), y la promoción del marketing de contenido puede no ser adecuada para los creadores de bajos ingresos, lo que lleva a desviaciones en la estrategia.",
+        "E": "Razón combinada de chart_65_1 (entre las plataformas preferidas por los creadores chinos, Douyin, Bilibili y WeChat tienen las proporciones más altas, lo que indica una alta penetración de usuarios) y chart_65_4 (entre las fuentes de ingresos, la compartición de tráfico y los pedidos privados tienen las proporciones más altas, 46,2% y 44,5% respectivamente, lo que muestra que estos modos de monetización son los más eficaces). La estrategia prioriza la coincidencia de plataformas de alta preferencia con fuentes de ingresos eficientes para maximizar la relación de entrada y salida de recursos.",
+        "F": "Esta es una opción de distracción fácil, ya que se basa en conocimientos generales de la industria (la actualización tecnológica puede ayudar indirectamente a los ingresos), pero ignora por completo el contenido de los gráficos (por ejemplo, la preferencia de la plataforma o la fuente de ingresos), y la dirección de la estrategia es difusa y no está relacionada con la distribución de ingresos.",
+        "G": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los gráficos (se cita la proporción de Zhihu en chart_65_1 que es del 11,3% y la compartición de tráfico en chart_65_4 que es del 46,2%), pero hay un error obvio: Zhihu solo representa el 11,3% en la preferencia de la plataforma, mucho menos que plataformas principales como Douyin (53,4%); además, la sugerencia de la estrategia de \"promover métodos de alta rentabilidad en plataformas de baja preferencia\" es lógicamente contradictoria, ya que los recursos deben invertirse primero en plataformas de alta preferencia para mejorar la eficiencia."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Razón combinada de chart_65_1 (en la preferencia de los creadores chinos, Douyin tiene la proporción más alta, alcanzando el 53,4%, lo que refleja la ventaja de las plataformas de vídeos cortos) y chart_65_2 (en la preferencia de los creadores internacionales, Tiktok tiene la proporción más alta, del 30,0%, y su estructura es similar a la de Douyin en China). Además, se combina con chart_65_4 (la proporción de ingresos de compartición de tráfico es del 46,2%, que es la fuente más alta). La estrategia reduce la curva de aprendizaje a través de la similitud de las plataformas y utiliza métodos de monetización eficientes.",
+        "B": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los gráficos (Twitter tiene una proporción del 4,0% en chart_65_2, Weibo tiene una proporción del 24,0% en chart_65_1 y los pedidos privados tienen una proporción del 44,5% en chart_65_4), pero hay un error grave: Twitter solo representa el 4,0% en la preferencia internacional, mucho menos que Tiktok (30,0%), y no es \"de proporción alta\"; además, se confunden las plataformas (Weibo es una plataforma china), lo que hace que la estrategia sea ineficaz.",
+        "C": "Razón combinada de chart_65_2 (en las plataformas internacionales, Youtube e Instagram cada una tiene una proporción del 22,0%, con alta preferencia y tipos diversos) y chart_65_4 (la proporción combinada de ingresos de pedidos privados y marketing de contenido es del 63,4%, lo que muestra que estos métodos son maduros en China y se pueden transferir al extranjero). La estrategia enfatiza la colaboración de múltiples plataformas y la adaptación del modelo de ingresos para evitar la dependencia única.",
+        "D": "Esta es una opción de distracción fácil, ya que se basa en conocimientos generales (la adaptación cultural es importante), pero no utiliza datos de los gráficos, y la estrategia es demasiado amplia y sin indicaciones específicas de plataformas o fuentes de ingresos, por lo que es fácil de descartar por conocimientos generales.",
+        "E": "Esta es una opción de distracción fácil, ya que se basa en sugerencias políticas generales (apoyo financiero), pero ignora el contenido de los gráficos (por ejemplo, las diferencias en la preferencia de las plataformas o los modelos de ingresos), y la dirección de la estrategia no está clara y está desvinculada del enfoque del problema (elección de plataformas y asignación de recursos).",
+        "F": "Razón combinada de chart_65_2 (en las plataformas internacionales, Twitter y otras tienen una proporción solo del 4,0%, con baja preferencia) y chart_65_4 (la proporción de ingresos de promoción de productos de comercio electrónico es del 16,5%, que se puede utilizar como un complemento diferenciado). La estrategia evita canales ineficientes basándose en los datos de preferencia, fomenta la innovación y garantiza la optimización de recursos.",
+        "G": "Esta es una opción de distracción difícil. Aparentemente, se citan los datos (Instagram tiene una proporción del 22,0% en chart_65_2 y la promoción de productos de comercio electrónico tiene una proporción del 16,5% en chart_65_4), pero se interpreta erróneamente: aunque la proporción de Instagram es del 22,0%, no es la más alta (Tiktok tiene un 30,0% y es más alta); la promoción de productos de comercio electrónico solo representa el 16,5% y no es \"de mayor potencial\" (la compartición de tráfico es del 46,2% y es más predominante), y no se considera la preferencia de los creadores chinos (chart_65_1), por lo que la estrategia puede no ser adecuada."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los gráficos (WeChat tiene una proporción del 48,0% en chart_65_1 y el pago por conocimiento tiene una proporción del 13,9% en chart_65_4), pero hay un error: el pago por conocimiento solo representa el 13,9%, lejos de ser la fuente de ingresos más alta (la compartición de tráfico es del 46,2% y es mayor); además, aunque WeChat tiene alta preferencia, el pago por conocimiento puede no ser adecuado para aumentar los ingresos medios y altos (chart_65_3 muestra que la proporción de ingresos medios y altos es baja), y la lógica de la estrategia está confusa.",
+        "B": "Razón combinada de chart_65_3 (la proporción de sin ingresos alcanza el 33,3% y se necesita una solución estable) y chart_65_4 (la proporción de ingresos de pedidos privados es del 44,5%, casi la mitad, lo que indica su confiabilidad). Además, se implica chart_65_1 (las plataformas sociales como WeChat tienen una preferencia del 48,0% y son adecuadas para la monetización de servicios). La estrategia proporciona ingresos sostenibles a través del ecosistema de la plataforma y reduce el riesgo de pobreza.",
+        "C": "Esta es una opción de distracción fácil, ya que se basa en políticas económicas generales (exención de impuestos), pero ignora el contenido de los gráficos (por ejemplo, la distribución de ingresos o la preferencia de las plataformas), y la dirección de la estrategia no está relacionada y no se dirige al problema de la desigualdad en la distribución de ingresos.",
+        "D": "Razón combinada de chart_65_3 (en la distribución de ingresos, los intervalos de altos ingresos, como de 10.000 - 30.000 yuan y más de 30.000 yuan, solo tienen una proporción del 3,5% cada uno, con mucho espacio para el crecimiento) y chart_65_4 (la proporción de ingresos de pago por conocimiento y promoción de productos de comercio electrónico es baja, 13,9% y 16,5% respectivamente, pero pueden impulsar un salto en los ingresos). La estrategia se centra en áreas de alto potencial y combina los recursos de la plataforma (por ejemplo, Bilibili en chart_65_1 es adecuada para el pago por conocimiento) para impulsar la optimización estructural.",
+        "E": "Esta es una opción de distracción difícil. Aparentemente, se citan los datos (la proporción de menos de 1000 yuan en chart_65_3 es del 33,3%, la promoción de productos de comercio electrónico en chart_65_4 tiene una proporción del 16,5% y Douyin en chart_65_1 tiene una proporción del 53,4%), pero se interpreta erróneamente: la promoción de productos de comercio electrónico tiene una proporción del 16,5%, no es \"la más alta\" (la compartición de tráfico es del 46,2% y es más alta); además, promover la promoción de productos de comercio electrónico para los grupos de bajos ingresos puede ser ineficaz (ya que los creadores de bajos ingresos tienen recursos limitados), y el enfoque del problema es aumentar la proporción de ingresos medios y altos, por lo que la dirección de la estrategia está desviada.",
+        "F": "Esta es una opción de distracción fácil, ya que se basa en conocimientos generales (la capacitación puede mejorar las habilidades), pero no se citan datos de ningún gráfico, y la estrategia es amplia y sin detalles de acción (por ejemplo, no se combina con las fuentes de ingresos), por lo que es fácil de descartar.",
+        "G": "Razón combinada de chart_65_3 (en la distribución de ingresos, la proporción de ingresos inferiores a 1000 yuan o sin ingresos alcanza un total del 66,6%, mientras que de 1001 - 5000 yuan solo es del 17,0%, lo que destaca el cuello de botella de los bajos ingresos) y chart_65_4 (la proporción de ingresos de compartición de tráfico es del 46,2%, la más alta y escalable). La estrategia aumenta la eficiencia de monetización en función de la concentración de la plataforma (Douyin y otras tienen alta preferencia en chart_65_1) y promueve la actualización de ingresos."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     }
   ]

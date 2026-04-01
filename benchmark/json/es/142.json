@@ -86,6 +86,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于电商行业常识（直播电商提升购买意愿），不依赖图表数据，且泛泛而谈直播电商的好处，但未具体说明其对整体跨境电商的潜在贡献。",
+        "B": "这是一个Easy干扰项：利用数字支付等通用知识推理，未引用图表数值，且未分析直播电商与整体趋势的关系。",
+        "C": "这是一个Hard干扰项：错误理解规模差距；chart_142_1和chart_142_3中2022年直播电商规模1116.0 (Miles de Millones de Yuan) vs 整体出口15321 (mil millones de yuanes)，虽绝对数值小，但直播电商增长率210%远高于整体，此选项忽略增长率而断言\"影响可忽略\"，是对数据差距的误读。",
+        "D": "这是一个Hard干扰项：错误解读图表数值差距；chart_142_3显示2021年直播电商增长50%，chart_142_1显示整体进出口增长18.6%，但直播电商增长率更高表明潜在贡献大，而此选项反说\"贡献小\"，是对增长率比较的错误推理。",
+        "E": "依赖 chart_142_1（进出口规模增长但2022年增速减缓）和 chart_142_3（直播电商增长率在2021 - 2022年高达50% - 210%），通过比较增长趋势发现直播电商可能弥补整体放缓。",
+        "F": "联合 chart_142_1 的进出口增长和 chart_142_3 的直播电商更快增长两张图表，比较规模增长幅度来推断直播电商的关键作用。每个选项都不能仅从一张图表推断，必须跨图对比趋势。",
+        "G": "依赖 chart_142_1（显示2020年后出口规模逐年增长）和 chart_142_3（显示直播电商规模从2020年到2023年的爆发式增长），推断直播电商对出口的推动作用。"
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -106,6 +123,22 @@
       "label": [
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误归因增长动力；chart_142_2和chart_142_3中2022年出口增长10.1% vs 直播电商增长210%，差距巨大（199.9个百分点），此选项以\"基数小\"为由弱化差异，是对增长势头的误读。",
+        "B": "依赖 chart_142_2（出口增长率从2020年降至2022年）和 chart_142_3（直播电商增长率从2021年升至2022年），通过对比下降与上升趋势发现冲突，解释直播电商的独立性。",
+        "C": "这是一个Easy干扰项：使用行业通用知识（社交媒体红利），未引用图表数值，且泛泛讨论差异原因但未针对数据趋势。",
+        "D": "依赖 chart_142_2（2021年出口增长，2022年降至）和 chart_142_3（2021年直播电商增长，2022年），联合分析不同年份的增长率差异，推断直播电商的韧性。每个选项必须跨图比较趋势，无法仅从单张图表得出。",
+        "E": "这是一个Hard干扰项：错误解读数值比较；chart_142_2中2021年出口增长28.3%，chart_142_3中直播电商增长50%，实际差距显著（21.7个百分点），此选项声称\"差异不大\"，是对增长率差距的错误推理。",
+        "F": "这是一个Easy干扰项：基于宏观经济常识（全球经济衰退影响出口），不涉及图表数据，且未分析具体增长率差异。"
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -126,6 +159,22 @@
       "label": [
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于贸易常识（直播电商侧重出口），不依赖图表数据，且泛泛而谈业务聚焦，但未分析具体趋势。",
+        "B": "依赖 chart_142_1（进口规模从2019年到2022年变化微小）和 chart_142_3（直播电商规模从2020年到2023年快速增长），通过对比稳定 vs. 增长趋势，推断直播电商对进口的弱影响。",
+        "C": "这是一个Hard干扰项：错误解读同步性；chart_142_1和chart_142_3中2022年进口增长0.8% vs 直播电商增长210%，无相关性（增长率差距大），此选项虚构\"同步变化\"，是对趋势差异的错误理解。",
+        "D": "这是一个Hard干扰项：错误因果推理；chart_142_1中2021年进口下降0.9%，chart_142_3中直播电商增长50%，但直播电商规模小且趋势独立，此选项错误关联为\"促进下降\"，是对数值关系的误读。",
+        "E": "依赖 chart_142_1（隐含进口规模稳定）和 chart_142_3（直播电商增长率50% - 210%），或间接结合 chart_142_2（进口增长率在2021 - 2022年接近零），但主要用 chart_142_1 和 chart_142_3 比较趋势，解释直播电商与进口的无关性。每个选项必须跨图分析，无法单图解决。",
+        "F": "这是一个Easy干扰项：利用政策常识（进口监管严格），未引用图表数值，且未关联直播电商规模数据。"
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -149,6 +198,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Aparentemente se utilizan los datos del gráfico (el gráfico 142_2 muestra que la tasa de crecimiento de las importaciones en 2022 fue del 0,8%), pero se interpreta erróneamente la tendencia. En realidad, el tamaño de las importaciones disminuyó de 5319 mil millones de yuanes en 2021 a 5278 mil millones de yuanes en 2022, y la tasa de crecimiento se mantuvo en niveles bajos durante mucho tiempo (en 2021 fue del - 0,9%), lo que indica que no hay potencial de “fuerte recuperación” en las importaciones. Esta estrategia desperdiciaría recursos.",
+        "B": "La opción C combina el gráfico 142_1 (el tamaño de las importaciones fluctuó de 4441 mil millones de yuanes en 2018 a 5278 mil millones de yuanes en 2022, siendo relativamente estable) y el gráfico 142_2 (la tasa de crecimiento de las importaciones tiene poca fluctuación, como el 0,8% en 2022), y se deduce que el crecimiento de las importaciones es limitado y se necesita optimizar la eficiencia en lugar de invertir de forma indiscriminada, para centrarse en áreas de alto potencial.",
+        "C": "Esta opción aborda conceptos amplios como la responsabilidad social empresarial, que no están relacionados con el contenido de los gráficos. Aunque la afirmación es correcta, carece de una dirección específica para la asignación de recursos y no puede optimizar directamente el crecimiento del negocio o el control de riesgos.",
+        "D": "La opción B combina el gráfico 142_3 (el tamaño del mercado de comercio electrónico de transmisión en vivo transfronterizo se prevé que aumente de 240 mil millones de yuanes en 2020 a 8287 mil millones de yuanes en 2025, y la tasa de crecimiento varía del 50% al 59,4% en el futuro, pero en general es de alto crecimiento) y el gráfico 142_1 (la tendencia de crecimiento del tamaño de las exportaciones), y se deduce que el comercio electrónico de transmisión en vivo, como un sector emergente, puede complementar el patrón dominado por las exportaciones y aprovechar las oportunidades de alto crecimiento.",
+        "E": "Se cita erróneamente la tendencia del gráfico (la tasa de crecimiento de las exportaciones en el gráfico 142_2 disminuyó), pero se ignora que el tamaño de las exportaciones ha seguido creciendo (el gráfico 142_1 muestra que alcanzó 15321 mil millones de yuanes en 2022), lo que no significa que el mercado esté saturado; la desaceleración del crecimiento no es igual a un crecimiento negativo. Esta estrategia haría que se perdiera la base de ingresos estables de las exportaciones.",
+        "F": "Esta opción se basa en conocimientos generales de gestión (como mejorar la eficiencia del equipo), pero no se basa en los datos de los gráficos, no tiene una guía de acción específica y no se combina con las tendencias de la industria de comercio electrónico transfronterizo, por lo que fácilmente se puede descartar por conocimiento general.",
+        "G": "La opción A combina el gráfico 142_1 (el tamaño de las exportaciones aumentó de 6116 mil millones de yuanes en 2018 a 15321 mil millones de yuanes en 2022, siendo el componente principal de las importaciones y exportaciones) y el gráfico 142_2 (la tasa de crecimiento de las exportaciones disminuyó de 30,5% en 2019 a 10,1% en 2022, lo que muestra una desaceleración pero un crecimiento positivo continuo), y se deduce que aunque la tasa de crecimiento de las exportaciones disminuye, el tamaño es grande y se necesita invertir en primer lugar para garantizar la estabilidad."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -172,6 +238,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en conocimientos generales de marketing (como publicidad en redes sociales), es demasiado general y no se combina con los datos de los gráficos o los cambios estructurales de la industria. Carece de una guía específica y fácilmente se puede descartar.",
+        "B": "Aparentemente se utilizan los datos del gráfico (el tamaño de las importaciones en el gráfico 142_1 y la tasa de crecimiento en el gráfico 142_2), pero se interpreta erróneamente la tendencia de las importaciones. En realidad, el tamaño de las importaciones ha fluctuado poco en los últimos años y el crecimiento ha sido débil (el crecimiento en 2021 fue negativo, - 0,9%), y la tasa de crecimiento del 0,8% en 2022 es insignificante. Invertir más en marketing no mejorará significativamente la penetración en el mercado y desperdiciará el presupuesto.",
+        "C": "Se cita erróneamente la previsión del gráfico (la tasa de crecimiento en el gráfico 142_3 disminuye), pero se ignora que el tamaño del mercado de comercio electrónico de transmisión en vivo ha aumentado rápidamente (se prevé que alcance 8287,0 mil millones de yuanes en 2025). Aunque la tasa de crecimiento ha disminuido, sigue siendo mucho más alta que el promedio de la industria. Esta estrategia haría que se perdieran las oportunidades de alto crecimiento, y la afirmación de que “la popularidad está desapareciendo” contradice los datos.",
+        "D": "La opción B combina el gráfico 142_2 (la tasa de crecimiento de las exportaciones disminuyó de 30,5% en 2019 a 10,1% en 2022, lo que muestra una desaceleración continua) y el gráfico 142_1 (el tamaño de las exportaciones tiene una base grande), y se deduce que la desaceleración del crecimiento de las exportaciones requiere innovación en el marketing impulsada por la tecnología para mantener la eficiencia.",
+        "E": "La opción C combina el gráfico 142_2 (la tasa de crecimiento de las importaciones fluctúa, como el - 0,9% en 2021) y el gráfico 142_1 (el tamaño de las importaciones cambia poco), y se deduce que el marketing de importaciones debe ser más eficiente para evitar la pérdida de recursos y en lugar de eso apoyar oportunidades emergentes.",
+        "F": "Esta opción sugiere actividades promocionales generales. Aunque es correcta, carece de especificidad y no se basa en las tendencias de los gráficos (como el surgimiento del comercio electrónico de transmisión en vivo), por lo que no puede maximizar la penetración en el mercado o la rentabilidad.",
+        "G": "La opción A combina el gráfico 142_3 (el tamaño del mercado de comercio electrónico de transmisión en vivo transfronterizo ha aumentado rápidamente, como un aumento del 210% en 2022 año sobre año, y se prevé que alcance 8287 mil millones de yuanes en 2025) y el gráfico 142_1 (el tamaño de las exportaciones ha seguido creciendo, como 13918 mil millones de yuanes en 2021), y se deduce que el alto crecimiento del comercio electrónico de transmisión en vivo puede complementar eficazmente el marketing de exportaciones y aprovechar su explosividad para mejorar la eficacia general."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -195,6 +278,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Aparentemente se utilizan los datos del gráfico (el tamaño de las exportaciones en el gráfico 142_1 y la desaceleración de la tasa de crecimiento en el gráfico 142_2), pero se ignora erróneamente que la tasa de crecimiento de las exportaciones ha disminuido continuamente (de 39,2% a 10,1%), lo que indica una reducción de los beneficios marginales, y no se consideran los riesgos de volatilidad (por ejemplo, el crecimiento en 2022 fue solo del 7,1%). Esta estrategia puede concentrar demasiado el riesgo.",
+        "B": "La opción C combina el gráfico 142_3 (la tasa de crecimiento del comercio electrónico de transmisión en vivo disminuyó de 50% en 2021 a la previsión del 59,4% en 2025, lo que muestra una caída gradual) y el gráfico 142_1 (la tendencia de crecimiento del tamaño total de las importaciones y exportaciones), y se deduce que la inversión en el comercio electrónico de transmisión en vivo necesita una gestión dinámica para evitar las trampas después del alto crecimiento y garantizar la coordinación con la industria en general.",
+        "C": "La opción A combina el gráfico 142_1 (la tendencia de crecimiento del tamaño de las exportaciones es evidente) y el gráfico 142_3 (el tamaño del mercado de comercio electrónico de transmisión en vivo ha aumentado rápidamente), y también se refiere al gráfico 142_2 (la tasa de crecimiento de las exportaciones y de las importaciones y exportaciones se ha desacelerado). Se deduce que una estrategia diversificada puede aprovechar la estabilidad de las exportaciones y la vitalidad del comercio electrónico de transmisión en vivo para reducir el riesgo de volatilidad de la industria.",
+        "D": "Esta opción se basa en conocimientos generales de inversión en tecnología. Aunque es correcta, es demasiado general y no se combina con las tendencias de los gráficos (como la fluctuación de la tasa de crecimiento). Carece de medidas específicas para equilibrar los riesgos y fácilmente se puede descartar por conocimiento general.",
+        "E": "La opción B combina el gráfico 142_2 (la tasa de crecimiento de las exportaciones ha disminuido continuamente) y el gráfico 142_1 (el tamaño absoluto de las exportaciones ha aumentado), y se deduce que la desaceleración del crecimiento de las exportaciones requiere una inversión orientada a la eficiencia en lugar de una expansión del tamaño, para mantener la rentabilidad.",
+        "F": "Esta opción sugiere una estrategia general de expansión del mercado, no se basa en los datos de los gráficos (como las tendencias de importaciones o comercio electrónico de transmisión en vivo) y la descripción es vaga. No puede optimizar el desarrollo sostenible en respuesta a la volatilidad de la industria.",
+        "G": "Se interpreta erróneamente la previsión del gráfico (la tasa de crecimiento en el gráfico 142_3). En realidad, la tasa de crecimiento ha disminuido de 210% a 59,4%, y la tendencia de disminución es evidente. Una inversión agresiva ignoraría el riesgo potencial de burbuja; además, está desvinculada de la tendencia dominada por las exportaciones (el gráfico 142_1) y no puede lograr un equilibrio sólido."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     }
   ]

@@ -87,6 +87,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误解读了偏好分布数据。在chart_46_2中，Sillas ergonómicas在Post-00s和Post-05s数据均为0（偏好低），但干扰项声称“高偏好”，这曲解了数值（实际是低偏好），并错误推断为增速驱动力。正确图表显示年轻群体偏好低，可能拖累增速。",
+        "B": "这是一个Hard干扰项：错误比较了偏好比例和增速差距。chart_46_2显示Sillas ergonómicas总偏好66%高于Lámparas protectoras de ojos 55%，干扰项却颠倒比例（说护眼灯更高），并错误推导出“偏好比例与增速无关”，但实际偏好更高可能支持增速。同时，chart_46_1增速数据（Sillas ergonómicas 43% vs. Lámparas protectoras de ojos 26%）未被正确关联。",
+        "C": "依赖“书房三大件市场规模图表”（chart_46_1）和“消费者书房家具偏好图表”（chart_46_2）联合推理：chart_46_1显示Lámparas protectoras de ojos增速较低（+26%），而chart_46_2显示Lámparas protectoras de ojos仅在Post-05s和Post-85s等少数群体有高偏好（其他群体如Post-00s、Post-95s偏好为0），对比Sillas ergonómicas在多个群体（Post-95s、Post-90s、Post-85s、Post-80s）的高偏好，表明更稳定的偏好分布支持了更高增速。",
+        "D": "依赖“书房三大件市场规模图表”（chart_46_1）和“消费者书房家具偏好图表”（chart_46_2）联合推理：chart_46_1显示Mesas para trabajar de pie增速中等（+33%），而chart_46_2显示其偏好分布不均（如Post-90s、Post-80s偏好为0），但Sillas ergonómicas总偏好比例更高（66% vs. 53%）且覆盖更广年龄段，这隐含偏好广度与增速正相关。",
+        "E": "这是一个Easy干扰项：完全基于行业常识（经济复苏和健康意识），不依赖任何图表数据。图表未提及经济或健康因素，属于泛泛而谈的正确句子。",
+        "F": "这是一个Hard干扰项：错误解读了群体偏好数据。在chart_46_2中，Mesas para trabajar de pie在Post-95s数据为1（偏好高），但干扰项声称“偏好较低”；Sillas ergonómicas在Post-95s数据为1（偏好中等），干扰项却夸大其词。这误读了排序和数值，导致错误归因。",
+        "G": "依赖“书房三大件市场规模图表”（chart_46_1）和“消费者书房家具偏好图表”（chart_46_2）联合推理：chart_46_1显示Sillas ergonómicas同比增速最高（+43%），而chart_46_2显示其在Post-85s、Post-80s等成熟群体偏好高（值为1），但Post-00s、Post-05s偏好低（值为0）。这揭示了规律：尽管年轻群体偏好不足，成熟群体的高偏好集中驱动了高速增长。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "B",
+        "F"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误比较了品类市场规模。chart_46_1中Lámparas protectoras de ojos 2024年12十亿元 > Sillas ergonómicas 4.5十亿元，但干扰项声称“抑制工学椅潜力”，曲解了差距（实际市场规模独立，无抑制关系）。长期预测（chart_46_3）基于Sillas ergonómicas自身趋势。",
+        "B": "依赖“书房三大件市场规模图表”（chart_46_1）和“工学椅市场规模展望图表”（chart_46_3）联合推理：chart_46_1显示Sillas ergonómicas 2023 - 2024年市场规模增长（3到4.5十亿元）且增速高（+43%），而chart_46_3显示2022 - 2030年预测规模从8.2亿美元增至17.4亿美元（大幅增长），这隐含联系：当前高增速趋势为长期增长提供依据。",
+        "C": "这是一个Hard干扰项：错误比较了市场规模单位和数值。chart_46_1中2023年Sillas ergonómicas 3十亿元（约4.2亿美元，假设1十亿元≈1.4亿美元），chart_46_3中2022年为8.2亿美元，干扰项误读单位（将十亿元直接等同美元）并错误计算差距（实际2023年规模4.2亿 < 2022年8.2亿？但2023年数据是书房“三大件”子集，而chart_46_3是整个工学椅市场），导致“趋势疲软”的结论错误。正确趋势是增长（2024年4.5十亿元）。",
+        "D": "依赖“书房三大件市场规模图表”（chart_46_1）和“工学椅市场规模展望图表”（chart_46_3）联合推理：chart_46_1显示Sillas ergonómicas规模扩大趋势，而chart_46_3的长期预测（2030年规模远高于2022年）与此一致；同时，chart_46_1中其他品类（如Lámparas protectoras de ojos增速26%）增速较低，突显Sillas ergonómicas的突出表现支持了长期乐观预测。",
+        "E": "依赖“书房三大件市场规模图表”（chart_46_1）和“工学椅市场规模展望图表”（chart_46_3）联合推理：chart_46_1的增速（+43%）在书房三大件中最高，而chart_46_3的长期增长倍数（约翻倍）远超稳态水平，这隐含当前增速优势可能延续至长期。",
+        "F": "这是一个Hard干扰项：错误解读了增速差距。chart_46_1显示Sillas ergonómicas增速43%高于Mesas para trabajar de pie 33%，但干扰项颠倒增速（说升降桌更高），并错误推导出“增速比较无关”，但实际增速差异可能强化预测依据。",
+        "G": "这是一个Easy干扰项：基于技术常识，不依赖图表内容。图表未提及技术创新，属于行业一般性知识。"
+      },
+      "easy_error": [
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "F",
+        "A"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "依赖“消费者书房家具偏好图表”（chart_46_2）和“座椅消费需求图表”（chart_46_4）联合推理：chart_46_2显示Sillas ergonómicas总偏好比例最高（66%），而chart_46_4显示基础功能中“Comodidad de Asiento”需求占比最高（62%），这揭示了规律：Sillas ergonómicas可能因满足高需求的基础功能（舒适性）而获得高偏好。",
+        "B": "这是一个Easy干扰项：基于营销常识，不依赖图表数据。图表未提及广告或品牌因素，属于泛泛而谈的正确句子。",
+        "C": "依赖“消费者书房家具偏好图表”（chart_46_2）和“座椅消费需求图表”（chart_46_4）联合推理：chart_46_2中Sillas ergonómicas偏好高，而chart_46_4显示多维体验需求（如Interacción Inteligente 25%）占比普遍低于基础功能，这隐含消费者更重视基础需求，Sillas ergonómicas的设计侧重（如Soporte de Funciones 43%）与此一致。",
+        "D": "这是一个Hard干扰项：错误解读了需求占比排序。chart_46_4中基础功能如Comodidad de Asiento占比62%最高，而多维体验如Diseño Estético仅22%（较低），干扰项却夸大其占比（说“主要驱动因素”），并错误关联偏好（chart_46_2中年轻群体对工学椅偏好低）。",
+        "E": "这是一个Hard干扰项：错误比较了需求特征数值。chart_46_4中Ajustabilidad占比33% < 基础功能如Comodidad de Asiento 62%，但干扰项声称“占比最高”，曲解了排序（实际进阶功能非最高），并错误推导为偏好主因。",
+        "F": "依赖“消费者书房家具偏好图表”（chart_46_2）和“座椅消费需求图表”（chart_46_4）联合推理：chart_46_2显示Sillas ergonómicas偏好突出，而chart_46_4中进阶功能“Ajustabilidad”需求占比33%，Sillas ergonómicas通常具可调节设计，隐含其特性与需求匹配，从而支持偏好。",
+        "G": "这是一个Hard干扰项：错误解读了偏好数据和需求关系。chart_46_2中Lámparas protectoras de ojos在Post-85s和Post-80s数据为1（偏好高），但干扰项未正确关联需求图表；Sillas ergonómicas总偏好66% > Lámparas protectoras de ojos 55%，干扰项错误归因于“品类多样性”，但问题焦点是需求特征满足（chart_46_4）。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "E",
+        "G"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en lógica común (como la sensibilidad al precio), pero no cita datos de los gráficos (como las prioridades de demanda en chart_46_4), y la 'sensibilidad al precio' no se menciona en los gráficos. La dirección de la estrategia está desvinculada de la optimización de la investigación y desarrollo, lo que es fácil de identificar como ineficaz.",
+        "B": "La opción 3 combina las necesidades de experiencia multidimensional en chart_46_4 (como la estética del diseño al 22%) y la alta preferencia de los grupos jóvenes (como los nacidos después de 1985 y 1990) por las sillas ergonómicas en chart_46_2 (TGI > 100), y identifica oportunidades segmentadas a través del razonamiento entre gráficos.",
+        "C": "Esta es una opción de distracción fácil: no se basa en ningún dato de los gráficos, solo en conocimientos comerciales generales (como la promoción de la cognición a través de la mercadotecnia), pero la formulación es amplia y no tiene una guía clara para la asignación de recursos de investigación y desarrollo. Además, ignora el núcleo de la pregunta, que es 'optimizar los recursos de investigación y desarrollo', lo que es fácil de descartar por conocimiento común.",
+        "D": "Esta es una opción de distracción difícil: cita datos de chart_46_1 (el tamaño del mercado de las lámparas de cuidado ocular es de 12 mil millones de yuanes), pero se desvía erróneamente el enfoque. La pregunta se refiere a la investigación y desarrollo de 'sillas ergonómicas', no a las lámparas de cuidado ocular. La opción de distracción interpreta erróneamente la relación entre los gráficos y aplica erróneamente los datos del mercado general a la estrategia de un producto específico, lo que resulta en una desviación de dirección.",
+        "E": "La opción 1 combina la tasa de crecimiento año tras año de las sillas ergonómicas en chart_46_1 (43%, la tasa de crecimiento más alta) y las necesidades de funciones básicas en chart_46_4 (como la comodidad de asiento al 62%, el porcentaje más alto), y enfatiza la relación positiva entre las funciones core y el crecimiento del mercado.",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza datos de chart_46_4 (el valor emocional en la experiencia multidimensional ocupa el 23%), pero interpreta erróneamente el 'porcentaje más alto'. En realidad, las funciones básicas como la comodidad de asiento (62%) son las de mayor porcentaje. La opción de distracción confunde las prioridades de demanda y sugiere erróneamente priorizar las funciones de bajo porcentaje, lo que viola la lógica de los datos.",
+        "G": "La opción 2 combina la tasa de crecimiento de chart_46_1 (43%) y las necesidades de funciones avanzadas en chart_46_4 (como la ajustabilidad al 33%), y utiliza la tendencia de crecimiento para impulsar la inversión en innovación."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: cita datos de chart_46_2 (la preferencia de los nacidos después de 2000 por las sillas ergonómicas), pero interpreta erróneamente los valores. La preferencia real de los nacidos después de 2000 es 0 (no 1). La opción de distracción confunde los datos y crea una preferencia alta ficticia, lo que lleva a una estrategia que se centra en el grupo incorrecto.",
+        "B": "Esta es una opción de distracción difícil: aparentemente combina chart_46_2 (la preferencia de los nacidos después de 1995 por las lámparas protectoras de ojos) y chart_46_1 (los datos de tasa de crecimiento), pero establece una relación errónea. La pregunta solicita una asignación de recursos de mercadotecnia para 'muebles de estudio', pero la opción de distracción se centra erróneamente en las lámparas protectoras de ojos (no en las sillas ergonómicas). Además, la preferencia real de los nacidos después de 1995 por las lámparas protectoras de ojos es 0 (no 1), y la interpretación de los datos es completamente errónea.",
+        "C": "Esta es una opción de distracción fácil: no se basa en datos de los gráficos, solo en principios de mercadotecnia generales (como la cobertura equitativa), pero la estrategia es amplia y no tiene una orientación específica hacia los 'grupos de alto potencial'. Además, ignora las diferencias de preferencia en los gráficos (como el porcentaje total en chart_46_2), lo que es fácil de descartar por conocimiento común.",
+        "D": "Esta es una opción de distracción fácil: se basa en conocimientos industriales generales (como la importancia de la experiencia en línea para los muebles), pero no cita ningún dato de los gráficos (como las preferencias de edad o el tamaño del mercado). La formulación no tiene una guía de acción específica y está desvinculada de la pregunta de 'ajustar la asignación de recursos'.",
+        "E": "La opción 2 combina la alta preferencia de los nacidos después de 2005 y 1995 por las mesas para trabajar de pie en chart_46_2 (TGI > 100) y la tasa de crecimiento de las mesas para trabajar de pie en chart_46_1 (33%), y identifica a los grupos de potencial futuro a través de los datos de preferencia y la tendencia de crecimiento.",
+        "F": "La opción 3 combina la alta preferencia de los nacidos después de 1980 por las sillas ergonómicas en chart_46_2 y el tamaño del mercado de las sillas ergonómicas en chart_46_1 (4.5 mil millones de yuanes en 2024), y razona la necesidad de equilibrar los recursos en función de la estabilidad de la preferencia y la base del mercado.",
+        "G": "La opción 1 combina la alta preferencia de los nacidos después de 1985 y 1990 por las sillas ergonómicas en chart_46_2 (TGI > 100) y las tasas de crecimiento de las sillas ergonómicas y las lámparas de cuidado ocular en chart_46_1 (43% y 26%), y identifica los grupos que se superponen entre alta preferencia y alto crecimiento."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La opción 2 combina la previsión a largo plazo de chart_46_3, las necesidades de funciones avanzadas en chart_46_4 (como la amigabilidad ambiental al 28%) y la tasa de crecimiento de las sillas ergonómicas en chart_46_1 (43%), y identifica el punto de conexión entre oportunidades a corto y largo plazo a través de los datos entre gráficos.",
+        "B": "Esta es una opción de distracción fácil: no se basa en datos de los gráficos, solo en estrategias de crecimiento generales (como la expansión de canales), pero la formulación es amplia y no tiene una guía específica para la 'expansión de la línea de productos'. Además, ignora la estructura de demanda de los consumidores (chart_46_4), lo que es fácil de descartar por conocimiento común.",
+        "C": "La opción 1 combina la previsión del tamaño del mercado en 2030 en chart_46_3 (17.4 mil millones de dólares estadounidenses, un crecimiento doble) y las necesidades de funciones básicas en chart_46_4 (como la durabilidad del producto al 47%), y razona la inversión central en función de la tendencia a largo plazo y las prioridades de demanda.",
+        "D": "La opción 3 combina el potencial de crecimiento a largo plazo de chart_46_3 y las necesidades de experiencia multidimensional en chart_46_4 (como el valor emocional y la función de curación al 23%), y razona una estrategia de prueba de innovación en función de una demanda baja pero con perspectivas de alto crecimiento.",
+        "E": "Esta es una opción de distracción difícil: cita chart_46_4 (la personalización ocupa el 17%) y chart_46_3 (el tamaño a largo plazo), pero interpreta erróneamente el 'porcentaje más alto'. La personalización es en realidad una de las más bajas (las funciones básicas como la comodidad de asiento al 62% son más altas). La opción de distracción confunde las prioridades de los datos y lleva a una estrategia errónea.",
+        "F": "Esta es una opción de distracción difícil: combina chart_46_4 (la ajustabilidad al 33%) y chart_46_1 (la tasa de crecimiento +43%), pero deduce erróneamente que el 'mercado está saturado'. Una alta tasa de crecimiento indica que el mercado está en expansión, no saturado. La opción de distracción interpreta erróneamente la tendencia y sugiere erróneamente cambiar a las lámparas de cuidado ocular (no a las sillas ergonómicas), lo que viola la lógica de los datos.",
+        "G": "Esta es una opción de distracción fácil: se basa en conocimientos de mercadotecnia (como la cooperación de marcas), pero no cita ningún dato de los gráficos (como la previsión a largo plazo o la demanda). La estrategia no se centra en las funciones del producto y está desvinculada de la pregunta de 'crecimiento sostenible'."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     }
   ]

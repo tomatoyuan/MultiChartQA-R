@@ -85,6 +85,22 @@
       "label": [
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Hard：错误关联无关图表（chart_13_2是年龄覆盖率，与外卖行为无关），且混淆数据维度。",
+        "B": "Easy：违反常识（暴雨通常增加外卖需求，减少外出），不依赖图表。",
+        "C": "同样需要联合推理：chart_13_1（列出暴雨低关注省份如新疆、宁夏）和chart_13_4（显示外卖检索增长率为41%，但基数数据可推知低关注省份贡献较小）。仅chart_13_1无法说明行为，仅chart_13_4无法定位地理，联合揭示低关注地区行为变化平缓的规律。",
+        "D": "Easy：绝对化错误（低关注省份仍可能使用外卖），基于常识而非图表。",
+        "E": "Hard：与chart_13_4的41%正增长矛盾（整体检索量激增，高关注省份应贡献主要增长）。",
+        "F": "需要联合推理：chart_13_1（显示7月20日暴雨关注省份包括北京、河北）和chart_13_4（显示7月20日外卖检索次数大幅增加）。仅凭一张图表无法推断行为响应（如chart_13_1只提供关注度，不涉及行为；chart_13_4只提供行为数据，不涉及地理分布）。两者联合表明地理关注高峰与行为激增的规律。"
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -107,6 +123,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Easy：常识错误（chart_13_3中Familia financiera区分度0.786<1，实际兴趣低于平均）。",
+        "B": "Hard：颠倒区分度含义（区分度>1表示兴趣高于平均，1.2359属最高兴趣）。",
+        "C": "需要联合推理：chart_13_2（显示25 - 34岁样本覆盖率最高）和chart_13_3（显示\"Gourmet\"区分度数值最高）。仅chart_13_2无法推导兴趣分布，仅chart_13_3无法联系年龄组，两者联合揭示年轻上班族（25 - 34岁）与饮食兴趣的隐含联系。",
+        "D": "Easy：忽略数据（chart_13_3显示Jugador区分度最低0.5915，兴趣最弱）。",
+        "E": "Hard：混淆概念（区分度反映兴趣强度，与覆盖率无关；样本覆盖率23.1%仅表示年龄占比）。",
+        "F": "需要联合推理：chart_13_2（18岁以下样本覆盖率23.1% vs 全体覆盖率12.4%，表明样本中青少年比例偏高）和chart_13_3（\"Jugador\"区分度0.5915最低）。单张图表无法证明兴趣与年龄的关联（chart_13_2无兴趣数据，chart_13_3无年龄数据），联合推理显示青少年兴趣偏离游戏的规律。",
+        "G": "需要联合推理：chart_13_2（50岁及以上样本覆盖率2.8%最低）和chart_13_3（\"Familia financiera\"区分度0.7860较低）。仅凭一张图表无法得出年龄与兴趣的匹配（chart_13_2无区分度，chart_13_3无覆盖率），联合揭示老年群体兴趣较低的隐含模式。"
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -127,6 +160,22 @@
       "label": [
         "A",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合推理：chart_13_1（7月20日Shandong、Henan为高关注省份）和chart_13_3（\"Decorador de interiores\"区分度0.9645 <1，表示兴趣低于平均）。仅chart_13_1无法说明兴趣冲突，仅chart_13_3无法定位地理，两者联合揭示高关注地区与低家居兴趣的冲突（预期暴雨应提升居家兴趣，但数据反常）。",
+        "B": "Hard：虚构分省份数据（chart_13_3未分省份，全国Entusiasta de la tecnología区分度统一为1.0763）。",
+        "C": "Hard：篡改数据（实际Decorador de interiores区分度0.9645<1，故意虚报为1.2）。",
+        "D": "需要联合推理：chart_13_1（Guangdong被列为暴雨低关注省份）和chart_13_3（\"Entusiasta de la tecnología\"区分度1.0763 >1，表示兴趣较高）。单张图表无法推断冲突（chart_13_1无兴趣数据，chart_13_3无地理数据），联合推理显示低关注地区反有较高数码兴趣的隐含冲突。",
+        "E": "Easy：捏造数值（Entusiasta de la tecnología实际区分度1.0763>1，且无证据支持\"全部<0.5\"）。",
+        "F": "Easy：违背数据（chart_13_3中Decorador de interiores区分度0.9645<1，兴趣低于平均）。"
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -149,6 +198,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de las provincias con menos atención del chart_13_1, pero interpreta incorrectamente el significado de 'baja atención' (en realidad significa baja percepción de riesgo o pocos eventos históricos, no alto riesgo potencial), y omite la tendencia de demanda (el aumento repentino de demanda en el período de máxima atención en el chart_13_4), lo que puede causar un desperdicio de recursos en áreas de baja demanda.",
+        "B": "Esta es una opción de distracción fácil: no se basa en los datos de los gráficos, solo en el conocimiento común de 'distribución equitativa', pero omite los cambios de atención geográfica y temporal mostrados en los gráficos (por ejemplo, el aumento de atención en provincias como Hebei el 20 de julio en el chart_13_1). Esta estrategia causará una asignación incorrecta de recursos y no podrá hacer frente al aumento repentino de demanda.",
+        "C": "Esta es una opción de distracción difícil: utiliza incorrectamente los datos de tiempo del chart_13_1 (solo se enfoca en el período del 1 al 7 de julio y omite los cambios del 20 de julio), mientras que el chart_13_4 muestra un aumento repentino de demanda el 20 de julio. Esta estrategia hará que los recursos se vuelvan obsoletos y no puedan responder a los cambios dinámicos.",
+        "D": "Involucra la tendencia de aumento de atención a las tormentas en provincias como Shandong, Beijing y Hebei el 20 de julio en el chart_13_1, y el aumento repentino de búsquedas de comida para llevar el 20 de julio en el chart_13_4 (una tasa de crecimiento significativa del 19 al 20 de julio), lo que indica que las áreas de alta atención coinciden con los períodos de máxima demanda y se necesitan asignar recursos prioritariamente.",
+        "E": "Esta es una opción de distracción fácil: se basa en la lógica de conocimiento común de que 'alta atención puede significar que el problema ya se ha expuesto', pero no se refiere a ningún gráfico. El chart_13_4 muestra un aumento repentino de demanda (como el aumento repentino de búsquedas de comida para llevar), y reducir los recursos aumentará la presión en la vida de las personas.",
+        "F": "Combina las características de baja atención continua de provincias como Xinjiang y Qinghai en el chart_13_1, y la tendencia general de aumento de demanda en el chart_13_4 (el aumento de búsquedas de comida para llevar en días lluviosos), y deduce que las áreas de baja atención pueden tener un mayor riesgo debido a la falta de preparación y se necesitan medidas preventivas (coincide con el valor de reforzar el apoyo en lugar de ignorar).",
+        "G": "Integra los cambios de atención en el tiempo en el chart_13_1 (el aumento de atención del 1 - 7 de julio al 20 de julio) y la sincronización temporal de la demanda en el chart_13_4 (el aumento repentino de búsquedas del 19 - 20 de julio), y enfatiza la coincidencia de recursos con los períodos de máxima demanda."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -171,6 +237,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: no se basa en los gráficos, solo en el conocimiento común de 'tratar a todos por igual', pero omite las diferencias de cobertura entre diferentes edades en el chart_13_2 (por ejemplo, la cobertura de muestra del 39.41% en el grupo de 25 - 34 años es demasiado alta) y la distinción de interés en el chart_13_3, lo que hará que los servicios carezcan de pertinencia.",
+        "B": "Esta es una opción de distracción difícil: utiliza incorrectamente los datos de cobertura de muestra del chart_13_2 (el 23.1% de los menores de 18 años), pero omite la baja cobertura total (el 12.4%), y la diferencia de representatividad indica que este grupo puede no estar suficientemente cubierto. Este razonamiento incorrecto llevará a una asignación excesiva de recursos.",
+        "C": "Combina la cobertura de muestra inferior a la cobertura total en el grupo de 35 - 49 años en el chart_13_2 (insuficiente para representar la tendencia), y la distinción líder de las amas de casa en el chart_13_3, lo que indica que este grupo puede ser ignorado pero tiene una fuerte relación de interés familiar, y se necesitan campañas de promoción específicas (coincide con el valor de cerrar la brecha informativa).",
+        "D": "Integra las características de alta cobertura total pero cobertura de muestra relativamente insuficiente en el grupo de 18 - 24 años en el chart_13_2, y la alta distinción de los entusiastas de la tecnología en el chart_13_3 (el valor es mayor que 1), y utiliza el interés para impulsar la cobertura de servicios.",
+        "E": "Esta es una opción de distracción fácil: se basa en el razonamiento de conocimiento común de que 'baja cobertura significa alta demanda', pero no utiliza los datos de los gráficos. El chart_13_2 muestra que la cobertura total de las personas mayores de 50 años es solo del 3.2% y la cobertura de muestra es del 2.8%, y la demanda real puede ser baja. Asignar recursos prioritariamente será ineficiente.",
+        "F": "Involucra la cobertura de muestra significativamente superior a la cobertura total en el grupo de 25 - 34 años en el chart_13_2 (tendencia de sobre - representación) y el título 'Los trabajadores de oficina son los más afectados', y al mismo tiempo combina la alta distinción de grupos como las amas de casa en el chart_13_3 (el valor es mayor que 1), y deduce que este grupo de edad está fuertemente afectado y se superpone con los grupos de alto interés, y se necesitan integrar servicios.",
+        "G": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de distinción del chart_13_3 (el valor de 0.5915 de los jugadores), pero confunde el significado de 'baja distinción' (en realidad significa bajo interés, no alto riesgo), y la estrategia correcta debería enfocarse en los grupos de alta distinción (por ejemplo, los gourmet con un valor de 1.2359). Este error puede causar un desperdicio de recursos en grupos de bajo interés."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -194,6 +277,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Combina la baja distinción de grupos como los jugadores en el chart_13_3 (el valor es menor que 1), y la diferencia entre la cobertura total y la cobertura de muestra de grupos de edad mayores de 50 años en el chart_13_2 (brecha informativa potencial), y deduce que los grupos de bajo interés pueden tener una baja conciencia de riesgo y se necesitan intervenciones educativas (coincide con el valor de apoyo equitativo).",
+        "B": "Involucra la distinción significativamente superior al nivel de referencia de grupos como los gourmet en el chart_13_3 (el valor es mayor que 1, tendencia de alto interés), y el aumento repentino de búsquedas de comida para llevar en el chart_13_4 (una tasa de crecimiento destacada), lo que indica que los grupos de alto interés tienen una demanda urgente y se necesitan asignar recursos preferencialmente.",
+        "C": "Esta es una opción de distracción difícil: utiliza incorrectamente los datos de tiempo del chart_13_4 (solo se enfoca en el 19 de julio y omite el aumento repentino y la tasa de crecimiento del 20 de julio), mientras que el chart_13_3 y el chart_13_2 muestran que la opinión pública y la demanda están sincronizadas. Esta asignación estática no puede responder a los cambios dinámicos y causará un retraso en el servicio.",
+        "D": "Esta es una opción de distracción fácil: se basa en la lógica de conocimiento común de 'cobertura total', pero no utiliza los datos de los gráficos. El chart_13_3 muestra una gran diferencia en la distinción de interés (por ejemplo, los gourmet con 1.2359 vs los jugadores con 0.5915), y una estrategia unificada reducirá la precisión y la eficiencia.",
+        "E": "Esta es una opción de distracción difícil: utiliza incorrectamente los datos de distinción del chart_13_3 (el valor de 0.5915 de los jugadores), pero los interpreta al revés (baja distinción significa bajo interés, no alto riesgo), y el chart_13_2 y el chart_13_4 muestran que la demanda está relacionada con los grupos de alto interés. Esta estrategia desperdiciará recursos en grupos de baja respuesta.",
+        "F": "Integra las características de atención de la opinión pública de grupos de alto interés (como los gourmet y las amas de casa) en el chart_13_3, y la tendencia de aumento repentino de demanda en el tiempo en el chart_13_4, y enfatiza la coincidencia entre áreas y tipos de servicios.",
+        "G": "Esta es una opción de distracción fácil: no se basa en los gráficos, solo en el conocimiento común de 'ahorrar recursos para las demandas temporales', pero omite la tendencia de aumento repentino de demanda en el chart_13_4 (las búsquedas el 20 de julio son 534381 con una tasa de crecimiento del 41%), y reducir los recursos aumentará la presión en la vida de las personas."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     }
   ]

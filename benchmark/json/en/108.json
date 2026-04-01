@@ -85,6 +85,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: It relies on language common sense (traditional media is regarded as authoritative) and completely ignores the chart content. For example, the actual proportion of the newspapers/magazines channel is only 24.67%, and the score in the professional and authoritative dimension is not the highest.",
+        "B": "This is an Easy distractor: It is based on industry common sense (social media emphasizes interactivity) and does not rely on chart data. It is a general correct statement but does not involve specific values or dimension scores in the chart.",
+        "C": "Option 1 needs to combine chart_108_1 (the Weibo/WeChat channel has the highest proportion) and chart_108_3 (the proportion of 5 - point scores in the real - time update dimension is the highest) to infer the association between high - usage channels and high - importance dimensions.",
+        "D": "This is a Hard distractor: It misinterprets the chart data. The proportion of the official websites of financial media channel is 31.91%, which is not high (lower than that of Weibo/WeChat, etc.), and the proportion of 5 - point scores in the professional and authoritative dimension is 35.64%, which is not the highest (the proportion in the data support dimension is 38.05%, which is higher). The option exaggerates the proportion and score of the official websites and creates a false association.",
+        "E": "Option 2 needs to combine chart_108_1 (the proportion of the professional financial data providers channel is the lowest) and chart_108_3 (the proportions of 5 - point scores in the data support and professional and authoritative dimensions are relatively high) to reveal the potential law between low - usage channels and high - importance dimensions.",
+        "F": "Option 3 needs to combine chart_108_1 (the proportion of the short - video channel is high) and chart_108_3 (the proportion of 5 - point scores in the novel format dimension is relatively low) to analyze the implicit relationship between popular channels and unmet dimensions.",
+        "G": "This is a Hard distractor: It misinterprets the chart data. The proportion of the Douyin/Kuaishou channel is 44.08%, which is not the highest (the proportion of Weibo/WeChat is 45.61%, which is higher), and the proportion of 5 - point scores in the novel format dimension is actually low (ranked behind in chart_108_3). The original chart shows that the score in the real - time update dimension is the highest (43.53%). Therefore, the option has a wrong understanding of the numerical values in the surface reasoning."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 needs to combine chart_108_2 (the proportion of users who read 4 - 5 times a week is the highest) and chart_108_3 (the proportions of 5 - point scores in the real - time update and in - depth analysis dimensions are relatively high, and the proportion of 5 - point scores in the strong interaction dimension is relatively low) to reveal the conflict between frequency and dimension importance: high - frequency users attach importance to some dimensions but ignore others.",
+        "B": "This is an Easy distractor: It is based on the model's own knowledge (in - depth analysis requires time investment) and does not rely on chart data. It is a common - sense reasoning but does not quote specific values from chart_108_2 or chart_108_3.",
+        "C": "This is a Hard distractor: It misinterprets the chart data. It is correct that the proportion of 5 - point scores in the novel format dimension is 29.82%, which is low, but the proportion of users with irregular, fragmented reading is only 6.57%, which is very low (not high). The option exaggerates the proportion and creates a wrong association. In fact, chart_108_2 shows that high - regularity users are the main group, and there is no direct contradiction with the low score in the novel format dimension.",
+        "D": "Option 3 needs to combine chart_108_2 (the proportion of users who read every day is low) and chart_108_3 (the proportion of 5 - point scores in the professional and authoritative dimension is relatively high) to analyze the inconsistency between low - frequency behavior and high - importance dimensions.",
+        "E": "This is an Easy distractor: It relies on industry common sense (fragmented readers prefer visual content) and completely ignores the chart. For example, the proportion of users with irregular, fragmented reading is only 6.57%, which is very low, and the score in the novel format dimension is not high.",
+        "F": "This is a Hard distractor: It misinterprets the chart data. The proportion of users who read every day is 19.96%, which is not the highest (the proportion of users who read 4 - 5 times a week is 51.54%, which is higher). It is correct that the score in the real - time update dimension is high, but the option defines high - frequency users as 'those who read every day' and ignores the main group, creating a ranking error. The score in the strong interaction dimension is indeed low (the proportion of 5 - point scores is 28.07%), but the explanation of the contradiction is not valid.",
+        "G": "Option 2 needs to combine chart_108_2 (the proportion of users with irregular, fragmented reading is low) and chart_108_3 (the proportion of 5 - point scores in the novel format dimension is relatively low) to infer the implicit contradiction between low - frequency users and low - importance dimensions."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: It misinterprets the chart data. It is correct that the proportion of the professional financial data providers channel is 13.27%, which is low, but the proportion of 5 - point scores in the in - depth analysis dimension is actually high (ranked among the top in chart_108_3). The option wrongly describes it as 'low score', distorting the gap. At the same time, the reading frequency data shows a high degree of regularity, but it does not weaken this demand.",
+        "B": "This is a Hard distractor: It misinterprets the chart data. It is correct that the proportion of the Weibo/WeChat channel is 45.61%, which is the highest, but the proportion of 5 - point scores in the strong interaction dimension is actually low (ranked second from the bottom in chart_108_3). The option wrongly describes the score as 'high', creating a wrong understanding of the numerical values. The proportion of users who read multiple times a week is 51.54%, which is correct, but there is no direct association.",
+        "C": "This is an Easy distractor: It relies on language common sense (high - frequency reading enhances trust) and ignores the chart content. For example, the proportion of the official websites of financial media channel is 31.91%, which is not high, and the score in the professional and authoritative dimension is medium.",
+        "D": "This is an Easy distractor: It is based on industry common sense (short - videos improve diversity) and does not rely on chart data. It is a general statement and does not involve the specific distribution or scores in chart_108_1, chart_108_2, or chart_108_3.",
+        "E": "Option 3 needs to combine chart_108_1 (the proportions of the official websites and clients of financial media channels are low), chart_108_2 (high - frequency reading is the main pattern), and chart_108_3 (the proportion of 5 - point scores in the international perspective dimension is relatively high) to reveal that even if the channel usage is low, the frequency habit still maintains the importance attached to specific dimensions.",
+        "F": "Option 2 needs to combine chart_108_1 (the proportion of the radio and TV channel is medium), chart_108_2 (the proportion of users who read every day is low), and chart_108_3 (the proportions of 2 - point and 1 - point scores in the exclusive report dimension are relatively high) to analyze how channel usage and frequency reduce the priority of certain dimensions.",
+        "G": "Option 1 needs to combine chart_108_1 (the proportion of the information platforms channel is high), chart_108_2 (the proportion of users who read 4 - 5 times a week is the highest), and chart_108_3 (the proportion of 5 - point scores in the rich content dimension is relatively high) to infer that channels and frequency jointly boost the importance attached to specific dimensions."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -152,6 +203,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combining the relatively low proportion of official websites and client channels in chart_108_1 and the high scores in the 'Data Support' and 'In - depth Analysis' dimensions in chart_108_3, it shows that although few users use professional channels, they attach importance to professional content. Resource allocation can strengthen official websites to enhance professionalism.",
+        "B": "Combining the highest proportion of social media (Weibo/WeChat) and short - video (Douyin/Kuaishou) channels in chart_108_1 and the dominant proportion of high - frequency reading users (4 - 5 times a week and daily) in chart_108_2, it shows that these channels are the main entry points for high - frequency users. Optimizing distribution can improve coverage and engagement.",
+        "C": "This is an Easy interference option: The suggestion is too general, based only on general marketing common sense (such as brand promotion to enhance influence), without combining the specific channel preferences (such as the high proportion of 45.61% for Weibo/WeChat) or reading habit data in the chart. It lacks targeted action guidance and can be easily excluded by common sense.",
+        "D": "Combining the medium but stable proportion of information platforms (such as Toutiao) and radio and TV channels in chart_108_1 and the fact that users' reading frequency is mainly multiple times a week in chart_108_2, it shows that regular content updates can attract users. At the same time, although the proportion of fragmented reading users is small, increasing interactivity can improve their engagement.",
+        "E": "This is a Hard interference option: Apparently using the data in chart_108_1 (the proportion of financial blogs/personal websites is 18.64%), it misinterprets the importance of the channel - the proportion of this channel is much lower than that of social media and short - videos (both exceeding 44%), and it does not consider reading habits (chart_108_2 shows that high - frequency reading users rely on timely information). The suggestion of 'customizing in - depth content' contradicts the needs of high - frequency users and may easily lead to resource misallocation.",
+        "F": "This is a Hard interference option: Apparently integrating chart_108_1 (the proportion of Douyin/Kuaishou is 44.08%) and chart_108_2 (the proportion of fragmented reading is 6.57%), it wrongly associates the channel with reading behavior - the proportion of the short - video channel is high and may support non - fragmented reading, and reducing investment ignores its high coverage. At the same time, the proportion of radio and TV channels is 34.32%, not the highest, and the suggestion is contrary to the data trend."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -173,6 +239,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combining the high scores of 'In - depth Analysis' and 'International Perspective' in chart_108_3 and the high proportion of mainstream channels (such as social media and short - videos) in chart_108_1, it shows that professional content needs to be adapted to high - coverage channels to expand influence.",
+        "B": "This is an Easy interference option: The suggestion is based on general news industry common sense (accuracy is the foundation), without citing the specific dimension scores in chart_108_3 (such as the high emphasis on real - time update of 43.53%). The statement is broad and there is no priority strategy, so it can be easily excluded by common sense.",
+        "C": "Combining the highest proportion of 5 - point scores in the 'Real - time Update' and 'Data Support' dimensions in chart_108_3 and the large proportion of high - frequency reading users in chart_108_2, it shows that users' needs are consistent with their reading behavior. Resources should be prioritized in these aspects to improve satisfaction.",
+        "D": "This is a Hard interference option: Apparently combining chart_108_2 (21.93% of users read 1 - 3 times a week) and chart_108_3 (the proportion of 5 - point scores for exclusive reports is 29.39%), it wrongly associates reading frequency with characteristic preferences - the score of exclusive reports is not the highest (lower than that of real - time update, etc.), and the behavior of medium - frequency users is not linked to specific dimensions in the data, which may easily mislead resource allocation.",
+        "E": "This is a Hard interference option: Apparently using the data in chart_108_3 (the proportion of 5 - point scores for strong interaction is the lowest at 28.07%), it misinterprets users' needs - users pay more attention to real - time update (43.53%) and data support (38.05%), and the reading frequency in chart_108_2 (51.54% read 4 - 5 times a week) does not directly support the association between interaction and high - frequency users. The suggestion ignores high - scoring dimensions and has a wrong strategic direction.",
+        "F": "Combining the relatively low scores of the 'Novel Format' and 'Strong Interaction' dimensions in chart_108_3 and the existence of the proportion of fragmented reading users in chart_108_2, it shows that innovative forms can improve the stickiness of such users without ignoring the needs of high - frequency users."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -195,6 +276,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combining the highest proportion of social media and short - video channels in chart_108_1 and the high scores in the 'Real - time Update' and 'Data Support' dimensions in chart_108_3, it shows that high - coverage channels can carry professional content to achieve a balance between coverage and professionalism.",
+        "B": "This is a Hard interference option: Apparently using the data in chart_108_1 (the proportion of professional financial data providers is the lowest at 13.27%), it misinterprets the need for professionalism - chart_108_3 shows that the scores of data support (38.05%) and in - depth analysis (35.96%) are high. Cutting resources ignores the balance. The suggestion contradicts the goal of 'balancing coverage and professionalism'.",
+        "C": "Combining the medium but lower proportion of official websites and client channels compared to mainstream channels in chart_108_1, the relatively high scores of 'Professional and Authoritative' and 'Exclusive Report' in chart_108_3, and the large proportion of high - frequency reading users in chart_108_2, it shows that resources should be strengthened on official websites to serve loyal users.",
+        "D": "This is an Easy interference option: The suggestion is based on general management common sense (average resource allocation), without considering the differences in channel proportions in chart_108_1 (such as 45.61% for social media vs 13.27% for professional channels) or the characteristic preferences in chart_108_3. The statement is broad and has no priority, so it can be easily excluded.",
+        "E": "This is a Hard interference option: Apparently integrating chart_108_1 (the proportion of newspapers/magazines is 24.67%) and chart_108_3 (the proportion of 5 - point scores for international perspective is 35.96%), it wrongly associates the channel with the characteristic - the proportion of newspapers/magazines is not high and they are not mainstream, and the international perspective does not specify channel preferences. The strategy of 'providing high - demand content on low - coverage channels' is inefficient and may easily reduce influence.",
+        "F": "Combining the relatively low proportion of radio and TV and newspaper/magazine channels in chart_108_1 and the existence of the proportion of fragmented reading users in chart_108_2, it shows that traditional channels can be optimized into lightweight content to cover diverse user groups."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

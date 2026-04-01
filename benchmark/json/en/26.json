@@ -90,6 +90,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Hard: Incorrectly compare the absolute proportions (the proportion of wives among male gift - givers is 9.7% vs. the proportion of husbands among female gift - givers is 10.1%), ignoring that the female proportion is actually slightly higher and the gap is tiny (10.1% > 9.7%).",
+        "B": "Hard: Reverse the data relationship (the proportion of opposite - sex with undetermined relationship among female gift - givers is only 119/1373≈8.7%, far lower than 49.3% among men), misinterpreting the numerical comparison in chart_26_2 and chart_26_3.",
+        "C": "Option 2 depends on chart_26_1 (the proportion of female searchers is 35%) and chart_26_3 (boyfriends and husbands are the dominant gift - receiving objects among female gift - givers), and also implicitly compares with chart_26_2 (the gift - receiving objects of men are more scattered). Joint reasoning: The comparison of gender behavior cannot be inferred from a single chart. Cross - chart analysis of search proportion and object distribution is required.",
+        "D": "Option 3 depends on chart_26_1 (men dominate in searching), chart_26_2 (men give gifts to opposite - sex with undetermined relationship more often), and chart_26_3 (women give gifts to those in a determined relationship more often). Joint reasoning: The causal relationship between search proportion and gift - receiving objects needs to integrate the data from two charts and cannot be determined by a single chart.",
+        "E": "Easy: Directly contradict the data in chart_26_1 (men 65% > women 35%), only based on the stereotype that 'women attach more importance to rituals'.",
+        "F": "Option 1 depends on chart_26_1 (showing that the proportion of male searchers is 65% and that of female searchers is 35%), chart_26_2 (the proportion of opposite - sex with undetermined relationship among male gift - giving objects is 49.3%), and chart_26_3 (the proportion of boyfriends among female gift - giving objects is high, about 81.2% after calculation). Joint reasoning: The overall search advantage of men and their preference for gift - receiving objects (non - fixed relationship) can only be concluded by combining the data from two charts to form a behavior pattern.",
+        "G": "Hard: Incorrectly calculate the proportion (girlfriends + wives among men = 22.7%+9.7% = 32.4%, boyfriends + husbands among women ≈81.2%+10.1% = 91.3%), fabricating the conclusion of 'similar proportions'."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "B",
+        "G"
       ]
     },
     {
@@ -112,6 +129,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Option 2 depends on chart_26_4 (among those <19 years old, women 20% vs. men 13%, but the attention in this group is low; among those 25 - 34 years old, men 41%) and chart_26_1 (men dominate overall). Joint reasoning: The contradiction between the absolute attention in age groups (implied weight) and the overall proportion requires cross - chart analysis, and a single chart cannot resolve the conflict.",
+        "B": "Hard: Fabricate the 'largest population base' (there is no population base data in the chart), and ignore that the attention weight in the 35 - 49 age group is the lowest (men 8%+women 5% = 13%, far lower than 68% in the 25 - 34 age group).",
+        "C": "Easy: Directly misinterpret the data (chart_26_4 shows that both men and women are 1% in the ≥50 age group), fabricating the difference of 'women are lower'.",
+        "D": "Hard: Incorrectly quantify the weight (the total attention in the 19 - 24 age group is 84% vs. 68% in the 25 - 34 age group), failing to notice the absolute numerical advantage of 41% among men in the 25 - 34 age group.",
+        "E": "Option 1 depends on chart_26_4 (among those 19 - 24 years old, women 47% vs. men 37%; among those 25 - 34 years old, men 41% vs. women 27%) and chart_26_1 (men 65% overall). Joint reasoning: The conflict stems from age - group differences. Combining the two charts to compare the proportions in specific groups with the overall proportion is necessary to explain why women have a higher proportion locally but men have a higher proportion overall.",
+        "F": "Option 3 depends on chart_26_4 (data of all age groups, such as the similar proportions of men and women in the 35 - 49 age group) and chart_26_1 (the overall proportion). Joint reasoning: The apparent conflict (women have a higher proportion in young groups but a lower proportion overall) requires integrating the age - distribution chart and the overall proportion chart to identify the key influencing groups.",
+        "G": "Easy: Contradict common sense (the younger age group is usually more active) and there is no chart support for the assertion of 'the lowest search volume'."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -134,6 +168,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Hard: Contradict chart_26_4 (the attention in the ≥50 age group is only 1%), incorrectly associating the low - attention group with industry data.",
+        "B": "Easy: Ignore basic knowledge (the digital consumption of the elderly group is weak) and directly conflict with the data in chart_26_4 (the attention in the ≥50 age group is the lowest).",
+        "C": "Option 1 depends on chart_26_5 (the coverage of the IT/Internet industry is 21.9%, the highest) and chart_26_4 (the total attention in the 19 - 24 and 25 - 34 age groups is the highest, men 37%+41% = 78%, women 47%+27% = 74%). Joint reasoning: The industry coverage needs to be jointly analyzed with the age - group attention to infer the implicit connection between the IT industry and the young population (it cannot be concluded from a single chart).",
+        "D": "Option 2 depends on chart_26_5 (the coverage of the advertising/marketing industry is 19.9%) and chart_26_4 (the proportion of women in the 19 - 24 age group is 47%, higher than that of men). Joint reasoning: The high coverage of the advertising industry may be related to the sensitivity of a specific age - gender group. Cross - chart connection of industry data and population distribution is required.",
+        "E": "Option 3 depends on chart_26_5 (the coverage of the automotive industry is 6.1%, and that of government/non - profit organizations is 7.5%, relatively low) and chart_26_4 (the attention in the ≥50 age group is only 1%, overall low). Joint reasoning: The low values of industry coverage need to be combined with the low - attention age group to reveal the relationship between industries and population age.",
+        "F": "Easy: Contradict common sense (the age structure of government agencies is relatively conservative), and chart_26_5 does not provide the industry age distribution.",
+        "G": "Hard: Reverse the age characteristics (chart_26_4 shows that the total attention in the 35 - 49 age group is 13%, while it is 84% in the 19 - 24 age group), misjudging the highly sensitive population."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 involves the combined reasoning of chart_26_1 (the proportion of male searches is higher than that of females) and chart_26_2 (the proportion of men giving gifts to opposite - sex with undetermined relationship is the highest).",
+        "B": "This option does not rely on the charts but only on industry common sense (the popularity of social media). However, it does not combine the gender ratio in chart_26_1 or the gift - giving behaviors in chart_26_2/26_3. The strategy has no data support and can be easily excluded by common sense.",
+        "C": "This option misinterprets the chart data: chart_26_3 shows that among female gift - giving recipients, the number of opposite - sex with undetermined relationship is 119 (proportion about 8.7%), far lower than that of boyfriends, which is 1115 (proportion about 81.2%). The interference item wrongly claims that 'the proportion of opposite - sex with undetermined relationship is the highest', confusing the numerical value with the proportion and misleading the strategy to focus on the wrong group.",
+        "D": "This option wrongly understands the chart trend: chart_26_2 shows that among male gift - giving objects, the proportion of opposite - sex with undetermined relationship is the highest at 49.3%, not the stable relationship (wives only account for 9.7%). The interference item wrongly assumes that'men mostly give gifts to those in a stable relationship', resulting in the suggestion to reduce male advertising investment, which contradicts the data.",
+        "E": "This option does not rely on the chart data but only on general marketing common sense (such as emotional themes and full - gender coverage). However, it ignores the gender search proportion difference (65% for men vs 35% for women) and the concentration of gift - giving objects shown in the charts, resulting in a broad and non - targeted strategy that cannot optimize resource allocation.",
+        "F": "Option 2 involves the combined reasoning of chart_26_1 (the proportion of female searches is lower) and chart_26_3 (the proportion of women giving gifts to boyfriends is significantly higher than other recipients).",
+        "G": "Option 3 comprehensively considers the gender behavior differences in chart_26_1, chart_26_2, and chart_26_3, ensuring that the strategy covers a wide range of scenarios."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Option 2 involves the combined reasoning of chart_26_4 (the 25 - 34 age group has a relatively high level of attention, and the male proportion is more significant) and chart_26_6 (luggage and perfume have relatively high values in the ranking).",
+        "B": "This option wrongly applies the chart trend: chart_26_4 shows that the female attention percentage in the 19 - 24 age group is the highest at 47%, but in chart_26_6, the search volume of chocolate is 416132, which is not the highest (the search volume of mobile phones is 430998, which is higher), and it ignores the male group (the male attention percentage in the 19 - 24 age group is 37%). The interference item one - sidedly focuses on females and wrongly associates gift preferences.",
+        "C": "Option 1 involves the combined reasoning of chart_26_4 (the 19 - 24 age group has a relatively high level of attention among both men and women) and chart_26_6 (mobile phones and chocolate have the highest values in the gift ranking).",
+        "D": "Option 3 is based on the overall trend in chart_26_4 (the attention percentage of the age group over 35 is relatively low), emphasizing resource optimization while conforming to values and not discriminating against low - attention groups.",
+        "E": "This option misinterprets the chart data: chart_26_4 shows that the attention percentages of the 35 - 49 age group are only 8% (for men) and 5% (for women), far lower than those of the 19 - 24 age group, which are 47% (for women) and 37% (for men). The interference item wrongly claims that 'the attention percentage is relatively high', confusing the low - attention group with the high - attention group and resulting in inventory allocation deviation.",
+        "F": "This option does not rely on the chart data but only on general retail common sense (such as full - category coverage and discounts). However, it ignores the age distribution in chart_26_4 (the 19 - 24 age group has the highest attention percentage) and the ranking of popular gifts in chart_26_6 (the search volume of mobile phones is the highest). The strategy is broad and has no priority.",
+        "G": "This option does not rely on the charts but only on supply - chain common sense (logistics optimization). However, it does not combine the age distribution or gift ranking data. The strategy is non - targeted and can be easily excluded by common sense."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This option misinterprets the chart data: chart_26_5 shows that the attention percentage of the health care industry is only 2.9%, the lowest. The interference item wrongly suggests 'high - budget promotion', which contradicts the data trend (the correct strategy should be low - cost maintenance). At the same time, the search volume of perfume in chart_26_6 is 124097, relatively low, and there is no evidence to support the industry's preference.",
+        "B": "Option 2 involves the combined reasoning of chart_26_5 (the attention percentages of the finance and hotel/tourism industries are medium) and chart_26_6 (perfume and flowers have relatively high values in the ranking).",
+        "C": "Option 3 is based on the data in chart_26_5 (the attention percentages of industries such as health care are relatively low), and the strategy conforms to values: not reducing services but optimizing cost - efficiency.",
+        "D": "This option does not rely on the chart data but only on general marketing principles (such as equal budget and emotional themes). However, it ignores the differences in industry attention in chart_26_5 (the IT/Internet industry has the highest attention percentage at 21.9% vs the health care industry at 2.9%, the lowest) and the gift preferences in chart_26_6. The strategy is broad and non - targeted.",
+        "E": "This option does not rely on the charts but only on digital - marketing common sense (such as optimizing the advertising time). However, it does not combine the industry attention or gift preference data. The strategy has no data basis and can be easily excluded by common sense.",
+        "F": "Option 1 involves the combined reasoning of chart_26_5 (the IT/Internet and advertising/marketing industries have the highest attention percentages) and chart_26_6 (mobile phones have the highest value in the gift ranking).",
+        "G": "This option wrongly understands the chart relationship: in chart_26_5, the attention percentage of the wholesale/retail industry is 5.1%, relatively low (ranked 7th). The interference item wrongly claims that 'the attention percentage is relatively high'. Although the search volume of chocolate is high (416132), there is no chart showing the industry association, and the promotion strategy is wrongly matched."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     }
   ]

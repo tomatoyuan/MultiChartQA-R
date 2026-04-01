@@ -86,6 +86,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "This question requires a joint analysis of the growth rate chart (chart_9_1) and the attention chart (chart_9_4). The option relies on chart_9_1 (Tianjin with a growth rate of 120 and Inner Mongolia with 135) and chart_9_4 (Tianjin with an attention TGI of 132.3 and Inner Mongolia with 120.5). With high growth and high attention, it infers a stable interest in the northern regions. All options need to combine the two charts: a single chart cannot infer 'consistent interest' (for example, Guangxi has the highest growth in chart_9_1, but low attention in chart_9_4, showing inconsistency). The difference between options lies in different combinations of provinces and cities (eastern vs. northern vs. western).",
+        "B": "This question requires a joint analysis of the growth rate chart (chart_9_1) and the attention chart (chart_9_4). The option relies on chart_9_1 (Ningxia with a growth rate of 135 and Guizhou with 80) and chart_9_4 (Ningxia with an attention TGI of 110.3 and Guizhou with 121.7). With relatively high growth and medium - high attention, it infers a continuous growth trend in the western regions. All options need to combine the two charts: a single chart cannot infer 'consistent interest' (for example, Guangxi has the highest growth in chart_9_1, but low attention in chart_9_4, showing inconsistency). The difference between options lies in different combinations of provinces and cities (eastern vs. northern vs. western).",
+        "C": "This option is based on the chart but has a wrong ranking: Jiangxi has a growth rate of 105 (ranked 6th in chart_9_1), but 105 does not belong to the 'high' group (the highest is 145, and the top five are all ≥120); Guizhou has a growth rate of 80 (ranked 12th), which is relatively low; although the attention is high (Jiangxi has the highest at 171.5 and Guizhou at 121.7), the growth rate does not meet the 'high' condition, wrongly associating medium - low growth with high attention.",
+        "D": "This question requires a joint analysis of the growth rate chart (chart_9_1) and the attention chart (chart_9_4). The option relies on chart_9_1 (Jiangsu with a growth rate of 100 and Hebei with 90) and chart_9_4 (Jiangsu with an attention TGI of 140.5 and Hebei with 120.8). Both show medium - high levels, inferring that the growth and current attention in Jiangsu and Hebei are consistent. All options need to combine the two charts: a single chart cannot infer 'consistent interest' (for example, Guangxi has the highest growth in chart_9_1, but low attention in chart_9_4, showing inconsistency). The difference between options lies in different combinations of provinces and cities (eastern vs. northern vs. western).",
+        "E": "This option is based on the chart but has a wrong understanding of the values: Ningxia has a growth rate of 135 (ranked 3rd in chart_9_1) and an attention of 110.3 (chart_9_4); Inner Mongolia has a growth rate of 135 (ranked 4th) and an attention of 120.5; but the statement 'less than Guangxi' in terms of growth rate is wrong (Guangxi has the highest growth of 145). In fact, both have high growth rates and high attention, but the option implies insufficient growth, misleading as 'less than'.",
+        "F": "This option is based on common sense (first - tier cities usually have high interest due to economic development), but the chart data does not support it: Beijing has a growth rate of only 30 (ranked 22nd in chart_9_1) and an attention of 90.3 (chart_9_4); Shanghai has a growth rate of 75 (ranked 13th) and an attention of 99.8. Neither belongs to the category of 'high growth and high attention'.",
+        "G": "This option is based on common sense (economically strong provinces have high interest), but the chart data does not support it: Guangdong has a growth rate of 65 (ranked 15th in chart_9_1) and an attention of 100.7 (chart_9_4); Zhejiang has a growth rate of 85 (ranked 10th) and an attention of 100.4. The growth rate is relatively low (the highest is 145), and the attention is only slightly higher than the benchmark (TGI 100), not meeting the 'high' standard."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option is based on common sense (international brands are popular among young men), but the chart data does not support it: Apple has a TGI of only 95 (chart_9_3), which is lower than the benchmark of 100 and does not belong to the 'high attention index'; although the male TGI is 120 (chart_9_2), Apple is not strongly correlated with it.",
+        "B": "This option is based on common sense (female shopping habits) but has a wrong understanding of the chart: The female TGI is 93 (chart_9_2), which is lower than the benchmark, indicating low attention, while vivo's TGI is 95 (chart_9_3), which is only slightly lower than the benchmark. The option wrongly describes 'low attention' as'relevant' and does not involve the high - attention groups of males or the 25 - 34 age group.",
+        "C": "This question requires a joint analysis of the demographic chart (chart_9_2) and the mobile brand chart (chart_9_3). The option relies on chart_9_2 (the 25 - 34 age group with a TGI of 117, the highest) and chart_9_3 (Huawei with a TGI of 105 and Honor with a TGI of 110). It infers that the young group is a key factor in the high attention of the brands, and the male TGI of 120 strengthens the difference (compared with Apple's lower TGI of 95). All options need to combine the two charts: a single chart cannot explain the brand differences, and a single chart cannot link the demographics. The difference between options lies in emphasizing different factors (male vs. young group vs. brand combination).",
+        "D": "This option is based on the chart but has a wrong understanding of the numerical gap: The 25 - 34 age group has a TGI of 117 (chart_9_2), but Xiaomi's TGI is 95 and OPPO's TGI is 92 (chart_9_3), both of which are lower than 117 and close to the benchmark, not belonging to the 'high attention index'. It wrongly associates brands with low TGI and ignores actual brands with high TGI such as Honor with 110.",
+        "E": "This question requires a joint analysis of the demographic chart (chart_9_2) and the mobile brand chart (chart_9_3). The option relies on chart_9_2 (males with a TGI of 120, relatively high, and the 25 - 34 age group with a TGI of 117, the highest) and chart_9_3 (Huawei with a TGI of 105, relatively high). It infers that males and the young group may prefer Huawei, explaining the high attention of the brand. All options need to combine the two charts: a single chart cannot explain the brand differences, and a single chart cannot link the demographics. The difference between options lies in emphasizing different factors (male vs. young group vs. brand combination).",
+        "F": "This option is based on the chart but exaggerates the gap: Huawei has a TGI of 105 and Honor has a TGI of 110 (chart_9_3), and the gap with the 25 - 34 age group's TGI of 117 is small (117 - 110 = 7), but the option implies that 'the gap is exaggerated', misleading as uncorrelated. The actual data supports the association (such as Honor's high TGI of 110).",
+        "G": "This question requires a joint analysis of the demographic chart (chart_9_2) and the mobile brand chart (chart_9_3). The option relies on chart_9_2 (the 25 - 34 age group with a TGI of 117, the highest) and chart_9_3 (Honor with a TGI of 110, the highest). It jointly infers that the young group drives Honor's high attention, and the male TGI of 120 provides additional support. All options need to combine the two charts: a single chart cannot explain the brand differences, and a single chart cannot link the demographics. The difference between options lies in emphasizing different factors (male vs. young group vs. brand combination)."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This question requires a joint analysis of the mobile brand chart (chart_9_3) and the provincial and municipal attention chart (chart_9_4). The option relies on chart_9_3 (Honor with a search proportion of 5%, which is low, and a TGI of 110, which is high) and chart_9_4 (Guangxi with a search proportion of 1.2, which is low, and a TGI of 80.4, relatively low but with high growth; Jilin with a search proportion of 0.9, which is low, and a TGI of 70.6, which is low). It jointly infers that regions with low proportions may have high potential (referring to Guangxi's growth of 145 in chart_9_1), implying an untapped market. All options need to combine the two charts: a single chart cannot identify pattern similarities (for example, Apple in chart_9_3 has a high search proportion but a medium TGI, not in line with the pattern). The difference between options lies in different entities (brands vs. provinces and cities) and implicit meanings (market potential vs. depth of interest).",
+        "B": "This option is based on the chart but has a wrong understanding of attention: Ningxia has a search proportion of 1.0% (chart_9_4), which is low, and an attention of 110.3, which is higher than the benchmark of 100, belonging to high attention; Guizhou has a search proportion of 1.9%, which is low, and an attention of 121.7, which is high. But the option says 'low attention', wrongly ignoring the data (both 110.3 and 121.7 are > 110) and exaggerating the gap with provinces and cities with high search proportions.",
+        "C": "This option is based on the chart but has a numerical error: Honor with a search proportion of 5% (chart_9_3), which is low, and a TGI of 110, which is high, is correct. But Jiangxi's search proportion of 4.2% (chart_9_4) is not 'low' (the median search proportion is about 2 - 3%, and Jiangxi's 4.2 is higher than most, such as Ningxia's 1.0). Although the attention of 171.5 is high, the search proportion is wrongly classified, misleading as a low - proportion case.",
+        "D": "This option is based on common sense (developed regions have high interest) but ignores the pattern: Guangdong has a search proportion of 9.3% (chart_9_4), which is high (higher than the average), not belonging to the 'low search proportion'. Jiangsu has a search proportion of 10.1%, which is high, and an attention of 140.5, which is high. But the pattern requires 'low proportion and high attention', so this option does not match.",
+        "E": "This question requires a joint analysis of the mobile brand chart (chart_9_3) and the provincial and municipal attention chart (chart_9_4). The option relies on chart_9_3 (Honor with a search proportion of 5%, which is low, and a TGI of 110, which is high) and chart_9_4 (Ningxia with a search proportion of 1.0, which is low, and a TGI of 110.3, which is high). By directly comparing the numerical patterns, it infers an implicit connection of low popularity but high interest. All options need to combine the two charts: a single chart cannot identify pattern similarities (for example, Apple in chart_9_3 has a high search proportion but a medium TGI, not in line with the pattern). The difference between options lies in different entities (brands vs. provinces and cities) and implicit meanings (market potential vs. depth of interest).",
+        "F": "This option is based on common sense (high search proportion usually means high interest), but the chart data does not support the pattern: Apple has a search proportion of 30% (chart_9_3), which is high, and a TGI of 95, which is low, not belonging to the category of 'low search proportion but high attention'. The option wrongly describes the pattern and does not involve correct cases such as Honor.",
+        "G": "This question requires a joint analysis of the mobile brand chart (chart_9_3) and the provincial and municipal attention chart (chart_9_4). The option relies on chart_9_3 (Honor with a search proportion of 5%, which is low, and a TGI of 110, which is high) and chart_9_4 (Ningxia with a search proportion of 1.0, which is low, and a TGI of 110.3, which is high; Guizhou with a search proportion of 1.9, which is low, and a TGI of 121.7, which is high). It infers that the brand and provinces and cities share the pattern of 'low proportion and high attention', implying commonalities in niche markets. All options need to combine the two charts: a single chart cannot identify pattern similarities (for example, Apple in chart_9_3 has a high search proportion but a medium TGI, not in line with the pattern). The difference between options lies in different entities (brands vs. provinces and cities) and implicit meanings (market potential vs. depth of interest)."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -151,6 +202,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "In chart_9_1, some provinces have a relatively high growth rate but low attention (e.g., Beijing has a 30% growth rate, while the TGI in chart_9_4 is only 90.3). Educational marketing should be used to increase interest. The strategy should avoid value - related issues (not neglect low - attention areas) and instead tap into their potential.",
+        "B": "The strategy violates basic business logic. Areas with a low search ratio (e.g., Tibet with a TGI of only 20.4) usually have weak demand. Forcing high investment in these areas is likely to lead to resource waste and is not based on the chart data.",
+        "C": "Chart_9_1 shows that the search growth rate in some provinces is significant (e.g., Guangxi and Ningxia have a growth rate of over 135%), indicating a rapid increase in demand. Although the TGI of these provinces in chart_9_4 (e.g., Guangxi with a TGI of 80.4) is not the highest, considering the high - growth trend, resource investment can quickly capture market opportunities.",
+        "D": "Relying only on external economic indicators (GDP) and ignoring the core indicators in the chart (search growth/TGI). For example, Beijing has a high GDP but a search growth rate of only 30% (chart_9_1), and the strategy has no data support.",
+        "E": "Confusing the concepts of 'meeting the attention standard' and 'high potential' (e.g., Shanghai has a TGI of 99.8≈100 but a growth rate of only 75%). Failing to identify areas with high growth and high TGI synergy (e.g., Guangxi has a growth rate of 145% but a TGI of only 80.4), resulting in resource misallocation.",
+        "F": "In chart_9_4, provinces with a high search ratio (e.g., Jiangsu with 10.1% and Shandong with 8.9%) usually have a stable TGI (e.g., Jiangsu with 140.5 and Shandong with 131.2). Continuous investment is needed to consolidate the market. Chart_9_1 shows that these provinces have a medium growth rate (e.g., Jiangsu with 100% and Shandong with 40%), and monitoring is required to avoid being overtaken by high - growth areas."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "E"
       ]
     },
     {
@@ -172,6 +238,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Misinterpreting the potential of the low - TGI group. The TGI of the over - 45 group is only 82 (chart_9_2), which is an area with low interest. The ROI of investment in this group is much lower than that of the 25 - 34 age group (TGI = 117).",
+        "B": "Chart_9_2 shows that the 25 - 34 age group has the highest TGI (117), indicating strong interest. In chart_9_3, the Honor brand has a high TGI (110). Collaborating with it can accurately reach this group and improve efficiency (avoid relying on a single chart).",
+        "C": "In chart_9_2, the 18 - 24 age group has a medium TGI (104). Through interactive marketing (such as on social media) with emerging brands like Honor (TGI 110) in chart_9_3, the loyalty of young users can be improved. The strategy conforms to values (not giving up low - attention groups but cultivating them).",
+        "D": "Misinterpreting the TGI threshold. Apple's TGI = 95 is close to the baseline of 100 (not significantly low), and it has the highest search ratio (30%, chart_9_3). Reducing cooperation will result in the loss of core traffic.",
+        "E": "In chart_9_2, men have a higher TGI (120) and women have a lower TGI (93). Differentiated content is needed. In chart_9_3, Huawei has a high search ratio (44%) and a good TGI (105). Collaborating with it can cover a wide range of users and balance the gender - based strategy.",
+        "F": "Ignoring the difference in attention between genders (men's TGI = 120 vs women's 93), the 'neutral strategy' weakens the efficiency of reaching high - response groups, violating the principle of precision marketing."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -194,6 +275,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Using population base instead of interest indicators, ignoring the TGI advantage of men (120), and not correlating with regional data (such as the gender distribution in high - TGI provinces).",
+        "B": "In chart_9_1, some provinces have a high growth rate (e.g., Guangxi with 145% and Ningxia with 135%), but in chart_9_4, their TGI is relatively low (e.g., Guangxi with 80.4). Quick responses are needed. Men have a high TGI (120) in chart_9_2, and Huawei users have a high search ratio (44%) in chart_9_3. Collaborating and designing content can improve efficiency.",
+        "C": "In chart_9_4, provinces with a high TGI (e.g., Jiangxi with 171.5 and Jiangsu with 140.5) have users with strong interest. In chart_9_2, the 25 - 34 age group has the highest TGI (117). Targeting this group in these regions can magnify the effect (cross - reference between regions and populations).",
+        "D": "A contradictory combination. Guangxi has a high growth rate (chart_9_1) but a TGI of only 80.4 (chart_9_4), and the over - 45 group has the lowest TGI (82, chart_9_2). The strategy is inefficient in two aspects.",
+        "E": "In chart_9_4, provinces with a high search ratio (e.g., Hebei with 6.3% and Shandong with 8.9%) need to stabilize demand. In chart_9_2, the 35 - 44 age group has a medium TGI (95). Combining with regional data, integrating strategies for multiple age groups (such as educational content) can avoid neglecting any group, which conforms to values.",
+        "F": "Failing to target the peak - value population. Jiangxi has a high TGI (171.5) and should prioritize the 25 - 34 age group (with a peak TGI of 117), but instead wrongly focuses on the sub - optimal age group (18 - 24 years old with a TGI of 104)."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     }
   ]

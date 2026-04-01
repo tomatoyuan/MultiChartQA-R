@@ -83,6 +83,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Opción correcta porque: chart_96_1 muestra que las ventas disminuyeron continuamente después de 2017, mientras que en chart_96_3 las proporciones de puntos débiles de espacio y comodidad son altas (como \"Pobre efecto de amortiguación\" que representa el 26.4%). El razonamiento conjunto indica que estos puntos débiles pueden reducir directamente la satisfacción del usuario, lo que lleva a una disminución de la demanda. Se requiere un análisis cruzado de la tendencia de ventas (descendente) y la gravedad de los puntos débiles (alta proporción) para inferir la conexión implícita: los puntos débiles no resueltos pueden amplificar la tendencia a la baja de las ventas.",
+        "B": "Esta es una opción de interferencia difícil, basada en datos de chart_96_1 y chart_96_3, pero con una interpretación errónea de las brechas y asociaciones. Es un hecho que las ventas cayeron un 17.1% en 2017, pero \"Alto ruido dentro del automóvil\" en los puntos débiles de comodidad representa solo el 21.6% (clasificación media), inferior a \"Los asientos de la tercera fila no tienen ventanas\" (29.9%) y \"Pobre efecto de amortiguación\" (26.4%). La opción atribuye erróneamente un punto débil secundario como la causa principal, ignorando la distribución real de los puntos débiles.",
+        "C": "Esta es una opción de interferencia fácil, basada también en conocimiento general (la marca y el servicio posventa influyen en las decisiones de compra), sin involucrar datos del gráfico. Los gráficos no discuten problemas de marca o servicio, por lo que es una afirmación genérica correcta.",
+        "D": "Esta es una opción de interferencia difícil, aparentemente basada en datos de chart_96_3, pero con un error en la comprensión de los valores y el orden. En los puntos débiles de espacio, \"Espacio reducido en la tercera fila\" representa realmente el 23.8% (cuarto lugar), siendo el más alto \"Espacio de maletero insuficiente cuando se usa la tercera fila\" (30.0%). Error al considerarlo el problema \"más importante\", lo que tergiversa la relación causal.",
+        "E": "Opción correcta porque: chart_96_1 muestra que las ventas disminuyeron continuamente después de 2017, mientras que en chart_96_3 las proporciones de puntos débiles de espacio y comodidad son altas (como \"Acceso inconveniente a la tercera fila\" que representa el 28.3%). El razonamiento conjunto indica que estos puntos débiles pueden reducir directamente la satisfacción del usuario, lo que lleva a una disminución de la demanda. Se requiere un análisis cruzado de la tendencia de ventas (descendente) y la gravedad de los puntos débiles (alta proporción) para inferir la conexión implícita: los puntos débiles no resueltos pueden amplificar la tendencia a la baja de las ventas.",
+        "F": "Opción correcta porque: chart_96_1 muestra que las ventas disminuyeron continuamente después de 2017, mientras que en chart_96_3 las proporciones de puntos débiles de espacio y comodidad son altas (como \"Espacio de maletero insuficiente cuando se usa la tercera fila\" que representa el 30.0%). El razonamiento conjunto indica que estos puntos débiles pueden reducir directamente la satisfacción del usuario, lo que lleva a una disminución de la demanda. Se requiere un análisis cruzado de la tendencia de ventas (descendente) y la gravedad de los puntos débiles (alta proporción) para inferir la conexión implícita: los puntos débiles no resueltos pueden amplificar la tendencia a la baja de las ventas.",
+        "G": "Esta es una opción de interferencia fácil, basada en conocimiento general del lenguaje y del sector (como el impacto del precio del combustible en la demanda de automóviles), sin depender de ningún dato del gráfico. Los gráficos no mencionan factores de precio o costo, por lo que la opción, aunque razonable, es irrelevante."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -105,6 +122,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, basada en conocimiento general (la importancia de la seguridad en escenarios familiares), sin depender de datos del gráfico. Los gráficos no mencionan el rendimiento de seguridad, por lo que es conocimiento general del sector.",
+        "B": "Opción correcta porque: chart_96_2 muestra escenarios de alta frecuencia, mientras que en chart_96_3 \"Pobre comodidad de los asientos\" representa el 18.2%. El razonamiento conjunto revela que existe una conexión implícita entre las necesidades de escenarios específicos (como visitar a familiares de larga distancia) y los puntos débiles correspondientes (como defectos en la comodidad de los asientos), y los puntos débiles pueden amplificar las inconveniencias en el escenario. Se requiere una comparación cruzada de la prevalencia del escenario y la distribución de los puntos débiles para inferir el impacto potencial de los puntos débiles en la experiencia del escenario.",
+        "C": "Esta es una opción de interferencia difícil, basada en datos de chart_96_2 y chart_96_3, pero con una interpretación errónea de las brechas y asociaciones. El escenario de recoger y dejar a los niños representa el 61.2%, mientras que el punto débil \"Inconveniente para subir y bajar del vehículo\" es solo el 18.6% (clasificación baja en los puntos débiles de comodidad). La opción sugiere erróneamente una fuerte asociación, pero ignora que la proporción real del punto débil es baja y puede no ser el impacto principal.",
+        "D": "Esta es una opción de interferencia difícil, aparentemente basada en datos de chart_96_2 y chart_96_3, pero con un error en la comprensión de los valores y el orden. En chart_96_2, el escenario de tour en automóvil de corta distancia representa el 59.6%, pero el más alto es ir y volver del trabajo (67.8%). Además, aunque el punto débil de espacio de maletero insuficiente (30.0%) es relevante, la opción atribuye erróneamente la proporción del escenario como \"la más alta\", tergiversando la prioridad del punto débil principal.",
+        "E": "Opción correcta porque: chart_96_2 muestra escenarios de alta frecuencia como \"Recoger y dejar a los niños\" (proporción 61.2%), mientras que en chart_96_3 las proporciones de puntos débiles relevantes son destacadas (como \"Acceso inconveniente a la tercera fila\" que representa el 28.3%). El razonamiento conjunto revela que existe una conexión implícita entre las necesidades de escenarios específicos (como actividades familiares) y los puntos débiles correspondientes (como defectos de espacio o comodidad), y los puntos débiles pueden amplificar las inconveniencias en el escenario. Se requiere una comparación cruzada de la prevalencia del escenario y la distribución de los puntos débiles para inferir el impacto potencial de los puntos débiles en la experiencia del escenario.",
+        "F": "Esta es una opción de interferencia fácil, basada en conocimiento general del lenguaje (el impacto de la tecnología en la experiencia del usuario), sin involucrar contenido del gráfico. Los gráficos no discuten funciones inteligentes, por lo que es una afirmación genérica correcta.",
+        "G": "Opción correcta porque: chart_96_2 muestra escenarios de alta frecuencia como \"Tour en automóvil de corta distancia\" (proporción 59.6%), mientras que en chart_96_3 las proporciones de puntos débiles relevantes son destacadas (como \"Espacio de maletero insuficiente después de plegar la tercera fila\" que representa el 20.8%). El razonamiento conjunto revela que existe una conexión implícita entre las necesidades de escenarios específicos (como actividades familiares) y los puntos débiles correspondientes (como defectos de espacio o comodidad), y los puntos débiles pueden amplificar las inconveniencias en el escenario. Se requiere una comparación cruzada de la prevalencia del escenario y la distribución de los puntos débiles para inferir el impacto potencial de los puntos débiles en la experiencia del escenario."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -128,6 +162,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, basada en conocimiento general del sector (el impacto de las políticas en las ventas de automóviles), sin depender de datos del gráfico. Los gráficos no involucran factores políticos, por lo que es un razonamiento general.",
+        "B": "Esta es una opción de interferencia difícil, aparentemente basada en datos de chart_96_1, chart_96_2 y chart_96_3, pero con una interpretación errónea de los valores y la serie temporal. Es un hecho que las ventas crecieron un 164.5% en 2013, pero los datos del escenario son proporciones genéricas (no anuales), no se pueden asociar directamente a 2013. Además, el punto débil de flexibilidad del espacio (25.0%) no es el más alto, la opción atribuye erróneamente una conexión forzada entre el escenario y el punto débil, ignorando que los datos no son temporales.",
+        "C": "Esta es una opción de interferencia difícil, basada en datos de chart_96_1, chart_96_2 y chart_96_3, pero con un error en la comprensión de las brechas y asociaciones. El escenario de ir y volver del trabajo tiene la proporción más alta (67.8%), pero el punto débil \"Malos efectos de sonido\" (27.7%) en los puntos débiles de comodidad ocupa solo el segundo lugar (inferior a \"Los asientos de la tercera fila no tienen ventanas\" 29.9%). La opción lo identifica erróneamente como la principal causa de conflicto, ignorando puntos débiles de mayor proporción (como Pobre efecto de amortiguación 26.4%) que no se mencionan.",
+        "D": "Opción correcta porque: chart_96_1 muestra un aumento brusco de ventas en 2013 (tasa de crecimiento 164.5%) y un crecimiento alto sostenido en 2014-2016, chart_96_2 sugiere que los escenarios de ir y volver del trabajo pueden dominar, mientras que chart_96_3 indica puntos débiles de comodidad (como \"Pobre comodidad de los asientos\" 18.2%), y chart_96_1 muestra una posterior caída de ventas (crecimiento negativo después de 2017). El razonamiento conjunto aborda la contradicción entre el período de aumento brusco de ventas (sostenido por la demanda de ir y volver del trabajo) y el período de caída, requiriendo un análisis cruzado de la tendencia de crecimiento, la demanda del escenario y la distribución de puntos débiles para explicar por qué los escenarios de alta demanda no pudieron sostener las ventas continuamente.",
+        "E": "Opción correcta porque: chart_96_1 muestra un aumento brusco de ventas en 2013 (tasa de crecimiento 164.5%) y un crecimiento alto sostenido en 2014-2016, chart_96_2 indica demandas sociales como \"Reunirse con familiares y amigos\" (proporción), mientras que chart_96_3 muestra puntos débiles de flexibilidad del espacio (como \"Baja flexibilidad y baja tasa de utilización del espacio\" 25.0%), y chart_96_1 muestra una posterior caída de ventas (crecimiento negativo después de 2017). El razonamiento conjunto aborda la contradicción entre el período de aumento brusco de ventas (impulsado por la demanda social) y el período de caída, requiriendo un análisis cruzado de la tendencia de crecimiento, la demanda del escenario y la distribución de puntos débiles para explicar por qué los escenarios de alta demanda no pudieron sostener las ventas continuamente.",
+        "F": "Opción correcta porque: chart_96_1 muestra un aumento brusco de ventas en 2013 (tasa de crecimiento 164.5%) y un crecimiento alto sostenido en 2014-2016, chart_96_2 indica altas proporciones de demanda de actividades familiares como \"Recoger y dejar a los niños\" (61.2%) y \"Tour en automóvil de corta distancia\" (59.6%), mientras que chart_96_1 muestra una posterior caída de ventas (crecimiento negativo después de 2017). El razonamiento conjunto aborda la contradicción entre el período de aumento brusco de ventas (impulsado por la demanda familiar) y el período de caída, requiriendo un análisis cruzado de la tendencia de crecimiento, la demanda del escenario y la distribución de puntos débiles para explicar por qué los escenarios de alta demanda no pudieron sostener las ventas continuamente.",
+        "G": "Esta es una opción de interferencia fácil, basada en conocimiento general del lenguaje (los factores económicos afectan el comportamiento del consumidor), sin involucrar contenido del gráfico. Los gráficos no tienen datos de ingresos, por lo que es una afirmación genérica correcta."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -150,6 +201,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "A simple glance at the charts shows that while long - distance family visits account for 32.7% of usage scenarios and the noise insulation issue is 21.6% among comfort pain points, it's a wrong association. Long - distance family visits are not a high - frequency scenario (lower than commuting at 67.8%, etc.), and the noise insulation problem has a lower proportion than other comfort pain points (e.g., lack of ventilation in the third row at 29.9%). Optimizing this scenario is inefficient.",
+        "B": "Option 1 jointly infers from chart_96_3 (among the space pain points, the insufficient trunk space in the third row and inconvenient access to the third row have the highest proportions) and chart_96_2 (usage scenarios such as picking up and dropping off children and short - distance self - driving tours both account for over 59%, emphasizing the need for family travel).",
+        "C": "Option 3 jointly infers from chart_96_3 (among the space pain points, the unreasonable storage space and weak flexibility account for about 25%) and chart_96_2 (usage scenarios such as shopping in malls account for 44.7%, indicating frequent storage needs).",
+        "D": "It seems to quote the chart data (the small space in the second row accounts for 11.7% among the space pain points), but it's a wrong interpretation. Chart 96_3 shows that among the space pain points, the problems related to the third row (such as insufficient trunk space at 30.0% and inconvenient access at 28.3%) have a much higher proportion than the second row (11.7%). Prioritizing the second row ignores more urgent problems.",
+        "E": "Option 2 jointly infers from chart_96_3 (among the comfort pain points, the inability to open windows in the third row and high noise levels have high proportions) and chart_96_2 (usage scenarios such as commuting to and from work account for 67.8%, highlighting the dependence on comfort in daily commuting).",
+        "F": "This option is too broad as it involves intelligent configurations, but the charts don't mention technology requirements. It's an unfocused suggestion and can't improve the experience in high - frequency scenarios (such as commuting) or key pain points (such as third - row space) shown in the charts.",
+        "G": "This suggestion is based on general industry common sense (fuel economy is a common optimization point), but it doesn't rely on any chart data (such as usage scenarios or pain points). It can't directly solve the specific user pain points reflected in the charts, such as space or comfort defects."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 jointly infers from chart_96_1 (the sales growth rate turned positive in 2021, ending years of negative growth, showing a stabilizing trend) and chart_96_2 (usage scenarios such as short - distance self - driving tours account for 59.6%, reflecting the dominance of family demand).",
+        "B": "It seems to quote the sales trend (a high growth rate of 164.5% in 2013), but it's a wrong interpretation. Chart 96_1 shows that the growth in 2013 was extremely high and unsustainable (sales declined in subsequent years). Promoting old features ignores current pain points (such as space issues) and the stabilizing signal in 2021, which may lead to an ineffective strategy.",
+        "C": "This suggestion is a general market strategy (expanding channels) and doesn't rely on chart data (such as sales trends or usage preferences). It can't address the current sales decline or specific scenario needs.",
+        "D": "Option 2 jointly infers from chart_96_2 (commuting to and from work accounts for 67.8% among usage scenarios, being the highest) and chart_96_1 (sales had a high - growth period from 2013 - 2016, corresponding to a peak in demand).",
+        "E": "It seems to combine the charts (shopping accounts for 44.7% in usage scenarios and insufficient storage space accounts for 22.9% among space pain points), but it's a wrong association. The proportion of the shopping scenario is not the highest (lower than commuting at 67.8%, etc.), and the storage problem has a lower proportion than other pain points (such as third - row space at 30.0%). Marketing this scenario can't efficiently reach the core family users.",
+        "F": "This option relies on common - sense promotional means, but the charts don't provide data on price sensitivity or promotional effects. It ignores the core problem of the negative sales growth in recent years (such as unresolved pain points).",
+        "G": "Option 3 jointly infers from chart_96_3 (comfort pain points such as poor heat insulation and high noise levels account for about 25%) and chart_96_1 (sales have been declining continuously since 2017, indicating that pain points affect market performance)."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -195,6 +280,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 jointly infers from chart_96_3 (the insufficient trunk space in the third row accounts for 30.0% among the space pain points, being the highest) and chart_96_1 (sales have been in continuous negative growth since 2017, highlighting the urgency of improvement).",
+        "B": "It seems to quote the chart (the noise issue accounts for 21.6% among comfort pain points and the sales trend), but it's a wrong interpretation. Chart 96_3 shows that the proportion of the noise problem is lower than other pain points (such as lack of ventilation in the third row at 29.9%), and space pain points (such as insufficient trunk space in the third row at 30.0%) should be prioritized. The sales trend shows an overall decline, and prioritizing low - proportion pain points is inefficient.",
+        "C": "Option 2 jointly infers from chart_96_3 (comfort pain points such as poor shock - absorption effect account for 26.4%) and chart_96_2 (usage scenarios such as long - distance self - driving tours account for 44.0%, showing an association with long - distance needs).",
+        "D": "This suggestion is based on industry common sense (the new - energy trend), but it doesn't rely on chart data (such as pain points or sales trends). It can't directly solve the prominent pain points in the charts (such as space or comfort), which may lead to a waste of resources.",
+        "E": "It seems to combine the sales trend (a growth rate of 0.1% in 2021), but it's a wrong interpretation. Chart 96_1 shows that the growth rate is extremely weak and almost stagnant. Ignoring pain points (such as space issues) may not boost sales. Focusing on long - term innovation goes against the requirement of 'rapid improvement'.",
+        "F": "This option is too broad (brand building) and doesn't combine specific pain - point distributions or sales changes. It's not helpful for quickly improving product competitiveness or reversing the negative sales growth.",
+        "G": "Option 3 jointly infers from chart_96_3 (the weak space flexibility accounts for 25.0% among the space pain points) and chart_96_1 (the slightly positive growth rate in 2021 indicates a window period for improvement)."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

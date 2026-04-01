@@ -85,6 +85,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "选项C结合了市场规模趋势和消费者对原生木浆的认知图表。市场规模趋势显示2019 - 2023年市场规模逐年增长，且增长率在2021年显著上升；消费者对原生木浆的认知图表显示muy informados和bastante informados合计占比85%，sin información仅5%。这隐含了高认知可能驱动需求增长，因为认知提升能增强消费者购买意愿，而市场规模数据（如2021年15%增长率）与高认知比例在时间上可能关联（尽管认知数据无时间维度，但分布稳定，可推定为持续影响）。",
+        "B": "选项B额外强调了认知的\"sin información\"比例极小（5%）与市场增长稳定性（如2022年增长率仅1%但未负增长）的联合推理：低认知缺失可能防止需求萎缩，这需要同时分析认知分布和市场规模趋势中的低增长年份数据，单张图表无法独立推断。",
+        "C": "这是一个Hard干扰项：误读图表差距（chart_168_2中\"sin información\"仅5%，但\"bastante informados\"占50%是主导），错误推断认知缺失是增长主因，而忽略高认知群体（85%）更可能推动需求。",
+        "D": "这是一个Easy干扰项：泛泛而谈广告作用（行业常识），但未结合图表内容（如chart_168_1的增长率波动或chart_168_2的认知分布），纯属外部知识推断。",
+        "E": "这是一个Hard干扰项：错误理解图表数值（chart_168_2中\"sin información\"比例固定为5%，无下降趋势），并错误关联到chart_168_1的2021年高增长率（15%），实际认知数据是静态的，未提供时间变化。",
+        "F": "这是一个Easy干扰项：基于生活常识（必需品需求稳定），但忽略了图表中消费者认知对需求的具体影响（如chart_168_2显示高认知比例可能提升信任），且不依赖任何图表数据。",
+        "G": "选项A结合了市场规模趋势和消费者对原生木浆的认知图表。市场规模趋势显示2019 - 2023年市场规模逐年增长，且增长率在2021年显著上升；消费者对原生木浆的认知图表显示muy informados和bastante informados合计占比85%，sin información仅5%。这隐含了高认知可能驱动需求增长，因为认知提升能增强消费者购买意愿，而市场规模数据（如2021年15%增长率）与高认知比例在时间上可能关联（尽管认知数据无时间维度，但分布稳定，可推定为持续影响）。"
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于行业常识（高认知消费者偏好高端产品），但未链接图表数据（如chart_168_2的高认知比例与chart_168_3的Supermercados de alta gama低占比16.7%），是泛泛推理。",
+        "B": "选项A结合了消费者对原生木浆的认知图表（muy informados 35%、bastante informados 50%、con información media 10%、sin información 5%）和购买渠道分布图表（Canal de comercio electrónico en línea 80.5%、Grandes superficies y supermercados tradicionales 63.5%等）。推断高认知群体（85%合计）偏好线上渠道（占比最高），这需要交叉分析认知水平与渠道特性（线上便于信息查询），单张图表只提供孤立数据。",
+        "C": "这是一个Hard干扰项：错误理解图表排序和差距（chart_168_3中Compras grupales en la comunidad占比39.9%低于线上电商80.5%，但干扰项假设\"muy informados\"群体主导团购），且忽略认知数据（chart_168_2）未提供渠道偏好细节。",
+        "D": "选项B结合了消费者对原生木浆的认知图表（muy informados 35%、bastante informados 50%、con información media 10%、sin información 5%）和购买渠道分布图表（Canal de comercio electrónico en línea 80.5%、Grandes superficies y supermercados tradicionales 63.5%等）。推断认知一般或不了解的消费者依赖传统渠道，这需要交叉分析认知水平与渠道特性（传统渠道有销售人员辅助），单张图表只提供孤立数据。",
+        "E": "这是一个Easy干扰项：依赖常识（线上购物便捷），但未结合图表（如chart_168_3显示Canal de comercio electrónico en línea占比80.5%，但认知分布可能影响选择），纯常识性陈述。",
+        "F": "这是一个Hard干扰项：误读数值关联（chart_168_2\"con información media\"比例仅10%，而chart_168_3 Tiendas de membresía de almacén占比20.8%更高），错误推断比例匹配，但实际数据无直接因果证据。",
+        "G": "选项C额外引入Compras grupales en la comunidad渠道（39.9%）与认知\"con información media\"（10%）的联合推理：中等认知消费者可能更注重便利和价格，而社区团购的占比暗示其吸引力，这需要比较认知分布和渠道数据来推断行为模式，无法从单图得出。"
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "选项B强调多渠道分布（线上、大卖场、团购等）与市场稳定性（如2022年1%增长率未转负）的联合推理：渠道多样性可能缓冲风险，这必须同时考虑渠道占比数据和增长率变化，单张图表只能显示部分信息。",
+        "B": "这是一个Easy干扰项：基于常识（线下渠道覆盖广），但未结合图表（如chart_168_3中Grandes superficies y supermercados tradicionales占比63.5%低于Canal de comercio electrónico en línea 80.5%，且chart_168_1显示线上关联高增长），纯常识性错误。",
+        "C": "这是一个Hard干扰项：错误理解图表数据性质（chart_168_3渠道分布是静态占比，无时间维度；chart_168_1中2022年增长率1%是独立事件），误将渠道固定数据与年度增长率动态关联。",
+        "D": "这是一个Hard干扰项：误读数值差距和时序（chart_168_3 Compras grupales en la comunidad占比39.9%与chart_168_1的2021年15%高增长看似匹配，但渠道数据未区分年份，且无证据证明因果），错误放大单一渠道作用。",
+        "E": "选项C结合了市场规模趋势图表（如2021年15%增长率和2023年9%增长率）和购买渠道分布图表（Canal de comercio electrónico en línea 80.5%、Compras grupales en la comunidad 39.9%等）。推断新兴渠道如社区团购的显著占比可能吸引增量消费者，补充传统渠道，这与市场规模整体扩张趋势相符，尤其在高增长时期，这需要联合分析渠道的规模效应与增长数据，单看趋势图或渠道图无法建立因果关系。",
+        "F": "这是一个Easy干扰项：泛谈经济因素（GDP影响市场），但未引用图表数据（如chart_168_1的增长率波动或chart_168_3的渠道分布），依赖外部知识。",
+        "G": "选项A结合了市场规模趋势图表（如2021年15%增长率和2023年9%增长率）和购买渠道分布图表（Canal de comercio electrónico en línea 80.5%、Compras grupales en la comunidad 39.9%等）。推断线上渠道高占比（80.5%）可能推动增长加速（如2021年），这需要联合分析渠道的规模效应与增长数据，单看趋势图或渠道图无法建立因果关系。"
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -151,6 +202,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Combinar chart_168_2 (alto nivel de conocimiento, respaldando la promoción de atributos del producto) y chart_168_3 (el canal de comercio electrónico en línea tiene la mayor proporción, adecuado para una promoción eficiente).",
+        "B": "Esta es una distracción difícil: aparentemente utiliza los datos de chart_168_1 (crecimiento del 1% en 2022), pero interpreta erróneamente la tendencia (ignora el crecimiento del 9% en 2023 y la tendencia general ascendente), y llega a la conclusión errónea de que \"la velocidad de crecimiento del mercado se está desacelerando\" y que se deben reducir las inversiones, cuando los datos reales apoyan una estrategia activa.",
+        "C": "Esta es una distracción fácil: no se basa en ningún dato de los gráficos, sino en conocimientos comerciales generales (se deben aumentar los anuncios cuando el mercado crece), pero la formulación es amplia y no tiene guías de acción específicas (por ejemplo, no se combina con los datos de conocimiento de la pasta de madera virgen o de los canales), y es fácil de descartar por conocimiento general.",
+        "D": "Combina chart_168_1 (el tamaño del mercado experimentó un crecimiento acelerado en 2021 y 2023, lo que indica una etapa sensible de la demanda) y chart_168_2 (una alta proporción de consumidores, el 85%, conoce la pasta de madera virgen).",
+        "E": "Combina chart_168_2 (el 5% no conoce y el 10% tiene un conocimiento medio, lo que deja espacio para la educación) y chart_168_1 (el tamaño general del mercado sigue creciendo).",
+        "F": "Esta es una distracción difícil: aparentemente utiliza los datos de chart_168_2 (el 5% no conoce la pasta de madera virgen), pero confunde erróneamente los grupos de conocimiento (la estrategia correcta debería centrarse en los grupos con un conocimiento alto o medio, como el 10% de \"conocimiento medio\" en la opción B), y se ignora que la inversión en un grupo de pequeña proporción puede ser ineficiente."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -172,6 +238,21 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: aparentemente utiliza los datos de chart_168_3 (el canal de comercio electrónico en línea tiene una proporción del 80.5% y las compras grupales en la comunidad del 39.9%), pero interpreta erróneamente la relación (la mayor proporción del canal en línea indica su posición dominante, no su saturación; la proporción de las compras grupales en la comunidad es menor que la del canal en línea), y llega a la conclusión errónea de reducir la inversión en el canal eficiente.",
+        "B": "Combina chart_168_3 (el canal de comercio electrónico en línea tiene una proporción significativamente superior) y chart_168_1 (el tamaño del mercado ha crecido año tras año, especialmente con un crecimiento alto en 2023).",
+        "C": "Esta es una distracción difícil: aparentemente utiliza los datos de chart_168_3 (la proporción de las tiendas de membresía de almacén es del 20.8%), pero agrega erróneamente una tendencia ficticia (el gráfico no tiene datos de tasa de crecimiento, solo de proporción), y deduce erróneamente que tiene una \"alta tasa de crecimiento\", cuando los datos reales no apoyan esta conclusión.",
+        "D": "Combina chart_168_3 (el canal de grandes superficies y supermercados tradicionales tiene una alta proporción) y chart_168_1 (la tendencia general de crecimiento del mercado proporciona una base de demanda estable).",
+        "E": "Combina chart_168_3 (la proporción del canal de compras grupales en la comunidad muestra un cierto tamaño y hay oportunidades de expansión) y chart_168_1 (la tendencia de crecimiento, como el crecimiento acelerado en 2021, apoya la inversión en canales innovadores).",
+        "F": "Esta es una distracción fácil: no se basa en los datos de los gráficos, sino en una estrategia general (distribuir los recursos de forma equilibrada), pero no tiene una base específica (el gráfico muestra la dominancia del canal en línea), la formulación es amplia y se ignora la diferencia en la eficiencia de los canales, y es fácil de descartar."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -194,6 +275,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: aparentemente utiliza los datos de chart_168_2 (el 35% conoce muy bien la pasta de madera virgen) y los datos de chart_168_3 (la proporción de las tiendas de comestibles es del 31.2%), pero asocia erróneamente el grupo con el canal (el grupo de alto conocimiento no tiene una preferencia de canal especificada; la proporción de las tiendas de comestibles es baja y no es un canal principal), y la estrategia errónea puede ser ineficiente.",
+        "B": "Esta es una distracción difícil: aparentemente utiliza los datos de chart_168_1 (crecimiento del 15% en 2021) y los datos de chart_168_3 (la proporción de las compras grupales en la comunidad es del 39.9%), pero interpreta erróneamente la razón del crecimiento (el crecimiento puede estar relacionado con la calidad o el canal, no con el precio; los datos de conocimiento enfatizan la atención a la calidad), y llega a la conclusión errónea que ignora los atributos de calidad.",
+        "C": "Combina chart_168_2 (una alta proporción de consumidores conoce la pasta de madera virgen, el 35% la conoce muy bien) y chart_168_3 (el canal de comercio electrónico en línea tiene la mayor proporción, adecuado para la difusión de contenido educativo).",
+        "D": "Combina chart_168_2 (el 10% tiene un conocimiento medio y necesita una educación más intensiva), chart_168_3 (el canal de grandes superficies tiene una alta proporción y proporciona puntos de contacto físicos) y chart_168_1 (el crecimiento del mercado apoya la inversión).",
+        "E": "Combina chart_168_2 (el alto nivel de conocimiento respalda el desarrollo de productos de alta gama) y chart_168_3 (la proporción del canal de supermercados de alta gama muestra un público segmentado).",
+        "F": "Esta es una distracción fácil: no se basa en los datos de los gráficos, sino en conocimientos generales de la industria (promoción en los medios de comunicación tradicionales), pero no tiene una base específica (el gráfico muestra la dominancia del canal en línea), la formulación es amplia y se ignora los datos de preferencia de canal, y es fácil de descartar."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     }
   ]

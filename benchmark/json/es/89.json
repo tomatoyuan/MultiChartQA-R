@@ -84,6 +84,21 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "该选项依赖显示2021Q4销售额为季度最高点的图表和显示家庭聚会和朋友聚会场景占比最高，尤其30岁及以上人群在家庭聚会中占比突出的图表的联合推理。强调季节因素，Q4高峰需结合高占比场景（如朋友聚会）来推断节日或社交活动驱动的需求激增；单一图表无法解释为何Q4是高峰（例如，仅凭销售趋势不能确定原因，仅凭场景数据不能链接到季度变化）。",
+        "B": "这是一个Easy干扰项：基于电商行业常识（如节日促销常见），不依赖图表数据，但问题聚焦具体消费场景的季节性增长，而非泛泛的促销因素。",
+        "C": "这是一个Hard干扰项：错误解读图表数据（chart_89_2）。商务应酬场景占比相对较低（年长15.7%），且无季度数据支持Q4激增；图表仅显示总体占比，而实际高峰更可能与家庭聚会（年长28.4%）相关，但该选项错误放大商务应酬的影响。",
+        "D": "该选项依赖显示2021Q4销售额为季度最高点的图表和显示家庭聚会和朋友聚会场景占比最高，尤其30岁及以上人群在家庭聚会中占比突出的图表的联合推理。强调季节因素，Q4高峰需结合高占比场景（如家庭聚会）来推断节日或社交活动驱动的需求激增；单一图表无法解释为何Q4是高峰（例如，仅凭销售趋势不能确定原因，仅凭场景数据不能链接到季度变化）。",
+        "E": "这是一个Hard干扰项：错误解读图表数据（chart_89_2）。情侣约会场景占比最低（年轻3.9%，年长2.2%），且无数据支持Q4增长；图表未提供季度趋势，仅显示总体占比，因此无法推断其季节性作用。",
+        "F": "该选项依赖显示2021Q4销售额为季度最高点的图表和显示家庭聚会和朋友聚会场景占比最高，尤其30岁及以上人群在家庭聚会中占比突出的图表的联合推理。添加了商务应酬场景的潜在作用，但区分于前两者，它基于商务应酬占比虽低但存在的规律，联合Q4销售高峰，推理企业年终活动可能的影响（例如，Q4是财年结束）。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "该选项依赖消费场景分年龄和消费地点分年龄的图表的联合推理。核心联系是消费场景分年龄图表显示18 - 29岁在朋友聚会场景占比更高，而消费地点分年龄图表显示该人群在酒吧/小酒馆地点占比更高，联合推理出年龄组习惯差异如何映射到地点偏好（例如，朋友聚会驱动酒吧消费）。单一图表无法得出此映射（如仅场景数据不指定地点，仅地点数据不解释场景原因）。",
+        "B": "该选项依赖消费场景分年龄和消费地点分年龄的图表的联合推理。核心联系是消费场景分年龄图表显示18 - 29岁在商务应酬场景占比更高，而消费地点分年龄图表显示该人群在中高档餐厅地点占比更高，联合推理出年龄组习惯差异如何映射到地点偏好（例如，商务应酬驱动中高档餐厅消费）。单一图表无法得出此映射（如仅场景数据不指定地点，仅地点数据不解释场景原因）。",
+        "C": "这是一个Hard干扰项：错误解读图表数据（chart_89_3）。年长人群在家消费19.8%与大众餐厅34.7%差距明显（34.7% > 19.8%），并非相近；该选项忽略实际差距，错误推断偏好分散。",
+        "D": "该选项依赖消费场景分年龄和消费地点分年龄的图表的联合推理。提供补充区分，基于消费场景分年龄图表中一人独酌和情侣约会的年龄差异（年轻人群占比略高），联合消费地点分年龄图表中年轻人群在\"其他地点\"的消费占比更高，推理出非主流地点的隐含联系（如酒吧或小众场所）。",
+        "E": "这是一个Easy干扰项：基于人口学常识（年轻人爱社交），不依赖图表数据，但问题要求基于具体图表分析差异，而非泛泛描述。",
+        "F": "这是一个Hard干扰项：错误解读图表数据（chart_89_3）。酒吧/小酒馆占比10.8%并非最高（中高档餐厅41.7%才是最高），该选项错误夸大酒吧的优先级，而实际数据中年轻人群更倾向中高档餐厅。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -126,6 +156,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误解读图表数据（chart_89_2）。一人独酌场景占比低（年轻13.2%），且无季度数据支持Q1增长；图表仅显示总体占比，该选项错误推断天气影响，而实际销售额下降主要源于节日后需求回落。",
+        "B": "该选项依赖显示2021Q4销售额高峰后2022Q1下降的图表和显示家庭和朋友聚会场景占比最高的图表的联合推理。添加了商务应酬的维度以区分，基于商务应酬占比低但稳定的规律，联合销售下降，推理其无法缓冲聚会场景减少的影响（例如，Q1企业活动较少）。",
+        "C": "该选项依赖显示2021Q4销售额高峰后2022Q1下降的图表和显示家庭和朋友聚会场景占比最高的图表的联合推理。解释冲突，Q1下降需结合高占比场景（朋友聚会）的季节性减少来推断（例如，Q4节日后需求回落）；单一图表无法解决此冲突（仅销售趋势不能解释原因，仅场景数据不能链接季度变化）。",
+        "D": "该选项依赖显示2021Q4销售额高峰后2022Q1下降的图表和显示家庭和朋友聚会场景占比最高的图表的联合推理。解释冲突，Q1下降需结合高占比场景（家庭聚会）的季节性减少来推断（例如，Q4节日后需求回落）；单一图表无法解决此冲突（仅销售趋势不能解释原因，仅场景数据不能链接季度变化）。",
+        "E": "这是一个Hard干扰项：错误解读图表数据（chart_89_1和chart_89_2）。朋友聚会占比虽高（年轻39.2%），但Q1销售额下降（81.2 vs Q4 91.2）可能源于节日后社交减少；该选项错误假设Q1社交增多（无数据支持），且矛盾地归因其他场景，而实际下降更可能与家庭聚会减少相关。",
+        "F": "这是一个Easy干扰项：基于经济常识（预算周期影响消费），不依赖图表数据，但问题要求结合具体场景数据，而非一般化原因。"
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -148,6 +193,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combinar chart_89_2 (la proporción de personas de 30 años y mayores en el escenario de reunión familiar es más alta que la del grupo joven) y chart_89_1 (las ventas en el cuarto trimestre de 2021 fueron las más altas, posiblemente relacionadas con el consumo familiar en las fiestas).",
+        "B": "Combinar chart_89_2 (la proporción de personas de 18 - 29 años en el escenario de reunión de amigos es la más alta) y chart_89_1 (el aumento significativo de las ventas desde el tercer trimestre hasta el cuarto trimestre de 2021 sugiere un pico de consumo social).",
+        "C": "Basado en chart_89_2 (la proporción del escenario de cita de pareja es la más baja) y chart_89_1 (las fluctuaciones de las ventas trimestrales indican que es necesario optimizar la asignación de recursos), se sugiere una redistribución de recursos.",
+        "D": "Aparentemente se utilizan los datos de la gráfica (la proporción del escenario de cita de pareja en chart_89_2), pero se interpreta erróneamente: la proporción del escenario de cita de pareja es la más baja (solo el 3.9% en el grupo de 18 - 29 años), mucho más baja que la de la reunión de amigos (39.2%), y no hay evidencia de que este escenario tenga un alto potencial; además, no se combina con la tendencia trimestral (como el aumento en el tercer trimestre).",
+        "E": "La formulación es amplia y no tiene indicaciones de acción específicas, solo se basa en el conocimiento general de marketing (como 'aumentar la publicidad para aumentar la exposición de la marca'), no se combina con las diferencias de edad o la tendencia trimestral en las gráficas, y se puede excluir directamente.",
+        "F": "Se relaciona erróneamente la tendencia de la gráfica (las ventas en el cuarto trimestre de chart_89_1 alcanzaron el pico de 91.2 mil millones), pero la sugerencia de'reducir la inversión' va en contra de la lógica (se debe fortalecer el marketing en los trimestres de alta venta); se confunden la saturación y las oportunidades, y no se consultan los datos del escenario de consumo (por ejemplo, la reunión familiar representa el 28.4% en el grupo de 30 años y mayores).",
+        "G": "Se basa en el conocimiento general de las fiestas en lugar de los datos de la gráfica (como 'el consumo es alto durante las fiestas'), se ignoran la tendencia de las ventas trimestrales (como el pico en el cuarto trimestre) y la distribución de edad en los escenarios, y no hay una estrategia específica."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -171,6 +233,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Combinar chart_89_3 (la proporción del consumo en hogar/dormitorio es estable), chart_89_1 (las ventas en el primer trimestre de 2022 cayeron desde el pico del cuarto trimestre) y chart_89_2 (existe demanda en el escenario de beber solo), se sugiere ajustar la estrategia de comercio electrónico.",
+        "B": "Combinar chart_89_3 (la proporción del consumo en restaurantes de alta y media gama en el grupo de 18 - 29 años es la más alta) y chart_89_2 (la proporción de este grupo en los escenarios de reunión de amigos y entretenimiento empresarial es destacada), se sugiere integrar los canales y los escenarios.",
+        "C": "Sugerencias generales de optimización de productos (como 'diseño de embalaje'), no se integran los canales físicos o los datos de los lugares de consumo, solo se basa en el conocimiento general de la industria (la historia de la marca aumenta la atracción), y no hay una estrategia de canal.",
+        "D": "Actividades de promoción generalizadas (como 'compre uno y lleve dos'), no tienen una orientación por edad o escenario, se ignoran las diferencias de preferencia de lugar en las gráficas (por ejemplo, la proporción del grupo joven en los restaurantes de alta y media gama es del 41.7% frente al 34.7% en los restaurantes populares del grupo de 30 años y mayores).",
+        "E": "Combinar chart_89_3 (la proporción del consumo en restaurantes populares en el grupo de 30 años y mayores es la más alta) y chart_89_2 (la proporción de este grupo en el escenario de reunión familiar es más alta que en otros escenarios), centrarse en los canales de alta coincidencia.",
+        "F": "Aparentemente se utilizan los datos de la gráfica (la proporción de bares en chart_89_3 y la proporción del entretenimiento empresarial en chart_89_2), pero se selecciona erróneamente el lugar: la proporción de bares/pubs no es la más alta (la proporción en los restaurantes populares del grupo de 30 años y mayores es del 34.7%, más alta), y el entretenimiento empresarial solo representa el 15.7% en el grupo de 30 años y mayores, menos que la reunión de amigos (43.7%); además, no se combina con la tendencia trimestral (como la orientación familiar en el cuarto trimestre).",
+        "G": "Se interpreta erróneamente los valores (las proporciones de los lugares de hogar son similares), pero la proporción del escenario de reunión familiar en el grupo joven es solo del 21.1%, menos que la de la reunión de amigos (39.2%); se confunden los lugares de consumo y los escenarios, y no se consultan las estrategias correctas (como la opción B dirigida a la reunión familiar del grupo de 30 años y mayores)."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -194,6 +273,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Combinar chart_89_1 (la caída de las ventas en el primer trimestre de 2022), chart_89_2 (la proporción del escenario de beber solo es estable) y chart_89_3 (la demanda en los lugares de hogar/bares), asegurar una asignación justa de recursos.",
+        "B": "Se relaciona erróneamente el trimestre de pico y el escenario (el pico en el cuarto trimestre de chart_89_1 y la proporción de beber solo en chart_89_2), pero la proporción de beber solo es la más baja (en comparación con el 43.7% de la reunión de amigos), y en el trimestre de pico se debe centrar en los escenarios de alto potencial (como la reunión familiar); no se equilibra la demanda en el trimestre de caída (como la opción C).",
+        "C": "Las sugerencias de desarrollo de productos (como 'línea de productos de alta gama') no se integran trimestralmente o por lugar, solo se basan en la lógica comercial general (aumentar el precio de venta), y no se utilizan los datos de la tendencia de ventas o de los lugares de consumo.",
+        "D": "Combinar chart_89_1 (las ventas en el cuarto trimestre de 2021 fueron las más altas), chart_89_2 (la proporción de personas de 30 años y mayores en el escenario de reunión familiar es alta) y chart_89_3 (la proporción del consumo en hogar es estable).",
+        "E": "Combinar chart_89_1 (la tendencia de crecimiento de las ventas desde el segundo trimestre hasta el tercer trimestre de 2021), chart_89_3 (la proporción del consumo en bares/pubs en el grupo de 18 - 29 años es relativamente alta) y chart_89_2 (el escenario de reunión de amigos es dominante), se sugiere centrarse en el grupo joven.",
+        "F": "Estrategias generales (como 'asignación en proporción fija'), no reflejan un ajuste dinámico, solo se basan en el conocimiento general de gestión de riesgos, y se ignoran las fluctuaciones de la tendencia trimestral (como la baja en el segundo trimestre y la alta en el cuarto trimestre) y las preferencias de edad.",
+        "G": "Aparentemente se combina con las gráficas (las ventas bajas en el segundo trimestre de chart_89_1, la proporción de restaurantes de alta y media gama en chart_89_3 y la proporción de la reunión familiar en chart_89_2), pero se selecciona erróneamente el trimestre: el potencial de crecimiento en el segundo trimestre es bajo (el cambio intertrimestral entre el primer y el segundo trimestre es pequeño), y la estrategia correcta (como la opción B) enfatiza el canal en línea dirigido al grupo joven desde el segundo hasta el tercer trimestre; además, no se consideran las preferencias de lugar (como la proporción del 10.8% de los bares en el grupo joven)."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     }
   ]

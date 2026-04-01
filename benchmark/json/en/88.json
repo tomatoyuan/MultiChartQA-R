@@ -86,6 +86,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It seemingly bases on the data in chart_88_1 but misinterprets the values. In fact, the obesity rate increased from 10.5% in 2014 to 14.6% in 2020, rather than decreasing. However, the option claims a “substantial decline”, which completely reverses the reasoning about the relationship between health risks and the market.",
+        "B": "Option 2 needs to combine the chart showing the trends of adult obesity and overweight rates in China (the overweight rate increased from 22.8% in 2000 to 35.0% in 2020), the chart showing the trend of adult diabetes prevalence (the prevalence of hypercholesterolemia increased from 3.1% in 2007 to 8.2% in 2020), and the chart showing the growth of the sugar-free beverage market size (the year-on-year growth rate of the market size increased from 0% in 2016 to 22.1% in 2020). Both overweight and hypercholesterolemia are related to body weight. The chart values show a synchronous upward trend, from which we can infer a change in consumer behavior.",
+        "C": "This is an easy distractor: It is based on common sense (such as the impact of marketing on the market) but does not rely on the chart data at all. There is no mention of advertising or brand factors in the charts. The charts only involve health indicators and market size. Therefore, this option cannot be deduced from the chart content and is a general and wrong explanation.",
+        "D": "Option 1 needs to combine the chart showing the trends of adult obesity and overweight rates in China (the obesity rate increased from 7.0% in 2000 to 14.6% in 2020), the chart showing the trend of adult diabetes prevalence (the diabetes prevalence increased from 9.7% in 2007 to 11.9% in 2020), and the chart showing the growth of the sugar-free beverage market size (the market size of sugar-free beverages increased from 32 billion yuan in 2016 to 118 billion yuan in 2020, with a high year-on-year growth rate). The values show an overlap in time between the increase in health problems and the growth of the sugar-free market (from 2016 - 2020), from which we can infer a causal relationship.",
+        "E": "This is a hard distractor: It misinterprets the year-on-year growth rate data in chart_88_3. In fact, the growth rate gradually decreased from 28.8% in 2017 to 11.7% in 2026, but the option says it “reached a peak”. It mistakenly assumes that the increase in the growth rate reflects an intensification of health risks, while the chart shows that the growth rate is decreasing, indicating that the market expansion speed is slowing down rather than accelerating.",
+        "F": "Option 3 needs to comprehensively consider the overall upward trend of health indicators in the chart showing the trends of adult obesity and overweight rates in China and the chart showing the trend of adult diabetes prevalence (the rates of obesity, overweight, diabetes, and hypercholesterolemia all increased) and the continuously high year-on-year growth rate in the chart showing the growth of the sugar-free beverage market size (such as 22.1% in 2020). From this, we can infer that the market growth is a response to health risks.",
+        "G": "This is an easy distractor: It relies on industry common sense (such as the global low-sugar trend) but ignores the specific chart data in China (such as the increase in the obesity rate). The chart data focuses on the local trends in China. This option wrongly assumes that the market growth is due to global factors rather than local health problems."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option 2 needs to combine the chart showing the trends of adult obesity and overweight rates in China (the overweight rate increased from 22.8% in 2000 to 35.0% in 2020) and the chart showing the growth of the sugar-free beverage market size (the year-on-year growth rate was as high as 61.3% in 2018). The overweight rate is rising while the market year-on-year growth rate is high. From this, we can infer a change in consumer behavior.",
+        "B": "This is an easy distractor: It is based on common sense (such as policy or price factors), but there is no government or price data in the charts. The charts only involve health indicators and market size. This option wrongly introduces external factors and ignores the potential causal relationship between health problems and market growth in the charts.",
+        "C": "This is a hard distractor: It seemingly bases on the data in chart_88_1 and chart_88_3 but wrongly associates the time points. In fact, the overweight rate has been continuously increasing (from 22.8% in 2000 to 35.0% in 2020), but the sugar-free beverage market started to grow rapidly after the year-on-year growth rate was 0% in 2016 (such as 28.8% in 2017). The option ignores the subsequent growth and wrongly infers “no correlation”. However, the chart shows that the market expansion and health problems have been parallel since 2016.",
+        "D": "Option 1 needs to combine the chart showing the trends of adult obesity and overweight rates in China (the obesity rate increased from 7.0% in 2000 to 14.6% in 2020), the chart showing the trend of adult diabetes prevalence (the diabetes prevalence increased from 9.7% in 2007 to 11.9% in 2020), and the chart showing the growth of the sugar-free beverage market size (the market size of the sugar-free market increased from 32 billion yuan in 2016 to 118 billion yuan in 2020, with a year-on-year growth rate of 22.1% in 2020). The chart values are in conflict (negative health problems vs. positive market growth). From this, we can infer that the increase in demand is a coping measure.",
+        "E": "This is a hard distractor: It misinterprets the diabetes prevalence data in chart_88_2. In fact, the prevalence increased from 9.7% in 2007 to 11.9% in 2020, but the option says it “decreased”, which leads to a wrong reasoning about the relationship between health risks and the market. The real trend is an increase, which should stimulate rather than relieve the demand.",
+        "F": "This is an easy distractor: It relies on model knowledge (such as the impact of the supply chain) but is self - contradictory. The chart shows that the sugar-free beverage market is growing, but the option claims that “consumers prefer high-sugar beverages”, which conflicts with the data trend (such as the expansion of the market size). This is a common - sense wrong reasoning.",
+        "G": "Option 3 needs to combine the chart showing the trend of adult diabetes prevalence (the prevalence of hypercholesterolemia increased from 3.1% in 2007 to 8.2% in 2020), the chart showing the trends of adult obesity and overweight rates in China (the obesity rate is increasing), and the chart showing the growth of the sugar-free beverage market size (the market size is growing). Hypercholesterolemia is related to obesity, and the values show a synchronous trend. From this, we can infer that the market growth is the result of being driven by health risks."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option 1 needs to combine the chart showing the trends of adult obesity and overweight rates in China (the obesity rate increased from 7.0% in 2000 to 14.6% in 2020), the chart showing the trend of adult diabetes prevalence (the diabetes prevalence increased from 9.7% in 2007 to 11.9% in 2020), and the chart showing the growth of the sugar-free beverage market size (the market size of the sugar-free market increased from 32 billion yuan in 2016 to 301 billion yuan in 2026). The values show that both obesity and diabetes are increasing (implying a medical connection), and the market is growing (with a year-on-year growth rate of 28.8% in 2017). From this, we can infer a causal relationship and market response.",
+        "B": "This is an easy distractor: It relies on industry knowledge (such as the connection between hypercholesterolemia and obesity) but oversimplifies. The prevalence of hypercholesterolemia in the chart (chart_88_2) increased from 3.1% in 2007 to 8.2% in 2020, but the option claims that it “dominates the demand”. In fact, the market growth (chart_88_3) may be due to multiple factors. This option does not deduce from the chart and is a wrong attribution.",
+        "C": "This is a hard distractor: It seemingly bases on the data in chart_88_1 and chart_88_3 but wrongly compares the growth rates. The data points of the obesity rate are sparse (such as from 10.5% in 2014 to 14.6% in 2020), and there is no continuous growth rate. The year-on-year growth rate of 28.8% of sugar-free beverages in 2017 corresponds to an unclear change in the obesity rate (the latest data is from 2014). The option fabricates a “synchronous” relationship and mistakenly assumes that the increase in the obesity rate directly leads to high growth. However, the chart shows that the market growth rate is actually decreasing.",
+        "D": "Option 3 needs to combine the upward trend of health indicators in the chart showing the trends of adult obesity and overweight rates in China and the chart showing the trend of adult diabetes prevalence with the year-on-year change in the chart showing the growth of the sugar-free beverage market size (such as a high growth rate of 61.3% in 2018 vs. a gradual slowdown to 11.7% in 2026). From this, we can infer that the market dynamics are driven by health problems but may reach saturation.",
+        "E": "Option 2 needs to combine the chart showing the trends of adult obesity and overweight rates in China (the overweight rate increased from 22.8% in 2000 to 35.0% in 2020), the chart showing the trend of adult diabetes prevalence (the prevalence of hypercholesterolemia increased from 3.1% in 2007 to 8.2% in 2020), and the chart showing the growth of the sugar-free beverage market size (the market size is growing). The values of overweight and hypercholesterolemia are increasing synchronously. From this, we can infer the health association and market impact.",
+        "F": "This is an easy distractor: It is based on common sense (such as economic factors) but ignores the chart data. The chart shows that the upward trends of the obesity rate (chart_88_1) and the diabetes rate (chart_88_2) are related (such as being parallel in time), but the option wrongly denies the correlation. This is a common - sense over - generalization error.",
+        "G": "This is a hard distractor: It misinterprets the data points and the correlation. In fact, there is no direct causal data between the obesity rate of 9.9% in 2010 (chart_88_1) and the diabetes rate of 11.2% in 2017 (chart_88_2). At the same time, the year-on-year growth rate of 22.1% of sugar-free beverages in 2017 (chart_88_3) is not “low” (it decreased slightly compared with 28.8% in the early stage but is still a positive growth). The option misreads the values and the time sequence, which leads to a distorted reasoning about the impact of health risks on the market."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combines chart_88_1 (rising obesity rate), chart_88_2 (rising disease prevalence rate), and chart_88_3 (trend of the sugar - free beverage market). The reasoning emphasizes the synergy between policies and the market.",
+        "B": "This is an easy distraction: It also does not rely on the charts. Based on general psychological factors (stress leading to diet problems), the strategy is vague and has nothing to do with the chart data (the charts do not mention mental health), so it can be easily excluded as an irrelevant suggestion.",
+        "C": "Combines chart_88_1 (rising trends of obesity and overweight rates) and chart_88_3 (rapid growth of the sugar - free beverage market size). The reasoning is based on the association between diet factors and health problems and the market response.",
+        "D": "This is a hard distraction: On the surface, it uses the data from chart_88_3 (growth of sugar - free beverages), but misinterprets the relationship. The chart shows the growth of the sugar - free beverage market (positive year - on - year growth), but the distraction suggests promoting sugary beverages, which contradicts the rising obesity rate (chart_88_1) and misinterprets the 'risk of insufficient sugar intake' (there is no such data in the charts), confusing the cause - and - effect relationship.",
+        "E": "This is an easy distraction: It does not rely on any chart data. Based only on general health knowledge (physical activity prevents obesity), the statement is broad and has no specific action guidelines (such as not combining diet or market trends). It can be easily excluded through common sense because it does not respond to the rising obesity or growth of sugar - free beverages in the charts.",
+        "F": "Combines chart_88_2 (rising trends of diabetes and hypercholesterolemia prevalence rates) and chart_88_3 (growth of sugar - free beverages reflecting health awareness). The reasoning focuses on disease prevention and changes in consumer behavior.",
+        "G": "This is a hard distraction: On the surface, it quotes the obesity rate data from chart_88_1 (14.6% in 2020), but misinterprets the trend. The actual data shows an increase (from 10.5% in 2014 to 14.6% in 2020), but the distraction claims a 'decrease', misleading the strategy direction (reducing intervention), which clearly deviates from the chart trend."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -178,6 +246,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Combines chart_88_1 (rising trend of overweight rate), chart_88_2 (rising trend of hypercholesterolemia prevalence rate), and chart_88_3 (growth of the sugar - free beverage market). The reasoning links health indicators with changes in consumer preferences.",
+        "B": "Combines chart_88_3 (growing trend of the sugar - free beverage market size) and chart_88_1 (rising trend of obesity rate). The reasoning is based on market demand and health problems as drivers.",
+        "C": "This is a hard distraction: On the surface, it quotes the year - on - year data from chart_88_3 (from 61.3% in 2017 to 11.7% in 2026), but misinterprets the market dynamics. The actual market size continues to grow (from 3.2 billion yuan to 30.1 billion yuan), but the distraction misinterprets the decline in the growth rate as'market saturation' and suggests reducing investment, which clearly deviates from the data trend.",
+        "D": "This is a hard distraction: On the surface, it uses the diabetes data from chart_88_2 (from 9.7% in 2007 to 11.9% in 2020), but misinterprets the trend. The actual prevalence rate is rising, but the distraction claims a 'decrease', misleading the product development direction (promoting high - sugar beverages), which contradicts the chart trend and the enhancement of health awareness.",
+        "E": "This is an easy distraction: It also does not rely on the charts. Based on general product strategies (packaging design), the strategy is vague and has nothing to do with the health problems in the charts (such as the rising obesity rate), so it can be easily excluded as an irrelevant suggestion.",
+        "F": "This is an easy distraction: It does not rely on chart data. Based only on general business knowledge (the importance of social media marketing), the statement is broad and has no specific health or product guidelines (such as not mentioning obesity or beverage trends). It can be easily excluded through common sense because it does not combine health indicators or market data.",
+        "G": "Combines chart_88_2 (significant rise in hypercholesterolemia prevalence rate) and chart_88_3 (continuous expansion of the sugar - free beverage market). The reasoning focuses on niche health needs and market innovation opportunities."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: On the surface, it quotes the year - on - year data from chart_88_3 (11.7% in 2026), but misinterprets the market dynamics. The actual market size continues to grow (predicted to be 30.1 billion yuan), but the distraction misinterprets the decline in the growth rate as 'lack of market momentum' and suggests canceling subsidies, which does not match the data trend and the rising health problems.",
+        "B": "Combines chart_88_1 (rising trend of obesity rate), chart_88_2 (rising trend of diabetes prevalence rate), and chart_88_3 (growing trend of the sugar - free beverage market). The reasoning is based on the root causes of health problems and market behavior.",
+        "C": "This is an easy distraction: It also does not rely on the charts. Based on general environmental factors (air pollution), the strategy has nothing to do with the diet - related health problems in the charts (such as obesity and diabetes), so it can be easily excluded as off - topic.",
+        "D": "This is a hard distraction: On the surface, it uses the hypercholesterolemia data from chart_88_2 (from 8.0% in 2017 to 8.2% in 2020), but misinterprets the trend. The actual prevalence rate is rising (from 3.1% in 2007 to 8.2% in 2020), but the distraction claims a 'decrease', misleading the relaxation of regulation, which clearly contradicts the chart data.",
+        "E": "This is an easy distraction: It does not rely on chart data. Based only on general policy knowledge (increasing medical resources), the statement is broad and has no specific integration of market or health data (such as not mentioning obesity or sugar - free beverages). It can be easily excluded through common sense because it does not respond to the rising trend of chronic diseases.",
+        "F": "Combines chart_88_2 (significant rise in hypercholesterolemia prevalence rate) and chart_88_3 (growing trend of the sugar - free beverage market). The reasoning focuses on policy tools and industrial response.",
+        "G": "Combines chart_88_1 (rising trend of overweight rate), chart_88_2 (rising trends of prevalence rates of various diseases), and chart_88_3 (the sugar - free beverage market as an example of the health trend). The reasoning emphasizes the combination of public education and market evidence."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

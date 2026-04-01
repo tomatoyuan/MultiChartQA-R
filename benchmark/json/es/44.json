@@ -87,6 +87,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项。它基于常识（如‘便利性提高满意度’）但完全错误，因为图表显示午餐选择少、时间不足等问题，实际会加剧焦虑，而非减少。不依赖图表内容，仅凭常识可判断错误。",
+        "B": "这是一个Easy干扰项。它基于行业常识（如‘企业提供免费午餐’）但错误，因为图表无此信息，且实际数据显示选择少和健康担忧，常识上企业干预少会加剧焦虑。不依赖图表，仅凭常识可反驳。",
+        "C": "联合了午餐选择图表中‘Hay un problema con muy pocas opciones de almuerzo的高比例’和健康食材担忧图表中‘Gastar mucha energía y tiempo en buscar ingredientes saludables的高比例及缺乏标签’，显示选择有限性和精力消耗共同作用，加剧焦虑（需比较两图表的高比例趋势）。",
+        "D": "这是一个Hard干扰项。它错误解读了图表数值：chart_44_2中Preocuparse por el contenido calórico的比例实际为18%（低），但这里误写为55%（chart_44_2中Preocuparse por los aditivos alimentarios excesivos的比例），制造了高比例假象；同时与chart_44_1的53%（Hay un problema con muy pocas opciones de almuerzo比例）结合，错误暗示热量控制是主要焦虑源，而实际热量担忧比例很低。",
+        "E": "链接午餐选择图表中‘Hay preocupación por los problemas de salud de la comida para llevar的高比例’和健康食材担忧图表中‘Incapaz de juzgar si los alimentos instantáneos o las comidas entregadas a domicilio son saludables的高比例’，强调信息缺失的累积影响（需交叉分析态度和行为数据）。",
+        "F": "这是一个Hard干扰项。它错误引用了图表数值：chart_44_2中Gastar mucha energía y tiempo en buscar ingredientes saludables的比例实际为60%（高），但这里误写为30%（低），并虚构了‘信息不对称’的关联；同时忽略了实际高比例（60%）会加剧焦虑，而非降低。",
+        "G": "结合午餐选择图表中‘A menudo no hay tiempo para almorzar o no se puede almorzar a tiempo的高比例’和健康食材担忧图表中‘Preocuparse por el contenido calórico但Dificultad para encontrar un canal de compra confiable的高比例’，揭示时间和资源限制的交互作用（需综合时间压力和健康管理数据）。"
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "链接健康食材担忧图表中‘Preocuparse por los aditivos alimentarios excesivos或Incapaz de juzgar si los alimentos instantáneos o las comidas entregadas a domicilio son saludables的高比例’和零食选择图表中‘Bebidas dulces及Alimentos con alto contenido de azúcar的高比例’，同时结合‘Dificultad para encontrar un canal de compra confiable的高比例’，显示便利性战胜健康意图（需交叉担忧优先级和选择数据）。",
+        "B": "这是一个Hard干扰项。它错误解读了图表数值和差距：chart_44_2中Preocuparse por el contenido calórico的比例实际为18%（低），但这里误写为44%（chart_44_2中Dificultad para encontrar un canal de compra confiable的比例）；同时chart_44_3中Alimentos con alto contenido de azúcar选择比例为36%（中等），但错误描述为‘仅36%’以暗示低，而实际矛盾在于热量担忧极低但Bebidas dulces选择较高（55%）。数值误读放大了‘理性选择’的假象。",
+        "C": "这是一个Easy干扰项。它基于常识（如‘规律健康饮食’）但错误，因为图表显示零食选择以Bebidas dulces为主（55%），且健康担忧高，常识上会强化矛盾而非解决。不依赖图表内容，仅凭常识可反驳。",
+        "D": "对比健康食材担忧图表中‘Preocuparse por el contenido calórico比例的低值’和零食选择图表中‘Bebidas dulces及Alimentos con alto contenido de azúcar的高选择比例’，解释为压力驱动的行为脱节（需联合低态度值和高行为值）。",
+        "E": "这是一个Hard干扰项。它错误关联了图表数据：chart_44_2中Incapaz de juzgar si los alimentos instantáneos o las comidas entregadas a domicilio son saludables的比例为47%（高），但chart_44_3中Bebidas dulces选择比例实际为55%（高），这里误写为30%（低），虚构了‘担忧抑制消费’的因果关系；实际数据显示高担忧与高选择并存，矛盾未被解释。",
+        "F": "这是一个Easy干扰项。它基于常识（如‘健康意识提高’）但错误，因为图表显示热量担忧低（18%）而Bebidas dulces选择高（55%），常识上健康意识提高应减少高糖消费，而非鼓励。不依赖图表，仅凭常识可判断矛盾。",
+        "G": "结合健康食材担忧图表中‘Incapaz de juzgar si los alimentos instantáneos o las comidas entregadas a domicilio son saludables的高比例’和零食选择图表中‘Bebidas dulces及Alimentos con alto contenido de azúcar的高选择比例’，突出信息鸿沟导致矛盾（需分析健康认知与消费行为的差异）。"
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项。它基于常识（如‘缺乏零食习惯’）但错误，因为图表明确显示零食选择比例高（如Bebidas dulces 55%），常识上久坐办公易引发零食消费。不依赖图表内容，仅凭常识可判断错误。",
+        "B": "这是一个Hard干扰项。它错误关联了图表数据：chart_44_5中Sedentario, sentado casi todo el día con poco movimiento的TGI为138（高倾向性），但chart_44_3中Frutos secos选择比例仅39%、Yogur 42%（中等），这里误写为‘高选择比例’并虚构健康缓解关联；实际久坐不动更可能关联Bebidas dulces（55%）或Comidas fritas infladas（43%），而非健康零食。数值排序被误读。",
+        "C": "联合办公状态图表中‘Sedentario, sentado casi todo el día con poco movimiento状态的高倾向性指数’和零食选择图表中‘Bebidas dulces及Comidas fritas infladas的高选择比例’，显示高久坐倾向与高糖/高脂零食的正相关（需对比倾向指数和零食流行度）。",
+        "D": "结合办公状态图表中‘Exigirse regularmente levantarse y moverse a intervalos或Instalar un soporte para el ordenador y trabajar a menudo de pie的低倾向性指数’和零食选择图表中‘Bebidas dulces及Productos de panadería的高选择比例’，表明低健康习惯倾向与不健康零食的关联（需分析倾向指数低值与零食选择趋势）。",
+        "E": "这是一个Hard干扰项。它错误解读了TGI和比例：chart_44_5中Moverse con frecuencia debido a los requisitos del trabajo的人群占比仅2%（低），TGI 65（低倾向性），但这里误写为‘高活动量’；同时chart_44_3中Comidas fritas infladas选择比例为43%（高），错误暗示正关联，而实际低活动人群可能更偏好高热量零食。差距误读制造了假因果。",
+        "F": "这是一个Hard干扰项。它错误引用了数值：chart_44_5中Exigirse regularmente levantarse y moverse a intervalos的人群占比实际为13%（低），但这里误写为30%（高）；chart_44_3中Productos de panadería选择比例实际为42%（高），但误写为20%（低），虚构了‘健康习惯减少摄入’的反向关联；实际数据显示规律起身人群少且零食选择高，无此抑制效果。",
+        "G": "链接办公状态图表中‘Levantarse y caminar solo cuando se sienta incómodo por estar sentado demasiado tiempo状态的高比例及中等倾向性’和零食选择图表中‘Snacks masticables及Snacks picantes的高选择比例’，揭示休息时段零食的便利性和感官需求（需综合状态频率和零食类型数据）。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "E",
+        "F"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 1 combina chart_44_1 (pocas opciones de almuerzo y alta proporción de aburrimiento con la comida) y chart_44_2 (alto consumo de energía en la búsqueda de ingredientes saludables). Razón: La escasez de opciones y el alto consumo de energía indican una brecha de demanda. La estrategia resuelve los dos problemas al aumentar los puntos de suministro.",
+        "B": "Esta opción parece utilizar las gráficas (cita el dato del 53% de chart_44_1), pero interpreta erróneamente la tendencia: los empleados se aburren de los restaurantes existentes. Aumentar restaurantes del mismo tipo no resolverá el problema de la diversidad, sino que puede reforzar la tendencia a la uniformidad.",
+        "C": "Esta opción no se basa en los datos de las gráficas y se puede descartar por sentido común: la comida rápida generalmente no es saludable. Las gráficas muestran preocupaciones importantes por la salud (por ejemplo, el 44% se preocupa por la salud de la comida para llevar). Promover la comida rápida empeorará los riesgos para la salud en lugar de reducirlos.",
+        "D": "Esta opción parece utilizar las gráficas (cita el dato del 44% de chart_44_1), pero tiene un error lógico: las gráficas muestran una alta preocupación por la salud. Reducir las opciones saludables aumentará el riesgo en lugar de resolverlo. La estrategia correcta debería aumentar las opciones saludables.",
+        "E": "La opción 3 combina chart_44_1 (alta proporción de preocupación por problemas de salud pero pocas opciones) y chart_44_2 (alta proporción de incapacidad para juzgar la salud de los alimentos y alta proporción de preocupación por los aditivos). Razón: La preocupación por la salud es generalizada. El sistema de etiquetado proporciona información transparente para ayudar en la toma de decisiones.",
+        "F": "Esta opción no se basa en los datos de las gráficas y se puede descartar por sentido común: prolongar el tiempo de trabajo aumentará la fatiga y los riesgos para la salud de los empleados, lo que contradice el objetivo de mejorar la experiencia del almuerzo. Además, las gráficas no abordan el ajuste del tiempo de trabajo.",
+        "G": "La opción 2 combina chart_44_1 (alta proporción de empleados ocupados que no tienen tiempo para almorzar y problema de precios elevados) y chart_44_2 (alta proporción de dificultad para encontrar un canal de compra confiable). Razón: La falta de tiempo y la falta de canales destacan la necesidad del servicio de suscripción para garantizar la accesibilidad y la asequibilidad."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción parece utilizar las gráficas (cita el dato del 55% de chart_44_3), pero tiene un error lógico: la alta proporción de bebidas dulces refleja una preferencia poco saludable. Promover más bebidas dulces empeorará los riesgos para la salud. Las gráficas muestran preocupaciones por la salud (por ejemplo, el 55% se preocupa por los aditivos). Debería reducirse en lugar de aumentar.",
+        "B": "Esta opción no se basa en los datos de las gráficas y se puede descartar por sentido común: las gráficas muestran una falta de canales para obtener alimentos saludables (por ejemplo, el 44% tiene dificultad para encontrar un canal de compra confiable). Traer frutas propias no resuelve el problema de la obtención y se ignora la distribución de los snacks.",
+        "C": "Esta opción no se basa en los datos de las gráficas y se puede descartar por sentido común: prohibir todos los snacks es extremo y poco realista. Las gráficas muestran un consumo generalizado de snacks (por ejemplo, el 55% consume bebidas dulces). Esta estrategia provocará la insatisfacción de los empleados y no se dirige a la promoción de la salud.",
+        "D": "La opción 2 combina chart_44_3/44_4 (la distribución de los snacks muestra una preferencia por alimentos ricos en azúcar y grasa) y chart_44_2 (aunque la proporción de preocupación por las calorías es baja, la preocupación por los aditivos es alta). Razón: La combinación de la preferencia y la dificultad para juzgar aumenta el conocimiento a través de intervenciones educativas para ayudar en la selección.",
+        "E": "Esta opción parece utilizar las gráficas (cita los datos del 39% de chart_44_3 y del 55% de chart_44_2), pero establece una asociación errónea: las frutas secas son una opción más saludable (tienen una proporción mediana entre los snacks). Reducir su suministro debilitará las alternativas saludables. La preocupación por los aditivos se refiere a todos los alimentos procesados, y las frutas secas no son la principal fuente.",
+        "F": "La opción 1 combina chart_44_3/44_4 (la proporción de bebidas dulces y alimentos fritos inflados es la más alta en la selección de snacks) y chart_44_2 (alta proporción de dificultad para encontrar un canal de compra confiable de alimentos saludables y alta proporción de preocupación por los aditivos). Razón: La popularidad de los snacks poco saludables está relacionada con la falta de canales de salud. Promover opciones saludables fáciles de obtener (por ejemplo, las frutas secas al 39%, el yogur al 42%) se dirige directamente al problema.",
+        "G": "La opción 3 combina chart_44_3/44_4 (alta proporción de alimentos con alto contenido de azúcar y alimentos fritos inflados) y chart_44_1 (alta proporción de personas que quieren comer alimentos saludables y deliciosos pero que los canales de compra son escasos o los precios son elevados). Razón: La dominancia de los snacks poco saludables está relacionada con obstáculos económicos. La estrategia logra un cambio de comportamiento a través de subsidios y restricciones."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción parece utilizar las gráficas (cita el dato del 2% TGI 65 de chart_44_5), pero interpreta erróneamente: la proporción de personas que se mueven con frecuencia es extremadamente baja. Exigirlo de forma obligatoria ignora la viabilidad. Un TGI bajo indica que este grupo no es destacado, pero el término erróneo se utiliza como razón y no se considera la integración de la dieta (por ejemplo, la selección de snacks).",
+        "B": "La opción 1 combina chart_44_5 (alta proporción de sedentarismo en el estado de oficina, valor de TGI destacado y baja proporción de levantarse regularmente) y chart_44_3/44_4 (alta proporción de alimentos ricos en azúcar y grasa en la selección de snacks). Razón: La relación entre el sedentarismo y los snacks poco saludables. La estrategia interviene de forma doble a través de actividades programadas (tomando como referencia el grupo que se levanta regularmente) y snacks saludables (por ejemplo, las frutas secas al 39%).",
+        "C": "Esta opción no se basa en los datos de las gráficas y se puede descartar por sentido común: trabajar desde casa no necesariamente resuelve el problema del sedentarismo o de la dieta. Las gráficas muestran la distribución del estado de oficina (por ejemplo, el 34% es sedentario). Esta estrategia ignora los obstáculos específicos del lugar de trabajo.",
+        "D": "La opción 2 combina chart_44_5 (baja proporción de trabajo de pie pero valor de TGI medio, alta proporción de malestar físico) y chart_44_1 (alta proporción de falta de canales para obtener alimentos saludables y alta proporción de precios elevados). Razón: La combinación de la falta de equipos de oficina y los obstáculos de la dieta. Proporcionar un plan integrado resuelve las necesidades físicas y nutricionales.",
+        "E": "La opción 3 combina chart_44_5 (baja proporción de grupo activo en el estado de oficina) y chart_44_2 (preocupaciones por los alimentos saludables, como baja proporción de preocupación por las calorías pero alta proporción de preocupación por los aditivos). Razón: La baja tasa de actividad y la dificultad para juzgar la salud. El plan de desafío utiliza elementos educativos (conocimiento externo que coincide con los valores) para incentivar el cambio.",
+        "F": "Esta opción parece utilizar las gráficas (cita los datos del 34% TGI 138 de chart_44_5 y del 55% de chart_44_3), pero tiene un error lógico: un TGI alto de sedentarismo indica un problema destacado, pero promover alimentos con alto contenido de azúcar empeorará la salud de la dieta. Las gráficas muestran preocupaciones por la salud (por ejemplo, el 55% se preocupa por los aditivos). Debería reducirse la ingesta de azúcar.",
+        "G": "Esta opción no se basa en los datos de las gráficas y se puede descartar por sentido común: el café y las bebidas energéticas pueden empeorar la deshidratación o los problemas de salud. Las gráficas no abordan la intervención de las bebidas y no integran la relación entre la dieta y el ejercicio."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     }
   ]

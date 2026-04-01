@@ -86,6 +86,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Este es un distractor Easy: Depende de conocimiento general (las patentes a menudo son consideradas como indicadores académicos), pero las patentes en el gráfico claramente involucran tecnología VR/AR (posiblemente incluyendo aplicaciones comerciales), esta opción ignora el contenido del gráfico, no puede explicar la diferencia específica.",
+        "B": "Este es un distractor Hard: Compara incorrectamente los datos del gráfico; en chart_128_1, la participación en el mercado de DPVR y HTC suma 11% (6% + 5%), pero en chart_128_2, entre las 10 empresas principales, no hay DPVR o HTC, y el número de patentes más bajo (Microsoft 2108) es mucho mayor que el supuesto 3000, la opción malinterpreta la brecha numérica.",
+        "C": "Este es un distractor Easy: Se basa en estrategias comerciales comunes (como competencia de precios), pero el gráfico no proporciona información sobre precios o subsidios, y esta opción no explica directamente la diferencia entre posición en el mercado e innovación, sino que es una generalización común.",
+        "D": "Opción 1 correcta, porque chart_128_1 muestra que la participación de mercado de cascos VR está altamente concentrada (una sola empresa domina), mientras que chart_128_2 muestra que las 10 empresas principales en patentes están distribuidas uniformemente (sin empresas superpuestas), esto requiere un análisis conjunto de la concentración del mercado y la diversidad de innovación; solo con un gráfico no se puede inferir esta diferencia de estrategia.",
+        "E": "Este es un distractor Hard: Interpreta incorrectamente los valores del gráfico; chart_128_2 muestra que en el top 10 de patentes no hay Meta (Samsung 4094 en primer lugar, Tencent 4085 en segundo), pero esta opción afirma incorrectamente que Meta está en segundo lugar, distorsionando el orden y la brecha.",
+        "F": "Opción 3 correcta, porque la alta participación de hardware en chart_128_1 indica éxito comercial, pero la ausencia en el ranking de patentes de chart_128_2 sugiere un enfoque diferente en I+D, requiere razonamiento conjunto sobre la estrategia empresarial; solo mirando patentes o participación de mercado no se puede llegar a esta conclusión.",
+        "G": "Opción 2 correcta, porque las empresas líderes en patentes de chart_128_2 son principalmente asiáticas (como Samsung, Tencent), mientras que el líder de hardware en chart_128_1 es una empresa norteamericana (Meta), requiere comparación cross-gráfico de la distribución geográfica; con un solo gráfico no se puede explicar el conflicto regional."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Opción 3 correcta, porque en chart_128_3 los juegos/aplicaciones no VR crecen continuamente, pero los juegos/aplicaciones VR fluctúan, combinado con la alta participación de mercado de hardware en chart_128_1, requiere entender el desequilibrio del ecosistema cross-gráfico; solo mirando el gráfico de contenido se ignora el papel de la adopción de hardware.",
+        "B": "Este es un distractor Hard: Confunde incorrectamente los puntos de datos; en chart_128_3, el número de juegos/aplicaciones VR en 2023 es 689 (no VR es 13765), pero esta opción atribuye erróneamente el número no VR a VR, y afirma \"récord histórico\", mientras que el pico real es 1105 en 2017, malinterpreta la brecha.",
+        "C": "Este es un distractor Easy: Depende de factores externos (política), pero el gráfico no involucra información política, y esta opción no se puede inferir de los datos, pertenece a un error de conocimiento común.",
+        "D": "Este es un distractor Easy: Se basa en conocimiento común (como relación oferta-demanda), pero chart_128_3 muestra que el número de juegos/aplicaciones VR fluctúa (por ejemplo, 612 en 2019 vs. 1105 en 2017), en lugar de crecimiento continuo, la opción ignora los datos del gráfico, es una generalización.",
+        "E": "Este es un distractor Hard: Interpreta incorrectamente la tendencia del gráfico; en chart_128_3, el número de juegos/aplicaciones VR es 2016:735, 2017:1105, 2018:872, 2019:612, 2020:822, 2021:562, 2022:945, 2023:689, mostrando fluctuación en lugar de crecimiento anual, la opción distorsiona la secuencia numérica.",
+        "F": "Opción 1 correcta, porque chart_128_1 muestra alta concentración de participación de mercado de hardware (la empresa dominante ocupa la mayor parte), mientras que chart_128_3 muestra que el número de juegos/aplicaciones VR fluctúa hacia abajo desde el pico de 2017 (por ejemplo, más bajo en 2023), requiere análisis conjunto del dominio del hardware y la debilidad del contenido; solo con la tendencia de contenido no se puede inferir el impacto del hardware.",
+        "G": "Opción 2 correcta, porque en chart_128_3 el contenido VR no alcanza nuevos picos después de 2017, y los datos de participación de hardware en chart_128_1 (tiempo no especificado, pero implícitamente actual) requieren razonamiento conjunto sobre el desfase temporal; con un solo gráfico no se puede explicar la razón del retraso del contenido."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Opción 1 correcta, porque las 10 empresas principales en patentes de chart_128_2 son en su mayoría empresas tecnológicas integrales (como Samsung, Tencent), mientras que la fluctuación en el número de juegos en chart_128_3 indica que los desarrolladores de contenido son diferentes, requiere análisis conjunto de los sujetos de innovación y los productores de aplicaciones; solo con el gráfico de patentes no se puede inferir el ecosistema de contenido.",
+        "B": "Este es un distractor Easy: Depende de suposiciones subjetivas (como patentes inválidas), pero las patentes en chart_128_2 involucran tecnología VR/AR, y chart_128_3 muestra crecimiento estable de juegos no VR, esta opción no se puede inferir de los gráficos, es un error de conocimiento común.",
+        "C": "Opción 2 correcta, porque los datos de patentes en chart_128_2 cubren la tecnología VR/AR en general, mientras que los juegos/aplicaciones en chart_128_3 son un área específica, requiere comparación cross-gráfico del alcance tecnológico y la demanda de aplicaciones; con un solo gráfico no se puede explicar el desajuste de dominio.",
+        "D": "Este es un distractor Easy: Se basa en conocimiento común (velocidad de transformación de innovación), pero en la realidad hay demoras desde la investigación hasta la comercialización, los gráficos no apoyan \"transformación rápida\", la opción no depende de datos, es demasiado generalizada.",
+        "E": "Este es un distractor Hard: Asocia incorrectamente los gráficos; en chart_128_2, Samsung tiene 4094 patentes (la más alta), pero en chart_128_3, el número de juegos VR en 2022 es 945, no es el pico (1105 en 2017 es más alto), y no se explica que Samsung impulse directamente la oferta de juegos, la opción malinterpreta la causalidad y los valores.",
+        "F": "Opción 3 correcta, porque el alto número de patentes en chart_128_2 (suponiendo acumulación reciente), pero el número de juegos VR en chart_128_3 no crece sincrónicamente (por ejemplo, más bajo en 2023), requiere razonamiento conjunto sobre el desfase temporal o factores de mercado; solo con la tendencia de contenido no se puede vincular a la inversión en patentes.",
+        "G": "Este es un distractor Hard: Atribuye incorrectamente la tendencia; en chart_128_3, el número de juegos VR en 2021 es 562 (bajo), pero las patentes en chart_128_2 son datos acumulativos o totales (tiempo no especificado), no se puede probar \"deficiencia\" de patentes en 2021, la opción distorsiona la serie temporal y la brecha."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una distracción fácil: el contenido es generalizado (por ejemplo, la optimización de la gestión interna), no está relacionado con los gráficos y se puede descartar solo con el sentido común; la estrategia no se dirige a desafiar a los líderes del mercado de hardware VR.",
+        "B": "Esta es una distracción difícil: aparentemente se utiliza el gráfico chart_128_1 (Meta tiene una participación del 75%), pero se interpreta incorrectamente - el gráfico muestra que Meta es dominante, pero los datos de patentes (chart_128_2) enfatizan las barreras de innovación (por ejemplo, Samsung tiene muchas patentes). La estrategia de imitación puede llevar a una competencia homogénea y se ignora la ventaja de diferenciación.",
+        "C": "La opción 1 combina el gráfico chart_128_2 (empresas líderes en el número de patentes como Samsung y Tencent, lo que indica que la acumulación de tecnología es un factor clave de competencia) y el gráfico chart_128_1 (Meta es dominante, pero las participaciones de otras empresas son bajas, lo que significa que la innovación puede romper el monopolio) para razonar una estrategia de inversión en tecnología.",
+        "D": "Esta es una distracción difícil: aparentemente se utiliza el gráfico chart_128_1 (DPVR y Pico tienen cada una un 6%), pero se confunden las relaciones - el gráfico solo muestra que los valores de participación son iguales y no proporciona información sobre la viabilidad de la adquisición; en realidad, no es necesariamente fácil adquirir a jugadores con baja participación, y se ignora la tendencia de patentes (por ejemplo, Tencent tiene muchas patentes), por lo que la dirección de la estrategia está desviada.",
+        "E": "Esta es una distracción fácil: la formulación es amplia, basada en el conocimiento comercial general (por ejemplo, la publicidad mejora la marca), pero no se refiere a los datos de los gráficos y no hay una guía de acción específica (por ejemplo, no se combina con patentes o participaciones); los gráficos no mencionan el marketing, por lo que la estrategia no es efectiva.",
+        "F": "La opción 3 combina el gráfico chart_128_2 (empresas asiáticas destacadas en el Top 10 de patentes como Tencent y Baidu) y el gráfico chart_128_1 (empresas asiáticas como Pico tienen una participación baja en el mercado) para razonar una estrategia de mercado regional.",
+        "G": "La opción 2 combina el gráfico chart_128_3 (aunque la cantidad de contenido VR en Steam fluctúa, la demanda general existe, por ejemplo, el crecimiento en 2022) y el gráfico chart_128_1 (la alta participación de Meta puede deberse a su ecosistema de contenido) para razonar una estrategia de cooperación en contenido."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 3 combina el gráfico chart_128_1 (varias empresas como Pico y HTC tienen una participación estable) y el gráfico chart_128_2 (muchas empresas en el Top 10 de patentes innovan, lo que indica la diversidad tecnológica) para razonar una estrategia multiplataforma.",
+        "B": "Esta es una distracción difícil: aparentemente se utilizan el gráfico chart_128_1 (Meta tiene una participación del 75%) y el gráfico chart_128_3 (tendencia del contenido), pero se confunde el riesgo - el gráfico muestra que Meta es dominante, pero hay jugadores secundarios (por ejemplo, Pico tiene un 6%), y la demanda de aplicaciones VR en la tendencia del contenido es inestable; centrarse solo en una plataforma aumenta el riesgo de dependencia y se ignora la estrategia de compatibilidad multiplataforma.",
+        "C": "Esta es una distracción fácil: la formulación es amplia (por ejemplo, mejorar la calidad de la imagen), basada en el conocimiento general de la industria de los juegos, pero no se citan datos de los gráficos; la estrategia no tiene una guía para reducir el riesgo y se ignoran la participación en el mercado y la tendencia del contenido.",
+        "D": "Esta es una distracción fácil: el contenido es generalizado (por ejemplo, actividades comunitarias), no está relacionado con los gráficos; se puede descartar solo con el sentido común y no se dirige a datos específicos (por ejemplo, la fluctuación del contenido VR o la distribución de la participación).",
+        "E": "La opción 1 combina el gráfico chart_128_1 (Meta tiene una participación extremadamente alta en el mercado, lo que indica su ventaja en el tamaño de la audiencia) y el gráfico chart_128_3 (la cantidad de contenido VR fluctúa mucho, por ejemplo, disminuyó en 2019 y aumentó en 2022) para razonar una estrategia de enfoque en la plataforma.",
+        "F": "Esta es una distracción difícil: aparentemente se utiliza el gráfico chart_128_3 (689 juegos VR en 2023 frente a 945 en 2022), pero se interpreta incorrectamente la tendencia - el gráfico muestra que la cantidad de aplicaciones VR fluctúa (por ejemplo, de 735 en 2016 a 689 en 2023), no es una disminución continua; el análisis correcto debe monitorear los períodos de recuperación de la demanda (por ejemplo, el crecimiento en 2022), y reducir los recursos puede hacer que se pierdan oportunidades.",
+        "G": "La opción 2 combina el gráfico chart_128_3 (la tendencia de adición de contenido VR muestra ciclos de fluctuación, por ejemplo, la fluctuación de 2020 - 2022) para razonar la tendencia de demanda a partir de un solo gráfico, pero implica una relación con la participación en el mercado (la demanda de contenido afecta la adopción de hardware), lo que garantiza que la estrategia se base en la tendencia de los datos."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La opción 2 combina el gráfico chart_128_3 (el aumento de contenido VR fluctúa mucho, por ejemplo, disminuyó en 2021) y el gráfico chart_128_2 (empresas con patentes como SenseTime y Huawei participan en la innovación) para razonar una estrategia de desarrollo de herramientas.",
+        "B": "Esta es una distracción difícil: aparentemente se utilizan el gráfico chart_128_2 (Tencent y Baidu tienen muchas patentes) y el gráfico chart_128_3 (tendencia del contenido), pero se confunden las relaciones - el gráfico de patentes incluye empresas globales (por ejemplo, Samsung tiene 4094 patentes), y la tendencia del contenido no muestra dependencia regional; concentrarse en empresas chinas ignora la cooperación internacional y puede agravar la fragmentación del mercado, lo que no es favorable para el crecimiento general.",
+        "C": "La opción 3 combina el gráfico chart_128_2 (la distribución de patentes es uniforme y la diferencia entre el Top 10 es pequeña) y el gráfico chart_128_1 (la participación en el mercado es dispersa excepto para Meta) para razonar una estrategia de estandarización de la cooperación.",
+        "D": "La opción 1 combina el gráfico chart_128_2 (empresas en el Top 10 del número de patentes como Samsung y Tencent tienen más de 4000 patentes, lo que indica una alta barrera técnica) y el gráfico chart_128_3 (la cantidad de contenido VR es inestable frente al crecimiento continuo del contenido no VR) para razonar una estrategia de contenido impulsado por la tecnología.",
+        "E": "Esta es una distracción fácil: el contenido es generalizado (por ejemplo, la cooperación en investigación básica), no está relacionado con los gráficos; se puede descartar solo con el sentido común y no se dirige a tendencias específicas (por ejemplo, la alta concentración de patentes o la fluctuación del contenido).",
+        "F": "Esta es una distracción fácil: la formulación es amplia (por ejemplo, la promoción en el mercado), basada en el conocimiento general de inversión, no se citan gráficos; la estrategia no tiene un equilibrio de riesgos a largo plazo y se ignoran los datos de patentes o contenido.",
+        "G": "Esta es una distracción difícil: aparentemente se utiliza el gráfico chart_128_3 (el crecimiento de juegos no VR, por ejemplo, 13765 en 2023), pero se interpreta incorrectamente el enfoque - la pregunta se enfoca en la industria VR, y los datos de patentes (chart_128_2) muestran una actividad de innovación en VR/AR (por ejemplo, Samsung tiene 4094 patentes); priorizar lo no VR se aleja del desarrollo sostenible de VR y aumenta el riesgo de fragmentación de la industria."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     }
   ]

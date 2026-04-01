@@ -86,6 +86,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil, aparentemente basada en datos del gráfico (chart_136_1 y chart_136_2), pero con comprensión errónea de los valores: las ventas en 2020 fueron 85.0 millones de piezas (menos que los 96.0 millones de 2019), y en 2021 aumentaron a 102.0 millones. La opción de distracción afirma incorrectamente un gran aumento en las ventas de 2020, cuando en realidad hubo una caída seguida de recuperación.",
+        "B": "Requiere combinar chart_136_1 (tendencias de crecimiento de ventas y flujo de clientes) y chart_136_2 (número estable de tiendas) para identificar factores externos (como la recuperación económica), porque el crecimiento de ventas (chart_136_1) es inconsistente con los cambios en el número de tiendas (chart_136_2), necesitando comparación cruzada de tendencias temporales.",
+        "C": "Esta es una opción de distracción difícil, basada en datos del gráfico (chart_136_1), pero con interpretación errónea de valores: el flujo de clientes en 2023 fue realmente 750.0 millones de personas (aumentando desde 600.0 millones en 2022), la opción de distracción inventa una caída a 550.0 millones y asocia incorrectamente el crecimiento de ventas.",
+        "D": "Requiere combinar chart_136_1 (datos de flujo de clientes: aumento a 750 millones en 2023) y chart_136_2 (datos de número de tiendas: tasas de crecimiento negativas o cero en 2020-2023) para razonar sobre la 'eficiencia por tienda', por ejemplo, calculando el flujo promedio por tienda (2023: flujo/tiendas ≈283,000 personas/tienda vs. 2020 ≈242,000), mostrando mejora en eficiencia, pero no se puede deducir de un solo gráfico.",
+        "E": "Esta es una opción de distracción fácil, basada en conocimiento general de la industria (como marketing mejorando reconocimiento de marca), pero no depende de ningún dato del gráfico. Los gráficos no mencionan factores publicitarios o de marketing, por lo que no se puede derivar esta conclusión de los datos.",
+        "F": "Requiere combinar chart_136_2 (tendencia de número de tiendas: estancamiento después de 2019) y chart_136_3 (distribución de precios: amuletos 350-500 yuanes 41%, pulseras 600-1000 yuanes 46%) para inferir el impacto de la estrategia de precios en las ventas (productos de precio medio-bajo pueden aumentar la tasa de compra), pero chart_136_3 solo no puede explicar el crecimiento de ventas.",
+        "G": "Esta es una opción de distracción fácil, dependiendo de conocimiento económico general (como recuperación económica aumentando consumo), pero los gráficos no proporcionan datos globales de economía o ingresos, no se puede verificar la correlación de este factor con el crecimiento de ventas."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil, basada en datos del gráfico (chart_136_1), pero con comprensión errónea de la brecha: el flujo de clientes en 2022 fue realmente 600.0 millones de personas (cayendo desde 670.0 millones en 2021), la opción de distracción inventa un aumento a 700.0 millones y asocia incorrectamente el crecimiento del número de tiendas.",
+        "B": "Requiere combinar chart_136_1 (datos de flujo de clientes) y chart_136_2 (tendencia decreciente de número de tiendas) para calcular 'flujo por tienda' (ej. 2021: número de tiendas 2619, flujo 670 millones ≈256,000 personas/tienda vs. 2020 ≈242,000), mostrando aumento de intensidad, dependiendo del razonamiento numérico de dos gráficos.",
+        "C": "Esta es una opción de distracción difícil, aparentemente basada en datos del gráfico (chart_136_1 y chart_136_2), pero con ordenación errónea de valores: el flujo de clientes en 2021 fue realmente 670.0 millones de personas (aumentando desde 650.0 millones en 2020), la opción de distracción afirma incorrectamente una caída a 650.0 millones e inventa una reducción sincronizada.",
+        "D": "Esta es una opción de distracción fácil, dependiendo de conocimiento general de la industria minorista (como influencia de canales en línea), pero los gráficos no mencionan ventas en línea o detalles de pandemia, por lo que no se puede derivar de los datos dados.",
+        "E": "Requiere combinar chart_136_1 (flujo de clientes 2022: 600 millones, 2023: aumentó a 750 millones) y chart_136_3 (distribución de precios: pulseras por debajo de 600 yuanes 40%) para inferir influencia de precios (precios bajos pueden aumentar el flujo), pero chart_136_3 solo no contiene tendencia temporal, necesita comparación cruzada con cambios de flujo.",
+        "F": "Requiere combinar chart_136_1 (flujo de clientes 2020: 650 millones, ventas 85 millones de piezas) y chart_136_2 (número de tiendas 2020: reducción 2.9%) para identificar conflicto: tiendas reducidas pero flujo alto, necesita razonar 'optimización de ubicación' y referirse a caída de ventas (problema de tasa de conversión), pero un solo gráfico no puede explicar la contradicción.",
+        "G": "Esta es una opción de distracción fácil, basada en conocimiento general de productos (como mejora de calidad aumentando lealtad), pero no depende de datos del gráfico. Los gráficos no involucran información de calidad o diseño de productos, no se puede apoyar esta explicación desde los datos."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil, basada en conocimiento general de precios (como reducción de precios atrayendo consumidores), pero no depende de datos del gráfico. Los gráficos muestran distribución de precios como rangos estáticos, no mencionan estrategia de reducción de precios, no se puede derivar de los datos.",
+        "B": "Esta es una opción de distracción fácil, dependiendo de conocimiento general de la industria (como productos premium aumentando valor), pero en los gráficos las pulseras por encima de 1000 yuanes son solo 14.0%, no un aumento significativo; la opción de distracción ignora la estructura dominada por precios medio-bajos.",
+        "C": "Esta es una opción de distracción difícil, basada en datos del gráfico (chart_136_3 y chart_136_1), pero con comprensión errónea de la brecha: pulseras por debajo de 600 yuanes 40.0% es distribución fija, la opción de distracción inventa una 'reducción' y asocia incorrectamente el crecimiento de ventas de 2023 (realmente resultado de estrategia general, no cambio en un solo segmento de precios).",
+        "D": "Requiere combinar chart_136_3 (amplitud de distribución de precios) y chart_136_2 (reducción de número de tiendas: crecimiento negativo 2020-2021) para conectar implícitamente 'adaptabilidad de marca', porque cuando las tiendas disminuyeron las ventas no colapsaron (chart_136_1: ventas 2021 102 millones), pero un solo gráfico no muestra esta asociación.",
+        "E": "Requiere combinar chart_136_3 (precios de pulseras: por encima de 1000 yuanes 14%, 600-1000 yuanes 46%) y chart_136_1 (crecimiento de flujo de clientes: 2023 alcanzó 750 millones) para inferir equilibrio de precios (segmento premium pequeño pero flujo aumentando), necesita análisis cruzado de cobertura de mercado y relación de demanda.",
+        "F": "Requiere combinar chart_136_3 (precios de amuletos: 350-500 yuanes 41%, por debajo de 350 yuanes 24%) y chart_136_1 (tendencia de ventas: caída 2020 luego recuperación 2021) para razonar el papel de productos de precio medio-bajo en la recuperación, pero chart_136_1 solo no puede explicar el rol de precios.",
+        "G": "Esta es una opción de distracción difícil, aparentemente basada en datos del gráfico (chart_136_3), pero con comprensión errónea de valores: amuletos por debajo de 350 yuanes realmente 24.0%, mientras 350-500 yuanes 41.0% es la mayor participación. La opción de distracción afirma incorrectamente dominio de productos de bajo precio y asocia erróneamente la caída de ventas de 2020 (realmente factores externos)."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Aparentemente se utilizan los datos de chart_136_3 (los amuletos por encima de 700 yuan representan el 12% y las pulseras por encima de 1000 yuan representan el 14%), pero se interpreta erróneamente que la proporción es la “más alta” (en realidad, la proporción de los productos de gama media es más alta). El gráfico muestra que la proporción de los productos de gama alta es pequeña. Promocionar los productos de gama alta puede ignorar las preferencias principales del mercado, y el crecimiento de las ventas (chart_136_1) se debe a los productos de gama media, lo que confunde la relación entre los valores.",
+        "B": "Combinando chart_136_3 (en la distribución de precios de amuletos y pulseras, los rangos de 350 - 500 yuan y 600 - 1000 yuan tienen la proporción más alta, lo que refleja la preferencia por los productos de gama media) y chart_136_1 (tiene una tendencia de crecimiento continuo en las ventas de 2021 - 2023).",
+        "C": "Esta es una opción de distracción fácil: La estrategia se basa en conocimientos generales de marketing (como “aumentar la publicidad para aumentar la influencia”), pero no cita ningún dato de los gráficos (como las ventas y la distribución de precios). Es demasiado general y no tiene una guía de acción específica, ignorando la tendencia dominante de los precios de gama media y el crecimiento de las ventas en los gráficos. Puede ser eliminada por conocimiento general (la inversión en publicidad necesita datos para respaldarla, de lo contrario, puede ser ineficiente).",
+        "D": "Combinando chart_136_1 (el flujo de clientes aumentó significativamente en 2023 y, al mismo tiempo, las ventas alcanzaron el máximo) y chart_136_2 (la cantidad de tiendas conceptuales se mantuvo estable, lo que indica que el crecimiento del flujo de clientes no se debe a la expansión de nuevas tiendas).",
+        "E": "Esta es una opción de distracción fácil: La estrategia se basa en la lógica comercial común (“reducir los precios para estimular la demanda”), pero no se combina con los gráficos. Los datos de la distribución de precios muestran que los precios medios son los más comunes (los amuletos entre 350 - 500 yuan representan el 41% y las pulseras entre 600 - 1000 yuan representan el 46%). Reducir drásticamente los precios puede dañar la marca, y las ventas han aumentado de manera estable en los últimos años (2021 - 2023), por lo que no es necesario una reducción de precios radical.",
+        "F": "Combinando chart_136_1 (el flujo de clientes fluctuó, por ejemplo, disminuyó en 2022 pero las ventas se mantuvieron estables) y chart_136_3 (la distribución de precios muestra que la proporción de productos de bajo precio es considerable, y los canales en línea pueden atraer a los consumidores sensibles al precio), al mismo tiempo se implica conocimiento externo (los canales en línea pueden amortiguar las fluctuaciones de las tiendas físicas).",
+        "G": "Esta es una opción de distracción difícil: Aparentemente se utilizan los datos del flujo de clientes de chart_136_1 (el flujo de clientes disminuyó a 600 millones de personas en 2022), pero se infiere erróneamente “reducir el marketing”. El flujo de clientes y las ventas no tienen una correlación positiva estricta (el flujo de clientes disminuyó en 2022 pero las ventas aún fueron altas con 103 millones de piezas). Reducir el marketing puede hacer que se pierdan oportunidades; los gráficos no respaldan la optimización de la eficiencia de costos."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combinando chart_136_2 (después de un crecimiento negativo en la cantidad de tiendas conceptuales de 2020 - 2021, se mantuvo estable en 2651 tiendas de 2022 - 2023, con una tasa de crecimiento del 0%) y chart_136_1 (el flujo de clientes aumentó significativamente a 750 millones de personas en 2023, y las ventas aumentaron al mismo tiempo).",
+        "B": "Combinando chart_136_1 (el flujo de clientes aumentó significativamente en 2023) y chart_136_2 (la cantidad de tiendas conceptuales no ha aumentado en los últimos años, lo que indica que la expansión se detuvo), se implica conocimiento externo (las nuevas tiendas deben basarse en los datos del flujo de clientes).",
+        "C": "Combinando chart_136_2 (el crecimiento negativo de las tiendas conceptuales de 2020 - 2021 refleja que algunas tiendas son ineficientes) y chart_136_1 (el flujo de clientes disminuyó en 2022 pero rebotó en 2023, lo que muestra diferencias regionales), la estrategia es coherente con los valores (re - asignación de recursos en lugar de despido ciego).",
+        "D": "Esta es una opción de distracción difícil: Aparentemente se utilizan los datos de la tasa de crecimiento de chart_136_2 (por ejemplo, el 10.8% en 2018, el 2.4% en 2019 y el - 2.9% en 2020), pero se aplica erróneamente un umbral (“por debajo del 5%”). El gráfico muestra que la tasa de crecimiento fluctúa mucho (por ejemplo, un crecimiento positivo del 1.2% en 2022). Cerrar las tiendas con bajo crecimiento ignora la tendencia estable (un crecimiento del 0% en 2023 pero la cantidad no cambió), y no se considera el aumento simultáneo del flujo de clientes (750 millones de personas en 2023), lo que confunde la interpretación de la tendencia.",
+        "E": "Esta es una opción de distracción fácil: La estrategia se basa en conocimientos generales de retail (“expansión en mercados emergentes”), pero no cita ningún dato de los gráficos (como la estabilidad de la cantidad de tiendas conceptuales o la fluctuación del flujo de clientes). El gráfico muestra que la cantidad de tiendas conceptuales se mantuvo estable de 2022 - 2023 (2651 tiendas), y no hay necesidad de expansión. Puede ser eliminada por conocimiento general (la expansión necesita datos para respaldarla).",
+        "F": "Esta es una opción de distracción fácil: La estrategia es demasiado general (“mejorar la experiencia digital”) y no se basa en las tendencias de los gráficos. No se combina con el cambio en la cantidad de tiendas conceptuales (chart_136_2 muestra un crecimiento negativo y luego estabilidad en los últimos años) o los datos del flujo de clientes (fluctuación en chart_136_1), y no tiene una guía específica de asignación de recursos. Es una sugerencia basada en conocimiento general.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente se combinan los datos del flujo de clientes de chart_136_1 (el pico de 750 millones de personas en 2023) y los datos de las tiendas conceptuales, pero se asocia erróneamente “agregar nuevas tiendas”. La cantidad de tiendas conceptuales se mantuvo estable en 2023 (2651 tiendas) sin crecimiento; el pico del flujo de clientes no necesariamente requiere la adición de nuevas tiendas (es posible optimizar a través de las tiendas existentes), y no hubo una reducción correspondiente cuando el flujo de clientes fue bajo en 2022 (600 millones de personas), lo que es una contradicción lógica."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Combinando chart_136_3 (los amuletos entre 350 - 500 yuan representan el 41% y las pulseras entre 600 - 1000 yuan representan el 46%, lo que refleja la dominancia de los productos de gama media) y chart_136_1 (tiene una tendencia de crecimiento en las ventas de 2021 - 2023).",
+        "B": "Esta es una opción de distracción fácil: La estrategia se basa en conocimientos generales de servicio al cliente (“mejorar el servicio en línea”) y no se combina con los gráficos específicos. No se utilizan los datos de la distribución de precios (chart_136_3) o las ventas (chart_136_1), y no hay una guía para ajustar la combinación de productos. Es una sugerencia general.",
+        "C": "Esta es una opción de distracción difícil: Aparentemente se combinan la tendencia de las ventas de chart_136_1 (de 102 a 107 millones de piezas de 2021 - 2023) y la distribución de precios, pero se infiere erróneamente “crecimiento lento”. Las ventas aumentan año tras año (107 millones de piezas en 2023 es el pico), y no hay signos de crecimiento lento; reducir los productos de gama media (con la proporción más alta) puede hacer que se pierda el mercado central, y se asocia erróneamente con la competencia (los gráficos no mencionan la competencia).",
+        "D": "Combinando chart_136_3 (los amuletos por encima de 700 yuan representan el 12% y las pulseras por encima de 1000 yuan representan el 14%, lo que indica que hay espacio para los productos de gama alta) y chart_136_1 (las ventas alcanzaron 107 millones de piezas en 2023, y la tendencia de crecimiento apoya la estrategia de precio premium).",
+        "E": "Esta es una opción de distracción fácil: La estrategia se basa en la lógica común de innovación de productos (“ediciones limitadas para atraer atención”), pero no cita ningún dato de los gráficos (como la distribución de precios o la tendencia de las ventas). Es demasiado general y no tiene datos para respaldarla, ignorando la dominancia de los precios de gama media y el crecimiento estable en los gráficos. Puede ser eliminada por conocimiento general (la innovación debe alinearse con las preferencias).",
+        "F": "Esta es una opción de distracción difícil: Aparentemente se utilizan los datos de precios de chart_136_3 (los amuletos por debajo de 350 yuan representan el 24% y las pulseras por debajo de 600 yuan representan el 40%), pero se interpreta erróneamente que la proporción es “alta” (en realidad, la proporción de los productos de gama media es más alta: los amuletos entre 350 - 500 yuan representan el 41% y las pulseras entre 600 - 1000 yuan representan el 46%). Aumentar los productos de bajo precio ignora las preferencias principales del mercado, y el crecimiento de las ventas (chart_136_1) se debe a los productos de gama media, lo que confunde la relación entre los valores.",
+        "G": "Combinando chart_136_3 (los amuletos por debajo de 350 yuan representan el 24% y las pulseras por debajo de 600 yuan representan el 40%, lo que muestra la demanda de productos de bajo precio) y chart_136_1 (las ventas disminuyeron en 2020, pero se recuperaron en 2023. Los productos de bajo precio pueden amortiguar el riesgo)."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     }
   ]

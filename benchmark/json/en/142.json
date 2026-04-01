@@ -86,6 +86,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distraction: Based on common knowledge in the e - commerce industry (live - streaming e - commerce enhances purchasing意愿), it does not rely on chart data and generally talks about the benefits of live - streaming e - commerce, but does not specifically explain its potential contribution to the overall cross - border e - commerce.",
+        "B": "This is an easy distraction: It infers using general knowledge such as digital payment, does not quote chart values, and does not analyze the relationship between live - streaming e - commerce and the overall trend.",
+        "C": "This is a hard distraction: It misinterprets the scale gap. In 2022, the live - streaming e - commerce scale in chart_142_1 and chart_142_3 is 111.6 billion yuan vs. the overall export of 1,532.1 billion yuan. Although the absolute value is small, the growth rate of live - streaming e - commerce (210%) is much higher than the overall growth rate. This option ignores the growth rate and claims that 'the impact is negligible', which is a misinterpretation of the data gap.",
+        "D": "This is a hard distraction: It misinterprets the chart value gap. Chart_142_3 shows that the live - streaming e - commerce grew by 50% in 2021, and chart_142_1 shows that the overall import and export grew by 18.6%. However, the higher growth rate of live - streaming e - commerce indicates a large potential contribution, but this option wrongly says 'the contribution is small', which is a wrong inference based on the comparison of growth rates.",
+        "E": "It relies on chart_142_1 (the import and export scale is growing but the growth rate slowed down in 2022) and chart_142_3 (the growth rate of live - streaming e - commerce was as high as 50% - 210% from 2021 to 2022). By comparing the growth trends, it is found that live - streaming e - commerce may compensate for the overall slowdown.",
+        "F": "It combines the import and export growth in chart_142_1 and the faster growth of live - streaming e - commerce in chart_142_3. By comparing the scale growth amplitudes, it infers the key role of live - streaming e - commerce. Each option cannot be inferred from only one chart and must compare the trends across charts.",
+        "G": "It relies on chart_142_1 (showing that the export scale has been growing year by year since 2020) and chart_142_3 (showing the explosive growth of the live - streaming e - commerce scale from 2020 to 2023) to infer the promoting effect of live - streaming e - commerce on exports."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -106,6 +123,22 @@
       "label": [
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: It wrongly attributes the growth driving force. In 2022, the export growth rate in chart_142_2 is 10.1% vs. the 210% growth rate of live - streaming e - commerce in chart_142_3, with a huge gap (199.9 percentage points). This option weakens the difference by citing 'a small base', which is a misinterpretation of the growth momentum.",
+        "B": "It relies on chart_142_2 (the export growth rate decreased from 2020 to 2022) and chart_142_3 (the growth rate of live - streaming e - commerce increased from 2021 to 2022). By comparing the downward and upward trends, it discovers the conflict and explains the independence of live - streaming e - commerce.",
+        "C": "This is an easy distraction: It uses general industry knowledge (social media dividends), does not quote chart values, and generally discusses the reasons for the difference but does not target the data trends.",
+        "D": "It relies on chart_142_2 (the export grew in 2021 and decreased in 2022) and chart_142_3 (the live - streaming e - commerce grew in 2021 and 2022). By jointly analyzing the growth rate differences in different years, it infers the resilience of live - streaming e - commerce. Each option must compare the trends across charts and cannot be obtained from a single chart.",
+        "E": "This is a hard distraction: It misinterprets the numerical comparison. In 2021, the export growth rate in chart_142_2 is 28.3%, and the growth rate of live - streaming e - commerce in chart_142_3 is 50%, with a significant actual gap (21.7 percentage points). This option claims that 'the difference is not large', which is a wrong inference based on the comparison of growth rates.",
+        "F": "This is an easy distraction: Based on macro - economic common knowledge (the global economic recession affects exports), it does not involve chart data and does not analyze the specific growth rate differences."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -126,6 +159,22 @@
       "label": [
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distraction: Based on trade common knowledge (live - streaming e - commerce focuses on exports), it does not rely on chart data and generally talks about business focus, but does not analyze the specific trends.",
+        "B": "It relies on chart_142_1 (the import scale changed little from 2019 to 2022) and chart_142_3 (the live - streaming e - commerce scale grew rapidly from 2020 to 2023). By comparing the stable vs. growing trends, it infers the weak impact of live - streaming e - commerce on imports.",
+        "C": "This is a hard distraction: It misinterprets the synchronicity. In 2022, the import growth rate in chart_142_1 is 0.8% vs. the 210% growth rate of live - streaming e - commerce in chart_142_3, with no correlation (a large difference in growth rates). This option fabricates a'synchronous change', which is a wrong understanding of the trend difference.",
+        "D": "This is a hard distraction: It wrongly infers the causal relationship. In 2021, the import decreased by 0.9% in chart_142_1, and the live - streaming e - commerce grew by 50% in chart_142_3. However, the live - streaming e - commerce scale is small and the trend is independent. This option wrongly associates it as 'promoting the decline', which is a misinterpretation of the numerical relationship.",
+        "E": "It relies on chart_142_1 (implies a stable import scale) and chart_142_3 (the growth rate of live - streaming e - commerce is 50% - 210%), or indirectly combines chart_142_2 (the import growth rate was close to zero from 2021 to 2022), but mainly compares the trends in chart_142_1 and chart_142_3 to explain the irrelevance between live - streaming e - commerce and imports. Each option must be analyzed across charts and cannot be solved with a single chart.",
+        "F": "This is an easy distraction: It uses policy common knowledge (strict import supervision), does not quote chart values, and does not associate the live - streaming e - commerce scale data."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -149,6 +198,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "On the surface, it uses the chart data (Chart 142_2 shows that the import growth rate was 0.8% in 2022), but misinterprets the trend. In fact, the import scale decreased from 5319 billion yuan in 2021 - 2022 to 5278 billion yuan, and the growth rate has been sluggish for a long time (it was - 0.9% in 2021), indicating that there is no potential for a “strong recovery” in imports. This strategy will waste resources.",
+        "B": "Option C combines Chart 142_1 (the import scale fluctuated from 4441 billion yuan in 2018 to 5278 billion yuan in 2022, which is relatively stable) and Chart 142_2 (the import growth rate fluctuates little, such as 0.8% in 2022), and infers that the import growth is limited. Efficiency optimization is needed instead of blind expansion of investment to focus on high - potential areas.",
+        "C": "This option involves broad concepts such as corporate social responsibility, which has nothing to do with the chart content. Although the statement is correct, it lacks specific directions for resource allocation and cannot directly optimize business growth or risk control.",
+        "D": "Option B combines Chart 142_3 (the market size of cross - border live - streaming e - commerce is predicted to increase from 240 billion yuan in 2020 to 8287 billion yuan in 2025, and the growth rate ranges from 50% to 59.4% in the future, with overall high growth) and Chart 142_1 (the growth trend of the export scale), and infers that live - streaming e - commerce as an emerging field can complement the export - dominated pattern and seize high - growth opportunities.",
+        "E": "It wrongly quotes the chart trend (the export growth rate in Chart 142_2 is declining), but ignores the continuous expansion of the export scale (Chart 142_1 shows that it reached 15321 billion yuan in 2022), which is not a saturated market. A slowdown in the growth rate does not mean negative growth. This strategy will miss the stable income foundation of exports.",
+        "F": "This option is based on general management common sense (such as improving team efficiency), but does not rely on chart data. It has no specific action guidelines and does not combine the cross - border e - commerce industry trend, so it can be easily excluded by common sense.",
+        "G": "Option A combines Chart 142_1 (the export scale increased from 6116 billion yuan in 2018 to 15321 billion yuan in 2022, accounting for the main part of imports and exports) and Chart 142_2 (the export growth rate decreased from 30.5% in 2019 to 10.1% in 2022, showing a slowdown but continuous positive growth), and infers that although the export growth rate has decreased, the scale is large, and priority investment is needed to ensure stability."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -172,6 +238,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option is based on marketing common sense (such as social media advertising). The statement is broad, does not combine chart data or industry structural changes, has no specific guidelines, and can be easily excluded.",
+        "B": "On the surface, it uses the chart data (the import scale in Chart 142_1 and the growth rate in Chart 142_2), but misinterprets the import trend. In fact, the import scale has fluctuated little in recent years and the growth has been weak (negative growth in 2021). A 0.8% growth rate is negligible. Increasing marketing efforts cannot significantly improve penetration and will waste the budget.",
+        "C": "It wrongly quotes the chart prediction (the growth rate in Chart 142_3 is declining), but ignores the rapid expansion of the live - streaming e - commerce scale (predicted to be 8287.0 billion yuan in 2025). Although the growth rate is decreasing, it is still much higher than the industry average. This strategy will miss high - growth opportunities, and the statement of “the popularity fading” contradicts the data.",
+        "D": "Option B combines Chart 142_2 (the export growth rate decreased from 30.5% in 2019 to 10.1% in 2022, showing a continuous slowdown) and Chart 142_1 (the large base of the export scale), and infers that the slowdown in export growth requires technology - driven marketing innovation to maintain efficiency.",
+        "E": "Option C combines Chart 142_2 (the import growth rate fluctuates, such as a - 0.9% negative growth in 2021) and Chart 142_1 (the import scale changes little), and infers that import marketing needs to be more efficient to avoid resource sinking and instead support emerging opportunities.",
+        "F": "This option suggests general promotion activities. Although it is correct, it lacks specificity and does not rely on chart trends (such as the rise of live - streaming e - commerce), so it cannot maximize penetration or return on investment.",
+        "G": "Option A combines Chart 142_3 (the market size of cross - border live - streaming e - commerce has grown rapidly, such as a year - on - year growth of 210% in 2022, and is predicted to reach 8287 billion yuan in 2025) and Chart 142_1 (the continuous growth of the export scale, such as 13918 billion yuan in 2021), and infers that the high - growth of live - streaming e - commerce can effectively supplement export marketing and use its explosiveness to improve overall efficiency."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -195,6 +278,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "On the surface, it uses the chart data (the export scale in Chart 142_1 and the slowdown of the growth rate in Chart 142_2), but wrongly ignores the continuous decline of the export growth rate (from 39.2% to 10.1%), indicating a reduction in marginal returns. It also does not consider the volatility risk (such as a growth of only 7.1% in 2022). This strategy may over - concentrate risks.",
+        "B": "Option C combines Chart 142_3 (the growth rate of live - streaming e - commerce decreased from 50% in 2021 to a predicted 59.4% in 2025, showing a gradual decline) and Chart 142_1 (the growth trend of the overall import and export scale), and infers that live - streaming e - commerce investment needs dynamic management to avoid pitfalls after high - growth and ensure synergy with the overall industry.",
+        "C": "Option A combines Chart 142_1 (the obvious growth trend of the export scale) and Chart 142_3 (the rapid expansion of the live - streaming e - commerce market size), and also refers to Chart 142_2 (the slowdown of both the export and import - export growth rates), and infers that a diversified strategy can use the stability of exports and the vitality of live - streaming e - commerce to reduce industry volatility risks.",
+        "D": "This option is based on common sense of technology investment. Although the statement is correct, it is broad and does not combine chart trends (such as growth rate fluctuations). It has no specific measures to balance risks and can be easily excluded by common sense.",
+        "E": "Option B combines Chart 142_2 (the continuous decline of the export growth rate) and Chart 142_1 (the absolute growth of the export scale), and infers that the slowdown in export growth requires efficiency - oriented investment instead of scale expansion to maintain profitability.",
+        "F": "This option suggests a general market expansion strategy. It does not rely on chart data (such as import or live - streaming e - commerce trends), the statement is vague, and it cannot optimize sustainable development in response to industry volatility.",
+        "G": "It misinterprets the chart prediction (the growth rate in Chart 142_3). In fact, the growth rate decreased from 210% to 59.4%, with an obvious decreasing trend. Aggressive investment will ignore potential bubble risks; and it is out of touch with the export - dominated trend (Chart 142_1) and cannot achieve a stable balance."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     }
   ]

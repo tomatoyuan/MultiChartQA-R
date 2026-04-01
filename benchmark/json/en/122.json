@@ -84,6 +84,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "It is necessary to jointly reason about chart_122_1 (the proportion of content - sharing platforms as a source is 38.8%) and chart_122_4 (the proportion of watches is always below 10% and changes little). The high proportion of content sharing and the stability of the low proportion of watches may indicate that the information focus is on jewelry rather than watches, but joint analysis is required.",
+        "B": "This is an Easy interference option: It uses industry common sense (the influence of TV advertising), but the proportion of advertising sources in chart_122_1 is only 25.9%, not the highest (the proportion of introductions by relatives and friends is the highest at 43.8%), and it is not associated with the change in jewelry preferences; the option wrongly assumes that TV advertising is dominant, but the data does not support this.",
+        "C": "It is necessary to jointly reason about chart_122_1 (the proportion of short - video platforms as a source is high, at 43.5%) and chart_122_4 (the proportion of gold jewelry has increased from 64.5% to 80.1%). The popularity of short - video platforms may promote the sales of gold jewelry, but a causal relationship cannot be established based on only one chart; the trends of both must be combined.",
+        "D": "This is an Easy interference option: It is based on common sense (social media enhances brand trust), but it does not rely on the chart data at all. Chart_122_1 does not mention WeChat, Weibo or TV advertising, and chart_122_4 shows that the proportion of product categories changes unevenly (the proportion of gold jewelry increases, while that of inlaid jewelry decreases). This option is too general and cannot be directly inferred from the charts.",
+        "E": "This is a Hard interference option: It seemingly bases on the chart data but misinterprets the numerical relationship. Chart_122_1 shows that the proportion of content - sharing platforms is 38.8%, and chart_122_4 shows that the proportion of inlaid jewelry has decreased from 29.1% in 2019 to 14.7% in 2023; the option wrongly assumes that content sharing 'directly leads to' the decline in demand, but the charts do not prove a causal relationship (it may be affected by other factors), and it ignores the high proportion of 43.5% of short - video platforms, which constitutes a misinterpretation of the numerical values.",
+        "F": "It is necessary to jointly reason about chart_122_1 (the proportion of introductions by relatives and friends as a source is the highest, at 43.8%) and chart_122_4 (the proportion of inlaid jewelry has decreased from 29.1% to 14.7%). The high proportion of traditional channels and the downward trend of inlaid jewelry may imply a shift in consumer preferences, but cross - chart comparison is required."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "E"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "It is necessary to jointly reason about chart_122_2 (the combined proportion of budgets from 50,000 to 100,000 yuan and from 100,000 to 200,000 yuan exceeds 60%) and chart_122_4 (the proportion of gold jewelry has increased to 80.1%). The dominance of affordable budgets is consistent with the growth trend of gold products, but the wedding demand and product structure need to be jointly analyzed.",
+        "B": "This is an Easy interference option: It relies on economic common sense (an increase in the budget boosts profits), but it does not combine the chart data. Chart_122_2 shows an uneven budget distribution (the proportion of budgets from 100,000 to 200,000 yuan is the highest at 34.2%), and the net profit in chart_122_3 fluctuates (e.g., it decreased in 2023). The option is too general and does not consider the data details.",
+        "C": "This is a Hard interference option: It misinterprets the numerical values and rankings. In chart_122_2, the proportion of budgets below 50,000 yuan is the lowest at 8.8% (not the highest), and chart_122_3 shows that the net profit in 2023 was 4.714 billion yuan, lower than 5.444 billion yuan in 2022; the option wrongly associates the 'lowest budget proportion' with the 'decline in profit', but the data does not prove a dominant relationship (the actual revenue increased), and it ignores the influence of high - budget groups.",
+        "D": "It is necessary to jointly reason about chart_122_2 (the combined proportion of budgets above 300,000 yuan is less than 10%) and chart_122_3 (the net profit decreased to 4.714 billion yuan in 2023). The conflict between the low proportion of high - budget weddings and the decline in profit may indicate that the lack of the high - end market affects the profit, but cross - chart data comparison is required.",
+        "E": "It is necessary to jointly reason about chart_122_2 (the proportion of budgets from 100,000 to 200,000 yuan is the highest, at 34.2%) and chart_122_3 (the operating revenue has increased from 51.85 billion yuan to 98.55 billion yuan). The high proportion of medium - level budgets may explain the revenue growth, but the wedding - related association cannot be confirmed based on only one chart; the budget distribution and revenue trend must be combined.",
+        "F": "This is a Hard interference option: It misinterprets the numerical gap and trend. In chart_122_4, the proportion of watches has decreased from 6.4% in 2019 to 5.2% in 2023 (a decrease, not an increase), and in chart_122_2, the combined proportion of high - budget weddings (above 300,000 yuan) is 8.4%; the option wrongly describes 'an increase in the proportion of watches' and fabricates a conflict, but the actual data does not show such an association, which constitutes a misinterpretation of the numerical values."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "It is necessary to jointly reason about chart_122_1 (the proportion of information sources from attending others' weddings is 37.9%) and chart_122_2 (the proportion of budgets from 200,000 to 300,000 yuan is 18.2%). The high proportion of on - site information and the association with higher budgets may indicate that experiential information enhances the consumption level, but cross - chart verification is required.",
+        "B": "It is necessary to jointly reason about chart_122_1 (the proportion of short - video platforms as a source is high, at 43.5%) and chart_122_2 (the proportion of budgets from 50,000 to 100,000 yuan is high, at 30.4%). The association between the high proportion of short - videos and the high proportion of medium - level budgets may indicate that digital platforms drive economic spending, but the interaction cannot be inferred based on only one chart; both must be combined.",
+        "C": "This is a Hard interference option: It wrongly compares the numerical gap. The proportion of Internet searches in chart_122_1 is 27.1%, and the proportion of budgets below 50,000 yuan in chart_122_2 is 8.8%; the option wrongly assumes that the two are 'close', but the actual gap is large (27.1% vs 8.8%), and it does not prove an association (the proportion of Internet searches is not high, and the proportion of the low - budget group is the lowest), which constitutes a misinterpretation of the numerical values.",
+        "D": "It is necessary to jointly reason about chart_122_1 (the proportion of Internet searches as a source is relatively low, at 27.1%) and chart_122_2 (the proportion of budgets below 50,000 yuan is low, at 8.8%). The correspondence between the low proportion of Internet searches and the low proportion of low - level budgets may indicate that this channel fails to reach the thrifty group, but the data trends need to be jointly analyzed.",
+        "E": "This is a Hard interference option: It misinterprets the ranking and association. The proportion of short - video platforms in chart_122_1 is high at 43.5%, but the proportion of budgets from 200,000 to 300,000 yuan in chart_122_2 is not the highest (the proportion of budgets from 100,000 to 200,000 yuan is the highest at 34.2%); the option wrongly associates short - videos with the 'highest budget', but the data does not support this (the proportion of medium - level budgets from 50,000 to 100,000 yuan is also high), and it ignores the influence of other channels.",
+        "F": "This is an Easy interference option: It is based on common sense (off - line activities attract high - budget consumers), but it does not rely on the charts at all. Chart_122_1 does not mention wedding fairs or off - line activities, and the information sources are mainly from relatives and friends and online; the option is too general and cannot be inferred from the data."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -149,6 +194,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses the source data (the proportion of Internet search is 27.1%), but it confuses the trend - the proportion of short - video platforms is 43.5%, almost on par with the highest - proportion channel. Ignoring it will reduce coverage. Meanwhile, the budget data shows that the group with a budget of 100,000 - 200,000 yuan is the largest, but this strategy does not target this group, so the reasoning is wrong.",
+        "B": "Option 3 combines chart_122_1 (both content - sharing platforms and referrals from others' weddings have relatively high proportions) and chart_122_2 (the group with a budget of 200,000 - 300,000 yuan has growth potential), and enhances trust through content marketing.",
+        "C": "Option 1 combines chart_122_1 (the proportion of short - video platforms as an information source is high) and chart_122_2 (the group with a wedding budget of 100,000 - 200,000 yuan has the highest proportion), and infers that short - video platforms can effectively reach high - budget groups.",
+        "D": "This is a hard distractor: On the surface, it uses the budget data (the proportion of those with a budget above 500,000 yuan is 0.7%), but it misinterprets the market scale - this group has a very small proportion, and the budget distribution shows that the largest group is the one with a budget of 100,000 - 200,000 yuan (34.2%). Targeting ultra - high - net - worth groups will ignore the mainstream market, and the strategic direction is seriously off.",
+        "E": "This is an easy distractor: It is based on general marketing common sense (exposure through traditional media can enhance awareness), but the chart shows that the proportion of advertising as an information source is the lowest (25.9%), and traditional media is not mentioned. The strategy is too broad and lacks specificity, so it can be easily excluded.",
+        "F": "Option 2 combines chart_122_1 (introductions by relatives and friends have the highest proportion) and chart_122_2 (the group with a budget of 50,000 - 100,000 yuan has a significant proportion), and reduces customer acquisition costs through social channels.",
+        "G": "This is an easy distractor: It is based on the common sense of the digital trend in the industry, but in the chart, the proportion of wedding - related websites/APPs as an information source is only 36.5%, lower than introductions by relatives and friends (43.8%) and short - video platforms (43.5%). The strategy does not focus on high - proportion channels and does not combine the budget distribution. The statement is too vague."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -171,6 +233,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses the financial data (the net profit fluctuates. For example, in 2023, it was 4.714 billion, lower than 5.444 billion in 2022), but it wrongly attributes the cause - the total revenue is steadily increasing. The net profit fluctuation may be affected by external factors. Reducing R & D investment may weaken innovation, and it does not consider the category demand. The reasoning is one - sided.",
+        "B": "This is an easy distractor: It is based on general business common sense (diversification can disperse risks), but it does not use the chart data - the category proportion shows that gold jewelry dominates (80.1%) and its proportion is continuously rising, while the proportions of watches and jewelry inlay are decreasing. Comprehensive expansion will waste resources on low - demand categories. The strategy is broad and ineffective.",
+        "C": "This is an easy distractor: It quotes common sense (watches, as luxury goods, have high profits), but in the chart, the proportion of watches has decreased from 6.4% to 5.2%, and the financial data shows that the growth of total revenue mainly comes from gold jewelry. The strategy ignores the downward trend and has a wrong direction.",
+        "D": "This is a hard distractor: On the surface, it uses the category data (the proportion of gold jewelry is 80.1%), but it misinterprets the trend - the proportion of gold has been continuously rising (from 64.5% to 80.1%), and the financial revenue has increased from 51.85 billion to 98.55 billion. Cutting investment in gold will ignore the core growth driver and confuse the relationship between saturation and growth.",
+        "E": "Option 3 combines chart_122_4 (the proportion of watches remains stable at 5 - 6%) and chart_122_3 (the net profit fluctuates, such as a decline in 2023), and emphasizes risk control and scenario innovation.",
+        "F": "Option 1 combines chart_122_4 (the proportion of gold jewelry has increased from 64.5% to 80.1%) and chart_122_3 (the operating revenue has increased from 51.85 billion yuan to 98.55 billion yuan), and infers that the gold category is positively correlated with revenue growth and should be given priority in investment.",
+        "G": "Option 2 combines chart_122_4 (the proportion of jewelry inlay has decreased from 29.1% to 14.7%) and chart_122_3 (although the net profit attributable to the parent company fluctuates, it is generally on the rise), and copes with the downward trend of the category through innovation."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -194,6 +273,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses the budget data (the proportion of those with a budget below 50,000 yuan is 8.8%), but it wrongly positions the target - this group has a small proportion, and the jewelry consumption trend shows that gold dominates (80.1%). An economy - type package may ignore high - value groups (such as the group with a budget of 100,000 - 200,000 yuan, with a proportion of 34.2%). The strategic direction is off.",
+        "B": "This is an easy distractor: It is based on general digital marketing common sense (the email channel is efficient), but the information source chart does not mention email, and the budget distribution shows that the mainstream groups are those with a budget of 50,000 - 100,000 yuan (30.4%) and 100,000 - 200,000 yuan (34.2%). The strategy has no data support and is too broad.",
+        "C": "This is a hard distractor: On the surface, it uses the source data (the proportion of advertising is 25.9%), but it confuses the priority - introductions by relatives and friends have the highest proportion (43.8%). Ignoring it will reduce the advantage of social trust. Meanwhile, the budget data shows that the medium - budget group is the largest, but this strategy is not designed specifically for it. The reasoning is wrong.",
+        "D": "This is an easy distractor: It quotes industry common sense (jewelry inlay once had a relatively high proportion), but in the category chart, the proportion of jewelry inlay has been continuously decreasing to 14.7%, while the proportion of gold jewelry has increased to 80.1%. The strategy does not focus on the current trend and does not combine the wedding source data. It is ineffective.",
+        "E": "Option 1 combines chart_122_1 (the proportion of short - video platforms as an information source is high), chart_122_2 (the group with a budget of 100,000 - 200,000 yuan has the largest proportion), and chart_122_4 (the proportion of gold jewelry is rising), and infers that short - video platforms, as an efficient channel, can integrate the needs of weddings and jewelry.",
+        "F": "Option 3 combines chart_122_1 (both content - sharing platforms and referrals from others' weddings have relatively high proportions), chart_122_2 (the group with a budget of 200,000 - 300,000 yuan has potential), and chart_122_4 (the trend of jewelry categories), and enhances conversion through emotional marketing.",
+        "G": "Option 2 combines chart_122_1 (introductions by relatives and friends have the highest proportion), chart_122_2 (the medium - budget group has a significant proportion), and chart_122_4 (the demand for gold jewelry is increasing), and optimizes resource allocation through social trust."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     }
   ]

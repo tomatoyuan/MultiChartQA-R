@@ -90,6 +90,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Difícil：错误比较绝对比例（男性妻子占比9.7% vs 女性丈夫占比10.1%），忽略女性比例实际略高且差距微小（10.1% > 9.7%）。",
+        "B": "Difícil：颠倒数据关系（女性未确定关系占比仅119/1373≈8.7%，远低于男性49.3%），误读chart_26_2和chart_26_3的数值对比。",
+        "C": "Opción 2依赖chart_26_1（女性搜索比例35%）和chart_26_3（女性送礼对象中男朋友和丈夫占主导），同时隐含对比chart_26_2（男性对象分散）。联合推理：仅从单一图表无法推断性别行为对比，需跨图分析搜索比例和对象分布。",
+        "D": "Opción 3依赖chart_26_1（男性搜索主导）和chart_26_2（男性送未确定关系对象多）以及chart_26_3（女性送确定关系对象多）。联合推理：搜索比例与送礼对象的因果关系需综合两图数据，不能仅凭一图。",
+        "E": "Fácil：直接违背chart_26_1数据（男性65% > 女性35%），仅基于\"女性更重仪式感\"的刻板印象。",
+        "F": "Opción 1依赖chart_26_1（显示男性搜索比例65%，女性35%）和chart_26_2（男性送礼对象中未确定关系异性占比49.3%）以及chart_26_3（女性送礼对象中男朋友占比高，计算比例约81.2%）。联合推理：男性整体搜索优势与送礼对象偏好（非固定关系）需结合两图才能得出行为模式。",
+        "G": "Difícil：错误计算占比（男性女友+妻子=22.7%+9.7%=32.4%，女性男友+丈夫≈81.2%+10.1%=91.3%），虚构\"比例相近\"的结论。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "B",
+        "G"
       ]
     },
     {
@@ -112,6 +129,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Opción 2依赖chart_26_4（<19岁女性20% vs 男性13%，但该组关注度低；25 - 34岁男性41%）和chart_26_1（整体男性主导）。联合推理：年龄组的绝对关注度（隐含权重）与整体比例的矛盾需跨图分析，单图无法解决冲突。",
+        "B": "Difícil：虚构\"人口基数最大\"（图表无基数数据），且忽略35 - 49岁组关注度权重最低（男性8%+女性5%=13%，远低于25 - 34岁组的68%）。",
+        "C": "Fácil：直接误读数据（chart_26_4显示≥50岁组男女均为1%），捏造\"女性更低\"的差异。",
+        "D": "Difícil：错误量化权重（19 - 24岁组总关注度84% vs 25 - 34岁组68%），未发现25 - 34岁组男性41%的绝对数值优势。",
+        "E": "Opción 1依赖chart_26_4（19 - 24岁女性47% vs 男性37%；25 - 34岁男性41% vs 女性27%）和chart_26_1（整体男性65%）。联合推理：冲突源于年龄组差异，需联合两图比较特定组比例与整体比例，才能解释为什么局部女性高但整体男性高。",
+        "F": "Opción 3依赖chart_26_4（所有年龄组数据，如35 - 49岁男女比例接近）和chart_26_1（整体比例）。联合推理：表面冲突（女性在年轻组高但整体低）需综合年龄分布图和整体比例图，以识别关键影响组。",
+        "G": "Fácil：违背常识（低龄组通常活跃）且无图表支持\"搜索量最低\"的断言。"
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -134,6 +168,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Difícil：矛盾chart_26_4（≥50岁组关注度仅1%），错误关联低关注群体与行业数据。",
+        "B": "Fácil：无视基本认知（高龄组数字消费弱）且直接冲突chart_26_4数据（≥50岁组关注度最低）。",
+        "C": "Opción 1依赖chart_26_5（Tecnologías de la información/Internet行业覆盖率21.9%，最高）和chart_26_4（19 - 24岁和25 - 34岁组关注度合计最高，男性37%+41%=78%，女性47%+27%=74%）。联合推理：行业覆盖率需与年龄组关注度联合分析，才能推断IT行业与年轻人群的隐含联系（不能仅从单图得出）。",
+        "D": "Opción 2依赖chart_26_5（Publicidad/Marketing行业覆盖率19.9%）和chart_26_4（19 - 24岁组女性比例47%，高于男性）。联合推理：广告行业的高覆盖率可能与特定年龄性别组的敏感性相关，需跨图连接行业数据和人口分布。",
+        "E": "Opción 3依赖chart_26_5（Automóvil行业覆盖率6.1%，Gobierno/Organizaciones sin fines de lucro7.5%，较低）和chart_26_4（>=50岁组关注度仅1%，整体低）。联合推理：行业覆盖率的低值需与低关注年龄组联合，以揭示行业与人群年龄的关联性。",
+        "F": "Fácil：违背常识（政府机构年龄结构偏保守），且chart_26_5未提供行业年龄分布。",
+        "G": "Difícil：颠倒年龄特征（chart_26_4显示35 - 49岁组总关注度13%，而19 - 24岁组达84%），误判高敏感人群。"
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "La Opción 1 implica el razonamiento conjunto de chart_26_1 (la proporción de hombres en las búsquedas es mayor que la de mujeres) y chart_26_2 (la proporción de hombres que dan regalos a personas con relación no determinada es la más alta).",
+        "B": "Esta opción no se basa en los gráficos, solo en conocimientos generales de la industria (la popularidad de las redes sociales), pero no combina la proporción de género de chart_26_1 o el comportamiento de regalar de chart_26_2/26_3. La estrategia carece de soporte de datos y es fácilmente descartada por conocimientos generales.",
+        "C": "Esta opción interpreta erróneamente los datos del gráfico: chart_26_3 muestra que entre los destinatarios de regalos de mujeres, la cantidad de personas con relación no determinada es 119 (aproximadamente el 8.7%), mucho menor que la de novios, que es 1115 (aproximadamente el 81.2%). La opción de distracción afirma erróneamente que “la proporción de personas con relación no determinada es la más alta”, confundiendo valores y proporciones y desviando la estrategia hacia un grupo incorrecto.",
+        "D": "Esta opción comprende erróneamente la tendencia del gráfico: chart_26_2 muestra que entre los destinatarios de regalos de hombres, la proporción de personas con relación no determinada es la más alta, del 49.3%, no la de relaciones estables (la esposa solo es el 9.7%). La opción de distracción asume erróneamente que “la mayoría de los regalos de hombres son para relaciones estables”, lo que lleva a sugerir una reducción en la inversión publicitaria dirigida a hombres, lo cual es contradictorio con los datos.",
+        "E": "Esta opción no se basa en los datos de los gráficos, solo en conocimientos generales de marketing (como temas emocionales y cobertura de todos los géneros), pero ignora la diferencia en la proporción de búsqueda por género mostrada en el gráfico (65% de hombres vs 35% de mujeres) y la concentración de destinatarios de regalos, lo que hace que la estrategia sea amplia y sin enfoque, y no pueda optimizar la asignación de recursos.",
+        "F": "La Opción 2 implica el razonamiento conjunto de chart_26_1 (la proporción de mujeres en las búsquedas es más baja) y chart_26_3 (la proporción de mujeres que dan regalos a sus novios es significativamente mayor que a otros destinatarios).",
+        "G": "La Opción 3 combina las diferencias de comportamiento de género de chart_26_1, chart_26_2 y chart_26_3, lo que garantiza que la estrategia cubra una amplia gama de escenarios."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La Opción 2 implica el razonamiento conjunto de chart_26_4 (el grupo de edad de 25 - 34 años tiene una mayor atención y la proporción de hombres es más significativa) y chart_26_6 (el equipaje y el perfume tienen valores más altos en la clasificación).",
+        "B": "Esta opción aplica erróneamente la tendencia del gráfico: chart_26_4 muestra que la atención de las mujeres de 19 - 24 años es la más alta, del 47%, pero en chart_26_6, la cantidad de búsquedas de chocolate es 416132, que no es la más alta (la cantidad de búsquedas de teléfonos móviles es 430998, que es más alta), y se ignora el grupo de hombres (la atención de hombres de 19 - 24 años es del 37%). La opción de distracción se enfoca unilateralmente en las mujeres y asocia erróneamente las preferencias de regalos.",
+        "C": "La Opción 1 implica el razonamiento conjunto de chart_26_4 (el grupo de edad de 19 - 24 años tiene una alta atención tanto en hombres como en mujeres) y chart_26_6 (el teléfono móvil y el chocolate tienen los valores más altos en la clasificación de regalos).",
+        "D": "La Opción 3 se basa en la tendencia general de chart_26_4 (el grupo de edad de más de 35 años tiene una atención más baja), y enfatiza la optimización de recursos al tiempo que es coherente con los valores, sin discriminar a los grupos con baja atención.",
+        "E": "Esta opción interpreta erróneamente los datos del gráfico: chart_26_4 muestra que la atención del grupo de 35 - 49 años es solo del 8% (hombres) y del 5% (mujeres), mucho menor que la del grupo de 19 - 24 años, que es del 47% (mujeres) y del 37% (hombres). La opción de distracción afirma erróneamente que “la atención es alta”, confundiendo los grupos de baja y alta atención y causando un desvío en la asignación de inventario.",
+        "F": "Esta opción no se basa en los datos de los gráficos, solo en conocimientos generales de venta minorista (como cobertura de todas las categorías y descuentos), pero ignora la distribución de edad de chart_26_4 (el grupo de 19 - 24 años tiene la atención más alta) y la clasificación de regalos populares de chart_26_6 (la cantidad de búsquedas de teléfonos móviles es la más alta), lo que hace que la estrategia sea amplia y sin prioridades.",
+        "G": "Esta opción no se basa en los gráficos, solo en conocimientos generales de la cadena de suministro (optimización de la logística), pero no combina los datos de distribución de edad o clasificación de regalos, lo que hace que la estrategia carezca de enfoque y sea fácilmente descartada por conocimientos generales."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente los datos del gráfico: chart_26_5 muestra que la atención de la industria de salud es la más baja, solo del 2.9%. La opción de distracción sugiere erróneamente una “promoción con alto presupuesto”, lo cual es contradictorio con la tendencia de los datos (la estrategia correcta debería ser mantenerla con bajo costo). Además, la cantidad de búsquedas de perfume en chart_26_6 es 124097, que es baja, y no hay evidencia que respalde la preferencia de la industria.",
+        "B": "La Opción 2 implica el razonamiento conjunto de chart_26_5 (las industrias de finanzas y hoteles/turismo tienen una atención mediana) y chart_26_6 (el perfume y las flores tienen valores más altos en la clasificación).",
+        "C": "La Opción 3 se basa en los datos de chart_26_5 (las industrias de salud, etc., tienen una atención más baja), y la estrategia es coherente con los valores: no reduce el servicio, sino que optimiza la eficiencia de costos.",
+        "D": "Esta opción no se basa en los datos de los gráficos, solo en principios generales de marketing (como presupuesto uniforme y temas emocionales), pero ignora la diferencia de atención de la industria de chart_26_5 (la industria de TI/Internet tiene la atención más alta, del 21.9%, vs la industria de salud, que tiene la más baja, del 2.9%) y las preferencias de regalos de chart_26_6, lo que hace que la estrategia sea amplia y sin enfoque.",
+        "E": "Esta opción no se basa en los gráficos, solo en conocimientos generales de marketing digital (como optimización del tiempo de lanzamiento), pero no combina los datos de atención de la industria o preferencias de regalos, lo que hace que la estrategia carezca de base de datos y sea fácilmente descartada por conocimientos generales.",
+        "F": "La Opción 1 implica el razonamiento conjunto de chart_26_5 (las industrias de TI/Internet y publicidad/marketing tienen la atención más alta) y chart_26_6 (el teléfono móvil tiene el valor más alto en la clasificación de regalos).",
+        "G": "Esta opción comprende erróneamente la relación del gráfico: en chart_26_5, la atención de la industria mayorista/minorista es del 5.1%, relativamente baja (ranking número 7), y la opción de distracción afirma erróneamente que “la atención es alta”. Además, la cantidad de búsquedas de chocolate es alta (416132), pero no hay nada en el gráfico que muestre una relación con la industria, lo que lleva a una asignación errónea de la estrategia de promoción."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     }
   ]

@@ -85,6 +85,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项。它表面基于chart_103_2数据计算占比（2019年648/1712≈37.8%，2026年2576/7490≈34.4%），但错误推断'驱动因素弱'：占比下降可能源于其他类别增长更快，而非水产驱动弱；问题问驱动因素，干扰项忽略水产市场规模绝对增长（2576亿元），对数据理解片面。",
+        "B": "一张图表显示预制菜总规模从2019年到2024年快速扩张，且水产类是重要子类，而另一张图表表明水产品产量持续增加。这需要交叉分析总需求与供应能力，单看一张图表无法建立'市场渗透率提升'的关联。",
+        "C": "这是一个Hard干扰项。它错误解读chart_103_1数据：水产品总产量从2015年6210.97万吨增至2024年7366.50万吨，增长1155.53万吨（约18.6%），并非'增长缓慢'；同时，水产预制菜市场规模从2019年648亿元增至2026年2576亿元（chart_103_2），增长迅猛，但干扰项错误描述产量增速，制造误导。",
+        "D": "一张图表显示水产品总产量从2015到2024年稳步上升（例如，2019年到2024年增长平缓），而另一张图表中水产预制菜市场规模从2019年到2024年增长率显著更高。这需要比较两张图表的增长趋势，推断原材料供应充足与加工需求激增的隐含联系，单张图表无法得出'加工升级'的结论。",
+        "E": "一张图表中水产预制菜预测增长强劲，而另一张图表显示水产品产量同步增长，但产量增速较慢。这需要联合分析供应端和需求端的数值，推断'供应链效率'的隐含因素（如单位产量支持更高市场规模），单张图表无法体现这种优化。",
+        "F": "这是一个Easy干扰项。它依赖行业常识（政策支持），但图表中没有政策或法规数据；选项泛泛而谈，与图表内容无关。",
+        "G": "这是一个Easy干扰项。它基于环境常识（气候变化影响资源），但图表数据未提及任何资源短缺或气候变化；相反，水产品总产量持续上升（chart_103_1），表明供应充足，与干扰项矛盾。"
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项。它使用贸易常识（进口成本影响），但图表无国际贸易数据；选项不依赖图表内容，纯属一般知识。",
+        "B": "一张图表显示水产品产量逐年上升，另一张图表显示批发价下降，还有一张图表中水产预制菜需求增长。这需要计算和比较供应、需求和价格的数值趋势，单张图表无法解释'供过于求'的冲突。",
+        "C": "这是一个Easy干扰项。它基于经济常识（收入影响需求），但图表未提及消费者收入；选项泛泛而谈，且预制菜水产需求快速增长（chart_103_2），与'需求减少'矛盾。",
+        "D": "这是一个Hard干扰项。它错误计算chart_103_1和chart_103_3数据：产量从2022年6865.91万吨增至2024年7366.50万吨（增长500.59万吨，约7.3%），批发价下降9.2%（24.68至22.42元/公斤），但预制菜水产需求从2022年1047亿元增至2024年1595亿元（chart_103_2），增长548亿元（约52.3%），干扰项错误声称'需求增长不足'，实际需求增速高于供应增速，制造数值理解错误。",
+        "E": "这是一个Hard干扰项。它误读chart_103_3趋势：2023年月度批发价波动（如12月22.89元/公斤），2024年类似（如4月23.26元/公斤），但整体趋势下降（2022年4月24.68元/公斤至2025年4月22.42元/公斤），干扰项 cherry-pick 数据称'2023年高于2024年'，错误；同时，需求上升压价与图表趋势矛盾，表面推理但数据解读错误。",
+        "F": "一张图表中水产预制菜需求增速高，但另一张图表的批发价同期下降，结合产量上升数据，需要联合分析需求激增与价格反降的矛盾，并引入产量数据推断'生产效率'等隐含因素，单张图表无法得出此结论。",
+        "G": "一张图表的批发价下降趋势覆盖一定时间段，而另一张图表的产量数据止于某一年，还有一张图表的需求预测延伸到另一年。这需要比较不同图表的时间段和增长速率，单张图表无法揭示'时间段差异或饱和'的冲突解释。"
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "一张图表显示预制菜总规模快速增长，水产类子项同步扩张，但另一张图表的批发价在同期呈下降趋势。这需要联合需求端和价格端的数值，推断'供应缓冲'的规律，单张图表无法建立'不引发通胀'的联系。",
+        "B": "这是一个Hard干扰项。它错误解读chart_103_2和chart_103_3数据：水产预制菜市场规模从2023年1237亿元增至2026年2576亿元（增长108.2%），但批发价从2023年12月22.89元/公斤到2024年4月23.26元/公斤是短期波动，整体趋势下降（2022年24.68元/公斤至2025年22.42元/公斤）；干扰项 cherry-pick 数据制造'上升'假象，忽略长期下降趋势。",
+        "C": "一张图表显示预制菜总规模增速高于水产类子项，但另一张图表批发价下降，而还有一张图表表明水产品产量持续增加。这需要比较总需求、价格和供应的趋势，单张图表无法揭示'原材料支撑'的隐含规律。",
+        "D": "一张图表中水产预制菜规模上升，而另一张图表的批发价下降。这需要分析需求增长与价格反比趋势，并隐含结合产量增长（供应充足），单张图表无法得出'加工效率'的结论。",
+        "E": "这是一个Hard干扰项。它表面计算chart_103_2占比（2023年水产1237亿/总3616亿≈34.2%，2026年2576亿/7490亿≈34.4%），但错误推断'拉动有限'：占比微增（34.2%到34.4%），且水产规模绝对增长显著，干扰项误读占比变化（实际从34.2%到34.4%是上升，干扰项说'降至'错误），对数据排序和差距理解错误。",
+        "F": "这是一个Easy干扰项。它使用供应链常识（瓶颈推高成本），但图表无供应链数据；选项泛泛而谈，与图表内容无关。",
+        "G": "这是一个Easy干扰项。它基于市场常识（需求推高价格），但图表显示批发价整体下降趋势（chart_103_3），选项与数据矛盾，且不依赖图表。"
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -153,6 +204,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción B involucra el gráfico chart_103_1 (el aumento estable de la producción total de productos acuáticos) y el gráfico chart_103_2 (el alto crecimiento de los platos pre - preparados de mariscos, como la predicción de crecimiento de 2023 a 2026).",
+        "B": "La opción C involucra el gráfico chart_103_3 (las variaciones estacionales de los precios mayoristas) y el gráfico chart_103_2 (la tendencia de rápido crecimiento del tamaño total del mercado de platos pre - preparados).",
+        "C": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico chart_103_2 (los datos del mercado de platos pre - preparados), pero confunde las tendencias de las categorías. El tamaño del mercado de platos pre - preparados de mariscos sigue creciendo (de 85.6 mil millones de yuanes en 2021 a 257.6 mil millones de yuanes en 2026), mientras que el de verduras, aunque crece, no tiene un crecimiento más estable (de 83.5 mil millones de yuanes en 2023 a 162.5 mil millones de yuanes en 2026). Reducir la inversión en mariscos haría que se perdieran oportunidades de crecimiento y no se ajustaría a la estrategia de optimización centrada en los platos pre - preparados de mariscos planteada en la pregunta.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico chart_103_3 (los datos de precios), pero interpreta erróneamente la tendencia. El gráfico muestra que los precios fluctúan pero en general bajan (por ejemplo, de 24.68 yuanes/kg en abril de 2022 a 22.42 yuanes/kg en abril de 2025). En los períodos pico (por ejemplo, 24.38 yuanes/kg en septiembre de 2022), los precios son altos. Aumentar las compras aumentaría el costo, lo que contradice la estrategia de reducir el costo de las materias primas.",
+        "E": "Esta es una opción de distracción fácil: se basa en conocimientos comerciales generales (la promoción de la marca puede mejorar el reconocimiento), pero no se asocia específicamente con los datos de los gráficos ni con la estrategia de optimización de compras/producción. Es demasiado general y no ofrece una guía clara de acción.",
+        "F": "La opción A involucra el gráfico chart_103_3 (la tendencia descendente de fluctuación de los precios mayoristas de productos acuáticos) y el gráfico chart_103_2 (la predicción de crecimiento de la demanda de platos pre - preparados de mariscos)."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -175,6 +241,21 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "La opción A involucra el gráfico chart_103_1 (el aumento continuo de la producción total de productos acuáticos), el gráfico chart_103_3 (la tendencia de desaceleración de los precios mayoristas) y el gráfico chart_103_2 (el alto crecimiento de los platos pre - preparados de mariscos, como la predicción de 2024 a 2026).",
+        "B": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico chart_103_2 (los datos del tamaño del mercado de platos pre - preparados), pero interpreta erróneamente la tendencia de la demanda. El gráfico muestra que el tamaño total del mercado de platos pre - preparados sigue creciendo (por ejemplo, de 361.6 mil millones de yuanes en 2023 a 749 mil millones de yuanes en 2026), y no hay evidencia de períodos bajos. En realidad, los períodos pico (por ejemplo, según la tasa de crecimiento interanual) son más adecuados para la comercialización. Invertir en períodos bajos desperdiciaría recursos.",
+        "C": "La opción C involucra el gráfico chart_103_2 (el crecimiento acelerado del tamaño total del mercado de platos pre - preparados, como el aumento de la tasa de crecimiento interanual) y el gráfico chart_103_1 (el suministro estable de productos acuáticos).",
+        "D": "Esta es una opción de distracción fácil: se basa en conocimientos generales de gestión empresarial (la optimización de los procesos puede reducir costos), pero no se combina con los datos de los gráficos ni especifica la estrategia de inversión. Carece de enfoque en el crecimiento del mercado de platos pre - preparados o en los cambios de la oferta y demanda.",
+        "E": "La opción B involucra el gráfico chart_103_2 (el crecimiento estable de los platos pre - preparados de verduras, como la predicción de 2023 a 2026) y el gráfico chart_103_3 (la caída de los precios de los productos acuáticos, lo que reduce el costo de las materias primas).",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico chart_103_1 (los datos de la producción de productos acuáticos), pero confunde el enfoque de la inversión. La pregunta se centra en la inversión en platos pre - preparados, mientras que la tecnología de pesca no está relacionada con el procesamiento de platos pre - preparados. El suministro de productos acuáticos es suficiente (el aumento estable de la producción), invertir en la pesca no mejoraría directamente la eficiencia de los recursos de los platos pre - preparados y se alejaría del negocio central."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -197,6 +278,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico chart_103_3 (los datos de precios), pero deduce erróneamente la estrategia. La caída de los precios (por ejemplo, de 24.68 yuanes/kg en 2022 a 22.42 yuanes/kg en 2025) debería impulsar la transformación del procesamiento (el aumento de la demanda de platos pre - preparados). Aumentar la venta de productos frescos haría que se perdieran oportunidades de crecimiento de los platos pre - preparados (el gráfico chart_103_2 muestra el crecimiento de la demanda de platos pre - preparados de mariscos) y reduciría la eficiencia de la cadena de valor.",
+        "B": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico chart_103_2 (los datos de los platos pre - preparados), pero interpreta erróneamente la prioridad de las categorías. Aunque el tamaño del mercado de platos pre - preparados de carne y aves es grande, el crecimiento de los platos pre - preparados de mariscos es fuerte (la tasa de crecimiento interanual de 21.7% de 2021 a 2026). La pregunta se centra en la optimización de la cadena de valor de los productos acuáticos. Reducir la inversión en mariscos ignoraría su potencial de crecimiento, y el suministro suficiente de productos acuáticos (el gráfico chart_103_1) debería apoyar el procesamiento de mariscos, en lugar de girar hacia la carne y las aves.",
+        "C": "La opción A involucra el gráfico chart_103_3 (la tendencia descendente a largo plazo de los precios mayoristas), el gráfico chart_103_1 (el aumento del suministro de productos acuáticos) y el gráfico chart_103_2 (el aumento de la demanda de platos pre - preparados de mariscos).",
+        "D": "Esta es una opción de distracción fácil: se basa en conocimientos de protección ambiental (la energía renovable es sostenible), pero no integra la tendencia de precios ni los cambios de la demanda. La estrategia es demasiado general y no ofrece una guía para la integración de ventas/procesamiento.",
+        "E": "La opción C involucra el gráfico chart_103_2 (el tamaño grande y el crecimiento estable de los platos pre - preparados de carne y aves, como la predicción de 2024 a 2026) y el gráfico chart_103_1 (el suministro de productos acuáticos que permite la diversificación de las materias primas).",
+        "F": "La opción B involucra el gráfico chart_103_3 (las fluctuaciones de los precios mayoristas brindan oportunidades de compra) y el gráfico chart_103_2 (la expansión del tamaño total del mercado de platos pre - preparados, como la alta tasa de crecimiento interanual de 2023 a 2026)."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     }
   ]

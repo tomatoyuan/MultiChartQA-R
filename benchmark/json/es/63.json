@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción B necesita combinar chart_63_1 y chart_63_2: en chart_63_1, los Usuarios moderados tienen la mayor proporción (53.1%), mientras que en chart_63_2, las frecuencias medias (como Una vez cada 2 - 3 días en promedio) son las principales (28.2%), lo que indica que el comportamiento de los usuarios moderados domina el ritmo general de publicación.",
+        "B": "La opción C necesita combinar chart_63_1 y chart_63_2: en chart_63_1, la proporción de Usuarios esporádicos es baja (3.2%), mientras que en chart_63_2, la proporción de Casi nunca es relativamente alta (6.7%), lo que sugiere que los usuarios de baja actividad publican menos.",
+        "C": "Esta es una opción de interferencia Hard, basada en una comprensión incorrecta de los gráficos: chart_63_1 muestra que los Usuarios intensivos representan el 43.7%, y chart_63_2 muestra que la proporción de Varias veces al día en promedio es del 8.4%, pero la opción asume incorrectamente que el 8.4% proviene principalmente de usuarios intensivos. En realidad, los datos de frecuencia de publicación son distribuciones generales de usuarios, no desglosadas por intensidad de uso, por lo que no se puede inferir los hábitos específicos de publicación de los usuarios intensivos.",
+        "D": "Esta es una opción de interferencia Hard, basada en una comprensión incorrecta de los gráficos: chart_63_1 muestra que los Usuarios esporádicos representan el 3.2%, y chart_63_2 muestra que la proporción de Casi nunca es del 6.7%, pero la opción asocia incorrectamente ambos. Los datos de los gráficos son independientes, sin información cruzada; la baja proporción de usuarios esporádicos no significa que dominen el grupo de publicación Casi nunca; el 6.7% puede incluir todos los tipos de usuarios.",
+        "E": "Esta es una opción de interferencia Easy, basada en un error de sentido común: los datos del gráfico muestran una distribución desigual de la frecuencia de publicación de los usuarios (por ejemplo, Varias veces al día en promedio es solo 8.4%), mientras que la opción afirma que todos los usuarios tienen la misma frecuencia, lo que claramente contradice el sentido común.",
+        "F": "La opción A necesita combinar chart_63_1 y chart_63_2: chart_63_1 muestra una alta proporción de Usuarios intensivos (43.7%), mientras que en chart_63_2, la proporción de publicación diaria (incluyendo Varias veces al día en promedio y Una vez al día en promedio) es alta (total 21.9%), lo que sugiere que los usuarios de alta actividad tienen más probabilidades de crear contenido con frecuencia.",
+        "G": "Esta es una opción de interferencia Easy, basada en un error de sentido común: una alta actividad del usuario generalmente se correlaciona positivamente con la actividad de creación de contenido (por ejemplo, los usuarios de alta actividad tienen más probabilidades de crear con frecuencia), pero esta opción describe lo contrario, lo que no se ajusta a la lógica general del comportamiento del usuario."
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "La opción A necesita combinar chart_63_2 y chart_63_3: en chart_63_2, la proporción de Varias veces al día en promedio es pequeña (8.4%), pero en chart_63_3, las proporciones de Texto corto e imagen y Video corto/mini - video son muy altas (82.9% y 74.0%), lo que sugiere que los publicadores frecuentes pueden priorizar formatos cortos fáciles de producir.",
+        "B": "Esta es una opción de interferencia Hard, basada en una comprensión incorrecta de los gráficos: chart_63_3 muestra que la proporción de Música y audio es del 25.8%, y chart_63_2 muestra que la proporción de Una vez al mes en promedio es del 7.2%, pero la opción asocia incorrectamente ambos. Los datos de los gráficos son independientes; la proporción de publicación de baja frecuencia no se refiere específicamente a Música y audio; la proporción de Música y audio es media, puede ser contribuida por usuarios de varias frecuencias, y no se puede inferir la preferencia de los publicadores de baja frecuencia.",
+        "C": "Esta es una opción de interferencia Hard, basada en una comprensión incorrecta de los gráficos: chart_63_3 muestra que la proporción de Texto corto e imagen es del 82.9%, y chart_63_2 muestra que la proporción de Varias veces al día en promedio es del 8.4%, pero la opción asume incorrectamente que los publicadores frecuentes solo publican Texto corto e imagen. En realidad, los datos de tipos de contenido son preferencias generales, no desglosadas por frecuencia de publicación; los publicadores frecuentes pueden publicar múltiples tipos, y la alta proporción de Texto corto e imagen no necesariamente está dominada por publicadores frecuentes.",
+        "D": "La opción C necesita combinar chart_63_2 y chart_63_3: en chart_63_2, las frecuencias medias (como Una vez cada 2 - 3 días en promedio y Una vez a la semana en promedio) tienen altas proporciones (total 41.1%), mientras que en chart_63_3, las proporciones de formatos cortos son extremadamente altas, lo que indica que los publicadores de frecuencia media son los impulsores de la popularidad de los formatos cortos.",
+        "E": "Esta es una opción de interferencia Easy, basada en un error de sentido común: el gráfico muestra la popularidad de múltiples tipos de contenido (como Texto corto e imagen 82.9%, Video corto/mini - video 74.0%), pero la opción afirma que 'todos los usuarios solo publican Video corto/mini - video', ignorando la existencia de otros tipos, violando el sentido común de la diversidad de datos.",
+        "F": "Esta es una opción de interferencia Easy, basada en un error de sentido común: los contenidos de formato corto (como Texto corto e imagen) son rápidos de producir y generalmente atraen más a los publicadores frecuentes (como se describe en la opción A original), pero esta opción los revierte como preferidos por publicadores de baja frecuencia, lo que no se ajusta al sentido común de la creación de contenido.",
+        "G": "La opción B necesita combinar chart_63_2 y chart_63_3: en chart_63_2, las proporciones de publicación de baja frecuencia (como Una vez al mes en promedio y menos) son medias (por ejemplo, Una vez al mes en promedio 7.2% + Casi nunca 6.7%), mientras que en chart_63_3, los tipos complejos como Texto largo y Video de duración mediana - larga tienen proporciones bajas (33.2% y 29.1%), pero más altas que Música y audio, lo que sugiere que los publicadores de baja frecuencia pueden invertir más tiempo en la producción de contenido complejo."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción B necesita combinar chart_63_4 y chart_63_2: en chart_63_4, las proporciones de alta frecuencia de toma de fotos (como Más de 5 veces al día en promedio y De 2 a 5 veces al día en promedio) suman 33.5%, pero en chart_63_2, la proporción de Varias veces al día en promedio es solo del 8.4%, lo que sugiere que los usuarios de alta frecuencia de toma de fotos pueden publicar solo parte del contenido, considerando factores de calidad.",
+        "B": "Esta es una opción de interferencia Easy, basada en un error de sentido común: los problemas de dispositivos o técnicos pueden afectar el comportamiento, pero los datos del gráfico no mencionan tales factores; la opción generaliza la explicación y no se ajusta al análisis dirigido de la 'inconsistencia del comportamiento' en la pregunta.",
+        "C": "Esta es una opción de interferencia Easy, basada en un error de sentido común: en el comportamiento real del usuario, una alta frecuencia de toma de fotos no necesariamente se traduce en una alta frecuencia de publicación (como la necesidad de editar o seleccionar), pero la opción afirma una relación necesaria, ignorando factores comunes de inconsistencia (como preocupaciones de privacidad).",
+        "D": "La opción A necesita combinar chart_63_4 y chart_63_2: chart_63_4 muestra una alta proporción de usuarios que toman fotos al menos Una vez al día en promedio (52.2%), mientras que en chart_63_2, la proporción de publicación diaria (Varias veces al día en promedio y Una vez al día en promedio) es solo del 21.9%, lo que indica que la toma de fotos no necesariamente resulta en publicación, requiriendo un razonamiento conjunto sobre procesos de edición o selección.",
+        "E": "La opción C necesita combinar chart_63_4 y chart_63_2: la distribución de frecuencia de toma de fotos en chart_63_4 (como De 4 a 6 veces a la semana en promedio 20.9%) no coincide con la frecuencia de publicación en chart_63_2 (como Una vez a la semana en promedio 12.9%), lo que sugiere una separación del comportamiento del usuario, posiblemente porque la publicación es un comportamiento selectivo.",
+        "F": "Esta es una opción de interferencia Hard, basada en una comprensión incorrecta de los gráficos: chart_63_4 muestra que los usuarios que toman fotos al menos Una vez al día en promedio representan el 52.2%, y chart_63_2 muestra que la proporción de Una vez al día en promedio es del 13.5%, pero la opción asume incorrectamente que el 13.5% proviene principalmente de usuarios de alta frecuencia de toma de fotos. En realidad, los datos de frecuencia de publicación son distribuciones generales, no desglosadas por frecuencia de toma de fotos; el grupo de usuarios de alta frecuencia de toma de fotos puede incluir publicadores de baja frecuencia, lo que lleva a una discrepancia numérica.",
+        "G": "Esta es una opción de interferencia Hard, basada en una comprensión incorrecta de los gráficos: chart_63_4 muestra que De 4 a 6 veces a la semana en promedio representa el 20.9%, y chart_63_2 muestra que Una vez a la semana en promedio representa el 12.9%, pero la opción interpreta incorrectamente como 'coincidencia'. En los datos reales, 20.9% es frecuencia de toma de fotos, 12.9% es frecuencia de publicación, sin asociación directa; la proporción de frecuencia de publicación es más baja (12.9% < 20.9%), lo que indica inconsistencia, no una conversión directa."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción tampoco se basa en los gráficos. Es una sugerencia general de optimización de la interfaz de usuario (por ejemplo, mejorar la interfaz de inicio de sesión), pero no está directamente relacionada con la conducta de publicación de contenido (como los datos de frecuencia o tipo de publicación), por lo que no puede mejorar eficazmente la frecuencia de publicación.",
+        "B": "Involucra el chart_63_1 (el porcentaje de usuarios moderados es del 53.1% y el de usuarios intensivos es del 43.7%) y el chart_63_2 (la distribución de la frecuencia de publicación muestra un espacio para mejorar). Diseñar actividades de incentivo para el grupo principal de usuarios.",
+        "C": "Involucra el chart_63_3 (la proporción de publicación de texto corto e imagen y video corto/mini - video es la más alta, 82.9% y 74.0% respectivamente) y el chart_63_2 (en la frecuencia de publicación, la mayoría de los usuarios, como 'una vez cada 2 - 3 días en promedio', representan el 28.2%, pero la proporción de publicación frecuente es baja). Simplificar la creación de contenido popular para reducir el intervalo de publicación.",
+        "D": "Esta opción interpreta erróneamente los datos del chart_63_1 (los usuarios esporádicos solo representan el 3.2%, la proporción más pequeña), y el chart_63_2 muestra que hay muchos usuarios con baja frecuencia de publicación (por ejemplo, 'casi nunca' representa el 6.7%), pero los usuarios esporádicos no son el grupo central. Invertir recursos en ellos es ineficiente. Se deben priorizar los usuarios moderados/intensivos.",
+        "E": "Esta opción cita erróneamente los datos del chart_63_3 (la proporción de publicación de texto largo es del 33.2%, pero el texto corto e imagen y el video corto representan el 82.9% y el 74.0% respectivamente, que son obviamente más altos). Sugerir priorizar el texto largo ignorará las preferencias principales y puede causar un desperdicio de recursos.",
+        "F": "Involucra el chart_63_4 (los usuarios con frecuencia alta de toma de fotos, como 'al menos una vez al día en promedio', representan el 52.2%) y el chart_63_2 (en los datos de frecuencia de publicación, la proporción de publicación de baja frecuencia, como 'una vez al mes en promedio' o 'casi nunca', es considerable). Utilizar la conducta de toma de fotos para promover la conversión de publicación.",
+        "G": "Esta opción no se basa en ningún dato de los gráficos. Solo se basa en el conocimiento comercial general (aumentar los anuncios puede atraer a los usuarios), pero no presenta una estrategia específica de función para optimizar la 'frecuencia de publicación' y ignora la conducta de los usuarios mostrada en los gráficos (por ejemplo, el problema de baja frecuencia de publicación)."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Involucra el chart_63_3 (la proporción de publicación de música y audio es del 25.8%, baja pero con potencial) y el chart_63_4 (la frecuencia de toma de fotos es alta, por ejemplo, 'de 2 a 5 veces al día en promedio' representa el 27.1%). Integrar nuevas funciones utilizando la conducta de alta frecuencia para mejorar la diversidad del contenido.",
+        "B": "Involucra el chart_63_3 (la proporción de publicación de video corto/mini - video es del 74.0%, el tipo dominante) y el chart_63_1 (los usuarios intensivos representan el 43.7%, con una tendencia fuerte a utilizar la red social). Dirigir los recursos hacia el contenido popular y el grupo de alta participación para maximizar el efecto.",
+        "C": "Esta opción tampoco se basa en los gráficos. Es una optimización general de la experiencia del usuario (por ejemplo, la piel temática), pero no tiene una conexión clara con las propiedades de entretenimiento social (por ejemplo, la publicación o interacción de contenido) y no puede aumentar directamente la fidelidad del usuario.",
+        "D": "Involucra el chart_63_2 (la proporción de baja frecuencia de publicación, como 'una vez al mes en promedio' o 'casi nunca', es del 13.9% en total) y el chart_63_1 (los usuarios esporádicos representan el 3.2%, con potencial de crecimiento). Diseñar incentivos para los usuarios de baja actividad para optimizar la cobertura de recursos.",
+        "E": "Esta opción interpreta erróneamente los datos del chart_63_3 (la proporción de publicación de música y audio es del 25.8%, pero el video corto y el texto corto e imagen representan el 74.0% y el 82.9% respectivamente, más altos). Priorizar la música y el audio se alejará de las necesidades principales (el video corto tiene más atributos sociales) y no se combina con los datos de tipos de usuarios.",
+        "F": "Esta opción cita erróneamente los datos del chart_63_2 (los usuarios de alta frecuencia de publicación solo representan el 8.4%, una proporción pequeña), y el chart_63_1 muestra que los usuarios moderados (53.1%) son el grupo más grande. Diseñar funciones exclusivas para un grupo pequeño no es una asignación razonable de recursos y puede ignorar a los usuarios centrales.",
+        "G": "Esta opción no se basa en los gráficos. Solo se basa en el conocimiento general de promoción en el mercado (promoción en colaboración), pero no especifica la actualización de funciones (por ejemplo, el compartir en redes sociales o el tipo de contenido) y ignora los datos de conducta de los usuarios en los gráficos (por ejemplo, el tipo o la frecuencia de publicación)."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Involucra el chart_63_3 (la proporción de publicación de video de duración mediana - larga es del 29.1%, relativamente baja) y el chart_63_4 (la alta frecuencia de toma de fotos proporciona una base de materiales). Asignar recursos para explotar los puntos de crecimiento y enriquecer el ecosistema.",
+        "B": "Esta opción cita erróneamente los datos del chart_63_4 (los usuarios de baja frecuencia de toma de fotos solo representan el 5.4%, una proporción pequeña), y el chart_63_1 muestra que la proporción de usuarios esporádicos es baja (3.2%). Optimizar los recursos para un grupo pequeño es ineficiente. Se deben priorizar los usuarios de alta frecuencia o moderados para maximizar el impacto en la retención.",
+        "C": "Involucra el chart_63_3 (la proporción de publicación de texto corto e imagen es del 82.9%, la más alta) y el chart_63_1 (los usuarios esporádicos representan el 3.2%, o los usuarios de baja frecuencia de publicación en el chart_63_2). Atraer a los usuarios marginales con el tipo de contenido fácil de usar.",
+        "D": "Esta opción tampoco se basa en los gráficos. Es una mejora general del servicio al cliente (por ejemplo, la respuesta del servicio al cliente), pero no está directamente relacionada con la creación de contenido o la retención (por ejemplo, los datos de conducta de los usuarios) y no puede optimizar eficazmente el ecosistema de contenido.",
+        "E": "Involucra el chart_63_4 (los usuarios de alta frecuencia de toma de fotos, como 'al menos una vez al día en promedio', representan el 52.2%) y el chart_63_2 (en la frecuencia de publicación, la proporción de algunos usuarios, como 'una vez cada 4 - 6 días en promedio' o menos, es significativa). Optimizar la experiencia para alinear la conducta y aumentar la retención.",
+        "F": "Esta opción interpreta erróneamente los datos del chart_63_3 y el chart_63_4 (la proporción de publicación de video de duración mediana - larga es del 29.1%, menor que el texto corto e imagen del 82.9% y el video corto del 74.0%; aunque hay muchos usuarios de alta frecuencia de toma de fotos, los datos de frecuencia de publicación del chart_63_2 muestran que la mayoría de los usuarios tienen un intervalo de publicación largo). Priorizar el video de duración mediana - larga ignorará los tipos de contenido de alta proporción y no se ha demostrado que pueda aumentar directamente la retención.",
+        "G": "Esta opción no se basa en los gráficos. Solo se basa en la estrategia general de retención de usuarios (por ejemplo, aumentar el almacenamiento), pero no se centra en la optimización del ecosistema de contenido (por ejemplo, la publicación o la toma de fotos) y ignora los datos de los gráficos (por ejemplo, el tipo o la frecuencia de publicación)."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

@@ -86,6 +86,22 @@
       "label": [
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：源于行业常识（保险推广影响消费行为），与图表内容无关；图表未提及营销因素。",
+        "B": "这是一个Hard干扰项：错误解读图表数值和排序；购买保险行为占比43%最高，理赔关注41%也最高，但种类关注25%并非更高（理赔41% > 种类25%），此选项错误地颠倒了排序，并忽略原选项A中理赔与行为的关联。",
+        "C": "这是一个Easy干扰项：基于一般常识（癌症治疗费用高，患者寻求经济保护），不依赖图表数据；原问题要求解释图表关联，但此选项仅泛泛而谈。",
+        "D": "选项依赖癌症患者后续行为和购买保险关注点联合推理：癌症患者后续行为显示\"Comprar seguro\"占比是所有行为中最高；购买保险关注点显示\"Reclamaciones de Seguro\"关注占比是所有关注点中最高。两者结合可推断，高理赔关注可能强化了购买保险行为，强调风险管理的重要性。仅看一张图表无法得出此联系。",
+        "E": "同样依赖两张图表联合推理：购买保险关注点中\"Tipos de Seguro\"和\"Duración del Seguro\"关注占比合计显著高于\"Monto del Seguro\"；而癌症患者后续行为中\"Comprar seguro\"占比最高。这反映出患者可能更注重保险的多样性和持久性，而非单纯金额，共同解释了高购买行为。选项区分于选项A（聚焦理赔 vs. 种类/期限组合）。",
+        "F": "这是一个Hard干扰项：错误比较数据差距；保险金额关注12%最低，但期限关注22%并非显著高于金额（差距仅10%），而原选项B强调种类和期限合计高关注（25%+22%=47%），此选项错误地将金额关注低解释为驱动因素，且未考虑整体趋势。"
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -106,6 +122,22 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：源于常识推理（患者避开污染源），但图表未显示因果；它忽略了数据趋势冲突的具体分析。",
+        "B": "这是一个Hard干扰项：错误解读差距；Decoración interior占比10%和Europa比例7%差异小（仅3%），但原选项B讨论环境因素依赖本地医疗，此选项错误地将低比例关联为偏好，且忽略了Contaminación atmosférica占比7%与Europa比例7%的巧合，但无逻辑联系。",
+        "C": "选项依赖致癌原因占比和海外就医选择联合推理：致癌原因占比显示\"Melamina\"占比远高于其他原因；海外就医选择显示\"Estados Unidos\"和\"Japón\"占比合计远高于\"Europa\"。冲突在于：高本地致癌因素本应增加本地就医需求，但海外就医比例极高，结合可推断本地医疗不足或海外优势。仅看一张图表无法解释此冲突。",
+        "D": "这是一个Easy干扰项：基于常识（美日医疗先进），不依赖图表数据；原问题要求解释数据冲突，但此选项仅陈述一般事实。",
+        "E": "同样依赖两张图表：致癌原因占比中\"Decoración interior\"占比相对显著，而海外就医选择中\"Europa\"占比最低。冲突在于环境致癌因素普遍，但欧洲就医选择低；结合可推断环境相关癌症可能被视为本地可处理问题，减少海外需求。选项区分于选项A（聚焦三聚氰胺 vs. 环境因素）。",
+        "F": "这是一个Hard干扰项：错误关联数值和趋势；Melamina33%和Estados Unidos48%比例相似，但原问题强调冲突（如本地因素与海外偏好），此选项错误地假设直接对应，而忽略Europa比例低（7%）与Melamina无关的冲突。"
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -126,6 +158,22 @@
       "label": [
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于常识（年轻人收入增长期），不依赖图表行为数据；原问题要求基于分布趋势，但此选项未使用图表关联。",
+        "B": "这是一个Hard干扰项：错误推断差距；年龄占比5%低，行为占比21%高，但行为数据未分年龄组，此选项错误地假设比例差异反映老年群体主导，而原选项B讨论求神拜佛在老年群体可能更高，但图表未提供支持。",
+        "C": "这是一个Hard干扰项：错误比较和解读；年龄分布25 - 34岁组占比49%最高，但寻医挂号行为占比18%是整体比例（未分年龄），此选项错误地将高年龄占比与低行为比例关联，而原选项A讨论购买保险行为（43%最高），非寻医挂号。",
+        "D": "这是一个Easy干扰项：源于常识（老年人传统信仰），与图表内容无关；图表未提供年龄与行为的直接数据。",
+        "E": "选项依赖不同年龄段分布和癌症患者后续行为联合推理：不同年龄段分布显示\"25 - 34\"组占比是所有年龄组中最高；癌症患者后续行为显示\"Comprar seguro\"占比是所有行为中最高。结合可推断，高年轻成年比例可能驱动保险购买行为（因年轻人更关注长期保障）。仅看一张图表无法建立此联系。",
+        "F": "同样依赖两张图表：不同年龄段分布中\"Más de 50\"组占比最低，而癌症患者后续行为中\"Rezar a los dioses\"占比高于Solicitar cita médica。冲突在于低老年比例却高非医疗行为；结合可推断老年患者可能因健康脆弱性更倾向传统方式。选项区分于选项A（聚焦年轻群体 vs. 老年群体）。"
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -149,6 +197,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es demasiado general y no se basa en los datos de los gráficos. Solo se basa en el conocimiento general (como la 'publicidad en redes sociales') y carece de orientación específica para grupos específicos de personas (como el grupo de edad con mayor proporción). Además, no se combina con las tendencias de comportamiento de los pacientes con cáncer, por lo que es fácil descartarla por conocimiento general.",
+        "B": "La opción 3 combina chart_20_1 (la proporción del grupo de edad de más de 50 años es relativamente baja) y chart_20_5 (el comportamiento de comprar seguro) y incorpora valores de equidad para garantizar que la asignación de recursos no discrimine a los grupos de alto riesgo.",
+        "C": "Aparentemente utiliza los gráficos (la proporción de personas de más de 50 años en la distribución de edades es solo del 5%), pero interpreta incorrectamente la tendencia: este grupo de edad tiene la proporción más baja y los gráficos no demuestran directamente que tenga el riesgo de cáncer más alto. Los recursos de promoción deben priorizar a los grupos con alta cobertura (por ejemplo, el grupo de 25 - 34 años con una proporción del 49%), en lugar de los grupos con baja proporción, lo que muestra una desviación evidente en la dirección de la estrategia.",
+        "D": "También es general y basada en el conocimiento general (como las 'creencias gratuitas de salud'). No cita el contenido de los gráficos (como la distribución de edades o los comportamientos posteriores) y la dirección de la estrategia es borrosa, por lo que no puede optimizar la cobertura de los grupos de alto riesgo.",
+        "E": "Interpreta incorrectamente los datos de los gráficos: la atención a las reclamaciones de seguro tiene la proporción más alta del 41%, mientras que la cantidad solo es del 12%. Priorizar la cantidad en lugar de las reclamaciones (como en la opción correcta B) ignorará las necesidades centrales de los usuarios y provocará una asignación irracional de recursos, confundiendo la prioridad de los puntos de atención.",
+        "F": "La opción 2 combina chart_20_5 (el comportamiento de comprar seguro tiene la proporción más alta) y chart_20_6 (la atención a las reclamaciones de seguro tiene la proporción más alta) y destaca el servicio de reclamaciones para satisfacer las necesidades de los usuarios.",
+        "G": "La opción 1 combina chart_20_1 (el grupo de edad de 25 - 34 años tiene la proporción más alta) y chart_20_5 (el comportamiento de comprar seguro tiene la proporción más alta entre los pacientes con cáncer) y deduce que el grupo joven es la prioridad de promoción."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -171,6 +236,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 1 combina chart_20_3 (las causas químicas de cáncer como la melamina tienen la proporción más alta) y chart_20_2 (los signos zodiacales de Virgo y Escorpio tienen una proporción destacada de ansiedad) y deduce que se debe centrar en los factores de alto riesgo para satisfacer las necesidades de los grupos ansiosos.",
+        "B": "La opción 2 combina chart_20_3 (los factores controlables como la decoración interior y los cosméticos tienen una proporción significativa) y chart_20_2 (los signos zodiacales de Leo y Géminis tienen un nivel de ansiedad medio) y enfatiza la intervención conductual para optimizar la eficiencia de los recursos.",
+        "C": "También no se basa en los gráficos y solo se basa en el conocimiento general de los medios de comunicación. La declaración es correcta, pero carece de acciones concretas (como la intervención en los factores de cáncer con alta proporción), por lo que es fácil de descartar.",
+        "D": "Aparentemente utiliza los datos de la lista de ansiedad (los signos zodiacales de Tauro y Acuario tienen la proporción más baja de ansiedad del 4%), pero interpreta incorrectamente: la pregunta solicita priorizar a los grupos de alta ansiedad (por ejemplo, Virgo con un 18%) para aliviar la ansiedad, en lugar de los grupos de baja ansiedad. La dirección de la estrategia está invertida y se ignora el objetivo de intervención en el riesgo.",
+        "E": "La opción es general y basada en el conocimiento general (como las 'actividades nacionales'). No cita los datos de los gráficos (como la distribución de causas de cáncer o el nivel de ansiedad) y la estrategia no es específica, por lo que no puede priorizar los factores de alto riesgo de cáncer o los grupos de alta ansiedad.",
+        "F": "La opción 3 combina chart_20_2 (los grupos en la parte superior de la lista de ansiedad tienen un nivel de ansiedad alto) y chart_20_3 (la proporción de factores ambientales como la contaminación atmosférica) e incorpora valores de salud mental para brindar apoyo integral.",
+        "G": "Confunde incorrectamente las tendencias de los gráficos: la melamina tiene la proporción más alta del 33% entre las causas de cáncer, mientras que la contaminación atmosférica solo es del 7%. Priorizar a esta última en lugar de la primera desperdiciará recursos y la lista de ansiedad no muestra una conexión directa entre los grupos de alta ansiedad y la contaminación atmosférica, lo que resulta en una confusión lógica."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -194,6 +276,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 3 combina chart_20_6 (la proporción combinada de atención a la duración y el monto del seguro es relativamente alta) y chart_20_5 (el comportamiento de comprar seguro tiene la proporción más alta entre los pacientes con cáncer) y diseña un plan flexible para adaptarse al comportamiento de los usuarios.",
+        "B": "La opción 1 combina chart_20_4 (Estados Unidos y Japón tienen la proporción más alta en la elección de tratamiento médico en el extranjero) y chart_20_6 (la atención a las reclamaciones de seguro tiene la proporción más alta) y deduce que se debe centrar en las regiones de alta demanda para optimizar el servicio.",
+        "C": "Interpreta incorrectamente las tendencias de los gráficos: la atención a las reclamaciones de seguro tiene la proporción más alta del 41%, mientras que el monto solo es del 12%. Priorizar el monto en lugar de las reclamaciones o la cobertura de destinos (como en la opción correcta A) ignorará las necesidades principales de los usuarios (la comodidad de las reclamaciones) y los datos de comportamiento de cáncer no respaldan la prioridad del monto, lo que resulta en una confusión.",
+        "D": "La opción es general y basada en el conocimiento general (como 'aumentar la inversión en publicidad'). No cita los datos de los gráficos (como las preferencias de tratamiento médico en el extranjero o los puntos de atención) y la estrategia no tiene una guía de acción específica, por lo que es fácil de descartar por conocimiento general.",
+        "E": "Aparentemente utiliza los gráficos (la proporción de tratamiento médico en Europa es solo del 7% y la proporción de tipos de seguro es del 25%), pero interpreta incorrectamente: la proporción combinada de Estados Unidos y Japón en las preferencias de tratamiento médico en el extranjero es del 93%, por lo que se debe priorizar la cobertura en lugar de Europa. Los planes personalizados (tipos) no son el punto de atención central (las reclamaciones tienen la proporción más alta del 41%), lo que muestra una gran desviación en la dirección de la estrategia.",
+        "F": "La opción 2 combina chart_20_6 (la atención a los tipos de seguro tiene una proporción relativamente alta) y chart_20_4 (las opciones de tratamiento médico están altamente concentradas) y responde a las preferencias a través de productos diversificados.",
+        "G": "También no se basa en los gráficos y se basa en el conocimiento general de servicio al usuario. La declaración es razonable, pero no se combina con los datos (como el destino de tratamiento médico preferido) y no se puede optimizar la asignación de recursos."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     }
   ]

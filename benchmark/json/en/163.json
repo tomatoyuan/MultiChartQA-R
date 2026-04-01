@@ -85,6 +85,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This is an easy distraction: Based on common sense (e.g., 'the number of newly opened stores increases when the economy is good'), but the chart shows that the number of newly opened stores fluctuates (e.g., it decreased in 2020 and then increased in 2021), while the county-level proportion remained stable at 40%-41% (from 2020 to 2022), indicating a lack of a high degree of correlation.",
+        "B": "All options must be inferred by combining chart_163_1 and chart_163_3. Option C emphasizes the disconnection between the annual fluctuations in the total number in chart_163_1 (e.g., a decrease in 2022 and a rebound in 2023) and the continuous downward trend of the proportion in chart_163_3, suggesting the independence of store-opening behavior. These conclusions cannot be drawn from a single chart: chart_163_1 only shows the data on store openings and cannot explain the reasons for the fluctuations; chart_163_3 only shows the economic trend and cannot relate it to the changes in store openings.",
+        "C": "All options must be inferred by combining chart_163_1 and chart_163_3. Option B infers non-economic factors based on the contradiction between the rapid rebound of the total number in 2021 in chart_163_1 and the non-increase of the proportion (still 40%) in chart_163_3. These conclusions cannot be drawn from a single chart: chart_163_1 only shows the data on store openings and cannot explain the reasons for the fluctuations; chart_163_3 only shows the economic trend and cannot relate it to the changes in store openings.",
+        "D": "All options must be inferred by combining chart_163_1 and chart_163_3. Option A infers the impact of external events based on the conflict between the decrease in the total number of newly opened stores in 2020 in chart_163_1 (from a high in 2019 to a low) and the stability of the county-level economic proportion (40%) from 2019 to 2020 in chart_163_3. These conclusions cannot be drawn from a single chart: chart_163_1 only shows the data on store openings and cannot explain the reasons for the fluctuations; chart_163_3 only shows the economic trend and cannot relate it to the changes in store openings.",
+        "E": "This is a hard distraction: It misinterprets the chart values. In fact, the county-level proportion in 2021 was 40% (no growth), but the distraction fabricates a'significant increase to 45%' and wrongly associates it with the increase in newly opened stores.",
+        "F": "This is an easy distraction: Based on industry common sense (e.g., 'digitization can enhance resilience'), but it does not rely on the chart data (the chart does not mention digitization) and ignores the actual conflict (fluctuations in store openings while the proportion remains stable).",
+        "G": "This is a hard distraction: It misinterprets the chart values. In fact, the county-level proportion in 2020 was 40% (the same as in 2019, with no decrease), but the distraction fabricates a'significant decrease', distorting the trend."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "All options must be inferred by combining chart_163_1 and chart_163_2. Option B infers the preference for business formats based on the comparison between the stable proportion of T2 in chart_163_1 (e.g., the T2 value ranged from 43 to 46 from 2021 to 2023) and the shorter lifecycle of T2 for catering chains (25.0 months) compared to that of retail T2 (40.5 months) in chart_163_2. These inferences cannot be made from a single chart: chart_163_1 only shows the tier distribution and cannot be related to the survival ability; chart_163_2 only shows the static lifecycle and cannot explain the annual strategic changes.",
+        "B": "All options must be inferred by combining chart_163_1 and chart_163_2. Option A infers a risk-averse strategy based on the connection between the increasing data of the T3 tier in chart_163_1 (e.g., the T3 value was the highest in 2023) and the long lifecycle of T3+ retail (43.9 months) in chart_163_2. These inferences cannot be made from a single chart: chart_163_1 only shows the tier distribution and cannot be related to the survival ability; chart_163_2 only shows the static lifecycle and cannot explain the annual strategic changes.",
+        "C": "All options must be inferred by combining chart_163_1 and chart_163_2. Option C infers a strategic shift based on the peak of T3 in 2023 in chart_163_1 and the high survival rate of retail T3+ in chart_163_2. These inferences cannot be made from a single chart: chart_163_1 only shows the tier distribution and cannot be related to the survival ability; chart_163_2 only shows the static lifecycle and cannot explain the annual strategic changes.",
+        "D": "This is an easy distraction: Based on industry common sense (e.g., 'enterprises may ignore risks'), but it does not rely on the chart (the actual lifecycle of retail T3+ ranges from 43.3 to 43.9 months, far higher than 20 months).",
+        "E": "This is a hard distraction: It misinterprets the chart values and trends. In fact, the number of newly opened stores in T3 gradually increased from 41 in 2019 to 48 in 2023, but the distraction says 'decreased', reversing the trend.",
+        "F": "This is an easy distraction: Based on common sense (e.g., 'enterprises prefer high survival rates'), but it does not rely on the chart (the actual lifecycle of retail is higher, e.g., 43.9 months for T3+).",
+        "G": "This is a hard distraction: It misinterprets the chart values. In fact, the lifecycle of non-chain retail T1 is 38.2 months, higher than 24.1 months for catering chains T1, but the distraction fabricates 'catering is higher than retail', distorting the data."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: It misinterprets the chart trends and values. In fact, the county-level proportion has been continuously decreasing (from 55% in 2012 to 41% in 2022), but the distraction fabricates 'prioritize reducing catering', while the survival data support a higher value for retail (e.g., 38.2 months for T1 retail vs. 20.7 months for catering), but there is no direct correlation with reduction.",
+        "B": "All options must be inferred by combining chart_163_3 and chart_163_2. Option C infers a risk mitigation strategy based on the implied complementarity between the stable low proportion in chart_163_3 (41% in 2022) and the high survival rate of retail T3+ (43.9 months) in chart_163_2. These conclusions cannot be drawn from a single chart: chart_163_3 only shows the economic trend and cannot be related to the survival of business formats; chart_163_2 only shows the lifecycle data and cannot explain the economic impact.",
+        "C": "This is an easy distraction: Based on common sense (e.g., 'contract the market when the economy is bad'), but it does not rely on the chart data (the chart does not involve exit strategies).",
+        "D": "This is a hard distraction: It misinterprets the chart trend. In fact, the proportion slightly increased from 40% in 2021 to 41% in 2022, but the overall trend was downward (from 55% in 2012 to 41% in 2022). The distraction exaggerates the'recovery trend' and wrongly suggests increasing investment.",
+        "E": "This is an easy distraction: Based on common sense (e.g., 'a declining economy reduces the survival rate'), but it does not rely on the chart (the actual lifecycle of retail remained stable at 38 - 43 months, unaffected by the proportion), and fabricates 'less than 20 months'.",
+        "F": "All options must be inferred by combining chart_163_3 and chart_163_2. Option A infers the adjustment of business formats based on the connection between the downward trend of the proportion in chart_163_3 (from 55% in 2012 to 41% in 2022) and the lifecycle advantage of retail in chart_163_2 (e.g., 38.2 months for non-chain T1 retail vs. 20.7 months for non-chain T1 catering). These conclusions cannot be drawn from a single chart: chart_163_3 only shows the economic trend and cannot be related to the survival of business formats; chart_163_2 only shows the lifecycle data and cannot explain the economic impact.",
+        "G": "All options must be inferred by combining chart_163_3 and chart_163_2. Option B infers the necessity of the chain model based on the conflict between the continuously low proportion in chart_163_3 (e.g., 40 - 41% from 2020 to 2022) and the short lifecycle of non-chain catering T1 (20.7 months) in chart_163_2. These conclusions cannot be drawn from a single chart: chart_163_3 only shows the economic trend and cannot be related to the survival of business formats; chart_163_2 only shows the lifecycle data and cannot explain the economic impact."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option seemingly uses the chart data but misinterprets the values. Chart_163_1 shows that the data for T3 in 2023 is 48, higher than 45 in 2022, not a decline. At the same time, it incorrectly links the retail store lifecycle directly to the region level, while the focus of the question is on regional resource allocation, not format selection.",
+        "B": "In chart_163_1, the total number of newly opened stores fluctuates significantly (e.g., as low as 4114 in 2020 and as high as 7044 in 2021). Chart_163_2 shows that the lifecycles of retail and catering chains are relatively long. Allocating resources to these formats first in years with a high number of newly opened stores can maximize output.",
+        "C": "This option relies on common sense (medium - sized cities have moderate risks) but does not combine the charts (such as the T2 lifecycle data or the store - opening trend). The strategic direction is too broad to specifically improve the survival rate.",
+        "D": "In chart_163_1, the number of newly opened stores in regions T1 and T2 has slightly decreased but remained stable (e.g., T1 decreased from 12 to 10). Chart_163_2 shows that the lifecycle of the chain model at the T1/T2 level is longer than that of the non - chain model (e.g., the lifecycle of catering chains in T1 is 24.1 months vs. 20.7 months for non - chains). It is recommended to promote the chain model in stable regions to enhance resilience.",
+        "E": "This option is based on general business common sense (digital marketing can increase traffic) and does not use any chart data (such as regional distribution or lifecycle). It ignores the core of the question - adjusting regional resource allocation based on data.",
+        "F": "Chart_163_1 shows that the number of newly opened stores in region T3 has been on an upward trend from 2019 to 2023 (increasing from 41 to 48). Chart_163_2 shows that the lifecycles of stores in the T3+ format are generally long (e.g., up to 43.9 months for retail in T3+), indicating that increasing the number of stores in the T3+ region can take advantage of the long lifecycle to improve the survival rate.",
+        "G": "This option confuses the data. Chart_163_1 shows that the number of newly opened stores in T1 has decreased slightly (from 12 to 10), not sharply. Chart_163_2 shows that although the lifecycle of catering chains in T1 is 24.1 months, which is lower than that of retail, it is higher than that of non - chains (20.7 months). The suggestion to 'completely abandon T1' ignores the relative stability of the number of newly opened stores in T1 and the potential market, with a significant deviation in the strategic direction."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This option relies on common sense (years with a high proportion offer good opportunities) but does not combine the trend data (such as the subsequent decline in the proportion) and ignores the data on newly opened stores (e.g., the number of newly opened stores was high in 2023 but the proportion was 41%). The strategy lacks dynamic adjustment.",
+        "B": "In chart_163_1, the number of newly opened stores in region T3 has been continuously increasing (from 41 in 2019 to 48 in 2023). Chart_163_3 shows that the economic proportion fluctuates (e.g., a sharp decline in 2016). However, stores at the T3 level have a long lifecycle in chart_163_2, providing anti - risk ability. It is recommended to tilt resources towards this region.",
+        "C": "This option incorrectly associates the data. Chart_163_1 and chart_163_3 show that the number of newly opened stores in 2021 was 7044 corresponding to a proportion of 40%, but there is no direct causal relationship. The fluctuation of the total number of newly opened stores is affected by multiple factors. The strategy of 'only investing in peak years' ignores the long - term trend (e.g., the number of newly opened stores was 6221 in 2023 with a proportion of 41%), which may lead to an imbalance in resource allocation.",
+        "D": "This option seemingly uses the charts but misinterprets the trend. Chart_163_3 shows that the proportion of the county - level economy rebounded to 41% in 2022, not a continuous decline. Chart_163_1 shows that the low number of newly opened stores in 2020 may be affected by external factors (such as the pandemic). The suggestion to 'comprehensively reduce the scale in the county - level area' ignores the rebound signal in 2022 and the potential stability of the county - level area, with a wrong strategic direction.",
+        "E": "This option is based on general management common sense (optimizing the supply chain can reduce costs) and does not use the chart data (such as the county - level proportion or the distribution of newly opened stores). The strategy is too broad to specifically guide geographical allocation to cope with economic fluctuations.",
+        "F": "In chart_163_3, the proportion of the county - level economic scale has significantly declined to around 40% since 2016 but rebounded slightly to 41% in 2022. Chart_163_1 shows that the total number of newly opened stores was the lowest in 2020 (4114). It is recommended to control the scale during the decline period and seize the rebound signal (such as in 2022) to act in advance.",
+        "G": "Chart_163_3 shows that the proportion of the county - level economic scale remained stable between 40% - 41% from 2020 - 2022. In chart_163_1, the total number of newly opened stores was relatively high in years when the proportion was stable, such as 7044 in 2021 and 6221 in 2023, indicating that a stable economic environment supports store - opening activities. It is recommended to invest preferentially."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -195,6 +280,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option is based on general business practices (improving service can enhance customer loyalty) and does not use the chart data (such as the differences in lifecycles or the economic trend). The strategy is not targeted and cannot optimize the allocation of formats or models.",
+        "B": "In chart_163_2, the lifecycle of the catering chain model is relatively long (e.g., 24.1 months in T1 vs. 20.7 months for non - chains). Chart_163_3 shows that the economic proportion has declined and remained at a low level since 2016. It is recommended to develop chain catering in areas with a low economic proportion to enhance resilience.",
+        "C": "This option seemingly uses the charts but oversimplifies the strategy. The data in chart_163_2 and chart_163_3 support the advantages of retail chains in T3+. However, the suggestion to 'only invest in the county - level area' ignores other opportunities (such as the strong adaptability of catering chains in the county - level area). At the same time, it does not consider that the economic proportion is only 41%, not dominant.",
+        "D": "Chart_163_2 shows that the lifecycle of the retail T3+ format is the longest (e.g., 43.9 months for non - chains). In chart_163_3, the economic proportion rebounded to 41% in 2022. It is recommended to invest in the rebounding areas by taking advantage of the long - cycle advantage.",
+        "E": "This option relies on common sense (non - chain models have good flexibility) but does not combine the data. Chart_163_2 shows that although the lifecycle of non - chain retail is long, the chain model has a longer lifecycle in most levels (e.g., 38.0 months for retail chains in T1 vs. 38.2 months for non - chains). The economic trend in chart_163_3 shows that the proportion fluctuates, and non - chain models may have higher risks.",
+        "F": "Chart_163_2 shows that the lifecycle of the retail format is generally long (e.g., 38.2 months for non - chain in T1 vs. 20.7 months for non - chain catering in T1). In chart_163_3, the proportion of the county - level economic scale remained at a relatively low level of 40% - 41% from 2020 - 2022, indicating that the long - cycle of retail can buffer the risk of a low economic proportion.",
+        "G": "This option misinterprets the trend. Chart_163_3 shows that the proportion of the county - level economy declined from 2016 - 2019 but remained stable between 40 - 41% from 2020 - 2022, not a continuous deterioration. Chart_163_2 shows that the lifecycle of catering chains is relatively long (e.g., 25.0 months in T2). The suggestion to 'completely avoid county - level catering' ignores the economic stability and the advantages of the chain model, with a significant deviation in the strategic direction."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     }
   ]

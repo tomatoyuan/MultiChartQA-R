@@ -88,6 +88,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "La tendencia ascendente del primer gráfico se vincula con el valor de preferencia más alto de la Cafetería en Librería en el cuarto gráfico, lo que indica que el crecimiento del consumo puede reforzar la preferencia por modelos de negocio de integración cultural, pero un solo gráfico no puede establecer una relación causal.",
+        "B": "Esta es una opción de interferencia fácil: basándose en el conocimiento común, la disminución del precio del café puede aumentar el consumo, pero los datos del gráfico no incluyen factores de precio, y el conocimiento común indica que la demanda de experiencias culturales está más relacionada con las preferencias de consumo y la experiencia que con el precio. Por lo tanto, esta opción se desvía de los gráficos y puede considerarse incorrecta solo con el conocimiento común.",
+        "C": "El primer gráfico muestra un crecimiento anual del consumo, y el segundo gráfico muestra que la proporción de consumo de alta frecuencia domina. Esto revela que la intensidad del consumo en áreas urbanas puede impulsar el crecimiento nacional, aumentando así la demanda de temas culturales, pero no se puede inferir solo de un solo gráfico.",
+        "D": "Esta es una opción de interferencia fácil: la inversión en publicidad de marca es un factor común del mercado, pero los gráficos no mencionan datos de publicidad o marcas. Según el conocimiento común, la publicidad puede influir en el reconocimiento de la marca, pero no impulsa directamente la demanda de experiencias culturales, como la cultura de estilo shanghaines o la integración cruzada. La opción depende de conocimientos externos, no del contenido de los gráficos.",
+        "E": "La tendencia de crecimiento del primer gráfico se combina con los datos de alta proporción de 'ha visitado o está interesado' en el tercer gráfico, lo que indica que el aumento del consumo está correlacionado positivamente con la disposición cultural, implicando que la experiencia cultural es un factor de crecimiento, que requiere verificación cruzada entre gráficos.",
+        "F": "Esta es una opción de interferencia difícil: superficialmente integra chart_39_2 (32% de consumo diario en Jing'an) y chart_39_4 (62% de Cafetería en Librería), pero compara incorrectamente los valores. El 32% es una proporción de frecuencia, el 62% es un valor de preferencia, con unidades diferentes y sin relación directa; la opción infiere erróneamente que 'valores similares' indican que la mejora urbana es la causa principal, pero los datos de Jing'an solo representan una región local, no pueden generalizarse a la demanda cultural nacional, y ignoran otros gráficos como la disposición de estilo shanghaines en chart_39_3.",
+        "G": "Esta es una opción de interferencia difícil: superficialmente se basa en los datos de chart_39_1 (9.1 tazas en 2020 a 16.74 tazas en 2023), pero interpreta incorrectamente la diferencia de valores. El crecimiento del consumo existe, pero los gráficos no indican que sea el 'único impulsor' de la demanda de experiencias culturales; chart_39_3 y chart_39_4 muestran que los datos de preferencia cultural (como el 31% de disposición de estilo shanghaines y el 62% de Cafetería en Librería) son igualmente importantes, la opción ignora la sinergia de múltiples factores y atribuye erróneamente el crecimiento como la única causa."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil: depende de un error de conocimiento común, la dependencia de la cafeína está relacionada con la salud, pero los gráficos no la incluyen; el conocimiento común indica que los factores culturales deben centrarse en elementos históricos, educativos o de ocio (como la cultura de estilo shanghaines en los gráficos), no en necesidades fisiológicas. La opción no se basa en los gráficos, puede considerarse incorrecta solo con el conocimiento del modelo.",
+        "B": "La alta proporción de 'ha visitado o está interesado' en el tercer gráfico se combina con el valor de preferencia relativamente alto de la Cafetería en Museo en el cuarto gráfico, lo que implica que los elementos culturales son un impulsor común, pero un solo gráfico no puede revelar la conexión.",
+        "C": "Esta es una opción de interferencia difícil: integra chart_39_3 (3% de no quiere visitar) y chart_39_4 (18% de Cafetería en Mercado), pero compara incorrectamente. El 3% es una proporción de disposición, el 18% es un valor de preferencia, no se pueden comparar directamente; la opción infiere erróneamente que una proporción baja 'impulsa la preferencia relacionada con la cultura', pero en realidad la Cafetería en Mercado (18%) es más alta que la Cafetería en Templo (17%), y los datos de estilo shanghaines muestran un 16% de 'bastante interesado' indicando demanda potencial, la opción ignora la lógica numérica.",
+        "D": "La baja proporción de 'no quiere visitar' en el tercer gráfico contrasta con el bajo valor de preferencia de la Cafetería en Mercado en el cuarto gráfico, enfatizando la debilidad de los modelos no culturales y la fortaleza de los culturales, pero no se puede confirmar el conflicto solo con un gráfico.",
+        "E": "Esta es una opción de interferencia fácil: basándose en el conocimiento común de la industria, el costo de decoración puede afectar la operación de la cafetería, pero los gráficos no proporcionan datos de costo; según el conocimiento común, los factores culturales deben provenir de las preferencias del consumidor (como las características de estilo shanghaines en chart_39_3), no del costo. La opción se desvía del contenido de los gráficos, fácil de identificar.",
+        "F": "Esta es una opción de interferencia difícil: superficialmente usa chart_39_3 (31% de visita frecuente a estilo shanghaines) y chart_39_4 (43% de Cafetería en Teatro), pero interpreta incorrectamente los valores. El 31% es una proporción de disposición, el 43% es un valor de preferencia, con unidades diferentes y sin relación directa; la opción asume erróneamente que la 'proximidad' indica que la cultura teatral es un impulsor central, pero en los datos reales la Cafetería en Museo (47%) y la Cafetería en Librería (62%) son más altas, y las características de la cultura de estilo shanghaines (31%) no están relacionadas con la preferencia teatral, la opción malinterpreta el orden y la diferencia.",
+        "G": "La proporción destacada de 'ha visitado' en el tercer gráfico se vincula con el valor de preferencia más alto de la Cafetería en Librería en el cuarto gráfico, lo que indica que temas culturales similares atraen a los consumidores, requiriendo razonamiento cruzado sobre patrones de preferencia."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia difícil: integra chart_39_1 (11.3 tazas en 2022) y chart_39_2 (32% de una vez al día), pero infiere incorrectamente. Los gráficos no mencionan métodos de recolección de datos, la opción asume erróneamente 'métodos consistentes'; en realidad, la opción original C menciona posible inconsistencia estadística, pero la opción de interferencia dice 'destaca errores estadísticos', malinterpretando la fuente de datos y la naturaleza del conflicto.",
+        "B": "La tendencia de crecimiento del primer gráfico se vincula con el patrón dominante de alta frecuencia del segundo gráfico, pero el conflicto numérico sugiere diferencias metodológicas, requiriendo análisis conjunto para evitar conclusiones parciales.",
+        "C": "Esta es una opción de interferencia fácil: basándose en un error de conocimiento común, el crecimiento del consumo no equivale a equilibrio regional; el conocimiento común indica que las grandes ciudades (como Shanghái) suelen tener un consumo más alto, los datos del gráfico (crecimiento nacional en chart_39_1 vs. alta frecuencia en Jing'an en chart_39_2) sugieren una brecha. La opción no depende de los gráficos, puede considerarse incorrecta solo con el conocimiento común.",
+        "D": "Esta es una opción de interferencia fácil: depende de un error de conocimiento común de la industria, Jing'an es un área urbana, no produce granos de café; según el conocimiento común, las diferencias de consumo surgen de factores económicos (como ingresos), no de la producción. La opción se desvía del contenido de los gráficos, fácil de identificar.",
+        "E": "El primer gráfico muestra un nivel absoluto bajo, combinado con la alta frecuencia implícita en el segundo gráfico, revela un conflicto de desequilibrio regional, pero no se puede inferir la diferencia solo de un gráfico.",
+        "F": "Los valores del primer gráfico se calculan conjuntamente con las proporciones del segundo gráfico, concluyendo que el consumo potencial de Jing'an supera ampliamente el promedio nacional, destacando la estratificación económica, requiriendo cálculo cruzado entre gráficos.",
+        "G": "Esta es una opción de interferencia difícil: superficialmente se basa en chart_39_1 (16.74 tazas en 2023) y chart_39_2 (47% de 2 - 3 veces a la semana), pero calcula e interpreta incorrectamente la diferencia. Cálculo del consumo anual de Jing'an: 2 - 3 veces por semana equivale a aproximadamente 100 - 150 tazas, muy por encima de las 16.74 tazas nacionales, diferencia enorme; la opción dice erróneamente 'diferencia pequeña', ignora la comparación numérica, y chart_39_2 muestra que el 32% de consumo diario puede ser aún mayor, la opción malinterpreta la estratificación."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una distractoría difícil: Aparentemente cita los datos de chart_39_1 (11.3 tazas en 2022 vs. 16.74 tazas en 2023), pero los describe erróneamente como un 'ligero aumento' (el aumento real es del 48%) y omite la tendencia continua ascendente de las 20 tazas estimadas para 2025; el razonamiento erróneo conduce a una estrategia conservadora, contraria a la tendencia de los datos.",
+        "B": "Esta es una distractoría fácil: Propone una sugerencia general (mejorar la decoración), pero no se relaciona con las tendencias de consumo o los datos de frecuencia regional de los gráficos. La dirección de la estrategia es vaga y no puede resolver directamente el problema de optimización de la expansión.",
+        "C": "La opción B también combina chart_39_1 (la tendencia de crecimiento del consumo es evidente, especialmente el gran aumento en 2023) y chart_39_2 (la proporción de consumo frecuente es alta, y se puede aplicar su modelo a las regiones emergentes).",
+        "D": "La opción C combina chart_39_1 (el consumo total está en aumento y se necesita una estrategia integral) y chart_39_2 (hay diferencias en los hábitos regionales y se necesita una estrategia específica), e implica un buen valor (distribuir equitativamente los recursos y evitar ignorar las regiones emergentes).",
+        "E": "Esta es una distractoría difícil: Aparentemente utiliza los datos de chart_39_2 (la proporción de consumidores ocasionales es del 4%), pero los interpreta erróneamente como 'no se está atendiendo adecuadamente'. Los datos reales indican que la proporción del grupo de bajo consumo es pequeña y la demanda es baja, con un potencial de crecimiento limitado; la estrategia correcta debería enfocarse en las regiones de alto consumo (por ejemplo, la proporción de alto consumo en el distrito de Jing'an de Shanghái es del 79%) o en las regiones emergentes, en lugar de las regiones de bajo consumo.",
+        "F": "Esta es una distractoría fácil: Se basa en el conocimiento general (el consumo de café está en aumento), pero la estrategia es amplia y no tiene una guía específica de optimización (por ejemplo, no considera las diferencias en los hábitos regionales) y no utiliza los datos de los gráficos, por lo que es fácil de descartar.",
+        "G": "La opción A involucra el gráfico chart_39_1 (el consumo anual per cápita de café en China muestra una tendencia continua de crecimiento) y chart_39_2 (la proporción de consumo frecuente de café de los consumidores en el distrito de Jing'an de Shanghái es alta, lo que indica un gran potencial en el mercado maduro)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distractoría fácil: Propone una estrategia de marketing general (aumentar la publicidad), pero no se asocia específicamente con la experiencia cultural de estilo shanghaines o los datos de preferencia de fusión transversal. La estrategia no tiene una guía clara de acción y no utiliza los gráficos.",
+        "B": "Esta es una distractoría fácil: Propone una mejora general del producto (opciones de sabor), pero no se combina con la voluntad de los consumidores o la preferencia de fusión (como en chart_39_3 y chart_39_4), por lo que no puede mejorar directamente la atracción cultural o la lealtad de los usuarios.",
+        "C": "Esta es una distractoría difícil: Aparentemente cita los datos de chart_39_4 (valores de baja preferencia), pero razona erróneamente que 'hay un gran potencial en el mercado no explotado'. En realidad, los valores bajos indican un interés débil de los consumidores y un alto riesgo; la estrategia correcta debería priorizar las formas de alta preferencia (por ejemplo, la cafetería en librería con un valor de 62), pero esta opción confunde el significado de los datos.",
+        "D": "La opción C combina chart_39_4 (los valores de la cafetería en templo y la cafetería en mercado son los más bajos en la preferencia de fusión transversal) y chart_39_3 (la proporción de 'no quiere visitar' es baja en los datos de voluntad, pero se debe evitar el desperdicio de recursos), lo que refleja un buen valor (utilizar eficientemente los recursos en lugar de reducir de manera discriminatoria).",
+        "E": "La opción B combina chart_39_2 (la proporción de consumidores que beben café 2 - 3 veces a la semana en el distrito de Jing'an de Shanghái es alta, lo que indica un grupo de consumo frecuente) y chart_39_3 (la voluntad de experimentar el café de estilo shanghaines es fuerte, y se puede diseñar de manera específica).",
+        "F": "La opción A involucra los gráficos chart_39_3 (la proporción de 'visita frecuentemente' y 'ha visitado' en la voluntad de experimentar el café de estilo shanghaines es alta, lo que muestra la atracción cultural) y chart_39_4 (los valores de la cafetería en librería y la cafetería en jardín son los más altos en la preferencia de fusión transversal de la cafetería).",
+        "G": "Esta es una distractoría difícil: Aparentemente utiliza chart_39_2 (la proporción de consumo mensual es del 17%) y chart_39_3 (la proporción de 'ha visitado' es del 50%), pero se enfoca erróneamente en el grupo de consumo medio, mientras que la proporción de consumidores frecuentes (79% de consumo diario y semanal) es más alta y tiene un mayor potencial de lealtad; la asociación errónea de los datos conduce a una asignación incorrecta de recursos."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distractoría difícil: Aparentemente utiliza los valores bajos de chart_39_4 (17 para la cafetería en templo y 18 para la cafetería en mercado) y la tendencia de crecimiento de chart_39_1, pero razona erróneamente que 'hay una oportunidad en un mercado inexplorado'. En realidad, la baja preferencia indica un interés débil de los consumidores. Dada la tendencia de crecimiento, se debería priorizar las formas de alta preferencia; la confusión errónea de la relación de los datos puede llevar a un desperdicio de inversión.",
+        "B": "Esta es una distractoría fácil: Se centra en la mejora del producto (la investigación y desarrollo de granos de café), pero no se relaciona con el tema de la fusión transversal o la preferencia de los consumidores. La dirección de la estrategia se desvía del núcleo del problema y no cita los datos de los gráficos.",
+        "C": "La opción C combina chart_39_4 (los valores de la cafetería en templo y la cafetería en mercado son los más bajos) y chart_39_1 (se necesita una utilización eficiente de los recursos dada la tendencia general de crecimiento), y se ajusta a un buen valor (optimizar en lugar de discriminar y garantizar una competencia justa).",
+        "D": "La opción B combina chart_39_4 (los valores de la cafetería en camping y la cafetería en museo son intermedios) y chart_39_1 (la tendencia de crecimiento del consumo es evidente, lo que apoya la experimentación innovadora).",
+        "E": "Esta es una distractoría fácil: Propone una asignación equitativa, pero la estrategia es amplia y no tiene prioridades, no utiliza los datos de preferencia (por ejemplo, la cafetería en librería con un valor de 62 es la más alta en chart_39_4) y ignora la eficiencia de costos, por lo que es fácil de descartar por sentido común.",
+        "F": "La opción A involucra los gráficos chart_39_4 (los valores de la cafetería en librería y la cafetería en jardín son los más altos en la preferencia de fusión transversal) y chart_39_1 (el consumo anual per cápita de café en China muestra una tendencia continua de crecimiento, lo que proporciona una base para la expansión del mercado).",
+        "G": "Esta es una distractoría difícil: Aparentemente cita chart_39_4 (el valor de la cafetería en teatro es 43) y chart_39_1 (la tendencia de crecimiento), pero describe erróneamente el teatro como 'tiene un potencial de riesgo medio'. En realidad, el valor de preferencia es mucho más bajo que el de la librería (62), y no considera la prioridad de las opciones de alta preferencia; la interpretación errónea de los datos conduce a una decisión subóptima."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

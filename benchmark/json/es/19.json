@@ -85,6 +85,22 @@
       "label": [
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "基于常识错误：青少年购物经验不足是普遍认知，但图表19_3显示该组占比仅22%（非最高），与数值最高的后悔原因无直接关联",
+        "B": "年龄分布图表中30 - 39岁组比例较高，后悔原因图表中\"Encontrado innecesario después de la compra\"数值远超其他原因，联合推理表明即使非最大年龄组，也可能因主导原因而高比例后悔。两个选项均需联合两张图表：仅凭后悔原因图表无法推断年龄趋势，仅凭年龄分布图表无法确定原因关联；选项1强调\"占比最大\"与\"数值最高\"的叠加，选项2强调\"比例较高\"与\"主导原因\"的普遍性。",
+        "C": "逻辑倒置错误：后悔比例最低的组（40 - 49岁）人数少，即使单个原因数值高，其影响范围也小，与\"更可能\"的题意矛盾",
+        "D": "后悔原因图表显示\"Encontrado innecesario después de la compra\"的数值最高，表明这是最常见后悔原因；年龄分布图表显示20 - 29岁组占比最大，联合推理表明该年龄组消费者基数大且易受主要后悔原因影响。",
+        "E": "基于常识错误：老年人冲动购物是刻板印象，但图表19_3中50岁以上组占比仅5%（最低），且无数据支持此群体与\"Encontrado innecesario después de la compra\"的关联",
+        "F": "图表数值理解错误：虽然30 - 39岁组占比较高，但20 - 29岁组占比36%（显著更高），且\"Encontrado innecesario después de la compra\"（10）的数值是整体原因，未按年龄细分，不能推断对特定组影响更大"
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -106,6 +122,21 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Shandong消费者数量较高（第三位），性别分布中女性比例主导，联合推理得出类似结论。所有选项均需联合两张图表：仅凭地域分布图表无法推断性别，仅凭性别分布图表无法确定地域数量；选项依赖\"消费者数量\"与\"女性比例\"的乘积效应推理。选项间区分度在于地域排名（Guangdong第一、Zhejiang第二、Shandong第三）。",
+        "B": "数值对比错误：Shandong总人数25＞Shanghai 22（chart_19_2），同比例下Shandong女性数量（15）＞Shanghai（13.2），发达程度与后悔数量无图表关联",
+        "C": "常识性臆测错误：图表19_4显示女性占比统一为60%，无地区差异；Anhui总人数仅11（chart_19_2），即使比例相同，女性数量（6.6）也远低于Shandong（15）",
+        "D": "基础数值误判：Jiangsu总人数23＞Hubei 20（chart_19_2），同比例下Jiangsu女性数量（13.8）＞Hubei（12），地理位置未在图表中体现",
+        "E": "Zhejiang消费者数量次高，性别分布中女性比例占优，联合推理类似地支持较高女性后悔者数量。",
+        "F": "地域分布图表显示Guangdong消费者数量最大，性别分布图表显示女性比例最高，联合推理假设性别比例一致时，数量大地域女性后悔者更多。"
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -127,6 +158,21 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Muebles y Electrodomésticos排行第二，后悔原因图表中\"El producto no coincide con la descripción\"数值较高（仅次于最高值），联合推理结合品类特性（如尺寸或功能描述）隐含此原因更相关。",
+        "B": "原因数值忽略：Retraso en la entrega express数值仅0.3（chart_19_1），为所有原因中最低；Comida y Productos Frescos排行第三（chart_19_5）应关联数值更高的原因（如Mercancía falsa o de mala calidad数值1）",
+        "C": "常识过度泛化：Mala actitud del servicio al cliente数值仅1（chart_19_1），远低于主导原因\"Encontrado innecesario después de la compra\"（10），且Belleza y Cuidado Personal排行第五（chart_19_5），无证据支持其与客服问题的特殊关联",
+        "D": "Comida y Productos Frescos排行第三，后悔原因图表中\"Mercancía falsa o de mala calidad\"数值虽低但非零，联合推理低数值原因可能更针对特定品类（如易伪劣食品）。所有选项均需联合两张图表：仅凭品类排行图表无法确定原因，仅凭后悔原因图表无法链接到具体品类；选项依赖\"排行位置\"与\"原因数值\"的关联推理（如数值最高原因影响排行最高品类）。选项间区分度在于不同品类与不同原因的匹配（Ropa y Calzado - 主要原因、Muebles y Electrodomésticos - 次要原因、Comida y Productos Frescos - 特定原因）。",
+        "E": "数值权重误判：El tamaño o modelo no coincide数值仅2（chart_19_1），不足\"Encontrado innecesario después de la compra\"（10）的1/5；Ropa y Calzado排行第一更可能关联数值最高的原因，而非次要原因",
+        "F": "电商品类排行图表显示Ropa y Calzado排行第一，后悔原因图表中\"Encontrado innecesario después de la compra\"数值最高，联合推理表明高销量品类易引发主要后悔原因。"
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -151,6 +197,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Interferencia fácil: Basado en el conocimiento común, la declaración es amplia y sin enfoque específico. Es un hecho que la campaña del Día 11.11 está dirigida a todos los usuarios, pero no se enfoca prioritariamente en los grupos con mayor arrepentimiento (como se muestra en el gráfico, el grupo de 20 - 29 años tiene la mayor proporción). La estrategia carece de orientación de acción específica y es fácil de descartar por el conocimiento común.",
+        "B": "Razonamiento conjunto: Basado en chart_19_3 (la tendencia de que el grupo de 20 - 29 años tiene la mayor proporción de arrepentimiento) y chart_19_1 (el valor más alto de 'Encontrado innecesario después de la compra' sugiere un problema de compra impulsiva). La estrategia se dirige a los grupos con mayor incidencia, lo que se ajusta al principio de optimización de recursos.",
+        "C": "Interferencia difícil: Aparentemente utiliza el gráfico (chart_19_2 muestra una cantidad de 24 en Pekín), pero interpreta erróneamente los datos geográficos. Guangdong (30) y Zhejiang (28) tienen una mayor cantidad de arrepentimientos, y la distribución geográfica no es el mejor indicador para las herramientas de ayuda en la toma de decisiones de compra (las herramientas deben enfocarse en comportamientos como la compra impulsiva, no en la ubicación geográfica). Esta opción prioriza erróneamente las regiones que no tienen la mayor cantidad de arrepentimientos.",
+        "D": "Razonamiento conjunto: Basado en chart_19_4 (la tendencia de que las mujeres tienen una mayor proporción de arrepentimiento) y chart_19_1 (el valor relativamente alto de 'El producto no coincide con la descripción'). La estrategia utiliza las características de género para mejorar la experiencia de compra y evitar sesgos de valores.",
+        "E": "Razonamiento conjunto: Basado en chart_19_2 (la tendencia de que Guangdong y Zhejiang tienen la mayor cantidad de consumidores con arrepentimiento) y chart_19_1 (la diversidad de razones de arrepentimiento). La estrategia se enfoca en las regiones de alta densidad para lograr una asignación eficiente de recursos.",
+        "F": "Interferencia fácil: Basado en el conocimiento común (los ancianos no están familiarizados con la tecnología), pero no se basa en los gráficos (chart_19_3 muestra que el grupo de más de 50 años tiene solo un 5% de arrepentimiento, el grupo con la menor proporción). La estrategia es ineficaz y carece de soporte de datos.",
+        "G": "Interferencia difícil: Aparentemente utiliza el gráfico (chart_19_3 muestra que el grupo de menos de 19 años tiene una proporción del 22%), pero lo interpreta erróneamente. Aunque la compra impulsiva es la principal razón en chart_19_1 ('Encontrado innecesario después de la compra' tiene un valor de 10), el grupo de 20 - 29 años tiene una proporción del 36%, que es más alta y más relevante. Esta opción confunde la prioridad de edad y enfatiza erróneamente el grupo con la segunda mayor proporción."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -173,6 +236,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Interferencia fácil: Basado en el conocimiento común (establecer estándares uniformes garantiza la equidad), la declaración es amplia y sin prioridad. No se basa en el gráfico (chart_19_5 muestra que las categorías de productos tienen diferentes niveles de arrepentimiento). La estrategia carece de enfoque y es fácil de descartar.",
+        "B": "Razonamiento conjunto: Basado en chart_19_5 (la tendencia de que la categoría 'Muebles y Electrodomésticos' tiene la segunda mayor proporción de arrepentimiento) y chart_19_1 (el valor significativo de 'El producto no coincide con la descripción'). La estrategia enfatiza la revisión de calidad, lo que se ajusta a los valores de protección al consumidor.",
+        "C": "Interferencia fácil: Basado en el conocimiento común (las categorías emergentes tienen un mayor riesgo), pero no se basa en el gráfico (chart_19_5 no incluye productos virtuales, solo enumera 6 categorías). La estrategia se aleja de los datos, es ineficaz y carece de fundamentos.",
+        "D": "Interferencia difícil: Aparentemente utiliza el gráfico (chart_19_1 muestra un valor de 1 para 'Mercancía falsa o de mala calidad' y chart_19_5 muestra que la categoría 'Cuidado Médico y Salud' está en el puesto 6), pero lo interpreta erróneamente. El valor de 'Mercancía falsa o de mala calidad' es el más bajo (1), y el puesto 6 indica la menor tasa de arrepentimiento. Esta opción prioriza erróneamente las categorías de bajo riesgo y omite las categorías con mayor arrepentimiento, como 'Ropa y Calzado' (puesto 1).",
+        "E": "Interferencia difícil: Aparentemente utiliza el gráfico (chart_19_1 muestra un valor de 2 para 'El tamaño o modelo no coincide' y chart_19_5 muestra que la categoría 'Teléfonos Móviles y Productos Digitales' está en el puesto 4), pero establece una asociación errónea. 'El tamaño o modelo no coincide' está más relacionado con 'Ropa y Calzado' (puesto 1), y el valor de 2 no es la principal razón. Esta opción confunde las categorías con las razones y prioriza la categoría incorrecta.",
+        "F": "Razonamiento conjunto: Basado en chart_19_5 (la tendencia general de las categorías de productos con mayor arrepentimiento) y chart_19_1 (el valor existente de 'Difícil servicio postventa', aunque bajo, tiene un gran impacto). La estrategia combina conocimientos externos (los productos de alto valor necesitan más servicio postventa), pero se basa en los datos para garantizar la equidad.",
+        "G": "Razonamiento conjunto: Basado en chart_19_5 (la tendencia de que la categoría 'Ropa y Calzado' tiene la mayor proporción de arrepentimiento) y chart_19_1 (el valor relativamente alto de 'El tamaño o modelo no coincide'). La estrategia se dirige a los puntos débiles de la categoría y evita simples reducciones de precio."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -197,6 +277,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Interferencia fácil: Basado en el conocimiento común (aumentar los recursos mejora el servicio), la declaración es amplia y sin prioridad. No se basa en el gráfico (por ejemplo, chart_19_2 muestra diferencias en la cantidad de arrepentimientos por región). La estrategia carece de orientación específica y es fácil de descartar.",
+        "B": "Razonamiento conjunto: Basado en chart_19_3 (la tendencia de que el grupo de 20 - 29 años tiene la mayor proporción de arrepentimiento) y chart_19_1 (el valor más alto de 'Encontrado innecesario después de la compra'). La estrategia combina las características de edad y proporciona servicios preventivos.",
+        "C": "Interferencia difícil: Aparentemente utiliza el gráfico (chart_19_3 muestra que el grupo de 40 - 49 años tiene una proporción del 9%), pero lo interpreta erróneamente. El grupo de 20 - 29 años tiene una proporción del 36%, que es la más alta y más relevante para las necesidades de servicio al cliente (por ejemplo, compras impulsivas). Esta opción prioriza el grupo de baja proporción y omite la principal razón de arrepentimiento (chart_19_1 muestra un valor de 1 para 'Mala actitud del servicio al cliente').",
+        "D": "Razonamiento conjunto: Basado en chart_19_4 (la tendencia de que las mujeres tienen una mayor proporción de arrepentimiento) y chart_19_1 (el valor existente de 'Difícil servicio postventa'). La estrategia se dirige a las diferencias de género, pero enfatiza la igualdad en el servicio, lo que se ajusta a buenos valores.",
+        "E": "Interferencia fácil: Basado en el conocimiento común (distribución equitativa), pero no se basa en los datos (chart_19_4 muestra que la proporción de arrepentimiento de las mujeres es del 60%, significativamente más alta que la de los hombres). La estrategia omite las diferencias entre grupos y es ineficaz.",
+        "F": "Razonamiento conjunto: Basado en chart_19_2 (la tendencia de que Guangdong y Zhejiang tienen la mayor cantidad de consumidores con arrepentimiento) y chart_19_1 (el valor existente de 'Mala actitud del servicio al cliente'). La estrategia se enfoca en las regiones de alta incidencia y evita el desperdicio de recursos.",
+        "G": "Interferencia difícil: Aparentemente utiliza el gráfico (chart_19_2 muestra una cantidad de 9 en Jiangxi y 8 en Fujian de consumidores con arrepentimiento), pero la estrategia es incorrecta. Reducir los recursos puede aumentar la tasa de arrepentimiento (por ejemplo, chart_19_1 muestra un valor de 0.5 para 'Difícil servicio postventa'), y la ubicación geográfica no es el mejor indicador para la distribución del servicio (la opción correcta debe enfocarse en los grupos con mayor arrepentimiento). Esta opción confunde los datos con la lógica de la estrategia."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     }
   ]

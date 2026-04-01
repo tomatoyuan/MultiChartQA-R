@@ -87,6 +87,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "In one chart, the combat power of the cool mat is negative, while in the other chart, the search index soars in summer, implying that after traditional methods are replaced by air conditioners, health risks are not effectively offset. Only by jointly analyzing the combat power characteristics and search trends can this implicit rule be discovered.",
+        "B": "Hard interference option: Misunderstanding the meaning of the values (chart_14_1); The negative combat power of the cool mat (-7.9%) indicates that it is unpopular, but the interference option misinterprets it as 'popular' and wrongly associates it with the peak of the air - conditioning sickness search.",
+        "C": "One chart shows that the combat power of air conditioners far exceeds that of other items, and the other chart shows that the search index of air - conditioning sickness reaches its peak in July and September (the core months of summer). The combination of the two indicates that the high popularity of air conditioners may directly lead to an increase in health problems. This causal relationship cannot be established based on a single chart alone.",
+        "D": "Easy interference option: Based on general health common sense (air - conditioners can prevent heatstroke by cooling), without relying on the chart data, only inferring from common sense.",
+        "E": "Easy interference option: Based on industry common sense (sunscreen is used for sun protection), not involving the chart values, only generally discussing health management.",
+        "F": "Hard interference option: Misinterpreting the chart data (chart_14_1 and chart_14_3); The combat power of the electric fan is low (8.4%), but the high search for air - conditioning sickness is related to the use of air conditioners. Here, it is wrongly attributed to the electric fan.",
+        "G": "In one chart, the combat power of the electric fan is extremely low, while in the other chart, the search index is high during the same period (summer), which implies that the insufficient use of substitutes such as electric fans may magnify the negative effects of air conditioners. It is necessary to compare the combat power distribution and search trends across charts to make an inference."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "In one chart, Beijing has a medium level of attention, but in the other chart, the influence level of the elderly is high, which shows that the level of attention does not directly correspond to high - risk groups. It is necessary to jointly analyze the regional distribution and influence levels to discover the contradiction.",
+        "B": "Hard interference option: Misunderstanding the ranking (chart_14_4); The influence level of the elderly (8) is higher than that of women (6), but the interference option reverses the order and wrongly concludes that women are more vulnerable.",
+        "C": "One chart shows that Guangdong and Zhejiang have the highest attention to air conditioners, while the other chart shows that the influence levels of the elderly and children are the highest. The combination of the two reveals a conflict: high popularity may increase the risks for vulnerable groups. A single chart cannot show this association.",
+        "D": "Easy interference option: Starting from general knowledge (natural cooling is healthier), without quoting the chart values.",
+        "E": "Hard interference option: Wrongly comparing the data (chart_14_2 and chart_14_4); Hebei has a low level of attention (30%), and the influence level of pets is relatively low (5), but the interference option misinterprets it as 'higher risk'.",
+        "F": "Easy interference option: Based on common - sense reasoning (high usage may affect all populations), without relying on the chart data.",
+        "G": "In one chart, Hebei has the lowest attention, while in the other chart, the influence level of pets is the lowest. The combination indicates that low - use areas may reduce the risks for certain groups, but it is necessary to compare the regional and group data across charts to infer this implicit conflict."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "In one chart, the combat power of swimsuits and watermelons is low, while in the other chart, the searches for both surge in late July. The combination indicates that when there are insufficient low - combat - power substitutes, the popularization of air conditioners may not be able to comprehensively manage risks. It is necessary to analyze the combat power distribution and search peaks across charts.",
+        "B": "Hard interference option: Misinterpreting the trend and combat power (chart_14_5 and chart_14_1); The searches for heatstroke and air - conditioning sickness are both high during the same period (e.g., July 26th), but the interference option misinterprets it as 'air conditioners are ineffective', ignoring the implicit rule that high combat power is related to searches.",
+        "C": "In one chart, the search for heatstroke fluctuates greatly, and the search for air - conditioning sickness rises steadily, while in the other chart, the combat power of air conditioners is high, implying that the stable use of air conditioners may cover up the immediate risks of heatstroke but accumulate long - term problems. This rule can only be discovered by combining the trend and combat - power data.",
+        "D": "Hard interference option: Wrongly associating the data (chart_14_1 and chart_14_5); The combat power of the electric fan is low (8.4%), and the fluctuation of the heatstroke search is related to high temperatures, but the interference option wrongly attributes it to the electric fan.",
+        "E": "One chart shows that the search for heatstroke is much higher than that for air - conditioning sickness on July 26th, while in the other chart, the combat power of air conditioners is the highest. The combination of the two implies the rule that the use of air conditioners reduces the risk of heatstroke but exacerbates air - conditioning sickness. This conclusion cannot be drawn based on a single chart alone.",
+        "F": "Easy interference option: Based on common sense (air conditioners prevent heatstroke), without using the chart data, only making general inferences.",
+        "G": "Easy interference option: Starting from industry knowledge (substitutes reduce risks), not involving specific chart values."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -155,6 +206,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Combining chart_14_3 (the search index of air - conditioning illness peaks in July and September, indicating a surge in attention) and chart_14_4 (the elderly and children have the highest influence levels and are at the greatest risk), it can be inferred that allocating resources to vulnerable groups during peak periods is more efficient.",
+        "B": "Combining chart_14_2 (provinces such as Guangdong and Zhejiang have extremely high attention to air - conditioners) and chart_14_1 (the combat power percentage of air - conditioners is the highest, but the combat power of auxiliary products such as sunscreen is also relatively high, which can reduce the dependence on air - conditioners), it can be inferred that regionalized publicity should combine product complementarity.",
+        "C": "This option is an Easy interference item: It completely ignores the peak values of the search index in the chart (chart_14_3 shows a sharp increase in the index in July and September) and is only based on general health common sense (publicity should be normalized). This can be directly excluded by common sense because the uniform distribution of resources cannot cope with seasonal peaks and is inefficient.",
+        "D": "This option is a Hard interference item: On the surface, it uses the chart data (chart_14_3 shows that the index is about 2950 - 2980 in November and January, which is at a low point), but wrongly infers the timing of action. A low search index indicates low public attention, not insufficient risk; the actual peak is in July (the index reaches 6000 - 15000). Taking action at the low point will waste resources and miss the high - risk period.",
+        "E": "Combining chart_14_5 (the search indexes of air - conditioning illness and heatstroke reach a peak simultaneously in late July) and chart_14_3 (the search trend of air - conditioning illness shows a periodic peak in summer), a resource integration strategy can be inferred.",
+        "F": "This option is a Hard interference item: On the surface, it quotes the chart data (chart_14_4 shows that the influence level of pets is 5, the lowest; chart_14_2 shows that the attention in Guangdong is 100%), but wrongly interprets the group priority. Chart_14_4 clearly shows that the elderly and children are at a higher risk (levels 8 and 7), and pets have a lower priority. Resource allocation should focus on high - risk groups rather than low - risk ones. At the same time, high regional attention does not mean that pets are the focus, which causes a deviation in the strategy direction."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -178,6 +244,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option is a Hard interference item: On the surface, it quotes the chart data (chart_14_1 shows that the combat power of the cool mat is - 7.9%, the lowest; the combat power of the air - conditioner is 73.15%, the highest), but wrongly interprets the numerical relationship. A negative combat power indicates that the demand for the cool mat is weak or it is not popular. Promoting it will waste resources; the actual strategy should focus on high - combat - power products (such as air - conditioners) but combine safety measures, rather than counter - intuitively promoting products with low demand.",
+        "B": "This option is a Hard interference item: On the surface, it uses the chart data (chart_14_4 shows that the influence level of women is 6, lower than that of the elderly and children; chart_14_3 shows a peak in the index in July; chart_14_1 shows that the air - conditioner has the highest combat power), but confuses the group priority and health risks. Although women are a vulnerable group, their influence level is relatively low. Prioritizing the promotion of high - combat - power air - conditioners may exacerbate health risks (such as air - conditioning illness), rather than balancing safety; the strategy should target high - risk groups or promote complementary products (such as sunscreen).",
+        "C": "Combining chart_14_2 (provinces such as Guangdong and Zhejiang have extremely high attention to air - conditioners) and chart_14_1 (the combat power percentage of air - conditioners is the highest, but the combat power of auxiliary products such as sunscreen is also relatively high, which can reduce the dependence on air - conditioners), it can be inferred that regionalized publicity should combine product complementarity.",
+        "D": "Combining chart_14_4 (women have a relatively high influence level) and chart_14_1 (the air - conditioner has the highest combat power and is widely popularized), it can be inferred that educational content should be integrated for vulnerable groups during promotion to enhance health awareness.",
+        "E": "Combining chart_14_3 (the search index of air - conditioning illness is at a low value from November to March of the following year, indicating low attention) and chart_14_1 (although the combat power percentage of the electric fan is low but positive, and the negative combat power of the cool mat may reflect health problems, promoting safer products conforms to values), it can be inferred that alternative products should be promoted in the off - season to prevent risks.",
+        "F": "This option is an Easy interference item: It does not rely on the chart and is only based on broad market common sense (comprehensive promotion ensures coverage). However, it ignores the regional differences in the chart (chart_14_2 shows different levels of attention in each province) and the product combat power ranking (the air - conditioner has the highest combat power of 73.15% in chart_14_1). The average distribution of resources cannot optimize the balance between market coverage and health safety and can be easily excluded by common sense."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -201,6 +282,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Combining chart_14_5 (the search indexes of heatstroke and air - conditioning illness reach a peak simultaneously in late July) and chart_14_3 (the search trend of air - conditioning illness shows a repeated peak pattern), a resource integration strategy can be inferred to deal with concurrent risks.",
+        "B": "Combining chart_14_2 (Hebei has a relatively low attention to air - conditioners, possibly indicating insufficient resources) and chart_14_3 (the search index of air - conditioning illness peaks in summer, with general demand), it can be inferred that regional differential allocation is needed to ensure fairness.",
+        "C": "This option is a Hard interference item: On the surface, it uses the chart data (chart_14_2 shows 100% attention in Guangdong; chart_14_5 shows that the heatstroke index is 42000 > 21000 for air - conditioning illness on July 26th), but confuses the priority of diseases and regional associations. Although the heatstroke index is high, air - conditioning illness is more relevant in high - temperature provinces (such as Guangdong); the strategy should integrate the two (as shown by the overlapping peaks in chart_14_5) rather than dealing with them separately, resulting in a misallocation of resources.",
+        "D": "This option is a Hard interference item: On the surface, it quotes the chart data (chart_14_3 shows that the index is about 2970 - 3020 in March and May, which is at a low point; chart_14_4 shows that children are at high risk; chart_14_2 shows that the attention in Hebei is 30%, the lowest), but wrongly interprets the timing and region. A low search index indicates low demand, not the right time for action; taking action in provinces with low attention ignores high - demand areas (such as 100% in Guangdong), and prevention during non - peak periods has poor effects and wastes resources.",
+        "E": "Combining chart_14_5 (the search index of air - conditioning illness rises rapidly from mid - to late July, with an obvious peak) and chart_14_4 (the elderly and children have the highest influence levels), it can be inferred that resources should be tilted towards high - risk groups during peak periods.",
+        "F": "This option is an Easy interference item: It avoids using the chart data and is only based on general medical common sense (increasing resources to improve response). However, it ignores the seasonal peaks in the search trend (chart_14_3 and chart_14_5 show peaks in July). The uniform distribution of resources throughout the year cannot efficiently cope with sudden summer peaks and can be excluded by common sense."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     }
   ]

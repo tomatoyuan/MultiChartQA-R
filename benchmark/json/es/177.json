@@ -86,6 +86,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "依赖chart_177_4（Dificultades de energía y resistencia físicas占比高）和chart_177_3（consideran que las funciones de la IA son cada vez más poderosas比例最高），联合推理出家长将AI视为缓解体力的工具。单张图表如chart_177_4只显示困难，但无法链接到AI态度。",
+        "B": "基于chart_177_1（proporción de padres que inscriben a sus hijos en clases particulares下降）和chart_177_3（la IA debe complementarse con la educación familiar比例22%），推理出辅导减少后AI作为替代。需要跨图比较趋势，单张图表如chart_177_1仅显示政策影响，无法关联AI。",
+        "C": "这是一个Easy干扰项：基于常识，AI教育通常被视为高效工具，但图表chart_177_3显示actitud de duda hacia la IA的比例仅为13%，而actitud positiva高达87%，因此该选项错误地声称怀疑态度比例最高，不依赖图表数据。",
+        "D": "这是一个Easy干扰项：常识上，AI教育常被宣传为能优化时间管理，但该选项声称AI无效且态度消极，与图表chart_177_3中87%积极态度矛盾，无需图表验证即可识别错误。",
+        "E": "这是一个Hard干扰项：表面上基于图表，但错误关联数据。图表chart_177_1显示报辅导班比例从56%降至18%，但图表chart_177_3显示AI积极态度87%且\"funciones de la IA son cada vez más poderosas\"占42%，表明家长视AI为补充而非消极替代；该选项误读态度趋势和功能数据。",
+        "F": "这是一个Hard干扰项：表面上基于图表，但错误解读数据。图表chart_177_4显示\"No hay suficiente tiempo\"困难比例为47%，是最高值，而非最低；正确推理应为时间压力大推动AI需求，但该选项误读比例，导致结论错误。",
+        "G": "需要联合chart_177_1（显示proporción del tiempo dedicado a la educación familiar从双减前到后增加）和chart_177_4（No hay suficiente tiempo困难占比最高），推理出时间压力增大，再结合chart_177_3（actitud positiva比例高），表明困难趋势驱动AI接受度。不能单凭一张图表推断，例如仅chart_177_3无法解释为何态度积极。"
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "基于chart_177_2（Cultivo de intereses关注比例50%）和chart_177_4（No hay suficiente tiempo占比最高），推理出时间限制下兴趣培养挑战，再结合chart_177_3（actitud de duda比例低），隐含AI接受度高以节省时间。需要跨图分析趋势冲突。",
+        "B": "依赖chart_177_2（Tutorías académicas y conocimientos curriculares关注比例54%）和chart_177_4（La tutoría después de clase es demasiado complicada占比38%），比较关注度与困难程度，再链接到chart_177_3（uso moderado de la IA比例23%），表明AI用于简化辅导。单张图表如chart_177_4只显示困难，无法关联关注点。",
+        "C": "这是一个Easy干扰项：基于常识，心理健康是重要方面，但图表chart_177_2显示Salud mental关注比例仅为35%，远低于Capacidad de aprendizaje的68%；该选项不依赖图表，仅凭常识错误地声称比例最高。",
+        "D": "这是一个Hard干扰项：表面上基于图表，但错误关联困难比例。图表chart_177_4显示\"Dificultad para elegir el modo de educación familiar\"困难比例为21%，是较低值，而chart_177_3显示AI积极态度87%；该选项误读比例高低，错误地认为AI不被需求。",
+        "E": "这是一个Easy干扰项：常识上，家长常寻求外部帮助解决教育困难，但该选项声称家长自身能力足够，与图表chart_177_4中\"El hijo tiene dificultades en el aprendizaje\"占39%和chart_177_3中AI积极态度87%矛盾，无需图表即可识别错误。",
+        "F": "需要联合chart_177_2（Capacidad de aprendizaje关注比例最高）和chart_177_4（El hijo tiene dificultades en el aprendizaje占比高），推理出关注点与困难冲突，再结合chart_177_3（actitud positiva比例高），隐含AI作为解决工具。不能单凭chart_177_2或chart_177_4推断AI需求。",
+        "G": "这是一个Hard干扰项：表面上基于图表，但错误解读数值排序。图表chart_177_2中\"Capacidad de competición y rendimiento\"关注比例仅26%，是最低值之一（低于Condición física的20%但整体最低），而非最高；正确推理应关注Capacidad de aprendizaje 68%，但该选项误读数据导致错误结论。"
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：常识上，心理健康与健康问题相关，但图表chart_177_2显示Salud mental关注比例35%（较低），而chart_177_4 Problemas de salud困难比例28%（中等）；该选项错误地声称关注高且困难低，无需图表验证。",
+        "B": "这是一个Easy干扰项：基于常识，体育体能常被忽视，但该选项声称家长优先关注，与图表chart_177_2中Condición física关注比例20%（最低）矛盾；不依赖图表，仅凭常识错误。",
+        "C": "依赖chart_177_1（proporción de padres que inscriben a sus hijos en clases particulares下降）和chart_177_2（Capacidad de competición y rendimiento关注比例低），比较政策变化与关注点，再链接到chart_177_4（Problemas de gestión de conducta占比31%），表明困难转移了家长重点。单张图表如chart_177_4只显示问题，无法关联政策影响。",
+        "D": "这是一个Hard干扰项：表面上基于图表，但错误解读数值。图表chart_177_2中Condición física关注比例20%是最低值，而非最高；图表chart_177_4中No se tiene la energía y resistencia físicas困难比例40%是较高值，而非最低；该选项误读比例排序，导致结论错误。",
+        "E": "需要联合chart_177_1（proporción del tiempo dedicado a la educación familiar增加）和chart_177_2（Condición física关注比例最低），推理出时间投入与关注点矛盾，再结合chart_177_4（No se tiene la energía y resistencia físicas困难占比高），解释为精力不足导致忽视体能。不能单凭chart_177_1或chart_177_2推断冲突原因。",
+        "F": "这是一个Hard干扰项：表面上基于图表，但错误关联数据。图表chart_177_2中Capacidad de competición y rendimiento关注比例仅26%（较低），而chart_177_4中Problemas de gestión de conducta困难比例31%（显著）；该选项误读关注比例高低和困难程度，错误推断焦点转移。",
+        "G": "基于chart_177_1（proporción del tiempo dedicado a la educación familiar提升）和chart_177_2（Salud mental关注比例较低），分析趋势不一致，再结合chart_177_4（Problemas de salud占比28%），隐含其他困难如学习压力（chart_177_4中El hijo tiene dificultades en el aprendizaje占比高）优先于心理健康。需要跨图推理冲突逻辑。"
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en el conocimiento general (los subsidios económicos pueden aliviar la carga), pero no se basa en ningún dato del gráfico. El gráfico no menciona factores económicos o la necesidad de subsidios. Por lo tanto, esta opción es generalizada y no específica, y no puede resolver directamente las dificultades específicas mencionadas en el gráfico (como el problema de tiempo o energía), y es fácil de descartar por conocimiento general.",
+        "B": "La opción B combina chart_177_1 y chart_177_4: chart_177_1 muestra que la proporción del tiempo dedicado a la educación familiar aumentó significativamente después de la política 'Dobles Reducciones', mientras que en chart_177_4 la dificultad de 'no haber suficiente tiempo' tiene la proporción más alta, lo que indica que la escasez de recursos de tiempo requiere el apoyo de herramientas de optimización.",
+        "C": "La opción C combina chart_177_2 y chart_177_4: en chart_177_2, la atención a la 'capacidad de aprendizaje y hábitos de estudio' es la más alta, y la atención a la 'salud mental' es mediana, pero las dificultades relacionadas (como la gestión de conducta) tienen una proporción relativamente alta en chart_177_4, lo que indica que la capacitación debe priorizar estos campos.",
+        "D": "La opción D combina chart_177_3 y chart_177_4: en chart_177_3, el porcentaje de padres con una actitud positiva hacia la IA es extremadamente alto, mientras que en chart_177_4 la dificultad de 'la tutoría después de clase es demasiado complicada' es notable, lo que indica que la IA puede resolver de manera específica la carga de tutoría.",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_177_1 (la proporción del tiempo dedicado a la educación familiar aumentó de 68% a 77%), pero interpreta erróneamente la tendencia. El gráfico muestra que después del aumento del tiempo, la proporción de la dificultad de 'no haber suficiente tiempo' entre los padres es tan alta como el 47% (chart_177_4). Prolongar aún más el tiempo familiar aumentará en lugar de aliviar este problema, lo que crea una contradicción. El razonamiento de la opción confunde la relación entre 'aumento de la proporción del tiempo' y 'falta de tiempo', creando confusión.",
+        "F": "Esta es una opción de distracción difícil: cita los datos de chart_177_1 (la proporción de padres que inscriben a sus hijos en clases particulares antes de la política 'Dobles Reducciones' era del 56%), pero ignora deliberadamente el hecho de que la proporción ha disminuido al 18% después de la política. La sugerencia de'revivir las clases particulares' va en contra de la dirección de la política (reducir las clases particulares) y la tendencia actual (aumento del tiempo de educación familiar), y se equivoca al considerar los datos históricos como la demanda actual, lo que conduce a una desviación de la estrategia.",
+        "G": "Esta es una opción de distracción fácil: sugiere servicios comunitarios, que es una forma común de apoyo social, pero no extrae bases del gráfico. El gráfico (como chart_177_4) muestra que las dificultades de los padres son 'no haber suficiente tiempo' y 'no tener la energía y resistencia físicas', pero esta opción no se dirige a estos datos. En cambio, se generaliza a'reducir la inversión de tiempo', ignorando la tendencia del aumento del tiempo de educación familiar (chart_177_1). Por lo tanto, lógicamente se desvía del problema central."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción A combina chart_177_2 y chart_177_4: en chart_177_2, la atención a la 'capacidad de aprendizaje y hábitos de estudio' es la más alta, mientras que en chart_177_4 la dificultad de 'el hijo tiene dificultades en el aprendizaje' tiene una proporción alta, lo que indica que la inversión en este campo puede resolver directamente el problema central.",
+        "B": "Esta es una opción de distracción fácil: sugiere apoyo para la salud mental, que es una sugerencia general razonable, pero no se basa en el gráfico. chart_177_2 muestra que la proporción de atención a la salud mental es solo del 35% (baja), y la proporción relacionada en las dificultades también es baja (el 'problema de salud' en chart_177_4 es del 28%). Esta opción no se dirige a los campos de alta atención o alta dificultad (como la capacidad de aprendizaje del 68%), por lo que carece de soporte de datos.",
+        "C": "Esta es una opción de distracción difícil: cita los datos de chart_177_2 (la proporción de atención a la 'capacidad de competición y rendimiento' es del 26%) y los datos de chart_177_4 (la dificultad de 'problemas de gestión de conducta' tiene una proporción del 31%), pero asocia erróneamente ambos. El gráfico muestra que esta preocupación es la más baja, y la gestión de conducta no tiene una conexión directa con ella. La sugerencia de 'invertir para aumentar la atención' confunde la 'proporción de atención' con la 'prioridad de recursos', ignorando los campos de alta atención (como la capacidad de aprendizaje del 68%), creando una apariencia engañosa basada en datos.",
+        "D": "La opción D combina chart_177_2 y chart_177_4: en chart_177_2, la atención a la 'habilidades de vida y hábitos de comportamiento' y la 'salud mental' es mediana, pero son relevantes (por ejemplo, la dificultad de gestión de conducta es notable en chart_177_4), lo que indica que la inversión de recursos puede mejorar los campos ignorados.",
+        "E": "La opción E combina chart_177_2 y chart_177_3: en chart_177_2, la atención a 'desarrollo intelectual y capacitación científica' es alta, mientras que en chart_177_3 el porcentaje de padres que reconocen las funciones de la IA es alto, y en chart_177_4 la dificultad de 'no tener la energía y resistencia físicas' es prominente, lo que indica que las herramientas de IA pueden ayudar de manera eficiente.",
+        "F": "Esta es una opción de distracción fácil: se basa en el conocimiento general de la educación (el desarrollo integral es muy importante), pero no utiliza los datos del gráfico. El gráfico (como chart_177_2) muestra que las preocupaciones de los padres tienen diferencias significativas (por ejemplo, la capacidad de aprendizaje del 68% vs. la condición física del 20%). Esta opción ignora la necesidad de prioridades, es generalizada y no brinda orientación para la acción, y es fácil de descartar por conocimiento general.",
+        "G": "Esta es una opción de distracción difícil: utiliza los datos de chart_177_2 (la atención a 'cultivo de intereses' es del 50%) y chart_177_4 (la dificultad de 'la tutoría después de clase es demasiado complicada' es del 38%), pero interpreta erróneamente la relación. La sugerencia de'reducir los recursos de cultivo de intereses' contradice el hecho de que la atención es mediana, y la 'tutoría después de clase es demasiado complicada' es una dificultad, no un conflicto directo con el cultivo de intereses. Esta opción asocia forzosamente datos de diferentes gráficos, lo que conduce a una desviación de la dirección de la estrategia (por ejemplo, ignora el potencial de asistencia de la IA, chart_177_3)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -203,6 +288,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en el conocimiento técnico (la IA puede automatizar), pero es extrema e irrealista y no utiliza los datos del gráfico. El gráfico (como chart_177_3) muestra que la IA debe complementarse con la educación familiar (22%), en lugar de reemplazarla. Además, esta opción ignora la importancia del papel de los padres y es fácil de descartar por conocimiento general.",
+        "B": "Esta es una opción de distracción difícil: cita los datos de chart_177_1 (la proporción de padres que inscriben a sus hijos en clases particulares disminuyó de 56% a 18%), pero interpreta erróneamente la tendencia. La sugerencia de 'que la IA simule las clases particulares' va en contra de la dirección de la política de reducir las clases particulares y ignora el aumento del tiempo de educación familiar (77%) y la actitud positiva de los padres hacia la IA (87%, chart_177_3), creando confusión basada en datos, pero lógicamente se desvía del núcleo de complementar la educación familiar.",
+        "C": "La opción C combina chart_177_2 y chart_177_3: en chart_177_2, la atención a 'cultivo de intereses' es mediana, mientras que en chart_177_3 la proporción de la actitud de que 'la IA debe complementarse con la educación familiar' es considerable, lo que indica que la IA se puede expandir a campos no nucleares.",
+        "D": "Esta es una opción de distracción fácil: sugiere talleres, que es un método de educación general, pero no se dirige al gráfico. chart_177_3 muestra que la actitud positiva hacia la IA es del 87% y solo el 13% tiene dudas. Esta opción generaliza 'eliminar las dudas' en lugar de aprovechar el aspecto positivo, y no integra la reducción de las tutorías después de la política 'Dobles Reducciones' (chart_177_1) o las dificultades específicas. Por lo tanto, es generalizada y no tiene foco en la estrategia.",
+        "E": "Esta es una opción de distracción difícil: utiliza los datos de chart_177_2 (la atención a 'desarrollo intelectual' es del 57%) y chart_177_3 (las dudas sobre la IA son del 13%), pero asocia erróneamente. El gráfico muestra que la actitud positiva hacia la IA es del 87% en general y la proporción de dudas es baja, y 'desarrollo intelectual' es un campo de alta atención. La sugerencia de 'evitar el uso de la IA' confunde la 'proporción de atención' con la 'aplicabilidad de la IA', ignorando que la IA puede simplificar este campo (por ejemplo, la dificultad de 'la tutoría después de clase es demasiado complicada' en chart_177_4), lo que conduce a una desviación de la estrategia.",
+        "F": "La opción F combina chart_177_1 y chart_177_4: chart_177_1 muestra que la proporción de padres que inscriben a sus hijos en clases particulares disminuyó significativamente después de la política 'Dobles Reducciones', mientras que en chart_177_4 la dificultad de 'la tutoría después de clase es demasiado complicada' es notable, lo que indica que la IA puede reemplazar el vacío de tutoría.",
+        "G": "La opción G combina chart_177_3 y chart_177_4: en chart_177_3, el porcentaje de padres que consideran que 'las funciones de la IA son cada vez más poderosas' es alto, mientras que en chart_177_4 la dificultad de 'el hijo tiene dificultades en el aprendizaje' es común, lo que indica que la IA puede resolver de manera específica los problemas de aprendizaje."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

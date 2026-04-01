@@ -85,6 +85,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia difícil, cálculo de proporción incorrecto: en chart_127_1 la tasa de crecimiento de ingresos de 2019 es -2.1%, en chart_127_2 la tasa de crecimiento interanual de utilidad neta de 2018-2019 es -18.3%, pero las proporciones de disminución (-2.1% vs -18.3%) no son iguales, en realidad no es lineal, y en 2021 el crecimiento de ingresos del 13.4% solo impulsó un crecimiento de utilidad neta del -3.4% (etiqueta incorrecta), la opción de interferencia malinterpreta la tendencia.",
+        "B": "En chart_127_1 la tasa de crecimiento de ingresos de 2023 alcanza 23.7%, el valor más alto, en chart_127_2 la tasa de crecimiento de utilidad neta del mismo año es 16.6%, también alta; pero los datos de costos en chart_127_1 (como el costo de 2023 de 21906.8 mil millones de yuanes) sugieren que los factores de costo pueden inhibir el aumento de utilidades, requiere análisis entre gráficos.",
+        "C": "Esta es una opción de interferencia fácil, error basado en conocimiento general del sector: los gráficos no mencionan subsidios gubernamentales, y en la realidad los subsidios pueden afectar las utilidades, pero el foco de la pregunta es el impacto de la tasa de crecimiento de ingresos, no factores externos.",
+        "D": "chart_127_1 muestra que la tasa de crecimiento de ingresos de 2020 es -3.7%, chart_127_2 muestra que la tasa de crecimiento interanual de utilidad neta atribuible a la empresa matriz del mismo período es -33.1%; mientras que cuando la tasa de crecimiento de ingresos de 2021 se convierte en 13.4%, la tasa de crecimiento de utilidad neta se convierte en 16.4%. Esto requiere comparar los cambios de tendencia combinando chart_127_1 y chart_127_2.",
+        "E": "En chart_127_1 los ingresos tuvieron crecimiento negativo consecutivo en 2019-2020 (-2.1% y -3.7%), en chart_127_2 las tasas de disminución interanual de utilidad neta fueron más severas (-18.3% y -33.1%), lo que indica que cuando los ingresos caen, las utilidades se deterioran más gravemente, requiere verificar la sensibilidad combinando los dos gráficos.",
+        "F": "Esta es una opción de interferencia fácil, error basado en conocimiento general: el crecimiento de ingresos no necesariamente conduce al crecimiento de utilidad neta, porque factores como los costos pueden compensar las ganancias. Por ejemplo, en 2018 el crecimiento de ingresos fue 3.4%, pero la utilidad neta atribuible a la empresa matriz disminuyó (de 791.30 cientos de millones a 646.83 cientos de millones), el gráfico muestra que no son sincrónicos.",
+        "G": "Esta es una opción de interferencia difícil, interpretación incorrecta de datos del gráfico: chart_127_1 muestra que la tasa de crecimiento de ingresos de 2020 es -3.7%, chart_127_2 muestra que la tasa de crecimiento interanual de utilidad neta atribuible a la empresa matriz de 2019-2020 es -33.1%, pero la utilidad neta de 2020 es 417.85 cientos de millones vs 432.49 cientos de millones de 2019, en realidad disminuyó aproximadamente 3.4%, mientras que -33.1% es una etiqueta incorrecta (el cálculo correcto debería ser menor), la opción de interferencia exagera la magnitud de la disminución."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, error basado en conocimiento general del sector: los gráficos no mencionan nuevas empresas, las diez principales son todas empresas cotizadas existentes, y el crecimiento es impulsado por datos específicos de empresas (como el crecimiento de BYD del 42.04%).",
+        "B": "Esta es una opción de interferencia difícil, evaluación incorrecta de contribución: SERES creció 5.09% y tiene ingresos pequeños (3.58 decenas de miles de millones de yuanes), pero FAW Jiefang creció 66.71% y sus ingresos se duplicaron (3.83 a 6.39 decenas de miles de millones de yuanes), la contribución real es mayor; la opción de interferencia ignora el impacto potencial de empresas pequeñas con alto crecimiento.",
+        "C": "Esta es una opción de interferencia difícil, interpretación incorrecta de valores e impacto: SAIC Motor tiene los mayores ingresos pero crecimiento mínimo (0.09%), mientras que el crecimiento general del sector del 23.7% (chart_127_1) es impulsado principalmente por empresas de alto crecimiento como BYD (42.04%); la opción de interferencia juzga incorrectamente el papel dominante de las grandes empresas con bajo crecimiento.",
+        "D": "chart_127_3 muestra que FAW Jiefang tiene una tasa de crecimiento del 66.71% y BYD del 42.04%, muy por encima de la tasa de crecimiento general del sector del 23.7% en chart_127_1, lo que indica un fuerte efecto de tracción de estas empresas; requiere comparar individuos con el total combinando chart_127_1 y chart_127_3.",
+        "E": "En chart_127_3 SAIC Motor tiene una tasa de crecimiento de solo 0.09%, casi estancada, pero chart_127_1 muestra un crecimiento general del sector del 23.7%, combinado con el alto crecimiento de otras empresas como Great Wall Motor (26.12%), prueba que el crecimiento es impulsado por algunas empresas; requiere análisis entre gráficos de diferencias de contribución.",
+        "F": "En chart_127_3 la mayoría de las diez principales empresas tienen tasas de crecimiento superiores al 15% (como Changan Automobile 24.78%, GAC Group 17.62%), y el crecimiento general del 23.7% en chart_127_1 es consistente con esta tendencia, requiere verificar el efecto colectivo combinando los dos gráficos.",
+        "G": "Esta es una opción de interferencia fácil, error basado en conocimiento general: chart_127_3 muestra que SAIC Motor tiene una tasa de crecimiento de solo 0.09% (muy por debajo del 15%), no todas las empresas tienen alto crecimiento."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "chart_127_2 da dos tasas de crecimiento contradictorias para 2017-2018 (-0.4% y 16.2%), pero chart_127_1 muestra que los costos operativos aumentaron en 2018 (17790.9 mil millones de yuanes vs 17343.1 mil millones de yuanes de 2017), los ingresos solo crecieron levemente (15107.0 mil millones de yuanes vs 14610.8 mil millones de yuanes), el razonamiento conjunto apoya que la disminución de utilidad neta es más razonable.",
+        "B": "Esta es una opción de interferencia fácil, error basado en conocimiento general: el cálculo del promedio (como (-0.4% + 16.2%)/2) no tiene base en los gráficos, y el conflicto requiere análisis combinado de costos e ingresos.",
+        "C": "En chart_127_1 la relación costo-ingreso de 2017 (costo/ingreso) es aproximadamente 1.19, en 2018 disminuye ligeramente a 1.18, pero los datos de utilidad neta en chart_127_2 realmente disminuyen (791.30 cientos de millones a 646.83 cientos de millones), lo que indica que la presión de costos causa la reducción de utilidades, requiere explicar la contradicción combinando los dos gráficos.",
+        "D": "Esta es una opción de interferencia fácil, basada en conocimiento general vago: los gráficos no mencionan macroeconomía, el foco es la relación costo-ingreso (como chart_127_1 muestra que en 2018 los costos aumentaron, los ingresos aumentaron limitadamente).",
+        "E": "En chart_127_1 la tasa de crecimiento de ingresos de 2018 es solo 3.4%, no apoya el alto crecimiento de utilidad neta del 16.2% en chart_127_2; el conflicto requiere análisis entre gráficos de consistencia de tendencias.",
+        "F": "Esta es una opción de interferencia difícil, interpretación incorrecta de valores: en chart_127_1 los costos de 2018 aumentaron 447.8 mil millones (17790.9 - 17343.1), los ingresos aumentaron 496.2 mil millones (15107.0 - 14610.8), pero la utilidad neta atribuible a la empresa matriz realmente disminuyó 144.47 cientos de millones (791.30 - 646.83), la opción de interferencia ignora que el cálculo de utilidad neta incluye otros gastos, infiere incorrectamente que debería crecer.",
+        "G": "Esta es una opción de interferencia difícil, cálculo y etiquetado incorrectos: basado en los valores de chart_127_2, la tasa de crecimiento real es (646.83 - 791.30)/791.30*100%≈-18.2%, pero las etiquetas originales tienen conflicto (-0.4% y 16.2%); la opción de interferencia usa incorrectamente -0.4% como evidencia de 'disminución leve', pero -18.2% está más cerca de los datos, reforzando el error."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Se refiere a chart_127_1 (tendencia de crecimiento general de la industria, especialmente la aceleración en 2023) y chart_127_3 (la tasa de crecimiento de SAIC Motor es casi cero, significativamente inferior a la industria, lo que refleja una disminución de la competitividad).",
+        "B": "Esta opción se basa en exceso en la tendencia a la baja de 2019 - 2020 (chart_127_1 muestra un crecimiento de ingresos del -2.1% y -3.7%, y chart_127_2 muestra una utilidad neta interanual del -18.3% y -33.1%), pero ignora la fuerte recuperación de 2021 - 2023 (crecimiento de ingresos del 13.4% - 23.7%, crecimiento de utilidad neta del 16.4% - 16.6%), lo que lleva a una conclusión errónea.",
+        "C": "Esta opción se basa en conocimientos generales de inversión (estrategia de diversificación), pero no considera el potencial de rentabilidad excedente de las empresas de alto crecimiento en los datos de la gráfica (por ejemplo, chart_127_3 muestra que las tasas de crecimiento de empresas como BYD son mucho más altas que la industria), y no tiene una guía de estrategia específica.",
+        "D": "Se refiere a chart_127_1 (la tasa de crecimiento general de ingresos de la industria ha aumentado continuamente de 2021 a 2023, alcanzando el pico en 2023) y chart_127_3 (algunas empresas como BYD y FAW Jiefang tienen tasas de crecimiento mucho más altas que el promedio de la industria, lo que muestra un gran potencial de crecimiento).",
+        "E": "Se refiere a chart_127_3 (empresas como Great Wall Motor y Changan Automobile tienen tasas de crecimiento estables entre el 20% - 25%) y chart_127_2 (la utilidad neta atribuible a la empresa matriz de la industria ha mantenido un crecimiento de dos dígitos de 2021 a 2023, lo que muestra una tendencia de mejora en la rentabilidad).",
+        "F": "Esta opción cita superficialmente los datos de chart_127_3 (la tasa de crecimiento de SERES es del 5.09%), pero lo interpreta erróneamente: las empresas de bajo crecimiento en realidad enfrentan el riesgo de erosión de la cuota de mercado (por ejemplo, SAIC Motor solo tiene un crecimiento del 0.09%), mientras que la gráfica muestra que las empresas de alto crecimiento tienen más ventajas competitivas. La estrategia debe capturar primero la rentabilidad excedente en lugar de buscar estabilidad.",
+        "G": "Esta opción utiliza erróneamente los datos de chart_127_3 (el crecimiento de BYD es del 42.04%), pero infiere erróneamente que el alto crecimiento no es sostenible; por el contrario, el crecimiento general de la industria se ha acelerado (chart_127_1 muestra que la tasa de crecimiento de ingresos en 2023 es del 23.7%), y empresas de alto crecimiento como BYD y Great Wall Motor (26.12%) muestran una capacidad de expansión continua."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -171,6 +239,20 @@
       "label": [
         "A",
         "B"
+      ],
+      "cot": {
+        "A": "Se refiere a chart_127_1 (la tasa de crecimiento de ingresos ha tenido un crecimiento negativo continuo de 2019 a 2020) y chart_127_2 (la utilidad neta atribuible a la empresa matriz ha disminuido significativamente interanualmente, lo que muestra que la rigidez de los costos ha exacerbado las pérdidas).",
+        "B": "Se refiere a chart_127_1 (la tasa de crecimiento de ingresos de la industria ha aumentado significativamente de 2021 a 2023, especialmente alcanzando el pico en 2023) y chart_127_2 (la utilidad neta atribuible a la empresa matriz ha mantenido un crecimiento estable en el mismo período, lo que refleja el impacto positivo del control de costos en las ganancias).",
+        "C": "Esta opción se basa en conocimientos comerciales generales (la reducción de costos aumenta las ganancias), pero no se combina con la gráfica: chart_127_1 muestra que los costos y los ingresos no siempre son sincrónicos (por ejemplo, en 2020, los ingresos fueron del -3.7%, pero los costos de 1644650 millones de yuanes fueron inferiores a los de 2019). La reducción ciega de costos puede ignorar las oportunidades de crecimiento.",
+        "D": "Esta opción cita superficialmente los datos de chart_127_1 (el crecimiento de ingresos en 2023 fue del 23.7%), pero lo interpreta erróneamente: los costos realmente aumentaron durante el período de crecimiento (los costos en 2023 fueron de 2190680 millones de yuanes), pero chart_127_2 muestra que la mejora de la utilidad neta (65931 millones de yuanes en 2023, con un crecimiento interanual del 16.6%) se debe al control de la tasa de crecimiento de los costos; aumentar los costos puede presionar el margen de ganancias.",
+        "E": "Esta opción utiliza erróneamente los datos de chart_127_1 y chart_127_2 (los ingresos en 2020 fueron del -3.7%, la utilidad neta de 41785 millones de yuanes fue del -33.1% interanualmente), pero sugiere erróneamente aumentar el marketing; la historia muestra que cuando los ingresos disminuyeron, los costos no se ajustaron a tiempo (por ejemplo, los costos en 2020 de 1644650 millones de yuanes todavía eran altos), lo que condujo a una gran disminución de las ganancias. Se debe reducir en lugar de aumentar el gasto."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -194,6 +276,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción cita superficialmente los datos de chart_127_3 (el crecimiento de SAIC Motor es del 0.09%), pero lo interpreta erróneamente: las empresas con crecimiento estancado (como SAIC) en realidad enfrentan el riesgo de erosión, mientras que chart_127_2 muestra que la rentabilidad de la industria ha mejorado continuamente (crecimiento de utilidad neta de 2021 - 2023). Los recursos deben ser invertidos en áreas de alto crecimiento para replicar el éxito.",
+        "B": "Esta opción utiliza erróneamente los datos de chart_127_2 (la utilidad neta interanual de 2019 - 2020 fue del -18.3% y -33.1%), pero sugiere erróneamente aumentar el marketing; la historia muestra que durante el período de disminución de las ganancias, los ingresos se redujeron (chart_127_1 muestra que los ingresos en 2020 fueron del -3.7%), y aumentar el marketing puede exacerbar las pérdidas en lugar de optimizar internamente.",
+        "C": "Esta opción se basa en el conocimiento de escala (las grandes empresas son más estables), pero ignora los datos de chart_127_3: SAIC Motor tiene la mayor escala (ingresos de 744700 millones de yuanes en 2023), pero su tasa de crecimiento es solo del 0.09%, mientras que empresas de alto crecimiento como BYD (42.04%) necesitan más recursos para apoyar la expansión.",
+        "D": "Se refiere a chart_127_2 (la utilidad neta atribuible a la empresa matriz ha mantenido un crecimiento estable de 2021 a 2023) y chart_127_1 (los ingresos se han elevado de manera sincrónica, lo que muestra el gran potencial de rentabilidad durante el período de ganancias).",
+        "E": "Se refiere a chart_127_3 (empresas como FAW Jiefang y BYD tienen tasas de crecimiento significativamente más altas que la industria) y chart_127_1 (el crecimiento general de ingresos de la industria se ha acelerado, lo que proporciona un entorno de alto crecimiento).",
+        "F": "Esta opción se basa en conocimientos generales de gestión (distribución equitativa de recursos), pero no considera las diferencias en el rendimiento de las empresas en los datos de la gráfica (chart_127_3 muestra que las tasas de crecimiento van desde el 0.09% al 66.71%), lo que no ayuda a optimizar la competitividad.",
+        "G": "Se refiere a chart_127_3 (empresas como SAIC Motor tienen tasas de crecimiento extremadamente bajas) y chart_127_2 (la rentabilidad general de la industria ha aumentado, pero las empresas de bajo crecimiento necesitan una estrategia diferenciada)."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     }
   ]

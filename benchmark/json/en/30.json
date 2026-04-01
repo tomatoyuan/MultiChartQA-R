@@ -85,6 +85,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "All options need to be inferred by combining the chart of the annual trend of attention to AIDS-related information and newly reported HIV infections and the chart of population age distribution. The chart of the annual trend of attention to AIDS-related information and newly reported HIV infections shows that the attention was extremely high in a certain year, corresponding to a year-on-year increase in newly reported HIV infections; the chart of population age distribution shows that young people are the largest group. Options cannot be inferred based on a single chart and must combine both: the increase in infections provides an external stimulus, and the high proportion of young people provides a basis for population behavior (such as information sensitivity), jointly explaining the peak. This option introduces quarterly factors and population dynamics.",
+        "B": "This is an easy distraction. Based on common sense, an increase in social health awareness usually leads to more attention to information, but it does not rely on the chart data (chart_30_1 or chart_30_2) and cannot explain the abnormal peak in a specific year (such as Q4 in 2017).",
+        "C": "This is a hard distraction. It misinterprets the population distribution gap: chart_30_2 shows that the population aged 35 - 49 only accounts for 10%, and the distribution is stable (no annual change). The surge in attention in the peak year (2017) was mainly driven by young people (the 19 - 24 age group accounts for 41%), but the distraction wrongly associates the small - proportion group with the peak.",
+        "D": "This is an easy distraction. Based on industry common sense, World AIDS Day on December 1st (the fourth quarter) may boost attention, but it does not rely on the chart data. Moreover, the chart shows that the attention in Q4 of 2018 decreased (1500 vs 8000 in Q4 of 2017), which does not match the peak.",
+        "E": "This is a hard distraction. It misinterprets the chart values: chart_30_1 shows that the number of newly reported HIV infections was the largest in 2018 (160,000), but the attention in Q4 of 2018 was only 1500, far lower than the peak of 8000 in Q4 of 2017. The actual peak was in Q4 of 2017, which does not directly match the increase in the number of infections (134,512 in 2017 vs 124,555 in 2016).",
+        "F": "All options need to be inferred by combining the chart of the annual trend of attention to AIDS-related information and newly reported HIV infections and the chart of population age distribution. The chart of the annual trend of attention to AIDS-related information and newly reported HIV infections shows that the attention was extremely high in a certain year, corresponding to a year-on-year increase in newly reported HIV infections; the chart of population age distribution shows that young people are the largest group. Options cannot be inferred based on a single chart and must combine both: the increase in infections provides an external stimulus, and the high proportion of young people provides a basis for population behavior (such as information sensitivity), jointly explaining the peak. This option emphasizes the general association between the infection trend and population characteristics.",
+        "G": "All options need to be inferred by combining the chart of the annual trend of attention to AIDS-related information and newly reported HIV infections and the chart of population age distribution. The chart of the annual trend of attention to AIDS-related information and newly reported HIV infections shows that the attention was extremely high in a certain year, corresponding to a year-on-year increase in newly reported HIV infections; the chart of population age distribution shows that young people are the largest group. Options cannot be inferred based on a single chart and must combine both: the increase in infections provides an external stimulus, and the high proportion of young people provides a basis for population behavior (such as information sensitivity), jointly explaining the peak. This option focuses on the amplification effect of the period with the largest increase and the dominance of young people."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distraction. Based on common sense, the need for health knowledge may cover all ages, but it does not rely on the chart data (chart_30_2 or chart_30_3). Chart_30_2 shows an uneven age distribution (young people account for 41%, and those aged 50 only account for 1%).",
+        "B": "All options rely on the combined inference of the chart showing that the AIDS-related population tends to be young and the chart of attention to different knowledge topics. The chart showing that the AIDS-related population tends to be young shows that young people are the largest group; the chart of attention to different knowledge topics shows that the attention to transmission routes is the highest, while the attention to manifestations during the incubation period is lower. The problem cannot be solved with a single chart and both must be combined: young people may focus more on practical preventive knowledge (such as transmission routes) and ignore secondary content (such as the incubation period), forming an implicit connection in the distribution of topics. This option extends to other highly - concerned topics (symptoms, vaccines).",
+        "C": "This is a hard distraction. It misinterprets the ranking of topic attention: chart_30_3 shows that the attention to AIDS vaccines is 85%, not the lowest (the lowest are AIDS pictures and manifestations during the incubation period, both at 70%). And the young - dominated group (chart_30_2) may pay more attention to preventive topics. The distraction makes a reverse error.",
+        "D": "All options rely on the combined inference of the chart showing that the AIDS-related population tends to be young and the chart of attention to different knowledge topics. The chart showing that the AIDS-related population tends to be young shows that young people are the largest group; the chart of attention to different knowledge topics shows that the attention to transmission routes is the highest, while the attention to manifestations during the incubation period is lower. The problem cannot be solved with a single chart and both must be combined: young people may focus more on practical preventive knowledge (such as transmission routes) and ignore secondary content (such as the incubation period), forming an implicit connection in the distribution of topics. This option directly links the core topic (transmission routes) with the largest group.",
+        "E": "All options rely on the combined inference of the chart showing that the AIDS-related population tends to be young and the chart of attention to different knowledge topics. The chart showing that the AIDS-related population tends to be young shows that young people are the largest group; the chart of attention to different knowledge topics shows that the attention to transmission routes is the highest, while the attention to manifestations during the incubation period is lower. The problem cannot be solved with a single chart and both must be combined: young people may focus more on practical preventive knowledge (such as transmission routes) and ignore secondary content (such as the incubation period), forming an implicit connection in the distribution of topics. This option introduces a conflict point (dominated by young people but low attention to certain topics), emphasizing the difference in priorities.",
+        "F": "This is an easy distraction. Based on model knowledge, the education system may affect young people's information acquisition, but it does not rely on the chart data and cannot explain the topic differences (such as 95% for transmission routes vs 70% for pictures).",
+        "G": "This is a hard distraction. It misinterprets the population proportion gap: chart_30_2 shows that the population aged 50 and above only accounts for 1% (1 person), while the highest attention to transmission routes (95%) is mainly driven by the young population (accounting for 41%). The distraction exaggerates the influence of the small - proportion group."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distraction. Based on industry common sense, information saturation may reduce search demand, but it does not rely on the chart data. Chart_30_3 shows a high coverage of knowledge (such as 95% for transmission routes), which may be relevant but not a direct explanation for the conflict.",
+        "B": "This is a hard distraction. It misinterprets the quarterly attention values: chart_30_1 shows that the attention in Q4 of 2018 was 1500, a significant decrease compared to 8000 in Q4 of 2017 (a gap of 6500), while the number of new infections increased (160,000 in 2018 vs 134,512 in 2017). The distraction wrongly claims that the attention increased.",
+        "C": "All options need to be inferred by combining at least two charts. The chart of the annual trend of attention to AIDS-related information and newly reported HIV infections shows that the attention dropped to a very low level in the 4th quarter of 2018, but the number of infections rose to the highest; the chart of population age distribution shows that young people are a stable group; the chart of attention to different knowledge topics shows that the attention to topics such as transmission routes has reached a high coverage. The conflict cannot be explained with a single chart and must be solved across charts: high knowledge coverage provides a reason for saturation, and population distribution explains the basis for group behavior, jointly resolving the conflict with the increase in infections. This option links the shift in group behavior with topic priorities.",
+        "D": "All options need to be inferred by combining at least two charts. The chart of the annual trend of attention to AIDS-related information and newly reported HIV infections shows that the attention dropped to a very low level in the 4th quarter of 2018, but the number of infections rose to the highest; the chart of attention to different knowledge topics shows that the attention to topics such as transmission routes has reached a high coverage. The conflict cannot be explained with a single chart and must be solved across charts: high knowledge coverage provides a reason for saturation, jointly resolving the conflict with the increase in infections. This option focuses on knowledge coverage and reduced demand.",
+        "E": "All options need to be inferred by combining at least two charts. The chart of the annual trend of attention to AIDS-related information and newly reported HIV infections shows that the attention dropped to a very low level in the 4th quarter of 2018, but the number of infections rose to the highest; the chart of population age distribution shows that young people are a stable group; the chart of attention to different knowledge topics shows that the attention to topics such as transmission routes has reached a high coverage. The conflict cannot be explained with a single chart and must be solved across charts: high knowledge coverage provides a reason for saturation, and population distribution explains the basis for group behavior, jointly resolving the conflict with the increase in infections. This option emphasizes the contrast between the stable population and information saturation.",
+        "F": "This is an easy distraction. Based on common sense, external events (such as the COVID - 19 pandemic) may distract attention, but it does not rely on the chart data (chart_30_1, chart_30_3, or chart_30_2), and there is no chart support for specific events in 2018.",
+        "G": "This is a hard distraction. It misinterprets the stability of the population distribution: chart_30_2 shows a stable age distribution (young people account for 41%) with no annual change. The conflict between the decrease in attention and the increase in the number of infections in 2018. The distraction fabricates a trend of 'a decrease in the proportion of young people'."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -150,6 +201,22 @@
       "label": [
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Easy distraction: Not relying on the charts, based on a wrong logical assumption from common sense ('increasing infections = ineffective strategies'). It deviates from the theme of prevention and publicity and turns to medical construction, which does not match the focus of the question and can be excluded by common sense.",
+        "B": "Combined reasoning: Involves chart_30_1 (quarterly data on attention, for example, the attention in the fourth quarter of 2017 was extremely high, indicating that peak opportunities can be captured) and chart_30_3 (distribution of knowledge attention, for example, the attention to AIDS transmission routes is high but the attention to the manifestations during the latent period is low, and comprehensive content should be strengthened during peak periods). The strategy emphasizes optimizing the timing to avoid waste of resources.",
+        "C": "Easy distraction: Not relying on the charts, only based on common sense ('improve overall awareness'). The statement is too general, without priorities for actions, and does not address quarterly fluctuations or knowledge differences. It can be easily excluded by common sense (resources should be optimized rather than evenly distributed).",
+        "D": "Combined reasoning: Involves chart_30_1 (the upward trend of newly reported HIV infections, which requires targeted intervention) and chart_30_3 (differences in knowledge attention, for example, the attention to pictures of initial symptoms and manifestations during the latent period is relatively low). The strategy fills the knowledge gap and conforms to the value of prevention first.",
+        "E": "Hard distraction: Misinterprets the data in chart_30_1. The chart shows that the troughs of attention (such as 600 in Q3 2015) are much lower than the peaks (such as 8000 in Q4 2017), but the distraction suggests to allocate resources during troughs, mistakenly thinking that 'people are more receptive during troughs' and ignoring that peak periods can maximize exposure (the correct strategy A suggests to allocate resources during peak periods).",
+        "F": "Hard distraction: Misinterprets the data in chart_30_3. The attention to AIDS transmission routes is the highest at 95%, but the distraction suggests to 'ignore other areas', confusing high attention with effectiveness (the correct strategy B emphasizes that areas with low attention, such as symptom recognition at 75%, are more crucial)."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -170,6 +237,22 @@
       "label": [
         "A",
         "B"
+      ],
+      "cot": {
+        "A": "Combined reasoning: Involves chart_30_2 (age distribution, where those aged 18 and below and 35 - 49 years old together account for 25% and cannot be ignored) and chart_30_3 (overall data on knowledge attention, showing insufficient attention in multiple areas). The strategy ensures inclusivity, avoiding ignoring any group due to low proportion, which conforms to the value of fair medical care.",
+        "B": "Combined reasoning: Involves chart_30_2 (age distribution, where those aged 19 - 34 years old account for over 70%, indicating the dominance of the young group) and chart_30_3 (knowledge attention, for example, the attention to AIDS vaccines and pictures of initial symptoms is lower than that to transmission routes). The strategy utilizes the external knowledge that young people prefer digital channels (in line with the value) to improve resource efficiency.",
+        "C": "Easy distraction: Not relying on the charts, only based on common sense ('cover the whole society uniformly'). The statement is too general, not targeting the young group or knowledge differences, and lacking precision. It can be excluded by common sense (resources should be focused on high - risk groups).",
+        "D": "Easy distraction: Not relying on the charts, based on a wrong common - sense assumption ('prevention is not as good as treatment'). It deviates from the theme of health education and turns to treatment, which does not match the goal of prevention and publicity and can be excluded by common sense.",
+        "E": "Hard distraction: Misinterprets the data in chart_30_2. The chart shows that those aged 50 and above only account for 1%, but the distraction mistakenly thinks that 'they are at higher risk', confusing proportion with risk (the young group aged 19 - 24 years old accounts for 41% and is the high - risk group); at the same time, it ignores the knowledge attention data, with a logical deviation.",
+        "F": "Hard distraction: Misinterprets the data in chart_30_3. There are obvious differences in knowledge attention (for example, 95% for transmission routes vs. 75% for pictures of symptoms), but the distraction suggests to 'handle them equally', mistakenly thinking that equal distribution is fairer and ignoring that areas with low attention (such as symptom recognition) need more strengthening (the correct strategy A emphasizes targeting)."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -191,6 +274,22 @@
       "label": [
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Easy distraction: Not relying on the charts, based on conservative common sense ('maintain the status quo'). There is no action guidance, ignoring the upward trend and differences. It can be excluded by common sense (active intervention is needed).",
+        "B": "Hard distraction: Misintegrates all the charts. Chart_30_2 shows that the young group is dominant (41%), and chart_30_3 shows uneven knowledge attention, but the distraction suggests to 'allocate resources equally', misinterpreting 'fairness' as taking precedence over efficiency (the correct strategy A emphasizes targeting the young group and weak areas).",
+        "C": "Easy distraction: Not relying on the charts, only based on common sense ('increasing infections = increasing medical resources'). It deviates from the focus on publicity resources (the question emphasizes prevention) and does not integrate age or knowledge data. It can be excluded by common sense (the strategy should be comprehensive rather than single - minded).",
+        "D": "Combined reasoning: Involves chart_30_1 (the number of newly reported HIV infections is increasing year by year, requiring timely intervention), chart_30_2 (those aged 19 - 34 years old account for over 70%, clearly identifying the high - risk group) and chart_30_3 (knowledge attention, such as the low attention to the manifestations during the latent period, which needs to be popularized). The strategy balances targeting and comprehensiveness, conforming to the value of resource optimization.",
+        "E": "Combined reasoning: Involves chart_30_1 (quarterly data on attention, for example, the attention drops sharply in some quarters, showing the risk of fluctuations) and chart_30_3 (knowledge attention, such as the relatively low attention to publicity materials and pictures). The strategy utilizes the stability of trends to avoid slackening in prevention due to troughs.",
+        "F": "Hard distraction: Misinterprets the data in chart_30_1 and chart_30_3. The chart shows that the peak of attention (such as 8000 in Q4 2017) is related to the increase in infections, but the distraction suggests to'reduce publicity', mistakenly thinking that resources are wasted during peak periods; it confuses making use of peaks (the correct strategy B suggests to strengthen during troughs) with efficiency."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

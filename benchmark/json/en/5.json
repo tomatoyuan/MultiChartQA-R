@@ -87,6 +87,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option misinterprets the values: The actual proportion of computer - side searches is only 8.24% (chart_5_1), far lower than 50%. And the search trend (chart_5_2) shows fluctuations (e.g., from 430,000 on February 15th to 560,000 on February 21st), not stable.",
+        "B": "This option is based on a common - sense error: The actual proportion of mobile - side searches is as high as 91.66% (chart_5_1). Commonly, the convenience of mobile devices should increase search activity, rather than leading to a decline. The distraction option fabricates 'low proportion' and 'decline', which has nothing to do with the charts.",
+        "C": "This option wrongly associates data: The proportion of mobile - side searches is an overall distribution (chart_5_1) and does not change with the date; while the peak value of 560,000 on February 21st (chart_5_2) is the trend of the entire industry, and it cannot be proven to be driven by the computer - side (in fact, the computer - side proportion is extremely low).",
+        "D": "Combining the distribution of search devices in the milk powder industry (high proportion of mobile - side searches) and the search attention trend of the entire industry (peak of search attention), it is inferred that the high proportion of mobile - side searches makes the search volume more likely to be affected by user behavior (such as evening use) and reach a peak.",
+        "E": "Relying on the distribution of search devices in the milk powder industry (device proportion) and the search attention trend of the entire industry (date trend), it is necessary to conduct cross - chart analysis on how the convenience of mobile devices contributes to the evening peak on weekdays.",
+        "F": "Comparing the distribution of search devices in the milk powder industry (low proportion of computer - side searches) and the search attention trend of the entire industry (lower and smoother attention on some dates), it shows that the dominance of mobile devices may intensify the instability of search volume, rather than the buffering effect of the computer - side.",
+        "G": "This option wrongly compares values: The attention on February 1st was 150,000 (chart_5_2), which is lower than many later dates (e.g., 560,000 on February 21st). The high proportion of mobile - side searches should promote later peaks, rather than the highest peak being at the beginning of the month."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This option wrongly associates data: The value of 40,000 for pregnant women's milk powder on February 25th (chart_5_4) is a single - day value, while the city proportion is an overall value (chart_5_3), and they cannot be directly matched; moreover, first - tier cities account for 33% and dominate, and should not be 'invalid'.",
+        "B": "This option is based on common - sense and numerical errors: First - tier cities actually have the highest proportion of 33% (chart_5_3). Commonly, the demand in high - tier cities is stronger; the distraction option fabricates 'a proportion of 15%' and does not use chart data, only generalizing the influence of low - tier cities.",
+        "C": "Relying on the attention proportion by city level (repeated city proportion data) and the search trends of different categories (different trends for different categories), it is necessary to conduct cross - chart inference on the data reporting method that causes the apparent conflict.",
+        "D": "Comparing the attention proportion by city level (static city proportion values) and the search trends of different categories (a sudden drop in the search volume of pregnant women's milk powder), it shows that the dynamic changes of categories do not match the static city proportions.",
+        "E": "This option has a common - sense error: Promotional activities usually increase the search volume (e.g., the sudden increase of children's milk powder to 4000 on February 19th, chart_5_4), but the distraction option denies this common sense and does not rely on the charts.",
+        "F": "This option wrongly interprets the ranking: The actual proportion of fourth - tier cities is only 15% (chart_5_3), not the highest; the value of 2900 for student milk powder on February 19th (chart_5_4) is not the peak (in fact, the value of infant milk powder was higher at 2500 on February 19th), and there is no direct evidence related to the city level.",
+        "G": "Combining the attention proportion by city level (high proportion of first - tier cities) and the search trends of different categories (the sudden increase of children's milk powder search volume to the peak), it is inferred that events in low - tier cities (such as regional activities) lead to the conflict between the category trend and the city proportion."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Relying on the search trends of different categories (the stable trend of infant milk powder) and the distribution of search devices (low proportion of computer - side searches), and comparing the attention proportion by city level (the combined proportion of second - tier/third - tier cities), it is inferred that users in low - tier cities may be more dependent on mobile devices.",
+        "B": "This option has numerical and common - sense errors: The actual value of student milk powder is relatively low (e.g., 2500 on February 1st, chart_5_4), far lower than 10,000; the proportion of mobile - side searches is as high as 91.66% (chart_5_1). Commonly, users in low - tier cities are more dependent on mobile devices, but the distraction option fabricates 'the highest search volume' and 'low proportion of mobile - side searches'.",
+        "C": "This option has a common - sense error: The device distribution (e.g., the dominance of mobile devices, chart_5_1) and the city level (e.g., 33% in first - tier cities, chart_5_3) should affect user behavior, but the distraction option generalizes 'no difference' and does not use the charts.",
+        "D": "Combining the search trends of different categories (no significant peak for student milk powder) and the attention proportion by city level (proportion of fourth - tier cities), and associating the distribution of search devices (device distribution), it is necessary to conduct cross - chart analysis on the interaction among categories, cities, and devices.",
+        "E": "This option wrongly interprets values: The value of infant milk powder is relatively stable but fluctuates (e.g., 2300 on February 21st, chart_5_4), and the actual proportion of computer - side searches is only 8.24% (chart_5_1), not more than 50%; moreover, the proportion of high - tier cities is high, and they should not only rely on the computer - side.",
+        "F": "Combining the search trends of different categories (peak of pregnant women's milk powder) and the distribution of search devices (high proportion of mobile - side searches), and implicitly considering the attention proportion by city level (the highest proportion in first - tier cities), it is inferred that high - attention categories are coordinated with devices/cities.",
+        "G": "This option wrongly associates data: The value of pregnant women's milk powder fluctuates greatly (e.g., 40,000 on February 25th, chart_5_4), and the proportion of mobile - side searches is high (chart_5_1), but the actual proportion of third - tier cities is 22%, not the highest (33% in first - tier cities, chart_5_3), and it cannot 'directly explain' the fluctuations."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -152,6 +203,22 @@
       "label": [
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses chart_5_2 (search attention trend), but misinterprets the meaning of the trend. Chart_5_2 shows that the attention on February 27 was 340,000 (a low point), while the distractor suggests increasing investment during the downturn, with the reason of 'less competition' (the chart does not show competition data). In fact, low attention may indicate low user interest, resulting in poorer investment efficiency, which contradicts the goal of maximizing exposure.",
+        "B": "This is an easy distractor: Similarly, it does not rely on the chart and only proposes broad user experience optimization suggestions (such as 'optimize visual design'). It ignores the core of digital marketing (such as advertising channels and timing) and cannot directly maximize exposure or engagement. It is a common - sense error in the industry.",
+        "C": "This is an easy distractor: It does not rely on any chart data, but is based on general marketing common sense (such as 'increase the budget to enhance awareness'). This suggestion lacks specific action guidelines (such as not specifying the device or timing) and can be easily excluded by common sense because it does not optimize resource allocation according to search behavior or trends.",
+        "D": "This is a hard distractor: On the surface, it uses chart_5_1 (search device distribution), but misinterprets the numerical relationship. Chart_5_1 shows that the mobile - side search proportion is 91.66%, much higher than the computer - side's 8.24%, but the distractor suggests giving priority to the computer - side, with the reason that its users are'more focused' (the chart does not support this inference). This creates confusion because it is based on device attributes but ignores the dominant trend.",
+        "E": "Option 1 combines chart_5_1 (the extremely high proportion of mobile - side searches) and chart_5_2 (the search attention reaches a peak on specific dates such as February 21). Reasoning: The mobile side dominates the search devices, and the peak search days represent high user activity periods. Prioritizing the mobile side can maximize exposure.",
+        "F": "Option 2 combines chart_5_2 (the rising trend of search attention) and chart_5_1 (the dominance of the mobile side). Reasoning: Investing more resources during the rising period of search can capture growth opportunities, and device matching ensures efficiency."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -172,6 +239,22 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It does not rely on chart data, but is based on general corporate social responsibility common sense (such as 'evenly distribute resources to improve fairness'). It ignores the city - level attention distribution (chart_5_3) and cannot target to improve penetration. It can be easily excluded by common sense because it does not quantify regional differences.",
+        "B": "This is a hard distractor: On the surface, it uses chart_5_2 (search trend), but misinterprets the meaning of the trend. Chart_5_2 shows that the attention reached a peak of 560,000 on February 21, but the distractor suggests reducing investment, with the reason of 'avoiding competition' (the chart does not show competition data). In fact, users have high interest on the peak day, which is the best time for investment. Reducing resources will reduce penetration.",
+        "C": "Option 2 combines chart_5_3 (the second - highest attention proportion in third - tier cities) and chart_5_2 (the fluctuating search trend). Reasoning: Third - tier cities have a high proportion but an unstable trend, which may represent an unsaturated market. Increasing investment can capture opportunities in the fluctuations.",
+        "D": "This is a hard distractor: On the surface, it uses chart_5_3 (city - level attention) and chart_5_2 (search trend), but misinterprets the numerical relationship. Chart_5_3 shows that the attention proportion in second - tier cities is only 17%, much lower than that in first - tier (33%) and third - tier (22%) cities, but the distractor misinterprets it as 'the potential is underestimated' (the chart does not provide potential data). The fluctuations in chart_5_2 are wrongly extended as evidence of second - tier demand, creating confusion.",
+        "E": "Option 1 combines chart_5_3 (the highest attention proportion in first - tier cities) and chart_5_2 (the overall search trend has high - attention days such as February 15). Reasoning: Combining the high proportion in first - tier cities with the overall peak trend, investment can maximize returns.",
+        "F": "This is an easy distractor: It does not rely on the chart and introduces an unmentioned region (such as 'rural areas'). Chart_5_3 only covers first - to fourth - tier cities and does not involve rural areas. The distractor is based on assumptions rather than data and is a logical error (feasible in common sense but not supported by the chart)."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -192,6 +275,22 @@
       "label": [
         "A",
         "B"
+      ],
+      "cot": {
+        "A": "Option 2 combines chart_5_4 (the abnormal peak of children's milk powder on February 19) and chart_5_2 (the overall fluctuating trend). Reasoning: The temporary peak of children's milk powder represents an opportunity window. Combining with the overall trend fluctuations, short - term strategies can be used efficiently.",
+        "B": "Option 1 combines chart_5_4 (the search volume of pregnant women's milk powder is significantly higher than that of children's, infant, and student milk powder) and chart_5_2 (the overall search trend has peak days). Reasoning: The high attention of pregnant women's milk powder coincides with the overall peak. Resource allocation towards it can maximize conversion.",
+        "C": "This is an easy distractor: It does not rely on chart data, but is based on broad marketing principles (such as 'unified activities to promote growth'). It ignores the differences in search trends by category (chart_5_4) and cannot balance short - term and long - term goals. It can be easily excluded by common sense because it does not optimize for specific categories.",
+        "D": "This is a hard distractor: On the surface, it uses chart_5_4 (search attention by category) and chart_5_2 (the overall trend), but misinterprets the numerical relationship. Chart_5_4 shows that the search volume of student milk powder is relatively low (e.g., 2500 on February 1 vs. 15000 for pregnant women's milk powder). Although the trend is stable, the volume is small, but the distractor misinterprets it as'suitable for long - term growth' (the chart does not prove this relationship) and ignores the high search volume of pregnant women's milk powder (e.g., 40,000 on February 25).",
+        "E": "This is a hard distractor: On the surface, it uses chart_5_4 (search attention by category), but misinterprets the trend point. Chart_5_4 shows that the attention of infant milk powder on February 1 was 2000 (a low point), while the distractor suggests increasing investment on this 'starting day', with the reason of 'capturing early interest' (the chart does not show the meaning of the starting day). In fact, the efficiency on low - attention days is low, which contradicts the capture of short - term opportunities (the correct option B targets the peak of 4000 for children's milk powder).",
+        "F": "This is an easy distractor: It does not rely on the chart and proposes a broad resource concentration suggestion (such as 'cut low - search - volume categories'). It does not specify which category or how to balance opportunities, and the chart does not support the inference of 'high - potential areas'. It is a common - sense error without data support."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     }
   ]

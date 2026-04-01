@@ -85,6 +85,21 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Basado en la tendencia de crecimiento del tamaño del mercado en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (como el crecimiento continuo de 2021 a 2024, y la alta proporción del mercado B) y el número significativamente mayor de normas de asociaciones en el gráfico de distribución de normas relacionadas con alimentos prefabricados (como las normas de asociaciones que representan la mayoría). Esto implica que las normas de asociaciones (producto de la colaboración entre empresas) pueden promover la estandarización del mercado, apoyando así el crecimiento del mercado B; no se puede inferir esta relación sinérgica basándose solo en un gráfico.",
+        "B": "Esta es una opción de interferencia fácil: basada en conocimiento común de la industria (las preocupaciones de los consumidores pueden afectar el mercado), pero no depende en absoluto de los datos del gráfico. Los gráficos no mencionan factores del consumidor, y esta afirmación es demasiado general, no se puede derivar de los gráficos proporcionados.",
+        "C": "Combinando la expansión anual del tamaño del mercado en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (casi 5000 mil millones de yuanes en 2023) y el número relativamente bajo pero existente de normas empresariales en el gráfico de distribución de normas relacionadas con alimentos prefabricados (90 ítems), se infiere que aunque las normas empresariales son pocas, pueden mejorar la eficiencia a través de la innovación interna, impulsando el crecimiento del mercado; un solo gráfico solo muestra cantidades o tamaño, no puede revelar el efecto complementario.",
+        "D": "Comparando la baja proporción de normas locales en el gráfico de distribución de normas relacionadas con alimentos prefabricados (solo 27 ítems) y la tendencia de crecimiento general en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (se espera un crecimiento del 13.8% en 2024), indica que la expansión del mercado depende más de normas no locales; analizar solo la distribución de normas o el tamaño del mercado no puede explicar el impacto de la estructura regulatoria.",
+        "E": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos del chart_162_1. En realidad, las normas locales son solo 27 ítems (mucho menos que las 289 normas de asociaciones), lo que indica un papel limitado de la regulación política, no dominante. La opción de interferencia asume erróneamente que 'las normas locales son las más numerosas' como premisa, pero en los datos las normas de asociaciones son el cuerpo principal.",
+        "F": "Esta es una opción de interferencia difícil: infiere incorrectamente tendencias futuras. El chart_162_1 muestra que actualmente las normas empresariales son solo 90 ítems, las normas de asociaciones 289 ítems, la brecha es significativa; pero la opción de interferencia asume que las normas empresariales superarán, lo que carece de soporte de datos (el gráfico solo proporciona la distribución actual, sin predicciones). Además, los datos de crecimiento del tamaño del mercado en chart_162_2 no están relacionados con esto."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil: basada en conocimiento técnico común (la automatización puede optimizar la eficiencia), pero no depende en absoluto de los gráficos. Los gráficos no mencionan automatización, y esta afirmación es un razonamiento general, no se puede verificar con los datos.",
+        "B": "Combinando la fluctuación en la variación interanual en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (como la caída al 8.0% en 2022) y el aumento significativo en el tiempo de trabajo semanal promedio en el gráfico de tiempo de trabajo semanal promedio de empleados de empresas en 2023 (como 48.9 horas en diciembre), indica que la intensidad laboral aumenta pero la eficiencia del crecimiento del mercado no coincide; un solo gráfico solo muestra tendencias, no puede revelar las causas del conflicto.",
+        "C": "Comparando el crecimiento esperado del mercado B en 2024 en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (variación interanual del 16.3%) y la disminución del tiempo de trabajo en 2024 en el gráfico de tiempo de trabajo semanal promedio de empleados de empresas (como caída a 48.0 horas en febrero), se infiere que factores estacionales u optimización de la industria pueden aliviar la presión laboral; analizar solo el tamaño del mercado o el tiempo de trabajo no puede explicar esta inconsistencia.",
+        "D": "Basado en el crecimiento anual del tamaño del mercado en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (de 3557 mil millones en 2020 a 5680 mil millones en 2024) y la fluctuación pero estabilidad general del tiempo de trabajo en el gráfico de tiempo de trabajo semanal promedio de empleados de empresas de 2022 a 2023 (como promedio superior a 48.5 horas en 2023), se infiere que el crecimiento puede estar impulsado por la eficiencia en lugar del aumento del tiempo de trabajo; solo con el gráfico del tamaño del mercado no se puede explicar el conflicto en la tendencia temporal, se necesita comparación entre gráficos.",
+        "E": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos de chart_162_4 y chart_162_2. En realidad, el tiempo de trabajo en 2022 fue estable (promedio mensual de 47.4 - 47.9 horas), pero la tasa de crecimiento del tamaño del mercado cayó del 12.1% en 2021 al 8.0% en 2022; la opción de interferencia afirma erróneamente 'disminución del tiempo de trabajo', mientras que los datos no muestran una tendencia a la baja (mínimo de 46.2 horas en 2022 pero con pequeñas fluctuaciones generales).",
+        "F": "Esta es una opción de interferencia difícil: simplifica incorrectamente la causalidad. El chart_162_4 muestra un aumento del tiempo de trabajo en 2023 (promedio de aproximadamente 48.7 horas), el chart_162_2 muestra un crecimiento del tamaño del mercado del 15.9%; pero la opción de interferencia ignora otros factores (como cambios en el mercado B) y predice erróneamente que la disminución del trabajo en 2024 inhibirá el crecimiento (se espera que el tamaño del mercado aún crezca un 13.8% en 2024)."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combinando la alta proporción de costo de mano de obra en el gráfico de proporción de diversos costos de empresas de muestra de la industria alimentaria (aproximadamente un quinto) y el crecimiento del mercado general en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (casi 5000 mil millones de yuanes en 2023), e implícitamente haciendo referencia al tiempo de trabajo semanal promedio continuamente alto en el gráfico de tiempo de trabajo semanal promedio de empleados de empresas (como promedio superior a 48 horas en 2023), se infiere que los alimentos prefabricados reducen la demanda de mano de obra, pero el tiempo de trabajo no disminuido puede reflejar un período de transición; se necesita razonamiento entre gráficos de costos y mercado, un solo gráfico solo muestra datos estáticos.",
+        "B": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos de chart_162_2. En realidad, el mercado B domina (3980 mil millones de yuanes en 2023 vs. tamaño total de 4990 mil millones de yuanes), y continúa creciendo; la opción de interferencia afirma erróneamente 'el mercado C reduce la dependencia del mercado B', pero los datos no proporcionan información del mercado C, el mercado B sigue siendo el principal.",
+        "C": "Basado en el dominio del costo de compra de materias primas en el gráfico de proporción de diversos costos de empresas de muestra de la industria alimentaria (proporción más alta) y el rápido crecimiento del mercado B en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (como variación interanual del 18.5% en 2023), se infiere que los alimentos prefabricados reducen el desperdicio de materias primas mediante la estandarización, impulsando la expansión del mercado; solo el gráfico de costos o el gráfico del tamaño del mercado no pueden revelar este mecanismo de refuerzo.",
+        "D": "Esta es una opción de interferencia fácil: basada en conocimiento común de la industria (el costo de energía puede afectar el mercado), pero no depende en absoluto de los gráficos. El chart_162_3 muestra que el costo de energía representa solo el 3.6%, sin datos históricos; la opción de interferencia es demasiado general, no se relaciona directamente con el crecimiento de los alimentos prefabricados.",
+        "E": "Esta es una opción de interferencia difícil: altera incorrectamente los valores. El chart_162_3 muestra claramente que el costo de mano de obra representa el 21.9% (no menos del 15%), y el chart_162_2 muestra un crecimiento del mercado B del 18.5% en 2023; la opción de interferencia inventa 'disminución del costo de mano de obra' y lo atribuye erróneamente a la tecnología de alimentos prefabricados, mientras que los datos no prueban causalidad.",
+        "F": "Comparando la baja proporción de costo de energía y costo de alquiler y servicios en el gráfico de proporción de diversos costos de empresas de muestra de la industria alimentaria (suma aproximadamente 12.5%) y la continua expansión del tamaño del mercado en el gráfico de tamaño del mercado de alimentos prefabricados y su variación interanual (se esperan 5680 mil millones de yuanes en 2024), se infiere que los alimentos prefabricados pueden optimizar indirectamente los costos secundarios mediante la escalabilidad; analizar solo la proporción de costos o el tamaño del mercado no puede inferir esta conexión implícita."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -150,6 +195,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción se relaciona con chart_162_3 (la proporción de costos de energía y alquiler es relativamente baja) y el efecto de escala implícito de los platos prefabricados (basado en la tendencia de crecimiento del mercado en chart_162_2). Razónamiento: La optimización de costos secundarios puede liberar recursos y apoyar áreas de alto crecimiento.",
+        "B": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos de costos de materias primas de chart_162_3 (el 42.7% es el más alto), pero interpreta erróneamente la relación. Los platos prefabricados deberían reducir el desperdicio de materias primas y los costos de procesamiento. Sugerir reducir el uso de platos prefabricados podría aumentar los costos operativos, lo que contradice la tendencia del gráfico (chart_162_2 muestra el crecimiento del mercado de platos prefabricados).",
+        "C": "Esta es una opción de distracción fácil: Se basa en conocimientos comerciales generales (la promoción de marca puede aumentar los ingresos), pero no se combina con los datos de los gráficos (como el crecimiento del mercado B o la estructura de costos). La expresión es amplia y sin guías de acción específicas, por lo que es fácil de descartar directamente.",
+        "D": "Esta opción se relaciona con chart_162_2 (el tamaño del mercado B está creciendo rápidamente y tiene una alta proporción) y chart_162_3 (el costo de compra de materias primas tiene la proporción más alta). Razónamiento: Los platos prefabricados pueden reducir directamente los costos de materias primas de alta proporción y aprovechar la oportunidad de crecimiento del mercado B.",
+        "E": "Esta es una opción de distracción fácil: Se basa en conceptos de sostenibilidad generales, pero no se enfoca en los datos centrales de los gráficos (como el crecimiento del mercado B o los costos de mano de obra). La proporción de costos de energía es baja (3.6%), y optimizarlo tendría un impacto mínimo en los costos totales. La expresión es demasiado amplia.",
+        "F": "Esta opción se relaciona con chart_162_3 (el costo de mano de obra tiene una proporción relativamente grande) y chart_162_4 (el tiempo de trabajo sigue aumentando). Razónamiento: El aumento del tiempo de trabajo sugiere problemas de eficiencia, y la automatización puede aliviar la presión de los costos de mano de obra.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos de tiempo de trabajo de chart_162_4 (el tiempo sigue aumentando), pero deduce erróneamente la dirección. El aumento del tiempo de trabajo puede reflejar un cuello de botella en la eficiencia. Sugerir aumentar la jornada laboral puede aumentar la fatiga de los empleados y los costos de mano de obra (el costo de mano de obra en chart_162_3 es del 21.9%), lo que se desvía del objetivo de'maximizar la eficiencia y reducir los costos'."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -173,6 +235,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción se relaciona con chart_162_4 (el tiempo de trabajo sigue aumentando) y chart_162_3 (el costo de mano de obra tiene una proporción relativamente grande). Razónamiento: El aumento de la jornada laboral puede agravar el problema de los costos de mano de obra, y la intervención política puede equilibrar la eficiencia y el bienestar.",
+        "B": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos de normas de chart_162_1 (27 normas locales vs. 289 normas de asociaciones), pero interpreta erróneamente la situación. Las normas de asociaciones son dominantes, y promover las normas locales puede ignorar las necesidades de normativas más amplias, lo que contradice el problema de 'distribución desigual' y no tiene en cuenta la tendencia del tiempo de trabajo.",
+        "C": "Esta es una opción de distracción fácil: Se basa en prácticas comunes de la industria (el sistema de certificación puede aumentar la confianza), pero no se enfoca en el contenido central de los gráficos (la distribución de normas o el tiempo de trabajo). La expresión es amplia y sin mecanismos específicos para mejorar la eficiencia.",
+        "D": "Esta opción se relaciona con chart_162_1 (el número de normas empresariales es relativamente bajo) y chart_162_2 (el mercado B está creciendo rápidamente). Razónamiento: La innovación en normas empresariales puede satisfacer directamente las necesidades del mercado B de alto crecimiento y optimizar la asignación de recursos de la industria.",
+        "E": "Esta opción se relaciona con chart_162_1 (el número de normas de asociaciones es significativamente mayor que el de otras normas) y chart_162_2 (el tamaño total del mercado está creciendo). Razónamiento: La dominancia de las normas de asociaciones indica el potencial de autorregulación de la industria. Promover las normas puede regular el mercado y aprovechar la tendencia de crecimiento para mejorar la eficiencia.",
+        "F": "Esta es una opción de distracción fácil: Se basa en políticas económicas comunes (exenciones fiscales para estimular el crecimiento), pero no se combina con los datos de los gráficos (como la distribución de normas o la tendencia del tiempo de trabajo). La expresión es amplia y sin acciones específicas, por lo que es fácil de descartar por conocimiento general.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos de tiempo de trabajo de chart_162_4 (el tiempo sigue aumentando), pero deduce erróneamente la dirección. El aumento del tiempo de trabajo puede indicar baja eficiencia. Sugerir aumentar el trabajo extra puede empeorar el bienestar de los empleados y la sostenibilidad (lo que se desvía del objetivo de 'promover el desarrollo sostenible'), y chart_162_2 muestra que el crecimiento del mercado no depende de la extensión de la jornada laboral."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -196,6 +275,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción se relaciona con chart_162_3 (el costo de compra de materias primas tiene la proporción más alta) y chart_162_2 (el mercado de platos prefabricados está creciendo en general). Razónamiento: La integración de la cadena de suministro puede aprovechar los costos de alta proporción y utilizar la tendencia del mercado para mejorar la eficiencia.",
+        "B": "Esta es una opción de distracción fácil: Se basa en una estrategia de expansión común (tiendas físicas), pero no se enfoca en el mercado B o en los costos centrales (como el costo de materias primas del 42.7%). La expresión es amplia y no eficiente.",
+        "C": "Esta opción se relaciona con chart_162_2 (el tamaño del mercado B está creciendo rápidamente y tiene una alta proporción) y chart_162_3 (el costo de compra de materias primas tiene la proporción más alta). Razónamiento: El crecimiento del mercado B está relacionado con los altos costos de materias primas, y los productos personalizados pueden resolver directamente los problemas de los clientes.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos de costos de mano de obra de chart_162_3 (21.9%) y los datos de tiempo de trabajo de chart_162_4 (tendencia de aumento), pero deduce erróneamente. Un alto costo de mano de obra y un aumento del tiempo de trabajo pueden indicar problemas de eficiencia. Sugerir invertir en un modelo labor intensivo puede aumentar los costos y reducir la resiliencia (lo que contradice la tendencia de automatización de los platos prefabricados).",
+        "E": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos del tamaño total del mercado de chart_162_2 (tendencia de crecimiento), pero interpreta erróneamente la relación. Chart_162_2 muestra claramente que el mercado B está creciendo más rápido (por ejemplo, la variación interanual del mercado B se espera en un 16.3% en 2024). Sugerir cambiar al mercado C ignora el buen desempeño del mercado B, lo que se desvía del objetivo de maximizar las oportunidades.",
+        "F": "Esta opción se relaciona con chart_162_3 (el costo de mano de obra tiene una proporción relativamente grande) y chart_162_4 (el tiempo de trabajo sigue aumentando). Razónamiento: La presión de costos de mano de obra y tiempo destaca la necesidad de innovación, y el diseño de productos puede mejorar la resiliencia de la industria.",
+        "G": "Esta es una opción de distracción fácil: Se basa en principios básicos de inversión (diversificar el riesgo), pero no se combina con los datos de los gráficos (como el crecimiento del mercado B o la estructura de costos). La expresión es amplia y sin acciones dirigidas a las oportunidades del mercado B, por lo que es fácil de descartar."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     }
   ]

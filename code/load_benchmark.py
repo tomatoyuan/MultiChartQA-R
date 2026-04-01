@@ -1,15 +1,11 @@
-from utils import GetBenchmarkData
+from pathlib import Path
+
+from data_utils import load_main_benchmark
 
 if __name__ == "__main__":
-    benchmarkData = GetBenchmarkData()
-    '''MultiChartQA-X benchmark qa list'''
-    task1_qa_list, task2_qa_list, task3_qa_list, task4_qa_list = benchmarkData.get_benchmark_data("en")
-    print("benchmark example: ")
-    print("task1: ")
-    print(task1_qa_list[0])
-    print("task2: ")
-    print(task2_qa_list[0])
-    print("task3: ")
-    print(task3_qa_list[0])
-    print("task4: ")
-    print(task4_qa_list[0])
+    repo_root = Path(__file__).resolve().parents[1]
+    benchmark = load_main_benchmark(language="en", benchmark_root=repo_root / "benchmark")
+    print("Main benchmark example:")
+    for task_id in range(1, 5):
+        print(f"task{task_id}:")
+        print(benchmark[task_id][0])

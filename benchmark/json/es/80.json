@@ -86,6 +86,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "该选项用行业常识（原材料影响成本）转移焦点，但图表数据显示市场规模变化与渗透率趋势存在明显关联（如2018 - 2020年渗透率升、规模降），且未提及原材料数据。",
+        "B": "必须比较市场规模图表（显示2016 - 2017年规模快速增长，但2018年后增速放缓）和渗透率图表（显示2016 - 2017年渗透率加速提升，但规模增速未同步加快），以发现“渗透率加速时规模增速反降”的隐含规律（如市场饱和）。",
+        "C": "数值计算错误：2021 - 2022年渗透率+3.2%对应规模+25亿元（约7.8亿/百分点），2022 - 2023年渗透率+3.4%对应规模+73亿元（约21.5亿/百分点），平均值约14.8亿/百分点，非20亿；且波动大，无法支持稳定线性关系。",
+        "D": "错误归纳局部数据：2019年渗透率增速最快（+8.3%）且规模下降，但2020年渗透率+5.1%时规模仅小幅下降（-13亿），2021年渗透率+4.9%时规模上升44亿，说明“增速越快则萎缩越严重”不成立。",
+        "E": "依赖渗透率图表（显示2021 - 2023年渗透率持续上升至接近90%）和市场规模图表（显示同期规模预测增长），以推断“高渗透率支撑未来增长”的正相关趋势。",
+        "F": "结合市场规模图表（2019 - 2020年规模下降）和渗透率图表（同期渗透率上升），分析冲突原因（如非渗透率因素影响），体现外部变量作用。",
+        "G": "该选项仅依赖常识性假设（渗透率上升必然扩大市场），但忽略图表中2019 - 2020年渗透率上升而市场规模下降的反例，且未涉及价格竞争或外部经济因素。"
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "数值比较逻辑错误：Folletos de pañales desechables购买比例（51.6%）是品类渗透率，Canales fuera de línea占比（8.7%）是渠道选择比例，两者无直接可比性；且Tanto en línea como fuera de línea渠道覆盖75.8%用户，Folletos de pañales desechables购买更可能通过混合渠道实现。",
+        "B": "结合购买品类图表（Folletos de pañales desechables比例约50%）和购买渠道图表（Canales fuera de línea比例最低），推理“小众渠道与特定品类”的联系（如线下用于即时购买）。",
+        "C": "错误关联独立指标：Pañales de tiro购买率略低于Pañales（76.4% vs 78.2%），但Canales en línea占比（15.5%）和Canales fuera de línea（8.7%）均为单一渠道，Tanto en línea como fuera de línea占75.8%主导，无法推出“Pañales de tiro依赖线上”。",
+        "D": "该选项用常识（品牌影响决策）回避核心问题，图表未提及品牌因素，且数据显示Tanto en línea como fuera de línea（75.8%）与多品类高购买率（Pañales 78.2%、Pañales de tiro 76.4%）存在潜在关联。",
+        "E": "依赖购买品类图表（Folletos de pañales desechables购买比例居中）和购买渠道图表（Canales en línea专属渠道比例较低），分析“低渠道使用与中等品类偏好”的关联（如线上更针对便利品）。",
+        "F": "必须交叉引用购买品类图表（Pañales和Pañales de tiro比例均超75%）和购买渠道图表（Tanto en línea como fuera de línea占比最高），以推断“高偏好品类与主导渠道协同”的隐含行为模式。",
+        "G": "该选项基于线下体验常识，但图表中Canales fuera de línea占比最低（8.7%），Folletos de pañales desechables购买率51.6%无法仅由线下支撑，且未提供品类 - 渠道交叉数据。"
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "忽略多增长驱动因素：2023年规模增长73亿元伴随渗透率+3.4%，但消费者多品类偏好（Pañales + Pañales de tiro超75%）和Tanto en línea como fuera de línea主导（75.8%）表明创新与效率升级可驱动增长，非单一依赖提价；且无价格数据支持。",
+        "B": "交叉引用市场规模图表（2019 - 2020年规模下降）、渗透率图表（同期渗透率上升）和购买品类图表（2022年主流品类比例高），解释“短期冲突不破坏长期韧性”的规律（如需求刚性）。",
+        "C": "该选项用人口常识转移焦点，但图表中渗透率持续上升至近饱和（2023年88.6%），且预测规模增长依赖品类升级（Pañales de tiro 76.4%）而非人口增量。",
+        "D": "该选项反向曲解渠道效率：Tanto en línea como fuera de línea主导（75.8%）实际提升便利性（如原选项B），且多品类购买（Pañales 78.2% + Pañales de tiro 76.4%）支持效率，无数据表明其阻碍扩张。",
+        "E": "必须整合渗透率图表（2023年渗透率预测达88.6%，接近饱和）、市场规模图表（2023年规模预测增长）和购买品类图表（Pañales和Pañales de tiro比例均超75%），以揭示“饱和市场中品类多样性支撑增长”的隐含联系。",
+        "F": "依赖购买渠道图表（Tanto en línea como fuera de línea占比最高）和购买品类图表（多品类高比例），并结合渗透率图表（持续上升至高位），推理“渠道效率与高渗透率协同促进市场健康”。",
+        "G": "错误优先级推断：Folletos de pañales desechables购买率51.6%已过半，但主流品类（Pañales、Pañales de tiro）购买率均超76%，且渗透率未饱和（2023年88.6%），规模增长更可能来自品类创新（如原选项A）而非聚焦Folletos de pañales desechables。"
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 1 combina chart_80_1 (Tendencia del tamaño del mercado: fluctuación y descenso entre 2015 - 2020, crecimiento previsto después de 2021) y chart_80_2 (Tendencia de la tasa de penetración: aumento continuo hasta un nivel alto); la inferencia señala que cuando la tasa de penetración se acerca a la saturación, el crecimiento del tamaño del mercado debe ser impulsado por la innovación de productos.",
+        "B": "Esta es una opción de distracción fácil: basada en el conocimiento común de la competencia de precios (por ejemplo, “reducir el precio para estimular las ventas”), sin combinar el contenido de los gráficos (por ejemplo, la tasa de penetración del mercado en aumento continuo o las preferencias de categoría de los consumidores), la dirección de la estrategia es difusa y se ignora el soporte de datos.",
+        "C": "Esta es una opción de distracción fácil: la formulación se basa en el conocimiento común de marketing general (por ejemplo, “ampliar la publicidad”), sin citar ningún dato de los gráficos (por ejemplo, el tamaño del mercado o la tasa de penetración), y es demasiado amplia, sin indicaciones de acción específicas (por ejemplo, no se dirige al desarrollo de la línea de productos).",
+        "D": "Esta es una opción de distracción difícil: aparentemente cita los datos de chart_80_3 (la proporción de compra de folletos de pañales desechables es del 51.6%), pero confunde erróneamente los valores - la proporción de folletos de pañales desechables (51.6%) es mucho menor que la de pañales (78.2%) y pañales de tiro (76.4%), y no se considera la predicción del tamaño del mercado (chart_80_1) que muestra que el crecimiento general depende más de las categorías principales; la sugerencia de estrategia (invertir优先 en categorías de baja demanda) no coincide con los datos.",
+        "E": "La opción 2 combina chart_80_2 (tasa de penetración en aumento continuo) y chart_80_3 (categorías de compra: alta proporción de pañales de tiro); la inferencia utiliza la tendencia del aumento de la tasa de penetración y las preferencias de categoría, y sugiere centrarse en las categorías emergentes.",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_80_1 (el tamaño del mercado disminuyó entre 2019 - 2020), pero interpreta erróneamente la tendencia - se ignora que la tasa de penetración (chart_80_2) aumentó continuamente hasta el 88.6% y la predicción de crecimiento (62.8 mil millones de yuanes en 2023), lo que indica que el mercado todavía tiene potencial; la dirección de la estrategia (reducir la inversión) contradice el futuro real de crecimiento.",
+        "G": "La opción 3 combina chart_80_1 (fluctuación del tamaño) y chart_80_2 (aumento de la tasa de penetración); la inferencia se basa en el equilibrio entre el tamaño y la tasa de penetración y enfatiza la redistribución de recursos."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 3 combina chart_80_3 (alta proporción de categorías principales) y chart_80_4 (proporción de canales fuera de línea); la inferencia se dirige a la coincidencia entre categorías y canales y enfatiza la prioridad de recursos.",
+        "B": "Esta es una opción de distracción fácil: utiliza una estrategia general de fidelización (por ejemplo, “puntos de membresía”), sin combinar los gráficos específicos (por ejemplo, datos de canales de compra o preferencias de categoría), la estrategia carece de soporte de datos y se ignora el objetivo de eficiencia.",
+        "C": "Esta es una opción de distracción fácil: basada en el conocimiento común de la industria (por ejemplo, “las redes sociales atraen a padres jóvenes”), sin citar ningún dato de los gráficos (por ejemplo, proporción de canales o preferencias de categoría), la formulación es amplia y no hay indicaciones claras de optimización de canales.",
+        "D": "Esta es una opción de distracción difícil: aparentemente cita chart_80_4 (proporción fuera de línea del 8.7%) y chart_80_3 (proporción de pañales del 78.2%), pero deduce erróneamente - la proporción fuera de línea es baja y no hay datos que respalden una fuerte relación entre categoría y canal; la dirección de la estrategia (fortalecer los canales fuera de línea) contradice el objetivo de cobertura eficiente, ya que los canales tanto en línea como fuera de línea (75.8%) son los principales.",
+        "E": "La opción 2 combina chart_80_3 (alta demanda de categorías) y chart_80_4 (proporción de canales en línea); la inferencia utiliza el espacio de los canales en línea y las preferencias de categoría y sugiere una inversión precisa.",
+        "F": "Esta es una opción de distracción difícil: aparentemente combina chart_80_4 (proporción en línea del 15.5%) y chart_80_3 (proporción de pañales del 78.2%), pero interpreta erróneamente la relación - los gráficos muestran que los canales tanto en línea como fuera de línea son los principales (75.8%), y la proporción en línea no es alta; la sugerencia de “concentrarse en línea” ignora la preferencia principal de canales tanto en línea como fuera de línea y puede causar una disminución de la cobertura.",
+        "G": "La opción 1 combina chart_80_3 (categorías de compra: alta proporción de pañales y pañales de tiro) y chart_80_4 (proporción de canales: predominio de canales tanto en línea como fuera de línea); la inferencia se basa en la concentración de categorías y la tendencia principal de canales y sugiere una integración de marketing."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente combina chart_80_4 (proporción fuera de línea del 8.7%) y chart_80_3 (proporción de pañales del 78.2%), pero confunde erróneamente - la proporción fuera de línea es baja y no hay datos que indiquen que la categoría dependa de los canales fuera de línea; al mismo tiempo, se ignora el predominio de canales tanto en línea como fuera de línea (75.8%) y la predicción del tamaño del mercado, la estrategia de “aumentar la inversión fuera de línea” no es eficiente y puede desperdiciar recursos.",
+        "B": "La opción 1 combina chart_80_1 (predicción del tamaño del mercado: crecimiento después de 2021), chart_80_2 (tendencia de la tasa de penetración: aumento continuo pero desaceleración del crecimiento) y chart_80_4 (canales: predominio de canales tanto en línea como fuera de línea); la inferencia utiliza la relación entre el crecimiento del tamaño del mercado, la tasa de penetración y los canales y sugiere una inversión coordinada.",
+        "C": "La opción 2 combina chart_80_2 (alta y estable tasa de penetración) y chart_80_3 (proporción de compra de categorías equilibrada); la inferencia se basa en la saturación de la tasa de penetración y la tendencia de categoría y sugiere la innovación de productos.",
+        "D": "Esta es una opción de distracción fácil: basada en una estrategia general de negocios (por ejemplo, “diversificar la línea de productos”), sin citar ningún dato de los gráficos (por ejemplo, el tamaño del mercado o la tasa de penetración), la formulación es amplia y no hay indicaciones específicas de equilibrio (por ejemplo, no se dirige a la corta y larga plazo).",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza chart_80_2 (tasa de penetración del 88.6%) y chart_80_1 (fluctuación del tamaño del mercado), pero interpreta erróneamente - la tasa de penetración es alta pero la predicción del tamaño del mercado es de crecimiento (62.8 mil millones de yuanes en 2023), y la tasa de penetración desacelera pero sigue aumentando; la estrategia de “reducir la inversión” ignora el potencial de crecimiento y se desvía del objetivo de equilibrio.",
+        "F": "Esta es una opción de distracción fácil: utiliza el conocimiento común de la cadena de suministro (por ejemplo, “optimizar el costo de producción”), sin combinar el contenido de los gráficos (por ejemplo, la fluctuación del tamaño del mercado o las preferencias de canales), la estrategia carece de soporte de datos y se ignora el cambio de la tasa de penetración.",
+        "G": "La opción 3 combina chart_80_1 (fluctuación del tamaño) y chart_80_4 (proporción de canales en línea); la inferencia se dirige a los valles del tamaño del mercado y la eficiencia de los canales y sugiere una estrategia de optimización de costos."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

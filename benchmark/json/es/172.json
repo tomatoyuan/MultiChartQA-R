@@ -87,6 +87,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Es una opción de interferencia fácil: completamente alejada del contenido del gráfico, dependiendo de conocimientos económicos generales. El gráfico no menciona factores económicos o demográficos; esta opción atribuye erróneamente el crecimiento del mercado a factores macroeconómicos externos, en lugar de los datos de preferencias de salud.",
+        "B": "Es una opción de interferencia difícil: superficialmente basada en el gráfico (chart_172_4), pero calcula incorrectamente la tasa de crecimiento. Chart_172_4 da un CAGR del 5.17%, pero esta opción lo exagera hasta el 15%, interpretando erróneamente la tendencia del mercado (en realidad es un crecimiento estable, no explosivo).",
+        "C": "Es una opción de interferencia difícil: superficialmente basada en el gráfico (chart_172_1), pero comprende incorrectamente los valores. Chart_172_1 muestra que la proporción de consumidores que prefieren sin azúcar es del 23%, mientras que la preferencia por bajos niveles de azúcar es del 56% (la más alta), pero esta opción afirma erróneamente que 'la proporción de sin azúcar es la más alta (alcanzando 56%)', malinterpretando el orden de los valores, lo que distorsiona la conclusión.",
+        "D": "Requiere razonamiento conjunto: un gráfico tiene una proporción minoritaria de preferencia por mucha azúcar, pero el crecimiento del mercado en el otro gráfico indica que la tendencia general domina, lo que requiere comparar ambos gráficos para identificar la preferencia principal versus la minoritaria. Un solo gráfico no puede revelar la regularidad en esta contradicción.",
+        "E": "Es una opción de interferencia fácil: no depende del gráfico, solo se basa en un error de sentido común. El gráfico muestra que la proporción de preferencia por bebidas con mucha azúcar es solo del 9%, mucho menor que la de bajos niveles de azúcar (56%) y sin azúcar (23%), pero esta opción considera erróneamente la preferencia por mucha azúcar como el principal impulsor, ignorando los datos reales. Por el contrario, se basa en un malentendido general (la demanda de mucha azúcar podría aumentar los edulcorantes), mientras que en realidad los edulcorantes se usan a menudo como sustitutos de bajo azúcar.",
+        "F": "Requiere razonamiento conjunto: un gráfico muestra que la proporción de preferencia por bajos niveles de azúcar es significativamente mayor que otras opciones, y el otro gráfico muestra que el mercado de edulcorantes crece constantemente desde 2022 hasta 2028E, combinando ambos se infiere que la preferencia por bajo azúcar puede estimular directamente la demanda de edulcorantes (por ejemplo, para bebidas bajas en azúcar). Solo con un gráfico no se puede establecer una relación causal.",
+        "G": "Requiere razonamiento conjunto: un gráfico tiene una proporción alta de preferencia por sin azúcar, y el CAGR del otro gráfico indica una expansión estable del mercado, ambas tendencias son consistentes, lo que sugiere que las tendencias de salud (como reducir la ingesta de azúcar) impulsan el mercado. Un solo gráfico solo puede mostrar la proporción o el crecimiento, no puede relacionar la motivación."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Requiere razonamiento conjunto: un gráfico tiene una proporción significativa de ingredientes para salud cardíaca, y el otro gráfico muestra que el tamaño del mercado aumenta anualmente, el análisis conjunto puede implicar una asociación entre salud cardiovascular y mejora de la inmunidad (por ejemplo, los ingredientes se usan en alimentos). Solo con un gráfico no se puede obtener esta conexión entre diferentes áreas.",
+        "B": "Requiere razonamiento conjunto: un gráfico muestra que el control de azúcar en sangre, la regulación de la presión arterial y la reducción del colesterol ocupan ciertas proporciones, distribuidos equilibradamente, y el otro gráfico muestra una tendencia de crecimiento estable del mercado, la combinación indica que diversos problemas de salud (como la prevención de enfermedades crónicas) respaldan la expansión general del mercado. Solo con un gráfico solo se puede ver la distribución o el crecimiento, no se puede identificar esta consistencia estructural.",
+        "C": "Es una opción de interferencia fácil: no depende del gráfico, solo se basa en un error de sentido común. El gráfico no menciona factores políticos, esta opción atribuye vagamente al gobierno, mientras que los datos reales (como control de azúcar en sangre 25%) muestran que la demanda de salud del consumidor es el impulsor.",
+        "D": "Es una opción de interferencia fácil: alejada del gráfico, basada en un error de sentido común. Chart_172_3 muestra que el tamaño del mercado de alimentos para mejorar la inmunidad creció desde 64416 mil millones de yuanes en 2021 hasta 69700.8 en 2022, pero esta opción afirma erróneamente que 'en 2022 disminuyó', malinterpretando la dirección de la tendencia.",
+        "E": "Es una opción de interferencia difícil: superficialmente basada en el gráfico (chart_172_2), pero comprende incorrectamente el orden de los valores. Chart_172_2 muestra que salud cardíaca ocupa el 17%, mientras que control de azúcar en sangre, regulación de la presión arterial y reducción del colesterol ocupan cada uno el 25% (el más alto), pero esta opción afirma erróneamente que 'salud cardíaca ocupa la proporción más alta (25%)', lo que hace que el razonamiento sinérgico falle.",
+        "F": "Requiere razonamiento conjunto: un gráfico muestra que el control de azúcar en sangre es una de las proporciones más altas de ingredientes, y el otro gráfico muestra que el mercado de alimentos para mejorar la inmunidad crece significativamente desde 2021 hasta 2026E, combinando ambos se puede inferir que la innovación de ingredientes con alta proporción (como control de azúcar en sangre) puede responder a la demanda del mercado (como productos de inmunidad), impulsando el crecimiento sinérgico. Solo con un gráfico solo proporciona proporciones estáticas o tendencias, no puede vincular innovación y mercado.",
+        "G": "Es una opción de interferencia difícil: superficialmente basada en el gráfico (chart_172_3), pero calcula incorrectamente la tendencia. Chart_172_3 muestra que el tamaño del mercado crece desde 64416 mil millones de yuanes en 2021 hasta 93311.9 en 2026E (tendencia ascendente), pero esta opción interpreta erróneamente como 'CAGR negativo', malcalculando la dirección de la tasa de crecimiento."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Requiere razonamiento conjunto: un gráfico tiene la proporción de consumidores que no prestan atención al contenido de azúcar, y el otro gráfico tiene un alto interés en componentes como probióticos, el análisis conjunto revela un conflicto potencial (algunos consumidores ignoran el azúcar, pero los padres valoran los componentes funcionales), sugiriendo diferencias en la población o el escenario. Solo con un gráfico no se puede identificar este contraste.",
+        "B": "Es una opción de interferencia fácil: alejada del gráfico, dependiendo de conocimientos generales. El gráfico no menciona la influencia infantil, esta opción atribuye erróneamente al sujeto de consumo, mientras que los datos reales (como el interés de los padres en oligoelementos 70%) y la preferencia por bebidas (bajo azúcar 56%) tienen una separación clara de áreas.",
+        "C": "Requiere razonamiento conjunto: un gráfico muestra que el interés de los padres en oligoelementos y fibra dietética es el más alto, y el otro gráfico muestra que la preferencia por bajo azúcar es la proporción más alta, ambos valores son relativamente altos, combinando se puede inferir consistencia en la conciencia de salud entre la dieta familiar y el consumo de bebidas. Solo con un gráfico solo se puede ver la proporción en un área, no se puede comparar la motivación entre diferentes áreas.",
+        "D": "Requiere razonamiento conjunto: un gráfico tiene un interés bajo en vitaminas, y el otro gráfico tiene una proporción alta de preferencia por sin azúcar, los valores son iguales pero las tendencias son opuestas (los padres relativamente no valoran las vitaminas vs. los consumidores eligen activamente sin azúcar), combinando se puede explorar objetivos comunes de salud (como reducir azúcar/adulterantes). Solo con un gráfico no se puede establecer esta conexión implícita.",
+        "E": "Es una opción de interferencia difícil: superficialmente basada en los gráficos (chart_172_1 y chart_172_5), pero compara incorrectamente los valores. Chart_172_1 muestra que la proporción de no prestar atención al azúcar es solo del 12%, mientras que chart_172_5 muestra el interés en probióticos del 46%, pero esta opción exagera erróneamente la 'proporción de no atención al azúcar' al 46%, malcalculando la brecha (real 12% vs. 46%), fabricando consistencia.",
+        "F": "Es una opción de interferencia fácil: no depende del gráfico, basada en un error de sentido común. El gráfico no asocia directamente el interés de los padres con las bebidas carbonatadas (chart_172_5 se centra en componentes beneficiosos, chart_172_1 en preferencias de azúcar), esta opción asume erróneamente consistencia, ignorando las diferencias de área (componentes alimenticios vs. elección de bebidas).",
+        "G": "Es una opción de interferencia difícil: superficialmente basada en los gráficos (chart_172_5 y chart_172_1), pero comprende incorrectamente los valores. Chart_172_5 muestra que el interés de los padres en vitaminas es solo del 23% (oligoelementos es el más alto, 70%), mientras que chart_172_1 muestra la preferencia por sin azúcar del 23%, pero esta opción afirma erróneamente que 'el interés en vitaminas es el más alto (70%)', malinterpretando el valor más alto, lo que distorsiona la comparación."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto: chart_172_1 (la demanda de bebidas con mucha azúcar es baja, se necesita optimizar la combinación de productos) y chart_172_5 (los padres prestan mucha atención a componentes como probióticos) y chart_172_4 (el crecimiento del mercado de edulcorantes respalda la transformación hacia fórmulas saludables).",
+        "B": "Razonamiento conjunto: chart_172_1 (las preferencias de los consumidores muestran una alta demanda de bebidas con bajo contenido de azúcar y sin azúcar) y chart_172_4 (la tasa de crecimiento anual compuesto estable del mercado de edulcorantes indica que el suministro de edulcorantes alternativos es viable).",
+        "C": "Esta es una distracción difícil: Asociación errónea de gráficos - chart_172_3 se refiere al mercado general de alimentos para mejorar la inmunidad, pero agregar componentes para mejorar la inmunidad a las bebidas carbonatadas puede no coincidir con la posición del producto (por ejemplo, las bebidas carbonatadas generalmente se consideran poco saludables), y no se tiene en cuenta las preferencias de los consumidores sobre el contenido de azúcar (chart_172_1) o las tendencias de materias primas relacionadas con enfermedades crónicas (chart_172_2).",
+        "D": "Esta es una distracción fácil: No se basa en ningún dato de los gráficos, sino en conocimientos comerciales generales (como la importancia de la publicidad y el marketing), pero no proporciona instrucciones concretas de acción en función de las preferencias de salud de las bebidas carbonatadas o las tendencias de materias primas, por lo que no puede aumentar directamente la cuota de mercado.",
+        "E": "Esta es una distracción fácil: Igualmente, no se basa en los gráficos y solo se refiere a una estrategia general de optimización de costos, ignorando las preferencias de salud de los consumidores (como la demanda de bajo contenido de azúcar), y no está relacionada con el núcleo del problema.",
+        "F": "Esta es una distracción difícil: Interpretación errónea de los datos de chart_172_1 - la proporción de personas que prefieren mucha azúcar es solo del 9%, mientras que la proporción de personas que prefieren bajo contenido de azúcar y sin azúcar es del 79% en total; enfatizar una estrategia de alta cantidad de azúcar va en contra de la tendencia de salud y se ignora la evidencia del crecimiento estable del mercado de edulcorantes (chart_172_4).",
+        "G": "Razonamiento conjunto: chart_172_1 (tendencias de preferencias de salud de los consumidores) y chart_172_2 (en las direcciones de innovación de materias primas relacionadas con enfermedades crónicas, el control de azúcar en sangre, etc. tienen una alta proporción) y chart_172_3 (la tendencia de crecimiento del mercado de alimentos para mejorar la inmunidad es evidente)."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto: chart_172_2 (el control de azúcar en sangre y la regulación de la presión arterial cada uno representa el 25%, con una alta proporción) y chart_172_3 (la predicción de crecimiento del tamaño del mercado de alimentos para mejorar la inmunidad es evidente, lo que muestra un aumento en la demanda general de salud).",
+        "B": "Esta es una distracción fácil: No se basa en los gráficos, es una sugerencia de conocimiento general sobre la investigación de mercado, pero no se combina con las tendencias específicas de materias primas (como la prevención de enfermedades crónicas o los componentes que preocupan a los padres), y carece de instrucciones claras para la asignación de recursos.",
+        "C": "Esta es una distracción difícil: Asociación errónea de gráficos - chart_172_5 muestra que la atención a las vitaminas es del 23%, pero la sugerencia de \"reducir la inversión\" es una interpretación errónea de los datos (una baja atención no significa que no tenga valor), y no se tiene en cuenta que el crecimiento del mercado global de alimentos saludables (chart_172_3) puede respaldar la investigación y desarrollo diversificada; al mismo tiempo, si bien es razonable priorizar los oligoelementos y la fibra dietética, la estrategia de \"reducir la inversión en vitaminas\" tiene una desviación evidente.",
+        "D": "Razonamiento conjunto: chart_172_2 (la salud cardíaca representa el 17%, aunque es un poco baja, pero hay espacio para la innovación) y chart_172_3 (se espera que el mercado se expanda significativamente para el año 2026, lo que respalda la explotación del potencial).",
+        "E": "Esta es una distracción fácil: No se basa en los gráficos, solo describe una estrategia general de gestión de investigación y desarrollo (como la contratación y capacitación), pero no proporciona sugerencias de asignación prioritaria específicamente para las tendencias de materias primas de alimentos funcionales o los puntos de preocupación de los consumidores, es demasiado general.",
+        "F": "Razonamiento conjunto: chart_172_5 (los padres prestan mucha atención a la fibra dietética y los oligoelementos) y chart_172_3 (la tendencia de crecimiento del mercado de alimentos saludables es estable, se debe combinar con las preferencias de los consumidores).",
+        "G": "Esta es una distracción difícil: Interpretación errónea de los datos de chart_172_2 - la salud cardíaca representa el 17% de hecho, pero el control de azúcar en sangre, la regulación de la presión arterial y la reducción de colesterol cada uno representa el 25%, con una proporción más alta; enfatizar excesivamente el área de baja proporción puede causar un desperdicio de recursos e ignorar que la innovación eficiente debe centrarse en las áreas de alta demanda."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -203,6 +288,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto: chart_172_4 (el tamaño del mercado de edulcorantes se expande, es adecuado para nuevas aplicaciones) y chart_172_5 (los padres prestan mucha atención a los probióticos y el DHA, se puede enfocar en el mercado infantil).",
+        "B": "Razonamiento conjunto: chart_172_1 (los consumidores prefieren bajo contenido de azúcar y sin azúcar, la demanda es alta) y chart_172_4 (la tasa de crecimiento anual compuesto estable del mercado de edulcorantes respalda la expansión de la capacidad de producción).",
+        "C": "Esta es una distracción difícil: Asociación errónea de gráficos - chart_172_5 muestra que la atención de los padres a los probióticos es del 46%, pero los edulcorantes en sí son materias primas, no productos finales, y agregar probióticos puede no ser adecuado (por ejemplo, no coincide en términos de tecnología o posicionamiento); además, no se tiene en cuenta las tendencias de materias primas relacionadas con enfermedades crónicas (chart_172_2) o las propiedades saludables de los edulcorantes.",
+        "D": "Esta es una distracción fácil: No se basa en los gráficos, es una sugerencia general sobre el empaque y la experiencia del usuario, pero no se combina con los datos del mercado de edulcorantes o la actitud de salud de los consumidores, por lo que no puede capturar directamente las oportunidades de crecimiento.",
+        "E": "Esta es una distracción fácil: No se basa en los gráficos y solo se refiere a una estrategia general de expansión de canales, pero no proporciona un plan de inversión específico en función de las perspectivas del mercado de edulcorantes o la actitud hacia los componentes saludables, y está desvinculada del foco del problema.",
+        "F": "Razonamiento conjunto: chart_172_4 (se espera que el mercado de edulcorantes crezca para el año 2028) y chart_172_2 (materias primas relacionadas con enfermedades crónicas, como el control de azúcar en sangre, representan el 25%, se necesita una integración funcional).",
+        "G": "Esta es una distracción difícil: Interpretación errónea de los datos de chart_172_4 - una tasa de crecimiento anual compuesto del 5.17% indica un crecimiento estable (no lento), y el tamaño del mercado aumenta de 449.25 mil millones de yuanes en el año 2022 a 607.95 mil millones de yuanes en el año 2028E; la sugerencia de \"recortar la inversión\" contradice la captura de oportunidades de crecimiento y se ignora la evidencia de apoyo de las preferencias de salud de los consumidores (chart_172_1)."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     }
   ]

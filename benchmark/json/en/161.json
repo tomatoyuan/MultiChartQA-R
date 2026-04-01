@@ -84,6 +84,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This option is incorrect because it misinterprets 'facial care' as only for the face (as shown in chart_161_1) rather than the whole body based on common sense. Whole - body care is not mentioned, and the growth data of the cream market (such as a growth of 236 in firming and anti - aging) shows that not all efficacies have balanced growth, but anti - aging is dominant. This is an Easy interference item that can be identified by language common sense (face ≠ whole body) without relying on chart data.",
+        "B": "This option is correct because it is necessary to combine the implicit connection between chart_161_1 and chart_161_2. Chart_161_1 shows that facial care is the largest sub - category in the skin care category (accounting for 38%), while chart_161_2 shows that creams (belonging to facial care) have the largest growth in the number of brands in the firming and anti - aging efficacy (a growth of 236), indicating that there is a correlation between the dominant sub - category and the growth of specific efficacies. The reasoning depends on inferring the attribution of creams from the skin care category structure (chart_161_1) and combining the brand growth data of creams (chart_161_2), which cannot be completed with a single chart alone.",
+        "C": "This option is correct because it is necessary to combine the implicit connection between chart_161_1 and chart_161_2. Chart_161_1 shows that facial care is the largest sub - category in the skin care category (accounting for 38%), while chart_161_2 shows that creams (belonging to facial care) have the largest growth in the number of brands in the firming and anti - aging efficacy (a growth of 236), indicating that there is a correlation between the dominant sub - category and the growth of specific efficacies. The reasoning depends on inferring the attribution of creams from the skin care category structure (chart_161_1) and combining the brand growth data of creams (chart_161_2), which cannot be completed with a single chart alone.",
+        "D": "This option is correct because it is necessary to combine the implicit connection between chart_161_1 and chart_161_2. Chart_161_1 shows that facial care is the largest sub - category in the skin care category (accounting for 38%), while chart_161_2 shows that creams (belonging to facial care) have the largest growth in the number of brands in the firming and anti - aging efficacy (a growth of 236), indicating that there is a correlation between the dominant sub - category and the growth of specific efficacies. The reasoning depends on inferring the attribution of creams from the skin care category structure (chart_161_1) and combining the brand growth data of creams (chart_161_2), which cannot be completed with a single chart alone.",
+        "E": "This option is incorrect because it wrongly compares chart_161_1 (the share of skin care sets is 23%) and chart_161_2 (a growth of 17 in nourishing and repairing). However, the growth of 17% is much lower than the 236 of firming and anti - aging, and skin care sets may contain a variety of products rather than only driving repair creams. This is a Hard interference item based on the wrong gap in chart values (23% vs 17% seems close, but the actual growth amplitude difference is large).",
+        "F": "This option is incorrect because it wrongly associates chart_161_1 (masks account for 12%) and chart_161_2 (a growth of 30 in whitening and spot - fading). However, masks and creams are different product categories (masks are an independent sub - category, and creams are sub - products of facial care), and the growth of 30% in whitening and spot - fading is not the highest (the growth of 236 in firming and anti - aging is the highest). This is a Hard interference item that seems to be based on the charts but has a wrong understanding of product categories and growth rankings."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This option is incorrect because it generalizes based on industry common sense (growth always leads to promotion). However, chart_161_3 shows that the average depth of gift promotions remains stable at 39% and does not increase. In fact, the promotion depth of domestic brands increases and that of international brands slightly decreases, which contradicts the statement 'always increase'. This is an Easy interference item that can be identified by common sense (diverse market strategies) without relying on the charts.",
+        "B": "This option is correct because it is necessary to combine the data trends of chart_161_2 and chart_161_3. Chart_161_2 provides the growth in the number of brands for each efficacy of creams (such as a growth of 236 in firming and anti - aging), and chart_161_3 shows the changes in the depth of gift promotions (domestic brands from 37% to 43%, international brands from 38% to 37%). The reasoning requires cross - analysis of brand growth (chart_161_2) and promotion strategies (chart_161_3). For example, the increase in the promotion depth of domestic brands corresponds to brand growth, and the association of strategies cannot be inferred from a single chart alone.",
+        "C": "This option is correct because it is necessary to combine the data trends of chart_161_2 and chart_161_3. Chart_161_2 provides the growth in the number of brands for each efficacy of creams (such as a growth of 236 in firming and anti - aging), and chart_161_3 shows the changes in the depth of gift promotions (domestic brands from 37% to 43%, international brands from 38% to 37%). The reasoning requires cross - analysis of brand growth (chart_161_2) and promotion strategies (chart_161_3). For example, the increase in the promotion depth of domestic brands corresponds to brand growth, and the association of strategies cannot be inferred from a single chart alone.",
+        "D": "This option is correct because it is necessary to combine the data trends of chart_161_2 and chart_161_3. Chart_161_2 provides the growth in the number of brands for each efficacy of creams (such as a growth of 236 in firming and anti - aging), and chart_161_3 shows the changes in the depth of gift promotions (domestic brands from 37% to 43%, international brands from 38% to 37%). The reasoning requires cross - analysis of brand growth (chart_161_2) and promotion strategies (chart_161_3). For example, the increase in the promotion depth of domestic brands corresponds to brand growth, and the association of strategies cannot be inferred from a single chart alone.",
+        "E": "This option is incorrect because it wrongly associates chart_161_2 (a growth of 25 in soothing and anti - allergy, the smallest) and chart_161_3 (a slight decrease in international gift promotions). However, the low growth in soothing and anti - allergy may be related to the 1% decrease in international gift promotions, but the focus of the question is on the trend of domestic brands (the increase in gift promotions), and the change in international gift promotions is small (37% vs 38%), which is not evidence of 'higher efficiency'. This is a Hard interference item that is based on the chart data ranking (the smallest growth) but ignores the conflict with the overall trend (the strengthening of domestic brand promotions).",
+        "F": "This option is incorrect because it wrongly interprets chart_161_2 (a growth of 236 in firming and anti - aging, the highest) and chart_161_3 (the depth of domestic brand gift promotions increases to 43%). However, the increase in the depth of domestic brands is 6 percentage points (not a proportion), and the growth of 42 in moisturizing is not 'a small change' (the number of brands increases, and gift promotions are not mentioned separately). In fact, the largest growth in anti - aging is associated with the strengthening of domestic brand promotions rather than being insufficient. This is a Hard interference item that seems to be based on the charts but has a wrong understanding of the growth values and the measurement units of gift changes (number of brands vs percentage)."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -126,6 +156,21 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This option is correct because it is necessary to combine the contradictory points of chart_161_2 and chart_161_3. Chart_161_2 shows the growth of brands for each efficacy (such as only a growth of 17 in nourishing and repairing), and chart_161_3 shows that the promotion depth of domestic brands increases while that of international brands decreases. The reasoning requires explaining the conflict (such as the strengthening of domestic brand promotions for low - growth efficacies), which depends on comparing the efficacy growth (chart_161_2) and the brand - type strategies (chart_161_3). A single chart cannot reveal the potential reasons for this strategic difference.",
+        "B": "This option is incorrect because it wrongly associates chart_161_2 (the lowest growth of 17% in nourishing and repairing) and chart_161_3 (the increase in the depth of domestic brand gift promotions). However, the increase in promotions in a low - growth market does not necessarily conflict (domestic brands may target niche markets), and the growth of 236 in firming and anti - aging, which is the highest in the growth data, is not mentioned. This is a Hard interference item that seems to be based on the charts but has a wrong understanding of the growth ranking (17% is the lowest) and the strategic logic (promotions can be used for low - growth differentiation).",
+        "C": "This option is correct because it is necessary to combine the contradictory points of chart_161_2 and chart_161_3. Chart_161_2 shows the growth of brands for each efficacy (such as only a growth of 17 in nourishing and repairing), and chart_161_3 shows that the promotion depth of domestic brands increases while that of international brands decreases. The reasoning requires explaining the conflict (such as the strengthening of domestic brand promotions for low - growth efficacies), which depends on comparing the efficacy growth (chart_161_2) and the brand - type strategies (chart_161_3). A single chart cannot reveal the potential reasons for this strategic difference.",
+        "D": "This option is incorrect because it generalizes based on common sense (domestic brands are weak and international brands are strong). However, chart_161_3 does not mention product strength, and the actual data (such as large growth in firming and anti - aging) may reflect other factors. This is an Easy interference item that can be identified by industry stereotypes without relying on the charts.",
+        "E": "This option is correct because it is necessary to combine the contradictory points of chart_161_2 and chart_161_3. Chart_161_2 shows the growth of brands for each efficacy (such as only a growth of 17 in nourishing and repairing), and chart_161_3 shows that the promotion depth of domestic brands increases while that of international brands decreases. The reasoning requires explaining the conflict (such as the strengthening of domestic brand promotions for low - growth efficacies), which depends on comparing the efficacy growth (chart_161_2) and the brand - type strategies (chart_161_3). A single chart cannot reveal the potential reasons for this strategic difference.",
+        "F": "This option is incorrect because it wrongly interprets chart_161_2 (a medium growth of 30% in whitening and spot - fading) and chart_161_3 (a slight decrease in international gift promotions). However, the growth of 30% in whitening and spot - fading is not the highest (the growth of 236 in firming and anti - aging is the highest), and the 1% decrease in international gift promotions is small and not directly related to 'brand loyalty'. This is a Hard interference item that is based on chart values but wrongly compares the growth amplitude (30% vs 236) and the promotion trend."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -149,6 +194,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "It involves chart_161_1 (the trend that the proportion of small categories such as lip care is extremely low) and chart_161_2 (the trend that the number of brands with low - growth efficacy such as soothing and anti - allergy has a small increase), so as to optimize resources.",
+        "B": "It also relies on common sense (supply - chain optimization) and does not combine the category scale distribution (such as the proportion of skin - care sub - categories) or the efficacy competition pattern in the charts, ignoring the specific basis for resource allocation.",
+        "C": "It seemingly uses the chart data (in chart_161_1, facial care accounts for 38%; in chart_161_2, the growth of soothing and anti - allergy is 25 and the growth of moisturizing is 42), but makes wrong inferences: the base of soothing and anti - allergy is large (from 190 to 215) and it is related to facial care. Reducing resources may lead to missing a stable market; although the growth of moisturizing is fast, the base is small (from 191 to 233), and the investment may be inefficient.",
+        "D": "It involves chart_161_1 (the trend that facial care has the highest proportion in the skin - care category) and chart_161_2 (the trend that the number of brands with firming and anti - aging efficacy has the fastest growth), and identifies high - potential areas through market scale and competition dynamics.",
+        "E": "This option is only based on general e - commerce common sense (high demand for skin - care products) and does not quote any chart data (such as the 38% proportion of facial care or the growth of cream efficacy). The strategy is broad and lacks specific action guidelines.",
+        "F": "It involves chart_161_2 (the trend that the number of brands with nourishing and repairing efficacy is stable but the base is large) and chart_161_3 (the trend that the gift promotion depth of domestic brands increases), and uses promotional means to improve the efficiency of low - growth markets.",
+        "G": "It wrongly quotes the chart: chart_161_1 shows the data of the makeup category (such as 47% for facial makeup), but the question is about the resource allocation of skin - care products, and makeup has nothing to do with skin - care. At the same time, the cream efficacy data (chart_161_2) shows growth opportunities in the skin - care field, and the competition is not saturated."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -171,6 +233,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "It involves chart_161_3 (the trend that the gift promotion depth of domestic brands increases) and chart_161_2 (the trend that the number of brands with firming and anti - aging efficacy has a high growth). By combining promotion with competition dynamics, it copes with market expansion.",
+        "B": "It misinterprets the chart: chart_161_2 shows that the base of the number of brands with nourishing and repairing efficacy is large (from 297 to 314), with slow but stable growth; the gift promotion depth of domestic brands in chart_161_3 is increasing, indicating that the gift strategy is effective. Stopping giving gifts may reduce the conversion rate, especially in the highly competitive cream market.",
+        "C": "It involves chart_161_3 (the trend that the gift promotion depth of international brands slightly decreases) and chart_161_2 (the trend that the base of brands with high - growth efficacy is large), and uses brand advantages to balance promotion costs.",
+        "D": "It relies on general business strategies (reducing promotions to maintain profits) and ignores the chart data (such as the trend of gift promotion depth), not considering the role of gifts in a highly competitive market.",
+        "E": "This option is based on marketing common sense (the importance of brand stories) and does not involve the gift promotion depth data or competition pattern in the charts. The strategy is vague and lacks specific promotion adjustments.",
+        "F": "It seemingly uses the chart data (the gift promotion depth of international brands in chart_161_3 decreases and the overall average is stable), but makes wrong inferences: the gift promotion depth of domestic brands increases from 37% to 43% (chart_161_3), indicating that gifts are effective; the stable overall average does not mean ineffectiveness, but may be crucial in the growing efficacy (such as firming and anti - aging).",
+        "G": "It involves chart_161_2 (the trend that the number of brands with firming and anti - aging efficacy has the fastest growth) and chart_161_3 (the trend that the overall gift promotion depth is stable but that of domestic brands increases), and innovates promotion methods to stand out."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -194,6 +273,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "It wrongly quotes the chart: chart_161_1 shows that perfume accounts for 100%, but it is an independent category without change data (such as the growth of the number of brands) and has nothing to do with skin - care. The question is about the skin - care category. Developing perfume products may disperse resources and ignore the high demand for facial care.",
+        "B": "It relies on technological trends (digital tool optimization) and ignores the specific market scale and efficacy competition in the charts, not directly related to new product development.",
+        "C": "It involves chart_161_1 (the trend that facial care has the highest proportion in the skin - care category) and chart_161_2 (the trend that the number of brands with firming and anti - aging efficacy has the fastest growth), and identifies core growth points.",
+        "D": "This option is only based on common sense of product development (covering the full product line) and does not quote any chart data (such as the 38% proportion of facial care or the growth of cream efficacy). The strategy is broad and lacks priority.",
+        "E": "It involves chart_161_1 (the trend that perfume accounts for 100% and the proportion of nail art is extremely low) and chart_161_2 (the overall growth trend of cream efficacy), avoiding low - potential markets and focusing on high - return areas.",
+        "F": "It involves chart_161_2 (the trend that the number of brands with whitening and spot - fading efficacy has a moderate growth) and chart_161_3 (the trend of changes in gift promotion depth, with an increase for domestic brands), and uses promotional leverage to enhance the attractiveness of new products.",
+        "G": "It seemingly uses the chart data (lip care accounts for 1% in chart_161_1), but makes wrong inferences: the proportion is extremely low and there is no growth data, indicating small market potential; while facial care (38%) and firming and anti - aging efficacy (the number of brands increases by 236, chart_161_2) show higher opportunities. Developing lip products may be inefficient."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

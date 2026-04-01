@@ -83,6 +83,20 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It misinterprets the chart trends and values. Chart_151_4 shows that the average price decreased from MAT2206 (150 Yuan) to MAT2306 (145 Yuan) and then increased to MAT2406 (155 Yuan), not 'continuously decreasing'. The distractor also wrongly infers 'highly sensitive demand'. However, the co - existence of sales growth (from 100 to 115 million Yuan) and average price fluctuations indicates that demand may be relatively stable, which is inconsistent with the performance of health dietary supplements (a high - growth sub - category in chart_151_2).",
+        "B": "This is an easy distractor: It is based on common sense (such as the increase in demand for health products during the epidemic) and does not rely on any chart data. It is just general industry knowledge. The distractor wrongly attributes the growth of probiotics to the 'panic buying' that is not mentioned, but the charts do not cover the epidemic or external events.",
+        "C": "Option A requires joint reasoning because it combines user behavior data (the proportion of response measures in chart_151_3, such as 'Taking probiotics for conditioning') with sales data (the sales trend and average price change of probiotics in chart_151_4). Chart_151_3 shows that the proportion of 'Taking probiotics for conditioning' (15.0%) is not the highest, but it provides a behavioral basis for the demand for probiotics. Chart_151_4 shows that the sales increased continuously from MAT2306 to MAT2406 (from 110 to 115 million Yuan), while the average price fluctuated (from 145 Yuan to 155 Yuan). The option infers that user preferences (such as the use of probiotics) may drive sales growth, rather than relying solely on other behaviors (such as self - medication). This conclusion cannot be drawn from a single chart: Chart_151_3 alone cannot explain the sales trend, and chart_151_4 alone cannot link user behavior.",
+        "D": "This is a hard distractor: It misinterprets the chart values. Chart_151_3 shows that the proportion of 'Taking over - the - counter medications' is 20.3%, which is high but not the highest ('Rest and drink plenty of water' is 18.5%, but the distractor claims it is the 'highest'). At the same time, it ignores the actual proportion of 'Taking probiotics for conditioning' (15.0%) and wrongly infers that drug treatment dominates the trend. The correct reasoning should be based on the association between the preference for probiotic conditioning and the sales trend.",
+        "E": "Option B requires joint reasoning because it combines user behavior data (the proportion of response measures in chart_151_3, such as 'Taking over - the - counter medications') with sales data (the sales trend and average price change of probiotics in chart_151_4). Chart_151_3 shows that 'Taking over - the - counter medications' accounts for a certain proportion. Chart_151_4 shows that the sales increased continuously from MAT2306 to MAT2406 (from 110 to 115 million Yuan), while the average price fluctuated (from 145 Yuan to 155 Yuan). The option infers that the growth of probiotic sales may be related to the enhanced preference of users for health - conditioning methods, rather than relying solely on drug treatment. This conclusion cannot be drawn from a single chart: Chart_151_3 alone cannot explain the sales trend, and chart_151_4 alone cannot link user behavior."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -102,6 +116,20 @@
       "label": [
         "A",
         "E"
+      ],
+      "cot": {
+        "A": "Option B requires joint reasoning because it compares the overall and sub - category growth data (the growth rates of online FMCG, food, beauty, and maternity & baby in chart_151_1) with the internal structure of health dietary supplements (the category proportion and growth rate in chart_151_2). Chart_151_1 shows that the growth rates of FMCG sub - categories such as maternity & baby are relatively high. Chart_151_2 shows that the growth rate of the traditional tonic sub - category is relatively low, but it accounts for a small proportion (25.1%) in health dietary supplements, and the overall growth of health dietary supplements is (10.1%). The option infers that the traditional tonic sub - category may not drag down the overall growth, and the higher growth rates of FMCG sub - categories such as maternity & baby may reflect different consumer demands. This conclusion cannot be drawn from a single chart: Chart_151_1 alone cannot analyze the internal structure of health dietary supplements, and chart_151_2 alone cannot compare external categories.",
+        "B": "This is a hard distractor: It misinterprets the chart proportion and influence. Chart_151_2 shows that 'Dietary Nutritional Supplements' accounts for 74.9% (with a growth of 11.5%), while 'Traditional Tonic' accounts for 25.1% (with a growth of 5.9%). The distractor reverses the proportion and claims that the traditional tonic 'has the highest proportion'. This wrongly infers that it 'drags down the overall growth', while the sub - category with a high proportion has a high growth rate and contributes to the overall growth.",
+        "C": "This is a hard distractor: It misinterprets the chart values and comparison. Chart_151_1 shows that the actual growth rate of beauty is 5.8% (not 8.1%), which is lower than the overall 10.1% of health dietary supplements. The distractor also wrongly attributes it to 'promotion activities', but the chart does not provide relevant data. The correct comparison should be based on the actual values: beauty (5.8%) < health dietary supplements (10.1%).",
+        "D": "This is an easy distractor: It is based on common sense (such as the consumption trend of Generation Z) and does not rely on chart data. It is just general industry phenomenon. The distractor wrongly attributes the growth to the 'Generation Z' that is not mentioned, but the chart does not cover consumer age or specific driving factors.",
+        "E": "Option A requires joint reasoning because it compares the overall and sub - category growth data (the growth rates of online FMCG, food, beauty, and maternity & baby in chart_151_1) with the internal structure of health dietary supplements (the category proportion and growth rate in chart_151_2). Chart_151_1 shows that the growth of online FMCG (7.8%) is higher than the overall online retail (4.9%), and the growth of maternity & baby is the highest (10.2%). Chart_151_2 shows that the overall growth of health dietary supplements is (10.1%), among which 'Dietary Nutritional Supplements' has a high proportion (74.9%) and a fast growth (11.5%), and 'Traditional Tonic' has a low proportion (25.1%) and a slow growth (5.9%). The option infers that the sub - category with a high proportion (such as 'Dietary Nutritional Supplements') drives the strong performance of health dietary supplements and compares it with FMCG sub - categories (such as 5.8% of beauty) to highlight the differences between categories. This conclusion cannot be drawn from a single chart: Chart_151_1 alone cannot analyze the internal structure of health dietary supplements, and chart_151_2 alone cannot compare external categories."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -121,6 +149,20 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on common sense (such as the impact of inflation) and does not rely on chart data. It is just general economic knowledge. The distractor wrongly attributes the growth to 'rising prices', but the chart does not cover inflation factors, and the average price of probiotics fluctuates rather than rising monotonically.",
+        "B": "This is a hard distractor: It misinterprets the chart growth rate and comparison. In chart_151_4, the sales of probiotics increased by 15% from 100 to 115 million Yuan, which is an absolute growth, while the growth rate of 'Dietary Nutritional Supplements' in chart_151_2 is 11.5% year - on - year. The distractor wrongly equates the two as having 'the same growth rate', but the calculation bases of 11.5% and 15% are different (rate vs absolute change). In addition, probiotics are not directly associated in chart_151_2, and it wrongly assumes the same mechanism.",
+        "C": "Option B requires joint reasoning because it links the sales and price data of probiotics (the sales and average price trends in chart_151_4) with the category growth of health dietary supplements (the overall and sub - category growth rates in chart_151_2). Chart_151_4 shows that the average price decreased in the middle and then rebounded, but the sales still increased. Chart_151_2 shows that the overall growth of health dietary supplements is stable (10.1%). The option infers that this may be due to the stable market demand for probiotic products, which partly explains the resilience of the overall growth rate of health dietary supplements. This conclusion cannot be drawn from a single chart: Chart_151_4 alone cannot be associated with the category background, and chart_151_2 alone cannot analyze the price impact.",
+        "D": "This is a hard distractor: It misinterprets the chart trends and values. Chart_151_4 shows that the average price decreased from MAT2306 (145 Yuan), but the sales increased by 10% from MAT2206 (100) to MAT2306 (110) and then by 4.5% to MAT2406 (115), not'soaring immediately'. The distractor also wrongly infers 'high demand elasticity'. However, the co - existence of slow - down growth and the rebound of the average price indicates that demand may be relatively stable, which is inconsistent with the overall resilience of health dietary supplements (10.1% growth in chart_151_2).",
+        "E": "Option A requires joint reasoning because it links the sales and price data of probiotics (the sales and average price trends in chart_151_4) with the category growth of health dietary supplements (the overall and sub - category growth rates in chart_151_2). Chart_151_4 shows that the sales of probiotics increased continuously from MAT2206 to MAT2406 (from 100 to 115 million Yuan), and the average price first decreased (from 150 Yuan to 145 Yuan) and then increased (to 155 Yuan). Chart_151_2 shows that the overall growth of health dietary supplements is stable (10.1%), among which 'Dietary Nutritional Supplements' has a relatively high growth (11.5%). The option infers that the average price fluctuations did not suppress sales growth, indicating strong demand (possibly because probiotics belong to 'Dietary Nutritional Supplements'), which supports the overall performance of health dietary supplements. This conclusion cannot be drawn from a single chart: Chart_151_4 alone cannot be associated with the category background, and chart_151_2 alone cannot analyze the price impact."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -144,6 +186,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combining chart_151_2 (Dietary Nutritional Supplements have a high proportion and prominent growth rate) and chart_151_3 (a relatively high proportion of consumers choose to 'Take probiotics for conditioning'), reason to optimize the product portfolio by integrating across categories to respond to consumer preferences.",
+        "B": "Combining chart_151_1 (the Maternity & Baby and Food categories have relatively fast growth) and chart_151_3 (a relatively high proportion of consumers choose to 'Improve diet' and 'Seek advice from family and friends' in case of adverse reactions), reason that resource allocation should match high - growth categories and consumer behavior trends to improve satisfaction.",
+        "C": "Combining chart_151_2 (the Traditional Tonic category has slow growth) and chart_151_3 (a relatively high proportion of consumers choose to 'Take over - the - counter medications'), reason to recommend resource re - allocation and advocate safe behaviors to avoid health risks.",
+        "D": "This option confuses the data relationship: chart_151_2 shows that the growth rate of Dietary Nutritional Supplements is 11.5%, the highest among the categories, and it accounts for 74.9%, indicating strong demand; in chart_151_3, 'Taking probiotics for conditioning' (15.0%) is a specific behavior and does not directly reflect insufficient demand for the entire category. The wrong suggestion to reduce the high - growth category and shift to the low - growth Traditional Tonic (5.9%) may damage market share.",
+        "E": "This option does not rely on chart data and is only based on general business common sense (such as 'increasing publicity to enhance influence'). It lacks specific action guidelines (such as not specifying categories or behaviors) and can be easily excluded by common sense because it does not address the growth of online FMCG or consumer behavior.",
+        "F": "This option also does not involve the charts and only makes a general suggestion of 'optimizing the supply chain' without combining any growth trends or health - coping data. It is a broad strategy and cannot directly optimize the product portfolio or consumer satisfaction.",
+        "G": "This option misinterprets the chart data: chart_151_1 shows that although the growth rate of the Beauty category is 5.8%, which is higher than the overall 4.9% of online retail, it is far lower than that of Maternity & Baby (10.2%) and Food (8.1%); at the same time, 'Improving diet' (17.4%) in chart_151_3 has no direct connection with beauty (improving diet is for health - coping, not for beauty), resulting in a deviation in the strategic direction (high - growth categories should be prioritized instead of medium - growth ones)."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -167,6 +226,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This option does not rely on the charts and is only based on general pricing common sense (such as 'lowering prices to stimulate sales'). However, it does not consider the specific market structure or sales trends (such as the fluctuation of the average price of probiotics). The strategy is broad and may ignore profit risks (such as it is unreasonable to lower prices when the average price is rising).",
+        "B": "This option misinterprets the chart trends: chart_151_4 shows that the average price of probiotics decreased from MAT2206 (150 yuan) to MAT2306 (145 yuan), but then increased in MAT2406 (155 yuan). The overall trend is not monotonically decreasing; at the same time, the proportion of 'Taking probiotics for conditioning' in chart_151_3 is 15.0%, which is medium. The price - reduction strategy ignores the potential increase in the average price and may lead to profit losses instead of improvement.",
+        "C": "Combining chart_151_4 (the sales of probiotics are continuously growing and the upward trend of the average price is obvious) and chart_151_3 (a relatively high proportion of consumers choose to 'Take probiotics for conditioning'), reason to capture growth potential through price strategies and meet consumer needs.",
+        "D": "Combining chart_151_2 (Dietary Nutritional Supplements have relatively fast growth and a high proportion) and chart_151_4 (the average price of probiotics fluctuates greatly), reason to recommend cross - category pricing coordination to prevent internal consumption.",
+        "E": "This option is also generalized and only suggests 'increasing R & D' without combining the market share of health - care diets or the sales data of probiotics. It lacks specificity (such as not specifying categories or innovation directions) and can be easily excluded by common sense.",
+        "F": "This option confuses the data: in chart_151_2, the growth rate of Traditional Tonic is only 5.9%, far lower than the 11.5% of Dietary Nutritional Supplements, and its proportion is only 25.1%; in chart_151_3, 'Seeking advice from family and friends' (13.5%) is a behavioral preference and has no direct logical connection with product innovation. The wrong combination of the low - growth category and social behavior leads to a deviation in the strategic direction (high - growth categories should be prioritized).",
+        "G": "Combining chart_151_2 (the Traditional Tonic category accounts for a certain share) and chart_151_3 (a relatively high proportion of consumers choose to 'Improve diet'), reason to promote product innovation to activate the slow - growth category."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -190,6 +266,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option does not rely on chart data and only makes a broad suggestion of 'expanding marketing channels' without combining the growth of FMCG or specific health behaviors (such as reducing risks). The strategy has no clear action guidelines and can be easily excluded by common sense.",
+        "B": "This option confuses the data and relationships: in chart_151_1, the growth rate of the Beauty category is 5.8%, lower than that of Maternity & Baby (10.2%) and Food (8.1%), so it is not the optimal category; in chart_151_3, although the proportion of 'Taking over - the - counter medications' is 20.3%, it may increase risks (the correct strategy should reduce such behaviors). The wrong suggestion to develop relevant products ignores safety risks and may damage brand loyalty.",
+        "C": "This option is generalized and is only based on general quality common sense (such as'strengthening quality control'). However, it does not quote any chart data (such as adverse - reaction behaviors or growth trends) and cannot allocate marketing or education resources in a targeted manner.",
+        "D": "Combining chart_151_3 (a relatively low proportion of consumers choose to 'Go to a regular hospital immediately') and chart_151_1 (the overall growth of online FMCG is relatively fast), reason to recommend tilting resources towards safety - behavior education and using online channels to expand influence.",
+        "E": "Combining chart_151_4 (the sales of probiotics show an obvious growth trend) and chart_151_3 (a relatively high proportion of consumers choose to 'Take probiotics for conditioning'), reason to strengthen the product value through marketing and promote healthy behaviors.",
+        "F": "This option misinterprets consumer behavior: chart_151_3 shows that 'Do nothing' accounts for the lowest proportion of 2.9%, which is a negative behavior (it should be reduced rather than promoted). The wrong suggestion to educate and promote this behavior, while the correct strategy should encourage safe methods (such as going to the hospital or resting); at the same time, it does not combine the FMCG growth data, resulting in an opposite strategic direction.",
+        "G": "Combining chart_151_1 (the Beauty and Food categories have steady growth) and chart_151_3 (although the proportion of consumers choosing to 'Do nothing' is relatively low, there are risks), reason to recommend category - specific strategies to transform negative behaviors."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

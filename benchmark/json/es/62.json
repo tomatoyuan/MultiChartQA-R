@@ -85,6 +85,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "El gráfico de cambio en el número de empresas muestra que en 2017 la tasa de crecimiento del número de empresas fue muy baja (descrita como 'crecimiento lento'), pero el gráfico de escala de ventas de la industria de diseño de CI muestra que la tasa de crecimiento de la escala de ventas fue alta (descrita como 'fuerte'), lo que requiere un análisis entre gráficos para descubrir la falta de sincronización en las tasas de crecimiento.",
+        "B": "Esta es una opción de interferencia fácil: se basa completamente en el conocimiento general de la industria (el crecimiento del número de empresas no siempre conduce a un crecimiento sincronizado de las ventas), sin involucrar valores del gráfico; en el gráfico real, como en 2016 el número de empresas aumentó un 85,1% pero las ventas solo crecieron un 24,1%, mostrando una falta de coincidencia.",
+        "C": "El gráfico de cambio en el número de empresas muestra que en 2016 la tasa de crecimiento del número de empresas fue extremadamente alta (descrita como 'aumento drástico'), mientras que el gráfico de escala de ventas de la industria de diseño de CI muestra que la tasa de crecimiento de la escala de ventas del mismo año fue baja (descrita como 'amplitud relativamente pequeña'), lo que requiere la combinación de ambos gráficos para comparar las diferencias en las tendencias de crecimiento.",
+        "D": "Esta es una opción de interferencia difícil: aparentemente se basa en valores del gráfico, pero con cálculos erróneos; chart_62_2 muestra que en 2021 la escala de ventas creció un 23,3% (o un cálculo numérico del 47,4%, pero oficialmente se da 23,3%), no un 30%, y en 2021 el crecimiento de ventas fue relativamente alto (23,3% vs 26,7% del número de empresas), en realidad relativamente sincronizado, por lo tanto crea un malentendido de 'crecimiento insuficiente'.",
+        "E": "Tanto el gráfico de cambio en el número de empresas como el gráfico de escala de ventas de la industria de diseño de CI muestran que en 2020 el número de empresas y la escala de ventas crecieron rápidamente, pero al comparar con los datos de 2016 (de ambos gráficos), se resalta el fenómeno de falta de coincidencia en 2016, dependiendo del razonamiento conjunto para identificar el patrón.",
+        "F": "Esta es una opción de interferencia difícil: aparentemente se basa en gráficos (chart_62_1 y chart_62_2), pero con una comprensión errónea de los datos; en chart_62_2 faltan datos de escala de ventas para 2018, no se puede calcular la tasa de crecimiento, y chart_62_3 proporciona el mercado general pero no se usa para esta pregunta, por lo tanto 'la tasa de crecimiento de la escala de ventas fue solo del 15%' es un error numérico ficticio.",
+        "G": "Esta es una opción de interferencia fácil: no depende de datos del gráfico, solo se basa en conocimiento general (como que el año inicial puede tener una base baja), pero en el gráfico no hay datos de tasa de crecimiento para 2014, y el enfoque de la pregunta son 'años de crecimiento rápido', en 2014 el número de empresas no creció (es el año de referencia), por lo tanto es irrelevante y erróneo."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "El gráfico de escala de ventas de la industria de diseño de CI proporciona las ventas de la industria de diseño para 2019, 2020 y 2021, y el gráfico de escala de ventas del mercado general de CI proporciona las ventas del mercado general para los mismos años, mediante el cálculo conjunto de la proporción relativa (sin escribir valores directamente) se concluye que la participación se expandió anualmente, dependiendo de datos entre gráficos.",
+        "B": "El gráfico de escala de ventas de la industria de diseño de CI muestra que la tasa de crecimiento de la escala de ventas de la industria de diseño es alta (como en 2020 y 2021), mientras que el gráfico de escala de ventas del mercado general de CI muestra que la tasa de crecimiento del mercado general es baja (inferida a través de la tendencia de ventas), lo que requiere la combinación de ambos gráficos para comparar las tasas de crecimiento e inferir la conexión implícita del aumento de participación.",
+        "C": "Esta es una opción de interferencia fácil: conocimiento general vago de la industria (el número de empresas afecta la participación), pero no utiliza datos específicos del gráfico; el cambio real en la participación depende del crecimiento de la escala de ventas, no está directamente relacionado con el número de empresas, y la pregunta no involucra el gráfico del número de empresas.",
+        "D": "Esta es una opción de interferencia difícil: aparentemente se basa en la comparación de tasas de crecimiento, pero con una comprensión errónea de la participación; en 2021 la industria de diseño creció un 23,3% (chart_62_2), el mercado general creció un 18,2% (calculado de chart_62_3: (10458 - 8848) / 8848 ≈ 18,2%), y la participación aumentó del 34,6% al 43,2%, en realidad se expandió, pero la opción de interferencia inventa una contradicción de 'participación reducida'.",
+        "E": "Esta es una opción de interferencia difícil: aparentemente se basa en gráficos (chart_62_2 y chart_62_3), pero con un cálculo numérico erróneo; en 2019 las ventas de la industria de diseño 2519 mil millones de yuanes ÷ mercado general 7562 mil millones de yuanes ≈ 33,3%, pero la opción de interferencia calcula erróneamente como 25%, exagerando la brecha.",
+        "F": "El gráfico de escala de ventas de la industria de diseño de CI muestra un crecimiento fuerte de la industria de diseño en 2021, el gráfico de escala de ventas del mercado general de CI muestra crecimiento del mercado general, pero al comparar ambas tendencias (la industria de diseño crece más rápido), se infiere su efecto en el aumento de la participación, lo que requiere razonamiento conjunto.",
+        "G": "Esta es una opción de interferencia fácil: no depende de gráficos, solo se basa en suposiciones de conocimiento general (como que el mercado general puede dominar), pero los gráficos reales muestran que la participación aumenta anualmente (33,3% en 2019, 34,6% en 2020, 43,2% en 2021), por lo tanto es erróneo."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia difícil: aparentemente se basa en valores, pero con lógica errónea; el crecimiento del número de empresas del 24,6% (chart_62_1) no tiene una relación directa de proporción con el crecimiento de ventas (como en 2016 el crecimiento de empresas fue 85,1% pero las ventas solo 24,1%), y 'menos del 30%' es un umbral arbitrario, no puede explicar el conflicto.",
+        "B": "Esta es una opción de interferencia fácil: utiliza conocimiento general de la industria (impacto del mercado general), pero no involucra datos de chart_62_3; la pregunta solo requiere combinar con el gráfico del número de empresas, el mercado general no se usa para esta pregunta, por lo tanto es irrelevante y erróneo.",
+        "C": "Esta es una opción de interferencia difícil: aparentemente combina gráficos (chart_62_1 y chart_62_2), pero con error de causalidad; el crecimiento del número de empresas del 24,6% no necesariamente causa directamente un crecimiento de ventas del 25% (las tasas de crecimiento real de ventas son 21,6% y 19,6%), y 'saturación del mercado' es una especulación subjetiva, sin apoyo del gráfico.",
+        "D": "El gráfico de escala de ventas de la industria de diseño de CI tiene un conflicto interno (tasas de crecimiento de 21,6% y 19,6% para 2020), pero el gráfico de cambio en el número de empresas muestra que en 2020 el número de empresas creció rápidamente (descrito como 'crecimiento rápido'), el razonamiento conjunto puede inferir que la tasa de crecimiento más alta (21,6%) puede ser más razonable, pero el conflicto requiere explicación externa.",
+        "E": "El gráfico de cambio en el número de empresas muestra crecimiento en el número de empresas, pero la tasa de crecimiento más baja en el gráfico de escala de ventas de la industria de diseño de CI (19,6%) puede reflejar problemas de eficiencia de ventas (como baja contribución de nuevas empresas), dependiendo del análisis de ambos gráficos para explicar el conflicto.",
+        "F": "Esta es una opción de interferencia fácil: no depende de gráficos, se basa en conocimiento general (el conflicto puede deberse a errores), pero ignora el contexto proporcionado por el gráfico del número de empresas (como que el crecimiento del 24,6% en empresas en 2020 puede afectar las ventas), por lo tanto es irrelevante.",
+        "G": "El conflicto está dentro del gráfico de escala de ventas de la industria de diseño de CI, pero el gráfico de cambio en el número de empresas proporciona el contexto del número de empresas (tendencia de crecimiento), el razonamiento conjunto indica que la inconsistencia de datos puede deberse a diferentes métodos estadísticos, no algo que un solo gráfico pueda resolver."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Los subsidios educativos son una sugerencia común para la industria, pero no se combinan con la dinámica del aumento repentino del número de empresas o la expansión de la escala de ventas en los gráficos (por ejemplo, el aumento repentino del número en 2016, pero el crecimiento de las ventas no alcanzó un pico sincrónico), lo que resulta genérico y sin enfoque específico.",
+        "B": "La opción A combina chart_62_1 (por ejemplo, la tasa de crecimiento del número de empresas en 2017 fue extremadamente baja, solo 1.3%) y chart_62_2 (la tasa de crecimiento de la escala de ventas en el mismo año alcanzó 26.1%), y deduce que la concentración de recursos mejora la eficiencia.",
+        "C": "Esta es una opción de distracción difícil: Aparentemente se utilizan datos de los gráficos (se cita que el número de empresas creció un 85.1% y la escala de ventas creció un 24.1% en 2016), pero se deduce erróneamente que el crecimiento de la escala de ventas \"alcanzó un pico\". En realidad, el crecimiento de la escala de ventas en 2017 fue del 26.1%, que es más alto, y la eficiencia podría haberse reducido después del aumento repentino del número en 2016 debido a la llegada de nuevas empresas (la opción correcta A sugiere apoyar a las empresas existentes durante la etapa de integración). Esto confunde las tendencias y conduce a una asignación errónea de recursos.",
+        "D": "Esta es una opción de distracción fácil: Se basa en conocimientos económicos generales (la exención fiscal estimula el crecimiento), pero ignora la dinámica de los gráficos (la tendencia de cambio del número de empresas y la escala de ventas) y no tiene una guía de acción específica. Los formuladores de políticas deben ajustar los recursos según las tendencias, en lugar de aplicar una medida general.",
+        "E": "La opción B combina chart_62_1 (por ejemplo, la tasa de crecimiento del número de empresas entre 2020 y 2021 superó el 24%) y chart_62_2 (la tasa de crecimiento de la escala de ventas en el mismo período fue de aproximadamente 21 - 23%), lo que muestra que las nuevas empresas contribuyen a las oportunidades del mercado.",
+        "F": "La opción C combina chart_62_1 (fluctuación del número de empresas, como el aumento repentino en 2016 seguido de un desaceleramiento) y chart_62_2 (crecimiento estable de la escala de ventas), y enfatiza el equilibrio dinámico para evitar la reducción de la eficiencia.",
+        "G": "Esta es una opción de distracción difícil: Basada en la tasa de crecimiento de la escala de ventas en los gráficos (un crecimiento del 21.5% en 2019), se interpreta erróneamente como \"relativamente suave\", pero la tasa de crecimiento real sigue siendo alta (superior al promedio histórico) y se ignora la dinámica del número de empresas (el crecimiento del número se desaceleró a un 4.8% en 2019). La opción correcta C enfatiza el equilibrio dinámico, en lugar de simplemente reducir el apoyo."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: La diversificación es una sugerencia de inversión general, pero no se combina con el crecimiento histórico (por ejemplo, una tasa de crecimiento alta y estable) o la predicción futura del mercado (una gran expansión en 2025) en los gráficos, lo que resulta vacía y sin soporte de datos específicos, y no puede optimizar los retornos para la industria de diseño de circuitos integrados.",
+        "B": "La opción C combina chart_62_2 (fluctuación de la tasa de crecimiento, como entre 2019 y 2021) y chart_62_3 (predicción de un crecimiento acelerado), y sugiere una estrategia flexible para hacer frente a los cambios.",
+        "C": "La opción B combina chart_62_3 (la predicción de la escala en 2025 es mucho más alta que en etapas anteriores) y chart_62_2 (crecimiento continuo de la escala histórica), y enfatiza la implementación de la capacidad productiva para satisfacer la demanda futura.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente se citan datos de predicción futura (17218 millones de yuanes en 2025 en chart_62_3), pero se ignora erróneamente la fluctuación de la tasa de crecimiento histórica (por ejemplo, un ligero cambio del crecimiento del 21.5% en 2019 al 23.3% en 2021). Las opciones correctas B y C enfatizan la coincidencia del ritmo, en lugar de una expansión descontrolada, lo que podría conducir a un exceso de capacidad productiva.",
+        "E": "Esta es una opción de distracción difícil: Basada en datos históricos (un crecimiento del 26.1% de la escala de ventas en 2017), se interpreta erróneamente como \"se debe reducir la inversión en la etapa de pico\", pero el crecimiento real sigue siendo fuerte (un crecimiento del 23.3% en 2021) y la predicción futura es aún más alta. La opción correcta A sugiere aumentar la inversión en investigación y desarrollo durante la etapa estable, y esta opción de distracción hace lo contrario, confundiendo la sostenibilidad del crecimiento.",
+        "F": "La opción A combina chart_62_2 (la tasa de crecimiento de la escala de ventas se mantiene estable en el rango del 20 - 26%) y chart_62_3 (predicción de un crecimiento significativo de la escala del mercado en 2025), y deduce que la inversión en investigación y desarrollo mantendrá un alto crecimiento.",
+        "G": "Esta es una opción de distracción fácil: La estrategia de ajuste a corto plazo viola el enfoque de \"a mediano y largo plazo\" en la pregunta (basado en datos históricos y predicciones futuras) y se ignora la tendencia estable en los gráficos (la tasa de crecimiento de la escala de ventas ha sido superior al 20% durante mucho tiempo), lo que es un error de conocimiento general."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Simplificar el proceso de registro anima a las nuevas empresas, pero se ignora que el número de empresas ya ha aumentado repentino según los gráficos (por ejemplo, después de un crecimiento del 85.1% en 2016, se desaceleró a un 1.3% en 2017), lo que podría conducir a una competencia excesiva y una dispersión de recursos, violando el objetivo de crecimiento sostenible.",
+        "B": "La opción A combina chart_62_1 (por ejemplo, la tasa de crecimiento del número de empresas fue extremadamente alta en 2016 y luego cayó bruscamente en 2017), chart_62_2 (una tasa de crecimiento de la escala de ventas destacada en 2017) y chart_62_3 (crecimiento futuro de la escala), y deduce que la integración mejora la eficiencia.",
+        "C": "Esta es una opción de distracción fácil: La responsabilidad social empresarial es un elemento común del crecimiento sostenible, pero no está relacionada con el aumento repentino del número de empresas (por ejemplo, en 2016) o la dinámica de expansión de la escala del mercado en los gráficos. La expresión es genérica y no tiene medidas específicas, y se puede descartar fácilmente por conocimiento general.",
+        "D": "La opción C combina chart_62_1 (por ejemplo, un alto crecimiento del número de empresas entre 2020 y 2021) y chart_62_2 (un alto crecimiento de la escala de ventas en el mismo período), y sugiere incentivos durante la etapa de pico para aprovechar las oportunidades.",
+        "E": "La opción B combina chart_62_2 (tasa de crecimiento de la escala de ventas estable), chart_62_3 (predicción de expansión del mercado futuro) y chart_62_1 (fluctuación del crecimiento del número de empresas), y enfatiza la innovación para hacer frente al mercado.",
+        "F": "Esta es una opción de distracción difícil: Se citan datos de predicción futura (17218 millones de yuanes en 2025 en chart_62_3), pero se ignora erróneamente la fluctuación del número de empresas (por ejemplo, un crecimiento del 24.6% en 2020 seguido de un 26.7% en 2021) y los cambios históricos de la tasa de crecimiento de la escala de ventas. La opción correcta C enfatiza la alineación con la tendencia a largo plazo, y esta sugerencia podría conducir a una inversión ineficiente y un crecimiento no sostenible.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente se combinan datos de los gráficos (un crecimiento del 85.1% del número de empresas y un crecimiento del 24.1% de la escala de ventas en 2016), pero se deduce erróneamente un \"alto crecimiento sincrónico\". En realidad, el crecimiento de las ventas en 2016 del 24.1% fue inferior al 26.1% en 2017, y la eficiencia disminuyó después del aumento repentino del número (la opción correcta A sugiere integrar después del aumento repentino). Esta opción de distracción interpreta erróneamente la relación y podría agravar la dispersión de recursos."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     }
   ]

@@ -86,6 +86,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor. Superficially, it is based on the chart data (chart_136_1 and chart_136_2), but there is a misunderstanding of the values: The sales volume in 2020 was 85.0 million pieces (a decrease from 96.0 million pieces in 2019), and it only increased to 102.0 million pieces in 2021. The distractor wrongly claims that the sales volume increased significantly in 2020, while in fact, it decreased and then recovered.",
+        "B": "It is necessary to combine chart_136_1 (the growth trends of sales volume and customer flow) and chart_136_2 (the stable number of stores) to identify external factors (such as economic recovery). Since the increase in sales volume (chart_136_1) is inconsistent with the change in the number of stores (chart_136_2), it is necessary to compare the time trends across the charts.",
+        "C": "This is a hard distractor. Based on the chart data (chart_136_1), but there is a wrong interpretation of the values: The actual customer flow in 2023 was 750.0 million people (an increase from 600.0 million people in 2022). The distractor fabricates a decrease to 550.0 million people and wrongly associates it with the increase in sales volume.",
+        "D": "It is necessary to combine chart_136_1 (customer flow data: increased to 750 million people in 2023) and chart_136_2 (store number data: the growth rate was negative or zero from 2020 - 2023) to infer the'store efficiency'. For example, calculate the average customer flow per store (customer flow in 2023 / number of stores ≈ 283,000 people per store vs. ≈ 242,000 people per store in 2020), which shows an improvement in efficiency, but this cannot be obtained from a single chart.",
+        "E": "This is an easy distractor. It is based on common knowledge in the retail industry (such as the impact of online channels), but the chart does not mention online sales or details about the pandemic. Therefore, it cannot be inferred from the given data.",
+        "F": "It is necessary to combine chart_136_2 (the trend of the number of stores: growth stagnated after 2019) and chart_136_3 (price distribution: 41% of charms are in the price range of 350 - 500 yuan, and 46% of bracelets are in the price range of 600 - 1000 yuan) to infer the impact of the price strategy on sales volume (mid - and low - priced products may increase the purchase rate), but chart_136_3 alone cannot explain the increase in sales volume.",
+        "G": "This is an easy distractor. It is based on economic common sense (such as economic recovery increasing consumption), but the chart does not provide data on the global economy or income. Therefore, the correlation between this factor and the increase in sales volume cannot be verified."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor. Based on the chart data (chart_136_1), but there is a misunderstanding of the gap: The actual customer flow in 2022 was 600.0 million people (a decrease from 670.0 million people in 2021). The distractor fabricates an increase to 700.0 million people and wrongly associates it with the increase in the number of stores.",
+        "B": "It is necessary to combine chart_136_1 (customer flow data) and chart_136_2 (the downward trend of the number of stores) to calculate the 'customer flow per store' (for example, in 2021, the number of stores was 2619, and the customer flow was 670 million ≈ 256,000 people per store vs. ≈ 242,000 people per store in 2020), which shows an increase in intensity. It depends on the numerical reasoning of the two charts.",
+        "C": "This is a hard distractor. Superficially, it is based on the chart data (chart_136_1 and chart_136_2), but there is a wrong sorting of the values: The actual customer flow in 2021 was 670.0 million people (an increase from 650.0 million people in 2020). The distractor wrongly claims that it decreased to 650.0 million people and fabricates a simultaneous decrease.",
+        "D": "This is an easy distractor. It depends on common knowledge in the retail industry (such as the impact of online channels), but the chart does not mention online sales or details about the pandemic. Therefore, it cannot be inferred from the given data.",
+        "E": "It is necessary to combine chart_136_1 (the customer flow was 600 million people in 2022 and increased to 750 million people in 2023) and chart_136_3 (price distribution: 40% of bracelets are below 600 yuan) to infer the impact of price (low prices may boost customer flow). However, chart_136_3 alone does not contain time trends and needs to be compared across charts with the change in customer flow.",
+        "F": "It is necessary to combine chart_136_1 (the customer flow was 650 million people and the sales volume was 85 million pieces in 2020) and chart_136_2 (the number of stores decreased by 2.9% in 2020) to identify the conflict: The number of stores decreased, but the customer flow was high. It is necessary to infer 'location optimization' and refer to the decrease in sales volume (conversion rate problem), but a single chart cannot explain the contradiction.",
+        "G": "This is an easy distractor. It is based on product common sense (such as improved quality enhancing loyalty), but it does not depend on the chart data. The chart does not involve information on product quality or design, so this explanation cannot be supported by the data."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor. It is based on price common sense (such as price cuts attracting consumers), but it does not depend on the chart data. The chart shows that the price distribution is a static range and does not mention a price - cut strategy. Therefore, it cannot be inferred from the data.",
+        "B": "This is an easy distractor. It depends on common knowledge in the industry (such as high - end products increasing the premium), but in the chart, only 14.0% of bracelets are above 1000 yuan, which is not a significant increase. The distractor ignores the structure dominated by mid - and low - priced products.",
+        "C": "This is a hard distractor. Based on the chart data (chart_136_3 and chart_136_1), but there is a wrong interpretation of the gap: The proportion of bracelets below 600 yuan is 40.0%, which is a fixed distribution. The distractor fabricates a 'decrease' and wrongly associates it with the increase in sales volume in 2023 (in fact, it is the result of the overall strategy, not the change in a single price segment).",
+        "D": "It is necessary to combine chart_136_3 (the breadth of price distribution) and chart_136_2 (the decrease in the number of stores: negative growth from 2020 - 2021) to implicitly connect 'brand adaptability'. Since the sales volume did not collapse when the number of stores decreased (chart_136_1: the sales volume was 102 million in 2021), but a single chart does not show this association.",
+        "E": "It is necessary to combine chart_136_3 (bracelet prices: 14% are above 1000 yuan and 46% are in the range of 600 - 1000 yuan) and chart_136_1 (the increase in customer flow: reaching 750 million in 2023) to infer the pricing balance (the proportion of high - end products is small, but the customer flow increases). It is necessary to analyze the relationship between market coverage and demand across the charts.",
+        "F": "It is necessary to combine chart_136_3 (charm prices: 41% are in the range of 350 - 500 yuan and 24% are below 350 yuan) and chart_136_1 (sales volume trend: decreased in 2020 and recovered in 2021) to infer the role of mid - and low - priced products in the recovery, but chart_136_1 alone cannot explain the role of price.",
+        "G": "This is a hard distractor. Superficially, it is based on the chart data (chart_136_3), but there is a misunderstanding of the values: The actual proportion of charms below 350 yuan is 24.0%, while the proportion of those in the range of 350 - 500 yuan is 41.0%, which is the largest share. The distractor wrongly claims that low - priced products dominate and wrongly associates it with the decrease in sales volume in 2020 (in fact, it is due to external factors)."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: Apparently using the data from chart_136_3 (12% of charms are priced above 700 yuan and 14% of bracelets are priced above 1000 yuan), but misinterpreting the 'highest' proportion (in fact, the mid - end price ranges have higher proportions). The chart shows that the proportion of high - end products is small. Promoting high - end products may ignore the mainstream preferences, and the sales growth (from chart_136_1) is driven by mid - end products, confusing the numerical relationship.",
+        "B": "Combining chart_136_3 (in the price distribution of charms and bracelets, the price ranges of 350 - 500 yuan and 600 - 1000 yuan have the highest proportions, reflecting the preference for mid - end products) and chart_136_1 (the continuous growth trend of sales from 2021 - 2023).",
+        "C": "This is an easy distractor: The strategy is based on general marketing common sense (such as 'increasing advertising to enhance influence') without referring to any chart data (such as sales volume and price distribution). It is too broad without specific action guidelines, ignoring the dominance of mid - end prices and the sales growth trend in the charts. It can be excluded by common sense (advertising investment needs data support; otherwise, it may be inefficient).",
+        "D": "Combining chart_136_1 (the customer flow increased significantly in 2023, and the sales volume reached a peak) and chart_136_2 (the number of concept stores remained stable, indicating that the growth of customer flow was not due to the expansion of new stores).",
+        "E": "This is an easy distractor: The strategy relies on common business logic ('reducing prices to stimulate demand') but does not combine the charts. The price distribution data shows that the medium - priced products are dominant (41% of charms are in the 350 - 500 yuan range and 46% of bracelets are in the 600 - 1000 yuan range). A significant price cut may damage the brand, and the sales volume has been growing steadily in recent years (2021 - 2023), so there is no need for radical price cuts.",
+        "F": "Combining chart_136_1 (the customer flow fluctuated, for example, it decreased in 2022 but the sales volume remained stable) and chart_136_3 (the price distribution shows that the proportion of low - priced products is considerable, and online channels can attract price - sensitive consumers), while implicitly relying on external knowledge (online channels can buffer the fluctuations of physical stores).",
+        "G": "This is a hard distractor: Apparently using the customer flow data from chart_136_1 (the customer flow decreased to 60 million people in 2022), but wrongly inferring'reducing marketing'. There is no strict positive correlation between customer flow and sales volume (the customer flow decreased in 2022 but the sales volume was still as high as 103 million pieces). Reducing marketing may miss opportunities; the chart does not support the optimization of cost - efficiency."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combining chart_136_2 (after a negative growth in the number of concept stores from 2020 - 2021, it remained stable at 2651 stores from 2022 - 2023 with a growth rate of 0%) and chart_136_1 (the customer flow increased significantly to 750 million people in 2023, and the sales volume increased synchronously).",
+        "B": "Combining chart_136_1 (the customer flow increased significantly in 2023) and chart_136_2 (the number of concept stores has not increased in recent years, indicating a stagnation in expansion), implicitly relying on external knowledge (new stores should be added based on customer flow data).",
+        "C": "Combining chart_136_2 (the negative growth of concept stores from 2020 - 2021 reflects the inefficiency of some stores) and chart_136_1 (the customer flow decreased in 2022 but rebounded in 2023, showing regional differences). The strategy conforms to the values (resource re - allocation rather than blind lay - offs).",
+        "D": "This is a hard distractor: Apparently using the growth rate data from chart_136_2 (such as 10.8% in 2018, 2.4% in 2019, and - 2.9% in 2020), but wrongly applying the threshold ('below 5%'). The chart shows that the growth rate fluctuates greatly (such as a positive growth of 1.2% in 2022). Closing low - growth stores ignores the stable trend (0% growth in 2023 but the number remains unchanged) and does not consider the synchronous increase in customer flow (750 million people in 2023), confusing the interpretation of the trend.",
+        "E": "This is an easy distractor: The strategy is based on general retail knowledge ('expanding in emerging markets') without referring to chart data (such as the stability of the number of concept stores or the fluctuation of customer flow). The chart shows that the number of concept stores remained stable from 2022 - 2023 (2651 stores), so there is no need for expansion. It can be excluded by common sense (expansion needs data support).",
+        "F": "This is an easy distractor: The strategy is too broad ('enhancing the digital experience') and does not rely on the chart trends. It does not combine the changes in the number of concept stores (chart_136_2 shows a stable situation after a negative growth in recent years) or the customer flow data (fluctuation in chart_136_1), and has no specific resource allocation guidelines. It is a common - sense suggestion.",
+        "G": "This is a hard distractor: Apparently combining the customer flow data from chart_136_1 (a peak of 750 million people in 2023) and the concept store data, but wrongly associating 'new stores'. The number of concept stores remained stable in 2023 (2651 stores) with no growth; a peak in customer flow does not necessarily require new stores (it may be optimized through existing stores), and there was no corresponding reduction when the customer flow was low in 2022 (600 million people), which is a logical contradiction."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Combining chart_136_3 (41% of charms are in the 350 - 500 yuan range and 46% of bracelets are in the 600 - 1000 yuan range, reflecting the dominance of mid - end products) and chart_136_1 (the sales growth trend from 2021 - 2023).",
+        "B": "This is an easy distractor: The strategy relies on general customer service knowledge ('enhancing online service') without combining specific chart data. It does not use the price distribution (from chart_136_3) or sales volume data (from chart_136_1) and has no guidance for product portfolio adjustment. It is a general suggestion.",
+        "C": "This is a hard distractor: Apparently combining the sales trend from chart_136_1 (sales increased from 102 million to 107 million pieces from 2021 - 2023) and the price distribution, but wrongly inferring'slow growth'. The sales volume increased year by year (reaching a peak of 107 million pieces in 2023) with no sign of slow growth; reducing mid - end products (which have the highest proportion) may lead to the loss of the core market, wrongly associating with competition (the chart does not mention competition).",
+        "D": "Combining chart_136_3 (12% of charms are priced above 700 yuan and 14% of bracelets are priced above 1000 yuan, indicating room for high - end products) and chart_136_1 (the sales volume reached 107 million pieces in 2023, and the growth trend supports a premium strategy).",
+        "E": "This is an easy distractor: The strategy is based on common product innovation logic ('limited - edition products to attract attention') without referring to chart data (such as price distribution or sales trend). It is too broad without data support, ignoring the dominance of mid - end prices and the stable growth in the charts. It can be excluded by common sense (innovation needs to align with preferences).",
+        "F": "This is a hard distractor: Apparently using the price data from chart_136_3 (24% of charms are priced below 350 yuan and 40% of bracelets are priced below 600 yuan), but misinterpreting the 'high proportion' (in fact, the mid - end price ranges have higher proportions: 41% of charms are in the 350 - 500 yuan range and 46% of bracelets are in the 600 - 1000 yuan range). Increasing low - priced products ignores the mainstream preferences, and the sales growth (from chart_136_1) is driven by mid - end products, confusing the numerical relationship.",
+        "G": "Combining chart_136_3 (24% of charms are priced below 350 yuan and 40% of bracelets are priced below 600 yuan, indicating the demand for low - priced products) and chart_136_1 (the sales volume declined in 2020 but recovered in 2023. Low - priced products can buffer risks)."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     }
   ]

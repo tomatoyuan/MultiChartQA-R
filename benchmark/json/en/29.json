@@ -87,6 +87,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "It depends on the trend structures of the two charts. The 'The time period with the highest World Cup search heat' chart uses sparse data points (7 time periods), while the '24 - hour trend chart of World Cup search heat' chart has 24 data points. For example, the search heat at 12:00 is recorded as 12 million in the 'The time period with the highest World Cup search heat' chart, but 18 million in the '24 - hour trend chart of World Cup search heat'. The difference may be due to the former chart averaging the time periods or selecting representative points.",
+        "B": "Misinterpretation of the values: The search heat at 12:00 in chart_29_3 is 12 million, but at 12:00 in chart_29_4 it is 18 million (not 12 million), and at 13:00 it is 22 million. Therefore, there is an obvious inconsistency.",
+        "C": "Based on the comparison of peaks and valleys. In the 'The time period with the highest World Cup search heat' chart, the search heat at 12:00 is 12 million (near the valley), while in the '24 - hour trend chart of World Cup search heat', it is 18 million (higher than the valley of 11 million but lower than the peak of 32 million). The conflict arises because one chart emphasizes the peaks and the other shows the full picture. We need to compare the trends of the two charts to explain it.",
+        "D": "This is based on common sense of user behavior (less searching during lunch breaks), but the charts actually show that the search heat at noon is relatively high in chart_29_4 (18 million at 12:00 and 22 million at 13:00). It wrongly imposes common sense on the data.",
+        "E": "We need to combine the 'The time period with the highest World Cup search heat' chart (which only shows specific time periods such as 0, 4, 8, 12, 16, 20, 24 o'clock) and the '24 - hour trend chart of World Cup search heat' chart (which provides detailed hourly data). The former simplifies the data and only highlights the peaks (e.g., about 30 million at 8:00 and 16:00), while the latter shows that the actual search heat at 12:00 is 18 million, but the former records it as 12 million, indicating that the simplified processing results in lower values for non - peak periods.",
+        "F": "This option is based on common sense of data collection (device differences may affect data), but the charts do not mention the data sources, so it has nothing to do with the chart content and is a general statement.",
+        "G": "Wrong identification of the valley: The valley value in chart_29_4 is 11 million (from 0 - 4 o'clock), and the search heat at noon (18 - 22 million) is higher than the valley. But this option wrongly identifies noon as the lowest point."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "It refers to common sense in the media industry (promotion affects heat), but the charts do not involve media factors, so it has nothing to do with the data.",
+        "B": "Wrong association of dates and events: The search heat on the 17th was indeed relatively low at 22.04 million. Although the heat of the Tunisia vs. England match was one of the lowest at 0.65 million, the search heat on the 18th rebounded to 23.25 million (higher than on the 17th). And the distribution of event heat does not specify the dates. This option's forced association does not hold.",
+        "C": "We need to combine the 'World Cup Heat Trend in the First Round of the Group Stage' chart (where the heat decreased daily from 46.98 million on the 14th) and the 'Top 5 Popularity Ranking of the First Round of the World Cup Group Stage' chart (where the heat of the Russia vs. Saudi Arabia match was the highest at 1.5 million). The implied connection is that the opening day (the 14th) had the highest heat, which may be related to this event. However, the heat of a single event (1.5 million) is only a small part of the daily heat (46.98 million). We need to infer that the event acted as a catalyst to boost the overall search heat.",
+        "D": "It depends on the 'World Cup Heat Trend in the First Round of the Group Stage' chart (the heat rebounded to 28.92 million on the 19th) and the 'Top 10 Popularity Ranking of Football Stars' chart (e.g., Messi's popularity is 8 million and Ronaldo's is 2 million). Although the event chart does not specify the dates, high - popularity stars (e.g., Ronaldo) may have participated in later events (e.g., the heat of the Portugal vs. Spain match was 1.36 million). We can jointly infer that the popularity of stars indirectly affected the rebound of the daily heat.",
+        "E": "Based on common sense of events (the quality of the game affects interest), but the charts do not provide data on the quality of the games. It is a generalization that does not rely on the charts.",
+        "F": "Based on the 'World Cup Heat Trend in the First Round of the Group Stage' chart (the heat fluctuated, e.g., 23.25 million on the 18th) and the 'Top 5 Popularity Ranking of the First Round of the World Cup Group Stage' chart (the heat of all events was below 1.5 million). The heat of a single event is far lower than the daily heat, indicating that the decrease in heat cannot be attributed to a single event. We need to combine the charts to infer other factors (e.g., the superposition of multiple events or external events).",
+        "G": "Wrong influence of stars: Messi has the highest popularity at 8 million, but the event dates are not specified in the chart (we cannot confirm that there was a Messi - related event on the 14th). And the high heat on the 14th may be due to the opening game (Russia vs. Saudi Arabia, 1.5 million), rather than a single star."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -133,6 +167,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "It depends on the '24 - hour trend chart of World Cup search heat' chart (the heat at peak periods is significantly higher than at valley periods) and the 'Top 10 Popularity Ranking of Football Stars' chart (Messi has the highest popularity of 8 million). The search for stars like Messi may surge during peak periods (e.g., during game periods). However, the '24 - hour trend chart of World Cup search heat' shows regular peaks (at 8:00 and 16:00). We need to jointly infer that the contribution of stars is a partial reason, but the overall heat is dominated by the events.",
+        "B": "Wrong influence of star search time: Ronaldo's popularity is 2 million (not the highest), and the star search time is not provided in the chart. The high heat at 16:00 may be due to consecutive events, but this option wrongly attributes it to the star.",
+        "C": "Based on common sense of user schedules (more searching during commuting), but the charts do not verify this factor. It is a general inference.",
+        "D": "It refers to common sense in the advertising industry (promotion affects heat), but the charts do not mention advertising, so it has nothing to do with the data.",
+        "E": "Based on the '24 - hour trend chart of World Cup search heat' chart (the heat reaches a secondary peak of 31 million at 16:00 and drops below 12 million after 20:00) and the 'World Cup Heat Trend in the First Round of the Group Stage' chart (the daily heat may be higher in the afternoon). For example, the peak at 16:00 is consistent with the possible time arrangement of the events, while the late - night valley (e.g., 11 million at 24:00) is due to no events. We need to cross - reference the charts to infer the influence of user schedules and event distributions.",
+        "F": "Wrong association of event time: The heat of the Russia vs. Saudi Arabia match is 1.5 million, but the game time is unknown. The heat peak at 8:00 may be due to other reasons (e.g., the user getting up time). This option misinterprets the relationship between the event and the peak.",
+        "G": "We need to combine the '24 - hour trend chart of World Cup search heat' chart (the peaks are at 8:00 with 32 million and 16:00 with 31 million) and the 'Top 5 Popularity Ranking of the First Round of the World Cup Group Stage' chart (e.g., the heat of the Russia vs. Saudi Arabia match is 1.5 million). Although the event chart does not provide specific times, the peak periods (8:00 and 16:00) usually correspond to the start of the games. We need to infer that high - heat events (e.g., the opening game) may be scheduled at these times, boosting the search peak."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Option 2 combines chart_29_1 (the heat shows an upward trend on later dates such as the 18th - 19th) and chart_29_4 (the hourly trend can be used as a reference for release density), and guides the adjustment of the release frequency through the date - heat trend.",
+        "B": "This easy distraction wrongly suggests increasing releases when the heat is declining. The charts show that releases have poor effects when user interest is low. Common sense indicates that forcing an increase in releases when interest is decreasing may waste resources rather than enhance interaction.",
+        "C": "Option 3 combines chart_29_4 (the 24 - hour heat has multiple peaks and valleys) and chart_29_3 (the time - period heat distribution shows concentrated peaks), and suggests focusing on efficient time periods while covering the whole day to improve overall efficiency.",
+        "D": "This easy distraction is broad and has no specific action guidelines, ignoring the time - period peaks shown in the charts. Common sense holds that content diversity is important, but it fails to address the direct impact of release time on exposure, resulting in an ineffective strategy.",
+        "E": "Option 1 combines chart_29_3 (showing that the search heat is significantly higher at specific time periods such as 8:00 and 16:00) and chart_29_4 (in the 24 - hour trend, the heat peaks at these time periods are consistent, and user activity is low during valley periods), and infers that releasing during peak periods can optimize engagement.",
+        "F": "This hard distraction confuses the heat trend: chart_29_1 shows that the heat was low on the 17th (22.04 million), but rebounded on the 19th (28.92 million). Reducing releases on low - heat days may miss opportunities. The strategy should take advantage of the upward trend to increase releases rather than decrease them.",
+        "G": "This hard distraction misinterprets the chart data: chart_29_3 and chart_29_4 show that the heat during valley periods (such as 0:00 - 4:00) is only 11 million (valley value), and user activity is low. Releasing content during these periods has a low exposure rate. The correct strategy should avoid valley periods rather than prioritize releases."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This hard distraction misuses the chart data: chart_29_2 shows that the match between Tunisia and England has the lowest heat (650,000), while high - heat events (such as Russia vs. Saudi Arabia with 1.5 million) are more popular. Promoting low - heat events cannot amplify attraction but instead wastes resources.",
+        "B": "This easy distraction is too broad and ignores the heat differences shown in the charts. Common sense indicates that when resources are limited, equal distribution will dilute the effect and cannot amplify the influence of high - heat events.",
+        "C": "Option 3 combines chart_29_1 (the heat rebounds on later dates) and chart_29_2 (the event heat can be used as a promotion target), and guides the timing of resource allocation through the date - heat trend to avoid inefficient investment.",
+        "D": "This easy distraction is correct in statement but lacks specific data support. Common sense holds that avoiding over - commercialization is reasonable, but it does not consider that high - heat stars (such as Messi with 800,000) can effectively attract the audience, resulting in a deviated strategy direction.",
+        "E": "Option 1 combines chart_29_2 (the match between Russia and Saudi Arabia has the highest heat) and chart_29_5 (stars like Messi have prominent heat), and infers that associating stars when promoting high - heat events can strengthen attraction (for example, the heat is higher when the event involves stars).",
+        "F": "This hard distraction confuses heat and cost: chart_29_4 shows that the heat during valley periods (such as 0:00 - 4:00) is only 11 million (valley value), and the promotion effect is poor when there are few users. The strategy should match peak periods (such as 8:00 with 32 million) rather than valley periods.",
+        "G": "Option 2 combines chart_29_2 (the difference in event heat values) and chart_29_4 (in the 24 - hour trend, users are active during peak periods such as 8:00 and 16:00), and suggests promoting during efficient time periods to increase event exposure."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -204,6 +289,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This easy distraction violates basic logic: when the heat is rising, there are more users, and bids should be increased to compete for exposure. Common sense indicates that lowering bids during peak interest periods will cause the ads to be ignored and reduce ROI.",
+        "B": "This hard distraction confuses the heat of stars and time periods: chart_29_5 shows that Messi has high heat, but the heat during the valley period (0:00 - 4:00) in chart_29_4 is only 11 million, and the interaction rate of advertising is low when there are few users. The strategy should combine star targeting during peak periods.",
+        "C": "Option 2 combines chart_29_4 (heat peaks at 8:00 and 16:00) and chart_29_1 (the overall heat rebounds on specific days), and suggests increasing bids during hourly peaks and when the date - heat rises to capture more users.",
+        "D": "Option 1 combines chart_29_4 (in the 24 - hour trend, the heat valley lasts during late - night and early - morning periods) and chart_29_3 (low - heat time periods such as 0:00 and 4:00 in the time - period data), and infers that the advertising benefit is low during valley periods, and cost savings can optimize peak - period投放.",
+        "E": "This easy distraction is broad and has no action guidelines. Common sense holds that star targeting is important, but it ignores the time - period heat (such as the peak periods in chart_29_4), and the strategy cannot optimize costs or effectiveness.",
+        "F": "Option 3 combines chart_29_5 (stars like Messi have extremely high heat) and chart_29_4 (the 24 - hour heat trend can be used as a reference for advertising time periods), and infers that placing star - related content during peak periods can take advantage of user search intentions to improve effectiveness.",
+        "G": "This hard distraction misinterprets the data: chart_29_4 shows that user activity is high during peak periods (such as 8:00 with 32 million), and lowering bids will miss exposure opportunities. The correct strategy should increase bids to compete for traffic."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     }
   ]

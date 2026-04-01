@@ -88,6 +88,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: Misinterpreting the values in chart_93_1. In the actual data, the turnover index of Tmall Global in June 2021 was 900,000,000, far lower than that of Tmall + Taobao which was 2,200,000,000 (Tmall + Taobao had a higher value). However, the distractor reverses it to 'Tmall Global is higher', creating an error in numerical understanding.",
+        "B": "This is an easy distractor: It is based on common e - commerce knowledge (promotion activities drive sales). It does not rely on any chart data but rather makes a general statement about the market mechanism.",
+        "C": "Combining the chart showing that the turnover index of Tmall Global reached its peak in November 2021 and the chart showing that the proportion of high - consumption population is much higher in Tmall Global than in Tmall + Taobao, it infers the amplifying effect of the high - consumption group during the peak period.",
+        "D": "Combining the charts of the combined proportion of New - generation white - collar and Gen Z populations and the turnover peak in November, it infers the concentrated consumption behavior of young and active populations during promotional periods (such as Double 11). All options need to cross - analyze the patterns between population characteristics and turnover trends across different charts and cannot be inferred from a single chart.",
+        "E": "This is an easy distractor: It relies on industry common sense (tariff policies affect prices), but it is not mentioned in the charts, so it cannot be verified from the data.",
+        "F": "Combining the chart of the proportion of the population with postgraduate education and the chart of the year - on - year growth of unit price in Tmall Global, it infers that the high - education population may be more willing to pay for high - priced products, driving up the turnover.",
+        "G": "This is a hard distractor: Misinterpreting the population proportion data in chart_93_3. In fact, the proportion of high - consumption population in Tmall Global is 40%, higher than 20% in Tmall + Taobao. However, the distractor reverses it to 'Tmall Global is lower', distorting the impact of population characteristics on the performance during the peak period."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: Misinterpreting the data in chart_93_3. In fact, the proportion of high - income population in Tmall Global in 2021 was 50% (no data for 2022 is provided). However, the distractor fabricates 'increased to 60%' and incorrectly associates it with the low turnover in July 2021 (1,100,000,000) in chart_93_1, creating a data misinterpretation.",
+        "B": "This is a hard distractor: Misinterpreting the change in population proportion in chart_93_3. In fact, the proportion of the population in Tier 1 and 2 cities in Tmall Global in 2021 was 65% (no data for 2022). However, the distractor reverses it to 'decreased to 55%' and incorrectly links it to the year - on - year growth in 2022, creating an error in ranking.",
+        "C": "Combining the chart showing that the year - on - year growth of unit price in March 2022 was higher in Tmall Global than in Tmall + Taobao and the chart showing that the turnover in 2021 dropped from the peak in June to the low point in July, it infers that the growth of unit price contributed to the growth in 2022, but the fluctuations in 2021 suppressed the annual growth.",
+        "D": "This is an easy distractor: It is based on macro - economic common sense (supply chain and consumer confidence) and does not quote any chart data. It is a general statement about external factors.",
+        "E": "Combining the chart showing large fluctuations in the turnover index in 2021 (such as dropping to a low point in July and an annual growth of only + 12.3%) and the charts of the proportion of the population in Tier 1 and 2 cities and high - income population, it infers that the low points in 2021 pulled down the annual growth, while the growth in 2022 may come from the improvement of the consumption power of the population.",
+        "F": "Combining the chart of the proportion of the population under 30 and the chart of the year - on - year turnover growth in March 2022, it infers that the consumption trend of the young population strengthened the short - term growth, but the overall data in 2021 was affected by the unevenness between months. All options need to compare the time - series trends with population/price - volume changes. The core of explaining the conflict lies in the internal fluctuations in 2021 vs. the short - term improvement in 2022.",
+        "G": "This is a hard distractor: Misinterpreting the time scope in chart_93_2. In fact, the unit price growth data (18% in Tmall Global) is for March 2022 year - on - year, not for the whole year of 2021. However, the distractor incorrectly describes it as 'accelerated in 2021', distorting the growth driver."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "G",
+        "B"
       ]
     },
     {
@@ -134,6 +168,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combining the charts of the proportion of the population with postgraduate education, high - income population, the highest proportion of New - generation white - collar population and the turnover peak in November, it infers the disproportionate growth driver contributed by the high - education/income group during the promotional period.",
+        "B": "Combining the chart showing that the proportion of the female population is much higher in Tmall Global than in Tmall + Taobao and the chart showing that the year - on - year turnover growth of Tmall Global is higher than that of Tmall + Taobao, it infers that the female - dominated consumer group is more likely to respond to the increase in unit price, driving up the growth.",
+        "C": "Combining the chart of the proportion of the population in Tier 1 and 2 cities and the year - on - year growth chart, it infers that the consumption upgrade of urban populations implicitly supports the long - term growth trend. All options need to derive the growth mechanism from the population portrait. The implicit relationship lies in the synergistic effect between specific populations (such as females and high - education populations) and price - volume indicators and cannot be obtained from a single chart.",
+        "D": "This is a hard distractor: Misinterpreting the relationship between chart_93_2 and chart_93_3. In fact, the high proportion of females (85%) is positively correlated with the fast growth of unit price (18%). However, the distractor reverses it to'slow growth' and fabricates a causal relationship (females prefer low - priced products), creating a numerical logic error.",
+        "E": "This is an easy distractor: It is based on consumer behavior common sense (high - education populations prefer quality). It does not rely on chart data but is general knowledge.",
+        "F": "This is a hard distractor: Misinterpreting the population proportion data in chart_93_3. In fact, the proportion of the population with postgraduate education in Tmall Global is 55%, higher than 35% in Tmall + Taobao. However, the distractor reverses it to 'Tmall Global is lower', distorting the impact of population characteristics.",
+        "G": "This is a hard distractor: Misinterpreting the data in chart_93_4 and chart_93_2. In fact, the high proportion of New - generation white - collar population (22%) is positively correlated with the growth data (35% year - on - year turnover growth in Tmall Global). However, the distractor incorrectly describes it as 'insufficient consumption power', creating an error in understanding the gap."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "F",
+        "G"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option is based on general marketing knowledge (using social media to attract young people), but it does not incorporate specific chart data (such as population portraits or turnover trends). The statement is broad and lacks clear action guidelines, so it cannot optimize resource allocation for the beauty and haircare market.",
+        "B": "Option B involves chart_93_1 (the monthly turnover index shows significant peaks in specific months like June and November) and chart_93_3 (the proportion of the population under 30 is higher). The combined analysis indicates that the demand of the young population is concentrated during peak months, and resource allocation should match this trend.",
+        "C": "This option refers to chart_93_1 (the index of Tmall + Taobao is higher, e.g., 3,200,000,000 in November vs. 1,400,000,000 on Tmall Global), but it ignores chart_93_2 (the year - on - year growth of transaction volume on Tmall Global is 35% vs. 25% on Tmall + Taobao) and chart_93_3 (the proportion of high - consumption population on Tmall Global is 40% vs. 20% on Tmall + Taobao). It wrongly infers that Tmall + Taobao has greater potential, while in fact, Tmall Global has faster growth and a higher - value customer base.",
+        "D": "Option A involves chart_93_3 (the proportions of high - income and high - consumption populations are higher on Tmall Global) and chart_93_2 (the year - on - year growth of transaction volume on Tmall Global is 35%, higher than 25% on Tmall + Taobao). The combined analysis shows that this platform has greater growth potential.",
+        "E": "Option C involves chart_93_3 (the proportion of the population with postgraduate education is higher on Tmall Global) and chart_93_2 (the year - on - year growth of unit price on Tmall Global is 18%, higher than 10% on Tmall + Taobao). The combined analysis shows that high - educated people are less price - sensitive and suitable for high - end strategies.",
+        "F": "This option seemingly uses data from chart_93_1 (the turnover index is low in July), but misinterprets it. Low - valley months (e.g., the index is 1,100,000,000 in July) indicate weak demand, and investment may be inefficient (the correct strategy should focus on peak months like June or November). This distractor confuses 'demand suppression' with 'actual inefficiency'.",
+        "G": "This option approaches from the supply - chain perspective, which is a general business strategy. However, it does not refer to any charts (such as turnover fluctuations or population characteristics), cannot directly improve sales performance, and ignores the core issue (marketing resource allocation)."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Option C involves chart_93_1 (the monthly turnover index reaches a peak in November) and chart_93_2 (the year - on - year growth of transaction volume in the overall market is positive). The combined analysis shows that demand is strong during peak months, and an omni - channel strategy can expand coverage.",
+        "B": "Option B involves chart_93_2 (the year - on - year growth of transaction volume on Tmall Global is 35%, higher than other channels) and chart_93_3 (the proportion of high - consumption population is higher on Tmall Global). The combined analysis indicates that this platform has greater potential during growth months.",
+        "C": "This option is based on general promotional logic (sustained activities to maintain popularity), but it does not incorporate chart data (such as turnover fluctuations). The statement is broad and lacks specific timing or channel guidelines, so it cannot optimize sales efficiency.",
+        "D": "This option seemingly uses data from chart_93_1 (the index is 1,400,000,000 in April), but misinterprets the trend. The index drops to 1,200,000,000 in May, indicating that April is not a period of steady growth. The correct data (the peak in June is 2,200,000,000) shows that demand surges in the middle of the year. This distractor confuses the timing.",
+        "E": "Option A involves chart_93_1 (the monthly turnover index drops significantly in months like July) and chart_93_1 (the annual turnover growth is + 12.3%). The combined analysis shows that efficiency is low during low - valley periods, and resources should be prioritized for growth periods.",
+        "F": "This option suggests expanding offline channels, but all the chart data is about online platforms (such as Tmall and Taobao), and it does not refer to any charts for support. It is a common - sense deviation and ignores the core issue (online promotional arrangements).",
+        "G": "This option refers to chart_93_1 (the annual growth is + 12.3%) and the overall trend, but wrongly infers market saturation. In fact, the growth is positive, and chart_93_2 shows that Tmall Global has a 35% growth, indicating great potential. This distractor ignores the growth characteristics and suggests resource transfer, which contradicts the goal of improving sales efficiency."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -203,6 +288,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option C involves chart_93_4 (the proportions of senior middle - class and exquisite moms on Tmall Global are 12% and 10% respectively, higher than on Taobao Tmall) and chart_93_2 (the unit price shows an obvious growth trend). The combined analysis shows that high - end customers are less price - sensitive and suitable for premium products.",
+        "B": "This option seemingly uses data from chart_93_4 (the proportion of small - town middle - aged and elderly on Taobao Tmall is 24% vs. 15% on Tmall Global), but misinterprets it. The target customers of Tmall Global are high - consumption groups (the proportion of high - income population is 50% on Tmall Global according to chart_93_3). This distractor confuses the platform's focus and suggests developing low - premium customers, which conflicts with Tmall Global's high - end positioning.",
+        "C": "This option approaches from the service perspective, which is a general optimization suggestion. However, it does not refer to any charts (such as the eight major populations or portraits) and ignores the core issue (product positioning and resource allocation), so it cannot directly enhance competitiveness.",
+        "D": "Option A involves chart_93_4 (the proportion of new - generation white - collar on Tmall Global is 22%, higher than 12% on Taobao Tmall) and chart_93_3 (the proportions of high - educated and high - income populations are higher on Tmall Global). The combined analysis shows that this group has great consumption potential.",
+        "E": "This option refers to chart_93_3 (the proportion of the population with postgraduate education is 55% on Tmall Global vs. 35% on Taobao Tmall), but wrongly infers. The 55% proportion is significantly higher, and the 18% growth of unit price in chart_93_2 supports the premium for high - educated people. This distractor wrongly suggests reducing investment and misinterprets the data relationship.",
+        "F": "This option is based on general market strategies (using affordable products to attract the masses), but it does not incorporate chart data (such as population income or consumption characteristics). The statement is broad and lacks specific product positioning, so it cannot optimize Tmall Global's competitiveness.",
+        "G": "Option B involves chart_93_4 (the proportion of Gen Z on Tmall Global is 20%) and chart_93_3 (the proportion of the population under 30 is higher). The combined analysis shows that the demand of the young population is growing rapidly and suitable for innovative strategies."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

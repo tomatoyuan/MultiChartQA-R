@@ -86,6 +86,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合推理显示文化新业态占比从2019年22.9%增至2024年41.8%，表明比重持续上升的图表和显示数字经济规模从2019年35.8万亿元增至2023年56.1万亿元，表明总体扩大的图表。占比上升隐含新业态增长快于整体，但需跨图比较规模趋势来确认贡献增强。",
+        "B": "此选项错误，因为它误解了数据关系：chart_124_1显示2020年数字经济规模增长放缓（9.5%），但chart_124_2显示新业态占比大幅提升（从22.9%到31.9%），结合原选项A，这恰恰说明新业态在逆势中支撑了增长，而非拖累。",
+        "C": "需要联合推理显示2020年数字经济同比增长率降至9.5%，表明增长放缓的图表和显示2020年文化新业态营业收入占比从22.9%跃升至31.9%，表明逆势提升的图表。单靠一张图表无法解释'逆势表现'，必须比较两者的趋势冲突（整体放缓 vs 新业态占比上升）。",
+        "D": "需要联合推理显示2023年新业态占比40.5%，2024年预计41.8%，加速提升的图表和显示2023年数字经济同比增长11.7%，高于2022年10.3%，表明恢复增长的图表。单图无法建立'推动作用增强'的联系，必须结合新业态占比加速与整体增长恢复的时间相关性。",
+        "E": "此选项错误，因为它基于常识错误：chart_124_2数据显示新业态营收从2019年19868亿元增至2023年52395亿元，绝对增长明显，而非减少。",
+        "F": "此选项错误，因为它与图表数据矛盾：chart_124_2显示文化新业态占比从2019年22.9%上升至2024年41.8%，逐年递增，表明重要性增强，而非减弱。",
+        "G": "此选项错误，因为它错误比较数据：chart_124_1显示2023年数字经济增长11.7%，高于2022年的10.3%，表明增长加速；而新业态占比上升反映其贡献增强，而非不足。"
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合推理显示2023年AIGC市场规模仅79.3亿元，2024年增至471.7亿元，增长率589.6%的图表和显示2023年数字经济规模56.1万亿元，同比增长11.7%，2024年预计63.2万亿元，增长12.7%，规模巨大但增长率稳定的图表。单图无法解释'规模悬殊'，必须跨图比较AIGC微小规模与数字经济庞大基数的冲突。",
+        "B": "此选项错误，因为它误读规模差异：chart_124_3和chart_124_1数据表明，AIGC高增长率（589.6%）源于其微小基数（11.5亿元），绝对值增加有限（约460亿元），对数十万亿元级数字经济影响微乎其微，无法显著推动整体加速。",
+        "C": "此选项错误，因为它基于常识错误：chart_124_3显示AIGC规模极小（2023年79.3亿元），而chart_124_1显示数字经济规模巨大（2023年56.1万亿元），因此AIGC不可能是主要部分，无法直接导致整体加速。",
+        "D": "此选项错误，因为它忽视图表：chart_124_3显示AIGC在2023 - 2024年爆发式增长（589.6%），而非平稳；chart_124_1显示数字经济稳定增长，但原选项B解释传统领域可能拖累。",
+        "E": "此选项错误，因为它错误推断贡献：尽管AIGC增长率高，但chart_124_1和chart_124_3规模对比（471.7亿 vs 63.2万亿）显示占比极小（约0.075%），高增长无法成为核心驱动力，矛盾由规模悬殊解释，而非选项所述。",
+        "F": "需要联合推理显示AIGC爆发增长的图表和显示文化新业态占比2023年达40.5%，2024年预计41.8%，持续提升的图表。冲突在于AIGC高增长未拉动整体数字经济加速，但文化新业态（可能包含AIGC）占比上升暗示AIGC影响局部而非整体，需跨图分析'新兴领域未充分融入'的隐含联系。",
+        "G": "需要联合推理显示AIGC数据为2022 - 2028年预测，增长率波动大的图表和显示数字经济数据包含2016 - 2025年实际及预测，增长率相对稳定的图表。单图无法解释'预测冲突'，必须比较两者预测期增长趋势（AIGC爆发 vs 数字经济平缓）来推断'贡献被抵消'的可能性。"
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合推理显示2024年文化新业态占比41.8%，份额新高的图表和显示2024年AIGC规模471.7亿元，指数级增长的图表。单图无法证明'渗透作用'，必须结合新业态份额新高与AIGC扩张的隐含联系（如AIGC可能属于文化新业态范畴）。",
+        "B": "此选项错误，因为它误判规模影响：chart_124_2和chart_124_3显示AIGC规模虽小，但2023 - 2024年爆发增长（589.6%），与文化新业态占比加速上升（2023年40.5%到2024年41.8%）在时间上吻合，可能作为驱动力，而非可忽略。",
+        "C": "需要联合推理显示AIGC 2024 - 2025E增长率494.8%，持续高增长的图表和显示文化新业态占比2023年达40.5%，进入40%+区间的图表。占比突破40%与AIGC最迅猛增长期重合，但需跨图比较'吻合'趋势来推断技术驱动。",
+        "D": "此选项错误，因为它错误量化增长：chart_124_2显示文化新业态占比从2022年36.0%升至2023年40.5%，增加4.5个百分点，幅度显著；chart_124_3显示AIGC同期增长589.6%，两者同步性强，选项低估了相关性。",
+        "E": "此选项错误，因为它忽略数据趋势：chart_124_2显示文化新业态占比持续上升，chart_124_3显示AIGC高增长，原选项C支持技术渗透；选项所述传统手段无数据支持。",
+        "F": "需要联合推理显示文化新业态占比2023年40.5%，2024年预计41.8%，加速上升的图表和显示AIGC增长率2023 - 2024年为589.6%，爆发增长的图表。单图无法建立'协同效应'，必须跨图分析时间相关性（2023年后两者趋势同步加速）。",
+        "G": "此选项错误，因为它基于常识错误：AI生成内容可应用于文化领域（如数字内容创作），chart_124_2和chart_124_3数据趋势暗示可能协同，而非无关。"
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "La opción 2 combina chart_124_2 (la proporción de los nuevos formatos culturales aumenta continuamente) y chart_124_1 (la escala de la economía digital se expande año tras año, pero la tasa de crecimiento fluctúa, por ejemplo, se desacelera en 2020 y luego se recupera). Razón: el crecimiento de los nuevos formatos requiere apoyo de inversiones generales, pero se debe considerar el cambio de la tasa de crecimiento macroeconómica (por ejemplo, aumentar la inversión en los picos) para reducir el riesgo.",
+        "B": "La opción 3 combina chart_124_2 (la proporción de los nuevos formatos culturales aumenta, lo que implica una disminución relativa en los sectores tradicionales) y chart_124_3 (el sub - sector emergente de AIGC crece rápidamente). Razón: la redistribución de recursos puede resolver problemas de eficiencia y evitar que las inversiones se queden atrapadas en zonas de bajo crecimiento.",
+        "C": "La opción 1 combina chart_124_2 (la proporción de los ingresos de los nuevos formatos culturales aumenta de 22.9% en 2019 a 41.8% en 2024, con una tendencia ascendente) y chart_124_3 (la tasa de crecimiento del mercado de AIGC es extremadamente alta al principio, por ejemplo, 589.6% de 2023 a 2024, lo que indica un gran potencial de explosión). Razón: el alto crecimiento de AIGC es consistente con el aumento de la proporción de los nuevos formatos, y la inversión puede aumentar directamente los ingresos.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se utilizan los datos de chart_124_3 (la tasa de crecimiento de AIGC), pero se ignoran el riesgo y la sinergia con los nuevos formatos culturales (la alta tasa de crecimiento se acompaña de riesgo de burbuja, y la escala de AIGC es mucho menor que la economía digital total). Se enfatiza demasiado una sola tecnología y no se equilibra el crecimiento y la cuota de mercado.",
+        "E": "Esta es una opción de distracción fácil: se basa en conocimientos comerciales generales (los sectores tradicionales brindan estabilidad), pero no tiene soporte de datos específicos y no aborda las tendencias de los nuevos formatos culturales o las tecnologías emergentes. La estrategia es demasiado general y no tiene orientación clara de acción, por lo que es fácil de descartar.",
+        "F": "Esta es una opción de distracción fácil: la afirmación es correcta pero demasiado generalizada (la capacitación de empleados aumenta la eficiencia), no está relacionada con los datos de los gráficos y no plantea sugerencias de ajuste de inversión para el crecimiento de ingresos o la cuota de mercado.",
+        "G": "Esta es una opción de distracción difícil: aparentemente se utilizan los datos de chart_124_2 (la proporción de los ingresos operativos de los nuevos formatos), pero se interpreta erróneamente la tendencia (la proporción de 31.9% en 2020 en realidad es mayor que la de 22.9% en 2019, lo que muestra un crecimiento en lugar de una disminución), lo que lleva a una dirección errónea de la estrategia (reducir la inversión significa perder oportunidades de expansión)."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente se utilizan los datos de chart_124_3 (la tendencia de la tasa de crecimiento), pero se razona erróneamente (las tasas de crecimiento de 70.8% y 106.7% de 2025P - 2026P muestran un gran potencial de altos rendimientos al principio, y entrar tarde significa perder oportunidades), lo que hace que la estrategia se desvíe del equilibrio entre altos rendimientos y control de riesgos.",
+        "B": "Esta es una opción de distracción fácil: se basa en conocimientos generales de evitación de riesgos, pero no considera el gran potencial de crecimiento de AIGC (por ejemplo, la escala de 471.7 mil millones de yuanes en 2024 en chart_124_3). La estrategia es conservadora y no tiene base de datos, por lo que es fácil de descartar.",
+        "C": "La opción 2 combina chart_124_3 (el mercado de AIGC crece rápidamente) y chart_124_2 (la proporción de los ingresos de los nuevos formatos culturales aumenta año tras año, lo que indica un aumento de la demanda). Razón: los nuevos formatos culturales proporcionan escenarios de aplicación estables, lo que reduce el riesgo de fluctuación del mercado de AIGC y es coherente con los valores de sostenibilidad.",
+        "D": "La opción 1 combina chart_124_3 (la tasa de crecimiento de AIGC cae bruscamente de 589.6% de 2023 a 2024 a 39.2% de 2027 a 2028, con una previsión de desaceleración continua) y chart_124_1 (la tasa de crecimiento interanual de la economía digital fluctúa, por ejemplo, un mínimo en 2020 y luego una recuperación). Razón: el alto crecimiento al principio es una oportunidad de entrada, pero se debe predecir la disminución de la tasa de crecimiento (similar a la fluctuación de la economía general) para diseñar un mecanismo de salida o transformación.",
+        "E": "Esta es una opción de distracción fácil: la afirmación es razonable pero demasiado generalizada (la investigación de mercado reduce el riesgo), no tiene conexión específica con los gráficos y no proporciona un plan de equilibrio para la estrategia de entrada.",
+        "F": "Esta es una opción de distracción difícil: aparentemente se utilizan los datos de chart_124_2 (el crecimiento de los ingresos de los nuevos formatos culturales), pero se confunden las relaciones (no hay una sinergia directa entre los nuevos formatos culturales y AIGC, y AIGC crece de forma independiente y rápidamente). Se asume erróneamente que depender de los nuevos formatos culturales puede reducir el riesgo, ignorando la dinámica propia de AIGC.",
+        "G": "La opción 3 combina chart_124_3 (la previsión por etapas del tamaño del mercado de AIGC) y chart_124_1 (la escala de la economía digital se expande continuamente pero la tasa de crecimiento cambia). Razón: las pruebas a pequeña escala reducen el riesgo inicial, y aumentar la inversión en función de la expansión macroeconómica (por ejemplo, en los picos de la tasa de crecimiento) en las etapas posteriores puede aumentar la probabilidad de éxito."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente se utilizan los datos de chart_124_1 (la tasa de crecimiento interanual), pero se interpreta erróneamente (el 9.5% en 2020 es una fluctuación a corto plazo, y los datos posteriores como el 16.1% en 2021 indican un fuerte crecimiento general), lo que lleva a una desviación en la dirección de la estrategia (dar prioridad a las industrias tradicionales inhibirá los sectores emergentes).",
+        "B": "La opción 2 combina chart_124_3 (la tasa de crecimiento de AIGC es extremadamente alta al principio pero se prevé una gran caída, por ejemplo, de 494.8% de 2024 a 2025 a 39.2% de 2027 a 2028) y chart_124_1 (la tasa de crecimiento interanual de la economía digital fluctúa). Razón: los incentivos al principio pueden acelerar la innovación, pero la regulación para prevenir burbujas (por ejemplo, inversiones excesivas) garantiza el uso eficiente de los recursos y evita el desequilibrio del mercado.",
+        "C": "Esta es una opción de distracción difícil: aparentemente se utilizan los datos de chart_124_3 (la alta tasa de crecimiento de AIGC), pero se ignoran la inclusividad y la estabilidad (la escala de AIGC es pequeña y el crecimiento puede ser desigual, y chart_124_1 muestra que la expansión general de la economía digital es más estable). Se enfatiza demasiado el alto crecimiento y se sacrifica el equilibrio a largo plazo.",
+        "D": "La opción 3 combina chart_124_3 (el gran potencial de crecimiento de AIGC) y chart_124_1 (el crecimiento de la escala económica general). Razón: la inversión en infraestructura (por ejemplo, cobertura de banda ancha) apoya la expansión general, y la inversión en AIGC captura puntos de innovación. Una estrategia equilibrada garantiza la participación de las pequeñas y medianas empresas y reduce la desigualdad.",
+        "E": "Esta es una opción de distracción fácil: se basa en el principio general de equidad, pero no tiene soporte de datos de los gráficos. La estrategia es demasiado general y sin enfoque (por ejemplo, no se abordan los sectores emergentes), por lo que es fácil de descartar.",
+        "F": "La opción 1 combina chart_124_2 (la proporción de los nuevos formatos culturales aumenta de 22.9% en 2019 a 41.8% en 2024, con una tendencia estable y ascendente) y chart_124_1 (la escala de la economía digital se expande continuamente). Razón: el aumento de la proporción de los nuevos formatos indica su importancia, y la financiación puede impulsar la actualización industrial y promover la inclusividad (por ejemplo, empleo cultural), lo que es coherente con los valores.",
+        "G": "Esta es una opción de distracción fácil: la afirmación es correcta pero es un conocimiento general (los recortes de impuestos estimulan la economía), no aborda la asignación específica de recursos ni los objetivos de inclusividad, y no tiene orientación de acción."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     }
   ]

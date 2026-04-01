@@ -86,6 +86,21 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项，基于常识（老年人更关注健康）而非图表数据。图表中50岁以上群体的TGI值（如55-59岁TGI = 63，≥60岁TGI = 75）均低于100，表示购买倾向低于市场平均水平。",
+        "B": "La distribución por edad muestra que el grupo de 18-24 años tiene un índice de preferencia (TGI) muy por encima de 100 (valor de referencia), lo que indica una fuerte tendencia de compra; la distribución por nivel educativo muestra que el grupo con licenciatura o superior tiene un índice de preferencia significativamente superior a 100. Estos valores indican que los grupos de 18-24 años y con licenciatura o superior tienen las preferencias más altas, y se refuerzan mutuamente en la tendencia del mercado. La opción identifica combinaciones específicas de grupos de alta preferencia al combinar los gráficos de edad y educación. Solo con el gráfico de edad no se puede determinar el impacto del nivel educativo, y viceversa. Es necesario realizar un análisis cruzado: el gráfico de edad proporciona la intensidad de preferencia por grupo de edad, el gráfico de educación proporciona la intensidad de preferencia por antecedentes educativos, y el análisis conjunto permite obtener una imagen completa de grupos específicos (como la combinación de 'consumidores de 18-24 años con licenciatura o superior'). Un solo gráfico solo permite conclusiones parciales (como el impacto de la edad o la educación por separado).",
+        "C": "这是一个Hard干扰项，错误推理图表数据：chart_53_4中30-34岁群体占比17.3%但TGI = 93（低于100），表示购买倾向低于平均水平。干扰项误将“占比相同”和“TGI接近100”视为倾向高，但实际TGI < 100即低于平均。",
+        "D": "La distribución por edad muestra que el grupo de 25-29 años también tiene un índice de preferencia superior a 100, aunque ligeramente inferior al de 18-24 años; la distribución por nivel educativo muestra que el grupo con carrera técnica también tiene un índice de preferencia superior a 100. Estos valores indican que los grupos de 25-29 años y con carrera técnica tienen una preferencia relativamente fuerte. La opción identifica combinaciones específicas de grupos de alta preferencia al combinar los gráficos de edad y educación. Solo con el gráfico de edad no se puede determinar el impacto del nivel educativo, y viceversa. Es necesario realizar un análisis cruzado: el gráfico de edad proporciona la intensidad de preferencia por grupo de edad, el gráfico de educación proporciona la intensidad de preferencia por antecedentes educativos, y el análisis conjunto permite obtener una imagen completa de grupos específicos (como la combinación de 'grupos jóvenes medianos con antecedentes de educación técnica'). Un solo gráfico solo permite conclusiones parciales (como el impacto de la edad o la educación por separado).",
+        "E": "La distribución por edad muestra que el grupo de 18-24 años tiene un índice de preferencia (TGI) muy por encima de 100 (valor de referencia), lo que indica una fuerte tendencia de compra; la distribución por nivel educativo muestra que el grupo con licenciatura o superior tiene un índice de preferencia significativamente superior a 100. Estos valores indican que los grupos de 18-24 años y con licenciatura o superior tienen las preferencias más altas. La opción identifica combinaciones específicas de grupos de alta preferencia al combinar los gráficos de edad y educación. Solo con el gráfico de edad no se puede determinar el impacto del nivel educativo, y viceversa. Es necesario realizar un análisis cruzado: el gráfico de edad proporciona la intensidad de preferencia por grupo de edad, el gráfico de educación proporciona la intensidad de preferencia por antecedentes educativos, y el análisis conjunto permite obtener una imagen completa de grupos específicos (como 'población joven con alta educación'). Un solo gráfico solo permite conclusiones parciales (como el impacto de la edad o la educación por separado).",
+        "F": "这是一个Hard干扰项，错误解读图表数据：chart_53_5显示高中及以下学历占比60.2%，但TGI值仅为76（低于100），表明购买倾向低于平均水平。干扰项混淆了“高占比”与“高倾向”，忽略了TGI指标。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -108,6 +123,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "La tendencia de rotación muestra que el índice de rotación general de proteínas en polvo crece continuamente desde un punto bajo hasta uno alto, con aumentos significativos en meses anotados (como 2021.11). En la distribución por edad, el grupo de 18-24 años tiene el índice de preferencia más alto, lo que indica su tendencia a comprar; en la distribución por educación, el grupo con licenciatura o superior tiene el índice de preferencia más alto. La tendencia de crecimiento de la rotación coincide en el tiempo con las características de estos grupos de alta preferencia (jóvenes o alta educación), lo que sugiere una relación causal. La opción atribuye el crecimiento a características específicas de los consumidores al combinar tendencias y datos de preferencia. El gráfico de tendencia de rotación solo muestra cambios en los índices generales o de proteína de suero, sin información sobre características de los consumidores; los gráficos de edad y educación son distribuciones estáticas que no muestran directamente la contribución al crecimiento. Es necesario un análisis transversal: el gráfico de rotación proporciona tendencias dinámicas, los gráficos de consumidores proporcionan índices de preferencia estáticos, y el razonamiento conjunto permite inferir que el crecimiento puede deberse a grupos de alta preferencia (como consumidores jóvenes con alta educación). Un solo gráfico no puede establecer esta conexión (por ejemplo, la tendencia de rotación por sí sola no puede explicar quién está comprando).",
+        "B": "La tendencia de rotación muestra que el índice de rotación general de proteínas en polvo crece continuamente desde un punto bajo hasta uno alto, con aumentos significativos en meses anotados (como 2021.11). En la distribución por educación, el grupo con licenciatura o superior tiene el índice de preferencia más alto. La tendencia de crecimiento de la rotación coincide en el tiempo con las características de estos grupos de alta preferencia (alta educación), lo que sugiere una relación causal. La opción atribuye el crecimiento a características específicas de los consumidores al combinar tendencias y datos de preferencia. El gráfico de tendencia de rotación solo muestra cambios en los índices generales o de proteína de suero, sin información sobre características de los consumidores; el gráfico de educación es una distribución estática que no muestra directamente la contribución al crecimiento. Es necesario un análisis transversal: el gráfico de rotación proporciona tendencias dinámicas, el gráfico de consumidores proporciona índices de preferencia estáticos, y el razonamiento conjunto permite inferir que el crecimiento puede deberse a grupos de alta preferencia (como personas con alta educación). Un solo gráfico no puede establecer esta conexión (por ejemplo, la tendencia de rotación por sí sola no puede explicar quién está comprando).",
+        "C": "这是一个Easy干扰项，基于行业常识（营销影响销售）而非图表数据。图表未涉及品牌或营销因素，仅关注消费者特征和趋势数据。",
+        "D": "La tendencia de rotación muestra que el índice de rotación general de proteínas en polvo crece continuamente desde un punto bajo hasta uno alto, con aumentos significativos en meses anotados (como 2021.11). En la distribución por edad, el grupo de 18-24 años tiene el índice de preferencia más alto, lo que indica su tendencia a comprar. La tendencia de crecimiento de la rotación coincide en el tiempo con las características de estos grupos de alta preferencia (jóvenes), lo que sugiere una relación causal. La opción atribuye el crecimiento a características específicas de los consumidores al combinar tendencias y datos de preferencia. El gráfico de tendencia de rotación solo muestra cambios en los índices generales o de proteína de suero, sin información sobre características de los consumidores; el gráfico de edad es una distribución estática que no muestra directamente la contribución al crecimiento. Es necesario un análisis transversal: el gráfico de rotación proporciona tendencias dinámicas, el gráfico de consumidores proporciona índices de preferencia estáticos, y el razonamiento conjunto permite inferir que el crecimiento puede deberse a grupos de alta preferencia (como jóvenes). Un solo gráfico no puede establecer esta conexión (por ejemplo, la tendencia de rotación por sí sola no puede explicar quién está comprando).",
+        "E": "这是一个Hard干扰项，错误结合图表数据：chart_53_4显示40-44岁群体TGI = 89（低于100），表示购买倾向低于平均水平；同时，chart_53_3中2022.1月增长率63.2%是标注数据，但无证据表明该群体驱动增长。干扰项错误关联低倾向群体与增长峰值。",
+        "F": "这是一个Hard干扰项，错误比较图表数据：chart_53_5中专科学历TGI = 156虽高于平均，但低于本科及以上学历的TGI = 218；chart_53_3中2022.5-6月增长率约17%，但趋势主要由年轻和高学历群体驱动（见chart_53_4和chart_53_5）。干扰项夸大专科群体的作用，忽略更高倾向群体。"
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -129,6 +159,21 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "El gráfico de participación de submercados muestra que la participación de proteínas en polvo (general) tiene un valor específico, y la participación de proteínas en polvo con probióticos tiene otro valor; el gráfico de proporción de proteína de suero en proteínas en polvo muestra que la proteína de suero representa la mayor parte de las proteínas en polvo (general). Mediante el cálculo (participación general de proteínas en polvo multiplicada por la proporción de proteína de suero), la participación estimada de proteína de suero en el mercado de alimentos saludables es de aproximadamente 5.21%, mientras que la participación de proteínas en polvo con probióticos es del 5.2%, siendo la participación de proteína de suero ligeramente superior con una diferencia mínima. La opción describe correctamente esta relación y la pequeña diferencia. El gráfico de participación de submercados por sí solo proporciona la participación de proteínas en polvo con probióticos, pero no la participación absoluta de proteína de suero; el gráfico de proporción de proteína de suero solo muestra su proporción dentro de la subcategoría de proteínas en polvo, sin involucrar todo el mercado de alimentos saludables. Es necesario combinar ambos gráficos: obtener la participación general de proteínas en polvo y la participación de probióticos del gráfico de submercados, obtener la proporción de proteína de suero en proteínas en polvo del gráfico de proporción, y calcular la participación absoluta de proteína de suero para compararla con la de proteínas en polvo con probióticos. Un solo gráfico no puede establecer esta relación (por ejemplo, solo el gráfico de submercados omitiría el cálculo de la proteína de suero).",
+        "B": "这是一个Hard干扰项，错误简化数据：chart_53_1和chart_53_2计算后，乳清蛋白在保健食品中份额约5.21%，益生菌为5.2%，但干扰项忽略微小差异（0.01%），错误声称“相等”。实际关系是乳清蛋白略高但差距小。",
+        "C": "El gráfico de participación de submercados muestra que la participación de proteínas en polvo (general) tiene un valor específico, y la participación de proteínas en polvo con probióticos tiene otro valor; el gráfico de proporción de proteína de suero en proteínas en polvo muestra que la proteína de suero representa la mayor parte de las proteínas en polvo (general). Mediante el cálculo (participación general de proteínas en polvo multiplicada por la proporción de proteína de suero), la participación estimada de proteína de suero en el mercado de alimentos saludables es de aproximadamente 5.21%, mientras que la participación de proteínas en polvo con probióticos es del 5.2%, siendo ambas extremadamente cercanas. La opción describe correctamente esta relación de proximidad. El gráfico de participación de submercados por sí solo proporciona la participación de proteínas en polvo con probióticos, pero no la participación absoluta de proteína de suero; el gráfico de proporción de proteína de suero solo muestra su proporción dentro de la subcategoría de proteínas en polvo, sin involucrar todo el mercado de alimentos saludables. Es necesario combinar ambos gráficos: obtener la participación general de proteínas en polvo y la participación de probióticos del gráfico de submercados, obtener la proporción de proteína de suero en proteínas en polvo del gráfico de proporción, y calcular la participación absoluta de proteína de suero para compararla con la de proteínas en polvo con probióticos. Un solo gráfico no puede establecer esta relación (por ejemplo, solo el gráfico de submercados omitiría el cálculo de la proteína de suero).",
+        "D": "El gráfico de participación de submercados muestra que la participación de proteínas en polvo (general) tiene un valor específico, y la participación de proteínas en polvo con probióticos tiene otro valor; el gráfico de proporción de proteína de suero en proteínas en polvo muestra que la proteína de suero representa la mayor parte de las proteínas en polvo (general). Mediante el cálculo (participación general de proteínas en polvo multiplicada por la proporción de proteína de suero), la participación estimada de proteína de suero en el mercado de alimentos saludables es de aproximadamente 5.21%, mientras que la participación de proteínas en polvo con probióticos es del 5.2%, siendo ambos valores similares y en un nivel medio. La opción describe correctamente esta relación. El gráfico de participación de submercados por sí solo proporciona la participación de proteínas en polvo con probióticos, pero no la participación absoluta de proteína de suero; el gráfico de proporción de proteína de suero solo muestra su proporción dentro de la subcategoría de proteínas en polvo, sin involucrar todo el mercado de alimentos saludables. Es necesario combinar ambos gráficos: obtener la participación general de proteínas en polvo y la participación de probióticos del gráfico de submercados, obtener la proporción de proteína de suero en proteínas en polvo del gráfico de proporción, y calcular la participación absoluta de proteína de suero para compararla con la de proteínas en polvo con probióticos. Un solo gráfico no puede establecer esta relación (por ejemplo, solo el gráfico de submercados omitiría el cálculo de la proteína de suero).",
+        "E": "这是一个Hard干扰项，错误计算图表数据：chart_53_2中乳清蛋白比重70.4%是蛋白粉内部份额，不是整体保健食品份额；chart_53_1中益生菌蛋白粉份额5.2%是直接保健食品份额。干扰项误将不同基准的数值直接比较，忽略层级关系（乳清蛋白实际份额约5.21% vs 益生菌5.2%，差异微小）。",
+        "F": "这是一个Easy干扰项，基于常识（益生菌流行）而非图表数据。chart_53_1显示益生菌蛋白粉份额5.2%，但乳清蛋白在保健食品中估计份额约5.21%（70.4% × 7.4%），略高于益生菌。"
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -149,6 +194,20 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en los datos del gráfico, sino solo en conocimientos comerciales generales (por ejemplo, \"el desarrollo equilibrado reduce el riesgo\"), pero ignora las subcategorías internas de proteínas en polvo en las que se centra la pregunta (por ejemplo, la proteína de suero es dominante). El gráfico chart_53_1 muestra que las proteínas en polvo en general solo representan el 7.4%, pero hay desequilibrio interno. Esta sugerencia es demasiado general y no tiene indicaciones de acciones específicas, por lo que es fácil descartarla por conocimiento general.",
+        "B": "Esta opción interpreta erróneamente la tendencia del gráfico chart_53_3: los datos muestran que el volumen de transacciones en diciembre de 2021 (180) a enero de 2022 (160) sí muestra una disminución a corto plazo, pero la tendencia general (por ejemplo, alcanzó 260 en junio de 2022) y los incrementos anotados (por ejemplo, \"+70.3%\" en noviembre de 2021) indican un crecimiento a largo plazo; esta opción confunde la fluctuación a corto plazo con un ciclo de descenso y ignora la posición dominante y el potencial de crecimiento de la proteína de suero.",
+        "C": "Combinando el gráfico chart_53_2 (la proteína vegetal y mixta tiene una cierta proporción en las proteínas en polvo) y el gráfico chart_53_1 (las proteínas en polvo en general tienen una proporción relativamente alta en los alimentos saludables), se infiere que la base del mercado general es sólida y que la proteína vegetal como opción complementaria puede dispersar el riesgo y capturar las demandas emergentes.",
+        "D": "Esta opción interpreta erróneamente los datos del gráfico chart_53_1: la proporción de \"Proteínas Enzimáticas\" es del 4.2%, que parece alta, pero pertenece a la categoría general de alimentos saludables, mientras que las proteínas en polvo en general (incluyendo la proteína de suero) representan el 7.4%, y el gráfico chart_53_2 muestra que la proteína de suero representa el 70.4% dentro de las proteínas en polvo. Esta opción confunde las cuotas de mercado de diferentes niveles (las proteínas enzimáticas son una subcategoría independiente, no dentro de las proteínas en polvo), lo que conduce a una desviación en la dirección de la estrategia.",
+        "E": "Combinando el gráfico chart_53_2 (la proteína de suero tiene una proporción absoluta en las proteínas en polvo) y el gráfico chart_53_3 (el índice del volumen de transacciones de la proteína de suero muestra un aumento estable y se anotan altos incrementos, como en noviembre de 2021 y enero de 2022), se infiere que la proteína de suero es el punto de crecimiento central y que la asignación de recursos puede maximizar la eficiencia."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -171,6 +230,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Combinando el gráfico chart_53_4 (el grupo de edad de 18 - 24 años tiene la proporción más alta y el valor TGI es significativamente más alto que la base) y el gráfico chart_53_3 (la tendencia del volumen total de transacciones de las proteínas en polvo muestra un aumento, especialmente en los últimos meses), se infiere que el grupo joven tiene una fuerte preferencia y el mercado está en expansión, y la营销策略 dirigida puede aprovechar los beneficios de la tendencia.",
+        "B": "Esta opción interpreta erróneamente los datos del gráfico chart_53_4: la proporción del grupo de 30 - 34 años es del 17.3%, igual que la del grupo de 18 - 24 años, pero el TGI es de 93 (por debajo del promedio de 100), mientras que el TGI del grupo de 18 - 24 años es de 159 (mucho más alto que el promedio); esta opción confunde la proporción con la preferencia y ignora el indicador TGI, lo que conduce a una estrategia dirigida a un grupo de baja preferencia.",
+        "C": "Esta opción no se basa en los datos del gráfico, sino solo en conocimientos de marketing generales (por ejemplo, \"el marketing digital tiene una amplia cobertura\"), pero ignora las diferencias precisas enfatizadas en la pregunta (por ejemplo, las preferencias de edad y nivel educativo). Los gráficos chart_53_4 y chart_53_5 muestran diferencias de preferencia significativas. Esta sugerencia es demasiado general y no puede mejorar la penetración del mercado, por lo que es fácil descartarla por conocimiento general.",
+        "D": "Combinando el gráfico chart_53_5 (el valor TGI de la educación de licenciatura o superior es extremadamente alto, lo que indica una fuerte preferencia) y el gráfico chart_53_3 (el índice del volumen de transacciones está en aumento y se anotan altos incrementos, como +17.4% en mayo de 2022), se infiere que el grupo de alta educación responde activamente y que lanzar productos de alta gama en combinación con el período de crecimiento puede optimizar los retornos.",
+        "E": "Combinando el gráfico chart_53_5 (el grupo de educación secundaria o inferior tiene la proporción más grande pero el valor TGI es bajo) y el gráfico chart_53_1 (las proteínas en polvo tienen una proporción relativamente alta en los alimentos saludables y la base del mercado es grande), se infiere que el tamaño de este grupo es grande pero la demanda no está completamente satisfecha, y una estrategia de educación puede mejorar la preferencia (coincide con los valores, no reduce la inversión, sino que aumenta la accesibilidad).",
+        "F": "Esta opción interpreta erróneamente los datos del gráfico chart_53_5: la proporción del grupo de educación secundaria o inferior es del 60.2%, que es alta, pero el TGI es de 76, que es bajo; el TGI del grupo de carrera técnica es de 156, que es relativamente alto, pero la proporción es solo del 12.7%; esta opción confunde la alta proporción con el desperdicio y exagera demasiado el TGI del grupo de carrera técnica (la opción correcta C enfatiza el marketing educativo para explotar el potencial), e ignora que el TGI del grupo de licenciatura o superior es aún más alto (218) y que la base del grupo de educación secundaria o inferior es grande."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -194,6 +268,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando el gráfico chart_53_5 (el grupo de educación secundaria o inferior tiene la proporción más grande pero el TGI es bajo, y el TGI de la educación de licenciatura o superior es alto pero la proporción es mediana) y el gráfico chart_53_1 (las proteínas en polvo tienen una proporción relativamente alta en el mercado general y se necesita una cobertura amplia), se infiere que la asignación de recursos debe tener en cuenta diferentes grupos (coincide con los valores y no se ignora ningún grupo) para evitar el desequilibrio del mercado.",
+        "B": "Combinando el gráfico chart_53_3 (se anotan índices del volumen de transacciones, como +70.3% en noviembre de 2021 y +63.2% en enero de 2022, que muestran los meses de pico) y el gráfico chart_53_2 (la proteína de suero representa la mayor parte de las proteínas en polvo), se infiere que aumentar la promoción durante el período de crecimiento puede aprovechar el efecto de escala de la proteína de suero.",
+        "C": "Esta opción interpreta erróneamente la tendencia del gráfico chart_53_3: el índice del volumen de transacciones en abril de 2022 es de 220, que es relativamente alto, pero los incrementos anotados están en meses como noviembre de 2021 (\"+70.3%\") y mayo de 2022 (\"+17.4%\"), y no hay anotación en abril de 2022 y no es el punto más alto (alcanzó 260 en junio de 2022); esta opción confunde un solo punto alto con el pico y ignora los meses de incremento real y la tendencia general, lo que conduce a un error en el momento de la promoción.",
+        "D": "Combinando el gráfico chart_53_4 (el grupo de edad de 18 - 24 años tiene la proporción y el valor TGI más altos) y el gráfico chart_53_3 (la tendencia general del volumen de transacciones está en aumento), se infiere que el grupo joven es el motor de la demanda y que la innovación de productos puede coincidir con sus preferencias y crecer con la tendencia.",
+        "E": "Esta opción no se basa en los datos del gráfico, sino solo en conocimientos de gestión generales (por ejemplo, \"un plan fijo garantiza la estabilidad\"), pero ignora la estacionalidad y la estructura de los consumidores enfatizadas en la pregunta (por ejemplo, el gráfico chart_53_3 muestra picos evidentes). Esta sugerencia es general y va en contra de la tendencia, por lo que es fácil descartarla por conocimiento general.",
+        "F": "Esta opción interpreta erróneamente los datos del gráfico chart_53_4: la proporción del grupo de 55 - 59 años es del 2.8%, que es baja, y el TGI es de 63, que es mucho más bajo que el promedio (100), y el TGI del grupo de 50 - 54 años también es bajo (69); esta opción confunde la baja proporción + TGI mediano (75 para ≥60 años) con el potencial, pero los datos correctos indican que el grupo joven (TGI de 159 para 18 - 24 años) tiene una preferencia más fuerte y la dirección de la estrategia está claramente desviada."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     }
   ]

@@ -87,6 +87,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "依赖两张图表的趋势结构。'El período de tiempo con mayor calor de búsqueda de la Copa del Mundo' utiliza puntos de datos dispersos (7 períodos), mientras que 'Gráfico de tendencia de 24 horas del calor de búsqueda de la Copa del Mundo' tiene 24 puntos de datos. Por ejemplo, las 12h en el primer gráfico se registran como 12 millones, pero en el segundo son 18 millones, la diferencia surge porque el primero puede promediar períodos o seleccionar puntos representativos.",
+        "B": "Interpretación errónea de valores: el calor a las 12h en chart_29_3 es 12 millones, pero en chart_29_4 es 18 millones (no 12 millones), y a las 13h es 22 millones, por lo que existe una clara inconsistencia.",
+        "C": "Basado en la comparación de picos y valles. En 'El período de tiempo con mayor calor de búsqueda', el calor a las 12h es 12 millones (cerca del valle), mientras que en 'Gráfico de tendencia de 24 horas' es 18 millones (superior al valle de 11 millones pero inferior al pico de 32 millones), el conflicto surge porque un gráfico enfatiza los picos y el otro muestra la imagen completa, se necesita comparar ambas tendencias para explicarlo.",
+        "D": "Esto se basa en el conocimiento común del comportamiento del usuario (menos búsquedas durante el descanso del mediodía), pero los gráficos muestran que el calor del mediodía en chart_29_4 es alto (18 millones a las 12h, 22 millones a las 13h), aplicando erróneamente el conocimiento común a los datos.",
+        "E": "Se necesita combinar 'El período de tiempo con mayor calor de búsqueda de la Copa del Mundo' (solo muestra períodos específicos como 0, 4, 8, 12, 16, 20, 24h) y 'Gráfico de tendencia de 24 horas del calor de búsqueda de la Copa del Mundo' (proporciona datos detallados por hora). El primero simplifica los datos, destacando solo los picos (como 30 millones a las 8h y 16h), mientras que el segundo muestra que a las 12h son realmente 18 millones, pero el primero registra 12 millones, indicando que el procesamiento simplificado hace que los valores en períodos no pico sean más bajos.",
+        "F": "Esta opción se basa en el conocimiento común de la recopilación de datos (las diferencias en los dispositivos pueden afectar los datos), pero los gráficos no mencionan la fuente de datos, no está relacionado con el contenido del gráfico, es una generalización.",
+        "G": "Identificación errónea del valle: el valle en chart_29_4 es 11 millones (entre 0-4h), el calor del mediodía (18-22 millones) es superior al valle, pero esta opción identifica erróneamente el mediodía como el punto más bajo."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Cita conocimiento común de la industria mediática (la publicidad afecta el calor), pero los gráficos no involucran factores mediáticos, no relacionados con los datos.",
+        "B": "Asociación errónea de fechas y partidos: el calor del 17 es 22.04 millones realmente bajo, pero Túnez vs Inglaterra calor 6.5 millones es uno de los más bajos, pero el 18 el calor se recupera a 23.25 millones (superior al 17), y la distribución del calor de los partidos no especifica fechas, esta opción fuerza una asociación no válida.",
+        "C": "Se necesita combinar 'Tendencia de popularidad de la Copa Mundial en la primera ronda de la fase de grupos' (el calor disminuye día a día desde 46.98 millones el 14) y 'Ranking de Popularidad Top 5 de la Primera Ronda de la Fase de Grupos de la Copa del Mundo' (Rusia vs Arabia Saudí calor más alto 15 millones). La conexión implícita es que el día de apertura (14) tiene el calor más alto, posiblemente relacionado con este partido, pero el calor de un solo partido (15 millones) es solo una pequeña parte del calor diario (46.98 millones), se necesita razonar que el partido actúa como catalizador elevando las búsquedas generales.",
+        "D": "Depende de 'Tendencia de popularidad' (el calor se recupera a 28.92 millones el 19) y 'Ranking de Popularidad de los 10 Mejores Futbolistas' (como Messi 8 millones, Ronaldo 2 millones). Aunque los gráficos de partidos no especifican fechas, futbolistas de alto calor (como Ronaldo) pueden participar en partidos posteriores (como Portugal vs España calor 13.6 millones), razonamiento conjunto de que el calor de los futbolistas afecta indirectamente la recuperación del calor diario.",
+        "E": "Basado en conocimiento común de partidos (la calidad afecta el interés), pero los gráficos no proporcionan datos de calidad, es un razonamiento genérico que no depende de los gráficos.",
+        "F": "Basado en 'Tendencia de popularidad' (fluctuaciones como 23.25 millones el 18) y 'Ranking de Popularidad de Partidos' (todos los partidos tienen calor inferior a 15 millones). El calor de un solo partido es mucho menor que el calor diario, indicando que la disminución no puede atribuirse solo a un partido, se necesita combinar con los gráficos para inferir otros factores (como la superposición de múltiples partidos o eventos externos).",
+        "G": "Error en la influencia del futbolista: Messi calor 8 millones es el más alto, pero las fechas de partidos no se especifican en los gráficos (no se puede confirmar que Messi jugara el 14), y el alto calor del 14 puede deberse al partido de apertura (Rusia vs Arabia Saudí, 15 millones), no a un solo futbolista."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -133,6 +167,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Depende de 'Gráfico de tendencia de 24 horas' (períodos pico con calor significativamente mayor que los valles) y 'Ranking de Popularidad de los 10 Mejores Futbolistas' (Messi calor 8 millones es el más alto). Las búsquedas de futbolistas como Messi pueden aumentar en períodos pico (como horarios de partidos), pero 'Gráfico de tendencia de 24 horas' muestra picos regulares (8h y 16h), se necesita razonar conjuntamente que los futbolistas contribuyen parcialmente, pero en general están dominados por los partidos.",
+        "B": "Error en la influencia del futbolista por horario: Ronaldo calor 2 millones (no el más alto), pero los horarios de búsqueda de futbolistas no se proporcionan en los gráficos; el alto calor a las 16h puede deberse a partidos consecutivos, pero esta opción atribuye erróneamente al futbolista.",
+        "C": "Basado en conocimiento común de horarios de usuarios (desplazamientos aumentan búsquedas), pero los gráficos no verifican este factor, es un razonamiento genérico.",
+        "D": "Cita conocimiento común de la industria publicitaria (la promoción afecta el calor), pero los gráficos no mencionan publicidad, no relacionado con los datos.",
+        "E": "Basado en 'Gráfico de tendencia de 24 horas' (calor a las 16h alcanza subpico de 31 millones, después de las 20h cae por debajo de 12 millones) y 'Tendencia de popularidad de la Copa Mundial en la primera ronda de la fase de grupos' (el calor diario puede ser alto en la tarde). Por ejemplo, el pico a las 16h coincide con posibles horarios de partidos, mientras que el valle nocturno (como 11 millones a las 24h) por falta de partidos, se necesita razonar entre gráficos la influencia de horarios y distribución de partidos.",
+        "F": "Error en la asociación de horarios de partidos: Rusia vs Arabia Saudí calor 15 millones, pero la hora del partido es desconocida; el pico a las 8h puede deberse a otros factores (como horario de despertar de usuarios), esta opción malinterpreta la relación partido-pico.",
+        "G": "Se necesita combinar 'Gráfico de tendencia de 24 horas del calor de búsqueda de la Copa del Mundo' (picos a las 8h 32 millones y 16h 31 millones) y 'Ranking de Popularidad Top 5 de la Primera Ronda de la Fase de Grupos de la Copa del Mundo' (como Rusia vs Arabia Saudí calor 15 millones). Aunque los gráficos de partidos no tienen horas específicas, los períodos pico (8h y 16h) suelen corresponder con el inicio de partidos, se necesita razonar que partidos de alto calor (como el inaugural) pueden programarse en estos horarios, elevando los picos de búsqueda."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "La opción 2 combina chart_29_1 (la popularidad muestra una tendencia de recuperación en fechas posteriores, como del 18 al 19) y chart_29_4 (la tendencia horaria se puede utilizar como referencia para la densidad de publicación), y guía el ajuste de la frecuencia de publicación a través de la tendencia de popularidad por fecha.",
+        "B": "Esta opción de distracción fácil sugiere erróneamente aumentar la publicación cuando la popularidad está en descenso. Los gráficos muestran que la publicación tiene poco efecto cuando el interés de los usuarios es bajo. El sentido común indica que forzar el aumento de la publicación cuando el interés está cayendo puede desperdiciar recursos en lugar de mejorar la interacción.",
+        "C": "La opción 3 combina chart_29_4 (la popularidad en 24 horas tiene múltiples picos y valles) y chart_29_3 (la distribución de la popularidad por período de tiempo muestra que los picos se concentran), y sugiere centrarse en los períodos eficientes mientras se cubre todo el día para mejorar la eficiencia general.",
+        "D": "Esta opción de distracción fácil es amplia y no tiene guías de acción específicas, y ignora los picos por período de tiempo mostrados en los gráficos. El sentido común indica que la diversidad de contenido es importante, pero no resuelve el impacto directo de la hora de publicación en la exposición, lo que hace que la estrategia sea ineficaz.",
+        "E": "La opción 1 combina chart_29_3 (muestra que la popularidad de búsqueda es significativamente más alta en períodos específicos, como las 8 y las 16) y chart_29_4 (en la tendencia de 24 horas, los picos de popularidad en estos períodos son consistentes, y la actividad de los usuarios es baja en los períodos de valle). Se deduce que la publicación en los períodos de pico puede optimizar la participación.",
+        "F": "Esta opción de distracción difícil confunde la tendencia de popularidad: chart_29_1 muestra que la popularidad fue baja el 17 (22.04 millones), pero se recuperó el 19 (28.92 millones). Reducir la publicación en días de baja popularidad puede hacer que se pierdan oportunidades. La estrategia debe aprovechar la tendencia de recuperación para aumentar la publicación en lugar de reducirla.",
+        "G": "Esta opción de distracción difícil interpreta erróneamente los datos de los gráficos: chart_29_3 y chart_29_4 muestran que la popularidad en los períodos de valle (por ejemplo, de 0 a 4 horas) es solo de 11 millones (valor de valle), y la actividad de los usuarios es baja. La exposición de los contenidos publicados en estos períodos es baja. La estrategia correcta debe evitar los períodos de valle en lugar de priorizarlos para la publicación."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción de distracción difícil utiliza erróneamente los datos de los gráficos: chart_29_2 muestra que el partido entre Túnez e Inglaterra tiene la menor popularidad (650,000), mientras que los partidos de alta popularidad (como Rusia 5:0 Arabia Saudí con 1.5 millones) son más populares. Promover partidos de baja popularidad no puede aumentar la atracción, sino que desperdicia recursos.",
+        "B": "Esta opción de distracción fácil es demasiado amplia y ignora las diferencias de popularidad mostradas en los gráficos. El sentido común indica que la distribución uniforme de recursos cuando son limitados diluirá el efecto y no podrá aumentar la influencia de los eventos de alta popularidad.",
+        "C": "La opción 3 combina chart_29_1 (la popularidad se recupera en fechas posteriores) y chart_29_2 (la popularidad de los partidos se puede utilizar como objeto de promoción), y guía el momento de la asignación de recursos a través de la tendencia de popularidad por fecha para evitar inversiones ineficientes.",
+        "D": "Esta opción de distracción fácil es correcta en su enunciado pero no tiene soporte de datos específicos. El sentido común indica que es razonable evitar la sobrecomercialización, pero no considera que los jugadores de alta popularidad (como Messi con 800,000) pueden atraer efectivamente a los espectadores, lo que hace que la estrategia tenga una desviación en la dirección.",
+        "E": "La opción 1 combina chart_29_2 (el partido entre Rusia y Arabia Saudí tiene la mayor popularidad) y chart_29_5 (los jugadores como Messi tienen una alta popularidad), y se deduce que asociar a los jugadores de alta popularidad durante la promoción de los partidos de alta popularidad puede fortalecer la atracción (por ejemplo, la popularidad es mayor cuando el partido involucra a jugadores famosos).",
+        "F": "Esta opción de distracción difícil confunde la popularidad y el costo: chart_29_4 muestra que la popularidad en los períodos de valle (por ejemplo, de 0 a 4 horas) es solo de 11 millones (valor de valle), y la promoción tiene poco efecto cuando hay pocos usuarios. La estrategia debe coincidir con los períodos de pico (como las 8 horas con 32 millones) en lugar de los períodos de valle.",
+        "G": "La opción 2 combina chart_29_2 (las diferencias en los valores de popularidad de los partidos) y chart_29_4 (en la tendencia de 24 horas, los usuarios están activos en los períodos de pico, como las 8 y las 16), y sugiere promocionar en períodos eficientes para aumentar la exposición de los partidos."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -204,6 +289,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción de distracción fácil viola la lógica básica: cuando la popularidad está en aumento, hay más usuarios y se debe aumentar la oferta para competir por la exposición. El sentido común indica que reducir la oferta en el pico de interés hará que el anuncio sea ignorado y reducirá el ROI.",
+        "B": "Esta opción de distracción difícil confunde la popularidad de los jugadores con el período de tiempo: chart_29_5 muestra que Messi tiene alta popularidad, pero en el período de valle de chart_29_4 (de 0 a 4 horas) la popularidad es solo de 11 millones, y la tasa de interacción de los anuncios es baja cuando hay pocos usuarios. La estrategia debe combinar la segmentación por jugador en los períodos de pico.",
+        "C": "La opción 2 combina chart_29_4 (los picos de popularidad, como las 8 y las 16) y chart_29_1 (la popularidad general se recupera en días específicos), y sugiere aumentar la oferta en los picos horarios y cuando la popularidad por fecha está en aumento para capturar más usuarios.",
+        "D": "La opción 1 combina chart_29_4 (en la tendencia de 24 horas, los valles de popularidad se mantienen durante la medianoche y la madrugada) y chart_29_3 (los períodos de baja popularidad en los datos por período de tiempo, como las 0 y las 4), y se deduce que la rentabilidad de los anuncios es baja en los períodos de valle, y que ahorrando costos en estos períodos se puede optimizar la inversión en los períodos de pico.",
+        "E": "Esta opción de distracción fácil es amplia y no tiene guías de acción. El sentido común indica que la segmentación por jugador es importante, pero ignora la popularidad por período de tiempo (por ejemplo, los períodos de pico en chart_29_4), y la estrategia no puede optimizar el costo o el efecto.",
+        "F": "La opción 3 combina chart_29_5 (jugadores como Messi tienen una popularidad extremadamente alta) y chart_29_4 (la tendencia de popularidad en 24 horas se puede utilizar como referencia para el período de tiempo de los anuncios), y se deduce que la publicación de contenido relacionado con los jugadores en los períodos de pico puede aprovechar la intención de búsqueda de los usuarios para mejorar el efecto.",
+        "G": "Esta opción de distracción difícil interpreta erróneamente los datos: chart_29_4 muestra que la actividad de los usuarios es alta en los períodos de pico (por ejemplo, 32 millones a las 8 horas), y reducir la oferta hará que se pierdan oportunidades de exposición. La estrategia correcta debe aumentar la oferta para competir por el tráfico."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     }
   ]

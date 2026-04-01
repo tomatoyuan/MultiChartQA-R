@@ -86,6 +86,21 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Opción 2 depende del gráfico 'Las 5 Cosas Más Importantes en la Universidad' (alta proporción de Completar la Tesis de Graduación) y del gráfico 'Requisitos personales de los estudiantes universitarios en aspectos académicos' (baja proporción de Participar activamente en proyectos de investigación científica), el razonamiento conjunto muestra la contradicción entre la alta importancia dada a la tesis y la baja iniciativa en investigación, sugiriendo que está impulsado por tareas más que por interés.",
+        "B": "Esta es una opción de interferencia Hard, basada en un error de comprensión numérica: chart_52_1 muestra que Aprender Cursos Profesionales tiene un 69.3%, mientras que chart_52_2 muestra que Perseguir la innovación académica tiene solo 33.8%, la diferencia es grande (aproximadamente 35.5%), no 'cercana'; la interpretación errónea ignora la brecha significativa y no puede respaldar una conclusión de equilibrio.",
+        "C": "Opción 3 depende del gráfico 'Las 5 Cosas Más Importantes en la Universidad' (proporción significativa de Obtener Experiencia en Prácticas) y del gráfico 'Requisitos personales de los estudiantes universitarios en aspectos académicos' (baja proporción de Ser capaz de producir resultados de investigación personales de forma independiente), a través de la comparación numérica entre prácticas y producción académica, se infiere que la orientación profesional tiene prioridad sobre el desarrollo académico. Cada opción requiere referencias cruzadas a los datos de ambos gráficos, no se puede inferir de un solo gráfico.",
+        "D": "Esta es una opción de interferencia Hard, basada en errores de orden y brecha: chart_52_1 muestra que Completar la Tesis de Graduación tiene 64.0%, mientras que chart_52_2 muestra que Participar activamente en proyectos de investigación científica tiene solo 31.0%, la diferencia es del 33%, no 'casi igual'; sugiere erróneamente una correlación, pero los datos indican que la prioridad de la tesis es mucho mayor que la participación activa en investigación.",
+        "E": "Opción 1 depende del gráfico 'Las 5 Cosas Más Importantes en la Universidad' (proporción más alta de Aprender Cursos Profesionales) y del gráfico 'Requisitos personales de los estudiantes universitarios en aspectos académicos' (baja proporción de Perseguir la innovación académica), al comparar la importancia del aprendizaje con la baja inversión en innovación, se infiere una contradicción potencial: se valora el aprendizaje, pero la innovación académica no se enfatiza por igual.",
+        "F": "Esta es una opción de interferencia Easy, basada en un error de sentido común: el sentido común sugiere que los universitarios deberían valorar la innovación académica, pero el gráfico muestra que Perseguir la innovación académica tiene solo 33.8% (chart_52_2), no es 'universal' o 'central'; los datos reales indican una baja proporción de búsqueda académica, contradiciendo el sentido común."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -107,6 +122,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia Hard, basada en errores numéricos y de correlación: chart_52_4 muestra que la proporción general de interés en Tendencias de la frontera disciplinar es 37.1%, mientras que chart_52_3 muestra que la proporción de estudiantes que eligen hacer estudios adicionales es 41.0%, pero 41.0% es parte de la dirección de planificación, no la proporción de estudiantes de posgrado interesados en tendencias; confunde erróneamente proporciones generales con subgrupos, y hay una brecha de 3.9%, no 'consistente'.",
+        "B": "Esta es una opción de interferencia Easy, basada en un error de sentido común: el sentido común sugiere que la planificación está relacionada con el interés académico, pero los gráficos muestran que Completamente no interesado en contenido académico es solo 0.9% (chart_52_4), y 94.6% tiene un plan claro (chart_52_3), no es 'falta general de interés' o 'falta de planificación'; los datos reales son completamente opuestos.",
+        "C": "Opción 2 depende del gráfico 'Interés de los estudiantes universitarios en el contenido académico' (alta proporción de interés en Oportunidades de investigación) y del gráfico 'Planes de desarrollo de los estudiantes universitarios después de la graduación' (alta proporción combinada de buscar empleo y hacer estudios adicionales), el razonamiento conjunto muestra que el interés en oportunidades académicas coincide con las principales rutas de planificación (empleo o estudios adicionales).",
+        "D": "Opción 3 depende del gráfico 'Interés de los estudiantes universitarios en el contenido académico' (proporción muy baja de Completamente no interesado) y del gráfico 'Planes de desarrollo de los estudiantes universitarios después de la graduación' (proporción muy alta de tener un plan claro), a través de la comparación numérica de la baja tasa de desinterés y la alta tasa de planificación, se infiere que el interés académico es parte de la planificación. Cada opción requiere integrar datos de ambos gráficos, un solo gráfico no puede revelar el patrón.",
+        "E": "Esta es una opción de interferencia Hard, basada en errores de brecha y causalidad: chart_52_4 muestra que la proporción general de interés en Oportunidades de investigación es 52.6%, mientras que chart_52_3 muestra que la proporción de estudiantes que eligen buscar empleo es 34.8%; pero 52.6% son datos generales, no específicos para estudiantes que buscan empleo, la diferencia es 17.8%, supone erróneamente que los estudiantes que buscan empleo 'están más interesados', pero los datos no proporcionan desglose por subgrupos.",
+        "F": "Opción 1 depende del gráfico 'Planes de desarrollo de los estudiantes universitarios después de la graduación' (proporción muy alta de planificación clara, proporción significativa de hacer estudios adicionales) y del gráfico 'Interés de los estudiantes universitarios en el contenido académico' (proporción más alta de interés en Actividades de intercambio académico), a través de la universalidad de la planificación y el alto valor de interés académico, se infiere una correlación positiva: los estudiantes con planificación clara son más propensos a participar en intercambios académicos."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -128,6 +158,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Opción 3 depende del gráfico 'Momento en el que los estudiantes universitarios más a menudo escriben trabajos' (TGI destacado para estudiantes de posgrado en Noche) y del gráfico 'Interés de los estudiantes universitarios en el contenido académico' (proporción media de interés en Herramientas y métodos de investigación), a través de la comparación numérica de la preferencia horaria de grupos específicos y el interés en herramientas, se infiere que los posgrados prefieren trabajar de noche pero la inversión en herramientas no aumenta significativamente. Cada opción requiere combinar datos de ambos gráficos, no se puede inferir patrones implícitos de un solo gráfico.",
+        "B": "Opción 1 depende del gráfico 'Momento en el que los estudiantes universitarios más a menudo escriben trabajos' (proporción más alta de escritura en Noche) y del gráfico 'Interés de los estudiantes universitarios en el contenido académico' (baja proporción de interés en Tendencias de la frontera disciplinar), a través de la combinación numérica de preferencia horaria y nivel de interés en contenido académico, se infiere que la asignación de tiempo puede marginar las tendencias fronterizas.",
+        "C": "Esta es una opción de interferencia Easy, basada en un error de sentido común: el sentido común sugiere que escribir de día es más razonable, pero el gráfico muestra que la escritura en Noche tiene 53.2% (chart_52_5), mucho mayor que Horario diurno con 24.8%; los datos reales indican que la preferencia nocturna domina, contradiciendo el sentido común.",
+        "D": "Esta es una opción de interferencia Hard, basada en errores de comprensión de TGI y correlación: chart_52_5 menciona TGI de estudiantes de posgrado=121 (indica 21% por encima del promedio), pero el interés en Tendencias de la frontera disciplinar es una proporción general de 37.1% (chart_52_4), no específica para posgrados; supone erróneamente que los posgrados están más interesados en tendencias, pero los datos no proporcionan datos de subgrupos de posgrados, y 37.1% es un valor general, sin relación directa con TGI.",
+        "E": "Esta es una opción de interferencia Hard, basada en un error de brecha numérica: chart_52_5 muestra que la escritura en Noche tiene 53.2%, mientras que chart_52_4 muestra que el interés en Herramientas y métodos de investigación es solo 40.6%, la diferencia es 12.6%, no 'similar'; la interpretación errónea ignora la brecha significativa y no prueba un vínculo directo entre tiempo y uso de herramientas.",
+        "F": "Opción 2 depende del gráfico 'Momento en el que los estudiantes universitarios más a menudo escriben trabajos' (baja proporción de escritura en Tiempo fragmentado no fijo) y del gráfico 'Interés de los estudiantes universitarios en el contenido académico' (alta proporción de interés en Acceso a recursos académicos), el razonamiento conjunto muestra la contradicción entre la baja escritura fragmentada y el alto interés en acceso a recursos, implicando que la gestión de recursos puede completarse en períodos no de escritura."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -152,6 +197,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "El gráfico chart_52_3 muestra que el 94.6% de los estudiantes tienen un plan claro, y entre ellos, el porcentaje de aquellos que 'continuarán con estudios adicionales' es el más alto (41.0%). Combinado con el hecho de que 'acumular experiencia en prácticas' es una cosa importante (51.1%) en el gráfico chart_52_1, se infiere la importancia de la experiencia académica para los estudios adicionales, y la estrategia puede aumentar la participación en la innovación.",
+        "B": "El gráfico chart_52_4 muestra que los estudiantes tienen la mayor atención hacia 'Actividades de intercambio académico' y 'Oportunidades de investigación' (67.2% y 52.6% respectivamente), pero en el gráfico chart_52_2, la proporción de aquellos que 'persiguen la innovación académica' es baja (33.8%), lo que indica que la alta atención no se ha convertido en alta participación. Se necesitan inversiones en recursos para cerrar la brecha.",
+        "C": "El gráfico chart_52_5 muestra que el porcentaje de escritura de trabajos durante la 'noche' es el más alto (tiene una tendencia clara), y en el gráfico chart_52_4, la atención hacia 'Herramientas y métodos de investigación' es del 40.6%. Optimizar los recursos nocturnos puede apoyar la 'producción independiente de resultados de investigación' en el gráfico chart_52_2 (27.3%, que es bajo).",
+        "D": "Opción de distracción fácil. Basado en generalizaciones de la industria (la salud mental es importante), pero no hay una estrategia específica dirigida a la innovación académica o la producción de resultados de investigación. La expresión es amplia y está fuera del enfoque de los gráficos.",
+        "E": "Opción de distracción difícil. Interpretación errónea de los datos del gráfico chart_52_2: la proporción de aquellos que persiguen la innovación académica es en realidad relativamente baja (inferior a otros requisitos académicos, como la participación activa en proyectos de investigación científica, que es del 31.0%, y la opción correcta A enfatiza la necesidad de más apoyo), pero la opción de distracción lo juzga erróneamente como 'alta proporción' y sugiere reducir la inversión, lo que va en contra de la intención de los datos.",
+        "F": "Opción de distracción fácil. Basado en el conocimiento general (la mejora de la vida en el campus puede mejorar indirectamente el rendimiento), pero la expresión es amplia y no hay indicaciones de acción específicas. No está relacionado con la innovación académica y se puede descartar por conocimiento general.",
+        "G": "Opción de distracción difícil. Uso erróneo de los datos del gráfico chart_52_5: el porcentaje de escritura durante la noche es el más alto (53.2%), pero la opción de distracción sugiere cancelar los servicios (como restringir la apertura de la biblioteca), mientras que los datos apoyan la optimización de los recursos nocturnos (la opción correcta C). Además, se ignora el valor TGI (los estudiantes de posgrado tienen una mayor tendencia a escribir durante la noche)."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -175,6 +237,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "En el gráfico chart_52_1, el porcentaje de 'acumular experiencia en prácticas' es destacado (51.1%). Combinado con el hecho de que la dirección de planificación de 'buscar empleo' en el gráfico chart_52_3 tiene un alto porcentaje (34.8%), esto indica que la asignación de recursos de prácticas puede satisfacer eficientemente las necesidades de la mayoría de los estudiantes.",
+        "B": "En el gráfico chart_52_3, el porcentaje de planificación de 'hacer el examen de servicio civil' es del 15.5% (no es la tendencia principal, pero es significativo). Combinado con el hecho de que 'Realizar Exámenes Externos' es una cosa importante (50.8%) en el gráfico chart_52_1, la estrategia garantiza la equidad de los recursos y es coherente con los valores.",
+        "C": "Opción de distracción difícil. Uso erróneo de los datos de los gráficos chart_52_4 y chart_52_3: la atención hacia las oportunidades de investigación es alta (52.6%), y el porcentaje de planificación de hacer el examen de servicio civil es bajo (15.5%), pero la opción de distracción sugiere reducir el apoyo a los grupos minoritarios, mientras que la pregunta enfatiza 'equidad y eficiencia' (la opción correcta C requiere cubrir a los grupos minoritarios). Además, se ignora la relevancia de los exámenes externos (50.8% en el gráfico chart_52_1).",
+        "D": "Opción de distracción difícil. Interpretación errónea de los datos del gráfico chart_52_1: el porcentaje de acumular experiencia en prácticas es en realidad el tercero (inferior al de aprender cursos profesionales, que es del 69.3%, y al de completar la tesis de graduación, que es del 64.0%), pero la opción de distracción lo juzga erróneamente como 'el primero' y sugiere concentrar los recursos, mientras que la pregunta solicita un apoyo equitativo a las direcciones múltiples (la opción correcta A enfatiza las prácticas, pero se requiere equilibrio).",
+        "E": "Opción de distracción fácil. Basado en el conocimiento general (la mejora de las instalaciones deportivas mejora la salud), pero no hay una estrategia específica de asignación de recursos. La expresión es amplia y no está relacionada con el desarrollo después de la graduación. Se puede descartar por conocimiento general.",
+        "F": "Opción de distracción fácil. Basado en generalizaciones de la industria (los recursos digitales son importantes), pero no hay detalles de acción y está fuera de la estrategia de asignación de recursos. Además, no se citan los gráficos.",
+        "G": "En el gráfico chart_52_3, el porcentaje de planificación de 'continuar con estudios adicionales' es el más alto (41.0%), y en el gráfico chart_52_4, la atención hacia 'Oportunidades de investigación' es del 52.6%. Se infiere que la inversión en recursos académicos puede aumentar la 'participación activa en proyectos de investigación científica' en el gráfico chart_52_2 (31.0%)."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -198,6 +277,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "En el gráfico chart_52_5, el porcentaje de escritura de trabajos durante el 'horario diurno' es bajo (24.8%), y el gráfico chart_52_2 muestra que la demanda de producción independiente no es alta (27.3%). Los talleres pueden ajustar los hábitos y apoyar la importancia de 'completar la tesis de graduación' en el gráfico chart_52_1 (64.0%).",
+        "B": "Opción de distracción fácil. Basado en el conocimiento general (la mejora del entorno puede aumentar la eficiencia), pero la expresión es amplia y no hay una estrategia de optimización específica. No está relacionado con las preferencias de tiempo o los requisitos personales. Se puede descartar por conocimiento general.",
+        "C": "Opción de distracción difícil. Interpretación errónea de los datos del gráfico chart_52_2: el porcentaje de producción independiente es en realidad bajo (la opción correcta C enfatiza la necesidad de capacitación para mejorarlo), pero la opción de distracción lo juzga erróneamente como 'bajo porcentaje que requiere menos apoyo' y sugiere depender de plantillas, mientras que los datos indican la necesidad de fortalecer la capacidad independiente.",
+        "D": "El gráfico chart_52_5 muestra que el porcentaje de escritura de trabajos durante la 'noche' es el más alto (domina la tendencia), y en el gráfico chart_52_2, el porcentaje de aquellos que 'pueden producir resultados de investigación personales de forma independiente' es bajo (27.3%). La estrategia se dirige a la hora de mayor preferencia para aumentar la producción.",
+        "E": "Opción de distracción fácil. Basado en generalizaciones de la industria (aliviar la presión es importante), pero no hay una dirección específica hacia la eficiencia de escritura. La expresión es amplia y está fuera de los requisitos personales académicos.",
+        "F": "Opción de distracción difícil. Uso erróneo de los datos del gráfico chart_52_5: el porcentaje de tiempo fragmentado es del 19.0%, pero la opción de distracción sugiere prohibir dispositivos (como teléfonos móviles), mientras que los datos apoyan la provisión de herramientas (la opción correcta B). Además, se ignora la racionalidad del tiempo fragmentado (los estudiantes pueden utilizar el tiempo de viaje, etc.).",
+        "G": "En el gráfico chart_52_5, el porcentaje de escritura de trabajos durante el 'tiempo fragmentado no fijo' es significativo (19.0%). Combinado con el hecho de que la atención hacia 'Herramientas y métodos de investigación' en el gráfico chart_52_4 es del 40.6%, se infiere que el desarrollo de herramientas puede utilizar eficientemente el tiempo fragmentado."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     }
   ]

@@ -84,6 +84,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en el sentido común (como la influencia de la publicidad en el interés), pero no depende de los datos del gráfico (los gráficos no mencionan publicidad o factores externos), por lo que es fácil identificar el error.",
+        "B": "Combinando los dos gráficos, se infiere la correlación entre la alta tasa de crecimiento de las tendencias de búsqueda y el crecimiento destacado de las soluciones de medicina estética, requiriendo la comparación de las tendencias de datos de ambos gráficos.",
+        "C": "Combinando los dos gráficos, se infiere que la demanda de cuidado puede estar cambiando hacia la medicina estética, requiriendo un análisis transversal de la base y los cambios porcentuales.",
+        "D": "Esta es una opción de distracción difícil: superficialmente se basa en datos (chart_153_1 crecimiento del volumen de búsqueda 106.32%, chart_153_2 porcentaje de medicina estética aumentó), pero cuantifica erróneamente 'ligero aumento' (el porcentaje real de medicina estética creció casi un 93%), y no considera la correlación con el crecimiento del 81.12% en 'Problemas de discusión sobre poros', lo que lleva a una distorsión en el juicio del crecimiento del interés.",
+        "E": "Esta es una opción de distracción difícil: interpreta erróneamente los datos del gráfico (chart_153_1 muestra que 'Cuidado de los poros' tiene la tasa de crecimiento más alta del 143.75%), pero ignora que el porcentaje de 'Medicina estética' en chart_153_2 aumentó del 4.70% al 9.07% (crecimiento significativo), y no está relacionado con la popularidad de búsqueda, por lo tanto, el razonamiento es incorrecto.",
+        "F": "Combinando los dos gráficos, se infiere la regla del aumento de la popularidad de búsqueda y el fortalecimiento de la preferencia por la medicina estética, no se puede inferir solo con un gráfico (por ejemplo, un solo gráfico no puede informar la distribución de soluciones)."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: superficialmente se basa en datos (chart_153_2 porcentaje de cuidado de la piel 71.33%), pero infiere erróneamente que 'el acné ya está resuelto' (el gráfico no prueba causalidad), y la alta proporción de acné en chart_153_3 contradice el bajo volumen de búsqueda, pero esta opción ignora que los usuarios pueden discutir de manera dispersa (como en la opción original A).",
+        "B": "Combinando los dos gráficos, se infiere la prioridad de asignación de recursos del usuario, requiriendo una comparación transversal de la gravedad del problema y la popularidad de búsqueda.",
+        "C": "Combinando los dos gráficos, se infiere que las soluciones principales cubren la demanda de cuidado, inhibiendo la búsqueda especializada, requiriendo analizar la correlación estructural de ambos gráficos.",
+        "D": "Esta es una opción de distracción fácil: se basa en el sentido común (como la independencia de los problemas), pero no depende del gráfico (chart_153_3 muestra que el acné como problema derivado de los poros dilatados representa el 45.00%, con fuerte correlación), por lo que es fácil juzgar el error mediante el sentido común.",
+        "E": "Combinando los dos gráficos, se infiere el conflicto de la preferencia del usuario por discutir en lugar de cuidar específicamente, requiriendo una comparación transversal de la proporción del problema y la diferencia en el volumen de búsqueda (un solo gráfico no puede explicar el comportamiento de búsqueda).",
+        "F": "Esta es una opción de distracción difícil: interpreta erróneamente los datos del gráfico (chart_153_3 muestra una proporción de acné del 45.00%, aunque inferior al 77.33% de piel grasa pero superior al 34.33% de enrojecimiento), pero ignora el contexto de 'relativamente alto', y no combina la base baja del volumen de búsqueda de 'Cuidado de los poros' en chart_153_1 (solo 0.39 mil notas), lo que lleva a un razonamiento parcial."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -126,6 +156,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en el sentido común (como la influencia de los hábitos de vida), pero no depende del gráfico (chart_153_2 muestra que el porcentaje de soluciones de estilo de vida disminuyó del 7.52% al 6.45%, no aumentó), por lo que es fácil identificar el error.",
+        "B": "Esta es una opción de distracción difícil: asocia erróneamente los datos del gráfico (chart_153_3 proporción de granos negros 74.33%, chart_153_2 porcentaje de soluciones de métodos disminuyó), pero en realidad el aumento del porcentaje de 'Cuidado de la piel' al 71.33% es la causa principal, y no considera el impulso del problema de piel grasa del 77.33%, lo que lleva a un error en el razonamiento sobre el cambio de preferencia.",
+        "C": "Combinando los dos gráficos, se infiere la relación causal entre problemas de alta incidencia y preferencias de solución, requiriendo un análisis transversal de la estructura del problema y la distribución de soluciones (un solo gráfico no puede inferir la selección de soluciones).",
+        "D": "Esta es una opción de distracción difícil: superficialmente se basa en datos (chart_153_3 proporción de tez opaca 61.33%, chart_153_2 porcentaje de medicina estética aumentó al 9.07%), pero atribuye erróneamente la causa (la tez opaca no es el problema más prominente, y el crecimiento de la medicina estética puede estar relacionado con múltiples factores), ignorando el papel dominante de la piel grasa y los granos negros (opción original A), causando una desviación en la interpretación.",
+        "E": "Combinando los dos gráficos, se infiere que la gravedad del problema impulsa la demanda de soluciones estratificadas, requiriendo una correlación transversal de la prioridad del problema y la dinámica de las soluciones.",
+        "F": "Combinando los dos gráficos, se infiere que los usuarios abandonan los métodos locales y se orientan hacia soluciones principales, requiriendo comparar la proporción del problema y las tendencias de cambio en las soluciones."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -148,6 +193,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "En el chart_153_2, la proporción del plan oral es baja (0.57%) y está en descenso. En el chart_153_1, la base de búsqueda de “Cuidado de los poros” es pequeña (0.39 millones de búsquedas). La asignación de recursos debe evitar áreas ineficientes.",
+        "B": "Esta es una opción de distracción fácil: Se sugiere ampliar ampliamente la línea de productos, sin combinar el aumento de la búsqueda de poros mostrado en el gráfico (por ejemplo, el aumento del 81.12% en “Problemas de discusión sobre poros”) o la proporción de planes de mejora (dominados por el cuidado de la piel). La estrategia no es específica y se puede descartar fácilmente por conocimiento común.",
+        "C": "El chart_153_2 muestra que la proporción del plan de cuidado de la piel es la más alta (71.33%) y está en aumento. En el chart_153_1, la tasa de crecimiento de la palabra clave “Cuidado de los poros” es la más alta (143.75%), lo que indica que existe un gran potencial de crecimiento en la demanda de productos de cuidado de la piel. La asignación de recursos debe dar prioridad a este área.",
+        "D": "Esta es una opción de distracción fácil: No se basa en ningún dato del gráfico, solo en conocimientos generales de marketing (por ejemplo, que la publicidad puede mejorar el reconocimiento de la marca). Sin embargo, no hay una guía de acción específica y se ignoran la tendencia de búsqueda de poros y las preferencias de los planes de mejora, por lo que no se puede optimizar la asignación de recursos.",
+        "E": "Esta es una opción de distracción difícil: Se interpreta erróneamente los datos del chart_153_2 (la proporción del plan de métodos ha disminuido del 17.76% al 12.58%) y las búsquedas del chart_153_1 (la base de “Problemas de discusión sobre poros” es grande pero el crecimiento es moderado). Se ignora que la proporción del plan de cuidado de la piel ha aumentado al 71.33%. La sugerencia de reducir los recursos de cuidado de la piel contradice la tendencia de los datos.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente se utiliza la tasa de crecimiento de “Cuidado de los poros” del chart_153_1 (143.75%), pero se enlaza erróneamente con el plan oral (el chart_153_2 muestra que la proporción del plan oral es solo del 0.66% y ha disminuido al 0.57%). Se confunden las búsquedas de palabras clave con el tipo de plan, lo que conduce a una desviación en la dirección de la estrategia (el plan oral no es el principal).",
+        "G": "En el chart_153_2, la proporción del plan de medicina estética ha aumentado rápidamente (del 4.70% al 9.07%). En el chart_153_1, las búsquedas de “Total de temas de poros dilatados” han aumentado fuertemente (tasa de crecimiento del 106.32%), lo que refleja un aumento del interés de los consumidores en soluciones eficientes."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -170,6 +232,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "El chart_153_3 muestra que la piel grasa (77.33%) y muchos granos negros y puntos cerrados (74.33%) son los problemas asociados más frecuentes. En el chart_153_2, la proporción del plan de cuidado de la piel es la más alta (71.33%) y está en aumento, lo que indica que el desarrollo de productos debe centrarse en estos ámbitos de alta demanda.",
+        "B": "Esta es una opción de distracción fácil: Se basa en una estrategia de promoción común (por ejemplo, que las muestras gratuitas pueden mejorar la lealtad de los usuarios), sin referirse a la alta incidencia de problemas asociados del chart_153_3 (por ejemplo, la piel grasa con un 77.33%) o los cambios en los planes de mejora del chart_153_2. La estrategia es amplia y no específica.",
+        "C": "Esta es una opción de distracción difícil: Se interpreta erróneamente la diferencia de proporción del chart_153_2 (cuidado de la piel 71.33% vs suplementos orales 0.57%) y se sugiere una asignación equitativa de recursos, ignorando que el cuidado de la piel es el dominante y que los suplementos orales son ineficientes en los datos, lo que reducirá la utilización de recursos.",
+        "D": "Esta es una opción de distracción fácil: Se sugiere el desarrollo de contenido general, ignorando los problemas asociados específicos del chart_153_3 (por ejemplo, muchos granos negros y puntos cerrados con un 74.33%) y la posición dominante del plan de cuidado de la piel en el chart_153_2 (71.33%). Se puede descartar por conocimiento común porque no tiene foco en los poros.",
+        "E": "En el chart_153_3, la proporción de tez opaca (61.33%) y rugosidad (55.33%) es relativamente alta. En el chart_153_2, la proporción del plan de medicina estética ha aumentado significativamente (del 4.70% al 9.07%), lo que refleja que los métodos de medicina estética son adecuados para resolver este tipo de problemas persistentes.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente se combina la proporción de granos del chart_153_3 (45.00%, pero no la más alta) y el aumento de la medicina estética del chart_153_2 (9.07%), pero se enlaza erróneamente - la proporción de granos es menor que la de piel grasa (77.33%) y granos negros (74.33%), y el aumento de la medicina estética no se dirige directamente a los granos, lo que conduce a una desviación de la estrategia en torno al problema central.",
+        "G": "En el chart_153_2, la proporción del plan de estilo de vida ha disminuido (del 7.52% al 6.45%). En el chart_153_3, la proporción de problemas asociados relacionados es relativamente baja (por ejemplo, enrojecimiento con un 34.33%). La asignación de recursos debe dar prioridad a áreas de mayor impacto."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -192,6 +271,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "En el chart_153_1, la tasa de crecimiento de la palabra clave “Cuidado de los poros” es la más alta (143.75%). En el chart_153_3, la incidencia de piel grasa y granos negros es la más alta (77.33% y 74.33% respectivamente). La estrategia de marketing de contenido en línea debe aprovechar los temas de alto crecimiento y vincularlos con los problemas centrales.",
+        "B": "Esta es una opción de distracción difícil: Aparentemente se cita la proporción de rugosidad del chart_153_3 (55.33%) y la proporción histórica del plan de métodos del chart_153_2 (17.76%), pero se ignora que la proporción del plan de métodos ha disminuido al 12.58% y que la rugosidad no es el problema más frecuente (menor que la piel grasa y los granos negros). Se enlaza erróneamente la tendencia, lo que conduce a una desviación en el enfoque del contenido.",
+        "C": "Esta es una opción de distracción fácil: Se basa en conocimientos generales de marketing de contenido (por ejemplo, que el formato visual puede mejorar la participación), sin combinar la tendencia de crecimiento de las búsquedas del chart_153_1 (por ejemplo, la tasa de crecimiento de “Cuidado de los poros” del 143.75%) o los problemas asociados del chart_153_3. La estrategia no tiene soporte de datos.",
+        "D": "Esta es una opción de distracción fácil: Se sugiere la expansión internacional, ignorando el comportamiento de búsqueda de poros mostrado en el gráfico (por ejemplo, el crecimiento de palabras clave específicas) y los problemas de la piel (por ejemplo, la piel grasa con un 77.33%). Es una sugerencia amplia y sin una guía clara de educación sobre poros.",
+        "E": "Esta es una opción de distracción difícil: Se utiliza erróneamente los datos del chart_153_1 (el número de búsquedas de “Problemas de discusión sobre poros” es de 79.06 millones, pero la tasa de crecimiento es del 81.12%, menor que el 143.75% de “Cuidado de los poros”). Se sugiere ignorar la tasa de crecimiento y dar prioridad a las búsquedas de mayor volumen, lo que contradice la estrategia de optimización (debe basarse en el potencial de crecimiento).",
+        "F": "En el chart_153_1, el número de búsquedas de “Total de temas de poros dilatados” es grande (17.95 millones) y el crecimiento es rápido (106.32%). En el chart_153_2, la proporción del plan de medicina estética ha aumentado rápidamente (9.07%), lo que indica que el contenido debe combinar soluciones eficientes para mejorar la participación.",
+        "G": "En el chart_153_1, el número de búsquedas de “Cuidado de los poros” es pequeño (0.39 millones). En el chart_153_2, la proporción del plan oral es baja (0.57%) y está en descenso. La optimización de recursos debe evitar el contenido ineficiente."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     }
   ]

@@ -84,6 +84,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "It is necessary to combine the two charts of the RTC market size growth rate and the scale of online audio - visual users. The reasoning is based on the fact that user growth is the driving force for market expansion, and the values need to be cross - verified from the two charts. For example, in a certain period, user growth corresponds to high market growth.",
+        "B": "The chart shows that the user scale has been continuously growing (reaching 944 million in December 2020) and has never declined; this option violates the data facts and is a common - sense error.",
+        "C": "It depends on the two charts of the RTC market size growth rate and the scale of online audio - visual users. The reasoning requires comparing time points: the synchrony between the period of slow user growth and low market growth shows a direct correlation.",
+        "D": "The user data is up to December 2020 (944 million). There is no data for 2021, and the usage rate has reached 95.4%. Negative growth does not conform to the trend; it wrongly attributes the decline in market growth rate to the fictional user shrinkage.",
+        "E": "From 2023 to 2024, the user usage rate was saturated, but the market growth rate rebounded (from 23.7% to 33.4%), indicating that non - user factors such as technology/services affect growth. The option over - simplifies the situation.",
+        "F": "Combine the two charts of the scale of online audio - visual users and the RTC market size growth rate. The reasoning implies technological factors, but the core depends on the comparison of the trends of the two charts: the market still grows during the saturation period, and the reasons need to be analyzed across the charts."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "The chart does not mention macro - economic data, which is an assumption of external factors; and it is not related to the cost structure.",
+        "B": "It misinterprets the cost structure: the resource cost accounts for 33%, which is still at a high level, and the resource consumption is greater under a high user base; the option ignores the relationship between the absolute proportion of costs and the user scale.",
+        "C": "It depends on the two charts of the manufacturer's cost structure and the RTC market size growth rate. The reasoning requires cross - chart analysis: a large user base may increase the resource burden, but the slowdown in market growth makes the scale effect ineffective, and the cost pressure becomes prominent.",
+        "D": "Combine the two charts of the manufacturer's cost structure and the RTC market size growth rate. The reasoning implies a connection: when the user scale is stable, manufacturers turn to R & D, resulting in a short - term slowdown in growth, which requires data from the two charts to support.",
+        "E": "There is no market competition data in the chart, which is a common - sense interference; it does not analyze in combination with the proportion of resource/R & D costs.",
+        "F": "It is necessary to combine the two charts of the scale of online audio - visual users and the manufacturer's cost structure. The reasoning is based on the conflict point: the user scale is at a high level, but the market growth is low. Combine the cost structure to explain why the profit is limited and leads to insufficient expansion."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B"
       ]
     },
     {
@@ -128,6 +158,21 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combine the two charts of the RTC market size growth rate and the manufacturer's cost structure. The reasoning needs to comprehensively consider that the user base provides stable demand, but the core depends on the two charts: the growth forecast optimizes the cost structure and improves the profit.",
+        "B": "It depends on the two charts of the RTC market size growth rate and the manufacturer's cost structure. The reasoning is based on the scale effect: market growth may spread fixed costs, and R & D costs are more efficient during the high - growth period. The improvement of profit needs to be inferred jointly from the trends of the two charts.",
+        "C": "It is necessary to combine the two charts of the scale of online audio - visual users and the manufacturer's cost structure. The reasoning implies a connection: the stagnation of user growth forces manufacturers to rely on R & D innovation to drive the market, and cross - chart analysis of the synergy between costs and growth is required.",
+        "D": "Labor costs are not reflected in the chart's cost structure (only resources, R & D, and profit), which is an irrelevant common sense.",
+        "E": "It seriously misinterprets the nature of R & D costs: R & D is a continuous investment (such as the 37% proportion in chart_68_1), wrongly assuming it as a one - time expenditure; and it is not related to the predicted growth rate.",
+        "F": "The impact of technology is not verified in the data, and it ignores that the scale effect needs to be actively optimized (not automatically)."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -150,6 +195,21 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses the R & D cost data (37%) from chart_68_1, but misinterprets the strategy direction - the correct strategy should be to invest in R & D to enhance product competitiveness (like option A), rather than cutting it. Meanwhile, it confuses the relationship between resource cost optimization (33%) and R & D, ignoring that cutting R & D may damage long - term innovation and market share.",
+        "B": "Jointly infer from chart_68_1 (high R & D cost proportion and limited gross profit) and chart_68_3 (continuous expansion of user scale, indicating opportunities for economies of scale), and implicitly consider chart_68_2 (promising market growth prospects).",
+        "C": "This is a hard distractor: On the surface, it quotes the user scale data (944 million people in 2020) from chart_68_3, but wrongly ignores the trend that user penetration rate is approaching saturation (95.4%). The correct strategy should be to optimize existing users rather than blindly expanding (like option C), which may lead to resource waste and profit squeezing.",
+        "D": "This is an easy distractor: It is based on general business common sense (such as brand marketing can increase revenue), but does not combine the chart data (such as profit structure or user penetration rate trend). The statement is broad and has no specific action guidelines (such as not targeting R & D or resource cost optimization).",
+        "E": "Jointly infer from chart_68_2 (the growth rate rebounds from a trough to a high level) and chart_68_1 (high proportion of resource cost), emphasizing investment and cost control during the growth period.",
+        "F": "Jointly infer from chart_68_3 (user usage rate approaching the peak) and chart_68_1 (high R & D cost), suggesting resource reallocation."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -172,6 +232,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it quotes the user penetration rate data (95.4%) from chart_68_3, but wrongly infers that existing users should be abandoned. The correct strategy should be to optimize high - proportion cost areas (like option B), and when the user market is saturated, shift to value mining (such as service improvement), rather than blindly exploring new markets, which may lead to resource dispersion and low efficiency.",
+        "B": "This is an easy distractor: It relies on general management common sense (such as cost - saving), but does not combine the chart data (such as growth rate fluctuations or user penetration rate). The statement is general and has no dynamic adjustment strategy (such as ignoring the differences in high/low growth periods).",
+        "C": "Jointly infer from chart_68_3 (large user scale and high usage rate) and chart_68_1 (significant proportion of resource cost), using the user base to increase revenue and optimize costs.",
+        "D": "Jointly infer from chart_68_3 (the growth of user scale slows down but the usage rate remains stable at a high level) and chart_68_2 (accelerated growth forecast), emphasizing technology investment and preparation for expansion.",
+        "E": "This is a hard distractor: On the surface, it uses the growth rate data from chart_68_2 (such as 33.4% in 2024), but misinterprets the trend - in the high - growth period, investment should be increased to seize market share (like option A), rather than reducing it. Meanwhile, it confuses the strategy for the low - growth period (investment should be controlled), ignoring that reducing investment in the high - growth period will result in missing opportunities.",
+        "F": "Jointly infer from chart_68_2 (the growth rate rebounds from a trough to a high level) and chart_68_1 (high proportion of R & D cost), suggesting counter - cyclical resource management."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -194,6 +269,21 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Jointly infer from chart_68_2 (accelerated growth rate forecast) and chart_68_1 (significant resource cost), emphasizing timing and sustainable optimization.",
+        "B": "This is a hard distractor: On the surface, it uses the gross profit data (30%) from chart_68_1, but wrongly focuses on revenue first - ignoring that high resource cost (33%) and R & D cost (37%) mean that increasing marketing may squeeze profits. The correct strategy should balance cost control and innovation (like option A).",
+        "C": "This is an easy distractor: It is based on general management principles (such as collaboration and training), but does not relate to the chart data (such as profit composition or market forecast). The statement is broad and has no specific allocation guidelines (such as not targeting R & D or resource cost).",
+        "D": "Jointly infer from chart_68_3 (user usage rate stabilizes at a high level) and chart_68_1 (high proportion of resource cost), suggesting a shift from expansion to in - depth cultivation.",
+        "E": "This is a hard distractor: On the surface, it quotes the growth forecast data from chart_68_2 (23.7% in 2023 and 33.4% in 2024), but misinterprets the innovation demand - in the high - growth period, R & D should be invested to differentiate products (like option C), rather than reducing it. Meanwhile, it confuses the relationship between natural market growth and competitive advantage, ignoring that not investing in R & D may lead to product homogenization and loss of market share.",
+        "F": "Jointly infer from chart_68_1 (highest proportion of R & D cost) and chart_68_2 (great market growth potential), and implicitly consider chart_68_3 (user scale expansion provides optimization opportunities)."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

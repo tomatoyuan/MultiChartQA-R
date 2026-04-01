@@ -89,6 +89,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "依赖显示《En nombre del pueblo》搜索指数远高于其他同期电视剧的图表和显示该剧搜索指数从低到高持续增长的图表。联合推理：前者提供基准比较，后者展示动态增长，共同说明热度突出且持续上升。",
+        "B": "依赖显示《En nombre del pueblo》男性观众占比以及与其他反腐剧对比的图表和显示《En nombre del pueblo》后其他反腐剧搜索指数远低于它的图表。联合推理：前者揭示性别分布一致性，后者提供搜索指数对比，共同表明性别特征不是唯一因素，需结合其他如时间或话题。",
+        "C": "这是一个Hard干扰项：错误解读了chart_27_2的趋势（搜索指数从4/5的1160000持续增长到4/9的1740000），误判为下降趋势。",
+        "D": "这是一个Hard干扰项：错误解读了chart_27_1的排序（《En nombre del pueblo》搜索指数243831最高，远高于《Borde de la navaja》的75744），制造了数值比较错误。",
+        "E": "依赖显示《En nombre del pueblo》搜索指数增长趋势的图表和显示其他反腐剧低搜索指数的图表。联合推理：前者的动态数据与后者的静态对比，揭示热度的独特性和转移规律。",
+        "F": "这是一个Easy干扰项：它依赖常识（如社交媒体算法的作用），未引用图表数值，忽略了实际数据。",
+        "G": "这是一个Easy干扰项：它基于常识（如电视剧质量或技术影响热度），不依赖任何图表数据，而是泛泛而谈的行业知识。"
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误比较了chart_27_3的搜索指数和chart_27_4的性别比例（例如《Cadre del Estado》女性30%指数111.05 vs. 《Procuración del Estado》女性26%指数526.24，不成比例），误判了趋势。",
+        "B": "依赖显示不同反腐剧相似性别比例的图表和显示这些剧集搜索指数不同的图表。联合推理：前者的相似性别比例与后者的不同指数形成冲突，需结合其他图表如区域数据解释。",
+        "C": "这是一个Hard干扰项：错误解读了chart_27_3和chart_27_4的数值（《Poder Absoluto》男性75%但搜索指数183.28最低，而《Procuración del Estado》男性74%搜索指数526.24最高），制造了虚假正相关。",
+        "D": "这是一个Easy干扰项：它依赖常识（如播出时间影响），未涉及图表数值，回避了数据冲突。",
+        "E": "这是一个Easy干扰项：它基于常识（如性别偏好），未使用图表数据，忽略了chart_27_4显示男性主导的事实。",
+        "F": "依赖显示不同反腐剧搜索指数排序的图表和显示不同反腐剧男性观众占比的图表。联合推理：前者提供搜索指数排序，后者提供性别数据，共同揭示指数与性别比例的倒挂矛盾，需引入时间或话题因素。",
+        "G": "依赖显示所有反腐剧男性观众占比分布集中的图表和显示不同反腐剧搜索指数差距大的图表。联合推理：前者的区域结构与后者的剧集对比，揭示区域基础一致但热度差异大，需引入时间因素（如《En nombre del pueblo》的增长趋势）。"
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -135,6 +169,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "依赖显示区域搜索指数高的省份的图表和显示其他反腐剧搜索指数低迷的图表。联合推理：前者的区域结构与后者的剧集对比，揭示区域基础一致但热度差异大，需引入时间因素（如《En nombre del pueblo》的增长趋势）。",
+        "B": "这是一个Hard干扰项：错误关联了chart_27_5的区域指数（概况数据，非特定剧）和chart_27_2的峰值（1740000），误以为区域指数直接对应剧集峰值。",
+        "C": "这是一个Easy干扰项：它基于常识（如区域经济影响），未引用图表数据（如chart_27_5未提上海），是泛化陈述。",
+        "D": "依赖显示区域搜索指数较低省份的图表和显示《En nombre del pueblo》搜索指数远超其他剧的图表。联合推理：前者的区域低活跃度与后者的剧集高指数对比，表明单个热门剧可能提升整体区域表现。",
+        "E": "这是一个Easy干扰项：它依赖常识（如基础设施影响），忽略了图表内容，未关联到《En nombre del pueblo》的趋势。",
+        "F": "这是一个Hard干扰项：错误解读了chart_27_5的低指数区域（四川指数9）和chart_27_3的反腐剧指数（普遍低迷），误判为因果关系，忽略其他因素。",
+        "G": "依赖显示区域搜索指数排名的图表和显示《En nombre del pueblo》搜索指数动态增长的图表。联合推理：前者提供区域排名，后者提供动态增长，共同推断高活跃区（如广东）与全国热度正相关。"
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -159,6 +210,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción fácil: Parece citar datos (el índice de búsqueda de 'Cruzar océanos para verte' es 16693), pero la lógica de la estrategia es incorrecta. No tiene en cuenta que el índice de esta serie es mucho más bajo que el de otras (por ejemplo, el índice de búsqueda de 'En nombre del pueblo' es 243831). El sentido común indica que la tasa de retorno de inversión de una serie con un índice bajo es baja. La distracción ignora la ventaja de liderazgo y hace una inferencia subjetiva solo basada en el 'potencial'.",
+        "B": "Esta es una distracción difícil: Malinterpreta los datos de chart_27_3. En las series relacionadas, el índice de búsqueda de 'Cadre del Estado' es el más bajo, 111.05. Pero los datos muestran que el índice de búsqueda de 'Procuración del Estado' es el más alto, 526.24, y se beneficia más del impacto de la serie líder. La distracción sugiere de forma inversa promocionar la serie con el índice más bajo y hace una inferencia errónea de que el 'espacio de mejora' puede generar mayores beneficios, ignorando la diferencia real en la atención.",
+        "C": "La opción 2 se basa en la comparación de los índices de búsqueda de las series relacionadas en chart_27_3 (el índice de búsqueda de 'Procuración del Estado' es relativamente alto) y combina la ventaja de liderazgo de 'En nombre del pueblo' en chart_27_1 para inferir una promoción conjunta utilizando la serie relacionada con alta atención.",
+        "D": "Esta es una distracción difícil: Malinterpreta los datos de chart_27_2. Los datos muestran que el índice de búsqueda de 'En nombre del pueblo' ha aumentado continuamente desde el 28 de marzo (290000) hasta el 9 de abril (1740000), sin tendencia a la baja. Pero la distracción inventa una 'baja' y sugiere reducir el marketing, lo que contradice la tendencia ascendente y puede confundir la comprensión del modelo sobre la tendencia.",
+        "E": "La opción 3 se basa en la proporción de género de los usuarios de 'En nombre del pueblo' en chart_27_4 (el porcentaje de mujeres es del 36%, más alto que el 25%-30% de otras series) y combina la atención general de las series relacionadas en chart_27_3 para inferir una estrategia de equilibrio de género para ampliar la audiencia.",
+        "F": "La opción 1 se basa en la tendencia continua de aumento del índice de búsqueda de 'En nombre del pueblo' desde finales de marzo hasta principios de abril en chart_27_2 (los puntos de datos muestran un aumento del doble del índice) y combina el hecho de que esta serie tiene una clara ventaja en el índice de búsqueda en la temporada de primavera en chart_27_1 (mucho más alta que otras series) para inferir que invertir recursos en el pico de crecimiento puede maximizar los beneficios.",
+        "G": "Esta es una distracción fácil: Se basa en el sentido común comercial general (inversión equilibrada), pero no utiliza ningún dato de los gráficos y no tiene una guía de acción para un índice de búsqueda o una tendencia específicos. Es fácil de descartar por el sentido común (la asignación de recursos debe centrarse en los puntos calientes, no en la igualación)."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -181,6 +249,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 2 se basa en la proporción más alta de mujeres en 'En nombre del pueblo' en chart_27_4 (36%, en comparación con el 25%-30% de otras series) y combina las regiones con un índice de búsqueda medio en chart_27_5 (por ejemplo, el índice de Henan y Zhejiang es de 15-14) para inferir una estrategia de optimización de canales para mujeres en regiones con potencial.",
+        "B": "La opción 3 se basa en las regiones con un índice de búsqueda bajo en chart_27_5 (por ejemplo, el índice de Sichuan es 9) y combina la característica general de dominancia masculina en todas las series relacionadas en chart_27_4 para inferir una estrategia local para activar las regiones con baja atención.",
+        "C": "Esta es una distracción difícil: Malinterpreta los datos de chart_27_5 y chart_27_4. El índice de búsqueda de Sichuan es el más bajo, 9, pero los datos no muestran potencial (el índice es estable). Al mismo tiempo, chart_27_4 muestra la dominancia masculina, pero la distracción sugiere invertir más recursos en la región con un índice bajo y hace una inferencia errónea de que 'bajo índice + alto potencial' puede generar altos retornos, lo que contradice el principio de eficiencia de recursos.",
+        "D": "Esta es una distracción fácil: Se basa en el conocimiento general del sector (poder adquisitivo femenino), pero no utiliza los datos de chart_27_4. En todas las series, la proporción de hombres es más alta que la de mujeres (por ejemplo, el porcentaje de mujeres en 'En nombre del pueblo' es del 36%). La distracción inventa 'regiones con una proporción más alta de mujeres', lo que contradice los datos y es fácil de identificar por el sentido común.",
+        "E": "Esta es una distracción fácil: Se basa en principios de gestión generales (estandarización para ahorrar costos), pero no se refiere a ningún dato de los gráficos (como la distribución regional o de género) y no tiene una acción específica. Puede ser descartada por el sentido común (la colocación precisa de anuncios requiere personalización).",
+        "F": "Esta es una distracción difícil: Parece combinar datos (el índice de búsqueda de Zhejiang es 14 y el porcentaje de hombres en 'En nombre del pueblo' es del 64%), pero la lógica está confusa. Chart_27_5 muestra que el índice de Zhejiang no es medio (el más alto es 18 en Guangdong), y no se proporcionan datos de género para todas las regiones. La distracción hace una inferencia errónea de que 'región mediana + masculino' puede equilibrar el riesgo, ignorando que las regiones con un índice alto son más eficientes.",
+        "G": "La opción 1 se basa en los índices de búsqueda regionales en chart_27_5 (regiones con un índice alto como Guangdong y Shandong) y combina la proporción generalmente alta de hombres en múltiples series en chart_27_4 (70%-75%) para inferir una estrategia de anuncios orientados a hombres en regiones con alta popularidad."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -205,6 +290,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: Confunde los datos de chart_27_3. El índice de búsqueda de 'Procuración del Estado' es el más alto entre las series relacionadas, 526.24 (más alto que el 183.28 de 'Poder Absoluto'). Pero la distracción describe erróneamente que 'el índice no es alto' y sugiere evitarlo y en cambio promocionar una serie con un índice más bajo. Esto malinterpreta el impacto de la atención y puede inducir erróneamente al modelo en la comprensión de la relación entre los datos.",
+        "B": "Esta es una distracción fácil: Se basa en una opinión común (poder adquisitivo femenino), pero no se refiere a los datos de chart_27_4. En todas las series, la proporción de hombres es alta (por ejemplo, el porcentaje de mujeres en 'En nombre del pueblo' es solo del 36%). La distracción sugiere de forma inversa una orientación femenina, lo que contradice la tendencia de los datos y es fácil de identificar por el sentido común.",
+        "C": "La opción 2 se basa en la comparación de los índices de búsqueda de las series relacionadas en chart_27_3 (el índice de búsqueda de 'Procuración del Estado' es 526.24 en comparación con menos de 200 de otras series) y combina la ventaja de liderazgo de la serie líder en chart_27_1 para inferir una estrategia de adopción de elementos.",
+        "D": "Esta es una distracción fácil: Se basa en una estrategia general (diversificación para reducir el riesgo), pero no utiliza ningún dato de los gráficos (como el índice o el impacto de la serie líder) y no tiene una guía de acción específica. Puede ser descartada por el sentido común (los recursos deben centrarse en áreas de alto retorno).",
+        "E": "La opción 3 se basa en la alta proporción de hombres en múltiples series en chart_27_4 (70%-75%) y combina las regiones con un índice alto en chart_27_5 (como Guangdong y Shandong) para inferir una asignación de recursos que coincide con la región y el género.",
+        "F": "La opción 1 se basa en que el índice de búsqueda de 'En nombre del pueblo' en chart_27_1 es significativamente más alto que el de otras series (por ejemplo, 243831 vs 75744) y deduce el potencial de mercado de su tema sin necesidad de valores numéricos directos.",
+        "G": "Esta es una distracción difícil: Malinterpreta los datos de chart_27_1. Aunque el índice de búsqueda de 'Borde de la navaja' es el segundo más alto, 75744, es mucho más bajo que el de 'En nombre del pueblo', 243831. La distracción hace una inferencia errónea de que 'el segundo más alto = demanda estable' y agrega de forma subjetiva la hipótesis de 'bajos costos', ignorando la ventaja absoluta de liderazgo de la serie líder."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

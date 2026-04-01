@@ -85,6 +85,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Hard: Fictitious time association (no basis for the report release time), and the elasticity factor only ranks fourth (30%), not the main cause of the peak.",
+        "B": "Easy: The chart does not involve information about the spokesperson. It relies on industry common sense (the star effect promotes sales) rather than chart analysis.",
+        "C": "The sales trend chart shows multiple sales peaks (e.g., the values are significantly higher than the baseline), while the purchase influencing factors chart lists the key factors influencing consumers' decisions and their relative importance (e.g., 'Comfortable to wear' has the highest proportion). The option infers that the peaks may be caused by the promotion of specific factors, which requires combining the two charts: identifying the peak periods from the trend chart and inferring which factors are preferentially utilized from the influencing factors chart. One cannot know the ranking of influencing factors only from the trend chart, and cannot explain the timing of the peaks only from the influencing factors chart. One must cross - analyze the peak events (e.g., dates) and the factor importance (e.g., ranking) to draw an implicit connection (e.g., the brand may have strengthened the promotion of high - ranking factors on peak days).",
+        "D": "The sales trend chart shows multiple sales peaks (e.g., the values are significantly higher than the baseline), while the purchase influencing factors chart lists the key factors influencing consumers' decisions and their relative importance (e.g., 'Comfortable to wear' has the highest proportion). The option infers that the peaks may be caused by the promotion of specific factors, which requires combining the two charts: identifying the peak periods from the trend chart and inferring which factors are preferentially utilized from the influencing factors chart. One cannot know the ranking of influencing factors only from the trend chart, and cannot explain the timing of the peaks only from the influencing factors chart. One must cross - analyze the peak events (e.g., dates) and the factor importance (e.g., ranking) to draw an implicit connection (e.g., the brand may have strengthened the promotion of high - ranking factors on peak days).",
+        "E": "Hard: Incorrectly associate the numerical value with the proportion - the peak value of 105 is sales data, and 28% is the proportion of an influencing factor. The two have different units/dimensions.",
+        "F": "Easy: The sales trend chart does not mention promotion nodes, and the association between promotion and peaks in common sense is a general perception, but there is no data support in the chart.",
+        "G": "The sales trend chart shows multiple sales peaks (e.g., the values are significantly higher than the baseline), while the purchase influencing factors chart lists the key factors influencing consumers' decisions and their relative importance (e.g., 'Comfortable to wear' has the highest proportion). The option infers that the peaks may be caused by the promotion of specific factors, which requires combining the two charts: identifying the peak periods from the trend chart and inferring which factors are preferentially utilized from the influencing factors chart. One cannot know the ranking of influencing factors only from the trend chart, and cannot explain the timing of the peaks only from the influencing factors chart. One must cross - analyze the peak events (e.g., dates) and the factor importance (e.g., ranking) to draw an implicit connection (e.g., the brand may have strengthened the promotion of high - ranking factors on peak days)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "The purchase influencing factors chart shows the degree of consumers' recognition of each factor (e.g., 'Comfortable to wear' has the highest proportion), and the population preference distribution chart shows the proportion order of different populations (e.g., 'Sophisticated Moms' has the highest proportion). The option infers that specific populations (e.g., groups with a high proportion) may be more susceptible to high - ranking factors, which requires combining the two charts: obtaining the group weights from the population chart and the factor priorities from the influencing factors chart to match the rules (e.g., high - proportion populations are more likely to drive decisions on high - ranking factors). One cannot know the importance of factors only from the population chart, and cannot associate population characteristics only from the influencing factors chart. One must combine the group proportion order and factor ranking (e.g., the population with the highest proportion corresponds to the highest - ranking factor) to discover implicit rules (e.g., aligning the preferences of the target population with the product selling points).",
+        "B": "Easy: Rely on age stereotypes (the elderly need body shaping), but the proportion of Urban Seniors is only 3%, with no basis in the chart.",
+        "C": "Hard: Incorrect comparison of values - there is no direct relationship between Gen Z's 8% proportion and the 33% of the body - shaping factor, and the body - shaping factor is associated with Small Town Youths (Option B).",
+        "D": "The purchase influencing factors chart shows the degree of consumers' recognition of each factor (e.g., 'Comfortable to wear' has the highest proportion), and the population preference distribution chart shows the proportion order of different populations (e.g., 'Sophisticated Moms' has the highest proportion). The option infers that specific populations (e.g., groups with a high proportion) may be more susceptible to high - ranking factors, which requires combining the two charts: obtaining the group weights from the population chart and the factor priorities from the influencing factors chart to match the rules (e.g., high - proportion populations are more likely to drive decisions on high - ranking factors). One cannot know the importance of factors only from the population chart, and cannot associate population characteristics only from the influencing factors chart. One must combine the group proportion order and factor ranking (e.g., the population with the highest proportion corresponds to the highest - ranking factor) to discover implicit rules (e.g., aligning the preferences of the target population with the product selling points).",
+        "E": "Easy: Common - sense error - Senior Blue - Collars only account for 1% (the lowest), and the fabric factor does not mention durability.",
+        "F": "Hard: Forced matching of proportion gaps - the 38% of the comfort factor is data for the whole population, not exclusive to Small Town Seniors; this group only accounts for 9%.",
+        "G": "The purchase influencing factors chart shows the degree of consumers' recognition of each factor (e.g., 'Comfortable to wear' has the highest proportion), and the population preference distribution chart shows the proportion order of different populations (e.g., 'Sophisticated Moms' has the highest proportion). The option infers that specific populations (e.g., groups with a high proportion) may be more susceptible to high - ranking factors, which requires combining the two charts: obtaining the group weights from the population chart and the factor priorities from the influencing factors chart to match the rules (e.g., high - proportion populations are more likely to drive decisions on high - ranking factors). One cannot know the importance of factors only from the population chart, and cannot associate population characteristics only from the influencing factors chart. One must combine the group proportion order and factor ranking (e.g., the population with the highest proportion corresponds to the highest - ranking factor) to discover implicit rules (e.g., aligning the preferences of the target population with the product selling points)."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Easy: The trend chart does not mark festivals. It relies on general consumption rules (festival promotions), but there is no data to support it.",
+        "B": "Easy: Urban Blue - Collars only account for 2% (second from the bottom). The common - sense view that 'they have strong consumption power' has no support in the chart.",
+        "C": "The sales trend chart shows the peaks of sales values (e.g., far higher than the baseline), and the population preference distribution chart reveals the order of population proportions (e.g., 'Sophisticated Moms' has the highest proportion). The option infers that the peak events may be driven by high - proportion populations, which requires combining the two charts: identifying the amplitude and timing of the peaks from the trend chart and inferring the group influence from the population chart (e.g., high - proportion populations are more likely to cause sudden changes in sales). One cannot confirm the contribution of the population only from the trend chart, and cannot explain the sales dynamics only from the population chart. One must cross - analyze the peak characteristics (e.g., numerical jumps) and the group weights (e.g., proportion ranking) to draw an implicit connection (e.g., the peaks may be caused by the concentrated actions of the largest population).",
+        "D": "The sales trend chart shows the peaks of sales values (e.g., far higher than the baseline), and the population preference distribution chart reveals the order of population proportions (e.g., 'Sophisticated Moms' has the highest proportion). The option infers that the peak events may be driven by high - proportion populations, which requires combining the two charts: identifying the amplitude and timing of the peaks from the trend chart and inferring the group influence from the population chart (e.g., high - proportion populations are more likely to cause sudden changes in sales). One cannot confirm the contribution of the population only from the trend chart, and cannot explain the sales dynamics only from the population chart. One must cross - analyze the peak characteristics (e.g., numerical jumps) and the group weights (e.g., proportion ranking) to draw an implicit connection (e.g., the peaks may be caused by the concentrated actions of the largest population).",
+        "E": "Hard: Fictitious causal relationship - there is no basis for the back - to - school season, and Gen Z only accounts for 8%, not the main group.",
+        "F": "The sales trend chart shows the peaks of sales values (e.g., far higher than the baseline), and the population preference distribution chart reveals the order of population proportions (e.g., 'Sophisticated Moms' has the highest proportion). The option infers that the peak events may be driven by high - proportion populations, which requires combining the two charts: identifying the amplitude and timing of the peaks from the trend chart and inferring the group influence from the population chart (e.g., high - proportion populations are more likely to cause sudden changes in sales). One cannot confirm the contribution of the population only from the trend chart, and cannot explain the sales dynamics only from the population chart. One must cross - analyze the peak characteristics (e.g., numerical jumps) and the group weights (e.g., proportion ranking) to draw an implicit connection (e.g., the peaks may be caused by the concentrated actions of the largest population).",
+        "G": "Hard: Incorrect conversion of proportions - there is no mathematical association between the sales value of 90 and the 9% population proportion (e.g., the 22% of Sophisticated Moms does not correspond to a specific peak)."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 combines chart_152_1 (showing multiple peak dates, such as September 25th and December 13th, with values significantly higher than the base level) and chart_152_2 (\"Comfortable to wear\" has the highest proportion, and \"Shape the hips and enhance the contour\" has the second - highest proportion). Reasoning: The demand is concentrated during the peak periods. Emphasizing the top influencing factors can maximize the marketing effect.",
+        "B": "Option 2 combines chart_152_1 (the basic data shows a linear growth, but there are stable periods between peaks) and chart_152_2 (the proportions of \"High - quality fabric, soft and skin - friendly\" and \"High elasticity, high inclusiveness\" are similar and relatively high). Reasoning: During non - peak periods, it is necessary to maintain the demand. Highlighting the secondary factors can avoid resource waste.",
+        "C": "Misinterpretation of chart_152_2: \"Micro - pressure shaping, slimming and fitting\" has a proportion of 28%, which is the lowest among the Top 5, but it is regarded as \"able to maximize conversion\". In fact, the factor with the highest proportion (such as \"Comfortable to wear\" with 38%) is not emphasized, leading to a deviation in the strategic direction.",
+        "D": "Misinterpretation of chart_152_1: From September 1st, 2023, to September 24th, 2023, it is a period of rising demand but not a peak (the peak is on September 25th, 2023). Increasing investment during this period will miss the opportunity for conversion during the peak period. Moreover, attributing the peak to \"randomness\" ignores the fact that the peak is a significant event in the chart.",
+        "E": "This strategy ignores the demand fluctuations shown in chart_152_1 (such as the peak of 100 on September 25th, 2023). Evenly distributing resources cannot take advantage of the surge in demand during the peak period to increase sales. It is a broad and common - sense suggestion without specificity.",
+        "F": "The suggestion to increase brand awareness does not combine specific consumer decision - making factors (such as \"Comfortable to wear\" with 38% in chart_152_2). It is too general and lacks a response to demand fluctuations.",
+        "G": "Option 3 combines chart_152_1 (the peak value reaches 105 on December 13th) and chart_152_2 (although the proportion of \"Micro - pressure shaping, slimming and fitting\" is the lowest, it still has an influence). Reasoning: Conducting promotions during the peak period and testing the factors with low proportions can optimize the long - term strategy."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option 2 combines chart_152_3 (New - Generation White - Collars and Gen Z account for medium proportions, 16.0% and 8.0% respectively) and chart_152_2 (the proportions of \"Shape the hips and enhance the contour\" and \"Micro - pressure shaping, slimming and fitting\" are relatively high). Reasoning: Young groups prefer fashion. Customizing products according to the influencing factors can tap into growth points.",
+        "B": "This strategy does not consider the differences in group preferences shown in chart_152_3 (such as 22% for Sophisticated Moms vs. 1% for Senior Blue - Collars). Equal distribution will lead to resource waste on groups with low ROI. It is a broad common - sense about fairness.",
+        "C": "Misinterpretation of multiple charts: Chart_152_1 shows that October 16th, 2023, is a peak (with a value of 85), and \"reducing investment\" is inappropriate. In chart_152_3, Gen Z only accounts for 8% and is not a priority. Moreover, the factor of \"Shape the hips and enhance the contour\" (33%) is not exclusive to Gen Z, leading to wrong resource allocation.",
+        "D": "Option 3 combines chart_152_3 (Urban Seniors and Senior Blue - Collars account for the lowest proportions, 3.0% and 1.0% respectively) and chart_152_2 (\"Comfortable to wear\" has the highest proportion). Reasoning: Low - preference groups need basic coverage. Emphasizing comfort conforms to their values and avoids neglect.",
+        "E": "Misinterpretation of chart_152_3 and chart_152_1: The low - preference group (Senior Blue - Collars with 1%) is mistakenly regarded as an \"undeveloped market\". However, investing in them may be inefficient. Promoting during the peak period should be more targeted at high - preference groups (such as Sophisticated Moms with 22%). The strategic direction is obviously deviated.",
+        "F": "The suggestion to improve the overall brand image does not combine group preferences or market trend data (such as the peak periods in chart_152_1). It is too general and does not contribute to efficient growth.",
+        "G": "Option 1 combines chart_152_3 (Sophisticated Moms and Small Town Youths account for the highest proportions, 22.0% and 20.0% respectively) and chart_152_1 (the time series shows peaks such as November 7th and December 13th). Reasoning: High - preference groups contribute significantly. Allocating resources during the peak periods can improve ROI."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This strategy does not integrate the specific demand factors in chart_152_2 (such as \"Comfortable to wear\" with 38%). Broadly improving the quality cannot optimize according to the factors with high proportions. It is a common - sense suggestion.",
+        "B": "Option 3 combines chart_152_2 (the proportion of \"Micro - pressure shaping, slimming and fitting\" is the lowest, 28%), chart_152_3 (Small Town Seniors and Gen Z account for medium proportions, 9.0% and 8.0% respectively), and chart_152_1 (basic linear growth). Reasoning: Optimizing secondary factors for medium - and low - preference groups and releasing products in stages can avoid resource conflicts.",
+        "C": "Wrong combination of chart_152_2 and chart_152_3: Optimizing secondary factors (\"Micro - pressure shaping, slimming and fitting\" with 28%) for low - preference groups (Small Town Seniors with 9%), while the actual core factors (such as \"Comfortable to wear\" with 38%) and high - preference groups (such as Sophisticated Moms with 22%) are not prioritized, leading to an inefficient strategy.",
+        "D": "Option 2 combines chart_152_1 (the peak value reaches 105 on December 13th), chart_152_2 (the proportion of \"High elasticity, high inclusiveness\" is 30%), and chart_152_3 (Small Town Youths account for 20.0%). Reasoning: Launching new products during the peak period can magnify the influence. The elastic feature meets the needs of the second - highest group.",
+        "E": "Misinterpretation of chart_152_1 and chart_152_2: During the peak period (November 7th, 2023), the main factors (such as \"Comfortable to wear\" with 38%) should be strengthened, but it is recommended to test secondary factors (\"High elasticity, high inclusiveness\" with 30%). Moreover, \"testing new selling points\" ignores the opportunity to maximize conversion during the peak period.",
+        "F": "The suggestion to increase style options is not based on population distribution (chart_152_3) or demand characteristics. It is too general and cannot effectively meet diverse needs.",
+        "G": "Option 1 combines chart_152_2 (the proportions of \"Comfortable to wear\" and \"High - quality fabric, soft and skin - friendly\" are the highest and similar) and chart_152_3 (Senior Middle - Class and Sophisticated Moms account for high proportions, 19.0% and 22.0% respectively). Reasoning: The top influencing factors match the high - preference groups. Strengthening the core attributes can improve satisfaction."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

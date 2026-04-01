@@ -84,6 +84,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合RTC市场规模增长率和网络视听用户规模这两张图。推理基于用户增长作为市场扩张的驱动力，数值需从两图交叉验证，如某时期用户增长对应高市场增长。",
+        "B": "图表显示用户规模持续增长（2020.12达9.44亿），从未下降；该选项违背数据事实，属常识错误",
+        "C": "依赖RTC市场规模增长率和网络视听用户规模这两张图。推理需比较时间点：用户增长放缓期与市场低增长的同步性，显示直接相关性。",
+        "D": "用户数据截止2020.12（9.44亿），2021年无数据但使用率已达95.4%，负增长不符合趋势；错误将市场增速下降归因于虚构的用户萎缩",
+        "E": "2023-2024年用户使用率饱和但市场增速回升（23.7%-33.4%），说明技术/服务等非用户因素影响增长，选项过度简化",
+        "F": "结合网络视听用户规模和RTC市场规模增长率这两张图。推理隐含技术因素，但核心依赖两图趋势对比：饱和期市场仍增长，需跨图分析原因。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "图表未提及宏观经济数据，属外部因素臆测；且未关联成本结构",
+        "B": "错误解读成本结构：资源成本占比33%仍属高位，且高用户基数下资源消耗更大；选项忽略成本绝对占比与用户规模关联",
+        "C": "依赖厂商成本结构和RTC市场规模增长率这两张图。推理需跨图分析：用户基数大可能增加资源负担，但市场增长放缓使规模效应失效，成本压力凸显。",
+        "D": "结合厂商成本结构和RTC市场规模增长率这两张图。推理隐含联系：用户规模平稳时，厂商转向研发，导致增长短期放缓，需两图数据支撑。",
+        "E": "图表无市场竞争数据，属常识干扰；未结合资源/研发成本占比分析",
+        "F": "需要联合网络视听用户规模和厂商成本结构这两张图。推理基于冲突点：用户规模高位但市场增长低，结合成本结构解释为何利润受限导致扩张不足。"
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B"
       ]
     },
     {
@@ -128,6 +158,21 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "结合RTC市场规模增长率和厂商成本结构这两张图。推理需综合用户基数提供稳定需求，但核心依赖两图：增长预测优化成本结构，提升利润。",
+        "B": "依赖RTC市场规模增长率和厂商成本结构这两张图。推理基于规模效应：市场增长可能摊薄固定成本，同时研发成本在高增长期更高效，需两图趋势联合推断利润改善。",
+        "C": "需要联合网络视听用户规模和厂商成本结构这两张图。推理隐含联系：用户增长停滞迫使厂商依赖研发创新驱动市场，跨图分析成本与增长协同。",
+        "D": "人力成本未在图表成本结构中体现（仅资源/研发/利润），属无关常识",
+        "E": "严重曲解研发成本性质：研发是持续性投入（如chart_68_1的37%占比），错误假设其为一次性支出；且未关联预测增长率",
+        "F": "技术影响未在数据中验证，且忽略规模效应需主动优化（非自动）"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -150,6 +195,21 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: superficialmente, utiliza los datos de costos de I+D del chart_68_1 (37%), pero interpreta erróneamente la dirección de la estrategia. La estrategia correcta es invertir en I+D para mejorar la competitividad del producto (como en la opción A), en lugar de recortarla. Además, confunde la optimización de costos de recursos (33%) con la I+D y omite que recortar la I+D puede dañar la innovación a largo plazo y la cuota de mercado.",
+        "B": "Realiza una inferencia conjunta del chart_68_1 (alto porcentaje de costos de I+D y margen de beneficio bruto limitado) y el chart_68_3 (expansión continua del tamaño de usuarios, lo que sugiere oportunidades de economía de escala), e implica el chart_68_2 (prospectiva de crecimiento del mercado favorable).",
+        "C": "Esta es una opción de distracción difícil: superficialmente, cita los datos del tamaño de usuarios del chart_68_3 (944 millones de personas en 2020), pero ignora erróneamente la tendencia de que la penetración de usuarios se está acercando a la saturación (95.4%). La estrategia correcta es optimizar los usuarios existentes en lugar de expandirse de forma ciega (como en la opción C), lo que puede causar desperdicio de recursos y compresión de beneficios.",
+        "D": "Esta es una opción de distracción fácil: se basa en conocimientos comerciales generales (como que el marketing de marca puede aumentar los ingresos), pero no se combina con los datos de los gráficos (como la estructura de rentabilidad o la tendencia de penetración de usuarios). La formulación es amplia y no tiene una guía de acción específica (como no se enfoca en la optimización de costos de I+D o recursos).",
+        "E": "Realiza una inferencia conjunta del chart_68_2 (la tasa de crecimiento ha recuperado desde un mínimo hasta un nivel alto) y el chart_68_1 (alto porcentaje de costos de recursos), y enfatiza la inversión y el control de costos durante el período de crecimiento.",
+        "F": "Realiza una inferencia conjunta del chart_68_3 (la tasa de uso de usuarios se acerca al máximo) y el chart_68_1 (alto costo de I+D), y sugiere una redistribución de recursos."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -172,6 +232,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: superficialmente, cita los datos de penetración de usuarios del chart_68_3 (95.4%), pero deduce erróneamente que se debe abandonar a los usuarios existentes. La estrategia correcta es optimizar los ámbitos de costos con alta proporción (como en la opción B), y cuando la penetración de usuarios está cerca de la saturación, se debe centrar en la explotación de valor (como la mejora del servicio), en lugar de expandirse de forma ciega al mercado, lo que puede causar dispersión de recursos y baja eficiencia.",
+        "B": "Esta es una opción de distracción fácil: se basa en conocimientos de gestión generales (como la economía de costos), pero no se combina con los datos de los gráficos (como la fluctuación de la tasa de crecimiento o la penetración de usuarios). La formulación es genérica y no tiene una estrategia de ajuste dinámico (como ignorar las diferencias en períodos de alto/bajo crecimiento).",
+        "C": "Realiza una inferencia conjunta del chart_68_3 (tamaño de usuarios grande y alta tasa de uso) y el chart_68_1 (alto porcentaje de costos de recursos), y utiliza la base de usuarios para aumentar los ingresos y optimizar los costos.",
+        "D": "Realiza una inferencia conjunta del chart_68_3 (el crecimiento del tamaño de usuarios se desacelera, pero la tasa de uso se mantiene estable en un nivel alto) y el chart_68_2 (predicción de crecimiento acelerado), y enfatiza la inversión en tecnología y la preparación para la expansión.",
+        "E": "Esta es una opción de distracción difícil: superficialmente, utiliza los datos de la tasa de crecimiento del chart_68_2 (por ejemplo, 33.4% en 2024), pero interpreta erróneamente la tendencia. Durante el período de alto crecimiento, se debe aumentar la inversión para capturar cuota de mercado (como en la opción A), en lugar de reducirla. Además, confunde la estrategia para períodos de bajo crecimiento (se debe controlar la inversión) y omite que reducir la inversión durante el período de alto crecimiento puede hacer que se pierdan oportunidades.",
+        "F": "Realiza una inferencia conjunta del chart_68_2 (la tasa de crecimiento ha recuperado desde un mínimo hasta un nivel alto) y el chart_68_1 (alto porcentaje de costos de I+D), y sugiere una gestión anti - cíclica de recursos."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -194,6 +269,21 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Realiza una inferencia conjunta del chart_68_2 (predicción de aceleración de la tasa de crecimiento) y el chart_68_1 (costos de recursos significativos), y enfatiza la captura de oportunidades y la optimización sostenible.",
+        "B": "Esta es una opción de distracción difícil: superficialmente, utiliza los datos de beneficio bruto del chart_68_1 (30%), pero adopta una estrategia errónea de priorizar los ingresos. Ignora que los altos costos de recursos (33%) y de I+D (37%) significan que aumentar el marketing puede comprimir los beneficios. La estrategia correcta es equilibrar el control de costos y la innovación (como en la opción A).",
+        "C": "Esta es una opción de distracción fácil: se basa en principios de gestión generales (como la colaboración y la capacitación), pero no se asocia con los datos de los gráficos (como la estructura de beneficios o la predicción del mercado). La formulación es amplia y no tiene una guía de asignación específica (como no se enfoca en la I+D o los costos de recursos).",
+        "D": "Realiza una inferencia conjunta del chart_68_3 (la tasa de uso de usuarios se estabiliza en un nivel alto) y el chart_68_1 (alto porcentaje de costos de recursos), y sugiere cambiar de la expansión a la profundización.",
+        "E": "Esta es una opción de distracción difícil: superficialmente, cita los datos de predicción de crecimiento del chart_68_2 (23.7% en 2023 y 33.4% en 2024), pero interpreta erróneamente la necesidad de innovación. Durante el período de alto crecimiento, se debe invertir en I+D para diferenciar el producto (como en la opción C), en lugar de reducirla. Además, confunde la relación entre el crecimiento natural del mercado y la ventaja competitiva y omite que no invertir en I+D puede causar homogeneización del producto y pérdida de cuota de mercado.",
+        "F": "Realiza una inferencia conjunta del chart_68_1 (el costo de I+D tiene la proporción más alta) y el chart_68_2 (gran potencial de crecimiento del mercado), e implica el chart_68_3 (la expansión del tamaño de usuarios ofrece oportunidades de optimización)."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

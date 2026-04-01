@@ -86,6 +86,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción requiere análisis conjunto de chart_173_1 y chart_173_2. chart_173_1 muestra que el número de registros (puesta en línea y rodaje) aumentó significativamente año tras año de 2021 a 2023, mientras que chart_173_2 muestra que el número de licencias de emisión aumentó trimestralmente desde junio de 2022 hasta diciembre de 2023. Esta opción vincula el crecimiento anual de registros (chart_173_1) con el aumento trimestral de emisiones (chart_173_2) desde una perspectiva de tendencia general, requiriendo la integración de datos de series temporales de ambos gráficos.",
+        "B": "Difícil: Esta opción compara erróneamente los datos: el número de registros de puesta en línea en 2022 fue 336, pero en 2023 fue mayor (584); el pico de licencias de emisión fue en octubre-diciembre de 2023 (153 títulos), no dominado por los registros de 2022; asociación incorrecta entre años y picos.",
+        "C": "Difícil: Esta opción aparentemente se basa en los gráficos, pero interpreta erróneamente los valores: el número de registros de rodaje en 2023 fue 3574 (mayor que 3293 en 2022), mientras que el número de licencias de emisión en 2023 aumentó trimestralmente (por ejemplo, 153 títulos en octubre-diciembre), no disminuyó; error al interpretar el crecimiento como disminución.",
+        "D": "Esta opción requiere análisis conjunto de chart_173_1 y chart_173_2. chart_173_1 muestra que el número de registros (puesta en línea y rodaje) aumentó significativamente año tras año de 2021 a 2023, mientras que chart_173_2 muestra que el número de licencias de emisión aumentó trimestralmente desde junio de 2022 hasta diciembre de 2023. Esta opción enfatiza la relación causal entre el aumento explosivo de registros de rodaje (chart_173_1) y el crecimiento acelerado de licencias de emisión (chart_173_2), requiriendo la integración de datos de series temporales de ambos gráficos.",
+        "E": "Fácil: Esta opción se basa en un error de sentido común, asumiendo que la disminución de registros conduciría a menos emisiones, pero los gráficos muestran aumentos anuales en registros (por ejemplo, registros de rodaje aumentaron de 935 en 2021 a 3574 en 2023), contradiciendo los datos; y aunque el sentido común sugiere que la reducción de oferta podría afectar las emisiones, los gráficos no muestran tal tendencia.",
+        "F": "Fácil: Esta opción generaliza, dependiendo del sentido común de la industria (como la demanda del mercado), pero los gráficos muestran una correlación positiva entre registros y licencias de emisión (crecimiento de registros acompañado de aumentos trimestrales en emisiones), por lo que ignora erróneamente la correlación de datos.",
+        "G": "Esta opción requiere análisis conjunto de chart_173_1 y chart_173_2. chart_173_1 muestra que el número de registros (puesta en línea y rodaje) aumentó significativamente año tras año de 2021 a 2023, mientras que chart_173_2 muestra que el número de licencias de emisión aumentó trimestralmente desde junio de 2022 hasta diciembre de 2023. Esta opción distingue los roles de los registros de puesta en línea y rodaje, correspondiendo a las etapas tempranas y posteriores de las licencias de emisión, requiriendo comparación de series temporales entre gráficos."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción requiere análisis conjunto de chart_173_3 y chart_173_4. chart_173_3 proporciona la penetración semanal de diferentes segmentos poblacionales, mientras que chart_173_4 muestra la distribución de frecuencia de visualización. Esta opción aborda la menor penetración en ciudades de primer nivel (chart_173_3) pero la alta proporción de '1 - 3 días a la semana' (chart_173_4), reveliendo patrones de comportamiento implícitos. Cada opción requiere integrar datos de clasificación poblacional y frecuencia de ambos gráficos.",
+        "B": "Fácil: Esta opción se basa en un error de sentido común, asumiendo que los jóvenes tienen hábitos digitales más fuertes, pero los gráficos muestran que la penetración en personas de 18-34 años es solo 26.7% (menor que el 31.4% total y 32.6% en personas de 35-64 años), contradiciendo los datos.",
+        "C": "Difícil: Esta opción conecta erróneamente los datos: la penetración femenina es 33.2% (mayor que masculina), pero la proporción 'Todos los días' 18% es el promedio total, no datos exclusivos femeninos; los gráficos no muestran frecuencia por género, por lo que no puede atribuirse a las mujeres, asociación numérica incorrecta.",
+        "D": "Esta opción requiere análisis conjunto de chart_173_3 y chart_173_4. chart_173_3 proporciona la penetración semanal de diferentes segmentos poblacionales, mientras que chart_173_4 muestra la distribución de frecuencia de visualización. Esta opción se centra en diferencias de género, utilizando la mayor penetración femenina (chart_173_3) y la proporción 'Todos los días' (chart_173_4) para establecer una relación.",
+        "E": "Fácil: Esta opción generaliza, dependiendo del sentido común de la industria (como mejor conectividad en ciudades de primer nivel), pero los gráficos muestran penetración en ciudades de primer nivel de solo 28.6% (menor que 33.0% en ciudades de bajo nivel), y la distribución de frecuencia no está segmentada por población, por lo que es incorrecta.",
+        "F": "Esta opción requiere análisis conjunto de chart_173_3 y chart_173_4. chart_173_3 proporciona la penetración semanal de diferentes segmentos poblacionales, mientras que chart_173_4 muestra la distribución de frecuencia de visualización. Esta opción vincula grupos de alta penetración (ciudades de bajo nivel, 35-64 años, chart_173_3) con proporciones de alta frecuencia (chart_173_4), requiriendo comparación cruzada de datos poblacionales.",
+        "G": "Difícil: Esta opción aparentemente se basa en gráficos, pero infiere erróneamente: la distribución de frecuencia (como '4 - 6 días a la semana' 36%) es datos de población total, no segmentados por edad; los gráficos no proporcionan frecuencia específica para personas de 35-64 años, por lo que no puede coincidir directamente, interpretación incorrecta de la asociación de datos."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Fácil: Esta opción generaliza, introduciendo factores externos (como políticas), pero los datos de los gráficos no mencionan tal información, y aunque el sentido común podría explicar la brecha, ignora la tendencia de crecimiento trimestral en licencias de emisión en los gráficos, desvinculándose erróneamente de los datos.",
+        "B": "Esta opción requiere análisis conjunto de chart_173_1 y chart_173_2. chart_173_1 muestra un número muy alto de registros de rodaje, mientras que chart_173_2 muestra un número menor de licencias de emisión, creando una discrepancia. Esta opción compara directamente la escala de registros (chart_173_1) con el volumen de emisiones (chart_173_2), razonando sobre las razones de la no finalización de la producción.",
+        "C": "Difícil: Esta opción compara erróneamente los datos: en septiembre-diciembre de 2022 se emitieron 64 títulos, pero los registros de rodaje de 2022 fueron 3293, proporción muy baja (64/3293≈1.9%), brecha enorme; los gráficos muestran crecimiento en emisiones pero aún muy por debajo de los registros, error al considerar una muestra pequeña como razonable.",
+        "D": "Difícil: Esta opción aparentemente se basa en gráficos, pero interpreta erróneamente los valores: el número total de licencias de emisión en 2023 es solo about 502 títulos (83 + 116 + 150 + 153), muy por debajo de los 3574 registros de rodaje, error al juzgar 502 títulos como cercanos a 3574, exagerando la escala de emisión.",
+        "E": "Esta opción requiere análisis conjunto de chart_173_1 y chart_173_2. chart_173_1 muestra un número muy alto de registros de rodaje, mientras que chart_173_2 muestra un número menor de licencias de emisión, creando una discrepancia. Esta opción introduce la dimensión temporal, vinculando el aumento explosivo de registros en 2022 (chart_173_1) con el crecimiento de emisiones en 2023 (chart_173_2) para explicar el efecto de desfase.",
+        "F": "Fácil: Esta opción se basa en un error de sentido común, asumiendo que registros y emisiones deberían ser iguales, pero el sentido común de la industria indica que los registros solo representan proyectos, no todas las series se completan o aprueban; los gráficos muestran una gran brecha (por ejemplo, 3574 registros de rodaje en 2023 vs about 502 títulos emitidos anualmente), por lo que es incorrecta.",
+        "G": "Esta opción requiere análisis conjunto de chart_173_1 y chart_173_2. chart_173_1 muestra un número muy alto de registros de rodaje, mientras que chart_173_2 muestra un número menor de licencias de emisión, creando una discrepancia. Esta opción enfatiza las diferencias en el alcance de los datos (anual vs trimestral, chart_173_1 vs chart_173_2) y utiliza la tendencia trimestral de emisiones (chart_173_2) para explicar el proceso de liberación de registros. Cada opción requiere análisis transversal del alcance y series temporales de los datos."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 1 se basa en la característica de la mayor penetración semanal de las personas de 35 - 64 años en el gráfico chart_173_3 y en los datos de la alta proporción de visualización frecuente (como ver todos los días y 4 - 6 días a la semana) en el gráfico chart_173_4. A través del razonamiento conjunto, optimizar el contenido para los grupos de alta penetración y alta frecuencia puede maximizar la fidelidad de los usuarios.",
+        "B": "Opción de distracción difícil: Aparentemente se utilizan chart_173_3 (penetración del 26,7% entre personas de 18 - 34 años) y chart_173_4 (18% ven todos los días), pero se establece una asociación errónea. La frecuencia de visualización en chart_173_4 no está segmentada por edad, por lo que los datos de visualización frecuente no se refieren específicamente a este grupo. Además, se ignora que la penetración de las personas de 35 - 64 años es mayor (32,6%), y la estrategia tiene una dirección errónea (se debería priorizar el grupo de mayor penetración).",
+        "C": "Opción de distracción fácil: Basada en el sentido común, la expresión es demasiado general (por ejemplo, \"aumentar la producción\"), pero no tiene soporte de datos específicos y no ofrece una dirección de optimización para la participación de los usuarios (como la penetración o la frecuencia de visualización), por lo que es fácil de descartar.",
+        "D": "Opción de distracción fácil: Es una sugerencia basada en el sentido común (por ejemplo, \"mejorar la calidad\"), pero no se combina con los datos de comportamiento de los usuarios en los gráficos (como la penetración y la frecuencia de visualización). La estrategia es difusa y no tiene una orientación específica para la asignación de recursos.",
+        "E": "La opción 3 se basa en la diferencia de penetración por género en el gráfico chart_173_3 (la penetración de las mujeres es ligeramente mayor) y en los datos de frecuencia de visualización en el gráfico chart_173_4 (sin un sesgo de género significativo). A través de una estrategia equilibrada, se evita la discriminación y se garantiza la inclusión.",
+        "F": "La opción 2 combina la tendencia de una mayor penetración en las ciudades de bajo nivel en el gráfico chart_173_3 y la distribución de la frecuencia de visualización en el gráfico chart_173_4 (la mayoría de los usuarios visualizan con frecuencia). A partir de esto, se deduce que la asignación de recursos a las ciudades de bajo nivel puede mejorar eficazmente la participación de los usuarios.",
+        "G": "Opción de distracción difícil: Aparentemente se utilizan chart_173_3 (penetración del 28,6% en ciudades de primer nivel frente al 33,0% en ciudades de bajo nivel) y chart_173_4 (frecuencia de visualización), pero se interpreta erróneamente. Aunque la penetración en las ciudades de primer nivel es más baja, no es \"mucho más baja\", y la frecuencia de visualización no está segmentada por ciudad. La sugerencia de estrategia de \"reducir la asignación\" es incorrecta, ya que la dirección correcta debería ser fortalecer las ciudades de bajo nivel (opción B). Esta opción de distracción confunde la lógica de optimización de recursos."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Opción de distracción fácil: Es una sugerencia basada en el sentido común (por ejemplo, \"inversión diversificada\"), pero es demasiado general y no tiene un enfoque específico. No se combina con los datos de tendencia de producción (como el crecimiento del número de registros), por lo que es fácil de descartar.",
+        "B": "La opción 1 se basa en la tendencia de crecimiento significativo del número de registros (especialmente los registros de rodaje) en el gráfico chart_173_1 y en el aumento continuo del número de licencias de emisión y el número de episodios en el gráfico chart_173_2. A través del razonamiento conjunto, se muestra que la demanda del sector es fuerte, y aumentar la inversión puede promover el crecimiento.",
+        "C": "Opción de distracción fácil: La expresión es razonable (por ejemplo, \"recopilar comentarios\"), pero no tiene soporte de datos de los gráficos y no está relacionada con una estrategia específica para el crecimiento sostenible (como optimizar el proceso o alinearse con el público). La estrategia es difusa.",
+        "D": "Opción de distracción difícil: Aparentemente se utilizan chart_173_2 (64 títulos y 1402 episodios emitidos entre septiembre y diciembre de 2022) y chart_173_3 (penetración del 32,6% entre personas de 35 - 64 años), pero se establece una asociación errónea. Los datos de septiembre a diciembre de 2022 no son los \"más altos\" (se emitieron 153 títulos entre octubre y diciembre de 2023), y la sugerencia de \"período de máxima actividad\" ignora la tendencia general de aumento de la cantidad emitida. La estrategia se centra en el corto plazo y ignora la sostenibilidad (como la mejora de la calidad).",
+        "E": "La opción 2 se basa en el cambio de la tasa de crecimiento de las licencias de emisión en el gráfico chart_173_2 (la tasa de crecimiento se desacelera en la etapa posterior) y en el crecimiento del número de registros en el gráfico chart_173_1. A partir de esto, se deduce que se debe cambiar de la expansión de cantidad a la optimización de calidad para evitar el desperdicio de recursos.",
+        "F": "Opción de distracción difícil: Aparentemente se utiliza chart_173_1 (3574 registros de rodaje en 2023 frente a 3293 en 2022), pero se interpreta erróneamente la tendencia de crecimiento. El número de registros sigue creciendo de 2022 a 2023 (de 3293 a 3574), no \"se desacelera el crecimiento\" sino que sigue en aumento. Además, se ignora el fuerte crecimiento del número de licencias de emisión (chart_173_2), y la sugerencia de estrategia de \"reducir la inversión\" va en contra del crecimiento sostenible.",
+        "G": "La opción 3 combina la tendencia de crecimiento de la producción en chart_173_1 y chart_173_2 con los datos de penetración de grupos específicos (personas de 35 - 64 años y ciudades de bajo nivel) en chart_173_3, lo que garantiza que la inversión se ajuste a las necesidades de los usuarios y aumenta la tasa de retorno."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Opción de distracción difícil: Aparentemente se utilizan chart_173_3 (penetración del 32,6% entre personas de 35 - 64 años) y chart_173_4 (36% ven 4 - 6 días a la semana), pero se interpreta erróneamente. La alta penetración y la visualización frecuente indican que este grupo es de gran valor, y no se debería \"reducir la promoción\". Además, entra en conflicto con las opciones correctas (por ejemplo, dirigidas a las ciudades de bajo nivel o a personas de 18 - 34 años), y la dirección de la estrategia está claramente desviada.",
+        "B": "Opción de distracción fácil: Es una sugerencia basada en el sentido común (por ejemplo, \"promoción en todos los canales\"), pero es demasiado general y no tiene un enfoque específico. No se combina con los datos de penetración o de emisión, y la estrategia no tiene una guía de acción clara.",
+        "C": "La opción 2 combina la tendencia de una mayor penetración en las ciudades de bajo nivel en el gráfico chart_173_3 y la alta proporción de visualización frecuente en el gráfico chart_173_4. A partir de esto, se deduce que la inversión de recursos en las ciudades de bajo nivel puede expandir eficazmente la base de usuarios.",
+        "D": "Opción de distracción fácil: La expresión es razonable (por ejemplo, \"incentivos para los usuarios\"), pero no se utilizan los gráficos (por ejemplo, el ciclo de emisión o la penetración del público), y se ignora la promoción impulsada por datos, por lo que es fácil de descartar.",
+        "E": "Opción de distracción difícil: Aparentemente se utilizan chart_173_2 (19 títulos y 420 episodios emitidos entre junio y agosto de 2022) y chart_173_3 (penetración), pero se establece una asociación errónea. La promoción en un período de baja emisión puede ser ineficaz (baja demanda), y se ignora la tendencia continua de aumento de la emisión (por ejemplo, se emitieron 153 títulos entre octubre y diciembre de 2023). La sugerencia de estrategia de \"llenar los valles\" no coincide con la eficiencia de la promoción (por ejemplo, combinar con períodos de máxima actividad).",
+        "F": "La opción 3 se basa en la tendencia de crecimiento constante del número de licencias de emisión (títulos y episodios) en el gráfico chart_173_2 y en los datos de penetración en el gráfico chart_173_3. Al ajustar la promoción a los picos de producción, se aumenta la penetración general.",
+        "G": "La opción 1 se basa en la característica de una menor penetración entre personas de 18 - 34 años en el gráfico chart_173_3 y en la distribución de la frecuencia de visualización en el gráfico chart_173_4 (la mayoría de los usuarios visualizan con regularidad). A través del razonamiento conjunto, se deduce que este grupo tiene potencial de mejora, y la estrategia de promoción puede explotar el mercado incremental."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     }
   ]

@@ -86,6 +86,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "未购买比例总计47.8%（计划购买11.8% + 不计划2.9% + 观望33.5%），但购买过比例51.8%更高，表明需求充足；价格因素45.1%重要性较高，选项错误解读为'重要性低'。",
+        "B": "价格因素45.1%在选购因素中排名第四（chart_140_2），表明价格重要，但低价位选择比例低（8.7%）可能源于市场供应或偏好，选项错误推断为'不关心价格'。",
+        "C": "选项2需要联合 chart_140_1（购买状态：计划购买和观望比例合计较高）和 chart_140_2（选购因素：价格比例较高），推理出价格因素与未决购买群体之间的关联，显示价格敏感度可能延迟决策。",
+        "D": "Tiempo de carga 46.2%和 Rango máximo de crucero 51.3%差距小（仅5.1%），两者均属高重要性因素，选项夸大差距并错误归因影响小。",
+        "E": "选项3需要联合 chart_140_1（购买状态：不计划购买比例很低）和 chart_140_2（选购因素：Subsidios estatales比例中等但非最高），推理出低放弃率与补贴中等重要性的对比，暗示补贴非核心障碍，而续航或安全等更关键。",
+        "F": "选项1需要联合 chart_140_1（购买状态：购买过比例较高）和 chart_140_2（选购因素：Rango máximo de crucero和Tiempo de carga比例最高），推理出高购买率与高因素重要性之间的正相关，表明这些因素是购买驱动力。",
+        "G": "图表数据未提及任何品牌相关因素（如广告或知名度），此选项仅基于一般市场常识，与chart_140_1和chart_140_2内容无关。"
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "期待中250-350公里占比41.2%最高，但350-500公里29.5%和500+22.2%也显著，选购因素高重要性暗示消费者可能期待更高续航，选项错误解读为一致。",
+        "B": "Apariencia de los vehículos de energía nueva因素在chart_140_2中占34.8%，但并非最高（Rango máximo de crucero 51.3%更高），且与续航期待数据（chart_140_3）无直接关联，选项仅基于常识。",
+        "C": "Rendimiento de ahorro de energía y reducción de emisiones因素38.2%排名第五（chart_140_2），重要性中等；高续航期待可能反映实用性需求而非环保，选项错误归因于环保驱动。",
+        "D": "选项3需要联合 chart_140_2（选购因素：Rendimiento de ahorro de energía y reducción de emisiones比例中等）和 chart_140_3（期待：350公里以上续航比例较高），推理出环保因素在选购中不突出，但消费者更期待高续航实用性，表明因素重要性可能被高估或期待偏移。",
+        "E": "期待数据（chart_140_3）显示多样分布（如150-250公里7.1%），而Rango máximo de crucero因素51.3%重要性高，可能存在期望偏低的不一致，选项错误否定不一致。",
+        "F": "选项2需要联合 chart_140_2（选购因素：Tiempo de carga比例高）和 chart_140_3（期待：安全性能如Medidas de protección del tren motriz比例极高），推理出充电因素未被单独期待，但安全期待高，隐含充电可能被整合到安全或整体性能中。",
+        "G": "选项1需要联合 chart_140_2（选购因素：Rango máximo de crucero比例最高）和 chart_140_3（期待：250 - 350公里比例最高，但350公里以上比例合计更高），推理出选购因素强调续航重要性，但期待中多数消费者接受中等续航，揭示实际与理想间的冲突，可能因技术限制。"
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "高安全期待比例（如Medidas de protección del tren motriz 65.7%）表明安全是核心关注点，可能推动前景，选项错误推断为'无影响'。",
+        "B": "Vehículos de Combustible Alternativo在chart_140_4中仅占0.7%，前景最低，选项错误夸大前景并基于常识而非数据。",
+        "C": "选项3需要联合 chart_140_4（发展前景：Vehículos Eléctricos de Pila de Combustible de Hidrógeno比例较低）和 chart_140_3（安全期待：Seguridad de los neumáticos和Airbags比例高），推理出低前景与高基础安全期待的冲突，暗示消费者对氢燃料等新技术的安全性存疑，影响发展信心。",
+        "D": "安全性能期待数据（chart_140_3）中，Airbags 58.8%并非最低（所有项均高，如Seguridad de los neumáticos 59.7%、Sistema de estacionamiento automático 56.5%），选项错误解读比例和重要性。",
+        "E": "Sistema de estacionamiento automático期待56.5%较高，可能增强Vehículos Eléctricos Híbridos吸引力，前景22.0%虽次高但选项错误归因于功能无效。",
+        "F": "选项2需要联合 chart_140_4（发展前景：Vehículos Eléctricos Híbridos比例次高）和 chart_140_3（安全期待：Sistema de estacionamiento automático比例较高），推理出中等前景类型与特定安全功能（如自动泊车）的联系，显示便利性安全因素可能提升市场接受度。",
+        "G": "选项1需要联合 chart_140_4（发展前景：Vehículos Eléctricos de Batería比例最高）和 chart_140_3（安全期待：Medidas de protección del tren motriz比例最高），推理出高前景类型与高安全期待的正向关联，表明安全是核心驱动力。"
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -153,6 +204,22 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto basado en chart_140_2 (la seguridad del automóvil es un factor clave con una alta proporción en los factores de compra) y chart_140_3 (en las expectativas de los consumidores sobre el rendimiento de seguridad, la protección del tren motriz y la seguridad de los neumáticos tienen las proporciones más altas). Esto refleja la relación de equilibrio de las características de seguridad en la decisión de los consumidores.",
+        "B": "Esta es una opción de distracción fácil: se sugiere la optimización de costos, pero no se cita ningún gráfico (por ejemplo, el factor de precio solo representa el 45.1% en chart_140_2, no es el más alto). Se basa en la lógica general ('sensibilidad al precio'), pero no se dirige a las preferencias centrales (como la autonomía o la seguridad), y no hay una guía técnica específica.",
+        "C": "Esta es una opción de distracción difícil: superficialmente se utiliza chart_140_3 (el sistema de estacionamiento automático representa el 56.5% en las expectativas de seguridad), pero la deducción es errónea - el estacionamiento automático no es un factor principal de compra (la seguridad representa el 46.0% en chart_140_2, pero no se especifica el estacionamiento automático; y se confunde con el núcleo de seguridad, mientras que los consumidores se preocupan más por la protección del tren motriz (65.7%) y la seguridad de los neumáticos (59.7%)). Esto se desvía de la prioridad y lleva a una asignación errónea de recursos.",
+        "D": "Esta es una opción de distracción fácil: la expresión es amplia y se basa en el conocimiento comercial general (por ejemplo, 'la promoción de la marca aumenta la知名度'), y no se utilizan datos de ningún gráfico (como los datos de factores de compra o expectativas). No tiene un enfoque claro de desarrollo tecnológico y se ignora las preferencias de los consumidores (como la autonomía o la seguridad), y es fácil de excluir por el conocimiento general.",
+        "E": "Razonamiento conjunto basado en chart_140_2 (el rango máximo de crucero y el tiempo de carga requerido son los dos factores con la proporción más alta en los factores de compra de los consumidores) y chart_140_3 (las expectativas de los consumidores sobre el rango de autonomía se concentran principalmente en el rango de más de 250 kilómetros, lo que indica una alta demanda de autonomía). Esto refleja la tendencia de la autonomía y la eficiencia de carga como puntos fuertes centrales.",
+        "F": "Razonamiento conjunto basado en chart_140_1 (la distribución de los precios de compra muestra que el rango de 100,000 - 400,000 representa la proporción más alta, lo que representa el mercado principal) y chart_140_2 (el precio de los vehículos de energía nueva es un factor con una alta proporción en los factores de compra). Esto destaca la relación causal entre el factor de precio y la posición de mercado."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -176,6 +243,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto basado en chart_140_2 (la seguridad del automóvil y el rendimiento de ahorro de energía y reducción de emisiones son factores con una alta proporción en los factores de compra) y chart_140_4 (el vehículo eléctrico de batería tiene el mayor porcentaje de perspectivas de desarrollo, lo que implica ventajas ambientales). Esto combina la relación de equilibrio entre la seguridad y el medio ambiente, y se integra con valores positivos (como la protección ambiental).",
+        "B": "Razonamiento conjunto basado en chart_140_2 (el rango máximo de crucero y el tiempo de carga requerido son los dos factores con la proporción más alta en los factores de compra de los consumidores) y chart_140_3 (las expectativas de los consumidores sobre el rango de autonomía se concentran en el rango de más de 250 kilómetros, lo que indica una alta demanda de autonomía). Esto refleja la coincidencia entre las necesidades de los consumidores y el enfoque de marketing.",
+        "C": "Esta es una opción de distracción difícil: superficialmente se utiliza chart_140_4 (el vehículo eléctrico híbrido tiene un 22.0% de perspectivas de desarrollo), pero la deducción es errónea - el vehículo eléctrico de batería tiene mayores perspectivas (61.3%), y los factores de compra mostrados en los gráficos indican que la autonomía (51.3%) y la carga (46.2%) son más importantes; recomendar el vehículo híbrido llevaría a una asignación errónea de recursos y se ignorarían las preferencias principales.",
+        "D": "Esta es una opción de distracción fácil: se sugiere la expansión de canales, pero no se basan en los datos de los gráficos (como el estado de compra o las preferencias). Se basa en el conocimiento de marketing general ('aumentar las tiendas para aumentar la cobertura'), es amplia y no tiene acciones específicas (por ejemplo, no se dirige a los grupos en espera o a los factores de compra), y es fácil de excluir por el conocimiento general.",
+        "E": "Esta es una opción de distracción difícil: superficialmente se utiliza chart_140_2 (seguir la moda representa el 17.4%), pero la interpretación de los datos es errónea - esta proporción es baja, y los factores de compra de autonomía, carga y seguridad (todos superan el 45%) son más prioritarios; enfatizar la moda se desviaría de los factores principales de decisión y no podría convertir efectivamente a los grupos en espera (33.5%).",
+        "F": "Razonamiento conjunto basado en chart_140_1 (la proporción de consumidores en espera es significativa, lo que representa un mercado potencial) y chart_140_4 (el vehículo eléctrico de batería tiene el mayor porcentaje de perspectivas de desarrollo, lo que indica la confianza de los consumidores). Esto refleja la relación causal entre la dinámica del mercado y la psicología de los consumidores.",
+        "G": "Esta es una opción de distracción fácil: se enfoca en las actividades de promoción, pero no se cita ningún gráfico (por ejemplo, la fuerza de promoción solo representa el 22.9% en chart_140_2, no es un factor crucial). La expresión es correcta pero generalizada ('descuentos para estimular las compras'), no se dirige al problema central (como la autonomía o la seguridad), y se ignora las características de los grupos en espera (33.5%)."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -199,6 +283,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se enfoca en las ganancias a corto plazo, pero no se cita ningún gráfico (como la distribución de precios en el comportamiento de compra o los datos de perspectivas). La expresión es correcta pero generalizada ('productos de alto retorno para apoyar la investigación y desarrollo'), no se dirige al crecimiento a largo plazo o a las expectativas de los consumidores, y se ignora la orientación a la innovación.",
+        "B": "Razonamiento conjunto basado en chart_140_4 (el vehículo eléctrico de batería tiene el mayor porcentaje de perspectivas de desarrollo) y chart_140_1 (la distribución de precios de compra muestra que el rango de 100,000 - 400,000 es el más dominante, y el vehículo eléctrico de batería generalmente cubre este rango). Esto refleja la relación causal entre las perspectivas de desarrollo y la aceptación del mercado.",
+        "C": "Esta es una opción de distracción difícil: superficialmente se utilizan chart_140_1 (el rango de precios de compra de 100,000 - 200,000 representa el 38.7%) y chart_140_3 (las expectativas de seguridad), pero se confunde erróneamente la relación - los recursos de investigación y desarrollo deben dirigirse al tipo de tecnología (como el vehículo eléctrico), no al rango de precios; y las expectativas de seguridad son para la optimización de características, no para las perspectivas generales de la tecnología. Esto se desvía del problema central (las expectativas de perspectivas) y lleva a una asignación errónea de recursos.",
+        "D": "Razonamiento conjunto basado en chart_140_4 (el vehículo eléctrico híbrido tiene la segunda proporción más alta de perspectivas de desarrollo) y chart_140_1 (el rango de precios intermedio tiene una alta proporción en los precios de compra, y el precio es un factor de compra). Esto refleja la relación de equilibrio entre la sensibilidad al precio y la transición tecnológica.",
+        "E": "Razonamiento conjunto basado en chart_140_4 (los tipos de vehículos de pila de combustible de hidrógeno tienen perspectivas más bajas, pero hay demanda) y chart_140_3 (las expectativas de los consumidores sobre el rango de autonomía y el rendimiento de seguridad son altas, lo que indica un espacio para la mejora tecnológica). Esto combina la tendencia futura y las necesidades actuales, y es coherente con los valores de innovación.",
+        "F": "Esta es una opción de distracción fácil: se sugiere la construcción de talentos, pero no se utilizan datos de los gráficos (como las expectativas de perspectivas o el comportamiento de compra). Se basa en el conocimiento general de gestión ('los talentos mejoran la innovación'), es amplia y no tiene una dirección tecnológica específica (como el vehículo eléctrico o el híbrido), y es fácil de excluir.",
+        "G": "Esta es una opción de distracción difícil: superficialmente se utiliza chart_140_4 (el vehículo de combustible alternativo tiene un 0.7% de perspectivas de desarrollo), pero la deducción es errónea - la proporción es extremadamente baja, y los gráficos indican que las expectativas de autonomía (el rango de más de 500 kilómetros representa el 22.2% en chart_140_3) no están directamente relacionadas; recomendar invertir en esta tecnología llevaría a un desperdicio de recursos y se ignorarían los campos de alta perspectiva (el vehículo eléctrico de batería tiene un 61.3%)."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     }
   ]

@@ -1,30 +1,25 @@
-from utils import Evaluation
+from eval_task1_accuracy import normalize_binary_answer
+from eval_task2_accuracy import validate_value
+from eval_task34_strict_risk_aware import evaluate_question_strict_risk_aware
 
 if __name__ == "__main__":
-    evaluation = Evaluation()
+    # Task 1
+    gt = "Yes"
+    pred = "yes"
+    result = normalize_binary_answer(gt) == normalize_binary_answer(pred)
+    print("task1:", result)
 
-    # task1
+    # Task 2
     gt = "1.0"
-    mllm_ans = "1.01"
-    result = evaluation.evaluation_task1(gt, mllm_ans)
-    print("task1:", result) # True
+    pred = "1.01"
+    result = validate_value(gt, pred)
+    print("task2:", result)
 
-    # task2
-    language_type = "en"
-    gt = "1.0"
-    mllm_rationale = "a = 10.0, b = 10.01, c = a / b, result = c"
-    result = evaluation.evaluation_task2(language_type, gt, mllm_rationale)
-    print("task2:", result) # True
-
-    # task3
-    gt = "['A', 'B', 'C']"
-    mllm_ans = "['A', 'B', 'C']"
-    result = evaluation.evaluation_task3(gt, mllm_ans)
-    print("task3:", result) # 1.0
-
-    # task4
-    gt = "['A', 'B', 'C']"
-    mllm_ans = "['A', 'B', 'D']"
-    result = evaluation.evaluation_task4(gt, mllm_ans)
-    print("task4:", result) # 0.0
-
+    # Task 3 / 4
+    result = evaluate_question_strict_risk_aware(
+        pred_answer=["A", "B", "D"],
+        label=["A", "B", "C"],
+        easy_error=["E"],
+        hard_error=["D", "F"],
+    )
+    print("task3/4 strict risk-aware:", result)

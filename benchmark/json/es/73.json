@@ -85,6 +85,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La opción 1 es correcta, porque en el gráfico de tarifas de pago único (chart_73_1), el intervalo de $21 - $30 tiene la proporción más alta (50.3%), mientras que en el gráfico de frecuencia de uso (chart_73_2), el intervalo de 1 - 2 veces al mes tiene la proporción más alta (41.5%), ambos representan un nivel 'medio', y es necesario combinar ambos gráficos para descubrir este patrón dominante.",
+        "B": "Esta opción es incorrecta, porque aunque parece basarse en los gráficos, interpreta mal los valores. El gráfico chart_73_1 muestra que la proporción de tarifas de pago único de $10 - $20 es realmente del 18.4%, mientras que la proporción más alta es de $21 - $30 (50.3%). La opción distractora atribuye erróneamente la proporción de $21 - $30 a $10 - $20, lo que exagera la proporción de usuarios de bajo costo.",
+        "C": "La opción 2 es correcta, porque en el gráfico de tarifas de pago, la proporción de $41 o más es la más baja (4.8%), y en el gráfico de frecuencia, la proporción de 5 veces o más al mes es la más baja (8.0%), es necesario comparar ambos gráficos para confirmar la escasez de comportamientos de alto consumo y alta frecuencia.",
+        "D": "La opción 3 es correcta, porque en el gráfico de tarifas de pago, la proporción de $10 - $20 es baja (18.4%, pero no la más baja), mientras que en el gráfico de frecuencia, la suma de las proporciones de baja frecuencia (como 1 - 2 veces por trimestre y 1 - 2 veces al año) es alta (17.5%), pero es necesario un razonamiento conjunto para inferir si los usuarios de baja frecuencia tienden más a tarifas de pago bajas (los gráficos no agrupan directamente), la opción describe 'dispersión' para reflejar una conexión implícita.",
+        "E": "Esta opción es incorrecta, porque aunque parece basarse en los gráficos, interpreta mal los valores. El gráfico chart_73_2 muestra que la proporción de uso de 5 veces o más al mes es realmente del 8.0%, mientras que la proporción más alta es de 1 - 2 veces al mes (41.5%). La opción distractora atribuye erróneamente la proporción de frecuencia media (41.5%) a alta frecuencia, lo que lleva a una interpretación errónea del comportamiento de alta frecuencia de los usuarios.",
+        "F": "Esta opción es incorrecta, porque se genera basándose en el sentido común (los servicios de bajo costo atraen el consumo repetido), no depende de los datos del gráfico. En realidad, el gráfico muestra que la proporción de tarifas de pago único más bajas ($10 - $20) es solo del 18.4%, y la proporción de frecuencia de uso más alta (5 veces o más al mes) es solo del 8.0%, ninguna es la proporción más alta, por lo tanto, la inferencia del sentido común no coincide con los datos.",
+        "G": "Esta opción es incorrecta, porque se genera basándose en el sentido común (los usuarios de gama alta prefieren el consumo de alta frecuencia), no depende de los datos del gráfico. En realidad, en el gráfico, la proporción de tarifas de pago altas ($41 o más) es la más baja (4.8%), y la proporción de uso de alta frecuencia también es la más baja (8.0%), la inferencia del sentido común ignora el hecho de que los comportamientos de alto consumo y alta frecuencia no son comunes en los datos."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es incorrecta, porque aunque parece basarse en los gráficos, interpreta mal los valores. El gráfico chart_73_3 muestra que la proporción de tiempo de uso de 1 - 2 años es realmente la más alta (30.7%), mientras que la proporción más baja es de 1 - 3 meses (6.5%). La opción distractora atribuye erróneamente la proporción de 1 - 3 meses a 1 - 2 años, lo que lleva a una interpretación errónea de la proporción de usuarios con lealtad media.",
+        "B": "Esta opción es incorrecta, porque se genera basándose en el sentido común (los programas de lealtad traen descuentos), no depende de los datos del gráfico. En realidad, en el gráfico, la proporción de tarifas de pago único más bajas ($10 - $20) es del 18.4%, mientras que la suma de las proporciones de usuarios con tiempo de uso más largo (como 2 - 3 años o más de 3 años) es del 20.9%, pero los datos no muestran una asociación directa entre usuarios a largo plazo y tarifas de pago más bajas, la inferencia del sentido común sobre generaliza.",
+        "C": "Esta opción es incorrecta, porque se genera basándose en el sentido común (los nuevos usuarios eligen servicios de alto precio), no depende de los datos del gráfico. En realidad, en el gráfico, la proporción de nuevos usuarios (tiempo de uso ≤ 1 mes) es del 7.4%, mientras que la proporción de tarifas de pago altas ($41 o más) es la más baja (4.8%), la inferencia del sentido común ignora la tendencia de que los nuevos usuarios pueden tener un consumo bajo o variable.",
+        "D": "La opción 1 es correcta, porque en el gráfico de tiempo de uso (chart_73_3), el intervalo de 1 - 2 años tiene la proporción más alta (30.7%), y en el gráfico de tarifas de pago (chart_73_1), el intervalo de $21 - $30 tiene la proporción más alta (50.3%), ambos representan un nivel 'medio', y es necesario combinar ambos gráficos para identificar esta característica implícita del grupo de usuarios.",
+        "E": "Esta opción es incorrecta, porque aunque parece basarse en los gráficos, interpreta mal los valores. El gráfico chart_73_1 muestra que la proporción más alta de tarifas de pago único está en $21 - $30 (50.3%), mientras que la proporción de $31 - $40 es del 26.5%. La opción distractora atribuye erróneamente la proporción de $21 - $30 a $31 - $40, y exagera la asociación entre alto consumo y lealtad, pero en realidad la proporción de tarifas altas no es alta.",
+        "F": "La opción 2 es correcta, porque en el gráfico de tiempo de uso, las proporciones de tiempo más largo (como 2 - 3 años) son altas (12.5%, pero no la más alta), y en el gráfico de tarifas de pago, la proporción de $31 - $40 es alta (26.5%), es necesario un razonamiento conjunto para inferir que los usuarios a largo plazo pueden consumir más (aunque la proporción de más de 3 años es baja).",
+        "G": "La opción 3 es correcta, porque la proporción de ≤ 1 mes en el gráfico de tiempo de uso (7.4%) y la proporción de $10 - $20 en el gráfico de tarifas de pago (18.4%) son numéricamente similares pero requieren un análisis conjunto de tendencias, la opción describe 'variación' para reflejar una conexión implícita, es decir, los nuevos usuarios pueden comenzar con un consumo bajo."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 2 es correcta, porque en el gráfico de frecuencia, la proporción de 1 - 2 veces al mes es la más alta (41.5%), y en el gráfico de tiempo de uso, la proporción de 1 - 2 años es la más alta (30.7%), pero en el gráfico de frecuencia, las proporciones de baja frecuencia (como 1 - 2 veces por trimestre) son altas (14.5%), mientras que en el gráfico de tiempo de uso, la proporción de ≤ 1 mes es baja (7.4%), es necesario un razonamiento conjunto para explicar por qué los usuarios de baja frecuencia no corresponden a nuevos usuarios, revelando la contradicción implícita de 'inactivos pero leales'.",
+        "B": "Esta opción es incorrecta, porque se genera basándose en el sentido común (el uso frecuente acumula tiempo de uso), no depende de los datos del gráfico. En realidad, en el gráfico, la proporción de uso de alta frecuencia (5 veces o más al mes) es solo del 8.0%, mientras que la suma de las proporciones de usuarios a largo plazo (como 2 - 3 años o más de 3 años) es del 20.9%, pero los datos no muestran una fuerte correlación, la inferencia del sentido común ignora que la proporción de alta frecuencia es baja y no necesariamente corresponde a usuarios a largo plazo.",
+        "C": "Esta opción es incorrecta, porque aunque parece basarse en los gráficos, interpreta mal los valores. El gráfico chart_73_2 muestra que la proporción de uso de 3 - 4 veces al mes es realmente del 33.0%, mientras que la proporción más baja es de 1 - 2 veces al año (3.0%). La opción distractora atribuye erróneamente la proporción de tiempo de uso de 1 - 3 meses (6.5% en chart_73_3) a la distribución de frecuencia, lo que lleva a una interpretación errónea de la proporción de frecuencia media.",
+        "D": "La opción 3 es correcta, porque la proporción de 5 veces o más al mes en el gráfico de frecuencia (8.0%) y la proporción de más de 3 años en el gráfico de tiempo de uso (8.4%) son numéricamente similares, pero el uso de alta frecuencia puede estar asociado con tiempos más cortos (como 3 - 6 meses), es necesario un análisis conjunto de las tendencias de distribución para explicar esta inconsistencia.",
+        "E": "Esta opción es incorrecta, porque aunque parece basarse en los gráficos, interpreta mal los valores y el orden. El gráfico chart_73_3 muestra que la proporción más alta de tiempo de uso está en 1 - 2 años (30.7%), mientras que la proporción de 6 - 12 meses es del 22.9% (no la más alta). Además, la proporción de usuarios de alta frecuencia es baja (8.0%), la opción distractora atribuye erróneamente la proporción de 6 - 12 meses como la más alta, y asocia erróneamente el comportamiento de alta frecuencia, pero en realidad la proporción de usuarios de alta frecuencia es pequeña y no coincide con la distribución de tiempo de uso.",
+        "F": "Esta opción es incorrecta, porque se genera basándose en el sentido común (los nuevos usuarios reducen el uso después de probar), no depende de los datos del gráfico. En realidad, en el gráfico, la proporción de nuevos usuarios (tiempo de uso ≤ 1 mes) es del 7.4%, mientras que la suma de las proporciones de uso de baja frecuencia (como por trimestre o anual) es del 17.5%, pero los usuarios de baja frecuencia pueden incluir usuarios a largo plazo, la inferencia del sentido común es demasiado simplificada.",
+        "G": "La opción 1 es correcta, porque en el gráfico de frecuencia de uso (chart_73_2), la proporción de 5 veces o más al mes es muy baja (8.0%), y en el gráfico de tiempo de uso (chart_73_3), la proporción de más de 3 años es muy baja (8.4%), es necesario combinar ambos gráficos para descubrir la escasez de usuarios de alta frecuencia y a largo plazo, y el conflicto potencial (el uso de alta frecuencia no conduce directamente al uso a largo plazo)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: aparentemente utiliza los datos del gráfico 73_1 (proporción de gastos de pago), pero interpreta erróneamente el “rango principal” - la proporción de 10 - 20 dólares es solo del 18.4%, no es la mayoría (el 50.3% está en el rango de 21 - 30 dólares). Sugerir enfocarse en un grupo no dominante puede causar un desperdicio de recursos y omitir los datos de frecuencia (los usuarios de frecuencia media son más importantes).",
+        "B": "Involucra el gráfico 73_3 (en el tiempo de uso, la proporción combinada de usuarios con menos de 1 año de uso es alta, lo que indica una proporción significativa de nuevos usuarios) y el gráfico 73_2 (en la frecuencia de uso, la proporción de usuarios de baja frecuencia, como aquellos que usan el servicio 1 - 2 veces por trimestre o al año, es considerable). Un plan de introducción para nuevos usuarios puede reducir la pérdida y aumentar la actividad.",
+        "C": "Esta es una distracción fácil: tampoco se basa en los gráficos, solo sugiere actividades de marketing de manera general (como publicidad), pero no se basa en patrones específicos de gastos de pago, frecuencia o tiempo de uso. La afirmación es correcta, pero no ofrece una estrategia clara y no puede aumentar directamente la actividad o los ingresos.",
+        "D": "Involucra el gráfico 73_1 (en la distribución de los gastos de pago de los usuarios, el rango de 21 - 30 dólares tiene la proporción más alta, lo que indica el hábito de pago principal) y el gráfico 73_2 (en la frecuencia de uso, la proporción combinada de usuarios que usan el servicio 1 - 4 veces al mes es alta, lo que refleja que el grupo de usuarios de actividad media es el dominante). Optimizar la tarificación para adaptarse a los hábitos de los usuarios principales puede estimular el aumento de la frecuencia de uso.",
+        "E": "Involucra el gráfico 73_3 (en el tiempo de uso, la proporción combinada de usuarios con 1 - 2 años o más de uso es alta, lo que indica una base sólida de usuarios a largo plazo) y el gráfico 73_2 (en la frecuencia de uso, aunque el número de usuarios de alta frecuencia es pequeño, la proporción de usuarios de frecuencia media es alta). Un programa de recompensas de lealtad puede aprovechar la estabilidad de los usuarios a largo plazo para aumentar la frecuencia de uso y los ingresos.",
+        "F": "Esta es una distracción fácil: no se basa en ningún dato de los gráficos, solo se basa en conocimientos comerciales generales (reducir el precio para estimular la demanda), pero omite los patrones de comportamiento de los usuarios (por ejemplo, los hábitos de pago se concentran en el rango de 21 - 30 dólares). La estrategia es demasiado general y no tiene acciones específicas, por lo que es fácil descartarla por conocimiento general.",
+        "G": "Esta es una distracción difícil: aparentemente utiliza los datos del gráfico 73_2 (proporción de frecuencia de uso), pero exagera erróneamente el peso de los usuarios de alta frecuencia (solo el 8.0%). Combinado con el gráfico 73_3 (tiempo de uso), este grupo es pequeño y la estrategia puede no alcanzar a los usuarios principales, en lugar de alcanzar el objetivo de aumentar los ingresos generales (por ejemplo, omitir el grupo de usuarios de frecuencia media)."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: aparentemente utiliza los datos del gráfico 73_3 (proporción de tiempo de uso), pero sobreestima erróneamente el tamaño de los nuevos usuarios (los usuarios con ≤ 1 mes de uso solo representan el 7.4%, no es significativo). Combinado con el gráfico 73_2 (frecuencia), aunque hay usuarios de baja frecuencia, invertir recursos en un grupo pequeño puede ser ineficiente y omitir la alta proporción de usuarios de tiempo medio - largo (por ejemplo, los usuarios con 1 - 2 años de uso representan el 30.7%).",
+        "B": "Esta es una distracción fácil: no se basa en ningún dato de los gráficos, solo sugiere una optimización técnica de manera general (como la mejora de la APP). La afirmación es razonable, pero no se enfoca en ningún grupo específico y no puede aumentar directamente la retención o la frecuencia de uso, y no se basa en patrones de pago o frecuencia.",
+        "C": "Esta es una distracción fácil: no se basa en los gráficos, solo sugiere un subsidio general basado en el principio de equidad. Pero omite las diferencias en el comportamiento de los usuarios (como la distribución de la frecuencia y el tiempo de uso). La estrategia no es específica y la eficiencia de los recursos es baja, por lo que es fácil descartarla por conocimiento general.",
+        "D": "Involucra el gráfico 73_2 (en la frecuencia de uso, la proporción de usuarios de baja frecuencia, como aquellos que usan el servicio 1 - 2 veces por trimestre o al año, es considerable) y el gráfico 73_1 (en los gastos de pago, hay distribución en el rango de 10 - 20 dólares y rangos más altos, lo que indica que el factor precio puede afectar la frecuencia). Una campaña de reactivación para usuarios de baja frecuencia puede garantizar la equidad y aumentar la participación, evitando el desperdicio de recursos.",
+        "E": "Involucra el gráfico 73_3 (en el tiempo de uso, la proporción combinada de usuarios en el rango de 6 - 12 meses y 1 - 2 años es la más alta, lo que indica un gran grupo de usuarios de tiempo medio) y el gráfico 73_2 (en la frecuencia de uso, la proporción de usuarios de frecuencia media es alta, lo que indica que pueden afectar la actividad general). Concentrar los recursos en los usuarios de tiempo medio puede prevenir la pérdida y aumentar la retención.",
+        "F": "Involucra el gráfico 73_1 (en los gastos de pago, el rango de 21 - 30 dólares tiene la proporción más alta, lo que representa el hábito de pago de los usuarios principales) y el gráfico 73_3 (en el tiempo de uso, la proporción de usuarios con menos de 1 año de uso es significativa, lo que refleja la llegada de nuevos usuarios). Optimizar el servicio para el grupo de pago principal puede atraer nuevos usuarios y promover el crecimiento de la frecuencia de uso.",
+        "G": "Esta es una distracción difícil: aparentemente utiliza los datos del gráfico 73_1 (proporción de gastos de pago), pero interpreta erróneamente el “grupo de alto valor” - solo el 4.8% de los usuarios pagan 41 dólares o más, la proporción es muy pequeña. La estrategia se enfoca demasiado en un grupo minoritario y no se basa en los datos de frecuencia (por ejemplo, los usuarios de frecuencia media son más importantes), lo que puede causar una asignación incorrecta de recursos."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Involucra el gráfico 73_3 (en el tiempo de uso, la proporción combinada de usuarios con menos de 6 meses de uso es alta, lo que indica un grupo significativo de nuevos usuarios) y el gráfico 73_1 (en los gastos de pago, hay una amplia distribución en los rangos de 10 - 20 dólares y 21 - 30 dólares, lo que indica una posible sensibilidad al precio). Incentivos con tiempo limitado pueden reducir la barrera para los nuevos usuarios y promover el crecimiento de la frecuencia de uso.",
+        "B": "Involucra el gráfico 73_3 (en el tiempo de uso, la proporción combinada de usuarios con 1 - 2 años o más de uso es estable) y el gráfico 73_2 (en la frecuencia de uso, la proporción de usuarios de frecuencia media es alta). Una campaña para retener usuarios puede aprovechar la estabilidad de los usuarios a largo plazo para aumentar la lealtad y promover la participación general.",
+        "C": "Esta es una distracción difícil: aparentemente utiliza los datos del gráfico 73_3 (proporción de tiempo de uso), pero exagera erróneamente la influencia de los usuarios a largo plazo (solo el 8.4% de los usuarios tiene más de 3 años de uso). Combinado con el gráfico 73_2 (frecuencia), este grupo es pequeño y la estrategia puede no alcanzar a la mayoría (por ejemplo, el 41.5% de los usuarios usan el servicio 1 - 2 veces al mes), y también interpreta erróneamente la relación con “atraer nuevos usuarios”.",
+        "D": "Esta es una distracción difícil: aparentemente combina los datos de los gráficos 73_1 y 73_2, pero confunde la relación entre el pago y la frecuencia - la proporción de usuarios que pagan 31 - 40 dólares es del 26.5%, no es la más alta (el 50.3% de los usuarios pagan 21 - 30 dólares), y la proporción de usuarios de baja frecuencia es pequeña (solo el 3.0% de los usuarios usan el servicio 1 - 2 veces al año). La sugerencia se dirige erróneamente a un rango de pago no principal y sobreestima el potencial de reactivación.",
+        "E": "Esta es una distracción fácil: no se basa en los gráficos, solo sugiere promociones generales (como cupones). La estrategia es demasiado general y no se basa en el comportamiento de los usuarios (por ejemplo, omite que los hábitos de pago se concentran en el rango de 21 - 30 dólares), por lo que es fácil descartarla como ineficiente por conocimiento general.",
+        "F": "Involucra el gráfico 73_1 (en los gastos de pago, el rango de 21 - 30 dólares tiene la proporción más alta, lo que indica que los hábitos de pago de los usuarios se concentran en este rango) y el gráfico 73_2 (en la frecuencia de uso, la proporción combinada de usuarios que usan el servicio 1 - 4 veces al mes es alta, lo que refleja un grupo que se puede incentivar). Promociones vinculadas a la frecuencia de uso pueden aumentar la actividad de los usuarios principales.",
+        "G": "Esta es una distracción fácil: no se basa en los gráficos, solo sugiere una campaña de marketing de cooperación de manera general. La afirmación es correcta, pero no ofrece una acción específica (como combinar la frecuencia o el pago) y no puede garantizar que se alcance el grupo clave (por ejemplo, los usuarios de frecuencia media)."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

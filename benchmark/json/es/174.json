@@ -85,6 +85,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Difícil：malinterpretación de la brecha (56.3% de consumidores reconocen la promoción de políticas, y la brecha con el 88% sin promoción indica espacio de mejora)",
+        "B": "Opción 3 utiliza el gráfico 'Proporción de diferentes promociones del nuevo decreto de reducción del uso de plásticos en hoteles' (bajo porcentaje de carteles de advertencia y promocionales) y el gráfico 'Formas de promoción reconocidas por los consumidores' (preferencias concentradas), razonando la viabilidad de formas simples. Cada opción debe analizar tendencias numéricas entre gráficos (como 'alta proporción de reconocimiento' basada en datos de chart_174_3, 'falta de promoción' basada en chart_174_1), no se puede deducir de un solo gráfico.",
+        "C": "Difícil：error de asociación numérica (37.4% de reconocimiento de valores ambientales ≠ 5% de cobertura de carteles promocionales, y los carteles solo representan el 5% de las formas de promoción)",
+        "D": "Opción 1 depende del gráfico 'Proporción de diferentes promociones del nuevo decreto de reducción del uso de plásticos en hoteles' (muestra un porcentaje extremadamente alto de hoteles sin promoción) y el gráfico 'Formas de promoción reconocidas por los consumidores' (muestra la proporción más alta de reconocimiento de requisitos obligatorios de políticas), razonando conjuntamente la oportunidad de coincidencia entre la falta de promoción y las preferencias.",
+        "E": "Fácil：dependencia errónea del sentido común (los costos de promoción no se reflejan en los gráficos, y los carteles de advertencia/promocionales son métodos de bajo costo)",
+        "F": "Opción 2 combina el gráfico 'Formas de promoción reconocidas por los consumidores' (proporción significativa de reconocimiento de valores ambientales) y el gráfico 'Proporción de diferentes promociones del nuevo decreto de reducción del uso de plásticos en hoteles' (falta de promoción), implicando conexión con el potencial del tema ambiental."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Opción 3 combina las tendencias generales de ambos gráficos (distribución de actitudes y medidas coinciden en proporción), analizando factores dominantes. Cada opción debe comparar valores entre gráficos (como 'proporciones similares' derivadas del 37.4% que necesita reemplazo diario en chart_174_2 y 36.9% de puntos de hotel en chart_174_4), no se puede inferir independientemente de un solo gráfico.",
+        "B": "Fácil：sobreinferencia del sentido común (no necesitar reemplazo ≠ apoyo a la eliminación total, y 37.4% de consumidores aún necesita reemplazo)",
+        "C": "Opción 1 depende del gráfico 'Porcentaje de personas que no necesitan reemplazar diariamente los artículos de uso único en una estancia múltiple' (alta proporción que no necesita reemplazo) y el gráfico 'Medidas de incentivo esperadas por los consumidores' (proporción más alta de expectativa de descuento de precio), razonando conjuntamente la preferencia de incentivos económicos en la mayoría.",
+        "D": "Difícil：error de equivalencia grupal (proporciones similares ≠ grupos coincidentes, aquellos que necesitan reemplazo también pueden preferir descuentos de precio)",
+        "E": "Opción 2 utiliza el gráfico 'Porcentaje de personas que no necesitan reemplazar diariamente los artículos de uso único en una estancia múltiple' (proporción significativa que necesita reemplazo diario) y el gráfico 'Medidas de incentivo esperadas por los consumidores' (proporción comparable de expectativa de puntos de hotel), razonando el mecanismo de compensación implícito en proporciones similares.",
+        "F": "Difícil：error de comparación numérica (58.7% < 62.6%, la proporción de expectativa de descuento es realmente menor que la proporción que no necesita reemplazo)"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Opción 1 depende del gráfico 'Formas de promoción reconocidas por los consumidores' (alta proporción de reconocimiento de requisitos obligatorios de políticas) y el gráfico 'Medidas de incentivo esperadas por los consumidores' (proporción más alta de expectativa de descuento de precio), razonando conjuntamente el conflicto de contenido (promoción vs incentivos económicos).",
+        "B": "Opción 2 utiliza el gráfico 'Formas de promoción reconocidas por los consumidores' (proporción significativa de reconocimiento de valores ambientales) y el gráfico 'Medidas de incentivo esperadas por los consumidores' (proporción comparable de expectativa de puntos de hotel), razonando la segmentación grupal implícita en proporciones similares.",
+        "C": "Difícil：error de juicio de brecha (37.4% y 36.9% difieren solo 0.5%, pero los gráficos no prueban la secundariedad del grupo)",
+        "D": "Opción 3 combina ambos gráficos (proporciones bajas en otras opciones), analizando la concentración de preferencias. Cada opción debe comparar tendencias numéricas entre gráficos (como 'proporciones similares' derivadas del 37.4% de valores ambientales en chart_174_3 y 36.9% de puntos de hotel en chart_174_4), un solo gráfico solo proporciona información parcial, no puede revelar conflictos o conexiones.",
+        "E": "Fácil：confusión conceptual del sentido común (la promoción pertenece a la transmisión de información, los incentivos pertenecen a la recompensa de comportamiento, esencialmente diferentes)",
+        "F": "Difícil：error de asociación forzada (reconocimiento de políticas ≠ preferencia por descuentos, la diferencia de contenido indica precisamente que no hay asociación necesaria)"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -148,6 +193,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción C se basa en las características de la proporción de los métodos de promoción en el chart_174_1 (la promoción inexistente es predominante) y en los datos de preferencia de los métodos de promoción en el chart_174_3, y deduce que las herramientas de promoción activa pueden mejorar eficazmente la conciencia.",
+        "B": "Esta opción interpreta erróneamente los datos de los gráficos: el chart_174_3 muestra que el reconocimiento de los requisitos obligatorios de la política es del 56.3%, que es más alto que el 37.4% de los valores ambientales, pero la opción distorsiona las proporciones y sugiere priorizar los valores ambientales; además, ignora la gran brecha del 88% de hoteles sin promoción en el chart_174_1, lo que conduce a una desviación en la dirección de la estrategia (se debería priorizar la obligatoriedad de la política para cerrar rápidamente la brecha).",
+        "C": "Esta opción no se basa en los datos de los gráficos, sino en conocimientos generales del sector hotelero (por ejemplo, la promoción de la marca para mejorar el reconocimiento), pero no se dirige a la promoción ambiental ni a la brecha de datos (el 88% de hoteles sin promoción), por lo que no puede mejorar directamente la conciencia ambiental.",
+        "D": "La opción A se refiere a la proporción extremadamente alta de hoteles sin promoción en el chart_174_1 y al alto reconocimiento de los consumidores hacia los métodos de promoción de los requisitos obligatorios de la política en el chart_174_3, y deduce que la estrategia debería priorizar la coincidencia con las preferencias de los consumidores para resolver el problema de la insuficiente promoción.",
+        "E": "La opción B se refiere a las características de baja promoción activa en el chart_174_1 (la proporción de carteles de advertencia y carteles promocionales es baja) y a la clara preferencia por la promoción de los valores ambientales en el chart_174_3, y deduce que la estrategia debe combinar la innovación de contenido para cubrir a grupos diversos.",
+        "F": "Esta opción se basa en la lógica general (los servicios de compensación pueden mejorar la satisfacción), pero se desvía completamente del tema de la estrategia de promoción y se dirige a ajustes de servicios irrelevantes, y puede aumentar el desperdicio de recursos, lo que contradice el objetivo ambiental."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B"
       ]
     },
     {
@@ -170,6 +230,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La opción B se refiere a la tendencia del comportamiento de los consumidores en el chart_174_2 (la reducción del reemplazo es predominante) y a la clara preferencia por los puntos de hotel en el chart_174_4, y también implica una relación con las preferencias de promoción del chart_174_3 (por ejemplo, los valores ambientales), y deduce que la estrategia debe integrar incentivos y promoción para mejorar la sostenibilidad.",
+        "B": "Esta opción se basa en la lógica general (una mayor frecuencia de limpieza mejora la satisfacción), pero el comportamiento es contrario (aumentar la limpieza puede alentar un mayor reemplazo de artículos), lo que contradice el objetivo ambiental de reducir el reemplazo, y no cita datos de los gráficos.",
+        "C": "La opción C se basa en las características de la diversidad de las medidas de incentivo en el chart_174_4 (los descuentos de precio y los puntos de hotel son predominantes) y en los datos de comportamiento del chart_174_2, y deduce que la asignación de recursos debe ajustarse dinámicamente para satisfacer las necesidades segmentadas de los consumidores.",
+        "D": "La opción A se refiere a la proporción relativamente alta de consumidores que no necesitan reemplazar diariamente en el chart_174_2 y a la clara ventaja de la expectativa de descuentos de precio en el chart_174_4, y deduce que la estrategia debe aprovechar la alta propensión al comportamiento para coincidir con las medidas más esperadas y promover eficazmente la reducción.",
+        "E": "Esta opción parece usar datos pero confunde las proporciones: el chart_174_4 muestra que la expectativa de descuentos de precio es del 58.7%, que es significativamente más alta que el 36.9% de los puntos de hotel, pero la opción afirma erróneamente que las proporciones son \"similares\" y sugiere priorizar los puntos de hotel; esto ignora la tendencia de preferencia de los consumidores (los descuentos son más populares) y reducirá el efecto de los incentivos.",
+        "F": "Esta opción interpreta erróneamente los datos de los gráficos: el chart_174_2 muestra que la proporción de personas que no necesitan reemplazar diariamente es del 62.6% (la mayoría del grupo), pero la opción se centra erróneamente en el grupo que necesita reemplazar (el 37.4%) y sugiere ofrecer incentivos altos para ellos, ignorando la oportunidad de bajo costo de mantener el comportamiento de la mayoría del grupo; además, no combina la alta expectativa de descuentos de precio del 58.7% en el chart_174_4, lo que conduce a una mala asignación de recursos.",
+        "G": "Esta opción no se basa en los gráficos, sino en conocimientos generales (las instalaciones de lujo atraen a los clientes), pero no se dirige a los incentivos ambientales ni a los datos (por ejemplo, el 62.6% de personas que no necesitan reemplazar), los incentivos son generalizados y pueden aumentar los costos, y no pueden maximizar el comportamiento ambiental."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -194,6 +271,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en los gráficos, sino en conocimientos generales del sector (la mejora de las instalaciones mejora la sostenibilidad), pero es demasiado general y no tiene en cuenta los datos específicos de promoción o incentivos (por ejemplo, el 88% de hoteles sin promoción), y la asignación de recursos se desvía del problema central.",
+        "B": "Esta opción interpreta erróneamente la tendencia de los datos de los gráficos: el chart_174_4 muestra una alta expectativa de descuentos de precio (el 58.7%), pero la opción deduce erróneamente que la promoción es \"ineficaz\" (el 88% de hoteles sin promoción en el chart_174_1 indica precisamente una gran brecha); además, ignora la tendencia positiva del 56.3% de reconocimiento de los requisitos obligatorios de la política en el chart_174_3 y del 62.6% de personas que no necesitan reemplazar diariamente en el chart_174_2, lo que conduce a un desequilibrio en la asignación de recursos (se debe invertir en promoción para cerrar la brecha).",
+        "C": "La opción B se refiere a la clara tendencia de los consumidores a reducir el reemplazo en el chart_174_2 y al predominio de la expectativa de descuentos de precio en el chart_174_4, y también se asocia con la situación de baja promoción del chart_174_1, y deduce que la estrategia debe aprovechar la palanca de los incentivos para impulsar rápidamente el cambio de comportamiento.",
+        "D": "La opción C se basa en las características de la insuficiente cobertura de promoción del chart_174_1 y en la distribución de preferencias de varias medidas de incentivo (descuentos de precio y puntos de hotel) en el chart_174_4, y combina los datos de los métodos de reconocimiento del chart_174_3, y deduce que la asignación de recursos debe optimizarse dinámicamente para lograr un efecto sinérgico.",
+        "E": "Esta opción parece usar datos pero confunde las prioridades: la proporción de carteles promocionales en el chart_174_1 es solo del 5%, que es baja, pero la opción cree erróneamente que hay mucho espacio para mejorar y que se debe priorizar, ignorando las principales preferencias de los consumidores (el 56.3% de requisitos obligatorios de la política en el chart_174_3 y el 58.7% de descuentos de precio en el chart_174_4); además, sugiere dirigirse a un grupo minoritario (el 37.4% de valores ambientales), ignorando la mayoría del grupo, lo que resulta en una utilización ineficiente de los recursos.",
+        "F": "La opción A se refiere a la alta proporción de hoteles sin promoción en el chart_174_1 y a la ventaja de reconocimiento de la promoción de los requisitos obligatorios de la política en el chart_174_3, y deduce que la estrategia debe priorizar la resolución de la debilidad en la promoción para sentar las bases.",
+        "G": "Esta opción se basa en la lógica general (la capacitación optimiza la eficiencia), pero se dirige a la gestión interna en lugar de mejorar directamente la ejecución de la nueva orden de reducción del uso de plásticos (promoción o incentivos), y no cita ningún dato de los gráficos, por lo que no puede asignar recursos de manera eficiente."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

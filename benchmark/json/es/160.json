@@ -86,6 +86,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en conocimiento común de la industria (la desaceleración del crecimiento de usuarios afecta el crecimiento de creadores), pero no depende de los datos del gráfico (el gráfico no menciona el crecimiento de usuarios de la plataforma).",
+        "B": "La opción 1 requiere combinar la tendencia de crecimiento del número total de creadores (el número total de creadores aumentó de 9 millones en 2020 a 14.2 millones en 2023, pero la tasa de crecimiento disminuyó del 22% al 8%) y la distribución de intervalos de cambio de seguidores (la proporción total de intervalos de pérdida de seguidores es del 51.7%, incluyendo la pérdida de 0-100K del 38.3%, mientras que la ganancia de más de 300K solo representa el 20%). Esto revela que el crecimiento está impulsado principalmente por nuevos creadores, pero la alta tasa de pérdida de creadores existentes conduce conjuntamente a la desaceleración de la tasa de crecimiento.",
+        "C": "Esta es una opción de distracción fácil: se basa en conocimiento lingüístico común (la homogeneización del contenido y la fatiga del usuario son causas comunes), pero el gráfico no incluye datos específicos sobre la calidad del contenido o la fatiga del usuario.",
+        "D": "La opción 2 depende de la tendencia decreciente de la tasa de crecimiento en la tendencia de crecimiento del número total de creadores (22%→18%→8%) y la distribución de intervalos de ganancia de seguidores (la ganancia de más de 300K solo representa el 20%, inferior a la proporción de pérdida), lo que indica una disminución de creadores con alto crecimiento de seguidores, posiblemente debido a la intensa competencia.",
+        "E": "Esta es una opción de distracción difícil: calcula incorrectamente los valores de chart_160_2. La suma de las proporciones de los intervalos de ganancia de seguidores (0-ganancia 100K, ganancia 100K-300K, ganancia 300K-500K, ganancia más de 500K) es 14.1% + 14.1% + 7.8% + 12.2% = 48.2%, inferior al 60%. La opción de distracción sobreestima incorrectamente la proporción de ganancia y fabrica la conclusión de 'mala calidad de los nuevos creadores', mientras que el gráfico no proporciona datos de calidad de contenido.",
+        "F": "Esta es una opción de distracción difícil: interpreta incorrectamente los datos de chart_160_2. chart_160_2 muestra que la pérdida de más de 500K representa solo el 0.3%, mientras que la ganancia de más de 500K representa el 12.2%. La opción de distracción confunde 'ganancia de más de 500K' con 'pérdida de más de 500K' y exagera su proporción (12.2% vs 0.3% real), lo que lleva a una asociación errónea con la disminución de la tasa de crecimiento.",
+        "G": "La opción 3 combina la expansión de la base en la tendencia de crecimiento del número total de creadores (14.2 millones en 2023 vs 9 millones en 2020) y la alta proporción de pérdida de seguidores en la distribución de intervalos de cambio de seguidores, inferiendo que la dispersión de la atención del usuario aumenta la dificultad de mantenimiento."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 2 depende de la distribución de categorías de contenido de los influencers de nivel intermedio de TikTok (la categoría de maquillaje en TikTok tiene un valor de 60, inferior a registros de vida) y la distribución de industrias de colaboración de los influencers de nivel intermedio de Bilibili (la colaboración de maquillaje en Bilibili representa el 13.8%, empatada en el TOP5), comparando que el maquillaje tiene un mayor valor comercial en Bilibili, posiblemente debido a las diferencias en las preferencias de los usuarios de la plataforma.",
+        "B": "La opción 3 combina la distribución de categorías de contenido de los influencers de nivel intermedio de TikTok (la categoría de juegos en TikTok tiene un valor de 80, relativamente alto) y la distribución de industrias de colaboración de los influencers de nivel intermedio de Bilibili (la colaboración de juegos para móvil en Bilibili representa el 13.8%), mostrando que la categoría de juegos tiene atractivo comercial en ambas plataformas, reflejando una ley de sinergia multiplataforma.",
+        "C": "Esta es una opción de distracción difícil: compara incorrectamente los datos de chart_160_3 y chart_160_4. chart_160_3 muestra que la categoría de registros de vida en TikTok tiene un valor de 100 (número de influencers), mientras que chart_160_4 muestra que la colaboración de comercio electrónico en Bilibili representa el 45.0% (distribución industrial). La opción de distracción equipara incorrectamente 'industria de comercio electrónico' con 'categoría de contenido' y fabrica la dominancia de registros de vida en Bilibili, pero los datos de Bilibili no proporcionan la distribución de categorías de contenido.",
+        "D": "Esta es una opción de distracción fácil: se basa en conocimiento común de la industria (las plataformas de video largo como Bilibili son adecuadas para contenido profundo), pero el gráfico no incluye datos sobre la duración del video o categorías específicas.",
+        "E": "Esta es una opción de distracción difícil: interpreta incorrectamente el orden de chart_160_3 y los valores de chart_160_4. La categoría de maquillaje en TikTok tiene un valor de 60, ranking 8 (no el más bajo), mientras que la colaboración de maquillaje en Bilibili representa el 13.8%, empatada con otras industrias. La opción de distracción infiere incorrectamente que 'ranking bajo' significa 'no popular' e ignora las diferencias de plataforma (TikTok es número de categorías, Bilibili es porcentaje de colaboración), lo que lleva a conclusiones engañosas.",
+        "F": "La opción 1 requiere combinar la distribución de categorías de contenido de los influencers de nivel intermedio de TikTok (la categoría de registros de vida en TikTok tiene un valor de 100, TOP1) y la distribución de industrias de colaboración de los influencers de nivel intermedio de Bilibili (la colaboración de comercio electrónico en Bilibili representa el 45.0%, la más alta), inferiendo que el contenido de registros de vida, debido a su amplia audiencia, es fácil de combinar con el comercio electrónico, reflejando una conexión implícita entre contenido y comercio.",
+        "G": "Esta es una opción de distracción fácil: se basa en el conocimiento propio del modelo (el contenido educativo generalmente tiene una fuerte capacidad de monetización), pero no depende de los datos del gráfico (el gráfico no menciona la categoría de educación)."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: asocia incorrectamente los datos de chart_160_1 y chart_160_4. chart_160_1 muestra una disminución de la tasa de crecimiento (22%→18%→8%), pero el número promedio de industrias de colaboración de Bilibili en chart_160_4 (2.77) es un dato estático (promedio de los últimos 180 días), sin tendencia temporal. La opción de distracción fabrica un 'aumento continuo' y relaciona incorrectamente la comercialización con la disminución del crecimiento de manera causal, mientras que el gráfico no prueba esta asociación.",
+        "B": "Esta es una opción de distracción fácil: se basa en conocimiento lingüístico común (la preferencia de los anunciantes por creadores principales es un fenómeno común), pero el gráfico no proporciona datos de comparación entre creadores principales y de nivel intermedio.",
+        "C": "Esta es una opción de distracción difícil: interpreta incorrectamente la brecha entre chart_160_2 y chart_160_4. chart_160_2 muestra que el intervalo de pérdida de 100K-0 representa el 38.3% (cambio de seguidores), mientras que chart_160_4 muestra que la colaboración de comercio electrónico en Bilibili representa el 45.0% (distribución industrial). La opción de distracción equipara incorrectamente los dos (contenido de comercio electrónico ≠ causa de pérdida de seguidores) e ignora que el intervalo de pérdida es una distribución general, no específica de Bilibili o contenido comercial. Además, un alto porcentaje de colaboración de comercio electrónico no significa que cause pérdida de seguidores; el gráfico no proporciona causalidad.",
+        "D": "La opción 3 combina la tendencia de crecimiento del número total de creadores (el número de creadores aumentó a 14.2 millones), la distribución de cambios de seguidores (alta proporción de pérdida) y los datos de industrias de colaboración de Bilibili (número promedio de industrias de colaboración 2.77), explicando el conflicto entre los esfuerzos de comercialización de la plataforma (como colaboraciones multiindustriales) y la pérdida de creadores.",
+        "E": "Esta es una opción de distracción fácil: se basa en conocimiento común de la industria (las herramientas y capacitación de la plataforma afectan a los creadores), pero no depende de los datos del gráfico (el gráfico no menciona herramientas de creación o capacitación).",
+        "F": "La opción 2 depende de la distribución de cambios de seguidores (proporción total de intervalos de pérdida 51.7%) y los datos de industrias de colaboración de Bilibili (distribución uniforme de industrias de colaboración, comercio electrónico 45.0% pero otras cada una 13.8%), contrastando el efecto amortiguador de la estrategia comercial con la tendencia de crecimiento (disminución de la tasa de crecimiento en la tendencia de crecimiento del número total de creadores), destacando la contradicción entre estrategia y realidad.",
+        "G": "La opción 1 requiere combinar la tendencia de crecimiento del número total de creadores (tasa de crecimiento disminuyó del 22% al 8%), la distribución de cambios de seguidores (pérdida de 0-100K representa 38.3%, proporción total de pérdida alta) y los datos de industrias de colaboración de Bilibili (número promedio de industrias de colaboración 2.77), inferiendo que la desaceleración del crecimiento y la pérdida de seguidores obligan a los creadores a buscar más colaboraciones, pero los datos de pérdida revelan el conflicto."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en el conocimiento general de la industria (atraer nuevos usuarios es beneficioso), pero no aborda la distribución de la pérdida de seguidores o la disminución de la tasa de crecimiento en los gráficos, y omite las estrategias específicas para la estabilidad de los creadores existentes.",
+        "B": "Esta opción interpreta erróneamente el chart_160_1: aunque el número total de creadores aumenta, la disminución de la tasa de crecimiento de 22% a 8% indica un riesgo de saturación. Reducir la intervención empeorará el problema en lugar de resolverlo.",
+        "C": "Esta opción es una sugerencia general de optimización técnica, carece de soporte de datos y no está relacionada con la tasa de pérdida de seguidores (por ejemplo, el 38.3% de pérdida de seguidores entre 100,000 y 0) y la desaceleración del crecimiento en los gráficos.",
+        "D": "Combinando el chart_160_2 (equilibrio de la distribución de intervalos de pérdida y ganancia de seguidores) y el chart_160_1 (desaceleración del crecimiento), se infiere que la optimización del algoritmo puede mejorar la eficiencia de la coincidencia.",
+        "E": "Esta opción interpreta erróneamente el chart_160_2: la proporción de pérdida de seguidores de más de 500,000 es solo del 0.3%, que es extremadamente pequeña, mientras que la proporción de pérdida de seguidores entre 100,000 y 0 es del 38.3%, que es la mayoría. Dar prioridad a los grupos extremos ignorará el problema principal y será ineficiente.",
+        "F": "Combinando el chart_160_2 (la proporción de pérdida de seguidores entre 100,000 y 0 es la más alta) y el chart_160_1 (la tasa de crecimiento disminuye año tras año), se infiere que el apoyo a los grupos con alta proporción de pérdida puede aliviar el problema de saturación.",
+        "G": "Combinando el chart_160_2 (la proporción de ganancia de seguidores de más de 500,000 es significativa) y el chart_160_1 (la tasa de crecimiento disminuye), se infiere que la innovación puede aprovechar las oportunidades de crecimiento."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combinando el chart_160_3 (el número de la categoría de 'Emociones' es bajo) y el chart_160_4 (la proporción de industrias de colaboración como maquillaje es estable), se infiere que incubar categorías emergentes puede aprovechar la demanda de la industria y equilibrar el ecosistema.",
+        "B": "Combinando el chart_160_4 (la proporción de varias industrias de colaboración es similar y el número promedio de colaboraciones es alto) y el chart_160_3 (hay una variedad de categorías de contenido), se infiere que la colaboración diversificada puede dispersar el riesgo.",
+        "C": "Combinando el chart_160_3 (el número de las categorías de 'Registros de vida' y 'Apariencia física' es el más alto) y el chart_160_4 (la proporción de colaboración en comercio electrónico es la más alta), se infiere que la inclinación de recursos puede fortalecer la sinergia entre el contenido y el comercio.",
+        "D": "Esta opción se basa en una estrategia general de aumento de ingresos, pero no se basa en la distribución de categorías de contenido o los datos de industrias de colaboración en los gráficos, y omite las necesidades específicas de optimización.",
+        "E": "Esta opción interpreta erróneamente el chart_160_4: aunque la proporción del comercio electrónico es del 45%, el 13.7% de otras industrias y el número promedio de industrias de colaboración de 2.77 indican una demanda de diversificación. Centrarse en una sola industria reducirá el valor comercial general.",
+        "F": "Esta opción interpreta erróneamente el chart_160_3: el alto número de la categoría de 'Registros de vida' (100) indica que es popular o tiene gran potencial. Reducir los recursos no es razonable; el bajo número de la categoría de 'Emociones' (50) no tiene datos para respaldar su prioridad.",
+        "G": "Esta opción es una sugerencia general de construcción de comunidad, no está relacionada con la proporción de las 10 categorías principales o la distribución de industrias de colaboración en los gráficos y carece de pertinencia."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente el chart_160_2: la proporción de pérdida de seguidores de más de 300,000 es pequeña (0.3% + 0.4% = 0.7%), mientras que la pérdida de seguidores entre 100,000 y 0 es del 38.3%, que es la mayoría. Las medidas de castigo dañarán la motivación de los creadores y no consideran los datos de categorías o colaboraciones.",
+        "B": "Esta opción es una sugerencia general de optimización de funciones, omite los problemas centrales en los gráficos, como la tasa de pérdida de seguidores, la distribución de categorías o las industrias de colaboración, y carece de soporte para una estrategia integral.",
+        "C": "Esta opción se basa en el conocimiento general de las tendencias tecnológicas, pero no se combina con la desaceleración del crecimiento, la distribución de pérdida o los datos de categorías en los gráficos. La estrategia es amplia y no tiene una relación directa.",
+        "D": "Combinando el chart_160_3 (el número de la categoría de 'Registros de vida' es el más alto) y el chart_160_4 (la proporción de colaboración en comercio electrónico es la más alta), se infiere que la interacción entre el contenido y el comercio puede activar nuevas oportunidades.",
+        "E": "Esta opción combina erróneamente los gráficos: el chart_160_1 muestra una desaceleración del crecimiento, pero el chart_160_4 son datos específicos de Bilibili (por ejemplo, el número promedio de industrias de colaboración es 2.77). Imitar directamente ignora las diferencias entre plataformas y el problema de pérdida de seguidores; la alta proporción de comercio electrónico no demuestra que resuelva la resistencia al crecimiento.",
+        "F": "Combinando el chart_160_2 (la proporción de ganancia de seguidores de más de 500,000 es significativa) y el chart_160_1 (la tasa de crecimiento disminuye), se infiere que la innovación impulsada puede hacer frente a la saturación.",
+        "G": "Combinando el chart_160_2 (la proporción de pérdida de seguidores entre 100,000 y 0 es alta) y el chart_160_1 (la tasa de crecimiento disminuye), se infiere que las medidas preventivas pueden estabilizar el grupo central de creadores."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

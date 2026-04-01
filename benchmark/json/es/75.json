@@ -86,6 +86,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "依赖'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（如2021年消费增速52.1%，进口增速 - 2.5%）和'2017 - 2021年中国云南省咖啡生豆产量'图表（产量增速如2021年3.8%）。联合推理：消费增速与进口增速的对比（如2021年进口微降但消费激增），需结合产量减少趋势，才能说明进口的缓冲作用。",
+        "B": "这是一个Hard干扰项：错误解读图表数值（chart_75_2和chart_75_3）。云南产量2021年仅小幅回升至14.0（10,000 toneladas）（增速3.8%），但消费量从2020年14.4（en miles de toneladas)增至21.9（en miles de toneladas)（增速52.1%），增幅远大于产量增长，不能说明生产是主要驱动力；实际消费增长更多依赖进口。",
+        "C": "这是一个Hard干扰项：错误理解图表数据（chart_75_3）。2021年进口咖啡产品消费量实际为3.9（en miles de toneladas)（比2020年4.0（en miles de toneladas)下降），而非上升至5.0（en miles de toneladas)；选项夸大进口量，忽略增速-2.5%，误导性关联消费增长。",
+        "D": "依赖'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（进口量数据）和'2020年全球主要国家咖啡生豆消费量'图表（出口国如巴西消费量22400（miles de sacos），表明供应充足）。联合推理：全球供应数据为进口可行性提供依据，与消费增长关联，仅单张图表（如全球数据）无法解释中国具体消费动态。",
+        "E": "依赖'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（显示进口量从2017年3.3（en miles de toneladas)增至2021年3.9（en miles de toneladas)）和'2017 - 2021年中国云南省咖啡生豆产量'图表（显示产量从2017年16.5（10,000 toneladas)降至2021年14.0（10,000 toneladas)）。联合推理：进口增加补偿了产量下降，才能解释消费量上升（如2021年消费量21.9（en miles de toneladas)），单张图表无法推断因果关系。",
+        "F": "这是一个Easy干扰项：基于常识（如咖啡文化流行），但图表未涉及文化因素，且问题焦点是数据趋势（云南产量下降而消费上升），该选项忽略图表内容，仅依赖一般知识。",
+        "G": "这是一个Easy干扰项：基于行业常识（价格影响需求），但图表未提供全球价格数据，且进口量增速稳定而非下降（2021年进口增速-2.5%），选项与图表无关。"
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误比较图表数值（chart_75_2和chart_75_3）。2018年云南产量15.1（10,000 toneladas)，但全国消费量9.9（en miles de toneladas)包括进口部分（进口产品3.6（en miles de toneladas)），产量并不直接高于消费；且总体趋势产量降、消费升的矛盾未解决，选项误读局部数据。",
+        "B": "这是一个Hard干扰项：错误理解图表趋势（chart_75_3）。进口量实际从2017年3.3（en miles de toneladas)增至2021年3.9（en miles de toneladas)，增速放缓（2021年增速-2.5%），而非稳步增长至4.5（en miles de toneladas)或增速加快；选项夸大进口量和趋势，掩盖了消费量快速上升主要靠生豆进口而非产品进口。",
+        "C": "依赖'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（如2019年消费增速30.3%，进口增速5.6%）和'2017 - 2021年中国云南省咖啡生豆产量'图表（产量增速如2019年 - 4.1%）。联合推理：进口增速与消费增速的关联（如2019年进口增、消费增），需对比产量下降趋势，才能解释矛盾。",
+        "D": "这是一个Easy干扰项：基于行业常识（库存影响），但图表未提供库存信息；实际数据中，消费量波动大（如2018年下降），而选项忽略进口的关键作用。",
+        "E": "依赖'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（消费量如2021年21.9（en miles de toneladas)）和'2020年全球主要国家咖啡生豆消费量'图表（出口国如越南消费量2700（miles de sacos)，显示出口潜力）。联合推理：全球出口国消费数据表明供应能力，与中国的进口驱动消费关联，仅中国消费图表无法解释全球背景。",
+        "F": "这是一个Easy干扰项：基于常识（营销影响消费），但图表未涉及营销或饮料偏好数据，且消费量上升趋势明确（如2021年21.9（en miles de toneladas)），选项脱离图表，仅泛泛而谈。",
+        "G": "依赖'2017 - 2021年中国云南省咖啡生豆产量'图表（产量从2017年16.5（10,000 toneladas)降至2021年14.0（10,000 toneladas)）和'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（进口量从2017年3.3（en miles de toneladas)增至2021年3.9（en miles de toneladas)）。联合推理：产量下降与进口上升的数据必须结合，才能解释消费增长（如2020年消费14.4（en miles de toneladas)），单张图表（如仅产量）无法解决矛盾。"
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于行业常识（自给自足），但图表中中国产量下降、消费上升依赖进口（chart_75_2和chart_75_3），与巴西出口国高消费不同；选项忽略数据，泛泛而谈。",
+        "B": "这是一个Hard干扰项：错误解读图表差距（chart_75_1和chart_75_3）。中国2021年消费21.9（en miles de toneladas)（约3650（miles de sacos)），美国为26982（miles de sacos)，3650 << 26982，总量远低于美国；选项混淆增速与总量，忽略巨大数值差距。",
+        "C": "依赖'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（如2021年进口增速 - 2.5%，消费增速52.1%）和'2020年全球主要国家咖啡生豆消费量'图表（如日本消费7386（miles de sacos)，作为消费国基准）。联合推理：进口增速变化（如2021年微降）与消费增速的关联，需参考全球消费国数据（如日本）作为稳定性对照，才能解释中国市场的波动性。",
+        "D": "依赖'2017 - 2021年中国咖啡生豆消费量及进口咖啡产品消费量'图表（消费量从2017年13.5（en miles de toneladas)增至2021年21.9（en miles de toneladas)）和'2020年全球主要国家咖啡生豆消费量'图表（如欧盟消费40251（miles de sacos)、美国26982（miles de sacos)，数值稳定）。联合推理：中国消费的快速增长趋势（如2021年52.1%增速）必须对比全球消费国的水平（如欧盟数据），才能凸显中国作为新兴市场的特征，单张图表无法比较。",
+        "E": "这是一个Hard干扰项：错误换算和比较图表数值（chart_75_1和chart_75_3）。中国2020年消费14.4（en miles de toneladas)（按1袋=60kg换算，14.4（en miles de toneladas)≈2400（miles de sacos)），俄罗斯为4681（miles de sacos)，2400 < 4681，差距显著；选项误判单位并夸大中国消费水平。",
+        "F": "这是一个Easy干扰项：基于常识（人口规模影响），但图表数据（chart_75_1和chart_75_3）显示中国2020年消费14.4（en miles de toneladas)（约2400（miles de sacos)），远低于日本7386（miles de sacos)或加拿大4011（miles de sacos)（单位统一：1（en miles de toneladas)≈166.67（miles de sacos)，14.4（en miles de toneladas)≈2400（miles de sacos)），选项错误推断消费量排名。",
+        "G": "依赖'2017 - 2021年中国云南省咖啡生豆产量'图表（产量下降趋势）和'2020年全球主要国家咖啡生豆消费量'图表（出口国如巴西消费量22400（miles de sacos)，显示自产自销）。联合推理：云南产量减少与全球出口国高消费的对比，需结合中国消费上升，才能推断中国进口依赖模式，仅全球数据或云南数据单独无法揭示此联系。"
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "La opción C combina el gráfico chart_75_2 (la tasa de crecimiento de la producción fluctúa ampliamente, como en los años de crecimiento negativo) y el gráfico chart_75_3 (la tasa de crecimiento del consumo fluctúa notablemente, como la caída en 2018 seguida de un rápido rebote). Razón: Coincidir los ciclos de producción y consumo puede optimizar el uso de recursos.",
+        "B": "Esta sugerencia se centra en la valorización del producto (como la certificación orgánica y el embalaje), y no aborda la gestión del riesgo de suministro o la asignación de recursos. Se basa en el conocimiento general de las tendencias de sostenibilidad, pero no utiliza los datos de los gráficos y no puede resolver los riesgos específicos causados por las fluctuaciones de la producción o el aumento repentino del consumo.",
+        "C": "Esta es una sugerencia general de conocimiento del sector (como estimular la demanda a través del marketing y la expansión de tiendas), pero no se dirige directamente al problema central de la estrategia de asignación de recursos (el riesgo de suministro). Ignora las fluctuaciones de la producción y la brecha de consumo en los gráficos, y se basa solo en la lógica comercial general, por lo que se puede descartar fácilmente.",
+        "D": "Utiliza erróneamente los datos de la tasa de crecimiento del consumo del gráfico chart_75_3 (+11.6% en 2020, +52.1% en 2021), sugiriendo un crecimiento “estable”. Sin embargo, el gráfico chart_75_3 muestra que la tasa de crecimiento del consumo en 2018 fue de -26.7%, lo que demuestra fluctuaciones violentas; reducir el inventario amplificará el riesgo de escasez, lo que contradice la tendencia del gráfico (crecimiento saltatorio del consumo).",
+        "E": "Aparentemente utiliza los datos del gráfico chart_75_2 (la tasa de crecimiento de la producción en 2021 es +3.8%), pero los interpreta erróneamente como una mejora de la capacidad de autosuficiencia. En realidad, el gráfico chart_75_2 muestra que la producción en 2021 fue solo de 140,000 toneladas, mientras que el gráfico chart_75_3 muestra que el consumo en 2021 alcanzó 219,000 toneladas, y con solo 39,000 toneladas de importación, la brecha es enorme (aproximadamente 40,000 toneladas). El repunte de la tasa de crecimiento de la producción no significa que se pueda cubrir el crecimiento del consumo, sino que aumenta el riesgo de suministro.",
+        "F": "La opción B combina el gráfico chart_75_2 (la tasa de crecimiento de la producción en la provincia de Yunnan se volvió positiva en 2021, lo que muestra el potencial de recuperación) y el gráfico chart_75_3 (la tendencia general del consumo es a la alza). Razón: Invertir en las regiones productoras nacionales puede aprovechar la oportunidad del repunte de la producción y apoyar la autosuficiencia a largo plazo.",
+        "G": "La opción A combina el gráfico chart_75_2 (la producción en la provincia de Yunnan ha tendido a bajar en los últimos años, y aunque la tasa de crecimiento se volvió positiva en 2021, el nivel general es bajo) y el gráfico chart_75_3 (el consumo de granos de café verde en China ha crecido rápidamente, especialmente la tasa de crecimiento en 2021 fue extremadamente alta, y la cantidad de productos importados es estable pero de tamaño pequeño). Razón: El crecimiento del consumo supera con creces la velocidad de recuperación de la producción nacional, por lo que se necesita importación para complementar."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una sugerencia general de cadena de suministro (como optimizar la logística), y no se dirige al núcleo de la asignación de recursos de exportación (como la selección del mercado). Se basa en el conocimiento general del sector (control de costos), pero no utiliza los datos de los gráficos y no puede capturar las oportunidades del mercado emergente o mejorar la competitividad.",
+        "B": "Esta sugerencia se centra en la actualización tecnológica (como la cadena de bloques), y la formulación es amplia sin una guía clara de estrategia de exportación. Se basa en el conocimiento general de la tendencia digital actual, pero ignora el patrón de consumo en los gráficos (como la comparación entre el mercado tradicional y el emergente), por lo que se puede descartar directamente.",
+        "C": "La opción A combina el gráfico chart_75_1 (los países importadores tradicionales como la Unión Europea y Estados Unidos tienen un consumo extremadamente alto, pero no hay datos de tasa de crecimiento, lo que sugiere una saturación potencial) y el gráfico chart_75_3 (China, como un mercado emergente, tiene una tasa de crecimiento de consumo extremadamente alta, como un gran aumento en 2021). Razón: El mercado emergente crece más rápido que el mercado tradicional, por lo que se necesita una inclinación de recursos.",
+        "D": "Aparentemente utiliza los datos de la tasa de crecimiento del consumo del gráfico chart_75_3 (la tasa de crecimiento del consumo en China en 2021 es 52.1%), pero sobreestima erróneamente el potencial del mercado emergente. El gráfico chart_75_1 muestra que el consumo en China (219,000 toneladas en 2021 del gráfico chart_75_3 ≈ 3,650 miles de sacos) es mucho menor que el de la Unión Europea (40,251 miles de sacos) o Estados Unidos (26,982 miles de sacos), y las unidades no son consistentes (el gráfico chart_75_1 está en miles de sacos, y el gráfico chart_75_3 está en miles de toneladas; después de la conversión, el consumo en China es más de 10 veces menor). Volcarse hacia China puede ignorar la ventaja de la alta base del mercado tradicional.",
+        "E": "La opción B combina el gráfico chart_75_1 (los países exportadores como Brasil e Indonesia tienen un consumo propio notable, como Brasil tiene un consumo relativamente alto) y el gráfico chart_75_3 (la tendencia global del consumo muestra el surgimiento de una nueva demanda). Razón: Los países exportadores deben tener en cuenta tanto la demanda interna como la exportación para evitar la mala asignación de recursos.",
+        "F": "La opción C combina el gráfico chart_75_1 (la distribución regional del consumo, como el consumo de los países asiáticos) y el gráfico chart_75_3 (la cantidad de productos importados de China aumenta de manera estable). Razón: La optimización de costos puede mejorar la competitividad en los mercados de alto crecimiento cercanos (como el comercio interno en Asia).",
+        "G": "Interpreta erróneamente los datos del gráfico chart_75_1 (el alto consumo de la Unión Europea y Estados Unidos), sugiriendo un “bajo riesgo de crecimiento”. Pero el problema original enfatiza el “rápido surgimiento” del mercado emergente, y el gráfico chart_75_3 muestra que la tasa de crecimiento del consumo en China es extremadamente alta; ignorar el mercado emergente se perderán oportunidades de crecimiento, lo que contradice la tendencia del patrón global."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción A combina el gráfico chart_75_2 (la producción en la provincia de Yunnan tiene una tendencia general a la baja, con un ligero repunte en 2021) y el gráfico chart_75_3 (el consumo de granos de café verde en China ha crecido rápidamente, especialmente la tasa de crecimiento en 2021 fue extremadamente alta). Razón: La conexión directa puede resolver la contradicción entre la insuficiente producción y el aumento repentino de la demanda.",
+        "B": "Utiliza erróneamente los datos de la tasa de crecimiento del consumo del gráfico chart_75_3 (+52.1% en 2021) y sugiere la exportación. Pero la producción en Yunnan ha disminuido (el gráfico chart_75_2 muestra un crecimiento negativo de 2017 a 2020), y el consumo nacional ha aumentado considerablemente. La exportación agravará la escasez local; aunque la demanda del mercado internacional es grande en el gráfico chart_75_1, no se muestra que sea “más estable”, lo que se desvía del objetivo de la estrategia (apoyar la industria local).",
+        "C": "Combina erróneamente los datos del gráfico chart_75_2 (la tasa de crecimiento de la producción en 2021 es +3.8%) y el gráfico chart_75_3 (la cantidad de importación es de 39,000 toneladas), sugiriendo que la importación es suficiente para amortiguar. Pero el gráfico chart_75_3 muestra que el consumo en 2021 fue de 219,000 toneladas, y la producción en Yunnan fue solo de 140,000 toneladas (gráfico chart_75_2), y la importación solo cubre parte de la brecha; reducir la inversión agravará el riesgo de suministro, lo que contradice la tendencia de fluctuación de la producción.",
+        "D": "La opción C combina el gráfico chart_75_2 (los cambios en la producción, como el crecimiento negativo de 2018 a 2020) y el gráfico chart_75_3 (la tasa de crecimiento del consumo fluctúa, como la caída en 2018 seguida de un rebote). Razón: Coincidir dinámicamente los ciclos de producción y consumo puede optimizar los recursos.",
+        "E": "La opción B combina el gráfico chart_75_2 (la tasa de crecimiento de la producción fluctúa ampliamente, como se volvió positiva en 2021 después de años de crecimiento negativo) y el gráfico chart_75_3 (la tendencia de crecimiento del consumo es estable hacia arriba). Razón: La inversión en tecnología puede estabilizar la producción para capturar las oportunidades de consumo.",
+        "F": "Esta es una política de apoyo agrícola de conocimiento general (como subsidios y préstamos), y no se dirige a las tendencias específicas de la disminución de la producción o el aumento repentino del consumo. Se basa en la lógica general de desarrollo rural, pero no tiene soporte de datos de gráficos y ignora el riesgo de suministro.",
+        "G": "Esta sugerencia combina la competitividad industrial con el turismo, y la formulación es amplia (como el turismo temático). Se basa en el conocimiento general de desarrollo sostenible, pero no utiliza los gráficos (como los datos de producción o consumo) y no puede mejorar directamente la capacidad de la industria local para satisfacer la demanda."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     }
   ]

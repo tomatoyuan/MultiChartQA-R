@@ -85,6 +85,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Opción B se centra en años específicos (2019 - 2020), combinando los datos de alto valor de equipos del gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación y el crecimiento del tamaño del mercado en el mismo período del gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos, infiriendo el papel de soporte de la estabilidad a corto plazo de los equipos para el crecimiento de los servicios. Un solo gráfico no puede establecer esta asociación de tendencias (por ejemplo, solo el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación no puede inferir el tamaño del mercado, solo el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos no puede explicar la base de equipos).",
+        "B": "Esta es una opción de interferencia fácil: basada en el conocimiento económico común, la disminución de la inversión en equipos generalmente no favorece el crecimiento del mercado, pero los datos del gráfico muestran que la inversión en equipos creció continuamente a largo plazo (de 61.623 diez miles de yuanes en 2010 a 746.559 diez miles de yuanes en 2020), y el tamaño del mercado también se expandió, por lo que esta opción viola el sentido común y no se basa en el contenido del gráfico.",
+        "C": "Opción C analiza el aumento de la inversión después de 2015 en el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación y las estimaciones de alto crecimiento futuro en el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos, revelando que la acumulación histórica de inversión puede amplificar el potencial futuro del mercado. Un solo gráfico no puede establecer esta asociación de tendencias (por ejemplo, solo el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación no puede inferir el tamaño del mercado, solo el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos no puede explicar la base de equipos).",
+        "D": "Esta es una opción de interferencia difícil: cálculo y ordenación erróneos de valores. En chart_83_1, la inversión en equipos en 2015 creció (240.805 - 164.474)/164.474 ≈ 46.4% respecto a 2014, pero el crecimiento rápido del tamaño del mercado en chart_83_2 comienza en 2022e (1.266 miles de millones de yuanes), con un intervalo real de 7 años; esta opción asocia erróneamente el evento de 'mayor aumento' con el inicio del crecimiento del mercado, e ignora los datos de crecimiento real de 2019 - 2021 (de 667 a 1.011 miles de millones de yuanes), malinterpretando la diferencia de tiempo.",
+        "E": "Esta es una opción de interferencia fácil: la inversión en equipos y el mercado de servicios médicos generalmente tienen una relación sinérgica (por ejemplo, los equipos mejoran la capacidad de servicio), pero esta opción afirma que son 'completamente irrelevantes', basándose solo en conocimientos generales del sector (como 'el mercado está impulsado por la demanda') e ignorando los datos del gráfico, sin depender de valores específicos.",
+        "F": "Esta es una opción de interferencia difícil: malinterpretación de la brecha de datos del gráfico. Chart_83_1 muestra la inversión en equipos más baja en 2010, pero los datos del tamaño del mercado en chart_83_2 comienzan en 2019 (667 miles de millones de yuanes en 2019), con una brecha real de 9 años; esta opción exagera el retraso a 10 años y sugiere erróneamente que la acumulación de equipos necesariamente causa un impacto retardado, pero el gráfico no muestra una relación causal directa.",
+        "G": "Opción A compara la tendencia a largo plazo del valor de los equipos en el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación (crecimiento continuo de 2010 - 2020, especialmente acelerado después de 2015) con la tendencia del tamaño del mercado en el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos (crecimiento de datos reales desde 2019, estimaciones futuras en aumento continuo), descubriendo que la inversión en equipos como infraestructura puede formar una correlación positiva con la expansión del tamaño del mercado. Un solo gráfico no puede establecer esta asociación de tendencias (por ejemplo, solo el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación no puede inferir el tamaño del mercado, solo el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos no puede explicar la base de equipos)."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia difícil: malentendido de las etiquetas de datos. En chart_83_2, el tamaño del mercado en 2020 son datos reales (sin marca e), pero esta opción los confunde erróneamente con estimados (e solo se usa para 2022e - 2025e), y atribuye incorrectamente el conflicto a métodos estadísticos; el conflicto real requiere combinar la distribución de unidades de equipos (como la opción B original), la opción malinterpreta los datos del gráfico.",
+        "B": "Esta es una opción de interferencia difícil: malinterpretación de valores y proporciones. Chart_83_3 muestra que los equipos de 500.001 - 999.999 yuanes son solo el 3% (30 unidades), pero esta opción escribe erróneamente 30%, e infiere incorrectamente que el aumento de equipos de alto valor debería aumentar el valor total; la ligera disminución del valor total puede deberse a la depreciación, mientras que el crecimiento del tamaño del mercado puede explicarse por la alta utilización de equipos de bajo valor, la opción malinterpreta la brecha de datos.",
+        "C": "Opción A requiere la comparación entre el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación (ligera disminución del valor de equipos de 2019 a 2020) y el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos (aumento del tamaño del mercado de 2019 a 2020), infiriendo la influencia independiente de los cambios en el estado físico de los equipos (como depreciación) y la dinámica del mercado (como la demanda). Un solo gráfico no puede explicar completamente (por ejemplo, solo el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación o solo el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos no puede inferir la distribución de equipos o el alcance estadístico).",
+        "D": "Esta es una opción de interferencia fácil: basada en el conocimiento operativo común, la disminución del valor de los equipos puede acompañar la contracción del mercado, pero el gráfico muestra un aumento del tamaño del mercado (de 667 miles de millones de yuanes en 2019 a 817 miles de millones de yuanes en 2020), esta opción contradice directamente el sentido común y no se basa en los datos del gráfico.",
+        "E": "Esta es una opción de interferencia fácil: afirma que el conflicto 'no necesita explicación', basándose solo en conocimientos generales (como 'el mercado está dominado por políticas'), ignorando la relación potencial entre equipos y mercado en el gráfico (como la opción B original que menciona la utilización de equipos), sin involucrar valores específicos.",
+        "F": "Opción B combina los datos de valor de equipos del gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación con los datos de distribución del gráfico de distribución de unidades de equipos en hospitales de rehabilitación en 2020, analizando que el dominio de equipos de bajo valor puede impulsar el crecimiento del mercado a través de economías de escala (como más servicios) en lugar de alto valor de activos, reconciliando así el conflicto. Un solo gráfico no puede explicar completamente (por ejemplo, solo el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación o solo el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos no puede inferir la distribución de equipos o el alcance estadístico).",
+        "G": "Opción C utiliza la naturaleza del tamaño del mercado en el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos (incluye estimados) y el alcance específico del gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación (solo equipos de hospitales), señalando que las diferencias en la definición de datos pueden causar un conflicto aparente. Un solo gráfico no puede explicar completamente (por ejemplo, solo el gráfico de valor total de equipos por encima de 10.000 yuanes en hospitales de rehabilitación o solo el gráfico de tamaño del mercado de servicios médicos de rehabilitación chinos no puede inferir la distribución de equipos o el alcance estadístico)."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Opción C compara la proporción de equipos de valor medio en el gráfico de distribución de unidades de equipos en hospitales de rehabilitación en 2020 con la tendencia de crecimiento estable en el gráfico de estimación del tamaño del mercado de servicios médicos de rehabilitación chinos, sugiriendo que los cuellos de botella en la estructura de equipos pueden ser compensados por la demanda del mercado u otros factores. Un solo gráfico no puede revelar esta influencia implícita (por ejemplo, solo el gráfico de distribución de unidades de equipos en hospitales de rehabilitación en 2020 no proporciona la tendencia del tamaño del mercado, solo el gráfico de estimación del tamaño del mercado de servicios médicos de rehabilitación chinos no refleja los detalles de los equipos).",
+        "B": "Esta es una opción de interferencia fácil: basada en el conocimiento común de equipos, los equipos de alto valor generalmente se asocian con servicios de alta gama, pero chart_83_3 muestra que los equipos de alto valor son solo el 2%, esta opción afirma que 'todos los equipos son de alto valor', ignorando completamente el contenido del gráfico, dependiendo solo de conocimientos generales del sector.",
+        "C": "Esta es una opción de interferencia difícil: malinterpretación de valores de proporción. Chart_83_3 muestra que los equipos de 500.001 - 999.999 yuanes son solo el 3% (30 unidades), pero esta opción escribe erróneamente 30%, e infiere incorrectamente que los equipos medios pueden promover un 'crecimiento estable'; la proporción real es baja, lo que puede limitar la actualización de servicios, pero las estimaciones del tamaño del mercado muestran crecimiento continuo (como 2.686 miles de millones de yuanes en 2025e), la opción malinterpreta la brecha de datos.",
+        "D": "Opción A combina la distribución del gráfico de distribución de unidades de equipos en hospitales de rehabilitación en 2020 con las estimaciones futuras del tamaño del mercado del gráfico de estimación del tamaño del mercado de servicios médicos de rehabilitación chinos, infiriendo que el dominio de equipos de bajo valor puede impulsar el crecimiento del mercado masivo a través de servicios de bajo costo y alta cobertura. Un solo gráfico no puede revelar esta influencia implícita (por ejemplo, solo el gráfico de distribución de unidades de equipos en hospitales de rehabilitación en 2020 no proporciona la tendencia del tamaño del mercado, solo el gráfico de estimación del tamaño del mercado de servicios médicos de rehabilitación chinos no refleja los detalles de los equipos).",
+        "E": "Esta es una opción de interferencia fácil: la estructura de equipos generalmente afecta la capacidad de servicio (como las opciones A y B originales), pero esta opción niega la influencia, basándose solo en factores externos (como 'envejecimiento de la población') sin involucrar datos del gráfico, siendo una generalización de sentido común.",
+        "F": "Opción B utiliza los datos de equipos de alto valor del gráfico de distribución de unidades de equipos en hospitales de rehabilitación en 2020 y las estimaciones de alto crecimiento del gráfico de estimación del tamaño del mercado de servicios médicos de rehabilitación chinos, analizando que los equipos de alto valor de nicho pueden catalizar la expansión de servicios de alta gama. Un solo gráfico no puede revelar esta influencia implícita (por ejemplo, solo el gráfico de distribución de unidades de equipos en hospitales de rehabilitación en 2020 no proporciona la tendencia del tamaño del mercado, solo el gráfico de estimación del tamaño del mercado de servicios médicos de rehabilitación chinos no refleja los detalles de los equipos).",
+        "G": "Esta es una opción de interferencia difícil: cálculo erróneo de tasas de crecimiento y ordenación. En chart_83_2, el tamaño del mercado en 2025e (2.686 miles de millones de yuanes) crece (2.686 - 2.079)/2.079 ≈ 29.2% respecto a 2024e (2.079 miles de millones de yuanes), pero 2024e crece (2.079 - 1.618)/1.618 ≈ 28.5% respecto a 2023e, el crecimiento real es similar; esta opción juzga erróneamente 2025e como el 'crecimiento más lento', y atribuye incorrectamente a la proporción de equipos de bajo valor, pero el gráfico no muestra que la estructura de equipos limite directamente el crecimiento."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -151,6 +202,22 @@
       "label": [
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_83_1 (valor de 7465590000 yuanes en 2020 frente a 7482760000 yuanes en 2019), pero interpreta erróneamente la pequeña disminución como una tendencia negativa, ignorando el rápido crecimiento general (más de 10 veces de crecimiento entre 2010 - 2020) y la escasez de equipos de alto valor, lo que lleva a desviaciones en la estrategia.",
+        "B": "La opción 2 se basa en la combinación de chart_83_3 (el 95% de los equipos son de bajo valor) y chart_83_2 (tendencia de crecimiento del mercado), y enfatiza la cobertura de servicios básicos.",
+        "C": "Esta es una opción de distracción fácil: se basa en conocimientos generales de la industria (la capacitación mejora la eficiencia), pero no se refiere a la estrategia de compra de equipos en sí, ignora la tendencia de crecimiento de la inversión y la demanda de expansión del mercado mostrados en los gráficos, y la expresión es amplia y sin una guía clara de compra.",
+        "D": "Esta es una opción de distracción difícil: basada en la distribución de chart_83_3 (el 95% son equipos de bajo valor), infiere erróneamente que se deben abandonar completamente los equipos de alto valor, pero ignora el fuerte crecimiento del tamaño del mercado mostrado en chart_83_2 y la demanda de servicios complejos, lo que puede reducir la calidad del servicio.",
+        "E": "Esta es una opción de distracción fácil: sugiere dirigirse a gastos no relacionados con equipos (como beneficios para los pacientes), que puede ser razonable según el conocimiento general, pero se aleja completamente de los datos de los gráficos (como el crecimiento del valor de los equipos y la predicción del tamaño del mercado) y no puede mejorar directamente la eficiencia de los equipos.",
+        "F": "La opción 1 combina el análisis de la distribución de chart_83_1 (el valor total de los equipos creció rápidamente desde 2010 hasta 2020) y chart_83_3 (solo el 2% son equipos de alto valor en 2020), y se asocia con chart_83_2 (se predice que el tamaño del mercado seguirá aumentando desde 2019 hasta 2025e) para inferir el crecimiento de la demanda."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -172,6 +239,22 @@
       "label": [
         "A",
         "C"
+      ],
+      "cot": {
+        "A": "La opción 1 combina chart_83_1 (el valor total de los equipos ha aumentado significativamente año tras año) y chart_83_2 (el rápido crecimiento del tamaño del mercado desde 667 mil millones de yuanes en 2019 hasta 2686 mil millones de yuanes en 2025e) para inferir el efecto de crecimiento sinérgico, y introduce chart_83_3 (solo el 2% son equipos de alto valor) para analizar la deficiencia estructural.",
+        "B": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_83_1 (valor de los equipos) y chart_83_2 (tamaño del mercado), pero compara erróneamente las unidades (el valor de los equipos está en diez miles de yuanes, el tamaño del mercado está en miles de millones de yuanes) y calcula erróneamente la tasa de crecimiento (el valor de los equipos creció un 0.2% de 2019 - 2020, el tamaño del mercado creció un 22.5%), lo que lleva a una conclusión contraria.",
+        "C": "La opción 2 se basa principalmente en la relación entre chart_83_3 (el 95% son equipos de bajo valor) y chart_83_1 (tendencia de crecimiento del valor de los equipos), y enfatiza la optimización interna en lugar de la expansión externa.",
+        "D": "Esta es una opción de distracción difícil: basada en la distribución de chart_83_3 (el 95% son equipos de bajo valor), infiere erróneamente que se deben ignorar las necesidades básicas, pero ignora la rápida expansión del tamaño del mercado predicha en chart_83_2 y la tendencia de inversión de chart_83_1, lo que puede causar cuellos de botella en la operación.",
+        "E": "Esta es una opción de distracción fácil: presenta sugerencias de marketing, basadas en el conocimiento general (la marca mejora la influencia), pero no se combina con los datos de los gráficos (como la inversión en equipos o la estructura de valor), y la expresión es amplia y sin una guía específica de asignación de recursos.",
+        "F": "Esta es una opción de distracción fácil: se basa en conocimientos generales de operación (la subcontratación ahorra costos), pero no se refiere a la estrategia de inversión en equipos o asignación de recursos, e ignora la creciente demanda del valor de los equipos mostrada en chart_83_1."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -193,6 +276,22 @@
       "label": [
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: basada en la predicción de chart_83_2 (rápido aumento del tamaño del mercado), infiere erróneamente que se deben distribuir los recursos de manera equitativa, pero ignora las características de distribución de chart_83_3 (dominancia de equipos de bajo valor), lo que puede causar despilfarro de recursos y insuficiente mejora de la tecnología.",
+        "B": "La opción 1 integra la escasez de equipos de alto valor (solo el 2%) de chart_83_3 y la fuerte tendencia de crecimiento del tamaño del mercado predicha en chart_83_2, y se asocia con la tendencia de crecimiento del valor total de los equipos de chart_83_1 para inferir la viabilidad de la inversión.",
+        "C": "Esta es una opción de distracción fácil: se centra en la gestión de la tecnología (como sistemas digitales), se basa en conocimientos generales de la industria, pero se aleja de los datos de los gráficos (como la distribución del valor de los equipos o el tamaño del mercado) y no puede resolver directamente el equilibrio entre cobertura y tecnología.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_83_3 (el 2% son equipos de alto valor), pero implementa erróneamente la estrategia (dar prioridad a las áreas remotas), ignorando que las áreas de alta demanda necesitan más equipos de alto valor (expansión del mercado en chart_83_2) y la consideración de la eficiencia.",
+        "E": "La opción 2 combina chart_83_3 (el 95% son equipos de bajo valor) y chart_83_2 (aumento de la demanda del mercado) para analizar la demanda general.",
+        "F": "Esta es una opción de distracción fácil: sugiere aumentar el número de hospitales, basada en el conocimiento general (ampliar la capacidad para hacer frente a la demanda), pero no se combina con los gráficos de distribución de equipos o tendencia del mercado, y la expresión es amplia y sin una estrategia de equilibrio."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

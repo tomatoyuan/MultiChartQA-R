@@ -86,6 +86,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "It is necessary to combine chart_97_2 (left - hand age data: the proportion of those under 24 is relatively high) and chart_97_3 (years of watching games: the proportion of those who have watched games for over 5 years is extremely high, and the proportion of those who have watched games within 2 years is extremely low) for reasoning. The age data implies that the young group should include new viewers, but the data on the years of watching games shows a conflict, indicating that there are few new viewers, which implies the explanation of 'following football since childhood'.",
+        "B": "This is a Hard distractor: on the surface, it reasons based on the charts (age distribution in chart_97_2 and years of watching games in chart_97_3), but it has a wrong understanding of the values. In the actual data, the high proportion of those under 24 (29.3%) contradicts the extremely low proportion of those with a short - term watching experience (2.5%), indicating that young fans are not the main body of new viewers, but have followed football since childhood (the proportion of those with a long - term watching experience is high). The distractor wrongly equates the high proportion of young people with new viewers.",
+        "C": "The conflict stems from chart_97_2 (high proportion of young people) and chart_97_3 (low proportion of new viewers), and external factors such as loyalty or sample bias need to be inferred.",
+        "D": "Combining chart_97_2 (the proportion of those aged 25 - 34 is the highest) and chart_97_3 (the proportion of long - term viewers is extremely high), infer the connection between the main age group and the long - term watching habit.",
+        "E": "This is an Easy distractor: it is based on industry common sense (such as 'the threshold for entering football is high') and does not rely on the chart data. The chart data does not mention the requirement for professional knowledge, so it is a general inference.",
+        "F": "This is an Easy distractor: it is based on language common sense (such as 'teenagers love sports more') and the model's own knowledge (such as 'diversification of entertainment methods'), and does not rely on the chart data at all. Even without the chart, one can infer based on common sense, but the chart does not involve the comparison of entertainment methods or popularity.",
+        "G": "This is a Hard distractor: on the surface, it reasons based on the charts (age in chart_97_2 and years of watching games in chart_97_3), but it has a wrong understanding of the gap. The low proportion of those aged 45 and above (7.6%) is not directly related to the source of new viewers with the high proportion of long - term viewers (89.9%); in fact, the proportion of new viewers is extremely low (2.5%) and the proportion of the young group is high. The distractor wrongly infers that the middle - aged and elderly are the main body of new viewers, ignoring the data comparison."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: it is based on the model's own knowledge (such as 'high - education people are more rational in analysis') and does not rely on the chart data. The chart does not mention strategies or tactics, so it is a general talk based on common sense.",
+        "B": "This is a Hard distractor: on the surface, it reasons based on the charts (educational background in chart_97_1 and reasons in chart_97_4), but it has a wrong understanding of the values. The proportion of those who watch games to learn skills is 24.9%, which is moderate, and the original option B mentioned that high - education people may pay attention to this motivation; the distractor wrongly infers that a low proportion means no correlation, ignoring that the data is not grouped and associated.",
+        "C": "Combining chart_97_1 (the proportion of those with a master's/MBA or above is relatively low) and chart_97_4 (the proportion of those who watch games to feel the spirit or learn skills is moderate), infer the connection between the high - education sub - group and in - depth motivations.",
+        "D": "This is a Hard distractor: on the surface, it reasons based on the charts (educational background in chart_97_1 and reasons in chart_97_4), but it has a wrong understanding of the ranking and gap. The low proportion of those with a master's degree (11.7%) has no direct causal relationship with the high proportion of those who watch games for team cooperation (58.9%); in fact, the data is not grouped, and the distractor wrongly assumes that high - education people are the main reason, ignoring that the undergraduate group (54.3%) may be dominant.",
+        "E": "It is necessary to combine chart_97_1 (educational background: the proportion of undergraduates is the highest) and chart_97_4 (reasons for watching games: the proportion of those who watch games to appreciate team cooperation and the excellent skills of players is relatively high). Infer the connection between the high - education group and professional appreciation motivations.",
+        "F": "Relying on chart_97_1 (the proportion of those with high school or below education is low) and chart_97_4 (the proportion of those who watch games to relieve stress or kill time is low), strengthen the law between educational background and motivation through comparison.",
+        "G": "This is an Easy distractor: it is based on language common sense (such as 'low - education people are more for leisure') and does not involve the chart values. The proportion of those who watch games to kill time in the chart is 9.5%, but it is not directly associated with educational background, and the distractor is independent of the data."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: on the surface, it reasons based on the charts (age in chart_97_2, marriage in chart_97_2, and years of watching games in chart_97_3), but it has a wrong understanding of the ranking. The proportion of those aged 25 - 34 is high (41.5%) and the unmarried are dominant, but the proportion of those who have watched games for over 5 years is extremely high (89.9%); the distractor wrongly assumes that they have a short - term watching experience, which contradicts the actual data (the main body is long - term viewers).",
+        "B": "This is an Easy distractor: it is based on language common sense (such as 'young people have more free time') and does not rely on the chart data. The chart does not mention time allocation, so it is a common - sense reasoning.",
+        "C": "Relying on chart_97_2 (the overall age and marriage data) and chart_97_3 (the high proportion of long - term viewers), infer the relationship between the young single group and the continuity of football culture.",
+        "D": "This is an Easy distractor: it is based on industry common sense (such as 'family responsibilities affect interests') and partially uses the data (the proportion of those who watch games with family members is 3.7%, which is low), but the core does not rely on the chart; the low proportion of those who watch games with family members in the chart is a fact, but it does not prove that family factors are unimportant, and the distractor generalizes.",
+        "E": "It is necessary to combine chart_97_2 (age: the proportion of those under 24 and those aged 25 - 34 is relatively high; marriage: the proportion of the unmarried is high) and chart_97_3 (years of watching games: the proportion of those who have watched games for over 5 years is extremely high). Infer the implicit connection between the young unmarried group and the long - term watching habit.",
+        "F": "This is a Hard distractor: on the surface, it reasons based on the charts (age and marriage in chart_97_2, years of watching games in chart_97_3), but it has a wrong understanding of the numerical gap. The proportion of the unmarried (60.7%) does not match the proportion of those under 24 (29.3%) (there is also the group aged 25 - 34); in the actual data, the proportion of the young group is high and the watching experience is long (89.9%). The distractor wrongly equates the unmarried with young new viewers, ignoring the long - term watching characteristics.",
+        "G": "Combining chart_97_2 (marriage: the proportion of married fans with children; age: the proportion of those aged 35 - 44) and chart_97_4 (reasons for watching games: the proportion of those who watch games with family members is extremely low), infer the motivation of the married group and the dominant trend of the unmarried through comparison."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -153,6 +204,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This easy distractor has a broad statement. It only relies on general marketing common sense (such as 'increasing advertising investment') without combining the specific data in the charts (such as age distribution or viewing habits), and there is no clear action guidance (such as not specifying the target group or content). This can be excluded by common sense: simply increasing exposure cannot attract new audiences in a targeted way, and it ignores the problem of insufficient acquisition of new fans in the group under 24 years old in the chart.",
+        "B": "Based on the highest proportion of bachelor's degrees in the educational background distribution and the largest proportion of the 25 - 34 age group in the age distribution; combined with the high proportion of the reason 'Bring entertainment and excitement' among the reasons for watching, optimize the content theme.",
+        "C": "Based on the relatively high proportion of the group under 24 years old in the age distribution and the extremely low proportion of those with less than 2 years of watching in the years of watching football games, it indicates that the acquisition of new fans is weak; further combined with the significant motivation of 'Learn football skills' among the reasons for watching, use it for strategy design.",
+        "D": "This hard distractor seemingly uses chart_97_2 (marriage situation) and chart_97_4 (reasons for watching), but confuses the proportion relationship: the motivation of 'Watch with friends/family' is only 3.7% (extremely low), while the proportion of married fans with children is 34.1% which is relatively high. However, chart_97_3 shows that 89.9% of the fans have watched games for 'over 5 years', indicating that the family group mostly consists of old - time viewers rather than the target of new audiences. The distractor wrongly regards family activities as the core to attract new audiences, ignoring that the group under 24 years old (29.3%) in the age distribution is the potential area for new fans, and their high proportion of unmarried status (60.7%) does not match the family theme.",
+        "E": "This hard distractor seemingly uses chart_97_1 (educational background distribution) and chart_97_4 (reasons for watching), but misinterprets the data: the proportion of those with high school education or below is only 15.0% (relatively low), and the motivation of 'Learn football skills' at 24.9% is the overall data, not specific to this group. The chart shows that the proportion of those with a bachelor's degree is the highest (54.3%), and new audiences are more likely to come from the young group (29.3% under 24 years old). However, this distractor wrongly attributes the motivation to the low - education group, ignoring that the extremely low proportion of 'less than 2 years' of watching in chart_97_3 (2.5%) indicates that it is difficult to acquire new fans, and the priority should be given to young people rather than the low - education group.",
+        "F": "Based on the moderate proportion of the 35 - 44 age group in the age distribution, the significant proportion of married fans with children in the marriage distribution, and the very low proportion of 'Watch with friends/family' among the reasons for watching; combined with the extremely high proportion of those with over 5 years of watching in the years of watching football games, ensure the sustainability of the event."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -176,6 +242,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This hard distractor seemingly uses chart_97_3 (viewing habits) and chart_97_4 (reasons for watching), but confuses the trends: the motivation of 'Kill time' is only 9.5% (very low), while the long - term viewing habit of 89.9% indicates that the audience is highly loyal. However, the distractor wrongly interprets it as 'needing to fill leisure time'. The high - motivation factors in the chart such as 'Cheer for your favorite team/player' (81.1%) and 'It has become a long - term habit' (63.5%) are the core of loyalty. This strategy will waste resources on marginal needs and cannot strengthen the emotional connection.",
+        "B": "This hard distractor seemingly uses chart_97_2 (marriage situation) and chart_97_4 (reasons for watching), but has a wrong understanding of the values: the motivation of 'The anchor/commentator is very interesting' is only 10.2% (one of the lowest), and although the proportion of unmarried fans is 60.7% which is relatively high, chart_97_4 shows that the core loyalty drivers are 'Cheer for your favorite team/player' (81.1%) and 'It has become a long - term habit' (63.5%). The distractor wrongly strongly associates the low - proportion motivation (the fun of the anchor) with the unmarried group, ignoring that high - education fans (66.0% with a bachelor's degree or above) prefer professional content (such as 'Appreciate high - level teamwork' 58.9%) rather than relaxed interaction.",
+        "C": "Based on the moderate proportion of the motivations of 'Want to relieve stress' and 'Have common topics with people around' among the reasons for watching and the highest proportion of unmarried fans in the marriage distribution, ensure that the strategy covers diverse needs.",
+        "D": "Based on the high proportions of 'Appreciate high - level teamwork' and 'Appreciate the excellent football skills of players' among the reasons for watching and the significant proportion of those with a bachelor's degree or above in the educational background distribution, use it for content optimization targeting high - education groups.",
+        "E": "Based on the extremely high proportion of those with over 5 years of watching in the years of watching football games and the highest proportion of 'Cheer for your favorite team/player' among the reasons for watching, emphasize the association between long - term habits and emotional motivations.",
+        "F": "This easy distractor has a broad statement. Based on general industry common sense (such as 'improving production quality'), it does not quote the specific data in the charts (such as motivations or habits), and there is no guidance on resource allocation. This can be excluded by common sense: optimizing loyalty needs to target the core motivations (such as team emotions) rather than generally improving the quality."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -199,6 +280,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This hard distractor seemingly uses chart_97_1 (educational background distribution) and chart_97_4 (reasons for watching), but confuses the values: the motivation of 'Learn football skills' at 24.9% is the overall data, while the proportion of those with an associate degree is only 19.0% (not the main group). The chart shows that the proportion of those with a bachelor's degree is the highest (54.3%), and they prefer 'Bring entertainment and excitement' (56.2%) and 'Appreciate high - level teamwork' (58.9%). However, the distractor wrongly strongly associates the medium - level motivation (learning skills) with the associate - degree group, ignoring that the high - education group (11.7% with a master's/MBA or above) may prefer in - depth content rather than basic education themes.",
+        "B": "Based on the largest proportion of the 25 - 34 age group in the age distribution and the highest proportion of those with a bachelor's degree in the educational background distribution; combined with the high proportion of 'Bring entertainment and excitement' among the reasons for watching, ensure that the channels and themes match.",
+        "C": "Based on the significant proportion of married fans with children in the marriage distribution and the very low proportion of 'Watch with friends/family' among the reasons for watching; combined with the extremely high proportion of those with over 5 years of watching in the years of watching football games, use it for sustainable strategy design.",
+        "D": "This hard distractor seemingly uses chart_97_2 (age distribution) and chart_97_3 (viewing habits), but misinterprets the proportions and trends: the group over 45 years old only accounts for 7.6% (the lowest), and their long years of watching indicate that they are old - time viewers. However, the distractor wrongly assumes that 'the growth potential is large'. The high - participation motivations such as 'Bring entertainment and excitement' (56.2%) in chart_97_4 are more associated with the 25 - 34 age group (accounting for 41.5%). This strategy targets a niche group, which will reduce resource efficiency and ignore the main group of people.",
+        "E": "This easy distractor has a broad statement. It relies on common - sense suggestions (such as 'covering all age groups') without combining the specific data in the charts (such as age distribution or preferences), and there is no adjustment of priorities. This can be excluded by common sense: when resources are limited, targeted allocation is required rather than general coverage.",
+        "F": "Based on the significant proportion of those with a master's/MBA or above in the educational background distribution and the high proportions of 'Appreciate high - level teamwork' and 'Appreciate the excellent football skills of players' among the reasons for watching, focus on the high - value group."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

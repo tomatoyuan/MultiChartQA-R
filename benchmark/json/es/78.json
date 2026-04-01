@@ -84,6 +84,21 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Opción correcta：Todas las opciones se basan en el razonamiento conjunto de tendencias de datos específicas. Por ejemplo, del gráfico de vacantes laborales en Hong Kong se observa una caída brusca en 2020 y una recuperación en 2021, mientras que el gráfico de crecimiento del mercado global de educación profesional muestra una tasa de crecimiento más baja en 2020 pero una mejora significativa en 2021, lo que implica la influencia de factores externos comunes (como la pandemia). La opción 1 asocia directamente los puntos de datos de ambos gráficos (caída en 2020 y recuperación en 2021). Necesidad de razonamiento conjunto：Un solo gráfico no puede inferir independientemente las causas. Por ejemplo, solo con el gráfico de crecimiento de la educación profesional no se pueden conocer los cambios en el mercado laboral, y solo con el gráfico de vacantes en Hong Kong no se puede inferir el impacto global; es necesario un análisis cruzado de ambas tendencias (como la caída sincronizada en 2020 y la recuperación sincronizada en 2021) para llegar a conclusiones impulsadas por eventos externos.",
+        "B": "Interferencia difícil：Asociación errónea de causalidad. Las vacantes laborales en Hong Kong en realidad cayeron en 2020 (5.4 decenas de miles → 3.5 decenas de miles), sin una relación directa con el aumento en la tasa de crecimiento de la educación profesional, y se ignora el impacto sistémico de la pandemia en el mercado global.",
+        "C": "Interferencia fácil：Contradice el sentido común. La pandemia causó parálisis económica, la educación profesional inevitablemente se ve afectada por las fluctuaciones del mercado laboral (como la caída brusca de vacantes en Hong Kong), no puede 'crecer independientemente contra la tendencia'.",
+        "D": "Opción correcta：Todas las opciones se basan en el razonamiento conjunto de tendencias de datos específicas. Por ejemplo, del gráfico de vacantes laborales en Hong Kong se observa una caída brusca en 2020 y una recuperación en 2021, mientras que el gráfico de crecimiento del mercado global de educación profesional muestra una tasa de crecimiento más baja en 2020 pero una mejora significativa en 2021, lo que implica la influencia de factores externos comunes (como la pandemia). La opción 2 explica la educación profesional como amortiguador del mercado laboral desde la perspectiva de la demanda. Necesidad de razonamiento conjunto：Un solo gráfico no puede inferir independientemente las causas. Por ejemplo, solo con el gráfico de crecimiento de la educación profesional no se pueden conocer los cambios en el mercado laboral, y solo con el gráfico de vacantes en Hong Kong no se puede inferir el impacto global; es necesario un análisis cruzado de ambas tendencias (como la caída sincronizada en 2020 y la recuperación sincronizada en 2021) para llegar a conclusiones impulsadas por eventos externos.",
+        "E": "Interferencia difícil：Error en la comprensión numérica. Las vacantes en Hong Kong crecieron un 74% (no se duplicaron), y la tasa de crecimiento de la educación profesional en 2021 fue del 5.8% (frente al 7.0% en 2020), las magnitudes de cambio no coinciden.",
+        "F": "Opción correcta：Todas las opciones se basan en el razonamiento conjunto de tendencias de datos específicas. Por ejemplo, del gráfico de vacantes laborales en Hong Kong se observa una caída brusca en 2020 y una recuperación en 2021, mientras que el gráfico de crecimiento del mercado global de educación profesional muestra una tasa de crecimiento más baja en 2020 pero una mejora significativa en 2021, lo que implica la influencia de factores externos comunes (como la pandemia). La opción 3 enfatiza la representatividad de los datos de Hong Kong con la tendencia global. Necesidad de razonamiento conjunto：Un solo gráfico no puede inferir independientemente las causas. Por ejemplo, solo con el gráfico de crecimiento de la educación profesional no se pueden conocer los cambios en el mercado laboral, y solo con el gráfico de vacantes en Hong Kong no se puede inferir el impacto global; es necesario un análisis cruzado de ambas tendencias (como la caída sincronizada en 2020 y la recuperación sincronizada en 2021) para llegar a conclusiones impulsadas por eventos externos."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Interferencia difícil：Deducción inversa errónea. Europa/Oceanía ya tiene tasas de participación cercanas al 20%, cerca de la saturación (respaldado por la disminución de la tasa de crecimiento global), mientras que Asia Oriental tiene solo un 7.2% de participación pero un 86.4% de tasa de matrícula en secundaria, siendo la región de mayor potencial.",
+        "B": "Opción correcta：La opción 2 se basa en las diferencias numéricas en el gráfico de tasas de participación, combinado con el gráfico de crecimiento global que muestra un crecimiento continuo del tamaño a pesar de la disminución de la tasa de crecimiento, infiriendo el potencial de crecimiento en regiones con baja participación. La opción está fuertemente relacionada con la regla de 'potencial impulsando el crecimiento'. Necesidad de razonamiento conjunto：Solo con el gráfico de participación no se puede inferir el impacto en el mercado global, y solo con el gráfico de crecimiento global no se pueden identificar diferencias regionales; es necesario analizar conjuntamente el desajuste entre tasas de participación y matrícula (como alta matrícula en secundaria pero baja participación) para explicar la contradicción entre la disminución de la tasa de crecimiento global y la expansión del tamaño, lo que requiere comparar tendencias entre gráficos.",
+        "C": "Opción correcta：La opción 3 compara regiones con alta participación (Europa 18.1%) con la disminución de la tasa de crecimiento global (del 5.8% al 3.1%), explicando el efecto de saturación. La opción está fuertemente relacionada con la regla de 'potencial impulsando el crecimiento'. Necesidad de razonamiento conjunto：Solo con el gráfico de participación no se puede inferir el impacto en el mercado global, y solo con el gráfico de crecimiento global no se pueden identificar diferencias regionales; es necesario analizar conjuntamente el desajuste entre tasas de participación y matrícula (como alta matrícula en secundaria pero baja participación) para explicar la contradicción entre la disminución de la tasa de crecimiento global y la expansión del tamaño, lo que requiere comparar tendencias entre gráficos.",
+        "D": "Interferencia difícil：Interpretación errónea de la relación de datos. La gran diferencia entre matrícula y participación en Asia Oriental (86.4% - 7.2% = 79.2%) indica precisamente un enorme espacio de desarrollo, contradiciendo la conclusión de 'saturación'.",
+        "E": "Opción correcta：La opción 1 se basa en las diferencias numéricas en el gráfico de tasas de participación (como participación del 7.2% en Asia Oriental vs. tasa de matrícula en secundaria del 86.4%), combinado con el gráfico de crecimiento global que muestra un crecimiento continuo del tamaño a pesar de la disminución de la tasa de crecimiento (como 803 mil millones de dólares en 2026e), infiriendo el potencial de crecimiento en regiones con baja participación. La opción está fuertemente relacionada con la regla de 'potencial impulsando el crecimiento'. Necesidad de razonamiento conjunto：Solo con el gráfico de participación no se puede inferir el impacto en el mercado global, y solo con el gráfico de crecimiento global no se pueden identificar diferencias regionales; es necesario analizar conjuntamente el desajuste entre tasas de participación y matrícula (como alta matrícula en secundaria pero baja participación) para explicar la contradicción entre la disminución de la tasa de crecimiento global y la expansión del tamaño, lo que requiere comparar tendencias entre gráficos.",
+        "F": "Interferencia fácil：Contradice el sentido común económico. Pequeñas mejoras en regiones de baja base (como África) pueden generar incrementos significativos, y la tasa de matrícula ≠ potencial de conversión a participación."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -126,6 +156,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Interferencia difícil：Ignora la contradicción de tendencias. La disminución de la tasa de crecimiento global demuestra que el impulso de crecimiento en regiones con alta participación (como Oceanía) se debilita, no puede 'compensar' la caída, y su tasa de participación ya no tiene espacio para mejoras significativas.",
+        "B": "Opción correcta：La opción 1 aborda directamente el punto de conflicto: la disminución de la tasa de crecimiento global pero el crecimiento del tamaño, combinado con la participación del 1.3% en África y del 18.1% en Europa en el gráfico de participación, explica la coexistencia de alta saturación y bajo desarrollo. Necesidad de razonamiento conjunto：El conflicto radica en que el gráfico de crecimiento global muestra una tendencia decreciente, mientras que el gráfico de participación muestra muchas regiones sin desarrollar (como participación del 1.3% en África), un solo gráfico no puede revelar esta contradicción; es necesario analizar conjuntamente cómo las diferencias regionales (como la brecha entre participación y matrícula) impiden que la tasa de crecimiento global aumente, a pesar de la expansión de la base de tamaño.",
+        "C": "Opción correcta：La opción 2 utiliza datos de América Latina (tasa de matrícula 78.7% vs. participación 6.9%) para ilustrar el cuello de botella. Necesidad de razonamiento conjunto：El conflicto radica en que el gráfico de crecimiento global muestra una tendencia decreciente, mientras que el gráfico de participación muestra muchas regiones sin desarrollar (como participación del 1.3% en África), un solo gráfico no puede revelar esta contradicción; es necesario analizar conjuntamente cómo las diferencias regionales (como la brecha entre participación y matrícula) impiden que la tasa de crecimiento global aumente, a pesar de la expansión de la base de tamaño.",
+        "D": "Interferencia fácil：Error lógico básico. El tamaño del mercado continúa expandiéndose (803→779 mil millones de dólares), la disminución de la tasa de crecimiento ≠ contracción del tamaño, la afirmación de 'techo' no es válida.",
+        "E": "Interferencia difícil：Error en la evaluación de datos. América Latina tiene una diferencia del 71.8% entre matrícula y participación (78.7% - 6.9%), es una región con grave desajuste, que debería contribuir al crecimiento pero está suprimida, siendo precisamente un factor clave del conflicto.",
+        "F": "Opción correcta：La opción 3 compara regiones con alta participación con la tendencia global, explicando las razones de la disminución de la tasa de crecimiento. Necesidad de razonamiento conjunto：El conflicto radica en que el gráfico de crecimiento global muestra una tendencia decreciente, mientras que el gráfico de participación muestra muchas regiones sin desarrollar (como participación del 1.3% en África), un solo gráfico no puede revelar esta contradicción; es necesario analizar conjuntamente cómo las diferencias regionales (como la brecha entre participación y matrícula) impiden que la tasa de crecimiento global aumente, a pesar de la expansión de la base de tamaño."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -148,6 +193,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 1 combina el gráfico chart_78_2 (comparación de la tasa de participación y la tasa de matrícula por región, por ejemplo, América Latina tiene una alta tasa de matrícula pero una baja tasa de participación) y el gráfico chart_78_1 (el tamaño del mercado global está creciendo, pero la tasa de crecimiento ha disminuido de 7.4% a 3.1%, lo que muestra una tendencia a desacelerarse y se necesitan nuevos puntos de crecimiento).",
+        "B": "La opción 2 combina el gráfico chart_78_2 (Europa tiene una alta tasa de participación) y el gráfico chart_78_1 (la tasa de crecimiento está disminuyendo y se necesita un impulso basado en la calidad).",
+        "C": "Ignorar las diferencias regionales (por ejemplo, América Latina tiene una alta tasa de matrícula pero una baja tasa de participación) y distribuir los recursos de manera equitativa no puede liberar las demandas de manera específica y va en contra del objetivo de 'maximizar el crecimiento', lo cual es un error común.",
+        "D": "La tasa de participación en Europa ya es alta, pero la tasa de crecimiento global ha disminuido constantemente (de 5.8% a 3.1%), lo que refleja la saturación del mercado. Invertir más en Europa no puede revertir la tendencia y agravaría el desequilibrio regional.",
+        "E": "El mercado europeo es grande pero su tasa de crecimiento se está desacelerando (solo 3.1% en 2026e). Invertir en un mercado maduro no puede resolver el problema de equidad, y el 'efecto de escala' contradice la disminución de la tasa de crecimiento en los gráficos.",
+        "F": "La tasa de matrícula en África subsahariana es solo del 41.9%. Expandir directamente los centros de educación profesional carece de una base de estudiantes. La disminución de la tasa de crecimiento global (de 7.4% a 3.1%) indica que la expansión simple en escala tiene efectos limitados. Se ha malinterpretado la 'brecha de demanda' como una oportunidad viable.",
+        "G": "La opción 3 combina el gráfico chart_78_2 (Africa subsahariana tiene una baja tasa de matrícula y una baja tasa de participación) y el gráfico chart_78_1 (la tasa de crecimiento general está disminuyendo y se necesitan intervenciones fundamentales)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -170,6 +232,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 1 combina el gráfico chart_78_3 (las ofertas de trabajo en Hong Kong se recuperaron a 61,000 en 2021, lo que muestra una tendencia de recuperación) y el gráfico chart_78_1 (el tamaño del mercado global ha aumentado de 491 mil millones a 803 mil millones de dólares estadounidenses, pero la tasa de crecimiento ha disminuido de 7.4% a 3.1%, lo que indica que la base es grande pero se necesita una optimización de la eficiencia).",
+        "B": "La opción 3 combina el gráfico chart_78_3 (las ofertas de trabajo aumentaron de 55,000 a 78,000 entre 2011 y 2018, un crecimiento a largo plazo) y el gráfico chart_78_1 (el tamaño del mercado se está expandiendo pero la tasa de crecimiento está disminuyendo y se necesita una coincidencia precisa).",
+        "C": "La disminución de las ofertas de trabajo en 2020 fue una fluctuación a corto plazo (se recuperaron a 61,000 en 2021). El tamaño global del mercado sigue creciendo (de 647 mil millones a 803 mil millones de dólares estadounidenses). Reducir la escala de capacitación agravaría la escasez de habilidades. Se ha malinterpretado la disminución de la tasa de crecimiento como una contracción de la demanda.",
+        "D": "El modelo de 2011 - 2018 no tiene en cuenta los riesgos externos de 2020, y la disminución de la tasa de crecimiento global (de 5.8% a 4.4%) requiere innovación en lugar de copiar. Se ha confundido el 'aumento histórico' con la 'aplicabilidad continua'.",
+        "E": "Un plan de estudios fijo contradice las fuertes fluctuaciones de las ofertas de trabajo en Hong Kong (por ejemplo, de 32,000 en 2008 a 55,000 en 2011) y no responde a la tendencia de maduración del mercado global.",
+        "F": "Ignorar la disminución de la tasa de crecimiento (de 5.8% a 3.1%) y las fluctuaciones de las ofertas de trabajo en Hong Kong (por ejemplo, la caída repentina en 2020) y expandir de forma indiscriminada puede causar una asignación inapropiada de recursos.",
+        "G": "La opción 2 combina el gráfico chart_78_3 (las ofertas de trabajo fluctúan, por ejemplo, una fuerte disminución en 2020) y el gráfico chart_78_1 (la tasa de crecimiento se está desacelerando constantemente hasta 3.1% y se necesita un amortiguador de riesgos)."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -192,6 +271,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Va en contra del objetivo de 'crecimiento inclusivo'. La tasa de participación en Europa ya es alta (18.1%). Invertir en Europa agravaría la desigualdad. Además, la tasa de crecimiento global se está desacelerando (de 5.8% a 3.1%), por lo que se necesitan nuevos mercados.",
+        "B": "La opción 2 combina el gráfico chart_78_2 (Asia Oriental tiene una tasa de participación mediana del 7.2% y una alta tasa de matrícula del 86.4%) y el gráfico chart_78_1 (el mercado es grande pero su tasa de crecimiento está disminuyendo y se necesita una mejora en la eficiencia).",
+        "C": "La opción 3 combina el gráfico chart_78_2 (Oceanía y Europa tienen las tasas de participación más altas, 17.5% y 18.1% respectivamente) y el gráfico chart_78_1 (la tasa de crecimiento se está desacelerando hasta 3.1% y se necesita una difusión de la innovación).",
+        "D": "Ignorar las diferencias regionales (por ejemplo, la tasa de matrícula en África es del 41.9% mientras que en Oceanía es del 95.0%) y aplicar un 'estándar uniforme' carece de viabilidad práctica, lo cual es un error común.",
+        "E": "Oceanía tiene una alta tasa de matrícula pero una tasa de participación solo del 17.5%, lo que indica una conversión limitada. La disminución de la tasa de crecimiento global (de 7.4% a 3.1%) no soporta una expansión rápida. Se ha confundido la 'tasa de matrícula' con el factor determinante de la 'tasa de participación'.",
+        "F": "La brecha en América Latina es grande, pero la disminución de la tasa de crecimiento global es irreversible. África subsahariana tiene una tasa de participación aún más baja (1.3%) y necesita más inversiones básicas. Esta estrategia ha maljugado la 'brecha' como la prioridad óptima.",
+        "G": "La opción 1 combina el gráfico chart_78_2 (Africa subsahariana tiene la tasa de participación más baja del 1.3% y la tasa de matrícula más baja del 41.9%) y el gráfico chart_78_1 (el tamaño global del mercado se está expandiendo pero la tasa de crecimiento ha disminuido a 3.1%, por lo que se necesitan mercados con una base baja)."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     }
   ]

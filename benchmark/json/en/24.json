@@ -89,6 +89,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "These options must be inferred by combining chart_24_1 (female usage rate) and chart_24_3 (post-2000s disdain chain). Chart_24_1 shows that the usage rate of text emojis among females is very low, while chart_24_3 shows that in the post-2000s disdain chain, the weight from comic emojis to text emojis is relatively high, indicating that comic emojis disdain text emojis. The option relates the low usage rate among females to the disdained status among the post-2000s, which requires cross-verification of data from two charts and cannot be inferred from a single chart.",
+        "B": "This is a hard interference option based on a misunderstanding of the chart gap: The usage rate of text emojis among females is the lowest at 14%, but in the post-2000s disdain chain, the weight of text emojis being disdained by comic emojis is 3 (relatively high, but not the highest), and text emojis are the 'disdained' rather than the 'disdainer'. The option incorrectly describes text emojis as the 'disdainer' and exaggerates the weight (the actual highest weight of 3.5 is for celebrity emojis → comic emojis).",
+        "C": "This is an easy interference option based on a common-sense error in language: High popularity does not necessarily lead to high-weight admiration; on the contrary, the chart shows that the celebrity emojis, which are very popular among females (64%), are highly disdained among the post-2000s (weight 3.5). Commonly, there is no necessary positive correlation between popularity and disdain weight, so this option is incorrect.",
+        "D": "These options must be inferred by combining chart_24_1 (female usage rate) and chart_24_3 (post-2000s disdain chain). Chart_24_1 shows that celebrity emojis and comic emojis are more popular among females, while chart_24_3 shows that in the post-2000s disdain chain, the weight from celebrity emojis to comic emojis is the highest, indicating that celebrity emojis are highly disdained by comic emojis. The option directly relates the high popularity among females to the high disdain weight among the post-2000s, which requires cross-verification of data from two charts and cannot be inferred from a single chart.",
+        "E": "This is a hard interference option based on a misunderstanding of the chart ranking and direction: The usage rate of emojis among females is 47%, which is lower than that of celebrity emojis (64%) and comic emojis (58%), so it cannot be considered'very popular'; in the post-2000s disdain chain, the weight from text emojis to emojis is 2.5 (not the highest, the highest is 3.5), and emojis are disdained by text emojis, but the weight of 2.5 is not the highest. In the correct data, emojis are not the most popular among females, and the disdain weight is not significantly the highest, so this option is incorrect.",
+        "F": "This is an easy interference option based on a common-sense error: The usage rate of celebrity emojis among females is indeed the highest at 64%, but in the post-2000s disdain chain, celebrity emojis are disdained by comic emojis with a weight of 3.5 (the highest weight), indicating that the post-2000s significantly disdain celebrity emojis. Commonly, the younger generation may have the same preferences, but the chart data clearly shows the conflict, so this option is incorrect.",
+        "G": "These options must be inferred by combining chart_24_1 (female usage rate) and chart_24_3 (post-2000s disdain chain). Chart_24_1 shows that celebrity emojis and comic emojis are more popular among females, while chart_24_3 shows that in the post-2000s disdain chain, the weight from comic emojis to text emojis is relatively high, indicating that comic emojis disdain text emojis. The option directly relates the high popularity among females to the high disdain weight among the post-2000s, which requires cross-verification of data from two charts and cannot be inferred from a single chart."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "These options need to be inferred by combining chart_24_2 (male usage rate) and chart_24_4 (post-1990s disdain chain). Chart_24_2 shows that QQ and WeChat built-in emoticons are more popular among males, while in the post-1990s disdain chain of chart_24_4, the weight from middle-aged and elderly emoticons to QQ and WeChat built-in emoticons is the highest. This leads to a conflict: Males have a high preference for QQ and WeChat built-in emoticons, but in the post-1990s disdain chain, they are disdained by other types. The option conflicts with the high usage rate among males and the highest disdain weight among the post-1990s, relying on the data comparison of two charts and cannot be obtained from a single chart.",
+        "B": "This is an easy interference option based on a common-sense error in the industry: Males prefer intuitive emoticons (such as comic emoticons with a usage rate of 72%), but in the post-1990s disdain chain, the weight from emoji to comic emoticons is 1.5, indicating that comic emoticons are disdained, which is in the opposite direction. Commonly, generational preferences may be the same, but the chart data clearly shows the conflict, so this option is incorrect.",
+        "C": "This is a hard interference option based on a misunderstanding of the chart ranking and direction: The usage rate of comic emoticons among males is the highest at 72%, but in the post-1990s disdain chain, the weight from emoji to comic emoticons is 1.5, indicating that comic emoticons are disdained by emoji, not that comic emoticons are the 'disdainer'; in the actual disdain chain, comic emoticons have no direct disdain relationship and are the disdained object. The option incorrectly reverses the direction and exaggerates the weight (the highest weight of 3.5 is from middle-aged and elderly emoticons → QQ and WeChat built-in emoticons), so it is incorrect.",
+        "D": "This is a hard interference option based on a misunderstanding of the chart numerical gap: The usage rate of QQ and WeChat built-in emoticons among males is relatively high at 67%, and in the post-1990s disdain chain, the weight of QQ and WeChat built-in emoticons being disdained by middle-aged and elderly emoticons is 3.5 (not by celebrity emoticons); the usage rate of celebrity emoticons among males is medium at 45%, but the weight of QQ and WeChat built-in emoticons being disdained is as high as 3.5, while the option incorrectly attributes the disdainer to celebrity emoticons (actually, the weight from QQ and WeChat built-in emoticons to celebrity emoticons is 3, and celebrity emoticons are the 'disdained'), and ignores the key conflict point.",
+        "E": "These options need to be inferred by combining chart_24_2 (male usage rate) and chart_24_4 (post-1990s disdain chain). Chart_24_2 shows that comic emoticons are more popular among males, while in the post-1990s disdain chain of chart_24_4, the weight from emoji to comic emoticons is 1.5 (indicating that emoji disdains comic emoticons). This leads to a conflict: Males have a high preference for comic emoticons, but in the post-1990s disdain chain, they are disdained by other types. The option conflicts with the high usage rate among males and the disdain weight among the post-1990s, relying on the data comparison of two charts and cannot be obtained from a single chart.",
+        "F": "These options need to be inferred by combining chart_24_2 (male usage rate) and chart_24_4 (post-1990s disdain chain). Chart_24_2 shows that emoji is more popular among males, while in the post-1990s disdain chain of chart_24_4, the weight from text emoticons to emoji is 2 (indicating that text emoticons disdain emoji). This leads to a conflict: Males have a high preference for emoji, but in the post-1990s disdain chain, it is disdained by other types. The option conflicts with the high usage rate of emoji among males and being disdained by text emoticons among the post-1990s, relying on the data comparison of two charts and cannot be obtained from a single chart.",
+        "G": "This is an easy interference option based on a common-sense error of the model itself: The usage rate of middle-aged and elderly emoticons among males is indeed not high at 31%, but in the post-1990s disdain chain, middle-aged and elderly emoticons are the 'disdainer' (the weight from middle-aged and elderly emoticons to QQ and WeChat built-in emoticons is 3.5), not the 'disdained'. The option incorrectly describes middle-aged and elderly emoticons as the 'disdained', and the conflict refers to the contradiction between high popularity and the disdain direction. Middle-aged and elderly emoticons do not meet the condition of high popularity, so this option is irrelevant and incorrect."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -133,6 +167,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard interference option based on a misunderstanding of the chart direction: In the post-1980s, the weight from QQ and WeChat built-in emoji to middle-aged and elderly emoji is the highest at 3.5, and among the post-2000s, the weight from QQ and WeChat built-in emoji to middle-aged and elderly emoji is relatively low at 1.5 (correct), but among the post-2000s, QQ and WeChat built-in emoji are disdained by emoji with a weight of 2, not by middle-aged and elderly emoji (middle-aged and elderly emoji are the disdained object among the post-2000s). The option incorrectly adds the relationship of 'being disdained by middle-aged and elderly emoji' (actually, middle-aged and elderly emoji are disdained by QQ and WeChat built-in emoji among the post-2000s), confusing the direction, so it is incorrect.",
+        "B": "These options must be inferred by combining chart_24_5 (post-1980s disdain chain) and chart_24_3 (post-2000s disdain chain). Chart_24_5 shows that in the post-1980s disdain chain, the weight from emoji to comic emojis is relatively low; while chart_24_3 shows that in the post-2000s disdain chain, the weight from emoji to QQ and WeChat built-in emojis is 2 (indicating that emoji disdains QQ and WeChat built-in emojis). This reveals the generational difference: Emoji has a low weight of disdaining comic emojis among the post-1980s and disdains QQ and WeChat built-in emojis among the post-2000s. The option needs to compare the weight values and directions of two charts and cannot be inferred from a single chart, reflecting the implicit generational change.",
+        "C": "These options must be inferred by combining chart_24_5 (post-1980s disdain chain) and chart_24_3 (post-2000s disdain chain). Chart_24_5 shows that in the post-1980s disdain chain, the weight from QQ and WeChat built-in emojis to middle-aged and elderly emojis is the highest; while chart_24_3 shows that in the post-2000s disdain chain, the weight from emoji to QQ and WeChat built-in emojis is 2 (indicating that emoji disdains QQ and WeChat built-in emojis). This reveals the generational difference: QQ and WeChat built-in emojis are the disdainer among the post-1980s (with a high weight) and the disdained among the post-2000s. The option needs to compare the weight values and directions of two charts and cannot be inferred from a single chart, reflecting the implicit generational change.",
+        "D": "This is a hard interference option based on a misunderstanding of the chart numerical values: Among the post-1980s, the weight from text emoji to emoji is 2.5, and among the post-2000s, the weight from text emoji to emoji is also 2.5, but among the post-2000s, text emoji is disdained by comic emojis with a weight of 3 (the direction is partially opposite, and text emoji is the 'disdained' among the post-2000s). The option incorrectly ignores the directional difference (text emoji is the disdainer among the post-1980s and the disdained among the post-2000s) and claims that there is no difference in weight, but the actual directional change reflects generational preferences, so it is incorrect.",
+        "E": "This is an easy interference option based on a common-sense error in language: The subtitle of the chart shows that the post-1980s value convenience, and the post-2000s value the relevance between celebrities and anime, but the difference in disdain weight is specifically reflected in specific relationships (such as the weight from QQ and WeChat built-in emoji to middle-aged and elderly emoji decreasing from 3.5 to 1.5), not that 'all weights are higher'. Commonly, generational preferences are different, but the option overgeneralizes and ignores the specific weight changes, so it is incorrect.",
+        "F": "These options must be inferred by combining chart_24_5 (post-1980s disdain chain) and chart_24_3 (post-2000s disdain chain). Chart_24_5 shows that in the post-1980s disdain chain, the weight from text emoji to emoji is relatively high; while chart_24_3 shows that in the post-2000s disdain chain, the weight from comic emojis to text emoji is relatively high (indicating that comic emojis disdain text emoji). This reveals the generational difference: Text emoji is the disdainer among the post-1980s (with a relatively high weight) and the disdained among the post-2000s. The option needs to compare the weight values and directions of two charts and cannot be inferred from a single chart, reflecting the implicit generational change.",
+        "G": "This is a hard interference option based on a misunderstanding of the chart ranking and weight: Among the post-1980s, the weight from emoji to comic emojis is indeed relatively low at 2, but there is no relationship of emoji → comic emojis in the post-2000s disdain chain (actually, the weight from emoji to QQ and WeChat built-in emojis is 2); the highest weight of 3.5 is for celebrity emojis → comic emojis. The option fabricates the weight of 3.5 for emoji → comic emojis among the post-2000s and incorrectly exaggerates it, so it is incorrect."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "G",
+        "A"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Combining chart_24_1 (Female usage rate: Celebrity and comic emojis with strong entertainment attributes have a relatively high proportion) and chart_24_3 (Post-2000s group: High relevance and proportion of celebrities and anime). Reasoning: Women prefer entertainment content, and the Post-2000s group reinforces this trend. Joint optimization can enhance the engagement of young female users.",
+        "B": "This is an easy distraction: It completely deviates from the chart content and suggests developing new technologies instead of optimizing the algorithm, deviating from the focus of the question (the question requires adjusting the recommendation strategy, not developing resource allocation). Commonly, although technological innovation is good, it does not solve the current recommendation problem.",
+        "C": "This is a hard distraction: On the surface, it uses the data from chart_24_2 (Male usage rate of text emoticons is 28% vs. Female 14%), but misinterprets it—the male usage rate is higher than that of females, but the overall value is low (28% is much lower than 72% of comic emoticons), and the correct strategy should prioritize types with high usage rates (such as comic emoticons). It wrongly misjudges the low usage rate as 'demand potential' and ignores the actual preferences.",
+        "D": "This is an easy distraction: It does not rely on any chart data and is only based on the common - sense principle of fairness, but ignores the core of the problem—customizing the recommendation strategy according to different group preferences. It is too general and has no specific action guidelines, and can be easily excluded by common sense (for example, uniform recommendation cannot optimize engagement).",
+        "E": "Combining chart_24_1 (Female usage rate: Text emojis have the lowest proportion), chart_24_3 (Post-2000s disdain chain: Low weight from text to emoji) and chart_24_2 (Male usage rate: Emoji has a relatively high proportion). Reasoning: Text emojis have low acceptance among key groups. Emoji, as a transitional type, has a moderate weight in the disdain chain and a high male usage rate, reducing the risk of conflict and enhancing inclusiveness.",
+        "F": "Combining chart_24_2 (Male usage rate: Comic and QQ & WeChat built - in types with high intuitiveness have a relatively high proportion) and chart_24_5 (Post - 1980s group: QQ & WeChat built - in types with strong convenience have a relatively high usage rate). Reasoning: Men prefer intuitive expressions, and the Post - 1980s group values convenience. Covering both can improve the practical participation of male and middle - aged and elderly users.",
+        "G": "This is a hard distraction: It quotes the data from chart_24_5 (QQ & WeChat emoji usage rate is 42%, disdain chain weight is 3.5), but confuses the concepts—a high weight indicates a strong disdain relationship, but a high usage rate indicates popularity; reducing the recommendation will reduce engagement, which goes against the goal. It wrongly equates the disdain chain weight with user aversion instead of using it as a basis for conflict management."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -181,6 +249,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: It quotes the data from chart_24_3 (Celebrity emojis account for 43%), but ignores the disdain chain weight (The weight from celebrity to comic emojis is 3.5, which is high and likely to cause conflicts). It wrongly equates the high proportion with low conflict risk and fails to integrate disdain chain management.",
+        "B": "Combining chart_24_3 (Post - 2000s disdain chain: High weight from celebrity to comic emojis) and chart_24_4 (Post - 1990s group: High proportion of text emoticons). Reasoning: The high - weight disdain among the Post - 2000s is likely to cause conflicts, and the Post - 1990s group has a high acceptance of spoof text emoticons. A joint strategy can reduce comparisons and increase fun for young users.",
+        "C": "This is an easy distraction: It does not rely on the charts and suggests user self - governance, but deviates from the platform's need for an active strategy (the question requires the platform to formulate measures). Commonly, it has no specific actions and is easily regarded as shirking responsibility.",
+        "D": "This is an easy distraction: It does not quote any chart data and is only based on extreme management common sense (banning problematic content), but it is actually infeasible (it will reduce user freedom) and ignores the usage rate and disdain chain data in the charts.",
+        "E": "This is a hard distraction: It uses the data from chart_24_4 (The weight from emoji to comic emoticons is 1.5), but misinterprets it—a low weight indicates a weak disdain relationship, but the proportion of comic emoticons among the Post - 1990s is only 28% (low usage rate), and a low weight may mean being disdained rather than accepted; promoting it may intensify conflicts. It confuses the weight with acceptance.",
+        "F": "Combining chart_24_3 (Post - 2000s disdain chain: Low weight of emoji), chart_24_4 (Post - 1990s disdain chain: Low weight of emoji) and chart_24_2 (Male usage rate: High proportion of emoji). Reasoning: Emoji has a moderate weight in multiple disdain chains and is highly preferred by men. As a universal type, it can reduce conflicts across groups and conform to the value of inclusiveness.",
+        "G": "Combining chart_24_4 (Post - 1990s disdain chain: High weight from middle - aged and elderly to QQ & WeChat built - in emoticons, but a high proportion of middle - aged and elderly) and chart_24_5 (Post - 1980s group: High usage rate of QQ & WeChat built - in emoticons, strong convenience disdain chain weight). Reasoning: The Post - 1990s group has a high usage rate but a high disdain weight, which requires guiding inclusiveness. The convenience feature of the Post - 1980s group can strengthen practical education and avoid ignoring middle - aged and elderly users."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -206,6 +291,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: It uses the data from chart_24_3 (Comic emojis account for 41%, the weight from celebrity to comic emojis is 3.5), but confuses the logic—a high proportion indicates popularity and should be prioritized for development; a high weight indicates a disdain relationship, but development resources should be based on demand rather than conflict risk (the latter is a management issue). It wrongly reduces the investment in high - demand types.",
+        "B": "Combining chart_24_4 (Post - 1990s group: High proportion of QQ & WeChat built - in emoticons), chart_24_5 (Post - 1980s group: High usage rate of QQ & WeChat built - in emoticons) and chart_24_4 (Post - 1990s: High proportion of middle - aged and elderly but high disdain weight). Reasoning: QQ & WeChat built - in emoticons are highly practical among the Post - 1990s and Post - 1980s. Although the middle - aged and elderly type has a high disdain weight, its usage rate is high. Resource allocation needs to be optimized rather than reduced, emphasizing inclusiveness and ease of use.",
+        "C": "This is a hard distraction: It quotes the data from chart_24_1 (Female usage rate of middle - aged and elderly emojis is 46%), but misinterprets it—although the usage rate is medium, it is lower than 64% of celebrity emojis and 58% of comic emojis, and it does not consider the disdain chain (in other charts such as chart_24_4, the weight of middle - aged and elderly emojis is high). It wrongly regards the medium usage rate as the development priority and ignores types with higher usage rates.",
+        "D": "Combining chart_24_1 (Female usage rate: Text emojis have the lowest proportion), chart_24_3 (Post - 2000s disdain chain: Low weight of text emojis) and chart_24_2 (Male usage rate: High proportion of emoji). Reasoning: Text emojis have low acceptance among key groups. Emoji is highly preferred by men and is neutral in the disdain chain. Reallocating resources can improve efficiency and avoid waste.",
+        "E": "This is an easy distraction: It deviates from the charts and suggests following trends rather than data, but the question clearly requires basing on usage rate and disdain chain. Commonly, it is subjective and high - risk without data support.",
+        "F": "This is an easy distraction: It does not use chart data and is only based on the common sense of fairness, but ignores the core of the question—prioritizing resource allocation according to data. It is not targeted and can be easily excluded (average allocation cannot optimize coverage).",
+        "G": "Combining chart_24_1 (Female usage rate: High proportion of comic emojis), chart_24_3 (Post - 2000s group: High proportion of comic emojis) and chart_24_2 (Male usage rate: High proportion of comic emojis). Reasoning: Comic emojis are popular among both genders and different age groups. Allocating more resources can maximize cross - group acceptance and engagement."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     }
   ]

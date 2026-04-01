@@ -87,6 +87,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项。基于行业常识错误：环境噪音（如卧室隔音差）在影响因素（chart_100_4）中仅占7.2%，不是首要因素（最高是睡前玩手机15.9%），常识上睡眠问题多由内在行为驱动，而非单一外部因素，但选项未引用图表数据。",
+        "B": "这是一个Hard干扰项。基于图表排序和差距错误解读：实际数据（chart_100_1）中\"还好，偶尔有睡眠问题\"占比47.0%，但干扰项错误地将此归类为\"严重问题\"（严重问题仅占11.1%），并声称其\"最高\"，而\"严重问题\"实际占比低，误读数据分布。",
+        "C": "这是一个Easy干扰项。基于常识错误：实际数据（chart_100_1）显示\"无问题\"占比仅18.7%，远低于50%，常识上多数用户报告有问题（81.3%），但该选项不依赖图表，仅凭常识即可判断错误。",
+        "D": "此选项利用用户睡眠质量反馈分布的\"严重问题\"低比例与常见睡眠问题TOP10占比的\"睡得浅易被惊醒\"的中等占比，说明轻微问题可能累积影响整体反馈。",
+        "E": "此选项从用户睡眠质量反馈分布的\"无问题\"低比例与常见睡眠问题TOP10占比的\"习惯性熬夜晚睡\"和\"睡眠时长不够\"的关联，推理出行为问题可能导致质量反馈不佳。",
+        "F": "这是一个Hard干扰项。基于图表数值错误解读：实际数据（chart_100_2）中\"入睡困难\"占比11.7%，但干扰项错误声称23.2%（后者是chart_100_1中\"时不时有睡眠问题\"的占比），混淆了不同图表的数值，导致对问题普遍性的夸大。",
+        "G": "此选项结合了用户睡眠质量反馈分布中\"偶尔有睡眠问题\"和\"时不时有睡眠问题\"的总和高比例，与常见睡眠问题TOP10占比中\"入睡困难\"和\"深睡时间太短\"等具体问题的高占比，揭示出睡眠困扰的普遍性可能源于这些高频问题。"
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项。基于行业常识错误：实际数据（chart_100_3）显示代际得分从81.7（Post - 00s）到83.5（Post - 60s+），差距1.8分，虽小但有趋势；常识上年龄影响睡眠（如生物钟变化），但选项忽略数据，泛化差异不显著。",
+        "B": "此选项利用各代际睡眠得分的代际得分整体接近但年轻代际略低与影响睡眠因素TOP10占比的\"Estoy acostumbrado a acostarme tarde sin motivación para cambiar\"高占比，推理出这一因素可能普遍但年轻人群更易受其影响。",
+        "C": "此选项结合各代际睡眠得分的Post - 90s和Post - 00s得分较低趋势与影响睡眠因素TOP10占比的\"El alto estrés de la vida afecta el descanso\"和\"Acostarme tarde para estudiar o trabajar afecta el descanso\"高占比，揭示压力因素与年轻代际的相关性。",
+        "D": "这是一个Hard干扰项。基于图表数值和排序错误解读：实际数据（chart_100_3）中Post - 00s得分最低（81.7分），83.5分是Post - 60s+的得分；同时，睡前玩手机（chart_100_4）占比15.9%最高，年轻代际更可能受影响，干扰项反向错误解读得分和因素关联。",
+        "E": "这是一个Hard干扰项。基于图表数值错误解读：实际数据（chart_100_4）中\"El alto estrés de la vida afecta el descanso\"占比12.9%，但干扰项夸大至\"超过20%\"，并声称是\"首要因素\"（实际最高是睡前玩手机15.9%），误读数据幅度和排序。",
+        "F": "这是一个Easy干扰项。基于常识错误：实际数据未涉及\"重视程度\"或\"自律性\"，常识上年轻人群可能更关注健康，但选项不依赖图表，仅凭主观臆断即可判断错误。",
+        "G": "此选项从各代际睡眠得分中Post - 00s得分最低与影响睡眠因素TOP10占比中\"No puedo resistirme a usar teléfonos móviles/tabletas antes de dormir\"占比最高出发，推理出年轻人群可能因电子设备依赖导致得分下降。"
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项。基于图表数值错误解读：实际数据（chart_100_2）中\"Tiempo de sueño profundo demasiado corto\"占比13.8%，而睡前玩手机（chart_100_4）占比15.9%，干扰项错误声称\"15.9%\"和\"相同\"，数值不匹配，且两者关联需推理而非直接等价。",
+        "B": "这是一个Easy干扰项。基于行业常识错误：数据中年轻代际得分更低（chart_100_3），且睡前玩手机（chart_100_4）更可能影响年轻人；常识上年轻人电子设备使用率高，但选项反向陈述，未引用图表。",
+        "C": "这是一个Hard干扰项。基于图表排序和数值错误解读：实际数据（chart_100_3）中Post - 00s得分最低（81.7分），Post - 90s是82.7分；同时，睡前玩手机因素（chart_100_4）对所有代际类似，但干扰项错误指定Post - 90s\"得分最低\"并夸大其影响，误读代际差异。",
+        "D": "此选项从常见睡眠问题TOP10占比的\"Sentirse somnoliento/con poca energía durante el día\"与影响睡眠因素TOP10占比的\"Acostarme tarde de forma vengativa por la falta de libertad durante el día\"占比，推理出夜间设备使用可能导致白天精力不足；各代际睡眠得分的得分趋势强化年轻人群的易感性。",
+        "E": "这是一个Easy干扰项。基于常识错误：实际研究和常识表明电子设备蓝光抑制褪黑素，导致入睡困难；选项不依赖图表，仅凭健康知识即可判断错误。",
+        "F": "此选项结合常见睡眠问题TOP10占比的\"Hábito de acostarse tarde\"与影响睡眠因素TOP10占比的\"No puedo resistirme a usar teléfonos móviles/tabletas antes de dormir\"直接关联，推理出设备使用导致晚睡行为；各代际睡眠得分的年轻代际得分低提供年龄维度支持。",
+        "G": "此选项联合常见睡眠问题TOP10占比的\"Tiempo de sueño profundo demasiado corto\"和\"Dificultad para conciliar el sueño\"高占比与影响睡眠因素TOP10占比的\"No puedo resistirme a usar teléfonos móviles/tabletas antes de dormir\"最高占比，推理出电子设备可能缩短深睡或延迟入睡；同时隐含各代际睡眠得分的Post - 00s得分最低，表明年轻人群更易受影响。"
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción fácil: Se sugiere una solución técnica general (como dispositivos de sueño), sin combinar los datos de los gráficos (como el tipo de problemas reportados por los usuarios o los factores de influencia). La dirección de la estrategia es difusa, no muestra prioridades y no cita el contenido de los gráficos.",
+        "B": "Esta es una distracción difícil: Se interpreta erróneamente los datos de chart_100_4. La proporción de personas afectadas por enfermedades físicas en el sueño es solo del 3,5% (una de las más bajas), pero se afirma que es la más alta (15,9%). En realidad, la más alta es el uso de teléfonos móviles antes de dormir (15,9%). Esto confunde los valores y lleva a una desviación en la dirección de la estrategia (priorizar factores de baja influencia).",
+        "C": "El razonamiento conjunto involucra chart_100_4 (la proporción del factor de estrés de la vida es significativa) y chart_100_1 (la proporción de problemas más graves en la retroalimentación de la calidad del sueño es considerable), y destaca la necesidad de aliviar el estrés para prevenir problemas graves.",
+        "D": "Esta es una distracción fácil: La expresión es amplia y se basa en el conocimiento común (por ejemplo, la educación sanitaria puede mejorar la salud), no se dirige a los datos específicos en los gráficos (como la distribución de la calidad del sueño o la proporción de factores de influencia), carece de bases para la asignación prioritaria de recursos y no implica ningún análisis de gráficos.",
+        "E": "El razonamiento conjunto involucra chart_100_2 (entre los problemas específicos de sueño, el tiempo de sueño profundo demasiado corto y la dificultad para conciliar el sueño tienen una proporción más alta) y chart_100_4 (entre los factores de influencia, el hábito de acostarse tarde tiene una proporción alta y puede estar relacionado con estos problemas), y prioriza la resolución de problemas frecuentes a través del análisis cruzado.",
+        "F": "El razonamiento conjunto involucra chart_100_4 (el factor de influencia del uso de teléfonos móviles antes de dormir tiene la proporción más alta) y chart_100_1 (la retroalimentación de la calidad del sueño muestra que la mayoría de los usuarios reportan problemas y solo unos pocos no tienen problemas), lo que indica que la intervención en este factor de comportamiento puede cubrir el grupo de usuarios más amplio.",
+        "G": "Esta es una distracción difícil: Se asocia erróneamente los datos de chart_100_2. La proporción del problema de quedarse en la cama los fines de semana es solo del 7,1% (baja), pero se ignora problemas más frecuentes como el tiempo de sueño profundo demasiado corto (13,8%); al mismo tiempo, no se combina con la proporción de problemas graves de sueño en chart_100_1 (11,1%), lo que hace que la estrategia sea ineficiente y pueda desviar la asignación de recursos."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: Se infiere erróneamente los datos de chart_100_3. La puntuación de los Post - 80s es 83,0, que no es el valor intermedio (en realidad, la puntuación más baja es de los Post - 00s, 81,7), y se afirma que \"representa las necesidades generales\" sin soporte de datos; se ignora los factores de influencia en chart_100_4 (por ejemplo, el uso de teléfonos móviles antes de dormir es más relevante para el grupo joven), lo que confunde la tendencia generacional en la dirección de la estrategia.",
+        "B": "Esta es una distracción difícil: Se interpreta erróneamente los datos de chart_100_3. Las puntuaciones de los Post - 70s y Post - 60s+ son más altas (83,3 y 83,5), pero la asignación prioritaria de recursos a ellos ignora que la puntuación de los Post - 00s es la más baja (81,7) y es posible que sus problemas necesiten más atención; al mismo tiempo, no se asocia con que todos los grupos generacionales tienen problemas de sueño en chart_100_1, lo que hace que la estrategia sea injusta.",
+        "C": "Esta es una distracción fácil: Se sugiere un plan técnico general (como una aplicación de sueño), sin combinar las características generacionales o los factores de influencia en los gráficos (por ejemplo, el grupo joven puede ser más propenso a aceptar herramientas digitales), carece de soporte de datos y la dirección de la estrategia no está clara.",
+        "D": "Esta es una distracción fácil: La expresión se basa en el principio general de equidad (por ejemplo, la unificación de recursos), no tiene en cuenta las diferencias de puntuación generacional en los gráficos (por ejemplo, la puntuación más baja de los Post - 00s es 81,7), la estrategia es amplia y sin enfoque, y no cita ningún dato de los gráficos.",
+        "E": "El razonamiento conjunto involucra chart_100_3 (los Post - 00s y Post - 90s tienen las puntuaciones de sueño más bajas) y chart_100_4 (entre los factores de influencia, el uso de teléfonos móviles antes de dormir tiene la proporción más alta y el grupo joven puede verse más afectado), y realiza una optimización específica basada en la tendencia de puntuación generacional y el principal factor de comportamiento.",
+        "F": "El razonamiento conjunto involucra chart_100_3 (todas las generaciones tienen diferencias en las puntuaciones de sueño, pero ninguna es perfecta) y chart_100_1 (la distribución de problemas en la retroalimentación de la calidad del sueño es amplia), combinado con chart_100_4 (una variedad de factores de influencia), y destaca la asignación equitativa de recursos para cubrir todos los grupos.",
+        "G": "El razonamiento conjunto involucra chart_100_3 (los Post - 70s y Post - 60s+ tienen puntuaciones más altas, pero todavía hay espacio para mejorar) y chart_100_4 (entre los factores de influencia, los problemas ambientales como el aislamiento acústico del dormitorio o la incomodidad tienen una proporción significativa), y realiza una optimización en los factores ambientales a los que los mayores pueden ser más sensibles."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción fácil: La expresión es amplia (por ejemplo, cursos de educación), no se dirige a los problemas o factores específicos en los gráficos (por ejemplo, factores de comportamiento con alta proporción), la estrategia se basa en el conocimiento común en lugar de en los datos y no implica ningún análisis de gráficos.",
+        "B": "Esta es una distracción difícil: Se asocia erróneamente los datos de chart_100_4. La proporción del mal aislamiento acústico del dormitorio es del 7,2%, que no es un factor principal, pero se ignora factores de mayor influencia como el uso de teléfonos móviles antes de dormir (15,9%); al mismo tiempo, no se combina con los problemas de sueño relacionados en chart_100_2 (por ejemplo, la dificultad para conciliar el sueño es del 11,7%), la estrategia exagera la función de los factores ambientales y la eficacia preventiva es baja.",
+        "C": "El razonamiento conjunto involucra chart_100_4 (entre los factores de influencia, el hábito de acostarse tarde tiene una proporción alta) y chart_100_2 (entre los problemas específicos de sueño, la dificultad para conciliar el sueño tiene una proporción alta), lo que indica que los hábitos de comportamiento están directamente relacionados con los problemas comunes y las medidas preventivas son eficientes.",
+        "D": "Esta es una distracción difícil: Se interpreta erróneamente los datos de chart_100_2. La proporción del problema de tener muchos sueños/pesadillas es solo del 6,3% (baja), pero se afirma que es la más alta (13,8%). En realidad, el tiempo de sueño profundo demasiado corto es el más alto (13,8%); esta confusión de valores hace que la estrategia se dirija a problemas ineficientes y se ignore los puntos preventivos más frecuentes.",
+        "E": "Esta es una distracción fácil: Se sugiere una herramienta de soporte general (como una comunidad en línea), sin combinar los datos de los gráficos (como la distribución de problemas de sueño o factores de influencia), la estrategia carece de prioridades y eficacia preventiva, y la dirección es difusa.",
+        "F": "El razonamiento conjunto involucra chart_100_4 (entre los factores de influencia, la irregularidad del horario de sueño tiene una proporción no baja) y chart_100_2 (entre los problemas específicos, el tiempo de sueño profundo demasiado corto tiene la proporción más alta), y previene problemas frecuentes a través del ajuste del horario de sueño.",
+        "G": "El razonamiento conjunto involucra chart_100_4 (la proporción del factor de estrés de la vida es significativa) y chart_100_1 (la proporción de problemas más graves en la retroalimentación de la calidad del sueño es considerable), y destaca la necesidad de aliviar el estrés para prevenir problemas graves."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     }
   ]

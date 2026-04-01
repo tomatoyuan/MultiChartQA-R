@@ -88,6 +88,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合推理：一张图表显示整体产业2024年增长较历史年份更平缓，而另一张显示alimentos saludables增长17%，远高于整体可能的增幅，这暗示其他子行业可能增长乏力，需比较两张图表才能得出矛盾点。",
+        "B": "需要联合推理：一张图表展示2014 - 2024年整体产业营收逐年上升的趋势，而另一张突出2024年alimentos saludables的高增长，两者结合可推断alimentos saludables作为子行业可能加速了整体趋势，单张图表无法建立这种时间序列关联。",
+        "C": "此选项误解图表数值和单位。chart_42_3中alimentos saludables增长17%基于100十亿（约0.1万亿）基准，增长0.017万亿；chart_42_1/2中整体产业增长0.4万亿。贡献比例小（约4.25%），但选项错误强调\"影响微乎其微\"忽略子行业协同作用，且未考虑预测逻辑。",
+        "D": "此选项错误引入无关历史数据。chart_42_1/2有2019年数据，但chart_42_3仅提供2024年alimentos saludables增长，无历史比较；问题焦点在2024年预测，因此推理无效。",
+        "E": "此选项直接与图表数据矛盾。chart_42_1/2显示整体产业2024年预测增长（9.0万亿），而非下降，因此alimentos saludables的\"抗周期性\"推理无效。",
+        "F": "此选项基于常识错误泛化。图表未显示alimentos saludables是唯一增长的子行业；整体产业预测增长可能受多因素影响，而常识不能证明其唯一性。",
+        "G": "需要联合推理：一张图表显示2024年整体产业预测营收增长，另一张显示industria de alimentos saludables 2024年增长17%，表明子行业的强劲增长可能贡献了整体增长。不能仅从单张图表推断贡献关系。"
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合推理：一张图表显示2024年10月ventas较高且precio promedio de transacción较高，而另一张显示2024年整体增长17%，需比较月度峰值与年度增幅才能推断特定月份的贡献。单张图表无法确定分布。",
+        "B": "需要联合推理：一张图表中7月precio promedio低但ventas中等，而3月和5月ventas高，另一张图表的年度增长需结合这些月度波动分析销量 vs. 均价的影响，仅单张图表无法解释补偿机制。",
+        "C": "此选项错误识别最高ventas月份。chart_42_5显示3月ventas 100亿，但10月130亿更高；且成交均价7较低，但增长基于总ventas，选项错误强调3月\"最高\"和\"主要贡献\"忽略实际数据。",
+        "D": "此选项基于常识而非图表数据。chart_42_5提供逐月ventas但未标记节假日；常识如\"春节需求高\"可能不适用，例如2月ventas仅70亿（较低）。",
+        "E": "此选项过度泛化外部因素。图表无通货膨胀数据；增长17%来自chart_42_3，且逐月分布（如10月130亿高峰）在chart_42_5中可见，因此分布有解释意义。",
+        "F": "需要联合推理：一张图表显示10月和11月ventas高，而另一张图表的年度增长需从逐月数据计算累积效应，两张图表联合揭示年末月份的关键作用。",
+        "G": "此选项误解增长分布逻辑。12月ventas 90亿（chart_42_5）略低于月平均约9.75十亿，但全年增长来自总和；选项错误认为\"拖累\"，而实际12月贡献为正（增长基于年度比较，非月度）。"
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "需要联合推理：一张图表的年度增长和另一张图表的单月增长百分比接近，但时间尺度不同（全年 vs. 月份），需联合分析以发现稳定性模式，避免将单月数据误读为异常。",
+        "B": "此选项错误比较基准。chart_42_4的\"Ventas Previas\"基准8十亿可能为同比（如2024年1月），但图表未明确定义；选项错误解读\"增长质量较低\"，而百分比相似（17% vs 18%）在chart_42_3和chart_42_4中显示稳定性。",
+        "C": "此选项依赖常识季节假设。图表无季节数据；chart_42_4仅提供单月增长，而chart_42_3为全年，无法直接推断年初模式。",
+        "D": "需要联合推理：一张图表显示2024年增长17%，而另一张显示2025年1月增长18%，需比较两张图表的增长百分比以推断加速趋势；单张图表无法捕捉跨年变化。",
+        "E": "需要联合推理：一张图表的\"Ventas Previas\"可关联到另一张图表的2024年数据或整体趋势，而另一张图表的2024年增长提供基准，需两张图表联合才能推断基准变化对增长百分比的影响。",
+        "F": "此选项与图表数据矛盾。chart_42_4显示2025年1月增长18%（高于2024年17%），而选项声称\"下降\"；常识\"饱和\"无图表支持。",
+        "G": "此选项数值理解错误。chart_42_3中2024年全年117十亿，月平均9.75十亿；chart_42_4中2025年1月9.84十亿，差异仅0.09十亿（约0.9%），选项夸大\"显著加速\"忽略微小差距。"
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta sugerencia es una estrategia comercial general (como la construcción de marca) y no cita las tendencias de crecimiento o valores numéricos en los gráficos. Es fácil de descartar por conocimiento común, ya que no proporciona orientación específica para el ajuste de la cartera de inversión.",
+        "B": "Aplica erróneamente los datos mensuales de chart_42_5 (el precio promedio de transacción en julio de 2024 es 4), pero el ajuste de la cartera de inversión se refiere a una estrategia a largo plazo, no a una operación a corto plazo. Esta sugerencia equivoca el bajo precio como una oportunidad de inversión y ignora el crecimiento continuo de los suplementos dietéticos (chart_42_3 y chart_42_4), lo que puede llevar a una mala asignación de recursos.",
+        "C": "Combina chart_42_1 (la tasa de crecimiento de la industria general se desacelera año tras año, por ejemplo, el crecimiento en 2022 - 2023 es del 3,6%) y chart_42_3 (el alto crecimiento de los suplementos dietéticos pero con el riesgo posible de saturación futura), e introduce conocimientos externos (como el valor de la diversificación de la industria), enfatizando la diversificación de riesgos.",
+        "D": "Combina chart_42_1 (los ingresos de la industria general de gran salud han crecido continuamente desde 2014, pero la tasa de crecimiento pronosticada en 2023 - 2024 se desacelera a aproximadamente el 4,65%) y chart_42_3 (el crecimiento del sector de suplementos dietéticos en 2024 es del 17%, mucho más alto que la tasa de crecimiento general), resaltando la ventaja relativa del subsector.",
+        "E": "Esta opción no se basa en ningún dato de los gráficos, solo en el conocimiento general de que \"el riesgo en el sector tradicional es bajo\". La pregunta original se centra en el alto crecimiento del subsector de suplementos dietéticos, pero esta sugerencia ignora los datos específicos y es general y sin enfoque.",
+        "F": "Combina chart_42_5 (los datos de ventas mensuales de suplementos dietéticos en 2024, por ejemplo, las ventas en octubre y noviembre alcanzaron picos de 13.000 millones y 12.000 millones, mostrando un pico estacional obvio) y chart_42_1 (la tendencia ascendente a largo plazo de la industria general), asegurando que el momento de la inversión coincida con el ciclo de demanda.",
+        "G": "Aparentemente utiliza los datos de chart_42_1 (los ingresos en 2023 - 2024 aumentan de 8,6 a 9,0 billones de yuanes), pero los interpreta erróneamente: aunque la tasa de crecimiento de la industria general se desacelera, el subsector de suplementos dietéticos (chart_42_3) creció un 17% en 2024, mucho más alto que el general. Esta sugerencia confunde el rendimiento de la industria general y el subsector, siendo una sugerencia engañosa para reducir la inversión."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -178,6 +246,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Combina chart_42_5 (por ejemplo, el precio promedio de transacción en julio es 4, el más bajo del año, pero las ventas son de 9.000 millones; en octubre, el precio promedio es 10, más alto, y las ventas son de 13.000 millones, lo que muestra la elasticidad de precios) y chart_42_3 (el crecimiento general de la industria proporciona la base de demanda), optimizando la integración de compras y promociones.",
+        "B": "Aplica erróneamente los datos de crecimiento anual de chart_42_3 (el 17%) y ignora las fluctuaciones estacionales de chart_42_5 (por ejemplo, las ventas en julio son de 9.000 millones frente a 13.000 millones en octubre). Aumentar uniformemente el inventario ignoraría las diferencias entre picos y valles, lo que causaría un desperdicio de inventario en los períodos bajos (como julio), violando el objetivo de la pregunta.",
+        "C": "Combina chart_42_3 (el crecimiento del sector de suplementos dietéticos en 2024 es del 17%) y chart_42_4 (el crecimiento en enero de 2025 es del 18%), resaltando el alto crecimiento continuo de la industria y la necesidad de ampliar el inventario en consecuencia.",
+        "D": "Combina chart_42_5 (los datos de ventas mensuales de suplementos dietéticos en 2024, por ejemplo, las ventas en octubre son de 13.000 millones, el pico, y en julio son de 9.000 millones, el valle) y chart_42_4 (el crecimiento de las ventas en enero de 2025 es del 18%, mostrando la continuidad del crecimiento), asegurando que la estrategia de inventario responda a las fluctuaciones a corto plazo y a las tendencias a largo plazo.",
+        "E": "Esta sugerencia es un conocimiento general de gestión de inventario (como el proceso de auditoría) y no cita los datos estacionales o las características de crecimiento en los gráficos. Es general y sin soporte de datos, por lo que es fácil de descartar.",
+        "F": "Se basa en la lógica general de gestión de riesgos (aumentar el inventario de seguridad) y no se combina con las fluctuaciones mensuales de chart_42_5 (por ejemplo, la alta demanda en octubre y el valle en julio), ignorando la necesidad específica de optimización de costos. La estrategia es vaga.",
+        "G": "Aparentemente utiliza los datos de chart_42_5 (las ventas en octubre de 2024 son de 13.000 millones y el precio promedio es 10), pero razona erróneamente: la demanda es alta en los meses de alto precio, pero aumentar el inventario puede causar un exceso (por ejemplo, la demanda en octubre ya es naturalmente alta), aumentando los costos de compra. Esta sugerencia confunde la relación entre el precio promedio y la demanda y no considera la optimización de costos en los períodos bajos."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Combina chart_42_5 (los datos de ventas mensuales de suplementos dietéticos en 2024, por ejemplo, las ventas en octubre y noviembre son de 13.000 millones y 12.000 millones, los picos del año) y chart_42_3 (el crecimiento de la industria en 2024 es del 17%), asegurando que la asignación de recursos de marketing se alinee con los picos de demanda.",
+        "B": "Esta sugerencia se basa en el conocimiento general de marketing moderno (canales digitales) y no cita los datos de crecimiento o las características mensuales en los gráficos (como las fluctuaciones de chart_42_5). Es general y sin base de datos, por lo que es fácil de descartar.",
+        "C": "Interpreta erróneamente los datos de crecimiento del 17% de chart_42_3 y cree que el alto crecimiento significa redundancia de marketing. Pero el crecimiento puede deberse en parte al marketing, y chart_42_4 muestra un crecimiento continuo del 18% en enero de 2025. Esta sugerencia ignora la necesidad de inversión continua y perdería oportunidades de cuota de mercado.",
+        "D": "Combina chart_42_1 (la tasa de crecimiento de la industria general de gran salud se desacelera, por ejemplo, el crecimiento pronosticado en 2023 - 2024 es de aproximadamente el 4,65%) y chart_42_4 (el crecimiento de los suplementos dietéticos en enero de 2025 es del 18%), resaltando la ventaja relativa del subsector y apoyando la expansión del presupuesto.",
+        "E": "Es una estrategia general (desarrollo de nuevos productos) y ignora las tendencias específicas de ventas (como los picos mensuales o la continuidad del crecimiento), no se dirige a los datos de los gráficos y carece de orientación para la acción.",
+        "F": "Combina chart_42_5 (por ejemplo, el precio promedio de transacción en julio es 4, el más bajo del año, y las ventas son de 9.000 millones, mostrando una oportunidad de sensibilidad al precio) y chart_42_4 (el crecimiento del 18% en enero de 2025 continúa la tendencia), optimizando la estrategia de promoción para aprovechar la elasticidad de precios.",
+        "G": "Aparentemente utiliza los datos de chart_42_5 (las ventas en febrero de 2024 son de 7.000 millones), pero razona erróneamente: el marketing en períodos bajos puede ser ineficaz (la demanda es naturalmente baja), y la estrategia correcta debería centrarse en los meses de pico (por ejemplo, 13.000 millones en octubre). Esta sugerencia interpreta erróneamente la estacionalidad y puede causar un desperdicio de recursos."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     }
   ]

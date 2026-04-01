@@ -49,7 +49,7 @@
     {
       "type": "3",
       "question": "Assuming that the attention channels on the computer - side and the mobile - side are the same, what is the proportion of image - text in the mobile - side retrieval proportion? Express it as a percentage and keep 4 significant figures.",
-      "answer": " 11.20%",
+      "answer": " 11.21%",
       "explanation": "95.88% * 11.69% = 11.208372%",
       "charts_involved": [
         "chart_4_2",
@@ -87,6 +87,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option is a Hard distractor: It incorrectly combines the charts (referring to the news attention in chart_4_3 and the device distribution in chart_4_2). However, the sharp drop in news attention (500,000 on May 12) has nothing to do with the device distribution; the device distribution is the overall monthly data, not changing on a daily basis. Meanwhile, the search attention (chart_4_1) is indeed stable, but this option incorrectly attributes it to the change in device usage rate.",
+        "B": "This option is a Hard distractor: It seemingly bases on the chart (referring to the retrieval device distribution in chart_4_2), but misinterprets the values. The proportion of the computer - side is only 4.12% (extremely low), but it is misjudged as 'high', while the mobile - side with a proportion of 95.88% dominates. In fact, it should make the search behavior more routine and stable, rather than causing fluctuations in news attention.",
+        "C": "This option is an Easy distractor: It is based on industry common sense (such as holiday promotions may affect the data), but does not rely on any chart data. There is no mention of holidays or promotional activities in the charts, so it is a general and incorrect explanation.",
+        "D": "It also relies on the search attention trend chart and the retrieval device distribution chart. In the retrieval device distribution chart, the computer - side only accounts for 4.12%, which strengthens the contribution of the mobile - side to the search stability; the fluctuations in the news attention trend chart (such as the low point on May 8) need to be compared with the device distribution, indicating that the news may have different response times on different platforms.",
+        "E": "It is necessary to combine the search attention trend chart and the retrieval device distribution chart. The search attention trend chart shows that the attention to plastic surgery is almost 7.0 million except on May 16 (stable), while the retrieval device distribution chart shows that the mobile - side accounts for 95.88%, indicating that the search behavior highly depends on mobile devices and may be more regular; however, the news attention trend chart shows that the values fluctuate greatly from 500,000 to 7,800,000 (such as extremely low on May 12), which implies that the news is event - driven. By joint reasoning, we can conclude that the high proportion of the mobile - side makes the search more stable, while the news fluctuations may be due to content factors.",
+        "F": "This option is an Easy distractor: It relies on model knowledge (brand marketing and algorithm updates are common in the digital industry), but does not involve the chart content at all. The charts do not provide information about brands or algorithms, so it is a common - sense error.",
+        "G": "It is necessary to refer to the search attention trend chart, the retrieval device distribution chart and the news attention trend chart. The stability of the search attention trend chart is consistent with the dominance of the mobile - side in the retrieval device distribution chart. However, the news attention trend chart shows an abnormal low value on May 12. We need to combine the device distribution to explain why the search is not affected (daily demand), while the news fluctuates (external dependence)."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "It relies on the search attention trend chart and the news attention channels chart. The peak in the search attention trend chart indicates that the search is an immediate behavior, while the video - dominated channels (88.08%) in the news attention channels chart imply that the news needs editing time. The conflict stems from the difference in content forms.",
+        "B": "This option is a Hard distractor: It incorrectly combines the charts (referring to the search attention in chart_4_1 and the news channels in chart_4_4). However, the proportion of nose plastic surgery on May 16 is still 2.0% (item 48 in chart_4_1), with no sudden increase; the option fabricates the numerical change and incorrectly attributes it to the video content coverage.",
+        "C": "This option is an Easy distractor: It is based on behavioral common sense (users being active vs. passive), but does not refer to any chart data. The charts do not provide information about user preferences, so it is a general and incorrect explanation.",
+        "D": "It is necessary to refer to the search attention trend chart and the news attention channels chart. In the search attention trend chart, on May 16, the proportion of eye plastic surgery drops to 4.0% (usually 5.0%), and the proportion of skin care drops to 13.0% (usually 15.0%), indicating a change in the search theme; the high proportion of videos in the news attention channels chart may not flexibly cover the new theme, resulting in the news not keeping up.",
+        "E": "This option is an Easy distractor: It relies on model knowledge (technical failures may affect the data), but does not involve the chart content at all. There is no record of failures in the charts, so it is a common - sense error.",
+        "F": "This option is a Hard distractor: It seemingly bases on the charts (referring to the news channels in chart_4_4 and the news attention in chart_4_3), but misinterprets the values. The news attention on May 16 is 3,000,000 (chart_4_3), far lower than other days (such as 7,800,000 on May 3). The high proportion of videos does not change the low value on that day. Instead, it should increase the attention. The option misjudges it as 'actually high'.",
+        "G": "It is necessary to combine the search attention trend chart, the news attention trend chart and the news attention channels chart. In the search attention trend chart, on May 16, the attention to plastic surgery is 9.0 million (an obvious peak), but in the news attention trend chart, the attention on the same day is 3,000,000 (no peak); the news attention channels chart shows that the video proportion is 88.08%. By joint reasoning, we can conclude that the production delay of video content may cause the news not to respond to the search event in time."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -133,6 +167,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This option is an Easy distractor: It is based on common sense (users' interest transfer), but does not rely on chart data. The charts do not mention emerging categories, so it is a general and incorrect explanation.",
+        "B": "It relies on the search attention trend chart and the news attention channels chart. In the search attention trend chart, on May 31, the proportion of skin care increases to 16.0%, and the high proportion of videos in the news attention channels chart may strengthen the end - of - month theme (such as summer skin care) through continuous content, affecting the search behavior.",
+        "C": "This option is a Hard distractor: It incorrectly compares the charts (referring to the search in chart_4_1 and the channels in chart_4_4). On May 16, the proportion of eye plastic surgery drops to 4.0% (item 79 in chart_4_1), and the search volume increases to 9.0 million; the high proportion of videos should probably increase the news attention, but the news attention on that day is low (3,000,000). The option ignores the actual data and incorrectly assumes that the video channels directly increase the search proportion.",
+        "D": "It is necessary to refer to the search attention trend chart and the news attention channels chart. The overall search volume in the search attention trend chart is stable (mostly 7.0 million per day), but the proportion changes (such as the decrease in skin care on May 16); the video - dominated channels (88.08%) in the news attention channels chart may make users rely on news consumption, indirectly guiding the search theme and forming a connection.",
+        "E": "This option is a Hard distractor: It incorrectly combines the charts (referring to the proportion in chart_4_1 and the news attention in chart_4_3), but misinterprets the values: the proportion of skin care on May 6 is 14.0% (not 10.0%), and the news attention is 6,800,000 (item 7 in chart_4_3). The option fabricates the numerical value and misjudges it as a'sudden increase' (actually only a slight increase compared with 6,500,000 the previous day).",
+        "F": "This option is a Hard distractor: It seemingly bases on the chart (referring to the news channels in chart_4_4), but incorrectly infers the connection. On May 6, the proportion of skin care does decrease (from 15.0% to 14.0%, items 99 - 100 in chart_4_1), but the proportion of eye plastic surgery increases (from 5.0% to 6.0%). The option does not distinguish the categories, and the high proportion of videos does not necessarily directly lead to a decrease in the search proportion (there may actually be no causal relationship).",
+        "G": "It is necessary to combine the search attention trend chart and the news attention channels chart. In the search attention trend chart, on May 6, the proportion of eye plastic surgery is 6.0% (higher than the usual 5.0%), and the proportion of skin care is 14.0% (lower than the usual 15.0%); the news attention channels chart shows that the video proportion is 88.08%. By joint reasoning, we can conclude that the video content may preferentially push the eye plastic surgery theme, attracting the search interest and causing the decrease in the proportion of skin care."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "E",
+        "C"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option does not rely on chart data and is only based on general business common sense (such as 'comprehensive coverage of all channels'). However, the charts show that the mobile - side retrieval accounts for 95.88% and video consumption accounts for 88.08%. Balanced resource allocation will waste resources on inefficient channels and ignore the concentrated preferences revealed by the data.",
+        "B": "This option misinterprets the chart data: chart_4_2 shows that the computer - side retrieval accounts for only 4.12%, far lower than the mobile side, but it suggests'significantly increasing video resources on the computer side'. This confuses the 'fixed user group' with 'efficient coverage' and ignores the dominant position of the mobile side (95.88%), which may lead to resource misallocation.",
+        "C": "Combining chart_4_2 (the mobile - side retrieval accounts for a very high proportion, nearly 96%) and chart_4_4 (the video information channel accounts for over 88%), it is inferred that mobile - side video content should be prioritized to maximize user reach.",
+        "D": "Combining chart_4_2 (dominance of the mobile side) and chart_4_4 (the mini - program channel accounts for less than 0.2%), it is recommended to test emerging channels in the mobile ecosystem and leverage the high mobile usage rate to explore growth points.",
+        "E": "This option misinterprets the chart data: chart_4_4 shows that the proportion of image - text is only 11.69%, while video accounts for 88.08%, but it suggests 'investing mainly in image - text'. This over - amplifies the significance of image - text as the'second - largest form', ignores the absolute dominance of video, and does not consider the high retrieval rate on the mobile side. The strategic direction contradicts the data.",
+        "F": "Combining chart_4_2 (the computer - side retrieval accounts for less than 5%) and chart_4_4 (the image - text channel accounts for about 12%), it points out that image - text and the computer side are less efficient, and resources should be optimized for allocation.",
+        "G": "This option does not rely on chart data and only generally suggests 'improving content quality' without specifying device or form strategies. The chart data clearly shows users' device preferences (dominance of the mobile side) and content forms (dominance of video). This suggestion is not targeted and cannot directly improve reach and engagement."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option misinterprets the chart data: chart_4_1 shows that the search attention peak on May 16th is 9.0 million, and chart_4_3 shows that the information attention on that day is 3,000,000 (relatively low), but it suggests 'ignoring the search peak'. This misjudges that the search peak represents users' active demand, while information attention is a consumption behavior. The two should be coordinated rather than opposed, and this strategy will miss the opportunity for high conversion.",
+        "B": "This option does not rely on chart data and is only based on general marketing common sense (such as 'even distribution'). However, the charts (chart_4_1 and chart_4_3) show obvious trend fluctuations (such as the search peak on May 16th and the information low point on May 12th). Even distribution will miss the peak conversion opportunities and reduce efficiency.",
+        "C": "Combining chart_4_1 (the search attention in mid - May shows a single - day peak, much higher than other dates) and chart_4_3 (the information attention fluctuates greatly overall, but the peak dates do not directly overlap), it is inferred that the search peak is a signal of demand, and information promotion should be synchronized to convert users.",
+        "D": "Combining chart_4_1 (the search attention is generally stable but has a single - day anomaly) and chart_4_3 (the information attention has multiple low and high points, such as significant fluctuations in mid - month), it emphasizes dynamic monitoring to optimize resource allocation.",
+        "E": "Combining chart_4_3 (the information attention shows an upward trend at the end of the month and reaches a relatively high level) and chart_4_1 (the search attention is stable at the end of the month), it is recommended to use the high - engagement period of information to consolidate user loyalty.",
+        "F": "This option does not rely on chart data and only generally refers to holiday common sense. However, the charts do not show the association between holidays and trends (such as the search attention from May 1st to 5th is stable at 6.5 - 7.0 million, without a significant holiday peak). This suggestion has no data support and may mislead resource allocation.",
+        "G": "This option misinterprets the chart data: chart_4_3 shows that the information attention on May 12th is extremely low (500,000), but it suggests 'concentrating promotion at the low point'. This confuses the 'low point' with an 'opportunity'. In fact, the low point may reflect a lack of interest, and the promotion effect will be poor, which is contrary to the active demand during the trend peak (such as the search peak)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Combining chart_4_1 (the search proportion of eye plastic surgery fluctuates at the beginning and middle of the month, with obvious changes between days) and chart_4_3 (the overall information attention fluctuates), it is recommended to make dynamic adjustments to respond to interest fluctuations.",
+        "B": "This option does not rely on chart data and only generally suggests 'following the hotspots'. However, the charts provide specific search proportion data (such as the dominance of skin care), and this suggestion ignores data - driven decisions, which may lead to resource waste in low - potential areas.",
+        "C": "Combining chart_4_1 (the search proportion of nose plastic surgery remains stable at the lowest level without change) and chart_4_4 (there is a large difference in the proportions of video and image - text channels), it points out that resources should be tilted towards high - growth areas, but basic coverage should be maintained to conform to inclusive values.",
+        "D": "This option misinterprets the chart data: chart_4_1 shows that the proportion of nose plastic surgery is always the lowest (2.0%), but it suggests 'increasing resources significantly'. This misinterprets'stability' as 'high potential' and ignores the higher proportion of skin care (~15%) and its upward signs. The strategic direction is deviated.",
+        "E": "Combining chart_4_1 (the search proportion of skin care exceeds 15% on most days and increases to a higher level at the end of the month) and chart_4_4 (the video channel accounts for nearly 90%), it is inferred that skin care is a high - interest area, and video content can amplify its attractiveness.",
+        "F": "This option misinterprets the chart data: chart_4_1 shows that the proportion of skin care drops to 13.0% on May 16th, but it is generally high and rises to 16.0% at the end of the month, yet it suggests'reducing investment'. This over - amplifies the single - day fluctuation, ignores the long - term trend and dominant position, while the proportion of eye plastic surgery is only 5.0% and fluctuates (such as 6.0% on May 6th). The strategy is based on one - sided data.",
+        "G": "This option does not rely on chart data and is only based on the common - sense 'fair distribution'. However, the chart (chart_4_1) shows that the proportion of skin care is high (~15%) and has an upward trend (16% on May 31st), while that of nose plastic surgery is only 2.0%. Balanced allocation will ignore high - potential areas and reduce overall efficiency."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     }
   ]

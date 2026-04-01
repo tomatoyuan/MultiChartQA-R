@@ -88,6 +88,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on the joint reasoning of the search attention trend chart (showing that the attention fluctuated in May, such as the mid - month peak and the end - of - month rebound) and the top 5 search cities chart (showing that Beijing has the highest proportion, followed by Shenzhen, Wuhan, etc.). It infers the relationship between the'mid - month peak' and the 'city with the highest proportion'. Joint reasoning is required: a single chart cannot complete the reasoning. Only from the trend chart, we cannot know the contribution of each city, and only from the city proportion chart, we cannot explain the trend change. We must combine the two to analyze the dynamic impact of urban search behavior on the overall trend.",
+        "B": "This is a hard interference item. It seems to be based on the chart but misinterprets the values. Chart_8_4 shows that the proportion of Wuhan is 5.5%, lower than that of Shenzhen (the second - largest city in the top 5) which is 6%, and the proportion is small, so it cannot dominate the decline. In fact, during the downward phase of the trend, the attention dropped from 100,000 to 45,000, with a large amplitude, which requires cities with high proportions to drive. Therefore, it is a wrong inference.",
+        "C": "This is a hard interference item. It seems to be based on the chart but wrongly understands the gap. In chart_8_4, the proportion of Guangzhou is only 2.5%, the smallest, and the change in its search volume has a weak impact. During the rebound phase, the attention increased from 45,000 to 85,000, a significant increase, which requires cities with high proportions such as Beijing (19%) to drive. Therefore, it wrongly magnifies the role of Guangzhou.",
+        "D": "This is an easy interference item, based on common sense rather than chart data. Commonly, holidays may affect search behavior, but in the chart, the search attention on May 1 (near Labor Day) was 60,000, not the lowest point (the lowest was 45,000 after the middle of the month), and the trend change is not directly related to holidays (such as the end - of - month rebound). Therefore, it is wrong and does not rely on the chart.",
+        "E": "Option correctness: This option is based on the joint reasoning of the search attention trend chart (showing that the attention fluctuated in May, such as the mid - month peak and the end - of - month rebound) and the top 5 search cities chart (showing that Beijing has the highest proportion, followed by Shenzhen, Wuhan, etc.). It infers the potential impact of the 'decline phase' and the 'cities with the second - highest proportion'. Joint reasoning is required: a single chart cannot complete the reasoning. Only from the trend chart, we cannot know the contribution of each city, and only from the city proportion chart, we cannot explain the trend change. We must combine the two to analyze the dynamic impact of urban search behavior on the overall trend.",
+        "F": "This is an easy interference item, based on industry common sense (external events such as policies may affect searches), but the chart does not mention any events or policies. Therefore, it is a generally wrong option.",
+        "G": "Option correctness: This option is based on the joint reasoning of the search attention trend chart (showing that the attention fluctuated in May, such as the mid - month peak and the end - of - month rebound) and the top 5 search cities chart (showing that Beijing has the highest proportion, followed by Shenzhen, Wuhan, etc.). Joint reasoning is required: a single chart cannot complete the reasoning. Only from the trend chart, we cannot know the contribution of each city, and only from the city proportion chart, we cannot explain the trend change. We must combine the two to analyze the dynamic impact of urban search behavior on the overall trend."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is a hard interference item. It seems to be based on the chart but wrongly understands the gap and conflict. In chart_8_3, although the growth rate of first - tier cities is 3%, which is low, the proportion is high (52%), and the increase may cover the negative growth rate (for example, second - tier cities reduce about 2.7% of the total search, and first - tier cities increase 1.56% of the total search, but the overall trend increases at the end of the month). The option wrongly emphasizes the impact of fourth - tier cities (with a proportion of only 10%) and misjudges that the overall trend should decline, ignoring the buffering effect of the high - proportion cities.",
+        "B": "This is a hard interference item. It seems to be based on the chart but misinterprets the values and relationships. In chart_8_3, the growth rate of third - tier cities is - 30% (more negative than that of second - tier cities which is - 18%), and both decrease, so they cannot offset each other. In fact, when calculating, the reduction of second - tier cities (proportion 15% * 18%≈2.7% of the total search) and the reduction of third - tier cities (14% * 30%≈4.2% of the total search) are superimposed, which should intensify the decline, rather than support the increase.",
+        "C": "Option correctness: This option is based on the joint reasoning of the attention chart by city level (showing that first - tier cities account for 52% with a growth rate of 3%, and second - tier and lower - tier cities have low proportions and negative growth rates) and the search attention trend chart (showing that the attention increased from 45,000 to 85,000 at the end of May). Joint reasoning is required: there is a conflict in a single chart (the attention chart by city level shows that most cities have negative growth rates, but the overall trend in the search attention trend chart is rising). We must combine the two to analyze the amplification or offset effect of the city weights to explain why the negative growth rates do not lead to an overall decline.",
+        "D": "Option correctness: This option is based on the joint reasoning of the attention chart by city level (showing that first - tier cities account for 52% with a growth rate of 3%, and second - tier and lower - tier cities have low proportions and negative growth rates) and the search attention trend chart (showing that the attention increased from 45,000 to 85,000 at the end of May). It infers the conflict mitigation between 'the small proportion of other cities' and 'limited drag'. Joint reasoning is required: there is a conflict in a single chart (the attention chart by city level shows that most cities have negative growth rates, but the overall trend in the search attention trend chart is rising). We must combine the two to analyze the amplification or offset effect of the city weights to explain why the negative growth rates do not lead to an overall decline.",
+        "E": "Option correctness: This option is based on the joint reasoning of the attention chart by city level (showing that first - tier cities account for 52% with a growth rate of 3%, and second - tier and lower - tier cities have low proportions and negative growth rates) and the search attention trend chart (showing that the attention increased from 45,000 to 85,000 at the end of May). It infers the relationship between 'the high proportion of first - tier cities' and 'the overall increase'. Joint reasoning is required: there is a conflict in a single chart (the attention chart by city level shows that most cities have negative growth rates, but the overall trend in the search attention trend chart is rising). We must combine the two to analyze the amplification or offset effect of the city weights to explain why the negative growth rates do not lead to an overall decline.",
+        "F": "This is an easy interference item, based on common sense rather than the chart. Commonly, a large base may buffer the negative growth rate, but chart_8_3 shows that the total proportion of lower - tier cities is only 24% (15% for second - tier + 14% for third - tier + 10% for fourth - tier), far lower than that of first - tier cities which is 52%, and the growth rates are all negative, so they cannot support the increase. Therefore, it is wrong and does not rely on the chart.",
+        "G": "This is an easy interference item, based on industry common sense (economic factors affect searches), but the chart does not provide economic data, and the trend change is specifically about the end - of - month rebound. Therefore, it is a generally wrong option."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy interference item, based on language common sense (the popularity of the mobile Internet). However, the chart shows that the proportion of mobile devices is as high as 87.97%, and the TGI differences among age groups are significant (such as TGI 180 for those over 65), not equal. Therefore, it is a generally wrong option.",
+        "B": "Option correctness: This option is based on the joint reasoning of the retrieval device proportion chart (showing that the proportion of mobile devices is much higher than that of computer devices) and the age distribution chart (showing the proportion and search preference index of each age group). It infers the relationship between the 'group with the highest proportion and strong preference' and the 'dominance of mobile devices'. Joint reasoning is required: a single chart cannot complete the reasoning. Only from the device chart, we cannot know the age preferences, and only from the age chart, we cannot explain the device distribution. We must combine the two to analyze the driving mechanism of high - TGI groups (indicating a higher - than - average search preference) on the mobile device usage rate.",
+        "C": "Option correctness: This option is based on the joint reasoning of the retrieval device proportion chart (showing that the proportion of mobile devices is much higher than that of computer devices) and the age distribution chart (showing the proportion and search preference index of each age group). Joint reasoning is required: a single chart cannot complete the reasoning. Only from the device chart, we cannot know the age preferences, and only from the age chart, we cannot explain the device distribution. We must combine the two to analyze the driving mechanism of high - TGI groups (indicating a higher - than - average search preference) on the mobile device usage rate.",
+        "D": "This is an easy interference item, based on common sense rather than the chart. Commonly, young people may use mobile devices more often, but chart_8_5 shows that the TGI of the 18 - 24 age group is 90 (lower than the average of 100), and the proportion is only 10%, with a weak search preference. Therefore, it is wrong and does not rely on the chart.",
+        "E": "This is a hard interference item. It seems to be based on the chart but wrongly understands the numerical impact. In chart_8_5, the TGI of those over 65 is the highest at 180, but the proportion is only 3%, so the absolute contribution is small. The dominance of mobile devices requires large - scale groups (such as the 25 - 34 age group with a proportion of 45% and TGI 120). The option wrongly magnifies the role of the small - proportion group.",
+        "F": "Option correctness: This option is based on the joint reasoning of the retrieval device proportion chart (showing that the proportion of mobile devices is much higher than that of computer devices) and the age distribution chart (showing the proportion and search preference index of each age group). It infers the potential contribution between the 'group with the strongest preference' and 'the high proportion of mobile devices'. Joint reasoning is required: a single chart cannot complete the reasoning. Only from the device chart, we cannot know the age preferences, and only from the age chart, we cannot explain the device distribution. We must combine the two to analyze the driving mechanism of high - TGI groups (indicating a higher - than - average search preference) on the mobile device usage rate.",
+        "G": "This is a hard interference item. It seems to be based on the chart but wrongly compares and ranks. In chart_8_5, the TGI of the 45 - 54 age group is 90 (slightly lower than the average), and the TGI of the 55 - 64 age group is 110 (higher than the average), but the proportion of the latter is only 5%, with a weak influence. In fact, the high mobile device usage rate should be driven by groups with high proportions and high TGI (such as the 25 - 34 age group). The option wrongly devalues the potential contribution of the 45 - 54 age group."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Involving chart_8_1 (the search attention trend shows fluctuations, with significant peaks and troughs) and chart_8_2 (the proportion of mobile - side retrieval is extremely high, while the proportion of computer - side retrieval is relatively low), it emphasizes dynamically allocating resources during peak periods to meet the dominant needs of mobile users.",
+        "B": "This option misinterprets the search trend: the data on 5/13 (45,000) is indeed low during the trough period, but chart_8_1 shows that the demand fluctuates greatly, and the trough period is not a stable cultivation opportunity; moreover, it does not consider the device characteristics (mobile devices dominate with 87.97%), and offline activities are out of touch with online services.",
+        "C": "This option is based on general business common sense (advertising enhances awareness), but it has no specific action guidelines and does not combine the search trend or device characteristics (such as mobile device dominance), so it can be easily excluded by common sense.",
+        "D": "Involving chart_8_5 (the 25 - 34 age group has the highest proportion and a high TGI, indicating a high intensity of interest) and chart_8_2 (the proportion of mobile - side retrieval is extremely high), it focuses on optimizing services for the mainstream user group and the main device channel.",
+        "E": "This option wrongly combines chart_8_5 (the TGI of people over 65 is 180) and chart_8_2 (the computer - side proportion is 12.03%): although the TGI is high, the proportion is only 3%, with a small base; the proportion of the computer - side is low, and mobile devices dominate with 87.97%. It is common sense that elderly users are more likely to rely on mobile devices, so optimizing the computer - side is inefficient.",
+        "F": "Involving chart_8_3 (first - tier cities have the highest attention proportion and a positive growth rate, while second - tier, third - tier, and fourth - tier cities all have negative growth rates) and chart_8_4 (first - tier cities such as Beijing have a prominent proportion in the top 5 search cities), it guides resource allocation based on geographical distribution and growth trends.",
+        "G": "This option seemingly uses the data from chart_8_3 (the second - tier proportion is 15% and the growth rate is - 18%), but the logic is wrong: a negative growth rate indicates a shrinking demand, and resources should be prioritized in areas with positive growth (the first - tier growth rate is 3%) rather than being invested in a shrinking market, which misleads the resource allocation direction."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -181,6 +249,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Involving chart_8_3 (first - tier cities have a positive growth rate and a high proportion, while second - tier, third - tier, and fourth - tier cities all have negative growth rates) and chart_8_1 (the overall search trend fluctuates, but the data by city level is independent), it allocates resources based on the growth rate differences: invest in promotions in high - growth areas and invest in content in low - growth areas to boost long - term demand.",
+        "B": "This option misinterprets geographical characteristics: chart_8_3 shows that the growth rate in fourth - tier cities is - 18% and the proportion is only 10%, indicating a shrinking demand; there is no data support for promotional activities, and it ignores high - search cities (such as Beijing with 19%), resulting in scattered resources.",
+        "C": "This option is based on industry common sense (cooperation enhances trust), but it is too broad and not targeted, and does not combine specific age or city data (such as the core group of 25 - 34 years old or high - search cities like Beijing), so it can be easily excluded.",
+        "D": "This option seemingly uses the data from chart_8_4 (Shenzhen accounts for 6%) and chart_8_5 (the 35 - 44 age group accounts for 25% and has a TGI of 100), but the logic is confused: Shenzhen is not the top - ranked city (Beijing accounts for 19%), and the TGI of the 35 - 44 age group is only 100 (average interest), which is lower than the TGI of 120 for the 25 - 34 age group; higher - potential combinations should be prioritized.",
+        "E": "Involving chart_8_4 (cities such as Beijing and Shenzhen have a high proportion in the top 5 search cities, representing hot areas) and chart_8_5 (the 25 - 34 age group has the highest proportion and a high TGI), it achieves precise positioning through cross - analysis of hot cities and the core user group.",
+        "F": "This option wrongly applies the data from chart_8_3 (the third - tier proportion is 14% and the growth rate is - 30%): a severely negative growth rate indicates a shrinking market, and educational content may be ineffective; resources should be prioritized in areas with positive growth (the first - tier growth rate is 3%) rather than cultivating a shrinking market.",
+        "G": "Involving chart_8_2 (the proportion of mobile - side retrieval is extremely high, while the proportion of computer - side retrieval is relatively low) and chart_8_5 (the 25 - 34 age group has the highest proportion and a high TGI, and may prefer mobile use), it emphasizes combining device preferences with the mainstream user group to optimize the channel strategy."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -204,6 +289,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Involving chart_8_1 (the search trend has a trough period, such as the relatively low attention in the middle of the month) and chart_8_2 (although the proportion of computer - side retrieval is small, it is stable), it improves the efficiency of the computer - side during the low - demand period to handle more professional queries.",
+        "B": "This option misinterprets the search trend: chart_8_1 shows that the data fluctuates greatly, and there is no real 'stable period' (for example, the data ranges from 55,000 to 70,000 from 5/20 to 5/25), and the AI deployment does not target peak demand (85,000 at the end of the month); the resource allocation does not optimize the response to fluctuations.",
+        "C": "This option seemingly uses the data from chart_8_5 (the proportion of people under 18 is 2% and the TGI is 60) and chart_8_2 (the mobile - side proportion is 87.97%), but the logic is wrong: a TGI of 60 is lower than 100, indicating that the interest is lower than average; resources should be prioritized for groups with a high TGI (such as people over 65 with a TGI of 180) rather than for low - interest groups.",
+        "D": "Involving chart_8_1 (the search attention trend shows a significant increase in the latter part of the middle of the month, especially reaching a peak at the end of the month) and chart_8_2 (the proportion of mobile - side retrieval is extremely high), it prioritizes mobile resources during the demand - growth period to capture the peak.",
+        "E": "This option wrongly combines the data from chart_8_1 (a trough at the beginning of the month with 60,000) and chart_8_2 (the computer - side proportion is 12.03%): resources can be optimized during the trough period, but mobile devices dominate with 87.97%, and the computer - side proportion is small; there is no data support for in - depth queries, and the peak period (at the end of the month) requires more response capabilities.",
+        "F": "Involving chart_8_5 (the TGI of people over 65 is extremely high, indicating a relatively strong interest, but the proportion is low) and chart_8_2 (the proportion of mobile - side retrieval is extremely high), it conforms to good values: not ignoring minority groups, but using the advantages of mobile devices to provide auxiliary services.",
+        "G": "This option is based on general service common sense (updating policies), but it has no guidelines for a dynamic strategy and does not combine the search trend or user characteristics (such as age or device preferences), so it is too broad."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

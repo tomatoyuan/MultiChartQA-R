@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "This option requires joint reasoning from chart_56_1 and chart_56_2. Chart_56_1 shows that the market size growth rate has been continuously decreasing (from high to low), while chart_56_2 provides data on user scale proportion and growth rate (e.g., short - video users have a high proportion but a low CAGR, and live - streaming users have a relatively high CAGR but a small scale). This option infers the natural slowdown rule from the 'expansion of the market size base' (from chart_56_1) and the 'decline in user growth rate' (from the CAGR data in chart_56_2). It cannot rely on a single chart: chart_56_1 alone cannot explain the reasons on the user side, and chart_56_2 alone cannot be associated with the growth rate trend.",
+        "B": "This option requires joint reasoning from chart_56_1 and chart_56_2. Chart_56_1 shows that the market size growth rate has been continuously decreasing (from high to low), while chart_56_2 provides data on user scale proportion and growth rate (e.g., short - video users have a high proportion but a low CAGR, and live - streaming users have a relatively high CAGR but a small scale). This option combines the trend of 'high user proportion but moderate growth rate' with the 'declining growth rate' to infer the risk of market saturation. It cannot rely on a single chart: chart_56_1 alone cannot explain the reasons on the user side, and chart_56_2 alone cannot be associated with the growth rate trend.",
+        "C": "This is an easy distraction: it relies on common sense (changes in consumer preferences), but there is no data on changes in consumer interests or behaviors in the charts, which is irrelevant to the chart content.",
+        "D": "This is an easy distraction: it is based on common sense (policy regulation may affect the market), but there is no policy data mentioned in the charts, and it cannot be derived from the given information. It is a general and wrong option.",
+        "E": "This is a hard distraction: it seems to be based on the chart (chart_56_2), but misinterprets the data. The scale of live - streaming users (830 million) is actually smaller than that of online shopping users (970 million), and although its CAGR (7.8%) is high, its absolute scale is small and cannot drive the growth rate alone; the chart shows the user growth potential but does not directly explain the slowdown in growth rate, which wrongly exaggerates its impact.",
+        "F": "This option requires joint reasoning from chart_56_1 and chart_56_2. Chart_56_1 shows that the market size growth rate has been continuously decreasing (from high to low), while chart_56_2 provides data on user scale proportion and growth rate (e.g., short - video users have a high proportion but a low CAGR, and live - streaming users have a relatively high CAGR but a small scale). This option compares the 'high growth rate of live - streaming users' with the 'large scale of online shopping users but low CAGR' to explain why the growth rate cannot be maintained. It cannot rely on a single chart: chart_56_1 alone cannot explain the reasons on the user side, and chart_56_2 alone cannot be associated with the growth rate trend.",
+        "G": "This is a hard distraction: it seems to be based on the chart (chart_56_1), but has a wrong understanding of the values. The growth rate in 2024 is 17.7% (corresponding to 2023 - 2024), and the growth rate in 2025e is 14.8% (corresponding to 2024 - 2025e), which is actually a downward trend; a high user scale proportion (e.g., short - video users account for 93.8%) indicates potential, but it does not mean that the growth rate should accelerate, which wrongly infers the causal relationship."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option requires joint reasoning from chart_56_3 and chart_56_4. Chart_56_3 shows that the satisfaction proportion is low (only 45.2% are satisfied), and the proportion of 'Average' is the highest; chart_56_4 shows that product quality has the highest proportion in decision - making (76.9%), followed by price and brand. This option uses the trend of'strong decision - making factors of price/brand' and 'low satisfaction level' to explain that the composite factors are not met. It cannot rely on a single chart: chart_56_3 alone cannot be associated with decision - making factors, and chart_56_4 alone cannot explain the satisfaction data.",
+        "B": "This is a hard distraction: it seems to be based on the charts (chart_56_3 and chart_56_4), but wrongly interprets the numerical association. In decision - making factors, quality accounts for 76.9% and is dominant, and price accounts for 64.1% and is second; in satisfaction, the sum of 'Fairly Satisfied' (37.4%) and 'Very Satisfied' (7.8%) is 45.2%, but 'Average' (46.9%) is the highest, indicating that the quality expectation is not met. The option wrongly regards price as the main cause, while the chart shows that quality is the primary decision - making factor. The contradiction needs to explain the gap rather than attribute it to price.",
+        "C": "This is an easy distraction: it relies on industry common sense (logistics problems), but there is no mention of distribution or supply - chain factors in the charts, which is irrelevant to the given data.",
+        "D": "This is a hard distraction: it seems to be based on the chart (chart_56_3), but has a wrong understanding of the gap. The proportion of 'Average' (46.9%) is indeed higher than the sum of 'Satisfied' (45.2%), but the focus of the problem is the contradiction between the dominant role of quality in decision - making (76.9%) and the low satisfaction level (only 45.2% are satisfied); the option wrongly believes that the close data indicates no contradiction and ignores that 'Average' may imply a negative evaluation.",
+        "E": "This option requires joint reasoning from chart_56_3 and chart_56_4. Chart_56_3 shows that the satisfaction proportion is low (only 45.2% are satisfied), and the proportion of 'Average' is the highest; chart_56_4 shows that product quality has the highest proportion in decision - making (76.9%), followed by price and brand. This option compares the 'high proportion of quality in decision - making' with the 'low satisfaction proportion', implying problems in quality control. It cannot rely on a single chart: chart_56_3 alone cannot be associated with decision - making factors, and chart_56_4 alone cannot explain the satisfaction data.",
+        "F": "This option requires joint reasoning from chart_56_3 and chart_56_4. Chart_56_3 shows that the satisfaction proportion is low (only 45.2% are satisfied), and the proportion of 'Average' is the highest; chart_56_4 shows that product quality has the highest proportion in decision - making (76.9%), followed by price and brand. This option combines the 'dominant role of quality in decision - making' with the distribution of 'average satisfaction level' to infer the conflict between expectation and experience. It cannot rely on a single chart: chart_56_3 alone cannot be associated with decision - making factors, and chart_56_4 alone cannot explain the satisfaction data.",
+        "G": "This is an easy distraction: it is based on common sense (technical problems affecting the experience), but there is no algorithm or logistics data involved in the charts, which is an unfounded generalization error."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: it seems to be based on the charts (chart_56_1 and chart_56_3), but misjudges the values. The growth rate indeed decreases (chart_56_1), but 'Somewhat Dissatisfied' (4.6%) + 'Completely Dissatisfied' (3.4%) = 8.0% (chart_56_3), while quality accounts for 76.9% in decision - making factors; the option wrongly believes that a low dissatisfaction proportion indicates small challenges. In fact, 'Average' (46.9%) may imply problems, and the fact that the satisfaction level is less than 50% forms a core contradiction with the high decision - making proportion of quality, and the challenges are not exaggerated.",
+        "B": "This is a hard distraction: it seems to be based on multiple charts (chart_56_2 and chart_56_4), but wrongly integrates the data. The proportion of short - video users (93.8%) is indeed high, but the CAGR is only 4.5%, indicating moderate growth; the CAGR of live - streaming users (7.8%) is high, but the scale (830 million) is smaller than that of online shopping users (970 million), and there is a contradiction between the dominant role of quality in decision - making (76.9%) and the low satisfaction level (45.2%). The option wrongly ignores the satisfaction challenge and wrongly infers that user expansion can drive growth alone.",
+        "C": "This option combines chart_56_1 (the downward trend of market size growth rate), chart_56_2 (user saturation, such as the 93.8% proportion of short - video users) and chart_56_3 (low satisfaction proportion) to infer the transformation of the growth model. It cannot be inferred from chart_56_1 or chart_56_2 alone, and satisfaction data needs to be added.",
+        "D": "This option combines chart_56_2 (high CAGR of live - streaming users), chart_56_4 (the highest proportion of quality in decision - making) and chart_56_3 (average satisfaction level as the main trend), implying the leverage effect of quality improvement on user potential. It needs to cross - reference the charts of users, decision - making and satisfaction.",
+        "E": "This is an easy distraction: it is based on common sense (external economic factors), but there is no global economic or cross - border data involved in the charts, which is a general statement without chart support.",
+        "F": "This is an easy distraction: it relies on industry common sense (problems with anchor capabilities), but there is no content related to anchor training in the charts, and it cannot be derived from the data.",
+        "G": "This option integrates chart_56_4 (strong decision - making factors of price/brand) and chart_56_3 (satisfaction distribution) to infer the need for cost - performance optimization. It needs to cross - reference the charts of users, decision - making and satisfaction."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Wrong reasoning about the chart trends (chart_56_1 and chart_56_2). Although the CAGR of short - video users is 4.5%, lower than that of live - streaming users, the scale is large (1.04 billion) and the proportion is high (93.8%), which is a stable source of traffic. The suggestion of'reducing investment' contradicts the stable growth and large base scale shown in the chart and may mislead the decision - makers to ignore the core channels.",
+        "B": "It is a common - sense suggestion based on the price - war logic, but it does not address the potential for user scale growth (such as the high growth rate of live - streaming users) or the slowdown in growth rate in the charts, ignoring the specific optimization points for resource allocation.",
+        "C": "The statement is broad and based on general business common sense. It does not combine the chart data (such as the potential for user scale growth or the slowdown in growth rate). The suggestion lacks specific action guidelines and only generally emphasizes brand building.",
+        "D": "Option 3 jointly infers from chart_56_2 (the large scale of online shopping users but medium CAGR) and chart_56_1 (in the mature stage of the market, user retention and conversion are needed).",
+        "E": "Option 1 jointly infers from chart_56_2 (the extremely high proportion of short - video users among Internet users and a stable CAGR) and chart_56_1 (the annual decline in the growth rate of the market scale, requiring new growth points).",
+        "F": "Option 2 jointly infers from chart_56_2 (the CAGR of live - streaming users is significantly higher than other groups but the proportion is relatively low) and chart_56_1 (in the context of the slowdown in growth rate, high - potential user groups need to be explored).",
+        "G": "Wrong interpretation of the chart data (chart_56_2). Although the scale of online shopping users is large (0.97 billion), the CAGR (5.6%) is lower than that of live - streaming users (7.8%), and the chart shows that its penetration rate is already high (87.9%), with limited room for improvement. The original question emphasizes the potential for user scale growth, and this suggestion ignores the groups with higher growth potential."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Option 2 jointly infers from chart_56_4 (the product price has the second - highest proportion among the decision - making factors) and chart_56_3 (the group with average satisfaction has the largest proportion, and price optimization can improve their satisfaction).",
+        "B": "Option 3 jointly infers from chart_56_4 (the brand has the third - highest proportion among the decision - making factors) and chart_56_3 (the proportion of satisfied consumers is less than half, and brand endorsement can enhance trust).",
+        "C": "It is a broad suggestion based on customer - service common sense. It does not combine the chart data (such as the satisfaction distribution or decision - making factors) and does not target the optimization of product strategies. The actions are vague and lack specific product - related guidelines.",
+        "D": "It is a common - sense strategy based on general retail logic, but it is not related to the satisfaction structure (such as the reasons for the dissatisfied group) or decision - making factors in the charts, ignoring the core issues (quality or price optimization).",
+        "E": "Wrong interpretation of the numerical trend (chart_56_3 and chart_56_4). A high proportion of average satisfaction (46.9%) does not mean that the product quality meets the standard. The chart shows that there is a dissatisfied group (8%) and quality is the primary decision - making factor (76.9%). The suggestion of'reducing quality investment' contradicts the data and may mislead the resource allocation direction.",
+        "F": "Option 1 jointly infers from chart_56_4 (the product quality has the highest proportion among the decision - making factors) and chart_56_3 (the sum of the proportions of dissatisfied and average - satisfied consumers exceeds half, requiring targeted improvement).",
+        "G": "Wrong confusion of the chart relationship (chart_56_3 and chart_56_4). Although the brand has a relatively high proportion (59.3%) in decision - making, it is lower than the product quality (76.9%). In the satisfaction data, the dissatisfied group (8%) is more likely to be related to quality (such as'somewhat dissatisfied' and 'completely dissatisfied'). The suggestion of 'brand cooperation' cannot directly solve the satisfaction problem, overestimating the role of the brand."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Option 3 jointly infers from chart_56_4 (the product quality and price have the highest proportions among the decision - making factors) and chart_56_3 (the large groups of dissatisfied and average - satisfied consumers, and quality and price optimization can achieve quick results).",
+        "B": "Option 2 jointly infers from chart_56_4 (the platform image has a medium proportion among the decision - making factors but is higher than the anchor's credit) and chart_56_3 (the average satisfaction level, and platform trust can improve the overall experience).",
+        "C": "Option 1 jointly infers from chart_56_4 (although the anchor's credit has a relatively low proportion among the decision - making factors, it has an influence) and chart_56_2 (the high growth of live - streaming users, and the anchor can be used as a contact point to drive user expansion).",
+        "D": "Wrong interpretation of the numerical priority (chart_56_3 and chart_56_4). Although the proportion of quality is high (76.9%), the proportion of price (64.1%) is also crucial. In the satisfaction data, the group with average satisfaction (46.9%) may be affected by price. The suggestion of 'ignoring price strategy' contradicts the diversified decision - making factors and may lead to resource imbalance.",
+        "E": "The statement is broad and based on digital - marketing common sense. It does not combine the chart data (such as the diversification of decision - making factors or the potential for user growth). The suggestion lacks specific resource - allocation guidelines and only generally emphasizes exposure.",
+        "F": "Wrong association of the chart data (chart_56_2, chart_56_3, chart_56_4). The anchor's credit only has a proportion of 39.3% in decision - making, lower than quality (76.9%), price (64.1%), and brand (59.3%). The user growth (CAGR 7.8%) is for all live - streaming users, not specific to the anchor. The suggestion of 'fully investing' overestimates its influence and ignores other factors with higher weights.",
+        "G": "It is a common - sense suggestion based on the loyalty - program logic, but it does not address the decision - making factors (such as the proportions of quality and price) or satisfaction issues in the charts, ignoring the need for balance in the competitive background."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     }
   ]

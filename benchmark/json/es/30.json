@@ -85,6 +85,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "所有选项都需联合艾滋病相关信息关注度与新发现感染人数的年度趋势图表和人群年龄分布图表推理。艾滋病相关信息关注度与新发现感染人数的年度趋势图表显示某一年关注度异常高，对应新发现感染人数逐年上升；人群年龄分布图表显示年轻人占比为最大群体。选项不能仅凭单图推断，必须结合两者：感染上升提供外部刺激，年轻人高占比提供人群行为基础（如信息敏感度），共同解释峰值。此选项引入季度性因素与人群动态。",
+        "B": "这是一个Easy干扰项，基于常识：社会健康意识提升通常会增加信息关注度，但不依赖图表数据（chart_30_1或chart_30_2），无法解释特定年份（如2017年Q4）的异常峰值。",
+        "C": "这是一个Hard干扰项，错误解读人群分布差距：chart_30_2显示35 - 49岁人群占比仅10%，且分布稳定（无年度变化），而峰值年份（2017年）关注度激增主要由年轻人主导（19 - 24岁占比41%），但干扰项错误地将小比例群体与峰值关联。",
+        "D": "这是一个Easy干扰项，基于行业常识：世界艾滋病日在12月1日（第四季度）可能推动关注度，但不依赖图表数据，且图表显示2018年Q4关注度下降（1500 vs 2017年Q4的8000），与峰值不符。",
+        "E": "这是一个Hard干扰项，错误解读图表数值：chart_30_1显示2018年新发现感染人数最大（160000），但2018年Q4关注度仅1500，远低于2017年Q4的8000峰值；实际峰值在2017年Q4，与感染人数增幅（2017年134512 vs 2016年124555）不直接匹配。",
+        "F": "所有选项都需联合艾滋病相关信息关注度与新发现感染人数的年度趋势图表和人群年龄分布图表推理。艾滋病相关信息关注度与新发现感染人数的年度趋势图表显示某一年关注度异常高，对应新发现感染人数逐年上升；人群年龄分布图表显示年轻人占比为最大群体。选项不能仅凭单图推断，必须结合两者：感染上升提供外部刺激，年轻人高占比提供人群行为基础（如信息敏感度），共同解释峰值。此选项强调感染趋势和人群特征的一般关联。",
+        "G": "所有选项都需联合艾滋病相关信息关注度与新发现感染人数的年度趋势图表和人群年龄分布图表推理。艾滋病相关信息关注度与新发现感染人数的年度趋势图表显示某一年关注度异常高，对应新发现感染人数逐年上升；人群年龄分布图表显示年轻人占比为最大群体。选项不能仅凭单图推断，必须结合两者：感染上升提供外部刺激，年轻人高占比提供人群行为基础（如信息敏感度），共同解释峰值。此选项聚焦'增幅最大'时期与年轻人主导的放大效应。"
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项，基于常识：健康知识需求可能覆盖所有年龄，但不依赖图表数据（chart_30_2或chart_30_3），而chart_30_2显示年龄分布不均（年轻人占比41%，50岁仅1%）。",
+        "B": "所有选项依赖艾滋病相关人群年龄趋向年轻人的图表和不同知识主题关注度的图表联合推理。艾滋病相关人群年龄趋向年轻人的图表显示年轻人占比为最大群体；不同知识主题关注度的图表显示Vías de transmisión del SIDA关注度最高，而Tres principales manifestaciones de la fase latente del SIDA较低。选项不能单图解决，必须结合两者：年轻人可能更聚焦实用预防知识（如Vías de transmisión del SIDA），忽略次要内容（如Tres principales manifestaciones de la fase latente del SIDA），形成主题分布隐含联系。此选项扩展至其他高关注主题（Síntomas iniciales del SIDA、Vacuna contra el SIDA）。",
+        "C": "这是一个Hard干扰项，错误解读主题关注度排序：chart_30_3显示Vacuna contra el SIDA关注度为85%，并非最低（最低是Imágenes del SIDA和Tres principales manifestaciones de la fase latente del SIDA，均为70%），且年轻人主导群体（chart_30_2）可能更关注预防主题，干扰项反向错误。",
+        "D": "所有选项依赖艾滋病相关人群年龄趋向年轻人的图表和不同知识主题关注度的图表联合推理。艾滋病相关人群年龄趋向年轻人的图表显示年轻人占比为最大群体；不同知识主题关注度的图表显示Vías de transmisión del SIDA关注度最高，而Tres principales manifestaciones de la fase latente del SIDA较低。选项不能单图解决，必须结合两者：年轻人可能更聚焦实用预防知识（如Vías de transmisión del SIDA），忽略次要内容（如Tres principales manifestaciones de la fase latente del SIDA），形成主题分布隐含联系。此选项直接链接核心主题（Vías de transmisión del SIDA）与最大群体。",
+        "E": "所有选项依赖艾滋病相关人群年龄趋向年轻人的图表和不同知识主题关注度的图表联合推理。艾滋病相关人群年龄趋向年轻人的图表显示年轻人占比为最大群体；不同知识主题关注度的图表显示Vías de transmisión del SIDA关注度最高，而Tres principales manifestaciones de la fase latente del SIDA较低。选项不能单图解决，必须结合两者：年轻人可能更聚焦实用预防知识（如Vías de transmisión del SIDA），忽略次要内容（如Tres principales manifestaciones de la fase latente del SIDA），形成主题分布隐含联系。此选项引入冲突点（年轻人主导但某些主题关注度低），强调优先级差异。",
+        "F": "这是一个Easy干扰项，基于模型知识：教育系统可能影响年轻人信息获取，但不依赖图表数据，且无法解释主题差异（如Vías de transmisión del SIDA 95% vs Imágenes del SIDA 70%）。",
+        "G": "这是一个Hard干扰项，错误解读人群占比差距：chart_30_2显示50岁以上人群仅占1%（人数1人），而Vías de transmisión del SIDA关注度最高（95%）主要由年轻人群体（占比41%）驱动，干扰项夸大小比例群体的影响。"
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项，基于行业常识：信息饱和可能减少搜索需求，但不依赖图表数据，而chart_30_3显示知识覆盖高（如Vías de transmisión del SIDA 95%），可能相关但非直接解释冲突。",
+        "B": "这是一个Hard干扰项，错误解读季度关注度数值：chart_30_1显示2018年Q4关注度为1500，比2017年Q4的8000显著下降（差距6500），而新感染人数增加（2018年160000 vs 2017年134512），干扰项错误地声称关注度上升。",
+        "C": "所有选项需联合至少两张图表推理。艾滋病相关信息关注度与新发现感染人数的年度趋势图表显示2018年第4季度关注度降至很低，但感染人数升至最高；人群年龄分布图表显示年轻人占比为稳定群体；不同知识主题关注度的图表显示Vías de transmisión del SIDA等主题关注度达高覆盖。选项不能单图解释冲突，必须跨图：知识高覆盖提供饱和原因，人群分布解释群体行为基础，共同解决与感染上升的冲突。此选项链接群体行为转向与主题优先级。",
+        "D": "所有选项需联合至少两张图表推理。艾滋病相关信息关注度与新发现感染人数的年度趋势图表显示2018年第4季度关注度降至很低，但感染人数升至最高；不同知识主题关注度的图表显示Vías de transmisión del SIDA等主题关注度达高覆盖。选项不能单图解释冲突，必须跨图：知识高覆盖提供饱和原因，共同解决与感染上升的冲突。此选项聚焦知识覆盖与需求减少。",
+        "E": "所有选项需联合至少两张图表推理。艾滋病相关信息关注度与新发现感染人数的年度趋势图表显示2018年第4季度关注度降至很低，但感染人数升至最高；人群年龄分布图表显示年轻人占比为稳定群体；不同知识主题关注度的图表显示Vías de transmisión del SIDA等主题关注度达高覆盖。选项不能单图解释冲突，必须跨图：知识高覆盖提供饱和原因，人群分布解释群体行为基础，共同解决与感染上升的冲突。此选项强调人群稳定与信息饱和的反差。",
+        "F": "这是一个Easy干扰项，基于常识：外部事件（如新冠疫情）可能分散注意力，但不依赖图表数据（chart_30_1、chart_30_3或chart_30_2），且无图表支持2018年具体事件。",
+        "G": "这是一个Hard干扰项，错误解读人群分布稳定性：chart_30_2显示年龄分布稳定（年轻人占比41%），无年度变化，而2018年关注度下降与感染人数增加冲突，干扰项虚构了'年轻人占比下降'的趋势。"
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -150,6 +201,22 @@
       "label": [
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Distractor fácil: No se basa en los gráficos, sino en una lógica errónea basada en el conocimiento común (“aumento de infecciones = estrategia ineficaz”). Se desvía del tema de la prevención y la promoción, y se dirige hacia la construcción médica, lo que no coincide con el enfoque de la pregunta y se puede descartar por conocimiento común.",
+        "B": "Razonamiento combinado: Se refiere a chart_30_1 (datos trimestrales de atención, por ejemplo, la atención en el cuarto trimestre de 2017 fue anormalmente alta, lo que indica que se pueden aprovechar los momentos pico) y chart_30_3 (distribución de la atención sobre el conocimiento, por ejemplo, la atención sobre las vías de transmisión es alta, pero la atención sobre las manifestaciones de la fase latente es baja, y se debe fortalecer el contenido integral en los momentos pico). La estrategia enfatiza la optimización de los momentos y evita el desperdicio de recursos.",
+        "C": "Distractor fácil: No se basa en los gráficos, solo en el conocimiento común (“mejorar la conciencia general”). La expresión es demasiado amplia, sin prioridades de acción y sin abordar las fluctuaciones trimestrales o las diferencias de conocimiento, y se puede descartar fácilmente por conocimiento común (los recursos deben optimizarse en lugar de distribuirse de manera uniforme).",
+        "D": "Razonamiento combinado: Se refiere a chart_30_1 (tendencia al aumento del número de infecciones, que requiere una intervención específica) y chart_30_3 (diferencias en la atención sobre el conocimiento, por ejemplo, la atención sobre las imágenes de los síntomas iniciales y las manifestaciones de la fase latente es relativamente baja). La estrategia cubre las brechas de conocimiento y se ajusta a los valores de priorizar la prevención.",
+        "E": "Distractor difícil: Interpretación errónea de los datos de chart_30_1. El gráfico muestra que los períodos de baja atención (por ejemplo, 2015Q3 = 600) son mucho más bajos que los picos (por ejemplo, 2017Q4 = 8000), pero el distractor sugiere invertir en los períodos de baja atención, suponiendo erróneamente que “es más fácil de aceptar en los períodos de baja atención” y omitiendo que los períodos pico pueden maximizar la exposición (la estrategia correcta A sugiere invertir en los períodos pico).",
+        "F": "Distractor difícil: Interpretación errónea de los datos de chart_30_3. La atención sobre las vías de transmisión es del 95%, la más alta, pero el distractor sugiere “ignorar otros campos”, confundiendo la alta atención con la efectividad (la estrategia correcta B enfatiza que los campos de baja atención, como el reconocimiento de síntomas al 75%, son más importantes)."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -170,6 +237,22 @@
       "label": [
         "A",
         "B"
+      ],
+      "cot": {
+        "A": "Razonamiento combinado: Se refiere a chart_30_2 (distribución por edad, las personas de 18 años o menos y de 35 - 49 años en total representan el 25% y no se pueden ignorar) y chart_30_3 (datos generales de atención sobre el conocimiento, que muestran que hay deficiencias de atención en múltiples campos). La estrategia garantiza la inclusividad y evita ignorar a cualquier grupo debido a su bajo porcentaje, lo que se ajusta a los valores de atención médica equitativa.",
+        "B": "Razonamiento combinado: Se refiere a chart_30_2 (distribución por edad, las personas de 19 - 34 años representan más del 70%, lo que indica que son el grupo joven dominante) y chart_30_3 (atención sobre el conocimiento, por ejemplo, la atención sobre la vacuna contra el SIDA y las imágenes de los síntomas iniciales es menor que la atención sobre las vías de transmisión). La estrategia utiliza el conocimiento externo de que los jóvenes prefieren los canales digitales (que se ajusta a los valores) y mejora la eficiencia de los recursos.",
+        "C": "Distractor fácil: No se basa en los gráficos, solo en el conocimiento común (“cubrir a toda la sociedad de manera uniforme”). La expresión es demasiado amplia, no aborda el grupo joven o las diferencias de conocimiento y carece de precisión, y se puede descartar por conocimiento común (los recursos deben enfocarse en los grupos de alto riesgo).",
+        "D": "Distractor fácil: No se basa en los gráficos, sino en un conocimiento común erróneo (“la prevención es peor que el tratamiento”). Se desvía del tema de la educación sanitaria y se dirige hacia el tratamiento, lo que no coincide con el objetivo de la promoción de la prevención y se puede descartar por conocimiento común.",
+        "E": "Distractor difícil: Interpretación errónea de los datos de chart_30_2. El gráfico muestra que las personas mayores de 50 años solo representan el 1%, pero el distractor sugiere erróneamente que “tienen un mayor riesgo”, confundiendo el porcentaje con el riesgo (el grupo joven de 19 - 24 años, que representa el 41%, es el de mayor riesgo); además, se ignora los datos de atención sobre el conocimiento y la lógica es incorrecta.",
+        "F": "Distractor difícil: Interpretación errónea de los datos de chart_30_3. Hay diferencias evidentes en la atención sobre el conocimiento (por ejemplo, la atención sobre las vías de transmisión es del 95% y la atención sobre las imágenes de los síntomas es del 75%), pero el distractor sugiere “tratar todos los campos de manera equitativa”, suponiendo erróneamente que la distribución uniforme es más justa y omitiendo que los campos de baja atención (como el reconocimiento de síntomas) necesitan más atención (la estrategia correcta A enfatiza la intervención específica)."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -191,6 +274,22 @@
       "label": [
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Distractor fácil: No se basa en los gráficos, sino en un conocimiento común conservador (“mantener todo igual”). No hay indicaciones de acción, se ignoran la tendencia al aumento y las diferencias, y se puede descartar por conocimiento común (se necesita una intervención activa).",
+        "B": "Distractor difícil: Integración errónea de todos los gráficos. chart_30_2 muestra que el grupo joven es el dominante (41%), y chart_30_3 muestra que la atención sobre el conocimiento es desigual, pero el distractor sugiere “distribuir equitativamente”, interpretando erróneamente que la “equidad” tiene prioridad sobre la eficiencia (la estrategia correcta A enfatiza la intervención en el grupo joven y en los campos débiles).",
+        "C": "Distractor fácil: No se basa en los gráficos, solo en el conocimiento común (“aumentar la atención médica debido al aumento de infecciones”). Se desvía del enfoque de los recursos de promoción (la pregunta enfatiza la prevención) y no integra los datos de edad o conocimiento, y se puede descartar por conocimiento común (la estrategia debe ser integral en lugar de única).",
+        "D": "Razonamiento combinado: Se refiere a chart_30_1 (el número de infecciones aumenta año tras año y se necesita una intervención oportuna), chart_30_2 (las personas de 19 - 34 años representan más del 70%, lo que identifica el grupo de alto riesgo) y chart_30_3 (la atención sobre el conocimiento, por ejemplo, la atención sobre las manifestaciones de la fase latente es baja y se necesita difundir). La estrategia equilibra la especificidad y la integralidad y se ajusta a los valores de optimización de recursos.",
+        "E": "Razonamiento combinado: Se refiere a chart_30_1 (datos trimestrales de atención, por ejemplo, la atención en algunos trimestres disminuye bruscamente, lo que muestra el riesgo de fluctuación) y chart_30_3 (atención sobre el conocimiento, por ejemplo, la atención sobre los materiales de promoción y las imágenes es relativamente baja). La estrategia aprovecha la estabilidad de la tendencia y evita la laxitud en la prevención debido a los períodos de baja atención.",
+        "F": "Distractor difícil: Interpretación errónea de los datos de chart_30_1 y chart_30_3. El gráfico muestra que los picos de atención (por ejemplo, 2017Q4 = 8000) están relacionados con el aumento de infecciones, pero el distractor sugiere “reducir la promoción”, suponiendo erróneamente que hay desperdicio de recursos en los períodos pico; confunde la utilización de los picos (la estrategia correcta B sugiere fortalecer en los períodos de baja atención) con la eficiencia."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

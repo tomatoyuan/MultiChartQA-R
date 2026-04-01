@@ -84,6 +84,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil porque se basa en conocimiento general de la industria (los usuarios de iOS generalmente tienen mayor disposición a pagar que los de Android), no depende de ningún dato del gráfico y es una afirmación correcta genérica.",
+        "B": "Esta es una opción de interferencia difícil porque interpreta incorrectamente los datos del gráfico: en realidad, en el segundo trimestre de 2024, el volumen de descargas de Google Play fue de 0.64 cientos de millones (una disminución interanual del 14.7%, ya que en el segundo trimestre de 2023 fue de 0.75 cientos de millones), y los ingresos fueron de 11.7 mil millones de dólares (una disminución interanual del 2.5%, ya que en el segundo trimestre de 2023 fueron de 12 mil millones de dólares). La opción de interferencia inventa 'un crecimiento del 10% y una disminución del 5%', distorsionando la tendencia.",
+        "C": "Corrección de la opción: esta opción se basa en el cálculo conjunto de datos de chart_2_1 y chart_2_2 y la comparación de tendencias. Es necesario calcular los ingresos por descarga (por ejemplo, en el segundo trimestre de 2024, ingresos de Google Play/volumen de descargas ≈ 18.28 dólares/descarga vs App Store ≈ 17.78 dólares/descarga), mostrando diferencias entre plataformas. Necesidad de razonamiento conjunto: una sola gráfica no puede determinar el patrón. Solo chart_2_1 puede mostrar la tendencia de descargas, pero no puede explicar los cambios en los ingresos; solo chart_2_2 puede mostrar la tendencia de ingresos, pero no puede relacionarse con la participación de mercado en descargas. Se requiere un análisis cruzado (como combinar la participación de mercado en descargas y los cambios en los ingresos) para inferir que las diferencias entre plataformas se están ampliando.",
+        "D": "Esta es una opción de interferencia fácil porque se deriva únicamente de un fenómeno general del mercado (la desconexión entre actividades promocionales e ingresos), sin utilizar valores específicos o tendencias del gráfico.",
+        "E": "Corrección de la opción: esta opción se basa en el cálculo conjunto de datos de chart_2_1 y chart_2_2 y la comparación de tendencias. Necesidad de razonamiento conjunto: una sola gráfica no puede determinar el patrón. Solo chart_2_1 puede mostrar la tendencia de descargas, pero no puede explicar los cambios en los ingresos; solo chart_2_2 puede mostrar la tendencia de ingresos, pero no puede relacionarse con la participación de mercado en descargas. Se requiere un análisis cruzado (como combinar la participación de mercado en descargas y los cambios en los ingresos) para inferir que las diferencias entre plataformas se están ampliando.",
+        "F": "Esta es una opción de interferencia difícil porque calcula incorrectamente los ingresos por descarga: en realidad, en el cuarto trimestre de 2023, los ingresos por descarga de App Store fueron de 17/0.85 ≈ 20 dólares/descarga, pero no fue el pico (el primer trimestre de 2023 fue más alto con 20/0.77 ≈ 26 dólares/descarga); para Google Play en el mismo período fue 11/0.8 = 13.75 dólares/descarga, tampoco fue el más bajo (el segundo trimestre de 2024 fue más alto con 11.7/0.64 ≈ 18.28 dólares/descarga). La opción de interferencia especifica incorrectamente los picos y los valores más bajos.",
+        "G": "Corrección de la opción: esta opción se basa en el cálculo conjunto de datos de chart_2_1 y chart_2_2 y la comparación de tendencias. Es necesario inferir de chart_2_1 que las descargas de App Store son estables (por ejemplo, las descargas del primer al cuarto trimestre de 2023 fluctuaron entre 0.77 y 0.95 cientos de millones, con una participación del 55% en 2024), y de chart_2_2 que los ingresos están disminuyendo (los ingresos de App Store bajaron de 20 mil millones de dólares en el primer trimestre de 2023 a 14.4 mil millones en el segundo trimestre de 2024); al mismo tiempo, las descargas de Google Play en chart_2_1 fluctúan significativamente (por ejemplo, bajaron a 0.64 cientos de millones en el segundo trimestre de 2024), pero en chart_2_2 los ingresos se recuperaron (subieron a 11.7 mil millones en el segundo trimestre de 2024). Necesidad de razonamiento conjunto: una sola gráfica no puede determinar el patrón. Solo chart_2_1 puede mostrar la tendencia de descargas, pero no puede explicar los cambios en los ingresos; solo chart_2_2 puede mostrar la tendencia de ingresos, pero no puede relacionarse con la participación de mercado en descargas. Se requiere un análisis cruzado (como combinar la participación de mercado en descargas y los cambios en los ingresos) para inferir que las diferencias entre plataformas se están ampliando."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -106,6 +123,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Corrección de la opción: esta opción se basa en el cálculo numérico y la comparación de tendencias de ambos gráficos. Es necesario obtener los datos de descargas del primer semestre de 2024 de chart_2_1 (App Store tiene una participación del 55%, descargas totales de 3.2 cientos de millones, un aumento interanual del 2.5%), y calcular los ingresos totales de chart_2_2 (ingresos del primer semestre de 2024 ≈ 53 mil millones de dólares vs primer semestre de 2023 ≈ 65 mil millones de dólares, una disminución interanual); luego analizar conjuntamente la contribución de las plataformas (los ingresos de App Store bajaron de 38 mil millones a 30.7 mil millones, disminuyendo los ingresos por descarga). Necesidad de razonamiento conjunto: el conflicto no se puede identificar con un solo gráfico. Solo chart_2_1 muestra un aumento en las descargas, pero no puede explicar la disminución de ingresos; solo chart_2_2 muestra una disminución de ingresos, pero no puede relacionarse con el crecimiento en descargas. Se requiere un cálculo conjunto (como comparar las descargas e ingresos de cada plataforma en el primer semestre de 2023 vs 2024) y un análisis de tendencias (como el aumento de la participación de App Store pero una mayor disminución en los ingresos) para explicar el conflicto.",
+        "B": "Esta es una opción de interferencia fácil porque se basa en conocimiento macroeconómico general (como el impacto de la inflación en el consumo), sin hacer referencia a datos del gráfico, es una explicación razonable genérica.",
+        "C": "Esta es una opción de interferencia difícil porque afirma incorrectamente los datos del gráfico: en realidad, la participación de App Store en descargas en el primer semestre de 2024 fue del 55% (basado en el punto 15 de chart_2_1), un aumento interanual (la participación en el primer semestre de 2023 fue aproximadamente del 50.3%, calculado a partir de las descargas del primer y segundo trimestre de 2023 de 1.57 cientos de millones / descargas totales ≈ 3.12 cientos de millones), pero la opción de interferencia inventa 'una disminución al 45%'.",
+        "D": "Esta es una opción de interferencia difícil porque calcula incorrectamente la tendencia de ingresos: en realidad, los ingresos de Google Play en el primer semestre de 2024 fueron de 10.6 + 11.7 = 22.3 mil millones de dólares, una disminución interanual del 17.5% (primer semestre de 2023: 15 + 12 = 27 mil millones de dólares); la opción de interferencia inventa 'un crecimiento interanual del 8%', cuando en realidad hubo una disminución.",
+        "E": "Corrección de la opción: esta opción se basa en el cálculo numérico y la comparación de tendencias de ambos gráficos. Es necesario inferir el comportamiento del usuario (como del conflicto entre el aumento de descargas y la disminución de ingresos, combinado con datos de plataformas para obtener cambios en la disposición a pagar). Necesidad de razonamiento conjunto: el conflicto no se puede identificar con un solo gráfico. Solo chart_2_1 muestra un aumento en las descargas, pero no puede explicar la disminución de ingresos; solo chart_2_2 muestra una disminución de ingresos, pero no puede relacionarse con el crecimiento en descargas. Se requiere un cálculo conjunto (como comparar las descargas e ingresos de cada plataforma en el primer semestre de 2023 vs 2024) y un análisis de tendencias (como el aumento de la participación de App Store pero una mayor disminución en los ingresos) para explicar el conflicto.",
+        "F": "Corrección de la opción: esta opción se basa en el cálculo numérico y la comparación de tendencias de ambos gráficos. Es necesario inferir el comportamiento del usuario (como del conflicto entre el aumento de descargas y la disminución de ingresos, combinado con datos de plataformas para obtener cambios en la disposición a pagar). Necesidad de razonamiento conjunto: el conflicto no se puede identificar con un solo gráfico. Solo chart_2_1 muestra un aumento en las descargas, pero no puede explicar la disminución de ingresos; solo chart_2_2 muestra una disminución de ingresos, pero no puede relacionarse con el crecimiento en descargas. Se requiere un cálculo conjunto (como comparar las descargas e ingresos de cada plataforma en el primer semestre de 2023 vs 2024) y un análisis de tendencias (como el aumento de la participación de App Store pero una mayor disminución en los ingresos) para explicar el conflicto.",
+        "G": "Esta es una opción de interferencia fácil porque se deriva del conocimiento general del comportamiento del usuario (baja tasa de pago de jugadores casuales), sin involucrar valores específicos del gráfico o comparaciones entre plataformas."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -128,6 +162,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Corrección de la opción: esta opción depende del análisis cruzado de datos trimestrales de ambos gráficos. Es necesario ver en chart_2_1 que las descargas de App Store en el tercer trimestre de 2023 fueron de 0.95 cientos de millones (alto), pero chart_2_2 muestra ingresos de solo 18 mil millones de dólares (menores que los 20 mil millones del primer trimestre); al mismo tiempo, Google Play en chart_2_1 tiene descargas estables (0.75 cientos de millones), pero en chart_2_2 los ingresos bajaron a 12 mil millones de dólares (menores que los 15 mil millones del primer trimestre), inferiendo conjuntamente un problema de disposición a pagar. Necesidad de razonamiento conjunto: la conexión implícita requiere la unión de ambos gráficos. Solo chart_2_1 puede identificar el pico de descargas, pero no puede explicar la falta de crecimiento en ingresos; solo chart_2_2 puede mostrar la tendencia de ingresos, pero no puede relacionarse con las descargas de un trimestre específico. Se requiere una comparación entre gráficos (como las descargas e ingresos de ambas plataformas en el tercer trimestre de 2023) y el cálculo de ratios para revelar la dinámica del mercado.",
+        "B": "Esta es una opción de interferencia difícil porque interpreta incorrectamente los datos del gráfico: en realidad, en el tercer trimestre de 2023, las descargas de Google Play fueron de 0.75 cientos de millones (igual que en el segundo trimestre), y los ingresos fueron de 12 mil millones de dólares (igual que en el segundo trimestre); la opción de interferencia inventa 'un aumento brusco a 0.9 cientos de millones', exagerando el crecimiento en descargas.",
+        "C": "Esta es una opción de interferencia fácil porque se basa en conocimiento estacional general (el impacto de las vacaciones de verano en el comportamiento del usuario), no depende de datos del gráfico, es un factor razonable genérico.",
+        "D": "Corrección de la opción: esta opción depende del análisis cruzado de datos trimestrales de ambos gráficos. Necesidad de razonamiento conjunto: la conexión implícita requiere la unión de ambos gráficos. Solo chart_2_1 puede identificar el pico de descargas, pero no puede explicar la falta de crecimiento en ingresos; solo chart_2_2 puede mostrar la tendencia de ingresos, pero no puede relacionarse con las descargas de un trimestre específico. Se requiere una comparación entre gráficos (como las descargas e ingresos de ambas plataformas en el tercer trimestre de 2023) y el cálculo de ratios para revelar la dinámica del mercado.",
+        "E": "Esta es una opción de interferencia fácil porque se deriva de conocimiento general de la industria de juegos (problemas con el lanzamiento de nuevos juegos y sistemas de pago), sin utilizar valores específicos o tendencias del gráfico.",
+        "F": "Corrección de la opción: esta opción depende del análisis cruzado de datos trimestrales de ambos gráficos. Es necesario calcular los ingresos por descarga (por ejemplo, en el tercer trimestre de 2023, ingresos de App Store/descargas ≈ 18.95 dólares/descarga vs primer trimestre ≈ 25.97 dólares/descarga), y comparar la tendencia de Google Play. Necesidad de razonamiento conjunto: la conexión implícita requiere la unión de ambos gráficos. Solo chart_2_1 puede identificar el pico de descargas, pero no puede explicar la falta de crecimiento en ingresos; solo chart_2_2 puede mostrar la tendencia de ingresos, pero no puede relacionarse con las descargas de un trimestre específico. Se requiere una comparación entre gráficos (como las descargas e ingresos de ambas plataformas en el tercer trimestre de 2023) y el cálculo de ratios para revelar la dinámica del mercado.",
+        "G": "Esta es una opción de interferencia difícil porque calcula incorrectamente el cambio en los ingresos por descarga: en realidad, en el tercer trimestre de 2023, los ingresos por descarga de App Store fueron de 18/0.95 ≈ 18.95 dólares/descarga, una disminución de aproximadamente el 15.8% respecto al segundo trimestre (18/0.8 = 22.5 dólares/descarga), no un crecimiento; la opción de interferencia afirma incorrectamente 'un crecimiento del 15%' y malinterpreta la razón por la cual los ingresos no aumentaron."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -150,6 +201,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza datos del gráfico (cita las descargas en el T1 2023 y los ingresos en el T2 2024), pero la deducción es errónea. Las descargas de Google Play se redujeron significativamente a 64 millones en el T2 2024 (por debajo de los 80 millones en el T1 2023). El repunte de los ingresos es una fluctuación a corto plazo y la tendencia general de descargas e ingresos está en descenso. Aumentar la inversión puede que no aumente los ingresos totales.",
+        "B": "Esta es una opción de distracción fácil: la expresión es amplia y conservadora (reducir la inversión para controlar los costos), sin datos específicos para respaldarla, y contradice la tendencia de un aumento del 2,5% en las descargas año tras año. Es fácil descartarla por sentido común.",
+        "C": "La opción B combina chart_2_1 (las descargas de Google Play se redujeron significativamente en el T2 2024) y chart_2_2 (los ingresos de Google Play aumentaron en el T2 2024). Analiza conjuntamente el problema de las descargas y las oportunidades de ingresos, e incorpora conocimientos externos (medidas de incentivo para aumentar la fidelidad de los usuarios).",
+        "D": "La opción C combina los dos gráficos (las fluctuaciones trimestrales en chart_2_1, como el pico en el T3, y los cambios trimestrales de ingresos en chart_2_2, como el repunte de Google Play en el T2), y enfatiza la respuesta dinámica a las tendencias.",
+        "E": "Esta es una opción de distracción difícil: aparentemente se basa en la tendencia de descenso de los ingresos del gráfico, pero confunde la relación. Las descargas de la App Store son dominantes (representan el 55% en el primer semestre de 2024). Aunque los ingresos disminuyen, el valor sigue siendo más alto que el de Google Play (1440 millones vs 1170 millones). Ignorarla implicaría perder la cuota de mercado central.",
+        "F": "La opción A combina chart_2_1 (la App Store tiene una alta proporción de descargas y menor fluctuación) y chart_2_2 (los ingresos de la App Store, aunque disminuyen, siempre son líderes y la amplitud de la disminución es más suave que la de Google Play), y deduce las ventajas de la plataforma dominante.",
+        "G": "Esta es una opción de distracción fácil: no se basa en los datos del gráfico, solo en el conocimiento general de gestión (distribución equitativa), pero ignora las diferencias significativas en las descargas e ingresos entre las plataformas (por ejemplo, la App Store tiene un 55% de las descargas y mayores ingresos), y no puede maximizar los ingresos."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -172,6 +240,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción C combina los dos gráficos (las fluctuaciones en las descargas de Google Play en chart_2_1 y la mayor disminución de los ingresos de la App Store en chart_2_2), y enfatiza la respuesta a las diferencias de tendencia entre las plataformas.",
+        "B": "La opción A combina chart_2_1 (los picos de descargas en el T3 2023 y el T1 2024) y chart_2_2 (aunque los ingresos disminuyen en general, se pueden aprovechar la base de usuarios en los períodos pico), y deduce el efecto de palanca en los períodos pico.",
+        "C": "Esta es una opción de distracción difícil: aparentemente utiliza datos del gráfico (cita el pico de ingresos en el T1 2023), pero la deducción es errónea. Los ingresos han disminuido continuamente después del T1 2023 (por ejemplo, la App Store ha bajado a 1440 millones). La tendencia indica que el pico ha pasado. Hacer marketing en el trimestre pico puede que no alivie el descenso ni aumente la tasa de conversión.",
+        "D": "Esta es una opción de distracción fácil: no se basa en los datos del gráfico, solo en el conocimiento general de marketing (distribución uniforme), pero ignora los picos trimestrales evidentes en las descargas e ingresos (por ejemplo, el pico de descargas en el T3), y no puede aumentar simultáneamente la adquisición de usuarios y los ingresos.",
+        "E": "Esta es una opción de distracción fácil: la expresión es amplia (solo se enfoca en las descargas), sin consideración de la dimensión de los ingresos, y está desvinculada de la tendencia de disminución continua de los ingresos de compras dentro de la aplicación. Es fácil descartarla por sentido común.",
+        "F": "Esta es una opción de distracción difícil: aparentemente se basa en el valle de descargas del gráfico (Google Play en el T2 2024), pero confunde la relación. En los trimestres con pocas descargas se necesita más marketing para estimular la adquisición de usuarios (por ejemplo, la descarga se redujo a 64 millones). Reducir la inversión empeorará el problema en lugar de equilibrar el rendimiento.",
+        "G": "La opción B combina chart_2_2 (la disminución continua de los ingresos en varios trimestres) y chart_2_1 (los cambios en las descargas proporcionan la base de usuarios), analiza conjuntamente el problema de los ingresos y el tamaño de la base de usuarios, e incorpora conocimientos externos (campañas de promoción para estimular el consumo)."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -194,6 +279,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: la expresión es vaga (enfocarse en los usuarios existentes), sin datos para respaldarla, y se ignora la oportunidad de nuevos usuarios con un aumento del 2,5% en las descargas año tras año. Es fácil descartarla por sentido común.",
+        "B": "La opción A combina chart_2_1 (el aumento en las descargas en el primer semestre de 2024 año tras año) y chart_2_2 (la disminución de los ingresos en varios trimestres), deduce el desfase entre descargas e ingresos, e incorpora conocimientos externos (planes de retención para aumentar el valor de vida útil del usuario).",
+        "C": "Esta es una opción de distracción difícil: aparentemente se basa en la regularidad trimestral (por ejemplo, el pico de descargas en el T3), pero confunde la relación. Los ingresos de compras dentro de la aplicación han disminuido continuamente (por ejemplo, la App Store ha bajado de 2000 millones a 1440 millones). Promocionar ciegamente las compras dentro de la aplicación sin resolver la causa de la disminución (por ejemplo, la baja eficiencia de monetización de los usuarios) puede ser ineficaz.",
+        "D": "Esta es una opción de distracción fácil: no se basa en los datos del gráfico, solo en el conocimiento general de negocios (aumentar el precio para aumentar los ingresos), pero es amplia y sin detalles de acción, y puede reducir la voluntad de pago de los usuarios, lo que contradice la tendencia de aumento de las descargas.",
+        "E": "La opción C combina los dos gráficos (la vulnerabilidad de la disminución continua de los ingresos y el potencial de crecimiento de la base de usuarios debido al aumento de las descargas), analiza conjuntamente los problemas estructurales e incorpora conocimientos externos (modelos diversificados que se ajustan a la tendencia de la industria).",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza datos del gráfico (cita las 320 millones de descargas en el primer semestre de 2024 y la disminución de los ingresos), pero la deducción es errónea. El aumento de las descargas es una oportunidad de monetización (por ejemplo, el pico de 95 millones en el T3). Reducir el desarrollo reducirá la retención de usuarios y la tasa de conversión de pago, y empeorará el problema de los ingresos.",
+        "G": "La opción B combina chart_2_2 (la tendencia de disminución de los ingresos) y chart_2_1 (las fluctuaciones en las descargas proporcionan la base de usuarios), y enfatiza la optimización del contenido para aumentar la eficiencia de conversión."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     }
   ]

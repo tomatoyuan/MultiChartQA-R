@@ -86,6 +86,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：它错误解读图表43_2的数值排序。印度规模为200万亿人民币，而'Economía de las Mujeres'为100万亿人民币（小于印度），但干扰项声称'远超过'，这是对数据差距的误解。",
+        "B": "这是一个Easy干扰项：它泛泛地归因于'女性消费者占比提高'，但图表中没有提供女性消费占比数据，仅靠常识推断，与图表内容无关。",
+        "C": "这是一个Hard干扰项：它错误连接图表43_1和43_2的时间序列。图表43_1显示2020年零售总额下降，但'Economía de las Mujeres'规模在图表43_2中是2023年数据（无2020年数据），干扰项虚构了'同步缩减'的关联，忽略了时间不一致。",
+        "D": "选项2正确：chart_43_1中2023年零售总额数据点较高，而chart_43_2中'Economía de las Mujeres'规模与多个国家（如Japón、Reino Unido）相当，联合推理可得出'女性消费崛起驱动整体扩张'的隐含联系，因为单看chart_43_2无法关联时间趋势，单看chart_43_1无法关联具体经济规模。",
+        "E": "选项1正确：chart_43_1显示零售总额从2015年到2024年整体呈上升趋势（例如2023年达到较高点），这为消费市场扩大提供了背景；chart_43_2显示'Economía de las Mujeres'规模庞大（100万亿人民币），与零售总额数据联合表明，女性消费可能占整体消费的重要部分，但仅凭一张图表无法推断此联系——chart_43_1只提供整体趋势，chart_43_2只提供规模比较，必须结合才能得出'基础支撑'和'关键角色'的规律。",
+        "F": "选项3正确：chart_43_1显示2020年零售总额下降（异常点），而chart_43_2的'Economía de las Mujeres'规模独立且巨大，联合对比可发现冲突点（整体市场波动但女性经济稳定），突显女性消费的韧性，这需要两张图表数据对比，而非单张图表能解释。",
+        "G": "这是一个Easy干扰项：它基于常识（如疫情期间消费韧性），但完全不依赖图表数据。图表43_1显示2020年零售总额下降，但'Economía de las Mujeres'规模在图表43_2中是2023年数据，没有疫情年份的直接信息，无法支持'稳定增长'的说法。"
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "选项2正确：chart_43_3中'Participó en discusiones públicas'比例（17.4%）与chart_43_4中'productos educativos electrónicos'购买占比（36.4%）联合，可推测话题参与可能提升教育科技需求，因为两张图表数据点需交叉分析（行为比例与产品占比），仅凭一张图表无法建立此规律。",
+        "B": "这是一个Easy干扰项：它泛泛地链接行为与消费（如互助促进教育），但图表中'chicas ayudan a chicas'比例仅8.0%，远低于电子教育类购买占比36.4%，常识性推断忽略实际差距。",
+        "C": "选项3正确：chart_43_3中'Reducció la atención deliberadamente'比例最低（4.3%），而chart_43_4中'consolas de juegos y accesorios'购买占比也较低（17.5%），联合对比显示行为与消费的低点一致，暗示消极行为可能抑制某些消费，这需要两张图表数值比较来发现隐含模式。",
+        "D": "这是一个Hard干扰项：它错误比较图表43_3和43_4的数值。参与讨论比例17.4%和'productos de fotografía y videografía'占比23.0%看似接近，但差距较大（5.6个百分点），且无因果关系；干扰项误读为'高度匹配'。",
+        "E": "选项1正确：chart_43_3显示'Motivada a elegir un estilo de vida más cómodo'比例最高（41.9%），而chart_43_4中'equipamiento audiovisual'购买占比最高（51.1%），联合推理可得出行为激励与消费行为的隐含联系（新生活方式可能包括数码产品使用），但单看chart_43_3仅知行为比例，单看chart_43_4仅知购买数据，必须结合才能推断'推动'关系。",
+        "F": "这是一个Easy干扰项：它依赖常识（如数字化转型），但图表43_3和43_4没有提供'兴趣上升'或'社会趋势'数据，仅描述具体行为和购买占比，无法直接支持。",
+        "G": "这是一个Hard干扰项：它错误连接比例数据。图表43_3中减少关注话题的女性占4.3%，而图表43_4中'nunca han comprado'占13.1%，比例不同且无重叠证据；干扰项虚构了'主要来自'的关联。"
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：它泛泛强调'行为改变驱动消费'，但图表43_2中'Economía de las Mujeres'规模包括所有女性消费，而图表43_3中尝试新生活方式仅41.9%，干扰项过度简化，忽略其他行为贡献。",
+        "B": "这是一个Easy干扰项：它基于常识（如话题参与转化消费），但图表43_3显示仅17.4%参与讨论，且有10.1%不关注，干扰项忽略数据多样性，泛泛归因。",
+        "C": "选项1正确：chart_43_2显示'Economía de las Mujeres'规模巨大（100万亿人民币），而chart_43_3中有'Nunca realmente prestó atención'比例（10.1%），这冲突（规模大但部分人不关注）需要通过联合推理解释——高比例'Motivada a elegir un estilo de vida más cómodo'（41.9%）可能补偿了不关注行为，贡献经济规模。单看chart_43_2不知行为数据，单看chart_43_3不知经济规模，必须结合才能发现冲突和隐含联系。",
+        "D": "选项3正确：chart_43_2的规模与chart_43_3的'Motivada a elegir un estilo de vida más cómodo'高比例（41.9%）联合，表明行为（如生活方式改变）直接链接经济贡献，这隐含联系需整合两张图表（规模数据与行为比例）才能得出，而非单张图表可完成。",
+        "E": "选项2正确：chart_43_2的规模数据与chart_43_3的'Participó en discusiones públicas'比例较低（17.4%）联合，突显反差（经济规模大但讨论参与少），可推测消费行为（如购买）而非话题讨论是主要驱动力，这需要跨图表对比数值趋势来推断冲突。",
+        "F": "这是一个Hard干扰项：它错误引入外部因素（收入水平），图表中没有收入数据；同时，规模（100万亿）与行为比例（如41.9%）单位不同，干扰项虚构'共同基础'，误读数据关联。",
+        "G": "这是一个Hard干扰项：它错误解读图表43_2和43_3的数值和单位。不关注比例10.1%与减少关注4.3%差距小，但干扰项夸大'远高于'；同时，'Economía de las Mujeres'规模100万亿与EE. UU. 1500万亿单位相同，但比较不合理（规模不同），错误归因冲突。"
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -153,6 +204,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando chart_43_2 (la escala de la 'Economía de las Mujeres' es grande, lo que muestra el poder adquisitivo de las mujeres) y chart_43_4 (la proporción de mujeres que compraron productos digitales 3C es alta en varias categorías, como el equipamiento audiovisual que tiene una proporción destacada), se infiere que los recursos deben enfocarse en las categorías de productos con alta demanda para optimizar la producción.",
+        "B": "Combinando chart_43_1 (la tendencia general del volumen total de ventas minoristas de bienes de consumo en China desde 2015 hasta 2024 es claramente ascendente, aunque hubo una leve caída en 2020 y se recuperó y alcanzó nuevos máximos en los años siguientes) y chart_43_2 (la escala de la 'Economía de las Mujeres' en China alcanza los 100 billones de yuanes, lo suficiente para constituir la séptima economía más grande, lo que destaca la importancia económica del mercado femenino), se infiere que el potencial del mercado femenino es enorme y se deben aumentar las inversiones.",
+        "C": "Esta opción no se basa en los gráficos, solo en el conocimiento económico general (la disminución en 2020 puede indicar riesgos), pero ignora la tendencia general de crecimiento (chart_43_1 muestra un crecimiento continuo de 2015 a 2024 y la recuperación después de 2021) y la escala de la 'Economía de las Mujeres' (la escala de la 'Economía de las Mujeres' en China en chart_43_2 alcanza los 100 billones de yuanes, con un gran potencial). Por lógica económica, reducir las inversiones es contradictorio con la tendencia de crecimiento y es fácil de descartar.",
+        "D": "Combinando chart_43_2 (la gran escala de la 'Economía de las Mujeres', que es la base del mercado objetivo) y chart_43_3 (entre el impacto de los temas relacionados con las mujeres, la proporción de mujeres motivadas a probar un nuevo estilo de vida es la más alta), se infiere que las estrategias de marketing deben aprovechar la influencia de los temas para promover el comportamiento de consumo.",
+        "E": "Aparentemente se utilizan chart_43_4 (la proporción de mujeres que compraron productos digitales) y chart_43_2 (la escala de la 'Economía de las Mujeres'), pero se interpreta erróneamente los datos: la proporción de compras de consolas de juegos y accesorios es solo del 17.5%, mucho menor que la del equipamiento audiovisual (51.1%), no es una 'alta demanda'. Además, no se combina con la tendencia de crecimiento del consumo minorista (chart_43_1), lo que equivoca lógicamente la dirección de la inversión de recursos hacia áreas de baja demanda.",
+        "F": "Aparentemente se utilizan chart_43_3 (el impacto de los temas relacionados con las mujeres) y chart_43_4, pero se enfoca erróneamente en el grupo negativo (el 4.3% de las mujeres que consideran que el tema está demasiado saturado), que es el grupo con menor proporción y baja respuesta, ignorando el grupo positivo con alta proporción (el 41.9% de las mujeres motivadas). Al combinarlo con la escala de la 'Economía de las Mujeres' (chart_43_2), la dirección de la estrategia es incorrecta y la eficiencia es baja."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -174,6 +240,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando chart_43_3 (entre el impacto de los temas relacionados con las mujeres, la proporción de mujeres motivadas a probar un estilo de vida más cómodo es la más alta) y chart_43_4 (la proporción de personas que compraron equipamiento audiovisual es la más alta), se infiere que el marketing debe enfocarse en este grupo para promocionar productos relacionados y aprovechar la tendencia del cambio de comportamiento.",
+        "B": "Combinando chart_43_3 (la distribución de la atención a los temas muestra que parte del grupo no presta atención o reduce la atención) y chart_43_4 (hay grandes diferencias en la proporción de compras entre diferentes categorías, como la baja proporción de consolas de juegos y la alta proporción de equipamiento audiovisual), se infiere que los recursos deben redistribuirse hacia áreas de alta demanda para evitar el desperdicio.",
+        "C": "Esta opción no se basa en los gráficos, solo en el conocimiento general de marketing (las promociones atraen a los consumidores), pero no es específica: no se combina con las características de atención a los temas relacionados con las mujeres (chart_43_3) ni con las preferencias de compra (chart_43_4), y la descripción es demasiado general, por lo que es fácil de descartar por conocimiento general.",
+        "D": "Combinando chart_43_3 (entre el impacto de los temas relacionados con las mujeres, la proporción de mujeres que aprendieron sobre los temas pero no se expresaron públicamente es significativa, y la proporción de participación en discusiones públicas es considerable) y chart_43_4 (la proporción de personas que compraron productos educativos electrónicos es alta), se infiere que la interacción en la comunidad puede estimular la expresión y las compras, especialmente adecuada para categorías como la educación.",
+        "E": "Aparentemente se utilizan chart_43_4 y chart_43_3, pero se infiere erróneamente la saturación: una proporción de compra del 51.1% indica una alta demanda, no una saturación; cambiar a los productos de fotografía y videografía con una proporción del 23.0% ignora los datos (la proporción es más baja). Al combinarlo con el grupo motivado, la estrategia se invierte y la eficiencia disminuye.",
+        "F": "Aparentemente se utilizan chart_43_3 y chart_43_4, pero se interpreta erróneamente la relación: el 10.1% del grupo 'no presta mucha atención' a los temas relacionados con las mujeres y la respuesta puede ser baja, mientras que la proporción de compras de productos educativos electrónicos del 36.4% no es la más alta (la del equipamiento audiovisual del 51.1% es más alta). Lógicamente, enfocarse en el grupo de bajo interés es contradictorio con el objetivo de 'aumentar la penetración' y la asignación de recursos está desviada."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -197,6 +278,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Combinando chart_43_2 (la gran escala de la 'Economía de las Mujeres', que es el objetivo de la política) y chart_43_3 (la proporción del grupo motivado por los temas relacionados con las mujeres es alta), se infiere que las actividades de concientización pueden amplificar el impacto positivo y promover el consumo y la actividad económica.",
+        "B": "Combinando chart_43_4 (la proporción de mujeres que compraron productos digitales educativos es relativamente alta) y chart_43_3 (la proporción de mujeres motivadas a probar un nuevo estilo de vida es la más alta), se infiere que la inversión en educación puede combinar la motivación del comportamiento y mejorar la capacidad y la contribución económica de las mujeres.",
+        "C": "Aparentemente se utilizan chart_43_3, chart_43_1 y chart_43_2, pero se enfoca erróneamente en la retroalimentación negativa (el 4.3% de las mujeres que consideran que el tema está demasiado saturado), ignorando el impacto positivo de alta proporción (el 41.9% de las mujeres motivadas). Al combinarlo con la tendencia del consumo minorista, la dirección de la estrategia es contradictoria con el objetivo de 'promover el crecimiento inclusivo' y puede suprimir el potencial de la 'Economía de las Mujeres'.",
+        "D": "Esta opción no se basa en los gráficos, solo en el conocimiento general de política (reducir impuestos para estimular la economía), pero no es específica: no se combina con la escala de la 'Economía de las Mujeres' (chart_43_2) ni con los datos de comportamiento femenino (chart_43_3/chart_43_4), y la descripción es demasiado general, por lo que es fácil de descartar.",
+        "E": "Combinando chart_43_1 (la tendencia general de crecimiento del volumen total de ventas minoristas de bienes de consumo es estable y ha acelerado en los últimos años) y chart_43_2 (la escala de la 'Economía de las Mujeres' en China alcanza los 100 billones de yuanes, equivalente a una economía importante), se infiere que los recursos del gobierno deben dar prioridad al apoyo al sector económico femenino para impulsar el crecimiento macroeconómico.",
+        "F": "Aparentemente se utilizan chart_43_4, chart_43_1 y chart_43_2, pero se interpreta erróneamente: la proporción del 13.1% de mujeres que nunca han comprado productos digitales es pequeña, no 'significativa'; el crecimiento del consumo minorista (chart_43_1) y la escala de la 'Economía de las Mujeres' (chart_43_2) no respaldan directamente esta estrategia. Lógicamente, los recursos deben invertirse en áreas de alta participación en lugar de en grupos de baja respuesta."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     }
   ]

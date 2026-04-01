@@ -85,6 +85,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distraction. It is based on common knowledge in the retail industry (the high efficiency of the warehouse model), but does not rely on the chart data. In the actual data, the growth rate of the warehouse membership supermarket industry was -11.1% (a decline) in 2017, while the overall consumption growth rate was 10.0% (positive growth), showing an inconsistency.",
+        "B": "It is necessary to compare the growth rate of 2021 in chart_139_1 (12.5%) with that of 2021 in chart_139_2 (12.3%), and identify that both are higher than the historical average, then infer the common driving factors during the post - pandemic recovery period.",
+        "C": "This is a hard distraction. On the surface, it is based on the chart for reasoning, but there is a wrong understanding of the growth rate gap. In 2015, the overall consumption growth rate was 10.4% vs. the warehouse membership supermarket growth rate of 3.9%, with a gap of 6.5 percentage points, which is not 'high consistency' (consistency usually means similar growth rates). In the actual data, the gap in 2013 was 13.0% (overall) vs. 8.5% (warehouse membership supermarket) (a gap of 4.5 percentage points) or 12.5% vs. 12.3% in 2021 (a gap of 0.2 percentage points), which is closer to consistency.",
+        "D": "It is necessary to combine the growth rate of 2013 in chart_139_1 (13.0%) and that of 2013 in chart_139_2 (8.5%). Although the growth rates are different, both are positive, and then infer the supporting role of the overall economic environment (such as GDP growth).",
+        "E": "This is a hard distraction. It misinterprets the numerical gap. In 2020, the overall growth rate was -3.9% (negative growth) vs. the warehouse membership supermarket growth rate of +6.9% (positive growth), with a gap of 10.8 percentage points, showing an obvious divergence rather than 'good synergy'. The 'consistency' in the original question means similar growth directions or amplitudes, but here the directions are opposite.",
+        "F": "It is necessary to compare the growth rate of 2018 in chart_139_1 (8.8%) with that of 2018 in chart_139_2 (2.1%), and identify that both are lower than in previous years, then infer the partial impact of the economic slowdown on the segmented market. All options rely on joint reasoning because a single chart cannot explain the cause of 'consistency' (such as external events or the economic cycle)."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "It is necessary to analyze the data of 2020 across chart_139_1, chart_139_2 and chart_139_3 (the growth rate of chart_139_2 is 6.9%), identify the contradiction between the growth of multiple segmented markets and the overall decline, and infer the differentiation of the retail format. All options rely on joint reasoning because a single chart cannot explain the cause of the 'contradiction' (it is necessary to compare the trends of the overall and segmented markets).",
+        "B": "This is a hard distraction. It misinterprets the data of the warehouse membership supermarket industry. In 2020, the growth rate of the warehouse membership supermarket industry was +6.9% (positive growth, not a decline), while the growth rate of convenience stores was +15.8%. Both increased, but the original question focused on the comparison between convenience stores and overall consumption. Here, the warehouse membership supermarket industry was wrongly included, and the data is incorrect.",
+        "C": "It is necessary to combine the growth rate of 2022 in chart_139_1 (-0.2%) and that of 2022 in chart_139_3 (9.8%), compare the trend differences, and infer the continuous advantage of convenience stores (such as community penetration).",
+        "D": "This is an easy distraction. It is based on industry common knowledge (the resilience of small - scale channels), but does not rely on the chart data. In the actual data, the growth rate of convenience stores was 9.8% in 2022, while the overall consumption growth rate was -0.2%. Although it increased, the amplitude was not high; and in 2019, the growth rate of convenience stores was 12.9% vs. 8.0% for the overall, with a small gap, not 'always higher'.",
+        "E": "This is a hard distraction. It misinterprets the year and the contradiction. In 2018, the overall consumption growth rate was 8.8% (positive growth) vs. the convenience store growth rate of 18.8% (positive growth), and the directions were the same, with no contradiction; while in 2020, the overall growth rate was -3.9% (negative) vs. the convenience store growth rate of +15.8% (positive), which is the real contradiction.",
+        "F": "It is necessary to combine the growth rate of 2020 in chart_139_1 (-3.9%) and that of 2020 in chart_139_3 (15.8%), identify the conflict, and infer that external events (such as the pandemic) led to changes in the consumption structure."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distraction. It misinterprets the change in the growth rate. In 2018, the growth rate of convenience stores was 18.8% vs. 23.5% in 2017, with an actual slowdown of 4.7 percentage points (not an acceleration); the growth rate of the warehouse membership supermarket industry in 2018 was 2.1% vs. -11.1% in 2017, which was a recovery (not a slowdown). A correct example of acceleration is that the growth rate of convenience stores in 2020 was 15.8% vs. 12.9% in 2019 (an acceleration of 2.9 percentage points).",
+        "B": "It is necessary to combine the growth rate of 2020 in chart_139_2 (6.9%), the growth rate of 2020 in chart_139_3 (15.8%) and the growth rate of 2020 in chart_139_1 (-3.9%), analyze the growth rate differences, and infer that external events (the pandemic) amplified the attractiveness of convenience stores.",
+        "C": "It is necessary to combine the estimated growth rate of 2024 in chart_139_2 (6.5%) and the estimated growth rate of 2024 in chart_139_3 (9.3%), identify the growth rate gap, and infer the structural changes (such as urbanization driving the demand for convenience stores). All options rely on joint reasoning because a single chart cannot capture the implied connection of 'preference shift' (it is necessary to cross - analyze the trends of two segmented markets).",
+        "D": "This is an easy distraction. It is based on model common knowledge (the advantage of convenience), but does not rely on the chart data. In the actual data, the growth rate of convenience stores is expected to slow down to 9.3% in 2024, and the warehouse membership supermarket industry is expected to be 6.5%, not a 'permanent shift'; and in 2021, the growth rate of the warehouse membership supermarket industry was 12.3% higher than that of convenience stores (17.9%) with a small gap.",
+        "E": "This is a hard distraction. It wrongly compares the numerical values and trends. In 2022, the growth rate of the warehouse membership supermarket industry was 10.1% vs. 12.3% in 2021 (a decrease of 2.2 percentage points), and the growth rate of convenience stores was 9.8% vs. 17.9% in 2021 (a decrease of 8.1 percentage points). Both slowed down, and the decrease of convenience stores was greater, showing no signal of 'preference shift'; the original question requires the years when 'the warehouse membership supermarket industry slows down while the convenience store industry accelerates'.",
+        "F": "It is necessary to compare the growth rate of 2017 in chart_139_2 (-11.1%) and the growth rate of 2017 in chart_139_3 (23.5%), identify the reverse trend, and infer the competitive substitution effect (such as the expansion of convenience stores)."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -150,6 +195,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "It seemingly uses the data from chart_139_2 (e.g., the growth rate of 8.7% in 2023), but misinterprets the trend: The growth rate of the warehouse membership supermarket has significant fluctuations (e.g., -11.1% in 2017), not 'stable', and the overall growth is gentle (the CAGR from 2012 - 2024 is about 6%), while the convenience store industry has a higher growth rate (chart_139_3 shows a 10.5% growth rate in 2023). Prioritizing investment in this area will miss high - growth opportunities.",
+        "B": "Option 1 combines the trend of the continuous growth of the market size and the relatively high growth rate of the convenience store industry in chart_139_3 (e.g., a year - on - year growth of 10.5% in 2023), and the characteristic that the total retail sales of social consumer goods in chart_139_1 recovered growth in 2021 after a decline in 2020.",
+        "C": "It quotes the data from chart_139_1 (a growth rate of -0.5% in 2023), but confuses the overall and sub - sector performance: When the overall consumption declined, the convenience store industry still had positive growth (a growth rate of 10.5% in 2023 in chart_139_3). Reducing investment across the board will ignore growth points and lead to a deviation in the strategic direction.",
+        "D": "Option 2 combines the gentle growth of the market size and the relatively low growth rate of the warehouse membership supermarket industry in chart_139_2 (e.g., the estimated growth rate of only 6.5% in 2024), and the fluctuating consumption growth rate in chart_139_1 (e.g., negative growth in 2020).",
+        "E": "This is a broad common - sense suggestion that does not rely on any chart data. Although the statement is correct, it has no specific action guidelines (e.g., it does not target sub - sector trends), and can be directly excluded through general business logic because it does not optimize the investment strategy.",
+        "F": "Option 3 simultaneously utilizes the changes in the overall consumption growth rate in chart_139_1 (e.g., high growth in 2021, slight negative growth in 2022) and the growth characteristics of the sub - sectors in chart_139_3 and chart_139_2 for time - dynamic matching.",
+        "G": "Similarly, it is not based on the charts but a general management suggestion. Although it is reasonable to improve service quality, it ignores the macro - consumption and sub - sector growth data and cannot be directly linked to market share or profit optimization, so it is easy to exclude."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -173,6 +235,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Option 2 combines the fact that the warehouse membership supermarket industry in chart_139_2 maintained positive market size growth (reaching 36.41 billion yuan in 2023) during the period of weak overall consumption (e.g., negative growth in 2017), and the fluctuating consumption growth rate in chart_139_1 (e.g., slight negative growth in 2022).",
+        "B": "Option 3 simultaneously utilizes the changes in the overall consumption growth rate in chart_139_1 (e.g., high growth in 2021, slight negative growth in 2023) and the growth patterns of the industries in chart_139_3 and chart_139_2 for dynamic response.",
+        "C": "It is not based on the charts but only on general industry trends (the importance of digitalization). Although the statement is reasonable, it has no resource allocation guidelines (e.g., it does not involve sub - sectors) and cannot directly enhance the risk - resistance ability, so it can be excluded through logical common sense.",
+        "D": "It seemingly uses the data from chart_139_3 (the growth rate decreased from 30.7% in 2016 to 8.7% in 2025), but misinterprets the trend: Although the growth rate of convenience stores decreased, it is still much higher than the overall consumption ( -0.5% in 2023 in chart_139_1), and it had a 15.8% growth during the fluctuating period in 2020 (chart_139_3), showing strong risk - resistance ability; reducing investment will weaken the enterprise's resilience.",
+        "E": "Option 1 combines the characteristic that the market size of the convenience store industry in chart_139_3 has been growing year by year and the growth rate has not been negative (e.g., a year - on - year growth of 15.8% in 2020), and the trend that the overall consumption in chart_139_1 rebounded rapidly after a decline in 2020 (a 12.5% growth in 2021).",
+        "F": "It quotes the data from chart_139_1 and chart_139_2 (an overall growth rate of -3.9% in 2020 and a warehouse growth rate of 6.9%), but confuses the comparison: Convenience stores had a higher growth in 2020 (15.8%), and the warehouse growth rate fluctuated greatly (e.g., -11.1% in 2017), so national expansion has high risks; this suggestion oversimplifies the risk - resistance ability and ignores sub - sector differences.",
+        "G": "This is a common - sense suggestion that is divorced from the charts. The statement is broad (diversification is a common risk - resistance means), but it does not target the specific data of retail formats and lacks operability, so it is easy to exclude."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -196,6 +275,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Option 2 combines the fact that the growth rate of the warehouse membership supermarket industry in chart_139_2 is relatively stable (e.g., a year - on - year growth of 8.7% in 2023) but has not reached high - speed growth, and the changes in consumer behavior during the stable period of the overall consumption growth rate in chart_139_1 (e.g., an 8.0% growth in 2019).",
+        "B": "It quotes the data from chart_139_1 (a growth rate of 12.5% in 2021), but misinterprets it: The high - growth period is a good opportunity for innovation (e.g., the convenience store had a 17.9% growth rate in 2021). Suspending innovation will miss market opportunities; the charts show that innovation drives growth (the continuous expansion of convenience stores), so this suggestion is illogical.",
+        "C": "Option 1 combines the characteristic that the market size of the convenience store industry in chart_139_3 has a relatively high growth rate (e.g., a year - on - year growth of 17.9% in 2021) and continuous expansion, and the significant growth of the overall consumption during the recovery period in chart_139_1 (e.g., in 2021).",
+        "D": "It is not based on the charts but broad marketing common sense. Although the statement is correct, it has no specific innovation strategy (e.g., it does not combine the growth potential of sub - sectors) and cannot optimize the product line, so it is easy to exclude.",
+        "E": "It is a common - sense suggestion that ignores the chart data (e.g., industry size or growth rate). Although the environmental protection trend is reasonable, it is not linked to macro - consumption or sub - sector performance and lacks pertinence, so it can be excluded through general logic.",
+        "F": "Option 3 simultaneously utilizes the fluctuations in the overall consumption growth rate in chart_139_1 (e.g., a decline in 2020, a rebound in 2021) and the growth characteristics of the industries in chart_139_3 and chart_139_2 to synchronize innovation with macro - trends.",
+        "G": "It seemingly uses the data from chart_139_3 (the convenience store growth rate of 17.9% in 2021), but misapplies the model: The warehouse membership supermarket is positioned for bulk and low - frequency purchases (chart_139_2 shows gentle growth), while convenience stores are suitable for high - frequency and low - price purchases (chart_139_3 shows high - speed growth). This suggestion confuses the characteristics of different formats and will lead to resource waste."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     }
   ]

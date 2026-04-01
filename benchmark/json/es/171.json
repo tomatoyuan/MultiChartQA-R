@@ -85,6 +85,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, basada en conocimiento común (como el crecimiento de plataformas de comercio electrónico que depende de usuarios y publicidad), no depende de ningún dato del gráfico, solo habla en términos generales y no puede explicar específicamente la correlación en los gráficos.",
+        "B": "Esta es una opción de interferencia difícil, malinterpreta los valores del gráfico: chart_171_1 muestra que en 2023 la tasa de crecimiento interanual del volumen total de ventas minoristas de consumo social fue de 0.07 (no 0.12, 0.12 es el dato de 2021), mientras que la tasa de crecimiento de septiembre en Douyin de 0.32 no fue impulsada directamente por la tasa de crecimiento general más alta; la correlación errónea de valores conduce a un razonamiento causal distorsionado.",
+        "C": "Todas las opciones requieren razonamiento conjunto de chart_171_1 y chart_171_2. chart_171_1 proporciona el contexto macro (como las tendencias del volumen total de ventas minoristas de consumo social y el volumen de ventas minoristas en línea), chart_171_2 proporciona detalles micro (como el crecimiento de las ventas mensuales de ropa, calzado y accesorios en Douyin). Esta opción contrasta el período de estancamiento en 2022 con el período de recuperación en 2023, explicando que el rendimiento de la plataforma puede verse afectado por el entorno macro pero con un efecto de amplificación; los gráficos por separado no pueden llegar a estas conclusiones (por ejemplo, solo chart_171_2 no puede explicar los impulsores macro).",
+        "D": "Esta es una opción de interferencia fácil, basada en conocimiento común de la industria (como el impacto de las actividades promocionales en las ventas), no cita datos del gráfico y no puede proporcionar un razonamiento específico para la correlación entre ropa, calzado y accesorios en Douyin y la tendencia general de ventas minoristas.",
+        "E": "Todas las opciones requieren razonamiento conjunto de chart_171_1 y chart_171_2. chart_171_1 proporciona el contexto macro (como las tendencias del volumen total de ventas minoristas de consumo social y el volumen de ventas minoristas en línea), chart_171_2 proporciona detalles micro (como el crecimiento de las ventas mensuales de ropa, calzado y accesorios en Douyin). Esta opción se centra en la desaceleración de la tasa de crecimiento del volumen de ventas minoristas en línea y la contradicción con el alto crecimiento de Douyin, sugiriendo la singularidad de la plataforma. Los gráficos por separado no pueden llegar a estas conclusiones (por ejemplo, solo chart_171_2 no puede explicar los impulsores macro).",
+        "F": "Todas las opciones requieren razonamiento conjunto de chart_171_1 y chart_171_2. chart_171_1 proporciona el contexto macro (como las tendencias del volumen total de ventas minoristas de consumo social y el volumen de ventas minoristas en línea), chart_171_2 proporciona detalles micro (como el crecimiento de las ventas mensuales de ropa, calzado y accesorios en Douyin). Esta opción extrapola del crecimiento general al crecimiento de la plataforma, reflejando una correlación positiva; los gráficos por separado no pueden llegar a estas conclusiones (por ejemplo, solo chart_171_2 no puede explicar los impulsores macro).",
+        "G": "Esta es una opción de interferencia difícil, malinterpreta la brecha del gráfico: chart_171_2 muestra que los datos de ventas de Douyin en 2022 son [87, 100, 96, 88, 92, 91, 98] (sin disminución interanual, algunos meses como julio con 100 mil millones de yuanes son altos), pero la opción de interferencia describe erróneamente como 'disminución interanual' y atribuye erróneamente la recuperación en 2023 al estancamiento general, ignorando la tendencia real de los datos."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Todas las opciones requieren razonamiento conjunto de chart_171_3 y chart_171_4. chart_171_3 muestra el cambio en la proporción de volumen (como +12% en la banda de precios baja), chart_171_4 muestra el cambio en la proporción de ventas (como +9% en la banda de precios baja). Esta opción contrasta la diferencia entre los cambios de volumen y ventas, razonando el impacto del precio unitario; los gráficos por separado no pueden explicar el conflicto (por ejemplo, solo chart_171_3 no puede inferir el impacto en las ventas).",
+        "B": "Esta es una opción de interferencia fácil, basada en conocimiento macroeconómico común (como la degradación del consumo), no depende del contenido del gráfico, solo describe el fenómeno en términos generales sin analizar valores específicos.",
+        "C": "Todas las opciones requieren razonamiento conjunto de chart_171_3 y chart_171_4. chart_171_3 muestra el cambio en la proporción de volumen (como +12% en la banda de precios baja), chart_171_4 muestra el cambio en la proporción de ventas (como +9% en la banda de precios baja). Esta opción extrapola la tendencia de degradación del consumo a partir del cambio estructural general. Los gráficos por separado no pueden explicar el conflicto (por ejemplo, solo chart_171_3 no puede inferir el impacto en las ventas).",
+        "D": "Todas las opciones requieren razonamiento conjunto de chart_171_3 y chart_171_4. chart_171_3 muestra el cambio en la proporción de volumen (como +12% en la banda de precios baja), chart_171_4 muestra el cambio en la proporción de ventas (como +9% en la banda de precios baja). Esta opción analiza el conflicto entre la reducción de volumen y la reducción de ventas en las bandas de precios media y alta, sugiriendo factores de precio; los gráficos por separado no pueden explicar el conflicto (por ejemplo, solo chart_171_3 no puede inferir el impacto en las ventas).",
+        "E": "Esta es una opción de interferencia difícil, malinterpreta la brecha del gráfico: en chart_171_3, la proporción de volumen en la banda de precios de 100-300 yuanes cambia del 22% al 17% (-5%), en chart_171_4 la proporción de ventas cambia del 27% al 24% (-3%), pero la opción de interferencia atribuye erróneamente a 'aumento de precios'; en realidad, la reducción en la proporción de ventas es menor que la reducción en volumen, sugiriendo que los precios pueden haber bajado, no subido.",
+        "F": "Esta es una opción de interferencia difícil, malinterpreta los valores del gráfico: chart_171_3 y chart_171_4 muestran que la proporción de volumen en la banda de precios baja (menos de 50 yuanes) cambia del 38% al 50% (+12%), la proporción de ventas cambia del 30% al 39% (+9%), pero la opción de interferencia infiere erróneamente 'aumento del precio unitario'; los datos reales indican que el crecimiento de la proporción de ventas es menor que el de volumen, sugiriendo que el precio unitario puede haber bajado o permanecido igual, no subido.",
+        "G": "Esta es una opción de interferencia fácil, basada en conocimiento común (como la economía de productos de bajo precio), no cita datos del gráfico y no puede explicar específicamente la brecha entre la proporción de volumen y ventas en los gráficos."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Todas las opciones requieren razonamiento conjunto de chart_171_2, chart_171_3 y chart_171_4. chart_171_2 proporciona valores absolutos de ventas y tasas de crecimiento (como datos mensuales de 2023), chart_171_3 y chart_171_4 proporcionan la estructura de bandas de precios (cambios en las proporciones de volumen y ventas). Esta opción explica las razones estructurales de los meses de bajo crecimiento. Los gráficos por separado no pueden completar el razonamiento (por ejemplo, solo chart_171_2 no puede explicar el papel de las bandas de precios).",
+        "B": "Esta es una opción de interferencia difícil, malinterpreta la brecha del gráfico: chart_171_3 muestra que la proporción de volumen en la banda de precios baja aumentó del 38% en 2022 al 50% en 2023 (+12%), mientras que en chart_171_2 la tasa de crecimiento de diciembre de 0.02 corresponde a ventas de 100 mil millones de yuanes (superior a los 98 mil millones de yuanes de 2022); la opción de interferencia describe erróneamente como 'reducción en la proporción de volumen' y asocia erróneamente la baja tasa de crecimiento, ignorando los datos reales de aumento de proporción.",
+        "C": "Esta es una opción de interferencia fácil, basada en conocimiento común (como el impacto de las actividades promocionales), no depende de datos del gráfico y no puede explicar la fluctuación mensual específica o la interacción de bandas de precios.",
+        "D": "Esta es una opción de interferencia difícil, malinterpreta los valores del gráfico: chart_171_4 muestra que la proporción de ventas en la banda de precios alta (más de 300 yuanes) disminuyó del 15% en 2022 al 11% en 2023 (-4%), mientras que la tasa de crecimiento de septiembre fue de 0.32; la opción de interferencia describe erróneamente como 'aumento de proporción', contradiciendo la tendencia real de disminución, lo que lleva a un razonamiento erróneo de los factores impulsores del crecimiento.",
+        "E": "Esta es una opción de interferencia fácil, basada en conocimiento común de la industria (como factores tecnológicos de la plataforma), no cita valores del gráfico, solo describe en términos generales y no puede proporcionar soporte de datos para las fluctuaciones en las tasas de crecimiento.",
+        "F": "Todas las opciones requieren razonamiento conjunto de chart_171_2, chart_171_3 y chart_171_4. chart_171_2 proporciona valores absolutos de ventas y tasas de crecimiento (como datos mensuales de 2023), chart_171_3 y chart_171_4 proporcionan la estructura de bandas de precios (cambios en las proporciones de volumen y ventas). Esta opción extrapola el impacto de las bandas de precios a partir de las fluctuaciones mensuales de crecimiento; los gráficos por separado no pueden completar el razonamiento (por ejemplo, solo chart_171_2 no puede explicar el papel de las bandas de precios).",
+        "G": "Todas las opciones requieren razonamiento conjunto de chart_171_2, chart_171_3 y chart_171_4. chart_171_2 proporciona valores absolutos de ventas y tasas de crecimiento (como datos mensuales de 2023), chart_171_3 y chart_171_4 proporcionan la estructura de bandas de precios (cambios en las proporciones de volumen y ventas). Esta opción analiza la correlación entre los meses de alto crecimiento y la proporción de bandas de precios bajas, razonando los factores impulsores del crecimiento; los gráficos por separado no pueden completar el razonamiento (por ejemplo, solo chart_171_2 no puede explicar el papel de las bandas de precios)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 3 cita la tendencia a largo plazo del crecimiento del comercio minorista en línea pero la desaceleración de su tasa de crecimiento en chart_171_1, combinada con conocimientos externos (las promociones innovadoras pueden atraer tráfico), pero la inferencia central se basa en los datos del gráfico y la estrategia es conforme a los valores (fomenta la competencia justa y el bienestar del consumidor).",
+        "B": "La opción 2 se basa en la fluctuación de los datos de ventas de Douyin en chart_171_2 (por ejemplo, la tasa de crecimiento en diciembre es baja) y la desaceleración del crecimiento del volumen total de ventas minoristas de consumo social en chart_171_1 (la tasa de crecimiento en 2023 es de 0.07, que es menor que 0.12 en 2021), y deduce un ajuste dinámico del presupuesto para mejorar la utilización de recursos.",
+        "C": "Distractor difícil: Aparentemente se basa en chart_171_2 (datos de los meses de alto crecimiento), pero confunde la relación - reducir la inversión en los meses de alto crecimiento desperdiciará oportunidades (por ejemplo, las ventas en septiembre fueron de 11600 millones de yuanes). chart_171_1 muestra que el crecimiento general se desacelera, por lo que es más necesario aprovechar los períodos de alto crecimiento; la lógica errónea reducirá la relación de inversión - rendimiento.",
+        "D": "Distractor fácil: No se basa en los gráficos, solo en el conocimiento común (expansión de canales físicos), pero el foco de la pregunta es la plataforma de Douyin, y chart_171_1 muestra que el volumen de ventas minoristas de bienes físicos en línea ha aumentado continuamente (13000000000000 yuanes en 2023), y el mercado en línea es el campo de batalla principal; lo físico no es relevante y se desvía de la estrategia de la plataforma.",
+        "E": "Distractor fácil: No se basa en los datos de los gráficos, solo en el conocimiento general (la distribución uniforme del presupuesto puede estabilizar las ventas), pero ignora la fluctuación mensual de las ventas (por ejemplo, chart_171_2 muestra que la tasa de crecimiento varía de 0.13 a 0.32), y la distribución uniforme reducirá la eficiencia; los gráficos muestran que el crecimiento general del comercio minorista en línea se desacelera (la tasa de crecimiento año tras año en chart_171_1 disminuye), por lo que se necesita una inversión precisa en lugar de una inversión promedio.",
+        "F": "Distractor difícil: Aparentemente utiliza los datos de chart_171_2 (la tasa de crecimiento en diciembre de 2023 es de 0.02), pero interpreta erróneamente la tendencia - los meses de bajo crecimiento (como diciembre) indican una debilidad de la demanda o factores externos, y la inversión puede ser ineficaz; la estrategia correcta debe centrarse en los meses de alto crecimiento (por ejemplo, la tasa de crecimiento en septiembre es del 32%) para mejorar la eficiencia.",
+        "G": "La opción 1 combina los meses de alto crecimiento de las ventas mensuales de ropa y calzado de moda en Douyin en chart_171_2 (por ejemplo, las tasas de crecimiento en septiembre y octubre son destacadas) y la tendencia de la disminución de la tasa de crecimiento año tras año del volumen de ventas minoristas de bienes físicos en línea en chart_171_1 (la tasa de crecimiento en 2023 es de 0.08, que es significativamente menor que 0.14 en 2020), y deduce aumentar la inversión en los períodos de alto crecimiento para aprovechar al máximo las oportunidades."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Distractor difícil: Aparentemente utiliza chart_171_3 (la proporción de ventas - 5%) y chart_171_4 (la proporción de ventas - 3%), pero interpreta erróneamente - la proporción de la franja de precios intermedia disminuye en general, lo que indica un cambio en las preferencias de los consumidores. Aumentar el inventario puede causar acumulación; la estrategia correcta debe priorizar la franja de precios baja (el aumento de la demanda).",
+        "B": "Distractor fácil: No se basa en los datos, solo en la experiencia de la industria (los productos de alta gama generan altas ganancias), pero chart_171_3 y chart_171_4 muestran que la proporción de ventas y la proporción de ingresos de la franja de precios alta disminuyen (-1% y - 4%), la demanda se debilita y la promoción puede ser ineficaz.",
+        "C": "Distractor difícil: Aparentemente se basa en chart_171_3 (ventas +12%) y chart_171_4 (ingresos +9%), pero confunde la relación - la franja de precios baja es la única que crece. Reducir la promoción se perderá cuota de mercado; los datos indican que la demanda es fuerte y es la clave para aumentar las ventas.",
+        "D": "La opción 2 combina los cambios de la proporción de la franja de precios intermedia (por ejemplo, 100 - 300 yuanes) en chart_171_3 y chart_171_4 (la proporción de ventas disminuye pero la disminución de la proporción de ingresos es más moderada), y deduce optimizar el valor en lugar de una guerra de precios para mantener las ganancias, lo que se diferencia del enfoque de bajo precio de la opción 1.",
+        "E": "La opción 3 se basa en la tendencia de la disminución de la proporción de la franja de precios más alta en chart_171_3 y chart_171_4 (ventas - 1%, ingresos - 4%), y deduce una estrategia de redistribución de recursos para evitar inversiones ineficaces.",
+        "F": "Distractor fácil: No se basa en los gráficos, solo en el conocimiento común (un inventario uniforme puede satisfacer a los clientes), pero ignora los cambios de la franja de precios (chart_171_3 y chart_171_4 muestran que la demanda se traslada hacia la franja de precios baja), y la estrategia uniforme ignorará las oportunidades de optimización de ganancias.",
+        "G": "La opción 1 integra los datos del aumento significativo de la proporción de ventas de la franja de precios más baja en chart_171_3 (cambio +12%) y el crecimiento de la proporción de ingresos de la misma franja de precios en chart_171_4 (cambio +9%), y deduce que la demanda de productos de bajo precio es alta, y la estrategia es conforme a los valores (mejora la accesibilidad para los consumidores)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Distractor difícil: Aparentemente utiliza chart_171_3 (la proporción de ventas de 50 - 100 yuanes - 6%) y chart_171_4 (la proporción de ingresos - 1%), pero confunde la tendencia - la franja de precios intermedia disminuye en general, mientras que la franja de precios baja aumenta significativamente (ventas +12%). Reducir las SKU de bajo precio se perderán oportunidades de ventas; los datos apoyan la expansión de la franja de precios baja.",
+        "B": "Distractor difícil: Aparentemente combina chart_171_2 (las ventas en diciembre fueron de 10000 millones de yuanes, la tasa de crecimiento es de 0.02) y chart_171_3 (la proporción de la franja de precios alta), pero interpreta erróneamente - tanto los meses de bajo crecimiento como la franja de precios alta se muestran débiles (por ejemplo, el crecimiento en diciembre es débil y la proporción de alta gama disminuye). La promoción conjunta puede ser ineficaz; la estrategia correcta debe centrarse en los meses de alto crecimiento y la franja de precios baja.",
+        "C": "La opción 2 integra la tendencia del aumento de la proporción de ventas de la franja de precios baja en chart_171_3 y la desaceleración del crecimiento del volumen de ventas minoristas de bienes físicos en línea en chart_171_1, y deduce centrarse en los productos de bajo precio para hacer frente a los cambios del mercado. La estrategia es conforme a los valores (promueve el consumo inclusivo).",
+        "D": "Distractor fácil: No se basa en los datos, solo en la observación general (el mercado está saludable y no es necesario ajustar), pero la tasa de crecimiento año tras año en chart_171_1 disminuye (0.07 en 2023 vs 0.12 en 2021), y chart_171_3 muestra que las preferencias se trasladan hacia la franja de precios baja. Mantener el estado actual se ignorará el riesgo de cambios.",
+        "E": "La opción 1 combina el crecimiento año tras año del volumen total de ventas minoristas de consumo social en chart_171_1 (crecimiento positivo en 2023 pero desacelerado en comparación con años anteriores), los meses de alto crecimiento de las ventas mensuales de Douyin en chart_171_2 (por ejemplo, septiembre y octubre), y los datos del aumento de la proporción de ventas de la franja de precios más baja en chart_171_3, y deduce una estrategia de coordinación entre el momento y la franja de precios.",
+        "F": "La opción 3 se basa en la disminución de la proporción de la franja de precios intermedia - alta en chart_171_3 y chart_171_4 (pero la disminución de la franja intermedia es menor), la desaceleración del crecimiento general en chart_171_1, y la fluctuación de las ventas en chart_171_2, y deduce una estrategia de optimización de la combinación, que se diferencia del enfoque unidimensional de las opciones 1 y 2.",
+        "G": "Distractor fácil: No se basa en los gráficos, solo en el conocimiento común (los productos de alta gama para hacer frente a la desaceleración), pero chart_171_3 y chart_171_4 muestran que la proporción de la franja de precios alta disminuye (-1% y - 4%), y chart_171_1 muestra que el crecimiento general se desacelera. Girar hacia la alta gama empeorará el desajuste de la demanda."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     }
   ]

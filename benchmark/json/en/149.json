@@ -86,6 +86,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Option 2 is correct, also relying on two charts: Combining the proportion of purchases on new-type e-commerce platforms (55.8% in chart_149_1) with the high-frequency purchase proportion (a total of 67.8% for multiple times a week in chart_149_2), we can infer that emerging platforms (such as Douyin and Kuaishou) may stimulate more frequent purchases through interactive content. This requires comparing the proportion trends across charts.",
+        "B": "Option 3 is correct. By combining the \"proportion of purchases on online supermarket platforms\" (67.3% in chart_149_1) and the \"high-frequency purchase data\" (chart_149_2), it shows that fast delivery services (such as Meituan and Ele.me) may reduce purchase barriers and support repeat consumption. However, this implicit relationship cannot be captured by a single chart.",
+        "C": "This option misinterprets the chart values: The right side of chart_149_1 shows that the proportion of purchases on community group-buying platforms is 42.6% (not the highest), while comprehensive e-commerce platforms (75.3%) have the highest proportion. It exaggerates the proportion of community group-buying and is a Hard interference item.",
+        "D": "Option 1 is correct because it requires a combined analysis of the \"proportion of online purchase channels\" chart (the right sub-chart of chart_149_1) and the \"purchase frequency\" chart (the left sub-chart of chart_149_2). The former shows that comprehensive e-commerce platforms have the highest proportion of online purchases (75.3%), and the latter shows that the proportion of multiple purchases per week (a total of 67.8% for 1 - 2 times a week and 3 - 4 times a week) dominates, indicating a positive correlation between the convenience of online channels and high-frequency consumption behavior. However, this pattern cannot be derived from a single chart alone.",
+        "E": "This option misinterprets the ranking and values: The proportion of the \"rarely\" purchase frequency on the left side of chart_149_2 is only 1.7% (the smallest), while \"1 - 2 times a week\" accounts for 38.3% (higher frequency). It confuses the \"rarely\" and high-frequency data and is a Hard interference item.",
+        "F": "This option generally discusses the role of brand marketing (common industry knowledge) without referring to specific channel or frequency data in the charts. It is an Easy interference item. It ignores that the charts focus on purchase channels rather than brand advertising.",
+        "G": "This option is based on general health trend common sense (such as sugar-free drinks being regarded as a healthy choice) and does not rely on chart data. It is an Easy interference item. It wrongly attributes high-frequency behavior to health awareness, while the charts do not mention health factors."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option misinterprets the values and ranking: The proportion of winning a prize when opening the bottle on the right side of chart_149_2 is 59.2% (the highest), not the lowest; the demand for taste improvement in chart_149_3 accounts for 71.5% (the highest). It reverses the data and is a Hard interference item.",
+        "B": "This option uses general market theory (the role of celebrity endorsements) without referring to chart values. It is an Easy interference item. The charts do not mention endorsements or brand factors, only focusing on the types of promotion activities.",
+        "C": "This option is based on marketing common sense (free trials are a common strategy) and does not rely on chart data. It is an Easy interference item. It does not involve specific promotion types or improvement directions in the charts.",
+        "D": "Option 2 is correct, relying on two charts: Combining the highest proportion of the promotion of winning a prize when opening the bottle (59.2% in chart_149_2) with the highest demand for taste improvement (71.5% in chart_149_3), it shows that the promotion strategy (instant rewards) may stimulate short-term purchases, while product improvement (taste) is a long-term demand. This requires analyzing the implicit relationship of preference trends across charts.",
+        "E": "Option 1 is correct because it is necessary to combine the \"preference for promotion activities\" chart (the right sub-chart of chart_149_2) and the \"directions for improvement\" chart (chart_149_3). The former shows that the proportion of discounts is 50.5%, and the latter shows that the proportion of price improvement is 56.0%. Both are relatively high, indicating that consumers have a dual focus on price factors (promotion preference and product feedback). However, this correlation cannot be revealed by a single chart alone.",
+        "F": "This option misinterprets the values: The demand for price improvement in chart_149_3 accounts for 56.0% (the third highest), while the improvement of specifications (40.8%) is the lowest. It confuses the \"price\" and \"specification\" data and is a Hard interference item.",
+        "G": "Option 3 is correct. By combining the proportion of the second bottle at half price promotion (55.8% in chart_149_2) and the demand for price improvement (56.0% in chart_149_3), we can infer that price-related promotions (such as bundling) can specifically meet the improvement needs. However, the data from a single chart is not sufficient to support this strategic insight."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option misinterprets the ranking and values: The proportion of the \"irregular\" frequency on the left side of chart_149_2 is 10.7% (relatively small), while \"1 - 2 times a week\" accounts for 38.3% (the largest); the demand for taste improvement in chart_149_3 accounts for 71.5% (the highest). It exaggerates the \"irregular\" frequency and is a Hard interference item.",
+        "B": "This option uses general market theory (the impact of monopoly) without combining the charts. It is an Easy interference item. The charts do not mention market competition or substitute information.",
+        "C": "Option 1 is correct because it requires a combined analysis of the \"purchase frequency\" chart (the left sub-chart of chart_149_2) and the \"directions for improvement\" chart (chart_149_3). The former shows that the proportion of multiple purchases per week is high (a total of 79.7%), and the latter shows that the demand for taste improvement is the highest at 71.5%. We can infer that high-frequency consumption does not mean satisfaction and may be driven by habit or convenience, while the improvement demand exposes potential dissatisfaction. However, this conflict cannot be explained by a single chart alone.",
+        "D": "Option 3 is correct. By combining the high-frequency purchase data (chart_149_2) and the high proportions of multiple improvement directions (such as taste, ingredients, and price, all above 50% in chart_149_3), we can infer that sugar-free drinks may have become a necessity. Consumers use them frequently in the absence of better options but provide feedback on improvement needs. This conclusion cannot be drawn from a single chart.",
+        "E": "Option 2 is correct, relying on two charts: Combining the relatively small proportion of low-frequency options in the purchase frequency (\"irregular\" 10.7% + \"rarely\" 1.7%) in chart_149_2 with the relatively high demand for ingredient improvement (56.2%) and price improvement (56.0%) in chart_149_3, it shows that although consumers continue to purchase, they pay attention to ingredient and cost optimization. This requires analyzing the proportion trends across charts to reconcile the contradiction.",
+        "F": "This option misinterprets the values: The demand for date improvement in chart_149_3 accounts for 46.5% (the fourth), while taste improvement (71.5%) is the highest; the proportion of high-frequency purchases in chart_149_2 is large. It confuses the \"date\" and \"taste\" data and is a Hard interference item.",
+        "G": "This option is based on common sense of consumer behavior (loyalty and habit) and does not rely on chart data. It is an Easy interference item. It does not refer to specific values of frequency or improvement directions."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combining the left sub-chart of chart_149_1 (a high proportion of consumers learn through social platforms) and the right sub-chart (a high proportion of consumers purchase through online supermarkets), infer an integrated marketing strategy.",
+        "B": "This option seemingly uses the chart data (the proportion of learning through community group-buying platforms is 27.2% and the proportion of purchasing through them is 42.6%), but misinterprets the numerical relationship. In fact, in the chart, community group-buying ranks second from the bottom among the learning channels (only higher than in-store promotions at 24.0%), and the purchasing proportion of 42.6% is much lower than that of comprehensive e-commerce platforms at 75.3%. The interference option exaggerates its importance and ignores the efficient channels (such as e-commerce platforms at 52.1%).",
+        "C": "Combining the left sub-chart of chart_149_1 (the proportion of learning through community group-buying platforms and in-store promotions is relatively low) and the right sub-chart (the proportion of purchasing through community group-buying platforms is relatively low), infer a resource reallocation strategy.",
+        "D": "This option does not rely on the chart and is only based on general common sense (traditional media has a wide coverage). However, the chart does not mention any traditional media, and the actual data shows that online channels (such as e-commerce and short-video platforms) dominate the learning channels and purchasing behavior. Therefore, this suggestion is ineffective and deviates from the data.",
+        "E": "This option does not refer to the chart and only provides a broad strategy (combining offline activities with social media). The chart shows that both the offline learning channels (such as offline promotional posters or advertisements at 33.9%) and purchasing channels (dominated by online channels) have relatively low proportions. This suggestion has no data support and lacks specific action guidelines.",
+        "F": "Combining the left sub-chart of chart_149_1 (e-commerce and short-video platforms have the highest proportions among the learning channels) and the right sub-chart (comprehensive e-commerce platforms have the highest proportion among the purchasing channels), infer a resource focus on efficient digital channels.",
+        "G": "This option quotes the chart data (the proportion of learning through short-video platforms is 49.5% vs. 52.1% for e-commerce platforms, and the proportion of purchasing through new-type e-commerce platforms is 55.8%), but confuses the trends. In fact, the proportion of learning through short-video platforms is only slightly lower than that of e-commerce platforms at 49.5%, and the proportion of purchasing through new-type e-commerce platforms is the second-highest channel (only after comprehensive e-commerce platforms). The interference option wrongly interprets the'slightly lower' as ineffective and ignores the high exposure potential of short-video platforms."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Combining the left sub-chart of chart_149_2 (the group that purchases several times a week has the highest proportion among the purchase frequencies) and the right sub-chart (winning a prize when opening the bottle has the highest proportion among the promotional preferences), infer an incentive strategy for high-frequency consumers.",
+        "B": "This option uses the frequency distribution data (the proportion of low-frequency purchasers is 7.9%) and the promotional preference (winning a prize when opening the bottle is 59.2%), but misinterprets the importance of the group. In fact, the proportion of high-frequency purchasers (29.5% for 3 - 4 times a week + 38.3% for 1 - 2 times a week) is as high as 67.8%, much higher than the 7.9% of low-frequency purchasers. The interference option overemphasizes the niche group and ignores the repeat purchase potential of high-frequency consumers.",
+        "C": "This option does not rely on the chart and is only based on common sense (member discounts can enhance loyalty). However, the chart data does not involve the membership system, and the promotional preferences show that specific activities (such as winning a prize when opening the bottle at 59.2%) are more popular. This suggestion is too broad and has no data basis.",
+        "D": "This option partially uses the data (comparison of promotional preferences), but the overall logic is broad (reducing a certain activity). The chart does not prove that 'the second bottle at half price' at 55.8% is ineffective, and the frequency distribution shows that the irregular purchasers at 10.7% may benefit from such promotions. The suggestion lacks specificity.",
+        "E": "This option quotes the improvement needs (packaging at 39.3%) and the promotional preference (free small gifts at 44.8%), but confuses the priorities. In fact, the taste improvement need is the highest at 71.5% among the improvement needs, and winning a prize when opening the bottle at 59.2% is the most popular among the promotions. The interference option wrongly regards the medium-value packaging as the core and ignores the key pain point (taste).",
+        "F": "Combining the right sub-chart of chart_149_2 (a high preference for the second bottle at half price) and chart_149_3 (taste and ingredients have the highest proportions among the improvement directions), infer a promotional design combined with product improvement.",
+        "G": "Combining the right sub-chart of chart_149_2 (an obvious preference for discounts) and chart_149_3 (the most prominent need is for taste improvement), infer the synergy between promotions and product optimization."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -195,6 +280,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option does not rely on the chart and is only based on common sense (optimizing the date + TV advertising). However, the chart does not involve TV or email channels, and the demand for date improvement at 46.5% is much lower than the 71.5% for taste improvement. This suggestion ignores the data and the promotion channels are ineffective.",
+        "B": "Combining chart_149_3 (the improvement needs for packaging and specification are relatively low but exist) and the left and right sub-charts of chart_149_1 (the proportions of learning and purchasing through community group-buying platforms are moderate), infer a testing strategy for efficient resource allocation.",
+        "C": "This option does not use the chart (there is no data support for email marketing) and provides a general suggestion. The chart shows that online channels dominate information acquisition and purchasing. This suggestion has no basis and the strategic direction is vague.",
+        "D": "Combining chart_149_3 (the improvement needs for ingredients and price are high) and the left sub-chart of chart_149_1 (a high proportion of consumers learn through social platforms) and the right sub-chart (a high proportion of consumers purchase through online supermarkets), infer an optimization strategy for specific consumer groups.",
+        "E": "This option uses the improvement need (specification at 40.8%) and the purchasing channel data (community group-buying at 42.6%), but wrongly associates the values. In fact, the need for specification ranks second from the bottom (only higher than packaging at 39.3%), and the proportions of learning and purchasing through community group-buying platforms are 27.2% and 42.6% respectively, neither of which is dominant (the proportion of learning through e-commerce platforms is 52.1% and the proportion of purchasing through them is 75.3%). The interference option wrongly regards the 'close values' as the basis for the strategy and ignores the efficient channels.",
+        "F": "Combining chart_149_3 (the taste improvement need has the highest proportion) and the left and right sub-charts of chart_149_1 (e-commerce and short-video platforms have high proportions for learning, and comprehensive e-commerce platforms have the highest proportion for purchasing), infer a combination of core improvement and efficient channels.",
+        "G": "This option quotes the taste demand at 71.5%, the ingredient demand at 56.2%, and the offline learning proportion at 33.9%, but distorts the trend. In fact, the taste demand is the highest and not saturated, while the proportion of offline learning at 33.9% is relatively low (much lower than online channels). The interference option wrongly assumes that 'the taste is saturated' and recommends inefficient offline promotion, which contradicts the data."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     }
   ]

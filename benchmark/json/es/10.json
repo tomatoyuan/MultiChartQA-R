@@ -86,6 +86,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Opción 1 depende del valor general alto de atención de búsqueda del gráfico de tendencia de atención de búsqueda y del día pico junto con la alta proporción pero crecimiento negativo de las ciudades de primer nivel del gráfico de proporción de atención por nivel de ciudad, explicando el conflicto causado por la saturación del mercado.",
+        "B": "Esta es una opción de interferencia fácil, basada en un error de sentido común: no depende de los gráficos; la contradicción entre el alto volumen de búsqueda y el crecimiento negativo no puede explicarse con 'error de entrada de datos', y el sentido común de la temporada alta de formación profesional no puede explicar directamente la razón del crecimiento negativo, ignorando la contradicción central del problema.",
+        "C": "Opción 3 combina la tendencia fluctuante del gráfico de tendencia de atención de búsqueda con los valores negativos de crecimiento del gráfico de proporción de atención por nivel de ciudad, explicando que los eventos a corto plazo no afectan la disminución a largo plazo.",
+        "D": "Opción 2 une el volumen de búsqueda diario promedio del gráfico de tendencia de atención de búsqueda con la pequeña proporción pero gran crecimiento negativo de las ciudades de tercer/cuarto nivel del gráfico de proporción de atención por nivel de ciudad, razonando que las pequeñas regiones arrastran el crecimiento general.",
+        "E": "Esta es una opción de interferencia fácil, basada en un error de sentido común: no depende de los gráficos; la recesión económica puede causar una disminución en las búsquedas, pero el alto volumen de búsqueda contradice esto, y la suposición de subsidios gubernamentales no se refleja en los gráficos, siendo una generalización vaga.",
+        "F": "Esta es una opción de interferencia difícil, interpretación errónea de los gráficos: en chart_10_1, la comparación entre la atención de búsqueda del 1 de mayo (6200000) y del 31 de mayo (9500000) muestra un crecimiento absoluto, pero el crecimiento negativo es un concepto interanual (comparado con el año anterior), los gráficos no proporcionan datos del año anterior; la opción de interferencia confunde erróneamente el crecimiento secuencial con el crecimiento interanual, e infiere incorrectamente 'anomalía de datos'.",
+        "G": "Esta es una opción de interferencia difícil, interpretación errónea de los gráficos: chart_10_3 muestra que las ciudades de cuarto nivel tienen una tasa de crecimiento de -9%, la mayor disminución, pero su proporción es solo del 12%, mientras que las ciudades de primer nivel tienen una proporción del 38% y una tasa de crecimiento de -6%, teniendo un impacto mayor; la opción de interferencia exagera erróneamente la importancia de regiones con pequeña proporción como el principal impulsor, ignorando el cálculo de ponderación."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, basada en un error de sentido común: no depende de los gráficos; el dominio del 80.7% en móvil es un hecho, pero el sentido común de que 'el terminal de computadora es más profesional' no explica la ley implícita, y contradice los datos del gráfico, siendo una generalización vaga.",
+        "B": "Esta es una opción de interferencia fácil, basada en un error de sentido común: no depende de los gráficos; chart_10_2 muestra que la proporción en móvil es del 80.7%, mucho mayor que el 19.30% en PC, la opción de interferencia supone erróneamente que las ciudades de primer nivel prefieren los terminales de computadora, pero el gráfico no tiene datos de terminales por ciudad, y contradice la tendencia general.",
+        "C": "Opción 2 combina las tasas de crecimiento negativas de las ciudades de segundo/tercer nivel del gráfico de proporción de atención por nivel de ciudad con la proporción de terminales móviles del gráfico de análisis de proporción de terminales de búsqueda, razonando el cambio de comportamiento regional.",
+        "D": "Opción 1 depende de la alta proporción de terminales móviles del gráfico de análisis de proporción de terminales de búsqueda y la alta proporción de ciudades de primer nivel del gráfico de proporción de atención por nivel de ciudad, razonando conjuntamente la ley implícita de desarrollo urbano y preferencia de terminales.",
+        "E": "Esta es una opción de interferencia difícil, interpretación errónea de los gráficos: en chart_10_3 y chart_10_2, la tasa de crecimiento de las ciudades de segundo nivel es -4%, un valor negativo, lo que indica una disminución en la atención, no un crecimiento; la opción de interferencia interpreta erróneamente 'crecimiento negativo' como 'rápido crecimiento de búsquedas móviles', malinterpretando la dirección del crecimiento.",
+        "F": "Esta es una opción de interferencia difícil, interpretación errónea de los gráficos: chart_10_3 muestra que la tasa de crecimiento de las ciudades de tercer nivel es -8%, pero chart_10_2 es la proporción general de terminales móviles, no se puede desglosar por ciudad; la opción de interferencia infiere erróneamente los cambios en las búsquedas móviles por nivel de ciudad, y 'abandono acelerado' contradice la alta proporción, malinterpretando la brecha.",
+        "G": "Opción 3 integra la alta proporción y crecimiento negativo de las ciudades de primer nivel del gráfico de proporción de atención por nivel de ciudad con el dominio de los terminales móviles del gráfico de análisis de proporción de terminales de búsqueda, analizando el impacto de la madurez del mercado."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Opción 1 depende del día pico del gráfico de tendencia de atención de búsqueda, la alta proporción de Beijing del gráfico de las 5 principales ciudades de búsqueda y la proporción de terminales móviles del gráfico de análisis de proporción de terminales de búsqueda, razonando conjuntamente la implicación de la ciudad y los terminales como impulsores del pico.",
+        "B": "Esta es una opción de interferencia difícil, interpretación errónea de los gráficos: chart_10_4 muestra que la proporción de Chengdu es del 3.4%, segunda en el TOP5, pero el pico del 16 de mayo (10200000) en chart_10_1 son datos generales; la opción de interferencia confunde erróneamente la proporción de la ciudad (proporción general) con el impulso del día pico, ignorando otras ciudades (como Beijing con una proporción mayor del 4.3%) y factores de terminales, malinterpretando el orden y la ponderación.",
+        "C": "Esta es una opción de interferencia fácil, basada en un error de sentido común: no depende de los gráficos; el 5 de mayo puede ser después de las vacaciones, pero los gráficos no muestran factores impulsores específicos, e ignoran los datos de terminales y ciudades, siendo una suposición de sentido común.",
+        "D": "Opción 2 combina la proporción de Chengdu del gráfico de las 5 principales ciudades de búsqueda, la proporción de terminales móviles del gráfico de análisis de proporción de terminales de búsqueda y el día pico del gráfico de tendencia de atención de búsqueda, razonando el comportamiento móvil en ciudades no de primer nivel.",
+        "E": "Esta es una opción de interferencia fácil, basada en un error de sentido común: no depende de los gráficos; chart_10_2 muestra que la proporción de terminales móviles es del 80.7%, los terminales de computadora solo el 19.30%, la opción de interferencia contradice directamente la proporción de terminales, suponiendo erróneamente que los terminales de computadora dominan el día pico.",
+        "F": "Esta es una opción de interferencia difícil, interpretación errónea de los gráficos: en chart_10_1, la atención de búsqueda del 4 de mayo es 9700000, en chart_10_2 la proporción de terminales móviles es 80.7%, pero los gráficos no tienen datos de terminales por día o por ciudad; la opción de interferencia infiere erróneamente que 'los terminales de computadora contribuyen más', y usa mal la proporción de ciudades de primer nivel de chart_10_4 (como Beijing 38%), creando un malentendido sobre la brecha.",
+        "G": "Opción 3 integra la tendencia de fin de mes del gráfico de tendencia de atención de búsqueda, la proporción de Shenzhen del gráfico de las 5 principales ciudades de búsqueda y el dominio de los terminales móviles del gráfico de análisis de proporción de terminales de búsqueda, analizando la asociación entre demanda regional y terminales."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -150,6 +201,20 @@
       "label": [
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en el contenido de los gráficos, sino solo en conocimientos generales de marketing (como la 'exposición continua'), pero ignora las características de fluctuación de la atención de búsqueda (el chart_10_1 muestra picos y valles evidentes) y las preferencias de dispositivos de los usuarios (el chart_10_2 muestra que la proporción de dispositivos móviles es del 80.7%). La estrategia es amplia y sin enfoque, por lo que no puede mejorar la eficiencia.",
+        "B": "Aparentemente se basa en las tendencias del gráfico (los días de baja atención en el chart_10_1, como 6200000 o 7800000), pero hay un razonamiento erróneo: una baja atención significa menos interés de los usuarios, y invertir en este momento puede desperdiciar el presupuesto; la estrategia correcta es invertir en los períodos de alta atención (como 10200000) para maximizar la exposición.",
+        "C": "La opción 2 se refiere a los períodos de baja atención en el chart_10_1 (por ejemplo, los valores más bajos al final del mes) y la estructura dominada por dispositivos móviles en el chart_10_2. A partir de esto, se infiere una estrategia de reducir la inversión y optimizar en períodos ineficientes.",
+        "D": "La opción 1 se refiere a las características de los picos de la tendencia de atención de búsqueda en el chart_10_1 (por ejemplo, los picos en medio del mes) y los datos de la alta proporción de búsquedas en dispositivos móviles en el chart_10_2. A partir de esto, se infiere una estrategia de centrarse en dispositivos móviles durante los períodos de alta atención para mejorar la eficiencia.",
+        "E": "Aparentemente se utilizan los datos del gráfico (la proporción de dispositivos de escritorio en el chart_10_2 es del 19.3%), pero se interpreta erróneamente las preferencias de los usuarios: los dispositivos móviles son los dominantes (80.7%), priorizar los dispositivos de escritorio reducirá la eficiencia de alcance, y no hay evidencia para respaldar la hipótesis de 'decisiones profundas'."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "E"
       ]
     },
     {
@@ -169,6 +234,20 @@
       "label": [
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Aparentemente se combina con el gráfico (la proporción de las 5 principales ciudades en el chart_10_4), pero se confunden los niveles de ciudad: la mayoría de las 5 principales ciudades son de primer nivel (como Beijing y Shanghai), pero el chart_10_3 muestra que la tasa de crecimiento de las ciudades de primer nivel es del -6%, lo que indica un crecimiento débil, y se ignoran las oportunidades de las ciudades de segundo nivel (como Chengdu).",
+        "B": "Esta opción no se basa en el contenido de los gráficos, sino solo en el principio general de equidad, pero se ignoran la proporción específica (el chart_10_3 muestra que las ciudades de primer nivel ocupan el 38%) y la dinámica de crecimiento (todas las tasas de crecimiento son negativas), por lo que no se puede equilibrar el potencial y el riesgo del mercado.",
+        "C": "La opción 2 se refiere a las características de las ciudades de tercer y cuarto nivel en el chart_10_3, donde la proporción es relativamente baja y la tasa de crecimiento es negativa. Combinando con la tendencia general de los niveles de ciudad, se infiere una estrategia de optimización en lugar de abandonar.",
+        "D": "La opción 1 se refiere a la alta proporción pero la tasa de crecimiento negativa de las ciudades de primer nivel en el chart_10_3, la proporción de las ciudades de segundo nivel, y la alta proporción de búsqueda de las principales ciudades en el chart_10_4 (como Chengdu y Hangzhou, representantes de ciudades de segundo nivel). A partir de esto, se infiere una estrategia de inclinar los recursos hacia las ciudades de segundo nivel con alto potencial.",
+        "E": "Aparentemente se utilizan los datos del gráfico (la tasa de crecimiento de las ciudades de tercer y cuarto nivel en el chart_10_3 es del -8% y -9% respectivamente), pero se interpreta erróneamente: una tasa de crecimiento negativa significa una contracción del mercado en lugar de potencial, y la proporción es baja (17% y 12% respectivamente), por lo que la inversión conlleva un alto riesgo; la estrategia correcta es centrarse en las regiones con alta proporción."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -193,6 +272,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Aparentemente se cita la tendencia de búsqueda (la fluctuación en el chart_10_1), pero se ignoran erróneamente las características de la fluctuación: es más fácil convertir a los usuarios durante los períodos de alta atención (como 10200000), y una inversión constante desperdiciará el presupuesto.",
+        "B": "Aparentemente se basa en las preferencias de dispositivos (la proporción de dispositivos de escritorio en el chart_10_2 es del 19.3%), pero se interpreta erróneamente: los dispositivos móviles son los dominantes (80.7%), priorizar los dispositivos de escritorio ignorará el grupo principal de usuarios, y no hay evidencia para respaldar la hipótesis de 'usuarios profesionales'.",
+        "C": "Esta opción no se basa en el contenido de los gráficos, sino solo en conocimientos generales de marketing (como 'mejorar la interacción en las redes sociales'), pero no se combina con el comportamiento de búsqueda (la fluctuación en el chart_10_1) o las preferencias de dispositivos (el 80.7% de dispositivos móviles en el chart_10_2). La estrategia es vaga e ineficaz.",
+        "D": "La opción 3 se refiere a la alta proporción de búsqueda de las principales ciudades (Beijing, Chengdu) en el chart_10_4 y la tendencia de la tasa de crecimiento de los niveles de ciudad en el chart_10_3. A partir de esto, se infiere una estrategia de segmentación regional.",
+        "E": "Aparentemente se utilizan los datos del gráfico (las tasas de crecimiento negativas de las ciudades de tercer y cuarto nivel en el chart_10_3), pero se razona erróneamente: una tasa de crecimiento negativa significa riesgo en lugar de potencial, y la proporción es baja (17% y 12% respectivamente), por lo que la inversión puede ser ineficiente; la estrategia correcta es centrarse en las regiones con alta proporción (como las ciudades de primer nivel o las 5 principales ciudades).",
+        "F": "La opción 1 se refiere al fenómeno de los picos de la tendencia de atención de búsqueda en el chart_10_1 y los datos de la tasa de crecimiento negativa general en el chart_10_3. A partir de esto, se infiere una estrategia de aprovechar los períodos de alta atención para estimular la demanda.",
+        "G": "La opción 2 se refiere a la alta proporción de dispositivos móviles en el chart_10_2 y la desaceleración del crecimiento general de la industria en el chart_10_3. A partir de esto, se infiere una estrategia de mejorar la participación a través de la optimización de dispositivos."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     }
   ]

@@ -91,6 +91,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Easy干扰项：基于常识认为大城市消费意愿和占比必然最高，但图表显示新一线城市到店业务意愿（32.4%）高于一线城市（28.1%），且餐饮套餐品类二三线城市占比最高（72.4%），与常识不符。",
+        "B": "第一张图表（标题为\"Encuesta sobre la voluntad de consumo de usuarios de Internet en ciudades chinas de diferentes niveles para productos de servicios de vida local en 2023\"）显示新一线城市网民在到店业务消费意愿占比最高，第二张图表（标题为\"Encuesta de categorías de consumo de usuarios de servicios presenciales en ciudades chinas de diferentes niveles en 2023\"）中新一线城市在旅游门票品类的消费占比也处于高位。这反映了意愿与行为的一致性，新一线城市网民可能更偏好旅游相关服务。",
+        "C": "第一张图表中二线城市网民到店业务消费意愿较高，第二张图表中二线城市（作为二三线城市组的一部分）在餐饮套餐品类的消费占比最高。这体现了意愿与实际消费在餐饮服务上的强关联。",
+        "D": "Easy干扰项：泛化低线城市所有品类占比低，但图表中四五线城市在出行旅游品类消费占比48.7%较高，与意愿低（8.1%）不一致，错误忽略数据细节。",
+        "E": "Hard干扰项：表面基于图表，但错误解读数值：三线及以下意愿最低（8.1%），但休闲娱乐品类中四五线城市占比43.6%低于二三线58.6%，并非最高；实际差距较大（43.6% vs 58.6%）。",
+        "F": "Hard干扰项：错误比较意愿和占比：新一线意愿最高（32.4%），但餐饮套餐品类占比59.9%低于二三线72.4%，排序错误；意愿和占比差距被误解。",
+        "G": "第一张图表中三线及以下城市网民到店业务消费意愿明显较低，但第二张图表中四五线城市在出行旅游品类的消费占比却相对较高。这揭示了低意愿城市在特定品类（如出行旅游）的潜在消费热情，可能由于区域特性（如旅游目的地）导致的行为与意愿差异。"
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -113,6 +130,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Hard干扰项：表面基于图表，但数值理解错误：清洁卫生非常满意50%并非最高，服务便捷度57%更高；差距明显（57% vs 50%），且清洁卫生与频率无直接因果。",
+        "B": "Hard干扰项：错误解读数据：价格合理度非常满意44%加较满意44%达88%，比例很高，却误判为低；可能相关高频消费（如降低障碍），但选项反向推理错误。",
+        "C": "Easy干扰项：常识性泛泛而谈，不依赖图表；实际图表中消费频率分布（如10次以上仅4.0%）和满意度多维度，无法直接推断普遍规律。",
+        "D": "第三张图表显示消费频率集中在每周1 - 3次和4 - 6次，占比高。第四张图表中价格合理度和优惠促销的\"Muy Satisfecho\"和\"Bastante Satisfecho\"占比合计均超过80%，不满意比例极低。联合推理：用户对成本和促销的满意可能减少经济顾虑，解释高频消费的可持续性。",
+        "E": "Easy干扰项：错误泛化；服务体验感满意高（50%非常满意），但消费频率数据显示多数用户每周1 - 6次（86%），并非所有高频，忽略分布细节。",
+        "F": "第三张图表中高频消费（每周4 - 6次及以上）用户占比过半，第四张图表中服务体验感和安全性的\"Muy Satisfecho\"和\"Bastante Satisfecho\"占比合计均达90%左右，且\"Muy Insatisfecho\"为0%。联合推理：正面体验感和安全感可能增强用户信任，推动持续高频消费。",
+        "G": "第三张图表（标题为\"Distribución de la frecuencia de consumo semanal de usuarios de servicios de vida local en China en 2023\"）显示多数用户消费频率为每周4 - 6次，占比最高，表明高频消费普遍。第四张图表（标题为\"Encuesta 2023 sobre la satisfacción de los usuarios de servicios locales chinos en la experiencia de servicio en tienda\"）中服务便捷度和清洁卫生的\"Muy Satisfecho\"和\"Bastante Satisfecho\"占比合计均超过90%，远高于不满意比例。联合推理：高满意度在基础服务维度（如便捷和卫生）可能直接提升用户忠诚度，导致高频消费。"
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -135,6 +169,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "第一张图表中三线及以下城市网民到店业务消费意愿最低，但第二张图表中四五线城市在生活服务品类的消费占比最高（与其他城市相当）。这显示矛盾：低意愿城市在生活服务（如维修、家政）消费却高，可能因下沉市场服务渗透率高或需求刚性，导致行为与意愿不匹配。",
+        "B": "第一张图表中新一线城市网民到店业务消费意愿最高，但第二张图表中其在休闲娱乐品类的消费占比仅处于中游水平（低于部分城市）。这暗示冲突：高意愿未转化为同等消费强度，可能因新一线城市娱乐选择多样或促销策略分散了消费集中度。",
+        "C": "Hard干扰项：错误比较：培训咨询品类二三线占比23.0%最高，四五线15.4%最低；意愿低（8.1%）但占比非最高，实际差距大（23.0% vs 15.4%）。",
+        "D": "Hard干扰项：表面基于图表，但数值错误：美容美护品类新一线占比35.7%最高，一线31.6%仅第二；排序错误（35.7% vs 31.6%），差距被忽略。",
+        "E": "Easy干扰项：错误陈述；图表数据如一线到店意愿28.1%低于新一线32.4%，但酒店住宿占比42.6%较高，显示冲突，与选项矛盾。",
+        "F": "第一张图表（消费意愿调查）显示一线城市网民到店业务消费意愿占比低于新一线和二线城市，但第二张图表（消费品类调查）中一线城市在酒店住宿品类的消费占比最高。这揭示了冲突：意愿较低却行为较高，可能因一线城市商务旅行需求（如酒店住宿）驱动实际消费，而非意愿主导。",
+        "G": "Easy干扰项：常识解释，不依赖图表；但图表显示一线城市在酒店住宿占比42.6%较高，但其他如出行旅游占比39.0%仅居中，并非所有品类高，错误泛化。"
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente la distribución de frecuencia de chart_150_3: el porcentaje de usuarios con 1 - 3 veces de consumo es del 41%, pero el porcentaje de usuarios con 4 - 6 veces de consumo es del 45%, que es más alto. La opción de distracción confunde la definición de “el grupo más grande” y omite el mayor impacto de los usuarios de alta frecuencia en la actividad.",
+        "B": "chart_150_1 muestra que las ciudades de nuevo primer nivel y de segundo nivel tienen la mayor proporción de voluntad de consumo de servicios presenciales en tienda (32.4% en ciudades de nuevo primer nivel y 31.4% en ciudades de segundo nivel). Combinado con el hecho de que el porcentaje de usuarios con 4 - 6 veces de consumo en chart_150_3 es del 45.0% (dominados por usuarios de alta frecuencia), esto indica que los usuarios de estas ciudades tienen alta actividad, y la inversión de recursos puede maximizar los retornos.",
+        "C": "Esta opción no se basa en los datos de los gráficos, sino solo en conocimientos generales de gestión (como el principio de equidad), pero omite las diferencias geográficas significativas en la voluntad de consumo y la frecuencia de consumo en los gráficos (por ejemplo, la voluntad es más alta en ciudades de nuevo primer nivel y de segundo nivel), por lo tanto, no tiene una guía clara de acción.",
+        "D": "En chart_150_1, la voluntad de consumo de servicios de entrega a domicilio en ciudades de tercer nivel y por debajo es solo del 8.2% (baja), pero chart_150_4 muestra una alta satisfacción con la conveniencia del servicio (57% muy satisfechos). Además, los usuarios de baja frecuencia (el porcentaje de 1 - 3 veces de consumo es del 41.0% en chart_150_3) pueden aumentar su uso debido a la mejora del servicio. Esta estrategia se ajusta a los valores de equidad y evita ignorar las ciudades de bajo nivel.",
+        "E": "Esta opción también es general y se basa en conocimientos comunes de la industria (la importancia de la optimización de la marca y el producto), pero no se combina con las proporciones específicas de voluntad de consumo en los gráficos (por ejemplo, la voluntad de consumo en tienda en ciudades de nuevo primer nivel es del 32.4% en chart_150_1) o la distribución de frecuencia (por ejemplo, el porcentaje de usuarios con 4 - 6 veces de consumo es del 45% en chart_150_3). La estrategia carece de pertinencia.",
+        "F": "Esta opción aparentemente utiliza los datos de los gráficos (citando la voluntad de consumo de chart_150_1), pero comete un grave error: la voluntad de consumo en tienda en ciudades de tercer nivel y por debajo es solo del 8.1% (mucho menos del 30%), y la voluntad de consumo en ciudades de nuevo primer nivel y de segundo nivel en total supera el 60%. La opción de distracción exagera los datos y lleva a una inversión de recursos en mercados de bajo potencial.",
+        "G": "La distribución de frecuencia de chart_150_3 (el porcentaje de 4 - 6 veces de consumo es del 45.0%, la mayoría) se combina con los datos de voluntad de consumo de servicios de chart_150_1, y se optimiza la asignación de recursos a través de un plan de fidelización."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Los datos de frecuencia de chart_150_3 (el porcentaje de 4 - 6 veces de consumo es del 45.0%) se combinan con la satisfacción con las actividades promocionales en chart_150_4 (49% muy satisfechos). Optimizar las promociones para los usuarios activos puede mejorar la fidelización.",
+        "B": "En chart_150_4, el porcentaje de usuarios muy satisfechos con la conveniencia del servicio es del 57%, y el porcentaje de usuarios muy satisfechos con la limpieza es del 50% (tendencia: la satisfacción es alta pero no perfecta). Combinado con la distribución de frecuencia de chart_150_3 (el porcentaje de usuarios con 4 - 6 veces de consumo es el más alto, del 45.0%), los usuarios de alta frecuencia dependen más de los servicios básicos, y la optimización puede reducir la fuga de usuarios.",
+        "C": "En chart_150_4, el porcentaje de usuarios bastante insatisfechos con la coherencia con la información promocional es del 3%, y el porcentaje de usuarios bastante insatisfechos con la razonabilidad de precios es del 4% (tendencia: hay necesidad de mejora). Combinado con el hecho de que el porcentaje de usuarios con 1 - 3 veces de consumo en chart_150_3 es del 41.0% (los usuarios de baja frecuencia pueden reducir su consumo debido a la insatisfacción), esta estrategia puede atraer a los usuarios mediante la mejora de la honestidad.",
+        "D": "Esta opción aparentemente cita los datos de chart_150_4 (51% muy satisfechos con la seguridad), pero comete un razonamiento erróneo: las dimensiones con alta satisfacción (como la seguridad) pueden ser suficientes, mientras que las dimensiones con baja satisfacción (por ejemplo, solo el 44% está muy satisfecho con la razonabilidad de precios y hay insatisfacción) necesitan ser mejoradas con prioridad. La opción de distracción confunde la relación entre “alta satisfacción” y “necesidad de optimización”.",
+        "E": "Esta opción se basa en conocimientos generales (optimizar en general para mejorar la satisfacción), pero no se basa en los datos de los gráficos y omite las diferencias entre diferentes dimensiones en la encuesta de satisfacción (por ejemplo, el 4% está bastante insatisfecho con la razonabilidad de precios en chart_150_4). Esta estrategia no tiene prioridades.",
+        "F": "Esta opción también no se basa específicamente en los gráficos, sino solo desde la perspectiva general de la gestión de servicios (aumentar el personal para mejorar la eficiencia), pero no se combina con los datos de frecuencia de consumo (chart_150_3) o la relación con la satisfacción (por ejemplo, la tasa de satisfacción con la conveniencia del servicio es alta pero todavía hay espacio para mejorar). Carece de soporte de datos.",
+        "G": "Esta opción utiliza erróneamente los datos de frecuencia de chart_150_3: el porcentaje de usuarios con 10 veces o más de consumo es solo del 4%, que es un grupo pequeño; mientras que el porcentaje de usuarios con 4 - 6 veces de consumo es del 45%, que debe ser priorizado. La opción de distracción exagera el impacto del grupo pequeño y omite el papel clave de los usuarios de alta frecuencia (4 - 6 veces) en el aumento de la frecuencia de consumo."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "En chart_150_1, la voluntad de consumo de servicios presenciales en tienda en ciudades de segundo nivel es del 31.4% (alta). Combinado con el hecho de que el porcentaje de consumo de paquetes de alimentos y bebidas en ciudades de segundo y tercer nivel es del 72.4% y el porcentaje de consumo de servicios de vida es del 48.7% en chart_150_2 (tendencia: dominan estas categorías), la concentración de recursos puede fortalecer la penetración en el mercado.",
+        "B": "Esta opción interpreta erróneamente los datos de chart_150_2: la diferencia entre el porcentaje de consumo de ocio y entretenimiento en ciudades de nuevo primer nivel (57.3%) y en ciudades de segundo y tercer nivel (58.6%) es pequeña, y la voluntad de consumo es alta (la voluntad de consumo de servicios presenciales en tienda en ciudades de nuevo primer nivel es la más alta, del 32.4% en chart_150_1). La opción de distracción confunde una pequeña diferencia con una desventaja y omite las oportunidades en el mercado de alta voluntad.",
+        "C": "En chart_150_1, la voluntad de consumo de servicios presenciales en tienda en ciudades de nuevo primer nivel es la más alta (32.4%). Combinado con el hecho de que el porcentaje de consumo de paquetes de alimentos y bebidas en ciudades de nuevo primer nivel es del 59.9% y el porcentaje de consumo de ocio y entretenimiento en ciudades de nuevo primer nivel es del 57.3% en chart_150_2 (tendencia: la demanda es destacada), esta estrategia optimiza los productos para el mercado de alto potencial.",
+        "D": "Esta opción no se basa en los gráficos, sino solo en conocimientos generales (las ventajas económicas de las ciudades de primer nivel), pero omite los datos de voluntad de consumo (la voluntad de consumo de servicios presenciales en tienda en ciudades de primer nivel es del 28.1%, menor que el 32.4% en ciudades de nuevo primer nivel en chart_150_1) y las preferencias de categorías de consumo (por ejemplo, el porcentaje de consumo de ocio y entretenimiento en ciudades de primer nivel es del 56.6% en chart_150_2). Esta estrategia no tiene base de datos.",
+        "E": "Esta opción es general y se basa en conocimientos comunes (la innovación atrae a los usuarios), pero no se combina con los datos específicos de los gráficos (como las diferencias de voluntad de consumo en ciudades de diferentes niveles o los porcentajes de categorías de consumo), por lo tanto, no puede optimizar la estrategia en función de las preferencias regionales (por ejemplo, el porcentaje de consumo de paquetes de alimentos y bebidas en ciudades de segundo y tercer nivel es del 72.4% en chart_150_2).",
+        "F": "Esta opción aparentemente utiliza los datos de chart_150_2 (el porcentaje de consumo de entradas turísticas en ciudades de cuarto y quinto nivel es del 20.5%), pero comete un razonamiento erróneo: este porcentaje es mucho más bajo que el de otras ciudades (por ejemplo, el 49.7% en ciudades de nuevo primer nivel), y la voluntad de consumo es baja (la voluntad de consumo de servicios presenciales en tienda en ciudades de tercer nivel y por debajo es solo del 8.1% en chart_150_1). La opción de distracción confunde “bajo porcentaje” con “potencial” y lleva a una inversión de recursos en un mercado de baja demanda.",
+        "G": "En chart_150_1, la voluntad de consumo en ciudades de tercer nivel y por debajo es solo del 8.1% (baja), pero el porcentaje de consumo de servicios de vida en ciudades de cuarto y quinto nivel es del 48.7% (alto) en chart_150_2. Mediante la integración de paquetes de servicios, se pueden excavar las demandas, lo que se ajusta a los valores y evita ignorar las ciudades de bajo nivel."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

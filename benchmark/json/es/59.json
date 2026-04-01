@@ -85,6 +85,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Todas las opciones requieren razonamiento conjunto de chart_59_1 y chart_59_2. chart_59_1 muestra que el tiempo de uso de Internet y aprendizaje y entrenamiento aumentó significativamente de 2008 a 2024 (por ejemplo, Internet de 14 minutos a 363 minutos), mientras que chart_59_2 muestra que la tasa de miopía siempre estuvo por encima del 50% en 2018-2022, sin una tendencia clara de disminución. La opción B contrasta el crecimiento de cultura, ocio y entretenimiento (chart_59_1) con el bajo crecimiento de deportes y fitness (chart_59_1), y combina con la tasa de miopía estable y alta (chart_59_2), razonando el impacto del desequilibrio de actividades. Los gráficos por separado no pueden llegar a estas conclusiones: chart_59_1 solo muestra la duración de las actividades, chart_59_2 solo muestra la tasa de miopía, se debe realizar un análisis cruzado.",
+        "B": "Todas las opciones requieren razonamiento conjunto de chart_59_1 y chart_59_2. chart_59_1 muestra que el tiempo de uso de Internet y aprendizaje y entrenamiento aumentó significativamente de 2008 a 2024 (por ejemplo, Internet de 14 minutos a 363 minutos), mientras que chart_59_2 muestra que la tasa de miopía siempre estuvo por encima del 50% en 2018-2022, sin una tendencia clara de disminución. La opción C señala el aumento explosivo de Internet (chart_59_1) pero la fluctuación de la tasa de miopía (como 51.90% en 2022 vs 53.60% en 2018, chart_59_2), razonando que otros factores como la conciencia de protección ocular pueden aliviar pero no cambiar fundamentalmente la tendencia. Los gráficos por separado no pueden llegar a estas conclusiones: chart_59_1 solo muestra la duración de las actividades, chart_59_2 solo muestra la tasa de miopía, se debe realizar un análisis cruzado.",
+        "C": "Esta es una opción de interferencia Hard: malinterpreta la brecha de datos; el tiempo de deportes y fitness solo aumentó 12 minutos (pequeño incremento), mientras que la tasa de miopía 'disminuyó' de 53.6% a 51.9% solo 1.7 puntos porcentuales (realmente fluctuante y alta), la opción malinterpreta la magnitud del crecimiento y la correlación, ignorando el mayor impacto de Internet/aprendizaje y entrenamiento.",
+        "D": "Esta es una opción de interferencia Easy: se basa en conocimiento general de salud (reducir el uso cercano de los ojos), pero los gráficos no incluyen datos de lectura de libros; el enfoque original de la pregunta está en actividades gráficas como Internet y aprendizaje, esta opción generaliza.",
+        "E": "Esta es una opción de interferencia Hard: malinterpreta los valores del gráfico; aunque el tiempo de cultura, ocio y entretenimiento creció (incremento de 113 minutos) rápidamente, el uso de Internet (incremento de 349 minutos) y aprendizaje y entrenamiento (incremento de 260 minutos) crecieron más significativamente, y la alta tasa de miopía probablemente esté más relacionada con estas actividades de uso cercano de los ojos, la opción exagera el papel de la cultura y el ocio.",
+        "F": "Todas las opciones requieren razonamiento conjunto de chart_59_1 y chart_59_2. chart_59_1 muestra que el tiempo de uso de Internet y aprendizaje y entrenamiento aumentó significativamente de 2008 a 2024 (por ejemplo, Internet de 14 minutos a 363 minutos), mientras que chart_59_2 muestra que la tasa de miopía siempre estuvo por encima del 50% en 2018-2022, sin una tendencia clara de disminución. La opción A asocia directamente el aumento del tiempo de actividad (chart_59_1) con la alta tasa de miopía (chart_59_2), razonando que el uso de pantallas y libros puede causar problemas de visión. Los gráficos por separado no pueden llegar a estas conclusiones: chart_59_1 solo muestra la duración de las actividades, chart_59_2 solo muestra la tasa de miopía, se debe realizar un análisis cruzado.",
+        "G": "Esta es una opción de interferencia Easy: se basa en el sentido común (el ejercicio al aire libre beneficia la visión), pero no depende de los datos del gráfico; en los gráficos reales, el crecimiento de deportes y fitness es extremadamente lento (solo 12 minutos de aumento), no puede explicar el fenómeno de la alta tasa de miopía."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia Hard: compara incorrectamente los valores; la tasa de miopía en 2020 fue 52.7% vs 50.2% en 2019 (aumento), pero el tamaño del mercado 802 mil millones de yuanes vs 804 mil millones de yuanes en 2019 (ligera disminución, tasa de crecimiento -0.2%), la opción malinterpreta que el aumento de la tasa de miopía causa la disminución del mercado, ignorando otros factores como el posible impacto de la pandemia.",
+        "B": "Todas las opciones dependen del razonamiento conjunto de chart_59_2 y chart_59_3. chart_59_2 muestra que la tasa de miopía siempre estuvo por encima del 50% en 2018-2022 (como 51.90% en 2022), mientras que chart_59_3 muestra que el tamaño del mercado minorista de óptica creció de 804 mil millones de yuanes en 2019 a 1210 mil millones de yuanes en 2027, con una tasa de crecimiento general positiva (como 9.5% en 2024). La opción C contrasta el crecimiento de cultura, ocio y entretenimiento (chart_59_1) con el bajo crecimiento de deportes y fitness (chart_59_1), superpone la alta tasa de miopía (chart_59_2) y la tendencia positiva de crecimiento del mercado (chart_59_3), razonando que la falta de mejora en la visión mantiene la demanda. Los gráficos por separado son inválidos: chart_59_2 solo proporciona la tasa de miopía, chart_59_3 solo proporciona el tamaño del mercado, se deben integrar datos de actividad (chart_59_1) o tendencias de visión.",
+        "C": "Todas las opciones dependen del razonamiento conjunto de chart_59_2 y chart_59_3. chart_59_2 muestra que la tasa de miopía siempre estuvo por encima del 50% en 2018-2022 (como 51.90% en 2022), mientras que chart_59_3 muestra que el tamaño del mercado minorista de óptica creció de 804 mil millones de yuanes en 2019 a 1210 mil millones de yuanes en 2027, con una tasa de crecimiento general positiva (como 9.5% en 2024). La opción B combina el aumento del tiempo de aprendizaje y entrenamiento (chart_59_1, como 287 minutos en 2024) con la tasa de miopía estable (chart_59_2), y asocia el crecimiento del mercado (chart_59_3), razonando que la carga de uso ocular relacionada con la educación es un motor. Los gráficos por separado son inválidos: chart_59_2 solo proporciona la tasa de miopía, chart_59_3 solo proporciona el tamaño del mercado, se deben integrar datos de actividad (chart_59_1) o tendencias de visión.",
+        "D": "Todas las opciones dependen del razonamiento conjunto de chart_59_2 y chart_59_3. chart_59_2 muestra que la tasa de miopía siempre estuvo por encima del 50% en 2018-2022 (como 51.90% en 2022), mientras que chart_59_3 muestra que el tamaño del mercado minorista de óptica creció de 804 mil millones de yuanes en 2019 a 1210 mil millones de yuanes en 2027, con una tasa de crecimiento general positiva (como 9.5% en 2024). La opción A asocia la alta tasa de miopía (chart_59_2) y el aumento explosivo del uso de Internet (de chart_59_1, como 363 minutos en 2024), razonando que el tiempo de pantalla causa problemas de visión, estimulando así la demanda de gafas. Los gráficos por separado son inválidos: chart_59_2 solo proporciona la tasa de miopía, chart_59_3 solo proporciona el tamaño del mercado, se deben integrar datos de actividad (chart_59_1) o tendencias de visión.",
+        "E": "Esta es una opción de interferencia Easy: se basa en el sentido común (impacto del envejecimiento), pero no depende de los datos del gráfico; el gráfico se centra en la miopía infantil y adolescente, no menciona otros grupos de edad.",
+        "F": "Esta es una opción de interferencia Easy: se basa en el conocimiento común de la industria (avance tecnológico), pero el gráfico no tiene datos relevantes; la opción generaliza, no se puede inferir de los gráficos dados.",
+        "G": "Esta es una opción de interferencia Hard: malinterpreta el conflicto de tendencias; el tiempo de aprendizaje y entrenamiento crece continuamente, pero el tamaño del mercado en 2022 fue 777 mil millones de yuanes (tasa de crecimiento -8.6%) disminuyó, la opción asume incorrectamente una correlación positiva, la fluctuación real del mercado (como crecimiento negativo en 2022) no coincide con el crecimiento del tiempo de aprendizaje."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia Easy: se basa en el conocimiento común del mercado, pero los gráficos son datos anuales, sin detalles estacionales; la opción generaliza, no relacionada con los cambios en el tiempo de actividad.",
+        "B": "Esta es una opción de interferencia Hard: malinterpreta la tendencia de los datos; el tiempo de uso de Internet creció continuamente en 2018-2024 (162 minutos a 363 minutos), no hay datos específicos para 2020 pero la tendencia general es ascendente, la opción inventa una 'reducción' para explicar la tasa de crecimiento negativa en 2020, en conflicto con el gráfico.",
+        "C": "Todas las opciones requieren razonamiento conjunto de chart_59_1 y chart_59_3. chart_59_1 muestra un crecimiento general en la duración de las actividades (como Internet de 14 minutos en 2008 a 363 minutos en 2024), mientras que chart_59_3 muestra fluctuaciones en la tasa de crecimiento del mercado (como -0.2% en 2020 y -8.6% en 2022). La opción B combina el crecimiento de aprendizaje y entrenamiento (chart_59_1) con la caída de la tasa de crecimiento (chart_59_3, como -8.6% en 2022), razonando factores económicos (como cambios en el ingreso disponible) o productos competitivos que compensan la demanda. Los gráficos por separado no pueden explicar el conflicto: chart_59_1 muestra una tendencia de crecimiento monótona, chart_59_3 muestra fluctuaciones, se debe realizar un análisis cruzado para identificar las causas de la contradicción.",
+        "D": "Esta es una opción de interferencia Hard: asocia incorrectamente la brecha de valores; el tiempo de deportes y fitness crece lentamente (aumento total de 12 minutos), la tasa de crecimiento del mercado en 2023 se recuperó al 10.9%, pero la opción exagera el impacto de deportes y fitness (aumento real pequeño), e ignora las causas principales de las fluctuaciones de la tasa de crecimiento (como la actividad aún aumentó durante el crecimiento negativo de -8.6% en 2022).",
+        "E": "Todas las opciones requieren razonamiento conjunto de chart_59_1 y chart_59_3. chart_59_1 muestra un crecimiento general en la duración de las actividades (como Internet de 14 minutos en 2008 a 363 minutos en 2024), mientras que chart_59_3 muestra fluctuaciones en la tasa de crecimiento del mercado (como -0.2% en 2020 y -8.6% en 2022). La opción C contrasta el bajo crecimiento de deportes y fitness (chart_59_1) con las fluctuaciones de la tasa de crecimiento (chart_59_3), e implica problemas de visión continuos (necesita referirse a chart_59_2), razonando que factores externos dominan el conflicto. Los gráficos por separado no pueden explicar el conflicto: chart_59_1 muestra una tendencia de crecimiento monótona, chart_59_3 muestra fluctuaciones, se debe realizar un análisis cruzado para identificar las causas de la contradicción.",
+        "F": "Esta es una opción de interferencia Easy: se basa en el sentido común macroeconómico, pero no depende de los datos del gráfico; el gráfico no proporciona indicadores económicos, esta opción no se puede verificar con los datos dados.",
+        "G": "Todas las opciones requieren razonamiento conjunto de chart_59_1 y chart_59_3. chart_59_1 muestra un crecimiento general en la duración de las actividades (como Internet de 14 minutos en 2008 a 363 minutos en 2024), mientras que chart_59_3 muestra fluctuaciones en la tasa de crecimiento del mercado (como -0.2% en 2020 y -8.6% en 2022). La opción A asocia el aumento del uso de Internet (chart_59_1) con la disminución de la tasa de crecimiento (chart_59_3), razonando que a pesar de que los problemas de visión pueden empeorar, eventos imprevistos (como la pandemia en 2020) suprimen el consumo. Los gráficos por separado no pueden explicar el conflicto: chart_59_1 muestra una tendencia de crecimiento monótona, chart_59_3 muestra fluctuaciones, se debe realizar un análisis cruzado para identificar las causas de la contradicción."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Este es un distractor difícil: Se cita el gráfico chart_59_1 (aumento de la duración de Internet) y el gráfico chart_59_2 (ligera disminución de la tasa de miopía), pero se infiere erróneamente la relación causal. Se cree que el aumento dramático de la duración de Internet (incremento de 349 minutos) está relacionado con una alta tasa de miopía, y la estrategia preventiva debería centrarse en la intervención conductual (por ejemplo, limitar el tiempo frente a la pantalla). Sin embargo, la opción sugiere inversión en tecnología, alejándose del enfoque de optimización preventiva del departamento de salud pública.",
+        "B": "Este es un distractor difícil: Aparentemente se utiliza el gráfico chart_59_1 (lento aumento del tiempo de ejercicio) y el gráfico chart_59_2 (ligera disminución de la tasa de miopía), pero se interpreta erróneamente la tendencia. El aumento lento del tiempo de ejercicio (solo un incremento de 12 minutos) y la tasa de miopía todavía alta (51.9%) indican que la falta de ejercicio puede ser un factor de riesgo, por lo que se debería aumentar en lugar de reducir la inversión. Sin embargo, la opción sugiere reducir la intervención en el ejercicio, confundiendo la relación de los datos.",
+        "C": "Combina la tendencia de aumento drástico de la duración de aprendizaje y entrenamiento del gráfico chart_59_1 y la tasa de miopía del gráfico chart_59_2.",
+        "D": "Relaciona las características de crecimiento de la cultura, el ocio y el entretenimiento del gráfico chart_59_1 y los datos de la tasa de miopía del gráfico chart_59_2. Todas las sugerencias cumplen con los valores de salud y se centran en la prevención en lugar del tratamiento.",
+        "E": "Este es un distractor fácil: La afirmación es razonable (los parques pueden promover las actividades al aire libre), pero no se utilizan los datos de los gráficos (los gráficos no abordan las instalaciones urbanas) y carece de indicaciones de acción específicas, siendo una sugerencia genérica.",
+        "F": "Realiza una inferencia conjunta de la tendencia de la duración del uso de Internet y el ejercicio físico en el gráfico chart_59_1 (rápido crecimiento del uso de Internet vs. lento crecimiento del ejercicio) y los datos de la fluctuación alta de la tasa de miopía en el gráfico chart_59_2.",
+        "G": "Este es un distractor fácil: Se basa en conocimientos generales de salud (la vitamina A es beneficiosa para la vista), pero no se basa en los datos de los gráficos (los gráficos no mencionan la dieta o la nutrición), y la estrategia es amplia y no específica, siendo fácilmente descartada por conocimientos generales."
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Relaciona la tendencia de la duración de las actividades del gráfico chart_59_1 (especialmente el uso de Internet y el aprendizaje) y los datos de crecimiento del mercado del gráfico chart_59_3. Las opciones se distinguen claramente en desarrollo de productos, estrategias de canal y innovación de servicios.",
+        "B": "Realiza una inferencia conjunta de la tendencia de la tasa de miopía del gráfico chart_59_2 (estable en niveles altos) y los datos del tamaño y la tasa de crecimiento del mercado del gráfico chart_59_3 (crecimiento general y recuperación de la tasa de crecimiento).",
+        "C": "Este es un distractor difícil: Se utiliza el gráfico chart_59_3 (fluctuación del tamaño del mercado: 80.200 mil millones de yuanes en 2020 con tasa de crecimiento negativa y 94.400 mil millones de yuanes en 2024 con tasa de crecimiento positiva), pero se infiere erróneamente que el aumento dramático de la duración del uso de Internet (363 minutos en 2024 según el gráfico chart_59_1) debería respaldar los canales en línea. Sin embargo, la opción sugiere suspender la inversión en línea, contradiciendo la tendencia de los datos.",
+        "D": "Se cita el gráfico chart_59_1 (aumento de la duración de aprendizaje) y el gráfico chart_59_2 (ligera disminución de la tasa de miopía), pero se interpreta erróneamente que el aumento dramático de la duración de aprendizaje (incremento de 260 minutos) está relacionado con una alta tasa de miopía, y se debería desarrollar productos para proteger la vista en lugar de ignorarlos. La opción confunde las tendencias y sugiere perseguir ganancias en lugar de satisfacer las necesidades de salud.",
+        "E": "Este es un distractor fácil: La afirmación es correcta (la protección ambiental es una tendencia), pero no se utilizan los gráficos (los gráficos no mencionan materiales o protección ambiental), y es una sugerencia genérica y sin especificidad, sin una relación directa con la mejora de la competitividad de la empresa.",
+        "F": "Este es un distractor fácil: Se basa en conocimientos comerciales generales (la atención al cliente es importante), pero no se basa en los datos de los gráficos (los gráficos no abordan la calidad del servicio), y la estrategia es difusa y sin soporte de datos, siendo fácilmente descartada por conocimientos generales.",
+        "G": "Combina las características de crecimiento del uso de Internet del gráfico chart_59_1 y la tendencia de la tasa de crecimiento del mercado del gráfico chart_59_3."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Este es un distractor fácil: La afirmación es razonable (la promoción del ejercicio físico es beneficiosa), pero no se utilizan los gráficos (los gráficos muestran un lento aumento del tiempo de ejercicio) y carece de indicaciones específicas de asignación de recursos, siendo una sugerencia generalizada.",
+        "B": "Este es un distractor fácil: Se basa en conocimientos generales de gobierno (construir clínicas es razonable), pero no se basa en los datos de los gráficos (los gráficos no abordan la distribución de instalaciones), y la estrategia es amplia y no se enfoca en el equilibrio entre prevención y tratamiento, siendo fácilmente descartada por conocimientos generales.",
+        "C": "Este es un distractor difícil: Se cita el gráfico chart_59_1 (aumento del tiempo de entretenimiento) y el gráfico chart_59_2 (ligera disminución de la tasa de miopía), pero se establece una relación errónea. El aumento del tiempo de entretenimiento puede involucrar dispositivos electrónicos (como no se especifica en el gráfico chart_59_1), y la tasa de miopía todavía es alta, por lo que se debería fortalecer la promoción preventiva. Sin embargo, la opción sugiere reducir la prevención y solo centrarse en el tratamiento (subsidios para gafas), ignorando la necesidad de equilibrio.",
+        "D": "Relaciona la tasa de miopía del gráfico chart_59_2 y los datos de la tasa de crecimiento y el tamaño del mercado del gráfico chart_59_3. Todas las estrategias se basan en las tendencias de los datos y cumplen con los valores de optimización de recursos y equidad en salud.",
+        "E": "Este es un distractor difícil: Se utiliza el gráfico chart_59_1 (aumento de la duración de aprendizaje), el gráfico chart_59_2 (alta tasa de miopía) y el gráfico chart_59_3 (crecimiento del tamaño del mercado), pero se asignan incorrectamente los recursos. El aumento dramático de la duración de aprendizaje está relacionado con el riesgo de problemas de vista, pero la falta de actividades al aire libre (solo 35 minutos de ejercicio) debería impulsar la prevención. Sin embargo, la opción sugiere priorizar los proyectos de tratamiento, alejándose de la estrategia preventiva sostenible.",
+        "F": "Realiza una inferencia conjunta de la tendencia de aprendizaje y entrenamiento del gráfico chart_59_1, los datos de la tasa de miopía del gráfico chart_59_2 y el crecimiento del tamaño del mercado del gráfico chart_59_3.",
+        "G": "Combina las tendencias del uso de Internet y la cultura y el ocio del gráfico chart_59_1 y la tasa de miopía del gráfico chart_59_2."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

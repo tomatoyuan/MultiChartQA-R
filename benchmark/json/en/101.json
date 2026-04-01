@@ -85,6 +85,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is a hard distractor, resulting from a misunderstanding of the chart values. In the actual data, the growth rate of the user scale in 2023E is 8.5%, while the growth rate of the market size is 27.4%. In 2024E, the growth rate of the user scale is 7.1%, and the growth rate of the market size is 22.3%. The distractor wrongly interprets the growth rate of the user scale as higher than that of the market size, possibly due to a misreading of the growth rate data points (e.g., confusing the order of the years).",
+        "B": "It depends on comparing the growth rate data of the two charts. However, the absolute value of the market size is still increasing (e.g., the forecast value in 2025E is 280.88 billion yuan), indicating that the users' willingness to pay is increasing rather than being driven by the number of users. We cannot infer this relationship by only looking at one chart (e.g., the growth rate of the user scale).",
+        "C": "By combining the data of historical years (e.g., from 2015 to 2022) and forecast years (from 2023E to 2025E), the growth rates of both were high in historical years (e.g., the growth rate of the market size in 2021 was 72.2% and that of the user scale was 14.1%). However, in the forecast years, the growth rate of the user scale dropped to single - digits (4.8% in 2025E), while the growth rate of the market size remained relatively high (22.3% in 2025E), implying a transformation of the growth model. This requires cross - analysis of the trends in the two charts.",
+        "D": "This is an easy distractor, resulting from a common - sense error in language. Commonly, if the growth rate of the market size (from 27.4% to 22.3% in the forecast years) is higher than that of the user scale (from 8.5% to 4.8% in the forecast years), the average payment per user should increase rather than decrease. This can be inferred without relying on the chart data, only based on model knowledge.",
+        "E": "It is necessary to jointly calculate the average payment per user (market size ÷ user scale) using the market size chart and the consumer scale chart. For example, in 2022, the market size was 112.65 billion yuan and the user scale was 530 million people, resulting in approximately 212 yuan per person. In 2025E, the forecast market size is 280.88 billion yuan and the user scale is 640 million people, resulting in approximately 439 yuan per person, showing an upward trend. This conclusion cannot be drawn from a single chart.",
+        "F": "This is a hard distractor, resulting from a misunderstanding of the chart trends. In fact, the growth rate of the market size shows a downward trend in the forecast years (from 27.4% in 2023E to 22.3% in 2024E), but the distractor wrongly describes it as 'accelerating upward', possibly due to a misjudgment of the growth rate sequence (e.g., ignoring the decline from 2023E to 2024E).",
+        "G": "This is an easy distractor, resulting from a common - sense error. Commonly, the growth rate of the user scale slows down significantly in the forecast years (e.g., only 7.1% in 2024E), while the growth of the market size remains relatively high (e.g., the growth rate in 2024E is 22.3%), indicating that the growth is not entirely dependent on new users, but on the improvement of user value. This can be inferred without relying on the chart data, only based on industry common sense (the user growth slows down in the mature stage of the market)."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Combine the content type distribution chart and the consumer scale chart. The content type distribution chart shows that the proportion of audio is only 13.2% (relatively low), but the user scale in the consumer scale chart is predicted to continue to grow (reaching 640 million people in 2025E), implying that audio has not been fully utilized and may grow with the expansion of the user base in the future. This implicit relationship cannot be inferred by only looking at the distribution chart.",
+        "B": "This is an easy distractor, resulting from a common - sense error in language. Commonly, the distribution of content types is uneven (e.g., 75.7% for short videos vs. 13.2% for audio), so the contributions cannot be equal. This can be inferred without relying on the chart data, only based on model knowledge.",
+        "C": "This is a hard distractor, resulting from a misunderstanding of the chart values and trends. In fact, the growth rate of the user scale continues to decline in the forecast years (e.g., only 7.1% in 2024E), and the content distribution is static data in 2022, which cannot be directly related to the growth rate in the forecast years. The distractor wrongly interprets the static proportion as dynamic growth acceleration, possibly due to confusing the time dimensions.",
+        "D": "This is a hard distractor, resulting from a misunderstanding of the chart ranking. In fact, the proportion of graphics and texts is 22.0%, which is not the lowest (the 'others' type has a lower proportion of 7.6%), and the proportion does not directly equal the influence (e.g., live broadcasts with a proportion of 25.6% may drive high - value payments). The distractor wrongly equates the proportion ranking with the influence size, possibly due to a misreading of the distribution data.",
+        "E": "It is necessary to jointly analyze the content type distribution chart and the consumer scale chart. The content type distribution chart shows that the proportion of short videos is 75.7% (the highest), and the user scale in the consumer scale chart has increased from 50 million people in 2015 to 530 million people in 2022. Although the growth rate has decreased, the absolute value is high (e.g., the growth rate in 2022 was 10.5%), implying that short videos can attract new users as entry - level content. This causal relationship cannot be established by a single chart.",
+        "F": "It depends on the content type distribution chart and the market size chart. In the content type distribution chart, the proportion of live broadcasts is 25.6% and that of graphics and texts is 22.0% (the total is high). In the market size chart, the market size reached 112.65 billion yuan in 2022 with a growth rate of 66.9%, indicating that these content types may drive high - value payments (e.g., courses or subscriptions). It is necessary to jointly reason about the content preferences and market size data.",
+        "G": "This is an easy distractor, resulting from a common - sense error. Commonly, the proportion of audio is only 13.2% (lower than 75.7% of short videos), so it cannot be the main driving force. This can be inferred without relying on the chart data, only based on industry common sense (short videos are more likely to spread and attract users)."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -130,6 +164,22 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "It is necessary to jointly analyze the market size growth rate chart and the consumer scale growth rate chart. In the market size growth rate chart, the growth rate has decreased from 85.3% in 2016 to 22.3% in the 2025E forecast (a decrease of about 63 percentage points). In the consumer scale growth rate chart, the growth rate has decreased from 95.8% in 2016 to 4.8% in the 2025E forecast (a decrease of about 91 percentage points). The decline in the user scale growth rate is greater, while the absolute value of the market size growth rate is higher (22.3% in 2025E vs. 4.8% of the user growth rate), indicating a conflict: the user growth slows down faster, but the market growth is more robust, implying an increase in the depth of payment. The difference in the decline cannot be compared by a single chart.",
+        "B": "This is a hard distractor, resulting from a misunderstanding of the chart values. In fact, the growth rate of the user scale in 2020 was 20.7%, and the growth rate of the market size was 41.0%. Therefore, the growth rate of the market size was higher. The distractor wrongly reversed the relationship, possibly due to a misremembering of the growth rate years (e.g., confusing the user growth rate of 56.9% in 2018 with that in 2020).",
+        "C": "This is an easy distractor, resulting from a common - sense error in the industry. Commonly, the growth rate of the user scale was high in the early stage (e.g., 100.0% in 2016 vs. 66.7% of the market size), but in the forecast years, the user growth rate is lower than the market growth rate (e.g., 7.1% in 2024E vs. 22.3%), and the decline amplitudes are different. This can be inferred without relying on the chart data, only based on model knowledge.",
+        "D": "Based on the joint reasoning of the forecast data. In the consumer scale growth rate chart, the user growth rate in the 2025E forecast is only 4.8% (a low level), but in the market size growth rate chart, the market size growth rate in the 2025E forecast is 22.3% (significantly higher). By calculating, the average payment per user has increased (from about 212 yuan per person in 2022 to about 439 yuan per person in 2025E), showing a solution to the conflict: the user growth weakens, but the value per user drives the market. This difference cannot be explained by only looking at one chart.",
+        "E": "This is a hard distractor, resulting from a misunderstanding of the chart differences. In fact, the decline amplitude of the market size growth rate is greater in the forecast years (from 66.9% in 2022 to 22.3% in 2025E, a decrease of about 44.6 percentage points), while the decline of the user scale growth rate is relatively gentle (from 10.5% in 2022 to 4.8% in 2025E, a decrease of about 5.7 percentage points). The distractor wrongly describes it as 'the decline amplitude of the market size growth rate is smaller', possibly due to a misjudgment of the decline amplitude calculation (e.g., ignoring the specific numerical differences).",
+        "F": "It depends on comparing the growth rate trends of the two charts. In the early stage (e.g., from 2016 to 2017), the growth rate of the user scale was higher (95.8% vs. 85.3% of the market size growth rate). However, in the later stage (e.g., after 2021), the market size growth rate (from 66.9% to 22.3%) has always been higher than the user growth rate (from 14.1% to 4.8%), combined with the implied content innovation in the content type chart (e.g., short videos) to enhance the willingness to pay. It is necessary to jointly reason about the trend changes."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -153,6 +203,22 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Joint reasoning for Option A: chart_101_3 (Short videos and live broadcasts have the highest proportions in users' content preferences, being the dominant forms) and chart_101_2 (The year - on - year growth rate of the user scale has been decreasing from the early high level to the predicted low level). Based on the concentrated preference trend and the slowdown of the scale growth rate, the strategy suggests resource allocation to improve efficiency.",
+        "B": "This is a hard distractor: It seemingly refers to chart_101_3 (Short videos account for 75.7%), but misinterprets the trend. Chart_101_3 shows that graphics and texts and audio have 22.0% and 13.2% of user preferences respectively, and the user scale in chart_101_2 continues to grow (e.g., reaching 640 million people in 2025E). Eliminating these content types will ignore the stable user groups and lead to an imbalance in resource allocation.",
+        "C": "This is an easy distractor: The statement is broad and based on common sense (e.g., 'Expand advertising investment'), without referring to any chart data or specific strategies, and can be easily excluded.",
+        "D": "Joint reasoning for Option B: chart_101_3 (Graphics and texts and audio have a considerable proportion but are not dominant) and chart_101_1 (The predicted growth rate of the market size continues to decline). Combining with the background of the slowdown in growth rate, the strategy emphasizes innovating the secondary forms to tap potential.",
+        "E": "Joint reasoning for Option C: chart_101_3 (Other types have the lowest proportion) and chart_101_1 and 101_2 (Both the growth rates of the market size and the user scale have significantly slowed down). Based on the low preference and growth pressure, the strategy suggests resource redistribution, which conforms to the optimization value (not discriminatory reduction but efficiency - oriented).",
+        "F": "This is an easy distractor: The suggestion to 'Improve training quality' has no clear action guidelines and does not combine the user preferences or growth trends in the charts, only generally talking about optimizing content quality."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -176,6 +242,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Joint reasoning for Option A: chart_101_3 (Live broadcasts have a high proportion, reflecting users' preferences) and chart_101_2 (The year - on - year growth rate of the user scale has decreased from the high level to the predicted low level). Based on the preference trend and the slowdown of the growth rate, the strategy suggests improving user retention through interactive forms.",
+        "B": "This is a hard distractor: It seemingly refers to chart_101_2 (The growth rate was 95.8% in 2016), but misinterprets the trend. The growth rate has continuously declined to 4.8% in 2025E. Early strategies (e.g., free trials) may be ineffective in an environment with a slow - growing rate, and it ignores the value of the high interactivity of live broadcasts in user retention in users' preferences (chart_101_3).",
+        "C": "This is an easy distractor: The statement is broad (e.g., 'Optimize the user interface'), without referring to any chart data (such as user content preferences or scale trends), and lacks specific strategic guidance.",
+        "D": "Joint reasoning for Option C: chart_101_3 (Graphics and texts have a considerable proportion) and chart_101_1 (The growth rate of the market size is decreasing but the absolute value is increasing, implying opportunities for per - user revenue). In response to the slowdown in growth rate, the strategy emphasizes service upgrading rather than expansion, which conforms to the value of improving quality rather than reducing services.",
+        "E": "This is a hard distractor: It seemingly refers to chart_101_1 (The growth rate data of the market size), but confuses the relationship. The growth rate is slowing down (22.3% in 2025E) and the growth rate of the user scale is also declining (chart_101_2). Raising prices may accelerate user loss, which contradicts the goal of user retention and does not consider the concentrated trend of user preferences.",
+        "F": "This is an easy distractor: The suggestion to 'Strengthen social media marketing' has no basis in the charts and belongs to general business common sense, not targeting the user preferences or growth trends of knowledge payment.",
+        "G": "Joint reasoning for Option B: chart_101_3 (Short videos have the highest proportion, being the dominant form) and chart_101_2 (The growth rate of the user scale was strong in the early stage but is predicted to be weak). Combining the concentrated preference and the lack of growth momentum, the strategy suggests low - cost user acquisition."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -199,6 +282,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: The statement is vague (e.g., 'Increase cooperation with KOLs'), without combining the chart data (such as content preference distribution or growth rate trends), and lacks specific guidance on business model adjustment.",
+        "B": "This is a hard distractor: It seemingly refers to chart_101_3 (Short videos account for 75.7%), but misinterprets the preferences. Live broadcasts and graphics and texts have 25.6% and 22.0% of user demand respectively. Stopping development will result in the loss of niche markets, and it ignores the need for diversified revenue sources due to the slowdown in the market size growth rate (The growth rate in chart_101_1 has dropped to 22.3%).",
+        "C": "This is an easy distractor: The suggestion to 'Establish a feedback mechanism' has no basis in the charts and belongs to broad management common sense, not targeting revenue growth or user preferences.",
+        "D": "This is a hard distractor: It seemingly refers to chart_101_1 (The market size value), but confuses the trend. The growth rate has been continuously slowing down (from 72.2% in 2020 to 22.3% in 2025E). Blindly expanding the production scale may increase costs without improving efficiency, and it does not consider the constraints of the concentrated user preferences on the business model.",
+        "E": "Joint reasoning for Option C: chart_101_3 (The proportion of audio is low but not zero) and chart_101_2 (The growth rate of the user scale has declined from the high level). In response to the slowdown in growth rate, the strategy suggests innovation to explore new markets, which conforms to the value of inclusive growth rather than abandoning the low - proportion groups.",
+        "F": "Joint reasoning for Option B: chart_101_3 (Both live broadcasts and graphics and texts have significant proportions) and chart_101_1 (The growth rate of the market size is slowing down). Combining the diverse preferences and the growth trend, the strategy suggests product combination to improve efficiency.",
+        "G": "Joint reasoning for Option A: chart_101_3 (Short videos have the highest proportion) and chart_101_1 (The predicted growth rate of the market size continues to decline to a low level). Based on the dominant preference and growth pressure, the strategy suggests in - depth monetization rather than simple expansion."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

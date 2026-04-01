@@ -86,6 +86,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "依赖\"观看时段\"图表（吃饭时观看占比相对较低）和\"倍数播放原因\"图表（节省时间占比高）。联合推理揭示，低观看比例情境下，高效需求可能更突出，但仅凭一张图表（如时段数据）无法解释为什么吃饭时观看较少却与节省时间动机相关。",
+        "B": "依赖\"观看时段\"图表（空闲无聊时观看占比高）和\"倍数播放原因\"图表（节省时间和跳过无趣内容占比高）。联合推理显示，空闲无聊时段可能促使观众通过倍数播放优化时间利用，单张图表无法揭示此行为模式。",
+        "C": "这是Hard干扰项：错误解读了图表数值（chart_111_1中失眠/压力大时观看占比为30.74%，而chart_111_2中习惯倍速播放占比为41.71%）。实际差距为10.97%，但干扰项声称\"远高于\"，制造了错误的比较（失眠比例低于习惯倍速比例）。",
+        "D": "这是Easy干扰项：基于电视行业的常识（黄金时段通常是晚上7 - 10点，收视率最高），不依赖任何图表数据，因为原图表未提及\"黄金时段\"的概念。",
+        "E": "这是Easy干扰项：基于一般媒体常识（广告是常见干扰因素），但原图表中倍数播放原因未涉及\"跳过广告\"，只提到节省时间或内容无趣，因此不依赖图表内容。",
+        "F": "这是Hard干扰项：错误解读了数值差距（chart_111_1中吃饭时观看占比26.67%与chart_111_2中视频质量不佳占比29.33%）。实际差距仅为2.66%，但干扰项声称\"相近\"，而忽略其他更高比例原因（如节省时间50.10%），误导性地关联了无关因素。",
+        "G": "依赖\"观看时段\"图表（失眠/压力大时观看占比高）和\"倍数播放原因\"图表（演员语速过慢占比高）。联合推理表明，情绪化时段可能放大对节奏的敏感度，导致加速播放，这需要交叉分析两个图表的数据趋势。"
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是Easy干扰项：基于心理学常识（积极评价可能减少技术干预），不依赖图表数据，因为原图表未提供评价与行为直接关联的证据。",
+        "B": "依赖\"行业看法\"图表（持中立态度占比高）和\"倍数播放原因\"图表（习惯倍速播放舒适占比高）。联合推理表明，中立观众可能用倍数播放缓冲质量不确定性，这需要对比两个图表的数据趋势（如中立比例与舒适习惯比例均较高）。",
+        "C": "这是Easy干扰项：基于电视剧制作常识（冗长剧情是常见问题），但原图表中倍数播放原因未提及\"剧情铺垫\"，只涉及内容无趣或拖沓，因此不依赖图表内容。",
+        "D": "依赖\"行业看法\"图表（看好剧集质量占比高）和\"倍数播放原因\"图表（部分内容无趣拖沓占比高）。联合推理揭示冲突：高正面评价与高频加速行为并存，说明整体乐观态度下隐藏局部不满，仅凭单张图表（如看法数据）无法捕捉此矛盾。",
+        "E": "这是Hard干扰项：错误解读了数值差距（chart_111_3中不看好比例16.54%与chart_111_2中视频质量不佳占比29.33%）。实际差距为12.79%，但干扰项声称\"远低于\"，而实际不看好比例更低，误导性地夸大了冲突。",
+        "F": "这是Hard干扰项：错误解读了数值比较（chart_111_3中看好比例49.63%与chart_111_2中习惯倍速占比41.71%）。实际差距为7.92%，但干扰项声称\"高度接近\"，而忽略最高比例原因（节省时间50.10%），制造了虚假关联。",
+        "G": "依赖\"行业看法\"图表（不看好质量占比低）和\"倍数播放原因\"图表（视频质量不佳占比低）。联合推理显示，低负面评价与低技术问题原因可能指向内容（如剧本）而非制作是核心问题，但单张图表（如倍数播放原因）无法解释为什么质量批评未转化为高倍速使用。"
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：错误解读了数值排序（chart_111_2中演员语速过慢占比45.71%与chart_111_4中提升演技占比37.28%）。实际差距为8.43%，但干扰项声称\"远高于\"，而忽略其他更高手段（如创新剧本37.78%），错误地暗示了无效性。",
+        "B": "依赖\"倍数播放原因\"图表（部分内容无趣拖沓占比高）和\"提高手段\"图表（创新剧本内容占比高）。联合推理揭示隐含联系：内容无趣驱动倍速播放，而创新剧本被视为解决方案，单张图表（如提高手段数据）无法证明此因果关系。",
+        "C": "依赖\"倍数播放原因\"图表（节省时间占比最高）和\"提高手段\"图表（减少广告插播占比高）。联合推理显示，时间效率需求与广告减少手段相关联，但仅凭一张图表（如倍数播放原因）无法解释广告减少如何影响观看行为。",
+        "D": "这是Easy干扰项：基于媒体消费常识（广告是常见痛点），但原图表中倍数播放原因未涉及\"广告干扰\"，只提到节省时间，因此不依赖图表内容。",
+        "E": "这是Easy干扰项：基于商业常识（高成本通常关联高质量），不依赖图表数据，因为原图表中增加制作成本占比仅31.48%，并非最高或最直接相关。",
+        "F": "这是Hard干扰项：错误解读了数值差距（chart_111_2中节省时间占比50.10%与chart_111_4中减少广告插播占比33.46%）。实际差距为16.64%，但干扰项声称\"差距较小\"，而实际是显著差异，误导性地简化了因果关系。",
+        "G": "依赖\"倍数播放原因\"图表（演员语速过慢占比高）和\"提高手段\"图表（提升演员演技占比高）。联合推理表明，演员问题是倍速播放的推手，演技提升可能针对性解决，这需要交叉分析两个图表的高比例趋势。"
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -150,6 +201,22 @@
       "label": [
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Utiliza chart_111_2 (la mala calidad de video representa el 29,33%), pero la interpreta erróneamente como la razón “más alta” (en realidad, “ahorrar tiempo” tiene la proporción más alta del 50,10%) y omite el factor de contenido prolijo; Mejorar la calidad de imagen es razonable, pero no es una estrategia central y no está relacionada con las preferencias de horario, por lo que es posible que no reduzca efectivamente la reproducción a doble velocidad o aumente la visualización completa.",
+        "B": "Esta es una opción de distracción fácil: Sugiere prolongar las series (optimización de contenido de conocimiento general), pero omite que chart_111_2 muestra que el contenido prolijo es la principal razón de la reproducción a doble velocidad (representa el 46,29%); Prolongar las series puede empeorar el comportamiento de reproducción a doble velocidad y reducir la tasa de visualización completa.",
+        "C": "Inferencia conjunta de chart_111_1 (los espectadores tienen una proporción más alta de visualización en fines de semana y festivos y cuando están ociosos y aburridos, lo que indica que los períodos de ocio son picos) y chart_111_2 (la reproducción a doble velocidad se debe principalmente a que el contenido es aburrido o prolijo, con una alta proporción). La estrategia optimiza el momento de publicación y el ritmo del contenido, utilizando las características de los períodos para resolver los problemas de contenido.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente utiliza chart_111_1 (la proporción de visualización durante el insomnio es del 30,74%), pero atribuye erróneamente - la proporción de visualización durante el insomnio es más baja que cuando se está ocioso y aburrido (41,36%), y agrega elementos relajantes que no están relacionados con la optimización del ritmo de la trama; Al mismo tiempo, omite que la principal razón de la reproducción a doble velocidad en chart_111_2 es el contenido prolijo (46,29%); Publicar priorariamente series largas puede aumentar el uso de la reproducción a doble velocidad.",
+        "E": "Esta es una opción de distracción fácil: Se basa en el conocimiento general de marketing (como actividades de promoción), pero no utiliza los datos de la gráfica (chart_111_1 muestra que el período pico es en fines de semana y festivos, con una proporción del 41,73%, y no hay datos para respaldar la publicación en horas no pico de los días laborables); En general, la publicación en horas no pico puede reducir la exposición, lo que contradice el objetivo de aumentar la tasa de visualización completa.",
+        "F": "Inferencia conjunta de chart_111_1 (la proporción de visualización en tiempo fragmentado y antes de dormir es significativa, lo que muestra una demanda fragmentada) y chart_111_2 (la proporción más alta de reproducción a doble velocidad es para ahorrar tiempo). La estrategia diseña la forma del contenido para los períodos fragmentados y reduce la motivación de la reproducción a doble velocidad."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -172,6 +239,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Inferencia conjunta de chart_111_3 (la proporción de espectadores optimistas y neutrales es alta, pero no se puede ignorar la proporción de espectadores pesimistas) y chart_111_4 (la innovación del contenido del guión como un medio efectivo tiene una proporción alta). La estrategia se centra en los medios altamente reconocidos para mejorar la confianza a través de la innovación de contenido.",
+        "B": "Esta es una opción de distracción difícil: Aparentemente utiliza chart_111_4 (“aumentar los costos de producción” representa el 31,48%), pero interpreta erróneamente el valor (en realidad, “innovar el contenido del guión” tiene una proporción más alta del 37,78%) y atribuye erróneamente a resolver el problema de contenido aburrido (chart_111_2 muestra que el contenido prolijo es la principal razón de la reproducción a doble velocidad); Aumentar los costos no necesariamente mejorará directamente la calidad del contenido y puede desperdiciar recursos.",
+        "C": "Inferencia conjunta de chart_111_4 (la reducción de anuncios y la variedad de temas tienen una proporción significativa) y chart_111_3 (la proporción de espectadores neutrales es alta, lo que indica un gran espacio para la mejora). La estrategia combina la fluidez y la diversidad de temas para atraer a los espectadores neutrales.",
+        "D": "Esta es una opción de distracción fácil: Sugiere reducir los costos (estrategia financiera de conocimiento general), pero omite que chart_111_3 muestra que el 49,63% está optimista con la industria y que en chart_111_4 “aumentar los costos de producción” tiene una proporción del 31,48% para respaldar la inversión; Reducir los costos puede agravar el problema de preocupación por la calidad, lo que contradice el objetivo de mejorar la competitividad.",
+        "E": "Inferencia conjunta de chart_111_3 (la proporción de espectadores pesimistas se debe a la preocupación por la calidad) y chart_111_4 (fortalecer la supervisión y mejorar la actuación de los actores tienen una proporción alta). La estrategia resuelve el problema de calidad a través de la supervisión y la actuación, dirigiéndose a las reacciones negativas.",
+        "F": "Esta es una opción de distracción difícil: Utiliza chart_111_3 (la proporción de espectadores pesimistas es del 16,54%) y chart_111_4 (“rodar temas diversos” representa el 33,09%), pero confunde la relación - los temas diversos deben ser innovadores, pero se sugiere copiar temas populares y se omite que “innovar el contenido del guión” tiene la proporción más alta del 37,78%; Al mismo tiempo, reducir la innovación puede fortalecer el problema de preocupación por la calidad, lo que contradice el potencial de conversión de los espectadores neutrales.",
+        "G": "Esta es una opción de distracción fácil: Se basa en el conocimiento general de la industria (como contratar estrellas), pero no utiliza los datos de la gráfica (en chart_111_4, “mejorar la actuación de los actores” no tiene la proporción más alta y no se dirige directamente a la demanda más alta de “innovar el contenido del guión”); En general, el efecto de las estrellas puede no resolver la preocupación fundamental por la calidad (el 16,54% no está optimista en chart_111_3)."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -192,6 +276,22 @@
       "label": [
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Sugiere promocionar la función de reproducción a doble velocidad (adaptación tecnológica de conocimiento general), pero omite el objetivo de “reducir la tasa de reproducción a doble velocidad” y no se combina con los medios de mejora de calidad (por ejemplo, “innovar el contenido del guión” en chart_111_4 representa el 37,78%); Promocionar la reproducción a doble velocidad puede fortalecer el hábito en lugar de aumentar la profundidad del contenido.",
+        "B": "Esta es una opción de distracción fácil: Se basa en la estrategia general de contenido (como aumentar el número de episodios), pero no utiliza los datos de la gráfica (chart_111_2 muestra que la principal razón de la reproducción a doble velocidad es el contenido prolijo, que representa el 46,29%; Aumentar el número de episodios puede empeorar el problema); En general, más contenido puede aumentar la demanda de reproducción a doble velocidad y reducir la tasa de visualización completa.",
+        "C": "Inferencia conjunta de chart_111_2 (la reproducción a doble velocidad se debe a que el contenido es aburrido o prolijo, con una alta proporción) y chart_111_4 (la innovación del contenido del guión y la mejora del nivel de producción como medios efectivos tienen una proporción alta). La estrategia implementa medios de alta ponderación para resolver los problemas de contenido.",
+        "D": "Esta es una opción de distracción difícil: Utiliza chart_111_2 (“la velocidad de habla del actor es demasiado lenta” representa el 45,71%) y la razón de reproducción a doble velocidad, pero la interpreta erróneamente como que se debe comprimir la trama (en realidad, se debe optimizar el ritmo) y omite los medios de mejora de calidad como “innovar el contenido del guión” con la proporción más alta; Acelerar la velocidad de habla puede sacrificar la profundidad del contenido, lo que contradice el objetivo de mejorar la lealtad de los espectadores.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente utiliza chart_111_4 (“reducir las interrupciones comerciales” representa el 33,46%) y chart_111_2 (la razón de reproducción a doble velocidad), pero se enfoca erróneamente en factores secundarios (la reducción de anuncios solo mejora la fluidez, mientras que la principal razón de la reproducción a doble velocidad es el contenido prolijo del 46,29%); Omitir la innovación del contenido del guión (representa el 37,78%) puede causar una falta de profundidad en el contenido y no puede reducir la reproducción a doble velocidad.",
+        "F": "Inferencia conjunta de chart_111_2 (la velocidad de habla lenta del actor es una de las razones de la reproducción a doble velocidad) y chart_111_4 (mejorar la actuación de los actores y reducir las interrupciones comerciales tienen una proporción significativa). La estrategia optimiza el problema de velocidad de habla a través de la actuación y reduce los anuncios para mejorar la experiencia."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     }
   ]

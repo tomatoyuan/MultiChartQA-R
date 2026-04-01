@@ -85,6 +85,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "依赖高考生偏好科目图表（Ingeniería、Ciencia等具体学科占比高）和研究生考生规模图表（规模增长）。单张图表仅显示数据，联合推理才能将学科需求与深造需求联系起来。",
+        "B": "Hard干扰项：图表显示偏理科比例（56.5%）高于偏文科（43.5%），但此项错误解读为文科主导；实际理科偏好更可能推动深造，此项误读数值差距。",
+        "C": "需要联合高考生偏好科目图表（显示偏理科占比高于偏文科）和研究生考生规模图表（显示考生规模逐年增长至2023年）。仅从一张图表无法推断偏好如何驱动深造趋势；必须跨图推理偏好比例与规模增长的因果关系。",
+        "D": "结合高考生偏好科目图表（偏理科总体比例）和研究生考生规模图表（增长趋势）。推理需对比偏好结构与时间趋势，揭示隐含的教育路径规律。",
+        "E": "Easy干扰项：Agricultura占比仅11.50%，无上升趋势数据；常识上Agricultura就业未必门槛低，研究生规模持续增长（2016 - 2023），此项违背基本事实。",
+        "F": "Hard干扰项：2016年研究生规模177万人是最低点（2024年438万人更高），且偏好数据无时间趋势；此项错误引用规模峰值和偏好关联，误解趋势。",
+        "G": "Easy干扰项：Arte占比仅12.59%，远低于Ingeniería（26.75%）和Ciencia（25.81%），不是最高；常识上Arte深造需求不一定低，且研究生规模整体增长，此项完全基于错误常识。"
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合研究生考生规模图表（规模持续增长至2023年）和应届生期望就业企业类型图表（empresas estatales比例逐年上升，empresas privadas比例下降）。单张图表仅显示趋势；跨图推理才能解释规模增长如何加剧竞争，并影响就业期望的集中化。",
+        "B": "Easy干扰项：empresas de inversión extranjera比例实际上升（11.2%→11.9%→14.6%），此项错误陈述为下降；常识上empresas de inversión extranjera未必受研究生规模影响，此项基于无关假设。",
+        "C": "Hard干扰项：instituciones públicas比例波动（2023年12.3%低于2022年14.7%），非持续上升；此项错误描述趋势，误解图表差距。",
+        "D": "Easy干扰项：常识上就业期望不可能所有类型都上升（总和应为100%），图表中empresas privadas比例从19.0%降至12.6%，此项完全忽略数据，依赖错误常识。",
+        "E": "依赖研究生考生规模图表（规模增长）和应届生期望就业企业类型图表（organismos gubernamentales和instituciones públicas比例变化）。仅从就业图表无法推断原因；必须用深造规模解释公共部门偏好的隐含联系。",
+        "F": "Hard干扰项：2023年empresas privadas比例实际为12.6%（低于2021年19.0%），但此项误读为20%上升；研究生规模增长期间该比例下降，此项错误数值和趋势。",
+        "G": "结合研究生考生规模图表（整体上升趋势）和应届生期望就业企业类型图表（empresas privadas比例下降、empresas de inversión extranjera比例波动）。推理需对比深造压力与企业类型变化，解释冲突（规模增长本可增加就业选择，但期望反而集中）。"
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Easy干扰项：Filosofía占比仅11.35%，远低于Ingeniería（26.75%），不是最高；常识上Filosofía不一定推动empresas de inversión extranjera偏好，此项基于错误常识，忽略图表数据。",
+        "B": "Hard干扰项：2023年empresas de inversión extranjera比例14.6%低于empresas estatales（46.7%），不是最高；高考偏好Ingeniería 26.75%与empresas de inversión extranjera无直接关联，此项误读差距和逻辑。",
+        "C": "依赖高考生偏好科目图表（Ingeniería等具体学科占比）、研究生考生规模图表（规模扩大）和应届生期望就业企业类型图表（organismos gubernamentales比例变化）。单张或双张图表不足；必须跨三图将学科需求、深造趋势与就业偏好联系起来。",
+        "D": "Hard干扰项：偏理科比例（56.5%）高于偏文科（43.5%），但此项误读文科主导；organismos gubernamentales比例波动（11.4%→9.4%→12.5%），无直接推动增长证据，此项错误链接数值。",
+        "E": "结合高考生偏好科目图表（偏理科主导）、研究生考生规模图表（增长趋势）和应届生期望就业企业类型图表（empresas privadas比例下降）。推理需整合教育偏好如何通过深造中介，导致就业期望冲突（如稳定工作优先）。",
+        "F": "Easy干扰项：2024年研究生规模438万人虽低于2023年474万人，但高于早期年份；就业期望数据显示empresas privadas比例持续下降（19.0%→12.6%），未回升；此项违背整体趋势。",
+        "G": "需要联合高考生偏好科目图表（偏理科占比高）、研究生考生规模图表（规模增长）和应届生期望就业企业类型图表（empresas estatales比例上升）。三张图表联合推理才能构建完整链条：偏好驱动深造，深造加剧竞争，竞争影响就业期望。"
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en los datos de los gráficos, sino en prácticas generales de la industria (como 'reducir costos'), pero no responde al aumento de la demanda de admisión a la universidad mostrado en los gráficos (el tamaño de los candidatos a la maestría aumentó de 1,77 millones a 4,38 millones) o a los cambios de preferencia, y no puede resolver de manera específica el problema de la asignación de recursos.",
+        "B": "La opción C implica un razonamiento conjunto de chart_132_3 (tendencia de crecimiento del tamaño de los candidatos a la maestría) y chart_132_2 (aumento de las expectativas de empleo estable en empresas estatales, etc.): el aumento del tamaño de los candidatos requiere una capacidad educativa adecuada, y los cambios en las expectativas de empleo indican que se debe enfocar en la formación aplicada para evitar el desperdicio de talentos.",
+        "C": "Esta opción superficialmente utiliza los datos de chart_132_3 (4,38 millones de candidatos en 2024), pero interpreta erróneamente la tendencia: el tamaño total de los candidatos a la maestría aumentó continuamente de 1,77 millones en 2016 a 4,74 millones en 2023, y solo hubo una ligera disminución en 2024 (posiblemente una fluctuación a corto plazo), se malinterpretó como una disminución de la demanda, ignorando la tendencia de crecimiento a largo plazo.",
+        "D": "Esta opción superficialmente utiliza los datos de chart_132_1 (Literatura 16,69%, Historia 15,86%), pero interpreta erróneamente las preferencias: en realidad, la proporción de Ingeniería (26,75%) y Ciencia (25,81%) es más alta, y la proporción de Literatura e Historia es mucho más baja que el promedio general, confundiendo la relatividad de 'alta proporción' (por ejemplo, 15,86% es menor que el promedio general de las humanidades del 43,5%).",
+        "E": "Esta opción no se basa en los datos de los gráficos, solo se basa en conocimientos generales de educación (como'satisfacer las necesidades diversas'), pero ignora las diferencias específicas en las preferencias de las disciplinas y el tamaño de los candidatos a la maestría en los gráficos (por ejemplo, la preferencia por las ciencias exactas es del 56,5% vs las humanidades del 43,5%, la tendencia general de crecimiento de los candidatos a la maestría), lo que hace que la estrategia sea amplia e ineficaz.",
+        "F": "La opción B implica un razonamiento conjunto de chart_132_1 (la proporción de preferencia por las humanidades es relativamente baja) y chart_132_2 (existen expectativas de empleo en sectores estables como organismos gubernamentales): aunque la preferencia por las humanidades es baja, todavía hay una demanda básica, y las expectativas de empleo indican oportunidades de empleo estables. Mejorar la tasa de empleo a través de la capacitación técnica es consistente con los valores de una asignación justa de recursos.",
+        "G": "La opción A implica un razonamiento conjunto de chart_132_1 (la proporción de preferencia por las ciencias exactas es más alta) y chart_132_3 (la tendencia continua de crecimiento del tamaño de los candidatos a la maestría): la alta preferencia por las ciencias exactas indica que el interés de los estudiantes se concentra en estas áreas, y el crecimiento del tamaño de los candidatos a la maestría refleja un aumento en la demanda de estudios de posgrado. Aumentar la inversión en recursos puede optimizar la oferta educativa."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La opción C implica un razonamiento conjunto de chart_132_3 (aumento significativo del tamaño de los candidatos a la maestría) y chart_132_2 (existe demanda en sectores estables como organismos gubernamentales): el aumento del tamaño de los candidatos requiere tutoría para la admisión a la maestría, y las expectativas de empleo proporcionan una referencia de ruta. Integrar los servicios puede reducir la búsqueda ciega de estudios de posgrado.",
+        "B": "Esta opción superficialmente utiliza los datos de chart_132_2 (la proporción de instituciones públicas en 2023 es del 12,3% vs el 14,7% en 2022), pero interpreta erróneamente la tendencia: en realidad, la proporción en 2023 es del 12,3%, menor que el 14,7% en 2022, lo que indica una disminución de la demanda en lugar de un aumento, confundiendo la dirección del cambio de los valores.",
+        "C": "La opción B implica un razonamiento conjunto de chart_132_2 (disminución de la proporción de expectativas de empleo en empresas privadas) y chart_132_1 (alta proporción de preferencia por Administración y Economía): aunque la expectativa de empleo disminuye, la preferencia por las disciplinas indica potencial. Apoyar el emprendimiento puede aprovechar la base de estudiantes de Administración y Economía, lo que es consistente con los valores de fomento de la innovación.",
+        "D": "La opción A implica un razonamiento conjunto de chart_132_2 (aumento anual de las expectativas de empleo en empresas estatales) y chart_132_3 (crecimiento del tamaño de los candidatos a la maestría): el aumento de las expectativas de empleo indica una demanda concentrada, y el crecimiento del tamaño de los candidatos a la maestría refleja un aumento de la competencia. Los servicios especializados pueden mejorar eficazmente la tasa de empleo.",
+        "E": "Esta opción no se basa en los datos de los gráficos, sino en prácticas generales de desarrollo profesional (como 'utilizar los recursos de los antiguos estudiantes'), pero ignora los tipos de expectativas de empleo en los gráficos (por ejemplo, la alta proporción de empresas estatales) y la tendencia de estudios de posgrado (crecimiento de los candidatos a la maestría), y no puede mejorar directamente la tasa de empleo.",
+        "F": "Esta opción superficialmente utiliza los datos de chart_132_2 y chart_132_3 (la expectativa de empresas de inversión extranjera aumentó del 11,2% al 14,6%, y el tamaño de los candidatos a la maestría aumentó), pero establece una relación errónea: el aumento de las empresas de inversión extranjera es solo del 14,6%, mucho menor que el 46,7% de las empresas estatales, y el aumento general del tamaño de los candidatos a la maestría (por ejemplo, 4,74 millones en 2023) indica una fuerte demanda de estudios de posgrado, se malinterpretó como 'priorizar el empleo directo'.",
+        "G": "Esta opción no se basa en los datos de los gráficos, solo se basa en conocimientos generales de orientación laboral (como 'aliviar la presión'), pero no se dirige a los cambios específicos de expectativas en los gráficos (por ejemplo, el aumento de la preferencia por las empresas estatales al 46,7%) o la tendencia de estudios de posgrado (crecimiento del tamaño de los candidatos a la maestría). La estrategia es amplia y no tiene una guía clara de acción."
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "La opción B implica un razonamiento conjunto de chart_132_2 (tendencia de cambio de las expectativas de empleo en diferentes tipos de empresas) y chart_132_3 (fluctuación del tamaño de los candidatos a la maestría): los cambios de expectativas y la fluctuación del tamaño indican un riesgo de asimetría de información. Un sistema de monitoreo puede optimizar la toma de decisiones y reducir el desperdicio educativo.",
+        "B": "La opción A implica un razonamiento conjunto de chart_132_1 (la proporción de preferencia por las ciencias exactas es más alta) y chart_132_3 (crecimiento continuo del tamaño de los candidatos a la maestría), y combina chart_132_2 (aumento de las expectativas de empleo en empresas estatales): la preferencia y la tendencia de admisión a la universidad indican la demanda de ciencias exactas, y las expectativas de empleo refuerzan la necesidad de inversión. La estrategia es consistente con los valores de impulso de la innovación nacional.",
+        "C": "La opción C implica un razonamiento conjunto de chart_132_2 (aumento de las expectativas de empleo en empresas estatales) y chart_132_1 (alta proporción de preferencia por Administración y Economía): el aumento de las expectativas requiere una cooperación específica, y la preferencia por las disciplinas proporciona una base de talentos. Los programas de prácticas pueden equilibrar el empleo estable y la diversidad.",
+        "D": "Esta opción superficialmente utiliza los datos de chart_132_1 y chart_132_2 (Administración 23,32%, empresas privadas 12,6% en 2023), pero interpreta erróneamente: aunque la preferencia por Administración es del 23,32%, mayor que la de Medicina del 19,75%, es mucho menor que la de Ingeniería del 26,75% y Ciencia del 25,81%, y la expectativa de empleo en empresas privadas disminuyó del 19,0% al 12,6%, lo que indica una disminución de la demanda, se malinterpretó como 'un mercado fuerte'.",
+        "E": "Esta opción superficialmente utiliza los datos de chart_132_1 y chart_132_3 (preferencia por las ciencias exactas del 56,5%, 4,38 millones de candidatos a la maestría en 2024), pero interpreta erróneamente: la preferencia por las ciencias exactas del 56,5% es significativamente mayor que la de las humanidades del 43,5% (diferencia de 13 puntos porcentuales), y el tamaño general de los candidatos a la maestría aumentó (4,38 millones en 2024 sigue siendo mayor que 3,41 millones en 2020), se malinterpretó como 'demanda saturada', ignorando la tendencia a largo plazo.",
+        "F": "Esta opción no se basa en los datos de los gráficos, sino en estrategias educativas generales (como 'intercambio internacional'), pero ignora la concentración de las expectativas de empleo en sectores estables en los gráficos (por ejemplo, empresas estatales 46,7%) y el aumento de la demanda de estudios de posgrado, y no puede promover directamente la coordinación del mercado laboral.",
+        "G": "Esta opción no se basa en los datos de los gráficos, solo se basa en conocimientos generales de políticas (como 'incentivos fiscales'), pero no combina los datos específicos de las preferencias de las disciplinas, las expectativas de empleo o la tendencia de estudios de posgrado en los gráficos (por ejemplo, alta preferencia por las ciencias exactas, aumento de la demanda de empresas estatales), y la estrategia es amplia y sin enfoque."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     }
   ]

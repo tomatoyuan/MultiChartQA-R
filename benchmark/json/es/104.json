@@ -84,6 +84,21 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：它错误解读了图表数值。认知数据中“Beneficiado en gran medida”比例（35.76%）并非最高（实际“Obtuvo algo”53.31%最高），且“Amor propio por la música”原因比例（25.37%）相对不高（低于“Cultivar el interés de los niños”的30.09%），因此该关联不成立，误导了积极认知与内在动机的关系。",
+        "B": "它联合chart_104_1（认知的积极比例主导）和chart_104_3（“Mejorar la auto - cultura”和“Adquirir una habilidad adicional”原因比例较高）。推理需跨图分析认知如何转化为个人发展动机。",
+        "C": "这是一个Hard干扰项：它错误理解了数值差距。认知中“Poca sensación”比例（10.93%）较低，而“Obtener puntos adicionales en la prueba de ingreso a la universidad”原因比例（21.46%）并非最低（最低是“Acercarse a celebridades”20.78%），且数据未显示两者直接关联，因此推理无效。",
+        "D": "它联合chart_104_1（认知数据中“Beneficiado en gran medida”和“Obtuvo algo”比例合计很高，显示强获益感）和chart_104_3（学习原因中“Cultivar el interés de los niños”和“Cultivar el espíritu de los niños”比例较高）。推理需比较两图：认知的积极趋势可能强化家长导向动机，不能仅从单图得出。",
+        "E": "它联合chart_104_1（认知积极比例高）和chart_104_3（“Amor propio por la música”原因比例中等偏低）。推理需识别冲突——高认知未完全对应内在热爱，显示动机复杂性。",
+        "F": "这是一个Easy干扰项：它基于常识（音乐学习通常与幸福感相关），但不依赖图表数据。图表中没有涉及幸福感或内在满足感的具体指标，因此无法从数据中得出此结论。"
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：它错误比较了数值。Música vocal课程报名比例（17.95%）实际是最低的（而非较高），且“Amor propio por la música”原因比例（25.37%）不是最高（低于前三项），因此该关联错误，误导了课程与动机的解读。",
+        "B": "这是一个Hard干扰项：它错误描述了排序和差距。Instrumentos de percusión报名比例（29.82%）中等（高于Instrumentos de viento metal和Música vocal），而“Aliviar la presión académica”原因比例（25.37%）并非最低（最低是“Acercarse a celebridades”20.78%），且数据未显示直接因果关系，因此推理无效。",
+        "C": "它联合chart_104_2（Instrumentos de percusión和Instrumentos de viento metal报名比例中等）和chart_104_3（“Aliviar la presión académica”和“Perseguir carreras relacionadas”原因比例不高）。推理需比较两图数据趋势，说明这些课程缺乏强动机支持。",
+        "D": "它联合chart_104_2（Música vocal报名比例最低）和chart_104_3（“Amor propio por la música”和“Acercarse a celebridades”原因比例中等偏低）。推理需分析低流行课程如何与动机数据关联，隐含声乐未被优先选择。",
+        "E": "它联合chart_104_2（Instrumentos de teclado报名比例最高）和chart_104_3（“Cultivar el interés de los niños”和“Adquirir una habilidad adicional”原因比例较高）。推理需跨图连接课程偏好与家长/实用动机，不能单从chart_104_2推断。",
+        "F": "这是一个Easy干扰项：它基于行业常识（键盘乐器如钢琴常被视为易学），但不依赖图表数据。图表中没有提到易学性或成本因素，因此无法从数据中验证。"
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "它联合chart_104_3（“Cultivar el interés de los niños”和“Cultivar el espíritu de los niños”原因比例较高）、chart_104_2（Instrumentos de cuerda和Instrumentos de viento madera报名比例较高）和chart_104_1（认知显示广泛益处）。推理需分析家长动机如何驱动特定课程，但认知数据暗示潜在脱节（如课程可能未最大化审美收益）。",
+        "B": "它联合chart_104_1（认知积极主导）、chart_104_3（“Obtener puntos adicionales en la prueba de ingreso a la universidad”原因比例不高）和chart_104_2（Instrumentos de percusión报名比例中等）。推理需比较认知与原因冲突，并联系课程数据，显示音乐学习更注重长期价值而非即时回报。",
+        "C": "它联合chart_104_1（认知积极比例高）、chart_104_2（Instrumentos de teclado报名比例最高，但Música vocal最低）和chart_104_3（“Amor propio por la música”原因比例不高）。推理需跨三图识别冲突——高认知未均匀转化为所有课程报名，需结合原因数据解释异常。",
+        "D": "这是一个Easy干扰项：它基于常识（音乐教育在中国日益普及），但不依赖图表数据。图表数据仅针对2025年特定用户，未提供趋势比较或整体增长率，因此无法得出此结论。",
+        "E": "这是一个Hard干扰项：它错误描述了数值范围和排序。并非所有课程报名比例超过30%（Música vocal 17.95%低于30%），且“Cultivar el espíritu de los niños”原因比例（26.18%）不是最高（最高是“Cultivar el interés de los niños”30.09%），同时报名数据中Instrumentos de teclado（40.08%）最高，但原因数据未显示单一主导，因此该选项无效。",
+        "F": "这是一个Hard干扰项：它错误解读了数值和关联。Música vocal课程报名比例（17.95%）实际最低（而非高），且“Perseguir carreras relacionadas”原因比例（21.05%）中等（非较高），同时认知数据（如“Beneficiado en gran medida”35.76%）与声乐报名无直接一致性，因此推理误导了整体趋势。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -150,6 +195,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es una distracción fácil: se basa en el conocimiento general (la inversión en tecnología puede mejorar la conveniencia), pero no utiliza ningún dato de los gráficos (como la percepción de los usuarios o las preferencias de inscripción en cursos), y la sugerencia es demasiado general sin indicaciones de acción específicas (por ejemplo, no se dirige a un curso o beneficio específico). La institución puede descartarla directamente, ya que ignora el requisito del problema de 'la percepción de los usuarios y las preferencias de inscripción en cursos'.",
+        "B": "Esta opción es una distracción difícil: aparentemente utiliza los datos del gráfico 104_1 (el 10.93% 'no tiene mucha sensación'), pero ignora erróneamente la actitud positiva general (89.07%) y confunde 'parcialmente ineficaz' con 'debería reducirse el peso general'. No combina las preferencias de inscripción (por ejemplo, la alta demanda de instrumentos de teclado) o las razones de aprendizaje (por ejemplo, la alta proporción de 'mejorar la auto - cultura'), lo que hace que la estrategia sea ilógica (reducir los módulos de beneficios principales puede reducir la satisfacción).",
+        "C": "Esta opción es una distracción fácil: se basa en el conocimiento general (la reducción de precios puede mejorar la satisfacción), pero no cita datos de los gráficos (como las preferencias de inscripción o las razones de aprendizaje), y la sugerencia es ineficaz (la reducción de precios puede dañar las ganancias y no resuelve la raíz de la participación). La institución puede descartarla directamente, ya que carece de soporte de datos.",
+        "D": "Esta opción es una distracción difícil: aparentemente utiliza los datos del gráfico 104_2 (la proporción de inscripción en música vocal es la más baja), pero interpreta erróneamente la 'baja proporción' como 'potencial de crecimiento', ignorando los datos reales (la proporción de música vocal es solo del 17.95%, mucho menor que el 40.08% de los instrumentos de teclado), y no combina la percepción de los usuarios (el gráfico 104_1 muestra una alta actitud positiva) o las razones de aprendizaje (por ejemplo, la alta proporción de 'cultivar el interés'). La dirección de la estrategia es errónea y puede desperdiciar recursos en áreas de baja demanda.",
+        "E": "La opción A aborda la alta proporción de inscripción en instrumentos de teclado y de cuerda en el gráfico 104_2 (característica de tendencia), así como la alta proporción de 'cultivar el interés de los niños' y 'adquirir una habilidad adicional' en el gráfico 104_3 (relación de datos), lo que muestra la coincidencia entre la demanda y la motivación.",
+        "F": "La opción B combina la alta proporción de percepción positiva en el gráfico 104_1 (tendencia) y la razón de 'mejorar la auto - cultura' en el gráfico 104_3 (relación de datos), y optimiza el diseño del curso enfatizando los beneficios percibidos.",
+        "G": "La opción C se basa en la baja proporción de inscripción en el curso de música vocal en el gráfico 104_2 (tendencia) y la razón de 'amor propio por la música' en el gráfico 104_3 (relación de datos), y sugiere innovar en lugar de reducir, lo que es coherente con la optimización de recursos y los valores (no ignorar las demandas minoritarias)."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -173,6 +235,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es una distracción difícil: aparentemente utiliza los datos del gráfico 104_3 (la razón 'acercarse a celebridades' tiene una proporción del 20.78%), pero interpreta erróneamente esta razón de baja proporción (en realidad es la segunda más baja) como 'atractivo único', ignorando las razones de mayor proporción (por ejemplo, 'cultivar el interés de los niños' con un 30.09%), y no combina la tendencia de percepción (el gráfico 104_1 muestra una alta actitud positiva). La dirección de la estrategia es errónea y puede desviar los recursos a áreas ineficaces.",
+        "B": "Esta opción es una distracción fácil: se basa en una estrategia general (la prueba gratuita reduce la barrera de entrada), pero no cita los gráficos (por ejemplo, los datos de razones de aprendizaje o percepción), y no tiene soporte de datos (por ejemplo, no cuantifica el efecto). La institución puede descartarla directamente, ya que se desvía de los datos específicos.",
+        "C": "La opción A aborda la alta proporción de percepción positiva en el gráfico 104_1 (tendencia) y la alta proporción de 'mejorar la auto - cultura' en el gráfico 104_3 (relación de datos), y fortalece el contenido de marketing a través de la inferencia conjunta.",
+        "D": "La opción B combina la alta proporción de 'cultivar el interés de los niños' y 'cultivar el espíritu de los niños' en el gráfico 104_3 (tendencia) y la alta proporción de inscripción en instrumentos de teclado en el gráfico 104_2 (relación de datos), y optimiza la estrategia para un grupo específico de usuarios.",
+        "E": "Esta opción es una distracción fácil: se basa en el conocimiento general de marketing (la colaboración de marca mejora la visibilidad), pero no utiliza ningún dato de los gráficos (como la distribución de razones de aprendizaje o la tendencia de percepción), y la sugerencia es demasiado general sin enfoque específico (por ejemplo, no se dirige a una motivación específica). La institución puede descartarla directamente, ya que ignora el requisito del problema de 'motivación y percepción de los usuarios'.",
+        "F": "La opción C se basa en la baja proporción de 'obtener puntos adicionales en la prueba de ingreso a la universidad' y 'otros niños están aprendiendo' en el gráfico 104_3 (tendencia), evita la publicidad ineficaz y en su lugar utiliza razones internas como 'amor propio por la música' (relación de datos), lo que es coherente con los valores (evitar la presión de conformidad).",
+        "G": "Esta opción es una distracción difícil: aparentemente utiliza los datos del gráfico 104_3 (la razón 'cultivar el interés de los niños' tiene la proporción más alta), pero interpreta erróneamente la 'alta proporción' como 'saturación', mientras que los datos en realidad indican que es la motivación principal; la sugerencia de cambiar a 'perseguir carreras relacionadas' (con una proporción del 21.05%) confunde lo minoritario con el potencial y no tiene en cuenta la percepción de los usuarios (el gráfico 104_1 muestra un alto reconocimiento de los beneficios). Esto puede hacer que el marketing ignore el grupo central de usuarios."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -196,6 +275,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción es una distracción difícil: aparentemente utiliza los datos del gráfico 104_2 (la proporción de instrumentos de viento metal es del 27.94%) y los datos del gráfico 104_3 (la razón 'aliviar la presión académica' tiene una proporción del 25.37%), pero interpreta erróneamente la demanda de instrumentos de viento metal (en realidad es menor que el 40.08% de los instrumentos de teclado) y asocia forzosamente una razón no relacionada ('aliviar la presión académica' no es la motivación principal). La dirección de la estrategia es errónea y puede desperdiciar recursos en áreas de baja demanda.",
+        "B": "La opción C se basa en la baja proporción de inscripción en el curso de música vocal en el gráfico 104_2 (tendencia) y la razón de 'amor propio por la música' en el gráfico 104_3 (relación de datos), y sugiere realizar una investigación en lugar de reducir los recursos, lo que es coherente con los valores (inclusividad y equidad).",
+        "C": "Esta opción es una distracción fácil: se basa en el conocimiento general de innovación (nuevos cursos atraen a los usuarios), pero no cita los gráficos (por ejemplo, las preferencias de inscripción o las razones de aprendizaje), y no cuantifica el beneficio social (por ejemplo, no se combina con los datos de cobertura de usuarios). La institución puede descartarla directamente, ya que se desvía del requisito del problema.",
+        "D": "La opción A aborda la alta proporción de inscripción en instrumentos de teclado y de cuerda en el gráfico 104_2 (tendencia) y la alta proporción de 'cultivar el interés de los niños' en el gráfico 104_3 (relación de datos), y optimiza la asignación de recursos a través de la inferencia conjunta.",
+        "E": "La opción B combina la alta proporción de percepción positiva en el gráfico 104_1 (tendencia) y la razón de 'mejorar la auto - cultura' en el gráfico 104_3 (relación de datos), y asigna recursos en función de los beneficios percibidos.",
+        "F": "Esta opción es una distracción difícil: aparentemente utiliza los datos del gráfico 104_2 (la proporción de instrumentos de teclado es la más alta), pero interpreta erróneamente la 'alta proporción' como 'saturación', mientras que los datos indican una fuerte demanda; la sugerencia de invertir en instrumentos de viento madera (31.31%) confunde la tendencia (los instrumentos de viento madera tienen una proporción menor que los de teclado) y no combina las razones de aprendizaje (por ejemplo, la alta proporción de 'cultivar el interés de los niños'). Esto puede causar una mala asignación de recursos y reducir la cobertura de usuarios.",
+        "G": "Esta opción es una distracción fácil: se basa en el conocimiento general de gestión (un sistema de retroalimentación mejora la equidad), pero no utiliza datos de los gráficos (como la tendencia de inscripción o la distribución de razones), y la sugerencia es demasiado general sin detalles de acción (por ejemplo, no se dirige a un curso específico). La institución puede descartarla directamente, ya que ignora la priorización basada en datos."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     }
   ]

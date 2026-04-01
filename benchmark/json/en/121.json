@@ -87,6 +87,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "It is necessary to jointly analyze the data of Guotai Junan and China Galaxy Securities. To determine which company has a larger decline in net profit, the proportion needs to be calculated, and this cannot be inferred from a single chart.",
+        "B": "Combining the growth data of the two companies from 2018 to 2021, identify the synchronous upward trend and the turning point after 2021, which reflects the common characteristics of the Chinese securities industry. It is necessary to jointly infer the time - series pattern.",
+        "C": "This is an easy distractor: It is based on industry common sense (such as the impact of advertising on brands), but does not rely on the chart content at all. There is no data on advertising or marketing expenses in the chart, so this option has nothing to do with the chart and is incorrect.",
+        "D": "This is a hard distractor: It is based on the chart but misinterprets the trend. The actual data shows that the net profits of both companies decreased after reaching their peaks in 2021 (for example, Guotai Junan's net profit dropped to 11.507 billion yuan in 2022, and China Galaxy Securities' dropped to 7.761 billion yuan in 2022), but this option incorrectly describes it as \"steady growth\".",
+        "E": "This is a hard distractor: It seems to be based on the chart data, but has a wrong understanding of the values. The actual data shows that Guotai Junan's operating revenue decreased from 42.817 billion yuan in 2021 to 35.471 billion yuan in 2022 (a 17.2% decrease), and China Galaxy Securities' decreased from 35.983 billion yuan to 33.642 billion yuan (a 6.5% decrease). Therefore, Guotai Junan had a larger decline. But this option incorrectly claims that China Galaxy Securities had a larger decline.",
+        "F": "This is an easy distractor: It is based on the model's own knowledge (the importance of traditional brokerage business), but ignores the chart content. Guotai Junan's revenue composition shows that businesses such as wealth management account for a significant proportion (such as 26.99% for wealth management), so it is incorrect.",
+        "G": "It depends on comparing the data of the two companies from 2022 to 2023, which shows that the profit is lower than that in 2021 but the revenue changes little, suggesting the influence of costs or external factors. It is necessary to cross - verify the consistency of the trend."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It is based on the chart but has a wrong understanding of the values. The actual data shows that the proportion of investment banking revenue in Guotai Junan is 9.73%, and the proportion of wealth management is 26.99%. Therefore, the proportion of wealth management is higher. But this option incorrectly claims that the proportion of investment banking is higher.",
+        "B": "It depends on comparing the revenue decline of Guotai Junan and China Galaxy Securities and combining the wealth management data to infer the contribution of this business to revenue stability. It is necessary to compare the cross - chart trends.",
+        "C": "This is an easy distractor: It is based on language common sense (business growth drives profit), but does not rely on the chart. The wealth management data in the chart (such as the number of new accounts opened) is not directly linked to the change in net profit, and China Galaxy Securities' net profit decreased in 2022, so this option is incorrect.",
+        "D": "It is necessary to combine the proportion of Guotai Junan's wealth management revenue and the data of new accounts opened and market share of China Galaxy Securities' wealth management to analyze the relationship between the proportion and market activities, which implies the importance of the business and cannot be inferred from a single chart.",
+        "E": "This is a hard distractor: It is based on the chart but has a wrong understanding of the values. The actual data shows that the market share of account opening of China Galaxy Securities' APP is 7.48%, but this option incorrectly describes it as \"less than 5%\", which is an obvious misreading.",
+        "F": "Based on the proportion of Guotai Junan's wealth management and the market share data of China Galaxy Securities' APP, infer the strategic focus. It is necessary to jointly analyze the business composition and market indicators.",
+        "G": "This is an easy distractor: It is based on industry common sense (cost - cutting strategy), but ignores the chart content. The chart shows that the wealth management business is emphasized (such as the data of new accounts opened on China Galaxy APP), which may be used to buffer fluctuations rather than being cut first, so it is incorrect."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Combine the data of Robinhood's rapid revenue growth but large profit fluctuations and Guotai Junan's gentle revenue growth but stable profit to compare the revenue - profit relationship. It is necessary to calculate the proportion across charts (such as profit volatility).",
+        "B": "Rely on the data of Robinhood's net profit turning positive in September 2024 and Guotai Junan's profit in September 2024 being lower than that in 2021 to analyze the conflicts in the same - period data. It is necessary to jointly infer the market environment or company strategy.",
+        "C": "This is an easy distractor: It is based on the model's own knowledge (online brokers vs traditional brokers), but has a wrong generalization. In the chart, Robinhood represents a specific US company, while Guotai Junan is a Chinese company. Not all online brokers are in the red, so it is incorrect.",
+        "D": "This is a hard distractor: It is based on the chart but has a wrong understanding of the gap. The actual calculation shows that Robinhood's revenue increased from 898 million US dollars in 2020 to 1.714 billion US dollars in 2023 (a 90.9% increase), and Guotai Junan's increased from 35.2 billion yuan in 2020 to 36.141 billion yuan in 2023 (a 2.7% increase). Therefore, Robinhood had a faster growth. But this option incorrectly claims that Guotai Junan had a faster growth.",
+        "E": "This is a hard distractor: It is based on the chart but has a wrong understanding of the values. The actual data shows that Robinhood's net profit in 2023 was - 541 million US dollars (a loss), and Guotai Junan's was 12.177 billion yuan (a profit). But this option incorrectly claims that Robinhood had a higher net profit.",
+        "F": "Compare Robinhood's multi - year loss data with Guotai Junan's annual profit data in the same period, showing a conflicting profit model. It is necessary to cross - verify the time overlap and trend differences.",
+        "G": "This is a hard distractor: It is based on the chart but has a wrong understanding of the trend. The actual data shows that Guotai Junan's net profit in September 2024 was 9.523 billion yuan, lower than the peak of 15.013 billion yuan in 2021, and did not reach a new high; while Robinhood made a profit for the first time. But this option incorrectly describes Guotai Junan as \"reaching a new high\"."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D",
+        "G"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Combine chart_121_2 (the wealth management business has the second-highest proportion) and chart_121_3 (the data on the number of new wealth management accounts opened on the APP and the market share, indicating a growing demand trend).",
+        "B": "This is an easy distractor: Suggesting mergers, acquisitions, or alliances is a general growth strategy that does not reference chart data (such as business proportion or net profit trend). It has nothing to do with the business resource allocation focused on in the question and lacks specificity.",
+        "C": "This is an easy distractor: Based on general management common sense (boosting team morale), it does not rely on any chart data. The statement is broad, without specific business adjustment guidance, and does not involve the revenue composition or financial trends in the charts, so it can be easily excluded by common sense.",
+        "D": "This is a hard distractor: On the surface, it uses chart data (the peak net profit in chart_121_1), but misinterprets it - the high net profit in 2021 was mainly driven by institutional and trading business (accounting for 41.31% in chart_121_2), not investment banking (only accounting for 9.73%). It wrongly attributes the overall performance to a low - proportion business, confusing the cause - and - effect relationship.",
+        "E": "Combine chart_121_2 (the international business has the lowest proportion) and chart_121_1 (when the revenue declined significantly in 2022, the net profit declined even more, indicating high risk sensitivity).",
+        "F": "This is a hard distractor: On the surface, it quotes the chart trend (the decline in net profit in chart_121_1), but misinterprets it - the institutional and trading business was relatively stable during the fluctuations (such as the growth from 2020 to 2021). The decline in 2022 was an industry - wide phenomenon, not because the business was vulnerable. Instead, this business has the highest proportion and should be strengthened rather than reduced, which contradicts the data logic.",
+        "G": "Combine chart_121_2 (the institutional and trading business has the highest proportion) and chart_121_1 (the net profit trend: after the decline in 2022, it recovered quickly in 2023, showing resilience)."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Combine chart_121_3 (the data on the number of new wealth management accounts opened on the APP of China Galaxy Securities and the market share, indicating a growing trend) and chart_121_2 (the wealth management business of Guotai Junan has the second - highest proportion and can be quickly integrated).",
+        "B": "This is a hard distractor: On the surface, it uses chart data (the profitability of Robinhood and the proportion of Guotai Junan's international business), but misinterprets it - Robinhood suffered severe losses in the early stage (such as - $3.686 billion in 2021), and Guotai Junan's international business has a small proportion and high risk. It wrongly ignores the high potential of digitalization in the domestic market (the wealth management business accounts for 26.99%), confusing the logic.",
+        "C": "Combine chart_121_2 (the international business has the lowest proportion) and chart_121_4 (the financial trend of Robinhood: losses in the early stage but turning profitable in 2024, indicating the need for phased investment).",
+        "D": "Combine chart_121_1 and chart_121_3 (the net profit of domestic securities firms fluctuates relatively gently) vs chart_121_4 (Robinhood suffered losses in most years).",
+        "E": "This is an easy distractor: Suggesting to optimize customer service is a general operational improvement that does not reference the digital or international business data in the charts (such as APP growth or overseas cases). It is out of touch with the growth - driving strategy and lacks data support.",
+        "F": "This is an easy distractor: Based on general business practices (CSR projects), it does not use any chart data. The statement is broad, without specific resource allocation guidance, and has nothing to do with the core of the question (digitalization or international business), so it can be easily excluded by common sense.",
+        "G": "This is a hard distractor: On the surface, it quotes chart data (the APP market share), but misinterprets it - The fact that China Galaxy Securities' APP opened 1.1084 million new accounts (chart_121_3) indicates strong demand, and the 7.48% market share is a growth opportunity rather than saturation. It wrongly infers that digital investment should be reduced, which contradicts the data trend."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses chart data (the narrowing losses of Robinhood), but misinterprets it - Robinhood was still in the red (- $0.541 billion in 2023), and Guotai Junan's international business only accounts for 5.99% (chart_121_2), with high risk. It wrongly regards it as a hedging tool and ignores the advantages of domestic stable businesses (such as wealth management).",
+        "B": "This is an easy distractor: Suggesting cross - border cooperation is a broad strategy that does not reference the financial trends or business composition data in the charts. It has nothing to do with the cost management and business portfolio focused on in the question and lacks feasibility guidance.",
+        "C": "Combine chart_121_1 (such as when the revenue declined in 2022, the net profit declined more significantly) and chart_121_2 (the international business has the lowest proportion and may be inefficient).",
+        "D": "Combine chart_121_2 (the wealth management business has a high proportion) and chart_121_3 (the data on new wealth management accounts opened on the APP, indicating anti - cyclical demand).",
+        "E": "This is a hard distractor: On the surface, it quotes the chart trend (the decline in net profit), but misinterprets it - The wealth management business has a high proportion in the composition (26.99%, chart_121_2), and the data of China Galaxy's APP (1.1084 million new accounts opened) supports its growth potential. The decline in net profit in 2022 was an industry - wide phenomenon, not because the business was vulnerable, reversing the logic.",
+        "F": "This is an easy distractor: Based on general cost - control common sense (comprehensive budget cuts), it does not use chart data. The statement is general, not targeting business portfolio optimization, and ignoring the efficiency of specific businesses in the charts (such as the low - proportion international business), so it can be easily excluded.",
+        "G": "Combine chart_121_4 (Robinhood suffered losses but turned profitable in 2024, indicating the importance of capital and learning) and chart_121_1 (the revenue fluctuation trend requires preventive measures)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     }
   ]

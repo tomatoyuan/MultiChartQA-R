@@ -89,6 +89,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Interferencia fácil: El grupo de mayores de 50 años tiene una proporción de atención total del 0% (chart_28_3), cualquier proporción de género es imposible, viola el sentido común de los datos.",
+        "B": "La opción se basa en la tendencia numérica, en el grupo de 19 - 24 años la proporción masculina es ligeramente mayor, y en el grupo de 25 - 34 años la proporción masculina es aún mayor, mostrando una tendencia ascendente de la proporción masculina con el aumento de la edad. Esta opción depende de la comparación de datos entre el 'gráfico de atención por género de 19 - 24 años' y el 'gráfico de atención por género de 25 - 34 años' para analizar la tendencia, no se puede llegar a una conclusión comparativa entre grupos de edad con solo un gráfico.",
+        "C": "Interferencia difícil: Invierte erróneamente la proporción de género de 19 - 24 años (realmente hombres 52% > mujeres 48%), y además inventa que los hombres de 25 - 34 años son 45% (realmente 55%), doble error numérico.",
+        "D": "La opción se basa en la tendencia numérica, en el grupo de 19 - 24 años la proporción masculina es ligeramente mayor, y en el grupo de 25 - 34 años la proporción masculina es aún mayor, mostrando una tendencia ascendente de la proporción masculina con el aumento de la edad. Esta opción requiere combinar el 'gráfico de atención por género de 19 - 24 años' y el 'gráfico de atención por género de 25 - 34 años' para comparar los cambios en la proporción de género entre los dos grupos de edad, no se puede llegar a una conclusión comparativa entre grupos de edad con solo un gráfico.",
+        "E": "La opción se basa en la tendencia numérica, en el grupo de 19 - 24 años la proporción masculina es ligeramente mayor, y en el grupo de 25 - 34 años la proporción masculina es aún mayor, mostrando una tendencia ascendente de la proporción masculina con el aumento de la edad. Esta opción depende de la comparación de datos entre el 'gráfico de atención por género de 19 - 24 años' y el 'gráfico de atención por género de 25 - 34 años' para analizar la tendencia, no se puede llegar a una conclusión comparativa entre grupos de edad con solo un gráfico.",
+        "F": "Interferencia difícil: El grupo de 35 - 49 años tiene solo un 2% de atención total (chart_28_3), '25%' exagera gravemente el valor numérico, y carece de datos de desglose por género que lo respalden.",
+        "G": "Interferencia fácil: Realmente la proporción masculina aumenta del 52% (19 - 24 años) al 55% (25 - 34 años) (chart_28_4/5), 'descenso del 5%' es completamente opuesto a la tendencia de los datos."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción se basa en la tendencia numérica, el 'gráfico de distribución temporal' muestra que las 10:00 tienen la proporción más alta, mientras que el 'gráfico de atención por grupos de edad' muestra que los grupos de 19 - 24 años y 25 - 34 años suman más del 90% de la atención, lo que implica que los grupos jóvenes son los principales usuarios, y su tiempo de actividad puede influir en el horario pico. Esta opción requiere combinar el 'gráfico de distribución temporal' y el 'gráfico de atención por grupos de edad' para relacionar el horario pico con la alta proporción de atención dominada por los grupos jóvenes, solo con la distribución temporal no se puede explicar 'por qué son las 10:00', solo con la distribución por edad no se puede explicar el 'horario pico', se debe realizar un análisis conjunto de la relación implícita.",
+        "B": "La opción se basa en la tendencia numérica, el 'gráfico de distribución temporal' muestra que las 10:00 tienen la proporción más alta, mientras que el 'gráfico de atención por grupos de edad' muestra que los grupos de 19 - 24 años y 25 - 34 años suman más del 90% de la atención, lo que implica que los grupos jóvenes son los principales usuarios, y su tiempo de actividad puede influir en el horario pico. Esta opción depende del 'gráfico de distribución temporal' y el 'gráfico de atención por grupos de edad' para inferir patrones de comportamiento, solo con la distribución temporal no se puede explicar 'por qué son las 10:00', solo con la distribución por edad no se puede explicar el 'horario pico', se debe realizar un análisis conjunto de la relación implícita.",
+        "C": "Interferencia fácil: El grupo de 35 - 49 años tiene solo un 2% de atención total (chart_28_3), y el horario de 20:00 tiene solo un 15% (chart_28_1), no puede constituir una fuerza dominante.",
+        "D": "Interferencia fácil: El grupo de mayores de 50 años tiene un 0% de atención (chart_28_3), no puede impulsar ningún horario pico, contradice los datos básicos.",
+        "E": "Interferencia difícil: El horario de 15:00 tiene un 15% (chart_28_1), no es pico (el pico es a las 10:00 con 50%), y no establece una relación real entre el grupo de 25 - 34 años y este horario.",
+        "F": "La opción se basa en la tendencia numérica, el 'gráfico de distribución temporal' muestra que las 10:00 tienen la proporción más alta, mientras que el 'gráfico de atención por grupos de edad' muestra que los grupos de 19 - 24 años y 25 - 34 años suman más del 90% de la atención, lo que implica que los grupos jóvenes son los principales usuarios, y su tiempo de actividad puede influir en el horario pico. Esta opción depende del 'gráfico de distribución temporal' y el 'gráfico de atención por grupos de edad' para inferir patrones de comportamiento, solo con la distribución temporal no se puede explicar 'por qué son las 10:00', solo con la distribución por edad no se puede explicar el 'horario pico', se debe realizar un análisis conjunto de la relación implícita.",
+        "G": "Interferencia difícil: El horario de 00:00 tiene solo un 10% (chart_28_1), y no hay datos de desglose por edad y horario, 'más del 30%' inventa valores numéricos y atribuye erróneamente."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -134,6 +168,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "La opción se basa en la tendencia numérica, en el 'gráfico de atención por grupos de edad' el grupo de 25 - 34 años tiene la segunda proporción de atención más alta, y su desglose por género muestra una mayor ventaja masculina, indicando la relación entre la composición de género dentro del grupo de edad y la tendencia general. Esta opción requiere combinar el 'gráfico de atención por grupos de edad' y el 'gráfico de atención por género de 25 - 34 años', solo con la distribución general por edad no se puede obtener el desglose por género, solo con los gráficos de género no se puede obtener la proporción general, se debe realizar un análisis conjunto.",
+        "B": "Interferencia fácil: El grupo de menores de 18 años tiene solo un 5% de atención total (chart_28_3), no hay datos de desglose por género, '70%' es pura invención y exagera la proporción.",
+        "C": "La opción se basa en la tendencia numérica, en el 'gráfico de atención por grupos de edad' el grupo de 19 - 24 años tiene la proporción de atención más alta, y su desglose por género muestra una ligera ventaja masculina; el grupo de 25 - 34 años tiene la segunda proporción de atención más alta, pero su desglose por género muestra una mayor ventaja masculina, indicando la relación entre la composición de género dentro de los grupos de edad y la tendencia general. Esta opción requiere comparar la composición interna de los grupos de edad a través de múltiples gráficos, solo con la distribución general por edad no se puede obtener el desglose por género, solo con los gráficos de género no se puede obtener la proporción general, se debe realizar un análisis conjunto.",
+        "D": "La opción se basa en la tendencia numérica, en el 'gráfico de atención por grupos de edad' el grupo de 19 - 24 años tiene la proporción de atención más alta, y su desglose por género muestra una ligera ventaja masculina, indicando la relación entre la composición de género dentro del grupo de edad y la tendencia general. Esta opción requiere combinar el 'gráfico de atención por grupos de edad' y el 'gráfico de atención por género de 19 - 24 años' para integrar la proporción total y el desglose por género, solo con la distribución general por edad no se puede obtener el desglose por género, solo con los gráficos de género no se puede obtener la proporción general, se debe realizar un análisis conjunto.",
+        "E": "Interferencia difícil: La proporción real de hombres de 25 - 34 años es del 55% (chart_28_5), 'mujeres 60%' amplifica erróneamente la diferencia e inventa valores numéricos.",
+        "F": "Interferencia fácil: La proporción de atención de mayores de 50 años es del 0% (chart_28_3), cualquier proporción de género no existe, viola la lógica de los datos.",
+        "G": "Interferencia difícil: Invierte la proporción real de género de 19 - 24 años (hombres 52% > mujeres 48%, chart_28_4), '45% vs 55%' distorsiona completamente los datos en sentido inverso."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: se basa en los datos del gráfico (la actividad a las 05:00 es del 10%), pero confunde la dirección de la estrategia. El gráfico muestra que las 05:00 es el período de menor actividad, y la inversión en actividades centrales tendría un retorno bajo; la opción correcta C sugiere diseñar actividades diferenciadas para los períodos de baja actividad, pero enfatiza que el costo sea controlable, en lugar de una inversión 'intensa'. Esta sugerencia amplificaría el desperdicio de recursos.",
+        "B": "Dado que hay usuarios activos en varios períodos, pero la distribución no es uniforme, y que grupos secundarios como las personas de 25 - 34 años tienen una mayor atención y pueden estar activos en diferentes períodos, se puede deducir que se deben programar actividades promocionales auxiliares en los períodos de actividad secundaria más alta.",
+        "C": "Esta es una opción de distracción difícil: aparentemente utiliza los gráficos (datos de períodos de actividad y edad), pero interpreta erróneamente la relación. El gráfico chart_28_1 muestra que la actividad a las 20:00 es solo del 15%, mucho menor que el 50% a las 10:00; el gráfico chart_28_3 no especifica las preferencias de horario específicas de cada grupo de edad, y se asume erróneamente que las personas de 19 - 24 años son más activas a las 20:00. La estrategia correcta debería centrarse en el período de mayor actividad, que es a las 10:00.",
+        "D": "Dado que la proporción de los períodos de baja actividad es relativamente baja, y que los grupos de edad con menor atención, como las personas mayores de 35 años, pueden responder más fácilmente en los períodos no pico, se deben diseñar actividades diferenciadas para los períodos de menor actividad, pero teniendo en cuenta no ignorar a los grupos de baja actividad y mejorar la inclusión de manera económica.",
+        "E": "Esta es una opción de distracción fácil: se basa en el conocimiento general de la industria de que el '11.11' comienza a medianoche, pero ignora los datos del gráfico (el gráfico chart_28_1 muestra que la actividad a las 00:00 es solo del 10%). El conocimiento general no puede reemplazar los datos. El pico real está a las 10:00, y esta estrategia causaría una asignación errónea de recursos.",
+        "F": "Dado que la actividad en un período específico del día es significativamente más alta que en otros períodos y tiene la proporción más alta, y que el grupo de personas de 19 - 24 años tiene la mayor proporción de atención y es el principal grupo de consumo, y que su comportamiento puede estar relacionado con el período pico, se puede inferir que se deben concentrar las actividades promocionales centrales en el período de mayor actividad de los consumidores.",
+        "G": "Esta es una opción de distracción fácil: no se basa en los datos del gráfico, solo en el conocimiento general de 'cobertura equitativa'. El gráfico muestra que la actividad está altamente concentrada (el 50% a las 10:00), y una distribución uniforme desperdiciaría recursos en los períodos de baja actividad (por ejemplo, el 10% a las 00:00 y las 05:00), lo que reduciría la eficiencia general de conversión."
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Dado que el grupo de personas de 19 - 24 años tiene la mayor proporción de atención y la proporción de hombres y mujeres en este grupo es casi equilibrada, se puede inferir conjuntamente que se deben asignar priorariamente recursos a este grupo joven, ya que la eficiencia de los recursos en el grupo de alta atención es alta y el equilibrio de género reduce el riesgo de prejuicio.",
+        "B": "Esta es una opción de distracción fácil: no se basa en los gráficos, solo en el conocimiento general de 'distribución equitativa'. El gráfico (chart_28_3) muestra que la atención está altamente desigual (el grupo de 19 - 24 años representa el 52%), y una distribución igualitaria diluiría la eficiencia de los recursos en el grupo de alta atención y reduciría la participación general.",
+        "C": "Basado en que el grupo de personas de 25 - 34 años tiene la segunda mayor proporción de atención y la proporción de hombres en este grupo es mayor, se puede deducir que se debe aumentar la inclinación de recursos hacia este grupo, especialmente para los usuarios masculinos. Una estrategia dirigida puede mejorar el efecto.",
+        "D": "Esta es una opción de distracción difícil: se basa en los datos del gráfico (el gráfico chart_28_5 muestra que el 55% de los de 25 - 34 años son hombres frente al 45% de mujeres), pero confunde la lógica de la estrategia. Dado que la proporción de hombres es mayor, reducir la inversión en ellos podría reducir la participación general; la opción correcta B sugiere enfocarse en los hombres para mejorar la conversión, mientras que esta opción de distracción actúa en sentido contrario y busca erróneamente 'equidad' ignorando la eficiencia.",
+        "E": "Esta es una opción de distracción fácil: se basa en la suposición de la industria de 'grupos de alto poder adquisitivo', pero ignora los datos del gráfico (el gráfico chart_28_3 muestra que la atención de los de 35 - 49 años es solo del 2%). El conocimiento general no puede justificar la racionalidad de la inversión de recursos. Esta estrategia es ineficiente y no puede mejorar la participación principal.",
+        "F": "Según las proporciones de hombres y mujeres en el grupo de 19 - 24 años y en el grupo de 25 - 34 años, se sabe que las proporciones de hombres y mujeres varían en diferentes grupos de edad, pero en ambos casos se debe evitar el desequilibrio de recursos. Por lo tanto, se debe garantizar un equilibrio en la asignación de recursos en términos de género, lo que es coherente con los valores de equidad.",
+        "G": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico (el gráfico chart_28_4 muestra que el 48% de los de 19 - 24 años son mujeres frente al 52% de hombres), pero interpreta erróneamente la relación. La proporción de hombres y mujeres es casi equilibrada (la diferencia es solo del 4 por ciento), y el gráfico no muestra un problema de desequilibrio de género; la opción correcta C enfatiza el equilibrio de género, pero prioriza el grupo de alta atención (opción A). Esta sugerencia corrige en exceso y podría causar un desperdicio de recursos."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Dado que hay demanda en regiones de capacidad de consumo mediana como Zhejiang y Beijing, y que aunque el grupo de edad de baja atención es pequeño, debe ser cubierto, se puede deducir que se debe evitar la sobreconcentración de recursos, mantener una cobertura básica de recursos en regiones de capacidad de consumo mediana y evitar la discriminación territorial. La dispersión de recursos garantiza la inclusión y es coherente con los valores.",
+        "B": "Dado que el número de carritos de compra en regiones como Guangdong es significativamente más alto, y que la proporción de atención de los grupos de 19 - 24 años y 25 - 34 años en total supera el 90%, siendo el grupo principal de consumo, se puede inferir conjuntamente que se deben aumentar y concentrar los recursos de inventario y logística en las regiones con el mayor número de carritos de compra. La demanda en las regiones de alto consumo está concentrada, y el grupo principal de consumo puede impulsar los picos en estas regiones.",
+        "C": "Esta es una opción de distracción difícil: aparentemente utiliza el gráfico (datos de períodos de actividad de chart_28_1), pero asocia erróneamente la estrategia territorial. Los recursos de período deben optimizarse en función del tiempo (por ejemplo, la programación del servidor), pero la asignación territorial debe basarse en el potencial de consumo regional (chart_28_2); esta sugerencia confunde conceptos y ignora las diferencias territoriales (por ejemplo, la alta demanda en Guangdong), lo que podría causar una asignación errónea de recursos.",
+        "D": "Según las diferencias en el potencial de consumo regional y la distribución desigual de los períodos de actividad en un día, se sabe que la demanda regional puede verse afectada por los períodos pico. Además, dado que los jóvenes son el grupo principal de consumo, se puede desplegar priorariamente recursos flexibles en las regiones de demanda concentrada para hacer frente a las fluctuaciones lideradas por los jóvenes.",
+        "E": "Esta es una opción de distracción fácil: no se basa en los gráficos, solo en el conocimiento general de 'equidad regional'. El gráfico (chart_28_2) muestra que el potencial de consumo está altamente concentrado (Guangdong tiene 6 carritos de compra, Zhejiang tiene 3). Una distribución uniforme causaría escasez de stock en las regiones de alta demanda y recursos ociosos en las regiones de baja demanda.",
+        "F": "Esta es una opción de distracción difícil: se basa en los gráficos (datos territoriales de chart_28_2 y datos de edad de chart_28_3), pero interpreta erróneamente los valores y las relaciones. Beijing solo tiene 2 carritos de compra, mucho menos que los 6 de Guangdong; los datos de edad no especifican la distribución territorial, y se asume erróneamente que los usuarios de Beijing son más jóvenes. La estrategia correcta debe priorizar las regiones de alto consumo (opción A). Esta sugerencia subestimaría el riesgo de las regiones de alta demanda.",
+        "G": "Esta es una opción de distracción fácil: se basa en la lógica de la industria de 'desarrollar mercados emergentes', pero ignora los datos del gráfico (el gráfico chart_28_2 muestra las regiones de alto consumo claramente). El conocimiento general no puede reemplazar los datos, y no se mencionan las regiones de bajo consumo; la demanda real está concentrada en regiones como Guangdong. Esta estrategia amplificaría el desperdicio de recursos."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     }
   ]

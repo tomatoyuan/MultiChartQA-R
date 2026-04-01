@@ -85,6 +85,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: misinterpreting the chart trends. In chart_138_2, the vegetable production increased continuously (from 74,912.9 ten - thousand tons in 2020 to 77,549.0 ten - thousand tons in 2021, with a growth rate of 3.5%), and the growth rate did not slow down. At the same time, the meat production increased significantly (16%), but the option misjudged it as a “slow recovery”, which contradicts the data.",
+        "B": "In the ingredient production chart, the vegetable production increased continuously from 2020 to 2021, while in the market size chart, the market size resumed growth in 2021. This implies that the stable supply of vegetables as a major ingredient buffered the market shock, and it is necessary to analyze the trends of the two charts in combination.",
+        "C": "This is an easy distractor: based on common sense (such as common economic stimulus policies during the pandemic), without relying on the chart data. There is no mention of policy factors in the charts, which is purely an inference from general knowledge.",
+        "D": "In the ingredient production chart, the change in aquatic product production was small, and in the market size chart, the fluctuations were mild in other years except 2020. This reflects the contribution of the stability of aquatic product supply to market resilience, relying on the comparison of the two charts.",
+        "E": "This is a hard distractor: misunderstanding the chart data. Chart_138_2 shows that the aquatic product production increased from 6,549 ten - thousand tons in 2020 to 6,690 ten - thousand tons in 2021, with an increase of only 2.2%, far lower than the 18% rebound of the market size (chart_138_1). The option exaggerated its role and ignored that the significant recovery of meat production (from 7,748.4 ten - thousand tons to 8,990.0 ten - thousand tons, with an increase of 16%) was a more direct factor.",
+        "F": "This is an easy distractor: based on the common sense of behavioral economics (the release of savings leads to a consumption rebound), without involving the specific values in the charts, such as the market size or ingredient production.",
+        "G": "The market size chart shows that the market size decreased year - on - year in 2020 but increased year - on - year in 2021. The ingredient production chart shows that the meat production decreased in 2020 and rebounded significantly in 2021. This reveals the correlation between the recovery of the meat supply chain and the rebound of the market size, and it cannot be inferred from a single chart."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: based on economic common sense (excess supply leads to price drops and increased production), without involving the specific values or relationships in the charts.",
+        "B": "This is a hard distractor: misunderstanding the chart values. In chart_138_2, the meat production in 2020 was 7,748.4 ten - thousand tons, a slight decrease of 0.1% compared with 7,758.8 ten - thousand tons in 2019, not a “significant increase”. The option misread the data and created a false contradiction.",
+        "C": "The market size chart shows that the market size decreased year - on - year in 2020, indicating a contraction in demand. However, the vegetable production in the ingredient production chart increased in 2020. This conflict needs to be explained by combining the two charts - the imbalance between the demand side (market size) and the supply side (production), which cannot be seen from a single chart.",
+        "D": "The decline in the market size chart reflects a decrease in dine - in, while the increase in vegetable production in the ingredient production chart may be due to the rising demand for home - made hot pots. This requires cross - chart inference of behavioral changes (such as the shift of consumption scenarios), which is an implicit connection.",
+        "E": "In the ingredient production chart, the meat production decreased in 2020, which is consistent with the downward trend in the market size chart. However, the increase in vegetable production forms a contrast. This requires a combined analysis of the impact of different ingredient types on the market (such as the substitution effect), relying on the data of the two charts.",
+        "F": "This is an easy distractor: based on environmental common sense (climate affects agriculture), without relying on the chart content. There is no mention of climate factors in the charts, which is purely external knowledge.",
+        "G": "This is a hard distractor: misinterpreting the chart data and causal relationship. Chart_138_2 shows that the vegetable production did increase, but the main reason for the decline in the market size in chart_138_1 was the impact on the demand side (such as pandemic - related restrictions on going out). The option wrongly regarded the increase in production as a necessary driver of growth and ignored the possibility of a supply - demand disconnect."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: based on business common sense (higher consumer purchasing power in high - tier cities), without relying on the chart data. The charts do not provide a comparison of consumer purchasing power, which is purely a general inference.",
+        "B": "This is a hard distractor: wrongly correlating the chart data. Chart_138_3 shows that Haidilao has a relatively low proportion in low - tier cities, but the market size forecast in chart_138_1 does not distinguish between city tiers (only an overall growth of 4.3%). The option assumed that “low - tier cities have the fastest growth”, which has no data support. In fact, the predicted growth is slowing down, and it may rely more on high - tier markets.",
+        "C": "This is an easy distractor: based on marketing common sense (brand awareness promotes growth), without involving the specific values of store distribution or market size.",
+        "D": "In the brand store distribution chart, Xiaolongkan has a high proportion of stores in fourth - tier and fifth - tier cities. The market size chart shows a stable overall growth trend, implying the potential of low - tier cities. This requires cross - chart analysis of the synergy between the “sinking market” strategy and growth, relying on the trends of the two charts.",
+        "E": "The brand store distribution chart shows that Haidilao has nearly 50% of its stores in first - tier and new first - tier cities. The market size chart predicts continuous growth after 2023. This requires a combined inference that high - tier cities are the growth drivers, and it cannot be concluded from either the distribution or the forecast alone.",
+        "F": "In the brand store distribution chart, both Haidilao and Xiaolongkan have a proportion of over 20% in second - tier cities. The market size chart predicts that although the growth rate is slowing down, it is still positive. This requires a combined inference that second - tier cities serve as a balance point to support the industry's resilience, which is an implicit connection.",
+        "G": "This is a hard distractor: wrongly comparing the numerical differences. In chart_138_3, Xiaolongkan's proportion in second - tier cities is 24.0% compared with Haidilao's 21.7%, with a difference of only 2.3%, which is not significant. At the same time, chart_138_1 predicts that the overall growth is slowing down (from 7.5% to 4.3%), without emphasizing second - tier cities as the engine. The option exaggerated the difference and the trend and misread the data."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option C infers from the relatively stable (small fluctuation) aquatic product production in chart_138_2 and the gradually slowing growth rate of the market size forecast in chart_138_1 (such as the low forecast growth in 2024) that the pressure on the demand side is small, which is suitable for the cost - control strategy.",
+        "B": "This suggestion ignores the chart content and relies on general globalization knowledge (such as 'imported ingredients'). However, the chart does not involve import data, and the domestic ingredient production trend has shown stability (such as the growth of vegetables). This strategy has no basis and may increase costs.",
+        "C": "On the surface, it uses the charts (chart_138_1 and chart_138_2): The meat production increased in 2021, but the chart shows that the meat production fluctuates greatly (such as a decline to 77.588 million tons in 2019), and the supply is unstable. At the same time, the market size increased in 2021 but decreased by 20% in 2020. Prioritizing procurement may exacerbate cost risks (the correct strategy B is to lock in contracts in advance rather than prioritize procurement).",
+        "D": "Option A combines the steady annual growth of vegetable production in chart_138_2 (such as the continuous increase from 2016 - 2022) and the overall growth trend of the market size in chart_138_1 (although there was a decline in 2020, it recovered later and is predicted to rise), inferring that the vegetable supply is sufficient and the demand is stable, and the strategy can reduce risks.",
+        "E": "On the surface, it uses the chart (chart_138_2): The vegetable production has been growing steadily, but the interfering item misinterprets it as a risk of oversupply. The chart shows that the vegetable production has continuously increased from 674.342 million tons in 2016 to 800 million tons in 2022, and the supply is reliable. Reducing procurement contradicts the cost - control goal (the correct strategy A is to give priority to increasing vegetable procurement).",
+        "F": "This option is based on general supply - chain common sense, without specific chart data support. The statement is broad (such as'strengthen the management of cooperative relationships') and does not provide specific actions for the market size or ingredient production trend, so it can be easily excluded by common sense.",
+        "G": "Option B combines the change in meat production in chart_138_2 (a significant decline in 2019 followed by a recovery from 2021 - 2022) and the rapid rebound of the market size in chart_138_1 after a decline in 2020 (such as an 18% growth in 2021), inferring that meat is likely to be in short supply during the demand recovery period, and advance reserve can optimize the supply."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Option A refers to the relatively high proportion of stores in second - and third - tier cities in chart_138_3 (such as 21.7% in second - tier and 16.9% in third - tier cities for Haidilao, and 24.0% in second - tier cities for Xiaolongkan) and the continuous growth but declining growth rate of the market size forecast in chart_138_1 (such as the slow - down in growth after 2023), inferring that the demand in these regions is stable and the expansion cost - effectiveness is high.",
+        "B": "This option is a general operation suggestion without chart data support (such as store distribution or market size). The statement is broad (such as 'improve the digital level') and does not specifically target the expansion strategy, so it can be easily excluded by common sense.",
+        "C": "Option C combines the concentration of brands in high - tier cities in chart_138_3 (such as the total proportion of first - tier and new first - tier cities for Haidilao being nearly 50%) and the forecast of the slow - down in the market size growth rate in chart_138_1 (such as the low growth in 2024), inferring that high - tier cities may be saturated, and optimizing existing resources is more efficient.",
+        "D": "On the surface, it uses the charts (chart_138_1 and chart_138_3): The proportion of Xiaolongkan in fifth - tier cities is 13.0%, but the chart shows that the market size growth rate is slowing down (4.3% growth in 2024), and the proportion in fifth - tier cities is not high. Misinterpreting it as high potential may ignore competition and demand limitations (the correct strategy B emphasizes the sinking market but requires caution).",
+        "E": "Option B combines the prominent proportion of Xiaolongkan's stores in fourth - and fifth - tier cities in chart_138_3 (such as 25.7% in fourth - tier and 13.0% in fifth - tier cities) and the overall upward trend of the market size in chart_138_1 (although the growth rate is decreasing), inferring that there are great opportunities in the sinking market, which conforms to the value of fair resource allocation.",
+        "F": "This suggestion is based on marketing common sense (such as 'holding promotional activities') but ignores the core of the problem (resource allocation and store expansion) and does not combine the city - tier or scale trend in the chart, lacking action guidance.",
+        "G": "On the surface, it uses the charts (chart_138_1 and chart_138_3): The proportion of Haidilao in third - tier cities is not low at 16.9%, and the market size is continuously expanding (668.9 billion yuan in 2024). A slow - down in the growth rate does not mean insufficient demand. Avoiding investment may miss a stable market (the correct strategy A recommends increasing investment in second - and third - tier cities)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Option B infers from the continuous increase in vegetable production in chart_138_2 (such as reaching 80 million tons in 2022) and the slow - down in the market size growth rate in chart_138_1 (the forecast growth decline), and also considering the fluctuation of meat production in chart_138_2 (such as the decline in 2019), that increasing the proportion of vegetables can cope with demand changes and reduce environmental impact.",
+        "B": "Option A integrates the ingredient production data in chart_138_2 (such as the steady growth of vegetable production and the large number of stores in Guangdong Province in chart_138_3) and the specific provincial store distribution in chart_138_3 (such as 162 stores of Haidilao in Guangdong), inferring that local procurement can reduce logistics costs and support regional development, which conforms to the value of sustainable development.",
+        "C": "On the surface, it uses the charts (chart_138_1 and chart_138_2): The meat production increased in 2022, but the chart shows that the meat production fluctuates greatly (such as 77.484 million tons in 2020). The market size increased in 2021 but the growth rate slowed down (4.3% in 2024). Increasing reserves may increase costs and cannot cope with fluctuations (the correct strategy B recommends increasing vegetables rather than meat).",
+        "D": "On the surface, it uses the charts (chart_138_2 and chart_138_3): The ingredient production in Guangdong Province is high (vegetables) and the stores are dense, but the interfering item misinterprets it as resource duplication. The chart supports local procurement (such as the stable growth of vegetables). Ignoring the construction may miss the opportunity for supply - chain optimization (the correct strategy A recommends giving priority to establishing regional centers).",
+        "E": "This suggestion is a general data - analysis strategy that ignores specific chart content (such as ingredient production or store distribution) and does not provide a specific solution to deal with supply fluctuations, lacking comprehensiveness.",
+        "F": "This option is based on industry management common sense, without chart data support. The statement is broad (such as 'promoting training programs') and does not target the slow - down in growth rate or supply fluctuations, so it can be easily excluded by common sense.",
+        "G": "Option C quotes the rapid rebound of the market size in chart_138_1 after a decline (such as the growth in 2021 after the decline in 2020) and the wide store distribution in chart_138_3 (covering multi - tier cities), inferring that digitalization can cope with similar shocks and improve the industry's resilience."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

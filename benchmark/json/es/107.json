@@ -87,6 +87,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción C requiere un análisis conjunto de chart_107_2 y chart_107_3 para examinar la relación entre el porcentaje de factores y el porcentaje de deficiencias (calidad del servicio al cliente vs. servicio posventa deficiente), en lugar de que una sola tabla pueda llegar a una conclusión. Esto revela problemas de ejecución por parte de los proveedores de servicios en las necesidades centrales.",
+        "B": "Todas las opciones dependen del razonamiento cruzado entre chart_107_2 y chart_107_3. Por ejemplo, opción A: en chart_107_2, la señal y velocidad de red es uno de los factores de selección (entre los cinco primeros en porcentaje), mientras que en chart_107_3, la baja velocidad de red es una deficiencia principal (entre los tres primeros en porcentaje). Al comparar las tendencias numéricas de las dos tablas, se puede inferir que existe una brecha directa entre la necesidad de rendimiento de red de los usuarios y su experiencia.",
+        "C": "Esta opción depende del conocimiento común (iniciativas ambientales), pero no hay datos relacionados con el medio ambiente en las tablas, lo que constituye una interferencia de conocimiento común sin fundamento.",
+        "D": "Esta opción interpreta incorrectamente la tabla: el plan familiar compartido (factor de selección) y las llamadas de ventas excesivas (deficiencia) no tienen una relación lógica, y la brecha 38.97%>21.73% se malinterpreta como un 'problema de métodos de promoción'.",
+        "E": "Esta opción compara incorrectamente los valores: la protección de privacidad (factor de selección) y las altas tarifas de servicios con valor añadido (deficiencia) son indicadores de diferentes dimensiones, se asocian forzadamente y se ignora la brecha real (26.87%≠25.05%).",
+        "F": "La opción B requiere un análisis conjunto de chart_107_2 y chart_107_3 para examinar la relación entre el porcentaje de factores y el porcentaje de deficiencias (precio vs. bajo costo-rendimiento del paquete), en lugar de que una sola tabla pueda llegar a una conclusión. Esto revela problemas de ejecución por parte de los proveedores de servicios en las necesidades centrales.",
+        "G": "Esta opción depende del conocimiento común (roaming internacional), las tablas no cubren servicios de roaming y no están relacionadas con los datos."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Cada opción debe combinar el razonamiento de chart_107_4 y chart_107_5. Por ejemplo, opción A: en chart_107_4, las actividades de promoción de operadores de telecomunicaciones tienen el porcentaje más alto, mientras que en chart_107_5, los terminales inteligentes 5G tienen el porcentaje de expectativa más alto. Al comparar el orden de los porcentajes de canales y aplicaciones, se puede inferir que las actividades de promoción pueden priorizar los dispositivos terminales.",
+        "B": "Esta opción depende del conocimiento común (aeroespacial), pero no existe este campo de aplicación en las tablas, lo que constituye una interferencia sin soporte de datos.",
+        "C": "Esta opción asocia incorrectamente canales y aplicaciones: los porcentajes de programas de televisión/radio y plataformas de vídeos cortos (27.75%/27.64%) son cercanos al de realidad virtual (27.09%), pero no hay evidencia de efecto promocional, y el porcentaje de RV es menor que el de terminales inteligentes (44%) y otras aplicaciones.",
+        "D": "Esta opción fuerza una coincidencia de características: las plataformas de compartición de contenido (23.79%) tienen un porcentaje menor que la promoción de operadores (34.69%), pero afirman tener el efecto más fuerte en la conducción autónoma (37.71%), ignorando la prioridad de los datos.",
+        "E": "La opción C depende de chart_107_4 y chart_107_5. Al comparar la correspondencia entre el porcentaje de informes/análisis de investigación de la industria y el porcentaje de aplicaciones en campos profesionales como la telemedicina, se revela cómo el contenido del canal influye sutilmente en las expectativas de los usuarios. Una sola tabla no puede llegar a esta conexión implícita; se requiere un análisis conjunto de tendencias.",
+        "F": "Esta opción interpreta incorrectamente la brecha: la información por familiares/amigos (canal) y la educación (aplicación) no tienen una relación directa, y 18.39%<31.31% se malinterpreta como un 'efecto inhibitorio', cuando en realidad no hay una relación causal.",
+        "G": "La opción B depende de chart_107_4 y chart_107_5. Al comparar la correspondencia entre el porcentaje de plataformas de vídeos cortos/redes sociales y el porcentaje de aplicaciones, se revela cómo el contenido del canal influye sutilmente en las expectativas de los usuarios. Una sola tabla no puede llegar a esta conexión implícita; se requiere un análisis conjunto de tendencias."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "C",
+        "D"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción B depende de un análisis conjunto de chart_107_2 y chart_107_3 (porcentaje de servicios adicionales vs. deficiencia de tarifas altas). Una sola tabla solo puede enumerar datos, no puede revelar las causas del conflicto. Esto resalta el riesgo de incumplimiento por parte de los operadores en elementos clave del servicio.",
+        "B": "La opción requiere un razonamiento cruzado entre chart_107_2 y chart_107_3 para inferir conflictos. Por ejemplo, opción A: en chart_107_2, las políticas de tráfico de datos tienen uno de los porcentajes más altos, mientras que en chart_107_3, la dificultad para cambiar de paquete es una deficiencia significativa (porcentaje más bajo pero con alta contradicción). Al comparar los valores de las dos tablas (factores de alto porcentaje vs. deficiencias relacionadas), se puede inferir una contradicción en la ejecución de políticas por parte de los proveedores de servicios.",
+        "C": "Esta opción atribuye incorrectamente valores bajos: la evaluación de otros (factor de selección) y la dificultad para cambiar de paquete (deficiencia), aunque tienen porcentajes bajos, se califican forzadamente como 'conflictos secundarios', ignorando otros conflictos de alta prioridad (como el bajo costo-rendimiento del 44.75%).",
+        "D": "Esta opción malinterpreta la igualdad numérica: la señal y velocidad de red (32.66%) como necesidad, y la baja velocidad de red (31.69%) como deficiencia, aparentemente cercanos pero en realidad existe una brecha de necesidad no satisfecha (se ignora que 32.66%>31.69%).",
+        "E": "Esta opción depende del conocimiento común (calidad del personal), pero no hay datos relevantes en las tablas, lo que constituye una interferencia de conocimiento común.",
+        "F": "Esta opción invierte la relación lógica: la necesidad de calidad del servicio al cliente (26.45%) y la deficiencia del servicio posventa (34.58%) deberían mostrar una brecha de experiencia, pero se atribuye incorrectamente a una 'exageración de promesas', y la brecha 34.58%>26.45% no se analiza adecuadamente.",
+        "G": "La opción C depende de un análisis conjunto de chart_107_2 y chart_107_3 (porcentaje de cobertura de red vs. cobertura irregular). Una sola tabla solo puede enumerar datos, no puede revelar las causas del conflicto. Esto resalta el riesgo de incumplimiento por parte de los operadores en elementos clave del servicio."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D",
+        "F"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza las gráficas (cita el 21.73% del plan familiar compartido en chart_107_2 y el 9.31% de la dificultad para cambiar de paquete en chart_107_3), pero interpreta erróneamente la relación. El plan familiar compartido tiene una proporción mediana-baja entre los factores de elección (no es un factor central), y la dificultad para cambiar de paquete tiene la proporción más baja pero se malinterpreta como 'espacio de mejora pequeño'. En realidad, se deben priorizar las deficiencias con alta proporción, como la baja relación calidad-precio del paquete.",
+        "B": "Esta es una opción de distracción fácil: se basa en la lógica de promoción común (las ofertas limitadas en tiempo son comunes en la competencia), pero no se combina con el contenido de las gráficas (como los factores de elección de los usuarios o las deficiencias). La dirección de la estrategia es difusa y no puede resolver los problemas centrales.",
+        "C": "Esta es una opción de distracción fácil: se basa en el conocimiento general del sector (la promoción de la marca es una estrategia común), pero no cita ningún dato de las gráficas. La expresión es amplia y no tiene una guía de acción específica (no se dirige a los problemas de red o paquetes en las gráficas).",
+        "D": "La opción 2 combina chart_107_3 (la baja relación calidad-precio del paquete tiene la proporción más alta entre las deficiencias de los usuarios) y chart_107_2 (las políticas de tráfico de datos tienen la proporción más alta entre los factores de elección).",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza las gráficas (cita el 32.87% de los servicios adicionales en chart_107_2 y el 25.05% de las altas tarifas de servicios con valor añadido en chart_107_3), pero interpreta erróneamente los datos. Los servicios adicionales no tienen la proporción más alta entre los factores de elección (las políticas de tráfico de datos con un 34.26% y la señal y velocidad de red con un 32.66% son más altas), y la baja relación calidad-precio del paquete con un 44.75% es más destacada. Se deduce erróneamente que 'la aceptación de los usuarios es alta' y se ignora las quejas por las altas tarifas.",
+        "F": "La opción 1 combina chart_107_2 (la señal, la velocidad de red y la cobertura de red tienen proporciones altas entre los factores de elección de los usuarios) y chart_107_1 (China Mobile tiene una alta cuota de mercado, pero la proporción combinada de usuarios de China Unicom y China Telecom es considerable, lo que indica un espacio de competencia).",
+        "G": "La opción 3 combina chart_107_3 (las llamadas de ventas excesivas y el servicio posventa deficiente tienen proporciones altas entre las deficiencias de los usuarios) y chart_107_2 (la calidad del servicio al cliente tiene una proporción destacada entre los factores de elección)."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 3 combina chart_107_4 (el canal de prensa/libros tiene la proporción más baja entre los canales de conocimiento) y chart_107_5 (la educación tiene una proporción mediana entre las aplicaciones esperadas, adecuada para la promoción a través de canales especializados).",
+        "B": "Esta es una opción de distracción difícil: aparentemente utiliza las gráficas (cita el 12.67% de la prensa/libros en chart_107_4 y el 31.31% de la expectativa de educación en chart_107_5), pero interpreta erróneamente. La prensa/libros tiene la proporción más baja y no debe ser prioritaria; la expectativa de educación es mediana y se asocia erróneamente con 'promoción precisa', ignorando los canales de alta cobertura, como las actividades de promoción de los operadores de telecomunicaciones con un 34.69%.",
+        "C": "Esta es una opción de distracción fácil: se basa en la lógica de marketing general (las actividades offline aumentan la participación), pero no se combina con las gráficas (como los canales de conocimiento o las aplicaciones esperadas), ignorando el tema de la asignación eficiente de recursos.",
+        "D": "Esta es una opción de distracción fácil: se basa en el conocimiento general (la publicidad televisiva es un método de promoción tradicional), pero no cita ningún dato de las gráficas. La expresión es amplia (no se dirige a canales o aplicaciones específicas de 5G) y la estrategia no tiene una base cuantitativa.",
+        "E": "La opción 1 combina chart_107_4 (las actividades de promoción de los operadores de telecomunicaciones y las plataformas de redes sociales tienen las proporciones más altas entre los canales de conocimiento de 5G) y chart_107_5 (los terminales inteligentes tienen la proporción más alta entre las aplicaciones esperadas de 5G).",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza las gráficas (cita el 27.09% de la expectativa de Realidad Virtual en chart_107_5 y el 23.24% de las exposiciones/conferencias tecnológicas en chart_107_4), pero interpreta erróneamente los datos. La expectativa de Realidad Virtual tiene la proporción más baja (no es la más alta, los terminales inteligentes con un 44.00% son los más altos), y las exposiciones/conferencias tecnológicas tienen una proporción mediana. Se deduce erróneamente 'maximizar el interés' ignorando las preferencias reales de los usuarios.",
+        "G": "La opción 2 combina chart_107_4 (las plataformas de vídeos cortos y las plataformas de compartición de contenido tienen proporciones destacadas entre los canales de conocimiento) y chart_107_5 (la Realidad Virtual tiene la proporción más baja entre las aplicaciones esperadas, pero la telemedicina tiene una proporción mediana, lo que indica que se necesita una promoción específica)."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza las gráficas (cita el 18.31% de la cobertura de red irregular en chart_107_3 y el 30.73% de la cobertura de red en chart_107_2), pero interpreta erróneamente. La cobertura de red irregular tiene una proporción baja (no es prioritaria, la baja relación calidad-precio del paquete con un 44.75% es más alta), y la cobertura de red con un 30.73% en los factores de elección se malinterpreta como 'reducir directamente la pérdida de usuarios', cuando en realidad la baja velocidad de red con un 31.69% es más relevante.",
+        "B": "La opción 1 combina chart_107_3 (la baja relación calidad-precio del paquete y las altas tarifas de servicios con valor añadido tienen proporciones altas entre las deficiencias de los usuarios) y chart_107_2 (los servicios adicionales y las políticas de tráfico de datos tienen las proporciones más altas entre los factores de elección).",
+        "C": "Esta es una opción de distracción difícil: aparentemente utiliza las gráficas (cita el 20.66% de la duración de llamada corta en chart_107_3 y el 27.41% de la calidad de la llamada en chart_107_2), pero interpreta erróneamente los datos. La duración de llamada corta tiene una proporción baja (está en las últimas posiciones entre las deficiencias), y la calidad de la llamada con un 27.41% es mediana. Se deduce erróneamente 'mejorar significativamente el valor' ignorando los factores de mayor peso, como la señal o las políticas de datos.",
+        "D": "Esta es una opción de distracción fácil: se basa en la lógica general de gestión (optimizar el servicio a través de herramientas de retroalimentación), pero no se combina con las gráficas (como las deficiencias de los usuarios o los factores de elección), ignorando los problemas centrales, como las llamadas de ventas o la relación calidad-precio.",
+        "E": "Esta es una opción de distracción fácil: se basa en el conocimiento general (la capacitación de empleados es una práctica estándar de servicio), pero no cita ningún dato de las gráficas. La estrategia es amplia (no se dirige a problemas específicos, como la relación calidad-precio o la velocidad de red) y no tiene una guía de acción clara.",
+        "F": "La opción 3 combina chart_107_3 (los procedimientos comerciales complicados y las llamadas de ventas excesivas tienen proporciones altas entre las deficiencias de los usuarios) y chart_107_2 (la calidad del servicio al cliente tiene una proporción mediana pero es importante).",
+        "G": "La opción 2 combina chart_107_3 (la baja velocidad de red tiene una proporción destacada entre las deficiencias de los usuarios) y chart_107_2 (la señal y la velocidad de red tienen las proporciones más altas entre los factores de elección)."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     }
   ]

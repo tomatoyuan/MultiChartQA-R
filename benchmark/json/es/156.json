@@ -86,6 +86,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "该选项为Hard干扰项：错误解读图表数值（chart_156_3）。Modelo de color carne/tono de piel占比61%是绝对主导，Modelo de color negro仅32%，并非“高度偏好”或“主要驱动力”；头部品牌份额增长更可能与肉色款主流偏好相关，该选项误判了颜色偏好数据的重要性。",
+        "B": "选项A需要结合chart_156_3（颜色偏好，Modelo de color carne/tono de piel比例最高）和chart_156_4（功能卖点，Naturalidad和Sensación de desnudo销售额占比高且同比增速正）来推断消费者偏好自然度的趋势，并与chart_156_1（TOP5品牌份额逐年上升）关联，解释头部品牌增长的可能原因。仅单张图表无法完成推理，例如，chart_156_1单独显示份额变化，但无法解释原因；chart_156_3或chart_156_4单独只能显示偏好或功能，不能链接到品牌动态。",
+        "C": "选项C需要结合chart_156_3（颜色偏好，Modelo de color carne/tono de piel比例最高）和chart_156_4（功能卖点，Naturalidad和Sensación de desnudo销售额占比高且同比增速正）来推断消费者偏好自然度的趋势，并与chart_156_1（TOP5品牌份额逐年上升）关联，通过强调趋势一致性解释头部品牌巩固市场地位的原因。仅单张图表无法完成推理，例如，chart_156_1单独显示份额变化，但无法解释原因；chart_156_3或chart_156_4单独只能显示偏好或功能，不能链接到品牌动态。",
+        "D": "该选项为Hard干扰项：错误解读图表数值和差距（chart_156_4）。Sensación en la piel销售额占比仅0.05（极低），虽增速高（2.8），但整体份额小；而Naturalidad占比0.55增速0.1和Sensación de desnudo占比0.75增速0.12占比高且增速稳定，是主要驱动力。该选项夸大Sensación en la piel的作用，忽略主流功能需求。",
+        "E": "该选项为Easy干扰项：基于常识（品牌营销和价格策略），但图表数据未提及广告、降价或任何营销因素，无法从提供的数据推断这些因素对份额的影响；行业常识可能认为营销重要，但问题焦点是颜色偏好和功能需求，因此该选项脱离图表内容。",
+        "F": "选项B需要结合chart_156_3（颜色偏好，Modelo de color carne/tono de piel比例最高）和chart_156_4（功能卖点，Naturalidad和Sensación de desnudo销售额占比高且同比增速正）来推断消费者偏好自然度的趋势，并与chart_156_1（TOP5品牌份额逐年上升）关联，强调趋势一致性来解释头部品牌增长原因。仅单张图表无法完成推理，例如，chart_156_1单独显示份额变化，但无法解释原因；chart_156_3或chart_156_4单独只能显示偏好或功能，不能链接到品牌动态。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -107,6 +122,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "选项A需要结合chart_156_2（穿着场景，Cita和Mudanza laboral比例最高）和chart_156_3（颜色偏好，Modelo de color carne/tono de piel比例最高）来推断高频率场景与主流颜色偏好的隐含联系。仅单张图表无法完成推理，例如，chart_156_2单独显示场景比例，但无法链接到颜色；chart_156_3单独显示颜色偏好，但无法关联场景。",
+        "B": "该选项为Easy干扰项：基于常识（颜色通用性），但图表数据（chart_156_3）显示Modelo de color negro占比32%和Compraré ambos colores占比7%，表明偏好并非单一；场景数据（chart_156_2）未证明所有场景统一偏好，该选项过度泛化。",
+        "C": "该选项为Hard干扰项：错误解读图表排序和差距（chart_156_2和chart_156_3）。Aburrimiento en casa场景比例仅18%（低），而高比例场景如Cita（55%）或Mudanza laboral（52%）更可能偏好肉色款；该选项误将低比例场景与主流偏好关联，且忽略场景比例差异。",
+        "D": "选项B需要结合chart_156_2（穿着场景，Aburrimiento en casa、Clase等比例较低）和chart_156_3（颜色偏好，Modelo de color negro非主流）来引入冲突点（黑色款在低比例场景的可能应用）。仅单张图表无法完成推理，例如，chart_156_2单独显示场景比例，但无法链接到颜色；chart_156_3单独显示颜色偏好，但无法关联场景。",
+        "E": "选项C需要结合chart_156_2（穿着场景，Tomar fotos和Viaje场景比例中等）和chart_156_3（颜色偏好，Modelo de color carne/tono de piel比例最高，Modelo de color negro占比少）来强调中等场景的偏好一致性。仅单张图表无法完成推理，例如，chart_156_2单独显示场景比例，但无法链接到颜色；chart_156_3单独显示颜色偏好，但无法关联场景。",
+        "F": "该选项为Hard干扰项：错误解读图表数值（chart_156_2和chart_156_3）。Viaje场景比例43%中等，但颜色偏好显示Modelo de color carne/tono de piel占比61%主导，Modelo de color negro仅32%；该选项假设黑色款适合旅游，但数据未支持此关联，反而与肉色款高偏好矛盾。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -128,6 +158,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "该选项为Hard干扰项：错误解读图表增速（chart_156_4）。Naturalidad增速0.1为正且销售额占比高（0.55），表明需求强劲；非头部品牌份额下降（chart_156_1中TOP6 - 10从15%降至11%）更可能因未能满足此需求，该选项误判增速为“低”并反向解读趋势。",
+        "B": "选项B需要结合chart_156_1（Otros品牌份额整体下降）和chart_156_4（功能卖点中Invisibilidad销售额占比低且增速负）来聚焦冲突点（Invisibilidad增速负 vs 其他品牌份额降）。仅单张图表无法完成推理，例如，chart_156_1单独显示份额变化，但无法解释功能影响；chart_156_4单独显示功能表现，但无法链接到品牌层级。",
+        "C": "选项C需要结合chart_156_1（TOP6 - 10和TOP11 - 20品牌份额逐年下滑）和chart_156_4（功能卖点中自然度特性高增长）来细化非头部品牌困境。仅单张图表无法完成推理，例如，chart_156_1单独显示份额变化，但无法解释功能影响；chart_156_4单独显示功能表现，但无法链接到品牌层级。",
+        "D": "选项A需要结合chart_156_1（品牌份额，TOP5增长而TOP6 - 10和TOP11 - 20下降）和chart_156_4（功能卖点，Sensación de desnudo和Naturalidad销售额占比高且增速正）来推断头部品牌通过主流功能（如自然度）获得优势，而非头部品牌份额下降可能由于功能响应不足。仅单张图表无法完成推理，例如，chart_156_1单独显示份额变化，但无法解释功能影响；chart_156_4单独显示功能表现，但无法链接到品牌层级。",
+        "E": "该选项为Easy干扰项：基于常识（价格竞争和创新），但图表数据（chart_156_1）显示Otros品牌份额从45%降至41%，TOP6 - 10和TOP11 - 20份额持续下滑，趋势未稳定；功能数据（chart_156_4）未提价格或创新，该选项脱离图表内容。",
+        "F": "该选项为Hard干扰项：错误解读图表数值和趋势（chart_156_4）。Invisibilidad增速为负（-0.02），表明需求下降，且销售额占比仅0.04（低）；非头部品牌份额整体下降（chart_156_1），该选项却假设负增速代表需求增长，矛盾明显。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -151,6 +196,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Combinando chart_156_2 (en los escenarios de uso, las proporciones de cita y mudanza laboral son relativamente altas) y chart_156_3 (preferencia por el color natural), optimice el diseño para los escenarios de alta demanda.",
+        "B": "Basado en chart_156_4 (en los puntos fuertes de funcionalidad, la sensación en la piel tiene un alto crecimiento anual pero una baja proporción en las ventas, y la invisibilidad tiene un crecimiento negativo) y chart_156_3 (los datos de preferencia respaldan la dominancia del color natural), se recomienda la redistribución de recursos para evitar riesgos y aprovechar puntos de crecimiento.",
+        "C": "Esta opción es una distracción fácil. Igualmente se basa en conocimiento general (marketing de influencers), ignorando las preferencias de los consumidores y las tendencias funcionales en los gráficos. El chart_156_3 muestra que el 61% de los consumidores prefieren el color natural, mucho más alto que el color negro, pero esta sugerencia no optimiza el diseño del producto en función de esto, solo habla de promoción de manera general.",
+        "D": "Esta opción es una distracción difícil. Utiliza erróneamente los datos de chart_156_4: la tasa de crecimiento de la función de invisibilidad es -0.02 (crecimiento negativo) y su proporción en las ventas es solo 0.04, lo que indica una disminución de la demanda. Pero la distracción lo interpreta erróneamente como 'se puede capturar un nicho vacío después de la mejora'. En realidad, se debe evitar invertir en áreas de crecimiento negativo, lo que está fuera de línea con las preferencias de los consumidores (chart_156_3) y las necesidades de los escenarios (chart_156_2).",
+        "E": "Esta opción es una distracción fácil. Solo se basa en conocimiento comercial general (control de costos) y no utiliza ningún dato de los gráficos. La pregunta pide optimizar el diseño de la línea de productos, pero esta sugerencia es amplia y sin acciones específicas, por lo que no puede aumentar directamente la cuota de mercado de los 'calcetines imitación piernas desnudas' ni satisfacer las preferencias de los consumidores.",
+        "F": "Esta opción es una distracción difícil. Aparentemente utiliza chart_156_3 (preferencias de color) y chart_156_4 (puntos fuertes de funcionalidad), pero interpreta erróneamente los datos. En chart_156_3, la proporción del color negro es del 32%, menor que el 61% del color natural. Y en chart_156_4, la sensación de desnudo tiene un alto crecimiento, pero está relacionado con la funcionalidad del color natural. El color negro no se menciona en la funcionalidad. Se asocia erróneamente las preferencias de color con las tendencias funcionales, ignorando la dominancia del color natural.",
+        "G": "Basado en chart_156_3 (el color natural tiene la mayor proporción en las preferencias de color de los consumidores) y chart_156_4 (en los puntos fuertes de funcionalidad, la naturalidad y la sensación de desnudo tienen altas proporciones en las ventas y tasas de crecimiento año con año positivas), se recomienda una estrategia que combine la funcionalidad del producto con las preferencias de los consumidores."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -175,6 +237,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Combinando chart_156_2 (la proporción de uso para aburrimiento en casa es baja pero existe) y chart_156_3 (datos de preferencia por el color natural), explore las necesidades insatisfechas de los escenarios, lo cual es coherente con los valores (no ignorar a los grupos minoritarios).",
+        "B": "Esta opción es una distracción difícil. Combina erróneamente chart_156_2 (escenarios de uso) y chart_156_3 (preferencias de color): la proporción del escenario de clase es solo del 12%, la más baja, lo que indica una baja demanda. Pero la distracción lo interpreta erróneamente como 'poca competencia y gran potencial'. En chart_156_1, la cuota de los otros márgenes es alta (41%), lo que es más adecuado para la segmentación. Sin embargo, el escenario de clase no está directamente relacionado con las preferencias de color y los datos no respaldan su potencial de crecimiento.",
+        "C": "Esta opción es una distracción difícil. Aparentemente utiliza los datos de chart_156_1, pero los interpreta erróneamente: el aumento de la cuota de los TOP5 (de 27% a 37%) indica una concentración del mercado. Es difícil que las nuevas marcas tengan ventajas imitando la estrategia de las marcas líderes. En realidad, se debe evitar (como se menciona en la opción A), pero la distracción lo interpreta erróneamente como 'oportunidad de alto crecimiento', ignorando que las nuevas marcas tienen recursos limitados.",
+        "D": "Esta opción es una distracción fácil. Se basa en sugerencias de marketing generales (actividades offline), sin combinar los cambios en la cuota de mercado o las preferencias de los consumidores en los gráficos. El chart_156_1 muestra que la cuota de los otros márgenes ha disminuido, pero esta sugerencia no proporciona acciones específicas para hacer frente a esta tendencia.",
+        "E": "Basado en chart_156_4 (la sensación en la piel tiene un alto crecimiento en los puntos fuertes de funcionalidad) y chart_156_1 (tendencia de aumento de la cuota de los TOP5), utilice la innovación funcional para combatir la concentración del mercado.",
+        "F": "Esta opción es una distracción fácil. Solo se basa en conocimiento general (guerra de precios) y no utiliza datos de los gráficos. La pregunta se refiere a la estrategia de entrada de las nuevas marcas, pero esta sugerencia ignora el panorama competitivo del mercado (el chart_156_1 muestra una concentración de la cuota de los TOP5). Además, la guerra de precios puede reducir las ganancias y no puede aumentar de manera sostenible la cuota de mercado.",
+        "G": "Basado en chart_156_1 (la cuota de los otros márgenes es alta y estable) y chart_156_3 (el color natural tiene la mayor proporción en las preferencias de color), lance productos personalizados para el mercado de nicho."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -198,6 +277,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es una distracción fácil. Solo se basa en conocimiento general de gestión (distribución equitativa del presupuesto) y no utiliza datos de los gráficos. La pregunta pide combinar el comportamiento de los consumidores y las tendencias, pero esta sugerencia es amplia y sin enfoque, por lo que no puede aumentar los resultados de ventas.",
+        "B": "Esta opción es una distracción difícil. Utiliza erróneamente los datos de chart_156_4: la función de naturalidad tiene la mayor proporción (0.55, es decir, 55%) y una tasa de crecimiento estable (0.1, es decir, 10%), pero la distracción la compara erróneamente con la tasa de crecimiento de la sensación de desnudo (0.12, es decir, 12%) y considera que 'tiene poco potencial'. En realidad, la función de naturalidad es el núcleo y las preferencias de color en chart_156_3 respaldan el color natural. Ignora erróneamente la tendencia general y puede malorientar la distribución de recursos.",
+        "C": "Esta opción es una distracción difícil. Aparentemente utiliza chart_156_2 (escenarios de uso) y chart_156_4 (puntos fuertes de funcionalidad), pero los interpreta erróneamente: la proporción de aburrimiento en casa es solo del 18%, la más baja, lo que indica una baja demanda. La sensación en la piel tiene una alta tasa de crecimiento (2.8) pero una baja proporción en las ventas (0.05), lo que significa una base pequeña. La distracción lo interpreta erróneamente como 'necesidad insatisfecha'. En chart_156_2, los escenarios de alta frecuencia (como la cita con un 55%) deben ser priorizados. Además, la función de sensación en la piel no está directamente relacionada con el escenario de aburrimiento en casa.",
+        "D": "Esta opción es una distracción fácil. Se basa en conocimiento general de marketing tradicional (publicidad en televisión), ignorando los escenarios específicos y las tendencias funcionales en los gráficos (como los escenarios de alta frecuencia en chart_156_2). No proporciona datos de apoyo y está fuera de contexto con la pregunta.",
+        "E": "Basado en chart_156_4 (la tasa de crecimiento de la invisibilidad es negativa) y chart_156_2 (datos de necesidades de escenarios), identifique áreas ineficientes y redistribuya recursos, lo cual es coherente con el valor de optimización de la eficiencia.",
+        "F": "Combinando chart_156_4 (la sensación de desnudo y la naturalidad tienen altas proporciones en las ventas y tasas de crecimiento año con año positivas) y chart_156_1 (tendencia de aumento de la cuota de los TOP5), utilice las ventajas funcionales del producto para competir por la cuota de mercado.",
+        "G": "Basado en chart_156_2 (las proporciones de cita y mudanza laboral son altas) y chart_156_3 (el color natural tiene la mayor proporción en las preferencias de color), diseñe actividades de marketing para los escenarios principales."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     }
   ]

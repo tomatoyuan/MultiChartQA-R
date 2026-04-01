@@ -86,6 +86,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This option requires a combined inference of the marketing budget ratio trend in 'chart_57_1' (e.g., a significant decline in 2021 followed by a gradual recovery and stabilization) and the channel characteristics in 'chart_57_2' (e.g., cost level and effectiveness speed level). 'Email Marketing' has a cost level of 1 (low) and an effectiveness speed level of 2 (medium), which aligns with the trend of enterprises seeking low - cost and efficient channels after the budget decline (from the trough in 2021 to the stability in 2025 in 'chart_57_1'). 'chart_57_1' alone can only show the budget change but cannot infer channel preferences; 'chart_57_2' alone only lists the channel characteristics but cannot be associated with the time trend. Both must be combined to infer how budget optimization drives channel selection.",
+        "B": "This option has a wrong understanding of the chart values: 'chart_57_1' shows that the budget ratio in 2022 is 9.5%, which is not the lowest (the lowest is 6.4% in 2021); meanwhile, in 'chart_57_2', the cost level of 'Affiliate Marketing' is 2.5 (medium - high), not 'low' (the low level is 1), which wrongly exaggerates its cost - effectiveness.",
+        "C": "This option requires a combined inference of the marketing budget ratio trend in 'chart_57_1' (e.g., a significant decline in 2021 followed by a gradual recovery and stabilization) and the channel characteristics in 'chart_57_2' (e.g., cost level and effectiveness speed level). After the budget trough, considering the channel cost characteristics, enterprises will tend to reduce high - cost channels and increase cost - effective channels. 'chart_57_1' alone can only show the budget change but cannot infer channel preferences; 'chart_57_2' alone only lists the channel characteristics but cannot be associated with the time trend. Both must be combined to infer how budget optimization drives channel selection.",
+        "D": "This option is based on a common - sense error: Enterprises will not completely stop marketing because it will damage their market competitiveness; common sense indicates that enterprises will adjust rather than cancel marketing activities during the budget optimization stage.",
+        "E": "This option is based on a common - sense error: Enterprises need to balance cost and efficiency during the budget optimization stage, rather than only pursuing speed; SEM and Paid Ads have a high cost level (3), which may increase the expenditure burden and does not conform to the optimization logic.",
+        "F": "This option requires a combined inference of the marketing budget ratio trend in 'chart_57_1' (e.g., a significant decline in 2021 followed by a gradual recovery and stabilization) and the channel characteristics in 'chart_57_2' (e.g., cost level and effectiveness speed level). During the budget stabilization stage, considering the channel characteristics, enterprises will increase their investment in channels with fast effectiveness and moderate cost. 'chart_57_1' alone can only show the budget change but cannot infer channel preferences; 'chart_57_2' alone only lists the channel characteristics but cannot be associated with the time trend. Both must be combined to infer how budget optimization drives channel selection.",
+        "G": "This option has a wrong understanding of the chart values: In 'chart_57_2', the cost level of 'Social Media Ads' is 2.5 (medium - high), not 'low' (the low level is 1), which wrongly interprets the cost characteristics; meanwhile, although its effectiveness speed is fast, its cost is relatively high, so it may not be prioritized during the budget optimization stage."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This option requires a combined inference of the regional distribution of influencer marketing posts in 'chart_57_3' (e.g., Brazil has a relatively high proportion) and the SaaS market growth forecast in 'chart_57_4' (e.g., the growth rate is stable between 13.9% - 16.6% from 2025 to 2027, with a CAGR of 15.0%). The high proportion of posts in Brazil implies unsaturated market opportunities, which require tools to improve efficiency, thus supporting the high - growth forecast of the SaaS market. 'chart_57_3' alone only shows the static distribution and cannot predict the market dynamics; 'chart_57_4' alone only provides the growth data but cannot explain the regional driving factors. Both must be combined to implicitly link the regional activity level with the demand for SaaS tools.",
+        "B": "This option has a wrong understanding of the chart ranking: 'chart_57_3' shows that the proportion of posts in India is only 6.7%, far lower than that in the USA (22.7%) and Brazil (14.5%), which wrongly exaggerates its influence; in fact, India is not the main driving force.",
+        "C": "This option requires a combined inference of the regional distribution of influencer marketing posts in 'chart_57_3' (e.g., European countries have a relatively low proportion) and the SaaS market growth forecast in 'chart_57_4' (e.g., the growth rate is stable between 13.9% - 16.6% from 2025 to 2027, with a CAGR of 15.0%). European countries have a relatively low proportion of posts and have growth potential. They can expand their coverage through SaaS tools, which explains the stability of the market growth rate. 'chart_57_3' alone only shows the static distribution and cannot predict the market dynamics; 'chart_57_4' alone only provides the growth data but cannot explain the regional driving factors. Both must be combined to implicitly link the regional activity level with the demand for SaaS tools.",
+        "D": "This option has a wrong understanding of the chart gap: In 'chart_57_3', the proportion of European countries is low (e.g., Germany is 2.0%), but SaaS tools are used to optimize influencer marketing, not to replace it; it wrongly assumes that the tools can completely replace the activities and ignores the regional growth potential.",
+        "E": "This option has a wrong understanding of the chart values: In 'chart_57_4', the growth rate in 2025 is 13.9%, lower than that in 2026 (16.6%, the highest), which wrongly assigns the peak year of the growth rate; meanwhile, although Brazil has a high proportion (14.5%), the growth rate forecast needs to consider multiple factors.",
+        "F": "This option requires a combined inference of the regional distribution of influencer marketing posts in 'chart_57_3' (e.g., the USA has the highest proportion) and the SaaS market growth forecast in 'chart_57_4' (e.g., the growth rate is stable between 13.9% - 16.6% from 2025 to 2027, with a CAGR of 15.0%). Based on the high proportion in the USA, it can be inferred that as a mature market, it may drive the demand for SaaS, and the growth rate data in 'chart_57_4' supports how this demand is transformed into market expansion. 'chart_57_3' alone only shows the static distribution and cannot predict the market dynamics; 'chart_57_4' alone only provides the growth data but cannot explain the regional driving factors. Both must be combined to implicitly link the regional activity level with the demand for SaaS tools.",
+        "G": "This option is based on a common - sense error: The expansion of the SaaS market needs to consider regional demand differences (e.g., mature vs. emerging markets), rather than only global trends; common sense indicates that regional factors (e.g., market saturation) are the key driving forces."
+      },
+      "easy_error": [
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "E",
+        "D"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This option has a wrong understanding of the chart gap: In 'chart_57_3', the proportion in the USA is high (22.7%), but the growth rate forecast in 'chart_57_4' is stable (CAGR 15.0%) without a decline; it wrongly assumes that a high proportion leads to a change in the growth rate and ignores the contributions of other regions.",
+        "B": "This option is based on a common - sense error: During the budget decline period, enterprises may turn to efficient channels (e.g., influencer marketing) rather than shrinking comprehensively; common sense indicates that the conflict can be resolved through cost optimization.",
+        "C": "This option requires a combined inference of the conflict point of the marketing budget ratio in 'chart_57_1' (e.g., the ratio dropped significantly to a low point in 2021) and the channel characteristics in 'chart_57_2'. Combining the decline trend in 'chart_57_1' and the cost level and effectiveness speed of influencer marketing in 'chart_57_2', it can be inferred that enterprises may turn to this channel to save costs, which is then linked to the growth of the SaaS in 'chart_57_4'. 'chart_57_1' alone shows the budget decline, which seems to conflict with the growth; but only by combining 'chart_57_2' can we infer how the enterprise's strategy adjustment (e.g., preference for low - cost channels) leads to an increase in the demand for influencer marketing tools.",
+        "D": "This option requires a combined inference of the conflict point of the marketing budget ratio in 'chart_57_1' (e.g., the ratio dropped significantly to a low point in 2021) and the market forecast in 'chart_57_4'. The budget reduction prompts enterprises to prioritize investing in channels with moderate effectiveness speed. Combining with the market forecast, it can be known that this will drive the expansion of the influencer marketing SaaS market. 'chart_57_1' alone shows the budget decline, which seems to conflict with the growth; only by combining 'chart_57_4' can we explain the reason for the market expansion.",
+        "E": "This option has a wrong understanding of the chart years: 'chart_57_1' shows that the budget dropped sharply in 2021 (6.4%), not in 2024 (7.7%); meanwhile, in 'chart_57_2', the effectiveness speed level of influencer marketing is 2 (medium), not 'fast' (the high level is 3), which wrongly interprets the speed characteristics.",
+        "F": "This option has a wrong understanding of the chart values: In 'chart_57_2', the cost level of 'Affiliate Marketing' is 2.5, while that of influencer marketing is 2. Therefore, the cost of influencer marketing is lower (a smaller level number indicates a lower cost), which wrongly reverses the comparison; meanwhile, the growth forecast in 'chart_57_4' conflicts with the channel preference.",
+        "G": "This option requires a combined inference of the conflict point of the marketing budget ratio in 'chart_57_1' (e.g., the ratio dropped significantly to a low point in 2021), the regional distribution in 'chart_57_3', and the market forecast in 'chart_57_4'. The global budget decline coexists with the high activity of influencer marketing in the USA. Through regional differences, the high - demand regions support the growth of the tool market, alleviating the conflict. 'chart_57_1' alone shows the budget decline, which seems to conflict with the growth; only by combining 'chart_57_3' and 'chart_57_4' can we explain the impact of regional factors on the market."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "F",
+        "A"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "On the surface, it uses chart_57_1 (with the lowest proportion of 6.4% in 2021) and chart_57_2 (the effectiveness speed level of paid ads is 3), but misinterprets the trend. Chart_57_1 shows that the budget proportion fluctuates and declines (7.7% in 2025), rather than continuously dropping to the lowest point. Moreover, the cost level of paid ads is 3 (the highest), and increasing investment will intensify the budget pressure, which conflicts with the 'cost constraint'. This creates an illusion of 'quick results' but ignores cost - efficiency.",
+        "B": "This suggestion is broad and non - specific, based only on general marketing common sense (such as 'expanding coverage'), without considering budget constraints or differences in channel efficiency. It can be excluded through common sense because it does not provide specific action guidelines and ignores the core goal of'maximizing efficiency' in the question.",
+        "C": "Option A combines the fact that the marketing budget proportion fluctuates from the high point in 2019 and drops to 7.7% in 2025, showing the trend of budget constraint, and the cost level of email marketing is 1 and the effectiveness speed level is 2; the cost level of influencer marketing is 2 and the effectiveness speed level is 2, both of which feature 'average speed and low cost'.",
+        "D": "Based on chart_57_2 (the cost level of email marketing is the lowest at 1), but it confuses cost with overall efficiency. It wrongly assumes that 'the lowest cost is the best', ignoring that the effectiveness speed level of this channel is 2 (average), while the question requires a balance between effectiveness speed and cost. The correct option A mentions email marketing, but the interference option exaggerates its role and ignores the cost - effectiveness of other channels (such as influencer marketing).",
+        "E": "Option C combines the fact that the budget proportion fluctuates, such as a sharp drop in 2021 and then a rebound, showing market uncertainty, and the cost level of social media ads is 2.5 and the effectiveness speed level is 3, which features 'a balance between cost and speed'.",
+        "F": "Also based on common sense (brand promotion helps with loyalty), but it does not combine the chart data (such as the effectiveness speed/cost of channels). It wrongly suggests stopping SEO (slow - acting but low - cost), while the correct option B instead suggests increasing SEO investment, which is confusing but illogical.",
+        "G": "Option B combines the fact that the budget proportion after 2021 is generally lower than the 2019 level, indicating long - term constraints, and the cost level of paid ads and SEM is 3 and the effectiveness speed level is 3, which features 'high cost and quick results'; the cost level of SEO is 1 and the effectiveness speed level is 1, which features 'low cost and slow results'."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Option A combines the fact that the proportion in North American regions such as the United States exceeds 20%, which is the highest globally, and the SaaS market size is predicted to continue growing, with a CAGR of approximately 15.0%, indicating that the tools can improve regional efficiency.",
+        "B": "Based on chart_57_4 (the growth rate in 2026e is the highest at 16.6%), but it confuses the growth rate with the investment timing. It wrongly assumes that 'the highest growth rate is the best investment point', while chart_57_4 shows that the market size is continuously growing (from 2025e to 2027e) and the growth rate fluctuates (dropping to 15.9% in 2027e). Ignoring the regional distribution (chart_57_3) may lead to misallocation of resources, which does not meet the goal of 'improving return on investment'.",
+        "C": "Option C combines the fact that the regional distribution is wide but the proportions vary greatly, requiring efficiency optimization, and the SaaS market has a stable growth rate, and the tools can standardize operations to control costs.",
+        "D": "This suggestion is based on general business common sense ('fair coverage'), but it does not use the chart data (such as the uneven regional distribution). It can be excluded through common sense because it ignores the goal of 'efficiently capturing opportunities' and does not optimize resources for high - potential regions.",
+        "E": "It is broad and conservative, based on the common sense that 'traditional channels are more reliable', without combining the growth trend of SaaS tools in the question. It directly conflicts with the core of the question (influencer marketing), creating confusion but not providing specific actions.",
+        "F": "Option B combines the fact that the proportions in Asian regions such as India and Indonesia are relatively low but there is a base, and the SaaS market has a relatively high growth rate, such as 16.6% in 2026, indicating that the tools can lower the threshold for entering emerging markets.",
+        "G": "On the surface, it uses chart_57_3 (the proportion in the United States is the highest at 22.7%), but it misinterprets the 'uneven distribution'. It suggests 'concentrating all' resources, while chart_57_3 shows that there are also opportunities in other regions (such as Brazil with 14.5%); and the correct option A suggests 'focusing' but not 'all', and the interference option exaggerates the strategy, which may lead to the loss of opportunities in emerging markets."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Option A combines the fact that the marketing budget proportion continuously drops from the high point in 2020 to 7.7% in 2025, showing cost pressure, and the growth rate of the SaaS market size is stable above 15%, indicating that the tools can improve marketing efficiency.",
+        "B": "On the surface, it uses chart_57_1 (the downward trend of the budget proportion) and chart_57_2 (the cost level of SEM is high at 3 and the effectiveness speed level is 3), but it misinterprets the relationship. It suggests 'cutting influencer marketing' and shifting to high - cost channels, while chart_57_2 shows that the cost of SEM is high, which will intensify the budget pressure; and the correct option B suggests optimizing the cost of influencer marketing through SaaS, while the interference option operates in the opposite way, leading to an increase in short - term costs.",
+        "C": "Based on chart_57_3 (the proportion in Germany is low at 2.0%) and chart_57_4 (CAGR≈15.0%), but it confuses'market size growth' with'regional opportunities'. It wrongly assumes that 'low - proportion regions are blue oceans', while chart_57_3 shows that regions with high proportions such as the United States (22.7%) have more scale; and CAGR is an overall market trend, not region - specific, ignoring the return potential of leading regions (such as the correct option C suggesting deepening in leading regions).",
+        "D": "It is broad and idealistic ('standardized strategy'), without considering the uneven regional distribution or channel differences in the chart. It ignores the goal of 'balancing short - term and long - term' and creates confusion but no specific actions.",
+        "E": "Option B combines the fact that the cost level of influencer marketing is 2, which is medium - cost; SaaS tools can further optimize costs, and the downward trend of the budget proportion requires reallocation of resources among channels.",
+        "F": "Option C combines the fact that the proportion in North American regions is significantly leading, providing a scale basis, and the growth forecast of the SaaS market supports the deployment of regional tools, while also implicitly comparing with channel efficiency (such as reducing high - cost channels).",
+        "G": "Based on common sense ('increasing the budget to support growth'), but it does not use the chart data (the downward trend of the budget proportion). It can be excluded through common sense because it directly conflicts with the 'budget decline' in the question and does not integrate SaaS tools."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     }
   ]

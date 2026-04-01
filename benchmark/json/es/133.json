@@ -84,6 +84,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en conocimiento común (como el impacto de la geopolítica en la cadena de suministro), pero los datos del gráfico no involucran información sobre logística internacional o eventos externos, por lo tanto, no depende del contenido del gráfico y se puede juzgar su irrelevancia puramente a través de conocimiento general.",
+        "B": "Es necesario combinar el gráfico de producción de leche (que muestra que las tasas de crecimiento interanual de la producción de 2020 a 2023 están todas por encima del 7%, con una tendencia general al alza) y el gráfico de importación de productos lácteos (que muestra una disminución interanual en el valor de importación de leche en polvo a granel, leche materna artificial, etc.), para inferir que el aumento de la producción nacional puede sustituir parte de la demanda de importación.",
+        "C": "Esta es una opción de distracción fácil: depende de conocimiento común de la industria (como la preferencia de los consumidores hacia marcas locales), pero el gráfico no proporciona datos sobre la confianza del consumidor o preferencias de marca, por lo tanto, no está relacionado con el gráfico y es fácil excluirlo mediante conocimiento común.",
+        "D": "Esta es una opción de distracción difícil: superficialmente se basa en el gráfico (el valor de importación de leche en polvo a granel en chart_133_2 es 29.2 mil millones de dólares y un crecimiento del -34.0%), pero infiere incorrectamente que 'domina la disminución general': el valor de importación de leche materna artificial es mayor (42.1 mil millones de dólares), y algunas categorías (como crema ligera) crecen, por lo tanto, la disminución es multifactorial, no impulsada por un solo factor; además, la asociación entre el crecimiento de la producción de leche (chart_133_1) y la disminución de importaciones está sobre simplificada.",
+        "E": "Es necesario combinar el gráfico de producción de leche (tendencia de crecimiento de la producción) y el gráfico de importación de productos lácteos (crecimiento positivo en crema ligera y queso en el gráfico de importación), analizar el cambio en la estructura de consumo: el crecimiento de la producción satisface la demanda básica de productos lácteos, mientras que el crecimiento de importaciones refleja la preferencia por productos de gama alta, ambos explican conjuntamente la divergencia en importaciones.",
+        "F": "Es necesario combinar el gráfico de producción de leche (datos de series temporales, aceleración de la producción después de 2020) y el gráfico de importación de productos lácteos (datos de importación de 2023), para inferir la causalidad entre la mejora de la capacidad de suministro y la disminución de importaciones mediante la alineación temporal.",
+        "G": "Esta es una opción de distracción difícil: comprende incorrectamente los valores del gráfico (chart_133_1 muestra un crecimiento del 6.7% en la producción de leche en 2023, pero no es el más alto históricamente—el crecimiento del 7.1% en 2021 es mayor); más importante, chart_133_2 muestra un crecimiento interanual en importaciones de crema ligera (+7.4%) y queso (+25.9%), no todas las categorías disminuyen, por lo tanto, el razonamiento sobre una 'disminución general' es incorrecto."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -106,6 +123,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Es necesario combinar el gráfico de ingresos operativos de las empresas lácteas (que muestra que la proporción de leche líquida de Grupo Yili disminuyó del 69.22% al 64.29% en 2023) y el gráfico de producción de leche (que muestra un crecimiento continuo de la producción de 2020 a 2023), para inferir la contradicción entre el aumento de la producción y la disminución de la proporción de leche líquida en las empresas, indicando que el crecimiento de los ingresos puede provenir de nuevos productos como queso o leche en polvo.",
+        "B": "Esta es una opción de distracción difícil: comprende incorrectamente la comparación de valores (los ingresos del primer semestre de 2023 de Grupo Yili en chart_133_3 son 659.82 mil millones de yuanes, que son datos semestrales, mientras que los de 2022 son 1227.0 mil millones de yuanes, datos anuales, compararlos directamente exagera la tasa de crecimiento); al mismo tiempo, aunque la disminución de la proporción de leche líquida es real, la explicación del conflicto ignora la tendencia general del crecimiento de la producción de leche (chart_133_1), lo que distorsiona el razonamiento.",
+        "C": "Es necesario combinar el gráfico de ingresos operativos de las empresas lácteas (los ingresos y la proporción de leche líquida de Bright Dairy en 2023 cambian poco) y el gráfico de producción de leche (crecimiento rápido de la producción), mediante la comparación de la tendencia de la industria y el desempeño de la empresa, inferir que el retraso en el crecimiento de los ingresos de Bright Dairy puede deberse a la participación de mercado o la competencia de importaciones (implícitamente relacionado con el gráfico de importación de productos lácteos).",
+        "D": "Esta es una opción de distracción difícil: infiere incorrectamente la consistencia de la tendencia (la proporción de New Hope Dairy aumenta, pero chart_133_3 muestra que la proporción de Grupo Yili disminuye, Bright Dairy aumenta ligeramente); el crecimiento de la producción de leche (chart_133_1) no obliga a que la proporción de todas las empresas aumente, el conflicto surge de la diversificación de estrategias empresariales (como la diversificación de Grupo Yili), por lo tanto, la conclusión de que 'todas las empresas son sincronizadas' es incorrecta.",
+        "E": "Es necesario combinar el gráfico de ingresos operativos de las empresas lácteas (la proporción de leche líquida de New Hope Dairy aumentó del 87.76% al 90.94%, y los ingresos crecieron) y el gráfico de producción de leche (tendencia general al alza de la producción), analizar las diferencias en las estrategias empresariales: la alta proporción de New Hope Dairy es consistente con la tendencia de producción, mientras que los cambios en otras empresas son menores, el conflicto surge de la amplitud de la línea de productos.",
+        "F": "Esta es una opción de distracción fácil: se basa en conocimiento común (como el impacto de la digitalización en los ingresos), pero el gráfico no menciona marketing o transformación digital, por lo tanto, no depende de datos, es puramente generalidades, fácil de excluir mediante conocimiento común.",
+        "G": "Esta es una opción de distracción fácil: utiliza conocimiento común de la industria (impacto estacional), pero los datos del gráfico cubren tendencias anuales (como 2022-2023), sin información estacional, por lo tanto, no relacionado con el gráfico, se puede juzgar directamente como incorrecto."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -128,6 +162,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: superficialmente se basa en el gráfico (crecimiento del 25.9% en queso en chart_133_2, alta proporción de leche líquida en chart_133_3), pero interpreta incorrectamente 'sin impacto significativo': el crecimiento del queso sugiere una mejora en el consumo, mientras que la estabilidad de la proporción de leche líquida puede reflejar estrategias de equilibrio de las empresas (como en la opción original B), pero no es que no haya impacto; además, ignora tendencias como el crecimiento del 7.4% en importaciones de crema ligera, lo que hace que el razonamiento sea parcial.",
+        "B": "Esta es una opción de distracción fácil: depende de conocimiento común (tendencia de salud hacia bebidas basadas en plantas), pero el gráfico no menciona productos basados en plantas o datos de salud del consumidor, por lo tanto, no se basa en el gráfico, fácil de identificar como irrelevante mediante conocimiento común.",
+        "C": "Es necesario combinar el gráfico de importación de productos lácteos (crecimiento del 25.9% en importaciones de queso) y el gráfico de proporción de leche líquida de las empresas lácteas (aunque la proporción de leche líquida de Grupo Yili etc. disminuye, aún está por encima del 64%), analizar que las tendencias de importación muestran un aumento en la demanda de gama alta, pero la proporción de leche líquida de las empresas aún domina, implicando la necesidad de optimizar la estructura de productos.",
+        "D": "Esta es una opción de distracción fácil: utiliza conocimiento común de la industria (impacto del comercio electrónico en las importaciones), pero el gráfico no tiene información sobre comercio electrónico o promociones, y parte del valor de importación disminuye (chart_133_2), contradiciendo el conocimiento común, por lo tanto, no depende de datos, se puede excluir directamente.",
+        "E": "Es necesario combinar el gráfico de importación de productos lácteos (disminución interanual del -5.0% en el valor de importación de leche materna artificial) y el gráfico de proporción de leche líquida de las empresas lácteas (la proporción de New Hope Dairy aumentó del 87.76% al 90.94%), inferir la asociación entre la disminución de importaciones y el enfoque en leche líquida de las empresas, reflejando un cambio en las preferencias de consumo hacia lo interno.",
+        "F": "Es necesario combinar el gráfico de importación de productos lácteos (aumento del 7.4% en importaciones de crema ligera, disminución del 11.3% en productos de crema) y el gráfico de proporción de leche líquida de las empresas lácteas (la proporción de leche líquida de Bright Dairy aumenta ligeramente), derivar que los cambios en las categorías de importación pueden afectar la formulación de leche líquida de las empresas o el desarrollo de derivados, como usar crema ligera para sustituir crema.",
+        "G": "Esta es una opción de distracción difícil: asocia incorrectamente los valores (disminución del 10.6% en importaciones de productos de suero con el aumento de la proporción de leche líquida de New Hope Dairy), pero los productos de suero se utilizan principalmente como materia prima industrial, no relacionados con el consumo de leche líquida; chart_133_2 y chart_133_3 no tienen una relación causal directa, por lo tanto, la inferencia sobre 'sustitución' carece de base."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -150,6 +201,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción A se refiere a chart_133_1 (la tendencia de crecimiento estable de la producción de leche nacional en los últimos años) y chart_133_2 (el valor de importación de categorías como la leche en polvo a granel y los productos de suero ha disminuido significativamente año tras año).",
+        "B": "La opción C se refiere a chart_133_2 (el valor de importación de la leche materna artificial es alto pero con crecimiento negativo) y chart_133_1 (la producción nacional ha crecido continuamente y puede sustituir parte de las importaciones).",
+        "C": "Esta es una opción de distracción difícil: aparentemente se utilizan datos de los gráficos (chart_133_1 muestra un crecimiento general de la producción de leche nacional y chart_133_2 muestra un crecimiento del 25.9% en las importaciones de queso), pero se interpreta incorrectamente la relación; el crecimiento de la producción nacional se refiere a la leche cruda, no es directamente igual a la capacidad de producción de queso, y el crecimiento de las importaciones indica una fuerte demanda, es irrazonable sustituir completamente las importaciones, lo que causaría un vacío en el mercado.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se utilizan datos de los gráficos (chart_133_2 muestra un alto valor de importación de leche materna artificial pero una disminución del -5.0% año tras año, y chart_133_1 muestra un crecimiento estable de la producción nacional en los últimos años), pero se confunden las tendencias; la demanda de importación está disminuyendo, y la tasa de crecimiento de la producción nacional (por ejemplo, el 6.7% en 2023) es suficiente para cubrirla, aumentar las importaciones aumentaría los costos en lugar de reducirlos.",
+        "E": "Esta es una opción de distracción fácil: se refiere a la actualización tecnológica, pero no cita contenido de los gráficos (como la variación de la demanda de importación o la producción nacional), es una sugerencia general de la industria (mejorar el empaque es una estrategia común), y está desvinculada del núcleo del problema (ajustar la estrategia de importación).",
+        "F": "Esta es una opción de distracción fácil: no se basa en datos de los gráficos, solo se basa en conocimientos generales de comercio (el efecto de escala reduce los costos), pero es demasiado general y no tiene una guía de acción específica (no se refiere a la variación de la demanda de importación o la tendencia de producción nacional), es fácil de descartar por conocimiento general (aumentar ciegamente todas las importaciones puede aumentar los costos en lugar de reducirlos).",
+        "G": "La opción B se refiere a chart_133_2 (el valor de importación de queso y crema ligera ha crecido fuertemente año tras año) y chart_133_1 (la producción nacional ha crecido en general pero no se ha dividido por categorías, se necesitan importaciones para complementar)."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente se utilizan datos de los gráficos (chart_133_2 muestra una disminución en las importaciones de leche en polvo a granel y chart_133_3 muestra una alta proporción de leche líquida en las empresas), pero se confunde la relación; la disminución de las importaciones indica una disminución de la demanda, y una alta proporción de leche líquida no significa que se pueda producir fácilmente leche en polvo a granel (se necesitan diferentes procesos), expandir esta categoría desperdiciaría recursos.",
+        "B": "Esta es una opción de distracción fácil: se refiere a la transformación digital, pero no cita ningún contenido de los gráficos (como la demanda de importación o la proporción de las empresas), es una estrategia general de empresas modernas, y no está relacionada con el núcleo del problema (optimizar la combinación de productos).",
+        "C": "La opción B se refiere a chart_133_2 (el valor de importación de queso ha crecido significativamente año tras año) y chart_133_3 (las empresas tienen una alta proporción de leche líquida y necesitan diversificar la estructura de productos).",
+        "D": "Esta es una opción de distracción difícil: aparentemente se utilizan datos de los gráficos (chart_133_3 muestra una alta proporción de leche líquida en New Hope Dairy y chart_133_2 muestra una disminución en las importaciones de leche envasada), pero se interpreta incorrectamente; la disminución de las importaciones puede reflejar una oferta nacional suficiente, no una transferencia de demanda, y la leche líquida es la fuente principal de ingresos de las empresas (por ejemplo, el 90.94% en New Hope Dairy), reducir la inversión debilitaría la competitividad.",
+        "E": "La opción A se refiere a chart_133_1 (la tendencia de crecimiento estable de la producción de leche nacional en los últimos años), chart_133_2 (el valor de importación de categorías relacionadas con la leche líquida como la leche envasada ha disminuido año tras año) y chart_133_3 (Grupo Yili, New Hope Dairy y otras empresas tienen una alta proporción de leche líquida).",
+        "F": "Esta es una opción de distracción fácil: no se basa en datos de los gráficos, solo se basa en conocimientos comerciales básicos (aumentar el precio para mejorar la rentabilidad), pero es demasiado generalizada (no se refiere a la demanda de importación o la estructura de productos), y no tiene datos específicos para respaldarla, es fácil de descartar (puede reducir la cuota de mercado en lugar de mejorar la competitividad).",
+        "G": "La opción C se refiere a chart_133_3 (Bright Dairy tiene una proporción relativamente baja de leche líquida), chart_133_2 (el valor de importación de crema ligera y otras categorías ha crecido) y chart_133_1 (el crecimiento de la producción nacional apoya la localización)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: no se basa en datos de los gráficos, solo se basa en conocimientos generales de gestión (la mercadotecnia mejora la lealtad), pero es demasiado generalizada (no considera la producción, la demanda de importación o la situación de las empresas específicas), y no tiene una guía de acción, es fácil de descartar por conocimiento general.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se utilizan datos de los gráficos (chart_133_2 muestra un crecimiento en las importaciones de queso y chart_133_1 muestra un crecimiento estable de la producción nacional), pero se confunden las tendencias; el crecimiento de la producción nacional indica una mejora de la capacidad de autosuministro, reducir la asignación de recursos debilitaría la sostenibilidad, y el crecimiento de las importaciones refleja que la demanda no está completamente satisfecha por la producción nacional, se necesita un equilibrio en lugar de una reducción.",
+        "C": "La opción A se refiere a chart_133_1 (la tendencia de crecimiento estable de la producción de leche nacional) y chart_133_3 (las empresas tienen una alta proporción de leche líquida).",
+        "D": "La opción B se refiere a chart_133_2 (el valor de importación de queso y crema ligera ha crecido fuertemente) y chart_133_3 (las empresas tienen una alta proporción de leche líquida y necesitan innovar y diversificar).",
+        "E": "Esta es una opción de distracción fácil: se refiere a la capacitación de empleados, pero no cita contenido de los gráficos (como la tendencia de producción o la demanda de importación), es una sugerencia general de eficiencia, y está desvinculada del núcleo del problema (asignación de recursos basada en datos).",
+        "F": "Esta es una opción de distracción difícil: aparentemente se utilizan datos de los gráficos (chart_133_2 muestra un alto valor de importación de leche materna artificial y chart_133_1 muestra un crecimiento de la producción nacional), pero se interpreta incorrectamente; el valor de importación es alto pero la demanda está disminuyendo (un -5.0% año tras año), y el crecimiento de la producción nacional se refiere a la leche cruda, no a categorías directamente relacionadas, invertir de manera concentrada ignoraría el riesgo de disminución de la demanda.",
+        "G": "La opción C se refiere a chart_133_1 (la tendencia de crecimiento de la producción nacional) y chart_133_2 (el valor de importación de categorías como la leche en polvo a granel es alto pero ha disminuido año tras año)."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

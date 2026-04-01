@@ -85,6 +85,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "This option misinterprets the chart data: In March 2024, the month - on - month growth rate of devices was the highest (1.01%), but the effective time in the same period (278.9 minutes) was lower than that in March 2023 (300.6 minutes), not the highest value; in fact, the effective time decreased year by year.",
+        "B": "It involves the potential interaction between the growth rate (from the device number chart) and the decline range (from the effective time chart), but it is necessary to comprehensively consider the trends rather than single - month data, reflecting the implicit connection. It cannot be inferred from a single chart. For example, the device number chart does not provide information on usage time, and the effective time chart does not show device changes.",
+        "C": "Based on the overall increase in the number of devices (from the device number chart) and the year - by - year decrease in the effective time (from the effective time chart), it reveals that user behavior has shifted from 'long - term use' to 'lightweight use'. It cannot be inferred from a single chart. For example, the device number chart does not provide information on usage time, and the effective time chart does not show device changes.",
+        "D": "This option is based on a common - sense error: The chart does not cover the source of devices (such as corporate purchases), and the effective time showed a downward trend (e.g., from 267.9 minutes in January 2024 to 265.5 minutes in January 2025), rather than an increase.",
+        "E": "This option is based on a common - sense error: The chart data shows that the total number of devices continued to rise (e.g., from 1.395 billion in January 2024 to 1.439 billion in March 2025), and the effective time decreased year by year (e.g., the effective time in January decreased from 286.5 minutes in 2023 to 265.5 minutes in 2025), indicating that users' dependence has not decreased.",
+        "F": "This option misinterprets the trend: The number of devices increased overall, but the effective time continued to decrease (e.g., 267.9 minutes in January 2024 vs. 265.5 minutes in January 2025), showing a negative correlation rather than a positive one.",
+        "G": "It emphasizes the comparison of the same months (e.g., January), where the number of devices increased but the effective time decreased, relying on the joint reasoning of cross - year data points. It cannot be inferred from a single chart. For example, the device number chart does not provide information on usage time, and the effective time chart does not show device changes."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This option is based on a common - sense error: The effective time in January 2025 (265.5 minutes) decreased compared to that in January 2024 (267.9 minutes), rather than increasing, which is inconsistent with the idea that users' preferences have shifted towards immersive experiences.",
+        "B": "This option misinterprets the data: The number of daily usages per device in January 2025 (69.7 times) increased compared to that in January 2024 (67.2 times), rather than decreasing; and the effective time decreased, rather than increasing.",
+        "C": "This option is based on a common - sense error: The chart does not mention holiday promotions or network optimization, and the effective time actually decreased (265.5 minutes vs. 267.9 minutes), rather than increasing.",
+        "D": "It introduces the concept of 'new users', based on the conflict between the growth of devices (from the device number chart) and the changes in behavior (from the effective time and usage number charts). No single chart can independently explain the contradiction. For example, the usage number chart does not provide information on the number of devices or time.",
+        "E": "This option misinterprets the data calculation: In January 2024, the single - use time was approximately 267.9 minutes / 67.2 times ≈ 3.99 minutes per use, and in January 2025, it was approximately 265.5 minutes / 69.7 times ≈ 3.81 minutes per use. The single - use time decreased, rather than remaining unchanged.",
+        "F": "It emphasizes 'efficiency' and requires a comprehensive consideration of the quantitative relationship between the increase in the number of usages and the decrease in time. No single chart can independently explain the contradiction. For example, the usage number chart does not provide information on the number of devices or time.",
+        "G": "It directly compares the contradictions of the growth of devices, the increase in the number of usages, and the decrease in time, relying on the values in the three charts. No single chart can independently explain the contradiction. For example, the usage number chart does not provide information on the number of devices or time."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option misinterprets the correlation: The growth rate of devices fluctuated (e.g., 0.21% in January 2024, 0.15% in February 2024, 1.01% in March 2024), but the change rate of the number of usages was inconsistent (e.g., the number of usages decreased from 67.2 times in January 2024 to 64.9 times in February 2024), showing no high consistency.",
+        "B": "This option misinterprets the data: In March 2024, the number of devices was 1.412 billion (relatively high in the quarter), but the effective time (278.9 minutes) was higher than that in March 2025 (268.0 minutes), not the lowest point; in March 2023, the effective time was 300.6 minutes, the highest, and the number of devices was unknown.",
+        "C": "This option is partially wrong: The number of devices increased (e.g., from 1.395 billion in January 2024 to 1.412 billion in March 2024), but the number of usages fluctuated rather than increasing steadily (e.g., the number of usages decreased from 67.2 times in January 2024 to 63.3 times in March 2024).",
+        "D": "It focuses on March, showing the combined trend of the increase in devices and the decrease in time (from the device number and effective time charts), but the number of usages changed slightly (from the usage number chart), reflecting cross - chart reasoning. A single chart (e.g., the device number chart) cannot capture the rules of usage behavior.",
+        "E": "Based on the increase in the number of devices at the beginning of the year (from the device number chart), the year - by - year decrease in the effective time (from the effective time chart), and the stability of the number of usages (from the usage number chart), it reveals the overall rules. A single chart (e.g., the device number chart) cannot capture the rules of usage behavior.",
+        "F": "This option is based on a common - sense error: The effective time decreased year by year (e.g., in January: 286.5 minutes in 2023, 267.9 minutes in 2024, 265.5 minutes in 2025), rather than increasing; although the number of devices increased, not all indicators increased.",
+        "G": "It addresses the anomaly in January 2025 (a significant increase in the number of usages and a decrease in time), relying on the comparison of data from the three charts with previous years. A single chart (e.g., the device number chart) cannot capture the rules of usage behavior."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B",
+        "A"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combining chart_61_3 (an upward trend in usage times) and chart_61_1 (an increase in the total number of devices), infer that during the growth period, the push efficiency should be improved to compensate for the loss of engagement due to the decrease in time.",
+        "B": "Combining chart_61_2 (a continuous decline in the single - machine daily effective time) and chart_61_3 (an increase in the single - machine daily usage times in 2025), infer that user behavior is fragmented, and the short - session experience needs to be optimized.",
+        "C": "There is a misunderstanding of the relationship (chart_61_1 shows that the user base shrinks in months with negative growth). Suggesting to 'increase the push frequency' may backfire (causing user annoyance). The correct strategy should be to optimize the experience rather than force - push during negative growth.",
+        "D": "Combining chart_61_1 (fluctuations in the month - on - month growth rate, such as a significant increase in March 2024) and chart_61_3 (higher usage times in January), infer that taking action at the peak of the growth rate can efficiently utilize the user behavior trend.",
+        "E": "There is a misinterpretation of the chart trend (chart_61_2 shows a decline in effective time, indicating that users prefer fragmentation). Suggesting to 'develop immersive long - form content' goes against the trend (which may increase user friction). In fact, short - sessions should be optimized.",
+        "F": "The strategy is too general ('expand the function scope'), not based on the chart data, only relying on industry common sense (increasing functions may attract users), but without specific action guidelines or responses to behavior trends, so it is easy to be excluded.",
+        "G": "The statement is correct (data security is important), but it is too general and has nothing to do with the changes in user engagement behavior, and cannot directly improve the retention rate, so it can be excluded based on common sense."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Combining chart_61_2 (a decline in effective time) and chart_61_3 (an increase in usage times), infer that the decrease in time efficiency requires tool optimization to enhance the value per unit of time.",
+        "B": "The strategy is too general ('allocate resources evenly'), not relying on the chart data, only a common - sense suggestion (resource balance), but without specific actions targeting the slowdown in growth or user habits, so it is easy to be excluded.",
+        "C": "The statement is reasonable (training is important), but there is no support from the chart data, and it has nothing to do with the balance between user scale and revenue, so it can be excluded based on common sense.",
+        "D": "There is a misinterpretation of the trend (chart_61_3 shows an increase in usage times, but chart_61_2 shows a decline in effective time, indicating that users prefer efficiency). Suggesting to 'invest in content depth' confuses the relationship (efficiency tools should be developed instead), which may lead to a waste of resources.",
+        "E": "Combining chart_61_1 (months with month - on - month negative growth, such as April 2024) and chart_61_2 (a continuous decline in time), infer that the low - growth period is the right time for optimization to reduce user churn.",
+        "F": "Combining chart_61_1 (fluctuations in the month - on - month growth rate of devices, such as a peak in March 2024) and chart_61_3 (an increase in usage times), infer that marketing is more efficient at the peak of growth.",
+        "G": "There is a misinterpretation of the data (chart_61_1 shows that months with positive growth are opportunities for customer acquisition). Suggesting to 'cut marketing spending' goes against the trend (more investment should be made during high - growth periods), wrongly regarding natural growth as self - sufficient."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "The statement is correct (a feedback system is useful), but it is too general and lacks a seasonal focus. It is applicable throughout the year but cannot maximize quarterly engagement, so it can be excluded based on common sense.",
+        "B": "There is a misinterpretation of the trend (chart_61_2 shows that the low effective time indicates that users' time is fragmented). Suggesting to 'release high - complexity functions' goes against the data (light - weight functions should be promoted during low - duration periods), which may lead to users abandoning the service.",
+        "C": "Combining chart_61_3 (an increase in usage times from January to February 2025) and chart_61_2 (a decline in time), infer that interactive content can improve efficiency when the frequency rebounds.",
+        "D": "There is a confusion of numerical values (chart_61_3 shows that the usage times in March 2024, which is 63.3, are higher than 62.9 in March 2023, actually showing an increase). Suggesting to 'reduce the update frequency' misinterprets the year - on - year decline (it is actually a year - on - year increase), which may cause missed opportunities for engagement.",
+        "E": "Combining chart_61_1 (months with month - on - month negative growth, such as June 2024) and chart_61_2 (a continuous decline in time), infer that the low - growth period is suitable for low - risk optimization.",
+        "F": "Combining chart_61_3 (higher usage times in January, such as a significant increase in January 2025) and chart_61_1 (a steady increase in the number of devices at the beginning of the year), infer that the beginning of the year is the golden period for releases.",
+        "G": "The strategy is too general ('adjust according to global trends'), not based on the seasonal data in the chart, only relying on common sense (internationalization), without specific quarterly action guidelines, so it is easy to be excluded."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

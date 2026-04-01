@@ -88,6 +88,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción de distracción es de tipo Hard: comparación errónea entre la participación del sector y la brecha de propósito (Comercio electrónico tiene la participación más alta del 16.49%, pero el propósito de reducir costos económicos es solo del 27.13%, no su propósito más destacado; el gráfico muestra que Comercio electrónico es más probable que se use para Patrocinio de productos 35.37%).",
+        "B": "Esta opción de distracción es de tipo Hard: comprensión errónea de los valores y orden del gráfico (Finanzas tiene una participación media del 10.51%, pero el propósito de mejorar la imagen corporativa del 23.14% no es el más alto; el gráfico muestra que Finanzas es más probable que se asocie con reducir costos laborales 36.44%, no con imagen corporativa).",
+        "C": "Esta opción de distracción es de tipo Easy: basada en conocimiento común (Juegos suelen mostrar tecnología innovadora), pero sin referencia al gráfico (el gráfico muestra que Juegos tiene solo 6.78% de participación, y demostración de aplicación de tecnología innovadora solo 8.11%, no asociación principal), por lo tanto incorrecta.",
+        "D": "Opción correcta, porque requiere razonamiento conjunto de chart_118_1 (distribución industrial) y chart_118_3 (propósitos de uso). Comercio electrónico tiene alta participación en distribución (16.49%, segunda después de Salud), y Patrocinio de productos también tiene alta participación (35.37%, cuarto lugar), lo que sugiere que este sector puede depender más de humanos digitales AI para marketing. Un solo gráfico no puede inferir esta asociación, debe combinarse la tendencia de valores de ambos gráficos (como comparación de participaciones altas/bajas).",
+        "E": "Esta opción de distracción es de tipo Easy: basada en razonamiento de conocimiento común (manufactura a menudo se asocia con análisis de datos), pero sin depender de datos del gráfico (el gráfico no menciona manufactura), y no relacionada con los gráficos, por lo tanto incorrecta.",
+        "F": "Opción correcta, porque requiere razonamiento conjunto de chart_118_1 (distribución industrial) y chart_118_3 (propósitos de uso). Finanzas tiene participación media del 10.51%, y reducir costos laborales tiene 36.44% (tercero más alto), lo que puede reflejar la importancia de la automatización de costos en finanzas. Un solo gráfico no puede inferir esta asociación, debe combinarse la tendencia de valores de ambos gráficos (como comparación de participaciones altas/bajas).",
+        "G": "Opción correcta, porque requiere razonamiento conjunto de chart_118_1 (distribución industrial) y chart_118_3 (propósitos de uso). Salud tiene alta participación del 12.91% (segundo lugar), y mejorar eficiencia y calidad del trabajo tiene 48.80% (más alto), indicando que este sector orientado a servicios puede priorizar la mejora de eficiencia. Un solo gráfico no puede inferir esta asociación, debe combinarse la tendencia de valores de ambos gráficos (como comparación de participaciones altas/bajas)."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción de distracción es de tipo Hard: comparación errónea de brechas de participación (Pequeñas empresas tienen la participación más alta del 58.78%, pero mejora de eficiencia superior al 50% es solo 12.53% baja; en realidad, la mejora superior al 50% es pequeña, no reportada principalmente por Pequeñas empresas).",
+        "B": "Esta opción de distracción es de tipo Hard: asociación errónea entre tamaño y valores de amplitud (Microempresas tienen 17.02%, pero mejora de eficiencia 30 - 40% tiene 31.61% más alta, debería estar dominada por Pequeñas empresas 58.78%; el gráfico no muestra asociación directa, Microempresas son más probables de reportar amplitudes más bajas).",
+        "C": "Opción correcta, porque requiere razonamiento conjunto de chart_118_2 (tamaño de empresas) y chart_118_4 (mejora de eficiencia). Pequeñas empresas tienen 58.78% (mayoría absoluta), y mejora 30 - 40% tiene 31.61% (más alta), sugiriendo que la experiencia de Pequeñas empresas puede moldear la amplitud principal. Un solo gráfico no puede establecer esta conexión, debe hacerse análisis cruzado de tendencias de distribución de tamaño y mejora (como coincidencia de tamaño dominante y amplitud común).",
+        "D": "Opción correcta, porque requiere razonamiento conjunto de chart_118_2 (tamaño de empresas) y chart_118_4 (mejora de eficiencia). Grandes empresas tienen solo 3.85%, pero mejora 40 - 50% (27.52%) y superior al 50% (12.53%) suman alto (40.05%), indicando que Grandes empresas pueden reportar mejoras más altas debido a mayor capacidad de implementación. Un solo gráfico no puede establecer esta conexión, debe hacerse análisis cruzado de tendencias de distribución de tamaño y mejora (como coincidencia de tamaño dominante y amplitud común).",
+        "E": "Esta opción de distracción es de tipo Easy: basada en razonamiento de conocimiento común (Grandes empresas a menudo se perciben con mejora lenta de eficiencia), pero sin depender de datos del gráfico (el gráfico muestra Grandes empresas 3.85%, existe mejora 40 - 50% o más, pero no la mínima), por lo tanto incorrecta.",
+        "F": "Opción correcta, porque requiere razonamiento conjunto de chart_118_2 (tamaño de empresas) y chart_118_4 (mejora de eficiencia). Microempresas tienen 17.02%, mejora 20 - 30% tiene 18.53% (proporción similar), puede reflejar que empresas más pequeñas logran más fácilmente mejoras medias. Un solo gráfico no puede establecer esta conexión, debe hacerse análisis cruzado de tendencias de distribución de tamaño y mejora (como coincidencia de tamaño dominante y amplitud común).",
+        "G": "Esta opción de distracción es de tipo Hard: comprensión errónea del orden del gráfico (mejora 20 - 30% tiene 18.53%, pero en realidad la más común es 30 - 40% con 31.61%; y no considera distribución de tamaño, Pequeñas empresas dominan pero distribución de amplitud es diferente)."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "B",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción de distracción es de tipo Hard: asociación errónea entre propósito y brecha de valores de función (Patrocinio de productos tiene 35.37%, pero Reconocimiento facial necesita 22.34% no destacado; en realidad Generación y creación 22.34% es más probable que se asocie con patrocinio, pero necesidad menor que Interacción humano-máquina 24.87%).",
+        "B": "Opción correcta, porque requiere razonamiento conjunto de chart_118_3 (propósitos de uso) y chart_118_5 (requisitos funcionales). Patrocinio de productos tiene 35.37% (cuarto más alto), Generación y creación necesita 22.34% (alto), sugiriendo que propósitos de marketing dependen de capacidad de generación de contenido. Un solo gráfico no puede establecer esta conexión, debe combinarse tendencia de valores de participación de propósito y necesidad de función (como propósito alto correspondiente a función relacionada).",
+        "C": "Opción correcta, porque requiere razonamiento conjunto de chart_118_3 (propósitos de uso) y chart_118_5 (requisitos funcionales). Mejorar eficiencia y calidad del trabajo tiene 48.80% (más alto), Lógica y razonamiento necesita 19.68% (medio), indicando que orientación a eficiencia puede impulsar necesidad de funciones analíticas. Un solo gráfico no puede establecer esta conexión, debe combinarse tendencia de valores de participación de propósito y necesidad de función (como propósito alto correspondiente a función relacionada).",
+        "D": "Esta opción de distracción es de tipo Hard: comparación errónea entre participación más alta de propósito y necesidad de función (Mejorar eficiencia tiene 48.80% más alto, pero Lógica y razonamiento necesita solo 19.68% medio; en realidad Habilidad multimodal 32.98% es necesidad más alta, sin evidencia directa que impulse este propósito).",
+        "E": "Opción correcta, porque requiere razonamiento conjunto de chart_118_3 (propósitos de uso) y chart_118_5 (requisitos funcionales). Mejorar interacción y experiencia del cliente tiene 23.80% (sexto), Interacción humano-máquina necesita 24.87% (segundo más alto), puede reflejar que propósito de interacción se vincula directamente con función interactiva. Un solo gráfico no puede establecer esta conexión, debe combinarse tendencia de valores de participación de propósito y necesidad de función (como propósito alto correspondiente a función relacionada).",
+        "F": "Esta opción de distracción es de tipo Easy: basada en razonamiento de conocimiento común (Reconocimiento de emociones puede usarse para servicio al cliente para controlar costos), pero sin depender de datos del gráfico (el gráfico muestra reducir costos económicos 27.13%, Reconocimiento de emociones necesita solo 17.69%, sin asociación directa), por lo tanto incorrecta.",
+        "G": "Esta opción de distracción es de tipo Hard: comprensión errónea de participación de propósito y orden de necesidad de función (Demostración de aplicación de tecnología innovadora tiene 8.11% más bajo, pero Habilidad multimodal necesita 32.98% más alto; en realidad necesidad no coincide con participación de propósito, demostración puede asociarse más con Generación y creación 22.34%)."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "D",
+        "A"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos del gráfico (se cita que la participación del sector de salud en chart_118_1 es del 12.91%), pero los interpreta erróneamente. El sector de salud no es el más alto (el comercio electrónico con un 16.49% es más alto), y no se combina con las características de tamaño (chart_118_2 muestra que la participación de las empresas medianas es del 20.35%, pero el sector de salud no especifica el tamaño). La sugerencia de estrategia de 'ignorar la distribución de tamaños' provocará una mala asignación de recursos y no podrá optimizar la eficiencia de penetración.",
+        "B": "Basado en que la participación del sector de salud en chart_118_1 es del 12.91% (relativamente alta), lo que indica un gran potencial de demanda. Combinado con el hecho de que la participación de las empresas medianas en chart_118_2 es del 20.35% (notable), se infiere que las empresas de este tamaño pueden ser más propensas a aceptar promociones personalizadas, y la inversión de recursos puede optimizar la penetración.",
+        "C": "Basado en que la participación de las microempresas en chart_118_2 es del 17.02% (no debe ser ignorada). Combinado con el hecho de que la participación de sectores como 'Juegos' (6.78%) y 'Cine y televisión' (7.31%) en chart_118_1 es mediana, se infiere que es probable que las microempresas se concentren en estos sectores. Se necesitan planes de bajo costo para garantizar la equidad y evitar una inclinación excesiva de recursos hacia las grandes empresas (solo el 3.85%).",
+        "D": "Basado en la distribución del tamaño de las empresas en chart_118_2, la participación de las pequeñas empresas es la más alta (la tendencia es evidente). Combinado con la distribución de sectores en chart_118_1, la participación de sectores como 'Comercio electrónico' (16.49%) y 'Cultura y turismo' (8.64%) es relativamente alta. Se infiere que las pequeñas empresas se distribuyen密集 en estos sectores, y la asignación de recursos puede mejorar eficientemente la cobertura.",
+        "E": "Esta es una opción de distracción fácil: Se basa en conocimientos generales de gestión ('distribuir recursos equitativamente'), pero no utiliza los datos del gráfico (como la distribución de sectores o las características de tamaño). El gráfico muestra grandes diferencias en la participación de los sectores (por ejemplo, el comercio electrónico con un 16.49% frente a otros con un 1.06%). La distribución equitativa reducirá la eficiencia, y el problema solicita 'una cobertura de mercado más amplia y una penetración eficiente'. Esta opción no tiene una guía de acción específica.",
+        "F": "Esta es una opción de distracción fácil: Depende del conocimiento común ('las grandes empresas tienen más fondos'), pero ignora los datos del gráfico (chart_118_2 muestra que las grandes empresas solo representan el 3.85%, la proporción más baja). Promocionar a las grandes empresas no puede lograr una 'cobertura amplia', ya que la proporción total de las pequeñas y microempresas es alta (aproximadamente el 76% en total), y la dirección de la estrategia está claramente desviada.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos del gráfico (se cita la participación de las microempresas en chart_118_2 del 17.02% y la participación de los sectores de juegos y cine/televisión en chart_118_1), pero confunde las relaciones. La participación del sector de juegos es solo del 6.78%, y la del sector de cine y televisión es del 7.31%, ninguna es alta. La participación total de las microempresas es del 17.02%, pero no se concentran en un sector específico. El gráfico no muestra la distribución de tamaños de los sectores de juegos y cine/televisión. La suposición errónea de que 'la participación de las microempresas es la más alta' puede desviar la asignación de recursos y reducir la amplitud de cobertura del mercado."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Basado en que el propósito de 'Mejorar la eficiencia y calidad del trabajo' en chart_118_3 tiene la proporción más alta (domina la tendencia). Combinado con la distribución de la mejora de eficiencia en chart_118_4 (por ejemplo, la proporción total en el intervalo de 30 - 40% y superior es alta), se infiere que este propósito está fuertemente relacionado con una mejora significativa de la eficiencia, y la estrategia puede maximizar el retorno de la inversión.",
+        "B": "Basado en que las proporciones de 'Reducir costos laborales' (36.44%) y 'Mejorar el nivel de digitalización de la empresa' (43.09%) en chart_118_3 son ambas altas. Combinado con los datos de mejora de eficiencia en chart_118_4 (la mayoría de las empresas informan una mejora superior al 20%), se infiere que la reducción de costos laborales se puede lograr indirectamente a través de la mejora de la eficiencia, y la mejora del nivel de digitalización puede fortalecer este efecto. La estrategia logra beneficios sinérgicos.",
+        "C": "Esta es una opción de distracción fácil: Depende del conocimiento común ('no se necesita más inversión en áreas de alta proporción'), pero ignora el gráfico (chart_118_3 muestra que la proporción de mejorar la eficiencia del trabajo es la más alta, 48.80%, y chart_118_4 muestra una mejora significativa de la eficiencia, por ejemplo, la proporción de 30 - 40% es del 31.61%). La dirección de la estrategia es errónea, ya que la alta proporción y la mejora de la eficiencia son la clave para optimizar el retorno. Reducir la inversión reducirá los beneficios.",
+        "D": "Basado en que el propósito de 'Mejorar la interacción y experiencia del cliente' en chart_118_3 tiene una proporción mediana. Combinado con la distribución de sectores en chart_118_1 (por ejemplo, la participación de 'Finanzas' es del 10.51% y la de 'Comercio electrónico' es del 16.49%, ambas altas), se infiere que estos sectores tienen una gran demanda de servicio al cliente. Probar primero y luego promocionar puede mejorar la eficiencia de los recursos y evitar una inversión ciega en propósitos de baja demanda (por ejemplo, 'Demostración de aplicación de tecnología innovadora' solo tiene un 8.11%).",
+        "E": "Esta es una opción de distracción fácil: Se basa en conocimientos comerciales generales ('la innovación representa la tendencia futura'), pero no utiliza los datos del gráfico (chart_118_3 muestra que la proporción de demostración de aplicación de tecnología innovadora es solo del 8.11%, la más baja). La opción es amplia y sin acciones específicas, y el propósito de 'Mejorar la imagen corporativa' tiene una proporción mediana del 23.14%, pero no está relacionado con los datos de mejora de eficiencia. La estrategia es ineficaz.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos del gráfico (se cita la proporción de reducción de costos económicos en chart_118_3 del 27.13% y la distribución de mejora de eficiencia en chart_118_4), pero los asocia erróneamente. La proporción del propósito de reducción de costos económicos no es alta (quinta posición), y los datos de mejora de eficiencia son el efecto general, no específicos de este propósito. El gráfico no muestra una relación directa entre la reducción de costos y la mejora de eficiencia. La sugerencia de 'priorizar la reducción de costos económicos' ignorará propósitos de mayor proporción (como mejorar la eficiencia del trabajo con un 48.80%), lo que resultará en un retorno de inversión subóptimo.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos del gráfico (se cita la proporción de mejora de interacción con el cliente en chart_118_3 del 23.80% y la baja mejora de eficiencia del 3.27% en chart_118_4), pero los interpreta erróneamente. La proporción del intervalo de baja mejora de eficiencia es pequeña, lo que no significa que la correlación con el propósito de interacción con el cliente sea baja. El gráfico no proporciona datos cruzados entre el propósito y la mejora de eficiencia. La estrategia de 'ignorar la interacción con el cliente' es errónea, ya que este propósito puede tener un gran potencial en sectores intensivos en servicios (como las finanzas), y los datos de mejora de eficiencia son promedios, no específicos del propósito."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Se basa en conocimientos generales de desarrollo de productos ('cubrir todas las necesidades'), pero no utiliza los datos del gráfico (chart_118_5 muestra una alta diversidad de necesidades, por ejemplo, la capacidad multimodal con un 32.98% frente a 'Reconocimiento de emociones' con un 17.69%). La opción es amplia y sin prioridades, y el problema solicita 'satisfacer eficientemente el mercado'. Esta estrategia causará un desperdicio de recursos en funciones de baja demanda.",
+        "B": "Basado en que la demanda de demostración de aplicación de tecnología innovadora en chart_118_5 es solo del 8.11% (una de las más bajas). Combinado con el hecho de que este propósito tiene la proporción más baja en chart_118_3 (8.11%), se infiere que la coincidencia entre la demanda y el propósito es baja. Reasignar recursos a funciones de mayor demanda (como 'Lógica y razonamiento' con un 19.68% o 'Generación y creación' con un 22.34%) puede optimizar los beneficios generales y cumplir con el valor de utilización eficiente de recursos.",
+        "C": "Basado en que la demanda de capacidad multimodal en chart_118_5 tiene la proporción más alta (la tendencia es evidente). Combinado con los propósitos de uso en chart_118_3 (por ejemplo, 'Mejorar el nivel de digitalización de la empresa' con un 43.09% y 'Mejorar la interacción y experiencia del cliente' con un 23.80%, ambas proporciones altas), se infiere que la capacidad multimodal apoya estos propósitos, y desarrollar primero puede maximizar la satisfacción del mercado.",
+        "D": "Esta es una opción de distracción fácil: Depende del conocimiento común ('funciones únicas atraen a los usuarios tempranos'), pero ignora el gráfico (chart_118_3 muestra que el propósito de demostración de aplicación de tecnología innovadora tiene una proporción de solo el 8.11%, la más baja; chart_118_5 no lista la demanda de esta función). La estrategia no tiene soporte de datos, y 'atraer a los primeros adoptantes' no está relacionado con los propósitos de uso. La dirección está claramente desviada.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos del gráfico (se cita la demanda de reconocimiento de emociones en chart_118_5 del 17.69% y el propósito de mejorar la imagen corporativa en chart_118_3 del 23.14%), pero los asocia erróneamente. La demanda de reconocimiento de emociones no es alta (posición mediana - baja), y no hay evidencia directa en el gráfico de una relación con el propósito de mejorar la imagen corporativa (otras funciones como 'Interacción humano - máquina' con un 24.87% pueden ser más relacionadas). La sugerencia de 'desarrollar con prioridad' ignorará funciones de alta demanda (como la capacidad multimodal con un 32.98%), lo que reducirá la eficiencia de respuesta al mercado.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente utiliza los datos del gráfico (se cita la demanda de capacidad multimodal en chart_118_5 del 32.98% y la demanda de clasificación de texto del 21.41%), pero los interpreta erróneamente. La demanda de capacidad multimodal es la más alta y debe desarrollarse primero. El gráfico no proporciona datos de costo de desarrollo. La suposición de que 'el costo excede el retorno' no tiene base. La estrategia de'reducir la inversión en áreas de alta demanda' es contradictoria, ya que las funciones de alta demanda (como la capacidad multimodal) apoyan directamente los propósitos principales (como mejorar el nivel de digitalización con un 43.09%). Reorientar los recursos hacia funciones de demanda mediana no puede satisfacer eficientemente el mercado.",
+        "G": "Basado en que las demandas de 'Interacción humano - máquina' (24.87%) y 'Comprensión del lenguaje natural' (25.66%) en chart_118_5 son relativamente altas. Combinado con el propósito de 'Mejorar la eficiencia y calidad del trabajo' (48.80%, el propósito más alto) en chart_118_3, se infiere que estas funciones son la base para la mejora de la eficiencia. La estrategia garantiza el valor central del producto."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     }
   ]

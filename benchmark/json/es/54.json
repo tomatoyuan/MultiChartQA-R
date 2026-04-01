@@ -93,6 +93,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "(Difícil) Esto es incorrecto, basado en los datos de chart_54_3: en la etapa de niños de 4 - 6 años, los problemas de inmunidad tienen la mayor preocupación (76.0%), mientras que la concentración es solo del 39.8% (sexto lugar). Exagera incorrectamente el valor y el orden de la concentración.",
+        "B": "Depende de los gráficos de preocupaciones de salud infantil (como el desarrollo cerebral es una de las principales preocupaciones) y los gráficos de preocupaciones de salud adulta (como el sueño y la fatiga están en primer lugar). El razonamiento conjunto muestra que, a medida que aumenta la edad, el enfoque de salud cambia de las necesidades de desarrollo en la infancia a las necesidades de gestión diaria en la edad adulta, requiriendo comparar los cambios en el ranking de preocupaciones entre los dos gráficos.",
+        "C": "(Fácil) Esto es incorrecto, porque los datos del gráfico no muestran que los problemas de obesidad superen el 50% en todos los grupos de edad: la etapa infantil no menciona la obesidad; la preocupación por la obesidad en adolescentes de 7 - 17 años es del 19.7% (chart_54_4); en adultos de 18 - 65 años es del 20.7% (chart_54_6), ambos por debajo del 50%. Esto se puede juzgar solo por el sentido común de que la preocupación por la obesidad no es alta.",
+        "D": "Depende de los gráficos de preocupaciones de salud infantil (como la alta preocupación por problemas de visión en 4 - 6 años), los gráficos de preocupaciones de salud adolescente (como la continua alta preocupación por problemas de visión) y los gráficos de preocupaciones de salud adulta (como la menor preocupación por problemas de visión y la mayor prominencia de problemas óseos y articulares). El razonamiento conjunto requiere comparar las prioridades de preocupación en diferentes grupos de edad, mostrando que los problemas de visión son importantes en la infancia pero se debilitan relativamente en la edad adulta, mientras que los problemas óseos se fortalecen en la edad adulta.",
+        "E": "(Fácil) Esto es incorrecto, los gráficos de la etapa infantil (chart_54_2) no enumeran problemas de sueño, las preocupaciones se centran en problemas de desarrollo (como desarrollo cerebral 73.5%). Por sentido común, los bebés no tienen preocupaciones de salud del sueño.",
+        "F": "(Difícil) Esto es incorrecto, basado en los datos de chart_54_4 y chart_54_6: la preocupación por problemas de visión en adolescentes de 7 - 17 años es del 61.1%, mientras que en adultos de 18 - 65 años es del 43.3%, en realidad la preocupación adulta es menor. Invierte incorrectamente la tendencia de los valores.",
+        "G": "Depende de los gráficos de preocupaciones de salud infantil (como la alta preocupación por inmunidad en 4 - 6 años), los gráficos de preocupaciones de salud adolescente (como la preocupación media por inmunidad) y los gráficos de preocupaciones de salud adulta (como la baja preocupación por inmunidad). El razonamiento conjunto revela la tendencia decreciente de la preocupación por inmunidad con la edad, mientras contrasta el aumento de problemas de estrés mental en gráficos de adolescentes y adultos, requiriendo analizar proporciones relativas a través de tres gráficos."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -118,6 +135,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Depende de los gráficos de preocupaciones de salud infantil (como la alta preocupación por problemas de digestión gastrointestinal) y los gráficos de propósitos al tomar suplementos (como el propósito de mejorar la salud gastrointestinal con proporción media). El razonamiento conjunto requiere analizar la intensidad de las preocupaciones infantiles y la posición relativa de los propósitos de los suplementos, revelando inconsistencias potenciales (alta preocupación pero prioridad de comportamiento media), requiriendo comparar dos gráficos.",
+        "B": "(Fácil) Esto es incorrecto, la preocupación por el estrés mental no es alta en todos los grupos de edad: no se menciona en la etapa infantil (chart_54_2); en adolescentes de 7 - 17 años es del 36.2% (chart_54_4); en adultos 48.9% (chart_54_6). El propósito de los suplementos para regular el sistema endocrino es del 34.4% (chart_54_8), no el más alto. Por sentido común, la preocupación por el estrés mental varía con la edad.",
+        "C": "Depende de múltiples gráficos de preocupaciones de salud por edad (como la inmunidad está entre las principales preocupaciones en gráficos de bebés, niños, adolescentes y adultos) y los gráficos de propósitos al tomar suplementos (como el propósito de mejorar la inmunidad tiene la proporción más alta). El razonamiento conjunto requiere sintetizar el ranking de preocupaciones de inmunidad en gráficos de diferentes edades con los datos de propósitos de suplementos, demostrando cómo las necesidades universales transversales se traducen en comportamiento de consumo.",
+        "D": "(Difícil) Esto es incorrecto, basado en los datos de chart_54_8: la proporción para mejorar la salud de los ojos/visión es del 43.8%, mientras que mejorar la inmunidad es la más alta (75.7%). Confunde incorrectamente valores y orden.",
+        "E": "(Fácil) Esto es incorrecto, por sentido común los suplementos se usan para prevención más que para tratamiento de enfermedades crónicas, y los gráficos muestran baja preocupación por diabetes (4.5% en adolescentes de 7 - 17 años, chart_54_4; 5.3% en adultos, chart_54_6), los propósitos de suplementos no mencionan diabetes (chart_54_8).",
+        "F": "Depende de los gráficos de preocupaciones de salud adulta (como la mayor preocupación por problemas de sueño) y los gráficos de propósitos al tomar suplementos (como el alto propósito de mejorar el sueño). El razonamiento conjunto requiere comparar las prioridades de preocupación en gráficos adultos con el ranking de propósitos de suplementos, mostrando una correspondencia directa de comportamiento, no se puede inferir solo con un gráfico.",
+        "G": "(Difícil) Esto es incorrecto, basado en los datos de chart_54_2 y chart_54_8: la preocupación por promover el desarrollo cerebral en bebés es del 73.5%, la proporción de suplementos para mejorar la memoria es del 35.0% aunque media pero potencialmente relacionada (problemas de memoria en adolescentes 34.6%, chart_54_4). Exagera incorrectamente la brecha de proporción e ignora la asociación potencial."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -143,6 +177,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "(Fácil) Esto es incorrecto, por sentido común el crecimiento de ingresos generalmente promueve el consumo de salud, y los gráficos muestran una alta tasa de compra (70.6%, chart_54_7). La mejora de las condiciones económicas no reduce el gasto en salud.",
+        "B": "Depende de los gráficos de crecimiento de ingresos (como la tendencia al alza continua durante años) y los gráficos de tasa de compra de suplementos (como la alta tasa de compra general). El razonamiento conjunto requiere analizar la asociación temporal entre la tendencia de ingresos y el comportamiento de compra (el crecimiento de ingresos puede apoyar la capacidad de consumo), no se puede inferir solo con gráficos de ingresos o compras.",
+        "C": "Depende de los gráficos de crecimiento de ingresos, los gráficos de preocupaciones de salud adolescente (como la alta preocupación por problemas de visión y estrés mental) y los gráficos de propósitos al tomar suplementos (como el propósito medio de mejorar la salud ocular). El razonamiento conjunto requiere comparar el grado de coincidencia entre las altas preocupaciones adolescentes y los propósitos de suplementos, señalando una conversión insuficiente de comportamiento bajo el crecimiento de ingresos, requiriendo análisis cruzado de tres gráficos.",
+        "D": "(Difícil) Esto es incorrecto, basado en los datos de chart_54_1 y chart_54_7: los ingresos crecen anualmente (28228 yuanes en 2018 a 39218 yuanes en 2023), pero la proporción de compra de suplementos es general 70.6% (chart_54_7), no proporciona datos anuales. Supone incorrectamente que la tasa de compra crece sincrónicamente con los ingresos.",
+        "E": "(Difícil) Esto es incorrecto, basado en los datos de chart_54_6: en la etapa adulta, la preocupación por problemas de sueño es del 61.1%, la preocupación por falta de energía es del 50.5%, en realidad la preocupación por el sueño es mayor. Invierte incorrectamente el orden y la comparación de valores.",
+        "F": "Depende de los gráficos de crecimiento de ingresos, los gráficos de preocupaciones de salud adulta (como la alta preocupación por fatiga y problemas de sueño) y los gráficos de propósitos al tomar suplementos (como los altos propósitos de suplementar energía y mejorar el sueño). El razonamiento conjunto requiere vincular la tendencia de ingresos con las preocupaciones adultas y los propósitos de suplementos, demostrando cómo la mejora económica amplifica necesidades de salud específicas e impulsa el comportamiento.",
+        "G": "(Fácil) Esto es incorrecto, por sentido común las personas con altos ingresos son más propensas a comprar productos de salud, las personas con bajos ingresos tienen capacidad de consumo limitada. Los gráficos no proporcionan agrupación por ingresos, pero el sentido común puede inferirlo."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -167,6 +218,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Malinterpretación de valores y prioridades: En chart_54_2, la preocupación por la vista en niños de 0 - 3 años es del 53.6%, ocupando el sexto lugar, por debajo del desarrollo cerebral (73.5%) y la inmunidad (72.3%); y en la etapa infantil, la vista no es la preocupación más apremiante (el gráfico muestra que el desarrollo cerebral es la principal), se enfatiza erróneamente un problema secundario.",
+        "B": "Interpretación errónea del gráfico: En chart_54_4, la preocupación por el estrés mental es solo del 36.2% (ocupando el sexto lugar), mucho menor que el problema de vista (61.1%) o el desarrollo de crecimiento (55.6%); los datos TGI de chart_54_5 no especifican un problema de salud (el índice 128 corresponde a la etapa de educación secundaria obligatoria pero no está asociado con el estrés mental), se asume erróneamente que un TGI alto significa que ese problema tiene alta prioridad.",
+        "C": "La opción 2 involucra chart_54_4 (la preocupación por el problema de vista en adolescentes de 7 - 17 años es la más alta) y chart_54_5 (los datos TGI en la etapa de educación secundaria obligatoria muestran que los índices de ciertas necesidades de salud son altos). A través de la inferencia conjunta: la preocupación por la vista de los adolescentes es destacada, y los datos TGI tienen picos en la etapa de educación secundaria obligatoria (como los valores de 128, 164, etc.), lo que indica que la intensidad de las necesidades en esta edad es alta y se necesita una investigación y desarrollo dirigida.",
+        "D": "La sugerencia de estandarizar los productos ignora los datos del gráfico: chart_54_2 y chart_54_3 muestran que aunque la preocupación por la inmunidad es alta (72.3% en niños de 0 - 3 años y 76.0% en niños de 4 - 6 años), otros problemas como el desarrollo cerebral en niños de 0 - 3 años (73.5%) son más destacados, y las necesidades de diferentes edades son muy diferentes (por ejemplo, el problema de vista en adolescentes es del 61.1%). Esta estrategia no puede optimizar la asignación de recursos.",
+        "E": "Esta opción es demasiado generalizada, sin enfoque en edad o problema de salud específicos, solo se basa en el conocimiento comercial general (como 'aumentar el presupuesto'), se ignoran las necesidades específicas de edad en el gráfico y es fácil de descartar por conocimiento general.",
+        "F": "La opción 3 involucra chart_54_3 (la proporción de preocupación por la inmunidad y el desarrollo óseo en niños de 4 - 6 años es similar) y chart_54_2 (los problemas similares en la etapa infantil se usan como referencia). A través de la inferencia conjunta: la inmunidad tiene la proporción más alta en la etapa infantil, pero la proporción de preocupación por el desarrollo óseo también es alta. La asignación equitativa de recursos puede evitar ignorar las necesidades secundarias pero importantes.",
+        "G": "La opción 1 involucra chart_54_2 (la preocupación por el desarrollo cerebral en bebés de 0 - 3 años es la más alta) y chart_54_3 (la preocupación por la inmunidad en niños de 4 - 6 años es la más alta). A través de la inferencia conjunta: el desarrollo cerebral tiene la proporción más alta en la etapa infantil y la inmunidad tiene la proporción más alta en la etapa de la infancia, lo que indica que el desarrollo de productos tempranos debe enfocarse en los problemas de alta preocupación para establecer una base y extenderse a edades posteriores."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -192,6 +260,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 3 involucra chart_54_4 (la preocupación por el problema de vista en adolescentes de 7 - 17 años es la más alta) y chart_54_8 (mejorar la salud gastrointestinal es una de las proporciones más altas entre los propósitos de consumo). A través de la inferencia conjunta: la preocupación por la vista de los adolescentes es destacada, y la proporción de salud gastrointestinal entre los propósitos de consumo es significativa. Promover productos combinados puede satisfacer las necesidades de manera específica.",
+        "B": "Asociación errónea de datos: En chart_54_3, la preocupación por la digestión gastrointestinal en niños de 4 - 6 años es del 48.0%, ocupando el quinto lugar, por debajo de la inmunidad (76.0%) y el desarrollo óseo (63.3%); en chart_54_8, el propósito de salud gastrointestinal del 46.9% tampoco es el más alto. Se asume erróneamente que esta proporción es 'considerable' y se promueve en primer lugar.",
+        "C": "La opción 1 involucra chart_54_8 (mejorar la inmunidad es el propósito de consumo con la proporción más alta) y chart_54_2/chart_54_3/chart_54_6 (la inmunidad es una preocupación alta en las etapas infantil, de niñez y adulta). A través de la inferencia conjunta: la inmunidad es el propósito principal de consumo y está a la cabeza en las preocupaciones de salud de múltiples edades (por ejemplo, 72.3% en bebés, 76.0% en niños y 45.9% en adultos). Promover este tema puede aprovechar las necesidades cruzadas.",
+        "D": "Esta opción habla en general de medios de marketing (como 'aumentar la publicidad'), sin enfoque en un problema de salud o grupo de personas específicos, solo se basa en el conocimiento de la industria y se ignoran los datos de preocupaciones específicas y propósitos de consumo en el gráfico.",
+        "E": "Malinterpretación de valores y prioridades: En chart_54_4, la preocupación por la memoria de los adolescentes es solo del 34.6% (ocupando el octavo lugar), mucho menor que la vista (61.1%) o la inmunidad (52.5%); en chart_54_8, el propósito de mejorar la memoria del 35.0% también es bajo y no coincide con los problemas de alta preocupación de los adolescentes. Se enfatiza erróneamente una necesidad secundaria.",
+        "F": "La sugerencia de empaquetar productos no se dirige a las necesidades clave: chart_54_8 muestra que los propósitos de consumo más altos son mejorar la inmunidad (75.7%) y mejorar el sueño (57.9%), y la estrategia de empaquetamiento puede diluir los problemas centrales; y las preocupaciones de diferentes edades son muy diferentes (por ejemplo, el sueño en adultos es del 61.1% vs. la vista en adolescentes es del 61.1%). Esta estrategia no puede ser diseñada de manera precisa.",
+        "G": "La opción 2 involucra chart_54_6 (los problemas de sueño y la fatiga fácil son las preocupaciones más altas en la etapa adulta) y chart_54_8 (mejorar el sueño es el segundo propósito de consumo más alto). A través de la inferencia conjunta: los adultos se preocupan mucho más por el sueño y la fatiga que por otros problemas, y la proporción de mejorar el sueño entre los propósitos de consumo es alta. La estrategia debe enfocarse en este problema clave."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -216,6 +301,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción 3 involucra chart_54_1 (el crecimiento del ingreso, lo que implica un mayor potencial de ingreso para los adultos), chart_54_6 (los adultos tienen diversos problemas de salud y una alta preocupación) y chart_54_4 (la preocupación por el problema de vista de los adolescentes es destacada). A través de la inferencia conjunta: los problemas de los adultos son diversos (por ejemplo, el sueño es del 61.1%) y pueden impulsar el consumo, pero la necesidad de vista de los adolescentes es alta (61.1%) y no se puede ignorar. La estrategia asegura que los recursos no se desvíen.",
+        "B": "Interpretación errónea del gráfico: En chart_54_4, la preocupación por la depresión de los adolescentes es solo del 10.9% (ocupando el último lugar), mucho menor que la vista (61.1%) o la inmunidad (52.5%); los datos TGI de chart_54_5 no especifican un problema de salud (el índice 212 corresponde a la etapa de bachillerato pero no está asociado con la depresión). Se asume erróneamente que un TGI alto significa que ese problema es importante; el crecimiento del ingreso tiene una relación débil con el gasto en depresión.",
+        "C": "Esta opción es generalizada y se desvía del núcleo de las necesidades de salud, solo se basa en la tendencia económica general (como 'actualización digital') y se ignoran los datos de preocupaciones de salud específicas y el consumo de suplementos en el gráfico. Es fácil de descartar por conocimiento general.",
+        "D": "La opción 2 involucra chart_54_1 (la tendencia de crecimiento del ingreso) y chart_54_6/chart_54_8 (la preocupación por el sueño en la etapa adulta es la más alta y mejorar la inmunidad es el propósito principal de consumo). A través de la inferencia conjunta: el crecimiento del ingreso puede amplificar las necesidades de salud, y el sueño y la inmunidad lideran tanto en la preocupación como en el propósito de consumo. La investigación y desarrollo innovadora puede aprovechar el pico de la demanda.",
+        "E": "La opción 1 involucra chart_54_1 (la tendencia de crecimiento anual del ingreso disponible per cápita) y chart_54_7 (la proporción de personas que compraron suplementos dietéticos es alta). A través de la inferencia conjunta: el ingreso sigue aumentando (datos de 2018 - 2023), lo que indica un aumento de la capacidad de consumo, y la tasa de compra superior al 70% muestra una buena base de mercado. Ampliar la línea de productos puede aprovechar la tendencia económica.",
+        "F": "La sugerencia de bajar los precios es contradictoria con el crecimiento del ingreso: chart_54_1 muestra que el ingreso sigue aumentando (de 28228 yuan en 2018 a 39218 yuan en 2023), lo que indica un aumento de la capacidad de consumo y puede apoyar productos de alta gama; la tasa de compra de suplementos en chart_54_7 es del 70.6%, que ya es alta. La estrategia de bajar los precios no es necesaria y puede reducir las ganancias.",
+        "G": "Malinterpretación de valores y necesidades: En chart_54_6, la preocupación por el problema de cabello de los adultos es del 42.2%, ocupando el octavo lugar, por debajo del sueño (61.1%) o la fatiga (50.5%); y en chart_54_8, no hay entradas relacionadas con el cabello en los propósitos de consumo. Se enfatiza erróneamente un problema no central; el crecimiento del ingreso puede estimular necesidades de mayor prioridad como la inmunidad o el sueño."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     }
   ]

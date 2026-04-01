@@ -87,6 +87,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: misinterpreting the preference distribution data. In chart_46_2, the data of ergonomic chairs for Post - 00s and Post - 05s are both 0 (low preference), but the distractor claims 'high preference', which misinterprets the value (actually low preference) and wrongly infers it as the driving force for growth. The correct chart shows that the low preference of the young group may drag down the growth rate.",
+        "B": "This is a hard distractor: wrongly comparing the preference ratio and the growth rate gap. Chart_46_2 shows that the total preference for ergonomic chairs is 66%, higher than 55% for eye - care lamps. However, the distractor reverses the ratio (saying that the preference for eye - care lamps is higher) and wrongly infers that 'the preference ratio has nothing to do with the growth rate'. In fact, a higher preference may support the growth rate. At the same time, the growth rate data in chart_46_1 (43% for ergonomic chairs vs. 26% for eye - care lamps) are not correctly associated.",
+        "C": "Joint reasoning relying on the 'Chart of the market scale of the 'Big Three' in the study' (chart_46_1) and the 'Chart of consumers' preferences for study furniture' (chart_46_2): Chart_46_1 shows that the growth rate of eye - care lamps is relatively low (+26%), while chart_46_2 shows that eye - care lamps only have high preferences among a few groups such as Post - 05s and Post - 85s (the preferences of other groups such as Post - 00s and Post - 95s are 0). In contrast, ergonomic chairs have high preferences among multiple groups (Post - 95s, Post - 90s, Post - 85s, Post - 80s), indicating that a more stable preference distribution supports a higher growth rate.",
+        "D": "Joint reasoning relying on the 'Chart of the market scale of the 'Big Three' in the study' (chart_46_1) and the 'Chart of consumers' preferences for study furniture' (chart_46_2): Chart_46_1 shows that the growth rate of electric standing desks is medium (+33%), while chart_46_2 shows that their preference distribution is uneven (e.g., the preferences of Post - 90s and Post - 80s are 0). However, the total preference ratio of ergonomic chairs is higher (66% vs. 53%) and covers a wider age range, which implies a positive correlation between the breadth of preference and the growth rate.",
+        "E": "This is an easy distractor: completely based on industry common sense (economic recovery and health awareness), without relying on any chart data. The charts do not mention economic or health factors, and it is a generally correct statement.",
+        "F": "This is a hard distractor: misinterpreting the group preference data. In chart_46_2, the data of electric standing desks for Post - 95s is 1 (high preference), but the distractor claims 'low preference'; the data of ergonomic chairs for Post - 95s is 1 (medium preference), but the distractor exaggerates it. This misreads the ranking and value, leading to a wrong attribution.",
+        "G": "Joint reasoning relying on the 'Chart of the market scale of the 'Big Three' in the study' (chart_46_1) and the 'Chart of consumers' preferences for study furniture' (chart_46_2): Chart_46_1 shows that the year - on - year growth rate of ergonomic chairs is the highest (+43%), while chart_46_2 shows that they have high preferences among mature groups such as Post - 85s and Post - 80s (value is 1), but low preferences among Post - 00s and Post - 05s (value is 0). This reveals the law: despite the lack of preference among the young group, the high preference of the mature group drives high - speed growth."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "B",
+        "F"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: wrongly comparing the market sizes of different categories. In chart_46_1, the market scale of eye - care lamps in 2024 is 12 billion yuan > 4.5 billion yuan for ergonomic chairs. However, the distractor claims that it 'inhibits the potential of ergonomic chairs', misinterpreting the gap (in fact, the market scales are independent and there is no inhibitory relationship). The long - term prediction (chart_46_3) is based on the trend of ergonomic chairs themselves.",
+        "B": "Joint reasoning relying on the 'Chart of the market scale of the 'Big Three' in the study' (chart_46_1) and the 'Chart of the market size outlook of ergonomic chairs' (chart_46_3): Chart_46_1 shows that the market scale of ergonomic chairs increased from 3 billion yuan to 4.5 billion yuan from 2023 to 2024 with a high growth rate (+43%), while chart_46_3 shows that the predicted market size increased from 8.2 billion US dollars to 17.4 billion US dollars from 2022 to 2030E (a significant increase). This implies the connection: the current high - growth trend provides a basis for long - term growth.",
+        "C": "This is a hard distractor: wrongly comparing the units and values of the market size. In chart_46_1, the market scale of ergonomic chairs in 2023 is 3 billion yuan (about 4.2 billion US dollars, assuming 1 billion yuan ≈ 1.4 billion US dollars), and in chart_46_3, it is 8.2 billion US dollars in 2022. The distractor misreads the unit (equating billion yuan directly with US dollars) and wrongly calculates the gap (actually, the scale in 2023 is 4.2 billion < 8.2 billion in 2022? But the data in 2023 is a subset of the 'Big Three' in the study, while chart_46_3 is for the entire ergonomic chair market), leading to the wrong conclusion of a 'weak trend'. The correct trend is growth (4.5 billion yuan in 2024).",
+        "D": "Joint reasoning relying on the 'Chart of the market scale of the 'Big Three' in the study' (chart_46_1) and the 'Chart of the market size outlook of ergonomic chairs' (chart_46_3): Chart_46_1 shows the expanding trend of the market scale of ergonomic chairs, which is consistent with the long - term prediction in chart_46_3 (the scale in 2030E is much higher than that in 2022). At the same time, the growth rates of other categories (such as 26% for eye - care lamps) in chart_46_1 are relatively low, highlighting the outstanding performance of ergonomic chairs and supporting the long - term optimistic prediction.",
+        "E": "Joint reasoning relying on the 'Chart of the market scale of the 'Big Three' in the study' (chart_46_1) and the 'Chart of the market size outlook of ergonomic chairs' (chart_46_3): The growth rate of ergonomic chairs in chart_46_1 (+43%) is the highest among the 'Big Three' in the study, and the long - term growth multiple in chart_46_3 (about doubling) far exceeds the steady - state level, which implies that the current growth rate advantage may continue in the long term.",
+        "F": "This is a hard distractor: misinterpreting the growth rate gap. Chart_46_1 shows that the growth rate of ergonomic chairs is 43%, higher than 33% for electric standing desks. However, the distractor reverses the growth rates (saying that the growth rate of standing desks is higher) and wrongly infers that 'the growth rate comparison is irrelevant'. In fact, the difference in growth rates may strengthen the basis for prediction.",
+        "G": "This is an easy distractor: based on technical common sense, without relying on the chart content. The charts do not mention technological innovation, and it is general industry knowledge."
+      },
+      "easy_error": [
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "F",
+        "A"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Joint reasoning relying on the 'Chart of consumers' preferences for study furniture' (chart_46_2) and the 'Chart of consumers' demands for seat consumption' (chart_46_4): Chart_46_2 shows that the total preference ratio for ergonomic chairs is the highest (66%), while chart_46_4 shows that the demand for 'Seating Comfort' in the 'Basic Functions' has the highest proportion (62%). This reveals the law: ergonomic chairs may gain high preference by meeting the high - demand basic function (comfort).",
+        "B": "This is an easy distractor: based on marketing common sense, without relying on the chart data. The charts do not mention advertising or brand factors, and it is a generally correct statement.",
+        "C": "Joint reasoning relying on the 'Chart of consumers' preferences for study furniture' (chart_46_2) and the 'Chart of consumers' demands for seat consumption' (chart_46_4): In chart_46_2, the preference for ergonomic chairs is high, while chart_46_4 shows that the proportion of the multi - dimensional experience demand (such as 25% for 'Intelligent Interaction') is generally lower than that of the basic functions. This implies that consumers pay more attention to the basic needs, and the design focus of ergonomic chairs (such as 43% for 'Function Support') is consistent with this.",
+        "D": "This is a hard distractor: misinterpreting the ranking of the demand proportion. In chart_46_4, the proportion of the basic function such as 'Seating Comfort' is the highest at 62%, while the proportion of the multi - dimensional experience such as 'Aesthetic Design' is only 22% (relatively low). However, the distractor exaggerates its proportion (saying it is the'main driving factor') and wrongly associates the preference (the preference of the young group for ergonomic chairs is low in chart_46_2).",
+        "E": "This is a hard distractor: wrongly comparing the values of the demand characteristics. In chart_46_4, the proportion of 'Adjustability' is 33% < 62% for basic functions such as 'Seating Comfort'. However, the distractor claims that it has the 'highest proportion', misinterpreting the ranking (in fact, the advanced functions are not the highest) and wrongly inferring it as the main reason for the preference.",
+        "F": "Joint reasoning relying on the 'Chart of consumers' preferences for study furniture' (chart_46_2) and the 'Chart of consumers' demands for seat consumption' (chart_46_4): Chart_46_2 shows that the preference for ergonomic chairs is prominent, and in chart_46_4, the demand proportion for the advanced function 'Adjustability' is 33%. Ergonomic chairs usually have an adjustable design, implying that their characteristics match the demand, thus supporting the preference.",
+        "G": "This is a hard distractor: misinterpreting the preference data and the demand relationship. In chart_46_2, the data of eye - care lamps for Post - 85s and Post - 80s is 1 (high preference), but the distractor does not correctly associate the demand chart; the total preference for ergonomic chairs is 66% > 55% for eye - care lamps, and the distractor wrongly attributes it to 'category diversity'. However, the focus of the question is the satisfaction of demand characteristics (chart_46_4)."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "E",
+        "G"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on common - sense logic (such as price sensitivity), but does not cite chart data (such as the demand priority in chart_46_4). Moreover, 'price sensitivity' is not mentioned in the charts, and the strategic direction is disconnected from R & D optimization, making it easy to be recognized as invalid.",
+        "B": "Option 3 combines the multi - dimensional experience demands in chart_46_4 (such as the aesthetic design with a percentage of 22%) and the high preference for ergonomic chairs among young groups (such as Post - 85s and Post - 90s) in chart_46_2 (TGI > 100), and identifies niche opportunities through cross - chart reasoning.",
+        "C": "This is an easy distractor: It does not rely on any chart data and is only based on general business common sense (such as improving brand awareness through marketing). However, the statement is broad and provides no clear guidance on R & D resource allocation. It also ignores the core of 'optimizing R & D resources' in the question, so it can be easily excluded by common sense.",
+        "D": "This is a hard distractor: It cites data from chart_46_1 (the market scale of eye - care lamps is 12 billion yuan), but wrongly shifts the focus. The question is about the R & D of 'ergonomic chairs', not eye - care lamps. The distractor misinterprets the relationship between the charts and wrongly applies the overall market data to the strategy of a specific product, resulting in a wrong direction.",
+        "E": "Option 1 combines the year - on - year growth rate of ergonomic chairs in chart_46_1 (43%, the highest growth rate) and the basic function demands in chart_46_4 (such as seating comfort with a percentage of 62%, the highest proportion), emphasizing the positive correlation between core functions and market growth.",
+        "F": "This is a hard distractor: It seemingly uses data from chart_46_4 (the emotional value accounts for 23% in multi - dimensional experience), but wrongly interprets the 'highest proportion'. In fact, basic functions such as seating comfort (62%) have a higher proportion. The distractor confuses the demand priority and misleadingly suggests prioritizing functions with a low proportion, which goes against the data logic.",
+        "G": "Option 2 combines the growth rate in chart_46_1 (43%) and the advanced function demands in chart_46_4 (such as adjustability with a percentage of 33%), and uses the growth trend to drive innovation investment."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It cites data from chart_46_2 (the preference of Post - 00s for ergonomic chairs), but wrongly interprets the value. The actual preference of Post - 00s is 0 (not 1). The distractor confuses the data, fabricates high preference, and misleads the strategy to focus on the wrong group.",
+        "B": "This is a hard distractor: It seemingly combines data from chart_46_2 (the preference of Post - 95s for eye - care lamps) and chart_46_1 (growth rate data), but wrongly associates them. The question requires marketing resources for'study furniture', while the distractor wrongly focuses on eye - care lamps (not ergonomic chairs). At the same time, the actual preference of Post - 95s for eye - care lamps is 0 (not 1), and the data interpretation is completely wrong.",
+        "C": "This is an easy distractor: It does not rely on chart data and is only based on general marketing principles (such as fair coverage). However, the strategy is broad and has no targeting for 'high - potential groups'. It also ignores the preference differences in the charts (such as the total percentage in chart_46_2), so it can be easily excluded by common sense.",
+        "D": "This is an easy distractor: It is based on industry common sense (such as the importance of offline experience for furniture), but does not cite any chart data (such as age - group preferences or market scale). The statement provides no specific action guidance and is disconnected from the question of 'adjusting resource allocation'.",
+        "E": "Option 2 combines the high preference of Post - 05s and Post - 95s for electric standing desks in chart_46_2 (TGI > 100) and the growth rate of electric standing desks in chart_46_1 (33%), and locks in future potential groups through preference data and growth trends.",
+        "F": "Option 3 combines the high preference of Post - 80s for ergonomic chairs in chart_46_2 and the market scale of ergonomic chairs in chart_46_1 (4.5 billion yuan in 2024), and infers the necessity of resource balance based on preference stability and market base.",
+        "G": "Option 1 combines the high preference of Post - 85s and Post - 90s for ergonomic chairs in chart_46_2 (TGI > 100) and the growth rates of ergonomic chairs and eye - care lamps in chart_46_1 (43% and 26%), and identifies the overlapping groups with high preference and high growth."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Option 2 combines the long - term prediction in chart_46_3, the advanced function demands in chart_46_4 (such as green environmental friendliness with a percentage of 28%), and the growth rate of ergonomic chairs in chart_46_1 (43%), and identifies the connection point between short - term and long - term opportunities through cross - chart data.",
+        "B": "This is an easy distractor: It does not rely on chart data and is only based on general growth strategies (such as channel expansion). However, the statement is broad and provides no specific guidance on 'product line expansion'. It also ignores the consumer demand structure (chart_46_4), so it can be easily excluded by common sense.",
+        "C": "Option 1 combines the market size prediction in 2030 in chart_46_3 (17.4 billion US dollars, doubling growth) and the basic function demands in chart_46_4 (such as product durability with a percentage of 47%), and infers core investment based on long - term trends and demand priority.",
+        "D": "Option 3 combines the long - term growth potential in chart_46_3 and the multi - dimensional experience demands in chart_46_4 (such as emotional value and healing function with a percentage of 23%), and infers an innovation pilot strategy based on low - demand but high - growth prospects.",
+        "E": "This is a hard distractor: It cites data from chart_46_4 (personalization accounts for 17%) and chart_46_3 (long - term scale), but wrongly interprets the 'highest proportion'. In fact, personalization is one of the lowest (basic functions such as seating comfort with 62% have a higher proportion). The distractor confuses the data priority and misleads the strategic direction.",
+        "F": "This is a hard distractor: It combines data from chart_46_4 (adjustability with a percentage of 33%) and chart_46_1 (growth rate + 43%), but wrongly infers'market saturation'. The high growth rate indicates that the market is expanding, not saturated. The distractor misinterprets the trend and wrongly suggests shifting to eye - care lamps (not ergonomic chairs), which goes against the data logic.",
+        "G": "This is an easy distractor: It is based on marketing common sense (such as brand cooperation), but does not cite any chart data (such as long - term outlook or demand). The strategy has no focus on product functions and is disconnected from the question of'sustainable growth'."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     }
   ]

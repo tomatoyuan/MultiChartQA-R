@@ -85,6 +85,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Hard: Misinterpretation of the gap (56.3% of consumers recognize policy promotion, and the gap with 88% of hotels without promotion just indicates room for improvement).",
+        "B": "Option 3 uses the 'Proportion of various promotions for the new plastic restriction order in hotels' chart (low proportion of hotels with signboards and posters) and the 'Consumers' recognized publicity methods' chart (concentrated preference) to infer the feasibility of simple forms. Each option must analyze the numerical trends across charts (e.g., 'high recognition proportion' is based on the data in chart_174_3, and 'lack of promotion' is based on the data in chart_174_1), and it cannot be concluded from a single chart.",
+        "C": "Hard: Incorrect numerical association (the recognition rate of environmental protection values of 37.4% ≠ the poster coverage rate of 5%, and posters only account for 5% of the promotion forms).",
+        "D": "Option 1 relies on the 'Proportion of various promotions for the new plastic restriction order in hotels' chart (showing that the proportion of hotels without promotion is extremely high) and the 'Consumers' recognized publicity methods' chart (showing that the recognition proportion of policy mandatory requirements is the highest) to jointly infer the opportunity of matching the lack of promotion with preferences.",
+        "E": "Easy: Incorrect reliance on common sense (the promotion cost is not shown in the chart, and signboards/posters are low - cost methods).",
+        "F": "Option 2 combines the 'Consumers' recognized publicity methods' chart (significant recognition proportion of environmental protection values) and the 'Proportion of various promotions for the new plastic restriction order in hotels' chart (lack of promotion) to imply the potential related to the environmental protection theme."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Option 3 combines the overall trends of the two charts (the distribution of attitudes matches the distribution of measures) to analyze the dominant factors. Each option needs to compare the numerical values across charts (e.g., 'similar proportion' comes from 37.4% of people who need to replace in chart_174_2 and 36.9% of hotel points in chart_174_4), and it cannot be independently inferred from a single chart.",
+        "B": "Easy: Over - inference based on common sense (not needing to replace does not mean supporting the full cancellation, and 37.4% of consumers still need to replace).",
+        "C": "Option 1 relies on the 'Proportion of people who do not need to replace disposable items daily for multi - person occupancy' chart (showing a high proportion of people who do not need to replace) and the 'Incentive measures expected by consumers' chart (showing that the expected proportion of price discounts is the highest) to jointly infer the law that the majority group prefers economic incentives.",
+        "D": "Hard: Incorrect group equivalence (similar proportion does not mean overlapping groups, and those who need to replace may also prefer price discounts).",
+        "E": "Option 2 uses the 'Proportion of people who do not need to replace disposable items daily for multi - person occupancy' chart (showing a significant proportion of people who need to replace daily) and the 'Incentive measures expected by consumers' chart (showing a comparable expected proportion of hotel points) to infer the compensation mechanism implied by the similar proportion.",
+        "F": "Hard: Incorrect numerical comparison (58.7% < 62.6%, and the actual expected proportion of discounts is lower than the proportion of people who do not need to replace)."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Option 1 relies on the 'Consumers' recognized publicity methods' chart (showing a high recognition proportion of policy mandatory requirements) and the 'Incentive measures expected by consumers' chart (showing that the expected proportion of price discounts is the highest) to jointly infer the content conflict (publicity vs. economic incentives).",
+        "B": "Option 2 uses the 'Consumers' recognized publicity methods' chart (showing a significant recognition proportion of environmental protection values) and the 'Incentive measures expected by consumers' chart (showing a comparable expected proportion of hotel points) to infer the segmented groups implied by the similar proportion.",
+        "C": "Hard: Incorrect judgment of the gap (the actual difference between 37.4% and 36.9% is only 0.5%, but the chart does not prove the secondary nature of the group).",
+        "D": "Option 3 combines the two charts (the proportions of other options are all low) to analyze the concentration of preferences. Each option must compare the numerical trends across charts (e.g., 'similar proportion' comes from 37.4% of environmental protection values in chart_174_3 and 36.9% of hotel points in chart_174_4). A single chart only provides partial information and cannot reveal the conflict or connection.",
+        "E": "Easy: Confusion of concepts based on common sense (publicity is information transmission, and incentives are behavioral rewards, which are essentially different).",
+        "F": "Hard: Incorrect forced association (policy recognition ≠ preference for discounts, and the content difference just shows that there is no necessary association)."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -148,6 +193,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option C infers from the proportion characteristics of publicity methods in chart_174_1 (dominated by no publicity) and the preference data for publicity methods in chart_174_3 that active publicity tools can effectively enhance awareness.",
+        "B": "This option misinterprets the chart data: chart_174_3 shows that the recognition rate of policy mandatory requirements is 56.3%, higher than 37.4% for environmental protection values, but the interfering option reverses the proportions and suggests giving priority to environmental protection values; at the same time, it ignores the high gap of 88% of hotels without publicity in chart_174_1, leading to a deviation in the strategic direction (policy mandatory requirements should be prioritized to quickly fill the gap).",
+        "C": "This option does not rely on chart data but is based on general common sense in the hotel industry (such as brand marketing to enhance awareness), but it does not target environmental protection publicity or the data gap (88% without publicity) and cannot directly enhance environmental awareness.",
+        "D": "Option A involves the extremely high proportion of hotels without publicity in chart_174_1 and consumers' high recognition of the publicity method of policy mandatory requirements in chart_174_3, inferring that the strategy should prioritize matching consumers' preferences to solve the problem of insufficient publicity.",
+        "E": "Option B involves the low active publicity characteristics in chart_174_1 (low proportions of signboards and posters) and the obvious preference for environmental protection value publicity in chart_174_3, inferring that the strategy needs to combine content innovation to cover diverse groups.",
+        "F": "This option is based on general logic (compensation services can improve satisfaction), but it completely deviates from the theme of the publicity strategy, turning to irrelevant service adjustments and may increase resource waste, which contradicts the environmental protection goal."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B"
       ]
     },
     {
@@ -170,6 +230,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Option B involves the trend of consumers' behavior in chart_174_2 (dominated by reducing replacement) and the obvious preference for hotel points in chart_174_4, and also implicitly correlates with the publicity preference in chart_174_3 (such as environmental protection values), inferring that the strategy needs to integrate incentives and publicity to enhance sustainability.",
+        "B": "This option is based on general logic (increasing the cleaning frequency can improve satisfaction), but the behavior is the opposite (increasing cleaning may encourage more replacement of supplies), which contradicts the environmental protection goal of reducing replacement, and it does not refer to the chart data.",
+        "C": "Option C is based on the diversity characteristics of incentive measures in chart_174_4 (dominated by price discounts and hotel points) and the behavior data in chart_174_2, inferring that resource allocation should be dynamically adjusted to match the segmented needs of consumers.",
+        "D": "Option A involves the relatively high proportion of consumers who do not need to replace daily in chart_174_2 and the significant advantage of the expectation for price discounts in chart_174_4, inferring that the strategy should use the high - tendency behavior to match the highly expected measures to efficiently promote reduction.",
+        "E": "This option seemingly uses data but confuses the proportions: chart_174_4 shows that the expectation for price discounts is 58.7%, significantly higher than 36.9% for hotel points, but the interfering option wrongly claims that the proportions are 'comparable' and suggests giving priority to hotel points; this ignores the trend of consumers' preferences (price discounts are more popular), which will reduce the incentive effect.",
+        "F": "This option misinterprets the chart data: chart_174_2 shows that the proportion of those who do not need to replace daily is 62.6% (the majority group), but the interfering option wrongly focuses on the group that needs to replace (37.4%) and suggests high - value incentives for them, while ignoring the low - cost opportunity for the majority group to maintain the behavior; at the same time, it does not combine the high expectation for price discounts (58.7%) in chart_174_4, leading to a misallocation of resources.",
+        "G": "This option does not rely on the charts but is based on common sense (luxury facilities attract customers), but it does not target environmental protection incentives or the data (such as 62.6% do not need to replace), the incentive measures are generalized and may increase costs, and it cannot maximize environmental protection behaviors."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -194,6 +271,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option does not rely on the charts but is based on industry common sense (facility upgrades can improve sustainability), but it is too general and not targeted, and does not combine the specific data of publicity or incentives (such as 88% without publicity), so the resource allocation deviates from the core problem.",
+        "B": "This option misinterprets the chart trends: chart_174_4 shows a high expectation for price discounts (58.7%), but the interfering option wrongly infers that publicity is 'ineffective' (the 88% of hotels without publicity in chart_174_1 actually indicates a large gap); at the same time, it ignores the positive trends of 56.3% recognition of policy mandatory requirements in chart_174_3 and 62.6% of consumers who do not need to replace daily in chart_174_2, leading to an imbalance in resource allocation (publicity needs investment to fill the gap).",
+        "C": "Option B involves the obvious trend of consumers reducing replacement in chart_174_2 and the dominant position of the expectation for price discounts in chart_174_4, and also correlates with the low - publicity status in chart_174_1, inferring that the strategy needs to use the incentive lever to quickly drive behavioral changes.",
+        "D": "Option C is based on the insufficient publicity coverage characteristics in chart_174_1 and the preference distribution of various incentive measures (price discounts and hotel points) in chart_174_4, combined with the data on recognized methods in chart_174_3, inferring that resource allocation needs to be dynamically optimized to achieve synergistic effects.",
+        "E": "This option seemingly uses data but confuses the priorities: the proportion of posters in chart_174_1 is only 5%, which is low, but the interfering option wrongly thinks that there is a large room for improvement and should be prioritized, while ignoring the main preferences of consumers (56.3% for policy mandatory requirements in chart_174_3 and 58.7% for price discounts in chart_174_4); at the same time, it suggests targeting a niche group (37.4% for environmental protection values), ignoring the majority group, resulting in inefficient use of resources.",
+        "F": "Option A involves the high proportion of hotels without publicity in chart_174_1 and the recognition advantage of policy mandatory publicity in chart_174_3, inferring that the strategy should prioritize solving the publicity short - board to lay a foundation.",
+        "G": "This option is based on general logic (training can optimize efficiency), but it turns to internal management rather than directly improving the implementation of the plastic restriction order (publicity or incentives), and it does not refer to any chart data, so it cannot efficiently allocate resources."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

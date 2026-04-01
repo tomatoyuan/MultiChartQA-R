@@ -86,6 +86,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "测评重度抑郁11.9%低于自评明显抑郁24.6%，但中度及以上抑郁总和54.9%高于自评明显24.6%，错误将重度与明显直接比较，忽略整体分布。",
+        "B": "chart_170_1中无抑郁比例仅15.8%，而chart_170_2中抑郁维度健康比例为35.1%，健康比例更高但无抑郁比例较低，冲突隐含工具或认知差异，需联合图表数值推理。总之，所有选项都依赖chart_170_1和chart_170_2的联合比较：测评提供客观分类，自评提供主观报告，单独一张图表无法揭示不一致或联系。",
+        "C": "自评轻微抑郁比例40.3%与测评轻度29.3%表面接近，但轻度抑郁在测评中定义不同（如可能包含部分中度），且中度及以上抑郁比例54.9%远高于自评明显抑郁24.6%，差距显著；错误解读数值差距。",
+        "D": "chart_170_1显示中度及以上抑郁比例（中度、中重度、重度之和）超过50%，而chart_170_2中抑郁维度\"明显\"比例仅为24.6%，两者比较表明自评报告的严重抑郁比例低于测评结果，需要联合两张图表数据才能发现这种潜在低估。",
+        "E": "chart_170_1中轻度抑郁比例为29.3%，chart_170_2中抑郁维度\"轻微\"比例为40.3%，两者均较高，但仅比较一张图表无法得出\"轻度症状在自评中更突出\"的结论，必须跨图分析比例趋势。",
+        "F": "常识上，自我认知能力因人而异，但图表中自评结果部分合理（如健康比例35.1%），并非完全不可信；这基于模型知识（心理评估工具需验证），不依赖数据。",
+        "G": "图表显示测评中无抑郁比例仅15.8%，自评中抑郁维度健康比例35.1%，均未超过50%，因此\"大多数用户没有抑郁问题\"错误；这基于常识（评估工具通常有差异），不依赖数据。"
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "chart_170_4中2023年40岁以上比例略升（如40 - 49岁从6.5%到6.9%），chart_170_3中2023年咨询次数仍高于2020年，需联合推理\"年长群体增加可能稳定需求\"，仅一张图表无法解释缓冲作用。总之，所有选项依赖chart_170_3和chart_170_4的联合分析：咨询次数趋势需结合年龄分布变化来解读隐含规律，单看一张图表只能看到孤立数据。",
+        "B": "chart_170_4中20 - 29岁和30 - 39岁比例变化（年轻组降、中年组升），chart_170_3中咨询次数2023年微降但高于2021年，必须跨图比较趋势才能得出\"年龄分布变化与次数波动相关\"。",
+        "C": "表面看比例降幅（1.7%）大于次数降幅（0.1），但20 - 29岁是最大群体，其比例减少应显著影响次数（咨询次数单位是绝对值，比例变化需换算）；错误解读数值差距和单位。",
+        "D": "chart_170_4显示2023年20 - 29岁比例从48.6%降至46.9%，而chart_170_3中2023年咨询次数从12.8略降至12.7，需联合图表才能推断\"年轻比例减少可能减少高频咨询\"，单独图表无法建立年龄与次数关联。",
+        "E": "常识上，不同年龄段心理健康需求不同（如年轻人更活跃），但图表中年龄分布变化（如20 - 29岁减少）可能相关；这基于行业常识（年龄影响服务使用），不依赖数据。",
+        "F": "60岁以上比例极小（0.4%）且未变，对整体咨询次数影响可忽略；错误将稳定比例视为下降原因，但基于常识（年长者可能需求少），不依赖数据。",
+        "G": "30 - 39岁比例增加，但咨询次数微降，错误推断该群体咨询频率低；实际可能因年轻群体（20 - 29岁）减少更多（降1.7%）主导下降，而30 - 39岁增加可能缓冲影响。"
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "常识上，问题比例高不一定转化为咨询行为（如经济因素），但图表中强迫症状明显19.2%、抑郁24.6%高而次数降；这基于模型知识（需求与行为有差距），不依赖数据。",
+        "B": "chart_170_2中恐怖维度健康比例63.7%较高，chart_170_3中咨询次数总体增长，但抑郁问题比例高与2023年次数降冲突，需跨图比较\"健康维度与问题维度的需求响应差异\"，单独图表无法揭示这种隐含联系。总之，所有选项依赖chart_170_2和chart_170_3的联合推理（部分选项隐含第三张图表，但核心为两张），心理健康问题比例需结合咨询次数趋势来识别冲突或解释，仅单张图表只能呈现片面信息。",
+        "C": "咨询次数下降很小（0.1），但自评问题比例高（如抑郁明显24.6%）与次数降形成潜在冲突；错误忽略微小变化的意义，数值差距被低估。",
+        "D": "chart_170_2中焦虑\"明显\"16.7%、人际关系敏感\"明显\"17.9%比例高，chart_170_3中2023年次数降，需结合chart_170_4（年龄分布变化）推理\"30 - 39岁比例增加可能减少咨询频率\"，依赖两张图表（心理健康和年龄）解释矛盾。",
+        "E": "表面看强迫症状比例高于焦虑，但两者都较高（强迫19.2%，焦虑16.7%），且咨询次数降不能直接归因于特定症状驱动；错误解读排序和因果关系。",
+        "F": "常识性解释用户行为（报告 vs 行动），但未基于图表数值（如自评比例）；不依赖数据，纯语言常识。",
+        "G": "chart_170_2中强迫症状\"明显\"比例19.2%、抑郁\"明显\"24.6%较高，chart_170_3中咨询次数2023年略降至12.7，需联合图表才能发现\"高问题比例未导致次数增长\"的冲突，并推断外部因素（单张图表仅显示数据）。"
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Opcion de error fácil: Igualmente no se basa en los gráficos. Se sugiere una asignación uniforme de recursos (como manuales educativos), pero se ignora la diversidad de síntomas y las diferencias entre los grupos de usuarios, y la dirección de la estrategia es difusa.",
+        "B": "La opción 2 combina la información de chart_170_2 (la proporción de síntomas obsesivos - compulsivos obvios es relativamente alta) y chart_170_3 (la tendencia de crecimiento en el número de sesiones de consulta en los últimos años) para inferir la dinámica de la demanda de los usuarios.",
+        "C": "La opción 3 combina la información de chart_170_1 (la proporción de depresión leve es la más alta) y chart_170_2 (la proporción de síntomas leves en múltiples dimensiones es relativamente alta) para inferir las oportunidades de prevención.",
+        "D": "Opcion de error difícil: Se compara erróneamente los datos de chart_170_2 (la proporción de hostilidad obvia es del 14.3%), pero en realidad la proporción de depresión obvia del 24.6% es más alta, y no se relaciona con la tendencia del número de sesiones de consulta (chart_170_3 muestra un crecimiento general), lo que confunde la gravedad de los síntomas.",
+        "E": "Opcion de error fácil: No se basa en ningún dato de los gráficos, solo se basa en conocimientos generales de la industria (por ejemplo, la propaganda pública puede aumentar la conciencia), pero no hay acciones específicas dirigidas a los síntomas o grupos, y la estrategia es amplia y no específica.",
+        "F": "Opcion de error difícil: Se interpreta erróneamente los datos de chart_170_1 (17.7% de depresión moderadamente grave vs. 11.9% de depresión grave), pero en realidad la proporción de depresión leve es la más alta (29.3%), y no se combina con la proporción de síntomas de depresión obvios del 24.6% en chart_170_2. Se juzga erróneamente a los usuarios con depresión moderadamente grave como el grupo \"más apremiante\".",
+        "G": "La opción 1 combina la información de chart_170_1 (en la distribución de la gravedad de la depresión, la proporción de usuarios con problemas de depresión es relativamente alta) y chart_170_2 (en la dimensión de depresión, las proporciones de síntomas obvios y leves son relativamente altas), y al mismo tiempo implica la información de chart_170_3 (la tendencia de un alto nivel general en el número de sesiones de consulta) para inferir la demanda de recursos."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Opcion de error difícil: Se interpreta erróneamente los datos de chart_170_4 (la proporción de usuarios de 40 - 49 años aumentó de 6.5% a 6.9%), pero el aumento es pequeño (solo 0.4%), y no se relaciona con el número de sesiones de consulta (chart_170_3 muestra una estabilidad general), lo que se juzga erróneamente como un \"aumento repentino de la demanda\".",
+        "B": "Opcion de error difícil: Se interpreta erróneamente las tendencias de chart_170_4 y chart_170_3 (la proporción de usuarios de 30 - 39 años aumentó ligeramente y el número de sesiones de consulta disminuyó ligeramente), pero en realidad la proporción de este grupo y el número de sesiones de consulta son altos, y los cambios no son significativos. Se infiere erróneamente una disminución en la participación.",
+        "C": "Opcion de error fácil: No se basa en los gráficos, solo se basa en conocimientos generales para sugerir una optimización del proceso (como el servicio al cliente), pero no se dirige a la distribución de edades o la tendencia de consulta, y la estrategia es amplia e ineficaz.",
+        "D": "La opción 1 combina la información de chart_170_4 (los usuarios de 20 - 29 años tienen la proporción más alta y disminuyó ligeramente en el último año) y chart_170_3 (el número de sesiones de consulta aumentó en general, pero disminuyó ligeramente en el último año) para inferir la necesidad de innovación en el servicio.",
+        "E": "Opcion de error fácil: Se basa en la lógica de marketing general (como planes de descuento), sin soporte de datos de los gráficos, se ignora el análisis específico de los cambios de edad y el comportamiento de consulta.",
+        "F": "La opción 2 combina la información de chart_170_4 (la proporción de usuarios de 30 - 39 años tiene una tendencia de aumento) y chart_170_3 (el número de sesiones de consulta se mantiene en un nivel alto y estable), y al mismo tiempo implica la información de chart_170_2 (por ejemplo, las proporciones de síntomas de ansiedad o depresión son relativamente altas) para inferir la demanda integral.",
+        "G": "La opción 3 combina la información de chart_170_4 (la proporción de usuarios mayores de 40 años es baja pero estable) y chart_170_3 (la tendencia de un alto nivel general en el número de sesiones de consulta) para inferir la optimización del servicio para los grupos minoritarios, lo que es coherente con los valores (no se ignora a los grupos por su baja proporción)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Opcion de error fácil: Es una sugerencia basada en conocimientos comunes (como una comunidad en línea), sin soporte de datos de los gráficos, se ignora la distribución específica de los síntomas y la necesidad de integración de recursos.",
+        "B": "Opcion de error difícil: Se relaciona erróneamente los datos de chart_170_4 y chart_170_2 (la proporción de usuarios menores de 20 años aumentó ligeramente y la proporción de sensibilidad en relaciones interpersonales leve es del 39.6%), pero el aumento de la proporción es pequeño (0.2%), y no se integra el modelo de consulta (la tendencia de chart_170_3), lo que se infiere erróneamente que la demanda social es dominante.",
+        "C": "Opcion de error fácil: No se basa en los gráficos, solo se basa en conocimientos generales de gestión (como un proceso estandarizado), pero no se dirige a la diversidad de síntomas o el modelo de consulta, y la estrategia es generalizada.",
+        "D": "La opción 3 combina la información de chart_170_2 (la proporción de salud en otras dimensiones de síntomas es relativamente alta, pero la proporción de síntomas leves es significativa) y chart_170_3 (el número de sesiones de consulta está en un nivel alto) para inferir la optimización de recursos.",
+        "E": "La opción 1 combina la información de chart_170_2 (las proporciones de depresión y ansiedad obvias son relativamente altas) y chart_170_3 (la tendencia de crecimiento en el número de sesiones de consulta) para inferir la concentración de la demanda.",
+        "F": "Opcion de error difícil: Se interpreta erróneamente los datos de chart_170_2 (la proporción de salud en síntomas de fobia es del 63.7%), pero en realidad la suma de las proporciones de síntomas leves y obvios del 36.3% indica que hay problemas, y no se priorizan los síntomas con más problemas (por ejemplo, la depresión del 24.6%), se juzga erróneamente la mantención de la salud como eficiente.",
+        "G": "La opción 2 combina la información de chart_170_2 (la proporción de sensibilidad en relaciones interpersonales leve es relativamente alta) y chart_170_4 (los usuarios de 20 - 29 años y 30 - 39 años tienen una proporción alta) para inferir una estrategia relacionada con la edad."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

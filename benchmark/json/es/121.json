@@ -87,6 +87,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合分析国泰君安和中国银河证券的数据，净利润下降幅度更大需计算比例，这不能从单张图表推断。",
+        "B": "结合两家公司2018-2021年增长数据，识别出同步上升趋势和2021年后转折，反映中国证券行业共性，需联合推理时间序列模式。",
+        "C": "这是一个Easy干扰项：基于行业常识（如广告对品牌的影响），但完全不依赖图表内容。图表中没有涉及广告或营销支出数据，因此该选项与图表无关且错误。",
+        "D": "这是一个Hard干扰项：基于图表但错误解读趋势。实际数据：两家公司净利润在2021年峰值后均下降（如国泰君安2022年降至115.07亿元，银河证券2022年降至77.61亿元），但该选项错误地描述为'稳定增长'。",
+        "E": "这是一个Hard干扰项：表面上基于图表数据，但对数值理解错误。实际数据：国泰君安2021-2022年营业收入从428.17亿元降至354.71亿元（下降17.2%），中国银河证券从359.83亿元降至336.42亿元（下降6.5%），因此国泰君安下降幅度更大。但该选项错误地声称银河证券下降更大。",
+        "F": "这是一个Easy干扰项：基于模型自身知识（传统经纪业务的重要性），但忽略图表内容。国泰君安的收入构成显示财富管理等业务占比显著（如财富管理26.99%），因此错误。",
+        "G": "依赖比较两家公司2022-2023年数据，显示利润低于2021年但收入变化小，暗示成本或外部因素影响，需跨图验证趋势一致性。"
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：基于图表但数值理解错误。实际数据：国泰君安投资银行营收占比9.73%，财富管理占比26.99%，因此财富管理更高。但该选项错误地声称投资银行占比更高。",
+        "B": "依赖比较国泰君安和银河证券收入下降情况，结合财富管理数据，推理该业务对收入稳定性的贡献，需跨图趋势对比。",
+        "C": "这是一个Easy干扰项：基于语言常识（业务增长带动利润），但不依赖图表。图表中财富管理数据（如新开户数）未直接链接到净利润变化，且银河证券2022年净利润下降，因此该选项错误。",
+        "D": "需要联合国泰君安财富管理收入占比和银河证券财富管理新开户及市占率数据，分析占比与市场活动的关系，隐含业务重要性，不能从单图推断。",
+        "E": "这是一个Hard干扰项：基于图表但对数值错误。实际数据：银河证券APP开户市占率为7.48%，但该选项错误地描述为'低于5%'，明显误读。",
+        "F": "基于国泰君安财富管理占比和银河证券APP市占率数据，推断战略重点，需联合分析业务构成与市场指标。",
+        "G": "这是一个Easy干扰项：基于行业常识（成本削减策略），但忽略图表内容。图表显示财富管理业务被强调（如银河APP新开户数据），可能用于缓冲波动，而非首先被削减，因此错误。"
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "结合Robinhood收入快速增长但利润波动大和国泰君安收入增长平缓但利润稳定的数据，比较收入-利润关系，需跨图计算比例（如利润波动率）。",
+        "B": "依赖Robinhood 2024年9月净利润转正数据和国泰君安2024年9月利润低于2021年数据，分析同期数据冲突，需联合推理市场环境或公司策略。",
+        "C": "这是一个Easy干扰项：基于模型自身知识（在线券商 vs 传统券商），但泛化错误。图表中Robinhood代表特定美国公司，而国泰君安是中国公司，并非所有在线券商都亏损，因此错误。",
+        "D": "这是一个Hard干扰项：基于图表但差距理解错误。实际计算：Robinhood收入从2020年8.98亿美元增至2023年17.14亿美元（增长90.9%），国泰君安从2020年352.00亿元增至2023年361.41亿元（增长2.7%），因此Robinhood增长更快。但该选项错误地声称国泰君安增长更快。",
+        "E": "这是一个Hard干扰项：基于图表但数值错误。实际数据：2023年Robinhood净利润为-5.41亿美元（亏损），国泰君安为121.77亿元（盈利），但该选项错误地声称Robinhood净利润更高。",
+        "F": "对比Robinhood多年度亏损数据和国泰君安同期每年盈利数据，显示冲突性盈利模式，需跨图验证时间重叠和趋势差异。",
+        "G": "这是一个Hard干扰项：基于图表但趋势错误。实际数据：2024年9月国泰君安净利润95.23亿元，低于2021年峰值150.13亿元，未创历史新高；而Robinhood首次盈利。但该选项错误地描述国泰君安'创历史新高'。"
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D",
+        "G"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Combinar chart_121_2 (la gestión de patrimonios tiene la segunda mayor proporción en la composición de ingresos) y chart_121_3 (los datos del número de nuevas cuentas de gestión de riqueza abiertas a través de la APP y la participación de mercado, que muestran una tendencia de crecimiento de la demanda).",
+        "B": "Esta es una opción de distracción fácil: Sugerir fusiones, adquisiciones o alianzas es una estrategia de crecimiento general y no se basan en los datos de los gráficos (como la proporción de negocios o la tendencia de beneficio neto). No está relacionado con la asignación de recursos de negocios en el enunciado del problema y carece de pertinencia.",
+        "C": "Esta es una opción de distracción fácil: Basado en el conocimiento general de gestión (mejorar el moral del equipo), no se basa en ningún dato de los gráficos. La expresión es amplia y no hay una guía específica de ajuste de negocios, y no aborda la composición de ingresos o la tendencia financiera en los gráficos, por lo que es fácil de excluir por conocimiento general.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente, se utilizan los datos de los gráficos (el pico de beneficio neto en chart_121_1), pero se interpreta incorrectamente. El alto beneficio neto en 2021 estuvo principalmente dominado por los negocios institucionales y de trading (41.31% en chart_121_2), no por la banca de inversión (solo 9.73%). Se atribuye erróneamente el rendimiento general a un negocio de baja proporción, confundiendo la relación causal.",
+        "E": "Combinar chart_121_2 (la proporción de negocios internacionales es la más baja) y chart_121_1 (cuando los ingresos disminuyeron significativamente en 2022, la disminución del beneficio neto fue aún mayor, lo que indica sensibilidad a riesgos).",
+        "F": "Esta es una opción de distracción difícil: Aparentemente, se citan las tendencias de los gráficos (la disminución del beneficio neto en chart_121_1), pero se interpreta incorrectamente. Los negocios institucionales y de trading son relativamente estables en las fluctuaciones (por ejemplo, el crecimiento de 2020 a 2021), y la disminución en 2022 fue un fenómeno general en la industria, no significa que este negocio sea frágil. Por el contrario, este negocio tiene la mayor proporción y debe ser fortalecido en lugar de reducido, lo que contradice la lógica de los datos.",
+        "G": "Combinar chart_121_2 (la proporción de negocios institucionales y de trading es la más alta) y chart_121_1 (la tendencia de beneficio neto: después de la disminución en 2022, se recuperó rápidamente en 2023, lo que muestra resistencia)."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Combinar chart_121_3 (los datos del número de nuevas cuentas de gestión de riqueza abiertas a través de la APP de China Galaxy Securities y la participación de mercado, que muestran una tendencia de crecimiento) y chart_121_2 (la gestión de patrimonios de Guotai Junan tiene la segunda mayor proporción en la composición de ingresos y se puede integrar rápidamente).",
+        "B": "Esta es una opción de distracción difícil: Aparentemente, se utilizan los datos de los gráficos (la rentabilidad de Robinhood y la proporción de negocios internacionales de Guotai Junan), pero se interpreta incorrectamente. Robinhood tuvo pérdidas graves en sus etapas tempranas (por ejemplo, -36.86 mil millones de dólares en 2021), y la proporción de negocios internacionales de Guotai Junan es pequeña y el riesgo es alto. Se ignora erróneamente el alto potencial de la digitalización en el mercado interno (la gestión de patrimonios tiene una proporción de 26.99%), confundiendo la lógica.",
+        "C": "Combinar chart_121_2 (la proporción de negocios internacionales es la más baja) y chart_121_4 (la tendencia financiera de Robinhood: tuvo pérdidas en las etapas tempranas pero se volvió rentable en 2024, lo que muestra que se requiere inversión en etapas).",
+        "D": "Combinar chart_121_1 y chart_121_3 (la fluctuación del beneficio neto de los corredores de valores chinos es relativamente suave) y chart_121_4 (Robinhood tuvo pérdidas en la mayoría de los años).",
+        "E": "Esta es una opción de distracción fácil: Sugerir optimizar el servicio al cliente es una mejora operativa general y no se citan los datos de digitalización o negocios internacionales en los gráficos (como el crecimiento de la APP o casos internacionales). No está relacionado con la estrategia de impulso de crecimiento y carece de soporte de datos.",
+        "F": "Esta es una opción de distracción fácil: Basado en prácticas comerciales generales (proyectos de RSC), no se utilizan ningún dato de los gráficos. La expresión es amplia y no hay una guía específica de asignación de recursos, y no está relacionado con el núcleo del problema (digitalización o negocios internacionales), por lo que es fácil de excluir por conocimiento general.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente, se citan los datos de los gráficos (la participación de mercado de la APP), pero se interpreta incorrectamente. El hecho de que la APP de China Galaxy Securities abrió 1.1084 millones de nuevas cuentas (chart_121_3) indica una fuerte demanda, y la participación de mercado del 7.48% es una oportunidad de crecimiento en lugar de saturación. Se infiere erróneamente que se debe reducir la inversión en digitalización, lo que contradice la tendencia de los datos."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Aparentemente, se utilizan los datos de los gráficos (la reducción de pérdidas de Robinhood), pero se interpreta incorrectamente. Robinhood todavía está en pérdidas (-5.41 mil millones de dólares en 2023), y la proporción de negocios internacionales de Guotai Junan es solo del 5.99% (chart_121_2), con alto riesgo. Se lo considera erróneamente como una herramienta de cobertura, ignorando las ventajas de los negocios estables internos (como la gestión de patrimonios).",
+        "B": "Esta es una opción de distracción fácil: Sugerir la cooperación transversal es una estrategia amplia y no se citan los datos de tendencia financiera o composición de negocios en los gráficos. No está relacionado con la gestión de costos y la combinación de negocios en el enunciado del problema y carece de una guía de viabilidad.",
+        "C": "Combinar chart_121_1 (por ejemplo, cuando los ingresos disminuyeron en 2022, la disminución del beneficio neto fue más significativa) y chart_121_2 (la proporción de negocios internacionales es la más baja, lo que puede indicar baja eficiencia).",
+        "D": "Combinar chart_121_2 (la gestión de patrimonios tiene una alta proporción en la composición de ingresos) y chart_121_3 (los datos de nuevas cuentas de gestión de riqueza abiertas a través de la APP, que muestran una demanda anti-cíclica).",
+        "E": "Esta es una opción de distracción difícil: Aparentemente, se citan las tendencias de los gráficos (la disminución del beneficio neto), pero se interpreta incorrectamente. La gestión de patrimonios tiene una alta proporción en la composición de ingresos (26.99%, chart_121_2), y los datos de la APP de China Galaxy Securities (1.1084 millones de nuevas cuentas abiertas) respaldan su potencial de crecimiento. La disminución del beneficio neto en 2022 fue un fenómeno general en la industria, no significa que este negocio sea frágil, lo que invierte la lógica.",
+        "F": "Esta es una opción de distracción fácil: Basado en el conocimiento general de control de costos (reducción general de presupuesto), no se utilizan los datos de los gráficos. La expresión es genérica, no se optimiza la combinación de negocios y se ignora la eficiencia de negocios específicos en los gráficos (como los negocios internacionales de baja proporción), por lo que es fácil de excluir.",
+        "G": "Combinar chart_121_4 (Robinhood tuvo pérdidas pero se volvió rentable en 2024, lo que muestra la importancia del capital y el aprendizaje) y chart_121_1 (la tendencia de fluctuación de ingresos requiere medidas preventivas)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     }
   ]

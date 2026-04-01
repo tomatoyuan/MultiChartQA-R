@@ -81,6 +81,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "基于驱动因素图表的“Transformación e innovación”比例较低，但信心图表的“Igual que en 2022”比例也较小，暗示创新型企业可能更易维持或提升信心，需两图数据联合分析趋势。",
+        "B": "这是一个Hard干扰项：表面基于图表（chart_175_2转型升级驱动占7%，chart_175_1需要恢复比例4.9%），但错误比较差距（实际需要恢复比例仅4.9%，选项却错误说成44.4%，误将非常有信心的数值用于恢复比例，导致推理矛盾）。",
+        "C": "这是一个Easy干扰项：不依赖图表内容，仅基于常识（如全球贸易环境改善可能提升信心），但图表中未提及外部经济因素，且原问题要求基于图表数据解释，因此错误。",
+        "D": "依赖驱动因素图表的“Servicio al cliente”比例与信心图表的“Poco confiado, necesita tiempo para recuperarse”比例较低，表明服务客户可能减少风险感知，但需跨图对比才能推断隐含联系。",
+        "E": "需要结合信心图表中“Muy confiado, espera un rápido desarrollo”和“Bastante confiado, espera un aumento estable”的比例总和较高，与驱动因素图表中“Oportunidades de expansión y crecimiento del mercado”占比最高进行数值比较，显示主要驱动力与高信心正相关，单一图表无法得出此规律。",
+        "F": "这是一个Easy干扰项：不依赖图表，仅基于行业常识（品牌建设能提升信心），但图表未涉及品牌相关数据，与问题无关。",
+        "G": "这是一个Hard干扰项：表面基于图表（chart_175_2政策影响占比2%），但错误解读数值（实际政策影响仅2%，选项却错误说成55%，误将市场扩张的数值归给政策）。"
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -99,6 +116,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：不依赖图表，仅基于常识（大企业资金更稳），但图表中新锐企业资金链挑战20%（chart_175_3），成熟企业仅9%，选项却泛化说成熟企业挑战小，忽略了具体数据。",
+        "B": "依赖挑战图表中成熟企业“Establecimiento de marca y aumento de la conciencia”比例相对较低，与行业分布图表中“Tecnología de la información”占比较高，表明成熟企业在技术驱动行业可能品牌基础更好，需跨图数值分析。",
+        "C": "这是一个Hard干扰项：表面基于图表（chart_175_3新锐品牌建立挑战9%，chart_175_4金融科技占比0.2%），但错误解读数值和排序（实际新锐品牌建立挑战仅9%，选项却错误说成24%，误将战略制定数值用于品牌建立；且挑战比例最低的是成熟企业营销资源6%，与金融科技无关）。",
+        "D": "需要结合挑战图表中新锐企业“Elaboración de estrategias”比例最高，与行业分布图表中“Salud médica”占比最大进行对比，推断医疗健康作为新兴行业，新企业战略挑战更突出，但单一图表无法揭示此隐含联系。",
+        "E": "这是一个Hard干扰项：表面基于图表（chart_175_3成熟产品创新挑战22%，chart_175_4先进制造占比13.9%），但错误比较差距（实际产品创新挑战比例新锐和成熟均为22%，选项却错误说成熟比例低12%，误将品牌建立数值用于产品创新）。",
+        "F": "这是一个Easy干扰项：不依赖图表，仅基于常识（新消费行业易获客），但图表中新锐企业用户获取挑战比例实际为22%（chart_175_3），较高，且行业分布未直接关联挑战比例，因此错误。",
+        "G": "基于挑战图表中新锐企业“Adquisición de usuarios y conversión de ventas”比例较高，与行业分布图表中“Nuevos consumos”占比虽非最大但显著，暗示消费类新企业用户获取难，需两图联合识别行业特性影响。"
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -117,6 +151,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "需要对比驱动因素图表中“Oportunidades de expansión y crecimiento del mercado”占比最高，与挑战图表中新锐企业“Construcción y operación de canales de venta”比例较高，显示驱动力与挑战存在冲突（扩张易但渠道难），但需跨图数值分析矛盾原因。",
+        "B": "这是一个Hard干扰项：表面基于图表（chart_175_2技术驱动3%，chart_175_3新锐战略制定挑战24%），但错误数值和比较（实际技术驱动仅3%，选项却错误说成55%，误将市场扩张数值用于技术；且战略制定挑战24%高，选项说成12%低，误将成熟企业数值用于新锐）。",
+        "C": "这是一个Easy干扰项：不依赖图表，仅基于常识（市场扩张能降低渠道挑战），但实际图表中新锐销售渠道挑战20%（chart_175_3），较高，且驱动与挑战可能有冲突，选项却错误假设无冲突。",
+        "D": "基于驱动因素图表中“Cadena de suministro”占比很低，但挑战图表中新锐企业“Garantía de una cadena de fondos estable”比例较高，暗示供应链驱动因素不足可能加剧资金挑战，需联合两图数据解释不一致。",
+        "E": "这是一个Easy干扰项：不依赖图表，仅基于常识（服务客户能减少获客难度），但图表中新锐用户获取挑战22%（chart_175_3），较高，选项却错误说挑战可忽略，与数据矛盾。",
+        "F": "这是一个Hard干扰项：表面基于图表（chart_175_2供应链驱动4%，chart_175_3新锐资金链挑战20%），但错误解读数值（实际供应链驱动仅4%，选项却错误说成7%，误将转型升级数值归给供应链；且资金链挑战20%高，选项说成9%低，误将成熟企业数值用于新锐）。",
+        "G": "依赖驱动因素图表的“Servicio al cliente”比例较高，与挑战图表中新锐企业“Adquisición de usuarios y conversión de ventas”比例和成熟企业比例均高，表明服务客户驱动但实际获取用户挑战大，需两图联合揭示隐含冲突。"
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -139,6 +190,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Se refiere a chart_175_2 (el factor de impulso de la expansión del mercado es del 55%) y chart_175_3 (la proporción de empresas de exportación emergentes en el desafío de elaboración de estrategias es del 24% y en el desafío de garantía de una cadena de fondos estable es del 20%, significativamente más alta que el 9% de las empresas de exportación maduras). La debilidad estratégica de las empresas emergentes está directamente relacionada con el factor de impulso central. El apoyo de recursos puede cerrar la brecha y aprovechar las oportunidades del mercado.",
+        "B": "Esta opción se basa en conocimientos comerciales generales (la construcción de marca es importante), pero no se combina con el contenido específico de los gráficos (por ejemplo, la marca no se menciona directamente en los factores de impulso centrales, y la proporción de establecimiento de marca en los desafíos es baja). La expresión es general y no tiene una guía específica para el nivel de confianza de la salida al mar o los factores de impulso, por lo que es fácil de descartar.",
+        "C": "Esta opción interpreta erróneamente los datos de los gráficos. El chart_175_2 muestra que la proporción del factor de impulso del impacto de las políticas es solo del 2%, un factor secundario; mientras que el nivel de confianza (chart_175_1) es alto (el 87.6% tiene confianza) y no está directamente relacionado con las políticas. Sugerir invertir en factores secundarios para \"reducir significativamente el riesgo\" exagera su función y ignora el impulso principal (como la expansión del mercado del 55%).",
+        "D": "Se refiere a chart_175_1 (las empresas tienen un alto nivel de confianza, el 87.6% tiene confianza) y chart_175_2 (el factor de impulso de la expansión del mercado ocupa el 55%, siendo el impulso central). En un entorno de alta confianza, el riesgo de inversión se reduce. La dominancia de la expansión del mercado indica que la inclinación de recursos puede mejorar eficientemente la tasa de éxito.",
+        "E": "Se refiere a chart_175_1 (alto nivel de confianza) y chart_175_2 (el factor de impulso de servicio al cliente ocupa el 19%, siendo el segundo factor más importante). Bajo un alto nivel de confianza, la inversión de recursos en servicio al cliente puede fortalecer la estabilidad de las empresas y complementar la expansión del mercado.",
+        "F": "Esta opción confunde los datos de los desafíos. En el chart_175_3, la proporción de empresas de exportación emergentes en el desafío de adquisición de recursos de marketing es del 19%, pero solo el 6% de las empresas de exportación maduras. La opción sugiere asignar recursos a las empresas emergentes; al mismo tiempo, en los factores de impulso centrales (chart_175_2), la expansión del mercado del 55% no está directamente relacionada con el marketing (el marketing no es un factor de impulso independiente). Asignar erróneamente la prioridad al desafío de marketing en lugar del desafío de elaboración de estrategias más destacado (24%)."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -160,6 +226,21 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en principios comerciales generales (la cadena de suministro es importante), pero no cita datos específicos de los gráficos (como la distribución de industrias o los desafíos). La expresión es demasiado general y no tiene un análisis diferenciado para la distribución de industrias (chart_175_4) o los desafíos de diferentes tipos de empresas (chart_175_3), por lo que es fácil de descartar por conocimiento general.",
+        "B": "Se refiere a chart_175_4 (la proporción de nuevos consumos es del 10% y la de entretenimiento cultural es del 9.6%, industrias emergentes con gran potencial) y chart_175_3 (la proporción de empresas de exportación emergentes en el desafío de adquisición de recursos de marketing es del 19%, mucho más alta que el 6% de las empresas de exportación maduras). La debilidad de marketing de las empresas emergentes necesita el mayor apoyo en industrias en crecimiento para aprovechar las oportunidades de expansión.",
+        "C": "Esta opción exagera erróneamente las industrias secundarias. El chart_175_4 muestra que la proporción de fintech es solo del 0.2%, una industria muy pequeña; mientras que el desafío de innovación de productos (chart_175_3) del 22% es común, pero sugerir \"apoyar en primer lugar\" esta industria ignora la salud médica con una proporción más alta (29.5%) y la tecnología de la información (25.1%). Asociar erróneamente una pequeña industria con el desafío, la dirección de la estrategia tiene una gran desviación.",
+        "D": "Esta opción interpreta erróneamente la relación entre los desafíos y las industrias. En el chart_175_3, el desafío de construcción y operación de canales de venta de las empresas de exportación emergentes es del 20%, pero el de las empresas de exportación maduras es del 16%, la diferencia no es grande; al mismo tiempo, la proporción de la industria de nuevos consumos es solo del 10% (chart_175_4), no es la dominante. Sugerir priorizar la industria de nuevos consumos ignora industrias más grandes (como la salud médica) y no se combina con el impulso central de la eficacia (como la expansión del mercado).",
+        "E": "Se refiere a chart_175_4 (la salud médica ocupa el 29.5% y la tecnología de la información ocupa el 25.1%, las dos principales industrias) y chart_175_3 (la proporción del desafío de innovación de productos y localización es del 22%, tanto en empresas emergentes como en maduras). La combinación del dominio de la industria y el alto desafío indica que la optimización de recursos puede maximizar la eficacia.",
+        "F": "Se refiere a chart_175_3 (la proporción de empresas de exportación emergentes en el desafío de garantía de una cadena de fondos estable es del 20%, significativamente más alta que el 9% de las empresas de exportación maduras) y chart_175_4 (la fabricación avanzada ocupa el 13.9% y el transporte automotriz ocupa el 11.7%, industrias intensivas en tecnología). La fragilidad de la cadena de fondos se amplifica en industrias intensivas en capital. El apoyo puede reducir el riesgo y promover el desarrollo sostenible."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -182,6 +263,21 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción compara erróneamente los datos de los desafíos. El chart_175_3 muestra que el desafío de adquisición de usuarios de las empresas emergentes (22%) es casi el mismo que el de las empresas maduras (21%), pero otros desafíos de las empresas maduras (como el establecimiento de marca del 12%) son más destacados; al mismo tiempo, el factor de impulso de servicio al cliente solo ocupa el 19% (chart_175_2), no es el factor de impulso principal. Sugerir priorizar la adquisición de usuarios para las empresas maduras ignora el mayor desafío de las empresas emergentes en la elaboración de estrategias (24%).",
+        "B": "Se refiere a chart_175_2 (el factor de impulso de la expansión del mercado ocupa el 55%, el factor dominante) y chart_175_3 (la proporción de empresas de exportación emergentes en el desafío de elaboración de estrategias es del 24% y en el desafío de adquisición de usuarios es del 22%, ambas significativamente más altas que las de las empresas de exportación maduras). La debilidad estratégica de las empresas emergentes está directamente relacionada con el factor de impulso central. Un plan especializado puede optimizar el uso de recursos.",
+        "C": "Esta opción confunde las prioridades de los desafíos. En el chart_175_3, el desafío de establecimiento de marca de las empresas de exportación emergentes es solo del 9%, mucho más bajo que la elaboración de estrategias (24%) o la garantía de una cadena de fondos estable (20%); mientras que el factor de impulso de la expansión del mercado (55%) no está directamente relacionado con la marca (la marca no es un impulso central). Sugerir erróneamente el apoyo a la marca para \"convertir eficientemente el crecimiento\" ignora los campos de desafío realmente altos.",
+        "D": "Esta opción se basa en conocimientos generales de ESG (medio ambiente, sociedad, gobierno), pero no se combina con el contenido específico de los gráficos (por ejemplo, el desarrollo sostenible solo ocupa el 6% en los factores de impulso centrales, chart_175_2). La expresión es general y no tiene una diferenciación para los desafíos de diferentes tipos de empresas o el nivel de confianza. La estrategia carece de una guía de acción específica.",
+        "E": "Se refiere a chart_175_2 (el factor de impulso de servicio al cliente ocupa el 19%, el segundo factor más importante) y chart_175_3 (la proporción de empresas de exportación maduras en el desafío de establecimiento de marca es del 12%, más alta que el 9% de las empresas de exportación emergentes). La combinación del desafío de marca de las empresas maduras y el factor de impulso de servicio al cliente. La inversión de recursos puede mejorar la adhesión de los clientes.",
+        "F": "Se refiere a chart_175_2 (el factor de impulso de transformación e innovación ocupa el 7%) y chart_175_3 (la proporción del desafío de innovación de productos y localización es del 22%, tanto en empresas emergentes como en maduras), y se combina con chart_175_1 (alto nivel de confianza). Aunque la proporción del impulso de innovación no es alta, el entorno de alto desafío y alto nivel de confianza indica que la inversión de recursos tiene un gran potencial de retorno."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     }
   ]

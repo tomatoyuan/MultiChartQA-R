@@ -88,6 +88,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是hard干扰项，错误理解图表数值（chart_131_1）：实际出生人口在2018年后持续下降（2018年1523万→2023年902万），而非反弹增长；选项声称'反弹式增长'与数据矛盾。",
+        "B": "这是hard干扰项，错误解读图表差距（chart_131_2）：老年人口数量从2012年12777万增至2023年21676万，增长幅度巨大（近70%），而非'lento y estable'；选项低估了老年人口对需求的拉动作用。",
+        "C": "选项结合了出生人口下降和老年人口上升的趋势，推断出对家政服务需求的影响。出生人口下降、老年人口上升这种人口结构变化必然增加养老需求，减少育婴需求，但整体推高家政市场规模。联合推理必要性：仅凭单张图表无法得出此结论。单独显示出生下降可能暗示需求减少，但联合老年人口上升后，才能发现需求重心转移至老年照护；同时需参考市场规模增长趋势以确认影响。",
+        "D": "选项结合了出生人口下降和老年人口上升的趋势，推断出对家政服务需求的影响。出生人口下降、老年人口上升这种人口结构变化必然增加养老需求，减少育婴需求，但整体推高家政市场规模。联合推理必要性：仅凭单张图表无法得出此结论。单独显示出生下降可能暗示需求减少，但联合老年人口上升后，才能发现需求重心转移至老年照护；同时需参考市场规模增长趋势以确认影响。",
+        "E": "选项结合了出生人口下降和老年人口上升的趋势，推断出对家政服务需求的影响。出生人口下降、老年人口上升这种人口结构变化必然增加养老需求，减少育婴需求，但整体推高家政市场规模。联合推理必要性：仅凭单张图表无法得出此结论。单独显示出生下降可能暗示需求减少，但联合老年人口上升后，才能发现需求重心转移至老年照护；同时需参考市场规模增长趋势以确认影响。",
+        "F": "这是easy干扰项，基于行业常识（urbanización影响家庭结构），但图表未提供urbanización数据；问题限定于出生和老年人口趋势，此选项脱离图表内容。",
+        "G": "这是easy干扰项，基于常识（如政府政策可能推动行业），但不依赖图表数据；图表中未提及任何政策因素，且问题焦点是人口趋势而非外部政策。"
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是easy干扰项，基于常识（技术进步可能减少需求），但图表未提及技术因素；问题焦点是薪资、增长率和出生人口数据，此选项无关。",
+        "B": "这是hard干扰项，错误解读图表排序（chart_131_1）：出生人口在2021年后持续下降（2021年1062万→2023年902万），而非'recuperación significativa'；选项颠倒数据趋势，导致推理无效。",
+        "C": "这是easy干扰项，基于常识（recesión económica影响消费），但图表未提供经济数据；问题限定于给定图表，此选项脱离具体数值。",
+        "D": "选项结合了薪资增长和市场规模增长率下滑的冲突趋势，并从其他图表引入因素解释矛盾，引入出生人口下降说明需求分化。单张图表无法揭示矛盾。仅显示薪资增长可能暗示行业繁荣，但联合增长率下降才能发现悖论；需进一步结合人口数据解释需求端变化。选项区分在于侧重成本、需求或价格机制。",
+        "E": "这是hard干扰项，错误理解图表数值（chart_131_5）：实际薪资增长率在2020年后波动下降（2020年28.2%→2023年6.3%），而非'se mantiene por encima del 20%'；同时，市场规模增长率（chart_131_4）从2020年25.9%降至2023年6.9%，选项错误地声称两者同步加速。",
+        "F": "选项结合了薪资增长和市场规模增长率下滑的冲突趋势，并从其他图表引入因素解释矛盾，隐含劳动力市场紧张对价格的传导效应。单张图表无法揭示矛盾。仅显示薪资增长可能暗示行业繁荣，但联合增长率下降才能发现悖论；需进一步结合人口数据解释需求端变化。选项区分在于侧重成本、需求或价格机制。",
+        "G": "选项结合了薪资增长和市场规模增长率下滑的冲突趋势，并从其他图表引入因素解释矛盾，用薪资成本解释增速放缓。单张图表无法揭示矛盾。仅显示薪资增长可能暗示行业繁荣，但联合增长率下降才能发现悖论；需进一步结合人口数据解释需求端变化。选项区分在于侧重成本、需求或价格机制。"
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -136,6 +170,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是easy干扰项，基于常识（preferencias del consumidor变化），但图表未涉及健康或高端服务；问题要求基于给定图表数据（如人口和市场规模），此选项无关。",
+        "B": "选项联合GDP占比上升与薪资上升、市场规模扩张图表，推断驱动因素。单独的GDP占比图表无法解释占比上升原因。需联合市场规模数据确认行业体量增长；同时依赖薪资趋势说明供给侧投入。选项区分在于侧重市场规模、劳动力供给或需求结构变化。",
+        "C": "选项联合GDP占比上升与市场规模扩大、老年人口增长图表，推断驱动因素。单独的GDP占比图表无法解释占比上升原因。需联合市场规模数据确认行业体量增长；同时依赖老年人口趋势说明需求端动力。选项区分在于侧重市场规模、劳动力供给或需求结构变化。",
+        "D": "这是hard干扰项，错误解读图表差距（chart_131_2）：老年人口数量增速实际加快（如2015 - 2020年增长31.4%，2020 - 2023年增长13.7%），而非'desaceleración del crecimiento'；选项低估了老年人口对需求的贡献。",
+        "E": "选项联合GDP占比上升与出生人口下降、老年人口上升图表，说明需求转移如何提升行业地位。单独的GDP占比图表无法解释占比上升原因。需联合市场规模数据确认行业体量增长；同时依赖出生人口、老年人口趋势说明需求端动力。选项区分在于侧重市场规模、劳动力供给或需求结构变化。",
+        "F": "这是hard干扰项，错误解读图表数值（chart_131_4和chart_131_5）：市场规模增长率2023年为6.9%（非峰值，2016年31.0%更高），且薪资持续上升（2023年11.8千元，增长率6.3%），而非'descenso'；选项错误地组合数据，导致推理无效。",
+        "G": "这是hard干扰项，错误理解图表趋势（chart_131_1）：出生人口从2016年1786万降至2023年902万，持续下降而非'crecimiento rápido'；选项与数据矛盾，无法解释GDP占比上升。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "F",
+        "D"
       ]
     },
     {
@@ -161,6 +212,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una sugerencia general de conocimiento común que no se basa en los datos de los gráficos; ignora el impacto específico de los cambios en la estructura demográfica (como el aumento de la población mayor y la disminución de la tasa de natalidad) en la asignación de recursos y no aborda la mejora de la eficiencia, por lo que se puede descartar a través de la lógica general.",
+        "B": "La opción B involucra el gráfico chart_131_2 (tendencia de aumento continuo de la población de 65 años y mayores) y el gráfico chart_131_3 (proporción de los ingresos de la industria de servicios domésticos en el PIB aumentando de manera estable). La deducción muestra que el aumento de la población mayor impulsa directamente la demanda de servicios domésticos, y la inclinación de los recursos hacia esta industria puede hacer frente eficientemente a los desafíos del envejecimiento poblacional.",
+        "C": "La opción C involucra el gráfico chart_131_5 (tendencia de fluctuación pero aumento general de los salarios en la industria de servicios domésticos) y el gráfico chart_131_4 (ampliación continua del tamaño del mercado de servicios domésticos). La deducción destaca que el aumento de los salarios refleja la presión del costo laboral. Combinado con el crecimiento del tamaño del mercado, es necesario mejorar la eficiencia a través de la capacitación para optimizar los recursos.",
+        "D": "La opción D involucra el gráfico chart_131_1 (tendencia de disminución anual del número de nacimientos) y el gráfico chart_131_2 (aumento del número de la población mayor). La deducción señala que la disminución de los nacimientos significa una reducción futura de la fuerza laboral y una disminución de la capacidad de apoyo familiar, por lo que se necesita un servicio comunitario para complementar.",
+        "E": "Esta opción se basa en el conocimiento común de la salud preventiva y no utiliza las tendencias de los gráficos; no se dirige a la optimización de recursos o la sostenibilidad (como el aumento de la demanda de servicios domésticos) y la formulación es demasiado general, por lo que es fácil considerarla una estrategia ineficaz.",
+        "F": "Relación errónea entre el aumento de la proporción de los ingresos de la industria de servicios domésticos (el gráfico chart_131_3 muestra un aumento de 0,25% a 0,92%) y el apoyo a la atención de la vejez; los servicios domésticos son auxiliares, no sustitutivos, y se ignora la complejidad del aumento repentino de la población mayor (el gráfico chart_131_2 muestra un aumento de 127,77 millones a 216,76 millones). La sugerencia de transferir recursos en realidad puede reducir la eficiencia.",
+        "G": "Interpretación errónea de la tendencia de disminución de la tasa de natalidad (el gráfico chart_131_1 muestra una disminución de 16,35 millones en 2012 a 9,02 millones en 2023): aunque la tasa de natalidad ha disminuido, todavía hay demanda de servicios de cuidado infantil (por ejemplo, la reducción del tamaño de la familia puede aumentar la demanda de cuidado individual). Detener por completo la inversión puede aumentar la carga familiar e ignorar la asignación equilibrada, lo que es un error lógico."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -184,6 +252,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "La opción A involucra el gráfico chart_131_4 (la previsión de la tasa de crecimiento del tamaño del mercado muestra una desaceleración gradual en el futuro) y el gráfico chart_131_5 (la tasa de crecimiento de los salarios en la industria de servicios domésticos fluctúa pero aumenta en general). La deducción destaca que cuando la tasa de crecimiento desacelera, es necesario cambiar hacia la optimización de la eficiencia. El aumento de los salarios eleva los costos, y la inversión en tecnología puede contrarrestar la disminución de la rentabilidad marginal.",
+        "B": "Tratamiento erróneo de la tendencia de los salarios (el gráfico chart_131_5 muestra un aumento de los salarios pero una tasa de crecimiento fluctuante, como el 5,5% en 2021): congelar los salarios ignora el aumento de la demanda (el tamaño del mercado en el gráfico chart_131_4 se está ampliando), lo que puede provocar la fuga de empleados y la disminución de la calidad del servicio, perjudicando en realidad la rentabilidad.",
+        "C": "La opción C involucra el gráfico chart_131_5 (tendencia de aumento de los niveles de salario) y el gráfico chart_131_4 (tendencia de ampliación del tamaño del mercado). La deducción muestra que el aumento de los salarios refleja la competencia en el mercado laboral. Combinado con la expansión del mercado, la inversión en talento puede prevenir la escasez y mejorar la competitividad.",
+        "D": "Basada en la lógica simple de la competencia de precios, no considera los gráficos; ignora el aumento del costo salarial (el gráfico chart_131_5 muestra que el salario promedio aumentó de 4,8 mil yuanes a 11,8 mil yuanes), lo que puede provocar una compresión de las ganancias en lugar de una mejora, y la dirección de la estrategia está desviada.",
+        "E": "La opción E involucra el gráfico chart_131_4 (tendencia de crecimiento anual del tamaño del mercado de servicios domésticos y previsión futura que muestra una expansión continua) y el gráfico chart_131_3 (tendencia de aumento de la proporción de la industria de servicios domésticos en el PIB). La deducción señala que el crecimiento tanto del tamaño del mercado como de la proporción en el PIB indica que la industria está en una etapa ascendente, y la estrategia de expansión puede aprovechar el pico de la demanda.",
+        "F": "Esta es una sugerencia general de conocimiento comercial que no utiliza los datos de los gráficos; no se dirige a las tendencias específicas del mercado de servicios domésticos (como el crecimiento del tamaño del mercado o los cambios salariales), y la formulación es vacía, por lo que es fácil de descartar.",
+        "G": "Interpretación errónea de la disminución de la tasa de crecimiento del tamaño del mercado (el gráfico chart_131_4 muestra que la tasa de crecimiento disminuyó de 26,0% en 2015 a 2,9% en 2027E): aunque la tasa de crecimiento se desacelera, el tamaño del mercado sigue expandiéndose (de 2776 a 13855). Reducir la inversión significa perder oportunidades de crecimiento, lo que contradice la tendencia."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -208,6 +293,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Interpretación errónea del crecimiento del tamaño del mercado (el gráfico chart_131_4 muestra un aumento del tamaño de 2776 a 13855) y del aumento de la proporción en el PIB (chart_131_3): centrarse en los servicios de alta gama ignora las necesidades generalizadas (como en áreas con alta densidad de población mayor), lo que puede ampliar las desigualdades y entrar en conflicto con la sostenibilidad económica.",
+        "B": "Basada en la lógica general del capital humano, no involucra los datos de los gráficos; ignora la integración transversal (como la combinación de servicios domésticos y atención de la vejez) y no promueve la equidad o la sostenibilidad, por lo que es fácil considerarla una sugerencia irrelevante.",
+        "C": "La opción C involucra el gráfico chart_131_2 (tendencia de aumento continuo de la población de 65 años y mayores) y el gráfico chart_131_3 (tendencia de aumento de la proporción de la industria de servicios domésticos en el PIB). La deducción muestra que el aumento de la población mayor está directamente relacionado con la demanda de servicios domésticos, y la inclinación de los recursos hacia las áreas de alta demanda puede optimizar la equidad.",
+        "D": "La opción D involucra el gráfico chart_131_4 (crecimiento del tamaño del mercado de servicios domésticos pero la previsión de la tasa de crecimiento muestra una desaceleración en el futuro) y el gráfico chart_131_5 (tendencia de aumento de los niveles de salario). La deducción señala que cuando la tasa de crecimiento fluctúa y los costos aumentan, la regulación puede estabilizar el mercado y mejorar la eficiencia en el uso de recursos.",
+        "E": "La opción E involucra el gráfico chart_131_4 (tendencia de crecimiento a largo plazo del tamaño del mercado) y el gráfico chart_131_2 (tendencia de aumento de la población mayor). La deducción destaca que el crecimiento de la demanda requiere la colaboración de múltiples partes. Combinado con el potencial del tamaño del mercado, una estrategia diversificada puede promover el desarrollo sostenible.",
+        "F": "Uso erróneo de la tendencia de aumento de la población mayor (el gráfico chart_131_2 muestra un aumento de 127,77 millones a 216,76 millones): el empleo forzoso no es práctico y puede aumentar la carga de las familias de bajos ingresos (ignorando el aumento del costo salarial, chart_131_5), lo que viola el principio de equidad.",
+        "G": "Esta es una sugerencia general de conocimiento macroeconómico que no utiliza los gráficos; no se dirige a las tendencias específicas de los servicios domésticos o la atención de la vejez (como el aumento repentino de la población mayor o el papel económico de los servicios domésticos), y la estrategia es amplia y carece de orientación para la acción."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     }
   ]

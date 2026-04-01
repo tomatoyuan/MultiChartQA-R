@@ -88,6 +88,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Requiere razonamiento conjunto del gráfico de ingreso disponible per cápita (que muestra aumento anual del ingreso) y del gráfico de tamaño del mercado de equipamiento de fitness (que muestra expansión continua). Un solo gráfico no puede establecer causalidad: las tendencias de ingreso por sí solas no explican la expansión del mercado, debe combinarse con los datos de crecimiento del mercado de equipamiento de fitness para inferir que el aumento del ingreso puede impulsar el consumo.",
+        "B": "Esta opción es incorrecta porque se basa en conocimiento general del sector (tecnología que reduce costos), no en el contenido del gráfico. Los gráficos no cubren costos de producción o cambios de precios, no se puede inferir este factor a partir de los datos.",
+        "C": "Se basa en la comparación entre una tasa de crecimiento alta del ingreso en un año específico y una tasa de crecimiento alta del mercado de equipamiento de fitness en el mismo año, infiriendo una correlación positiva. Solo mirar el gráfico de ingreso o el gráfico de equipamiento de fitness no permite llegar a la conclusión de 'respuesta interanual'.",
+        "D": "Esta opción es incorrecta porque interpreta erróneamente los valores del gráfico: la tasa de crecimiento real del mercado de equipamiento de fitness en 2021 fue del 15.0% (punto 11 de chart_147_2), no del 6.0%; el crecimiento del ingreso del 9.1% (punto 13 de chart_147_1) se correlaciona positivamente con el alto crecimiento del mercado (15.0%), pero esta opción describe erróneamente 'solo 6.0%', tergiversando la relación.",
+        "E": "Combina una tasa de crecimiento baja del ingreso en un año específico con una tasa de crecimiento alta del mercado de equipamiento de fitness en el mismo año, infiriendo el papel de factores no relacionados con el ingreso (como la conciencia de salud). Esto requiere una comparación cruzada entre gráficos para explicar la anomalía.",
+        "F": "Esta opción es incorrecta porque interpreta erróneamente las brechas de datos: los datos de ingreso de 2013 no se proporcionan en chart_147_1 (solo 2018 - 2022), y el mercado de equipamiento de fitness en 2013 disminuyó un 3.3% (punto 4 de chart_147_2), pero el gráfico de ingreso comienza en 2018, imposibilitando la comparación; la opción inventa un 'crecimiento estable del ingreso', creando una comparación errónea.",
+        "G": "Esta opción es incorrecta porque se basa únicamente en conocimiento general (como tendencias globales de salud), no en los datos del gráfico. Los gráficos no mencionan factores globales o redes sociales, y la pregunta requiere explicar factores comunes basados en los gráficos, no en conocimiento externo."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Combina la fluctuación del gráfico de ingreso (como la caída en la tasa de crecimiento ese año) con el crecimiento relativamente estable del gráfico de alimentos funcionales para adelgazar, infiriendo la independencia del mercado. Esto requiere un análisis cruzado de las diferencias de tendencia.",
+        "B": "Requiere razonamiento conjunto del gráfico de ingreso (la tasa de crecimiento del ingreso ese año es menor que en años anteriores y posteriores) y del gráfico de alimentos funcionales para adelgazar (alta tasa de crecimiento ese año). Un solo gráfico no puede revelar la causa del conflicto: el gráfico de ingreso por sí solo muestra una desaceleración económica, pero el gráfico de alimentos funcionales para adelgazar muestra crecimiento contrario a la tendencia, debe razonarse de forma cruzada para inferir factores externos (como una crisis de salud).",
+        "C": "Esta opción es incorrecta porque interpreta erróneamente las brechas de datos: la tasa de crecimiento real de los alimentos funcionales para adelgazar en 2020 fue del 17.4% (punto 4 de chart_147_3), no del 0%; la tasa de crecimiento de 2019 no se proporciona (solo el valor del tamaño del mercado), la opción inventa un '0%', creando una comparación inexistente.",
+        "D": "Esta opción es incorrecta porque se basa en conocimiento general del sector (papel del marketing), no en el contenido del gráfico. Los gráficos no tienen datos de marketing empresarial, no se puede inferir este factor.",
+        "E": "Esta opción es incorrecta porque se basa en conocimiento lingüístico general (demanda de salud inherente), no utiliza datos del gráfico. Los gráficos no mencionan cambios en la demanda, la pregunta requiere explicar el conflicto basado en datos, no en generalidades.",
+        "F": "Esta opción es incorrecta porque interpreta erróneamente los valores del gráfico: la tasa de crecimiento real del ingreso de los residentes en 2020 fue del 4.7% (crecimiento positivo, punto 10 de chart_147_1), no negativo; la opción escribe erróneamente '-4.7%', exagerando incorrectamente la caída del ingreso, tergiversando la explicación del conflicto.",
+        "G": "Se basa en la comparación entre la baja tasa de crecimiento del ingreso ese año y la alta tasa de crecimiento del gráfico de alimentos funcionales para adelgazar, infiriendo el papel de factores no relacionados con el ingreso (como la innovación). Solo mirar el gráfico de alimentos funcionales para adelgazar no puede explicar por qué el mercado aún crece cuando el ingreso es bajo."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Se basa en la tendencia de crecimiento del gráfico de alimentos funcionales para adelgazar y el alto porcentaje en el rango de bajo gasto del gráfico de proporción de gasto, infiriendo la impulsión del consumo masivo. Solo mirar el gráfico de tamaño del mercado no permite llegar a la conclusión sobre 'niveles de consumo'.",
+        "B": "Esta opción es incorrecta porque se basa en conocimiento general del sector (conveniencia de las compras en línea), no en el contenido del gráfico. Los gráficos no tienen datos de canales, la pregunta requiere revelar características de comportamiento basadas en los gráficos.",
+        "C": "Combina el crecimiento proyectado del gráfico de alimentos funcionales para adelgazar con el bajo porcentaje en el rango de alto gasto del gráfico de proporción de gasto, infiriendo el impacto de las estrategias de precios. Esto requiere un análisis cruzado del vínculo implícito entre tamaño y distribución.",
+        "D": "Esta opción es incorrecta porque interpreta erróneamente la relación de datos: la tasa de crecimiento del tamaño del mercado en 2022 del 21.2% (punto 4 de chart_147_3) y el rango de gasto de 100 - 1000 yuanes con 20.1% (punto 2 de chart_147_4) no tienen una causalidad directa; y el rango bajo (20.1%) no es el mínimo (el mínimo es más de 10000 yuanes con 1.4%), la opción implica erróneamente una 'contribución débil', mientras que los datos no respaldan esta inferencia.",
+        "E": "Esta opción es incorrecta porque interpreta erróneamente el orden del gráfico: el rango de más de 10000 yuanes en la proporción de gasto es realmente solo 1.4% (porcentaje mínimo, punto 7 de chart_147_4), no el más alto; el rango más alto es 2001 - 4000 yuanes (32.7%), la opción asigna erróneamente valores, tergiversando el comportamiento de consumo.",
+        "F": "Esta opción es incorrecta porque se basa en conocimiento demográfico general (preferencias de consumidores jóvenes), no en datos del gráfico. Los gráficos no cubren edad o grupos de consumidores, no se puede inferir esta característica a partir de los datos.",
+        "G": "Requiere razonamiento conjunto del gráfico de alimentos funcionales para adelgazar (tamaño del mercado creciendo anualmente) y del gráfico de proporción de gasto (cierto porcentaje de usuarios de Internet gasta en rangos de cantidad correspondientes). Un solo gráfico no puede inferir la estructura de consumo: los datos de tamaño del mercado por sí solos no muestran la distribución de cantidades, debe combinarse con la proporción de gasto para inferir el papel dominante del consumo de nivel medio."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Combinando chart_147_4 (la proporción de los gastos de pérdida de peso de los usuarios chinos de Internet en el rango de 100 - 4000 yuan es la más alta, lo que muestra el grupo de consumo principal) y chart_147_1 (la tendencia de crecimiento de los ingresos respalda el aumento de la capacidad de consumo del público en general) y chart_147_3 (la expansión del tamaño del mercado de alimentos funcionales para adelgazar). Lógica de razonamiento: los datos de gastos guían la segmentación del mercado, la tendencia de ingresos garantiza la viabilidad, y apuntar al mercado de bajo y medio nivel puede maximizar la cobertura de usuarios.",
+        "B": "Esta es una distracción difícil: aparentemente utiliza los datos de chart_147_2 y chart_147_3, pero interpreta erróneamente la comparación del tamaño del mercado. Chart_147_2 muestra que la escala pronosticada del mercado de equipos de fitness en 2024 es de 79.960 millones de yuanes, mientras que chart_147_3 muestra que la escala pronosticada de los alimentos funcionales para adelgazar en 2024 es de 474.450 millones de yuanes (más grande). Sin embargo, la distracción invierte los hechos y afirma que el mercado de equipos de fitness es \"mucho más alto\" que el de alimentos para adelgazar, lo que misguía la toma de decisiones. Los datos reales indican que tanto el tamaño del mercado como la tasa de crecimiento de los alimentos para adelgazar son más altos. Esta sugerencia puede misguiar la dirección de inversión.",
+        "C": "Combinando chart_147_1 (el ingreso disponible per cápita de los residentes aumenta año tras año, y aunque la tasa de crecimiento fluctúa, la tendencia general es ascendente) y chart_147_3 (el tamaño del mercado de alimentos funcionales para adelgazar está creciendo rápidamente, y la tasa de crecimiento interanual se mantiene en un nivel alto, lo que indica una fuerte expansión de la demanda). Lógica de razonamiento: el aumento de los ingresos mejora la capacidad de consumo y impulsa una mayor rentabilidad de la inversión en un mercado de alto crecimiento (alimentos para adelgazar).",
+        "D": "Esta es una distracción fácil: se basa en conocimientos comerciales generales (como la importancia de la marketing de marca), pero la formulación es amplia y no se combina específicamente con los datos de los gráficos ni se proporciona una estrategia de asignación de inversión clara (por ejemplo, equipos de fitness vs. alimentos para adelgazar). En términos generales, aunque la marketing de marca es beneficiosa, no puede responder directamente a la pregunta central de \"optimizar la asignación de recursos\" y se ignora los detalles de los ingresos y las tendencias del mercado, por lo que es fácil de descartar.",
+        "E": "Combinando chart_147_1 (la tendencia general de crecimiento de los ingresos es estable), chart_147_2 (el tamaño del mercado de equipos de fitness está creciendo de manera constante y la tasa de crecimiento pronosticada es estable) y chart_147_3 (el mercado de alimentos para adelgazar está creciendo rápidamente, pero puede atraer más competencia debido al alto crecimiento). Lógica de razonamiento: el crecimiento de los ingresos respalda el consumo saludable, pero los dos mercados son complementarios (los equipos de fitness son más duraderos y los alimentos para adelgazar tienen un mayor potencial de explosión). Una inversión equilibrada puede dispersar el riesgo.",
+        "F": "Esta es una distracción fácil: se basa en preocupaciones comunes (como la burbuja del mercado), pero no se basa en las tendencias de los gráficos. Chart_147_3 muestra que el crecimiento de los alimentos funcionales para adelgazar sigue siendo fuerte (la tasa de crecimiento de 2021 - 2024 es superior al 15%), sin signos de burbuja. Esta sugerencia es demasiado amplia y subjetiva y se ignora la sustentación de los datos, por lo que es fácil de descartar por conocimiento general.",
+        "G": "Esta es una distracción difícil: se basa en los datos de la tasa de crecimiento de los ingresos de chart_147_1 (por ejemplo, la tasa de crecimiento en 2020 es del 4.7%, que es un punto bajo), pero el razonamiento es erróneo. La distracción sugiere aumentar la inversión cuando el crecimiento de los ingresos es bajo para \"estimular la demanda\", pero la desaceleración del crecimiento de los ingresos generalmente se acompaña de una actitud cautelosa en el consumo. Aumentar la inversión puede ser ineficaz o con alto riesgo (como se muestra en el gráfico, el crecimiento del mercado en 2020 puede verse inhibido), lo que es contrario a la estrategia real (por ejemplo, invertir en períodos de alto crecimiento)."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: aparentemente utiliza los datos de gastos de chart_147_4 (la proporción en el rango de gastos altos: 5.3% en el rango de 8001 - 10000 yuan y 1.4% por encima de 10000 yuan), pero el razonamiento es erróneo. La distracción sugiere centrarse en el grupo de gastos altos para obtener altas ganancias, pero los datos indican que la proporción de este grupo es muy pequeña (6.7% en total), mientras que el rango medio (por ejemplo, 32.7% en el rango de 2001 - 4000 yuan) es el principal. La estrategia real debería priorizar el mercado mayoritario. Esta sugerencia desperdiciará recursos.",
+        "B": "Esta es una distracción fácil: se basa en conocimientos de marketing generales (como la función de la publicidad en línea), pero la formulación es general y no se combina con los datos de los gráficos (como la distribución de gastos o las tendencias del mercado). En términos generales, aunque la publicidad es útil, no proporciona una guía de acción específica (por ejemplo, apuntar a qué rango de gastos) y no optimiza la asignación del presupuesto de marketing, por lo que es fácil de descartar.",
+        "C": "Combinando chart_147_4 (la proporción de los gastos de pérdida de peso de los usuarios chinos de Internet en el rango de 100 - 4000 yuan es la más alta, lo que muestra el grupo de consumo principal) y chart_147_2 (el tamaño del mercado de equipos de fitness está creciendo de manera constante y la tasa de crecimiento interanual es estable). Lógica de razonamiento: los datos de gastos guían la selección del público objetivo, y las tendencias del mercado garantizan la existencia de la demanda. Apuntar al grupo de gastos medios puede maximizar las ventas.",
+        "D": "Esta es una distracción difícil: se basa en los datos de la tasa de crecimiento del mercado de chart_147_2 (por ejemplo, la tasa de crecimiento en 2016 es del 4.6%, que es un punto bajo), pero se confunden las tendencias. La distracción sugiere reducir el presupuesto de marketing cuando el crecimiento es lento para \"ahorrar costos\", pero en períodos de bajo crecimiento se necesita más marketing para estimular la demanda (como se muestra en el gráfico, el crecimiento en los años posteriores se recupera). En realidad, se pueden perder oportunidades. Esto es contrario a la lógica de los datos.",
+        "E": "Combinando chart_147_4 (la proporción en el rango de gastos altos, como por encima de 8000 yuan, es muy baja) y chart_147_2 (la tendencia general de crecimiento del mercado de equipos de fitness es buena). Lógica de razonamiento: los datos de gastos revelan un grupo de bajo potencial, y las tendencias del mercado apoyan la optimización de recursos para evitar inversiones ineficientes.",
+        "F": "Esta es una distracción fácil: se basa en la intuición comercial general (como atraer usuarios con precios bajos), pero no se referencia a los gráficos. Chart_147_4 muestra que la proporción en el rango de gastos medios es la más alta. Ignorar este grupo resultará en la pérdida del mercado principal. La sugerencia es amplia y contraria a los conocimientos generales, por lo que es fácil de descartar.",
+        "G": "Combinando chart_147_2 (la tasa de crecimiento pronosticada del mercado de equipos de fitness se mantiene en un nivel alto) y chart_147_1 (la tendencia de crecimiento de los ingresos de los residentes, especialmente en los períodos pico de la tasa de crecimiento, como en 2021). Lógica de razonamiento: en los períodos pico de crecimiento de los ingresos, el ingreso disponible aumenta. Cuando coincide con el pico de crecimiento del mercado, aumentar la inversión en marketing puede mejorar la relación costo - beneficio."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una distracción fácil: se basa en prácticas comerciales comunes (como la optimización de la cadena de suministro), pero la formulación es generalizada y no se combina con los datos de fluctuación de ingresos o características de gastos. En términos generales, el control de costos es beneficioso, pero no se dirige a la \"expansión del mercado\" o la respuesta a la competencia, y no hay una estrategia específica (por ejemplo, el diseño de la línea de productos), por lo que es fácil de descartar.",
+        "B": "Combinando chart_147_3 (el tamaño del mercado de alimentos funcionales para adelgazar está creciendo rápidamente, y la tasa de crecimiento interanual está en un nivel alto) y chart_147_1 (la tendencia general de crecimiento de los ingresos mejora la capacidad de consumo). Lógica de razonamiento: un mercado de alto crecimiento necesita ser impulsado por la innovación, y la tendencia de ingresos garantiza la demanda. Invertir en investigación y desarrollo puede mejorar la competitividad.",
+        "C": "Esta es una distracción difícil: aparentemente utiliza los datos de ingresos de chart_147_1 (la tasa de crecimiento en 2021 es del 9.1%) y los datos de gastos de chart_147_4, pero la inferencia es errónea. La distracción sugiere lanzar productos de gama alta cuando el crecimiento de los ingresos es alto, pero chart_147_4 muestra que la proporción en el rango de gastos altos es muy pequeña (21% por encima de 4001 yuan en total), mientras que el rango medio (32.7% en el rango de 2001 - 4000 yuan) es el principal. El alto crecimiento de los ingresos puede ser más favorable para el mercado mayoritario. Esta sugerencia puede malinterpretar la demanda.",
+        "D": "Combinando chart_147_4 (la proporción en el rango de gastos altos, como por encima de 10000 yuan, es extremadamente baja) y chart_147_3 (la tendencia general de expansión del mercado de alimentos para adelgazar). Lógica de razonamiento: los datos de gastos revelan un grupo minoritario, y la tendencia del mercado apoya una estrategia de masificación para evitar la mala asignación de recursos.",
+        "E": "Esta es una distracción difícil: se basa en los datos de gastos de chart_147_4 (la proporción en el rango bajo es del 20.1%) y la tendencia de ingresos de chart_147_1, pero se confunde la lógica. La distracción sugiere centrarse en el grupo de gastos bajos, pero los datos indican que la proporción en el rango medio (32.7% en el rango de 2001 - 4000 yuan) es la más alta, y el crecimiento general de los ingresos respalda la actualización del consumo. La estrategia real debería priorizar el grupo principal. Esta sugerencia ignorará un mercado más grande.",
+        "F": "Esta es una distracción fácil: se basa en suposiciones subjetivas (como la estabilización del mercado), pero no se referencia a las tendencias de los gráficos. Chart_147_3 muestra que la tasa de crecimiento de los alimentos funcionales para adelgazar sigue siendo alta (la tasa de crecimiento pronosticada en 2024 es del 18.0%), y no se estabiliza. La sugerencia es amplia y se ignora el riesgo de aumento de la competencia, por lo que es fácil de descartar por conocimiento general.",
+        "G": "Combinando chart_147_1 (la tasa de crecimiento interanual de los ingresos de los residentes fluctúa, por ejemplo, la tasa de crecimiento en 2020 es baja), chart_147_4 (la proporción de los gastos de pérdida de peso de los usuarios chinos de Internet en el rango de 100 - 4000 yuan es la más alta) y chart_147_3 (el tamaño del mercado de alimentos para adelgazar sigue creciendo). Lógica de razonamiento: en períodos de desaceleración del crecimiento de los ingresos, el consumo es cauteloso. Los datos de gastos apoyan la segmentación de productos económicos para garantizar la resistencia del mercado."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

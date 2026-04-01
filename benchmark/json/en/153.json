@@ -84,6 +84,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on common sense (e.g., advertising affects interest), but does not rely on the chart data (the charts do not mention advertising or external factors), so it is easy to identify as incorrect.",
+        "B": "Combining the two charts, infer the correlation between the high-growth-rate search trend and the prominent growth of medical aesthetic solutions. It is necessary to compare the data trends of the two charts.",
+        "C": "Combining the two charts, infer that the nursing demand may shift to medical aesthetics. It is necessary to analyze the changes in the base and proportion across the charts.",
+        "D": "This is a hard distractor: It seemingly bases on the data (the search volume in chart_153_1 increased by 106.32%, and the proportion of medical aesthetics in chart_153_2 increased), but incorrectly quantifies the 'slight increase' (in fact, the proportion of medical aesthetics increased by nearly 93%), and does not consider the correlation of the 81.12% increase in 'pore discussion questions', resulting in a distorted judgment of the growing interest.",
+        "E": "This is a hard distractor: It misinterprets the chart data (chart_153_1 shows that the growth rate of 'pore care' is the highest at 143.75%), but ignores that the proportion of'medical aesthetics' in chart_153_2 increased from 4.70% to 9.07% (a significant increase), and it has nothing to do with the search popularity, so the reasoning is incorrect.",
+        "F": "Combining the two charts, infer the law between the rising search popularity and the enhanced preference for medical aesthetics. It cannot be inferred from a single chart (e.g., a single chart cannot show the distribution of solutions)."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It seemingly bases on the data (the proportion of skin care in chart_153_2 is 71.33%), but incorrectly infers that 'acne breakouts have been solved' (the chart does not prove the causal relationship), and there is a contradiction between the high proportion of acne breakouts in chart_153_3 and the low search volume. However, this option ignores that users may have scattered discussions (e.g., the original option A).",
+        "B": "Combining the two charts, infer the priority of users' resource allocation. It is necessary to compare the severity of the problems and the search popularity across the charts.",
+        "C": "Combining the two charts, infer that the mainstream solutions cover the nursing needs and suppress the specialized search. It is necessary to analyze the structural relationship between the two charts.",
+        "D": "This is an easy distractor: It is based on common sense (e.g., the independence of problems), but does not rely on the chart (chart_153_3 shows that acne breakouts as a derivative problem of large pores account for 45.00%, with a strong correlation), so it is easy to judge as incorrect through common sense.",
+        "E": "Combining the two charts, infer the conflict between users' preference for discussion and specialized care. It is necessary to compare the problem proportion and the search volume difference across the charts (a single chart cannot explain the search behavior).",
+        "F": "This is a hard distractor: It misinterprets the chart data (chart_153_3 shows that the proportion of acne breakouts is 45.00%, which is lower than the 77.33% of oily skin but higher than the 34.33% of redness), but ignores the context of'relatively high', and does not combine the low search volume of 'pore care' in chart_153_1 (only 0.39 million), resulting in one-sided reasoning."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -126,6 +156,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on common sense (e.g., the influence of living habits), but does not rely on the chart (chart_153_2 shows that the proportion of lifestyle solutions decreased from 7.52% to 6.45%, not increased), so it is easy to identify as incorrect.",
+        "B": "This is a hard distractor: It incorrectly correlates the chart data (the proportion of blackheads in chart_153_3 is 74.33%, and the proportion of method solutions in chart_153_2 decreased), but in fact, the increase in the proportion of'skin care' to 71.33% is the main reason, and it does not consider the driving force of the 77.33% of oily skin problem, resulting in incorrect reasoning about the preference shift.",
+        "C": "Combining the two charts, infer the causal relationship between the high-incidence problems and the preference for solutions. It is necessary to analyze the problem structure and the solution distribution across the charts (a single chart cannot infer the solution selection).",
+        "D": "This is a hard distractor: It seemingly bases on the data (the proportion of dull complexion in chart_153_3 is 61.33%, and the proportion of medical aesthetics in chart_153_2 increased to 9.07%), but incorrectly attributes the cause (dull complexion is not the most prominent problem, and the growth of medical aesthetics may be related to multiple factors), ignoring the dominant role of oily skin and blackheads (the original option A), resulting in a misinterpretation.",
+        "E": "Combining the two charts, infer that the severity of the problems drives the hierarchical demand for solutions. It is necessary to correlate the priority of the problems and the dynamics of the solutions across the charts.",
+        "F": "Combining the two charts, infer that users abandon local methods and turn to mainstream solutions. It is necessary to compare the problem proportion and the change trend of the solutions."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -148,6 +193,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "In chart_153_2, the proportion of oral administration plans is low (0.57%) and decreasing. In chart_153_1, the search base for 'Pore care' is small (0.39 million notes). Resource allocation should avoid inefficient areas.",
+        "B": "This is an easy interference option: It suggests a broad expansion of the product line without considering the growth of pore searches shown in the chart (e.g., an 81.12% increase in 'Pore discussion questions') or the proportion of improvement plans (dominated by skin care). The strategy lacks specificity and can be easily excluded by common sense.",
+        "C": "Chart_153_2 shows that the proportion of skin care plans is the highest (71.33%) and on the rise. In chart_153_1, the keyword 'Pore care' has the highest growth rate (143.75%), indicating a large potential for growth in the demand for skin care products. Resource allocation should be prioritized in this area.",
+        "D": "This is an easy interference option: It does not rely on any chart data and is only based on general marketing common sense (e.g., advertising can enhance brand awareness). However, it lacks specific action guidelines and ignores the pore search trend and preferences for improvement plans, making it unable to optimize resource allocation.",
+        "E": "This is a hard interference option: It misinterprets the data in chart_153_2 (the proportion of method plans decreased from 17.76% to 12.58%) and the search volume in chart_153_1 (the base of 'Pore discussion questions' is large but the growth is moderate), ignoring the increase in the proportion of skin care plans to 71.33%. The suggestion to reduce skin care resources contradicts the data trend.",
+        "F": "This is a hard interference option: It seemingly uses the growth rate of 'Pore care' in chart_153_1 (143.75%), but incorrectly links it to the oral administration plan (chart_153_2 shows that the proportion of oral administration is only 0.66% and decreased to 0.57%), confusing keyword searches with plan types and leading to a deviation in the strategic direction (oral administration is not the main plan).",
+        "G": "In chart_153_2, the proportion of medical aesthetics plans increased rapidly (from 4.70% to 9.07%). In chart_153_1, the search volume of 'Total volume of topics about large pores' increased strongly (with a growth rate of 106.32%), reflecting an increasing interest of consumers in efficient solutions."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -170,6 +232,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Chart_153_3 shows that oily skin (77.33%) and excessive blackheads and clogged pores (74.33%) are the most common accompanying problems. In chart_153_2, the proportion of skin care plans is the highest (71.33%) and increasing, indicating that product development should focus on these high-demand areas.",
+        "B": "This is an easy interference option: It is based on common promotional strategies (e.g., free samples can enhance loyalty) without referring to the high incidence of accompanying problems in chart_153_3 (e.g., oily skin at 77.33%) or the changes in improvement plans in chart_153_2. The strategy is broad and lacks specificity.",
+        "C": "This is a hard interference option: It misinterprets the proportion difference in chart_153_2 (71.33% for skin care vs. 0.57% for oral administration) and suggests an equal allocation of resources, ignoring the dominance of skin care and the inefficiency of oral administration in the data, which will reduce resource utilization.",
+        "D": "This is an easy interference option: It suggests general content development, ignoring the specific accompanying problems in chart_153_3 (e.g., excessive blackheads and clogged pores at 74.33%) and the dominant position of skin care plans in chart_153_2 (71.33%). It can be excluded by common sense as it lacks a focus on pores.",
+        "E": "In chart_153_3, the proportions of dull complexion (61.33%) and roughness (55.33%) are relatively high. In chart_153_2, the proportion of medical aesthetics plans increased significantly (from 4.70% to 9.07%), reflecting that medical aesthetics methods are suitable for solving such stubborn problems.",
+        "F": "This is a hard interference option: It seemingly combines the proportion of acne breakouts in chart_153_3 (45.00%, but not the highest) and the growth of medical aesthetics in chart_153_2 (9.07%), but makes an incorrect link - the proportion of acne breakouts is lower than that of oily skin (77.33%) and blackheads (74.33%), and the growth of medical aesthetics is not directly targeted at acne breakouts, leading to a deviation of the strategy from the core pain points.",
+        "G": "In chart_153_2, the proportion of lifestyle plans decreased (from 7.52% to 6.45%). In chart_153_3, the proportion of related accompanying problems is relatively low (e.g., redness at 34.33%). Resource allocation should prioritize high-impact areas."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -192,6 +271,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "In chart_153_1, the keyword 'Pore care' has the highest growth rate (143.75%). In chart_153_3, the incidence rates of oily skin and blackhead problems are the highest (77.33% and 74.33%). Content marketing should use high-growth topics to link to core problems.",
+        "B": "This is a hard interference option: It seemingly quotes the proportion of roughness in chart_153_3 (55.33%) and the historical proportion of method plans in chart_153_2 (17.76%), but ignores that the proportion of method plans has decreased to 12.58% and that roughness is not the most common problem (lower than oily skin and blackheads), making an incorrect link to the trend and leading to a deviation in the content focus.",
+        "C": "This is an easy interference option: It relies on general content marketing common sense (e.g., visual formats can enhance engagement) without considering the search growth trend in chart_153_1 (e.g., the growth rate of 'Pore care' is 143.75%) or the accompanying problems in chart_153_3. The strategy lacks data support.",
+        "D": "This is an easy interference option: It suggests international expansion, ignoring the pore search behavior (e.g., the growth of specific keywords) and skin problems (e.g., oily skin at 77.33%) focused on in the chart. It is broad and lacks clear guidance on pore education.",
+        "E": "This is a hard interference option: It incorrectly uses the data in chart_153_1 (the search volume of 'Pore discussion questions' is 79.06 million notes but the growth rate is 81.12%, lower than the 143.75% of 'Pore care'). The suggestion ignores the growth rate and prioritizes high search volume, which contradicts the optimization strategy (it should be based on growth potential).",
+        "F": "In chart_153_1, the search volume of 'Total volume of topics about large pores' is large (17.95 million notes) and the growth is fast (106.32%). In chart_153_2, the proportion of medical aesthetics plans increased rapidly (9.07%), indicating that the content should combine efficient solutions to enhance engagement.",
+        "G": "In chart_153_1, the search volume of 'Pore care' is small (0.39 million notes). In chart_153_2, the proportion of oral administration plans is low (0.57%) and decreasing. Resource optimization should avoid inefficient content."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     }
   ]

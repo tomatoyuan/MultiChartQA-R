@@ -87,6 +87,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Combine the trend of Internet penetration rate and the data of user usage percentage. When the penetration rate rises to a high level, it may lower the threshold for users to access the Internet, helping platforms such as WeChat Video Account (with a medium usage percentage) attract new users. However, it is necessary to analyze the impact of the penetration rate on 'emerging services' across charts.",
+        "B": "It relies on industry common sense (innovation attracts users), but the charts do not cover content - tool innovation. It is an easy interference item.",
+        "C": "Misinterpret the chart data: The penetration rate has actually been rising continuously (from 75.6% in 2022 to 78.6% in 2024), and there is no sign of a slowdown in the growth rate. It is a hard interference item.",
+        "D": "Wrong understanding of the values: The usage percentage of Xigua Video in 2025 is 25.59%, far lower than that of Douyin (46.80%). Moreover, there is no direct causal relationship between the growth of penetration rate and the platform's share. It is a hard interference item.",
+        "E": "It is a common - sense statement without mentioning policy data. It is an easy interference item that makes general remarks.",
+        "F": "Combine the trend of Internet penetration rate and the data of user usage percentage. The penetration rate shows a stable growth trend, especially approaching the peak in 2024. Kuaishou, as the platform with the second - highest usage percentage, may benefit from this trend in terms of user scale. However, it is necessary to infer that the penetration rate is a fundamental factor, which cannot be explained by a single chart.",
+        "G": "It is necessary to combine the trend of Internet penetration rate and the data of user usage percentage. The penetration rate has been rising year by year from 2018 to a high level in 2024, indicating an expansion of the online user base. Combining with the fact that Douyin has the highest usage percentage in 2025, it can be inferred that the growth of penetration rate may directly contribute to the expansion of its user scale."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Combine the data of user usage percentage and satisfaction ratings. The usage percentage of Xiaohongshu is lower than that of leading platforms, but the proportion of high - score satisfaction is close to the highest. It is necessary to analyze the implicit correlation between the medium usage percentage and high satisfaction across charts, which may reflect user stickiness.",
+        "B": "Combine the data of user usage percentage and satisfaction ratings. Bilibili has a medium usage percentage, but a relatively high proportion of high - score satisfaction. It can be inferred that its user group may be more loyal, but it is necessary to compare other platforms with the data of two charts (for example, Xigua Video has lower satisfaction).",
+        "C": "Wrong understanding of the gap: The total satisfaction of Kuaishou (67.95%) differs from that of Douyin (78.59%) by more than 10%, and the difference in usage percentage is also more than 10%. It is not 'comparable'. It is a hard interference item.",
+        "D": "Wrong understanding of the values: The proportion of 5 - score of Weibo (34.03%) is actually lower than that of Douyin (38.50%) and Bilibili (39.92%), and it has the lowest usage percentage. It is a hard interference item.",
+        "E": "It is necessary to combine the data of user usage percentage and satisfaction ratings. Douyin has the highest usage percentage, and the total proportion of 4 - score and 5 - score in satisfaction is extremely high. It can be inferred that the high usage percentage and high satisfaction may reinforce each other to enhance loyalty, but this relationship cannot be established with a single chart.",
+        "F": "It is a general industry experience (reward program) without chart basis. It is an easy interference item.",
+        "G": "It is a common - sense statement (the importance of interface design), but the charts do not cover interface data. It is an easy interference item."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -130,6 +164,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Common - sense error: The satisfaction of platforms such as Xigua Video and Miaopai is obviously low (the proportion of 5 - score ≤ 30%), not 'generally improved'. It is an easy interference item.",
+        "B": "Logical paradox: The increase in penetration rate usually raises users' expectations (not lowers them), and the charts show differences in satisfaction. It is an easy interference item.",
+        "C": "Combine the trend of Internet penetration rate and satisfaction ratings. The increase in penetration rate should boost the overall market, but Pipixia has a high proportion of low - score satisfaction. It can be inferred that intensified competition may lead to user dissatisfaction. It is necessary to correlate the penetration rate trend with the satisfaction conflict across charts.",
+        "D": "Reverse the cause and effect: Douyin has the highest usage percentage (46.80%) and high satisfaction (38.50% for 5 - score). In fact, new users flow to high - satisfaction platforms. It is a hard interference item.",
+        "E": "Combine the trend of Internet penetration rate and satisfaction ratings. The penetration rate reached a high level in 2024, providing opportunities for all platforms. It can be inferred that the growth of penetration rate has not been translated into high satisfaction for Miaopai (its satisfaction is medium), indicating platform - specific problems.",
+        "F": "It is necessary to combine the trend of Internet penetration rate and satisfaction ratings. The penetration rate has been rising year by year to a high level, indicating an expansion of the user base. However, Xigua Video has a relatively high proportion of low - score satisfaction. It can be inferred that the increase in new users may lower the satisfaction, creating a conflict. It is necessary to analyze the contradiction between the trend and point data across charts."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D"
       ]
     },
     {
@@ -153,6 +202,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "In chart_102_2, the user usage percentage of Kuaishou is high but not the highest. Combining with the medium satisfaction of Kuaishou in chart_102_3 (the proportion of 4 - 5 scores is lower than that of Douyin); at the same time, the growth of Internet penetration rate in chart_102_1 emphasizes the importance of user retention, and the strategy should prevent user loss.",
+        "B": "Chart_102_1 shows that the Internet penetration rate has been steadily increasing year by year from 2018 to 2024, indicating that the new user base is continuously expanding, especially with more significant growth in the early years. Combining with the highest user usage percentage of Douyin in chart_102_2 and the high satisfaction of Douyin in chart_102_3 (high proportion of 4 - 5 scores), the strategy should take advantage of the trend and platform advantages to achieve efficient customer acquisition.",
+        "C": "This is an easy interference option: It is based on general marketing common sense (average allocation and traditional advertising), but the statement is broad, without specific action guidelines, and does not quote any chart data (such as penetration rate trend or platform proportion), so it is easy to be excluded.",
+        "D": "This is a hard interference option: On the surface, it quotes chart_102_1 (Internet penetration rate), but misinterprets the trend - the continuous increase in penetration rate (from 59.6% in 2018 to 78.6% in 2024) indicates that there is great potential for new users to enter in high - penetration areas. However, the interference option suggests focusing on low - penetration areas, confusing the 'growth trend' with the 'current low point', and the strategy direction is deviated.",
+        "E": "This is a hard interference option: On the surface, it uses chart_102_2 (user usage percentage), but misinterprets the data - the user percentages of Miaopai and Pipixia are the lowest (12.05% and 14.07%). Investing in these platforms may be inefficient because the user base is small and the growth potential is limited. At the same time, it ignores the satisfaction data in chart_102_3 (only 28.32% of 5 - score for Miaopai) and does not consider the customer acquisition cost.",
+        "F": "This is an easy interference option: It is based on common - sense suggestions (increasing the number of users through subsidies), but does not combine specific chart analysis (such as the relatively low user percentage of Weibo in chart_102_2, which is 15.35%, and the 4 - 5 score satisfaction of only 63.2% in chart_102_3). The statement is broad and has no data support.",
+        "G": "In chart_102_2, the user usage percentage of Xiaohongshu is medium but higher than some platforms. Combining with the relatively high satisfaction of Xiaohongshu in chart_102_3 (high proportion of 4 - 5 scores); at the same time, the increase in penetration rate in chart_102_1 provides a source of new users, and the strategy should target potential platforms to tap growth."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -175,6 +241,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy interference option: It is based on general IT common sense (upgrading infrastructure). The statement is broad, does not quote any chart data (such as satisfaction distribution or user proportion), lacks pertinence, and is easy to be excluded.",
+        "B": "This is an easy interference option: It is based on product development common sense (adding new features), but does not correlate with satisfaction data (such as the score differences of each platform in chart_102_3). The statement is general, without clear priorities, and does not rely on the charts.",
+        "C": "In chart_102_2, the user usage percentage of Xiaohongshu is medium. Combining with the high proportion of high - end satisfaction (4 - 5 scores) of Xiaohongshu in chart_102_3; at the same time, the increase in penetration rate in chart_102_1 provides a new user pool, and the strategy should leverage word - of - mouth.",
+        "D": "This is a hard interference option: On the surface, it combines chart_102_3 and chart_102_2, but confuses the relationship - the user percentage of Kuaishou is relatively high at 35.93%, but the proportion of low - end and medium - end satisfaction (1 - 3 scores) is 31.05%. The interference option suggests 'cutting resources', wrongly believing that platforms with high user loss risk are not worth investing in, while the correct strategy should be to improve to stabilize the market share.",
+        "E": "In chart_102_2, the user usage percentage of WeChat Video Account is medium. Combining with the relatively even satisfaction distribution (with proportions in each score segment) of WeChat Video Account in chart_102_3; at the same time, the trend in chart_102_1 indicates that the expansion of the user base requires prevention of experience fluctuations, and the strategy should ensure sustainability.",
+        "F": "This is a hard interference option: On the surface, it uses chart_102_3 (satisfaction scores), but misinterprets the data - Bilibili has the highest 5 - score satisfaction at 39.92%, but the interference option suggests 'no need for improvement', ignoring the medium user percentage of 28.04% in chart_102_2 and still having low - end and medium - end satisfaction (a total of 27.37% for 1 - 3 scores), which may lead to the unsolved problem of user loss risk.",
+        "G": "In chart_102_2, the user usage percentage of Kuaishou is high. Combining with the relatively high proportion of scores below 3 for Kuaishou in chart_102_3, the strategy should optimize the problem areas; at the same time, the growth of penetration rate in chart_102_1 emphasizes the importance of user retention."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -198,6 +281,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy interference option: It is based on market layout common sense (focusing on future areas), but does not combine data (such as the overall increase in penetration rate). The statement is general, does not rely on the charts, and can be excluded by common sense.",
+        "B": "This is a hard interference option: On the surface, it uses chart_102_2 and chart_102_3, but misinterprets the numerical values - the user percentage of Miaopai is low at 12.05%, and the 5 - score satisfaction is only 28.32% in the middle - lower reaches. The interference option suggests 'investing resources', ignoring the risk of low return on investment. At the same time, it does not combine the upward trend of penetration rate in chart_102_1 (new users may benefit more from high - proportion platforms).",
+        "C": "This is a hard interference option: On the surface, it quotes chart_102_2 (user proportion), but wrongly ignores the trend in chart_102_1 - the continuous increase in penetration rate (78.6% in 2024) indicates that there are many opportunities for new users. However, the interference option 'ignores the penetration rate trend' and only adheres to high - proportion platforms, which may miss the growth dividend.",
+        "D": "In chart_102_2, the user usage percentage of Xiaohongshu is above medium. Combining with the prominent high - end satisfaction proportion of Xiaohongshu in chart_102_3; at the same time, the trend in chart_102_1 provides growth potential, and the strategy should focus on content innovation.",
+        "E": "This is an easy interference option: It is based on general content strategy common sense (signing top - level creators). The statement is broad, does not quote chart data (such as user preferences or satisfaction), and has no specific action guidelines, so it is easy to be excluded.",
+        "F": "In chart_102_2, the user usage percentage of Miaopai is low. Combining with the relatively high proportion of low - end and medium - end satisfaction of Miaopai in chart_102_3; at the same time, the increase in penetration rate in chart_102_1 emphasizes the competitive risk, and the strategy should fairly improve weak platforms.",
+        "G": "In chart_102_2, the user usage percentage of Douyin is the highest. Combining with the high proportion of high - end satisfaction of Douyin in chart_102_3; at the same time, the continuous increase in penetration rate in chart_102_1 indicates the expansion of the user base, and the strategy should strengthen the leading position."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     }
   ]

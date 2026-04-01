@@ -86,6 +86,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合显示工作日晚间入睡高峰较早的图表和显示工作压力占比高的图表。推理显示，尽管入睡较早，工作压力仍可能独立影响睡眠质量，形成隐含冲突。",
+        "B": "这是一个Easy干扰项，依赖常识（电子设备可能放松），但图表明确显示睡前使用手机过久是睡眠问题的主要原因（占比37.7%），与干扰项矛盾。",
+        "C": "这是一个Hard干扰项，错误解读图表数据：非工作日入睡时间在22点前的实际比例是5.2%（22点前） + 23.0%（22 - 23点） = 28.2%，但这不\"最高\"（0点后比例更高，达38.7%），且睡前使用手机是晚睡相关原因，干扰项却错误关联早睡加剧问题。",
+        "D": "这是一个Easy干扰项，仅基于健康常识（早睡有益），但图表未涉及\"完全避免所有问题\"的结论，且正确选项关注晚睡与问题的联系，而非早睡的绝对效果。",
+        "E": "需要联合显示非工作日0点后入睡比例较高的图表和显示睡前使用手机过久占比高的图表。推理基于非工作日晚睡趋势与手机使用原因的联系，表明行为习惯可能导致问题。",
+        "F": "需要联合显示非工作日深夜入睡比例较高的图表和显示情绪原因占比最高的图表。推理基于情绪问题在非工作日可能更突出，与晚睡行为相关联。",
+        "G": "这是一个Hard干扰项，错误比较数据：非工作日0点后入睡比例是22.1% + 12.5% + 4.1% = 38.7%，工作日是26.5%，但工作压力（37.4%）是睡眠问题原因，图表未显示压力在非工作日更严重（可能更低），干扰项误读时间段的压力影响。"
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合显示睡眠浅和入睡困难比例较高的图表和显示满意比例占多数的图表。推理基于问题发生率与主观感受的冲突，隐含居民可能低估问题严重性。",
+        "B": "这是一个Easy干扰项，基于常识（问题少则满意度高），但图表显示睡眠问题报告比例普遍高（如睡眠浅32.1%、入睡困难28.0%），干扰项完全忽略数据。",
+        "C": "需要联合显示嗜睡和醒后乏力比例较高的图表和显示满意比例高的图表。推理显示，尽管存在疲劳问题，居民可能通过适应或归因外部原因维持高满意度。",
+        "D": "这是一个Hard干扰项，错误数值解读：非常不满意比例实际仅1.1%，干扰项夸大至\"约15%\"，且睡眠呼吸障碍比例23.9%不是最高，误读满意度与问题的直接冲突。",
+        "E": "这是一个Hard干扰项，错误引用数据：嗜睡问题比例实际为26.5%，不是\"最高\"（睡眠浅32.1%更高），且干扰项错误解读\"嗜睡视为积极\"，但图表未支持此结论，正确选项聚焦问题被正常化。",
+        "F": "这是一个Hard干扰项，错误排序：睡眠浅比例32.1%是最高之一，干扰项说\"最低（仅20%）\"，完全颠倒数据；正确选项处理不一致性，而非问题严重度。",
+        "G": "需要联合显示睡眠呼吸障碍比例相对较低的图表和显示不满意比例低的图表。推理基于较严重问题较少，可能减轻了对满意度的负面影响，形成部分解释。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D",
+        "F"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项，错误数值和比较：非工作日6小时以内实际占比仅2.2%，干扰项夸大至\"10%\"，且生活压力占比32.0%，但非工作日睡眠时长较长（8 - 9小时占35.3%），图表未显示休息日压力更大。",
+        "B": "需要联合显示非工作日8 - 9小时及以上睡眠时长比例较高的图表和显示情绪原因占比高的图表。推理显示，非工作日长睡眠可能与情绪缓解相关，隐含情绪问题在休息日得到改善的规律。",
+        "C": "这是一个Hard干扰项，错误关联：工作压力占比37.4%，是睡眠问题原因，干扰项说\"不是主要因素\"，但正确选项显示压力压缩睡眠时间；非工作日时长较长是缓解，而非否定压力作用。",
+        "D": "这是一个Easy干扰项，依赖常识（环境问题影响睡眠），但图表中环境问题仅占比30.8%，不是最高（工作压力37.4%更高），且未直接链接时长不足；干扰项泛化而忽略数据。",
+        "E": "需要联合显示工作日6 - 7小时及以下睡眠时长比例较高的图表和显示工作压力占比高的图表。推理基于工作日短睡眠趋势与工作压力原因的联系，形成规律性影响。",
+        "F": "这是一个Hard干扰项，错误数值：饮食问题占比实际27.7%，干扰项说\"超40%\"，夸大其影响；且睡眠时长不足在工作日更明显（6小时以内6.7% vs 非工作日2.2%），干扰项误读时间段。",
+        "G": "需要联合显示工作日6小时以内睡眠时长比例较高的图表和显示生活压力占比高的图表。推理基于生活压力与工作日短睡眠的直接关联，表明日常压力源可能导致时间不足。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F",
+        "C"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Aparentemente se utilizan chart_130_1 (distribución de la duración del sueño en los fines de semana) y chart_130_3 (la proporción de somnolencia es del 26.5%), pero hay un error lógico. Una duración del sueño más larga en los fines de semana (por ejemplo, el 35.3% duerme de 8 a 9 horas) no necesariamente causa problemas. La causa de la somnolencia en chart_130_4 no está directamente relacionada con la duración del sueño. Los datos no muestran que el exceso de sueño sea un riesgo principal, y la opción malinterpreta la tendencia.",
+        "B": "Razonamiento combinado de chart_130_4 (usar demasiado el teléfono móvil antes de dormir es una de las principales razones de los problemas de sueño, con una proporción destacada) y chart_130_1 (la hora de acostarse en los fines de semana es más tardía, por ejemplo, la proporción después de las 23:00 es alta, lo que puede causar problemas).",
+        "C": "Esta es una opción de distracción fácil: Se basa en el conocimiento general (el ejercicio mejora el sueño), pero no se utilizan datos de los gráficos. En chart_130_4 no hay razones relacionadas con el ejercicio, y los problemas de sueño como la dificultad para conciliar el sueño (28.0%) no están directamente relacionados con el ejercicio. La opción carece de soporte de datos para la prioridad.",
+        "D": "Razonamiento combinado de chart_130_4 (la presión laboral es una de las principales razones de los problemas de sueño, con una proporción significativa) y chart_130_1 (la duración del sueño en los días laborables es más corta, por ejemplo, la proporción en los períodos de sueño corto es más alta, lo que está relacionado con la presión).",
+        "E": "Razonamiento combinado de chart_130_4 (las razones emocionales son el factor más importante de los problemas de sueño, con la proporción más alta) y chart_130_2 (la proporción del grupo insatisfecho en la evaluación subjetiva es pequeña pero merece atención, y está relacionada con los problemas emocionales).",
+        "F": "Esta es una opción de distracción fácil: Solo se basa en el conocimiento general de salud (por ejemplo, los exámenes médicos y la nutrición son beneficiosos para la salud general), pero no se citan datos de los gráficos. En chart_130_4, los problemas de dieta solo representan el 27.7% de las razones de los problemas de sueño, no son un factor prioritario. Además, el problema se centra en las estrategias de intervención, y la opción es demasiado general sin indicaciones de acción específicas.",
+        "G": "Esta es una opción de distracción difícil: Aparentemente se utilizan chart_130_4 (los problemas ambientales representan el 30.8%) y chart_130_3 (el sueño ligero representa el 32.1%), pero hay una mala interpretación. En chart_130_4, las razones emocionales (47.3%) y la presión laboral (37.4%) son más altas. Los problemas ambientales no son el mayor factor causante. Aunque el sueño ligero es frecuente, los problemas ambientales solo representan el 30.8% de las razones. La opción exagera su prioridad."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Aparentemente se utilizan chart_130_1 (hora de acostarse en los fines de semana) y chart_130_3 (la proporción de despertarse fácilmente es del 27.7%), pero hay un error lógico. Una hora de acostarse más tardía en los fines de semana (por ejemplo, el 22.1% se acuesta entre 0:00 y 1:00) no causa directamente despertarse fácilmente. En chart_130_4, la causa de despertarse fácilmente no está especificada, y una política coercitiva no es práctica. La opción malinterpreta la relación de los datos.",
+        "B": "Razonamiento combinado de chart_130_1 (la hora de acostarse en los fines de semana es más tardía, por ejemplo, la proporción después de las 23:00 es alta) y chart_130_3 (la dificultad para conciliar el sueño es un problema común de calidad del sueño, con una proporción destacada. Acostarse tarde puede agravar este problema).",
+        "C": "Esta es una opción de distracción difícil: Aparentemente se utilizan chart_130_1 (hora de acostarse en los días laborables) y chart_130_3 (la proporción de dificultad para conciliar el sueño es del 28.0%), pero hay una mala interpretación. La hora de acostarse en los días laborables es principalmente entre 23:00 y 0:00 (34.4%), y solo el 7.9% se acuesta antes de las 22:00. La opción exagera la viabilidad de acostarse temprano. Una duración del sueño más corta (por ejemplo, el 20.4% duerme de 6 a 7 horas) está relacionada con la presión (la presión laboral en chart_130_4 es del 37.4%), pero acostarse temprano no necesariamente resuelve el problema de la duración. La opción confunde las tendencias.",
+        "D": "Esta es una opción de distracción fácil: Se basa en el conocimiento general (una duración fija del sueño es beneficiosa para la salud), pero no se utilizan datos de los gráficos. En chart_130_1, la diferencia en la duración del sueño entre los días laborables y los fines de semana es significativa (por ejemplo, el 40.0% duerme de 7 a 8 horas en los días laborables frente al 35.3% de 8 a 9 horas en los fines de semana). La opción ignora los datos específicos y es demasiado general sin enfoque.",
+        "E": "Esta es una opción de distracción fácil: Se basa en el conocimiento general de políticas (las vacaciones alivian la presión), pero no se citan datos de los gráficos. En chart_130_4, la presión laboral representa el 37.4%, pero no está directamente relacionada con las vacaciones. El problema se centra en el ajuste del horario, y la opción no tiene acciones específicas y tiene un alto costo social.",
+        "F": "Razonamiento combinado de chart_130_1 (la duración del sueño en los días laborables es más corta, lo que indica presión de tiempo) y chart_130_4 (la presión laboral es una de las principales razones de los problemas de sueño, con una alta proporción. Una organización flexible puede reducir este factor).",
+        "G": "Razonamiento combinado de chart_130_1 (la duración del sueño en los días laborables es más corta, por ejemplo, la proporción en los períodos de sueño corto es más alta) y chart_130_3 (sentirse cansado después de despertar es un problema común, con una proporción significativa, y está relacionado con la falta de sueño)."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -200,6 +285,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Se basa en el conocimiento general (los dispositivos mejoran el entorno de sueño), pero no se utilizan datos de los gráficos. En chart_130_4, los problemas ambientales solo representan el 30.8%, no son la causa principal. Además, problemas como el sueño ligero (32.1%) no tienen una solución de dispositivo especificada. La opción es demasiado general y carece de prioridad.",
+        "B": "Razonamiento combinado de chart_130_4 (las razones emocionales son el factor más importante de los problemas de sueño, con la proporción más alta) y chart_130_3 (el sueño ligero es el problema de calidad del sueño con la mayor incidencia, con una proporción destacada. Los problemas emocionales pueden agravar esta situación).",
+        "C": "Razonamiento combinado de chart_130_4 (los problemas ambientales causan una proporción relativamente alta de problemas de sueño) y chart_130_3 (el sueño ligero es un problema común, con la proporción más alta. Factores ambientales como el ruido o la luz pueden causar directamente este problema).",
+        "D": "Esta es una opción de distracción fácil: Se basa en recomendaciones generales de salud (la meditación reduce la presión), pero no se citan datos de los gráficos. En chart_130_4, las razones emocionales representan el 47.3%, pero no están directamente relacionadas con la meditación. La opción carece de soporte de datos específicos y no se dirige a problemas frecuentes como la dificultad para conciliar el sueño.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente se utilizan chart_130_1 (hora de acostarse en los fines de semana) y chart_130_3 (la proporción de dificultad para conciliar el sueño es del 28.0%), pero hay un error lógico. Una hora de acostarse más tardía en los fines de semana (el 33.1% se acuesta entre 23:00 y 0:00) no demuestra que cause dificultad para conciliar el sueño. En chart_130_4, la dificultad para conciliar el sueño está principalmente relacionada con el uso del teléfono móvil antes de dormir (37.7%), no específicamente en los fines de semana. La opción malinterpreta la tendencia de los datos.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente se utilizan chart_130_3 (la proporción de dolor muscular es del 24.5%, trastorno respiratorio del sueño es del 23.9%, sueño ligero es del 32.1%), pero hay una mala interpretación. El dolor muscular no es un problema frecuente (el sueño ligero del 32.1% es más alto), y en chart_130_4 las razones no enfatizan el malestar físico. La opción exagera la prioridad de problemas secundarios y omite factores principales como las emociones (47.3%).",
+        "G": "Razonamiento combinado de chart_130_4 (usar demasiado el teléfono móvil antes de dormir es una de las principales razones de los problemas de sueño, con una proporción significativa) y chart_130_1 (la hora de acostarse en los fines de semana es más tardía, por ejemplo, la proporción después de las 23:00 es alta. El uso del teléfono puede prolongar el tiempo de conciliar el sueño y causar dificultad para conciliar el sueño)."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     }
   ]

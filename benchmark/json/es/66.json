@@ -86,6 +86,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en conocimiento general de la industria (la influencia de las redes sociales en usuarios jóvenes), pero los gráficos no mencionan moda de mascotas o redes sociales, es puramente una suposición externa, no relacionada con los datos.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero interpreta incorrectamente las diferencias numéricas. chart_66_2 muestra una aceptación del 56% en nacidos después de 1985, chart_66_3 muestra una proporción de usuarios de pomada del 18.9%, la diferencia es grande (56% vs 18.9%), pero la opción atribuye erróneamente a 'insuficiente oferta de productos', los gráficos no proporcionan datos de oferta, y la inconsistencia real puede deberse a diferencias en la posesión de mascotas o hábitos (como se menciona en la respuesta original A).",
+        "C": "Esta opción requiere razonamiento combinando datos de chart_66_2 y chart_66_3. Depende de que en chart_66_3 la proporción de usuarios nacidos después de 1995 es la más alta (36.5%), pero en chart_66_2 la aceptación de suplementación diaria es menor (46%), y chart_66_2 muestra que los nacidos después de 1995 tienden más a suplementar solo cuando hay síntomas (33%), lo que explica la inconsistencia. Requiere análisis cruzado de la relación entre datos de ambos gráficos.",
+        "D": "Esta opción requiere razonamiento combinando datos de chart_66_2 y chart_66_3. Depende de que en chart_66_2 la aceptación de suplementación diaria en nacidos después de 1985 (56%) es la más alta, pero en chart_66_3 la proporción de usuarios de pomada (18.9%) es baja, lo que puede implicar otros factores como el número de mascotas. Requiere análisis cruzado de la relación entre datos de ambos gráficos.",
+        "E": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero calcula incorrectamente la consistencia numérica. En chart_66_2 la aceptación en nacidos en los años 90 es 52%, en chart_66_3 la proporción de usuarios es 32.5%, la diferencia es evidente (52% vs 32.5%), la opción afirma erróneamente 'casi consistente', ignorando la diferencia del 20%, engañando sobre la falta de diferencia entre percepción y comportamiento.",
+        "F": "Esta es una opción de distracción fácil: se basa en conocimiento general (el precio afecta la compra), pero los gráficos no mencionan factores de precio, no se puede inferir de los datos, y la baja proporción de usuarios en grupos mayores (nacidos antes de 1985, 12.2%) contradice el conocimiento general de 'mayor poder adquisitivo'.",
+        "G": "Esta opción requiere razonamiento combinando datos de chart_66_2 y chart_66_3. Compara la aceptación en nacidos en los años 90 (52%) en chart_66_2 con la proporción de usuarios (32.5%) en chart_66_3, mostrando una tendencia equilibrada. Requiere análisis cruzado de la relación entre datos de ambos gráficos."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Esta opción requiere razonamiento combinando datos de chart_66_1 y chart_66_2. Depende de que en chart_66_2 la proporción de suplementación cuando hay síntomas en nacidos después de 1995 es alta (33%), comparada con la proporción general de suplementación cuando están enfermos en chart_66_1 (16%), mostrando que la preferencia del grupo joven afecta la distribución general. Requiere integrar ambos gráficos para explicar la tendencia.",
+        "B": "Esta opción requiere razonamiento combinando datos de chart_66_1 y chart_66_2. Se basa en que la aceptación en nacidos en los años 90 (52%) en chart_66_2 se acerca a la proporción general (51%) en chart_66_1, y la proporción de usuarios en chart_66_3 proporciona referencia de peso poblacional. Requiere integrar ambos gráficos para explicar la tendencia.",
+        "C": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero exagera incorrectamente la influencia de un solo grupo. chart_66_2 muestra que la aceptación en nacidos después de 1985 (56%) es mayor que la general (51%), pero la proporción general en chart_66_1 es un promedio, afectado por todos los grupos de edad (como los nacidos después de 1995 con 46% que la reducen), la opción ignora la contribución de nacidos después de 1995 y nacidos en los años 90, afirmando erróneamente que 'es impulsado principalmente por ese grupo'.",
+        "D": "Esta opción requiere razonamiento combinando datos de chart_66_1 y chart_66_2. Depende de que la proporción general de suplementación diaria (51%) en chart_66_1 es alta, mientras que en chart_66_2 la aceptación en nacidos después de 1985 (56%) y nacidos antes de 1985 (54%) es mayor, pero en nacidos después de 1995 (46%) es menor, requiere calcular el promedio (52%) para comparar diferencias. Requiere integrar ambos gráficos para explicar la tendencia.",
+        "E": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero interpreta incorrectamente la proporción poblacional. En chart_66_2 la aceptación en nacidos en los años 90 es 52%, cercana a la general 51%, pero los gráficos no proporcionan pesos poblacionales por edad, la opción asume erróneamente 'proporción poblacional más alta' (en la distribución real de usuarios de pomada la proporción de nacidos después de 1995 es la más alta), y la tendencia general es un resultado integral, no determinado por un solo grupo.",
+        "F": "Esta es una opción de distracción fácil: se basa en conocimiento general de mercado (el crecimiento impulsa proporciones), pero los gráficos no proporcionan datos de crecimiento del mercado, y 'alimentación natural' es puramente una suposición externa, no se puede inferir de chart_66_1 o chart_66_2.",
+        "G": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero compara incorrectamente valores. En chart_66_1 la proporción general de suplementación cuando están enfermos es 16%, en chart_66_2 la proporción de suplementación cuando hay síntomas en nacidos después de 1995 es 33%, pero la opción afirma erróneamente que '33% es significativamente mayor que 16%' reduce la proporción general diaria. En realidad, la proporción de suplementación diaria (51%) y la de suplementación cuando hay síntomas (16%) son categorías independientes, el 33% de suplementación cuando hay síntomas en nacidos después de 1995 puede diluir su suplementación diaria, pero la diferencia de proporción general requiere considerar todos los grupos de edad, la opción atribuye parcialmente."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "C",
+        "E"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción requiere razonamiento combinando datos de chart_66_3 y chart_66_4. Depende de que en chart_66_3 la proporción de usuarios jóvenes de pomada es alta (nacidos después de 1995 36.5% + nacidos en los años 90 32.5%), mientras que en chart_66_4 Tmall y JD combinados representan 54%, mostrando asociación entre edad y preferencia en línea. Requiere referencia cruzada de distribución de edad y datos de canales.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero asocia incorrectamente la preferencia de canal. En chart_66_3 la proporción de usuarios nacidos después de 1995 es la más alta (36.5%), en chart_66_4 el canal Tienda de mascotas solo representa 19% (menor que canales en línea), pero la opción afirma 'tendencia hacia offline', ignorando erróneamente que el total de Tmall y JD (54%) probablemente corresponde a usuarios jóvenes (como se menciona en la respuesta original A).",
+        "C": "Esta es una opción de distracción fácil: se basa en conocimiento general (la conveniencia atrae a todas las edades), pero los gráficos no verifican la independencia de la edad, y chart_66_3 muestra que los usuarios jóvenes dominan (nacidos después de 1995 36.5%), el conocimiento general contradice la tendencia de los datos.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero compara incorrectamente la similitud de proporciones. En chart_66_3 la proporción de usuarios nacidos antes de 1985 es 12.2%, en chart_66_4 el canal Hospital de mascotas representa 10%, los valores son cercanos, pero la opción infiere erróneamente 'dependencia del canal hospital'. En realidad, la proporción del canal es dato general, no desglosado por edad, y el 10% del canal puede incluir otros grupos de edad, la opción sobreinterpreta la asociación.",
+        "E": "Esta opción requiere razonamiento combinando datos de chart_66_3 y chart_66_4. Depende de que en chart_66_3 la proporción de usuarios nacidos antes de 1985 es la más baja (12.2%), pero en chart_66_4 el canal Hospital de mascotas representa 10% relativamente alto, posiblemente debido a la confianza del grupo mayor en servicios profesionales. Requiere referencia cruzada de distribución de edad y datos de canales.",
+        "F": "Esta es una opción de distracción difícil: aparentemente se basa en los gráficos, pero empareja incorrectamente valores. En chart_66_3 la proporción de usuarios nacidos en los años 90 es 32.5%, en chart_66_4 el canal JD representa 27%, la opción afirma 'valores cercanos muestran atracción para nacidos en los años 90'. Pero la proporción del canal no es exclusiva de usuarios, el 27% de JD puede servir a todas las edades, y la proporción de usuarios 32.5% es distribución por edad, no hay causalidad directa, asocia incorrectamente.",
+        "G": "Esta opción requiere razonamiento combinando datos de chart_66_3 y chart_66_4. Compara la proporción del canal Tienda de mascotas (19%) en chart_66_4 con la distribución por edad en chart_66_3, requiere analizar si el canal es equilibrado. Requiere referencia cruzada de distribución de edad y datos de canales."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D",
+        "F"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción C combina la información de chart_66_1 (que muestra que la suplementación diaria regular tiene la mayor proporción en la percepción general) y chart_66_2 (que muestra diferencias en la aceptación entre diferentes grupos de edad) para inferir y proponer una estrategia de ajuste dinámico para optimizar el efecto general.",
+        "B": "Esta es una opción de distracción fácil: se basa en conocimientos generales de marketing (como aumentar la publicidad en redes sociales), pero no se basa específicamente en los datos de los gráficos (como la distribución de edad o las preferencias de percepción), y no proporciona una estrategia de asignación de recursos específica, por lo que es fácil de descartar por conocimiento general.",
+        "C": "Esta es una opción de distracción difícil: aparentemente cita los datos de chart_66_1 (la proporción de suplementación periódica es del 17% vs. la suplementación por síntomas es del 16%), pero confunde la proporción de percepción con la aceptación. Chart_66_2 muestra que la aceptación de la suplementación por síntomas en cada grupo de edad (28%-35%) es mayor que la suplementación periódica (sin datos directos), y la suplementación diaria regular del 51% es la tendencia principal. Erróneamente considera que 'la diferencia en la aceptación es pequeña', cuando en realidad hay diferencias significativas en la aceptación entre grupos de edad en chart_66_2 (por ejemplo, la suplementación por síntomas es del 33% entre los nacidos después de 1995 vs. el 28% entre los nacidos en los años 85). La dirección de la estrategia contradice los datos.",
+        "D": "La opción A combina la información de chart_66_2 (los grupos jóvenes, como los nacidos después de 1995, tienen una mayor aceptación de la suplementación diaria regular) y chart_66_3 (los dueños de mascotas jóvenes tienen una mayor proporción entre los usuarios de pomada) para inferir y enfatizar la asignación de recursos a los grupos con alta aceptación y gran proporción para mejorar la eficiencia.",
+        "E": "La opción B combina la información de chart_66_2 (los grupos mayores, como los nacidos antes de 1985 y en los años 85, tienen una mayor aceptación de la suplementación por síntomas) y chart_66_3 (los dueños de mascotas mayores, aunque tienen una proporción baja en la distribución de usuarios, no pueden ser ignorados) para inferir y sugerir optimizar la información según las necesidades específicas para garantizar la inclusión.",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_66_2 (la aceptación de la suplementación diaria regular entre los nacidos antes de 1985 es del 54%), pero interpreta erróneamente la tendencia. El grupo de los nacidos en los años 85 tiene una mayor aceptación (56%), y chart_66_3 muestra que los nacidos antes de 1985 tienen una proporción baja entre los dueños de mascotas (solo el 12.2% entre los usuarios de pomada). Promover la suplementación diaria regular entre ellos es poco eficiente. Además, no considera que los grupos jóvenes (nacidos después de 1995 y en los años 90) tienen una mayor proporción y una aceptación relativamente baja.",
+        "G": "Esta es una opción de distracción fácil: sugiere la cooperación profesional, que es una práctica común en la industria, pero ignora las diferencias en la aceptación y la distribución de la percepción entre diferentes grupos de edad en los gráficos (por ejemplo, la suplementación diaria regular es la tendencia principal). La estrategia es amplia y no está respaldada por datos."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en una estrategia de venta general (como actividades de promoción), pero no se combina con los datos específicos de la proporción de canales o la distribución de edad en los gráficos. La estrategia es amplia y no específica, por lo que es fácil de descartar por conocimiento general.",
+        "B": "La opción A combina la información de chart_66_4 (los canales en línea, como Tmall y JD, tienen la mayor proporción) y chart_66_3 (los dueños de mascotas jóvenes tienen una mayor proporción entre los usuarios de pomada) para inferir y utilizar las ventajas de los canales en línea y las preferencias de los grupos jóvenes para mejorar la eficiencia.",
+        "C": "La opción C combina la información de chart_66_4 (la diversificación de la distribución de canales) y chart_66_2 (las diferencias en la aceptación de los escenarios de suplementación entre diferentes grupos de edad) para inferir y proponer una estrategia de coincidencia dinámica para maximizar la eficacia de los canales.",
+        "D": "Esta es una opción de distracción fácil: se centra en el diseño del producto, que es un punto de optimización común, pero ignora las preferencias de canal (por ejemplo, la alta proporción de canales en línea) y los datos de edad de los usuarios en los gráficos. No está respaldada por datos y la dirección de la estrategia es vaga.",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_66_4 (el hospital de mascotas tiene una proporción del 10%) y chart_66_2 (la aceptación de la suplementación por síntomas entre los nacidos antes de 1985 es del 30%), pero interpreta erróneamente la escala. El hospital de mascotas tiene la menor proporción, y chart_66_3 muestra que el grupo de los nacidos antes de 1985 tiene una proporción baja (el 12.2% entre los usuarios de pomada). Invertir en este canal no puede mejorar eficientemente la cuota de mercado. Además, confunde la 'aceptación de la suplementación por síntomas' con la 'preferencia de canal', y no hay datos que demuestren que los grupos mayores confíen más en el hospital de mascotas.",
+        "F": "La opción B combina la información de chart_66_4 (los canales de tienda de mascotas y hospital de mascotas tienen una proporción significativa) y chart_66_3 (los dueños de mascotas mayores, aunque tienen una proporción baja en la distribución de usuarios, deben ser cubiertos) para inferir y sugerir una asignación de recursos a los canales profesionales para atender a necesidades específicas y evitar ignorar a los grupos minoritarios.",
+        "G": "Esta es una opción de distracción difícil: aparentemente combina la información de chart_66_2 (la aceptación de la suplementación diaria regular entre los grupos jóvenes es del 46%-52%) y chart_66_3 (los grupos jóvenes tienen una mayor proporción), pero asocia erróneamente la aceptación con la eficiencia del canal. Chart_66_4 muestra que los canales en línea (Tmall + JD = 54%) tienen la mayor proporción, y es un conocimiento general que los grupos jóvenes prefieren comprar en línea. Reducir la inversión en canales en línea ignoraría el principal canal de venta, lo que contradice la tendencia de los datos."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "La opción B combina la información de chart_66_1 (la suplementación periódica o por síntomas tiene una proporción cierta en la percepción) y chart_66_2 (los grupos mayores, como los nacidos antes de 1985, tienen una mayor aceptación de la suplementación por síntomas) para inferir y sugerir desarrollar productos segmentados para explotar el mercado potencial.",
+        "B": "La opción C combina la información de chart_66_2 (hay diferencias significativas en la aceptación entre grupos de edad) y chart_66_3 (la distribución de edad de los dueños de mascotas no es uniforme) para inferir y proponer una estrategia personalizada para mejorar la precisión de la propagación.",
+        "C": "Esta es una opción de distracción fácil: se basa en conocimientos generales de tendencias del mercado (como los productos orgánicos), pero no cita los datos específicos de percepción o aceptación en los gráficos (por ejemplo, la suplementación diaria regular es la tendencia principal). La estrategia es amplia y no tiene una priorización, por lo que es fácil de descartar por conocimiento general.",
+        "D": "Esta es una opción de distracción fácil: sugiere la marketing emocional, que es una técnica común, pero ignora las diferencias de percepción entre grupos de edad en los gráficos (por ejemplo, chart_66_1 muestra que la suplementación diaria regular tiene una proporción del 51% y es la tendencia principal). No está respaldada por datos y la estrategia no es específica.",
+        "E": "La opción A combina la información de chart_66_1 (la suplementación diaria regular tiene la mayor proporción en la percepción) y chart_66_2 (el grupo de los nacidos en los años 85 tiene la mayor aceptación de la suplementación diaria regular) para inferir y centrarse en las necesidades principales para optimizar la inversión de recursos.",
+        "F": "Esta es una opción de distracción difícil: aparentemente combina la información de chart_66_2 (la aceptación de la suplementación por síntomas entre los nacidos después de 1995 es del 33%) y chart_66_3 (los nacidos después de 1995 tienen una proporción del 36.5%), pero asocia erróneamente los datos. Chart_66_1 muestra que la percepción de la suplementación por síntomas solo es del 16%, no es la tendencia principal. Debilitar la suplementación diaria regular (51%) entraría en conflicto con la percepción de la mayoría de los consumidores, y aunque la aceptación de la suplementación por síntomas entre los nacidos después de 1995 es del 33%, es menor que la suplementación diaria regular del 46%. La dirección de la estrategia contradice los datos.",
+        "G": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de chart_66_2 (la aceptación de la suplementación diaria regular entre los nacidos en los años 85 es del 56%) y chart_66_3 (los nacidos en los años 85 tienen una proporción del 18.9%), pero interpreta erróneamente el tamaño de la audiencia. Los grupos jóvenes (nacidos después de 1995 y en los años 90) tienen una mayor proporción (en total el 69% de los usuarios de pomada), y aunque la aceptación de los nacidos en los años 85 es alta, no es la más alta (56% de los nacidos en los años 85 vs. 54% de los nacidos antes de 1985). Centrarse en un solo grupo ignoraría la percepción principal general (la suplementación diaria regular tiene una proporción del 51%), lo que reduciría la cobertura del mercado."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     }
   ]

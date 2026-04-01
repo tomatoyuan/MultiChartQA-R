@@ -84,7 +84,21 @@
         "D",
         "E",
         "F"
-      ]
+      ],
+      "cot": {
+        "A": "The chart titles clearly indicate that both are for the 'core business districts', so the geographical scope should be similar. Both chart_67_1 and chart_67_3 describe the core areas. There is no evidence to support the difference in the scope definition. The distractor wrongly assumes a difference in the statistical caliber.",
+        "B": "The chart titles do not specify the data collection time points, and the question focuses on the annual data for 2021. The difference in time points is not a reasonable cause. The actual slight differences (e.g., 10% vs 9.8% for Beijing) are more likely due to the different definitions of office building types (Grade A vs high - quality).",
+        "C": "The question compares first-tier cities (Beijing, Shanghai, etc.). The data for first-tier cities in chart_67_1 are listed separately (e.g., 10% for Beijing). The data of second-tier cities do not affect the values of first-tier cities. The difference is due to the screening criteria for office building quality (Grade A vs high - quality), not the mixing of city types.",
+        "D": "One chart includes multiple first - and second - tier cities (e.g., Shenyang, Wuhan), while the other only includes first-tier cities (Beijing, Shanghai, etc.). However, the data for core business districts overlap (e.g., Beijing, Shanghai). The other chart also provides the city - wide vacancy rate (e.g., 17.1% for the whole of Beijing). This implies a difference in the statistical scope (core business district vs the whole city). It is necessary to combine the two charts to analyze how the inconsistent scope leads to deviations in the core business district data.",
+        "E": "One chart reports the vacancy rate of Grade A office buildings in Beijing's core business district as 10%, while the other reports the vacancy rate of high - quality office buildings in Beijing's core business district as 9.8%. This slight difference (0.2 percentage points) may be due to the different definitions of 'Grade A office buildings' and 'high - quality office buildings' (such as quality standards or screening scope). It is necessary to combine the two charts to compare the values to find the conflicts and explain the reasons.",
+        "F": "One chart clearly labels 'high - quality office buildings', which may imply higher quality standards, while the definition of 'Grade A office buildings' in the other chart may be broader. For example, the vacancy rate in the core business district of Shenzhen is 19% in one chart and 18.8% in the other. Although the difference is small, it is necessary to combine the two charts to infer the impact of the definition standards (it cannot be inferred from only one chart)."
+      },
+      "easy_error": [
+        "B",
+        "A",
+        "C"
+      ],
+      "hard_error": []
     },
     {
       "type": "4",
@@ -105,7 +119,21 @@
         "A",
         "C",
         "D"
-      ]
+      ],
+      "cot": {
+        "A": "In one chart, the demand from the manufacturing industry is only 8.2%, while in the other chart, Wuhan has the highest vacancy rate of 35% and a medium net absorption of 171,000 square meters. By combining the information, we can infer that Wuhan's high vacancy rate may be partly due to the low demand from the manufacturing industry, and the technology demand (33.6%) cannot fully compensate for it. It is necessary to compare the industry shares with the vacancy rates/net absorption of cities across the two charts.",
+        "B": "This is a generalization based on common sense. In fact, the net absorption varies from city to city (e.g., only 35,000 square meters in Shenyang). Technology demand does not necessarily dominate all cities. Chart_67_2 shows that the technology industry has the highest share, but it does not specify the city distribution. The distractor ignores the market differences.",
+        "C": "One chart shows that the demand share of the technology industry is the highest at 33.6%, while in the other chart, Shenzhen has the highest net absorption of 641,000 square meters among all cities. By combining the information, we can infer that the high demand for technology may drive the high net absorption in Shenzhen (it is necessary to combine the values of the two charts and cannot be inferred from only the industry share in one chart or the data of Shenzhen in the other chart).",
+        "D": "In one chart, the demand shares of the financial industry and professional services are 21.9% and 8.8% respectively. In the other chart, Beijing has a net absorption of 341,000 square meters and Shanghai has 531,000 square meters, both of which are relatively high but lower than that of Shenzhen. By combining the information, we can infer that the diversified industry demands (finance + professional services) in Beijing and Shanghai may support their stable net absorption, rather than being dominated by a single technology industry. It is necessary to compare the two charts to analyze the relationship between industry shares and city performance.",
+        "E": "This is a wrong association of data. The demand share of the manufacturing industry in Hangzhou is 8.2% (chart_67_2), which is lower than the 33.6% of the technology industry. The low net absorption may be due to other factors (such as oversupply), but the distractor wrongly attributes it to the dominance of the manufacturing industry, while technology is the largest source of demand.",
+        "F": "This is a misinterpretation of the values. The 33.6% share of the technology industry is the highest among all industries (chart_67_2), which should have a stronger impact. The high net absorption in Shenzhen may be due to this (Option A is correct). The distractor paradoxically claims that 'the impact is weak'."
+      },
+      "easy_error": [
+        "B",
+        "F",
+        "E"
+      ],
+      "hard_error": []
     },
     {
       "type": "4",
@@ -126,7 +154,21 @@
         "B",
         "C",
         "E"
-      ]
+      ],
+      "cot": {
+        "A": "This is a wrong generalization of a special case. Shenzhen is the only first - tier city where the core vacancy rate is higher than the city - wide rate (chart_67_3). For other cities like Beijing (core 9.8% < city - wide 17.1%), the situation is the opposite. The distractor wrongly takes Shenzhen's special case as a general trend.",
+        "B": "In one chart, Guangzhou has the lowest vacancy rate of 8% in the core business district, and in the other chart, Guangzhou's city - wide vacancy rate of 11.9% is also relatively low (lower than that of Beijing and Shanghai). By combining the information, we can infer that Guangzhou maintains a low vacancy rate both in the core business district and the whole city, reflecting the stability of its overall market. It is necessary to combine the two charts to compare the vacancy rate gradients between cities (e.g., core vs the whole city).",
+        "C": "One chart reports the vacancy rates in core business districts (e.g., 10% for Beijing, 10% for Shanghai), while the other reports the city - wide vacancy rates (17.1% for Beijing, 16.6% for Shanghai). By combining the information, we can infer that the city - wide vacancy rates of all first - tier cities in the other chart are higher than the data of their core business districts in the former chart, forming a pattern of 'lower vacancy rates in core business districts' (it is necessary to compare the numerical trends of the two charts and cannot be inferred from only one chart).",
+        "D": "This is based on industry common sense, but Shenzhen is an exception where the core vacancy rate (18.8%) is higher than the city - wide rate (16.6%). Chart_67_3 shows that the core vacancy rates of Beijing, Shanghai, etc. are all lower than the city - wide rates. However, the word 'always' is an absolute error, ignoring Shenzhen's counter - example.",
+        "E": "In one chart, the vacancy rate in Shenzhen's core business district is relatively high at 19%, while in the other chart, Shenzhen's city - wide vacancy rate is relatively low at 16.6%. By combining the information, we can infer that the city - wide data is lower than the core business district data (16.6% < 19%), which may be because the non - core areas perform better (e.g., high net absorption). It is necessary to analyze the differences between the core and the whole city across the two charts to discover the implicit trends.",
+        "F": "This is a wrong assumption of data. The city - wide vacancy rate of Tianjin is not provided in the charts. Based on the data of first - tier cities in chart_67_3 (the core vacancy rate is generally lower than the city - wide rate), the distractor speculates that Tianjin's city - wide rate is higher, but there is no basis. Moreover, other cities show that the core areas are usually more attractive."
+      },
+      "easy_error": [
+        "D",
+        "A",
+        "F"
+      ],
+      "hard_error": []
     },
     {
       "type": "5",
@@ -149,6 +191,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This option only relies on general common sense (first-tier cities are more developed), does not use the chart data (e.g., the high core vacancy rate of 18.8% in Shenzhen and the 29% vacancy rate in Tianjin indicate risks), and ignores the performance of second-tier cities (e.g., the relatively low vacancy rate of 13% in Chengdu).",
+        "B": "Option 1 combined reasoning: It involves chart_67_1 (e.g., the vacancy rates in the core business districts of Beijing and Shanghai are relatively low and the net absorption is relatively high, indicating strong demand) and chart_67_3 (the vacancy rates in the core business districts of first-tier cities are generally lower than the city-wide levels, indicating the stability of the core areas). The strategy is based on the data trends of low vacancy rates and high net absorption.",
+        "C": "This option is based on common sense (lowering prices to attract tenants), but does not combine the chart data (e.g., Shenyang has a 33% vacancy rate but a net absorption of only 35,000 square meters, and price cuts may not fundamentally improve the demand), and may compress the returns.",
+        "D": "This option confuses the data in chart_67_3 (e.g., the core vacancy rate of 9.8% in Beijing vs. the city-wide rate of 17.1%), misjudging that the non-core areas have higher potential; in fact, the lower vacancy rate in the core areas shows greater stability, and investing in non-core areas may increase the vacancy risk.",
+        "E": "This option misinterprets chart_67_2 (the technology demand accounts for 33.6%), but ignores the city vacancy rate data (e.g., Wuhan has a high vacancy rate of 35%, and the technology demand may not be able to quickly absorb the vacancies); the one-size-fits-all suggestion for 'all cities' does not address the risk differences.",
+        "F": "Option 2 combined reasoning: It involves chart_67_1 (e.g., the relatively high vacancy rates in second-tier cities such as Shenyang and Wuhan) and chart_67_2 (the combined demand share of the technology and finance industries exceeds 50%, indicating their dominant role). The strategy proposes targeted tenant optimization by combining the data of cities with high vacancy rates and the industry demand distribution.",
+        "G": "Option 3 combined reasoning: It involves chart_67_3 (e.g., the vacancy rate in the core business district of Beijing is much lower than the city-wide rate) and chart_67_1 (the core business district data supports the regional differences). The strategy allocates resources based on the characteristics of the vacancy rate differences."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -172,6 +231,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Option 3 combined reasoning: It involves chart_67_1 (e.g., Shenzhen has a high net absorption but a relatively high vacancy rate) and chart_67_2 (the industry demand trend can guide resource allocation). The strategy emphasizes preventive management by combining the net absorption performance and the demand structure.",
+        "B": "This option only relies on common sense (advertising to increase popularity), does not use the tenant demand or vacancy rate data (e.g., the industry demand share shown in chart_67_2), and has no specific action guidelines.",
+        "C": "This option misinterprets chart_67_1 (Guangzhou has a low vacancy rate of 8%), but ignores the strong demand indicated by the net absorption of 426,000 square meters; reducing investment may lead to missed opportunities and does not consider the city-wide vacancy rate (11.9% in Guangzhou in chart_67_3).",
+        "D": "This option seemingly uses chart_67_2 (the financial demand is 21.9%) and chart_67_1 (Wuhan has a 35% vacancy rate), but misjudges the applicability of financial tenants in cities with high vacancy rates; in fact, the high vacancy rate may be due to economic factors, and the financial demand may not directly improve the situation (e.g., the professional service demand of only 8.8% is even weaker).",
+        "E": "Option 1 combined reasoning: It involves chart_67_2 (the demand shares of the technology and finance industries are leading) and chart_67_1 (e.g., Shenzhen has a relatively high vacancy rate but also a high net absorption, indicating demand potential). The strategy emphasizes the optimization of tenant types through the industry demand share and the city vacancy rate data.",
+        "F": "This option confuses the data in chart_67_1 (Shenzhen has a net absorption of 641,000 square meters but a high vacancy rate of 19%), mistakenly thinking that high absorption means low risk; in fact, the high vacancy rate indicates an oversupply, and expanding recruitment may exacerbate the vacancy.",
+        "G": "Option 2 combined reasoning: It involves chart_67_3 (e.g., the vacancy rates in the core business districts of Beijing and Shanghai are lower than the city-wide rates) and chart_67_1 (the city-level data supports the regional differences). The strategy optimizes the resource layout based on the regional imbalance characteristics of the vacancy rates."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -195,6 +271,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Option 3 combined reasoning: It involves chart_67_1 (e.g., Shenzhen and Shanghai have high net absorption) and chart_67_2 (the industry demand trend can guide resource allocation). The strategy emphasizes preventive management by combining the net absorption performance and the demand structure.",
+        "B": "This option is based on common sense (the importance of the manufacturing industry), but does not combine the demand share data (the 8.2% demand for the manufacturing industry in chart_67_2 is lower than the 33.6% for the technology industry); the suggestion may not quickly improve the high vacancy rate (e.g., Tianjin has a 29% vacancy rate).",
+        "C": "Option 1 combined reasoning: It involves chart_67_1 (e.g., the relatively high vacancy rates in cities such as Tianjin and Shenyang) and chart_67_2 (the demand shares of the technology and finance industries are prominent). The strategy proposes the priority order of industrial introduction through the high vacancy rate data and the industry demand distribution.",
+        "D": "This option only relies on common sense (equal distribution is fair), does not use the chart data (e.g., Wuhan has a high vacancy rate of 35% and needs priority intervention), and ignores the demand differences (the high technology demand of 33.6% in chart_67_2).",
+        "E": "This option misinterprets chart_67_1 (Shenzhen has a net absorption of 641,000 square meters), but ignores the high vacancy rate of 19% (in chart_67_1) and the city-wide vacancy rate of 16.6% (in chart_67_3); new supply may exacerbate the vacancy instead of preventing shortages.",
+        "F": "Option 2 combined reasoning: It involves chart_67_3 (e.g., the city-wide vacancy rate in Beijing is significantly higher than that in the core business district) and chart_67_1 (the city data supports the difference analysis). The strategy optimizes the resource layout based on the regional imbalance characteristics of the vacancy rates.",
+        "G": "This option confuses the data in chart_67_3 (the low vacancy rate in the core business district, e.g., 7.6% in Guangzhou), misjudging that the development of the core area should be restricted; in fact, the core area is more resilient, and the resource allocation should be strengthened rather than transferred."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     }
   ]

@@ -85,6 +85,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "此选项依赖行业常识（消费者偏好），但图表未提供任何需求数据（如消费者调查），因此不基于给定图表，而是泛泛而谈。",
+        "B": "选项依赖显示2023年不同领域投资事件数占比的图表（Relacionado con materias primas投资事件占比最高）和化妆品行业新原料备案数的图表（新原料备案数从2021年到2023年增速显著，empresas locales从4个增至52个），推理出备案增长吸引投资；无法仅凭一张图表推断，单看显示2023年不同领域投资事件数占比的图表只能知投资占比，无法解释\"为何是热点\"；单看化妆品行业新原料备案数的图表只能知备案增长，无法联系投资行为。",
+        "C": "此选项错误理解图表数据：chart_166_3显示2023年新原料备案数为69个（高于2022年的42个），增长显著，但选项误述为\"下降至42个\"，颠倒了数值关系。",
+        "D": "此选项错误分配占比数据：chart_166_2显示Relacionado con materias primas投资事件占比为46.6%（最高），Relacionado con estética médica仅占16.4%，但选项误将最高占比归于医美，曲解排序。",
+        "E": "此选项仅基于宏观经济常识，未引用图表数据（如新原料备案增长或投资占比），无法具体解释原料领域成为热点的原因；图表未涉及全球经济因素。",
+        "F": "选项利用化妆品行业新原料备案数的图表的empresas locales高增长和显示2023年不同领域投资事件数占比的图表的高投资占比，推理出技术升级的行业重点；无法仅凭一张图表推断，单看显示2023年不同领域投资事件数占比的图表只能知投资占比，无法解释\"为何是热点\"；单看化妆品行业新原料备案数的图表只能知备案增长，无法联系投资行为。",
+        "G": "选项结合显示2023年不同领域投资事件数占比的图表的占比数据和化妆品行业新原料备案数的图表的增长趋势（2023年备案数同比大增），推理出趋势一致性；无法仅凭一张图表推断，单看显示2023年不同领域投资事件数占比的图表只能知投资占比，无法解释\"为何是热点\"；单看化妆品行业新原料备案数的图表只能知备案增长，无法联系投资行为。"
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "此选项错误比较市场规模：chart_166_1显示Cuidado de la piel市场规模为4823.5亿元（最大），Cuidado personal仅1193.5亿元（较小），但选项误述个护更大，颠倒了数值。",
+        "B": "选项依赖显示Cuidado de la piel和Cuidado personal市场规模及增长率的图表（Cuidado personal增长率高于Cuidado de la piel，但市场规模小于Cuidado de la piel）和新原料备案数据的图表（新原料备案数从2022年到2023年增加，empresas locales增长显著），推理出备案增长支撑个护高增长；无法仅凭一张图表推断，单看显示Cuidado de la piel和Cuidado personal市场规模及增长率的图表只能知市场数据，无法解释\"为何增长差异\"；单看新原料备案数据的图表只能知备案趋势，无法联系具体品类表现。",
+        "C": "选项结合显示Cuidado de la piel和Cuidado personal市场规模及增长率的图表的Cuidado de la piel低增长率与新原料备案数据的图表的备案快速增加，推理出创新转化滞后；无法仅凭一张图表推断，单看显示Cuidado de la piel和Cuidado personal市场规模及增长率的图表只能知市场数据，无法解释\"为何增长差异\"；单看新原料备案数据的图表只能知备案趋势，无法联系具体品类表现。",
+        "D": "此选项仅基于外部事件常识（如疫情影响），未引用图表数据（如新原料备案或市场规模），无法关联新原料备案趋势。",
+        "E": "选项利用显示Cuidado de la piel和Cuidado personal市场规模及增长率的图表的Cuidado personal高增长和新原料备案数据的图表的empresas locales高占比和高增长，推理出本土创新对小品类的优先影响；无法仅凭一张图表推断，单看显示Cuidado de la piel和Cuidado personal市场规模及增长率的图表只能知市场数据，无法解释\"为何增长差异\"；单看新原料备案数据的图表只能知备案趋势，无法联系具体品类表现。",
+        "F": "此选项错误推断数据应用：chart_166_3只提供新原料备案总数和empresas locales占比，未指定品类用途（如Cuidado personal或Cuidado de la piel），但选项臆断\"全部用于个护\"，缺乏图表支持。",
+        "G": "此选项依赖经济常识，但图表未涉及经济因素或消费者支出数据，因此不基于图表推理，而是通用解释。"
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "此选项错误对比数据：chart_166_3显示empresas locales新原料备案增长108%（部分指标），但整体Cuidado de la piel增长率为10.0%（chart_166_1），选项忽略新原料可能用于多品类，且原选项B指出上游创新支撑长期潜力，但此选项误推为\"未转化\"，曲解差距。",
+        "B": "此选项错误分配占比：chart_166_2显示Relacionado con materias primas投资占比46.6%（最高），Relacionado con la marca仅24.7%，但选项误将最高占比归于品牌，导致推理错误。",
+        "C": "此选项依赖常识（本土化效益），但图表未涉及进口或成本数据（如chart_166_3只给备案数，无成本信息），因此不基于图表，而是泛泛而谈。",
+        "D": "选项结合显示市场规模中各品类占比的图表（Cuidado de la piel市场规模最大）和显示投资事件中各领域占比的图表（Relacionado con materias primas投资高占比），推理出上游创新对全品类的支撑作用；无法仅凭一张图表推断，单看显示投资事件中各领域占比的图表只能知投资分布，无法联系市场影响；单看显示市场规模中各品类占比的图表只能知静态数据，无法推断动态趋势。",
+        "E": "选项利用显示投资事件中各领域占比的图表的Relacionado con materias primas投资占比和新原料备案趋势的图表的empresas locales高增长，推理出本土化对市场效率的影响；无法仅凭一张图表推断，单看显示投资事件中各领域占比的图表只能知投资分布，无法联系市场影响；单看新原料备案趋势的图表只能知静态数据，无法推断动态趋势。",
+        "F": "选项依赖显示投资事件中各领域占比的图表（Relacionado con materias primas投资占比最高）和新原料备案趋势的图表（新原料备案数2023年达69个，同比大幅增长），推理出投资与备案协同提升Cuidado de la piel未来增长；无法仅凭一张图表推断，单看显示投资事件中各领域占比的图表只能知投资分布，无法联系市场影响；单看新原料备案趋势的图表只能知静态数据，无法推断动态趋势。",
+        "G": "此选项仅基于供应链常识（投资降低成本），但图表未提供成本或价格数据，且忽略新原料备案的长期影响，不基于图表推理。"
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción B se combina con el hecho de que la proporción de eventos de inversión relacionados con materias primas es la mayor en el chart_166_2 y el número de registros de nuevos materiales ha crecido rápidamente y la proporción de empresas locales ha aumentado en el chart_166_3.",
+        "B": "La opción C se combina con el hecho de que el tamaño del mercado de cuidado de la piel es el mayor en el chart_166_1 y la tendencia de crecimiento de los registros de nuevos materiales en el chart_166_3, e implica que la proporción de inversiones relacionadas con la marca en el chart_166_2 apoya la actualización de la marca.",
+        "C": "Esta es una opción de distracción difícil: aparentemente se utilizan los gráficos (se cita que la proporción de estética médica es del 16.4% en el chart_166_2 y la tasa de crecimiento de cuidado de la piel en el chart_166_1), pero hay un error obvio: la estética médica es un campo de eventos de inversión en el chart_166_2, no una categoría de tamaño del mercado; y se asocia erróneamente la tasa de crecimiento de cuidado de la piel (10.0%) con la estética médica. En realidad, la tasa de crecimiento de la estética médica no se proporciona en los gráficos. Esto confunde el campo y la categoría, lo que conduce a un desvío en la dirección de la estrategia.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se utilizan los gráficos (se cita la tasa de crecimiento de cuidado de la piel del 10.0% en el chart_166_1), pero se interpreta erróneamente los datos: se ignora que el tamaño del mercado de cuidado de la piel es el mayor (4823.5 mil millones de yuanes) y tiene un crecimiento estable (el 10.0% sigue siendo un crecimiento positivo), y se juzga erróneamente como \"saturado\". Los gráficos muestran que el cuidado de la piel es el negocio central, y reducir la inversión en investigación y desarrollo puede dañar la competitividad.",
+        "E": "Esta es una opción de distracción fácil: se basa en el conocimiento general de la industria (el mercado de perfumes tiene un alto margen de beneficio), pero no se utilizan los datos de los gráficos (el tamaño del mercado de perfumes es el menor (254 mil millones de yuanes) en el chart_166_1 y la tasa de crecimiento del 11.4% no es la más alta). Es factible en teoría, pero no tiene soporte de los gráficos y es fácil de descartar.",
+        "F": "La opción A se combina con el hecho de que la tasa de crecimiento año tras año de cuidado personal es la más alta en el chart_166_1 y la tendencia de aumento drástico del número de registros de nuevos materiales en el chart_166_3.",
+        "G": "Esta es una opción de distracción fácil: la expresión es demasiado general sin una guía de acción específica (por ejemplo, \"aumentar todas las categorías de forma integral\"), solo se basa en el conocimiento general de la industria (la innovación es importante) y no se cita ningún dato de los gráficos. Se puede descartar directamente por conocimiento general (la asignación de recursos debe estar enfocada, no generalizada)."
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción C se combina con el hecho de que la tasa de crecimiento de maquillaje es relativamente alta en el chart_166_1 y la proporción de eventos de inversión relacionados con la marca es considerable en el chart_166_2, e implica que el crecimiento de los registros de nuevos materiales en el chart_166_3 apoya la innovación.",
+        "B": "La opción B se combina con el hecho de que la proporción de eventos de inversión relacionados con estética médica es notable en el chart_166_2 y el número de registros de nuevos materiales ha aumentado continuamente y las empresas locales han experimentado un fuerte crecimiento en el chart_166_3.",
+        "C": "Esta es una opción de distracción fácil: la expresión es demasiado general (\"expandir todas las líneas de productos\"), solo se basa en el conocimiento general (cubrir el mercado de forma integral) y no se utilizan los datos de los gráficos (por ejemplo, no se aprovecha que la tasa de crecimiento de cuidado personal es la más alta, 15.8%). Se puede descartar directamente por falta de pertinencia.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se utilizan los gráficos (se cita que la proporción de inversiones en materias primas es del 46.6% en el chart_166_2), pero hay un error obvio: las materias primas son un campo de la cadena de suministro upstream (como los registros de nuevos materiales), no una línea de productos finales; se interpreta erróneamente como \"demanda de productos downstream\". En realidad, una alta proporción de eventos de inversión indica apoyo para la innovación, no una oportunidad directa de expansión de productos. Esto confunde el campo de inversión y la estrategia de productos.",
+        "E": "Esta es una opción de distracción fácil: se basa en el conocimiento general de la industria (la diferenciación del mercado de perfumes), pero no se utilizan los gráficos (el tamaño del mercado de perfumes es el menor (254 mil millones de yuanes) en el chart_166_1 y la tasa de crecimiento del 11.4% no es destacada). Es razonable en teoría, pero no tiene soporte de datos y es fácil de identificar como una sugerencia generalizada.",
+        "F": "La opción A se combina con el hecho de que la tasa de crecimiento año tras año de cuidado personal es destacada en el chart_166_1 y la proporción de eventos de inversión relacionados con materias primas es la mayor en el chart_166_2.",
+        "G": "Esta es una opción de distracción difícil: aparentemente se utilizan los gráficos (se cita la tasa de crecimiento de maquillaje del 13.5% y el tamaño del mercado en el chart_166_1), pero se interpreta erróneamente los datos: el tamaño del mercado de maquillaje es de 1700.9 mil millones de yuanes, mayor que el de cuidado personal de 1193.5 mil millones de yuanes, y la tasa de crecimiento del 13.5% es relativamente alta (la segunda más alta); se compara erróneamente como \"relativamente pequeño\" ignorando el tamaño real y se juzga erróneamente que el potencial de crecimiento es insuficiente. Los gráficos muestran que el maquillaje es un importante punto de crecimiento."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente se utilizan los gráficos (se cita un crecimiento del 108% y una proporción del 75.36% de empresas locales en el chart_166_3), pero se interpreta erróneamente los datos: un alto crecimiento (108%) y una alta proporción (75.36%) indican una oportunidad en lugar de un riesgo; se infiere erróneamente \"saturación del mercado\". Los gráficos muestran que la innovación de empresas locales es una tendencia ascendente (el número de registros ha crecido de 2021 a 2023), y reducir la inversión se perdería el beneficio.",
+        "B": "Esta es una opción de distracción fácil: la expresión es demasiado general (\"inversión en marketing de marca\"), solo se basa en el conocimiento general de la industria (la importancia de la marca) y no se utilizan los datos de los gráficos (por ejemplo, no se aprovecha que la proporción de inversiones en marca es del 24.7% en el chart_166_2). Se puede descartar directamente por falta de una guía clara de acción de innovación.",
+        "C": "Esta es una opción de distracción difícil: aparentemente se utilizan los gráficos (se cita que la proporción de estética médica es del 16.4% en el chart_166_2 y el número de registros de nuevos materiales es de 69 en el chart_166_3), pero hay un error obvio: la estética médica es un campo de eventos de inversión, y los registros de nuevos materiales son para el desarrollo de materias primas (como en el chart_166_3), y no hay una relación directa entre ellos; se interpreta erróneamente como \"fusión tecnológica\". Los gráficos no muestran una relación causal entre la estética médica y las materias primas, lo que conduce a un desvío en la estrategia.",
+        "D": "La opción C se combina con el hecho de que la proporción de eventos de inversión relacionados con estética médica es notable y la proporción de eventos de inversión relacionados con la marca en el chart_166_2, e implica que el crecimiento de los registros de nuevos materiales en el chart_166_3 apoya la dotación tecnológica.",
+        "E": "La opción B se combina con el hecho de que las tasas de crecimiento año tras año de cuidado personal y maquillaje son relativamente altas en el chart_166_1 y la tendencia de aumento drástico del número de registros de nuevos materiales en el chart_166_3.",
+        "F": "La opción A se combina con el hecho de que el número de registros de nuevos materiales de empresas locales ha crecido rápidamente y la proporción ha aumentado en el chart_166_3 y la proporción de eventos de inversión relacionados con materias primas es la mayor en el chart_166_2.",
+        "G": "Esta es una opción de distracción fácil: se basa en la percepción general de la tendencia (sostenibilidad ambiental), pero no se utilizan ningún dato de los gráficos (por ejemplo, no se asocia el crecimiento de los registros de nuevos materiales). Es razonable en teoría, pero no tiene soporte de los gráficos y es fácil de identificar como una sugerencia generalizada."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     }
   ]

@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "基于chart_91_1的中国主导结构（描述性趋势）和chart_91_2的波动模式（整体趋势），推理出全球不确定性。联合分析才能得出放大效应。",
+        "B": "结合chart_91_1的其他地区占比（如América del Norte 8%、Europa 9%）和chart_91_2的价格不稳定趋势（如多个时间点价格起伏），推理出其他地区应对策略的局限性。需要两张图数值对比（产量分布 vs 价格趋势）。",
+        "C": "这是一个Easy干扰项，基于行业常识：高产量常被视为推动创新的因素，但此说法独立于图表（如chart_91_1的产量占比），未结合具体数值推理。",
+        "D": "这是一个Hard干扰项，错误计算图表差距：chart_91_1中Europa占比9% + América del Norte占比8% = 17%，但干扰项夸大至25%（实际差距较大），误判其缓冲能力。",
+        "E": "这是一个Easy干扰项，基于语言常识：价格波动通常与需求下降相关，但此说法不依赖图表数据（如chart_91_2的价格走势），仅泛泛而谈。实际图表未涉及消费者需求。",
+        "F": "依赖chart_91_1的中国65%高占比（数值）和chart_91_2的价格波动趋势（如2017 - 2021年价格数据变化及2021年高点2.2），推理出中国价格变化对全球供应链的敏感性。不能仅从一张图推断（例如，仅产量占比无法解释价格影响）。",
+        "G": "这是一个Hard干扰项，错误解读图表数值：chart_91_2显示2017年价格为1.8万元/吨，2021年为2.2万元/吨（关键日期数据），但干扰项错误交换数值（说2021年1.8低于2017年2.2），实际价格上升，导致推理失真。"
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "结合chart_91_3的市场结构（otras empresas占75%）和chart_91_4的购买时间分布（如De medio año a un año占比最大），推理出小企业优势。需要两张图数值（占有率 vs 频率分布）联合分析。",
+        "B": "这是一个Easy干扰项，基于模型知识：高频率消费常被关联到市场饱和，但此说法不依赖图表数据（如chart_91_4的购买频率），仅常识性泛谈。",
+        "C": "基于chart_91_3的前10企业总和42%（结构）和chart_91_4的高频消费主导趋势（描述），推理出市场机会。联合推理才能得出竞争与机会的平衡。",
+        "D": "这是一个Hard干扰项，错误解读图表排序：chart_91_4显示Más de dos años购买频率仅3.3%（最低），但干扰项错误引用为23.6%（实际De un año a dos años为23.6%），误判消费者行为。",
+        "E": "依赖chart_91_3的低集中度趋势（前5企业仅17%占有率，数值）和chart_91_4的高频率趋势（Dentro de medio año及De medio año a un año合计占比高），推理出创新压力。不能仅从一张图推断（例如，仅频率数据无法解释企业行为）。",
+        "F": "这是一个Hard干扰项，错误理解图表数值：chart_91_3中前10企业市场占有率为25%，但干扰项误用“总和42%”数据（描述中“营收前10（含前5）企业市场占有率总和为42%”可能为笔误或混淆；实际前10为25%），夸大集中度。",
+        "G": "这是一个Easy干扰项，基于行业常识：低集中度常被认为便于垄断，但此说法独立于图表（如chart_91_3的市场占有率），未使用具体数值。"
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项，基于模型知识：高效生产常关联到分散结构，但此说法独立于图表数值（如产量占比或占有率），未具体分析。",
+        "B": "基于chart_91_1的产量结构（其他地区总和35%）和chart_91_3的前10企业总和42%（结构），推理出门槛低和中小企业贡献。联合分析才能得出矛盾解释。",
+        "C": "依赖chart_91_1的中国65%高占比（数值）和chart_91_3的低集中度趋势（前5企业仅17%），推理出中小企业角色。不能仅从一张图推断（例如，仅全球占比无法解释国内结构）。",
+        "D": "这是一个Easy干扰项，基于语言常识：贸易政策常被用于解释产业矛盾，但此说法不依赖图表数据（如chart_91_1或chart_91_3），仅一般性推理。",
+        "E": "结合chart_91_1的中国主导地位（描述）和chart_91_3的otras empresas占比75%（数值），推理出出口与内需分离。需要两张图数值对比（全球占比 vs 国内占有率）。",
+        "F": "这是一个Hard干扰项，错误引用图表数值：chart_91_3显示前5企业市场占有率为17%，但干扰项错误引用为42%（可能混淆“总和42%”描述），误判国内集中度与全球产量的匹配性。",
+        "G": "这是一个Hard干扰项，错误反转图表差距：chart_91_3中otras empresas市场占有率为75%（表明低集中度），但干扰项错误说成25%（实际前10为25%），误读数据导致结论相反。"
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando chart_91_2 (tendencia al alza a largo plazo de los precios) y chart_91_1 (ventaja de escala de China), se infiere que: la presión del aumento de costos y el efecto de escala de la región principal de producción respaldan conjuntamente la inversión en tecnología para mejorar la eficiencia del uso de recursos.",
+        "B": "Esta es una opción de distracción difícil: se citan los datos de las regiones de producción secundarias de chart_91_1 (8% en América del Norte y 9% en Europa), pero se confunde el patrón de producción global; China, como región principal de producción, tiene una ventaja de escala con una participación del 65%. Establecer una cadena de suministro en regiones secundarias puede aumentar los costos de logística y gestión, se ignora la mejora de la eficiencia y no se considera la tendencia de precios (chart_91_2), por lo que la dirección de la estrategia es errónea.",
+        "C": "Combinando chart_91_2 (fluctuación de precios y tendencia general al alza) y chart_91_1 (China domina la producción y tiene alta sensibilidad a los costos), se infiere que: la fluctuación de precios proporciona una ventana de oportunidad para la compra, y la alta participación de China hace que el ahorro de costos afecte la producción global.",
+        "D": "Combinando chart_91_1 (distribución de la producción global, existen cuotas en regiones secundarias como Europa y América del Norte) y chart_91_2 (fluctuación de precios, que aumenta el riesgo de la cadena de suministro), se infiere que: la concentración de producción y la inestabilidad de precios indican conjuntamente que la diversificación geográfica puede aliviar el riesgo.",
+        "E": "Esta es una opción de distracción difícil: superficialmente se utilizan los datos de precios de chart_91_2 (que muestra que el precio en 2021 es de 22.000 yuan/tonelada), pero se interpreta erróneamente la tendencia; los precios en el gráfico aumentan en general de 2017 a 2021 (de 1,8 a 2,2), pero hay fluctuaciones (por ejemplo, un mínimo de 1,6). Comprar en niveles altos de precios bloqueará costos altos y se ignoran las oportunidades en períodos de precios bajos (por ejemplo, 1,6 en 2018), lo que contradice el objetivo de reducción de costos.",
+        "F": "Esta es una opción de distracción fácil: se sugiere la automatización para mejorar la eficiencia, que es una estrategia general de la industria (por ejemplo, la optimización de la manufactura), pero no se citan datos del gráfico (como el ciclo de fluctuación de precios o la escala de la región principal de producción), y no se puede responder específicamente a la fluctuación de costos, lo que parece vacío y sin soporte de datos.",
+        "G": "Esta es una opción de distracción fácil: la declaración es amplia y se basa en conocimientos generales de gestión de la cadena de suministro (por ejemplo, enfatizar las relaciones con los proveedores), pero no se combina con los datos específicos del gráfico (como la distribución global de la producción o la tendencia de precios), y carece de orientación de acción para la fluctuación de costos o el patrón de producción, y es fácil de descartar por conocimientos generales (porque no se cuantifica el riesgo o la mejora de la eficiencia)."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -173,6 +241,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se sugieren medios de marketing generales (por ejemplo, la promoción de la marca), sin combinar los datos del gráfico (como la concentración del mercado o la frecuencia de compra). La declaración es amplia y no hay acciones específicas (por ejemplo, no se identifican a los usuarios de alta frecuencia), y es fácil de descartar por conocimientos generales (porque no resuelve el problema central de la mejora de la cuota de mercado).",
+        "B": "Combinando chart_91_4 (los consumidores tienen alta frecuencia de compra y la repetición de compras a corto plazo es dominante) y chart_91_3 (la concentración del mercado es baja y la cuota de las 10 empresas principales es limitada), se infiere que: la alta tasa de repetición de compras indica que es fácil retener a los clientes, y la baja concentración proporciona oportunidades para capturar cuotas de mercado. Un plan de fidelización de clientes responde directamente a esta relación.",
+        "C": "Esta es una opción de distracción difícil: se utilizan los datos de frecuencia de compra de chart_91_4 (la proporción de más de dos años es del 3,3%), pero se confunde el comportamiento de los consumidores; el grupo de alta frecuencia de repetición de compras (el total de dentro de medio año y de medio año a un año es del 74,1%) es el mercado principal. Lanzar productos para usuarios de baja frecuencia desperdiciará recursos, se ignora el objetivo de 'mejorar rápidamente' y no se considera la concentración del mercado (chart_91_3), lo que es una comprensión errónea de los valores.",
+        "D": "Combinando chart_91_3 (el mercado está disperso y hay mucho espacio para la integración) y chart_91_4 (alta tasa de repetición de compras y alto valor de los clientes), se infiere que: la baja concentración y el comportamiento de alta repetición de compras indican conjuntamente que las fusiones y adquisiciones pueden agregar eficientemente recursos de clientes y mejorar la influencia en el mercado.",
+        "E": "Esta es una opción de distracción difícil: se citan los datos de concentración del mercado de chart_91_3 (el 17% de las 5 empresas principales), pero se interpreta erróneamente; la baja concentración (el 75% de otras empresas) significa que el mercado está disperso y hay muchas oportunidades. Sugerir 'evitar la competencia' hará que se pierdan oportunidades de capturar cuotas de mercado, y no se integran los datos de frecuencia de compra (chart_91_4). La dirección de la estrategia contradice la mejora rápida de la cuota de mercado.",
+        "F": "Combinando chart_91_4 (distribución diversa de la frecuencia de compra) y chart_91_3 (el mercado está disperso y la competencia es feroz), se infiere que: los datos segmentados de frecuencia y la baja concentración respaldan conjuntamente una estrategia de productos personalizados para mejorar la cuota de mercado a través de la marketing precisa."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -196,6 +279,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combinando chart_91_4 (distribución de la frecuencia de compra de los consumidores, parte del grupo tiene un ciclo de repetición de compras más largo) y chart_91_1 (distribución global de la producción, existen cuotas en regiones secundarias como América del Norte y Europa), se infiere que: los datos del ciclo de repetición de compras largo y el patrón de producción global indican conjuntamente que los productos de entrada son adecuados para la penetración en nuevos mercados y se reduce la dependencia utilizando la capacidad de producción local.",
+        "B": "Combinando chart_91_2 (tendencia al alza de los costos de materias primas) y chart_91_4 (alta tasa de repetición de compras de los consumidores, alta proporción de dentro de medio año a un año), se infiere que: el aumento de costos y el comportamiento de alta repetición de compras respaldan conjuntamente la fijación de precios de alta gama y se mantiene la demanda a través de la actualización del producto.",
+        "C": "Combinando chart_91_1 (China domina la producción) y chart_91_2 (fluctuación de precios), se infiere que: la concentración de producción y la inestabilidad de precios indican conjuntamente que las compras a gran escala pueden optimizar los costos y mejorar la flexibilidad de fijación de precios.",
+        "D": "Esta es una opción de distracción difícil: se citan los datos de frecuencia de compra de chart_91_4 (la proporción de de un año a dos años es del 23,6%), pero se optimiza erróneamente; el grupo de alta frecuencia de repetición de compras (el total de dentro de medio año y de medio año a un año es del 74,1%) debe ser priorizado. Promocionar para usuarios de baja frecuencia diluirá los recursos y se ignora el objetivo de 'competitividad internacional', y no se integran los costos de materias primas (chart_91_2).",
+        "E": "Esta es una opción de distracción difícil: se citan los datos de precios de chart_91_2 (puntos de fluctuación como 1,6 y 1,9), pero se aplica erróneamente; el gráfico muestra una tendencia general al alza (de 1,8 en 2017 a 2,2 en 2021). Ajustar los precios con frecuencia causará confusión y pérdida de confianza entre los clientes, se ignora la necesidad de estabilidad y no se combina con el comportamiento de los consumidores (chart_91_4) o la distribución de producción.",
+        "F": "Esta es una opción de distracción fácil: se sugiere la expansión del mercado, que es una estrategia internacional general de conocimiento común, pero no se integran datos de ningún gráfico (como la tendencia de costos, la distribución de producción o el comportamiento de los consumidores). La declaración es amplia y no hay detalles de fijación de precios o asignación de recursos, y es fácil de descartar (porque no se abordan problemas específicos de costos o eficiencia).",
+        "G": "Esta es una opción de distracción difícil: se utilizan los datos de 'otros países' de chart_91_1 (la proporción es del 10%), pero se confunde el patrón de producción global; la ventaja de escala del 65% de China, como región principal de producción, es más favorable para el control de costos. El marketing en regiones secundarias puede ser ineficiente y no se considera la tendencia al aumento de costos (chart_91_2), lo que es una asignación de recursos errónea."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "G",
+        "D"
       ]
     }
   ]

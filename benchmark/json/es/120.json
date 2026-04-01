@@ -84,6 +84,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：错误解读排序和数值。图表中拥有3-4个APP的用户比例最高（54.55%），而拥有1-2个APP仅39.57%，选项颠倒了排序，误导了APP使用密度的含义。",
+        "B": "选项结合了投资类APP作为信息源比例较高（36.24%）和用户拥有3-4个APP的比例最高（54.55%）且每日打开频率最高（44.39%），推理出APP的重要性：高信息获取比例驱动了多APP管理和高频使用行为，不能仅凭一张图表推断。",
+        "C": "这是Hard干扰项：错误关联数据差距。第三方支付平台普及率高（75.94%），但图表显示证券公司自有APP使用率达68.45%，且用户拥有多个APP（54.55%），表明互补而非削弱作用；选项忽略了多APP使用强化整合作用的证据。",
+        "D": "基于第三方支付平台APP使用比例最高（75.94%）和拥有多个APP的比例高（54.55%），推理出第三方APP的普及可能影响用户对券商APP的依赖，形成整合使用模式，必须跨图分析。",
+        "E": "这是Easy干扰项：基于一般常识（官方文件常被视为权威），但图表显示官方文件仅占33.91%，远低于专业投资人士（56.01%）和第三方支付平台（75.94%），且选项未正确关联APP的核心作用（如高频使用行为）。",
+        "F": "依赖证券公司自有APP使用比例高（68.45%）和拥有多个APP的用户比例高（54.55%），推理出APP普及导致用户行为（管理多个账户），需联合两个图表的数据趋势。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "结合每日打开几次的用户比例最高（44.39%）和内容杂乱（42.25%）和资讯不及时（44.92%）的建议比例高，推理出矛盾：高使用频率揭示了内容问题，需联合两个图表的趋势（打开频率高但内容评价低），不能单图推断。",
+        "B": "依赖每日打开频率高的用户比例（44.39%）和缺少入门知识建议比例最高（47.59%），推理出冲突：高频使用使知识缺失更明显，必须跨图分析使用行为和反馈数据。",
+        "C": "这是Easy干扰项：基于常识（高频使用少可能意味着满意度高），但图表显示平均每日打开几次的比例最高（44.39%），且改进建议比例高（如缺少教学知识47.59%），证明矛盾存在而非满意度高。",
+        "D": "这是Hard干扰项：错误关联数值差距。平均每月打开几次比例仅7.49%（很低），而操作不方便建议占28.34%；选项夸大了低频使用比例，并忽略高频使用数据（如每日打开几次44.39%）与建议的冲突。",
+        "E": "这是Hard干扰项：错误解读数值排序。图表中改进建议最高是缺少教学知识（47.59%），缺少娱乐功能仅37.97%；选项误将娱乐功能设为最高，并错误关联高频使用行为（44.39%为每日打开几次，不是“很多次”）。",
+        "F": "基于拥有3-4个APP的用户比例最高（54.55%）和操作不方便建议比例（28.34%），推理出多APP使用可能导致操作问题，需联合用户行为和改进建议数据。"
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -126,6 +156,21 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：错误关联数据。官方文件占比33.91%（非最高），娱乐功能建议仅37.97%；选项强行关联，但图表显示专业偏好（56.01%）更可能驱动教学需求（47.59%），娱乐建议比例较低。",
+        "B": "这是Easy干扰项：基于常识（社交关系重要），但图表显示专业投资人士占比最高（56.01%），且改进建议聚焦教学知识（47.59%），选项忽略了主导偏好。",
+        "C": "这是Hard干扰项：错误解读数值差距。自媒体社交媒体占比34.11%（非最低），但改进建议中内容杂乱占比42.25%；选项误判比例“低”，并错误关联（实际偏好中最低是其他0.97%），且未考虑高频建议如资讯不及时（44.92%）。",
+        "D": "结合专业投资人士作为信息源比例最高（56.01%）和缺少教学知识建议比例最高（47.59%），推理出隐含联系：主要信息偏好（专业指导）未被APP满足，需跨图分析信息源和APP功能缺陷。",
+        "E": "依赖投资类APP作为信息源比例较高（36.24%）和资讯更新不及时建议比例高（44.92%），推理出APP作为信息工具的角色与实时性不足的冲突，必须联合两个图表的数据趋势。",
+        "F": "基于家人朋友等社会关系信息源比例较高（38.37%）和缺少娱乐功能建议比例较高（37.97%），推理出社交信息偏好可能引发对APP娱乐性的需求，需联合信息途径和功能建议数据。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -149,6 +194,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "También basado en el conocimiento común (la seguridad de los datos es importante), pero sin citar el contenido de los gráficos (como la frecuencia de apertura de los usuarios o las sugerencias de mejora), la estrategia es vaga y no mejora directamente la frecuencia de uso o la competitividad como fuente de información de inversión.",
+        "B": "Basado en las sugerencias de mejora de los usuarios en chart_120_3 (la falta de enseñanza y otros conocimientos introductorios tiene la proporción más alta) y chart_120_1 (la alta proporción de las aplicaciones de inversión como vía de obtención de información), fortalecer el contenido educativo puede mejorar la adhesión de la APP y su posición como fuente de información.",
+        "C": "Basado en chart_120_3 (sugerencia de mejora de que el contenido está desordenado y no está lo suficientemente refinado) y chart_120_2 (los usuarios tienen múltiples APP y la frecuencia de apertura diaria no es alta), simplificar la interfaz puede reducir la carga cognitiva y aumentar la duración del uso de una sola APP.",
+        "D": "Combinando chart_120_3 (sugerencia de mejora de que la información relevante no se actualiza a tiempo) y chart_120_1 (la proporción significativa de los documentos oficiales, anuncios, etc. como fuente de información), la información actualizada a tiempo puede responder a las demandas y aumentar la frecuencia de uso.",
+        "E": "Aparentemente se usan los datos de chart_120_2 (la cantidad de APP que los usuarios tienen), pero se interpreta mal la tendencia: chart_120_2 muestra que la proporción de usuarios que abren muchas veces al día en promedio es solo del 14.97%, y en chart_120_3 la demanda de mejora de la función de entretenimiento (37.97%) es menor que la falta de enseñanza (47.59%). Añadir funciones de entretenimiento puede dispersar la función central y, en cambio, reducir la frecuencia de uso.",
+        "F": "Se citan los datos de chart_120_1 (la tasa de uso de documentos oficiales es del 33.91%), pero se confunde la relación: chart_120_3 muestra que la demanda de mejora de la información no actualizada a tiempo (44.92%) es más alta, y la tasa de uso de las aplicaciones de inversión (36.24%) es menor que la de los canales profesionales. Optimizar los documentos oficiales puede no resolver directamente los problemas de alta frecuencia de los usuarios (como la falta de enseñanza).",
+        "G": "Esta opción no se basa en los datos de los gráficos, solo en el conocimiento común comercial general (por ejemplo, la publicidad aumenta las descargas), pero la estrategia es amplia y sin guía de acción específica (por ejemplo, no se dirige a las características de las aplicaciones de inversión), y se ignoran los datos de las opiniones y hábitos de los usuarios."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -172,6 +234,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Basado en chart_120_1 (la proporción más alta de los profesionales de inversión profesionales, como gestores de riqueza de bancos/instituciones de valores, como fuente de información) y el subgráfico 2 de chart_120_1 (la alta tasa de uso de las aplicaciones propias de las compañías de valores), la integración profesional puede mejorar la autoridad de la APP y la atracción para los usuarios.",
+        "B": "Basado en chart_120_3 (sugerencias de mejora de que la aplicación no se ejecuta lo suficientemente suavemente y la operación es inconveniente) y chart_120_2 (la baja frecuencia de apertura diaria de los usuarios), la optimización técnica puede mejorar directamente la frecuencia de uso y la satisfacción.",
+        "C": "Combinando chart_120_1 (la proporción significativa de las relaciones sociales, como familiares y amigos, como fuente de información) y chart_120_2 (el fenómeno general de que los usuarios tienen múltiples APP), las funciones sociales pueden reducir el cambio entre APP y aumentar la utilidad de una sola plataforma.",
+        "D": "Solo partiendo de la lógica comercial (reducir los precios para atraer a los usuarios), pero se ignora el contenido de los gráficos (por ejemplo, la tasa de uso de plataformas de pago tercerizadas, como Alipay y WeChat, es del 75.94%), y no se resuelven los problemas de los usuarios (como el contenido desordenado). Esto puede no mejorar eficazmente la cuota de mercado.",
+        "E": "Aparentemente se citan los datos de chart_120_1 (la proporción de la fuente de información de relaciones sociales es del 38.37%), pero se aplica incorrectamente: la tasa de uso de las aplicaciones propias de las compañías de valores es del 68.45% (chart_120_1), y chart_120_3 muestra que la demanda de la función de entretenimiento (37.97%) es baja. La transformación en una plataforma social puede alejarse de la función central de inversión y aumentar la complejidad en lugar de ampliar la base de usuarios.",
+        "F": "Se usan los datos de chart_120_2 (la cantidad de APP que los usuarios tienen), pero se confunden los valores: el 54.55% de los usuarios tiene 3 - 4 APP, pero chart_120_2 muestra que la proporción de usuarios que abren varias veces al día en promedio es del 44.39%. Simplificar las funciones puede ignorar la diversidad de preferencias de los usuarios (por ejemplo, la tasa de uso de plataformas financieras de Internet tercerizadas es del 51.34%), y en cambio reducir la competitividad.",
+        "G": "Esta opción se basa en el conocimiento general de marketing (campañas de promoción), no en los datos de los gráficos (como la diversidad de fuentes de información o las preferencias de uso de APP). La estrategia es amplia y sin guía de integración específica (por ejemplo, no se dirige a los tipos de aplicaciones de inversión)."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -195,6 +274,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Solo partiendo del servicio (soporte de servicio al cliente), pero no se citan los gráficos (como la frecuencia de apertura de los usuarios o las sugerencias de mejora), se ignoran los problemas principales (como la falta de enseñanza). Esto puede no asignar recursos de manera eficiente.",
+        "B": "Basado en el conocimiento técnico (mantener una frecuencia de actualización avanzada), no se basa en los datos de los gráficos (como las demandas de mejora o los patrones de uso). La estrategia es amplia y sin asignación de prioridades (por ejemplo, no se dirige a los puntos de retroalimentación específicos).",
+        "C": "Aparentemente se citan los datos de chart_120_3 (la demanda de mejora de la función de entretenimiento es del 37.97%), pero se comparan incorrectamente: la demanda de falta de enseñanza (47.59%) es más alta (chart_120_3), y chart_120_2 muestra que la proporción de usuarios que abren muchas veces al día en promedio es solo del 14.97%. Desarrollar funciones de entretenimiento puede malgastar recursos y no mejorar directamente la lealtad.",
+        "D": "Se usan los datos de chart_120_3 y chart_120_2 (la retroalimentación de que la operación no es fluida es del 36.90%, y la proporción de usuarios que abren varias veces al día en promedio es del 44.39%), pero se ignoran las tendencias: las demandas de falta de enseñanza (47.59%) y de información no actualizada a tiempo (44.92%) son más altas. Optimizar la fluidez es importante, pero no es el problema más destacado. La asignación de recursos puede ser ineficiente.",
+        "E": "Combinando chart_120_3 (sugerencia de mejora de que la información relevante no se actualiza a tiempo) y chart_120_2 (la proporción relativamente alta de usuarios que abren varias veces al día en promedio), la información actualizada a tiempo puede coincidir con los hábitos de uso y aumentar la tasa de retención.",
+        "F": "Basado en chart_120_3 (la proporción de demanda de mejora de la función de entretenimiento es relativamente baja) y chart_120_3 (las retroalimentaciones de contenido desordenado y problemas de operación son más destacadas), redirigir los recursos a los problemas de alta prioridad puede optimizar la eficiencia general y cumplir con las demandas reales de los usuarios (tenga en cuenta que esta estrategia es coherente con los valores, ya que optimiza los recursos basados en los datos, en lugar de reducir los servicios).",
+        "G": "Basado en chart_120_3 (la proporción más alta de la sugerencia de mejora de la falta de enseñanza y otros conocimientos introductorios) y chart_120_1 (la importancia de las aplicaciones de inversión como fuente de información), el desarrollo del contenido educativo puede resolver las demandas principales y aumentar el valor de la APP."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

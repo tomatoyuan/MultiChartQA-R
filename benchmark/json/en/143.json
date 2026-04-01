@@ -86,6 +86,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: It wrongly compares values and rankings. The proportion of offline retail is the highest at 50.2%, but in the consumption chart, the '501 - 1000 yuan' range (38.9%) has the largest proportion, not the high - consumption range. High - spending consumers are more likely to rely on offline experiences (as described in the original option A), but this option wrongly infers that they avoid offline and turn to acquaintance recommendations (36.4%), ignoring the potential mismatch between channel popularity and consumer groups.",
+        "B": "This is an Easy distractor: It is based on common sense (high - spending consumers may prefer social media) but does not rely on the chart data at all. In the chart, the proportion of content sharing platforms is only 24.0%, far lower than other channels such as offline retail (50.2%) or e - commerce (49.6%), so this option is incorrect.",
+        "C": "This is a Hard distractor: It seemingly bases on the chart values but misinterprets the relationship between consumption ranges and channels. In the consumption chart, the '201 - 500 yuan' range has the highest proportion at 34.4%, and the short - video channel has a proportion of 42.3%. However, the proportion of high - spending consumers (above 1001 yuan) is small (about 11.7%), and there is no evidence that they prefer short - videos. The original option C points out that short - videos may be more attractive to low - and middle - spending consumers.",
+        "D": "Option 1 relies on the joint reasoning of chart_143_1 (average monthly consumption survey) and chart_143_2 (information channel survey). Chart_143_1 shows that the total proportion of the consumption range above 1001 yuan is small (about 11.7%, calculated as 8.9% for 1001 - 1500 yuan + 1.6% for 1501 - 2000 yuan + 1.2% for above 2000 yuan), but in chart_143_2, the proportion of the offline retail channel is the highest at 50.2%. It is inferred that high - spending consumers may prefer high - contact channels to obtain personalized services. A single chart cannot independently infer preferences.",
+        "E": "Option 2 also relies on these two charts. In chart_143_1, the '501 - 1000 yuan' range has the largest proportion (38.9%), and in chart_143_2, the proportion of the e - commerce platform channel is 49.6%, which is close to dominant. It is inferred that middle - spending consumers drive the mainstream of e - commerce, but the low proportion of high - spending consumers implies that their channel preferences may be different (such as emphasizing quality rather than convenience). It is necessary to cross - compare the consumption distribution and channel weights.",
+        "F": "This is an Easy distractor: It uses industry common sense (high - income people pay attention to efficiency) but ignores the chart context. Although the proportion of the e - commerce platform is as high as 49.6%, the consumption chart shows that the total proportion of high - spending consumers (above 1001 yuan) is only 11.7%. And the original option B points out that e - commerce may be more attractive to middle - grade consumer groups, not high - spending consumers.",
+        "G": "Option 3 also relies on these two charts. In chart_143_1, the proportion of the high - consumption range is extremely small, while in chart_143_2, the proportion of the short - video platform channel is relatively high at 42.3%. It is inferred that this digital channel may be more suitable for price - sensitive consumers, not high - spending groups. It is necessary to jointly analyze consumption levels and channel characteristics to discover implicit laws."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: It relies on industry common sense (packaging design is important) but does not combine the chart data. In the chart, the expectation for long - lasting product effects has the highest proportion at 61.1%, far higher than that of packaging design (39.6%). And the growth of new domestic brands (the increase proportion is 26.9%) may be more related to efficacy or cost - performance, rather than packaging.",
+        "B": "This is a Hard distractor: It seemingly bases on the numerical gap (26.9% vs 21.1%) but misinterprets the ranking and trend. The increase proportion of new domestic brands (26.9%) is higher than that of international brands (21.1%), and the increase proportion of foreign niche brands is only 13.9%, with an obvious gap. Combining with the expectation data (the expectation for more new domestic brands is 29.5%), the driving factors are significant, not random.",
+        "C": "Option 2 also relies on these two charts. In chart_143_3, the 'decrease' proportion of international well - known brands is relatively high (30.3%), and in chart_143_4, the expectation for 'affordable products' has a significant proportion of 31.0%. It is inferred that the high - price strategy of international brands conflicts with consumers' price sensitivity, implying the promotion of the rise of domestic brands. It is necessary to jointly analyze the reasons for the decrease and the expectation preferences.",
+        "D": "Option 1 relies on the joint reasoning of chart_143_3 (change in brand purchase frequency) and chart_143_4 (expectations for industry development). Chart_143_3 shows that the 'increase' proportion of the purchase frequency of new domestic brands (26.9%) is higher than the 'decrease' proportion (21.0%), and in chart_143_4, the expectation for'more new domestic brands' has a proportion of 29.5%. It is inferred that expectations drive the change in purchase behavior, forming a growth impetus. A single chart can only show an isolated trend.",
+        "E": "This is an Easy distractor: It is based on model knowledge (market substitution theory) but ignores the chart details. The decrease proportion of international brand purchases is high (30.3%), but the growth of new domestic brands also needs to be combined with specific expectations (such as the expectation for more new domestic brands at 29.5%). The original option B points out that the expectation for affordable products (31.0%) may be more crucial, rather than simple substitution.",
+        "F": "This is a Hard distractor: It wrongly compares the expectation values (29.5% vs 31.0%) but ignores the actual change in purchase frequency. The increase proportion of new domestic brand purchases is relatively high at 26.9%. Combining with the original option A, the positive feedback of the market on local innovation may be more important. Although the expectation for affordable products is high, it does not directly prove its leading role.",
+        "G": "Option 3 also relies on these two charts. In chart_143_4, the expectation for 'long - lasting product effects' is the highest (61.1%), but in chart_143_3, the 'increase' proportion of new domestic brands is 26.9%. It is inferred that while consumers pursue long - lasting efficacy, they are willing to try new brands, reflecting an implicit trade - off behavior. It is necessary to cross - verify the expectation and purchase data."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: It seemingly associates the channel and expectation values (42.3% vs 39.6%) but misjudges the relationship. The proportion of short - videos is higher than that of traditional advertising (42.3% vs 40.6%), but the expectation for packaging design (39.6%) is not directly linked to the channel. There is no evidence in the chart that short - videos affect packaging, and the original question emphasizes the conflict (such as the popularity of the channel but the expectation does not decrease). This option wrongly assumes a correlation.",
+        "B": "This is a Hard distractor: It wrongly interprets the values (49.6% vs 28.7%) but ignores the meaning of the expectation. The popularity of e - commerce platforms is high, but the expectation for more purchasing channels still accounts for 28.7% (not low). The original option A points out that this may reflect that the convenience has not been fully met. This option infers a high satisfaction degree, which conflicts with the actual data.",
+        "C": "This is an Easy distractor: It uses common sense (advertising has nothing to do with shopping guides) but does not analyze the chart conflict. In the chart, the popularity of traditional advertising is high, but the expectation for shopping guide services is low (17.0%). The original question focuses on the potential inconsistency between channels and expectations (such as the popularity of e - commerce but the expectation for more purchasing channels still exists). This option makes a baseless generalization.",
+        "D": "Option 2 also relies on these two charts. In chart_143_2, the proportion of the traditional advertising channel is relatively high at 40.6%, but in chart_143_4, the expectation for'more beautiful and creative packaging design' has a proportion of 39.6%, which is lower than the expectation for product effects. It is inferred that although advertising is widespread, it does not increase the priority of packaging, reflecting the misalignment between information dissemination and consumers' actual concerns. A single chart cannot identify the conflict.",
+        "E": "Option 3 also relies on these two charts. In chart_143_2, the proportion of the content sharing platform channel is only 24.0% (low), while in chart_143_4, the expectation for 'products with compound efficacy' has a relatively high proportion of 41.2%. It is inferred that the low penetration rate of this digital channel may limit the awareness of multi - functional products. It is necessary to cross - compare the channel weights and expectation intensities to explain the implicit deficiencies.",
+        "F": "Option 1 relies on the joint reasoning of chart_143_2 (information channel survey) and chart_143_4 (expectations for industry development). In chart_143_2, the proportion of the e - commerce platform channel is close to dominant at 49.6%, but in chart_143_4, the expectation for'more purchasing channels for convenient shopping' is only 28.7% (relatively low). It is inferred that there is a conflict between high popularity and continuous expectation, implying a gap in channel coverage. It is necessary to jointly analyze the channel data and expectation rankings to reveal the contradiction.",
+        "G": "This is an Easy distractor: It is based on industry knowledge (digital content supports product demand) but does not specifically combine the chart. The proportion of content sharing platforms is indeed low at 24.0%, and the expectation for compound efficacy is high at 41.2%. The original option C points out that digital content dissemination may not fully support this demand, but this option wrongly attributes it to the channel shift."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: The statement is broad and lacks specific action guidelines. It is only based on general industry common sense (such as 'enhancing brand awareness' or 'improving product quality') without combining the chart data. The charts show consumers' preferences and channel proportions (such as chart_143_1 and chart_143_2), but this option does not mention any specific intervals or channels, so it can be easily excluded directly.",
+        "B": "Option 3 is based on the fact that the proportion of traditional advertising (40.6%) in chart_143_2 is lower than that of mainstream channels, and the expectation of 'long - lasting product effects' (61.1%) in chart_143_4. It strengthens product trust through social channels.",
+        "C": "This is a hard distractor: It misinterprets the data in chart_143_1. The proportion of the high - consumption interval (above 1501 yuan) is extremely low (only 1.6% + 1.2% = 2.8%), while increasing market penetration should focus on the middle - consumption group (201 - 1000 yuan) with a proportion of 73.3%. However, this option suggests targeting the niche high - consumption group, ignoring the scale of the core users, with an obvious logical deviation.",
+        "D": "Option 2 combines the proportion advantage of offline retail (50.2%) in chart_143_2, the expectation of 'more purchasing channels for convenient shopping' (28.7%) and the expectation of 'affordable products' (31.0%) in chart_143_4, indicating that offline optimization can meet the needs for convenience and cost - effectiveness.",
+        "E": "Option 1 involves the high proportions of short - video platforms (42.3%) and e - commerce platforms (49.6%) in chart_143_2, and the highest proportion of the '501 - 1000 yuan' consumption interval (38.9%) in chart_143_1, indicating that the middle - consumption group is the main force, and online channels can accurately cover them.",
+        "F": "This is an easy distractor: It uses the data partially but the reasoning is broad. It quotes the proportion of acquaintance recommendation (36.4%) in chart_143_2 and the expectation of product efficacy in chart_143_4, but the suggestion of'reducing investment in e - commerce platforms' has no basis (the proportion of e - commerce is one of the highest at 49.6%), and 'fulfilling the expectation of product efficacy' is not translated into specific strategies. The statement is vague and can be excluded based on common sense.",
+        "G": "This is a hard distractor: It confuses the channel data in chart_143_2. The proportion of traditional advertising is 40.6%, while the proportions of short - video platforms and e - commerce platforms are 42.3% and 49.6% respectively, both higher than that of traditional advertising. The correct strategy should be to increase the high - coverage channels (such as short - video and e - commerce as suggested in option A). This option wrongly believes that traditional advertising is'more stable and reliable' and suggests reducing investment in short - video, but the data does not support this reasoning."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It uses the data partially but the reasoning is superficial. It quotes the expectation of packaging design (39.6%) in chart_143_4, but does not compare the priorities (the expectation of product effects is the highest at 61.1%), and the suggestion of 'instead of compound efficacy' has no basis. The statement is vague and can be excluded based on common sense.",
+        "B": "Option 2 is based on the expectation of 'increased promotion/discounts' (40.9%) in chart_143_4 and the phenomenon of 'decreased purchase frequency' (30.3%) of international well - known brands in chart_143_3. It attracts price - sensitive users through price strategies.",
+        "C": "This is a hard distractor: It confuses the trends in chart_143_3. The proportion of the decrease in the purchase frequency of international well - known brands reaches 30.3% (higher than the proportion of increase at 21.1%), and 'no significant change (48.6%)' does not mean high brand loyalty, but rather a potential risk of loss. This option suggests'maintaining the status quo', but ignores the decreasing trend and should prioritize the growth areas (such as the 26.9% increase in new domestic brands).",
+        "D": "Option 1 involves the highest proportions of the expectations of 'products with compound efficacy' (41.2%) and 'long - lasting product effects' (61.1%) in chart_143_4, and the growth trend of 'increased purchase frequency' (26.9%) of domestic new brands in chart_143_3.",
+        "E": "This is an easy distractor: The statement is too broad and is only based on general business common sense (such as 'innovating product lines') without combining the specific data in the charts (such as the brand changes in chart_143_3 or the expectation trends in chart_143_4). There are no clear priorities or action details, so it is easy to be excluded.",
+        "F": "This is a hard distractor: It misinterprets the data in chart_143_4. The proportions of the expectations of improving the service attitude of shopping guides/salespersons and after - sales service are only 17.0% and 10.4% respectively, far lower than those of long - lasting product effects (61.1%) and products with compound efficacy (41.2%). However, this option suggests prioritizing service improvement, but the data shows that product efficacy is the core expectation, with a wrong strategic direction.",
+        "G": "Option 3 combines the expectation of'more beautiful and creative packaging design' (39.6%) in chart_143_4, and the data of 'decreased purchase frequency' (31.4%) and 'low increase proportion' (13.9%) of foreign niche brands in chart_143_3 to optimize resource allocation."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It confuses the data in multiple charts. The proportion of the decrease in the purchase frequency of foreign niche brands reaches 31.4% (chart_143_3), and the proportion of the traditional advertising channel is 40.6% (chart_143_2), which is not the highest (the proportion of e - commerce is higher at 49.6%). This option wrongly combines the 'no - change proportion' and channels, but the data shows that foreign niche brands have a high risk of loss, and enterprises should prioritize the growing brands (such as new domestic brands).",
+        "B": "This is an easy distractor: It uses the data partially but the reasoning is broad. It quotes the high - consumption group (with a low proportion in chart_143_1), but the suggestion of'reducing optimization for the middle - and low - consumption groups' has no basis (the proportion of the middle - and low - consumption groups is large), and the 'exclusive service' is not combined with specific channels or brands. The statement is vague and can be excluded based on common sense.",
+        "C": "This is an easy distractor: The statement is broad and lacks specific synergy guidelines. It is only based on general marketing common sense (such as 'loyalty programs') without combining the chart data (such as consumers' consumption ability in chart_143_1 or brand dynamics in chart_143_3). There is no targeting for channels or brands, so it is easy to be excluded.",
+        "D": "Option 3 is based on the low total proportion (about 10%) of the '1001 - 2000 yuan and above' interval in chart_143_1 and the expectation of 'affordable products' (31.0%) in chart_143_4 to avoid resource waste and focus on the mass market.",
+        "E": "This is a hard distractor: It misinterprets the data in chart_143_1. The proportion of the low - consumption interval is only 15.0%, far lower than that of the middle - consumption group (73.3%, 201 - 1000 yuan), and chart_143_4 shows that the expectation of 'affordable products' is only 31.0%, not the highest. This option suggests targeting the niche group, but improving retention should focus on the scale of core users, with a logical error.",
+        "F": "Option 2 combines the channel advantage of offline retail (50.2%) in chart_143_2, the phenomenon of 'decreased purchase frequency' (30.3%) of international well - known brands in chart_143_3, and the expectations of 'improved service attitude of shopping guides/salespersons' (17.0%) and 'improved after - sales service' (10.4%) in chart_143_4 to improve retention through service optimization.",
+        "G": "Option 1 involves the high coverage of e - commerce platforms (49.6%) and short - video platforms (42.3%) in chart_143_2, the trend of 'increased purchase frequency' (26.9%) of domestic new brands in chart_143_3, and the highest proportion of the '501 - 1000 yuan' interval (38.9%) in chart_143_1, indicating that the synergy strategy can reach the main group."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

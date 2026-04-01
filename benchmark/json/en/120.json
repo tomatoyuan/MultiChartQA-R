@@ -84,6 +84,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: misinterpreting the ranking and values. In the chart, the proportion of users with 3 - 4 apps is the highest (54.55%), while the proportion of users with 1 - 2 apps is only 39.57%. The option reverses the ranking and misleads the meaning of app usage density.",
+        "B": "The option combines the relatively high proportion of investment apps as an information source, the highest proportion of users having 3 - 4 apps, and the highest daily opening frequency. It infers the importance of apps: the high proportion of information acquisition drives the behavior of managing multiple apps and high - frequency usage, which cannot be inferred from a single chart.",
+        "C": "This is a hard distractor: incorrectly associating data gaps. The popularity of third - party payment platforms is high (75.94%), but the chart shows that the usage rate of self - owned apps of securities companies reaches 68.45%, and the proportion of users having multiple apps is 54.55%, indicating a complementary rather than a weakening effect. The option ignores the evidence that the use of multiple apps strengthens the integration effect.",
+        "D": "Based on the highest proportion of using third - party payment platform apps and the high proportion of users having multiple apps, it infers that the popularity of third - party apps may affect users' dependence on securities firm apps, forming an integrated usage model, which must be analyzed across charts.",
+        "E": "This is an easy distractor: based on general common sense (official documents are often regarded as authoritative), but the chart shows that official documents only account for 33.91%, far lower than professional investment professionals (56.01%) and third - party payment platforms (75.94%), and the option does not correctly associate the core role of apps (such as high - frequency usage behavior).",
+        "F": "Relying on the high proportion of using self - owned apps of securities companies and the high proportion of users having multiple apps, it infers that the popularity of apps leads to users' behavior (managing multiple accounts), which requires combining the data trends of two charts."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Combining the highest proportion of users opening the app several times a day and the high proportion of suggestions regarding cluttered content and untimely information, it infers the contradiction: high usage frequency reveals content problems, which requires combining the trends of two charts (high opening frequency but low content evaluation) and cannot be inferred from a single chart.",
+        "B": "Relying on the high proportion of users with a high daily opening frequency and the highest proportion of suggestions regarding the lack of introductory knowledge, it infers the conflict: high - frequency usage makes the lack of knowledge more obvious, which must analyze usage behavior and feedback data across charts.",
+        "C": "This is an easy distractor: based on common sense (low - frequency usage may mean high satisfaction), but the chart shows that the proportion of users opening the app several times a day on average is the highest (44.39%), and the proportion of improvement suggestions is high (such as the lack of teaching knowledge at 47.59%), proving the existence of a contradiction rather than high satisfaction.",
+        "D": "This is a hard distractor: incorrectly associating data gaps. The proportion of users opening the app several times a month on average is only 7.49% (very low), while the proportion of suggestions regarding inconvenient operation is 28.34%. The option exaggerates the proportion of low - frequency usage and ignores the conflict between high - frequency usage data (such as opening the app several times a day at 44.39%) and suggestions.",
+        "E": "This is a hard distractor: misinterpreting the numerical ranking. In the chart, the highest improvement suggestion is the lack of teaching knowledge (47.59%), and the lack of entertainment functions is only 37.97%. The option mistakenly sets the entertainment function as the highest and incorrectly associates high - frequency usage behavior (44.39% is for opening the app several times a day, not “many times”).",
+        "F": "Based on the highest proportion of users having 3 - 4 apps and the proportion of suggestions regarding inconvenient operation, it infers that using multiple apps may lead to operation problems, which requires combining user behavior and improvement suggestion data."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -126,6 +156,21 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: incorrectly associating data. Official documents account for 33.91% (not the highest), and the suggestion for entertainment functions is only 37.97%. The option forcibly associates them, but the chart shows that professional preferences (56.01%) are more likely to drive teaching needs (47.59%), and the proportion of entertainment suggestions is lower.",
+        "B": "This is an easy distractor: based on common sense (social relationships are important), but the chart shows that the proportion of professional investment professionals is the highest (56.01%), and the improvement suggestions focus on teaching knowledge (47.59%). The option ignores the dominant preference.",
+        "C": "This is a hard distractor: misinterpreting the numerical gap. Self - media and social media account for 34.11% (not the lowest), but the proportion of suggestions regarding cluttered content in improvement suggestions is 42.25%. The option misjudges the proportion as “low” and incorrectly associates it (the lowest in actual preferences is “others” at 0.97%), and does not consider high - frequency suggestions such as untimely information (44.92%).",
+        "D": "Combining the highest proportion of professional investment professionals as an information source and the highest proportion of suggestions regarding the lack of teaching knowledge, it infers the implicit connection: the main information preference (professional guidance) is not met by the app, which requires analyzing information sources and app function defects across charts.",
+        "E": "Relying on the relatively high proportion of investment apps as an information source and the high proportion of suggestions regarding untimely information updates, it infers the conflict between the role of the app as an information tool and the lack of real - time performance, which must combine the data trends of two charts.",
+        "F": "Based on the relatively high proportion of social relationship information sources such as family and friends and the relatively high proportion of suggestions regarding the lack of entertainment functions, it infers that the preference for social information may lead to the demand for the entertainment of the app, which requires combining information channels and function suggestion data."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -149,6 +194,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Based on common sense (data security is important), but without referencing the chart content (such as user opening frequency or improvement suggestions), the strategy is vague and does not directly increase the usage frequency or the competitiveness as an information source.",
+        "B": "Based on the user improvement suggestions in chart_120_3 (the highest proportion of lack of teaching knowledge) and chart_120_1 (the relatively high proportion of investment apps as a way to obtain information), strengthening educational content can enhance the stickiness of the app and its status as an information source.",
+        "C": "Based on chart_120_3 (the improvement suggestion of cluttered and not refined enough content) and chart_120_2 (users own multiple apps and the daily opening times are not high), simplifying the interface can reduce the cognitive burden and increase the usage time of a single app.",
+        "D": "Combining chart_120_3 (the improvement suggestion of relevant information not being updated in time) and chart_120_1 (the significant proportion of official documents and announcements as an information source), providing timely information can meet the needs and increase the usage frequency.",
+        "E": "Apparently using the data in chart_120_2 (the number of apps users own), but misinterpreting the trend - the proportion of users who open the app many times a day on average in chart_120_2 is only 14.97%, and the demand for improvement of entertainment functions in chart_120_3 (37.97%) is lower than the lack of teaching (47.59%). Adding entertainment may distract from the core functions and instead reduce the usage frequency.",
+        "F": "Citing the data in chart_120_1 (the usage rate of official documents is 33.91%), but confusing the relationship - the demand for improvement of untimely information in chart_120_3 (44.92%) is higher, and the usage rate of investment apps (36.24%) is lower than that of professional channels. Optimizing official documents may not directly solve the high - frequency pain points of users (such as the lack of teaching).",
+        "G": "This option does not rely on the chart data and is only based on general business common sense (such as advertising to increase downloads). However, the strategy is broad without specific action guidelines (such as not targeting the characteristics of investment apps) and ignores the user feedback and usage habit data."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -172,6 +234,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Based on chart_120_1 (the highest proportion of professional investment professionals from banks/securities institutions as an information source) and sub - chart 2 of chart_120_1 (the relatively high usage rate of self - owned apps of securities companies), professional integration can enhance the authority of the app and its attractiveness to users.",
+        "B": "Based on chart_120_3 (the improvement suggestions of the app not running smoothly enough and inconvenient operation) and chart_120_2 (users' low daily opening times), technical optimization can directly increase the usage frequency and user satisfaction.",
+        "C": "Combining chart_120_1 (the significant proportion of social relationships such as family and friends as an information source) and chart_120_2 (the common phenomenon of users owning multiple apps), social functions can reduce app switching and enhance the utility of a single platform.",
+        "D": "Starting only from business logic (reducing prices to attract users), but ignoring the chart content (such as the 75.94% usage rate of third - party payment platforms like Alipay) and failing to solve the user - feedback problems (such as cluttered content), it may not effectively increase the market share.",
+        "E": "Apparently citing the data in chart_120_1 (the 38.37% proportion of social relationship information sources), but misapplying it - the usage rate of securities companies' self - owned apps is 68.45% (chart_120_1), and the demand for entertainment functions in chart_120_3 (37.97%) is relatively low. Transforming into a social app may deviate from the core investment functions and increase complexity instead of expanding the user base.",
+        "F": "Using the data in chart_120_2 (the number of apps users own), but confusing the values - 54.55% of users have 3 - 4 apps, but the proportion of users who open the app several times a day on average in chart_120_2 is 44.39%. Simplifying functions may ignore the diversity of user preferences (such as the 51.34% usage rate of third - party Internet financial platforms), and instead reduce the competitiveness.",
+        "G": "This option is based on general marketing common sense (promotion activities) and does not rely on chart data (such as the diversity of information sources or APP usage preferences). The strategy is broad without specific integration guidelines (such as not targeting the types of investment apps)."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -195,6 +274,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Starting only from the service perspective (customer service support), but without referencing the charts (such as user opening times or improvement suggestions), and ignoring the core problems (such as the lack of teaching), it may not efficiently allocate resources.",
+        "B": "Based on technical common sense (keeping the update frequency advanced), it does not rely on chart data (such as improvement needs or usage patterns). The strategy is broad without priority allocation (such as not targeting specific feedback points).",
+        "C": "Apparently citing the data in chart_120_3 (the 37.97% proportion of improvement demand for entertainment functions), but making a wrong comparison - the demand for lack of teaching is 47.59% higher (chart_120_3), and the proportion of users who open the app many times a day on average in chart_120_2 is only 14.97%. Developing entertainment functions may misallocate resources and not directly increase loyalty.",
+        "D": "Using the data in chart_120_3 and chart_120_2 (the 36.90% feedback of non - smooth operation and the 44.39% proportion of users who open the app several times a day on average), but ignoring the trend - the demands for lack of teaching (47.59%) and untimely information (44.92%) are higher. Although optimizing smoothness is important, it is not the most prominent pain point, and resource allocation may be inefficient.",
+        "E": "Combining chart_120_3 (the improvement suggestion of relevant information not being updated in time) and chart_120_2 (the relatively high proportion of users who open the app several times a day on average), timely information can match the usage habits and improve the retention rate.",
+        "F": "Based on chart_120_3 (the relatively low proportion of improvement demand for entertainment functions) and chart_120_3 (the more prominent feedback on cluttered content and operation problems), diverting resources to high - priority problems can optimize the overall efficiency and meet the actual needs of users (note: this strategy conforms to values, optimizing resources through data - driven methods instead of reducing services).",
+        "G": "Based on chart_120_3 (the highest proportion of improvement suggestions for lack of teaching knowledge) and chart_120_1 (the importance of investment apps as an information source), developing educational content can solve the core needs and enhance the value of the app."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

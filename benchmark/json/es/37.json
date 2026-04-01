@@ -87,6 +87,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Opción de interferencia fácil: basada en conocimiento lingüístico común (tendencias deportivas femeninas), no depende de los gráficos; la tasa de crecimiento de los uniformes de pelota deportiva es solo del 48%, ocupa un puesto bajo en chart_37_2, y no hay evidencia de que esté dominado por mujeres, por lo tanto es incorrecta.",
+        "B": "La opción 2 depende de chart_37_2 (Hanfu - Estilo neochino con una tasa de crecimiento del 45%) y chart_37_4 (proporción de mujeres del 61%). El Hanfu como categoría cultural, su crecimiento puede verse influenciado por el interés femenino en el estilo chino, pero chart_37_2 solo proporciona la tasa de crecimiento, se necesita combinar con la distribución de género de chart_37_4 para inferir la asociación con el grupo demográfico.",
+        "C": "Opción de interferencia difícil: aparentemente basada en datos de chart_37_3 (camisas de anime con una tasa de crecimiento del 200%), pero interpreta incorrectamente la brecha: esta categoría no está en las opciones de la pregunta, y aunque la tasa de crecimiento es alta, los vestidos de anime (93%) son más propensos a ser influenciados por mujeres; además, chart_37_4 muestra que las mujeres representan el 61%, pero no especifica la preferencia femenina por las camisas de anime, lo que lleva a un razonamiento sesgado.",
+        "D": "Opción de interferencia difícil: aparentemente basada en datos de chart_37_2 (ropa para mujeres de mediana edad con una tasa de crecimiento del 55%) y chart_37_4 (proporción de mujeres del 61%), pero entiende incorrectamente la distribución de edad: en chart_37_4, los grupos de 46 - 50 años y más de 50 años representan el 17%, la ropa para mujeres de mediana edad puede verse más influenciada por mujeres mayores, no dominada por mujeres en general, y la tasa de crecimiento del 55% es inferior a la de los leggings de tiburón (88%), lo que causa confusión.",
+        "E": "La opción 3 depende de chart_37_3 (vestidos de anime con una tasa de crecimiento del 93%) y chart_37_4 (proporción de mujeres del 61%). El alto crecimiento de la categoría de anime puede estar relacionado con usuarias femeninas, pero chart_37_3 solo muestra la tasa de crecimiento, se necesita combinar con la proporción de género de chart_37_4 para confirmar la conexión implícita.",
+        "F": "La opción 1 depende de chart_37_2 (leggings de tiburón con una tasa de crecimiento alta en el TOP10) y chart_37_4 (proporción de mujeres del 61%, grupo dominante). Los leggings de tiburón como categoría de moda, su alto crecimiento puede estar relacionado con las preferencias de consumo femenino, pero solo con chart_37_2 no se puede determinar el impulso demográfico, se necesita un razonamiento conjunto con los datos de género de chart_37_4.",
+        "G": "Opción de interferencia fácil: basada en conocimiento común de la industria (las mujeres se preocupan más por el calor), no depende de los datos del gráfico; los abrigos de algodón cálidos en chart_37_2 tienen una tasa de crecimiento del 52%, pero no se asocia claramente con mujeres, y la opción original no lo menciona, por lo tanto es incorrecta."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Opción de interferencia fácil: basada en conocimiento económico común (recuperación del mercado), no depende de los datos del gráfico; chart_37_2 y chart_37_3 no proporcionan datos del mercado general, por lo tanto no está relacionado con los gráficos y es incorrecta.",
+        "B": "La opción 1 depende de chart_37_2 (calcetines funcionales para el exterior con una tasa de crecimiento del 92%, la más alta en el TOP10) y chart_37_3 (chubasqueros y pantalones impermeables en el círculo de deportes al aire libre con una tasa de crecimiento de solo el 27%). El alto crecimiento de los calcetines funcionales para el exterior contrasta con el bajo crecimiento de los chubasqueros y pantalones impermeables, sugiriendo diferencias en categorías específicas, pero con un solo gráfico no se puede explicar el conflicto, se necesita un razonamiento conjunto de ambos gráficos para la relación entre el producto principal y el círculo general.",
+        "C": "La opción 2 depende de chart_37_3 (chaquetas de plumas deportivas con una tasa de crecimiento del 46%, pero chubasqueros y pantalones impermeables con un 27%) y chart_37_2 (calcetines funcionales para el exterior con un 92%). Las chaquetas de plumas deportivas como subcategoría de exterior tienen un crecimiento relativamente alto, pero los chubasqueros y pantalones impermeables arrastran el promedio general, se necesita comparar el ranking TOP10 de chart_37_2 con los datos del círculo de chart_37_3 para descubrir la desigualdad interna.",
+        "D": "La opción 3 depende de chart_37_2 (clasificación independiente de la tasa de crecimiento de categorías específicas) y chart_37_3 (círculo de interés que integra múltiples subcategorías). La diferencia puede originarse en el diferente alcance de los datos, pero se necesita un análisis cruzado de gráficos para definir la divergencia, un solo gráfico no puede llegar a esta conclusión.",
+        "E": "Opción de interferencia difícil: aparentemente basada en datos de chart_37_2 (zapatillas de trail running con una tasa de crecimiento del 65%) y chart_37_3 (definición del círculo de deportes al aire libre), pero entiende incorrectamente la pertenencia de la categoría: las zapatillas de trail running pueden pertenecer a deportes al aire libre, pero el círculo de chart_37_3 no las incluye explícitamente, y la tasa de crecimiento de los calcetines funcionales del 92% es mucho mayor que las subcategorías del círculo (como chubasqueros y pantalones impermeables con 27%), erroneamente pensando que la omisión de datos causa el conflicto.",
+        "F": "Opción de interferencia difícil: aparentemente basada en datos de chart_37_3 (chaquetas de plumas deportivas con una tasa de crecimiento del 46%), pero interpreta incorrectamente la brecha numérica: el círculo de deportes al aire libre incluye subcategorías como chubasqueros y pantalones impermeables (tasa de crecimiento 27%), la tasa de crecimiento promedio general debería ser inferior al 46%, mientras que la tasa de crecimiento de los calcetines funcionales es significativamente mayor al 92%; erroneamente toma la tasa de crecimiento parcial como la general, causando contradicción.",
+        "G": "Opción de interferencia fácil: basada en conocimiento común de la plataforma (algoritmo de Douyin), no depende de los gráficos; los gráficos no involucran mecanismos de recomendación, por lo tanto no pueden explicar la diferencia específica, es incorrecta."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 2 depende de chart_37_2 (camisas deportivas de polo con una tasa de crecimiento del 38%, aunque baja, está en el TOP10) y chart_37_4 (24 - 35 años representan el 43%, grupo dominante). La practicidad de las camisas deportivas de polo puede estar relacionada con la etapa de vida de este grupo de edad, pero chart_37_2 solo proporciona la tasa de crecimiento, se necesita combinar con los datos de edad de chart_37_4 para inferir preferencias.",
+        "B": "Opción de interferencia difícil: aparentemente basada en datos de chart_37_3 (vestidos de anime con una tasa de crecimiento del 93%) y chart_37_4 (distribución de edad), pero entiende incorrectamente la brecha: 16 - 23 años solo representan el 15%, mientras que 24 - 35 años representan el 43%, posiblemente más relevantes; erroneamente atribuye el alto crecimiento al grupo de menor edad, ignorando la distribución de datos, llevando a un razonamiento incorrecto.",
+        "C": "Opción de interferencia difícil: aparentemente basada en datos de chart_37_2 (calcetines funcionales para el exterior con una tasa de crecimiento del 92%) y chart_37_4 (24 - 30 años 22% + 31 - 35 años 21% = 43%), pero interpreta incorrectamente el grupo beneficiado: los calcetines funcionales no están en las opciones de la pregunta, y aunque la tasa de crecimiento es alta, pueden verse más influenciados por entusiastas del exterior (sin desglose por edad), mientras que el 43% de 24 - 35 años son datos generales, no indican que dominen el crecimiento de esta categoría.",
+        "D": "La opción 3 depende de chart_37_2 (Hanfu - Estilo neochino con una tasa de crecimiento del 45%) y chart_37_4 (24 - 35 años representan el 43%). El Hanfu como categoría cultural puede ser popular entre adultos jóvenes, pero los datos de crecimiento (chart_37_2) y datos demográficos (chart_37_4) requieren un análisis cruzado de gráficos para establecer una conexión implícita.",
+        "E": "Opción de interferencia fácil: basada en conocimiento común de la vida (los jóvenes temen al frío), no depende de los datos del gráfico; los abrigos de algodón cálidos en chart_37_2 tienen una tasa de crecimiento del 52%, pero no se asocian con la edad, y la opción original no lo menciona, por lo tanto es incorrecta.",
+        "F": "La opción 1 depende de chart_37_2 (ropa de gabardina suave con una tasa de crecimiento del 60%, ranking alto en el TOP10) y chart_37_4 (24 - 30 años representan el 22%, 31 - 35 años el 21%, combinados son el grupo más grande). La ropa de gabardina suave como categoría de exterior, su crecimiento puede ser impulsado por el grupo activo de 24 - 35 años, pero solo con la tasa de crecimiento de chart_37_2 no se puede asociar con la edad, se necesita un razonamiento conjunto con la distribución de edad de chart_37_4.",
+        "G": "Opción de interferencia fácil: basada en conocimiento común del trabajo (necesidades casuales de los jóvenes), no depende de los gráficos; las camisas deportivas de polo tienen una tasa de crecimiento de solo el 38%, la más baja en chart_37_2, y el 43% de 24 - 35 años en chart_37_4 no apunta específicamente a esta categoría, es incorrecta."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Integrando chart_37_1 (la proporción del canal de gráficos es baja y la eficiencia no es alta) y chart_37_2 (la tasa de crecimiento de algunas categorías, como las chaquetas de plumón deportivas, es estable), se recomienda redistribuir los recursos para mejorar la eficiencia.",
+        "B": "Esta es una opción de distracción fácil: la declaración es amplia y se basa en el conocimiento común (por ejemplo, mejorar la imagen de la marca), pero no tiene una guía de acción específica y no se combina con los datos de preferencias de canal o crecimiento de categorías, por lo que es fácil de descartar.",
+        "C": "Combinando chart_37_1 (el canal de vídeos cortos tiene un uso significativo) y chart_37_2 (la tasa de crecimiento de las zapatillas de trail running y la ropa de gabardina suave es rápida), y introduciendo el concepto de sinergia de canales, se utilizan los datos de múltiples gráficos para mejorar el efecto.",
+        "D": "Esta es una opción de distracción difícil: se interpreta erróneamente chart_37_2 (por ejemplo, la tasa de crecimiento de las camisas deportivas de polo es del 38%, la más baja), se ignora el potencial explosivo de las categorías de alto crecimiento (por ejemplo, los calcetines funcionales para el exterior con un 92%), y se confunden “estable” con “captura de oportunidades”, lo que contradice la tendencia de los datos.",
+        "E": "Esta es una opción de distracción difícil: se interpreta erróneamente chart_37_1 (el canal de gráficos solo representa el 16%), se juzga erróneamente el canal de baja proporción como una “tendencia emergente”, mientras que los datos reales muestran que la sala de transmisión en vivo es dominante (89%), y la dirección de la estrategia tiene una desviación evidente.",
+        "F": "Basado en chart_37_1 (la proporción del canal de la sala de transmisión en vivo es extremadamente alta y es la principal forma de compra) y chart_37_2 (la tasa de crecimiento de los calcetines funcionales para el exterior y los leggings de tiburón es extremadamente alta), se recomienda concentrar los recursos en canales eficientes y categorías de alto crecimiento.",
+        "G": "Esta es una opción de distracción fácil: se recomienda expandirse a otras plataformas (por ejemplo, Weibo), pero no se considera el canal de Douyin en el que se centran los gráficos (sala de transmisión en vivo, vídeos cortos, etc.), y no hay datos para respaldarlo. Es una estrategia de marketing general."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se enfoca en la optimización del servicio (por ejemplo, el servicio después de la venta), pero no se combina con la tasa de crecimiento de los círculos de interés o la distribución de edades. Es una sugerencia de negocio general sin base en los gráficos.",
+        "B": "Esta es una opción de distracción difícil: se interpreta erróneamente chart_37_4 (las personas mayores de 50 años solo representan el 9%) y chart_37_2 (la tasa de crecimiento de la ropa para mujeres de mediana edad es del 55%), se sobreestima la prioridad de la población de baja proporción y se ignora la población principal (las personas de 24 - 35 años representan el 43%), y la estrategia contradice los datos.",
+        "C": "Combinando chart_37_3 (la categoría de ropa de deportes al aire libre, como los chubasqueros y pantalones impermeables, tiene un crecimiento estable) y chart_37_2 (la tasa de crecimiento de los calcetines funcionales para el exterior es extremadamente alta), y introduciendo el concepto de optimización de recursos, se utiliza la sinergia de categorías a través de los datos de múltiples gráficos.",
+        "D": "Basado en chart_37_3 (la ropa de estilo chino, como la ropa de estilo Tang y la ropa de patrimonio cultural inmaterial, tiene un crecimiento rápido, y la ropa de anime, como las camisas de anime, tiene un crecimiento extremadamente alto) y chart_37_4 (la proporción combinada de las personas de 16 - 23 años y 24 - 30 años es alta), se recomienda enfocarse en los círculos de alto crecimiento y la población joven.",
+        "E": "Esta es una opción de distracción fácil: la declaración es vaga (por ejemplo, “diseño innovador”), se basa en el conocimiento común pero no tiene datos específicos de círculos o población, y la estrategia no tiene una prioridad clara.",
+        "F": "Integrando chart_37_3 (la tasa de crecimiento de las camisas de anime es la más alta) y chart_37_4 (la proporción de las personas de 24 - 35 años es la mayor), se recomienda equilibrar los recursos entre el crecimiento rápido y la población principal.",
+        "G": "Esta es una opción de distracción difícil: se interpreta erróneamente chart_37_3 (la tasa de crecimiento de los chubasqueros y pantalones impermeables es solo del 27%) y chart_37_2, se juzga erróneamente el bajo crecimiento como una “ventaja estable”, mientras que en realidad la tasa de crecimiento del estilo chino (123%) y del anime (200%) es más alta, y se confunden las tendencias."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando chart_37_4 (la proporción combinada de las personas de 24 - 30 años y 31 - 35 años es alta) y chart_37_3 (la ropa de anime, como los vestidos de anime, tiene un crecimiento extremadamente alto), se enfatiza la coincidencia entre la población principal y la tendencia de interés.",
+        "B": "Esta es una opción de distracción difícil: se interpreta erróneamente chart_37_4 (los hombres solo representan el 39%, menos que el 61% de las mujeres) y chart_37_2 (la tasa de crecimiento de las zapatillas de trail running es del 65%), se sobreestima la proporción de hombres y el “crecimiento destacado”, mientras que en realidad las mujeres son dominantes y la tasa de crecimiento del anime es más alta (200%).",
+        "C": "Integrando chart_37_4 (la proporción de consumidores hombres es relativamente baja pero tiene potencial) y chart_37_2 (la tasa de crecimiento de las zapatillas de trail running y los uniformes de pelota deportiva es rápida), chart_37_3 (el círculo de ropa de deportes al aire libre tiene un crecimiento estable), se recomienda desarrollar el mercado masculino y al mismo tiempo reflejar los valores de equidad (no se ignora por la baja proporción).",
+        "D": "Basado en chart_37_4 (la proporción de consumidoras mujeres es significativamente más alta) y chart_37_2 (la tasa de crecimiento de la ropa para mujeres de mediana edad y los abrigos de algodón cálidos es rápida), chart_37_3 (la ropa de estilo chino tiene un crecimiento rápido), se recomienda integrar la estrategia para las usuarias mujeres y los círculos de alto crecimiento.",
+        "E": "Esta es una opción de distracción difícil: se interpreta erróneamente chart_37_4 (las personas de 46 - 50 años solo representan el 8%) y chart_37_2 (la tasa de crecimiento del Hanfu es del 45%), se juzga erróneamente a la población de baja proporción como la prioridad, se ignora la edad principal (las personas de 24 - 35 años representan el 43%), y la tasa de crecimiento del Hanfu no es la más alta, lo que muestra una desviación evidente en la estrategia.",
+        "F": "Esta es una opción de distracción fácil: la sugerencia es amplia (por ejemplo, “desafíos interactivos”), no se combina con datos de grupos o círculos específicos, se basa en el conocimiento común pero no tiene una acción precisa.",
+        "G": "Esta es una opción de distracción fácil: se enfoca en la fijación de precios y las promociones. Es una estrategia general pero no utiliza las características de género o edad y es fácil de descartar por el conocimiento común."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

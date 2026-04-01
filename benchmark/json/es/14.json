@@ -87,6 +87,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Un gráfico muestra que la manta fresca tiene un valor negativo de poder de combate, mientras que otro gráfico muestra que el índice de búsqueda se dispara en verano, lo que implica que después de que los métodos tradicionales son reemplazados por el aire acondicionado, los riesgos para la salud no se compensan efectivamente. Solo el análisis conjunto de las características del poder de combate y las tendencias de búsqueda puede revelar esta regla implícita.",
+        "B": "Elemento de interferencia difícil: comprensión errónea del significado de los valores (chart_14_1); el valor negativo de poder de combate de la manta fresca (-7.9%) indica que no es popular, pero el elemento de interferencia lo malinterpreta como 'popular' y asocia incorrectamente el pico de búsqueda de enfermedad por aire acondicionado.",
+        "C": "Un gráfico muestra que el poder de combate del aire acondicionado supera con creces al de otros artículos, mientras que otro gráfico muestra que el índice de búsqueda de enfermedad por aire acondicionado alcanza su punto máximo en julio y septiembre (meses centrales del verano), lo que combinado indica que la alta popularidad del aire acondicionado puede conducir directamente a un aumento de problemas de salud. No se puede establecer este vínculo causal con un solo gráfico.",
+        "D": "Elemento de interferencia fácil: se basa en el conocimiento general de salud (el enfriamiento por aire acondicionado puede prevenir la insolación), no depende de los datos del gráfico, solo infiere desde el sentido común.",
+        "E": "Elemento de interferencia fácil: se basa en el conocimiento de la industria (el protector solar se usa para protegerse del sol), no involucra valores del gráfico, solo habla en términos generales sobre la gestión de la salud.",
+        "F": "Elemento de interferencia difícil: interpretación incorrecta de los datos del gráfico (chart_14_1 y chart_14_3); el poder de combate del ventilador eléctrico es bajo (8.4%), pero la alta búsqueda de enfermedad por aire acondicionado está relacionada con el uso del aire acondicionado, aquí se atribuye erróneamente al ventilador eléctrico.",
+        "G": "Un gráfico muestra que el poder de combate del ventilador eléctrico es extremadamente bajo, mientras que otro gráfico muestra un alto índice de búsqueda en el mismo período (verano), lo que sugiere que el uso insuficiente de alternativas como el ventilador eléctrico puede amplificar el impacto negativo del aire acondicionado. Se requiere una comparación entre gráficos de la distribución del poder de combate y las tendencias de búsqueda para inferir esto."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Un gráfico muestra que la atención en Beijing es media, pero otro gráfico muestra que el nivel de influencia en los adultos mayores es alto, lo que indica que el nivel de atención no corresponde directamente a los grupos de alto riesgo. Se necesita un análisis conjunto de la distribución geográfica y los niveles de influencia para descubrir esta contradicción.",
+        "B": "Elemento de interferencia difícil: comprensión errónea del orden (chart_14_4); el nivel de influencia de los adultos mayores (8) es mayor que el de las mujeres (6), pero el elemento de interferencia invierte el orden y concluye erróneamente que las mujeres son más afectadas.",
+        "C": "Un gráfico muestra que Guangdong y Zhejiang tienen la mayor atención al aire acondicionado, mientras que otro gráfico muestra que los adultos mayores y los niños/bebés tienen los niveles de influencia más altos. La combinación revela un conflicto: la alta popularidad puede aumentar el riesgo para los grupos vulnerables. Un solo gráfico no puede mostrar esta asociación.",
+        "D": "Elemento de interferencia fácil: parte del conocimiento general (el enfriamiento natural es más saludable), no cita valores del gráfico.",
+        "E": "Elemento de interferencia difícil: comparación incorrecta de datos (chart_14_2 y chart_14_4); la atención en Hebei es baja (30%), el nivel de influencia de las mascotas es bajo (5), pero el elemento de interferencia lo malinterpreta como 'riesgo más alto'.",
+        "F": "Elemento de interferencia fácil: se basa en el razonamiento de sentido común (la alta tasa de uso puede afectar a toda la población), no depende de los datos del gráfico.",
+        "G": "Un gráfico muestra que la atención en Hebei es la más baja, mientras que otro gráfico muestra que el nivel de influencia de las mascotas es el más bajo. Combinados, sugieren que las áreas de bajo uso pueden reducir el riesgo para ciertos grupos, pero se requiere una comparación entre gráficos de datos geográficos y de grupos para inferir este conflicto implícito."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Un gráfico muestra que el poder de combate del traje de baño y la sandía es bajo, mientras que otro gráfico muestra que las búsquedas de ambos aumentan bruscamente a fines de julio. Combinados, sugieren que cuando los productos sustitutos de bajo poder de combate son insuficientes, la popularidad del aire acondicionado puede no gestionar completamente los riesgos. Se requiere un análisis entre gráficos de la distribución del poder de combate y los picos de búsqueda.",
+        "B": "Elemento de interferencia difícil: interpretación incorrecta de las tendencias y el poder de combate (chart_14_5 y chart_14_1); las búsquedas de insolación y enfermedad por aire acondicionado son altas en el mismo período (por ejemplo, el 26 de julio), pero el elemento de interferencia lo malinterpreta como 'el aire acondicionado es ineficaz', ignorando la regla implícita de que el alto poder de combate está relacionado con las búsquedas.",
+        "C": "Un gráfico muestra que las búsquedas de insolación fluctúan mucho y las de enfermedad por aire acondicionado aumentan constantemente, mientras que otro gráfico muestra un alto poder de combate del aire acondicionado, lo que implica que el uso estable del aire acondicionado puede enmascarar el riesgo inmediato de insolación pero acumular problemas a largo plazo. Solo los datos combinados de tendencia y poder de combate pueden revelar esta regla.",
+        "D": "Elemento de interferencia difícil: asociación incorrecta de datos (chart_14_1 y chart_14_5); el poder de combate del ventilador eléctrico es bajo (8.4%), las fluctuaciones en las búsquedas de insolación están relacionadas con las altas temperaturas, pero el elemento de interferencia las atribuye erróneamente al ventilador eléctrico.",
+        "E": "Un gráfico muestra que las búsquedas de insolación el 26 de julio son mucho más altas que las de enfermedad por aire acondicionado, mientras que otro gráfico muestra que el poder de combate del aire acondicionado es el más alto. Combinados, implican la regla: el uso del aire acondicionado reduce el riesgo de insolación pero agrava la enfermedad por aire acondicionado. No se puede llegar a esta conclusión con un solo gráfico.",
+        "F": "Elemento de interferencia fácil: se basa en el sentido común (el aire acondicionado previene la insolación), no utiliza datos del gráfico, solo razonamiento general.",
+        "G": "Elemento de interferencia fácil: parte del conocimiento de la industria (los sustitutos reducen el riesgo), no involucra valores específicos del gráfico."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -155,6 +206,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Combinando chart_14_3 (el índice de búsqueda de la enfermedad por aire acondicionado alcanza picos en julio y septiembre, con un aumento repentino de la atención) y chart_14_4 (los ancianos y los niños tienen los niveles de influencia más altos y corren el mayor riesgo), se infiere que es más eficiente asignar recursos a los grupos susceptibles durante los períodos pico.",
+        "B": "Combinando chart_14_2 (provincias como Guangdong y Zhejiang tienen una proporción extremadamente alta de atención hacia el aire acondicionado) y chart_14_1 (el aire acondicionado tiene el porcentaje más alto de 'poder de combate', pero productos auxiliares como el protector solar también tienen un 'poder de combate' relativamente alto, lo que puede reducir la dependencia del aire acondicionado), se infiere que la promoción regional debe combinar la complementariedad de los productos.",
+        "C": "Esta opción es una distracción fácil: ignora completamente los picos del índice de búsqueda en los gráficos (chart_14_3 muestra un aumento repentino del índice en julio y septiembre) y se basa únicamente en conocimientos generales de salud (la promoción debe ser normalizada). Esto se puede descartar directamente por conocimiento general, ya que la distribución uniforme de recursos no puede hacer frente a los picos estacionales y es ineficiente.",
+        "D": "Esta opción es una distracción difícil: aparentemente utiliza datos de los gráficos (chart_14_3 muestra que el índice es de alrededor de 2950 - 2980 en noviembre y enero, lo que son valores bajos), pero deduce incorrectamente el momento de la acción. Un índice de búsqueda bajo indica una baja atención del público, no una falta de riesgo; el pico real se produce en julio (el índice alcanza entre 6000 - 15000). Tomar medidas en los períodos de bajo índice desperdiciará recursos y se perderá el período de alto riesgo.",
+        "E": "Combinando chart_14_5 (el índice de búsqueda de la enfermedad por aire acondicionado y la insolación alcanza picos simultáneos a fines de julio) y chart_14_3 (la tendencia del índice de búsqueda de la enfermedad por aire acondicionado muestra picos periódicos en verano), se infiere una estrategia de integración de recursos.",
+        "F": "Esta opción es una distracción difícil: aparentemente cita datos de los gráficos (chart_14_4 muestra que el nivel de influencia de las mascotas es 5, el más bajo; chart_14_2 muestra que la atención de Guangdong es del 100%), pero interpreta incorrectamente la prioridad de los grupos. chart_14_4 indica claramente que los ancianos y los niños corren un mayor riesgo (niveles 8 y 7), por lo que las mascotas tienen una prioridad baja. La asignación de recursos debe centrarse en los grupos de alto riesgo en lugar de los de bajo riesgo. Además, una alta atención regional no significa que las mascotas sean la prioridad, lo que causa una desviación en la dirección de la estrategia."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -178,6 +244,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción es una distracción difícil: aparentemente cita datos de los gráficos (chart_14_1 muestra que el 'poder de combate' de la manta fresca es -7.9%, el más bajo; el aire acondicionado tiene un 'poder de combate' del 73.15%, el más alto), pero interpreta incorrectamente la relación entre los valores. Un 'poder de combate' negativo indica una baja demanda o poca popularidad de la manta fresca. Promocionarla desperdiciará recursos; en realidad, la estrategia debe centrarse en productos de alto 'poder de combate' (como el aire acondicionado) pero combinar medidas de seguridad, en lugar de promocionar irracionalmente productos de baja demanda.",
+        "B": "Esta opción es una distracción difícil: aparentemente utiliza datos de los gráficos (chart_14_4 muestra que el nivel de influencia de las mujeres es 6, más bajo que el de los ancianos y los niños; chart_14_3 muestra un pico en julio; chart_14_1 muestra un alto 'poder de combate' del aire acondicionado), pero confunde la prioridad de los grupos y el riesgo de salud. Aunque las mujeres son un grupo susceptible, su nivel es más bajo. Promocionar priorariamente el aire acondicionado de alto 'poder de combate' puede aumentar el riesgo de salud (como la enfermedad por aire acondicionado), en lugar de equilibrar la seguridad; la estrategia debe dirigirse a grupos de alto riesgo o promocionar productos complementarios (como el protector solar).",
+        "C": "Combinando chart_14_2 (provincias como Guangdong y Zhejiang tienen una proporción extremadamente alta de atención hacia el aire acondicionado) y chart_14_1 (el aire acondicionado tiene el porcentaje más alto de 'poder de combate', pero productos auxiliares como el protector solar también tienen un 'poder de combate' relativamente alto, lo que puede reducir la dependencia del aire acondicionado), se infiere que la promoción regional debe combinar la complementariedad de los productos.",
+        "D": "Combinando chart_14_4 (las mujeres tienen un nivel de influencia relativamente alto) y chart_14_1 (el aire acondicionado tiene el 'poder de combate' más alto y está ampliamente difundido), se infiere que es necesario integrar contenido educativo dirigido a grupos susceptibles durante la promoción para mejorar la conciencia de salud.",
+        "E": "Combinando chart_14_3 (el índice de búsqueda de la enfermedad por aire acondicionado está en valores bajos de noviembre a marzo del año siguiente, con baja atención) y chart_14_1 (el ventilador eléctrico tiene un porcentaje de 'poder de combate' bajo pero positivo, y el valor negativo del 'poder de combate' de la manta fresca puede reflejar problemas de salud. Promocionar productos más seguros coincide con los valores), se infiere que se deben promocionar productos alternativos en la temporada baja para prevenir riesgos.",
+        "F": "Esta opción es una distracción fácil: no se basa en los gráficos y se basa únicamente en conocimientos generales de mercado (promoción integral para garantizar la cobertura). Pero ignora las diferencias regionales en los gráficos (chart_14_2 muestra diferentes niveles de atención en cada provincia) y el ranking del 'poder de combate' de los productos (el aire acondicionado tiene el 'poder de combate' más alto, 73.15%, en chart_14_1). La distribución uniforme de recursos no puede optimizar el equilibrio entre la cobertura del mercado y la seguridad de salud y se puede descartar fácilmente por conocimiento general."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -201,6 +282,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Combinando chart_14_5 (el índice de búsqueda de la insolación y la enfermedad por aire acondicionado alcanza picos simultáneos a fines de julio) y chart_14_3 (la tendencia del índice de búsqueda de la enfermedad por aire acondicionado muestra un patrón de picos repetidos), se infiere una estrategia de integración de recursos para hacer frente a los riesgos concurrentes.",
+        "B": "Combinando chart_14_2 (Hebei tiene una proporción relativamente baja de atención hacia el aire acondicionado, lo que puede indicar una falta de recursos) y chart_14_3 (el índice de búsqueda de la enfermedad por aire acondicionado alcanza picos en verano, con una demanda generalizada), se infiere una distribución diferenciada por región para garantizar la equidad.",
+        "C": "Esta opción es una distracción difícil: aparentemente utiliza datos de los gráficos (chart_14_2 muestra que la atención de Guangdong es del 100%; chart_14_5 muestra que el índice de insolación es de 42000 > 21000 de la enfermedad por aire acondicionado el 26 de julio), pero confunde la prioridad de las enfermedades y la relación regional. Aunque el índice de insolación es alto, la enfermedad por aire acondicionado es más relevante en provincias de alta temperatura (como Guangdong); la estrategia debe integrar ambas enfermedades (como se muestra en chart_14_5, los picos coinciden), en lugar de abordarlas por separado, lo que puede causar una asignación incorrecta de recursos.",
+        "D": "Esta opción es una distracción difícil: aparentemente cita datos de los gráficos (chart_14_3 muestra que el índice es de alrededor de 2970 - 3020 en marzo y mayo, valores bajos; chart_14_4 muestra que los niños corren un alto riesgo; chart_14_2 muestra que la atención de Hebei es del 30%, la más baja), pero interpreta incorrectamente el momento y la región. Un índice de búsqueda bajo indica una baja demanda, no el momento de la acción; tomar medidas en provincias con baja atención ignora las regiones de alta demanda (como Guangdong con un 100% de atención), y la prevención en períodos no pico es poco efectiva y desperdicia recursos.",
+        "E": "Combinando chart_14_5 (el índice de búsqueda de la enfermedad por aire acondicionado aumenta rápidamente de mediados a fines de julio, con un pico evidente) y chart_14_4 (los ancianos y los niños tienen los niveles de influencia más altos), se infiere que los recursos deben inclinarse hacia los grupos de alto riesgo durante los períodos pico.",
+        "F": "Esta opción es una distracción fácil: evita los datos de los gráficos y se basa únicamente en conocimientos generales de medicina (aumentar los recursos para mejorar la respuesta). Pero ignora los picos estacionales de la tendencia de búsqueda (chart_14_3 y chart_14_5 muestran picos en julio). La distribución uniforme de recursos durante todo el año no puede hacer frente eficientemente a los picos repentinos en verano y se puede descartar por conocimiento general."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     }
   ]

@@ -85,6 +85,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合chart_36_1（在横坐标约5处标注\"día de apertura de preventa\" y \"primera ola de presupuesto representa 60%\") y chart_36_2 (proporción de visitas de usuarios 94%). La asignación presupuestaria y la alta proporción de visitas de usuarios pueden actuar conjuntamente, posiblemente amplificando el crecimiento de transacciones; observar solo un gráfico (como solo la anotación presupuestaria) no puede explicar el impulso de crecimiento.",
+        "B": "这是一个Easy干扰项：它基于常识（广告能促进销售），不依赖任何图表数据（图表中未提及广告投放），属于泛泛而谈的正确句子，但无法从给定图表中推理得出。",
+        "C": "这是一个Hard干扰项：表面基于chart_36_2的用户行为数据（\"Concretó un trato entre abril y mayo\"比例为86%），但错误解读了数据——图表显示多数用户是促销前活跃用户（86%在4 - 5月已成交），而干扰项错误声称\"首次购物用户比例激增\"，实际上图表暗示用户是沉淀的而非新用户，这误解了用户行为与增长的关系。",
+        "D": "这是一个Easy干扰项：它依赖外部常识（经济环境影响消费），未引用图表内容（图表未涉及宏观经济），是常见但无关的陈述。",
+        "E": "需要联合chart_36_2 (alta proporción de comportamiento de usuarios en abril-mayo) y chart_36_1 (en el índice 15 \"venta anticipada 618\" el índice de transacciones salta a 340). Temporalmente, el comportamiento de usuarios en abril-mayo puede preparar para la venta anticipada de junio, el razonamiento conjunto muestra una continuidad implícita; solo con chart_36_1 o chart_36_2 por separado no se puede establecer esta asociación temporal.",
+        "F": "这是一个Hard干扰项：表面基于chart_36_1的成交趋势数据（预售开启日在横坐标5），但错误理解了具体数值——在索引5处（对应5月13日），成交指数实际为180（标注点值），但干扰项错误声称\"实际该点指数仅为170\"（原始数据索引5为180），这误读了数据点的值，导致对预算分配点影响的错误推理。",
+        "G": "需要联合chart_36_2 (el gráfico de análisis de comportamiento de usuarios muestra que el 86% de los usuarios que concretaron un trato tuvieron comportamiento en abril-mayo, 94% visitaron) y chart_36_1 (el gráfico de tendencia de transacciones desde el índice 5 \"día de apertura de preventa\" el índice de transacciones sube desde 180). La alta proporción de comportamiento activo de usuarios en chart_36_2 puede proporcionar una reserva de usuarios para el crecimiento de preventa en chart_36_1, solo con un gráfico no se puede inferir este vínculo causal."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：它基于常识（品牌知名度提升信任），未依赖图表数据（AI工具效果图未提品牌），是泛化的正确句子，但无法从图表中得出。",
+        "B": "需要联合chart_36_3 (la IA aumenta la tasa de clics del grupo objetivo aproximadamente 20%) y chart_36_1 (en el índice 15 \"venta anticipada 618\" el índice salta a 340). La mejora de la tasa de clics de IA puede aumentar la interacción del usuario, impulsando el crecimiento en la etapa de venta anticipada; solo con un gráfico (como solo el efecto de IA) no puede relacionarse con eventos promocionales específicos.",
+        "C": "这是一个Hard干扰项：表面基于chart_36_3的AI效果（人群圈选效率提升）和chart_36_2的用户行为（\"Visitó entre abril y mayo\"比例），但错误解读了比例——chart_36_2显示该比例为94%，干扰项却错误声称\"仅60%\"，这夸大了差距（94% vs 60%），误导了AI对用户基础优化的作用。",
+        "D": "需要联合chart_36_3 (la eficiencia de selección del grupo objetivo aumenta aproximadamente 100%) y chart_36_1 (en la coordenada x aprox. 5 anotado \"primera ola de presupuesto representa 60%\"). La mejora de eficiencia de IA puede hacer que el uso del presupuesto sea más eficiente, amplificando así las transacciones cerca del día de preventa; solo observar el presupuesto en chart_36_1 o la eficiencia en chart_36_3 no puede inferir este efecto sinérgico.",
+        "E": "需要联合chart_36_3 (el gráfico de efecto de herramientas de IA muestra que la tasa de conversión aumenta aproximadamente 30%) y chart_36_1 (el gráfico de tendencia de transacciones en el índice 5 \"día de apertura de preventa\" después el índice sube de 180 al índice 10 de 280). La mejora de la tasa de conversión de IA puede impulsar implícitamente el crecimiento en esta etapa, pero solo con chart_36_3 no puede ubicarse en un punto temporal específico, se necesita combinar con la tendencia de chart_36_1 para confirmar.",
+        "F": "这是一个Easy干扰项：它引用外部技术常识（5G影响体验），图表中未涉及此类因素，属于无关的行业知识，不基于图表推理。",
+        "G": "这是一个Hard干扰项：表面基于chart_36_3的AI效果（转化率提升30%）和chart_36_1的成交趋势（预售开启日在横坐标5），但错误理解了数据——在索引5处成交指数实际为180（标注点值），干扰项却错误声称\"实际该点应为250\"（250是索引10的值），这误读了数据点的数值和排序，导致对AI与关键节点关联的虚假推理。"
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：它依赖常识（社交媒体影响），不基于图表数据（图表未提及社交传播），是泛泛而谈的正确陈述，但无法从图表整合中推理。",
+        "B": "需要联合chart_36_1 (en el índice 5 anotación de presupuesto 60%), chart_36_3 (la eficiencia de selección del grupo objetivo aumenta aproximadamente 100%) y chart_36_2 (alta proporción de visitas de usuarios). La asignación presupuestaria y la eficiencia de IA pueden utilizar la base de usuarios de manera más eficiente, optimizando las transacciones; solo con el presupuesto de chart_36_1 o la proporción de usuarios de chart_36_2 no puede inferirse el papel de la mejora de eficiencia.",
+        "C": "这是一个Hard干扰项：表面基于chart_36_2的用户行为（成交比例86%）、chart_36_3的AI效果（点击率提升20%）和chart_36_1的成交趋势（618抢先购在横坐标15），但错误理解了数值——在索引15处成交指数实际为330（标注点值），干扰项却错误声称\"应为400\"，这虚构了数据差距（330 vs 400），误导了联合机制对后期跃升的解释。",
+        "D": "需要联合chart_36_2 (86% de usuarios que concretaron un trato tuvieron comportamiento en abril-mayo), chart_36_3 (la tasa de conversión aumenta aproximadamente 30%) y chart_36_1 (el índice de transacciones crece desde el índice 10 de 280 al índice 15 de 340). La tasa de conversión de IA puede dirigirse a usuarios activos previos, mejorando el crecimiento de transición; solo observar chart_36_2 o chart_36_3 no puede relacionarse con la tendencia temporal.",
+        "E": "需要联合chart_36_2 (el gráfico de análisis de comportamiento de usuarios muestra una proporción de visitas del 94%), chart_36_3 (el gráfico de efecto de herramientas de IA muestra que la tasa de clics aumenta aproximadamente 20%) y chart_36_1 (el gráfico de tendencia de transacciones en el índice 15 \"venta anticipada 618\" el índice salta). La alta proporción de visitas y la mejora de la tasa de clics de IA pueden mejorar conjuntamente la participación del usuario, impulsando el crecimiento; solo con dos gráficos (como solo comportamiento de usuario y tendencia de transacciones) no puede cubrir la contribución de IA.",
+        "F": "这是一个Easy干扰项：它基于行业常识（物流改善满意度），图表中未涉及物流信息，属于外部知识，不相关于给定图表。",
+        "G": "这是一个Hard干扰项：表面基于chart_36_3的AI效果（转化率提升）和chart_36_2的用户行为（\"Otros\"比例），但错误解读了比例——chart_36_2中\"Otros\"在成交用户中占14%，在来访用户中占6%，干扰项混淆为\"该群比例仅6%\"（实际来访\"Otros\"为6%），却错误应用于成交用户群，这误读了数据关联，导致对AI作用范围的错误推理。"
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en el contenido de los gráficos, sino solo en conocimientos generales de marketing (distribuir los recursos de manera uniforme puede reducir el riesgo), pero no se combina con la distribución desigual del presupuesto mostrada en los gráficos (el primer tramo del presupuesto representa el 60%) y las fluctuaciones de la tendencia. Por lo tanto, carece de pertinencia y es fácil de descartar.",
+        "B": "Esta opción confunde los datos de chart_36_2: el gráfico circular muestra que el porcentaje de 'Concretó un trato entre abril y mayo' es del 86%, pero la opción de distracción erróneamente considera el 14% de 'Otros' como el grupo de usuarios que no concretó un trato (en realidad, 'Otros' puede incluir nuevos usuarios o usuarios poco activos), y sugiere ignorar a los usuarios altamente activos (el 94% de los visitantes). Esto se desvía de la dirección de la estrategia de maximizar la eficiencia de conversión, ya que el grupo principal de usuarios está entre los usuarios históricamente activos.",
+        "C": "Esta opción interpreta erróneamente chart_36_1: aunque el índice de transacciones comienza bajo (10), la tendencia muestra que después del día de inicio de la pre - venta (abscisa 5, índice 180) crece rápidamente, y el análisis del comportamiento de los usuarios (chart_36_2) muestra que el 86% de los usuarios que concretaron un trato tienen registros de actividad histórica. Invertir con anticipación puede capturar a los usuarios de alto potencial; sin embargo, la opción de distracción sugiere reducir el presupuesto temprano, ignorando el potencial de crecimiento temprano y las características del comportamiento de los usuarios.",
+        "D": "Analizando la tendencia del índice de chart_36_1 (diferencia en la pendiente de crecimiento temprano y tardío) y la baja proporción de usuarios 'Otros' de chart_36_2, se muestra que los recursos deben inclinarse hacia los períodos de alta eficiencia para optimizar la producción.",
+        "E": "Combinando la tendencia de chart_36_1 (el índice crece aceleradamente durante la etapa de compra anticipada de 618) y las características de comportamiento de chart_36_2 (alta proporción de usuarios activos), la inversión en la etapa de pico puede aprovechar el impulso de crecimiento.",
+        "F": "Basado en la tendencia del índice de transacciones de chart_36_1 (el índice comienza a subir establemente cerca del día de inicio de la pre - venta) y los datos del comportamiento de los usuarios de chart_36_2 (el porcentaje de visitantes entre abril y mayo es extremadamente alto entre los usuarios que concretaron un trato), se muestra que la etapa de pre - venta es el período crucial de activación de los usuarios. Invertir con anticipación puede mejorar la conversión.",
+        "G": "Esta opción también es generalizada, se refiere a la gestión de productos en lugar de a la distribución del presupuesto o a la estrategia de segmentación de usuarios, y no cita ningún dato de los gráficos (como la tendencia del índice de transacciones o la proporción del comportamiento de los usuarios). Solo sugiere basándose en el conocimiento general, sin una guía de acción clara."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Basado en el comportamiento de los usuarios de chart_36_2 (el porcentaje de usuarios que visitaron y concretaron un trato entre abril y mayo es extremadamente alto) y la tendencia de chart_36_1 (el índice sigue subiendo después del inicio de la pre - venta), se muestra que la etapa de calentamiento es la base de la conversión y se debe invertir en ella en primer lugar.",
+        "B": "Esta opción se basa en conocimientos generales de marketing (la exposición publicitaria mejora el conocimiento de la marca), no cita ningún dato de los gráficos (como la proporción del comportamiento de los usuarios o la eficacia de la IA), la formulación es generalizada y no tiene una estrategia específica de calentamiento o de mantenimiento de usuarios. Es fácil de descartar.",
+        "C": "Esta opción confunde chart_36_3 y chart_36_2: se ha demostrado que las herramientas de IA aumentan la tasa de clics en un 20% y la tasa de conversión en un 30% (chart_36_3), pero la opción de distracción piensa erróneamente que la alta actividad de los usuarios (el 94% de los visitantes) hace que la IA no sea necesaria, ignorando que la IA puede optimizar aún más la segmentación precisa del grupo de alto potencial (como los datos de chart_36_2). La dirección de la estrategia se desvía明显mente.",
+        "D": "Esta opción interpreta erróneamente chart_36_1 y chart_36_2: los datos del comportamiento de los usuarios (chart_36_2) muestran que el 94% de los usuarios visitaron entre abril y mayo, lo que indica que la etapa de calentamiento es el período crucial de cultivo; sin embargo, la opción de distracción sugiere reducir la interacción, ignorando el potencial de crecimiento del índice de transacciones (chart_36_1) durante la etapa de calentamiento (por ejemplo, el índice de 180 - 250 cuando la abscisa es de 5 - 10), lo que puede conducir a una disminución de la fidelidad a largo plazo de los usuarios.",
+        "E": "Analizando la proporción de usuarios 'Otros' de chart_36_2 (14% y 6%), y el crecimiento estable del índice de chart_36_1 (que cubre todo el ciclo), se muestra que el grupo pequeño tiene potencial de desarrollo, y la estrategia puede complementar el ecosistema de usuarios.",
+        "F": "Combinando el efecto de las herramientas de IA de chart_36_3 (el aumento significativo de la tasa de clics y la tasa de conversión) y las características de los usuarios altamente activos de chart_36_2 (el 94% de los visitantes), la IA puede coincidir eficientemente con el comportamiento de los usuarios para mejorar la conversión.",
+        "G": "Esta opción se refiere al soporte después de la venta, está relacionada con el mantenimiento de usuarios pero es generalizada, no se combina con las características del comportamiento de los usuarios en los gráficos (como la alta proporción de actividad entre abril y mayo) o la eficacia de las herramientas de IA, y carece de acciones directas para mejorar la conversión durante la promoción."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Combinando el comportamiento de los usuarios de chart_36_2 (el 86% de los usuarios que concretaron un trato visitaron entre abril y mayo) y el aumento de la tasa de conversión de la IA de chart_36_3 (aproximadamente un 30%), la IA puede enfocarse con precisión en el grupo de usuarios de alto potencial.",
+        "B": "Esta opción interpreta erróneamente chart_36_1 y chart_36_3: el índice de transacciones ya ha aumentado significativamente en el día de inicio de la pre - venta (abscisa 5, índice 180), y las herramientas de IA aumentan la eficiencia de segmentación de la audiencia en un 100% (chart_36_3). Desplegar la IA temprano puede capturar oportunidades de crecimiento; sin embargo, la opción de distracción sugiere usarlo solo en la etapa posterior, ignorando la tendencia de crecimiento en todo el ciclo y el valor de la aplicación temprana de la IA.",
+        "C": "Esta opción también es generalizada, se refiere a la capacitación del equipo en lugar de a la planificación de las etapas de promoción, no cita el efecto de mejora de las herramientas de IA en los gráficos (como el aumento de la eficiencia en un 100%) o la tendencia del índice de transacciones. Es fácil de descartar.",
+        "D": "Esta opción confunde los datos de chart_36_2 y chart_36_3: el comportamiento de los usuarios muestra que solo el 6% son usuarios poco activos (chart_36_2), pero la opción de distracción sugiere erróneamente que la IA se dirija primero a este grupo, ignorando que la eficacia de la IA (como el aumento de la tasa de conversión en un 30%) es más adecuada para los usuarios de alto potencial (el 94% de los visitantes), y la tendencia de la promoción (chart_36_1) muestra que hay crecimiento tanto en la etapa temprana como en la etapa de pico. La estrategia es poco eficiente.",
+        "E": "Basado en la tendencia de chart_36_1 (el índice aumenta bruscamente durante las etapas de pre - venta y de pico) y el efecto de la IA de chart_36_3 (el aumento de la eficiencia aproximadamente un 100%), la IA puede amplificar las ventajas de la tendencia en los nodos clave.",
+        "F": "Analizando el aumento continuo del índice de chart_36_1 (tendencia de crecimiento en 20 días) y el aumento multidimensional de chart_36_3 (tasa de clics, tasa de conversión y eficiencia), la integración sistemática puede lograr una optimización a largo plazo.",
+        "G": "Esta opción no se basa en los gráficos, solo se basa en conocimientos generales de gestión tecnológica (actualizar el sistema informático), no se combina con la tendencia de los datos de la promoción o la eficacia de la IA. La formulación es generalizada y no tiene una estrategia de integración específica."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

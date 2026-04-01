@@ -84,6 +84,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：表面基于图表（引用工业占比60%和加氢站建设数据），但错误理解数值关联。工业领域虽占比高，但加氢站是交通专用基础设施（如车辆燃料补给），而工业氢能可能通过管道或固定设施供应，无需加氢站。图表中加氢站增长（chart_85_3）与交通领域扩张更相关，但干扰项误将建设激增（如2019 - 2021年数量）与工业需求强行挂钩，忽略了领域特性。",
+        "B": "这是一个Easy干扰项：基于行业常识（如绿色建筑趋势），但错误忽略了图表中建筑及其他领域仅占9%的比例（chart_85_2），且加氢站主要用于车辆加注，而非建筑供暖或电力。常识上，建筑氢能应用规模小，干扰项不依赖图表即可被识别为错误。",
+        "C": "它依赖氢气利用结构（工业占比较大）和加氢站建设（加氢站建设历史）的联合推理。工业比例虽高，但加氢站功能针对车辆加氢，而非工业应用，因此建设增长更可能响应交通需求，而非工业。推理需比较两张图表的结构与基础设施类型。",
+        "D": "它依赖氢气利用结构（显示交通运输占一定比例）和加氢站建设历史（显示2018年后数量激增）的联合推理。利用结构表明交通领域重要性，而加氢站是交通专用设施，需求预测从2020年增长隐含该领域需要更多支持，推理需结合两张图表。",
+        "E": "它依赖氢气利用结构（建筑及其他占较小比例）和加氢站建设（加氢站建设历史）的联合推理。建筑领域比例小，加氢站建设增长部分可能服务其分布式需求，但主导因素仍是交通（基于比例和设施功能），推理需综合两张图表评估优先级。",
+        "F": "这是一个Easy干扰项：语言常识（如\"通用基础设施\"概念）误导，但图表显示氢气利用结构不均衡（工业60%、交通31%、建筑9%），加氢站特定服务于交通车辆，而非均等分布。该选项泛泛而谈，易于排除。"
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A"
       ]
     },
     {
@@ -106,6 +121,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：表面基于图表（引用需求预测上升至2060年13030万吨），但错误理解建设分布。加氢站建设主要在2019 - 2021年激增（40座、47座、76座），远早于2040 - 2060年高需求期（chart_85_1），表明为未来准备而非末期响应；干扰项误将建设与需求高峰绑定，忽略实际历史加速在预测初期。",
+        "B": "它依赖需求预测（需求长期增长）和建设历史（建设近期高峰）的联合推理。建设高峰在预测初期，可能旨在应对需求上升（如2020年需求起点），而需求趋势强化投资合理性，推理需综合两张图表的阶段性特征。",
+        "C": "这是一个Hard干扰项：表面基于图表（引用2006 - 2016年建设6座和2020年需求起点），但错误解读时间序列和差距。图表显示建设在2017年后加速（2017年7座、2018年18座等），而需求预测从2020年3342万吨起始（chart_85_1），两者在2017 - 2020年部分重叠，表明投资响应早期信号而非完全滞后；干扰项误将缓慢期与需求起点对立，夸大滞后性。",
+        "D": "这是一个Easy干扰项：基于经济学常识（如\"投资被动响应需求\"），但错误忽略了基础设施往往需要先行建设。常识上，能源投资常提前布局，该选项不依赖图表即可被反驳。",
+        "E": "它依赖需求预测（需求预测增长趋势）和建设历史（建设历史激增）的联合推理。建设激增（2018 - 2021）与需求预测起始期（2020）部分重叠，表明投资响应需求信号，推理需结合两张图表的趋势对齐。",
+        "F": "它依赖需求预测（显示2020年起增长）和建设历史（显示2018年后数量剧增）的联合推理。建设加速早于需求预测起点（2018 vs 2020），隐含\"基础设施先行\"规律，推理需对比两张图表的时间序列。",
+        "G": "这是一个Easy干扰项：行业常识（如\"政策驱动投资\"）泛化，但未涉及图表数据。现实中政策影响投资，但干扰项未结合需求预测或建设历史，易于识别为片面。"
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -128,6 +160,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：语言常识（如\"智慧城市潜力\"）误导，但图表显示建筑比例仅9%，绝对增量最小（计算：2020年总需求3342万吨，建筑9%约301万吨；2060年13030万吨，建筑9%约1173万吨，增加872万吨），远低于工业。干扰项泛泛而谈，易于识别错误。",
+        "B": "这是一个Hard干扰项：表面基于比例固定和总需求增长，但错误推断均匀性。图表中比例不均衡（工业60%、交通31%、建筑9%），绝对增量因基数不同而异（工业增量最大），干扰项误将比例固定等同于增量均等，忽略初始规模差距。",
+        "C": "它依赖需求预测（显示总量从低点增长到高点）和氢气利用结构（工业占比较高）的联合推理。比例固定且最高，结合总量增长，隐含工业绝对增量最大，推理需计算隐含值（如总量增长倍数应用比例）。",
+        "D": "这是一个Hard干扰项：表面基于图表（引用2030和2060年需求数值及比例），但错误计算和比较增量。实际计算：工业领域2020年3342万吨×60% = 2005万吨，2060年13030万吨×60% = 7818万吨，增加5813万吨；交通领域2020年3342万吨×31% ≈ 1036万吨，2060年13030万吨×31% ≈ 4040万吨，增加3004万吨；工业增量更大。干扰项错误使用2030年作为起点（而非2020），并误算工业增量（2229万吨到7818万吨增5589万吨，仍大于交通），扭曲排序。",
+        "E": "它依赖需求预测（需求增长趋势）和氢气利用结构（交通占一定比例）的联合推理。比例次高但固定，需求整体上升驱动交通绝对增量显著（虽小于工业），推理需比较两张图表的比例与增长幅度。",
+        "F": "这是一个Easy干扰项：基于行业常识（如\"电动汽车转型\"），但错误忽略图表中交通仅占31%比例（chart_85_2），而工业60%主导。常识上交通增量次于工业，该选项不依赖图表即可排除。",
+        "G": "它依赖需求预测（需求整体上升）和氢气利用结构（建筑占比较小）的联合推理。比例最小，但需求增长仍带来正向绝对增量（只是相对小），推理需综合两张图表评估比例对增量的影响。"
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -151,6 +200,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: no se basa en los datos de ningún gráfico, solo en conocimientos generales de la industria (por ejemplo, la educación y la promoción pueden mejorar la conciencia), pero la expresión es amplia y no tiene una guía de prioridad en campos específicos, no puede maximizar de manera específica los beneficios económicos y sociales, y se ignora la estructura de demanda y la tendencia de crecimiento de los gráficos.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se utiliza chart_85_1 (predicción de demanda) y chart_85_2 (estructura de aplicación), pero se interpreta erróneamente - el sector de la construcción solo representa el 9%, el crecimiento de la demanda es un dato general, no sectorial, y no hay evidencia que apoye su “potencial explosivo”; en realidad, los gráficos muestran que la industria (60%) y el transporte (31%) son los sectores dominantes, invertir primero en sectores de baja proporción desperdiciará recursos.",
+        "C": "La opción 2 involucra chart_85_2 (el transporte representa el 31%, una proporción alta), chart_85_1 (tendencia de crecimiento de la demanda) y chart_85_3 (la construcción de estaciones de reabastecimiento de hidrógeno se aceleró después de 2019). Razón: combinando la proporción de la estructura y la tendencia de demanda, la aceleración de la construcción de estaciones de reabastecimiento de hidrógeno apoya la aplicación en el transporte.",
+        "D": "La opción 3 involucra chart_85_2 (la construcción y otros sectores representan el 9%, una proporción pequeña pero existente) y chart_85_1 (tendencia general de crecimiento de la demanda). Razón: los sectores de baja proporción necesitan una inversión moderada para evitar desequilibrios, lo que es coherente con los valores de inclusión.",
+        "E": "La opción 1 involucra chart_85_2 (el sector industrial representa el 60%, la proporción más alta) y chart_85_1 (la demanda aumentó significativamente de 2020 a 2060, especialmente después de 2040). Razón: los sectores de alta proporción necesitan una inversión prioritaria para adaptarse a la tendencia de crecimiento.",
+        "F": "Esta es una opción de distracción difícil: aparentemente combina chart_85_3 (construcción de estaciones de reabastecimiento de hidrógeno) y la tendencia de demanda, pero confunde la lógica - el aumento en el número de construcciones (por ejemplo, 76 en 2021) no significa un aumento repentino de la demanda actual (en chart_85_1, la demanda en 2020 fue solo de 33420000 toneladas, con un crecimiento moderado); enfatizar demasiado el transporte y omitir la industria (60% de la proporción) provocará una mala asignación de recursos.",
+        "G": "Esta es una opción de distracción fácil: se basa en una lógica común (el sector privado puede compartir riesgos), pero no cita los gráficos y es contrario al papel del gobierno en impulsar una industria emergente, lo que puede resultar en una asignación ineficiente de recursos y no puede hacer frente al crecimiento de la demanda (como la tendencia de aceleración a largo plazo mostrada en chart_85_1)."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -174,6 +240,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente se utiliza chart_85_1 (predicción de demanda) y chart_85_3 (historial de construcción), pero se interpreta erróneamente la tendencia - la demanda solo se aceleró después de 2040 (por ejemplo, 96900000 toneladas en 2050), el crecimiento de la demanda en la etapa inicial (por ejemplo, de 2020 a 2030) fue moderado, y la construcción lenta en el pasado (de 2017 a 2020) no significa que sea necesario acelerar; esto causará una inversión excesiva en la etapa inicial y no coincidirá con la demanda en la etapa posterior.",
+        "B": "Esta es una opción de distracción difícil: aparentemente combina chart_85_2 (estructura de aplicación) y chart_85_1 (predicción de demanda), pero confunde la relación - el sector de la construcción solo representa el 9%, y no hay datos que indiquen una alta demanda regional; en realidad, en los gráficos, el transporte (31%) y la industria (60%) necesitan más apoyo de estaciones de reabastecimiento de hidrógeno, y una mala implementación reducirá la utilización de las instalaciones.",
+        "C": "La opción 1 involucra chart_85_1 (el crecimiento de la demanda se aceleró a partir de 2040) y chart_85_3 (la construcción de estaciones de reabastecimiento de hidrógeno se aceleró después de 2019). Razón: en el período de aceleración de la demanda, es necesario ajustarse a la tendencia de construcción para maximizar la eficiencia de los recursos.",
+        "D": "Esta es una opción de distracción fácil: solo se basa en la eficiencia técnica y no cita los datos de los gráficos. La expresión es amplia (por ejemplo, “automatización avanzada”) y no tiene una estrategia de implementación específica (por ejemplo, tiempo o región), y no puede optimizarse en función del crecimiento de la demanda (chart_85_1) o el historial de construcción (chart_85_3).",
+        "E": "La opción 3 involucra chart_85_3 (la construcción de estaciones de reabastecimiento de hidrógeno se aceleró después de 2017, especialmente en el pico de 2021) y chart_85_1 (tendencia de crecimiento a largo plazo de la demanda). Razón: la experiencia histórica de construcción guía la inversión por etapas para evitar el desperdicio de inversiones tempranas.",
+        "F": "La opción 2 involucra chart_85_2 (la industria representa el 60% y el transporte el 31%, en total una proporción alta) y chart_85_1 (tendencia general de crecimiento de la demanda). Razón: la implementación geográfica concentrada en sectores de alta proporción puede atender directamente a las principales fuentes de demanda.",
+        "G": "Esta es una opción de distracción fácil: no se basa en los gráficos y se basa en el conocimiento general de equidad, pero se ignora la tendencia de aceleración de la predicción de demanda (chart_85_1) y la concentración regional (por ejemplo, los conglomerados industriales), lo que causará desperdicio de recursos y baja utilización, y no puede satisfacer eficientemente la demanda."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -197,6 +280,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: solo se basa en el ámbito de políticas y no cita los gráficos. La expresión es amplia (por ejemplo, “subsidios a largo plazo”) y no tiene acciones específicas en etapas o campos, y no puede optimizar la estrategia en función de la tendencia de infraestructura (por ejemplo, la aceleración de la construcción en chart_85_3).",
+        "B": "Esta es una opción de distracción fácil: no se basa en los gráficos y se basa en el conocimiento general de gestión de riesgos, pero se ignora el crecimiento de la demanda en múltiples etapas (la aceleración en la etapa posterior de chart_85_1) y la estructura de aplicación (el sector industrial domina con el 60% en chart_85_2). La inversión equitativa no puede responder eficientemente a los cambios en la tendencia.",
+        "C": "La opción 2 involucra chart_85_3 (la construcción de estaciones de reabastecimiento de hidrógeno se aceleró después de 2018 y el número aumentó drásticamente) y chart_85_2 (el transporte representa el 31%, una parte importante). Razón: la tendencia de aceleración de la construcción apoya la expansión de la aplicación en el transporte y coincide con la proporción de demanda.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se utiliza chart_85_1 (predicción de demanda) y chart_85_2 (estructura de aplicación), pero se infiere erróneamente - la proporción del sector de la construcción es pequeña (9%), el crecimiento de la demanda es un dato general, y no hay evidencia sectorial que apoye la “rápida expansión”; en realidad, los gráficos indican que al principio se debe centrar en la industria y el transporte (en total el 91%), y priorizar sectores de baja proporción retrasará la construcción de la base industrial.",
+        "E": "La opción 3 involucra chart_85_2 (la construcción y otros sectores representan el 9%) y chart_85_1 (tendencia de crecimiento a largo plazo de la demanda). Razón: los sectores de baja proporción necesitan atención a largo plazo para evitar perder oportunidades, lo que es coherente con los valores de innovación y equilibrio.",
+        "F": "La opción 1 involucra chart_85_2 (la industria y el transporte representan en total el 91%, una posición dominante) y chart_85_1 (la demanda creció continuamente de 2020 a 2060). Razón: el desarrollo prioritario de los sectores de alta proporción aprovecha la tendencia de crecimiento y establece la base industrial.",
+        "G": "Esta es una opción de distracción difícil: aparentemente combina chart_85_3 (historial de construcción) y chart_85_2 (estructura de aplicación), pero se interpreta erróneamente la tendencia - la aceleración de la construcción (por ejemplo, 76 en 2021) no significa que el sector del transporte esté bien abastecido, y en la predicción de demanda (chart_85_1), la proporción del transporte es del 31% y el crecimiento es continuo; omitir el transporte se perderán oportunidades de reducción de emisiones y la infraestructura debe expandirse continuamente."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     }
   ]

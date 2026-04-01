@@ -86,6 +86,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on industry common sense (slowing user growth affects creator growth), but does not rely on the chart data (the charts do not mention the platform user growth).",
+        "B": "Option 1 needs to combine the growth trend of the total number of creators (the total number of creators increased from 9 million in 2020 to 14.2 million in 2023, but the growth rate decreased from 22% to 8%) and the distribution of follower change intervals (the total proportion of the follower - loss intervals is 51.7%, including 38.3% of those who lost 0 - 100,000 followers, while those who gained more than 300,000 followers only account for 20%). This reveals that the growth is mainly driven by new creators, but the high churn rate of existing creators together leads to the slowdown of the growth rate.",
+        "C": "This is an easy distractor: It is based on language common sense (content homogenization and user fatigue are common reasons), but the charts do not contain specific data on content quality or user fatigue.",
+        "D": "Option 2 relies on the decreasing growth rate trend of the total number of creators (22% → 18% → 8%) and the distribution of the follower - gain intervals (those who gained more than 300,000 followers only account for 20%, lower than the proportion of those who lost followers), indicating that the number of creators with high follower growth has decreased, possibly due to fierce competition.",
+        "E": "This is a hard distractor: It miscalculates the values in chart_160_2. The total proportion of the follower - gain intervals (0 - 100,000 followers gained, 100,000 - 300,000 followers gained, 300,000 - 500,000 followers gained, more than 500,000 followers gained) is 14.1% + 14.1% + 7.8% + 12.2% = 48.2%, lower than 60%. The distractor wrongly overestimates the proportion of follower - gain and fabricates the conclusion of 'poor quality of new creators', while the charts do not provide content quality data.",
+        "F": "This is a hard distractor: It misinterprets the data in chart_160_2. Chart_160_2 shows that the proportion of those who lost more than 500,000 followers is only 0.3%, while the proportion of those who gained more than 500,000 followers is 12.2%. The distractor misreads 'gained more than 500,000 followers' as 'lost more than 500,000 followers' and exaggerates its proportion (12.2% vs the actual 0.3%), leading to a wrong association with the decreasing growth rate.",
+        "G": "Option 3 combines the increasing base of the total number of creators (14.2 million in 2023 vs 9 million in 2020) and the high proportion of follower - loss in the distribution of follower change intervals, inferring that the dispersion of user attention has intensified the maintenance difficulty."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Option 2 relies on the content category distribution of mid - tier TikTok influencers (the number of the beauty category on TikTok is 60, lower than that of life records) and the cooperation industry distribution of mid - tier Bilibili influencers (the proportion of beauty cooperation on Bilibili is 13.7%, ranking among the top 5). By comparison, it is concluded that beauty has higher commercial value on Bilibili, possibly due to the differences in platform user preferences.",
+        "B": "Option 3 combines the content category distribution of mid - tier TikTok influencers (the number of the game category on TikTok is 80, relatively high) and the cooperation industry distribution of mid - tier Bilibili influencers (the proportion of mobile game cooperation on Bilibili is 13.7%), showing that the game category has commercial appeal on both platforms, reflecting the cross - platform synergy law.",
+        "C": "This is a hard distractor: It wrongly compares the data in chart_160_3 and chart_160_4. Chart_160_3 shows that the number of the life records category on TikTok is 100 (the number of influencers), while chart_160_4 shows that the proportion of e - commerce cooperation on Bilibili is 45.0% (industry distribution). The distractor wrongly equates the 'e - commerce industry' with the 'content category' and fabricates the dominance of life records on Bilibili, but the Bilibili data does not provide content category distribution.",
+        "D": "This is an easy distractor: It is based on industry common sense (long - form video platforms like Bilibili are suitable for in - depth content), but the charts do not contain data on video duration or specific category duration.",
+        "E": "This is a hard distractor: It misinterprets the ranking in chart_160_3 and the values in chart_160_4. The number of the beauty category on TikTok is 60, ranking 8th (not the lowest), while the proportion of beauty cooperation on Bilibili is 13.7%, tied with other industries. The distractor wrongly infers that 'lower ranking' means 'unpopular' and ignores the platform differences (TikTok shows the number of categories, while Bilibili shows the proportion of cooperation), leading to a misleading conclusion.",
+        "F": "Option 1 needs to combine the content category distribution of mid - tier TikTok influencers (the number of the life records category on TikTok is 100, ranking first) and the cooperation industry distribution of mid - tier Bilibili influencers (the proportion of e - commerce cooperation on Bilibili is 45.0%, the highest), inferring that life record content is easy to combine with e - commerce due to its wide audience, reflecting the implicit connection between content and business.",
+        "G": "This is an easy distractor: It is based on the model's own knowledge (educational content usually has strong monetization ability), but does not rely on the chart data (the charts do not mention the education category)."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It wrongly associates the data in chart_160_1 and chart_160_4. Chart_160_1 shows a decreasing growth rate (22% → 18% → 8%), but the average number of Bilibili cooperation industries in chart_160_4, 2.77, is static data (average in the past 180 days) without a time trend. The distractor fabricates the 'continuous increase' and wrongly directly causalizes the commercialization and the decreasing growth rate, while the charts do not prove this association.",
+        "B": "This is an easy distractor: It is based on language common sense (advertisers prefer top - tier creators is a common phenomenon), but the charts do not provide comparison data between top - tier and mid - tier creators.",
+        "C": "This is a hard distractor: It misinterprets the gap between chart_160_2 and chart_160_4. Chart_160_2 shows that the proportion of those who lost 0 - 100,000 followers is 38.3% (follower changes), while chart_160_4 shows that the proportion of Bilibili e - commerce cooperation is 45.0% (industry distribution). The distractor wrongly equates the two (e - commerce content ≠ the reason for follower loss) and ignores that the follower - loss interval is an overall distribution, not specific to Bilibili or commercialized content. At the same time, a high proportion of e - commerce cooperation does not mean it causes follower loss, and the charts do not provide a causal relationship.",
+        "D": "Option 3 combines the growth trend of the total number of creators (the number of creators increased to 14.2 million), the distribution of follower changes (high proportion of follower - loss), and the Bilibili cooperation industry data (the average number of cooperation industries is 2.77), indicating the conflict between the platform's commercialization efforts (such as multi - industry cooperation) and creator churn.",
+        "E": "This is an easy distractor: It is based on industry common sense (platform tools and training affect creators), but does not rely on the chart data (the charts do not mention creation tools or training).",
+        "F": "Option 2 relies on the distribution of follower changes (the total proportion of the follower - loss intervals is 51.7%) and the Bilibili cooperation industry data (the cooperation industry distribution is even, with e - commerce accounting for 45.0% and others each accounting for 13.7%). By comparing the buffering effect of the commercialization strategy with the growth trend (the decreasing growth rate of the total number of creators), it highlights the contradiction between the strategy and the reality.",
+        "G": "Option 1 needs to combine the growth trend of the total number of creators (the growth rate decreased from 22% to 8%), the distribution of follower changes (the proportion of those who lost 0 - 100,000 followers is 38.3%, and the total proportion of follower - loss is high), and the Bilibili cooperation industry data (the average number of cooperation industries is 2.77), inferring that the slowdown of growth and follower loss force creators to seek more cooperation, but the follower - loss data reveals the conflict."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This option is based on general industry common sense (attracting new users is beneficial), but it does not address the issues of follower loss distribution or declining growth rate in the charts, ignoring specific strategies for the stability of existing creators.",
+        "B": "This option misinterprets chart_160_1: Although the total number of creators is increasing, the decline in the growth rate from 22% to 8% indicates a risk of saturation. Reducing intervention will exacerbate the problem rather than solve it.",
+        "C": "This option is a broad technical optimization suggestion without data support, and it has nothing to do with the follower loss rate (e.g., the proportion of losing 0 - 100,000 followers is 38.3%) and the slowdown in growth in the charts.",
+        "D": "Combining chart_160_2 (the balance of the distribution of follower loss and gain intervals) and chart_160_1 (the slowdown in growth), it is inferred that algorithm optimization can improve matching efficiency.",
+        "E": "This option misinterprets chart_160_2: The proportion of losing more than 500,000 followers is only 0.3%, which is extremely small, while the proportion of losing 0 - 100,000 followers is 38.3%, which is the main part. Prioritizing the extreme group will ignore the main problem and be inefficient.",
+        "F": "Combining chart_160_2 (the highest proportion of losing 0 - 100,000 followers) and chart_160_1 (the declining growth rate year by year), it is inferred that support for the high - proportion loss group can alleviate the saturation problem.",
+        "G": "Combining chart_160_2 (the significant proportion of gaining more than 500,000 followers) and chart_160_1 (the declining growth rate), it is inferred that innovation can挖掘 growth opportunities."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combining chart_160_3 (the relatively low number in the 'Emotions' category) and chart_160_4 (the stable proportion of cooperation industries such as 'Beauty'), it is inferred that incubating emerging categories can utilize industry demand to balance the ecosystem.",
+        "B": "Combining chart_160_4 (similar proportions of multiple cooperation industries and a high average number of cooperation industries) and chart_160_3 (diverse content categories), it is inferred that diversified cooperation can disperse risks.",
+        "C": "Combining chart_160_3 (the highest numbers in the 'Life Records' and 'Appearance' categories) and chart_160_4 (the highest proportion of 'E - commerce' cooperation), it is inferred that resource inclination can strengthen the synergy between content and business.",
+        "D": "This option is based on common - sense income - increasing strategies, but it does not refer to the chart data on content category distribution or cooperation industries, ignoring specific optimization needs.",
+        "E": "This option misinterprets chart_160_4: Although the proportion of 'E - commerce' is 45%, the fact that other industries each account for 13.7% and the average number of cooperation industries is 2.77 shows the need for diversification. Focusing on a single industry will reduce the overall commercial value.",
+        "F": "This option misinterprets chart_160_3: The high number (100) in the 'Life Records' category indicates its popularity or great potential, so it is unreasonable to cut resources; the low number (50) in the 'Emotions' category lacks data support for its priority.",
+        "G": "This option is a general community - building suggestion, which has nothing to do with the TOP10 proportion of categories or the distribution of cooperation industries in the charts and lacks pertinence."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This option misinterprets chart_160_2: The proportion of losing more than 300,000 followers is small (0.3% + 0.4% = 0.7%), while the proportion of losing 0 - 100,000 followers is 38.3%, which is the main part. Punitive measures will harm the enthusiasm of creators and do not consider category or cooperation data.",
+        "B": "This option is a general function optimization suggestion, ignoring core issues such as the follower loss rate, category distribution, or cooperation industries in the charts and lacking support for comprehensive strategies.",
+        "C": "This option is based on common sense of technological trends but does not combine the data on growth slowdown, loss distribution, or categories in the charts. The strategy is broad and has no direct connection.",
+        "D": "Combining chart_160_3 (the highest number in the 'Life Records' category) and chart_160_4 (the highest proportion of 'E - commerce' cooperation), it is inferred that the linkage between content and business can activate new opportunities.",
+        "E": "This option misinterprets the charts: chart_160_1 shows a slowdown in growth, but chart_160_4 is specific data for Bilibili (e.g., the average number of cooperation industries is 2.77). Direct imitation ignores platform differences and the problem of follower loss; although the proportion of 'E - commerce' is high, it has not been proven to solve the problem of growth resilience.",
+        "F": "Combining chart_160_2 (the significant proportion of gaining more than 500,000 followers) and chart_160_1 (the declining growth rate), it is inferred that innovation - driven strategies can address saturation.",
+        "G": "Combining chart_160_2 (the high proportion of losing 0 - 100,000 followers) and chart_160_1 (the declining growth rate), it is inferred that preventive measures can stabilize the core creator group."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

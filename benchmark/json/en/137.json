@@ -85,6 +85,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "In chart_137_1, the proportion of e - commerce platform official channels is moderate (55.3%), and in chart_137_2, the proportion of service and after - sales is moderate (40.0%). The information from official channels may prioritize the promotion of service guarantees, forming an 'information - function' chain. We need to compare the numerical trends of the two charts to infer this rule.",
+        "B": "Hard: Incorrectly associate data. The proportion of industry reports (11.4%) and the image recognition function (24.4%) are both the lower items in their respective charts, but there is no causal relationship between them. Image recognition is not the lowest function (the lowest is 'Others' with 0.0%), and there is no direct evidence of a connection between professional reports and function awareness.",
+        "C": "Chart_137_1 shows that the proportion of online search engines is the highest (63.0%), and chart_137_2 shows that the proportion of shopping convenience is the highest (67.2%). Both highlight the rules of 'efficient information acquisition' and 'practical convenience', indicating that a high - proportion learning channel may correspond to a high - proportion core advantageous function, jointly driving consumers' preference. We cannot draw this connection by looking at a single chart alone.",
+        "D": "Easy: There is no 'price discount' function in the chart (the highest advantageous function is shopping convenience at 67.2%), and the proportion of recommendations from relatives and friends is only 6.3%, which has nothing to do with price.",
+        "E": "Hard: Forcibly compare data of different dimensions. The proportion of relatives and friends (6.3%) is a learning channel, while interaction and social (48.8%) is a functional advantage. There is no logical connection between them. A low proportion of relatives and friends does not mean a reduced interest in social functions (the proportion of learning through social media is 59.2%).",
+        "F": "In chart_137_1, the proportion of social media is relatively high (59.2%), and in chart_137_2, the proportion of personalized service is relatively high (63.5%). Social media often emphasizes personalized content, and this implicit connection shows that digital interaction may amplify the attractiveness of functions. We cannot establish this connection between channels and functions by analyzing a single chart alone.",
+        "G": "Easy: The chart does not mention data on brand advertising or exposure, which is purely a speculative assumption based on industry common sense and has nothing to do with the chart content."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Hard: Distort the data gap. The actual difference between interaction and social (48.8%) and 'improved shopping experience' (33.3%) is 15.5%, not 'tiny'. Moreover, 'improved shopping experience' includes feedback on all functions, not just the social function.",
+        "B": "In chart_137_2, the proportion of personalized service is relatively high (63.5%), but in chart_137_3, the proportion of 'improved shopping experience' is relatively low (33.3%) and the proportion of 'worsened shopping experience' is relatively high (25.2%). The implicit conflict is that the function promotion may be exaggerated, and the actual experience does not meet expectations. The key to the reasoning is to jointly analyze the data trends of the two charts (high advantage vs. low improvement rate).",
+        "C": "In chart_137_2, the proportion of interaction and social is moderate (48.8%), but in chart_137_3, the proportion of 'frequently used' is relatively low (10.8%) and the proportion of 'worsened shopping experience' is relatively high (25.2%), indicating a disconnect between the function's attractiveness and actual use. We cannot explain this contradiction by looking at a single chart alone. We need to compare the numerical trends across charts (such as the function proportion vs. usage frequency).",
+        "D": "Chart_137_2 shows that the proportion of shopping convenience is the highest (67.2%), but chart_137_3 shows that the proportion of 'occasionally used' in usage frequency is the highest (45.5%) and the proportion of 'had little impact on shopping experience' is the highest (37.4%). This conflict shows that a highly attractive function does not necessarily lead to high - frequency use or a positive experience. We need to compare the numerical values of the two charts (such as high - proportion advantage vs. low positive experience) to reveal the contradiction.",
+        "E": "Hard: Incorrectly associate data. Data security (31.6%) is an independent function, and the 'not sure' experience (3.9%) belongs to the feedback on manual intervention. There is no logical connection between them. The proportion of the security function is moderate (higher than image recognition at 24.4%), not 'absent'.",
+        "F": "Easy: The chart does not involve logistics speed or dissatisfaction, which is a subjective assumption based on common sense and is a干扰项.",
+        "G": "Hard: Misinterpret the conflict. The actual gap between 67.2% (advantage) and 10.8% (high - frequency use) is huge (a difference of 56.4%). The correct option A points out that it 'has not been converted into high - frequency use'. Forcibly equating data of different dimensions."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E",
+        "A"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Chart_137_1 shows that the proportion of traditional news media is relatively low (35.2%), but in chart_137_3, the proportion of 'used when needed' in usage frequency is relatively high (33.7%). The implicit connection is that traditional news media may provide more formal information, prompting users to use the functions only when necessary. We need to combine the numerical values of the two charts (low - proportion channel vs. high - proportion specific frequency) to infer this behavior pattern.",
+        "B": "Hard: Forcibly match low - proportion items. The proportion of relatives and friends (6.3%) and 'not sure' (3.9%) are both the lowest items in their respective charts, but there is no evidence of a causal relationship. The low proportion of 'not sure' may be due to the clear function design, not the role of information transmission from relatives and friends.",
+        "C": "In chart_137_1, the proportion of social media is relatively high (59.2%), but in chart_137_3, the proportion of 'worsened experience' is relatively high (25.2%). The information on social media may be inaccurate or exaggerated, resulting in a gap in experience. Jointly analyzing the trends (high - proportion channel vs. high negative experience) reveals the potential impact, which cannot be achieved by looking at a single chart alone.",
+        "D": "Easy: There is no data on TV advertising in the chart (the proportion of traditional media is only 35.2%), which is a fictional common - sense interference.",
+        "E": "Hard: Misinterpret the data relationship. The difference between traditional media (35.2%) and 'almost never used' (10.0%) is 25.2%, but there is no logical opposition between them. The correct option A points out that traditional media may promote targeted use ('used when needed' at 33.7%).",
+        "F": "Hard: Incorrectly associate data. There is no direct causal relationship between 63.0% (search channel) and 10.8% (high - frequency use) (as the correct option B shows that learning through social media is more likely to affect the experience). Moreover, 10.8% is a low - frequency item (far lower than 'occasionally used' at 45.5%).",
+        "G": "In chart_137_1, the proportion of relatives and friends is very low (6.3%), but in chart_137_3, the proportion of 'not sure' experience is relatively low (3.9%), indicating that although word - of - mouth communication is scarce, it may provide real feedback, reducing cognitive ambiguity. We need to compare the low - proportion data of the two charts (proportion of relatives and friends vs. proportion of 'not sure') to infer this connection."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E",
+        "B"
       ]
     },
     {
@@ -149,6 +200,22 @@
       "label": [
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option is a hard distractor: It seemingly uses data from chart_137_1 (traditional news media at 35.2%), but misinterprets the trend. Although traditional news media has a higher percentage than low - proportion channels (such as industry reports and surveys at 11.4%), it is far lower than online channels (online search engines at 63.0% and social media at 59.2%). Reducing investment in high - impact channels will reduce efficiency, and the strategic direction is clearly off - target.",
+        "B": "This option is an easy distractor: It relies on industry trends (such as 'emerging channels'), but the chart does not mention relevant data (chart_137_1 only lists fixed channels), and it does not combine with consumers' actual ways of learning (such as online search engines at 63.0%), resulting in a strategy that is out of touch with reality.",
+        "C": "This option is an easy distractor: The statement is broad and based on general marketing common sense (such as'strengthen brand promotion') and does not utilize the chart data (such as the specific percentages of high - impact channels). Therefore, it lacks specificity and action guidance and is easy to rule out.",
+        "D": "Option 2 combines the low - proportion awareness data of industry reports and surveys and relatives and friends in chart_137_1 with the functional advantage data in chart_137_2 to redistribute resources and avoid wasting resources on inefficient channels.",
+        "E": "Option 1 involves the high percentages of online search engines and social media as the main ways of learning in chart_137_1 and the high percentages of shopping convenience and personalized service as the core advantageous functions in chart_137_2. The combined reasoning shows that combining high - awareness channels with high - demand functions can maximize the marketing effect.",
+        "F": "This option is a hard distractor: It seemingly combines data from chart_137_2 (service and after - sales at 40.0%), but confuses functional preferences with ways of learning. Service and after - sales are not the core advantages (the core advantages are shopping convenience at 67.2% and personalized service at 63.5%), and it does not optimize for high - awareness channels (such as social media), resulting in unreasonable resource allocation."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -169,6 +236,22 @@
       "label": [
         "A",
         "E"
+      ],
+      "cot": {
+        "A": "Option 2 combines the high percentage of occasional use frequency and experience feedback data in chart_137_3 with other highly attractive functions such as personalized service in chart_137_2 to implement a targeted strategy for user groups and avoid resource dispersion.",
+        "B": "This option is an easy distractor: It relies on an extreme assumption ('eliminating manual intervention'), but ignores the data in chart_137_2 (the preference for service and after - sales at 40.0% indicates the importance of manual support) and does not consider the complexity of experience feedback (such as 37.4% having little impact). The strategic direction is clearly off - target.",
+        "C": "This option is a hard distractor: It seemingly combines data from chart_137_2 and chart_137_3 (the percentage of worsened experience at 25.2% and image recognition at 24.4%), but makes a wrong association. The preference for image recognition is relatively low and it is not a core advantage (shopping convenience at 67.2% takes precedence), and'reducing resources' does not solve the experience problem (such as through optimization). The strategy is one - sided.",
+        "D": "This option is a hard distractor: It seemingly uses data from chart_137_3 (frequently used at 10.8% and improved shopping experience at 33.3%), but misinterprets the group size. The proportion of frequently used users is small, while the group of occasional users has the highest proportion (45.5%). Focusing on high - frequency users will ignore a larger potential group, resulting in inefficient resource utilization.",
+        "E": "Option 1 involves the medium - high percentage of service and after - sales as an advantageous function in chart_137_2 and the data on the experience of using manual intervention in chart_137_3 (such as the relatively high percentage of worsened experience). The combined reasoning shows that optimizing high - demand functional areas can directly improve pain points in the experience.",
+        "F": "This option is an easy distractor: The statement is broad (such as 'upgrading the technical infrastructure'), based on general management common sense, and does not utilize the chart data (such as usage frequency or experience feedback). There is no specific action guidance, so it is easy to rule out."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -192,6 +275,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This option is a hard distractor: It seemingly uses data from chart_137_1 and chart_137_2 (data security and privacy protection at 31.6% and relatives and friends at 6.3%), but makes a wrong match. The proportion of the relatives and friends channel is extremely low, so it is not an effective promotion channel. Moreover, the preference for data security is medium, and it does not combine with high - impact channels (such as social media at 59.2%). The strategy is inefficient.",
+        "B": "Option 2 combines the usage frequency data in chart_137_3 (such as the percentages of high - frequency and low - frequency users), the functional advantages in chart_137_2, and the channel data in chart_137_1 to implement a user - group segmentation strategy and ensure precise resource allocation.",
+        "C": "This option is a hard distractor: It seemingly combines data from chart_137_1 and chart_137_2 (traditional news media at 35.2% and image recognition at 24.4%), but misinterprets the priority. The proportion of traditional news media is lower than that of online channels (online search engines at 63.0%), and the preference for image recognition is relatively low. The strategy does not consider the core advantages (such as personalized service at 63.5%) or the experience of manual intervention, and the direction is off - target.",
+        "D": "This option is an easy distractor: The statement is broad (such as 'initiating a survey'), based on general business common sense, and does not integrate any specific chart data (such as channel or functional preferences). The strategy has no clear action, so it is easy to rule out.",
+        "E": "Option 1 involves the high - percentage learning channels in chart_137_1, the core advantageous functions in chart_137_2, and the data on the experience of manual intervention in chart_137_3 (such as the percentage of worsened experience). The combined reasoning shows that the synergy between channels and functions can amplify the impact, and experience optimization can reduce user churn.",
+        "F": "This option is a hard distractor: It seemingly uses data from chart_137_2 and chart_137_3 (shopping convenience at 67.2% and interaction and social at 48.8%), but wrongly transfers resources. High - preference functions (such as convenience) should be prioritized, and 'ignoring manual intervention' does not utilize the experience feedback (such as the 25.2% of worsened experience that can be optimized), resulting in an overall disjointed strategy.",
+        "G": "Option 3 involves the medium - proportion attractiveness of data security and privacy protection in chart_137_2 and the experience feedback of manual intervention in chart_137_3 (such as room for improvement). The combined reasoning shows that medium - demand functions have potential, and combining with experience optimization can enhance trust, which conforms to the principle of resource efficiency."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C",
+        "F"
       ]
     }
   ]

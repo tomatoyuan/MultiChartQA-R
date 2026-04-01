@@ -83,6 +83,20 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：它错误解读了图表趋势和数值。chart_151_4显示均价从MAT2206(150元)到MAT2306(145元)下降，再到MAT2406(155元)上升，并非'持续下降'；干扰项还错误推断'需求高度敏感'，但实际销售额增长（100到115百万元）与均价波动并存，表明需求可能较稳定，与保健膳食（chart_151_2中高增长子品类）的表现不一致。",
+        "B": "这是一个Easy干扰项：它基于常识（如疫情期间健康产品需求上升），不依赖任何图表数据，而是泛泛而谈的行业知识。干扰项错误地将益生菌增长归因于未提及的'恐慌性购买'，但图表未涉及疫情或外部事件。",
+        "C": "选项A要求联合推理，因为它结合了用户行为数据（chart_151_3中的应对措施占比，如'Tomar probióticos para regularizar'）与销售数据（chart_151_4中的益生菌销售额趋势和均价变化）。chart_151_3显示'Tomar probióticos para regularizar'的占比（15.0%）虽不是最高，但为益生菌需求提供了行为基础；chart_151_4显示销售额从MAT2306到MAT2406持续增长（110到115百万元），而均价波动（145元到155元）。选项推断用户偏好（如益生菌使用）可能驱动销售增长，而非仅靠其他行为（如自行用药）。单张图表无法得出此结论：仅chart_151_3无法解释销售趋势，仅chart_151_4无法链接用户行为。",
+        "D": "这是一个Hard干扰项：它错误解读了图表数值。chart_151_3显示'Tomar medicamentos por cuenta propia'占比20.3%，虽较高，但并非最高（'Descansar y beber más agua'为18.5%，但干扰项声称'最高'）；同时，它忽略'Tomar probióticos para regularizar'的实际占比（15.0%），错误推断药物治疗主导了趋势，而正确推理应基于益生菌调理偏好与销售趋势的关联。",
+        "E": "选项B要求联合推理，因为它结合了用户行为数据（chart_151_3中的应对措施占比，如'Tomar medicamentos por cuenta propia'）与销售数据（chart_151_4中的益生菌销售额趋势和均价变化）。chart_151_3显示'Tomar medicamentos por cuenta propia'占一定比例；chart_151_4显示销售额从MAT2306到MAT2406持续增长（110到115百万元），而均价波动（145元到155元）。选项推断益生菌销售额的增长可能与用户对健康调理方式的偏好增强相关，而非仅依赖药物治疗。单张图表无法得出此结论：仅chart_151_3无法解释销售趋势，仅chart_151_4无法链接用户行为。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -102,6 +116,20 @@
       "label": [
         "A",
         "E"
+      ],
+      "cot": {
+        "A": "选项B要求联合推理，因为它对比了整体和子品类增长数据（chart_151_1中的线上FMCG、食品、美妆、母婴增长率）与保健膳食的内部结构（chart_151_2中的品类占比和增长率）。chart_151_1显示母婴等FMCG子品类增长率较高；chart_151_2显示传统滋补子品类的增长率相对较低，但在保健膳食中占比较小（25.1%），保健膳食整体增长（10.1%）。选项推断传统滋补子品类可能未拖累整体增长，而母婴等FMCG子品类的更高增长率可能反映了不同消费需求。单张图表无法得出此结论：仅chart_151_1无法分析保健膳食内部结构，仅chart_151_2无法对比外部品类。",
+        "B": "这是一个Hard干扰项：它错误解读了图表占比和影响。chart_151_2显示'Suplementos nutricionales dietéticos'占比74.9%（增长11.5%），而'Tónicos tradicionales'占比25.1%（增长5.9%），干扰项颠倒占比，声称传统滋补'占比最高'；这错误推断其'拖累整体'，而实际占比高的子品类增长高，贡献了整体增长。",
+        "C": "这是一个Hard干扰项：它错误解读了图表数值和比较。chart_151_1显示美妆增长率实际为5.8%（非8.1%），低于保健膳食整体10.1%；干扰项还错误归因'促销活动'，但图表未提供相关数据。正确比较应基于实际数值：美妆(5.8%) < 保健膳食(10.1%)。",
+        "D": "这是一个Easy干扰项：它基于常识（如Z世代消费趋势），不依赖图表数据，而是泛泛而谈的行业现象。干扰项错误地将增长归因于未提及的'Z世代'，但图表未涉及消费者年龄或具体驱动因素。",
+        "E": "选项A要求联合推理，因为它对比了整体和子品类增长数据（chart_151_1中的线上FMCG、食品、美妆、母婴增长率）与保健膳食的内部结构（chart_151_2中的品类占比和增长率）。chart_151_1显示线上FMCG增长（7.8%）高于整体线上零售（4.9%），母婴增长最高（10.2%）；chart_151_2显示保健膳食整体增长（10.1%），其中Suplementos nutricionales dietéticos占比高（74.9%）且增长快（11.5%），Tónicos tradicionales占比低（25.1%）且增长慢（5.9%）。选项推断占比高的子品类（如Suplementos nutricionales dietéticos）驱动了保健膳食的强劲表现，并与FMCG子品类（如美妆的5.8%）对比，突显品类间差异。单张图表无法得出此结论：仅chart_151_1无法分析保健膳食内部结构，仅chart_151_2无法对比外部品类。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -121,6 +149,20 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：它基于常识（如通货膨胀影响），不依赖图表数据，而是泛化的经济知识。干扰项错误地将增长归因于'物价上涨'，但图表未涉及通胀因素，且益生菌均价有波动但非单调上升。",
+        "B": "这是一个Hard干扰项：它错误解读了图表增长率和比较。chart_151_4中益生菌销售额从100到115百万元增长15%，但这是绝对增长，而chart_151_2中'Suplementos nutricionales dietéticos'增长率11.5%是同比率；干扰项错误等同两者'增长率一致'，但11.5% vs 15% 计算基础不同（率 vs 绝对变化）。此外，益生菌未在chart_151_2中直接关联，错误假设相同机制。",
+        "C": "选项B要求联合推理，因为它链接了益生菌的销售和价格数据（chart_151_4中的销售额和均价趋势）与保健膳食的品类增长（chart_151_2中的整体和子品类增长率）。chart_151_4显示均价在中期下降后反弹，但销售额仍增长；chart_151_2显示保健膳食整体增长稳定（10.1%）。选项推断这可能源于市场对益生菌产品的稳定需求，部分解释了保健膳食整体增长率的韧性。单张图表无法得出此结论：仅chart_151_4无法关联到品类背景，仅chart_151_2无法分析价格影响。",
+        "D": "这是一个Hard干扰项：它错误解读了图表趋势和数值。chart_151_4显示均价从MAT2306(145元)下降，但销售额从MAT2206(100)到MAT2306(110)增长10%，再到MAT2406(115)增长4.5%，并非'立即飙升'；干扰项还错误推断'需求弹性高'，但实际增长放缓与均价回升并存，表明需求可能较稳定，与保健膳食整体韧性（chart_151_2中10.1%增长）不符。",
+        "E": "选项A要求联合推理，因为它链接了益生菌的销售和价格数据（chart_151_4中的销售额和均价趋势）与保健膳食的品类增长（chart_151_2中的整体和子品类增长率）。chart_151_4显示益生菌销售额从MAT2206到MAT2406持续增长（100到115百万元），均价先降（150元到145元）后升（155元）；chart_151_2显示保健膳食整体增长稳定（10.1%），其中Suplementos nutricionales dietéticos增长较高（11.5%）。选项推断均价波动未抑制销售增长，暗示需求强劲（可能因益生菌属于Suplementos nutricionales dietéticos），这支持了保健膳食的整体表现。单张图表无法得出此结论：仅chart_151_4无法关联到品类背景，仅chart_151_2无法分析价格影响。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -144,6 +186,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Combinando chart_151_2 (la proporción de suplementos nutricionales dietéticos es alta y la tasa de crecimiento es destacada) y chart_151_3 (la proporción de consumidores que eligen 'tomar probióticos para regularizar' es relativamente alta), se infiere que se debe optimizar la combinación de productos a través de la integración transcategorías para responder a las preferencias de los consumidores.",
+        "B": "Combinando chart_151_1 (las categorías de productos infantiles y alimentos tienen un crecimiento rápido) y chart_151_3 (la proporción de consumidores que eligen 'mejorar la dieta' y 'pedir consejo a familiares y amigos' en las reacciones adversas es relativamente alta), se infiere que la asignación de recursos debe coincidir con las categorías de alto crecimiento y las tendencias de comportamiento de los consumidores para mejorar la satisfacción.",
+        "C": "Combinando chart_151_2 (el crecimiento de los tónicos tradicionales es lento) y chart_151_3 (la proporción de consumidores que eligen 'tomar medicamentos por cuenta propia' es relativamente alta), se sugiere la redistribución de recursos y se aboga por un comportamiento seguro para evitar riesgos para la salud.",
+        "D": "Esta opción confunde las relaciones de datos: chart_151_2 muestra que el crecimiento de los suplementos nutricionales dietéticos es del 11,5%, el más alto entre las categorías, y su proporción es del 74,9%, con una demanda fuerte; en chart_151_3, 'tomar probióticos para regularizar' (15,0%) es un comportamiento específico que no refleja directamente una insuficiencia de demanda en toda la categoría. La sugerencia errónea de reducir las categorías de alto crecimiento y orientarse hacia los tónicos tradicionales de bajo crecimiento (5,9%) puede dañar la cuota de mercado.",
+        "E": "Esta opción no se basa en los datos de los gráficos, sino solo en conocimientos comerciales generales (como 'aumentar la publicidad para mejorar la influencia'), y carece de orientación de acción específica (como no especificar categorías o comportamientos). Es fácil de descartar por conocimiento general, ya que no se dirige al crecimiento de los FMCG en línea o al comportamiento de los consumidores.",
+        "F": "Esta opción tampoco se refiere a los gráficos y solo sugiere de manera general 'optimizar la cadena de suministro'. No se combina con ninguna tendencia de crecimiento o datos de respuesta a la salud, y es una estrategia general que no puede optimizar directamente la combinación de productos o la satisfacción de los consumidores.",
+        "G": "Esta opción interpreta erróneamente los datos de los gráficos: chart_151_1 muestra que la tasa de crecimiento del maquillaje es del 5,8%, aunque es más alta que la del comercio minorista en línea en general (4,9%), pero está muy por debajo de la de los productos infantiles (10,2%) y los alimentos (8,1%); al mismo tiempo, en chart_151_3, 'mejorar la dieta' (17,4%) no tiene una relación directa con el maquillaje (mejorar la dieta se refiere a la respuesta a la salud, no a la belleza), lo que lleva a una desviación en la dirección de la estrategia (se deben priorizar las categorías de alto crecimiento, no las de crecimiento medio)."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -167,6 +226,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en los gráficos, sino solo en conocimientos generales de fijación de precios (como 'reducir el precio para estimular las ventas'), pero no considera la estructura específica del mercado o las tendencias de ventas (como la fluctuación del precio promedio de los probióticos). La estrategia es general y puede ignorar los riesgos de beneficio (por ejemplo, es irrazonable reducir el precio cuando el precio promedio está subiendo).",
+        "B": "Esta opción interpreta erróneamente las tendencias de los gráficos: chart_151_4 muestra que el precio promedio de los probióticos disminuyó de MAT2206 (150 yuanes) a MAT2306 (145 yuanes), pero volvió a subir en MAT2406 (155 yuanes), y la tendencia general no es una disminución monótona; al mismo tiempo, en chart_151_3, la proporción de 'tomar probióticos para regularizar' es del 15,0%, que es mediana, pero la estrategia de reducción de precios ignora el potencial de aumento del precio promedio, lo que puede provocar pérdidas de beneficio en lugar de un aumento.",
+        "C": "Combinando chart_151_4 (las ventas de probióticos aumentan continuamente y la tendencia de aumento del precio promedio es evidente) y chart_151_3 (la proporción de consumidores que eligen 'tomar probióticos para regularizar' es relativamente alta), se infiere que se debe capturar el potencial de crecimiento a través de la estrategia de precios y satisfacer las necesidades de los consumidores.",
+        "D": "Combinando chart_151_2 (los suplementos nutricionales dietéticos tienen un crecimiento rápido y una proporción alta) y chart_151_4 (el precio promedio de los probióticos fluctúa mucho), se sugiere una coordinación de precios entre categorías para evitar la competencia interna.",
+        "E": "Esta opción también es generalizada y solo sugiere 'aumentar la investigación y desarrollo', sin combinar las cuotas de mercado de los alimentos dietéticos saludables o los datos de ventas de probióticos. Carece de pertinencia (como no especificar categorías o direcciones de innovación) y es fácil de descartar por conocimiento general.",
+        "F": "Esta opción confunde los datos: en chart_151_2, el crecimiento de los tónicos tradicionales es solo del 5,9%, mucho más bajo que el de los suplementos nutricionales dietéticos (11,5%), y su proporción es del 25,1%, que es pequeña; en chart_151_3, 'pedir consejo a familiares y amigos' (13,5%) es una preferencia de comportamiento y no tiene una relación lógica directa con la innovación de productos. La combinación errónea de la categoría de bajo crecimiento con el comportamiento social lleva a una desviación en la dirección de la estrategia (se deben priorizar las categorías de alto crecimiento).",
+        "G": "Combinando chart_151_2 (los tónicos tradicionales tienen una cierta cuota de mercado) y chart_151_3 (la proporción de consumidores que eligen 'mejorar la dieta' es relativamente alta), se infiere que se debe impulsar la innovación de productos para activar las categorías de crecimiento lento."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -190,6 +266,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en los datos de los gráficos y solo sugiere de manera general 'ampliar los canales de marketing'. No se combina con el crecimiento de los FMCG o comportamientos específicos de salud (como reducir riesgos). La estrategia carece de orientación de acción clara y es fácil de descartar por conocimiento general.",
+        "B": "Esta opción confunde los datos y las relaciones: en chart_151_1, el crecimiento del maquillaje es del 5,8%, que es menor que el de los productos infantiles (10,2%) y los alimentos (8,1%), por lo que no es la mejor categoría; en chart_151_3, la proporción de 'tomar medicamentos por cuenta propia' (20,3%) es alta, pero puede aumentar el riesgo (la estrategia correcta debería reducir este tipo de comportamiento). La sugerencia errónea de desarrollar productos relacionados ignora los riesgos para la seguridad y puede dañar la lealtad de la marca.",
+        "C": "Esta opción es generalizada y solo se basa en conocimientos generales de calidad (como 'fortalecer el control de calidad'), pero no cita ningún dato de los gráficos (como comportamientos de reacciones adversas o tendencias de crecimiento), por lo que no puede asignar recursos de marketing o educación de manera específica.",
+        "D": "Combinando chart_151_3 (la proporción de consumidores que eligen 'acudir inmediatamente a un hospital oficial' es baja) y chart_151_1 (el crecimiento general de los FMCG en línea es rápido), se sugiere que se inclinen los recursos hacia la educación en comportamientos seguros y se utilicen los canales en línea para ampliar la influencia.",
+        "E": "Combinando chart_151_4 (la tendencia de aumento de las ventas de probióticos es evidente) y chart_151_3 (la proporción de consumidores que eligen 'tomar probióticos para regularizar' es relativamente alta), se infiere que se debe fortalecer el valor del producto a través del marketing y promover comportamientos saludables.",
+        "F": "Esta opción interpreta erróneamente el comportamiento de los consumidores: chart_151_3 muestra que la proporción de 'no tomar medidas' es del 2,9%, la más baja, y es un comportamiento negativo (debería reducirse en lugar de promocionarse). La sugerencia errónea de educar y promocionar este comportamiento, en lugar de la estrategia correcta de alentar formas seguras (como acudir a un hospital o descansar), y la falta de combinación con los datos de crecimiento de los FMCG llevan a una dirección contraria de la estrategia.",
+        "G": "Combinando chart_151_1 (los crecimiento de las categorías de maquillaje y alimentos es sólido) y chart_151_3 (la proporción de consumidores que eligen 'no tomar medidas' es baja pero presenta riesgos), se sugiere una estrategia específica por categoría para transformar comportamientos negativos."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

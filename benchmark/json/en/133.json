@@ -84,6 +84,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on common sense (such as the impact of geopolitics on the supply chain), but the chart data does not contain any information about international logistics or external events. Therefore, it does not rely on the chart content and can be judged as irrelevant purely through general knowledge.",
+        "B": "It is necessary to combine the milk production chart (showing that the year-on-year growth rate of production from 2020 to 2023 is above 7%, with an overall upward trend) and the dairy import chart (showing that the year-on-year import value of bulk milk powder, infant formula, etc. has decreased), and infer that the increase in domestic production may replace part of the import demand.",
+        "C": "This is an easy distractor: It relies on industry common sense (consumers' preference shifting to domestic brands), but the chart does not provide data on consumer trust or brand preference. Therefore, it has nothing to do with the chart and can be easily excluded through common sense.",
+        "D": "This is a hard distractor: It seemingly bases on the chart (the import value of bulk milk powder in chart_133_2 is 2.92 billion US dollars with a -34.0% growth), but wrongly infers 'dominating the overall decline': The import value of infant formula is higher (4.21 billion US dollars), and some categories (such as light cream) are growing. Therefore, the decline is due to multiple factors, not a single driver; at the same time, the relationship between the growth of milk production (chart_133_1) and the decline in imports is over-simplified.",
+        "E": "It is necessary to combine the milk production chart (the production growth trend) and the dairy import chart (the positive growth of light cream and cheese in the import chart), and analyze the change in consumption structure: The growth of production meets the basic dairy demand, while the growth of imports reflects the preference for high-end products, which together explain the differentiation of imports.",
+        "F": "It is necessary to combine the milk production chart (time-series data, the production has accelerated since 2020) and the dairy import chart (the import data in 2023), and infer the causal relationship between the improvement of supply capacity and the decline in imports through time alignment.",
+        "G": "This is a hard distractor: It wrongly understands the chart values (chart_133_1 shows that the milk production in 2023 increased by 6.7%, but it is not the highest in history - the growth in 2021 was 7.1% higher); more importantly, chart_133_2 shows that the imports of light cream (+7.4%) and cheese (+25.9%) increased year-on-year, not all categories declined. Therefore, the inference of 'overall decline' is wrong."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -106,6 +123,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "It is necessary to combine the dairy company's operating revenue chart (showing that Yili's proportion of liquid milk decreased from 69.22% to 64.29% in 2023) and the milk production chart (showing that the production has been continuously increasing from 2020 to 2023), and infer the contradiction that the proportion of liquid milk of the enterprise has decreased while the production has increased, indicating that the revenue growth may come from new products such as cheese or milk powder.",
+        "B": "This is a hard distractor: It wrongly understands the numerical comparison (the mid-year revenue of Yili in 2023 in chart_133_3 is 65.982 billion yuan, which is half-year data, while 122.7 billion yuan in 2022 is annual data. Direct comparison will exaggerate the growth rate); at the same time, although the proportion of liquid milk has decreased, the explanation of the conflict ignores the overall trend of milk production growth (chart_133_1), resulting in a distorted inference.",
+        "C": "It is necessary to combine the dairy company's operating revenue chart (the revenue and the proportion of liquid milk of Bright Dairy have changed little in 2023) and the milk production chart (the production has increased rapidly), and by comparing the industry trend with the enterprise performance, infer that the lag in Bright's revenue growth may be due to market share or import competition (implicitly related to the dairy import chart).",
+        "D": "This is a hard distractor: It wrongly infers the consistency of trends (the proportion of New Hope Dairy has increased, but chart_133_3 shows that Yili's proportion has decreased and Bright's has slightly increased); the growth of milk production (chart_133_1) does not force the proportion of all enterprises to increase. The conflict stems from the differentiation of enterprise strategies (such as Yili's diversification). Therefore, the conclusion of 'all enterprises synchronize' is wrong.",
+        "E": "It is necessary to combine the dairy company's operating revenue chart (the proportion of liquid milk of New Hope Dairy increased from 87.76% to 90.94%, and the revenue has increased) and the milk production chart (the overall upward trend of production), and analyze the difference in enterprise strategies: The high proportion of New Hope Dairy is consistent with the production trend, while the proportion of other enterprises has changed little. The conflict stems from the breadth of product lines.",
+        "F": "This is an easy distractor: It is based on common sense (such as the impact of digitalization on revenue), but the chart does not mention marketing or digital transformation. Therefore, it does not rely on data and is just a general statement, which can be easily excluded through common sense.",
+        "G": "This is an easy distractor: It uses industry common sense (seasonal influence), but the chart data covers the annual trend (such as from 2022 to 2023) without seasonal information. Therefore, it has nothing to do with the chart and can be directly judged as wrong."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -128,6 +162,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It seemingly bases on the chart (the cheese category in chart_133_2 has a 25.9% growth, and the proportion of liquid milk in chart_133_3 is high), but wrongly interprets 'not significantly affected': The growth of cheese implies consumption upgrading, while the stable proportion of liquid milk may reflect the enterprise's balancing strategy (such as in the original option B), but it is not without impact; at the same time, it ignores the trend of a 7.4% increase in light cream imports, resulting in a one-sided inference.",
+        "B": "This is an easy distractor: It relies on common sense (the health trend shifting to plant-based drinks), but the chart does not mention plant-based products or consumer health data. Therefore, it is not based on the chart and can be easily recognized as irrelevant through common sense.",
+        "C": "It is necessary to combine the dairy import chart (the cheese category's import has increased by 25.9%) and the chart of the proportion of liquid milk revenue of dairy companies (although the proportion of liquid milk of Yili and others has decreased, it is still above 64%), and analyze that the import trend shows an increase in high-end demand, but the proportion of liquid milk of enterprises still dominates, implying the need for product structure optimization.",
+        "D": "This is an easy distractor: It uses industry common sense (the impact of e-commerce on imports), but the chart has no information about e-commerce or promotions, and the import value has decreased in some cases (chart_133_2), which contradicts common sense. Therefore, it does not rely on data and can be directly excluded.",
+        "E": "It is necessary to combine the dairy import chart (the year-on-year import value of infant formula has decreased by 5.0%) and the chart of the proportion of liquid milk revenue of dairy companies (the proportion of New Hope Dairy has increased from 87.76% to 90.94%), and infer the relationship between the decline in imports and the enterprise's focus on liquid milk, reflecting the shift of consumption preference to domestic products.",
+        "F": "It is necessary to combine the dairy import chart (the import of light cream has increased by 7.4%, and the import of cream products has decreased by 11.3%) and the chart of the proportion of liquid milk revenue of dairy companies (the proportion of liquid milk of Bright Dairy has slightly increased), and deduce that the change in import categories may affect the enterprise's liquid milk formula or derivative product development, such as replacing cream with light cream.",
+        "G": "This is a hard distractor: It wrongly associates the values (the 10.6% decrease in whey product imports and the increase in the proportion of liquid milk of New Hope Dairy), but whey products are mainly used as industrial raw materials and have nothing to do with liquid milk consumption; there is no direct causal relationship between chart_133_2 and chart_133_3. Therefore, the inference of'replacement' lacks a basis."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -150,6 +201,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Option A involves chart_133_1 (the stable growth trend of domestic milk production in recent years) and chart_133_2 (the significant year-on-year decline in the import value of categories such as bulk milk powder and whey products).",
+        "B": "Option C involves chart_133_2 (high import value but negative growth for infant formula) and chart_133_1 (continuous growth of domestic production, which can replace some imports).",
+        "C": "This is a hard distractor: It seemingly uses the chart data (chart_133_1 shows the overall growth of domestic milk production, and chart_133_2 shows a 25.9% growth in cheese imports), but misinterprets the relationship; the growth of domestic production is for raw milk, which does not directly equal cheese production capacity, and the growth in imports indicates strong demand. Complete replacement is unreasonable and will lead to market gaps.",
+        "D": "This is a hard distractor: It seemingly uses the chart data (chart_133_2 shows a high import value but a -5.0% year-on-year decline for infant formula, and chart_133_1 shows the stable growth of domestic production in recent years), but confuses the trends; the import demand is shrinking, and the growth rate of domestic production (such as 6.7% in 2023) is sufficient to cover it. Increasing imports will increase costs rather than reduce them.",
+        "E": "This is an easy distractor: It involves technological upgrading but does not reference the chart content (such as changes in import demand or domestic production). It is a general industry suggestion (improving packaging is a common strategy) and is disconnected from the core of the question (adjustment of import strategies).",
+        "F": "This is an easy distractor: It does not rely on the chart data, only based on general trade common sense (economies of scale to reduce costs), but it is too broad and has no specific action guidelines (not targeting changes in import demand or domestic production trends). It can be easily excluded by common sense (blindly increasing all imports may increase costs rather than reduce them).",
+        "G": "Option B involves chart_133_2 (the strong year-on-year growth in the import value of cheese and light cream) and chart_133_1 (the overall growth of domestic production but no breakdown by category, requiring imports to supplement)."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It seemingly uses the chart data (chart_133_2 shows a decline in bulk milk powder imports, and chart_133_3 shows a high proportion of liquid milk in enterprises), but confuses the relationship; the decline in imports indicates shrinking demand, and a high proportion of liquid milk does not mean that enterprises can easily produce bulk milk powder (different production processes are required). Expanding this category will waste resources.",
+        "B": "This is an easy distractor: It involves digital transformation but does not reference any chart content (such as import demand or enterprise proportions). It is a broad modern enterprise strategy and has nothing to do with the core of the question (optimization of product portfolio).",
+        "C": "Option B involves chart_133_2 (the significant year-on-year growth in the import value of cheese) and chart_133_3 (a high proportion of liquid milk in enterprises, requiring a diversified product structure).",
+        "D": "This is a hard distractor: It seemingly uses the chart data (chart_133_3 shows a high proportion of liquid milk in New Hope Dairy, and chart_133_2 shows a decline in packaged milk imports), but misinterprets; the decline in imports may reflect sufficient domestic supply rather than a shift in demand, and liquid milk is the core revenue source of the enterprise (such as a 90.94% proportion in New Hope Dairy). Cutting investment will weaken competitiveness.",
+        "E": "Option A involves chart_133_1 (the stable growth trend of domestic milk production in recent years), chart_133_2 (the year-on-year decline in the import value of liquid-related categories such as packaged milk), and chart_133_3 (a relatively high proportion of liquid milk in Yili and New Hope Dairy).",
+        "F": "This is an easy distractor: It does not rely on the chart data, only based on basic business common sense (raising prices to increase profit margins), but it is too generalized (not targeting import demand or product structure) and has no specific data support. It can be easily excluded (it may reduce market share rather than enhance competitiveness).",
+        "G": "Option C involves chart_133_3 (a relatively low proportion of liquid milk in Bright Dairy), chart_133_2 (the growth in imports of categories such as light cream), and chart_133_1 (the growth of domestic production supports localization)."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It does not rely on the chart data, only based on general management common sense (marketing to enhance loyalty), but it is too broad (not considering specific production, import, or enterprise conditions) and has no action guidelines. It can be easily excluded by common sense.",
+        "B": "This is a hard distractor: It seemingly uses the chart data (chart_133_2 shows the growth in cheese imports, and chart_133_1 shows the stable growth of domestic production), but confuses the trends; the growth of domestic production indicates an improvement in self-sufficiency. Reducing resource allocation will weaken sustainability, and the growth in imports reflects that the demand has not been fully met domestically. A balance rather than a reduction is needed.",
+        "C": "Option A involves chart_133_1 (the stable growth trend of domestic milk production) and chart_133_3 (a relatively high proportion of liquid milk in enterprises).",
+        "D": "Option B involves chart_133_2 (the strong growth in imports of cheese and light cream) and chart_133_3 (a high proportion of liquid milk in enterprises, requiring innovation and diversification).",
+        "E": "This is an easy distractor: It involves staff training but does not reference the chart content (such as production trends or import demand). It is a general efficiency suggestion and is disconnected from the core of the question (resource allocation based on data).",
+        "F": "This is a hard distractor: It seemingly uses the chart data (chart_133_2 shows a high import value for infant formula, and chart_133_1 shows the growth of domestic production), but misinterprets; the import value is high but the demand is declining (year-on-year -5.0%), and the domestic growth is for raw milk, not directly related categories. Concentrated investment will ignore the risk of shrinking demand.",
+        "G": "Option C involves chart_133_1 (the growth trend of domestic production) and chart_133_2 (a high import value but a year-on-year decline in categories such as bulk milk powder)."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

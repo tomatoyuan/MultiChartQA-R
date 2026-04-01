@@ -88,6 +88,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "联合显示未规划比例仅13.81%的图表和显示规模分布中小型企业占绝对多数的图表，推理未规划企业比例小且规模分布可能均匀，但小型企业基数大导致转型企业中占比高。",
+        "B": "这是Hard干扰项：错误理解数值差距（chart_115_2中微型企业占比10.47%，小型企业60.47%）。实际图表无'转型意愿'数据，只提供转型企业规模分布，无法推断意愿差异。",
+        "C": "联合了显示数字化转型规划普及率很高（86.19%的企业已考虑或实施）的图表和显示小型企业占比60.47%（远高于其他规模企业）的图表。推理依赖于两张图表：高规划率说明转型广泛，小型企业作为最大规模群体，结合后解释其主导地位。",
+        "D": "这是Easy干扰项：基于企业规模分布的常识（小型企业通常数量最多），但图表未提供所有企业的规模数据（chart_115_2仅显示转型企业规模），因此错误。",
+        "E": "联合显示数字化转型规划高比例（反映积极转型态势）的图表和显示小型企业高占比（60.47%）与大型企业低占比（3.42%）对比的图表，隐含小型企业虽资源有限但参与度高。",
+        "F": "这是Hard干扰项：错误解读排序（chart_115_1显示未规划转型比例仅13.81%）。未规划企业规模分布未知，无法推断其以小型企业为主；且小型企业占比高主要源于其基数大，而非未规划企业影响。",
+        "G": "这是Easy干扰项：基于常识认为大型企业资源丰富、转型更容易，但图表显示大型企业占比最低（3.42%），与常识矛盾。"
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "联合显示信息传输、计算机服务和软件业占比14.32%（略低于制造业但仍是主要行业）的图表和显示云计算和SaaS服务方式占比15.60%、人工智能和机器学习方式占比7.69%的图表。推理结合行业特性（技术驱动）和方式趋势，隐含该行业更倾向先进技术方式。",
+        "B": "这是Hard干扰项：错误关联数值（chart_115_3制造业占比14.74%和chart_115_4自主开发方式占比16.67%数值相近）。实际无证据表明比例接近即优先采用；原选项A指出制造业更可能用工业互联网方式（47.01%）。",
+        "C": "这是Easy干扰项：基于常识泛化（最高占比方式被所有行业采用），但问题要求针对特定行业特性（如制造业更可能用工业互联网），且图表未提供行业与方式的直接关联数据。",
+        "D": "联合了显示制造业占比14.74%（是最高行业之一）的图表和显示利用产业链龙头企业搭建的工业互联网平台方式占比47.01%（较高）的图表。推理依赖于两张图表：制造业的高占比与工业互联网方式的高采用率隐含联系，可能因制造业需要供应链整合。",
+        "E": "这是Hard干扰项：错误比较排序（信息传输行业占比14.32%在chart_115_3中较高，但第三方电商方式占比28.63%在chart_115_4中非最高）。行业特性（技术密集型）更可能支持云计算或AI，而非电商平台，与数据趋势不符。",
+        "F": "这是Easy干扰项：基于行业常识（卫生行业涉及人才招聘），但问题聚焦数字化转型方式（chart_115_4），而非招聘服务（chart_115_5）；且AI虚拟面试官是需求，非转型方式。",
+        "G": "联合显示批发和零售业占比8.55%（处于中游）的图表和显示利用第三方电子商务平台方式占比28.63%（较高）的图表。推理基于行业属性（销售导向）和方式普及率，隐含该行业依赖外部平台简化转型。"
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：错误解读方式与需求（chart_115_4购买通用软件占比42.95%，chart_115_5简化简历入库需求占比33.55%）。表面看都涉及'标准化'，但无数据支持直接关联；原选项B更关联云计算与高效管理。",
+        "B": "联合了显示人工智能和机器学习方式占比7.69%（虽较低但有特定采用群体）的图表和显示AI虚拟面试官需求占比29.70%的图表。推理依赖于两张图表：采用AI技术的企业更可能延伸至AI招聘工具，隐含技术连贯性。",
+        "C": "联合显示云计算和SaaS服务方式占比15.60%的图表和显示高效管理职位需求33.12%、简化简历入库需求33.55%的图表。推理结合云端服务的远程管理特性与招聘效率需求，隐含云计算企业注重流程优化。",
+        "D": "联合显示依托供应链上下游企业开展方式占比17.52%的图表和显示人才聚合搜集需求33.76%的图表。推理基于供应链协同方式与人才集中需求，隐含企业需要整合人力资源以支持供应链转型。",
+        "E": "这是Easy干扰项：基于需求排序常识（最高占比即最普遍需求），但问题要求关联特定转型技术（如AI方式可能关联AI服务），且高效筛选简历需求（35.47%）不一定与技术直接相关。",
+        "F": "这是Easy干扰项：基于企业规模常识（大型企业更专业），但图表未提供需求与规模的关联数据（chart_115_5仅列出需求比例），因此错误。",
+        "G": "这是Hard干扰项：错误关联技术特性（AI方式占比7.69%在chart_115_4中较低）。AI方式本应与AI虚拟面试官需求（29.70%）匹配，但这里错误关联高效管理职位需求（33.12%），忽略了具体技术对应关系。"
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en conocimientos generales de gestión (por ejemplo, la promoción y la capacitación pueden aumentar la conciencia), pero no combina los datos de los gráficos o estrategias específicas de asignación de recursos. La formulación es demasiado amplia y carece de orientación de acción para las características de escala (por ejemplo, la alta proporción de pequeñas empresas).",
+        "B": "Esta es una opción de distracción difícil: confunde los datos de chart_115_4 (el desarrollo independiente solo representa el 16,67%, mientras que la compra de software para industrias específicas representa el 53,85%, el más alto). Erróneamente, considera el modo secundario como la estrategia principal, ignorando la realidad de que las empresas prefieren soluciones listas para usar de bajo costo.",
+        "C": "Esta es una opción de distracción fácil: se basa en sugerencias de políticas económicas generales (por ejemplo, exenciones fiscales), pero no cita los gráficos (por ejemplo, la distribución de la escala empresarial o los modos de transformación), ignorando el problema central de que la asignación de recursos debe estar dirigida a empresas de tamaño específico (por ejemplo, las pequeñas empresas tienen recursos limitados).",
+        "D": "Esta es una opción de distracción difícil: interpreta erróneamente los datos de chart_115_2 (las grandes empresas solo representan el 3,42%, mucho menos que el 60,47% de las pequeñas empresas), pero sugiere dar prioridad al apoyo a las grandes empresas, lo que ignoraría el principio de competencia justa y causaría una mala asignación de recursos y baja eficiencia.",
+        "E": "Inferencia conjunta de chart_115_2 (la proporción de grandes empresas es baja) y chart_115_4 (la proporción de uso de plataformas de la cadena industrial o desarrollo independiente es alta), enfatizando el impulso de la innovación.",
+        "F": "Inferencia conjunta de chart_115_2 (la proporción combinada de microempresas y empresas medianas es alta) y chart_115_4 (la proporción de transformación basada en la cadena de suministro o plataformas de terceros es alta), asegurando una cobertura equitativa.",
+        "G": "Inferencia conjunta de chart_115_2 (las pequeñas empresas son las principales en la transformación) y chart_115_4 (las empresas prefieren comprar software general o utilizar plataformas, con una alta proporción), centrándose en la eficiencia de costos."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: interpreta erróneamente los datos de chart_115_3 (la minería representa el 2,14% y la educación el 3,85%, ambos son los más bajos, mucho menos que el 14,74% de la manufactura), pero sugiere dar prioridad al apoyo a las industrias de baja proporción, lo que desperdiciaría recursos y reduciría los retornos comerciales.",
+        "B": "Inferencia conjunta de chart_115_3 (la proporción de la manufactura y la transmisión de información es destacada) y chart_115_4 (la proporción de compra de software para industrias específicas es la más alta), destacando los campos de alta demanda.",
+        "C": "Esta es una opción de distracción fácil: utiliza estrategias de crecimiento generalizadas (por ejemplo, centrarse en industrias de alto crecimiento), pero no cita los gráficos (por ejemplo, la distribución de industrias o los modos de transformación), careciendo de pertinencia para la participación industrial (por ejemplo, la industria de transmisión de información representa el 14,32%).",
+        "D": "Inferencia conjunta de chart_115_3 (industrias como cultura, comercio al por mayor y al por menor, producción y suministro de electricidad tienen una proporción mediana) y chart_115_4 (la proporción de uso de servicios de computación en la nube o plataformas de terceros es alta), enfatizando la cobertura equilibrada.",
+        "E": "Esta es una opción de distracción fácil: se basa en estrategias comerciales generales (por ejemplo, paquetes de herramientas generales), pero no combina los datos de los gráficos (por ejemplo, las diferencias en la proporción de industrias), ignorando las necesidades específicas de las industrias de alta demanda (por ejemplo, la manufactura representa el 14,74%), lo que resulta en una dispersión de recursos.",
+        "F": "Inferencia conjunta de chart_115_3 (industrias de baja proporción como la minería y la educación) y chart_115_4 (la proporción de compra de software general es alta), asegurando equidad y eficiencia de costos.",
+        "G": "Esta es una opción de distracción difícil: interpreta erróneamente los datos de chart_115_4 (los servicios de computación en la nube solo representan el 15,60%, mientras que la compra de software para industrias específicas representa el 53,85%, el más alto). Erróneamente, considera el modo secundario como la estrategia central, ignorando las necesidades específicas de la industria (por ejemplo, la preferencia por software específico). "
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: confunde los datos de chart_115_4 (la transformación basada en la cadena de suministro representa el 17,52%, mientras que la compra de software para industrias específicas representa el 53,85%, el más alto). Erróneamente, asocia el modo de transformación secundario a la estrategia de reclutamiento, ignorando que las necesidades de reclutamiento son independientes de las preferencias de la cadena de suministro.",
+        "B": "Esta es una opción de distracción difícil: interpreta erróneamente los datos de chart_115_5 (la demanda de entrevistador virtual de IA solo es del 29,70%, menos que el 35,47% de la selección eficiente de currículums), pero afirma que es la demanda más alta, orientando erróneamente a priorizar funciones innovadoras y ignorando los problemas reales.",
+        "C": "Inferencia conjunta de chart_115_5 (la alta proporción de demanda de selección eficiente de currículums y agregación de talento) y chart_115_1 (alta tasa de penetración de la transformación digital), centrándose en las demandas principales.",
+        "D": "Inferencia conjunta de chart_115_5 (la demanda de entrevistador virtual de IA es relativamente baja pero existe) y chart_115_4 (la proporción de uso de inteligencia artificial y aprendizaje automático es baja pero hay aplicación), enfatizando la perspectiva innovadora.",
+        "E": "Esta es una opción de distracción fácil: se basa en principios generales de diseño de productos (por ejemplo, mejora de la interfaz de usuario), pero no combina los datos de los gráficos (por ejemplo, las necesidades de reclutamiento o los modos de transformación). La formulación es demasiado generalizada y carece de orientación específica para el desarrollo de funciones.",
+        "F": "Inferencia conjunta de chart_115_5 (la demanda mediana de modelado preciso de puestos y análisis preciso de currículums) y chart_115_4 (la alta proporción de compra de software o soluciones digitales), optimizando la integración de recursos.",
+        "G": "Esta es una opción de distracción fácil: se basa en conocimientos generales de marketing (por ejemplo, campañas de promoción), pero no cita los gráficos (por ejemplo, las características de demanda), ignorando la prioridad de las necesidades de función centrales (por ejemplo, la selección eficiente de currículums al 35,47%)."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     }
   ]

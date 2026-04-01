@@ -83,6 +83,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Hard Distractor: Forcibly associate the data view recognition (68%) in chart_3_1 with the challenge (54%) in chart_3_2, ignoring the numerical difference (68% > 54%) and lacking logical support.",
+        "B": "Combines the low recognition of the platform - building view in chart_3_1 and the media fragmentation challenge in chart_3_2 to explain the resource integration problem. Reasoning cannot be completed with a single chart: chart_3_1 only shows views without involving challenges; chart_3_2 only shows challenges without involving view recognition.",
+        "C": "Easy Distractor: The charts clearly show that the recognition of the importance of digital marketing exceeds 95% (64% strongly agree + 33% agree). This option violates basic data facts and is a common - sense error.",
+        "D": "Combines the high recognition of the brand importance view in chart_3_1 (described as 'universally believing that the brand is crucial') and the high proportion of the ROI challenge in chart_3_2 (described as 'prominent challenge'), and infers the implicit connection of the difficulty in quantifying brand value. Reasoning cannot be completed with a single chart: chart_3_1 only shows views without involving challenges; chart_3_2 only shows challenges without involving view recognition.",
+        "E": "Hard Distractor: Misinterprets the media fragmentation data in chart_3_2 (actually 50%), fabricates a '30%' low value, and ignores the reverse evidence of the overall 93% recognition (53% + 40%) of platform building.",
+        "F": "Combines the strong recognition of the operation and data view in chart_3_1 and the effectiveness measurement challenge in chart_3_2, and infers the data application barrier. Reasoning cannot be completed with a single chart: chart_3_1 only shows views without involving challenges; chart_3_2 only shows challenges without involving view recognition."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -104,6 +119,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Easy Distractor: The charts do not mention traditional media, and the recognition of digital marketing exceeds 95%. This option relies on external assumptions and violates data consensus.",
+        "B": "Hard Distractor: Incorrectly compares the numerical gap (16%) between the brand recognition (78%) in chart_3_1 and the ROI challenge (62%) in chart_3_2, fabricates a 'close' relationship and reverses the causality.",
+        "C": "Combines the high recognition of the brand view in chart_3_1 (the highest proportion of strongly agree) and the high proportion of the ROI challenge in chart_3_2, and infers the disconnection caused by environmental complexity. Only chart_3_1 cannot explain the reason for the challenge, and only chart_3_2 cannot explain the background of recognition.",
+        "D": "Combines the strong recognition of the operation and data view in chart_3_1 and the effectiveness measurement challenge in chart_3_2, and infers the implementation gap. Only chart_3_1 cannot explain the reason for the challenge, and only chart_3_2 cannot explain the background of recognition.",
+        "E": "Hard Distractor: Incorrectly associates the operation and data view in chart_3_1 (97% recognition) with the media fragmentation in chart_3_2 (50%), ignoring that fragmentation is an objective environment rather than a result.",
+        "F": "Combines the low recognition of the platform view in chart_3_1 (the lowest proportion of strongly agree) and the media fragmentation challenge in chart_3_2 to explain the priority mismatch. Only chart_3_1 cannot explain the reason for the challenge, and only chart_3_2 cannot explain the background of recognition."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -125,6 +155,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Easy Distractor: The charts do not involve cost data. This option introduces external variables and has nothing to do with the chart content.",
+        "B": "Hard Distractor: Fabricates an exclusive relationship between the brand recognition (78%) in chart_3_1 and the media fragmentation (50%) in chart_3_2. In fact, the two can co - exist, and the fragmentation data proves the objective existence of the challenge.",
+        "C": "Combines the high proportion of the media fragmentation challenge in chart_3_2 and the low recognition of the platform view in chart_3_1, and infers the disconnection between environmental perception and the solution. Chart_3_1 provides view data, and chart_3_2 provides challenge context. A single chart cannot derive the evaluation factors.",
+        "D": "Hard Distractor: Incorrectly compares the challenge (54%) in chart_3_2 with the single - item data of 'strongly agree' on platform building in chart_3_1 (53%), ignoring that the overall platform recognition of 93% (53% + 40%) is much higher than the challenge proportion.",
+        "E": "Combines the ROI challenge in chart_3_2 and the high recognition of the brand view in chart_3_1 to explain the resource allocation conflict. Chart_3_1 provides view data, and chart_3_2 provides challenge context. A single chart cannot derive the evaluation factors.",
+        "F": "Combines the effectiveness measurement challenge in chart_3_2 and the high recognition of the operation and data view in chart_3_1, and infers the impact of data tool defects. Chart_3_1 provides view data, and chart_3_2 provides challenge context. A single chart cannot derive the evaluation factors."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -146,6 +191,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This option misinterprets the data in chart_3_1: In the view of brand importance, the proportion of 'strongly agree' is 78% (the highest), but the distractor mistakenly regards 19% of 'agree' as low overall recognition and suggests cutting investment. In fact, the actual data supports the high value of brand building. It creates confusion by superficially using the chart but confusing the numerical values.",
+        "B": "In chart_3_1, the recognition of the importance of building a platform is relatively low (but still has a basic recognition), and in chart_3_2, the challenge of media fragmentation is high. The strategy recommends investment in integration based on the challenge data.",
+        "C": "In chart_3_1, the recognition of brand importance is the highest (trend description), and in chart_3_2, the difficulty in improving ROI is the most significant challenge. The strategy suggests investing in the brand to hedge against the ROI problem, which is in line with the values (not cutting core investment due to challenges).",
+        "D": "This option does not rely on the chart data but only on general marketing common sense (such as 'balanced budget'). However, it does not provide action guidelines for the specific challenges revealed in the chart (such as the 62% difficulty in improving ROI or the 54% difficulty in measuring effectiveness). It is easy to be excluded by common sense because it lacks pertinence to the digital recognition attitude or media challenges.",
+        "E": "In chart_3_1, the recognition of the equal importance of operations and data is high, and in chart_3_2, the challenge of difficult - to - measure effectiveness is significant. The strategy uses data tools as a lever to solve the measurement problem.",
+        "F": "This option incorrectly compares the challenge data in chart_3_2: The proportion of the media fragmentation challenge is 50%, but the difficulty in improving ROI (62%) and the difficulty in measuring effectiveness (54%) are higher. However, the distractor emphasizes fragmentation as the 'highest' challenge and ignores others, resulting in a deviation in the strategy direction. It uses the surface logic of the chart but distorts the priority relationship."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -167,6 +227,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "In chart_3_1, the recognition of the importance of building a platform is relatively low, and in chart_3_2, the proportion of the media fragmentation challenge is high. The strategy recommends resource integration based on the challenge data to avoid neglecting investment due to low recognition (in line with values).",
+        "B": "In chart_3_1, the recognition of brand importance is the highest, and in chart_3_2, the challenges of ROI and effectiveness measurement are significant. The strategy combines the brand and data to improve measurability.",
+        "C": "This option incorrectly associates the data in chart_3_1 and chart_3_2: The recognition of the importance of platform building is 53% for'strongly agree' (relatively low), but the distractor suggests 'postponing' and giving priority to the ROI challenge (62%). However, the 50% media fragmentation challenge is related to platform building. The actual data shows that platform integration can alleviate fragmentation. It uses the numerical values but ignores the synergistic relationship between challenges, and the strategy direction is obviously wrong.",
+        "D": "This option misinterprets the data in chart_3_1: In the view of 'operations and data are equally important', the proportion of'strongly agree' is 68%, but the distractor mistakenly believes that the recognition of data is 'higher' and ignores operations (the actual view emphasizes equality), and assumes that the operational challenge is small (while the 54% effectiveness measurement challenge is high). It superficially uses the chart but confuses the meaning of 'equally important' and creates a logical deviation.",
+        "E": "This option does not rely on the chart but is based on industry common sense (such as'social media is efficient'). However, it does not combine the specific challenges in the chart (such as the 54% difficulty in measuring effectiveness) or the emphasis on digital elements (such as the 68% equal importance of operations and data). The statement is broad and lacks data support, and it is easy to be excluded by general knowledge.",
+        "F": "In chart_3_1, the recognition of the equal importance of operations and data is high (trend), and in chart_3_2, the challenges of difficult - to - measure effectiveness and difficult - to - improve ROI are high. The strategy takes data operations as the core solution."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -188,6 +263,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "In chart_3_1, the recognition of the equal importance of operations and data is high, and in chart_3_2, the challenges of difficult - to - measure effectiveness and difficult - to - improve ROI are significant. The strategy takes data - driven as the core to solve the main challenges.",
+        "B": "In chart_3_1, the recognition of the importance of building a platform is relatively low, and in chart_3_2, the proportion of the media fragmentation challenge is high. The strategy recommends progressive investment based on the challenge data to avoid blind investment.",
+        "C": "This option over - emphasizes the data in chart_3_1 and chart_3_2: The proportion of'strongly agree' for the importance of platform building is 53% (the lowest among the four views), and the media fragmentation challenge is 50%. However, the distractor claims that the'recognition is high' and suggests 'immediate full implementation'. In fact, the proportion of platform challenges is not directly given, and 50% fragmentation is not the highest challenge (62% ROI is higher). It superficially uses the chart but exaggerates the numerical values and urgency, and the logic is confused.",
+        "D": "In chart_3_1, the recognition of brand importance is the highest, and in chart_3_2, the proportion of the difficult - to - improve ROI challenge is high. The strategy ensures that brand investment is not cut (in line with values) but enhances measurability.",
+        "E": "This option misinterprets the relationship between chart_3_1 and chart_3_2: The brand importance of 78% is very high, but the distractor suggests'reducing investment in data tools'. However, the 54% effectiveness measurement challenge and 62% difficult - to - improve ROI require data tools. The actual data supports balance (such as the view of equal importance of operations and data), but the distractor over - emphasizes the brand and ignores short - term challenges, resulting in an unbalanced strategy.",
+        "F": "This option does not rely on the chart but is based on general management common sense (such as 'training to improve skills'). However, it does not target the specific obstacles in the chart (such as the 62% difficulty in improving ROI or the 54% difficulty in measuring effectiveness) or the recognition attitude (such as the equal importance of data and operations). The statement is vague and lacks data basis, and it is easy to be excluded by common sense."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     }
   ]

@@ -83,6 +83,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Interferencia difícil: Asocia forzosamente la alta identificación con la opinión de los datos de operaciones y datos en chart_3_1 (68%) con el desafío de medición y verificación de efectividad en chart_3_2 (54%), ignorando la diferencia numérica (68% > 54%) y sin soporte lógico.",
+        "B": "Combina la baja identificación con la opinión de construcción de plataforma de marketing en chart_3_1 y el desafío de fragmentación de medios en chart_3_2 para explicar el problema de integración de recursos. Ninguna de las dos gráficas por separado puede completar el razonamiento: chart_3_1 solo muestra opiniones, no involucra desafíos; chart_3_2 solo muestra desafíos, no involucra identificación con opiniones.",
+        "C": "Interferencia fácil: Las gráficas muestran claramente que la identificación con la importancia del marketing digital supera el 95% (64% fuertemente de acuerdo + 33% de acuerdo). Esta opción viola los hechos básicos de los datos y es un error de conocimiento común.",
+        "D": "Combina la alta identificación con la opinión de la importancia de la marca en chart_3_1 (descrita como “se cree普遍 que la marca es crucial”) y la alta proporción del desafío de ROI en chart_3_2 (descrita como “el desafío es destacado”), y deduce la difícil cuantificación del valor de la marca, una conexión implícita. Ninguna de las dos gráficas por separado puede completar el razonamiento: chart_3_1 solo muestra opiniones, no involucra desafíos; chart_3_2 solo muestra desafíos, no involucra identificación con opiniones.",
+        "E": "Interferencia difícil: Interpreta erróneamente los datos de fragmentación de medios de chart_3_2 (realmente 50%), inventa un valor bajo de “30%” y ignora la evidencia contraria de la identificación general del 93% (53% + 40%) con la construcción de la plataforma de marketing.",
+        "F": "Combina la fuerte identificación con la opinión de operaciones y datos en chart_3_1 y el desafío de medición de efectividad en chart_3_2, y razona la barrera en la aplicación de datos. Ninguna de las dos gráficas por separado puede completar el razonamiento: chart_3_1 solo muestra opiniones, no involucra desafíos; chart_3_2 solo muestra desafíos, no involucra identificación con opiniones."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -104,6 +119,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Interferencia fácil: Las gráficas no mencionan los medios tradicionales, y la identificación con el marketing digital supera el 95%. Esta opción depende de suposiciones externas y viola el consenso de los datos.",
+        "B": "Interferencia difícil: Compara erróneamente la diferencia numérica (16%) entre la identificación con la marca en chart_3_1 (78%) y el desafío de ROI en chart_3_2 (62%), inventa una relación de “cercanía” e invierte la causalidad.",
+        "C": "Combina la alta identificación con la opinión de la importancia de la marca en chart_3_1 (la proporción más alta de fuertemente de acuerdo) y la alta proporción del desafío de ROI en chart_3_2, y razona la brecha causada por la complejidad del entorno. Solo chart_3_1 no puede explicar la razón del desafío, y solo chart_3_2 no puede explicar el contexto de la identificación.",
+        "D": "Combina la fuerte identificación con la opinión de operaciones y datos en chart_3_1 y el desafío de medición de efectividad en chart_3_2, y deduce la brecha en la ejecución. Solo chart_3_1 no puede explicar la razón del desafío, y solo chart_3_2 no puede explicar el contexto de la identificación.",
+        "E": "Interferencia difícil: Asocia erróneamente la opinión de operaciones y datos en chart_3_1 (97% de identificación) con la fragmentación de medios en chart_3_2 (50%), ignorando que la fragmentación es un entorno objetivo, no un resultado.",
+        "F": "Combina la baja identificación con la opinión de la plataforma de marketing en chart_3_1 (la proporción más baja de fuertemente de acuerdo) y el desafío de fragmentación de medios en chart_3_2 para explicar la mala asignación de prioridades. Solo chart_3_1 no puede explicar la razón del desafío, y solo chart_3_2 no puede explicar el contexto de la identificación."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -125,6 +155,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Interferencia fácil: Las gráficas no involucran datos de costos. Esta opción introduce variables externas y no está relacionada con el contenido de las gráficas.",
+        "B": "Interferencia difícil: Invierte una relación de exclusión entre la identificación con la marca en chart_3_1 (78%) y la fragmentación de medios en chart_3_2 (50%). En realidad, ambas pueden coexistir, y los datos de fragmentación demuestran la existencia objetiva del desafío.",
+        "C": "Combina la alta proporción del desafío de fragmentación de medios en chart_3_2 y la baja identificación con la opinión de la plataforma de marketing en chart_3_1, y deduce la brecha entre la percepción del entorno y el plan. chart_3_1 proporciona datos de opiniones, y chart_3_2 proporciona el contexto de los desafíos. Ninguna de las dos gráficas por separado puede derivar los factores de evaluación.",
+        "D": "Compara erróneamente el desafío en chart_3_2 (54%) con los datos individuales de “fuertemente de acuerdo” en la construcción de plataforma de marketing en chart_3_1 (53%), ignorando que la identificación general de la plataforma supera el 93% (53% + 40%), que es mucho más alta que la proporción del desafío.",
+        "E": "Combina el desafío de ROI en chart_3_2 y la alta identificación con la opinión de la importancia de la marca en chart_3_1 para explicar el conflicto de asignación de recursos. chart_3_1 proporciona datos de opiniones, y chart_3_2 proporciona el contexto de los desafíos. Ninguna de las dos gráficas por separado puede derivar los factores de evaluación.",
+        "F": "Combina el desafío de medición de efectividad en chart_3_2 y la alta identificación con la opinión de operaciones y datos en chart_3_1, y razona la influencia de la deficiencia de herramientas de datos. chart_3_1 proporciona datos de opiniones, y chart_3_2 proporciona el contexto de los desafíos. Ninguna de las dos gráficas por separado puede derivar los factores de evaluación."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -146,6 +191,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente los datos de chart_3_1: en la opinión de la importancia de la marca, el porcentaje de 'Fuertemente de acuerdo' es del 78% (el más alto), pero la opción distractor erróneamente considera que el 19% de 'De acuerdo' significa un bajo reconocimiento general y sugiere reducir la inversión, mientras que los datos reales respaldan el alto valor de la construcción de la marca. Esto crea confusión al utilizar superficialmente la gráfica pero confundir los valores numéricos.",
+        "B": "En chart_3_1, el reconocimiento de la importancia de construir una plataforma es relativamente bajo (pero todavía hay un reconocimiento básico), y en chart_3_2, el desafío de la fragmentación de los medios es alto; la estrategia recomienda invertir en la integración basada en los datos de los desafíos.",
+        "C": "En chart_3_1, el reconocimiento de la importancia de la marca es el más alto (descripción de la tendencia), y en chart_3_2, la dificultad para mejorar el ROI es el desafío principal; la estrategia sugiere invertir en la marca para contrarrestar el problema del ROI, lo que es coherente con los valores (no reducir la inversión en el núcleo debido a los desafíos).",
+        "D": "Esta opción no se basa en los datos de las gráficas, sino solo en el conocimiento general de marketing (como 'presupuesto equilibrado'), pero no proporciona una guía de acción para los desafíos específicos revelados en las gráficas (como la dificultad para mejorar el ROI del 62% o la dificultad para medir la efectividad del 54%), y es fácil de descartar por el conocimiento general, ya que carece de pertinencia para el reconocimiento de la digitalización o los desafíos de los medios.",
+        "E": "En chart_3_1, el reconocimiento de la igual importancia de las operaciones y los datos es alto, y en chart_3_2, el desafío de la dificultad para medir la efectividad es notable; la estrategia utiliza las herramientas de datos como un palanca para resolver el problema de la medición.",
+        "F": "Esta opción compara erróneamente los datos de los desafíos de chart_3_2: el desafío de la fragmentación de los medios tiene una proporción del 50%, pero la dificultad para mejorar el ROI (62%) y la dificultad para medir la efectividad (54%) son más altos, pero la opción distractor enfatiza la fragmentación como el 'desafío más alto' e ignora los demás, lo que conduce a un desvío en la dirección de la estrategia. Utiliza la lógica superficial de la gráfica pero distorsiona la relación de prioridades."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -167,6 +227,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "En chart_3_1, el reconocimiento de la importancia de construir una plataforma es relativamente bajo, y en chart_3_2, el desafío de la fragmentación de los medios tiene una proporción alta; la estrategia recomienda la integración de recursos basada en los datos de los desafíos, evitando ignorar la inversión debido al bajo reconocimiento (coherente con los valores).",
+        "B": "En chart_3_1, el reconocimiento de la importancia de la marca es el más alto, y en chart_3_2, los desafíos de ROI y medición de la efectividad son significativos; la estrategia combina la marca y los datos para mejorar la medibilidad.",
+        "C": "Esta opción asocia erróneamente chart_3_1 y chart_3_2: el reconocimiento de la importancia de la construcción de la plataforma es del 53% de 'Fuertemente de acuerdo' (relativamente bajo), pero la opción distractor sugiere 'posponer' y priorizar el desafío de ROI (62%), mientras que el desafío de la fragmentación de los medios del 50% está relacionado con la construcción de la plataforma. Los datos reales indican que la integración de la plataforma puede aliviar la fragmentación. Utiliza los valores numéricos pero ignora la relación de sinergia entre los desafíos, y la dirección de la estrategia es obviamente errónea.",
+        "D": "Esta opción interpreta erróneamente los datos de chart_3_1: en la opinión de 'las operaciones y los datos son igualmente importantes', el porcentaje de 'Fuertemente de acuerdo' es del 68%, pero la opción distractor cree erróneamente que el reconocimiento de los datos es 'más alto' e ignora las operaciones (la opinión real enfatiza la igualdad), y asume que el desafío de las operaciones es bajo (mientras que el desafío de la medición de la efectividad del 54% es alto). Esto utiliza superficialmente la gráfica pero confunde el significado de 'igualmente importante' y crea un desvío lógico.",
+        "E": "Esta opción no se basa en las gráficas, sino en el conocimiento general de la industria (como 'los medios sociales son eficientes'), pero no se combina con los desafíos específicos en las gráficas (como la dificultad para medir la efectividad del 54%) o el nivel de importancia de los elementos digitales (como la igual importancia de las operaciones y los datos del 68%), y la expresión es amplia y sin soporte de datos, lo que es fácil de descartar por el conocimiento general.",
+        "F": "En chart_3_1, el reconocimiento de la igual importancia de las operaciones y los datos es alto (tendencia), y en chart_3_2, los desafíos de la dificultad para medir la efectividad y la dificultad para mejorar el ROI son altos; la estrategia toma las operaciones de datos como la solución central."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -188,6 +263,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "En chart_3_1, el reconocimiento de la igual importancia de las operaciones y los datos es alto, y en chart_3_2, los desafíos de la dificultad para medir la efectividad y la dificultad para mejorar el ROI son significativos; la estrategia toma la conducción por datos como la solución central para resolver los desafíos principales.",
+        "B": "En chart_3_1, el reconocimiento de la importancia de construir una plataforma es relativamente bajo, y en chart_3_2, el desafío de la fragmentación de los medios tiene una proporción alta; la estrategia recomienda una inversión progresiva basada en los datos de los desafíos, evitando una inversión ciega.",
+        "C": "Esta opción enfatiza erróneamente los datos de chart_3_1 y chart_3_2: el reconocimiento de la importancia de la construcción de la plataforma es del 53% de 'Fuertemente de acuerdo' (el más bajo entre las cuatro opiniones), y el desafío de la fragmentación de los medios es del 50%, pero la opción distractor dice que el 'reconocimiento es alto' y sugiere 'implementar de inmediato y en su totalidad', mientras que la proporción del desafío de la plataforma no se da directamente, y la fragmentación del 50% no es el desafío más alto (el ROI del 62% es más alto). Utiliza superficialmente la gráfica pero exagera los valores y la urgencia, y confunde la lógica.",
+        "D": "En chart_3_1, el reconocimiento de la importancia de la marca es el más alto, y en chart_3_2, la dificultad para mejorar el ROI tiene una proporción alta; la estrategia asegura que la inversión en la marca no se reduzca (coherente con los valores), sino que se mejore la medibilidad.",
+        "E": "Esta opción interpreta erróneamente la relación entre chart_3_1 y chart_3_2: la importancia de la marca es del 78% muy alta, pero la opción distractor sugiere 'reducir la inversión en las herramientas de datos', mientras que el desafío de la medición de la efectividad del 54% y la dificultad para mejorar el ROI del 62% requieren herramientas de datos; los datos reales respaldan el equilibrio (como la opinión de la igual importancia de las operaciones y los datos), pero la opción distractor se inclina demasiado hacia la marca e ignora los desafíos a corto plazo, lo que causa un desequilibrio en la estrategia.",
+        "F": "Esta opción no se basa en las gráficas, sino en el conocimiento general de gestión (como 'mejorar las habilidades a través de la capacitación'), pero no se dirige a los obstáculos específicos en las gráficas (como la dificultad para mejorar el ROI del 62% o la dificultad para medir la efectividad del 54%) o el nivel de reconocimiento (como la igual importancia de los datos y las operaciones), y la expresión es vacía y sin base de datos, lo que es fácil de descartar por el conocimiento general."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     }
   ]

@@ -86,6 +86,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es una interferencia difícil que interpreta incorrectamente el orden del gráfico: chart_114_1 muestra que la proporción de exámenes una vez al año es 35.48%, pero en chart_114_2 la proporción de atención a Helicobacter pylori es 35.57% no es la más alta (la más alta es análisis bioquímicos 61.89%), mientras que la opción equipara incorrectamente 'proporción más alta' con 'más atención', ignorando la brecha real de orden.",
+        "B": "Esta opción es una interferencia difícil que asocia incorrectamente valores: en chart_114_1 la proporción total del grupo con menos exámenes es 21.01%, pero en chart_114_2 la proporción de atención a exámenes funcionales es 46.28% no es la más alta (análisis bioquímicos 61.89% es más alta), y la opción atribuye incorrectamente la proporción más alta al grupo con menos exámenes, mientras que los datos reales no muestran esta asociación (los gráficos no están agrupados).",
+        "C": "En el gráfico de frecuencia de exámenes, la proporción de exámenes regulares es mayoritaria, mientras que en el gráfico de indicadores de salud más preocupantes, la proporción de atención a indicadores básicos es la más alta. Combinando ambos se puede inferir que el comportamiento de alta frecuencia de exámenes impulsa una mayor atención a indicadores básicos, formando una regularidad de salud preventiva. El razonamiento requiere integrar la estructura general de ambos gráficos (proporciones dominantes).",
+        "D": "Esta opción es una interferencia fácil basada en error de sentido común: el conocimiento general de gestión de salud sugiere que quienes se examinan regularmente prestan más atención a indicadores básicos preventivos, mientras que quienes se examinan menos se centran más en indicadores específicos diagnósticos, pero esta opción invierte la lógica del sentido común y no se basa en datos de gráficos (por ejemplo, no cita ninguna proporción específica).",
+        "E": "El gráfico de frecuencia de exámenes muestra que la proporción de exámenes regulares (una vez al año y cada dos años) es mucho mayor que la de menos exámenes (no se hace chequeo sin enfermedad o nunca ha realizado examen), mientras que en el gráfico de indicadores de salud más preocupantes, la proporción de atención a indicadores básicos (como exámenes clínicos y análisis bioquímicos) es alta, y la de indicadores específicos (como HPV) es baja. Esto implica que quienes se examinan regularmente prefieren exámenes preventivos, mientras que quienes se examinan menos pueden centrarse en indicadores de enfermedades específicas solo cuando aparecen síntomas. El razonamiento depende de ambos gráficos: la distribución de frecuencia afecta las preferencias de indicadores.",
+        "F": "En el gráfico de indicadores de salud más preocupantes, la proporción de atención a exámenes funcionales es media, menor que los indicadores básicos pero mayor que los específicos; combinado con la alta proporción de exámenes regulares en el gráfico de frecuencia, se puede inferir que quienes se examinan regularmente se enfocan más en la prevención rutinaria (indicadores básicos), mientras que quienes se examinan menos (proporción baja) pueden prestar más atención a exámenes funcionales debido a necesidades ocasionales. Esto requiere comparar las tendencias de datos de ambos gráficos (proporciones altas y bajas)."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -107,6 +122,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "En el gráfico de razones para exámenes, la proporción de revisión médica regular personal es la más alta, mientras que en el gráfico de formas de conocer instituciones, las proporciones de introducción de familiares y amigos e información en el sitio web son altas; además, la proporción de revisión obligatoria también es alta, pero la forma organización de la empresa tiene la proporción más alta. Esto implica que la motivación activa (revisión regular personal) prefiere canales sociales o en línea, mientras que la motivación pasiva (revisión obligatoria) prefiere canales organizativos. El razonamiento depende de ambos gráficos: la correspondencia entre proporciones de razones y proporciones de formas.",
+        "B": "Esta opción es una interferencia fácil basada en error de sentido común: el conocimiento general sugiere que grupos con diferentes motivaciones prefieren diferentes formas (como los activos usan recursos en línea), pero esta opción generaliza que todos los consumidores dependen de la organización de la empresa, ignorando que en el gráfico la proporción de organización de la empresa es solo 37.93% (no mayoría absoluta) y no se basa en datos.",
+        "C": "En el gráfico de formas de conocer instituciones, la proporción de organización de la empresa es la más alta, mientras que en el gráfico de razones para exámenes, la proporción de revisión obligatoria es alta; combinando se puede inferir que las formas organizativas (como empresa) apoyan directamente razones de requisitos externos, formando una conexión implícita. El razonamiento requiere integrar las proporciones dominantes y la estructura de ambos gráficos.",
+        "D": "Esta opción es una interferencia difícil que asocia incorrectamente valores: en chart_114_3 la proporción de revisión médica regular personal es 50.82%, pero en chart_114_4 la forma periódicos y revistas tiene una proporción de 27.22% (la más baja), la opción atribuye incorrectamente formas de baja proporción a grupos de alta proporción, mientras que los datos reales no apoyan esta conexión (por ejemplo, introducción de familiares y amigos 36.12% es más probable relacionada).",
+        "E": "Esta opción es una interferencia difícil que interpreta incorrectamente el orden del gráfico: en chart_114_3 la proporción de revisión obligatoria es 44.83%, pero en chart_114_4 la forma charlas de salud tiene una proporción de 31.94% no es la más alta (organización de la empresa 37.93% es más alta), la opción equipara incorrectamente 'proporción alta' con 'más preferida', ignorando la brecha numérica.",
+        "F": "En el gráfico de razones para exámenes, la proporción de de repente se desea conocer el estado de salud propio es alta, mientras que en el gráfico de formas de conocer instituciones, las proporciones de medios propios y charlas de salud son moderadas; la proporción de se necesita realizar una revisión debido a una enfermedad es baja, pero las formas publicidad fuera de línea y periódicos y revistas son medias. Combinando se puede inferir que la motivación repentina es más influenciada por nuevos medios, mientras que la necesidad urgente tiende a la publicidad tradicional. Esto requiere análisis transversal de tendencias (distribución de proporciones)."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -128,6 +158,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta opción es una interferencia difícil que interpreta incorrectamente valores del gráfico: en chart_114_3 la proporción de revisión médica regular personal es 50.82%, pero en chart_114_5 la proporción de 5 puntos para tiempo de espera es solo 26.50% (realmente baja), la opción equipara incorrectamente alta proporción de motivación con alta satisfacción, ignorando que la puntuación de satisfacción misma es baja (equipamiento 41.74% es más alta).",
+        "B": "En el gráfico de satisfacción, la puntuación de equipamiento es la más alta (alta proporción de satisfacción), mientras que en el gráfico de razones para exámenes, la proporción de revisión médica regular personal es alta; combinando se puede inferir que la satisfacción con equipamiento puede reforzar el comportamiento activo de salud. Pero la proporción de revisión obligatoria también es alta, y su enfoque de satisfacción es diferente (como tiempo de espera), esto requiere unir las proporciones dominantes y diferencias de puntuación de ambos gráficos.",
+        "C": "En el gráfico de razones para exámenes, la proporción de se necesita realizar una revisión debido a una enfermedad es media, mientras que en el gráfico de satisfacción, la puntuación de tiempo para obtener el informe es baja (alta proporción de baja satisfacción); combinando se puede inferir que el grupo con necesidad urgente puede enfrentar demoras en el servicio, formando un conflicto potencial (alta necesidad pero baja satisfacción). Esto requiere análisis transversal de tendencias numéricas (distribución de proporciones y puntuaciones).",
+        "D": "En el gráfico de razones para exámenes, la proporción de revisión médica regular personal es la más alta, mientras que en el gráfico de satisfacción, la puntuación de profesionalismo del informe es alta (alta proporción de satisfacción); además, la proporción de revisión obligatoria es alta, pero la puntuación de tiempo de espera es baja. Esto implica que el grupo con motivación activa está más satisfecho con la calidad del informe (apoya la necesidad preventiva), mientras que el grupo con motivación pasiva se preocupa más por aspectos de eficiencia. El razonamiento depende de la comparación de proporciones de razones y tendencias de satisfacción de ambos gráficos.",
+        "E": "Esta opción es una interferencia fácil basada en error de sentido común: el conocimiento general sugiere que quienes tienen necesidades urgentes se preocupan más por velocidad y eficiencia, pero esta opción asume incorrectamente que la satisfacción con conveniencia de la cita es 'la más alta', mientras que en chart_114_5 la satisfacción con equipamiento (5 puntos 41.74%) es más alta, y no se basa en datos para inferir directamente.",
+        "F": "Esta opción es una interferencia difícil que compara incorrectamente brechas de gráficos: en chart_114_5 la proporción de 5 puntos para profesionalismo del informe es 32.85%, pero revisión obligatoria en chart_114_3 tiene proporción 44.83%, la opción atribuye incorrectamente 'proporción alta' a este grupo, mientras que la satisfacción con equipamiento 41.74% es más alta, y los datos no muestran asociación entre motivación y satisfacción específica."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -152,6 +197,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 1 combina los datos del gráfico chart_114_4 (la proporción de la organización de la empresa es alta) y del gráfico chart_114_3 (la proporción de la razón de la revisión obligatoria es alta). La inferencia muestra que el canal de la empresa es un punto de contacto eficaz, y los factores externos obligatorios pueden impulsar la participación.",
+        "B": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos del gráfico chart_114_1 (la proporción de las personas que no se hacen chequeos sin enfermedad es del 11.49%), pero se enfoca erróneamente en un grupo de baja proporción (solo el 11.49%), ignorando a los grupos de alta frecuencia, como las personas que se hacen chequeos una vez al año (35.48%) o una vez cada dos años (39.41%). Esto causaría un desperdicio de recursos, y es difícil convencer a este grupo, ya que ellos mismos se niegan a hacerse chequeos, por lo que no se puede mejorar eficientemente la tasa de participación general.",
+        "C": "La opción 2 combina los datos del gráfico chart_114_4 (la proporción de la introducción de familiares y amigos es alta) y del gráfico chart_114_3 (la razón de la revisión médica regular personal tiene la proporción más alta). La inferencia muestra que la combinación de la difusión por boca de boca y la motivación de la gestión personal de la salud puede mejorar la participación voluntaria.",
+        "D": "Esta es una opción de distracción fácil, ya que se basa en una estrategia de incentivo de precios de sentido común, pero no se combina con los datos de los gráficos (por ejemplo, el gráfico chart_114_3 muestra que la razón de “de repente, se desea conocer el estado de salud propio” tiene una proporción del 44.46%, pero no se menciona el factor de precio), y es fácil causar un comportamiento a corto plazo en lugar de mejorar la tasa de participación a largo plazo.",
+        "E": "Esta es una opción de distracción fácil, ya que se basa en el conocimiento general de marketing (la publicidad aumenta la exposición), pero no se basa específicamente en el contenido de los gráficos (por ejemplo, el gráfico chart_114_4 muestra que la proporción de la publicidad fuera de línea es solo del 32.49%, inferior a otros canales), y la estrategia es amplia y sin enfoque, por lo que no se puede mejorar directamente la tasa de participación.",
+        "F": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos del gráfico chart_114_5 (la proporción de la satisfacción con la profesionalidad del informe es del 32.85%), pero se confunde la estrategia de promoción con la optimización del servicio. La profesionalidad del informe es muy importante (en el gráfico chart_114_2, la atención a los indicadores relacionados, como los análisis bioquímicos, es del 61.89%), pero la estrategia de promoción debe enfocarse en la tasa de participación (por ejemplo, las formas de enterarse o las razones de la participación), no en la satisfacción. Optimizar el informe puede mejorar la tasa de retención, pero no puede atraer directamente a nuevos participantes, y no está relacionado con las formas de promoción del gráfico chart_114_4.",
+        "G": "La opción 3 combina los datos del gráfico chart_114_4 (la proporción de la información en el sitio web es notable) y del gráfico chart_114_5 (se presta mucha atención a la puntuación alta de la profesionalidad y la integridad del informe de examen físico). La inferencia indica que el canal en línea tiene un gran potencial, y el contenido educativo puede fortalecer la confianza de los consumidores en los servicios profesionales y promover la acción."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -174,6 +236,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil, ya que se basa en el conocimiento general de la industria de servicios (la actitud afecta la satisfacción), pero no se basa específicamente en los datos de los gráficos (por ejemplo, en el gráfico chart_114_5, la satisfacción con la velocidad de respuesta a los problemas es baja, pero no se menciona directamente la actitud), y la estrategia es amplia y sin prioridad, por lo que no se puede optimizar los recursos de manera específica.",
+        "B": "La opción 3 combina los datos del gráfico chart_114_5 (la proporción de las puntuaciones bajas de la velocidad de respuesta a los problemas es destacada) y del gráfico chart_114_5 (la proporción de las puntuaciones altas del equipamiento del centro de exámenes físicos es alta). La inferencia muestra que el hardware es excelente, pero la respuesta del servicio es insuficiente, y la inversión en capacitación puede equilibrar la experiencia general.",
+        "C": "La opción 1 combina los datos del gráfico chart_114_2 (la atención a los análisis bioquímicos y de laboratorio es la más alta) y del gráfico chart_114_5 (la proporción de las puntuaciones bajas del tiempo para obtener el informe de examen físico es alta). La inferencia muestra que existe un cuello de botella en la eficiencia en el campo de alta demanda, y la mejora puede mejorar directamente la satisfacción.",
+        "D": "Esta es una opción de distracción fácil, ya que se sugiere aumentar la diversidad de servicios, pero no se combina con el contenido de los gráficos (por ejemplo, el gráfico chart_114_2 muestra que los consumidores se centran en indicadores específicos, como los análisis bioquímicos con una proporción del 61.89%, en lugar de nuevos servicios), y puede dispersar los recursos en lugar de mejorar prioritaria mente las deficiencias existentes.",
+        "E": "La opción 2 combina los datos del gráfico chart_114_2 (la atención a los exámenes funcionales y clínicos es alta) y del gráfico chart_114_5 (la proporción de las puntuaciones bajas del tiempo de espera para el examen físico es alta). La inferencia indica que el tiempo de espera no coincide con los indicadores de alta atención, y la inclinación de los recursos puede resolver el problema.",
+        "F": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos del gráfico chart_114_2 (la atención a los exámenes clínicos es del 44.83%), pero se interpreta erróneamente la atención como “baja” (en realidad, es de nivel medio, inferior a la atención a los exámenes funcionales del 46.28% y a los análisis bioquímicos del 61.89%), y no se combina con los datos de satisfacción (en el gráfico chart_114_5, la satisfacción con el tiempo de espera correspondiente es baja). Optimizar los proyectos de baja atención no puede mejorar eficientemente la satisfacción general, y los recursos deben invertirse en los indicadores de alta atención y baja satisfacción.",
+        "G": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos del gráfico chart_114_5 (la proporción de las puntuaciones de 5 puntos de satisfacción con el equipamiento es la más alta, del 41.74%), pero se asume erróneamente que se debe invertir priorariamente en el campo de alta satisfacción. En realidad, el gráfico muestra que la satisfacción con el equipamiento es ya alta (por ejemplo, la proporción de las puntuaciones de 1 punto es solo del 0.54%), y los recursos deben invertirse priorariamente en los campos de baja satisfacción, como el tiempo de espera (la proporción de las puntuaciones de 5 puntos es del 26.50%) o la respuesta a los problemas (la proporción de las puntuaciones de 5 puntos es del 28.31%). La actualización del equipamiento no puede resolver de manera específica las deficiencias de satisfacción."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -198,6 +277,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos del gráfico chart_114_4 (la proporción de la forma de enterarse a través de periódicos y revistas es la más baja, del 27.22%), pero se interpreta erróneamente la baja proporción como una “oportunidad”. En realidad, el gráfico muestra que esta forma es poco efectiva (tiene la proporción más baja), y los consumidores dependen más de la organización de la empresa (37.93%) o de la introducción de familiares y amigos (36.12%). Fortalecer una forma ineficaz no puede promover eficazmente el desarrollo de hábitos, y los recursos deben invertirse en canales de mayor influencia, como la cooperación con empresas.",
+        "B": "Esta es una opción de distracción difícil. Aparentemente, se utilizan los datos del gráfico chart_114_1 (la proporción de las personas que se hacen chequeos una vez cada dos años es la más alta, del 39.41%), pero se asume erróneamente que este grupo es el objetivo principal para cambiar el hábito. En realidad, los grupos de alta frecuencia, como las personas que se hacen chequeos una vez al año (35.48%), son más propensos a mantener el hábito, y la alta proporción de las personas que se hacen chequeos una vez cada dos años puede indicar que el hábito existente es estable. Las actividades de promoción no pueden aumentar eficazmente la frecuencia, y se ignoran los datos de las razones (en el gráfico chart_114_3, las razones de la revisión obligatoria o la revisión médica regular personal son más relevantes).",
+        "C": "La opción 1 combina los datos del gráfico chart_114_3 (la razón de la revisión médica regular personal tiene la proporción más alta) y del gráfico chart_114_2 (la atención a los indicadores como los marcadores tumorales es notable). La inferencia muestra que los servicios personalizados pueden aprovechar la motivación interna y los puntos de alta atención para promover el desarrollo de hábitos.",
+        "D": "La opción 3 combina los datos del gráfico chart_114_4 (las proporciones de las formas de enterarse a través de charlas de salud y medios propios son razonables) y del gráfico chart_114_3 (la razón de “de repente, se desea conocer el estado de salud propio” tiene una proporción alta). La inferencia indica que los canales educativos pueden llegar a las personas impulsadas por la conciencia, y la optimización del contenido puede aumentar la frecuencia de participación.",
+        "E": "Esta es una opción de distracción fácil, ya que se basa en el conocimiento de la economía del comportamiento (los incentivos de recompensa motivan el comportamiento repetitivo), pero no se combina con el contenido de los gráficos (por ejemplo, en el gráfico chart_114_4, no se menciona el sistema de puntos en las formas de enterarse), y puede solo estimular el comportamiento a corto plazo, en lugar de basarse en las razones fundamentales, como la cooperación con empresas o la revisión médica regular personal (gráfico chart_114_3).",
+        "F": "Esta es una opción de distracción fácil, ya que se basa en el conocimiento general de la gestión de la salud (el estilo de vida afecta la salud), pero no se basa específicamente en los datos de los gráficos (por ejemplo, el gráfico chart_114_3 muestra que las razones de participación están relacionadas con la conciencia de la salud, pero no se menciona la dieta y el ejercicio), y la estrategia es indirecta y amplia, por lo que no puede promover directamente el desarrollo del hábito de hacer chequeos médicos.",
+        "G": "La opción 2 combina los datos del gráfico chart_114_4 (la proporción de la organización de la empresa es alta) y del gráfico chart_114_3 (la proporción de la razón de la revisión obligatoria es alta). La inferencia muestra que el entorno laboral es una palanca eficaz, y la asignación de recursos a este campo puede convertir el chequeo obligatorio en un hábito regular."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     }
   ]

@@ -86,6 +86,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项，基于常识：季节影响运动参与是普遍现象，但图表未提供季节数据，且问题焦点是偏好与实际参与差异的原因（如经济门槛），而非外部环境。",
+        "B": "这是一个Easy干扰项，基于常识：社交媒体推广常被用于提升参与率，但图表未涉及广告或营销因素，无法从数据中推导此结论。",
+        "C": "需要联合chart_164_1（Ecuestre尝试数值低）和chart_164_2（Ecuestre偏好数值高）来推理冲突；数值对比（6 vs 181）显示偏好可能基于渴望而非实际可行性，仅单张图表无法解释差异。",
+        "D": "需要联合chart_164_1（Golf尝试数值低）和chart_164_2（Golf偏好数值高）来推理；尝试率17 vs 偏好123表明经济或可及性障碍，依赖双图比较。",
+        "E": "这是一个Hard干扰项，错误解读差距：chart_164_2 Glamping高偏好为120，chart_164_1尝试率为38，差距达82，较大；选项却称“差距较小”，并错误推断“参与度高”，忽略了实际数据中的显著差异。",
+        "F": "这是一个Hard干扰项，错误理解图表数值：chart_164_2显示Deportes acuáticos高偏好数值为111，但chart_164_1显示尝试率仅为35（差距76），并非“高度一致”；选项误读数据，夸大了相似性。",
+        "G": "需要联合chart_164_1（Glamping尝试数值38）和chart_164_2（Glamping偏好数值120）来推理；数值差异指向外部因素如营销影响，单张图表无法揭示原因。"
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合chart_164_3（Tela suave 75%和Ajuste cómodo y cercano a la piel 72%高占比）和chart_164_4（Funcionalidad + moda + comodidad son igualmente importantes 48%最高比例）来推理规律；舒适度具体要求的普遍性直接关联到诉求分布，单张图表只能显示部分趋势。",
+        "B": "这是一个Easy干扰项，基于常识：价格影响决策是泛泛而谈，但图表未提供价格数据，且诉求分布中“Solo se requiere funcionalidad y rendimiento deportivo”仅15%，不占主导。",
+        "C": "这是一个Easy干扰项，基于常识：品牌和价格常被视为购买因素，但chart_164_4显示Solo se preocupan por la información del producto, como la categoría y la marca的比例仅5%，无法支持此结论；选项未链接到舒适度强化多合一。",
+        "D": "需要联合chart_164_3（Respirante, mantiene seco 69%和Ligero, fácil de transportar 66%较高比例）和chart_164_4（Funcionalidad + moda + comodidad son igualmente importantes 48%主导）来推理；高舒适度要求驱动多合一需求，依赖双图比较数值趋势。",
+        "E": "这是一个Hard干扰项，错误比较数值：chart_164_3显示Elástico, fácil de estirar要求57%与Abrigo 55%相近（差距仅2%），但选项误读为“更重视伸展性”，而实际数据中两者均支持多合一（功能+舒适整合），并非弱化。",
+        "F": "需要联合chart_164_3（Elástico, fácil de estirar 57%显著比例）和chart_164_4（Solo se requiere funcionalidad y rendimiento deportivo 15%低）来推理；舒适度的动态属性支持多合一整合，仅单张图表无法建立联系。",
+        "G": "这是一个Hard干扰项，错误解读比例：chart_164_4显示Solo se preocupan por la moda的比例为5%，数值很低；选项却称“较高”，并错误推断“时尚诉求主导”，而多合一需求48%才是主体，强化了舒适整合。"
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项，基于常识：耐用性常与高强度运动关联，但图表未提供耐用性数据，且诉求分布中“Solo se requiere funcionalidad y rendimiento deportivo”仅15%，而多合一需求48%强调整合，选项孤立了功能。",
+        "B": "需要联合chart_164_1（Montañismo/senderismo/camping尝试数值最高）和chart_164_3（Abrigo 55%和Ligero, fácil de transportar 66%较高比例）来推理；高尝试率运动强化具体舒适度要求，依赖双图比较数值趋势。",
+        "C": "需要联合chart_164_2（Ecuestre偏好数值高）和chart_164_4（Funcionalidad + moda + comodidad son igualmente importantes 48%主导）来推理隐含联系；高偏好运动的理想化场景驱动多合一诉求，仅单张图表无法推断因果关系。",
+        "D": "这是一个Easy干扰项，基于常识：流行运动可能影响时尚，但chart_164_1中Paseo por la ciudad尝试率29仅为中等，且诉求分布中Solo se preocupan por la moda仅5%，无法推导直接提升；选项未基于联合分析。",
+        "E": "需要联合chart_164_1（Deportes acuáticos尝试数值35）和chart_164_3（Respirante, mantiene seco 69%高比例）来推理；运动场景（如水上活动）隐含影响功能要求，单张图表无法揭示此联系。",
+        "F": "这是一个Hard干扰项，错误解读关联：chart_164_2 Ecuestre高偏好181，chart_164_1尝试率6低，chart_164_4 Solo se preocupan por la información del producto比例5%很低；选项却错误推断“导致更关注品牌”，而数据中品牌关注比例微不足道，且Ecuestre偏好可能驱动时尚+功能整合（如选项A），而非孤立品牌。",
+        "G": "这是一个Hard干扰项，错误建立直接链接：chart_164_1显示Montañismo/senderismo/camping尝试率57最高，chart_164_3 Abrigo要求55%较高，但选项过度简化，忽略其他因素（如多合一需求48%涉及多方面）；实际数据中，Abrigo并非唯一或主导要求，且运动偏好影响是间接的。"
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Este es un distractor difícil: Aparentemente se refiere a chart_164_2 (escenarios de alta preferencia) y chart_164_1 (tasa de intento), pero hay una confusión evidente: El intento de viajar en globos aerostáticos en chart_164_1 es solo del 1% (el más bajo), y chart_164_2 no lista los globos aerostáticos (las actividades de alta preferencia reales, como el equitación, tienen un valor de 181). Asume erróneamente que los globos aerostáticos tienen \"valores destacados\" y \"un gran vacío en el mercado\", ignorando que la baja tasa de intento puede indicar una baja demanda en lugar de una oportunidad.",
+        "B": "Basado en los altos valores de preferencia del equitación (181) y el golf (123) en chart_164_2, y combinado con el hecho de que la demanda de combinación de funcionalidad, moda y comodidad tiene la proporción más alta (48%) en chart_164_4, se demuestra que los deportes de alto nivel deben tener en cuenta tanto el rendimiento como el diseño.",
+        "C": "Este es un distractor fácil: No se basa en ningún dato de los gráficos, solo se basa en el conocimiento general de marketing (como \"aumentar el presupuesto publicitario para aumentar la exposición\"). La expresión es amplia y no tiene una guía de acción específica (no menciona la asignación de recursos para el desarrollo de productos) y no puede resolver los problemas de preferencia y demanda en los gráficos.",
+        "D": "Basado en los datos de intento de los deportes acuáticos (35) y el camping de lujo (38) en chart_164_1, y combinado con los requisitos de comodidad de ser ligero y fácil de transportar (66%) y abrigo (55%) en chart_164_3, se deduce una estrategia de diseño ligero.",
+        "E": "Este es un distractor difícil: Aparentemente utiliza chart_164_1 (los valores de pesca y deportes acuáticos son 35) y chart_164_3 (requisitos de comodidad), pero interpreta erróneamente que los \"requisitos de comodidad son bajos\" (chart_164_3 muestra que los consumidores tienen altos requisitos de comodidad, como la tela suave al 75%, y los deportes como la pesca necesitan alta comodidad). Además, los valores similares no significan que se deba priorizar, ignorando los datos de mayor tasa de intento, como el montañismo/senderismo/camping (57) y el ciclismo (54).",
+        "F": "Basado en que el montañismo/senderismo/camping tiene la tasa de intento y preferencia más alta (57) en chart_164_1, y combinado con el hecho de que la proporción de requisitos de comodidad de tela suave (75%) y respirante (69%) es alta en chart_164_3, se demuestra que los recursos deben inclinarse hacia las necesidades básicas de los deportes de alta frecuencia.",
+        "G": "Este es un distractor fácil: No se basa en los gráficos, solo se basa en el conocimiento general (\"asignar recursos de manera equitativa para satisfacer las necesidades diversificadas\"). Pero la estrategia no tiene prioridades, lo que entra en conflicto con los datos de los gráficos (por ejemplo, el montañismo tiene el valor más alto de 57), y carece de pertinencia, por lo que es fácil de descartar."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -179,6 +247,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Basado en los requisitos de comodidad de abrigo (55%) y ligero y fácil de transportar (66%) en chart_164_3, y combinado con los datos de alta preferencia del camping de lujo (120) en chart_164_2, se deduce que se necesita un desarrollo equilibrado de las características.",
+        "B": "Este es un distractor difícil: Aparentemente combina chart_164_3 (ligero y fácil de transportar al 66%) y chart_164_2 (deportes extremos 120), pero la asociación es errónea: La alta preferencia por los deportes extremos (120) no tiene una conexión directa con la característica de ser ligero en los gráficos (chart_164_3 no especifica la coincidencia de deportes). Además, la sugerencia de \"ignorar la necesidad de elasticidad\" entra en conflicto con los datos (la elasticidad tiene una proporción moderada del 57% y debe ser integrada).",
+        "C": "Este es un distractor fácil: Utiliza parcialmente los gráficos (la moda al 5% en chart_164_4), pero la estrategia general se basa en el conocimiento general (\"desarrollar elementos de moda para aumentar la plusvalía\"). Interpreta erróneamente que \"los consumidores tienen requisitos de comodidad bajos\" (chart_164_3 muestra que todas las proporciones de requisitos de comodidad son superiores al 55%, lo que indica altos requisitos), y ignora la demanda de combinación de 48%.",
+        "D": "Este es un distractor difícil: Aparentemente se refiere a chart_164_3 (abrigo 55%) y chart_164_4 (funcionalidad como prioridad 26%), pero amplifica erróneamente la importancia del abrigo (la proporción del abrigo del 55% es menor que la tela suave al 75% y la cercanía a la piel al 72%). Además, confunde la distribución de las demandas y ignora que la demanda de combinación de 48% es la más alta, se necesita un equilibrio en lugar de una inversión única en el abrigo.",
+        "E": "Basado en que la proporción de comodidad de tela suave (75%) y ajuste cómodo y cercano a la piel (72%) es la más alta en chart_164_3, y combinado con la tendencia de integración de la demanda de combinación de funcionalidad, moda y comodidad (48%) en chart_164_4, se deduce que la comodidad básica debe ser prioritaria.",
+        "F": "Basado en los datos de comodidad de respirante (69%) y elástico (57%) en chart_164_3, y combinado con los valores de alta preferencia del escalada (117) y los deportes acuáticos (111) en chart_164_2, se demuestra que los deportes de alta intensidad necesitan un diseño especializado.",
+        "G": "Este es un distractor fácil: No utiliza ningún dato de los gráficos, solo se basa en el conocimiento general comercial (\"mejorar la imagen de la marca y el diseño del empaque\"). La expresión es amplia (no se refiere a los requisitos de comodidad o lujo) y no está relacionada con la demanda central de los gráficos (por ejemplo, la demanda de combinación de funcionalidad, moda y comodidad al 48%)."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Este es un distractor fácil: Utiliza chart_164_1 (pesca 35, paseo por la ciudad 29) y chart_164_4 (demanda de combinación 48%), pero la estrategia se basa en el conocimiento general (\"destacar elementos de moda\"). Sugiere erróneamente \"ignorar la comodidad\" (chart_164_3 muestra que los requisitos de comodidad son altos, como la tela suave al 75%), y ignora las características de los deportes (por ejemplo, la pesca necesita alta funcionalidad).",
+        "B": "Este es un distractor fácil: No se basa en ningún gráfico, solo se basa en el conocimiento general del mercado (\"promociones a bajo precio para atraer a los consumidores\"). La expresión es amplia y no tiene una base específica de deportes o demandas, y no está relacionada con los datos de los gráficos (por ejemplo, la distribución de las demandas de lujo).",
+        "C": "Basado en que el montañismo/senderismo/camping (57) y el ciclismo (54) tienen la tasa de intento y preferencia más alta en chart_164_1, y combinado con la tendencia de integración de la demanda de combinación de funcionalidad, moda y comodidad (48%) en chart_164_4, se demuestra que los deportes populares necesitan una promoción universal.",
+        "D": "Este es un distractor difícil: Aparentemente combina chart_164_2 (alta preferencia por el equitación 181, golf 123) y chart_164_1 (tasa de intento del equitación 6, golf 17), pero la lógica es errónea: Una alta preferencia pero una baja tasa de intento no necesariamente significa que \"la demanda no está satisfecha\" o \"alta potencialidad\". En realidad, puede ser difícil aumentar la penetración debido a la exclusividad (como el equitación). Además, no se asocia con las demandas de lujo (como la demanda de combinación 48%).",
+        "E": "Basado en los datos de alta preferencia del camping de lujo (120) y los deportes acuáticos (111) en chart_164_2, y combinado con la demanda de integración de moda de la demanda de combinación (48%) en chart_164_4, se posiciona una estrategia de marketing de estilo de vida.",
+        "F": "Este es un distractor difícil: Aparentemente se refiere a chart_164_1 (montañismo 57, ciclismo 54) y chart_164_4 (solo preocúpate por la categoría y la marca 5%), pero interpreta erróneamente que \"los consumidores no valoran la funcionalidad\" (chart_164_4 muestra que la demanda de combinación de funcionalidad, moda y comodidad al 48% es la más alta, la importancia de la funcionalidad es alta). Además, la sugerencia de \"simplificar la promoción\" entra en conflicto con la demanda de combinación.",
+        "G": "Basado en los valores de alta preferencia de los deportes extremos (120) y el escalada (117) en chart_164_2, y combinado con los datos de baja tasa de intento de los deportes extremos (9) y el escalada (26) en chart_164_1, y la demanda con prioridad en la funcionalidad (26% + 15%) en chart_164_4, se deduce que se necesita un marketing educativo orientado al rendimiento."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     }
   ]

@@ -84,6 +84,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Se requiere un razonamiento conjunto de chart_122_1 (la proporción de fuentes de plataformas de compartición de contenido es del 38.8%) y chart_122_4 (la proporción de relojes siempre está por debajo del 10% y cambia poco). La alta proporción de compartición de contenido y la estabilidad de la baja proporción de relojes pueden indicar que el enfoque de la información está en la joyería en lugar de los relojes, pero se necesita un análisis conjunto.",
+        "B": "Esta es una opción de interferencia fácil: utiliza conocimiento común de la industria (influencia de la publicidad televisiva), pero en chart_122_1, la fuente de publicidad solo representa el 25.9%, no es la más alta (la presentación por familiares y amigos es la más alta con 43.8%), y no está relacionada con los cambios en las preferencias de joyería; la opción asume erróneamente que la publicidad televisiva domina, pero los datos no lo respaldan.",
+        "C": "Se requiere un razonamiento conjunto de chart_122_1 (la proporción de fuentes de plataformas de vídeos cortos es alta, del 43.5%) y chart_122_4 (la proporción de joyería y productos de oro aumentó del 64.5% al 80.1%). La popularidad de las plataformas de vídeos cortos podría impulsar las ventas de joyería de oro, pero solo con un gráfico no se puede establecer una relación causal; deben combinarse las tendencias de ambos.",
+        "D": "Esta es una opción de interferencia fácil: se basa en conocimiento común (las redes sociales mejoran la confianza en la marca), pero no depende en absoluto de los datos del gráfico. chart_122_1 no menciona WeChat, Weibo o publicidad televisiva, y chart_122_4 muestra cambios desequilibrados en las proporciones de categorías (aumento del oro, disminución de la joyería de incrustación/platino/joyería de oro K); esta opción es vaga y no se puede derivar directamente de los gráficos.",
+        "E": "Esta es una opción de interferencia difícil: superficialmente se basa en datos del gráfico, pero interpreta incorrectamente las asociaciones numéricas. chart_122_1 muestra que la proporción de plataformas de compartición de contenido es del 38.8%, chart_122_4 muestra que la proporción de joyería de incrustación/platino/joyería de oro K disminuyó del 29.1% en 2019 al 14.7% en 2023; la opción erróneamente considera que la compartición de contenido 'causa directamente' la disminución de la demanda, pero los gráficos no prueban causalidad (podría verse afectada por otros factores), y ignora que la alta proporción del 43.5% de plataformas de vídeos cortos no se refleja en la opción, constituyendo una mala interpretación numérica.",
+        "F": "Se requiere un razonamiento conjunto de chart_122_1 (la proporción de fuentes presentadas por familiares y amigos es la más alta, del 43.8%) y chart_122_4 (la proporción de joyería de incrustación/platino/joyería de oro K disminuyó del 29.1% al 14.7%). La alta proporción de canales tradicionales y la tendencia a la baja de la joyería de incrustación pueden implicar un cambio en las preferencias de los consumidores, pero se necesita una comparación entre gráficos."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "E"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Se requiere un razonamiento conjunto de chart_122_2 (la proporción combinada de presupuestos de 50,000 a 100,000 yuan y de 100,000 a 200,000 yuan supera el 60%) y chart_122_4 (la proporción de joyería y productos de oro aumentó al 80.1%). La dominancia de presupuestos asequibles y la tendencia de crecimiento de productos de oro son consistentes, pero se necesita analizar conjuntamente la demanda de bodas y la estructura de productos.",
+        "B": "Esta es una opción de interferencia fácil: depende de conocimiento económico común (el aumento del presupuesto mejora las ganancias), pero no combina los datos del gráfico. chart_122_2 muestra una distribución desigual del presupuesto (la proporción de 100,000 a 200,000 yuan es la más alta con 34.2%), chart_122_3 muestra fluctuaciones en el beneficio neto (por ejemplo, disminución en 2023); la opción generaliza sin considerar los detalles de los datos.",
+        "C": "Esta es una opción de interferencia difícil: interpreta incorrectamente los valores y el orden. En chart_122_2, la proporción de presupuesto por debajo de 50,000 yuan es la más baja con 8.8% (no la más alta), mientras que chart_122_3 muestra que el beneficio neto atribuible a la empresa matriz en 2023 fue de 47.14 mil millones de yuanes, inferior a los 54.44 mil millones de yuanes en 2022; la opción asocia erróneamente la 'proporción más baja de presupuesto' con la 'disminución de ganancias', pero los datos no prueban una relación dominante (los ingresos reales aumentaron), e ignora el impacto del grupo de alto presupuesto.",
+        "D": "Se requiere un razonamiento conjunto de chart_122_2 (la proporción combinada de presupuestos por encima de 300,000 yuan es inferior al 10%) y chart_122_3 (el beneficio neto atribuible a la empresa matriz disminuyó a 47.14 mil millones de yuanes en 2023). La baja proporción de alto presupuesto y la disminución de ganancias pueden indicar un conflicto donde la insuficiencia del mercado premium afecta las ganancias, pero se necesita comparar los datos entre gráficos.",
+        "E": "Se requiere un razonamiento conjunto de chart_122_2 (la proporción de presupuesto de 100,000 a 200,000 yuan es la más alta, con 34.2%) y chart_122_3 (los ingresos operativos totales aumentaron de 518.5 mil millones a 985.5 mil millones de yuanes). La alta proporción de presupuesto medio puede explicar el crecimiento de los ingresos, pero solo con un gráfico no se puede confirmar la asociación con bodas; deben combinarse la distribución del presupuesto y la tendencia de ingresos.",
+        "F": "Esta es una opción de interferencia difícil: malinterpreta las diferencias numéricas y las tendencias. En chart_122_4, la proporción de la categoría de relojes disminuyó del 6.4% en 2019 al 5.2% en 2023 (disminución, no aumento), y en chart_122_2, la proporción combinada de bodas de alto presupuesto (por encima de 300,000 yuan) es del 8.4%; la opción describe erróneamente un 'aumento en la proporción de relojes' e inventa un conflicto, pero los datos reales no muestran tal asociación, constituyendo una mala interpretación numérica."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Se requiere un razonamiento conjunto de chart_122_1 (la proporción de fuentes conocidas en bodas de otros es del 37.9%) y chart_122_2 (la proporción de presupuesto de 200,000 a 300,000 yuan es del 18.2%). La alta proporción de información in situ y la asociación con un presupuesto más alto pueden indicar que la información experiencial eleva el nivel de gasto, pero se necesita verificación entre gráficos.",
+        "B": "Se requiere un razonamiento conjunto de chart_122_1 (la proporción de fuentes de plataformas de vídeos cortos es alta, del 43.5%) y chart_122_2 (la proporción de presupuesto de 50,000 a 100,000 yuan es alta, del 30.4%). La asociación entre la alta proporción de vídeos cortos y la alta proporción de presupuesto medio puede indicar que las plataformas digitales impulsan gastos económicos, pero solo con un gráfico no se puede inferir la interacción; deben combinarse ambos.",
+        "C": "Esta es una opción de interferencia difícil: compara incorrectamente las diferencias numéricas. En chart_122_1, la proporción de búsqueda en Internet es del 27.1%, y en chart_122_2, la proporción de presupuesto por debajo de 50,000 yuan es del 8.8%; la opción erróneamente considera que son 'similares', pero la diferencia es grande (27.1% vs 8.8%), y no prueba asociación (la proporción de búsqueda en Internet no es alta, y el grupo de bajo presupuesto tiene la proporción más baja), constituyendo una mala interpretación numérica.",
+        "D": "Se requiere un razonamiento conjunto de chart_122_1 (la proporción de fuentes de búsqueda en Internet es relativamente baja, del 27.1%) y chart_122_2 (la proporción de presupuesto por debajo de 50,000 yuan es baja, del 8.8%). La correspondencia entre la baja proporción de búsqueda en Internet y la baja proporción de bajo presupuesto puede indicar que este canal no llega a los grupos frugales, pero se necesita analizar conjuntamente las tendencias de los datos.",
+        "E": "Esta es una opción de interferencia difícil: malinterpreta el orden y la asociación. En chart_122_1, la proporción de plataformas de vídeos cortos es alta con 43.5%, pero en chart_122_2, la proporción de presupuesto de 200,000 a 300,000 yuan es del 18.2%, no la más alta (la de 100,000 a 200,000 yuan es la más alta con 34.2%); la opción asocia erróneamente los vídeos cortos con el 'presupuesto más alto', pero los datos no lo respaldan (el presupuesto medio de 50,000 a 100,000 yuan también es alto con 30.4%), e ignora la influencia de otros canales.",
+        "F": "Esta es una opción de interferencia fácil: se basa en conocimiento común (las actividades fuera de línea atraen consumidores de alto presupuesto), pero no depende en absoluto de los gráficos. chart_122_1 no menciona ferias de bodas o actividades fuera de línea, las fuentes de información se centran en familiares, amigos y en línea; la opción es vaga y no se puede derivar de los datos."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -149,6 +194,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de origen (la proporción de búsqueda en Internet es del 27,1%), pero confunde la tendencia - la proporción de origen de vídeos cortos es del 43,5%, casi igual a la del canal más alto, y omitirlo reducirá la cobertura; al mismo tiempo, los datos de presupuesto muestran que el grupo de 100.000 - 200.000 yuanes es el más grande, pero esta estrategia no se dirige a este grupo, por lo que la inferencia es errónea.",
+        "B": "La opción 3 combina chart_122_1 (tanto la proporción de plataformas de compartición de contenido como la de conocer en bodas de otros son altas) y chart_122_2 (el grupo de presupuesto de 200.000 - 300.000 yuanes tiene espacio de crecimiento), y fortalece la confianza a través del marketing de contenido.",
+        "C": "La opción 1 combina chart_122_1 (la proporción de origen de plataformas de vídeos cortos es alta) y chart_122_2 (la proporción del intervalo de presupuesto de bodas de 100.000 - 200.000 yuanes es la más alta), y deduce que las plataformas de vídeos cortos pueden llegar efectivamente a grupos de alto presupuesto.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de presupuesto (la proporción de presupuesto superior a 500.000 yuanes es del 0,7%), pero interpreta erróneamente el tamaño del mercado - la proporción de este grupo es muy pequeña, y la distribución de presupuestos muestra que el grupo más grande es de 100.000 - 200.000 yuanes (34,2%). Dirigirse a grupos de ultra - altos ingresos netos omitirá el mercado principal, y la dirección de la estrategia es muy desviada.",
+        "E": "Esta es una opción de distracción fácil: no se basa en los datos de los gráficos, sino solo en conocimientos generales de marketing (la exposición en los medios tradicionales mejora el conocimiento), pero los gráficos muestran que la proporción de origen de publicidad es la más baja (25,9%), y no se menciona los medios tradicionales. La estrategia es amplia y no específica, y es fácil de descartar.",
+        "F": "La opción 2 combina chart_122_1 (la proporción de recomendación de familiares y amigos es la más alta) y chart_122_2 (la proporción del grupo de presupuesto de 50.000 - 100.000 yuanes es significativa), y utiliza canales sociales para reducir el costo de adquisición de clientes.",
+        "G": "Esta es una opción de distracción fácil: se basa en el conocimiento general de la tendencia digital de la industria, pero en los gráficos, la proporción de origen de sitios web / APPs relacionados con bodas es solo del 36,5%, inferior a la de recomendación de familiares y amigos (43,8%) y la de vídeos cortos (43,5%). La estrategia no se enfoca en canales de alta proporción y no combina la distribución de presupuestos, y la expresión es genérica."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -171,6 +233,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza los datos financieros (la fluctuación de la ganancia neta, por ejemplo, la ganancia neta en 2023 de 4.714 mil millones de yuanes es inferior a la de 2022 de 5.444 mil millones de yuanes), pero atribuye erróneamente la causa - el ingreso total está creciendo de forma estable, y la fluctuación de la ganancia neta puede ser afectada por factores externos. Reducir la inversión en investigación y desarrollo puede debilitar la innovación, y no se consideran las demandas de categorías. La inferencia es unilateral.",
+        "B": "Esta es una opción de distracción fácil: se basa en conocimientos generales comerciales (la diversificación reduce el riesgo), pero no utiliza los datos de los gráficos - la proporción de categorías muestra que las joyas de oro son dominantes (80,1%) y están en aumento continuo, y la proporción de relojes y joyería de incrustación está disminuyendo. Expandir de forma integral desperdiciará recursos en categorías de baja demanda. La estrategia es amplia e ineficaz.",
+        "C": "Esta es una opción de distracción fácil: cita conocimientos generales (los relojes, como artículos de lujo, tienen altas ganancias), pero en los gráficos, la proporción de relojes ha disminuido del 6,4% al 5,2%, y los datos financieros muestran que el crecimiento del ingreso total proviene principalmente de las joyas de oro. La estrategia ignora la tendencia a la baja y la dirección es errónea.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de categorías (la proporción de joyas de oro es del 80,1%), pero interpreta erróneamente la tendencia - la proporción de oro está en aumento continuo (del 64,5% al 80,1%), y el ingreso financiero ha aumentado de 51.850 millones de yuanes a 98.550 millones de yuanes. Reducir la inversión en oro omitirá la fuerza motriz central del crecimiento y confundirá la relación entre saturación y crecimiento.",
+        "E": "La opción 3 combina chart_122_4 (la proporción de relojes se mantiene estable entre el 5 - 6%) y chart_122_3 (la ganancia neta tiene fluctuaciones, por ejemplo, una disminución en 2023), y enfatiza el control de riesgos y la innovación de escenarios.",
+        "F": "La opción 1 combina chart_122_4 (la proporción de joyas de oro ha aumentado del 64,5% al 80,1%) y chart_122_3 (el ingreso operativo ha aumentado de 51.850 millones de yuanes a 98.550 millones de yuanes), y deduce que la categoría de oro y el crecimiento del ingreso están positivamente correlacionados, y se debe invertir en primer lugar.",
+        "G": "La opción 2 combina chart_122_4 (la proporción de joyería de incrustación ha disminuido del 29,1% al 14,7%) y chart_122_3 (la ganancia neta atribuible a la empresa matriz, aunque tiene fluctuaciones, está en aumento general), y aborda la tendencia a la baja de la categoría a través de la innovación."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -194,6 +273,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de presupuesto (la proporción de menos de 50.000 yuanes es del 8,8%), pero localiza erróneamente - la proporción de este grupo es pequeña, y la tendencia de consumo de joyas muestra que el oro es dominante (80,1%). Los paquetes económicos pueden omitir grupos de alto valor (por ejemplo, el grupo de 100.000 - 200.000 yuanes con una proporción del 34,2%). La dirección de la estrategia es desviada.",
+        "B": "Esta es una opción de distracción fácil: se basa en conocimientos generales de marketing digital (los canales de correo electrónico son eficientes), pero en los gráficos de origen de información no se menciona el correo electrónico, y la distribución de presupuestos muestra que los grupos principales son de 50.000 - 100.000 yuanes (30,4%) y 100.000 - 200.000 yuanes (34,2%). La estrategia no tiene soporte de datos y es demasiado amplia.",
+        "C": "Esta es una opción de distracción difícil: aparentemente utiliza los datos de origen (la proporción de publicidad es del 25,9%), pero confunde las prioridades - la proporción de recomendación de familiares y amigos es la más alta (43,8%), y omitirla reducirá la ventaja de confianza social; al mismo tiempo, los datos de presupuesto muestran que el grupo de presupuesto medio es el más grande, pero esta estrategia no está diseñada de manera específica. La inferencia es errónea.",
+        "D": "Esta es una opción de distracción fácil: cita conocimientos generales de la industria (la joyería de incrustación tenía una proporción relativamente alta en el pasado), pero los gráficos de categorías muestran que la proporción de joyería de incrustación ha disminuido continuamente al 14,7%, mientras que la proporción de joyas de oro ha aumentado al 80,1%. La estrategia no se enfoca en la tendencia actual y no combina los datos de origen de bodas. Es ineficaz.",
+        "E": "La opción 1 combina chart_122_1 (la proporción de origen de plataformas de vídeos cortos es alta), chart_122_2 (la proporción del grupo de presupuesto de 100.000 - 200.000 yuanes es la más grande) y chart_122_4 (la proporción de joyas de oro está en aumento), y deduce que los vídeos cortos, como un canal eficiente, pueden integrar las demandas de bodas y joyería.",
+        "F": "La opción 3 combina chart_122_1 (tanto la proporción de plataformas de compartición de contenido como la de conocer en bodas de otros son altas), chart_122_2 (el grupo de presupuesto de 200.000 - 300.000 yuanes tiene potencial) y chart_122_4 (la tendencia de categorías de joyería), y fortalece la conversión a través del marketing emocional.",
+        "G": "La opción 2 combina chart_122_1 (la proporción de recomendación de familiares y amigos es la más alta), chart_122_2 (la proporción de grupos de presupuesto medio es significativa) y chart_122_4 (la demanda de joyas de oro está en aumento), y optimiza la asignación de recursos utilizando la confianza social."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     }
   ]

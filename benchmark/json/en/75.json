@@ -86,6 +86,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Rely on the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (e.g., the consumption growth rate in 2021 was 52.1%, and the import growth rate was -2.5%) and the chart 'Yunnan Province's green coffee bean production in China from 2017 to 2021' (the production growth rate, such as 3.8% in 2021). Joint reasoning: By comparing the consumption growth rate with the import growth rate (e.g., in 2021, imports slightly decreased but consumption surged), combined with the downward trend of production, we can explain the buffering effect of imports.",
+        "B": "This is a hard distractor: Misinterpret the chart values (chart_75_2 and chart_75_3). Yunnan's production only slightly rebounded to 140,000 tons in 2021 (with a growth rate of 3.8%), while consumption increased from 144,000 tons in 2020 to 219,000 tons in 2021 (with a growth rate of 52.1%). The increase in consumption is much larger than the growth in production, indicating that production is not the main driving force; actual consumption growth relies more on imports.",
+        "C": "This is a hard distractor: Misunderstand the chart data (chart_75_3). The actual consumption of imported coffee products in 2021 was 39,000 tons (down from 40,000 tons in 2020), not an increase to 50,000 tons. The option exaggerates the import volume and ignores the -2.5% growth rate, misleadingly associating it with consumption growth.",
+        "D": "Rely on the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (import volume data) and the chart 'Global coffee green bean consumption in major countries in 2020' (the consumption in exporting countries such as Brazil is 22,400 thousand bags, indicating sufficient supply). Joint reasoning: The global supply data provides a basis for the feasibility of imports, which is related to the growth in consumption. A single chart (such as the global data) cannot explain the specific consumption dynamics in China.",
+        "E": "Rely on the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (showing that the import volume increased from 33,000 tons in 2017 to 39,000 tons in 2021) and the chart 'Yunnan Province's green coffee bean production in China from 2017 to 2021' (showing that the production decreased from 165,000 tons in 2017 to 140,000 tons in 2021). Joint reasoning: The increase in imports compensates for the decline in production, which can explain the increase in consumption (e.g., the consumption was 219,000 tons in 2021). A single chart cannot infer the causal relationship.",
+        "F": "This is an easy distractor: Based on common sense (such as the popularity of coffee culture), but the chart does not cover cultural factors. The focus of the question is on the data trends (the decline in Yunnan's production and the increase in consumption). This option ignores the chart content and only relies on general knowledge.",
+        "G": "This is an easy distractor: Based on industry common sense (price affects demand), but the chart does not provide global price data. Also, the import volume growth rate is stable rather than declining (the import growth rate in 2021 was -2.5%). This option has nothing to do with the chart."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: Miscompare the chart values (chart_75_2 and chart_75_3). In 2018, Yunnan's production was 151,000 tons, while the national consumption of 99,000 tons included the imported part (36,000 tons of imported products). Production is not directly higher than consumption. Moreover, the contradiction between the overall downward trend of production and the upward trend of consumption is not resolved. This option misinterprets the local data.",
+        "B": "This is a hard distractor: Misunderstand the chart trend (chart_75_3). The actual import volume increased from 33,000 tons in 2017 to 39,000 tons in 2021, with a slowdown in the growth rate (the growth rate in 2021 was -2.5%), not a steady increase to 45,000 tons or an accelerated growth rate. The option exaggerates the import volume and trend, masking the fact that the rapid increase in consumption mainly relies on the import of green coffee beans rather than coffee products.",
+        "C": "Rely on the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (e.g., the consumption growth rate in 2019 was 30.3%, and the import growth rate was 5.6%) and the chart 'Yunnan Province's green coffee bean production in China from 2017 to 2021' (the production growth rate, such as -4.1% in 2019). Joint reasoning: By comparing the import growth rate with the consumption growth rate (e.g., both imports and consumption increased in 2019) and the downward trend of production, we can explain the contradiction.",
+        "D": "This is an easy distractor: Based on industry common sense (the impact of inventory), but the chart does not provide inventory information. In the actual data, consumption fluctuates greatly (e.g., it decreased in 2018), and the option ignores the key role of imports.",
+        "E": "Rely on the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (the consumption volume, such as 219,000 tons in 2021) and the chart 'Global coffee green bean consumption in major countries in 2020' (the consumption in exporting countries such as Vietnam is 2,700 thousand bags, showing export potential). Joint reasoning: The consumption data of global exporting countries indicates the supply capacity, which is related to China's import - driven consumption. The chart of China's consumption alone cannot explain the global background.",
+        "F": "This is an easy distractor: Based on common sense (marketing affects consumption), but the chart does not cover marketing or beverage preference data. The upward trend of consumption is clear (e.g., 219,000 tons in 2021). This option is divorced from the chart and only makes general statements.",
+        "G": "Rely on the chart 'Yunnan Province's green coffee bean production in China from 2017 to 2021' (the production decreased from 165,000 tons in 2017 to 140,000 tons in 2021) and the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (the import volume increased from 33,000 tons in 2017 to 39,000 tons in 2021). Joint reasoning: The data of the decline in production and the increase in imports must be combined to explain the growth in consumption (e.g., the consumption was 144,000 tons in 2020). A single chart (such as only the production chart) cannot resolve the contradiction."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: Based on industry common sense (self - sufficiency), but in the chart, China's production declined while consumption increased, relying on imports (chart_75_2 and chart_75_3), which is different from the high consumption in exporting countries like Brazil. This option ignores the data and makes general statements.",
+        "B": "This is a hard distractor: Misinterpret the gap in the chart (chart_75_1 and chart_75_3). China's consumption in 2021 was 219,000 tons (about 3,650 thousand bags), while that of the United States was 26,982 thousand bags. 3,650 << 26,982, and the total amount is far lower than that of the United States. This option confuses the growth rate with the total amount and ignores the huge numerical gap.",
+        "C": "Rely on the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (e.g., the import growth rate in 2021 was -2.5%, and the consumption growth rate was 52.1%) and the chart 'Global coffee green bean consumption in major countries in 2020' (e.g., Japan's consumption is 7,386 thousand bags, used as a benchmark for consuming countries). Joint reasoning: By comparing the change in the import growth rate (e.g., a slight decline in 2021) with the consumption growth rate and referring to the global data of consuming countries (such as Japan) as a stability reference, we can explain the volatility of the Chinese market.",
+        "D": "Rely on the chart 'Consumption of green coffee beans and imported coffee products in China from 2017 to 2021' (the consumption increased from 135,000 tons in 2017 to 219,000 tons in 2021) and the chart 'Global coffee green bean consumption in major countries in 2020' (e.g., the EU's consumption is 40,251 thousand bags, and the United States' is 26,982 thousand bags, with stable values). Joint reasoning: The rapid growth trend of China's consumption (e.g., a 52.1% growth rate in 2021) must be compared with the levels of global consuming countries (such as the EU data) to highlight the characteristics of China as an emerging market. A single chart cannot make the comparison.",
+        "E": "This is a hard distractor: Misconvert and compare the chart values (chart_75_1 and chart_75_3). China's consumption in 2020 was 144,000 tons (converted as 1 bag = 60 kg, 144,000 tons ≈ 2,400 thousand bags), while Russia's was 4,681 thousand bags. 2,400 < 4,681, and the gap is significant. This option misjudges the unit and exaggerates China's consumption level.",
+        "F": "This is an easy distractor: Based on common sense (the impact of population size), but the chart data (chart_75_1 and chart_75_3) shows that China's consumption in 2020 was 144,000 tons (about 2,400 thousand bags), far lower than Japan's 7,386 thousand bags or Canada's 4,011 thousand bags (unit conversion: 10,000 tons ≈ 166.67 thousand bags, 144,000 tons ≈ 2,400 thousand bags). This option wrongly infers the consumption ranking.",
+        "G": "Rely on the chart 'Yunnan Province's green coffee bean production in China from 2017 to 2021' (the downward trend of production) and the chart 'Global coffee green bean consumption in major countries in 2020' (the consumption in exporting countries such as Brazil is 22,400 thousand bags, showing self - production and self - consumption). Joint reasoning: By comparing the decrease in Yunnan's production with the high consumption in global exporting countries and combining it with the increase in China's consumption, we can infer China's import - dependent model. Neither the global data nor the Yunnan data alone can reveal this connection."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Option C combines chart_75_2 (significant fluctuations in production growth rate, such as negative growth years) and chart_75_3 (remarkable fluctuations in consumption growth rate, e.g., a decline in 2018 followed by a rapid rebound). Reasoning: Matching production and consumption cycles can optimize resource utilization.",
+        "B": "This suggestion focuses on product value - added (such as organic certification and packaging) and does not address supply risk management or resource allocation. It is based on common knowledge of sustainability trends but does not use chart data and cannot solve the specific risks caused by production fluctuations or sudden surges in consumption.",
+        "C": "This is a broad industry common - sense suggestion (such as stimulating demand through marketing and store expansion), but it does not directly address the core issue of resource allocation strategies (supply risk). It ignores the production fluctuations and consumption gaps in the charts and is only based on general business logic, so it can be easily excluded.",
+        "D": "It misuses the consumption growth rate data from chart_75_3 ( + 11.6% in 2020 and + 52.1% in 2021), implying that the growth is “stable”. However, chart_75_3 shows that the consumption growth rate in 2018 was - 26.7%, proving that the fluctuations are severe. Reducing inventory will magnify the shortage risk, which contradicts the chart trend (jumping - style growth in consumption).",
+        "E": "On the surface, it uses the data from chart_75_2 (production growth rate of + 3.8% in 2021), but misinterprets it as an enhancement of self - sufficiency ability. In fact, chart_75_2 shows that the production in 2021 was only 140,000 tons, while chart_75_3 shows that the consumption in 2021 reached 219,000 tons. With only 39,000 tons of imports, there is a huge gap (about 40,000 tons). The recovery of production growth rate does not mean that it can cover the consumption growth, but instead increases the supply risk.",
+        "F": "Option B combines chart_75_2 (the growth rate of Yunnan Province's production turned positive in 2021, indicating recovery potential) and chart_75_3 (the overall upward trend of consumption). Reasoning: Investing in domestic production areas can seize the opportunity of production recovery and support long - term self - sufficiency.",
+        "G": "Option A combines chart_75_2 (the downward trend of Yunnan Province's production in recent years, with the growth rate turning positive in 2021 but the overall level still low) and chart_75_3 (the rapid growth of green coffee bean consumption in China, especially the extremely high growth rate in 2021, and the stable but small - scale import of coffee products). Reasoning: The consumption growth far exceeds the recovery speed of domestic production, so imports are needed for supplementation."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a general supply - chain suggestion (such as optimizing logistics) and does not address the core of export resource allocation (such as market selection). It is based on industry common knowledge (cost control) but does not use chart data and cannot capture emerging market opportunities or enhance competitiveness.",
+        "B": "This suggestion focuses on technological upgrading (such as blockchain) and is too broad without clear export strategy guidance. It is based on the common knowledge of current digital trends but ignores the consumption pattern in the charts (such as the comparison between traditional and emerging markets) and can be directly excluded.",
+        "C": "Option A combines chart_75_1 (the extremely high consumption volume in traditional importing countries such as the EU and the United States but without growth rate data, implying potential saturation) and chart_75_3 (the extremely high consumption growth rate in China as an emerging market, such as a significant increase in 2021). Reasoning: Emerging markets are growing faster than traditional markets, so resources need to be tilted towards them.",
+        "D": "It misuses the consumption growth rate data from chart_75_3 (52.1% in 2021) and implies that the growth of emerging markets is “stable”. However, chart_75_1 shows that China's consumption volume (219,000 tons in 2021 in chart_75_3 ≈ 3650 thousand bags) is far lower than that of the EU (40,251 thousand bags) or the United States (26,982 thousand bags). The units are inconsistent (thousand bags in chart_75_1 and ten - thousand tons in chart_75_3; after conversion, China's consumption volume is more than 10 times smaller). Shifting to China may ignore the high - base advantage of traditional markets.",
+        "E": "Option B combines chart_75_1 (significant domestic consumption in coffee - exporting countries such as Brazil and Indonesia, e.g., high consumption in Brazil) and chart_75_3 (the emerging demand trend in global consumption). Reasoning: Exporting countries need to balance domestic demand and exports to avoid resource misallocation.",
+        "F": "Option C combines chart_75_1 (regional consumption distribution, such as the consumption volume in Asian countries) and chart_75_3 (the stable growth of China's imported coffee products). Reasoning: Cost optimization can enhance competitiveness in neighboring high - growth markets (such as intra - Asian trade).",
+        "G": "It misinterprets the data from chart_75_1 (high consumption volume in the EU and the United States) and implies that their “growth risk is low”. However, the original question emphasizes the “rapid rise” of emerging markets, and chart_75_3 shows that China's consumption growth rate is extremely high. Ignoring emerging markets will miss growth opportunities and contradicts the global pattern trend."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option A combines chart_75_2 (the overall downward trend of Yunnan Province's production with a slight rebound in 2021) and chart_75_3 (the rapid growth of green coffee bean consumption in China, especially the extremely high growth rate in 2021). Reasoning: Direct connection can solve the contradiction between insufficient production and surging demand.",
+        "B": "It misuses the consumption growth rate data from chart_75_3 (+ 52.1% in 2021) and suggests exporting. However, Yunnan's production has declined (chart_75_2 shows negative growth from 2017 - 2020), and national consumption has surged. Exporting will exacerbate local shortages. Although the international market demand is large in chart_75_1, it does not show that it is “more stable”, which deviates from the strategic goal (supporting the local industry).",
+        "C": "It wrongly combines the data from chart_75_2 (production growth rate of + 3.8% in 2021) and chart_75_3 (import volume of 39,000 tons) and implies that imports are sufficient for buffering. However, chart_75_3 shows that the consumption in 2021 was 219,000 tons, while Yunnan's production was only 140,000 tons (chart_75_2), and imports can only cover part of the gap. Reducing investment will exacerbate the supply risk, which contradicts the production fluctuation trend.",
+        "D": "Option C combines chart_75_2 (production changes such as negative growth from 2018 - 2020) and chart_75_3 (fluctuations in consumption growth rate, such as a decline in 2018 followed by a rebound). Reasoning: Dynamically matching production and consumption cycles can optimize resources.",
+        "E": "Option B combines chart_75_2 (significant fluctuations in production growth rate, such as turning positive in 2021 after years of negative growth) and chart_75_3 (a stable upward trend in consumption growth). Reasoning: Technological investment can stabilize production to capture consumption opportunities.",
+        "F": "This is a common - sense agricultural support policy (such as subsidies and loans) and does not address the specific trends of production decline or surging consumption. It is based on general rural development logic, has no chart data support, and ignores supply risks.",
+        "G": "This suggestion combines industrial competitiveness with tourism and is too broad (such as theme tourism). It is based on the common knowledge of sustainable development but does not use the charts (such as production or consumption data) and cannot directly enhance the local industry's ability to meet demand."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     }
   ]

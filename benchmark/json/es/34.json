@@ -87,6 +87,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "它依赖市场规模增长图表和消费者态度图表。市场规模增长图表的增长趋势与消费者态度图表中\"Mayor énfasis en el valor de marca y la calidad\"的比例联合表明，品质关注可能推动高端市场增长。推理需交叉验证两个图表，因为单看态度数据无法链接到市场规模。",
+        "B": "它需要联合推理市场规模增长图表和消费者态度图表。市场规模增长图表显示市场规模从2015年到2026年稳定增长，而消费者态度图表表明\"Mayor énfasis en el rendimiento de comodidad y salud\"的消费者比例最高。这隐含了高需求比例驱动市场扩张的规律，但推理必须比较两个图表：市场规模趋势不能单独解释原因，需结合消费者态度数据。",
+        "C": "它结合市场规模增长图表和消费者态度图表。市场规模增长图表的持续增长与消费者态度图表中\"Mayor énfasis en el placer propio\"和\"Mayor énfasis en la funcionalidad en escenarios específicos\"联合显示，多元化需求可能激发新产品开发。推理需要从态度数据推断市场影响，而规模数据提供趋势背景。",
+        "D": "这是一个Easy干扰项：完全脱离图表内容，仅基于行业常识错误。图表聚焦国内消费者态度（chart_34_2）和市场规模（chart_34_1），未涉及国际因素。",
+        "E": "这是一个Easy干扰项：不依赖图表数据，仅基于常识。图表强调舒适性、健康等品质需求（如chart_34_2显示76.0%重视舒适性），而非价格。常识上，内衣市场升级更依赖品质而非低价。",
+        "F": "这是一个Hard干扰项：表面基于chart_34_1数据，但误解趋势。2016年市场规模短暂下降（28 vs 2015年29.4），但整体CAGR 4.04%显示增长，错误地将局部波动解读为需求无影响。",
+        "G": "这是一个Hard干扰项：表面基于chart_34_2数据，但误解数值排序。自我愉悦感需求比例（52.7%）低于舒适性（76.0%），错误地将其描述为\"最高\"，并错误关联增长趋势。"
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "它结合消费者功能提升需求图表和抖音平台科技内衣卖点增速图表，并隐含消费者态度图表。消费者功能提升需求图表中\"Funcionalidad para deportistas profesionales\"需求比例高，但抖音平台科技内衣卖点增速图表卖点增速TOP10中无直接运动相关项，反而\"Fragancias\"等感官卖点突出；联合消费者态度图表中\"Mayor énfasis en el placer propio\"解释市场侧重。推理需要多图对比：运动需求数据与卖点增速的冲突揭示市场响应方向。",
+        "B": "它需要联合推理消费者功能提升需求图表和抖音平台科技内衣卖点增速图表。消费者功能提升需求图表显示\"Mejorar la comodidad\"是消费者最希望的功能，而抖音平台科技内衣卖点增速图表中\"Sensación cero\"卖点（隐含舒适无负担）增长率较高。这隐含了需求与市场供应的联系，但推理必须比较两个图表：单看功能需求数据无法直接链接到卖点增速。",
+        "C": "这是一个Hard干扰项：表面基于数据，但错误解读数值差距。健康改善需求57%较高，但卖点\"Ácido hialurónico\"增长仅4.0%，低于\"Fragancias\"10.0%，错误忽略增速差异。",
+        "D": "这是一个Hard干扰项：表面基于chart_34_5数据，但逻辑错误。GMV指数高（如Fragancias 71）不代表需求弱；实际增长10.0%较高，错误混淆指数大小与需求强度。",
+        "E": "这是一个Hard干扰项：表面基于chart_34_3和chart_34_5数据，但误解排序和关联。运动专业功能性需求55%，但卖点增速最高是\"Fragancias\"和\"Camelia\"（各10.0%），而非\"Sensación cero\"（8.0%），错误地将需求与增速直接等同。",
+        "F": "它依赖消费者功能提升需求图表和抖音平台科技内衣卖点增速图表。消费者功能提升需求图表中\"Mejorar la salud\"需求比例较高，与抖音平台科技内衣卖点增速图表中\"Estéril\"和\"Ácido hialurónico\"等健康相关卖点联合，表明材料创新响应健康需求。推理需交叉分析功能偏好和卖点表现，因为卖点数据单独不解释需求来源。",
+        "G": "这是一个Easy干扰项：不依赖图表数据，仅基于常识错误。图表未提及营销因素，常识上问题聚焦需求关联，而非外部驱动。"
+      },
+      "easy_error": [
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "C",
+        "D"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：表面基于chart_34_4和chart_34_2数据，但忽略分布细节。场景分布中\"4 escenarios\"占比1（与\"1 escenario\"\"2 escenarios\"\"3 escenarios\"相同），但平均仅2.4个，错误直接关联需求而不考虑平衡（原选项C强调需平衡）。",
+        "B": "它需要联合推理用户内衣使用场景分布图表和消费者态度图表。用户内衣使用场景分布图表显示用户平均使用场景数，而消费者态度图表中\"Mayor énfasis en la funcionalidad en escenarios específicos\"比例较高。这揭示了场景多样性与场景需求之间的规律，但推理必须比较两个图表：场景分布数据单独不说明需求，需结合态度数据。",
+        "C": "这是一个Hard干扰项：表面基于chart_34_4数据，但误解数值和排序。\"5 escenarios\"占比0.4最低（低于\"1 escenario\"\"2 escenarios\"\"3 escenarios\"\"4 escenarios\"的1），错误描述为\"最高\"，并错误关联多功能需求。",
+        "D": "它依赖用户内衣使用场景分布图表和消费者态度图表。用户内衣使用场景分布图表的场景分布表明多样性，与消费者态度图表中\"Mayor énfasis en las funciones compuestas de los productos\"比例联合，隐含多样场景驱动多功能需求。推理需交叉验证，因为单张图表无法建立因果关系。",
+        "E": "这是一个Easy干扰项：不依赖图表数据，仅基于常识错误。chart_34_4显示平均场景数2.4个且分布多场景（如\"1 escenario\"到\"4 escenarios\"各占比1），常识上多场景需求鼓励功能多样性而非简化。",
+        "F": "这是一个Hard干扰项：表面基于数据，但错误解读数值。平均场景数2.4个表示中等多样性，与chart_34_2的特定场景需求49.4%一致（非矛盾），错误地将\"适中\"解读为\"低\"。",
+        "G": "它结合用户内衣使用场景分布图表和消费者态度图表。用户内衣使用场景分布图表的平均场景数与消费者态度图表中复合功能需求比例联合，表明需求虽存在但产品设计需优先核心功能。推理需要从分布数据推断需求强度，而态度数据提供上下文。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F",
+        "A"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es demasiado general y no tiene orientación hacia la acción. Solo enfatiza la comercialización de la marca en lugar de la innovación de productos, lo cual está fuera del enfoque de la pregunta, que es la \"estrategia de innovación de productos\". Además, no cita ningún dato de los gráficos.",
+        "B": "Involucra el chart_34_2 (en las actitudes de los consumidores, las demandas de funcionalidades compuestas y de funcionalidad en escenarios específicos tienen una alta proporción) y el chart_34_4 (el número promedio de escenarios de uso de los usuarios es 2.4, lo que indica que las demandas de múltiples escenarios son comunes). Los datos enfatizan la necesidad de productos multifuncionales.",
+        "C": "Esta opción interpreta erróneamente el chart_34_4: las proporciones de distribución de los escenarios de uso de los usuarios son 1, 1, 1, 1, 0.4 (etiquetas de \"1 escenario\" a \"5 escenarios\"), pero el número promedio de escenarios es 2.4, lo que indica que la mayoría de los usuarios utilizan múltiples escenarios. La opción de distracción confunde erróneamente los valores de las proporciones con porcentajes (por ejemplo, 25%). En realidad, la suma de las proporciones es 4.4 (no 100%), y lógicamente debería apoyar los productos multifuncionales en lugar de un solo escenario.",
+        "D": "Esta opción no se basa en los datos de los gráficos, solo se basa en conocimientos comerciales generales (como la economía de escala), pero ignora la tendencia central de la transformación de las preferencias de los consumidores hacia la diversificación. Además, no proporciona orientación específica para la innovación de funcionalidades y es fácil de descartar por conocimiento general.",
+        "E": "Involucra el chart_34_5 (los nuevos puntos de venta atractivos, como fragancias y camelia, tienen una alta tasa de crecimiento de GMV) y el chart_34_2 (en las actitudes de los consumidores, la demanda de placer propio es notable). La combinación de las nuevas tendencias y las necesidades psicológicas captura los puntos de crecimiento.",
+        "F": "Involucra el chart_34_1 (el tamaño del mercado crece de manera estable, con una CAGR de 4.04%, lo que brinda oportunidades de innovación), el chart_34_2 (en las actitudes de los consumidores, la comodidad tiene la proporción más alta) y el chart_34_3 (en las demandas de mejora de funcionalidades, la comodidad y la salud tienen una proporción destacada). La combinación del crecimiento del mercado y las necesidades centrales garantiza una estrategia sólida.",
+        "G": "Esta opción confunde el chart_34_2 y el chart_34_5: la demanda de rendimiento de salud es del 76.0%, que es la prioridad más alta actualmente (chart_34_2), mientras que la tasa de crecimiento de \"fragancias\" es alta pero el índice de GMV es bajo (71). Además, la demanda de mejora de salud es del 57% (chart_34_3), lo que muestra su importancia continua. La opción de distracción asume erróneamente que el crecimiento de la demanda de salud es débil, lo que contradice los datos."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Involucra el chart_34_2 (en las actitudes de los consumidores, la demanda de comodidad tiene la proporción más alta) y el chart_34_1 (el tamaño del mercado crece de manera estable, y las necesidades básicas son la piedra angular del mercado). Evita ignorar las demandas principales y garantiza la sostenibilidad de la estrategia.",
+        "B": "Esta opción interpreta erróneamente el chart_34_3: la proporción de atributos deportivos es del 55%, que es alta pero inferior a la comodidad (71%) y la salud (57%). La opción de distracción afirma erróneamente que es la \"más alta\", cuando en realidad la comodidad es la demanda dominante, lo que lleva a un desvío en la dirección de la estrategia.",
+        "C": "Esta opción confunde el chart_34_3 y el chart_34_5: la demanda de comodidad del 71% sigue siendo el núcleo (chart_34_3), mientras que los nuevos puntos de venta atractivos tienen una alta tasa de crecimiento pero un índice de GMV bajo (por ejemplo, el GMV de \"fragancias\" es 71). Además, en las actitudes de los consumidores, la prioridad de la comodidad es del 76.0% (chart_34_2). La opción de distracción asume erróneamente que el interés en las funciones básicas está disminuyendo, lo que contradice los datos.",
+        "D": "Involucra el chart_34_5 (los nuevos puntos de venta atractivos, como fragancias y camelia, tienen una alta tasa de crecimiento) y el chart_34_2 (en las actitudes de los consumidores, las demandas de placer propio y rendimiento de salud son notables). La coincidencia de los puntos de venta atractivos de alto crecimiento y las necesidades psicológicas mejora el ROI del marketing.",
+        "E": "Esta opción se basa en conocimientos generales de marketing (como el equilibrio de canales), pero no proporciona una estrategia de optimización específica para los nuevos puntos de venta atractivos o las expectativas de funcionalidades en los datos. Es demasiado general y no es efectiva.",
+        "F": "Esta opción ignora la tendencia digital, solo se basa en experiencias tradicionales y no cita ningún dato de los gráficos (como la tasa de crecimiento de los puntos de venta de Douyin). Además, no está directamente relacionada con el requisito de la pregunta de \"mejorar la tasa de conversión de ventas\".",
+        "G": "Involucra el chart_34_3 (en las demandas de mejora de funcionalidades, la mejora de la salud tiene una proporción destacada) y el chart_34_2 (en las actitudes de los consumidores, la atención al rendimiento de salud es alta). Los datos indican que la salud es una demanda duradera, y la inversión en marketing puede aumentar la confianza."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -203,6 +288,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Involucra el chart_34_3 (en las demandas de mejora de funcionalidades, la funcionalidad para deportistas profesionales tiene una alta proporción) y el chart_34_2 (en las actitudes de los consumidores, la demanda de funcionalidad en escenarios específicos es notable). La combinación de las demandas deportivas y la orientación a escenarios explora mercados segmentados.",
+        "B": "Esta opción interpreta erróneamente el chart_34_4: las proporciones de distribución de los escenarios de uso de los usuarios son 1, 1, 1, 1, 0.4 (etiquetas de \"1 escenario\" a \"5 escenarios\"). La opción de distracción confunde erróneamente 0.4 con el porcentaje del 40%. En realidad, la suma de las proporciones es 4.4 (no 100%), y el número promedio de escenarios de 2.4 indica que los usuarios tienden a preferir un número moderado de escenarios, en lugar de un número extremadamente alto.",
+        "C": "Involucra el chart_34_4 (el número promedio de escenarios de uso de los usuarios es 2.4, y las etiquetas muestran una distribución de múltiples escenarios) y el chart_34_2 (en las actitudes de los consumidores, la demanda de funcionalidades compuestas tiene una alta proporción). La combinación de los datos de múltiples escenarios y las preferencias de funcionalidades mejora la utilidad del producto.",
+        "D": "Esta opción interpreta erróneamente el chart_34_2: la demanda de funcionalidades compuestas del 49.1% es menor que la de comodidad, pero es mayor que la de funcionalidad en escenarios específicos (49.4%) y coincide con el número promedio de escenarios de 2.4. La opción de distracción asume erróneamente que se debería debilitar la multifuncionalidad, cuando los datos respaldan su importancia.",
+        "E": "Esta opción es correcta en su enunciado pero no tiene orientación hacia la acción. Solo sugiere una investigación en lugar de una optimización del diseño de la línea de productos y no cita datos de los gráficos. Es fácil de descartar por conocimiento general.",
+        "F": "Esta opción se basa en conocimientos generales de la cadena de suministro, pero no proporciona un plan específico para la diversificación de escenarios o las expectativas de funcionalidades. Además, ignora el número promedio de escenarios de 2.4 en los datos. La estrategia es demasiado general.",
+        "G": "Involucra el chart_34_3 (en las demandas de mejora de funcionalidades, la demanda de comodidad tiene la proporción más alta) y el chart_34_4 (la distribución de los escenarios de uso de los usuarios muestra que la ropa interior es un artículo de uso diario). La combinación de las necesidades centrales y los escenarios de uso frecuentes garantiza la confiabilidad del producto."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

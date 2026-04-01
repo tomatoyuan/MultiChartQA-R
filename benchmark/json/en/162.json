@@ -85,6 +85,21 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Based on the market size growth trend in the chart of the pre - made food market size and its year - on - year change (e.g., continuous growth from 2021 to 2024, with a high proportion in the B - end market) and the fact that the number of group standards is significantly higher than other types in the chart of the distribution of current pre - made cuisine - related standards in China in 2024 (e.g., group standards account for the majority). This implies that group standards (the product of inter - enterprise collaboration) may promote market standardization, thus supporting the growth of the B - end market; this collaborative relationship cannot be inferred from only one chart.",
+        "B": "This is an Easy distraction: Based on industry common sense (consumers' concerns may affect the market), but it does not rely on the chart data at all. The charts do not involve consumer factors, and this statement is too general to be deduced from the given charts.",
+        "C": "Combining the annual expansion of the market size in the chart of the pre - made food market size and its year - on - year change (e.g., nearly 500 billion yuan in 2023) and the fact that the number of enterprise standards is small but exists (90 items) in the chart of the distribution of current pre - made cuisine - related standards in China in 2024, we can infer that although the enterprise standards are few, they may improve efficiency through internal innovation and promote market growth; a single chart only shows the quantity or scale, and the complementary effect cannot be obtained.",
+        "D": "Comparing the low proportion of local standards in the chart of the distribution of current pre - made cuisine - related standards in China in 2024 (only 27 items) and the overall growth trend in the chart of the pre - made food market size and its year - on - year change (e.g., an expected growth of 13.8% in 2024), it shows that market expansion relies more on non - local standards; analyzing only the standard distribution or the market size cannot explain the impact of the regulatory structure.",
+        "E": "This is a Hard distraction: It misinterprets the data in chart_162_1. In fact, there are only 27 local standards (far less than the 289 group standards), indicating that the role of policy supervision is limited, not dominant. The distraction wrongly assumes that 'local standards have the largest number' as a premise, but group standards are the main body in the data.",
+        "F": "This is a Hard distraction: It wrongly infers future trends. Chart_162_1 shows that currently there are only 90 enterprise standards and 289 group standards, with a significant gap; but the distraction assumes that enterprise standards will surpass group standards, which lacks data support (the chart only provides the current distribution without prediction). At the same time, the market size growth data in chart_162_2 has nothing to do with this."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This is an Easy distraction: Based on technical common sense (automation may optimize efficiency), but it does not rely on the chart at all. The chart does not mention automation, and this statement is a general inference that cannot be verified from the data.",
+        "B": "Combining the year - on - year change fluctuations in the chart of the pre - made food market size and its year - on - year change (e.g., dropping to 8.0% in 2022) and the significant increase in working hours in 2023 in the chart of the average weekly working hours of Chinese enterprise employees (e.g., reaching 48.9 hours in December), it shows that the increase in work intensity does not match the market growth efficiency; a single chart only shows the trend and cannot reveal the reason for the conflict.",
+        "C": "Comparing the expected growth of the B - end market in 2024 in the chart of the pre - made food market size and its year - on - year change (a year - on - year increase of 16.3%) and the decrease in working hours in 2024 in the chart of the average weekly working hours of Chinese enterprise employees (e.g., dropping to 48.0 hours in February), we can infer that seasonal factors or industry optimization have alleviated the work pressure; analyzing only the market size or working hours cannot explain this inconsistency.",
+        "D": "Based on the annual growth of the market size in the chart of the pre - made food market size and its year - on - year change (e.g., increasing from 355.7 billion yuan to 568 billion yuan from 2020 to 2024) and the fact that the working hours fluctuated but remained generally stable from 2022 to 2023 in the chart of the average weekly working hours of Chinese enterprise employees (e.g., an average of over 48.5 hours in 2023), we can infer that the growth may be driven by efficiency rather than an increase in working hours; the conflict in the time trend cannot be explained by only the market size chart, and cross - chart comparison is required.",
+        "E": "This is a Hard distraction: It misinterprets the data in chart_162_4 and chart_162_2. In fact, the working hours were stable in 2022 (monthly averages ranging from 47.4 to 47.9 hours), but the market size growth rate dropped from 12.1% in 2021 to 8.0% in 2022; the distraction wrongly claims that 'working hours decreased', but the data does not show a downward trend (the lowest was 46.2 hours in 2022, but the overall fluctuation was small).",
+        "F": "This is a Hard distraction: It wrongly simplifies the causal relationship. Chart_162_4 shows that the working hours increased in 2023 (with an average of about 48.7 hours), and chart_162_2 shows that the market size increased by 15.9%; but the distraction ignores other factors (such as changes in the B - end market) and wrongly predicts that the decrease in working hours in 2024 will suppress growth (the market size is still expected to increase by 13.8% in 2024)."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combining the relatively high proportion of labor costs (about one - fifth) in the chart of the cost proportions of sample catering enterprises and the overall market growth in the chart of the pre - made food market size and its year - on - year change (e.g., nearly 500 billion yuan in 2023), and implicitly referring to the continuously high working hours in the chart of the average weekly working hours of Chinese enterprise employees (e.g., an average of over 48 hours in 2023), we can infer that pre - made food reduces the labor demand, but the fact that the working hours have not decreased may reflect a transitional period; cross - chart reasoning between the cost and market charts is required, and a single chart only shows static data.",
+        "B": "This is a Hard distraction: It misinterprets the data in chart_162_2. In fact, the B - end market size dominates (398 billion yuan in 2023 vs. a total scale of 499 billion yuan) and continues to grow; the distraction wrongly claims that 'the C - end reduces the dependence on the B - end', but the data does not provide C - end information, and the B - end remains the main body.",
+        "C": "Based on the dominant raw material cost (the highest proportion) in the chart of the cost proportions of sample catering enterprises and the rapid growth of the B - end market in the chart of the pre - made food market size and its year - on - year change (e.g., a year - on - year increase of 18.5% in 2023), we can infer that pre - made food reduces raw material waste through standardization and promotes market expansion; neither the cost chart nor the market size chart alone can obtain this reinforcement mechanism.",
+        "D": "This is an Easy distraction: Based on industry common sense (energy costs may affect the market), but it does not rely on the chart at all. Chart_162_3 shows that energy costs only account for 3.6% without historical data; the distraction is too general and not directly related to the growth of pre - made food.",
+        "E": "This is a Hard distraction: It wrongly tampers with the values. Chart_162_3 clearly shows that the labor cost accounts for 21.9% (not less than 15%), and the B - end in chart_162_2 grew by 18.5% in 2023; the distraction fabricates 'a decrease in labor cost' and wrongly attributes it to pre - made food technology, but the data does not prove the causal relationship.",
+        "F": "Comparing the relatively low proportion of energy and rent costs (a total of about 12.5%) in the chart of the cost proportions of sample catering enterprises and the continuous expansion of the market size in the chart of the pre - made food market size and its year - on - year change (e.g., an expected 568 billion yuan in 2024), we can infer that pre - made food may indirectly optimize secondary costs through scale - up; analyzing only the cost proportion or market size cannot infer this implicit relationship."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -150,6 +195,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option involves chart_162_3 (the proportion of energy and rent costs is relatively low) and the implied economies of scale of pre - made dishes (based on the market growth trend in chart_162_2). Reasoning: Optimizing secondary costs can free up resources to support high - growth areas.",
+        "B": "This is a hard distractor. On the surface, it uses the raw material cost data (42.7%, the highest) from chart_162_3, but misinterprets the relationship. Pre - made dishes should reduce raw material waste and processing costs. Suggesting to reduce the use of pre - made dishes may increase operating costs, which contradicts the chart trend (chart_162_2 shows the growth of the pre - made food market).",
+        "C": "This is an easy distractor. It is based on general business common sense (brand promotion can increase revenue), but does not combine the chart data (such as the growth of the B - end market or the cost structure). The statement is broad and lacks specific action guidelines, so it can be easily excluded.",
+        "D": "This option involves chart_162_2 (the B - end market has a relatively fast growth rate and a high proportion) and chart_162_3 (the proportion of raw material purchase cost is the highest). Reasoning: Pre - made dishes can directly reduce the high - proportion raw material cost and seize the growth opportunity in the B - end market.",
+        "E": "This is an easy distractor. It is based on the general concept of sustainability, but does not target the core chart data (such as the growth of the B - end market or labor cost). The proportion of energy cost is low (3.6%), and optimizing it has a weak impact on the overall cost. The statement is too broad.",
+        "F": "This option involves chart_162_3 (the proportion of labor cost is relatively large) and chart_162_4 (the working hours are continuously increasing). Reasoning: The increase in working hours implies efficiency problems, and automation can relieve the pressure of labor cost.",
+        "G": "This is a hard distractor. On the surface, it uses the working - hour data from chart_162_4 (the continuous increase in hours), but makes a wrong inference. The increase in working hours may reflect an efficiency bottleneck. Suggesting to extend working hours may intensify employee fatigue and labor cost (the labor cost accounts for 21.9% in chart_162_3), which deviates from the goal of'maximizing efficiency and reducing costs'."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -173,6 +235,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option involves chart_162_4 (the working hours are continuously increasing) and chart_162_3 (the proportion of labor cost is relatively large). Reasoning: The increase in working hours may intensify the labor - cost problem, and policy intervention can balance efficiency and well - being.",
+        "B": "This is a hard distractor. On the surface, it uses the standard data from chart_162_1 (27 local standards vs. 289 group standards), but misinterprets it. Group standards dominate, and promoting local standards may ignore broader standardization needs, which contradicts the problem of 'uneven distribution' and does not consider the working - hour trend.",
+        "C": "This is an easy distractor. It is based on common industry practices (a certification system can enhance trust), but does not target the core content of the charts (standard distribution or working hours). The statement is broad and lacks a specific efficiency - improvement mechanism.",
+        "D": "This option involves chart_162_1 (the number of enterprise standards is relatively small) and chart_162_2 (the B - end market has a relatively fast growth rate). Reasoning: Innovation in enterprise standards can directly meet the high - growth B - end demand and optimize the industry's resource allocation.",
+        "E": "This option involves chart_162_1 (the number of group standards is significantly more than other standards) and chart_162_2 (the overall market size is growing). Reasoning: The dominance of group standards indicates the potential for industry self - regulation. Promoting standards can standardize the market and enhance efficiency by leveraging the growth trend.",
+        "F": "This is an easy distractor. It is based on common economic policies (tax relief can stimulate growth), but does not combine the chart data (such as standard distribution or working - hour trend). The statement is broad and lacks targeted actions, so it can be easily excluded by common sense.",
+        "G": "This is a hard distractor. On the surface, it uses the working - hour data from chart_162_4 (the continuous increase in hours), but makes a wrong inference. The increase in working hours may indicate low efficiency. Suggesting to increase overtime may worsen employee well - being and sustainability (deviating from the goal of 'promoting sustainable development'), and chart_162_2 shows that market growth does not depend on extended working hours."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -196,6 +275,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This option involves chart_162_3 (the proportion of raw material purchase cost is the highest) and chart_162_2 (the overall growth of the pre - made food market). Reasoning: Supply - chain integration can leverage the high - proportion cost and improve efficiency by taking advantage of the market trend.",
+        "B": "This is an easy distractor. It is based on a common expansion strategy (physical stores), but does not target the B - end market or the core cost (such as the 42.7% raw material cost). The statement is broad and inefficient.",
+        "C": "This option involves chart_162_2 (the B - end market has a relatively fast growth rate and a high proportion) and chart_162_3 (the proportion of raw material purchase cost is the highest). Reasoning: The growth of the B - end market is related to the high raw material cost, and customized products can directly solve the customers' pain points.",
+        "D": "This is a hard distractor. On the surface, it uses the labor - cost data (21.9%) from chart_162_3 and the working - hour data (increasing trend) from chart_162_4, but makes a wrong inference. High labor cost and increasing working hours may indicate efficiency problems. Suggesting to invest in a labor - intensive model may increase costs and reduce resilience (contradicting the automation trend of pre - made dishes).",
+        "E": "This is a hard distractor. On the surface, it uses the overall market - size data (growth trend) from chart_162_2, but misinterprets the relationship. Chart_162_2 clearly shows that the B - end market has a faster growth rate (e.g., the expected year - on - year change in the B - end market in 2024 is 16.3%). Suggesting to shift to the C - end ignores the outstanding performance of the B - end, which deviates from the goal of maximizing opportunities.",
+        "F": "This option involves chart_162_3 (the proportion of labor cost is relatively large) and chart_162_4 (the working hours are continuously increasing). Reasoning: The labor cost and time pressure highlight the need for innovation, and product design can enhance industry resilience.",
+        "G": "This is an easy distractor. It is based on basic investment principles (diversifying risks), but does not combine the chart data (such as the growth of the B - end market or the cost structure). The statement is broad and lacks actions targeting the B - end opportunities, so it can be easily excluded."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     }
   ]

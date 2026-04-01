@@ -83,6 +83,20 @@
       "label": [
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "This is an easy distractor, based on a common - sense error: The chart clearly shows that the life expectancy decreased from 73.2 years in 2019 to 71.4 years in 2021. The overall downward trend indicates a deterioration in health status, not an improvement. This option can be excluded based on common sense (such as mistakenly thinking that the pandemic promotes health) without relying on the chart data.",
+        "B": "It combines chart_35_1 (the downward trend of life expectancy) and chart_35_4 (the relatively low proportion of respiratory problems but a high proportion of weight issues). The reasoning is that the decline in life expectancy is usually associated with acute health events. However, respiratory problems are not prominent in the consumer data (possibly due to protection such as wearing masks), while the high incidence of weight issues may be related to home isolation during the pandemic. Cross - chart comparison of trends is needed to explain this contradiction.",
+        "C": "It relies on chart_35_1 (showing the downward trend of life expectancy from 2019 to 2021) and chart_35_4 (showing a relatively high proportion of susceptibility to fatigue and anxiety/depressive mood). The reasoning is that the decline in life expectancy reflects the overall impact of the pandemic on health, and the increase in fatigue and anxiety reported by consumers may be directly related to the stress of the pandemic or changes in lifestyle. The combination of the two implies that the pandemic has exacerbated physical and mental health problems.",
+        "D": "This is a hard distractor, based on a misunderstanding of the chart data: Chart_35_4 shows that the proportion of respiratory problems is 19% (relatively low), but the distractor incorrectly quotes the proportion of skin problems, 48%, as the proportion of respiratory problems and over - infers that it causes the decline in life expectancy. In the actual data, the proportion of respiratory problems is not high, and there is no direct causal evidence of its relationship with the decline in life expectancy.",
+        "E": "This is a hard distractor, based on a misunderstanding of the chart data: The proportion of susceptibility to fatigue in chart_35_4 is indeed 53% (the highest), but the distractor incorrectly infers that it “directly explains” the decline in life expectancy. Chart_35_1 shows that the decline in life expectancy may be related to multiple factors, but the high proportion of fatigue only reflects subjective health problems and does not prove a causal or dominant role; the actual gap (such as 53% for fatigue vs 19% for respiratory problems) is not reasonably analyzed."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -104,6 +118,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "It combines chart_35_3 (chronic respiratory diseases account for a certain proportion of the causes of death) and chart_35_4 (the reported proportion of respiratory problems is relatively low). The reasoning is that the cause - of - death data shows the importance of respiratory diseases, but the low proportion reported by consumers may reflect effective protection or an underestimation of risks. Cross - chart analysis is needed to analyze the implied prevention effects or monitoring gaps.",
+        "B": "This is a hard distractor, based on a misunderstanding of the chart data: The proportion of weight issues in chart_35_4 is 50%, and the proportion of “others” among the causes of death from chronic diseases in chart_35_3 is 10%. The distractor incorrectly classifies weight issues as “others” and compares the proportions. In the actual data, weight issues may affect cardiovascular diseases or cancer (the main causes of death) through obesity, but the distractor misjudges the numerical gap (50% vs 10%) as evidence of no association.",
+        "C": "This is an easy distractor, based on a common - sense error: Cardiovascular and cancer dominate the causes of death from chronic diseases (80%) in chart_35_3, and skin problems are not mentioned; common sense tells us that skin cancer is not a major cause of death, so this option can be excluded without relying on the chart.",
+        "D": "It relies on chart_35_3 (showing that cardiovascular and cerebrovascular diseases account for the largest proportion of the causes of death from chronic diseases) and chart_35_4 (showing a relatively high proportion of high blood pressure, blood sugar, and blood lipid problems). The reasoning is that high blood pressure, blood sugar, and blood lipid problems (such as hypertension) are common risk factors for cardiovascular and cerebrovascular diseases. By combining the charts, it can be inferred that consumers' health problems may indicate a future burden of chronic diseases. Cross - chart connection between risk factors and the cause - of - death composition is needed.",
+        "E": "It relies on chart_35_4 (a high proportion of weight and gastrointestinal problems) and chart_35_3 (the proportion of “others” among the causes of death, which may include diseases related to obesity). The reasoning is that weight issues are often associated with chronic diseases such as diabetes, and gastrointestinal problems may point to inflammatory bowel diseases. By combining the charts, it can be inferred that these health problems, although not directly listed as the main causes of death, indirectly contribute to the risk of chronic diseases through the “others” category.",
+        "F": "This is a hard distractor, based on a misunderstanding of the chart data: Chart_35_3 shows that the proportion of cardiovascular and cerebrovascular deaths is 53%, and chart_35_4 shows that the proportion of high blood pressure, blood sugar, and blood lipid problems is 29%. The distractor incorrectly compares the numerical gap (53% vs 29%) and ignores that high blood pressure, blood sugar, and blood lipid are key risk factors for cardiovascular and cerebrovascular diseases. In the actual data, the 29% proportion of high blood pressure, blood sugar, and blood lipid may indirectly contribute to the 53% of deaths, but the distractor misinterprets it as “low proportion means no risk”."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -125,6 +154,20 @@
       "label": [
         "A",
         "C"
+      ],
+      "cot": {
+        "A": "It combines chart_35_2 (the high proportion of chronic diseases) and chart_35_4 (a relatively high proportion of problems such as high blood pressure, blood sugar, and blood lipid among consumers). The reasoning is that the risk factors for chronic diseases are common among consumers, but the pandemic (implied by the decline in life expectancy in chart_35_1) may exacerbate these factors through stress or difficulties in seeking medical treatment. By combining the charts, it can be inferred that the pandemic has magnified the threat of chronic diseases, rather than replacing it.",
+        "B": "This is a hard distractor, based on a misunderstanding of the chart data: The proportion of fatigue in chart_35_4 is 53%, and the proportion of cardiovascular deaths in chart_35_3 is 53%. The distractor incorrectly regards the same numerical value as a direct cause - effect relationship and ignores the time dimension (fatigue is a recent problem, while the death data is from 2019). The actual data does not prove that fatigue directly increases the risk of death, and the coincidence of the proportions does not represent a dynamic change.",
+        "C": "It relies on chart_35_2 (showing that the proportion of deaths from chronic diseases was extremely high in 2019) and chart_35_1 (showing the decline in life expectancy from 2020 to 2021). The reasoning is that the chronic disease data (before the pandemic) shows that long - term health threats dominate, but the pandemic has led to a rapid decline in life expectancy (possibly due to acute infections or the overcrowding of medical resources). The conflict lies in the stability of chronic diseases and the acute impact of the pandemic. Combining the charts is needed to explain the time difference and the shift in health focus.",
+        "D": "This is an easy distractor, based on a common - sense error: Chart_35_2 shows that the proportion of deaths from chronic diseases was 88.5% in 2019, but the data has not been updated for the changes during the pandemic; common sense tells us that the pandemic may exacerbate the risk of chronic diseases (such as medical interruptions), rather than reducing the proportion. This option can be excluded without relying on the chart.",
+        "E": "This is a hard distractor, based on a misunderstanding of the chart data: Chart_35_4 shows that the proportion of respiratory problems is 19%, and chart_35_3 shows that the proportion of deaths from chronic respiratory diseases is 10%. The distractor incorrectly compares the gap (19% vs 10%) to infer that “the impact of the pandemic is small”. However, the pandemic is an acute event and may indirectly affect deaths through respiratory problems. In the actual data, there is no direct quantitative relationship between the decline in life expectancy (chart_35_1) and the proportion of respiratory problems."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -149,6 +192,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "The statement is broad and lacks clear action guidelines, only reflecting general medical resource optimization strategies. The chart data focuses on specific health impacts (such as the decline in life expectancy and the risk of chronic diseases) and does not cover the issue of facility coverage. It can be easily identified as ineffective through logical common sense.",
+        "B": "Option 2 involves chart_35_1 (the downward trend of life expectancy), chart_35_2 (the extremely high proportion of chronic disease deaths) and chart_35_3 (the specific composition of chronic diseases, such as the dominance of cardiovascular and cerebrovascular diseases). Reasoning: Chronic diseases are a fundamental health threat, and the COVID - 19 pandemic has exacerbated the risk. Prevention can improve the recovery efficiency.",
+        "C": "Option 3 involves chart_35_4 (the prominent proportions of susceptibility to fatigue, weight problems, etc.) and chart_35_2 (the high proportion of chronic diseases). Reasoning: There is a causal relationship between lifestyle problems and the risk of chronic diseases. Educational intervention can reduce the incidence rate.",
+        "D": "On the surface, it uses chart data (chart_35_4 shows that the proportion of respiratory problems is 19%, and chart_35_1 shows a decline in life expectancy), but misinterprets it. The reported rate of respiratory problems is not the highest (the proportion of fatigue is 53%, which is higher), and the main cause of the decline in life expectancy may be chronic diseases (chart_35_2 and chart_35_3 show that chronic diseases dominate deaths), rather than simply respiratory problems. The interference item confuses secondary symptoms with the core cause of death.",
+        "E": "Option 1 involves chart_35_1 (the significant decline in life expectancy during the pandemic, indicating a health impact) and chart_35_4 (the high proportion of anxiety/depressive mood, indicating an increase in mental health problems). Reasoning: There is a correlation between mental health and overall life expectancy. Allocating resources can alleviate the sequelae of COVID - 19.",
+        "F": "It quotes chart data (chart_35_4 shows that the proportion of skin problems is 48%), but makes a wrong association. Skin problems do not appear in the composition of chronic disease causes of death (chart_35_3), and there is no direct logical connection with the recovery of life expectancy. The interference item exaggerates the importance of secondary problems and ignores higher - priority factors such as mental health or chronic diseases.",
+        "G": "It is based on general public health common sense (such as the importance of vaccines in preventing infectious diseases), but does not rely on chart data. The charts do not mention vaccines or future infectious disease prevention, only describing the impact of COVID - 19 on life expectancy (chart_35_1) and health problems (chart_35_4). Therefore, it can be excluded through common sense."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -172,6 +232,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "It is a common - sense suggestion lacking specificity. The chart data emphasizes the priority of causes of death (such as 53% for cardiovascular and cerebrovascular diseases), rather than the screening mechanism. The interference item has no action guidelines and ignores the specific numerical values in the chart.",
+        "B": "Option 3 involves chart_35_3 (the proportion of chronic respiratory diseases) and chart_35_1 (the decline in life expectancy caused by the COVID - 19 pandemic, indicating the vulnerability of respiratory health). Reasoning: Although the proportion of deaths from respiratory diseases is relatively low, the COVID - 19 pandemic has highlighted the risk of the respiratory system. Balancing resources can avoid short - board problems.",
+        "C": "It is based on general health system common sense, with a broad statement and no specific chart basis. The charts focus on the proportion of chronic disease deaths (chart_35_2) and the composition of causes of death (chart_35_3), and do not involve personnel skills. It can be easily excluded through common sense.",
+        "D": "It uses chart data (chart_35_4 shows that the proportion of emotional problems is 44%), but makes a wrong association. Although emotional distress is highly prevalent, it is not directly listed as a cause of chronic diseases (the main causes in chart_35_3 are cardiovascular and cerebrovascular diseases and cancer). The interference item confuses relevant factors (emotions may have an indirect impact) with the core cause of death and ignores diseases with a higher proportion.",
+        "E": "Option 1 involves chart_35_3 (the highest proportion of cardiovascular and cerebrovascular diseases) and chart_35_4 (the significant proportion of high blood pressure, blood sugar and blood lipid, as risk factors). Reasoning: Cardiovascular and cerebrovascular diseases dominate the causes of death, and consumers' symptoms show the source of risk. Prioritizing investment can effectively reduce deaths.",
+        "F": "On the surface, it quotes the chart (chart_35_3 shows that the proportion of 'others' is 10%), but misinterprets it. This proportion is much lower than 53% for cardiovascular and cerebrovascular diseases and 27% for cancer. Resource allocation should be based on the highest - risk areas. The interference item reverses the priority and may lead to a waste of resources.",
+        "G": "Option 2 involves chart_35_3 (the second - highest proportion of cancer) and chart_35_4 (the high proportions of weight problems, anxiety/depression). Reasoning: Cancer is a major cause of death, and consumers' problems such as obesity and stress are known risk factors. Early prevention can optimize the effect."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -195,6 +272,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option 2 involves chart_35_4 (the prominent proportions of weight problems and gastrointestinal/digestive tract problems) and chart_35_3 (the combined proportion of cardiovascular and cerebrovascular diseases and cancer is 80%, which is related to lifestyle). Reasoning: Consumers' symptoms are risk factors for chronic diseases. Nutrition and exercise initiatives can prevent the dominant causes of death.",
+        "B": "It quotes chart data (chart_35_4 shows that the proportion of gastrointestinal problems is 47%), but misinterprets it. Gastrointestinal problems are not prominent in the composition of chronic disease causes of death (chart_35_3, the main cause is 53% for cardiovascular and cerebrovascular diseases), and the correlation is weaker compared with highly prevalent problems such as 53% for fatigue or 50% for weight. The interference item over - amplifies secondary symptoms and ignores the need for more comprehensive strategies.",
+        "C": "It uses chart data (chart_35_4 shows that the proportion of respiratory problems is 19%, and chart_35_3 shows that the proportion of respiratory diseases is 10%), but misinterprets the trend. The reported rate of respiratory problems is relatively low (far lower than 53% for fatigue), and the impact of COVID - 19 (chart_35_1) should not dominate the prevention of chronic diseases. The interference item confuses sudden health events with long - term chronic disease risks, resulting in a significant deviation in resource allocation.",
+        "D": "Option 1 involves chart_35_4 (the highest proportion of susceptibility to fatigue) and chart_35_2 (the extremely high proportion of chronic disease deaths). Reasoning: Fatigue, as a highly prevalent symptom, may accelerate the development of chronic diseases. Workplace strategies can intervene at the source.",
+        "E": "Option 3 involves chart_35_4 (the significant proportion of anxiety/depressive mood) and chart_35_2 (the high overall proportion of chronic diseases). Reasoning: Mental health and physical diseases interact with each other. Integrating services can effectively allocate resources and meet diverse needs.",
+        "F": "It is based on the common sense of digital health trends, with a broad statement and no chart basis. The chart (chart_35_4) lists specific health problems (such as fatigue and weight), but does not involve technical tools. It can be easily excluded through common sense.",
+        "G": "It is a general health promotion suggestion lacking specificity. The chart data shows highly prevalent problems such as 53% for fatigue, but the interference item does not directly quote the data and ignores the specific correlation with the prevention of chronic diseases (chart_35_2 and chart_35_3)."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     }
   ]

@@ -85,6 +85,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil porque se basa en lógica general: el crecimiento del rendimiento de las instituciones de aprendizaje en línea podría alentar a las empresas a aumentar el gasto, pero el gráfico muestra que el presupuesto general de 2022 disminuyó (51,3% de proporción de disminución), esta opción ignora los factores de incertidumbre económica y no utiliza el contenido del gráfico.",
+        "B": "Esta es una opción de interferencia fácil porque solo depende del sentido común: la disminución de la demanda de habilidades de los empleados generalmente no conduce directamente a la reducción del presupuesto (el presupuesto de capacitación corporativa a menudo se ve afectado por el control de costos o el entorno económico), y no cita ningún dato del gráfico.",
+        "C": "Esta es una opción de interferencia difícil porque calcula incorrectamente los datos del gráfico: en chart_77_1, la proporción de disminución del presupuesto (disminución significativa 10,5% + disminución ligera 40,8% = 51,3%) supera la proporción de crecimiento del presupuesto (crecimiento ligero 12,5% + crecimiento significativo 1,3% = 13,8%), el presupuesto general tiende a ser conservador; esta opción ignora la proporción de disminución e infiere incorrectamente la tendencia de crecimiento.",
+        "D": "La opción 2 combina chart_77_2 (crecimiento significativo del rendimiento de las instituciones de aprendizaje en línea: 51% crecimiento por encima del 20% + 31% crecimiento dentro del 20% = 82% crecimiento) con chart_77_1 (alta proporción de presupuesto básicamente sin cambios o disminuido: 34,9% sin cambios + 51,3% disminución = 86,2% no crecimiento), infiriendo que incluso si algunas áreas crecen, factores externos (como la economía) impulsan la conservación general.",
+        "E": "La opción 3 combina chart_77_2 (divergencia del rendimiento: crecimiento del aprendizaje en línea vs. disminución de los proveedores de capacitación) con chart_77_1 (proporción de crecimiento ligero del presupuesto solo 12,5%) razonando: las empresas pueden ajustar la dirección de la inversión, pero no es suficiente para compensar la tendencia general de disminución del presupuesto. Todas las opciones requieren comparación de series de tiempo entre gráficos (el rendimiento de 2021 afecta el presupuesto de 2022), no se puede inferir solo de un gráfico.",
+        "F": "Esta es una opción de interferencia difícil porque interpreta incorrectamente los datos del gráfico: chart_77_2 muestra que el rendimiento de las instituciones de aprendizaje en línea en 2021 creció (51% crecimiento por encima del 20%, 31% crecimiento dentro del 20%, total 82% crecimiento), no disminuyó; esta opción interpreta incorrectamente el crecimiento como disminución, lo que lleva a un razonamiento erróneo.",
+        "G": "La opción 1 depende de chart_77_2 (rendimiento de 2021) donde la proporción de disminución del rendimiento de los proveedores de capacitación es alta (43% declive dentro del 20% + 11% declive por encima del 20% = 54% disminución) combinado con chart_77_1 (cambios en el presupuesto de 2022) donde la proporción de disminución del presupuesto es alta (10,5% disminución significativa + 40,8% disminución ligera = 51,3% disminución) razonando conjuntamente: la disminución del rendimiento puede indicar debilidad de la demanda, lo que lleva a la restricción del presupuesto posterior."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 3 combina chart_77_3 (escala total de financiación global de 2021: 307 mil millones de yuanes, aumento drástico interanual) con chart_77_2 (alta proporción de crecimiento de las instituciones de aprendizaje en línea) razonando: la correlación positiva entre capital y rendimiento requiere validación cruzada de datos de ambos gráficos. Todas las opciones deben integrar la relación causal implícita entre la escala de financiación (lado del capital) y el rendimiento (lado del resultado).",
+        "B": "La opción 1 depende de chart_77_3 (escala de financiación) donde la financiación en el extranjero en 2021 fue de 277 mil millones de yuanes (pico histórico) combinado con chart_77_2 (rendimiento de 2021) donde el 51% de las instituciones de aprendizaje en línea tuvieron un crecimiento del rendimiento por encima del 20% razonando conjuntamente: el aumento de la financiación puede apoyar directamente el desarrollo empresarial, requiere comparación de tendencias numéricas entre gráficos.",
+        "C": "Esta es una opción de interferencia fácil porque solo depende del sentido común: la pandemia puede amplificar la demanda, pero esta opción ignora completamente el posible apoyo de capital de la financiación y no cita datos del gráfico.",
+        "D": "Esta es una opción de interferencia fácil porque se basa en conocimiento general: la innovación tecnológica puede afectar el rendimiento, pero el gráfico muestra un aumento explosivo de la financiación en 2021 (277 mil millones en el extranjero + 30 mil millones en China = 307 mil millones en chart_77_3), esta opción afirma incorrectamente que la financiación disminuyó y no está relacionada con los datos.",
+        "E": "Esta es una opción de interferencia difícil porque interpreta incorrectamente los valores: en chart_77_3, la escala total de financiación de 2020 fue de 10 mil millones (China) + 71 mil millones (extranjero) = 81 mil millones, mientras que en 2021 fue de 30 mil millones (China) + 277 mil millones (extranjero) = 307 mil millones, 2021 es más alto; esta opción cree incorrectamente que 2020 es más alto, confundiendo la tendencia.",
+        "F": "Esta es una opción de interferencia difícil porque compara incorrectamente los datos del gráfico: chart_77_3 muestra que la financiación en el extranjero en 2021 fue de 277 mil millones vs. China 30 mil millones, la escala de China es menor; esta opción afirma incorrectamente que China es más alta que el extranjero, lo que lleva a un análisis de asociación erróneo.",
+        "G": "La opción 2 combina chart_77_3 (financiación de China en 2021 solo 30 mil millones, mucho menor que el extranjero) con chart_77_2 (alto crecimiento general del rendimiento de las instituciones de aprendizaje en línea: 82% crecimiento) razonando: a pesar del desequilibrio de financiación, factores externos (como la pandemia que impulsa la demanda en línea) explican la resiliencia del rendimiento, no se puede concluir solo de un gráfico."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 1 depende de chart_77_3 (financiación de 2022: extranjero 75 mil millones, disminuyó desde 277 mil millones en 2021 pero más alto que años anteriores) combinado con chart_77_1 (presupuesto de 2022: 51,3% disminución + 34,9% sin cambios = 86,2% no crecimiento) razonando conjuntamente: el conflicto entre la existencia de financiación en el extranjero y la restricción del presupuesto requiere comparación entre gráficos, explicado como retraso temporal o factores geográficos.",
+        "B": "Esta es una opción de interferencia difícil porque infiere incorrectamente las diferencias regionales: chart_77_1 no divide el presupuesto por región, la disminución general del presupuesto es 51,3%; mientras que en chart_77_3 la financiación de China en 2022 fue 0 mil millones, pero esta opción afirma incorrectamente que el presupuesto de China aumentó, y el autofinanciamiento no tiene soporte de datos, asociación errónea de gráficos.",
+        "C": "Esta es una opción de interferencia fácil porque se basa en el conocimiento general de la industria: la financiación puede usarse en múltiples áreas, pero el gráfico no especifica el uso; esta opción no utiliza ningún contenido del gráfico, habla en términos generales.",
+        "D": "Esta es una opción de interferencia fácil porque depende del sentido común: el aumento de la financiación puede apoyar el crecimiento del presupuesto, pero esta opción no cita datos del gráfico (chart_77_3 muestra financiación en el extranjero en 2022 de 75 mil millones < 2021 277 mil millones, disminución real), solo se basa en lógica general.",
+        "E": "La opción 3 combina chart_77_3 (financiación global de 2022: 75 mil millones vs. 2021 307 mil millones, disminución de aproximadamente 75,6%) con chart_77_1 (proporción de disminución del presupuesto 51,3%) razonando: la disminución de la financiación es mayor pero la proporción de disminución del presupuesto es menor, el conflicto surge de las diferencias entre el comportamiento empresarial (como recortes a corto plazo) y las tendencias de la industria, requiere cálculo numérico de ambos gráficos. Todas las opciones deben manejar el conflicto entre chart_77_1 (decisión subjetiva del presupuesto) y chart_77_3 (datos objetivos de financiación), y depender del razonamiento conjunto.",
+        "F": "La opción 2 combina chart_77_3 (financiación de China en 2022: 0 mil millones, 2021 fue 30 mil millones) con chart_77_1 (alta proporción de disminución del presupuesto) razonando: la financiación de China llegando a cero está directamente relacionada con la disminución del presupuesto, pero requiere verificación entre gráficos del impacto regional, un solo gráfico no puede apoyarlo independientemente.",
+        "G": "Esta es una opción de interferencia difícil porque calcula incorrectamente los datos del gráfico: chart_77_3 muestra financiación en el extranjero en 2022 de 75 mil millones vs. 2021 277 mil millones, en realidad es una disminución (aproximadamente 73% de disminución), no un crecimiento; esta opción interpreta incorrectamente los valores, lo que hace que la explicación del conflicto sea inválida."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Interferencia difícil: Aparentemente utiliza los datos de chart_77_1 (el porcentaje de aumento significativo del presupuesto es del 1,3%), pero interpreta erróneamente la tendencia. El gráfico muestra que el presupuesto en general disminuye (disminución significativa del 10,5% + disminución ligera del 40,8% = 51,3%). Esta opción ignora la tendencia principal y se centra en un grupo de crecimiento mínimo. La desviación en la dirección de la estrategia puede causar una asignación incorrecta de recursos.",
+        "B": "Razonamiento conjunto de chart_77_1 (la proporción del presupuesto básicamente sin cambios es alta) y chart_77_2 (el rendimiento de las instituciones de aprendizaje en línea crece de manera estable, pero se necesita innovación para atender a los clientes con presupuesto sin cambios). La estrategia enfatiza la mejora de la eficiencia en una demanda estable, lo que es coherente con los valores (no se ignoran a los clientes con presupuesto medio).",
+        "C": "Razonamiento conjunto de chart_77_1 (tendencia a la disminución del presupuesto) y chart_77_2 (la proporción de proveedores de capacitación con rendimiento en declive es alta). La estrategia se centra en la optimización de recursos y evita gastos ineficaces.",
+        "D": "Interferencia difícil: Aparentemente utiliza los datos de chart_77_2 (la proporción de instituciones de aprendizaje en línea con rendimiento en declive es del 16% + 2% = 18%), pero confunde la relación. En realidad, la proporción de crecimiento del rendimiento es del 82% (51% de crecimiento por encima del 20% + 31% de crecimiento dentro del 20%). Esta opción exagera los datos de declive secundarios y ignora el alto potencial de crecimiento, lo que es contradictorio con la tendencia del gráfico.",
+        "E": "Interferencia fácil: Se basa en conocimientos comerciales generales (por ejemplo, \"fortalecer la promoción\" es una sugerencia general), pero no utiliza datos de los gráficos. La estrategia es amplia y no tiene una guía específica para la industria, por lo que es fácil de descartar por conocimientos generales.",
+        "F": "Interferencia fácil: Sugerencias de optimización interna genéricas (por ejemplo, \"mejorar la eficiencia operativa\"), no se combinan con los datos de cambios en el presupuesto o rendimiento en los gráficos. Es una estrategia generalizada y carece de pertinencia.",
+        "G": "Razonamiento conjunto de chart_77_1 (la tendencia a la disminución del presupuesto de capacitación corporativa es evidente, la mayoría de los clientes tiene un presupuesto en disminución o sin cambios) y chart_77_2 (la proporción de crecimiento del rendimiento de las instituciones de aprendizaje en línea es mucho más alta que la de los proveedores de capacitación, lo que muestra su potencial de crecimiento). La estrategia enfatiza la transición a un modelo eficiente para hacer frente a la austeridad presupuestaria."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Interferencia difícil: Aparentemente utiliza los datos de chart_77_3 (el pico de financiación extranjera de 27.700 millones de yuanes en 2021), pero interpreta erróneamente la tendencia. El gráfico muestra que la escala de financiación disminuyó en 2022 (7.500 millones de yuanes en el extranjero). Esta opción ignora el riesgo de fluctuación (ajuste después del pico). La estrategia puede resultar en una inversión en la cima del mercado.",
+        "B": "Interferencia fácil: Se basa en conocimientos generales de inversión (por ejemplo, \"diversificar la inversión\"), pero no utiliza datos de los gráficos (escala de financiación o diferencias en el rendimiento). La estrategia es amplia y no tiene una guía específica para la industria, por lo que es fácil de descartar por conocimientos generales.",
+        "C": "Razonamiento conjunto de chart_77_2 (la proporción de proveedores de capacitación con rendimiento en declive es alta) y chart_77_3 (la fluctuación de la escala de financiación muestra el riesgo de la industria). La estrategia optimiza la asignación de recursos y evita inversiones ineficaces.",
+        "D": "Interferencia fácil: Sugerencias de inversión generales (por ejemplo, \"mantener a largo plazo\"), no se combinan con la fluctuación en los gráficos (por ejemplo, la escala de financiación extranjera disminuyó a 7.500 millones de yuanes en 2022) o los datos de rendimiento. Carece de pertinencia y no puede hacer frente a riesgos específicos.",
+        "E": "Razonamiento conjunto de chart_77_3 (la escala de financiación extranjera ha sido dominante en el crecimiento a largo plazo, pero disminuyó en 2022) y chart_77_2 (el rendimiento de las instituciones de aprendizaje en línea crece de manera estable). La estrategia combina datos geográficos y de rendimiento para capturar oportunidades globales.",
+        "F": "Razonamiento conjunto de chart_77_2 (la proporción de crecimiento del rendimiento de las instituciones de aprendizaje en línea es significativamente más alta que la de los proveedores de capacitación) y chart_77_3 (la tendencia general de crecimiento de la escala de financiación global es evidente, pero ha habido fluctuaciones de descenso en los últimos años). La estrategia aprovecha la ventaja de rendimiento y la coincidencia de tendencias, y enfatiza el crecimiento a largo plazo.",
+        "G": "Interferencia difícil: Aparentemente utiliza los datos de chart_77_3 (la financiación en China fue de 3.000 millones de yuanes en 2021), pero confunde la relación. El gráfico muestra que la financiación en China es inestable (volvió a 0 millones de yuanes en 2022 y fue de 0 de 2013 a 2019). Esta opción confunde un crecimiento momentáneo con un potencial sostenido y ignora la fluctuación general y las diferencias en el rendimiento (las instituciones de aprendizaje en línea en chart_77_2 tienen un mejor crecimiento). La desviación en la dirección de la estrategia es evidente."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Interferencia fácil: Sugerencias de compra generales (por ejemplo, \"realizar concursos entre múltiples proveedores\"), no se combinan con el contenido específico de los gráficos (por ejemplo, el rendimiento de aprendizaje en línea o la fluctuación de financiación). Carece de adaptación a la evolución de la industria y es una sugerencia generalizada.",
+        "B": "Razonamiento conjunto de chart_77_3 (fluctuación de la escala de financiación, por ejemplo, después del pico en 2021, disminuyó en 2022) y chart_77_1 (tendencia a la disminución del presupuesto). La estrategia se basa en el ciclo de la industria y selecciona proveedores estables para reducir riesgos.",
+        "C": "Interferencia difícil: Aparentemente utiliza los datos de chart_77_3 (el mínimo de financiación extranjera de 100 millones de yuanes en 2013), pero interpreta erróneamente la tendencia. El gráfico muestra que la escala de financiación en general ha aumentado (27.700 millones de yuanes en el extranjero en 2021). Los años de baja financiación pueden corresponder a planes inmaduros. Esta opción ignora el riesgo de calidad y es contradictoria con el entorno de disminución del presupuesto (chart_77_1).",
+        "D": "Interferencia fácil: No se basa en datos de los gráficos y se basa en conocimientos generales de recursos humanos (por ejemplo, \"aumentar los beneficios de los empleados\"), pero no está relacionado con los cambios en el presupuesto o la tendencia de financiación. La estrategia es amplia y no se enfoca en la rentabilidad del costo, por lo que es fácil de descartar.",
+        "E": "Razonamiento conjunto de chart_77_1 (tendencia a la disminución del presupuesto de capacitación corporativa) y chart_77_2 (la proporción de crecimiento del rendimiento de las instituciones de aprendizaje en línea es alta). La estrategia responde directamente a la presión presupuestaria y enfatiza la rentabilidad del costo.",
+        "F": "Interferencia difícil: Aparentemente utiliza los datos de chart_77_2 (la proporción de instituciones de aprendizaje en línea con rendimiento en declive es del 16% + 2% = 18%), pero confunde la relación. En realidad, la proporción de crecimiento del aprendizaje en línea es del 82%, mucho mejor que la de los proveedores tradicionales (declive del 54%). Esta opción exagera los datos secundarios y ignora el alto potencial de relación calidad - precio, lo que es contrario a la tendencia de financiación (crecimiento del aprendizaje digital en chart_77_3).",
+        "G": "Razonamiento conjunto de chart_77_1 (la proporción del presupuesto básicamente sin cambios es alta) y chart_77_3 (el crecimiento general de la escala de financiación muestra el potencial de la industria de aprendizaje digital). La estrategia enfatiza una perspectiva a largo plazo y es coherente con los valores (no sacrificar el desarrollo de habilidades futuras debido a la disminución del presupuesto)."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     }
   ]

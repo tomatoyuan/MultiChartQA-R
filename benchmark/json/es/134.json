@@ -84,6 +84,22 @@
       "label": [
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "这是Easy干扰项：基于生活常识（天气影响护肤习惯），不依赖图表数据，是泛泛而谈的正确表述。",
+        "B": "选项2联合chart_134_2（使用频率：Usado diariamente 23.4%，Usado a menudo 62.3%）和chart_134_2（价格接受度：150 yuan y más仅7.0%接受），推理出高频使用（Usado a menudo + Usado diariamente = 85.7%）与中低价位主导相关，但Usado diariamente单独较低可能与高价格接受度低冲突。两个选项都需跨图比较数值趋势（如\"比例较高\"\"偏好中低价位\"），不能单从一张图表推断。",
+        "C": "这是Easy干扰项：基于护肤常识（产品使用复杂性），不涉及图表数值，属于一般性推理。",
+        "D": "这是Hard干扰项：错误理解图表数值和排序。必要性图表中92.5%认为有必要，仅7.5%认为没必要，但干扰项夸大\"必要性认知不足\"的影响；同时\"Usado a menudo\"62.3%与\"Usado diariamente\"23.4%的差距被误读为认知问题，而非成本因素。",
+        "E": "选项1联合了chart_134_1（必要性认知：92.5%认为有必要）和chart_134_2（价格接受度：46.1%偏好50 - 99 yuan，41.2%偏好100 - 149 yuan），推理出高必要性认知未完全转化为Usado diariamente，可能是因为中等价格偏好暗示消费者权衡成本。",
+        "F": "这是Hard干扰项：错误解读图表数据。价格接受度图表显示Por debajo de 50 yuan接受度5.7%很低，但Usado diariamente比例23.4%与低价关联弱；实际数据中低价接受度低可能因偏好中价位，而非直接导致使用频率低。"
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -104,6 +120,22 @@
       "label": [
         "A",
         "F"
+      ],
+      "cot": {
+        "A": "选项1联合chart_134_1（重要性因素：Prevenir la quemadura solar 83.2%最高，Prevenir el bronceado solar 52.5%中等）和chart_134_3（倾向功效：Despigmentante 38.1%较低），推理出高重要性晒伤未对应高美白倾向，可能因为晒伤是直接风险而晒黑/美白是美容问题。",
+        "B": "这是Easy干扰项：基于护肤常识（美白产品潜在风险），不依赖图表数据，是行业通用观点。",
+        "C": "这是Easy干扰项：基于市场常识（营销影响消费行为），未引用图表数值，属于泛化推理。",
+        "D": "这是Hard干扰项：错误比较图表数值和排序。Prevenir el bronceado solar重要性52.5%实际高于Calmativo功效47.1%，但干扰项颠倒排序；正确数据中Prevenir la quemadura solar 83.2%最高，与Calmativo功效的关联被误读。",
+        "E": "这是Hard干扰项：错误关联图表差距。Prevenir el envejecimiento fotoinducido重要性57.2%与Antioxidante功效52.3%差距小，但Despigmentante功效38.1%较低，干扰项误以为光老化应直接推动美白；实际数据中消费者更关注健康相关功效（如Antioxidante），而非间接美容效果。",
+        "F": "选项2联合chart_134_1（重要性因素：Prevenir el envejecimiento fotoinducido 57.2%，Prevenir la pigmentación 57.3%）和chart_134_3（倾向功效：Antioxidante 52.3%，Calmativo 47.1%较高；Despigmentante 38.1%较低），推理出光老化/色斑重要性高但未提升美白倾向，反而Antioxidante/Calmativo更受青睐，可能因为后者更贴合皮肤保护。每个选项需比较两张图表的数值趋势（如\"比例最高\"\"比例较低\"），单张图表无法得出冲突解释。"
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -125,6 +157,22 @@
       "label": [
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是Easy干扰项：基于产品设计常识（功效多样化吸引注意力），未引用具体图表数值，属于一般性推理。",
+        "B": "这是Hard干扰项：错误解读图表排序和关联。价格接受度偏好中价位（50 - 99 yuan 46.1%和100 - 149 yuan 41.2%），但干扰项误将100 - 149 yuan视为\"高价\"；发展期待中Precio asequible 37.1%虽不高，但Efecto del producto de larga duración 71.4%主导，错误关联功效与高价。",
+        "C": "这是Easy干扰项：基于消费心理学常识（性价比平衡），不涉及图表数据，是泛泛而谈的正确表述。",
+        "D": "这是Hard干扰项：错误理解数值差距和因果。发展期待中Alta seguridad del producto比例32.7%非最低（Lanzamiento de productos con eficacia compuesta 31.9%更低），且与Calmativo功效47.1%无直接冲突；价格接受度中低价接受度5.7%低是因偏好中价位，而非安全性担忧。",
+        "E": "选项2联合chart_134_4（发展期待：Eficacia del producto más refinada 47.0%较高）、chart_134_3（倾向功效：Hidratante 57.8%，Antioxidante 52.3%较高）和chart_134_2（价格接受度：150 yuan y más仅7.0%接受），推理出高功效期待与低高价接受度冲突，表明功效需求驱动价格敏感度。每个选项依赖两张图表数值比较（如\"偏好中低价位\"\"期待比例很高\"），不能单图解决。",
+        "F": "选项1联合chart_134_2（价格接受度：50 - 149 yuan合计87.3%偏好）、chart_134_4（发展期待：Precio asequible 37.1%中等，Efecto del producto de larga duración 71.4%很高）和chart_134_3（倾向功效：Hidratante 57.8%，Antioxidante 52.3%较高），推理出中等价格偏好与高持久期待及高功效倾向形成规律，隐含消费者权衡价格与性能。"
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -148,6 +196,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción asocia erróneamente los datos de chart_134_3 y chart_134_4 (la eficacia despigmentante del 38,1% no es la más alta, y el precio asequible del 37,1% no está relacionado con la eficacia), y omite las demandas centrales como la duración del efecto del 71,4%, lo que hace que la estrategia sea ineficaz.",
+        "B": "Esta opción interpreta erróneamente los datos de chart_134_1 (prevenir el bronceado solar del 52,5% no es el más alto, prevenir la quemadura solar del 83,2% es más alto), y confunde la relación entre prevenir el bronceado y el despigmentante (el despigmentante solo representa el 38,1% en chart_134_3, no es una prioridad), y aunque utiliza los datos superficialmente, la dirección de la estrategia está desviada.",
+        "C": "Razonamiento conjunto de chart_134_1 (la importancia de prevenir la quemadura solar tiene la proporción más alta) y chart_134_3 (la eficacia hidratante tiene la proporción más alta), y mejora la competitividad mediante la combinación de funciones básicas y auxiliares.",
+        "D": "Razonamiento conjunto de chart_134_3 (la eficacia hidratante tiene la proporción más alta) y chart_134_4 (la duración del efecto del producto tiene la proporción más alta), y enfatiza la integración de la eficacia altamente demandada y las expectativas centrales.",
+        "E": "Esta sugerencia se centra en el costo en lugar del diseño de la eficacia, es una idea general (el precio bajo puede atraer a los usuarios, pero no optimiza la eficacia), no está relacionada con el núcleo de la pregunta, y no cita ningún dato de los gráficos.",
+        "F": "Esta sugerencia se basa en el conocimiento general de marketing (por ejemplo, la publicidad puede mejorar la知名度 de la marca), pero no se refiere específicamente a la estrategia de diseño de la eficacia, y omite los datos de preferencia de eficacia en los gráficos (por ejemplo, la eficacia hidratante del 57,8% es la más alta), por lo tanto, se puede excluir mediante el conocimiento general.",
+        "G": "Razonamiento conjunto de chart_134_3 (la demanda de eficacia antioxidante y calmante es relativamente alta) y chart_134_4 (las expectativas de eficacia más refinada y productos con eficacia compuesta son evidentes), y se centra en el desarrollo de múltiples funciones."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -169,6 +234,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto del lado izquierdo de chart_134_2 (la proporción de uso de alta frecuencia es extremadamente alta) y el lado derecho (la proporción de aceptación de precio medio es dominante), y enfatiza que la fijación de precios se ajuste a los hábitos de los usuarios.",
+        "B": "Esta opción interpreta erróneamente los datos de frecuencia de uso de chart_134_2 (el uso raro solo representa el 1,7%, mientras que los usuarios de alta frecuencia representan el 85,7%), y confunde la asignación de recursos (educar a los usuarios de baja frecuencia es poco eficiente), y aunque razona superficialmente, la dirección es errónea.",
+        "C": "Esta opción interpreta erróneamente los datos de chart_134_2 (150 yuan y más solo representan el 7,0%, mucho menos que el 87,3% del rango de precio medio), y aunque utiliza los gráficos superficialmente, la estrategia es contraria a los datos (dirigida a un grupo minoritario en lugar de la mayoría), lo que reducirá la base de usuarios.",
+        "D": "Razonamiento conjunto del lado izquierdo de chart_134_2 (los usuarios de alta frecuencia son la mayoría) y el lado derecho (la aceptación de precio medio es alta), y profundiza las relaciones con los usuarios existentes a través de un plan de fidelización.",
+        "E": "Esta sugerencia se basa en una estrategia de marketing general (por ejemplo, la promoción de KOL), pero no se combina específicamente con los datos de precio o hábitos de uso, y la pregunta solicita la fijación de precios y la asignación de recursos, por lo tanto, se puede excluir mediante el conocimiento general.",
+        "F": "Razonamiento conjunto del lado derecho de chart_134_2 (la proporción de aceptación de precio bajo es muy baja) y el lado izquierdo (la proporción de usuarios de baja frecuencia es pequeña), y guía la asignación de recursos hacia áreas de alto retorno.",
+        "G": "Esta opción se centra en las promociones a corto plazo en lugar de la fijación de precios estratégica o la fidelización, es una acción general (las promociones son comunes, pero no se dirigen a los datos), y omite la distribución de precio y frecuencia de uso en chart_134_2."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -191,6 +273,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de chart_134_4 (existe una demanda de diseño de embalaje atractivo, pero no es dominante) y chart_134_1 (los factores funcionales como prevenir la quemadura solar tienen la proporción más alta), y enfatiza la prioridad de la asignación de recursos para evitar la inversión excesiva en áreas secundarias.",
+        "B": "Razonamiento conjunto de chart_134_1 (la importancia de prevenir el envejecimiento fotoinducido y la formación de manchas pigmentadas es relativamente alta) y chart_134_4 (las expectativas de eficacia más refinada son evidentes), y asigna recursos en función de las demandas derivadas.",
+        "C": "Razonamiento conjunto de chart_134_4 (la duración del efecto del producto tiene la proporción más alta) y chart_134_1 (la importancia de prevenir la quemadura solar tiene la proporción más alta), y se centra en la innovación relacionada con la salud.",
+        "D": "Esta opción interpreta erróneamente los datos de chart_134_4 (el diseño de embalaje atractivo del 45,0% es menor que la duración del efecto del 71,4%), y confunde la dirección de la innovación (el embalaje no es una función central), y aunque razona superficialmente, se desvía de la demanda central de la importancia de la protección solar.",
+        "E": "Esta opción se centra en la diversidad del producto en lugar de las funciones centrales (por ejemplo, el aroma no es importante), es una estrategia generalizada (es común ofrecer una amplia variedad de opciones), y omite las demandas funcionales en chart_134_1 y chart_134_4.",
+        "F": "Esta sugerencia se basa en el conocimiento general de la industria (el embalaje ecológico es popular), pero no se refiere a los datos de la importancia de la protección solar o las expectativas de desarrollo, y no está relacionada con la dirección de la innovación, por lo tanto, se puede excluir mediante el conocimiento general.",
+        "G": "Esta opción enfatiza erróneamente los datos de chart_134_1 (prevenir el cáncer de piel del 31,5% no es el más alto, prevenir la quemadura solar del 83,2% es más alto), y omite la duración del efecto del 71,4% en las expectativas de desarrollo, y aunque utiliza los datos superficialmente, la prioridad de la estrategia es errónea."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     }
   ]

@@ -83,6 +83,22 @@
       "label": [
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: Based on common sense (e.g., government subsidies are common in the new energy industry), it does not rely on the chart data (there is no subsidy information in the charts), so it is easy to be misled by common sense.",
+        "B": "This option is correct because it is necessary to jointly reason with two charts: The sales proportion trend chart shows that the sales proportion of lithium electric vehicles has been continuously rising from a low level from 2016 to 2022, while the battery cost data chart shows that the cost of lithium - ion batteries has been decreasing year by year from a high level from 2017 to 2021 (the cost of lead - acid batteries remains unchanged). This reveals the temporal correlation between the cost decrease and the market share growth. It is impossible to infer a causal relationship with only one chart - for example, looking at the sales proportion chart alone can only show the growth trend, but cannot explain the reason; looking at the battery cost chart alone can only show the cost change, but cannot link it to the market impact. After joint reasoning, it can be concluded that the cost reduction may have promoted market adoption by improving the cost - performance ratio.",
+        "C": "This is a Hard distractor: On the surface, it is based on chart reasoning (comparing battery costs and sales trends), but there is a wrong understanding of the gap (chart_98_3 shows that the cost of lead - acid batteries has been stable at 400 yuan and has never decreased; the distractor fabricates a downward trend, which contradicts the data).",
+        "D": "This is an Easy distractor: Based on common sense (brand marketing and advertising effects), it does not rely on the chart content (there is no brand or advertising data in the charts), which belongs to generalized reasoning.",
+        "E": "This is a Hard distractor: On the surface, it is based on chart reasoning (quoting battery costs and sales proportions), but there is a wrong understanding of the values (chart_98_3 shows that the cost of lithium - ion batteries in 2021 is 1050 yuan, not 1200 yuan; the actual cost has decreased, but the distractor wrongly describes it as an increase).",
+        "F": "This option is correct because it is necessary to jointly reason with two charts: The sales proportion trend chart shows that the sales proportion of lithium electric vehicles has been continuously rising from a low level from 2016 to 2022, while the battery cost data chart shows that the cost of lithium - ion batteries has been decreasing year by year from a high level from 2017 to 2021 (the cost of lead - acid batteries remains unchanged). This reveals the temporal correlation between the cost decrease and the market share growth. It is impossible to infer a causal relationship with only one chart - for example, looking at the sales proportion chart alone can only show the growth trend, but cannot explain the reason; looking at the battery cost chart alone can only show the cost change, but cannot link it to the market impact. After joint reasoning, it can be concluded that the cost reduction may have promoted market adoption by improving the cost - performance ratio."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -103,6 +119,22 @@
       "label": [
         "A",
         "C"
+      ],
+      "cot": {
+        "A": "This option is correct because it is necessary to jointly reason with two charts: The sales proportion trend chart shows that the overall sales proportion of lithium electric vehicles has been on an upward trend from 2016 to 2022 (including a significant increase from 2020 to 2021), while the online transaction proportion chart shows that the online transaction proportion has increased from a low level from 2020 to 2021. Joint analysis shows that during the period from 2020 to 2021, the increase in online transactions is synchronous with the growth of the sales proportion, which implies that the online channel may have promoted market expansion through convenience (such as easier access to products). It is impossible to establish a connection with only one chart - for example, looking at the online transaction chart alone has only two years of data, and the overall trend cannot be inferred; looking at the sales proportion chart alone cannot know the change in the sales channel. After joint reasoning, it can be concluded that the development of the online channel is a potential contributing factor to market growth.",
+        "B": "This is an Easy distractor: Based on common sense (online promotions are common strategies), it does not rely on the chart data (there is no discount information in the charts), and is easily accepted by common sense.",
+        "C": "This option is correct because it is necessary to jointly reason with two charts: The sales proportion trend chart shows that the overall sales proportion of lithium electric vehicles has been on an upward trend from 2016 to 2022 (including a significant increase from 2020 to 2021), while the online transaction proportion chart shows that the online transaction proportion has increased from a low level from 2020 to 2021. Joint analysis shows that during the period from 2020 to 2021, the increase in online transactions is synchronous with the growth of the sales proportion, which implies that the online channel may have promoted market expansion through convenience (such as easier access to products). It is impossible to establish a connection with only one chart - for example, looking at the online transaction chart alone has only two years of data, and the overall trend cannot be inferred; looking at the sales proportion chart alone cannot know the change in the sales channel. After joint reasoning, it can be concluded that the development of the online channel is a potential contributing factor to market growth.",
+        "D": "This is an Easy distractor: Based on common sense (the impact of the pandemic on shopping habits), it does not rely on the chart content (the charts do not mention the pandemic), which belongs to external knowledge reasoning.",
+        "E": "This is a Hard distractor: On the surface, it is based on chart reasoning (comparing the online proportion and the sales trend), but there is a wrong understanding of the ranking (chart_98_2 shows that the online transaction proportion in 2021 is 13%, which is an increase rather than a decrease; the distractor wrongly describes it as a decrease, which is contrary to the data trend).",
+        "F": "This is a Hard distractor: On the surface, it is based on chart reasoning (quoting the online proportion and the sales proportion), but there is a wrong understanding of the values (chart_98_2 shows that the online transaction proportion in 2020 is 10%, not 20%; the actual data is lower, and the distractor exaggerates the values, creating a false contradiction)."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -123,6 +155,22 @@
       "label": [
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: Based on common sense (income growth affects purchasing power), it does not rely on the chart data (there is no income information in the charts), which belongs to general economic knowledge.",
+        "B": "This is a Hard distractor: On the surface, it is based on chart reasoning (quoting costs and online proportions), but there is a wrong understanding of the values and the gap (chart_98_3 shows that the cost of lithium - ion batteries in 2020 is 1150 yuan, not 1300 yuan; chart_98_2 shows that the online transaction proportion is 10%, not 5%; the distractor wrongly lowers the values, creating a false inhibitory effect).",
+        "C": "This option is correct because it is necessary to jointly reason with two charts: The battery cost data chart shows that the cost of lithium - ion batteries has been decreasing year by year from a high level from 2017 to 2021 (the cost of lead - acid batteries remains unchanged), while the online transaction proportion chart shows that the online transaction proportion has increased from a low level from 2020 to 2021. Joint analysis shows that during the overlapping period from 2020 to 2021, the cost decrease and the increase in online transactions occurred simultaneously, which reveals that the consumer adoption rate may be affected by two factors - the cost reduction improves affordability, and the online channel enhances accessibility. It is impossible to fully explain with only one chart - for example, looking at the battery cost chart alone cannot know the dynamics of the sales channel; looking at the online transaction chart alone cannot know how the cost change affects the attractiveness of online sales. After joint reasoning, it can be concluded that the synergy between cost and channel may have accelerated market adoption.",
+        "D": "This is an Easy distractor: Based on common sense (traffic problems drive demand), it does not rely on the chart content (there is no traffic data in the charts), and is easily misled by external knowledge.",
+        "E": "This option is correct because it is necessary to jointly reason with two charts: The battery cost data chart shows that the cost of lithium - ion batteries has been decreasing year by year from a high level from 2017 to 2021 (the cost of lead - acid batteries remains unchanged), while the online transaction proportion chart shows that the online transaction proportion has increased from a low level from 2020 to 2021. Joint analysis shows that during the overlapping period from 2020 to 2021, the cost decrease and the increase in online transactions occurred simultaneously, which reveals that the consumer adoption rate may be affected by two factors - the cost reduction improves affordability, and the online channel enhances accessibility. It is impossible to fully explain with only one chart - for example, looking at the battery cost chart alone cannot know the dynamics of the sales channel; looking at the online transaction chart alone cannot know how the cost change affects the attractiveness of online sales. After joint reasoning, it can be concluded that the synergy between cost and channel may have accelerated market adoption.",
+        "F": "This is a Hard distractor: On the surface, it is based on chart reasoning (combining the online proportion and the cost trend), but there is a wrong understanding of the ranking (chart_98_2 shows that the online transaction proportion in 2021 is 13%, which is an increase rather than a decrease; the distractor wrongly describes it as a decrease, ignoring the actual growth trend)."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -143,6 +191,22 @@
       "label": [
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option is a hard distractor: On the surface, it uses chart reasoning (referring to the decrease in lithium battery costs), but misinterprets the trend - chart_98_3 shows that the decrease in lithium battery costs should encourage investment rather than stop R & D, and chart_98_1 shows that the market share of lithium - battery vehicles is increasing. Stopping R & D will result in losing growth opportunities; it confuses the relationship between cost reduction and intensified competition.",
+        "B": "This option is an easy distractor: The statement is broad and has no clear action guidelines (such as 'keeping stable'), and does not respond to technological transformation and demand changes. Chart_98_1 shows that the market share is steadily rising, and enterprises should actively adjust resources. This option can be easily excluded as a conservative strategy based on common sense.",
+        "C": "This option is a hard distractor: On the surface, it is based on the chart (stable lead - acid battery costs vs. decreasing lithium battery costs), but there is a logical deviation - chart_98_3 shows that the lead - acid battery cost is stable (400 yuan), while the lithium battery cost is decreasing and the market is growing (chart_98_1). This option suggests investing in lead - acid battery cost control, ignoring the growth potential of lithium batteries, and the strategic direction contradicts the data.",
+        "D": "It also combines chart_98_1 (the increasing trend of the sales proportion of two - wheeled lithium - battery bicycles year by year) and chart_98_3 (the significant decreasing trend of lithium - ion battery costs and the stable lead - acid battery costs), but emphasizes risk management during the transition period to avoid market gaps caused by radical transformation.",
+        "E": "This option is an easy distractor: It does not rely on chart data and is only based on general common sense (low lead - acid battery costs and high market acceptance), but ignores the continuous increase in the sales proportion of lithium - battery vehicles in chart_98_1 (from 5.4% in 2016 to the estimated 27.3% in 2022) and the significant decrease in lithium battery costs in chart_98_3 (from 1800 yuan in 2017 to 1050 yuan in 2021). It can be excluded based on common sense because lithium batteries are the growth direction.",
+        "F": "It jointly infers from chart_98_1 (the increasing trend of the sales proportion of two - wheeled lithium - battery bicycles year by year) and chart_98_3 (the significant decreasing trend of lithium - ion battery costs and the stable lead - acid battery costs), indicating that lithium - battery models have cost - effectiveness and market growth potential."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -163,6 +227,22 @@
       "label": [
         "A",
         "F"
+      ],
+      "cot": {
+        "A": "It also combines chart_98_2 (the increasing trend of the online transaction proportion) and chart_98_1 (the continuous growth trend of the sales proportion of two - wheeled lithium - battery bicycles), but suggests a more comprehensive resource allocation, emphasizing channel synergy rather than a single - sided preference.",
+        "B": "This option is a hard distractor: On the surface, it is based on the chart (the online proportion was 13% in 2021), but confuses the proportion - chart_98_2 shows that online transactions are growing, and chart_98_1 shows that the overall lithium - battery vehicle market is expanding. Completely abandoning the online channel will result in missing growth opportunities; it wrongly regards the proportion value as a low - priority factor.",
+        "C": "This option is an easy distractor: The statement is broad and has no specific channel actions (such as'reducing marketing'), and does not target the optimization of the sales model. Chart_98_2 shows that online transactions are growing, and this option can be easily excluded as an ineffective strategy based on common sense.",
+        "D": "This option is an easy distractor: It does not rely on chart data and is only based on general common sense (consumers' preference for experience), but ignores the increasing online transaction proportion in chart_98_2 (from 10% in 2020 to 13% in 2021) and the overall growth trend of the lithium - battery vehicle market in chart_98_1. It can be excluded based on common sense because it does not respond to changes in purchasing behavior.",
+        "E": "This option is a hard distractor: On the surface, it uses chart reasoning (referring to the online proportion data), but misinterprets the trend - the 30% growth rate from 10% to 13% in chart_98_2 is described as'slow growth' in the option, and it suggests prioritizing offline channels, which contradicts the online growth direction supported by the data.",
+        "F": "It jointly infers from chart_98_2 (the increasing trend of the online transaction proportion) and chart_98_1 (the continuous growth trend of the sales proportion of two - wheeled lithium - battery bicycles), indicating that the online channel is the driving force for growth."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -186,6 +266,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option is a hard distractor: On the surface, it uses chart reasoning (referring to the decrease in lithium battery costs), but has a logical error - chart_98_3 shows that the cost decrease should lead to price reduction to stimulate demand (like the correct option A), rather than price increase; chart_98_1 shows that the market share is increasing, and price increase may suppress growth, and the strategic direction contradicts the data.",
+        "B": "It combines chart_98_3 (the decreasing cost trend) and chart_98_1 (the market growth trend), but focuses on optimizing internal production efficiency.",
+        "C": "This option is an easy distractor: It does not rely on chart data and is only based on general assumptions (cost increase), but chart_98_3 shows that the lithium battery cost is decreasing (from 1800 yuan in 2017 to 1050 yuan in 2021) and the lead - acid battery cost is stable, and the market is growing (chart_98_1). Price increase will weaken competitiveness and can be excluded based on common sense.",
+        "D": "It jointly infers from chart_98_3 (the significant decreasing trend of lithium - ion battery costs) and chart_98_1 (the increasing trend of the sales proportion of two - wheeled lithium - battery bicycles), indicating that the cost reduction provides room for price reduction to drive demand.",
+        "E": "It jointly infers from chart_98_2 (the increasing trend of the online transaction proportion) and chart_98_1 (the market growth trend), and suggests improving profits through value - added services rather than direct price reduction.",
+        "F": "This option is an easy distractor: The statement is broad and has no specific pricing or cost control measures (such as 'increasing advertising'), and does not directly respond to the battery cost dynamics or market trends. The chart data does not support this strategy, and it can be easily excluded as non - targeted based on common sense.",
+        "G": "This option is a hard distractor: On the surface, it is based on the chart (the online proportion was 13%), but misinterprets the data - chart_98_2 shows that the online transaction proportion is increasing (from 10% in 2020 to 13% in 2021), and chart_98_1 shows that the lithium - battery vehicle market is expanding. Reducing online investment will ignore the changing consumer behavior in the growing market; it confuses the proportion value with the importance of the channel."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     }
   ]

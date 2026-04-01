@@ -86,6 +86,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an Easy distraction: Based on common sense (e.g., a company with sufficient funds can buffer costs), but the chart does not provide any data on funds or revenues. It is just a general statement and cannot be deduced from the data.",
+        "B": "This is a Hard distraction: Incorrect comparison of chart values. In chart_64_2, the proportion of the smallest cost increase range (1%-20% increase) is 20.3%, but the proportion of ranges with larger increases (e.g., 36.6% for 21%-40% increase) is higher. At the same time, the average satisfaction score in chart_64_1 is 7.97 points, but the option incorrectly attributes the satisfaction to the smallest increase range, ignoring the data distribution.",
+        "C": "Relies on chart_64_2 (cost changes) and chart_64_1 (satisfaction). Chart_64_2 mentions the proportion of 'Layout and investment by the group headquarters' (4.9%), while chart_64_1 shows that there are no cases of 'Very Dissatisfied' (0%). Joint reasoning indicates that external investment may relieve cost pressure and improve satisfaction, requiring analysis of specific data points from both charts.",
+        "D": "Relies on chart_64_2 (cost changes) and chart_64_1 (satisfaction). Chart_64_2 shows that the total proportion of a 1%-40% cost increase is high (56.9%), while chart_64_1 shows that the proportion of low - scoring segments (5 points and below) in the satisfaction distribution is low (6.5%). Joint reasoning indicates that a moderate cost increase does not significantly reduce satisfaction, and the data distributions of the two charts need to be compared to discover the pattern.",
+        "E": "This is an Easy distraction: Based on industry common sense (user loyalty may improve satisfaction), but the chart does not cover the relationship between user loyalty and costs, which is an irrelevant inference.",
+        "F": "This is a Hard distraction: Incorrect interpretation of chart data. Chart_64_2 shows that the proportion of cost decrease is extremely low (only 4.1% for a 1%-20% decrease, and 0% for other decreases), while the proportion of increase is very high (20.3% for a 1%-20% increase, 36.6% for a 21%-40% increase, etc.). However, the option reverses the facts and claims that the proportion of decrease is higher.",
+        "G": "Relies on chart_64_3 (factors of concern) and chart_64_1 (satisfaction). Chart_64_3 shows that the concern for 'Improve user conversion and boost performance' is the highest (50.4%), while chart_64_1 shows that the average satisfaction score is 7.97 points and the proportion of high - scoring segments (9 points and above) is high (45.6%). Joint reasoning indicates that the high - concern factors may be effectively achieved, thus offsetting the negative impact of cost increase (from chart_64_2), requiring cross - chart analysis of numerical trends."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This is an Easy distraction: Based on industry common sense (companies prioritize growth), but the chart does not cover short - term vs. long - term strategies, which is a generally correct statement but too vague.",
+        "B": "Relies on chart_64_3 (factors of concern) and chart_64_2 (cost changes). In chart_64_3, the concern for 'Effectively achieve public domain drainage' is 46.3%, while chart_64_2 shows a wide distribution of increase ranges (e.g., the proportion of a 21%-40% increase is 36.6%). Joint reasoning indicates that drainage activities may increase costs, leading to a conflict between the factors of concern and the cost trend, requiring analysis of the associated trends in the two charts.",
+        "C": "Relies on chart_64_2 (cost changes) and chart_64_3 (factors of concern). Chart_64_2 shows that the proportion of 'Basically unchanged' costs is only 8.1%, while in chart_64_3, the concern for costs is high. Joint reasoning indicates that the concern has not been translated into actual control results, requiring an explanation of the contradiction based on the proportion differences between the two charts.",
+        "D": "This is a Hard distraction: Incorrect interpretation of chart rankings and values. In chart_64_3, the concern for costs (48.8%) ranks second (only after 50.4% for 'Improve user conversion and boost performance'), not 'low'. The option incorrectly underestimates the concern, which contradicts the data.",
+        "E": "Relies on chart_64_3 (factors of concern) and chart_64_2 (cost changes). Chart_64_3 shows that the concern for 'Cost of private domain construction and operation' is as high as 48.8%, but chart_64_2 shows that the total proportion of cost increase is high (82.9%), and the proportion of decrease is only 4.1%. Joint reasoning indicates that high concern does not correspond to low - cost increase, requiring cross - chart comparison of values to reveal external influencing factors (such as inflation or resource shortages).",
+        "F": "This is a Hard distraction: Incorrect understanding of the chart gap. In chart_64_2, the proportion of basically unchanged costs is only 8.1%, far lower than the proportion of increase (e.g., 36.6% for a 21%-40% increase), but the option claims that this proportion is 'high', misjudging the data scale.",
+        "G": "This is an Easy distraction: Based on common sense (inflation drives up costs), but the chart does not provide any data on inflation or external factors, which is purely an inference based on the model's own knowledge and cannot be verified from the given charts."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Relies on chart_64_3 (factors of concern) and chart_64_1 (satisfaction). Chart_64_3 shows that the concern for 'Improve user conversion and boost performance' is 50.4% and for 'Enhance user stickiness to the brand' is 43.9%, while chart_64_1 shows that the proportion of high - scoring segments (8 points and above) in the satisfaction is high (60.2%). Joint reasoning indicates that these factors of concern may have been successfully achieved, driving satisfaction, requiring cross - chart analysis of numerical associations (e.g., high concern corresponds to high satisfaction).",
+        "B": "This is an Easy distraction: Based on the model's own knowledge (employee training improves service), but the chart does not provide any information on employees or training, which is a generally correct statement but too vague.",
+        "C": "Relies on chart_64_3 (factors of concern) and chart_64_2 (cost changes), and is indirectly related to chart_64_1 (satisfaction). Chart_64_3 shows that the concern for costs is high (48.8%), while chart_64_2 mentions 'Layout and investment by the group headquarters' (4.9%). Combining with the fact that there are no cases of 'Very Dissatisfied' (0%) in chart_64_1, joint reasoning indicates that external support may relieve the pressure of concerns and maintain satisfaction, requiring multi - chart numerical integration.",
+        "D": "This is a Hard distraction: Incorrect synthesis of chart data. Chart_64_2 shows that the proportion of cost decrease is extremely low (only 4.1% for a 1%-20% decrease, and 0% for others), while the satisfaction is high (high proportion of satisfaction in chart_64_1). At the same time, the concern for costs in chart_64_3 is high (48.8%), but the option incorrectly claims that the cost decreases and the concern is low, which contradicts the data.",
+        "E": "This is an Easy distraction: Based on common sense (technological tools improve efficiency), but the chart does not cover data on digital tools or systems, which is purely general industry knowledge and has nothing to do with the chart.",
+        "F": "This is a Hard distraction: Incorrect comparison of the rankings of factors of concern. In chart_64_3, the concern for 'Private domain data can be precipitated and analyzed' (27.6%) ranks the lowest (eighth), but the option incorrectly claims that it is 'the highest', ignoring the actual ranking (50.4% for 'Improve user conversion and boost performance' is the highest).",
+        "G": "Relies on chart_64_2 (cost changes) and chart_64_1 (satisfaction). Chart_64_2 shows that the proportion of a 1%-40% cost increase is high (56.9%), while the proportion of low satisfaction (6 points and below) in chart_64_1 is relatively low (22.8%). Joint reasoning indicates that a moderate cost increase coexists with high satisfaction, requiring comparison of the data distributions of the two charts to imply a connection of'reasonable return on investment'."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -152,6 +203,22 @@
       "label": [
         "A",
         "B"
+      ],
+      "cot": {
+        "A": "Option 2 involves chart_64_3 (high attention to effectively achieving public domain drainage) and chart_64_1 (high satisfaction with an average score close to 8 points). Reasoning logic: The combination of high - attention drainage and good satisfaction indicates that drainage is a lever for improving private domain effects and can offset the impact of costs.",
+        "B": "Option 1 involves chart_64_3 (high attention to the cost of private domain construction and operation) and chart_64_2 (an obvious upward trend in costs, such as a relatively high proportion in multiple increase intervals). Reasoning logic: High attention to costs and widespread cost increases indicate that cost management is a key optimization point, and monitoring can prevent a decline in satisfaction.",
+        "C": "This is an Easy interference option: It is based on common - sense management suggestions (such as employee training to improve efficiency), but the chart does not mention team or human factors and has nothing to do with private domain cost or effect data, so it is easy to be excluded.",
+        "D": "This is an Easy interference option: It does not rely on the chart and is only based on general business common sense (such as physical expansion can reduce costs), but it does not target the characteristics of private domain operation, and the chart does not involve offline channels. The strategy is broad and has no action guidance.",
+        "E": "This is a Hard interference option: It quotes chart_64_3 (46.3% attention to public domain drainage) and chart_64_2 (cost increase), but confuses the relationship; high attention to public domain drainage does not mean low costs (chart_64_2 shows a general increase), and investing in the public domain may exacerbate private domain costs rather than control them.",
+        "F": "This is a Hard interference option: It seemingly uses the data in chart_64_1 (the proportion of 5 - 6 points is 16.3% + 4.9% = 21.2%), but misinterprets it as “significant dissatisfaction requires reducing operation”; in fact, the average satisfaction is 7.97 points and the proportion of high - score segments is high. Reducing operation will damage the effects, which contradicts the goal of balance."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -172,6 +239,22 @@
       "label": [
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is a Hard interference option: It quotes the data in chart_64_2 (2.4% for an increase of over 100% and a low decline ratio), but wrongly ignores the overall upward trend of costs (such as 36.6% for an increase of 21 - 40%). The suggestion of “maintaining the allocation” will exacerbate the cost problem, which conflicts with the goal of control.",
+        "B": "This is an Easy interference option: It starts from supply - chain common sense (such as logistics optimization), but the chart focuses on private domain operation costs and does not mention other business links, so it has nothing to do with the question.",
+        "C": "Option 1 involves chart_64_2 (the proportion of layout investment by the group headquarters exists) and chart_64_3 (the highest attention to improving user conversion and boosting performance). Reasoning logic: Headquarters investment can reduce costs on a large scale (chart_64_2 shows that cost increase is dominant), and at the same time support the high - attention conversion goal (chart_64_3), achieving resource optimization.",
+        "D": "This is a Hard interference option: It uses the data in chart_64_3 (43.9% attention to user stickiness), but wrongly associates it with cost control; the attention to user stickiness is not the highest (the attention to cost is 48.8% higher), and investing in stickiness may increase operating expenses rather than improve efficiency.",
+        "E": "This is an Easy interference option: It is based on general business strategies (such as third - party cooperation to reduce costs), but the chart does not involve advertising or external cooperation. The strategy is broad and has no chart basis, so it is easy to be excluded through common sense.",
+        "F": "Option 2 involves chart_64_3 (relatively high attention to diverse operation methods and convenient private domain reach) and chart_64_2 (a wide distribution of cost increase intervals and a low proportion of remaining unchanged). Reasoning logic: The combination of attention to operation methods and cost increase indicates that efficiency tools can relieve cost pressure and improve the input - output ratio."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -195,6 +278,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard interference option: It uses the data in chart_64_3 (the lowest attention to the integration of online and offline channels is 29.3%), but misinterprets it as “great optimization space”; the low attention and no proof of a direct relationship with cost control mean that prioritizing investment may deviate from the core concerns (conversion and cost).",
+        "B": "Option 1 involves chart_64_3 (the highest attention to improving user conversion and boosting performance) and chart_64_1 (high satisfaction and an extremely low proportion of dissatisfaction). Reasoning logic: The combination of the highest - attention area and good effects means that prioritizing investment can amplify benefits, which conforms to the principle of resource focus.",
+        "C": "Option 3 involves chart_64_3 (relatively low but existing attention to private domain data precipitation and analysis) and chart_64_1 (high and stably - distributed satisfaction). Reasoning logic: Although the attention to data is low, high satisfaction indicates the potential of data - driven. Combined with the cost increase (chart_64_2), investing in data can improve decision - making accuracy and avoid ineffective expenditures.",
+        "D": "This is an Easy interference option: It makes suggestions from a management perspective (such as corporate culture), but does not link to the chart data and is out of touch with the focus on conversion and cost in the private domain layout.",
+        "E": "This is a Hard interference option: It quotes the data in chart_64_1 (an average of 7.97 points and few low - score segments), but wrongly infers “reducing investment in conversion”; in fact, the attention to user conversion is the highest (50.4%), and high satisfaction indicates good effects. Reducing investment will damage long - term benefits.",
+        "F": "This is an Easy interference option: It is based on global business common sense (such as international market expansion), but the chart does not involve external markets or diversification. The strategy is broad and has no chart support, so it is easy to be excluded.",
+        "G": "Option 2 involves chart_64_3 (high attention to both the cost of private domain construction and operation and effectively achieving public domain drainage) and chart_64_2 (dominant cost increase). Reasoning logic: High attention to costs and an upward trend require control, and high attention to drainage can supplement the user source. The balanced strategy can address multiple challenges."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

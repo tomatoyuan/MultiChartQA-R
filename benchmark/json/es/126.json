@@ -82,6 +82,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "依赖chart_126_1（年龄分布：15 - 25岁和26 - 29岁合计占比约47.9%）和chart_126_3（增长率：2010 - 2012年增长率超过267%，为超高增长阶段）。联合推理：年轻群体占比高可能推动早期电商爆发，但仅凭单张图表无法建立此联系（如chart_126_1不提供时间趋势）。",
+        "B": "依赖chart_126_1（31 - 40岁占比31.5%）和chart_126_3（2015年后增长率降至52.8%以下，增速放缓）。联合推理：中年群体占比大可能解释增长持续性但减速，需对比两张图表以识别年龄与增长阶段的关联。",
+        "C": "该选项错误，因为它对图表数值理解错误：chart_126_1显示15 - 25岁占比仅13.8%（非34.1%），而26 - 29岁才是最高占比34.1%；同时，双十一增长率从2015年起已放缓（如2015年52.8% vs 2010年1770%），选项误将低占比群体与上升趋势关联，属于Hard干扰项。",
+        "D": "该选项错误，因为它基于常识错误：老年消费者（51 - 60岁）实际占比仅5.4% + 1.7% = 7.1%（远低于20%），且常识上老年群体对新兴电商的接受度较低，不可能主导高增长；正确数据来自chart_126_1，但选项夸大了占比并忽略了早期高增长主要由年轻群体驱动的常识。",
+        "E": "依赖chart_126_1（26 - 29岁和31 - 40岁合计占比65.6%）和chart_126_3（增长率从2010年1770%降至2024年26.6%，显示过渡）。联合推理：核心年龄层占比高与增长趋势变化需跨图分析，单张图表无法推断因果。",
+        "F": "该选项错误，因为它完全脱离图表：chart_126_1的年龄分布未包括0 - 14岁群体（只从15岁起），且常识上儿童不直接进行电商消费，无法解释高增长；这属于Easy干扰项，仅依赖模型知识（儿童非电商主力）。"
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "C"
       ]
     },
     {
@@ -103,6 +118,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "该选项错误，因为它对图表差距理解错误：未婚比例18.1%与华中占比9.8%看似接近，但绝对数值差较大（18.1% > 9.8%），且华中占比9.8%是区域份额，未婚是全国比例，两者无直接可比性；chart_126_1和chart_126_2数据不支持此关联，属于Hard干扰项。",
+        "B": "该选项错误，因为它基于常识错误：常识上中国区域经济发展不均衡（如沿海vs内陆），区域特征必然影响家庭结构；chart_126_1和chart_126_2显示婚姻和区域数据有差异（如华东24.2% vs 未婚18.1%），但选项忽略图表，属于Easy干扰项。",
+        "C": "依赖chart_126_2（西南17.6% + 华中9.8% = 27.4% 总占比）和chart_126_1（未婚占比18.1%）。联合推理：区域占比与未婚比例接近需联合分析以识别年轻人口聚集，单张图表无法确认相关性。",
+        "D": "依赖chart_126_2（华东24.2% + 华南21.5% = 45.7% 总占比）和chart_126_1（已婚已育占比67.5%）。联合推理：高区域占比可能隐含发达经济区与家庭稳定性的联系，但需跨图对比（如chart_126_2不提供婚姻数据）。",
+        "E": "该选项错误，因为它对图表数值理解错误：chart_126_2显示西北地区占比仅6.8%（非17.6%，西南才是17.6%），而已婚已育比例67.5%是全国数据，非西北专属；选项误读占比并强行关联，属于Hard干扰项。",
+        "F": "依赖chart_126_2（东北3.0% + 港澳台0.1% = 3.1% 总占比）和chart_126_1（已婚未育占比14.4%）。联合推理：低区域占比可能与小比例婚姻群体相关，需两张图表联合揭示经济或人口因素影响。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -124,6 +154,21 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "依赖chart_126_2（三线14.8% + 四线8.0% = 22.8% 总占比）和chart_126_3（增长率波动大，如2014年130%到2021年12.2%）。联合推理：低线城市占比小但增长波动需跨图揭示渗透率影响，两张图表联合才能解释冲突原因。",
+        "B": "该选项错误，因为它对图表排序理解错误：chart_126_2显示二线城市占比29.6%最高（非三线，三线仅14.8%），且2021 - 2023年增长率下降（12.2%→15.6%→2.1%）与三线占比无关；选项误认三线占比最高并错误归因饱和，属于Hard干扰项。",
+        "C": "依赖chart_126_2（二线29.6% + 新一线27.4% = 57.0% 总占比）和chart_126_3（增长率从2021年12.2%降至2023年2.1%，后反弹至2024年26.6%）。联合推理：高占比城市与增长率下降及反弹需跨图分析冲突（如chart_126_3显示波动，但chart_126_2解释基数影响），单张图表无法解释矛盾。",
+        "D": "该选项错误，因为它基于常识错误：常识上城市分布（如一线vs低线）直接影响电商渗透率和增长潜力；chart_126_2和chart_126_3显示占比与增长趋势可能相关，但选项完全否认关联，属于Easy干扰项。",
+        "E": "依赖chart_126_2（一线城市占比20.2%）和chart_126_3（增长率2023年仅2.1%，2024年反弹至26.6%）。联合推理：一线城市占比稳定与增长率反弹需联合推断消费升级作用，仅凭单张图表（如chart_126_3）不能关联城市因素。",
+        "F": "该选项错误，因为它对图表差距理解错误：四线及其他城市占比8.0%确实最低，但2024年增长率反弹26.6%是全国现象，非专属低线；chart_126_3显示增长率波动受多因素影响（如2023年2.1%低增长后反弹），选项夸大低线影响并忽略其他城市角色，属于Hard干扰项。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -146,6 +191,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se sugiere optimizar la experiencia del usuario. Aunque es lógicamente razonable, no está directamente relacionada con la estrategia de aumento de la tasa de conversión y se ignora los datos de los gráficos (como la proporción de mujeres o grupos de edad). Es simplemente una sugerencia general.",
+        "B": "Inferir conjuntamente la proporción de edad de los consumidores (la proporción combinada de consumidores de 26 - 29 años y 31 - 40 años es la más alta) y la tendencia del volumen de transacciones del comercio electrónico (el volumen de transacciones sigue creciendo positivamente, lo que muestra oportunidades en el mercado).",
+        "C": "Inferir conjuntamente la proporción de género de los consumidores (la proporción de consumidoras femeninas es mucho más alta que la de los varones) y la tendencia del volumen de transacciones del comercio electrónico (el volumen de transacciones tiene una tendencia general de crecimiento, pero la tasa de crecimiento ha fluctuado y disminuido en los últimos años, lo que indica que el mercado está saturado y se necesita una estrategia precisa).",
+        "D": "Esta es una opción de distracción fácil: la expresión es amplia y solo se basa en el conocimiento general de marketing (aumentar el presupuesto puede aumentar la exposición). No se dirige específicamente a las características de los consumidores en los gráficos (como la distribución de género, edad o estado civil) y no hay una guía de acción clara (como dirigirse a un grupo específico).",
+        "E": "Esta es una opción de distracción difícil: se interpreta erróneamente los datos de los gráficos. El gráfico chart_126_1 muestra que la proporción del grupo de edad de 15 - 25 años es solo del 13.8% (una de las más bajas), mucho menor que el grupo de 26 - 40 años (65.6% en total). Además, aunque la tasa de crecimiento en el gráfico chart_126_3 es positiva, se ha desacelerado en los últimos años (solo el 2.1% en 2023). No hay datos que respalden que los jóvenes sean el “motor del crecimiento”; la estrategia razonable debe centrarse en los grupos de alta proporción.",
+        "F": "Esta es una opción de distracción difícil: se interpreta erróneamente la relación entre los valores. El gráfico chart_126_1 muestra que la proporción de mujeres es del 67.8% (la mayoría), mientras que la de hombres es solo del 32.2%. Reducir la inversión en mujeres es contradictorio con los datos. Al mismo tiempo, la tasa de crecimiento del 26.6% en el gráfico chart_126_3 muestra que el mercado no está saturado. Esta sugerencia puede reducir la eficiencia de conversión.",
+        "G": "Inferir conjuntamente la proporción de estado civil y situación de hijos de los consumidores (la proporción de consumidores casados con hijos es la mayor) y la tendencia del volumen de transacciones del comercio electrónico (el volumen de transacciones crece de manera estable, lo que refleja una demanda estable de consumo familiar)."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -168,6 +230,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Inferir conjuntamente la proporción regional de los consumidores (la proporción de consumidores en el Este y el Sur de China está entre las más altas) y la tendencia del volumen de transacciones del comercio electrónico (el volumen de transacciones sigue creciendo, pero la tasa de crecimiento ha disminuido en los últimos años, por lo que se debe centrar en las regiones de alto retorno).",
+        "B": "Esta es una opción de distracción fácil: se sugiere una distribución equitativa de recursos, basada en el conocimiento general de gestión (equidad). Sin embargo, se ignora la distribución desigual de regiones en el gráfico chart_126_2 (por ejemplo, el 24.2% en el Este vs. el 3.0% en el Noreste) y no hay una guía para maximizar las ventas de manera eficiente.",
+        "C": "Esta es una opción de distracción difícil: se confunden erróneamente los valores y las tendencias. El gráfico chart_126_2 muestra que la proporción de Hong Kong, Macao y Taiwán es solo del 0.1% (la más baja). No hay datos que respalden el “alto potencial de consumo”; la tasa de crecimiento del 26.6% en el gráfico chart_126_3 refleja el mercado general, pero la inversión en regiones de baja proporción puede causar un desperdicio de recursos (la opción razonable sugiere una prueba piloto de bajo costo).",
+        "D": "Inferir conjuntamente la proporción regional de los consumidores (la proporción de los consumidores en el Noroeste y el Noreste es la más baja) y la tendencia del volumen de transacciones del comercio electrónico (el volumen de transacciones sigue creciendo, especialmente la tasa de crecimiento se recuperó en 2024, lo que indica que hay un mercado potencial que se puede explotar).",
+        "E": "Esta es una opción de distracción difícil: se interpreta erróneamente la relación. En el gráfico chart_126_2, la proporción del Norte de China es del 17.0%, que es mediana, pero menor que la del Este (24.2%) y del Sur (21.5%). Después de la tasa de crecimiento del 2.1% en 2023 en el gráfico chart_126_3, se recuperó al 26.6% en 2024, lo que indica que el mercado es sólido en lugar de “falta de demanda”. Esta sugerencia puede causar una inversión excesiva en regiones de baja prioridad.",
+        "F": "Esta es una opción de distracción fácil: la propuesta general de cooperación con KOL no se dirige específicamente a la distribución geográfica o al nivel de ciudad (como ciudades de primer nivel o segundo nivel). Es un medio de marketing común y no depende de los datos de los gráficos.",
+        "G": "Inferir conjuntamente la proporción de nivel de ciudad de los consumidores (la proporción de consumidores en las nuevas ciudades de primer nivel y las ciudades de segundo nivel es la más alta) y la tendencia del volumen de transacciones del comercio electrónico (el crecimiento anual del volumen de transacciones muestra una alta penetración del comercio electrónico, por lo que se debe optimizar la experiencia en las ciudades principales)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -190,6 +269,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: se interpreta erróneamente los valores y las relaciones. El gráfico chart_126_1 muestra que la proporción de personas solteras es solo del 18.1% (la más baja), mucho menor que la de casados con hijos del 67.5%. En el gráfico chart_126_2, la proporción combinada de las nuevas ciudades de primer nivel y las ciudades de segundo nivel es del 57.0%, pero no se especifica que los grupos de personas solteras se concentren aquí. Esta sugerencia puede ignorar el grupo principal (casados con hijos) y causar una mala coincidencia de productos.",
+        "B": "Esta es una opción de distracción difícil: se combinan erróneamente los datos de los gráficos. El gráfico chart_126_2 muestra que la proporción del Noroeste es solo del 6.8% (baja). Aunque el grupo de edad de 26 - 40 años en el gráfico chart_126_1 es alto (65.6%), no hay una segmentación de edad por región. La estrategia razonable debe centrarse en las regiones de alta proporción (como el Este) en lugar de las regiones de bajo potencial.",
+        "C": "Esta es una opción de distracción fácil: la propuesta general de aumentar la diversidad de inventario es una sugerencia general de operación. Se ignora los datos (como el 67.5% de casados con hijos o la proporción regional) y puede causar un exceso de inventario.",
+        "D": "Esta es una opción de distracción fácil: se sugiere productos ecológicos, basado en el conocimiento general de la tendencia de la industria. Pero no se relaciona con la estructura demográfica (como edad o estado civil) o la distribución regional (como el nivel de ciudad) en los gráficos y no hay una guía específica para adaptarse a las necesidades.",
+        "E": "Inferir conjuntamente la proporción de nivel de ciudad de los consumidores (la proporción combinada de consumidores en ciudades de primer nivel y nuevas ciudades de primer nivel es alta) y la proporción de edad de los consumidores (la proporción del grupo de edad de 26 - 40 años es la más alta, lo que refleja la dominación de los grupos jóvenes).",
+        "F": "Inferir conjuntamente la distribución regional de los consumidores (la proporción del Este es la más alta en la distribución regional) y la estructura demográfica de los consumidores (estructuras de edad y estado civil diversas), se necesita un análisis transversal de las características regionales y demográficas.",
+        "G": "Inferir conjuntamente la proporción de nivel de ciudad de los consumidores (la proporción de consumidores en ciudades de tercer nivel y inferiores es notable) y la proporción de estado civil y situación de hijos de los consumidores (la proporción de consumidores casados con hijos es la mayor, lo que enfatiza la demanda familiar)."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     }
   ]

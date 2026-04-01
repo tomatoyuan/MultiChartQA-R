@@ -85,6 +85,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "The chart of the change in the number of enterprises shows that the growth rate of the number of enterprises in 2017 was very low (described as \"slow growth\"), but the chart of the sales scale of the IC design industry shows that the growth rate of the sales scale was relatively high (described as \"strong\"). This requires cross - chart analysis to discover the non - synchronization of the growth rates.",
+        "B": "This is an Easy interference item: it is completely based on industry common sense (the growth of the number of enterprises does not always lead to simultaneous sales growth) and does not involve the chart values. In the actual chart, in 2016, the number of enterprises increased sharply by 85.1%, but the sales only increased by 24.1%, showing a mismatch.",
+        "C": "The chart of the change in the number of enterprises shows that the growth rate of the number of enterprises in 2016 was extremely high (described as \"a sharp increase\"), while the chart of the sales scale of the IC design industry shows that the growth rate of the sales scale in the same year was relatively low (described as \"relatively small in amplitude\"). It is necessary to combine the two charts to compare the differences in the growth trends.",
+        "D": "This is a Hard interference item: it seemingly bases on the chart values but makes a wrong calculation. Chart_62_2 shows that the sales scale in 2021 increased by 23.3% (or the numerical calculation is 47.4%, but the official figure is 23.3%), not 30%. And the sales growth in 2021 was relatively high (23.3% vs. 26.7% of the number of enterprises), which was actually relatively synchronized. Therefore, it creates a misunderstanding of \"insufficient growth\".",
+        "E": "Both the chart of the change in the number of enterprises and the chart of the sales scale of the IC design industry show that the number of enterprises and the sales scale increased rapidly in 2020. However, by comparing the data of 2016 (from the two charts), the mismatch in 2016 is highlighted. It depends on joint reasoning to identify the pattern.",
+        "F": "This is a Hard interference item: it seemingly bases on the charts (chart_62_1 and chart_62_2), but has a wrong understanding of the data. The sales scale data of 2018 in chart_62_2 is missing, and the growth rate cannot be calculated. Chart_62_3 provides the overall market but is not used for this question. Therefore, the statement that \"the growth rate of the sales scale is only 15%\" is a fictional numerical error.",
+        "G": "This is an Easy interference item: it does not rely on the chart data and is only based on general common sense (such as the initial year may have a low base). However, there is no growth rate data for 2014 in the chart, and the focus of the question is on the \"years of rapid growth\". The number of enterprises in 2014 did not increase (it is the base year), so it is irrelevant and wrong."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "The chart of the sales scale of China's IC design industry provides the sales volume of the design industry in 2019, 2020, and 2021, and the chart of the sales scale of the overall IC market in China provides the sales volume of the overall market in the same period. By jointly calculating the relative proportion (without directly writing the numerical value), it can be concluded that the share expands year by year, which depends on cross - chart data.",
+        "B": "The chart of the sales scale of China's IC design industry shows that the growth rate of the sales scale of the design industry is relatively high (such as in 2020 and 2021), while the chart of the sales scale of the overall IC market in China shows that the growth rate of the overall market is relatively low (inferred from the sales volume trend). It is necessary to combine the two charts to compare the growth rates to infer the implied relationship of the increase in the proportion.",
+        "C": "This is an Easy interference item: it is a general statement based on industry common sense (the number of enterprises affects the proportion), but it does not use specific chart data. In fact, the change in the proportion depends on the growth of the sales scale and has no direct relationship with the number of enterprises. Moreover, the question does not involve the chart of the number of enterprises.",
+        "D": "This is a Hard interference item: it seemingly bases on the comparison of growth rates but has a wrong understanding of the proportion. In 2021, the design industry grew by 23.3% (chart_62_2), and the overall market grew by 18.2% (calculated from chart_62_3: (10458 - 8848) / 8848 ≈ 18.2%), and the proportion increased from 34.6% to 43.2%, which actually expanded. However, the interference item fabricates a contradiction of \"a shrinking proportion\".",
+        "E": "This is a Hard interference item: it seemingly bases on the charts (chart_62_2 and chart_62_3), but has a wrong numerical calculation. In 2019, the sales of the design industry were 2519 billion yuan ÷ the overall market of 7562 billion yuan ≈ 33.3%, but the interference item miscalculated it as 25%, exaggerating the gap.",
+        "F": "The chart of the sales scale of China's IC design industry shows that the design industry grew strongly in 2021, and the chart of the sales scale of the overall IC market in China shows that the overall market grew. By comparing the two trends (the design industry grew faster), it can be inferred that it has a promoting effect on the proportion, which requires joint reasoning.",
+        "G": "This is an Easy interference item: it does not rely on the chart and is only based on common - sense assumptions (such as the overall market may dominate). However, the actual chart shows that the proportion increased year by year (33.3% in 2019, 34.6% in 2020, 43.2% in 2021), so it is wrong."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard interference item: it seemingly bases on the numerical values but has a wrong logic. The growth of the number of enterprises by 24.6% (chart_62_1) has no direct proportional relationship with the sales growth (such as in 2016, the number of enterprises increased by 85.1%, but the sales only increased by 24.1%), and \"less than 30%\" is an arbitrary threshold, which cannot explain the conflict.",
+        "B": "This is an Easy interference item: it uses industry common sense (the influence of the overall market), but does not involve the data of chart_62_3. The question only requires combining the chart of the number of enterprises, and the overall market is not used for this question, so it is irrelevant and wrong.",
+        "C": "This is a Hard interference item: it seemingly combines the charts (chart_62_1 and chart_62_2), but has a wrong causal relationship. The growth of the number of enterprises by 24.6% does not necessarily directly lead to a sales growth of 25% (the actual sales growth rates are 21.6% and 19.6%), and \"market saturation\" is a subjective speculation without chart support.",
+        "D": "There is a conflict within the chart of the sales scale of China's IC design industry (the growth rates in 2020 are 21.6% and 19.6%), but the chart of the change in the number of enterprises shows that the number of enterprises increased rapidly in 2020 (described as \"rapid growth\"). Through joint reasoning, it can be inferred that the higher growth rate (21.6%) may be more reasonable, but the conflict needs an external explanation.",
+        "E": "The chart of the change in the number of enterprises shows that the number of enterprises increased, but the lower growth rate (19.6%) in the chart of the sales scale of China's IC design industry may reflect a sales efficiency problem (the contribution of new enterprises is low). It depends on the analysis of the two charts to explain the conflict.",
+        "F": "This is an Easy interference item: it does not rely on the chart and is based on general knowledge (the conflict may be due to errors), but it ignores the context provided by the chart of the number of enterprises (such as the 24.6% growth of the number of enterprises in 2020 may affect the sales), so it is irrelevant.",
+        "G": "The conflict is within the chart of the sales scale of China's IC design industry, but the chart of the change in the number of enterprises provides the background of the number of enterprises (the growth trend). Joint reasoning shows that the data inconsistency may be due to different statistical methods, which cannot be solved by a single chart."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: Education subsidies are a common suggestion for the industry, but they do not take into account the dynamics of the surge in the number of enterprises or the expansion of the sales scale in the charts (e.g., the number surged in 2016 but the sales growth did not reach a synchronous peak). It seems broad and non - specific.",
+        "B": "Option A combines chart_62_1 (e.g., in 2017, the growth rate of the number of enterprises was extremely low, only 1.3%) and chart_62_2 (in the same year, the growth rate of the sales scale reached 26.1%) to infer that concentrating resources can improve efficiency.",
+        "C": "This is a hard distractor: On the surface, it uses the chart data (citing the 85.1% growth in the number of enterprises and 24.1% growth in the sales scale in 2016), but wrongly infers that the sales scale growth 'reached a peak'. In fact, the sales scale growth in 2017 was 26.1%, which was higher. And after the surge in the number in 2016, the efficiency may have decreased due to the influx of new enterprises (the correct Option A suggests supporting existing enterprises during the integration period). This confuses the trends and leads to a deviation in resource allocation.",
+        "D": "This is an easy distractor: It is based on general economic common sense (tax cuts stimulate growth), but ignores the dynamics in the charts (the changing trends of the number of enterprises and the sales scale) and has no specific action guidelines. Policy - makers need to adjust resources according to the trends, rather than adopting a one - size - fits - all approach.",
+        "E": "Option B combines chart_62_1 (e.g., from 2020 - 2021, the growth rate of the number of enterprises exceeded 24%) and chart_62_2 (during the same period, the growth rate of the sales scale was about 21 - 23%), indicating that new enterprises contribute to market opportunities.",
+        "F": "Option C combines chart_62_1 (the number of enterprises fluctuates, e.g., it surged in 2016 and then slowed down) and chart_62_2 (the sales scale grows steadily), emphasizing the dynamic balance to avoid a decline in efficiency.",
+        "G": "This is a hard distractor: Based on the sales scale growth rate in the chart (21.5% growth in 2019), it wrongly interprets it as'relatively gentle'. In fact, the growth rate is still relatively high (higher than the historical average), and it ignores the dynamics of the number of enterprises (the growth of the number slowed down to 4.8% in 2019). The correct Option C emphasizes the dynamic balance, rather than simply reducing support."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: Diversification is a general investment suggestion, but it does not take into account the historical growth (e.g., a stable high - growth rate) in the charts or the future forecast (a significant expansion in 2025). It seems empty and lacks specific data support, and cannot optimize returns for the IC design industry.",
+        "B": "Option C combines chart_62_2 (the growth rates fluctuated from 2019 - 2021) and chart_62_3 (the predicted growth accelerates), suggesting a flexible strategy to cope with changes.",
+        "C": "Option B combines chart_62_3 (the scale forecast in 2025 is much higher than the previous period) and chart_62_2 (the historical scale has been growing continuously) to emphasize capacity deployment to meet future demand.",
+        "D": "This is a hard distractor: Based on the sales scale growth rate in the chart (21.5% growth in 2019), it wrongly ignores the historical growth rate fluctuations (such as the slight change from 21.5% growth in 2019 to 23.3% in 2021). The correct Options B and C emphasize matching the rhythm, rather than blind expansion, which may lead to over - capacity.",
+        "E": "This is a hard distractor: Based on historical data (the 26.1% growth in the sales scale in 2017), it wrongly interprets it as'reducing investment during the peak period'. In fact, the growth has been strong (23.3% growth in 2021) and the future forecast is even higher. The correct Option A suggests increasing R & D investment during the stable period. This distractor confuses the sustainability of growth.",
+        "F": "Option A combines chart_62_2 (the sales scale growth rate is stable in the range of 20 - 26%) and chart_62_3 (the market scale forecast in 2025 shows significant growth) to infer that R & D investment can maintain high growth.",
+        "G": "This is an easy distractor: A short - term adjustment strategy violates the'medium - and long - term' focus in the question (based on historical data and future forecasts) and ignores the stable trend in the charts (the sales scale growth rate has been above 20% for a long time), which is a common - sense error."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: Simplifying the registration process encourages new enterprises, but it ignores the fact shown in the charts that the number of enterprises has already surged (e.g., after an 85.1% growth in 2016, it slowed down to 1.3% in 2017), which may lead to excessive competition and resource dispersion, violating the goal of sustainable growth.",
+        "B": "Option A combines chart_62_1 (e.g., the growth rate of the number of enterprises was extremely high in 2016 and then dropped sharply in 2017), chart_62_2 (the growth rate of the sales scale was prominent in 2017), and chart_62_3 (the future scale growth) to infer that integration can improve efficiency.",
+        "C": "This is an easy distractor: Corporate social responsibility is a common element of sustainable growth, but it is not related to the dynamics of the surge in the number of enterprises (e.g., in 2016) or the expansion of the market scale in the charts. The statement is broad and has no specific measures, and can be easily excluded by common sense.",
+        "D": "Option C combines chart_62_1 (e.g., high growth in the number of enterprises from 2020 - 2021) and chart_62_2 (high growth in the sales scale during the same period) to suggest incentives during the peak period to seize opportunities.",
+        "E": "Option B combines chart_62_2 (the sales scale growth rate is stable), chart_62_3 (the future market expansion forecast), and chart_62_1 (the growth of the number of enterprises fluctuates) to emphasize innovation to cope with the market.",
+        "F": "This is a hard distractor: It cites the future forecast data (172.18 billion yuan in 2025 in chart_62_3), but wrongly ignores the fluctuations in the number of enterprises (e.g., the number increased by 24.6% in 2020 and then 26.7% in 2021) and the changes in the historical sales scale growth rate. The correct Option C emphasizes aligning with the long - term trend. This suggestion may lead to inefficient investment and unsustainable growth.",
+        "G": "This is a hard distractor: On the surface, it combines the chart data (85.1% growth in the number of enterprises and 24.1% growth in the sales scale in 2016), but wrongly infers'synchronous high - growth'. In fact, the sales growth of 24.1% in 2016 was lower than 26.1% in 2017, and the efficiency decreased after the surge in the number (the correct Option A suggests integration after the surge). This distractor misinterprets the relationship and may exacerbate resource dispersion."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     }
   ]

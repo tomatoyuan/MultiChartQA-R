@@ -86,6 +86,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：它错误比较了数值和排序。Venta minorista fuera de línea占比50.2%最高，但消费图表中“501 - 1000元”区间（38.9%）最大，而非高消费区间。高消费人群更可能依赖线下体验（如原选项A所述），但该选项错误推断他们避开线下，转向Recomendación de conocidos（36.4%），忽略了渠道普及度与消费人群的潜在错位。",
+        "B": "这是一个Easy干扰项：它基于常识（高消费人群可能偏好社交媒体），但完全不依赖图表数据。图表中Plataformas de compartición de contenido仅占24.0%，远低于其他渠道如Venta minorista fuera de línea（50.2%）或Plataformas de comercio electrónico（49.6%），因此该选项错误。",
+        "C": "这是一个Hard干扰项：它表面上基于图表数值，但错误解读了消费区间与渠道的关系。消费图表中“201 - 500元”区间占比34.4%最高，而Plataformas de vídeos cortos渠道占比42.3%，但高消费人群（1001元以上）占比小（约11.7%），且没有证据显示他们偏好短视频；原选项C指出短视频可能更吸引中低消费人群。",
+        "D": "选项1依赖chart_143_1（月均消费调查）和chart_143_2（信息渠道调查）联合推理：chart_143_1显示1001元以上消费区间总占比小（约11.7%，计算自1001 - 1500元8.9% + 1501 - 2000元1.6% + 2000元以上1.2%），但chart_143_2中Venta minorista fuera de línea渠道占比50.2%最高，推理出高消费人群可能偏好高接触度渠道以获取个性化服务，单张图表无法独立推断偏好。",
+        "E": "选项2同样依赖这两个图表：chart_143_1中501 - 1000元区间占比最大（38.9%），而chart_143_2中Plataformas de comercio electrónico渠道占比49.6%接近主导，推理出中等消费人群驱动电商主流化，但高消费人群的低占比暗示其渠道偏好可能不同（如更重质量而非便利），需要交叉对比消费分布和渠道权重。",
+        "F": "这是一个Easy干扰项：它使用行业常识（高收入者注重效率），但忽略了图表上下文。Plataformas de comercio electrónico占比49.6%虽高，但消费图表显示高消费人群（1001元以上）总占比仅11.7%，且原选项B指出电商可能更吸引中档消费群体，而非高消费人群。",
+        "G": "选项3也依赖这两个图表：chart_143_1中高消费区间占比极小，而chart_143_2中Plataformas de vídeos cortos渠道占比42.3%较高，推理出该数字渠道可能更适配价格敏感人群，而非高消费群体，需联合分析消费层级和渠道特性以发现隐含规律。"
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：它依赖行业常识（包装设计重要），但未结合图表数据。图表中Efectos del producto de larga duración的期待占比61.1%最高，远高于Diseño de embalaje más bonito y creativo（39.6%），且Nuevas marcas nacionales增长（变多比例26.9%）可能更关联功效或性价比，而非包装。",
+        "B": "这是一个Hard干扰项：它表面基于数值差距（26.9% vs 21.1%），但误读排序和趋势。Nuevas marcas nacionales变多比例（26.9%）高于Marcas internacionales conocidas（21.1%），且Marcas nicho extranjeras变多比例仅13.9%，差距明显；结合期待数据（Más nuevas marcas domésticas 29.5%），推动因素显著，而非随机。",
+        "C": "选项2同样依赖这两个图表：chart_143_3中Marcas internacionales conocidas“减少”比例较高（30.3%），而chart_143_4中“Productos asequibles”期待占比31.0%显著，推理出国际品牌的高价策略与消费者价格敏感冲突，隐含推动国产品牌崛起，需联合分析减少原因和期待偏好。",
+        "D": "选项1依赖chart_143_3（品牌购买频率变化）和chart_143_4（行业发展期待）联合推理：chart_143_3显示Nuevas marcas nacionales频率“变多”比例（26.9%）高于“减少”（21.0%），而chart_143_4中“Más nuevas marcas domésticas”期待占比29.5%，推理出期待驱动购买行为变化，形成增长动力，单张图表仅能显示孤立趋势。",
+        "E": "这是一个Easy干扰项：它基于模型知识（市场替代理论），但忽略了图表细节。Marcas internacionales conocidas购买减少比例高（30.3%），但Nuevas marcas nacionales增长还需结合具体期待（如Más nuevas marcas domésticas期待29.5%），原选项B指出Productos asequibles期待（31.0%）可能更关键，而非单纯替代。",
+        "F": "这是一个Hard干扰项：它错误比较了期待数值（29.5% vs 31.0%），但忽略了实际购买频率变化。Nuevas marcas nacionales购买变多比例26.9%较高，且结合原选项A，市场对本土创新的正向反馈可能更重要；Productos asequibles期待虽高，但未直接证明其主导作用。",
+        "G": "选项3也依赖这两个图表：chart_143_4中“Efectos del producto de larga duración”期待最高（61.1%），但chart_143_3中Nuevas marcas nacionales“变多”比例26.9%，推理出消费者在追求长效功效的同时，愿意尝试新品牌，体现隐含的权衡行为，需交叉验证期待和购买数据。"
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：它表面关联渠道和期待数值（42.3% vs 39.6%），但误判关系。Plataformas de vídeos cortos占比42.3%高于Publicidad tradicional 40.6%，但Diseño de embalaje más bonito y creativo期待39.6%未直接与渠道挂钩；图表无证据显示短视频影响包装，且原问题强调冲突（如渠道普及但期待未降），该选项错误假设相关性。",
+        "B": "这是一个Hard干扰项：它错误解读数值（49.6% vs 28.7%），但忽略了期待含义。Plataformas de comercio electrónico普及度高，但Más canales de compra para una compra conveniente期待仍占28.7%（不算低），原选项A指出这可能反映便捷性未完全满足，该选项反推满足度高，与实际数据冲突。",
+        "C": "这是一个Easy干扰项：它使用常识（广告和导购无关），但未分析图表冲突。图表中Publicidad tradicional普及高，但Mejor actitud de servicio de los guías de compra/vendedores期待低（17.0%），原问题聚焦渠道与期待的潜在不一致（如电商普及但购买渠道增多期待仍存），该选项泛化无依据。",
+        "D": "选项2同样依赖这两个图表：chart_143_2中Publicidad tradicional渠道占比40.6%较高，但chart_143_4中“Diseño de embalaje más bonito y creativo”期待占比39.6%低于产品效果期待，推理出广告虽广泛却未提升包装优先级，体现信息传播与消费者实际关注的错位，单张图表无法识别冲突。",
+        "E": "选项3也依赖这两个图表：chart_143_2中Plataformas de compartición de contenido渠道占比仅24.0%（较低），而chart_143_4中“Productos con eficacia compuesta”期待占比41.2%较高，推理出该数字渠道的低渗透率可能限制了多功能产品的认知，需交叉比较渠道权重和期待强度以解释隐含不足。",
+        "F": "选项1依赖chart_143_2（信息渠道调查）和chart_143_4（行业发展期待）联合推理：chart_143_2中Plataformas de comercio electrónico渠道占比49.6%接近主导，但chart_143_4中“Más canales de compra para una compra conveniente”期待仅28.7%（相对较低），推理出高普及率与持续期待间的冲突，暗示渠道覆盖有缺口，需联合分析渠道数据和期待排名以揭示矛盾。",
+        "G": "这是一个Easy干扰项：它基于行业知识（数字内容支持产品需求），但未具体结合图表。Plataformas de compartición de contenido占比24.0%确实低，Productos con eficacia compuesta期待41.2%高，但原选项C指出数字内容传播可能未充分支持该需求，该选项却错误归因于渠道转向。"
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: la descripción es amplia y no tiene indicaciones de acción específicas. Solo se basa en conocimientos generales de la industria (como 'aumentar la知名度 de la marca' o 'mejorar la calidad del producto') y no combina los datos de los gráficos. Los gráficos muestran las preferencias de los consumidores y la proporción de los canales (como chart_143_1 y chart_143_2), pero esta opción no menciona ningún rango o canal específico, por lo que es fácil de descartar directamente.",
+        "B": "La opción 3 se basa en que la proporción de la publicidad tradicional (40.6%) en chart_143_2 es menor que la de los canales principales, y en la expectativa de 'efectos del producto de larga duración' (61.1%) en chart_143_4, para fortalecer la confianza en el producto a través de los canales sociales.",
+        "C": "Esta es una opción de distracción difícil: se interpreta erróneamente los datos de chart_143_1. La proporción de los intervalos de alto consumo (por encima de 1501 yuanes) es extremadamente baja (solo 1.6% + 1.2% = 2.8%), mientras que para aumentar la penetración en el mercado se debe centrar en la población de consumo medio que representa el 73.3% (201 - 1000 yuanes). Sin embargo, esta opción sugiere enfocarse en el grupo minoritario de alto consumo, ignorando el tamaño de los usuarios principales, lo que muestra una clara desviación lógica.",
+        "D": "La opción 2 combina la ventaja de la proporción de la venta minorista fuera de línea (50.2%) en chart_143_2, con la expectativa de 'más canales de compra' (28.7%) y la expectativa de 'productos asequibles' (31.0%) en chart_143_4, lo que demuestra que la optimización en línea puede responder a las necesidades de conveniencia y relación calidad - precio.",
+        "E": "La opción 1 involucra la alta proporción de las plataformas de vídeos cortos (42.3%) y las plataformas de comercio electrónico (49.6%) en chart_143_2, y el intervalo de consumo de '501 - 1000 yuanes' (38.9%) con la proporción más alta en chart_143_1, lo que indica que el grupo de consumo medio es el principal y que los canales en línea pueden cubrirlo de manera precisa.",
+        "F": "Esta es una opción de distracción fácil: se usan parcialmente los datos pero la inferencia es amplia. Cita la proporción de la recomendación de conocidos (36.4%) en chart_143_2 y la expectativa de la eficacia del producto (chart_143_4), pero la sugerencia de'reducir la inversión en las plataformas de comercio electrónico' carece de fundamentos (la proporción de las plataformas de comercio electrónico es de 49.6%, una de las más altas), y 'cumplir con la expectativa de la eficacia del producto' no se convierte en una estrategia específica, por lo que se puede descartar por sentido común.",
+        "G": "Esta es una opción de distracción difícil: se confunden los datos de los canales de chart_143_2. La proporción de la publicidad tradicional es del 40.6%, pero la proporción de las plataformas de vídeos cortos es del 42.3% y la de las plataformas de comercio electrónico es del 49.6%, ambas superiores a la publicidad tradicional. La estrategia correcta debería aumentar los canales de alta cobertura (como se sugiere en la opción A para las plataformas de vídeos cortos y de comercio electrónico). Esta opción incorrectamente considera que la publicidad tradicional es'más estable y confiable' y sugiere reducir la inversión en los vídeos cortos, pero los datos no respaldan esta inferencia."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se usan parcialmente los datos pero la inferencia es superficial. Cita la expectativa de diseño de embalaje (39.6%) en chart_143_4, pero no compara las prioridades (la expectativa de efectos del producto de larga duración es la más alta con 61.1%), y la sugerencia de 'en lugar de eficacia compuesta' carece de fundamentos. La descripción es vaga y se puede descartar por sentido común.",
+        "B": "La opción 2 se basa en la expectativa de'mayores promociones/descuentos' (40.9%) en chart_143_4 y en el fenómeno de 'disminución de la frecuencia de compra' (30.3%) de las marcas internacionales conocidas en chart_143_3, para atraer a los usuarios sensibles al precio a través de una estrategia de precios.",
+        "C": "Esta es una opción de distracción difícil: se confunden las tendencias de chart_143_3. La proporción de disminución de la frecuencia de compra de las marcas internacionales conocidas alcanza el 30.3% (superior a la proporción de aumento del 21.1%), y 'no hay cambio significativo (48.6%)' no significa una alta lealtad, sino un riesgo potencial de pérdida. Esta opción sugiere'mantenerlo igual', pero ignora la tendencia de disminución y se debería priorizar los ámbitos de crecimiento (como el aumento del 26.9% de las nuevas marcas nacionales).",
+        "D": "La opción 1 involucra la expectativa de 'eficacia compuesta' (41.2%) y 'efectos del producto de larga duración' (61.1%) con las proporciones más altas en chart_143_4, y la tendencia de aumento de la 'frecuencia de compra' (26.9%) de las nuevas marcas nacionales en chart_143_3.",
+        "E": "Esta es una opción de distracción fácil: la descripción es demasiado amplia y solo se basa en conocimientos comerciales generales (como 'innovar la línea de productos'), sin combinar los datos específicos de los gráficos (como los cambios de marca en chart_143_3 o las tendencias de expectativa en chart_143_4). No hay prioridades ni detalles de acción claros, por lo que es fácil de descartar.",
+        "F": "Esta es una opción de distracción difícil: se interpreta erróneamente los datos de chart_143_4. La proporción de la expectativa de mejorar la actitud de servicio de los guías de compra/vendedores y el servicio postventa es solo del 17.0% y del 10.4%, mucho menor que la de los efectos del producto de larga duración (61.1%) y la eficacia compuesta (41.2%). Sin embargo, esta opción sugiere priorizar la mejora del servicio, pero los datos indican que la eficacia del producto es la expectativa central, lo que muestra una desviación en la dirección de la estrategia.",
+        "G": "La opción 3 combina la expectativa de 'diseño de embalaje más bonito y creativo' (39.6%) en chart_143_4, y los datos de 'disminución de la frecuencia de compra' (31.4%) y 'baja proporción de aumento' (13.9%) de las marcas nicho extranjeras en chart_143_3, para optimizar la asignación de recursos."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: se confunden los datos de varios gráficos. La proporción de disminución de la frecuencia de compra de las marcas nicho extranjeras alcanza el 31.4% (chart_143_3), y la proporción del canal de publicidad tradicional (40.6%) en chart_143_2 no es la más alta (la de las plataformas de comercio electrónico es del 49.6%, más alta). Esta opción incorrectamente combina la 'proporción de no cambio' y los canales, pero los datos indican que las marcas nicho extranjeras tienen un alto riesgo de pérdida y se debería priorizar las marcas en crecimiento (como las nuevas marcas nacionales).",
+        "B": "Esta es una opción de distracción fácil: se usan parcialmente los datos pero la inferencia es amplia. Cita el grupo de alto consumo (con una proporción baja en chart_143_1), pero la sugerencia de'reducir la optimización del consumo medio - bajo' carece de fundamentos (la proporción del consumo medio - bajo es alta), y 'el servicio exclusivo' no se combina con canales o marcas específicos. La descripción es vaga y se puede descartar por sentido común.",
+        "C": "Esta es una opción de distracción fácil: la descripción es amplia y no tiene indicaciones de协同 específicas, solo se basa en conocimientos generales de marketing (como 'programas de lealtad') y no combina los datos de los gráficos (como la capacidad de consumo en chart_143_1 o la dinámica de la marca en chart_143_3). No hay orientación hacia canales o marcas, por lo que es fácil de descartar.",
+        "D": "La opción 3 se basa en que la proporción total del intervalo de '1001 - 2000 yuanes y por encima' en chart_143_1 es baja (aproximadamente 10%), y en la expectativa de 'productos asequibles' (31.0%) en chart_143_4, para evitar el desperdicio de recursos y centrarse en el mercado masivo.",
+        "E": "Esta es una opción de distracción difícil: se interpreta erróneamente los datos de chart_143_1. La proporción del intervalo de bajo consumo es solo del 15.0%, mucho menor que el 73.3% del consumo medio (201 - 1000 yuanes), y chart_143_4 muestra que la expectativa de productos asequibles es solo del 31.0%, no la más alta. Esta opción sugiere enfocarse en el grupo minoritario, pero para aumentar la retención de usuarios se debe centrar en el tamaño de los usuarios principales, lo que es un error lógico.",
+        "F": "La opción 2 combina la ventaja del canal de la venta minorista fuera de línea (50.2%) en chart_143_2, el fenómeno de 'disminución de la frecuencia de compra' (30.3%) de las marcas internacionales conocidas en chart_143_3, y las expectativas de'mejorar la actitud de servicio de los guías de compra/vendedores' (17.0%) y'mejor servicio postventa' (10.4%) en chart_143_4, para aumentar la retención de usuarios a través de la optimización del servicio.",
+        "G": "La opción 1 involucra la alta cobertura de las plataformas de comercio electrónico (49.6%) y las plataformas de vídeos cortos (42.3%) en chart_143_2, la tendencia de aumento de la 'frecuencia de compra' (26.9%) de las nuevas marcas nacionales en chart_143_3, y el hecho de que el intervalo de '501 - 1000 yuanes' (38.9%) tiene la proporción más alta en chart_143_1, lo que indica que la estrategia de协同 puede llegar al grupo principal."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

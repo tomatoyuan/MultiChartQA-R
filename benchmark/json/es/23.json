@@ -88,6 +88,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：表面基于图表，但错误排序。武汉单身男58万女56万、长沙男54万女58万，均低于北京（男68万女72万），却被误判'排名高于北京'。实际分布榜无具体排名，但数值上北京更高。",
+        "B": "依赖显示相亲活动频繁城市排名的图表与全国单身男女数量分布图表比较，如相亲排名第一的城市单身男性数量最高，需联合两张图表才能推断相亲活动频繁的城市单身男性数量普遍较高。",
+        "C": "这是Easy干扰项：基于常识（如'性别失衡驱动相亲'），但错误。图表显示多数城市男女数量均衡（例如深圳男75万女68万），并非'严重失衡'。",
+        "D": "这是Hard干扰项：表面基于图表（chart_23_1和chart_23_3），但错误理解数值。深圳单身男性75万（分布榜最高），却被说成'最低'，正确应为最高之一。",
+        "E": "相亲活动排名靠前的城市在单身男女数量分布图表中单身女性数量均较高，需跨图推理单身女性数量与相亲活动的正相关。",
+        "F": "两张图表中的城市如部分城市在两张图表中均出现且排名相似，需联合分析才能发现城市在两张榜单位置的一致性，暗示单身人口规模是相亲活动的潜在驱动因素。",
+        "G": "这是Easy干扰项：基于常识（如'人口密度低通常单身少'），但错误。实际大城市如深圳、北京人口密度高，且图表未涉及密度数据，仅关注单身数量。"
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "受访单身男女婚恋压力调查数据中春节一天相亲多次比例高，可能引发疲劳或负面情绪，需与受访者面对催婚的态度分布的消极态度联合推理，才能解释密集相亲经历如何导致态度矛盾。",
+        "B": "这是Hard干扰项：表面基于图表（chart_23_2和chart_23_5），但错误数值。春节一天相亲8次占54.7%，感觉找不到对象占40%，被误判'超过50%'；正确比例40%低于50%，且无直接因果。",
+        "C": "这是Easy干扰项：基于常识（如'压力小导致忽视'），但错误。图表显示70%频繁被催婚，压力大，却50%不予理会，形成冲突。",
+        "D": "受访单身男女婚恋压力调查数据中常赶场相亲比例存在，需与在选择逃避脱单者中的不擅沟通比例高或享受单身比例联合分析，推断赶场行为可能源于逃避心理，进而解释对催婚的消极态度。",
+        "E": "依赖受访单身男女婚恋压力调查数据显示频繁被催婚比例高，与受访者面对催婚的态度分布中不予理会比例占一半形成冲突。需联合两张图表才能推断高压力未导致对应积极态度，存在行为与态度的脱节。",
+        "F": "这是Easy干扰项：基于常识（如'社会鼓励婚恋'），但错误。数据显示70%被催婚和50%消极态度，冲突表明压力大而非积极。",
+        "G": "这是Hard干扰项：表面基于图表（chart_23_2和chart_23_4），但错误关联数据。常赶场相亲占30%，对催婚不予理会占50%，两者无直接重叠数据；误将'30%群体中超过一半'理解为真，实际比例未知。"
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -133,6 +167,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：表面基于图表，但错误比较差距。不擅沟通占20%，常赶场相亲占30%，被误判'远低于'；正确差距小（10%差），且无数据表明'不影响'，实际可能相关（如不擅沟通导致相亲无效）。",
+        "B": "在选择逃避脱单者中不擅沟通比例高，需与受访单身男女婚恋压力调查数据的春节一天相亲多次比例高联合推理，才能隐含沟通障碍可能导致相亲密集却无效，进而促成逃避。",
+        "C": "这是Easy干扰项：基于常识（如'积极相亲减少逃避'），但错误。chart_23_5显示积极相亲仅占19%，比例低，且逃避者中包括此群体。",
+        "D": "这是Hard干扰项：表面基于图表（chart_23_5和chart_23_2），但错误关联和数值。40%感觉找不到对象和54.7%一天相亲8次无直接比例关系；误判为'直接导致'，实际数据未证明因果，且比例不匹配（40% vs 54.7%）。",
+        "E": "这是Easy干扰项：基于常识（如'经济压力导致单身'），但错误。图表未提经济因素，数据聚焦沟通、找不到对象等原因（chart_23_5）。",
+        "F": "依赖在选择逃避脱单者中感觉找不到对象比例最高，与受访单身男女婚恋压力调查数据中常赶场相亲比例存在联合推理。需跨图分析才能推断赶场行为可能因失败率高而强化了'找不到对象'的逃避心理。",
+        "G": "在选择逃避脱单者中积极相亲比例与受访单身男女婚恋压力调查数据的赶场相亲比例联合分析，表明部分逃避者行为积极，但需结合享受单身或其他比例解释为何积极行为仍归类为逃避（如效果不彰）。"
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Aparentemente se usan los datos de chart_23_3 (Dongguan tiene la menor población soltera), pero hay un razonamiento erróneo: la presión real está relacionada con la popularidad de las citas a ciegas (chart_23_1 muestra que ciudades con ranking alto como Shenzhen tienen mayor presión), mientras que las ciudades con menor población pueden tener menor presión; el término de distracción confunde 'población pequeña' con 'alta presión', lo que lleva a una desviación en la dirección de la asignación de recursos.",
+        "B": "Combinando chart_23_5 (una proporción alta de personas que evitan salir de la soltería tienen deficiencias en la comunicación) y chart_23_2 (la presión en el matrimonio y el amor es generalizada, lo que puede aumentar la evasión), la estrategia aborda la causa fundamental y la promoción a nivel nacional satisface la necesidad de aliviar la presión.",
+        "C": "Igualmente, sin depender de los gráficos, se presenta un plan técnico general ('promocionar aplicaciones móviles'), sin considerar las diferencias entre ciudades o el objetivo de reducir la presión. Es una sugerencia general y carece de pertinencia estratégica.",
+        "D": "Combinando chart_23_3 (ciudades con una gran cantidad de población soltera pero que no están entre las cinco primeras en el ranking, como Dongguan y Chongqing, lo que sugiere una falta de actividades) y chart_23_1 (solo se enumeran las cinco primeras ciudades, se infiere que otras ciudades tienen menor popularidad), la estrategia utiliza los datos de la población soltera para llenar los vacíos de servicio.",
+        "E": "Esta opción no se basa en ningún dato de los gráficos, solo en conocimientos generales de marketing (como 'aumentar el presupuesto publicitario para mejorar el conocimiento'), pero ignora el núcleo del problema (la asignación de recursos debe abordar las diferencias de presión y el tamaño de la población) y no tiene una guía de acción específica, por lo que es fácil de descartar por conocimiento general.",
+        "F": "Interpretación errónea de chart_23_1 (Wuhan está en el cuarto lugar, con una popularidad mediana de citas a ciegas) y de la lógica general: estar en el cuarto lugar no significa 'baja popularidad', en realidad se deben priorizar las ciudades con ranking alto; además, 'aumentar actividades intensivas' puede aumentar la presión, lo que contradice el objetivo (reducir la presión).",
+        "G": "Combinando chart_23_1 (ciudades con ranking alto en citas a ciegas, como Shenzhen y Beijing, tienen actividades intensivas) y chart_23_2 (una proporción alta de personas corre de cita en cita y es frecuentemente presionada para casarse, lo que muestra el problema de la presión), la estrategia optimiza los recursos en función de la mala experiencia causada por la sobrecarga de actividades."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción no utiliza los datos de los gráficos, solo se basa en una estrategia de promoción general (como 'mostrar historias de éxito'), pero no aborda los obstáculos específicos (como dificultades en la comunicación o comportamiento de evasión). La estrategia es general y carece de soporte cuantitativo, por lo que es fácil de descartar.",
+        "B": "Interpretación errónea de los datos de chart_23_4: el 50% ignora las presiones para casarse, pero el otro 50% tiene otras actitudes. Cancelar la promoción ignora a la población que necesita intervención; además, los gráficos no muestran que la promoción para casarse sea la causa del problema. El término de distracción generaliza demasiado y puede llevar a la falta de servicio.",
+        "C": "Sin depender de los gráficos, se presenta un plan de actividad general ('organizar fiestas sociales'), sin enfocarse en los obstáculos de las personas que evitan salir de la soltería (como dificultades en la comunicación o no encontrar pareja). La estrategia carece de pertinencia y no puede mejorar la motivación o la tasa de éxito.",
+        "D": "Aparentemente se citan los datos de chart_23_5 (el 7.8% disfruta de la cultura de la soltería), pero hay un razonamiento erróneo: esta proporción es pequeña y prefiere la soltería. Las actividades forzadas tendrán el efecto contrario; la estrategia correcta debe respetar sus opciones (como el entorno de baja presión en la opción C). El término de distracción confunde 'intervención' con 'cambio forzado'.",
+        "E": "Combinando chart_23_5 (aunque la proporción de personas que disfrutan de la cultura de la soltería es baja, existe) y chart_23_2 (una proporción alta de personas es presionada para casarse, lo que puede causar evasión por presión), la estrategia equilibra la elección personal y la promoción social, lo que se ajusta a la orientación de baja presión.",
+        "F": "Combinando chart_23_5 (una proporción significativa de personas no es buena en la comunicación) y chart_23_5 (algunas personas que evitan salir de la soltería están dispuestas a participar activamente en citas a ciegas, lo que muestra una aceptación potencial), la estrategia utiliza las diferencias de datos para diseñar capacitaciones específicas y mejorar la viabilidad.",
+        "G": "Combinando chart_23_5 (la proporción más alta de personas que evitan salir de la soltería siente que es imposible encontrar pareja) y chart_23_4 (una proporción alta de personas ignora las presiones para casarse, lo que muestra que el método de presionar para casarse no es efectivo), la estrategia se centra en el obstáculo fundamental y ajusta el método de presionar para casarse, evitando aumentar la resistencia."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -204,6 +289,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Interpretación errónea de los datos de chart_23_2: el 54.7% tiene ocho citas a ciegas en un día durante la Fiesta de Primavera, pero esto en sí es una fuente de presión (el fenómeno de correr de cita en cita). Promocionar actividades de alta frecuencia aumentará la experiencia negativa; la estrategia correcta debe reducir la intensidad (como el sistema de reserva en la opción A). El término de distracción invierte el significado de los datos.",
+        "B": "Combinando chart_23_2 (el fenómeno de correr de cita en cita es generalizado) y chart_23_5 (algunas personas que evitan salir de la soltería están dispuestas a participar activamente en citas a ciegas, lo que muestra una aceptación potencial), la estrategia mejora la eficiencia a través de la tecnología y la promociona en función de los datos de comportamiento.",
+        "C": "Combinando chart_23_3 (ciudades con una gran cantidad de población soltera como Wuhan y Guangzhou) y chart_23_1 (algunas ciudades no están entre las cinco primeras, lo que sugiere una falta de actividades), la estrategia utiliza los datos de la distribución de la población para equilibrar los recursos y prevenir la propagación del fenómeno de correr de cita en cita.",
+        "D": "Aparentemente se citan los datos de chart_23_1 (Changsha está en el quinto lugar, con una popularidad baja de citas a ciegas), pero hay un razonamiento erróneo: las ciudades con ranking bajo pueden tener menor presión. Debe priorizarse a las ciudades con ranking alto o con gran población pero falta de actividades (como la opción B); el término de distracción confunde 'ranking bajo' con 'necesidad no explotada', lo que lleva a una dirección errónea de la estrategia.",
+        "E": "Sin depender de los gráficos, se presenta un plan técnico ('introducir robots de chat'), pero no resuelve el problema central (como la calidad de la coincidencia o las diferencias entre ciudades). La estrategia es general y carece de soporte de datos, por lo que carece de pertinencia.",
+        "F": "Combinando chart_23_1 (ciudades con ranking alto en citas a ciegas como Shenzhen y Beijing tienen actividades intensivas) y chart_23_2 (una proporción alta de personas corre de cita en cita con frecuencia, lo que muestra la gravedad del problema), la estrategia se dirige directamente a las zonas de alta presión para optimizar el diseño de las actividades.",
+        "G": "Esta opción no utiliza los gráficos, solo se basa en una lógica general ('aumentar la frecuencia para cubrir a más personas'), pero ignora las diferencias entre ciudades (por ejemplo, las ciudades con mayor presión necesitan reducir la intensidad), lo que puede aumentar la experiencia negativa y es fácil de descartar por conocimiento general."
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

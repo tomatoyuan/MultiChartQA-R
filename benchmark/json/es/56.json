@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción requiere razonamiento conjunto de chart_56_1 y chart_56_2. chart_56_1 muestra que la tasa de crecimiento del tamaño del mercado continúa disminuyendo (de alta a baja), mientras que chart_56_2 proporciona datos de proporción y tasa de crecimiento de usuarios (como la alta proporción de usuarios de videos cortos pero baja CAGR, o la alta CAGR de usuarios de transmisión en vivo pero menor escala). Esta opción infiere la ley de desaceleración natural a partir de la 'base ampliada del tamaño del mercado' (chart_56_1) y la 'disminución de la tasa de crecimiento de usuarios' (datos CAGR de chart_56_2). No se puede basar solo en un gráfico: solo chart_56_1 no puede explicar las causas del lado del usuario, solo chart_56_2 no puede relacionar la tendencia de crecimiento.",
+        "B": "La opción requiere razonamiento conjunto de chart_56_1 y chart_56_2. chart_56_1 muestra que la tasa de crecimiento del tamaño del mercado continúa disminuyendo (de alta a baja), mientras que chart_56_2 proporciona datos de proporción y tasa de crecimiento de usuarios (como la alta proporción de usuarios de videos cortos pero baja CAGR, o la alta CAGR de usuarios de transmisión en vivo pero menor escala). Esta opción combina 'alta proporción de usuarios pero crecimiento moderado' con la tendencia de 'disminución de la tasa de crecimiento', infiriendo riesgo de saturación del mercado. No se puede basar solo en un gráfico: solo chart_56_1 no puede explicar las causas del lado del usuario, solo chart_56_2 no puede relacionar la tendencia de crecimiento.",
+        "C": "Esta es una opción de interferencia fácil: depende del conocimiento común (cambio de preferencias del consumidor), pero los gráficos no contienen datos sobre cambios en el interés o comportamiento del consumidor, no relacionados con el contenido del gráfico.",
+        "D": "Esta es una opción de interferencia fácil: se basa en conocimiento común (la regulación política puede afectar el mercado), pero los gráficos no mencionan ningún dato político, no se puede derivar de la información dada, es una opción errónea generalizada.",
+        "E": "Esta es una opción de interferencia difícil: superficialmente basada en chart_56_2, pero malinterpreta los datos. La escala de usuarios de transmisión en vivo (830 millones) es realmente menor que la escala de usuarios de compras en línea (970 millones), y aunque su CAGR (7.8%) es alta, la escala absoluta es pequeña, no puede impulsar el crecimiento por sí sola; el gráfico muestra potencial de crecimiento de usuarios pero no explica directamente la desaceleración del crecimiento, exagera erróneamente su impacto.",
+        "F": "La opción requiere razonamiento conjunto de chart_56_1 y chart_56_2. chart_56_1 muestra que la tasa de crecimiento del tamaño del mercado continúa disminuyendo (de alta a baja), mientras que chart_56_2 proporciona datos de proporción y tasa de crecimiento de usuarios (como la alta proporción de usuarios de videos cortos pero baja CAGR, o la alta CAGR de usuarios de transmisión en vivo pero menor escala). Esta opción contrasta 'alta tasa de crecimiento de usuarios de transmisión en vivo' con 'gran escala de usuarios de compras en línea pero baja CAGR', explicando la incapacidad de mantener la tasa de crecimiento. No se puede basar solo en un gráfico: solo chart_56_1 no puede explicar las causas del lado del usuario, solo chart_56_2 no puede relacionar la tendencia de crecimiento.",
+        "G": "Esta es una opción de interferencia difícil: superficialmente basada en chart_56_1, pero malinterpreta los valores. La tasa de crecimiento de 2024 es 17.7% (correspondiente a 2023 - 2024), la tasa de crecimiento de 2025e es 14.8% (correspondiente a 2024 - 2025e), en realidad es una tendencia decreciente; la alta proporción de escala de usuarios (como usuarios de videos cortos 93.8%) indica potencial, pero no significa que la tasa de crecimiento deba acelerarse, infiere erróneamente causalidad."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "La opción requiere razonamiento conjunto de chart_56_3 y chart_56_4. chart_56_3 muestra baja proporción de satisfacción (solo 45.2% satisfecho), y 'Promedio' tiene la proporción más alta; chart_56_4 muestra que la calidad del producto domina en las decisiones (76.9%), seguido de precio y marca. Esta opción utiliza la tendencia de 'factores fuertes de decisión de precio/marca' con 'baja satisfacción' para explicar factores compuestos no satisfechos. No se puede basar solo en un gráfico: solo chart_56_3 no puede relacionar factores de decisión, solo chart_56_4 no puede explicar datos de satisfacción.",
+        "B": "Esta es una opción de interferencia difícil: superficialmente basada en chart_56_3 y chart_56_4, pero malinterpreta la relación de valores. En factores de decisión, la calidad domina con 76.9%, el precio es segundo con 64.1%; en satisfacción, 'Bastante Satisfecho' 37.4% y 'Muy Satisfecho' 7.8% suman 45.2%, pero 'Promedio' 46.9% es el más alto, indicando expectativas de calidad no satisfechas. La opción erróneamente considera el precio como factor principal, mientras que el gráfico muestra que la calidad es el factor de decisión principal, la contradicción necesita explicar la brecha en lugar de atribuirla al precio.",
+        "C": "Esta es una opción de interferencia fácil: depende del conocimiento común del sector (problemas logísticos), pero los gráficos no mencionan factores de distribución o cadena de suministro, no relacionados con los datos dados.",
+        "D": "Esta es una opción de interferencia difícil: superficialmente basada en chart_56_3, pero malinterpreta la brecha. La proporción de 'Promedio' 46.9% es realmente mayor que la suma de satisfechos 45.2%, pero el foco del problema es la contradicción entre el dominio de la calidad en decisiones (76.9%) y la baja satisfacción (solo 45.2% satisfecho); la opción erróneamente considera que los datos cercanos indican sin contradicción, ignorando que 'Promedio' puede implicar evaluación negativa.",
+        "E": "La opción requiere razonamiento conjunto de chart_56_3 y chart_56_4. chart_56_3 muestra baja proporción de satisfacción (solo 45.2% satisfecho), y 'Promedio' tiene la proporción más alta; chart_56_4 muestra que la calidad del producto domina en las decisiones (76.9%), seguido de precio y marca. Esta opción contrasta 'alta proporción de calidad en decisiones' con 'baja proporción de satisfacción', implicando problemas de control de calidad. No se puede basar solo en un gráfico: solo chart_56_3 no puede relacionar factores de decisión, solo chart_56_4 no puede explicar datos de satisfacción.",
+        "F": "La opción requiere razonamiento conjunto de chart_56_3 y chart_56_4. chart_56_3 muestra baja proporción de satisfacción (solo 45.2% satisfecho), y 'Promedio' tiene la proporción más alta; chart_56_4 muestra que la calidad del producto domina en las decisiones (76.9%), seguido de precio y marca. Esta opción combina 'dominio de la calidad en decisiones' con la distribución de 'satisfacción principalmente promedio', razonando conflicto entre expectativas y experiencia. No se puede basar solo en un gráfico: solo chart_56_3 no puede relacionar factores de decisión, solo chart_56_4 no puede explicar datos de satisfacción.",
+        "G": "Esta es una opción de interferencia fácil: se basa en conocimiento común (problemas técnicos afectan la experiencia), pero los gráficos no involucran datos de algoritmos o logística, es un error de generalización sin base."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia difícil: superficialmente basada en chart_56_1 y chart_56_3, pero malinterpreta los valores. La tasa de crecimiento realmente disminuye (chart_56_1), pero 'Algo Insatisfecho' 4.6% + 'Completamente Insatisfecho' 3.4% = 8.0% (chart_56_3), mientras que el factor de decisión calidad es 76.9%; la opción erróneamente considera que la baja proporción de insatisfacción indica desafíos pequeños, cuando en realidad la proporción de 'Promedio' 46.9% puede implicar problemas, y la satisfacción inferior al 50% forma una contradicción central con la alta proporción de decisiones de calidad, los desafíos no están exagerados.",
+        "B": "Esta es una opción de interferencia difícil: superficialmente basada en múltiples gráficos (chart_56_2 y chart_56_4), pero integra erróneamente los datos. La alta proporción de usuarios de videos cortos 93.8% es ciertamente alta, pero CAGR solo 4.5%, indicando crecimiento moderado; la CAGR de usuarios de transmisión en vivo 7.8% aunque alta, la escala (830 millones) es menor que usuarios de compras en línea (970 millones), y la contradicción entre el dominio de la calidad en decisiones (76.9%) y baja satisfacción (45.2%). La opción ignora erróneamente los desafíos de satisfacción, infiriendo incorrectamente que la expansión de usuarios puede impulsar el crecimiento por sí sola.",
+        "C": "La opción combina chart_56_1 (tendencia decreciente de la tasa de crecimiento del tamaño del mercado), chart_56_2 (saturación de usuarios como proporción de usuarios de videos cortos 93.8%) y chart_56_3 (baja proporción de satisfacción), razonando la transformación del modelo de crecimiento. No se puede inferir solo desde chart_56_1 o chart_56_2, necesita incorporar datos de satisfacción.",
+        "D": "La opción une chart_56_2 (alta CAGR de usuarios de transmisión en vivo), chart_56_4 (mayor proporción de decisiones de calidad) y chart_56_3 (satisfacción principalmente promedio), implicando el efecto de palanca de la mejora de calidad en el potencial de usuarios. Necesita referencia cruzada de gráficos de usuarios, decisiones y satisfacción.",
+        "E": "Esta es una opción de interferencia fácil: se basa en conocimiento común (factores económicos externos), pero los gráficos no involucran datos económicos globales o transfronterizos, es una generalización sin soporte de gráficos.",
+        "F": "Esta es una opción de interferencia fácil: depende del conocimiento común del sector (problemas de capacidad del presentador), pero los gráficos no contienen contenido relacionado con la formación de presentadores, no se puede derivar de los datos.",
+        "G": "La opción integra chart_56_4 (factores fuertes de decisión de precio/marca) y chart_56_3 (distribución de satisfacción), razonando la necesidad de optimización de relación calidad-precio. Necesita referencia cruzada de gráficos de usuarios, decisiones y satisfacción."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Inferencia errónea de la tendencia de los gráficos (chart_56_1 y chart_56_2). Aunque la Tasa de Crecimiento Anual Compuesta (CAGR) de los usuarios de videos cortos es del 4,5%, menor que la de los usuarios de transmisión en vivo, su escala es enorme (1040 millones) y su proporción es alta (93,8%), lo que los convierte en una fuente estable de tráfico. La sugerencia de 'reducir la inversión' contradice el crecimiento estable y la escala básica mostrados en los gráficos, y puede ser engañosa al hacer caso omiso de los canales principales.",
+        "B": "Sugerencia basada en el conocimiento general, que depende de la lógica de la guerra de precios, pero no se dirige al espacio de aumento del tamaño de la audiencia en los gráficos (como la alta tasa de crecimiento de los usuarios de transmisión en vivo) o al problema de la desaceleración del crecimiento. Ignora los puntos específicos de optimización de la asignación de recursos.",
+        "C": "Enunciado general y basado en el conocimiento comercial general, sin combinar los datos de los gráficos (como el espacio de aumento del tamaño de la audiencia o la tendencia de desaceleración del crecimiento). La sugerencia carece de indicaciones de acción específicas y solo enfatiza de manera general la construcción de la marca.",
+        "D": "La opción 3 combina la inferencia de chart_56_2 (el tamaño de la audiencia de compras en línea es grande, pero la CAGR es mediana) y chart_56_1 (en la etapa madura del mercado, se necesita la retención y conversión de usuarios).",
+        "E": "La opción 1 combina la inferencia de chart_56_2 (la proporción del tamaño de la audiencia de videos cortos en relación con los usuarios de Internet es extremadamente alta y la CAGR es estable) y chart_56_1 (la tasa de crecimiento del tamaño del mercado disminuye año tras año y se necesita un nuevo punto de crecimiento).",
+        "F": "La opción 2 combina la inferencia de chart_56_2 (la CAGR de los usuarios de transmisión en vivo es significativamente más alta que la de otros grupos, pero su proporción es relativamente baja) y chart_56_1 (debido a la desaceleración del crecimiento, se deben aprovechar grupos de usuarios con alto potencial).",
+        "G": "Interpretación errónea de los datos de los gráficos (chart_56_2). Aunque el tamaño de la audiencia de compras en línea es grande (970 millones), su CAGR (5,6%) es menor que la de los usuarios de transmisión en vivo (7,8%), y los gráficos muestran que su penetración ya es alta (87,9%), por lo que el espacio de aumento es limitado. El problema original enfatiza el espacio de aumento del tamaño de la audiencia, y esta sugerencia ignora los grupos con mayor potencial de crecimiento."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción 2 combina la inferencia de chart_56_4 (el precio del producto tiene la segunda proporción más alta entre los factores de decisión) y chart_56_3 (el grupo de usuarios con satisfacción media tiene la proporción más alta, y la optimización del precio puede mejorar su satisfacción).",
+        "B": "La opción 3 combina la inferencia de chart_56_4 (la marca tiene la tercera proporción más alta entre los factores de decisión) y chart_56_3 (la proporción del grupo de usuarios satisfechos es inferior a la mitad, y la garantía de la marca puede aumentar la confianza).",
+        "C": "Sugerencia general, basada en el conocimiento general de servicio al cliente, sin combinar los datos de los gráficos (como la distribución de la satisfacción o los factores de decisión). No se dirige a la optimización de las estrategias de productos y carece de indicaciones específicas relacionadas con los productos.",
+        "D": "Estrategia basada en el conocimiento general, que depende de la lógica general del comercio minorista, pero no se relaciona con la estructura de la satisfacción en los gráficos (como las razones del grupo de usuarios insatisfechos) o los factores de decisión. Ignora el problema central (optimización de la calidad o el precio).",
+        "E": "Interpretación errónea de la tendencia de los valores (chart_56_3 y chart_56_4). Una alta proporción de satisfacción media (46,9%) no significa que la calidad sea adecuada. Los gráficos muestran que existe un grupo de usuarios insatisfechos (8%) y que la calidad es el factor de decisión principal (76,9%). La sugerencia de'reducir la inversión en calidad' contradice los datos y puede ser engañosa en la dirección de la asignación de recursos.",
+        "F": "La opción 1 combina la inferencia de chart_56_4 (la calidad del producto tiene la proporción más alta entre los factores de decisión) y chart_56_3 (la suma de la proporción del grupo de usuarios insatisfechos y el de satisfacción media es superior a la mitad, por lo que se necesitan mejoras específicas).",
+        "G": "Confusión errónea de la relación entre los gráficos (chart_56_3 y chart_56_4). Aunque la proporción de la marca en la decisión es del 59,3%, es menor que la de la calidad del producto (76,9%). En los datos de satisfacción, el grupo de usuarios insatisfechos (8%) es más probable que esté relacionado con la calidad (por ejemplo, 'un poco insatisfecho' y 'completamente insatisfecho'). La sugerencia de 'colaboración de marca' no puede resolver directamente el problema de la satisfacción y sobreestima erróneamente el papel de la marca."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "La opción 3 combina la inferencia de chart_56_4 (la calidad y el precio del producto tienen las proporciones más altas entre los factores de decisión) y chart_56_3 (el grupo de usuarios insatisfechos y el de satisfacción media es grande, y la optimización de la calidad y el precio puede dar resultados rápidos).",
+        "B": "La opción 2 combina la inferencia de chart_56_4 (la imagen de la plataforma tiene una proporción mediana entre los factores de decisión, pero es más alta que la reputación del presentador) y chart_56_3 (la satisfacción es media, y la confianza en la plataforma puede mejorar la experiencia general).",
+        "C": "La opción 1 combina la inferencia de chart_56_4 (la reputación del presentador tiene una proporción relativamente baja entre los factores de decisión, pero tiene influencia) y chart_56_2 (el alto crecimiento de los usuarios de transmisión en vivo, y el presentador como punto de contacto puede impulsar la expansión de la audiencia).",
+        "D": "Interpretación errónea de la prioridad de los valores (chart_56_3 y chart_56_4). Aunque la proporción de la calidad es alta (76,9%), la del precio del 64,1% también es crucial, y en los datos de satisfacción, el grupo de usuarios con satisfacción media (46,9%) puede verse afectado por el precio. La sugerencia de 'ignorar la estrategia de precios' contradice los factores de decisión diversificados y puede causar un desequilibrio en la asignación de recursos.",
+        "E": "Enunciado general, basado en el conocimiento general de marketing digital, sin combinar los datos de los gráficos (como la diversificación de los factores de decisión o el espacio de crecimiento de la audiencia). La sugerencia carece de indicaciones específicas de asignación de recursos y solo enfatiza de manera general la exposición.",
+        "F": "Relación errónea de los datos de los gráficos (chart_56_2, chart_56_3, chart_56_4). La proporción de la reputación del presentador en la decisión es solo del 39,3%, menor que la de la calidad (76,9%), el precio (64,1%) y la marca (59,3%). El crecimiento de la audiencia (CAGR del 7,8%) es del total de usuarios de transmisión en vivo, no específico del presentador. La sugerencia de 'invertir completamente' sobreestima su influencia e ignora otros factores de mayor peso.",
+        "G": "Sugerencia basada en el conocimiento general, que depende de la lógica del programa de fidelización, pero no se dirige a los factores de decisión en los gráficos (como la proporción de la calidad y el precio) o al problema de la satisfacción. Ignora la necesidad de equilibrio en el contexto de la competencia."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     }
   ]

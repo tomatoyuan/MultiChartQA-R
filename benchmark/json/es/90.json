@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "依赖啤酒购买考虑因素和愿意支付更高价格的啤酒卖点的联合推理：Sabor因素在购买考虑中占比最高，同时在支付意愿卖点中也排名第一，表明该因素在两种情境下均被高度强调，需要比较两个图表的排名和相对占比来确认其一致性。所有选项均需同时参考两个图表，无法仅从单一图表推断（例如，仅从购买考虑因素无法知道支付意愿排名，反之亦然）。",
+        "B": "依赖啤酒购买考虑因素和愿意支付更高价格的啤酒卖点的联合推理：Concentración de mosto在购买考虑中排名靠前，在支付意愿卖点中同样位居前列，通过跨图对比数值趋势（如占比高低），可推断其双重重要性。所有选项均需同时参考两个图表，无法仅从单一图表推断（例如，仅从购买考虑因素无法知道支付意愿排名，反之亦然）。",
+        "C": "这是一个Easy干扰项：基于语言常识，性价比常被视为重要，但图表数据中Relación calidad-precio因素在支付意愿卖点中未列出（TOP10最低为18.4%），表明消费者不愿为此支付溢价。",
+        "D": "这是一个Hard干扰项：表面基于图表，但错误数值理解。Contenido de alcohol在购买考虑中占28.1%（排第四），支付意愿中\"Bajo contenido alcohólico\"卖点占22.4%（排第七），数值差距显著（5.7个百分点），误读为高度一致。",
+        "E": "这是一个Easy干扰项：基于行业常识，品牌通常与溢价相关，但图表数据显示Conocimiento de la marca在支付更高价格的卖点中未进入TOP10（最高仅16.0%），消费者实际支付意愿低，因此错误。",
+        "F": "依赖啤酒购买考虑因素和愿意支付更高价格的啤酒卖点的联合推理：Cerveza elaborada con proceso tradicional在购买考虑中占比中等（非前十最高），但在支付意愿中进入前三，需联合两个图表分析其从\"一般考虑\"到\"高支付意愿\"的跃升规律。所有选项均需同时参考两个图表，无法仅从单一图表推断（例如，仅从购买考虑因素无法知道支付意愿排名，反之亦然）。",
+        "G": "这是一个Hard干扰项：表面基于图表，但错误解读排名和差距。Proceso de elaboración在购买考虑中仅排名第8（25.8%，低于Sabor 38.4%），支付意愿中\"Cerveza elaborada con proceso de alta tecnología\"仅排第10（18.4%），与\"Cerveza elaborada con proceso tradicional\"（24.4%）混淆，实际关联弱。"
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于模型知识，口感常被视为核心，但图表数据显示\"Sabor intenso\"在支付意愿中占比最高（32.0%），消费者实际支付意愿强，因此错误。",
+        "B": "这是一个Hard干扰项：表面基于图表，但错误差距解读。Concentración de mosto在购买考虑中占31.3%（排第二），支付意愿中\"Jugo de malta de alta concentración\"占26.0%（排第二），数值接近，误读为支付意愿低。",
+        "C": "这是一个Easy干扰项：基于行业常识，新口味可能不被溢价接受，但图表数据中Nuevos sabores因素在支付意愿卖点中未进入TOP10，与购买考虑排名一致（第12），所以合理但非高度优先。",
+        "D": "这是一个Hard干扰项：表面基于图表，但错误排序理解。Riqueza de la espuma在购买考虑中占22.7%（排第11），支付意愿中未进入TOP10（最低为16.0%），但实际差距小，误读为高度重视。",
+        "E": "依赖啤酒购买考虑因素和愿意支付更高价格的啤酒卖点的联合推理：Evaluación de boca en boca在购买考虑中占比靠前，但在支付意愿卖点中无直接对应项（如Recomendaciones de KOL占比低），需跨图分析以发现其\"高重要性但低溢价转化\"的矛盾。每个选项必须同时使用两个图表：单一图表仅提供部分信息（例如，仅购买考虑图表无法解释支付意愿缺失），冲突需通过数值比较显现。",
+        "F": "依赖啤酒购买考虑因素和愿意支付更高价格的啤酒卖点的联合推理：Conocimiento de la marca在购买考虑中显著，但支付意愿TOP 10中无品牌相关卖点，联合推理可确认其从\"决策权重\"到\"支付意愿\"的下降趋势。每个选项必须同时使用两个图表：单一图表仅提供部分信息（例如，仅购买考虑图表无法解释支付意愿缺失），冲突需通过数值比较显现。",
+        "G": "依赖啤酒购买考虑因素和愿意支付更高价格的啤酒卖点的联合推理：Relación calidad-precio因素在购买考虑中排名较高，但在支付意愿卖点中未列入TOP 10（最低TOP 10占比为16.0%，性价比未出现），需对比两个图表的排名差异来揭示冲突：高考虑度 vs. 低支付意愿。每个选项必须同时使用两个图表：单一图表仅提供部分信息（例如，仅购买考虑图表无法解释支付意愿缺失），冲突需通过数值比较显现。"
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：表面基于图表，但错误季度数据解读。2021Q3销售额最低（5.0亿），而Cerveza elaborada con proceso tradicional支付意愿高（24.4%），但销售数据不支持该季度关联，误读时间序列。",
+        "B": "依赖啤酒电商销售额气泡图（显示季度销售额）和愿意支付更高价格的啤酒卖点的联合推理：Jugo de malta de alta concentración在支付意愿中占比靠前，与2022Q1销售额激增现象结合，需分析两个图表以建立\"卖点吸引力\"与\"销售峰值\"的潜在驱动关系。所有选项需同时参考销售额图表（提供时间趋势）和支付意愿图表（提供属性权重），无法仅从单一图表推断（例如，仅销售额数据无法链接到卖点，仅支付意愿无时间维度）。",
+        "C": "这是一个Hard干扰项：表面基于图表，但错误排名理解。Ingredientes naturales在支付意愿中占22.9%（实际排第五），误读为排名最高（最高是Sabor intenso 32.0%），数值差距大（9.1个百分点）。",
+        "D": "依赖啤酒电商销售额气泡图（显示季度销售额）和愿意支付更高价格的啤酒卖点的联合推理：2022Q1销售额在气泡图中显示为峰值（远高于其他季度），而Sabor intenso在支付意愿卖点中排名第一，需跨图对比销售额趋势和支付意愿排名来推断隐含联系：高支付意愿卖点可能催化销售增长。所有选项需同时参考销售额图表（提供时间趋势）和支付意愿图表（提供属性权重），无法仅从单一图表推断（例如，仅销售额数据无法链接到卖点，仅支付意愿无时间维度）。",
+        "E": "依赖啤酒电商销售额气泡图（显示季度销售额）和愿意支付更高价格的啤酒卖点的联合推理：Cerveza elaborada con proceso tradicional在支付意愿中进入前三，而2022Q1销售额异常高，联合推理可发现工艺溢价可能作为销售助推因素（尽管无直接因果，但趋势一致）。所有选项需同时参考销售额图表（提供时间趋势）和支付意愿图表（提供属性权重），无法仅从单一图表推断（例如，仅销售额数据无法链接到卖点，仅支付意愿无时间维度）。",
+        "F": "这是一个Easy干扰项：基于行业常识，KOL推荐常被视为销售驱动力，但图表数据显示Recomendaciones de KOL在支付意愿中仅占11.1%，未进入TOP10（最低18.4%），实际影响力弱。",
+        "G": "这是一个Easy干扰项：基于语言常识，便捷度可能提升销售，但图表数据中Conveniencia de compra是购买考虑因素（20.0%），未在支付意愿卖点中涉及，不直接相关季度增长。"
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -151,6 +202,21 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en el conocimiento general de negocios (la promoción de la marca puede aumentar la influencia), pero no se basa en los datos del gráfico (por ejemplo, en chart_90_3, el conocimiento de la marca solo representa el 26,5%, y el enfoque de la pregunta es la optimización de las características del producto, no la estrategia de marketing). La expresión es amplia y no tiene una guía de acción específica, por lo que es fácil de descartar.",
+        "B": "Combinando el hecho de que el factor de la concentración de mosto en chart_90_3 está en el segundo lugar (31,3%) y que la voluntad de pago por el punto de venta de jugo de malta de alta concentración en chart_90_4 tiene una proporción alta (26,0%), se muestra que este factor es importante tanto en la etapa de decisión como en la de pago, lo que puede reforzar la diferenciación del mercado.",
+        "C": "Esta es una opción de distracción fácil: se basa en el conocimiento general (la reducción de precios puede estimular la demanda), pero ignora la tendencia del gráfico (chart_90_4 muestra que los consumidores están dispuestos a pagar un precio más alto por puntos de venta como el sabor, con una proporción tan alta como el 32,0%). La dirección de la estrategia es contraria a la tendencia de la voluntad de pago y no se centra en la optimización de las características del producto. La expresión es amplia.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza los datos del gráfico (cita el 22,7% de la riqueza de la espuma en chart_90_3), pero asocia erróneamente la voluntad de pago. En realidad, chart_90_4 muestra que la riqueza de la espuma no está entre los 10 principales puntos de venta en cuanto a voluntad de pago (el más alto es el sabor con un 32,0%), la proporción es baja y no hay datos directos que respalden un premio de pago. La lógica confunde la relación entre la consideración de compra y la voluntad de pago.",
+        "E": "Basado en que los puntos de venta de proceso tradicional (24,4%) y lista de ingredientes pura (23,0%) en chart_90_4 están entre los primeros en cuanto a voluntad de pago, y en los factores de ingredientes de elaboración (27,3%) y proceso de elaboración (25,8%) en chart_90_3, se destaca el efecto sinérgico del proceso y la naturalidad en los productos de alta gama.",
+        "F": "Basado en que el factor de sabor en chart_90_3 tiene la proporción más alta (38,4%) y que la voluntad de pago por el punto de venta de sabor más intenso en chart_90_4 es la más alta (32,0%), se enfatiza que el sabor es el factor impulsor central, lo que puede maximizar la atractividad del producto."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "D"
       ]
     },
     {
@@ -174,6 +240,21 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Basado en que las ventas en el primer trimestre de 2022 en chart_90_1 aumentaron significativamente (1.090 millones, en comparación con la tendencia de descenso de los trimestres anteriores) y en que el factor de sabor en chart_90_3 tiene la proporción más alta (38,4%), se muestra que combinar la temporada alta con las preferencias centrales puede aprovechar el pico de ventas; los datos de chart_90_2 son los mismos, lo que refuerza la confiabilidad de la tendencia.",
+        "B": "Integrando la tendencia trimestral de chart_90_1 (descenso en el segundo, tercer y cuarto trimestre, aumento en el primer trimestre) y los puntos de venta de voluntad de pago de chart_90_4 (por ejemplo, el proceso tradicional con un 24,4%) y los factores de compra de chart_90_3 (por ejemplo, la evaluación de boca en boca con un 29,4%), se logra una asignación dinámica de recursos que se ajusta al ciclo de demanda y la etapa de decisión del consumidor.",
+        "C": "Combinando el hecho de que las ventas en el cuarto trimestre de 2021 en chart_90_1 fueron las más bajas (420 millones) y que los factores de relación calidad - precio (24,8%) y nuevos sabores/nuevas sensaciones (20,5%) en chart_90_3 tienen una proporción mediana, se activan las demandas potenciales a través de promociones en la temporada baja para evitar el desperdicio de recursos.",
+        "D": "Esta es una opción de distracción fácil: se basa en el conocimiento general de gestión (la asignación uniforme del presupuesto puede reducir el riesgo), pero no se basa en los datos del gráfico (por ejemplo, chart_90_1 muestra que las ventas trimestrales fluctúan mucho, con 1.090 millones en el primer trimestre frente a solo 420 millones en el cuarto trimestre). La expresión es amplia y no tiene una guía específica de momento o preferencia, por lo que es fácil de descartar por conocimiento general.",
+        "E": "Esta es una opción de distracción difícil: aparentemente utiliza los datos del gráfico (cita las ventas de 500 millones en el tercer trimestre de chart_90_1 y el 29,4% de la evaluación de boca en boca en chart_90_3), pero interpreta erróneamente la tendencia. En realidad, las ventas en el tercer trimestre son inferiores a las del segundo trimestre (700 millones) y del primer trimestre (1.090 millones), y la evaluación de boca en boca no aparece entre los 10 principales en cuanto a voluntad de pago (chart_90_4). La lógica confunde el nivel medio de ventas con el efecto de marketing y omite que se deberían concentrar más recursos en el pico del primer trimestre.",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza los datos del gráfico (cita el valle de ventas de 420 millones en el cuarto trimestre de chart_90_1 y el 20,0% de la conveniencia de compra y el 24,8% de la relación calidad - precio en chart_90_3), pero asocia erróneamente las preferencias del consumidor. En realidad, ni la conveniencia de compra ni la relación calidad - precio están entre los 10 principales en cuanto a voluntad de pago en chart_90_4 (la relación calidad - precio solo representa el 24,8% pero no está entre los 10 principales), y enfatizar factores secundarios (como la conveniencia de compra) en una temporada de baja demanda en el cuarto trimestre puede ser ineficaz. La dirección de la estrategia se desvía de las preferencias centrales (por ejemplo, el sabor con un 38,4%)."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -196,6 +277,21 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente utiliza los datos del gráfico (cita el 18,4% del proceso de alta tecnología en chart_90_4 y el 25,8% del proceso de elaboración en chart_90_3), pero interpreta erróneamente los valores. En realidad, la voluntad de pago por el proceso de alta tecnología solo está en el décimo lugar (por debajo del sabor con un 32,0%), y el proceso de elaboración está en el octavo lugar en la consideración de compra, con una proporción no alta; asume erróneamente que puede mejorar la percepción de alta gama y omite los puntos de venta con una mayor voluntad de pago (por ejemplo, el proceso tradicional con un 24,4%).",
+        "B": "Esta es una opción de distracción difícil: aparentemente utiliza los datos del gráfico (cita el 28,1% del contenido de alcohol en chart_90_3 y el 22,4% de la voluntad de pago en chart_90_4), pero prioriza erróneamente factores secundarios. En realidad, el sabor más intenso (32,0%) y el jugo de malta de alta concentración (26,0%) tienen una mayor voluntad de pago, y el contenido de alcohol está en el cuarto lugar en la consideración de compra. La lógica confunde el punto de venta central (el sabor tiene la proporción más alta con un 38,4%), y la dirección de la estrategia se desvía明显mente.",
+        "C": "Esta es una opción de distracción fácil: se basa en el conocimiento general de expansión del mercado (cubrir más grupos de consumidores), pero ignora los datos del gráfico (por ejemplo, chart_90_4 muestra que los consumidores están dispuestos a pagar un premio por características como el sabor, con una proporción tan alta como el 32,0%). La estrategia es contraria al objetivo de la \"línea de productos de alta gama\". La expresión es amplia y no tiene una optimización específica de características.",
+        "D": "Basado en la voluntad de pago por los puntos de venta de bajo impacto (19,6%) y vida útil más corta, más fresca (19,2%) en chart_90_4, en el aumento significativo de las ventas en el primer trimestre de 2022 en chart_90_1 (lo que muestra la elasticidad de la demanda), y en que los factores relacionados como el bajo impacto no se listan directamente en chart_90_3 pero se implican en \"bajo en calorías, bajo en grasa\", se aprovecha la tendencia del comercio electrónico para capturar las demandas emergentes.",
+        "E": "Combinando el hecho de que los puntos de venta de jugo de malta de alta concentración (26,0%) y proceso tradicional (24,4%) en chart_90_4 tienen una alta voluntad de pago, y que el factor de concentración de mosto en chart_90_3 está en el segundo lugar (31,3%), se apunta a los consumidores sensibles a la calidad para evitar la competencia homogénea.",
+        "F": "Basado en que la voluntad de pago por el punto de venta de sabor más intenso en chart_90_4 es la más alta (32,0%) y que el factor de sabor en chart_90_3 tiene la proporción más alta (38,4%), se destaca la doble ventaja del punto de venta central para garantizar una posición precisa del producto."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     }
   ]

@@ -84,6 +84,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Option correctness: The option combines the shares of Communication and Chat and Comprehensive Information to infer their collective impact; Joint reasoning is required: Single - chart reasoning is not enough. One chart only provides the fact of growth but cannot explain the reason. The other chart only provides the distribution but cannot link it to the growth trend. Cross - analysis of the distribution ratio and growth data is necessary to identify the dominant categories.",
+        "B": "Option correctness: The option infers that the high proportion of Video Services is related to the growth trend of usage time because video content usually extends user sessions; Joint reasoning is required: Single - chart reasoning is not enough. One chart only provides the fact of growth but cannot explain the reason. The other chart only provides the distribution but cannot link it to the growth trend. Cross - analysis of the distribution ratio and growth data is necessary to identify the dominant categories.",
+        "C": "The actual proportion of Social Networks is only 4.1%, far lower than the 43.9% of Video Services. Therefore, the statement that it has a 'high proportion' is incorrect. Based on common sense, social networks are usually not the dominant category in terms of usage time, and the chart does not support its dominant role.",
+        "D": "The proportion of Utility Tools is only 3.6%, ranking low in the distribution. The chart shows no evidence of its growth or innovation. It wrongly assumes that a low - proportion category can dominate the growth, while the dominant category should be a high - proportion one like Video Services.",
+        "E": "Option correctness: The option uses the distribution of Others to imply its potential role; Joint reasoning is required: Single - chart reasoning is not enough. One chart only provides the fact of growth but cannot explain the reason. The other chart only provides the distribution but cannot link it to the growth trend. Cross - analysis of the distribution ratio and growth data is necessary to identify the dominant categories.",
+        "F": "The proportion of Game Services is 5.8%, which is relatively low. The overall growth rate of 5.1% is the growth of the total usage time, not the growth rate of a specific category. The chart provides no growth data for Game Services. It wrongly equates the overall growth rate with the contribution of a specific category."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "D"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "The cost decreased in 2019, but the chart provides no usage time data for 2019. It wrongly infers that the cost change in a specific year directly affects the usage time. The growth in 2022 is based on the data from 2021 - 2022, which has nothing to do with 2019.",
+        "B": "The marketing cost has been on an overall upward trend (from 67.6 yuan/person in 2014 to 572.3 yuan/person in 2021) and has never decreased. Based on common sense, one should not assume a decreasing scenario when the cost is rising, and the chart does not support a decrease.",
+        "C": "The cost was the highest in 2021, but the 5.1% growth in usage time in Q1 2022 is a positive change. It wrongly interprets 'only 5.1%' as insignificant. The chart shows that the increase in cost coexists with the growth, which does not prove ineffectiveness.",
+        "D": "Option correctness: The option associates the peak cost with the growth timing and infers that marketing drives user activity; Joint reasoning is required: Single - chart reasoning is not enough. One chart only shows the cost trend but cannot link it to specific changes in user behavior. The other chart only shows the growth but cannot trace the cause. Combining the cost trend and growth data is necessary to infer the potential role of marketing.",
+        "E": "Option correctness: The option combines the cost trend and the growth of usage time and infers the reinforcement of user behavior from the perspective of social needs; Joint reasoning is required: The option cannot be derived from either the marketing cost or the usage time growth alone. Cross - analysis of the cost trend and growth data is necessary.",
+        "F": "Option correctness: The option combines the proportion of Others and the growth situation and infers the indirect role of auxiliary categories; Joint reasoning is required: The option cannot be derived from either the proportion of Others or the growth alone. Cross - analysis of the distribution and growth data is necessary."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option correctness: The option combines the cost trend and the growth of usage time and infers the reinforcement of user behavior from the perspective of social needs; Joint reasoning is required: The option cannot be derived from either the marketing cost or the usage time growth alone. Cross - analysis of the cost trend and growth data is necessary.",
+        "B": "The chart does not specify the investment categories of marketing costs. It wrongly associates the overall cost growth (20.6%) directly with the proportion of Video Services, while the dominance of Video Services may be due to other factors such as content demand.",
+        "C": "The actual proportion of E - commerce is only 3.7%, far lower than the 43.9% of Video Services. Based on common sense, E - commerce is not a high - proportion category, and the chart shows no distribution of marketing costs. It wrongly assumes that it is the main investment target.",
+        "D": "Option correctness: The option combines the proportion of Others and the growth situation and infers the indirect role of auxiliary categories; Joint reasoning is required: The option cannot be derived from either the proportion of Others or the growth alone. Cross - analysis of the distribution and growth data is necessary.",
+        "E": "Option correctness: The option combines the increase in marketing costs and the proportion of Video Services and infers the investment effect of marketing on the dominant category; Joint reasoning is required: The option cannot be derived from either the marketing cost or the distribution alone. Cross - analysis of the cost trend and distribution data is necessary.",
+        "F": "The proportion of Others is 11.9%, but the chart shows no evidence that it indirectly reduces the usage of Video Services. It wrongly infers that the increase in marketing costs will weaken the high - proportion category, while the actual 5.1% growth supports the overall increase in usage intensity."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F"
       ]
     },
     {
@@ -150,6 +195,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a broad strategy (raising prices to cover costs), but the charts do not cover pricing or profit. Moreover, it may reduce user attractiveness and has nothing to do with the growth strategy.",
+        "B": "This suggestion is based on general marketing common sense (offline activities are effective), but it does not refer to the chart data (such as the continuous upward trend of marketing costs) and is not optimized for cost - efficiency, so it is easy to be excluded.",
+        "C": "Misinterpretation of the chart: chart_76_1 shows an increase in usage time (5.1%), but the growth is due to high user stickiness. The correct strategy is to strengthen retention rather than stop it; stopping the retention plan may reduce loyalty, which contradicts the data trend.",
+        "D": "Option A combines chart_76_1 (the upward trend of user device usage time) and chart_76_2 (the upward trend of marketing cost per newly - added user) and infers that the retention strategy is more cost - effective: the increase in usage time indicates the enhanced value of existing users, while the rising marketing cost makes acquiring new users expensive.",
+        "E": "Wrongly confusing data: chart_76_2 shows that the cost was the lowest in 2014, but the trend is a continuous increase (reaching 572.3 yuan in 2021). Returning to the old strategy ignores environmental changes and may be ineffective or even increase costs.",
+        "F": "Option C combines chart_76_3 (the high proportion of leading fields such as video services) and chart_76_1 (the increase in usage time), and combines the growth strategy with high - engagement applications to reduce the dependence on external marketing.",
+        "G": "Option B combines chart_76_2 (the upward trend of marketing costs) and chart_76_3 (the distribution of user application usage time, which implies behavioral data for analysis), and suggests optimizing marketing through data to avoid ineffective spending."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -172,6 +234,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Wrongly confusing values: video services have a high proportion, but although the share of 'Other applications' (11.9%) is higher than that of social networks (4.1%), the content of 'Other applications' is not defined; prioritizing investment in the vague category rather than high - stickiness fields (such as communication and chat with 19.7%) may be inefficient.",
+        "B": "This suggestion is based on common sense (even distribution), but the chart shows a highly uneven time distribution (video services account for 43.9%). Evenly distributing resources may dilute efficiency and is easy to be excluded.",
+        "C": "Option B combines chart_76_3 (categories with medium shares such as comprehensive information and game services) and chart_76_1 (the upward trend of usage time), and suggests a balanced strategy: the growth trend provides room for experimentation and avoids ignoring emerging opportunities.",
+        "D": "Option C combines chart_76_3 (categories with low shares such as utility tools and e - commerce) and chart_76_1 (the upward trend of usage time), and improves efficiency by integrating high - engagement applications, which conforms to the logic of resource optimization.",
+        "E": "Option A combines chart_76_3 (video services and communication and chat have the highest proportions and are dominant) and chart_76_1 (the upward trend of user device usage time), and infers that tilting resources towards high - engagement fields can take advantage of the growth potential.",
+        "F": "A broad strategy (simplifying the interface), which does not target specific time - distribution data and is not directly linked to maximizing engagement.",
+        "G": "Misinterpretation of the chart: chart_76_3 shows that the shares of comprehensive information (7.3%) and game services (5.8%) are similar, but there is no data support for cutting the former and investing in the latter; the correct strategy should focus on dominant categories or integration, and this suggestion may miss opportunities."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -195,6 +274,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option A combines chart_76_2 (the upward trend of marketing cost per newly - added user) and chart_76_3 (the high proportion of leading fields such as video services) and infers that reallocating the budget to high - stickiness fields: the rising cost requires efficiency optimization, and the leading applications provide a low - cost growth path.",
+        "B": "Misinterpretation of the trend: chart_76_1 shows an increase in usage time, but pausing marketing during the growth period (such as Q1) may miss opportunities; the upward trend of costs in chart_76_2 is a long - term one, and the pausing strategy ignores the optimization of user lifetime value.",
+        "C": "Wrongly confusing relationships: chart_76_3 shows that communication and chat have a high proportion (19.7%), but video services have a higher proportion (43.9%); reducing investment in video may ignore its dominant position, and there is no proof that communication and chat have stronger interaction (not mentioned in the data), so the strategy is off - target.",
+        "D": "Option B combines chart_76_1 (the upward trend of user device usage time) and chart_76_2 (the upward trend of marketing costs), and suggests a time - sensitive strategy: users are more likely to be converted during the period of increasing usage time, which can hedge the cost pressure.",
+        "E": "Option C combines chart_76_3 (applications with high proportions such as communication and chat) and chart_76_2 (the upward trend of marketing costs), and uses the network effect of existing users to reduce external spending, which conforms to the concept of sustainable growth.",
+        "F": "This suggestion is based on general management common sense (training to improve efficiency), but it does not quote the chart data (such as the upward trend of costs) and has no specific action guidelines, so it is easy to be excluded.",
+        "G": "A broad strategy (brand ambassadors), which does not consider the rising costs or usage patterns in the charts and may not solve the cost - efficiency problem."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     }
   ]

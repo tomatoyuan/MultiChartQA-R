@@ -85,6 +85,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "依赖chart_165_1（如2023年Tomb-Sweeping Festival出游人次恢复比例较高但收入恢复比例较低）和chart_165_2（2023年4月ventas minoristas sociales同比增长率较高但后续月份波动）。这需要比较旅行收入与社零趋势，揭示消费降级或支出转移的规律，无法仅从单图推断。",
+        "B": "依赖chart_165_1（如2023年Dragon Boat Festival旅游收入恢复比例低于人次）和chart_165_2（2023年6月ventas minoristas sociales同比增长率较低）。这需要关联节假日数据和后续零售趋势，揭示消费行为的前后影响，是隐含联系。",
+        "C": "2024年Tomb-Sweeping Festival ventas minoristas sociales YoY为3.1%是整体零售数据，与旅游收入恢复112.7%无直接冲突（旅游属细分领域），且图表未显示二者挤压关系。",
+        "D": "实际数据：23 Dragon Boat Festival收入恢复94.9% < Mid-Autumn Festival & National Day 101.5%，选项错误颠倒数值关系。",
+        "E": "图表未涉及国际旅游数据，且2023年国内旅游人次已超疫情前水平（如119.1%），常识上跨境旅游分流国内消费的假设不成立。",
+        "F": "依赖chart_165_1（2024年Tomb-Sweeping Festival出游人次和收入恢复比例均高且接近）和chart_165_2（2024年ventas minoristas en red de bienes físicos累计同比增长率持续高位）。这需要跨图分析时间对应和线上消费作用，单图无法得出\"线上渠道普及\"的结论。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "依赖chart_165_2（ventas minoristas en red同比增长率持续高于ventas minoristas sociales，如2024年2-3月差距显著）和chart_165_4（\"Necesidad básica\"数值远高于其他需求）。这需要对比增长趋势和需求类型，揭示实用主义主导的规律，单图无法解释\"为什么线上更强\"。",
+        "B": "ventas minoristas en red增速（14.4%）是累计值，不可直接与\"Compra impulsiva\"（11）的绝对值比较；且Necesidad básica（55）才是主要驱动因素。",
+        "C": "图表未提及物流效率，且电器需求中\"Necesidad básica\"（55）更可能驱动线上韧性，属无关常识。",
+        "D": "实际数据：2023年11月ventas minoristas sociales YoY（10.1%）> ventas minoristas en red（8.3%），选项错误描述差距\"最小\"；且\"Dar gusto a sí mismo\"与增速无直接关联。",
+        "E": "依赖chart_165_2（ventas minoristas sociales同比增长率波动下降，但ventas minoristas en red稳定）和chart_165_4（\"Dar gusto a sí mismo\"和\"Recomendación de otras personas\"数值较高）。这需要跨图分析趋势冲突与需求关联，解释线上韧性源于情感因素，是隐含联系。",
+        "F": "依赖chart_165_2（2024年ventas minoristas en red增速提升）和chart_165_4（\"Renovar\"和\"Probar por curiosidad\"数值相对较低）。这需要联合识别增长与需求之间的冲突（高增长但低创新需求），并推断线上依赖基础需求，无法仅从单图得出。"
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "依赖chart_165_3（Platos precocinados compuestos/Condimentos para recetas占比持平）和chart_165_2（ventas minoristas en red增长稳健但ventas minoristas sociales增长波动）。这需要关联品类稳定性和渠道趋势，推断线上对便利需求的支撑作用，并对比线下压力，无法从单图得出。",
+        "B": "Platos precocinados compuestos/Condimentos para recetas占比未变（38%），ventas minoristas en red增速（14.4%）是2024年2月数据，无证据表明依赖新品（Condimentos regionales/especialidades占比始终0%）。",
+        "C": "依赖chart_165_3（品类占比变化微小但Condimentos básicos下降）和chart_165_2（ventas minoristas en red增长高于ventas minoristas sociales整体）。这需要联合分析占比稳定性与增长差异，隐含线上偏好升级消费，是跨图推理。",
+        "D": "实际数据：Condimentos básicos占比从35%降至33%，与\"需求上升\"矛盾；图表未提健康因素。",
+        "E": "2023年6月ventas minoristas sociales YoY（3.1%）是整体零售，调味品占比为季度数据（Q1 Condimentos básicos 35%），两者无时间对应关系。",
+        "F": "依赖chart_165_3（Condimentos básicos占比从2023Q1到2024Q1下降，Condimentos compuestos no precocinados占比上升）和chart_165_2（ventas minoristas en red de bienes físicos累计同比增长率高位运行）。这需要跨图比较品类变化与线上趋势，揭示\"便捷多样化 + 线上化\"的规律，单图无法推断关联。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -149,6 +194,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Confusión errónea de tendencias: chart_165_1 muestra que la tasa de recuperación de ingresos superó a la de viajeros en el período posterior, pero esto se debe principalmente al resurgimiento del consumo durante las fiestas (por ejemplo, 101.5% en los Festivales de Medio Otoño y Nacional de 2023), no a los canales minoristas físicos; chart_165_2 muestra un crecimiento continuo y alto del YoY del comercio minorista en línea (por ejemplo, 11.6% en marzo de 2024), lo que indica que los canales en línea son más eficientes y que la inversión en canales físicos puede ser ineficiente.",
+        "B": "En chart_165_1, la proporción de recuperación de ingresos turísticos ha sido inferior a la de viajeros durante mucho tiempo (por ejemplo, en el Festival de Paseo de Primavera de 2023, los ingresos fueron del 39.2% frente al 68.0% de viajeros), lo que muestra un problema de conversión de consumo; en chart_165_2, el YoY acumulado del comercio minorista en línea de bienes físicos ha sido continuamente superior al total del comercio minorista social (por ejemplo, 11.6% en marzo de 2024 frente al 3.1%), lo que demuestra la ventaja de crecimiento de los canales en línea.",
+        "C": "Esta es una sugerencia basada en el conocimiento general, que no se basa en los datos de los gráficos (como la tendencia de crecimiento del comercio minorista en línea) y no resuelve el problema central de la baja tasa de conversión de ingresos.",
+        "D": "En chart_165_1, la tasa de recuperación de ingresos superó a la de viajeros en el período posterior (por ejemplo, en el Festival de Paseo de Primavera de 2024, los ingresos fueron del 112.7% frente al 111.5% de viajeros), lo que refleja el aumento del consumo de experiencia; en chart_165_2, el YoY del comercio minorista social en los meses festivos (por ejemplo, 12.7% en mayo de 2023) muestra que está impulsado por la demanda emocional.",
+        "E": "Esta opción se basa en los conocimientos generales de marketing, pero no aborda el problema de la brecha de recuperación entre ingresos y viajeros en los gráficos y no tiene acciones concretas (como paquetes combinados o servicios de alto valor añadido), por lo que parece amplia y poco efectiva.",
+        "F": "En chart_165_1, la tasa de recuperación de ingresos tiene una gran diferencia estacional (por ejemplo, 94.9% en el Festival del Barco del Dragón de 2023 frente al 112.7% en el Festival de Paseo de Primavera de 2024); en chart_165_2, el YoY del comercio minorista social fluctúa violentamente (por ejemplo, de 3.1% en junio de 2023 a 10.1% en noviembre de 2023), por lo que se necesita una fijación dinámica de precios para hacer frente a ello.",
+        "G": "Interpretación errónea de los gráficos: chart_165_1 muestra que en la temporada baja (por ejemplo, el Festival de Paseo de Primavera), la tasa de recuperación de ingresos (39.2%) es mucho menor que la de viajeros (68.0%), lo que indica que se necesita mejorar la conversión de consumo en la temporada baja en lugar de reducir la inversión; reducir el marketing aumentará la brecha de ingresos, lo que contradice el objetivo."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -172,6 +234,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "En chart_165_3, la proporción de condimentos básicos cayó de 35% a 33%, pero sigue siendo la segunda categoría más grande; en chart_165_2, el YoY del comercio minorista social en el período de bajo crecimiento (por ejemplo, 3.1% en marzo de 2024) muestra que el consumo de productos esenciales es estable y se necesita optimizar los canales.",
+        "B": "En chart_165_3, la proporción de condimentos regionales/especialidades es cero, lo que indica un vacío en el mercado; en chart_165_4, la demanda de regalar a familiares y amigos (valor 15) y la demanda de dar gusto a sí mismo (valor 42) tienen potencial; en chart_165_2, el aumento del comercio minorista social durante las fiestas (por ejemplo, 7.6% en octubre de 2023) apoya el escenario de regalos.",
+        "C": "Interpretación errónea de la tendencia: chart_165_3 muestra que la proporción de platos precocinados compuestos/condimentos para recetas es estable (38%), pero la proporción de condimentos compuestos no precocinados aumentó de 27% a 29%, lo que indica un potencial de crecimiento; reducir la capacidad de producción de platos precocinados puede hacer que se pierdan oportunidades, y la disminución de la proporción de condimentos básicos (de 35% a 33%) muestra que se necesita innovación en lugar de simplemente centrarse en ellos.",
+        "D": "Interpretación errónea de los gráficos: chart_165_3 muestra que la proporción de condimentos regionales/especialidades es del 0% (en el primer trimestre de 2023 y 2024), sin signos de crecimiento; en chart_165_4, la demanda de regalar a familiares y amigos es solo 15 (uno de los valores más bajos), y los datos del comercio minorista social (chart_165_2) muestran un aumento del consumo emocional, pero no apoyan directamente esta categoría; una inferencia excesiva puede causar un desperdicio de recursos.",
+        "E": "Esta opción se basa en los conocimientos generales de la industria, pero no aborda los cambios específicos de las categorías (como el aumento de los condimentos compuestos no precocinados) o las tendencias de los canales, y no tiene una guía clara para la asignación de recursos.",
+        "F": "Esta es una sugerencia general que no se basa en los datos de crecimiento del comercio minorista en línea de los gráficos. Los canales tradicionales pueden ser ineficientes y no se optimiza la combinación de productos.",
+        "G": "En chart_165_3, la proporción de condimentos compuestos no precocinados aumentó de 27% en el primer trimestre de 2023 a 29% en el primer trimestre de 2024, lo que muestra una clara tendencia de crecimiento; en chart_165_2, el YoY acumulado del comercio minorista en línea de bienes físicos ha sido continuamente superior al total del comercio minorista social (por ejemplo, 11.6% en marzo de 2024 frente al 3.1%), lo que valida la eficiencia de los canales en línea."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -195,6 +274,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Interpretación errónea: chart_165_4 muestra que la demanda de dar gusto a sí mismo (42) y la demanda de mostrar gusto/personalidad (36) son fuertes; en chart_165_2, el alto crecimiento del YoY del comercio minorista en línea (11.6%) indica que los canales en línea son adecuados para el marketing emocional; reducir la inversión puede hacer que se ignoren las demandas de alto potencial, y el consumo emocional puede seguir siendo resistente cuando el comercio minorista social se desacelera.",
+        "B": "Esta opción se basa en la lógica comercial general, pero no aborda las características específicas de la demanda (como la demanda de dar gusto a sí mismo o la demanda esencial) y no hay ajustes en los puntos focales de desarrollo de productos o marketing. Es demasiado generalizada.",
+        "C": "En chart_165_4, la demanda de regalar a familiares y amigos tiene un valor de 15 y la demanda de probar por curiosidad tiene un valor de 21, lo que muestra el potencial de estos escenarios; en chart_165_1, la tasa de recuperación del turismo durante las fiestas superó el 100% (por ejemplo, 119.1% en el Día del Trabajo de 2023). Combinado con el aumento del comercio minorista social durante las fiestas en chart_165_2, se valida la viabilidad de estos escenarios.",
+        "D": "Esta es una sugerencia basada en el conocimiento general, que no se basa en los datos de los gráficos (como la tendencia del comercio minorista en línea o el peso de la demanda). La colaboración transversal puede no aumentar directamente la cuota de mercado.",
+        "E": "En chart_165_4, el valor de la necesidad básica es 55, el más alto, y el valor de la renovación es 36, empatado en tercer lugar; en chart_165_2, el YoY del comercio minorista social se desaceleró en general (por ejemplo, 3.1% en marzo de 2024), por lo que se debe centrar en productos con alta funcionalidad.",
+        "F": "En chart_165_4, la demanda de dar gusto a sí mismo (valor 42) y la demanda de mostrar gusto/personalidad (valor 36) son destacadas; en chart_165_2, el YoY acumulado del comercio minorista en línea de bienes físicos tiene un crecimiento continuo y alto (por ejemplo, 14.4% en febrero de 2024), lo que es adecuado para el marketing emocional.",
+        "G": "Inferencia errónea: en chart_165_4, la demanda de regalar a familiares y amigos es solo 15 (uno de los valores más bajos), mucho menor que la necesidad básica (55) o la demanda de dar gusto a sí mismo (42); los datos de recuperación del turismo (chart_165_1) muestran que la recuperación de viajeros es buena, pero la recuperación de ingresos (por ejemplo, 39.2% en el Festival de Paseo de Primavera de 2023) indica un problema de conversión de consumo, y el escenario de regalos puede no ser eficiente."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

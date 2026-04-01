@@ -87,6 +87,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción se basa en el conocimiento general de la industria (tendencia de premiumización), pero los gráficos no mencionan cambios en la estructura de catering o datos de precios unitarios (chart_123_2 y chart_123_3 solo muestran ingresos totales y tamaño del mercado). En los gráficos reales, la contradicción entre la caída de ingresos de catering en 2020 (-15.4%) y el crecimiento del tamaño del mercado (+11.7%) se debe a que la pandemia impulsó la demanda en línea, no a la premiumización.",
+        "B": "Esta opción depende del conocimiento general (políticas gubernamentales), pero los gráficos no tienen datos relevantes (como vales de consumo), y la opción original ya se centra en la demanda en línea. La contradicción real es impulsada por la digitalización debido a la pandemia, no por detalles de políticas.",
+        "C": "Esta opción tiene valores incorrectos: chart_123_2 muestra que la variación interanual de los ingresos de catering por encima del límite en 2020 fue -14.0% (no crecimiento), mientras que los ingresos totales cayeron -15.4%. La opción inventa un crecimiento (+5.0%), sugiriendo erróneamente que la parte por encima del límite impulsó la entrega de comida, cuando ambas partes cayeron.",
+        "D": "Depende de la variación interanual de los ingresos totales de catering (muestra una caída general) y del crecimiento interanual del tamaño del mercado de entrega de comida (muestra crecimiento), razonando que la pandemia hizo que los consumidores se volcaran a la entrega de comida en línea, creando un conflicto entre las tendencias de ingresos y tamaño del mercado. Requiere comparar los puntos de contradicción entre los dos gráficos.",
+        "E": "Depende de la variación interanual de los ingresos de catering por encima del límite (caída menor que la general) y de los datos de crecimiento del tamaño del mercado de entrega de comida, razonando que la entrega de comida, como parte de la categoría por encima del límite, amortiguó la caída general con su alto crecimiento. Requiere combinar datos de ingresos desglosados y tendencias del tamaño del mercado.",
+        "F": "Depende de los datos de escala de usuarios de entrega de comida y tasa de penetración, y de los datos de crecimiento del tamaño del mercado de entrega de comida, razonando que la base de usuarios se expandió pero la tasa de penetración disminuyó, sugiriendo que el crecimiento del mercado de entrega de comida podría deberse a otros factores (como volumen de pedidos o precios unitarios), no solo al aumento de usuarios. Requiere combinar tendencias de usuarios y tendencias del mercado.",
+        "G": "Esta opción interpreta incorrectamente el gráfico: chart_123_1 muestra que la escala de usuarios de entrega de comida en 2020 fue 41883 (en diez miles de personas) (mayor que 39780 en 2019), la escala de usuarios creció, no disminuyó; la tasa de penetración cayó de 44.0% a 42.3%, tampoco aumentó. El crecimiento del tamaño del mercado (chart_123_3) fue impulsado principalmente por el aumento en el número de usuarios y la demanda por la pandemia, no por una 'disminución de usuarios'."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción tiene valores incorrectos: chart_123_1 muestra que la escala de usuarios en 2023 fue 54454 (en diez miles de personas) (mayor que 52118 en 2022), crecimiento de aproximadamente 4.5%; chart_123_3 muestra un crecimiento del tamaño del mercado del 36.7%, pero la tasa de penetración aumentó de 25.4% a 28.8% (aumentó, no disminuyó). La opción inventa una caída en la tasa de penetración, ignorando la contribución de la expansión de usuarios en los datos reales (como el doble crecimiento de usuarios y mercado en 2023).",
+        "B": "Depende de los datos de crecimiento de la escala de usuarios de entrega de comida y de los datos de crecimiento interanual del tamaño del mercado de entrega de comida en línea, razonando que normalmente se desaceleran de manera coordinada, pero la anomalía de 2023 podría deberse a precios unitarios o innovación en servicios. Requiere combinar tendencias de usuarios y puntos de desviación en la velocidad de crecimiento del mercado.",
+        "C": "Esta opción se basa en el conocimiento general (suposición de correlación positiva), pero los gráficos muestran excepciones: por ejemplo, en 2019 la escala de usuarios disminuyó (chart_123_1: 39780 vs. 40601 en 2018), pero el tamaño del mercado creció (chart_123_3: 5980 mil millones vs. 4597 mil millones), por lo que el efecto sinérgico no siempre se mantiene.",
+        "D": "Depende de los datos de cambio en la tasa de penetración de usuarios de entrega de comida y de los datos de crecimiento interanual del tamaño del mercado de entrega de comida en línea, razonando que un aumento en la tasa de penetración refleja una mayor lealtad de los usuarios, lo que a su vez acelera el crecimiento del mercado. Requiere combinar tendencias de cambio en la tasa de penetración y tendencias de velocidad de crecimiento del mercado.",
+        "E": "Esta opción utiliza conocimiento general (penetración de Internet), pero los gráficos no tienen datos relevantes (como tasas de penetración). El efecto sinérgico real se manifiesta en datos de años específicos (como el aumento masivo de usuarios en 2021 acompañado de alto crecimiento del mercado), no en un solo factor.",
+        "F": "Esta opción interpreta incorrectamente: chart_123_1 muestra que la escala de usuarios en 2019 fue 39780 (en diez miles de personas) (menor que 40601 en 2018), la escala de usuarios disminuyó; pero la velocidad de crecimiento del tamaño del mercado (chart_123_3) fue 16.9% (mayor que 11.7% en 2020). La opción interpreta erróneamente la disminución de usuarios como crecimiento, y asocia incorrectamente una 'desaceleración' (en realidad, la velocidad de crecimiento en 2018 fue 30.1%, en 2019 16.9% sí fue una desaceleración, pero la disminución de usuarios indica un efecto sinérgico debilitado, no que falle).",
+        "G": "Depende de los datos de crecimiento de la escala de usuarios de entrega de comida y de los datos de crecimiento interanual del tamaño del mercado de entrega de comida en línea, razonando que el aumento masivo de usuarios impulsa directamente la expansión del mercado. Requiere comparar años pico de crecimiento entre los dos gráficos."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Depende de los datos de crecimiento interanual de los ingresos totales de catering y de los datos de cambio en la tasa de penetración de la entrega de comida en línea, razonando que cuando el catering general se expande, la entrega de comida, como subconjunto, se beneficia del crecimiento de la demanda. Requiere combinar la velocidad de crecimiento de ingresos y los cambios en la tasa de penetración.",
+        "B": "Depende de los datos de disminución interanual de los ingresos totales de catering, datos de cambio en la tasa de penetración de la entrega de comida en línea y datos de crecimiento del tamaño del mercado de entrega de comida, razonando que durante una caída de ingresos, la resistencia relativa de la entrega de comida en línea (crecimiento del tamaño del mercado) podría deberse a un aumento en la escala de usuarios, requiriendo analizar el cambio de comportamiento durante la crisis combinando los tres gráficos.",
+        "C": "Depende de los datos de variación de los ingresos de catering por encima del límite y de los datos de tendencia de la tasa de penetración de la entrega de comida en línea, razonando que la parte por encima del límite representa el mercado premium, que está parcialmente sincronizado con la tasa de penetración de la entrega de comida (como en 2021), pero la desviación en 2022 podría deberse a una caída en la tasa de penetración de usuarios. Requiere combinar datos de ingresos desglosados y tendencias de la tasa de penetración.",
+        "D": "Esta opción se basa en el conocimiento general (impacto estacional), pero los datos de los gráficos son anuales (no trimestrales), sin evidencia estacional (por ejemplo, chart_123_2 y chart_123_3 son datos de todo el año). Los cambios reales en la tasa de penetración están relacionados con eventos macro (como la pandemia), no con la estacionalidad.",
+        "E": "Esta opción tiene valores incorrectos: chart_123_3 muestra que la tasa de penetración en 2019 fue 12.8%, en 2020 11.7% (disminución, no aumento a 21.4%); no fue hasta 2021 que subió a 21.4%. La opción confunde los años, inventa un 'salto', cuando en realidad la disminución de la tasa de penetración en 2020 coincide con la caída de ingresos.",
+        "F": "Esta opción asocia incorrectamente: chart_123_2 muestra que la variación de los ingresos por encima del límite en 2022 fue -5.9%, chart_123_3 muestra una tasa de penetración de 25.4% (2022) vs. 21.4% (2021), un aumento. Pero la opción ignora que la variación de ingresos totales (-6.3%) es más relevante, y la variación por encima del límite de +23.5% en 2021 no coincide directamente con la tasa de penetración de +21.4% (también hay desviación en 2023), inventando una 'alta consistencia'.",
+        "G": "Esta opción depende del conocimiento económico general (impacto de la recesión), pero los gráficos muestran que cuando los ingresos cayeron en 2020 (-15.4%), la tasa de penetración bajó de 12.8% a 11.7% (chart_123_3), no una disminución sistémica; en 2021, el crecimiento de ingresos (+18.6%) estuvo acompañado de un salto en la tasa de penetración (21.4%), contrario al conocimiento general."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Igualmente general (colaborar para ampliar la oferta), ignora los puntos clave del gráfico (por ejemplo, la necesidad de una estrategia de retención cuando la escala de usuarios disminuyó en 2019) y carece de ajustes específicos para un mercado fluctuante.",
+        "B": "Esta opción se basa en conocimientos comerciales generales (optimizar la interfaz de usuario puede mejorar la experiencia), pero no ofrece una guía de acción específica y no se basa en las tendencias del gráfico (por ejemplo, la fluctuación de la tasa de penetración o el cambio en la escala de usuarios), por lo que es fácil de descartar por conocimiento general.",
+        "C": "La opción B se refiere al cambio en la escala de usuarios en el chart_123_1 (por ejemplo, la disminución en 2022) y la tendencia a la baja del crecimiento en el chart_123_3 (por ejemplo, la previsión de un crecimiento más lento después de 2022), y enfatiza la necesidad de una optimización interna.",
+        "D": "La opción C se refiere a los datos de la tasa de penetración en el chart_123_1 (por ejemplo, la tasa de penetración baja en 2020) y la tendencia de la tasa de penetración en el chart_123_3 (por ejemplo, la tasa de penetración del mercado también fue baja en 2020). Se necesita combinar conocimientos externos (por ejemplo, las diferencias regionales) para razonar sobre los mercados no explotados, pero la estrategia garantiza la inclusividad.",
+        "E": "Interpretación errónea de los datos del chart_123_1: la escala de usuarios disminuyó en 2022 (521.18 millones vs. 544.16 millones en 2021), pero la estrategia correcta debería ser optimizar la retención en lugar de reducir el presupuesto (la escala de usuarios volvió a crecer a 544.54 millones en 2023). Además, el chart_123_3 muestra que el tamaño del mercado creció un 11.2% en 2022, lo que indica que la inversión sigue siendo efectiva.",
+        "F": "Confusión entre la tasa de penetración y la saturación del mercado: el chart_123_1 muestra que la tasa de penetración en 2023 fue del 49.9%, cerca del máximo histórico, pero la tasa de penetración en el chart_123_3 fue del 28.8% y se prevé que se mantenga estable, lo que indica que todavía hay espacio de crecimiento para la entrega de comida online; una guerra de precios puede dañar las ganancias, lo que contradice el objetivo de maximizar la lealtad.",
+        "G": "La opción A se refiere a la fluctuación de la tasa de penetración de usuarios en el chart_123_1 (por ejemplo, un gran aumento en la tasa de penetración en 2021) y el crecimiento interanual del tamaño del mercado en el chart_123_3 (por ejemplo, un alto crecimiento en 2021), lo que muestra un efecto sinérgico durante el período de alto crecimiento."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción habla genéricamente de 'distribución equilibrada' sin ofrecer una estrategia de distribución específica (por ejemplo, basada en las tendencias de fluctuación) y ignora los datos del gráfico (por ejemplo, el crecimiento en línea y la contracción fuera de línea en 2020), por lo que es fácil de descartar por conocimiento general.",
+        "B": "Es una sugerencia general (gestión de seguridad alimentaria), aunque es correcta, no ofrece una guía para la distribución de recursos y no se basa en la tendencia de digitalización (por ejemplo, el aumento de la tasa de penetración), y carece de acciones para hacer frente a las fluctuaciones de ingresos.",
+        "C": "La opción B se refiere al crecimiento de ingresos en el chart_123_2 (por ejemplo, un alto crecimiento en 2023) y la tendencia del mercado en el chart_123_3 (por ejemplo, crecimiento en 2023 pero previsión de desaceleración), y razona sobre las oportunidades fuera de línea.",
+        "D": "La opción C se refiere a la tendencia al alza a largo plazo de la tasa de penetración en el chart_123_3 (de 2017 a 2027) y las fluctuaciones de ingresos en el chart_123_2, y enfatiza la perspectiva estratégica a largo plazo.",
+        "E": "La opción A se refiere a la variación de los ingresos de la industria de catering en el chart_123_2 (por ejemplo, una disminución en 2020 y una recuperación en 2021) y el crecimiento del tamaño del mercado de la entrega de comida online en el chart_123_3 (por ejemplo, un crecimiento positivo en 2020), lo que muestra la resistencia en línea.",
+        "F": "Interpretación errónea de los datos del chart_123_2 y el chart_123_3: los ingresos de la industria de catering disminuyeron un 15.4% en 2020, pero el chart_123_3 muestra que el tamaño del mercado de la entrega de comida online creció un 11.7% y la tasa de penetración fue del 11.7%, lo que indica que la presencia en línea puede mitigar los riesgos; reducir la inversión significa perder oportunidades.",
+        "G": "Comprensión errónea de la tendencia de la tasa de penetración: el chart_123_3 prevé que la tasa de penetración se mantenga estable al 28.0% en 2027, pero el tamaño del mercado seguirá creciendo (1,956.7 billones de yuanes en 2027), lo que indica que todavía hay espacio de expansión en línea; priorizar la oferta fuera de línea ignora el efecto sinérgico (por ejemplo, en 2023, cuando los ingresos aumentaron un 20.9%, tanto la oferta en línea como fuera de línea se beneficiaron)."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -200,6 +285,25 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "La opción A se refiere al crecimiento interanual en el chart_123_3 (por ejemplo, un alto crecimiento en 2021) y el cambio en la tasa de penetración de usuarios en el chart_123_1 (por ejemplo, un aumento repentino en 2021), lo que muestra una sinergia durante el período de alto crecimiento.",
+        "B": "Interpretación errónea de los datos de crecimiento: el chart_123_3 muestra que el tamaño del mercado creció un 50.2% en 2021, y al mismo tiempo la tasa de penetración de usuarios en el chart_123_1 aumentó al 52.7%, lo que indica una alta eficiencia durante el período de alto crecimiento; reducir la inversión significa perder oportunidades de beneficio, lo que contradice el objetivo de maximizar los rendimientos.",
+        "C": "Confusión entre la tasa de penetración y el momento de inversión: el chart_123_1 muestra que la tasa de penetración de usuarios fue del 48.8% en 2022 (disminución) y la escala de usuarios también disminuyó a 521.18 millones, lo que indica un alto riesgo en el mercado; duplicar la inversión puede amplificar las pérdidas (solo es adecuado cuando la tasa de penetración se recuperó al 49.9% en 2023).",
+        "D": "La opción C se refiere a la variación de los ingresos de la industria de catering en el chart_123_2 (por ejemplo, una disminución en 2020 y una recuperación en 2021) y los datos del tamaño del mercado en el chart_123_3, y enfatiza una estrategia a través de ciclos económicos.",
+        "E": "La opción B se refiere a la tendencia a la baja del crecimiento en el chart_123_3 (por ejemplo, la previsión después de 2024) y el cambio en la escala de usuarios en el chart_123_1 (por ejemplo, la disminución en 2022), y razona sobre la prioridad de la eficiencia.",
+        "F": "Interpretación errónea de la relación entre el mercado general y el mercado en línea: el chart_123_2 muestra que los ingresos de la industria de catering crecieron un 20.9% en 2023, pero la tasa de penetración en línea en el chart_123_3 aumentó al 28.8% y el tamaño del mercado en línea creció un 36.7%, lo que indica una gran contribución del mercado en línea; ignorar el mercado en línea significa perder oportunidades de crecimiento sinérgico.",
+        "G": "Esta opción es demasiado general (evaluar las tendencias y consultar a expertos), no ofrece una estrategia de ajuste específica y no cita datos del gráfico (por ejemplo, el crecimiento o la tasa de penetración), por lo que es fácil de descartar por conocimiento general.",
+        "H": "Es una sugerencia de responsabilidad social general (empaques ecológicos), aunque es positiva, no tiene una orientación hacia la rentabilidad de la inversión y ignora las características de las fluctuaciones de la industria (por ejemplo, las fluctuaciones de ingresos en el chart_123_2)."
+      },
+      "easy_error": [
+        "G",
+        "H"
+      ],
+      "hard_error": [
+        "B",
+        "C",
+        "F"
       ]
     }
   ]

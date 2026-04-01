@@ -85,6 +85,22 @@
       "label": [
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Hard: Incorrectly associate irrelevant charts (chart_13_2 shows age coverage, which has nothing to do with takeaway behavior), and confuse data dimensions.",
+        "B": "Easy: Violate common sense (heavy rain usually increases takeaway demand and reduces going out), without relying on charts.",
+        "C": "Also requires joint reasoning: chart_13_1 (lists provinces with low attention to rainstorms such as Xinjiang and Ningxia) and chart_13_4 (shows that the growth rate of takeaway searches is 41%, but it can be inferred from the base data that provinces with low attention contribute less). Chart_13_1 alone cannot explain behavior, and chart_13_4 alone cannot locate geography. The combination reveals the law that behavior changes are gentle in low - attention areas.",
+        "D": "Easy: Absolute error (provinces with low attention may still use takeaways), based on common sense rather than charts.",
+        "E": "Hard: Contradict the 41% positive growth in chart_13_4 (the overall search volume has surged, and provinces with high attention should contribute the main growth).",
+        "F": "Requires joint reasoning: chart_13_1 (shows that provinces paying attention to rainstorms on July 20 include Beijing and Hebei) and chart_13_4 (shows that the number of takeaway searches increased significantly on July 20). It is impossible to infer behavioral responses from a single chart (for example, chart_13_1 only provides attention, not behavior; chart_13_4 only provides behavioral data, not geographical distribution). The combination shows the law of the peak of geographical attention and the surge in behavior."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -107,6 +123,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Easy: Common - sense error (the differentiation degree of financial families in chart_13_3 is 0.786 < 1, indicating that the actual interest is lower than the average).",
+        "B": "Hard: Reverse the meaning of differentiation degree (a differentiation degree > 1 means the interest is higher than the average, and 1.2359 represents the highest interest).",
+        "C": "Requires joint reasoning: chart_13_2 (shows that the sample coverage rate of the 25 - 34 age group is the highest) and chart_13_3 (shows that the differentiation degree of 'Foodie' is the highest). Chart_13_2 alone cannot deduce the interest distribution, and chart_13_3 alone cannot connect with age groups. The combination reveals the implicit connection between young office workers (aged 25 - 34) and food - related interests.",
+        "D": "Easy: Ignore data (chart_13_3 shows that the differentiation degree of 'Gamer' is the lowest at 0.5915, indicating the weakest interest).",
+        "E": "Hard: Confuse concepts (differentiation degree reflects the intensity of interest, which has nothing to do with coverage rate; the sample coverage rate of 23.1% only represents the age proportion).",
+        "F": "Requires joint reasoning: chart_13_2 (the sample coverage rate of those under 18 is 23.1% vs the overall coverage rate of 12.4%, indicating a relatively high proportion of teenagers in the sample) and chart_13_3 (the differentiation degree of 'Gamer' is the lowest at 0.5915). A single chart cannot prove the association between interest and age (chart_13_2 has no interest data, and chart_13_3 has no age data). The joint reasoning shows the law that teenagers' interests deviate from games.",
+        "G": "Requires joint reasoning: chart_13_2 (the sample coverage rate of those aged 50 and above is the lowest at 2.8%) and chart_13_3 (the differentiation degree of 'Financial Family' is relatively low at 0.7860). It is impossible to match age and interest from a single chart (chart_13_2 has no differentiation degree, and chart_13_3 has no coverage rate). The combination reveals the implicit pattern that the interest of the elderly group is relatively low."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -127,6 +160,22 @@
       "label": [
         "A",
         "D"
+      ],
+      "cot": {
+        "A": "Requires joint reasoning: chart_13_1 (Shandong and Henan were provinces with high attention on July 20) and chart_13_3 (the differentiation degree of 'Home Decorator' is 0.9645 < 1, indicating that the interest is lower than the average). Chart_13_1 alone cannot explain the interest conflict, and chart_13_3 alone cannot locate geography. The combination reveals the conflict between high - attention areas and low home - related interests (it is expected that heavy rain should increase the interest in staying at home, but the data is abnormal).",
+        "B": "Hard: Fabricate provincial - level data (chart_13_3 does not provide provincial - level data, and the differentiation degree of Tech Enthusiasts is uniformly 1.0763 nationwide).",
+        "C": "Hard: Tamper with data (the actual differentiation degree of Home Decorator is 0.9645 < 1, but it is deliberately reported as 1.2).",
+        "D": "Requires joint reasoning: chart_13_1 (Guangdong is listed as a province with low attention to rainstorms) and chart_13_3 (the differentiation degree of 'Tech Enthusiast' is 1.0763 > 1, indicating relatively high interest). A single chart cannot infer the conflict (chart_13_1 has no interest data, and chart_13_3 has no geographical data). The joint reasoning shows the implicit conflict that there is relatively high digital interest in low - attention areas.",
+        "E": "Easy: Fabricate values (the actual differentiation degree of Tech Enthusiasts is 1.0763 > 1, and there is no evidence to support 'all < 0.5').",
+        "F": "Easy: Violate data (the differentiation degree of Home Decorator in chart_13_3 is 0.9645 < 1, indicating that the interest is lower than the average)."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -149,6 +198,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: On the surface, it uses the data of the least - concerned provinces in chart_13_1, but misinterprets the meaning of 'low attention' (actually indicating low risk perception or few historical events, rather than high potential risk). It ignores the demand trend (the demand surge in chart_13_4 occurs in the high - attention peak areas), which may lead to resource waste in low - demand areas.",
+        "B": "This is an easy distractor: It does not rely on the chart data and is only based on the common sense of 'fair distribution', but ignores the geographical and temporal attention changes shown in the charts (such as the rising attention in provinces like Hebei on July 20th in chart_13_1). This strategy will lead to resource misallocation and be unable to cope with the demand surge.",
+        "C": "This is a hard distractor: It misuses the time data in chart_13_1 (only focusing on July 1 - 7 and ignoring the changes on July 20th), while chart_13_4 shows that the demand increased sharply on July 20th. This strategy will make the resources outdated and unable to respond to dynamic changes.",
+        "D": "It involves the surging trend of provinces with high attention to rainstorms on July 20th in chart_13_1 (such as Shandong, Beijing, Hebei, etc.), and the sharp increase in takeaway search times on July 20th in chart_13_4 (a significant growth rate from the 19th to the 20th), indicating that the high - attention areas coincide with the demand peak, and priority resource allocation is needed.",
+        "E": "This is an easy distractor: It is based on common - sense logic (high attention may indicate that problems have been exposed), but does not refer to any chart data. Chart_13_4 shows a surge in demand (such as the soaring takeaway search volume). Reducing resources will increase people's livelihood pressure.",
+        "F": "Combining the continuous low - attention characteristics of provinces least concerned about rainstorms in chart_13_1 (such as Xinjiang, Qinghai, etc.) and the overall demand growth trend in chart_13_4 (the increase in takeaway search volume on rainy days), it infers that areas with low attention may have a higher risk due to insufficient preparation, and preventive measures are needed (in line with the value of strengthening support rather than ignoring).",
+        "G": "It integrates the time - related changes in attention in chart_13_1 (the increase from July 1 - 7 to July 20th) and the time - synchronization of demand in chart_13_4 (the sharp increase in search volume from July 19th to 20th), emphasizing the matching of resources with peak periods."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -171,6 +237,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It does not rely on the chart data and is only based on the common sense of 'treating everyone equally', but ignores the coverage differences among different age groups in chart_13_2 (such as the overly high sample coverage rate of 39.41% for the 25 - 34 age group) and the interest differentiation in chart_13_3, which will result in a lack of service targeting.",
+        "B": "This is a hard distractor: It misuses the sample coverage data of chart_13_2 (23.1% for those under 18), but ignores the relatively low overall coverage rate (12.4%). The representativeness difference indicates that this group may not be fully covered, and this wrong reasoning will lead to over - allocation of resources.",
+        "C": "Combining the fact that the sample coverage rate of the 35 - 49 age group in chart_13_2 is lower than the overall coverage rate (indicating an under - represented trend) and the leading differentiation of housewives in chart_13_3, it shows that this group may be neglected but has a strong family - interest correlation, and targeted publicity is needed (in line with the value of bridging the information gap).",
+        "D": "It integrates the characteristics of the 18 - 24 age group in chart_13_2, where the overall coverage rate is relatively high but the sample coverage rate is relatively insufficient, and the relatively high differentiation of tech enthusiasts in chart_13_3 (the value is greater than 1), and uses interest - driven methods to improve service coverage.",
+        "E": "This is an easy distractor: It is based on the common - sense reasoning of 'low coverage means high demand', but does not use the chart data. Chart_13_2 shows that the overall coverage rate of those over 50 is only 3.2% and the sample coverage rate is 2.8%, and the actual demand may be relatively low. Prioritizing resource allocation will be inefficient.",
+        "F": "It involves the fact that the sample coverage rate of the 25 - 34 age group in chart_13_2 is significantly higher than the overall coverage rate (an over - represented trend) and the title 'Office workers are the most affected', and at the same time combines the high differentiation of groups such as housewives in chart_13_3 (the value is greater than 1). It infers that this age group is greatly affected and overlaps with high - interest groups, and integrated services are needed.",
+        "G": "This is a hard distractor: On the surface, it uses the differentiation data of gamers in chart_13_3 (0.5915), but confuses the meaning of 'low differentiation' (actually indicating low interest, rather than high risk). The correct strategy should focus on high - differentiation groups (such as foodies with a value of 1.2359). This mistake may lead to resource waste on low - interest groups."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -194,6 +277,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Combining the relatively low differentiation of groups such as gamers in chart_13_3 (the value is less than 1) and the difference between the overall coverage and sample coverage of age groups such as those over 50 in chart_13_2 (potential information gap), it infers that groups with low interest may have weak risk awareness, and educational intervention is needed (in line with the value of equal support).",
+        "B": "It involves the fact that the differentiation of groups such as foodies in chart_13_3 is significantly higher than the benchmark (the value is greater than 1, indicating a high - interest trend), and the sharp increase in takeaway search times in chart_13_4 (a prominent growth rate), indicating that high - interest groups have urgent needs, and resource tilt is required.",
+        "C": "This is a hard distractor: It misuses the time data in chart_13_4 (only focusing on July 19th and ignoring the sharp increase and growth rate on July 20th). Chart_13_3 and chart_13_2 show that public opinion is synchronized with demand. This static allocation cannot respond to dynamic changes, resulting in service lag.",
+        "D": "This is an easy distractor: It is based on the common - sense logic of 'comprehensive coverage' but does not use the chart data. Chart_13_3 shows a large difference in interest differentiation (such as foodies with a value of 1.2359 vs. gamers with a value of 0.5915). A unified strategy will reduce accuracy and efficiency.",
+        "E": "This is a hard distractor: It misuses the differentiation data of gamers in chart_13_3 (0.5915) but misinterprets it (low differentiation means low interest, rather than high risk). Chart_13_2 and chart_13_4 show that demand is related to high - interest groups. This strategy will waste resources on low - response groups.",
+        "F": "It integrates the public - opinion attention characteristics of high - interest groups (such as foodies and housewives) in chart_13_3 and the time - related surge trend of demand in chart_13_4, emphasizing the matching of regions and service types.",
+        "G": "This is an easy distractor: It does not rely on the chart data and is only based on the common sense of'saving resources for temporary needs', but ignores the demand surge trend in chart_13_4 (the search volume on July 20th was 534,381 with a growth rate of 41%). Reducing resources will increase people's livelihood pressure."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     }
   ]

@@ -87,6 +87,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on the combined inference of the premium income chart (titled 'Original Premium Income and Growth Rate of the Chinese Insurance Industry from 2019 to 2026') and the technology investment chart (titled 'China Insurance Industry Technology Investment from 2023 to 2028'). The premium income chart shows that the CAGRs of premiums are 5 - 6%, and the technology investment chart shows that the growth rate of technology investment is 14 - 16%. The similarity between the two shows a positive correlation. Joint inference is required: A single chart can only show its own trend, and only by joint analysis can the pattern matching of similar growth rates be found.",
+        "B": "This is a Hard distractor, with a misinterpretation of the chart values: Chart_51_1 shows that the CAGR of premium income from 2019 to 2024 is 6%, while chart_51_3 shows that the growth rate of technology investment is between 13 - 16% (e.g., 13.4% in 2023). In fact, the growth rate of technology investment is higher, but the distractor incorrectly claims that 'the growth rate is much lower'.",
+        "C": "This is an Easy distractor, based on common sense (such as policy support promoting digitalization), not relying on chart data, and can be recognized as a general statement based on general industry knowledge alone.",
+        "D": "Option correctness: This option is based on the combined inference of the premium income chart (titled 'Original Premium Income and Growth Rate of the Chinese Insurance Industry from 2019 to 2026') and the technology investment chart (titled 'China Insurance Industry Technology Investment from 2023 to 2028'). The premium income chart shows an overall upward trend. The growth of health insurance and life insurance (e.g., health insurance increasing from 706.6 billion yuan in 2019 to 1059.1 billion yuan in 2026e) may provide funds for technology investment; the technology investment chart shows that technology investment increases year by year, which is consistent with the growth trend of premium income. Joint inference is required: A single chart can only show its own trend (e.g., the premium income chart alone shows the income growth, and the technology investment chart alone shows the investment growth), but only by joint analysis can the causal relationship be inferred (e.g., income growth drives investment increase).",
+        "E": "This is an Easy distractor, based on a common - sense error (the premium income of health insurance is actually increasing, e.g., 903.5 billion yuan in 2023 vs 865.3 billion yuan in 2022), but it is stated as 'decreasing', which has nothing to do with the chart.",
+        "F": "This is a Hard distractor, with a misinterpretation of the chart gap: In chart_51_1, the premium income of life insurance in 2023 (2764.6 billion yuan) increased by about 12.7% compared with 2022 (2451.9 billion yuan), not a negative growth; the distractor incorrectly interprets the 'growth rate' as negative and falsely associates it with technology investment.",
+        "G": "Option correctness: This option is based on the combined inference of the premium income chart (titled 'Original Premium Income and Growth Rate of the Chinese Insurance Industry from 2019 to 2026') and the technology investment chart (titled 'China Insurance Industry Technology Investment from 2023 to 2028'). The premium income chart shows that the income scale expands from 2019 to the end of the forecast period, and the technology investment chart shows that it accelerates growth from 2023. The matching time trend indicates that income growth may release more resources for technological innovation. Joint inference is required: A single chart can only show its own trend, and only by joint analysis can the causal relationship be inferred."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor, based on a common - sense error: In chart_51_2, the productivity of the health and wellness industry is 26 billion US dollars (index 6), ranking high (7th), but the distractor incorrectly claims that 'it ranks the lowest', which has nothing to do with the chart.",
+        "B": "Option correctness: This option is based on the combined inference of the AI productivity chart (titled 'Productivity Improvement of Generative AI by Industry') and the financial large - model distribution chart (titled 'Distribution of Winning Bids for Large - scale Financial Industry Models in 2024'). The AI productivity chart shows that the productivity of the insurance industry is at a medium level, and the financial large - model distribution chart shows that the insurance industry has a low proportion (8%) in the financial large - model projects, creating a conflict. Joint inference is required: A single chart can only show an isolated fact, and only by joint analysis can the contradiction (high productivity but few projects) be revealed.",
+        "C": "This is a Hard distractor, with a misinterpretation of the chart gap: In chart_51_2, the productivity of the banking industry is 34 billion US dollars (higher than 7 billion US dollars of the insurance industry), but the distractor incorrectly claims that 'the banking industry is lower than the insurance industry' and incorrectly associates it with the 56% proportion of the banking industry in chart_51_5.",
+        "D": "This is an Easy distractor, based on common sense (such as industry conservatism), not relying on chart data, and can be judged based on model knowledge or general insights alone.",
+        "E": "Option correctness: This option is based on the combined inference of the AI productivity chart (titled 'Productivity Improvement of Generative AI by Industry') and the financial large - model distribution chart (titled 'Distribution of Winning Bids for Large - scale Financial Industry Models in 2024'). The AI productivity chart shows that the productivity of the health and wellness industry is 26 billion US dollars (index 6) and that of the insurance industry is 7 billion US dollars (index 19). The financial large - model distribution chart shows that the insurance industry has a small share in financial projects, implying a broken connection. Joint inference is required: A single chart can only show an isolated fact, and only by joint analysis can the possible problems in cross - industry resource integration or priority setting be found.",
+        "F": "This is a Hard distractor, with a misinterpretation of the chart ranking and values: In chart_51_2, the productivity of the insurance industry is 7 billion US dollars (index 19), ranking second from the bottom (only higher than the agricultural industry), but the distractor incorrectly promotes it to 'rank first' (actually, the high - tech industry is 45 billion US dollars) and falsely compares it with the 8% proportion of the insurance industry in chart_51_5.",
+        "G": "Option correctness: This option is based on the combined inference of the AI productivity chart (titled 'Productivity Improvement of Generative AI by Industry') and the financial large - model distribution chart (titled 'Distribution of Winning Bids for Large - scale Financial Industry Models in 2024'). The AI productivity chart shows that the insurance industry has significant room for improvement, and the financial large - model distribution chart shows that the actual number and amount of winning bids of the insurance industry in the financial field are far lower than those of the banking industry, reflecting a lag in market implementation or a competitive disadvantage. Joint inference is required: A single chart can only show an isolated fact, and only by joint analysis can the contradiction and implicit reasons be revealed."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on the combined inference of the total technology investment chart (titled 'China Insurance Industry Technology Investment from 2023 to 2028') and the cutting - edge technology investment chart (titled 'China Insurance Industry Frontier Technology Investment from 2024 to 2029'). The total technology investment chart shows an increase in total investment, and the cutting - edge technology investment chart shows that the AI investment accounts for a significant proportion in the technology investment and has a faster growth rate, indicating that AI investment drives the total growth. Joint inference is required: A single chart can only provide partial information, and only by joint analysis can the contribution of AI be inferred.",
+        "B": "Option correctness: This option is based on the combined inference of the total technology investment chart (titled 'China Insurance Industry Technology Investment from 2023 to 2028') and the cutting - edge technology investment chart (titled 'China Insurance Industry Frontier Technology Investment from 2024 to 2029'). The total technology investment chart shows an expansion of the total investment scale, and the cutting - edge technology investment chart shows that the AI technology investment continues to rise and its proportion increases during the forecast period, implying that AI is becoming the core of the digital transformation of the insurance industry. Joint inference is required: A single chart can only provide partial information, and only by joint analysis can the core role of AI be inferred.",
+        "C": "This is an Easy distractor, based on common sense (such as the general importance of AI), not relying on chart data, and can be recognized based on general industry knowledge alone.",
+        "D": "Option correctness: This option is based on the combined inference of the total technology investment chart (titled 'China Insurance Industry Technology Investment from 2023 to 2028') and the cutting - edge technology investment chart (titled 'China Insurance Industry Frontier Technology Investment from 2024 to 2029'). The total technology investment chart shows the average growth rate of total investment, and the cutting - edge technology investment chart shows that the compound annual growth rate of AI technology investment far exceeds the average growth rate of total investment, indicating that AI is the main engine of growth among cutting - edge technologies. Joint inference is required: A single chart can only provide partial information, and only by joint analysis can the core position of AI's growth be found.",
+        "E": "This is a Hard distractor, with a misinterpretation of the chart growth rate: The growth rate of total technology investment in chart_51_3 is between 13 - 16% (e.g., 14.7% in 2024), while the CAGR of AI investment from 2024e to 2029e in chart_51_4 is 22.5% (based on the starting and ending values). In fact, the growth rate of AI is higher; but the distractor incorrectly claims that 'the total CAGR far exceeds that of AI'.",
+        "F": "This is an Easy distractor, based on a common - sense error: The actual investment in cloud technology (e.g., 18.8 billion yuan in 2024) is lower than that of AI (61.1 billion yuan), but the distractor generally states that 'cloud technology dominates', which has nothing to do with the chart.",
+        "G": "This is a Hard distractor, with a misinterpretation of the chart values: In chart_51_4, the AI technology investment in 2024e is 61.1 billion yuan, and the total cutting - edge technology investment is 61.1 + 12.2 + 25.8 + 18.8 = 117.9 billion yuan. The proportion of AI is about 51.8% (far exceeding 20%), but the distractor incorrectly calculates it as 'less than 20%'."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Easy Distractor: This option is based on general business common sense (marketing to enhance competitiveness), but it does not involve the chart data or specific technological resource allocation, ignoring the core of the question (such as AI and cloud technology).",
+        "B": "Based on chart_51_1 (the premium income of health insurance increased from 706.6 billion yuan in 2019 to 1059.1 billion yuan in 2026e, with a significantly higher growth rate than other insurance types) and chart_51_2 (the productivity improvement of generative AI in the health and wellness industry is 26 billion US dollars, and the index 6 is specially marked, indicating the highest potential); the strategy focuses on high - growth areas, which conforms to the principle of maximizing efficiency.",
+        "C": "Refer to chart_51_1 (the premium income of accident insurance has the slowest growth, for example, from 100 billion yuan in 2019 to 170 billion yuan in 2026e) and chart_51_2 (the productivity improvement of the insurance industry is only 7 billion US dollars, and the index 19 is marked as low - potential; the banking industry has a relatively high 34 billion US dollars); by reallocating resources, the overall efficiency can be improved, which conforms to the cost - control value.",
+        "D": "Easy Distractor: It gives a broad suggestion to upgrade IT facilities without combining the data of premium growth or AI potential. The strategic direction is vague and there is no action guidance.",
+        "E": "Hard Distractor: It misinterprets chart_51_2 (the potential of generative AI in the insurance industry is only 7 billion US dollars, one of the lowest in the whole industry) and chart_51_1 (the growth of accident insurance is the flattest), with a logical contradiction (low - potential areas should not be heavily invested).",
+        "F": "Combining chart_51_4 (the investment in cloud technology increased from 18.8 billion yuan in 2024e to 88.5 billion yuan in 2029e, with a fast growth rate and a CAGR of 22.5%) and chart_51_2 (the productivity data of generative AI depends on cloud technology, such as 45 billion US dollars in the high - tech industry); it emphasizes technological synergy and avoids the risk of single - point investment.",
+        "G": "Hard Distractor: It has a wrong logic. Chart_51_1 shows that the growth of health insurance is the fastest, and chart_51_2 shows that the AI potential of the health and wellness industry is high. Investment should be increased rather than decreased; it confuses 'high - growth' with 'no need for investment'."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -178,6 +246,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Easy Distractor: It focuses on market expansion rather than technology, ignoring the focus of the question (investment strategy) and having nothing to do with the charts.",
+        "B": "Easy Distractor: Based on general cooperation common sense (forming alliances to share costs), it does not use the chart data (such as share or growth rate), and the strategy is broad without a technological orientation.",
+        "C": "Combining chart_51_1 (the premium income of health insurance has prominent growth, for example, from 903.5 billion yuan in 2023 to 1059.1 billion yuan in 2026e) and chart_51_2 (the AI productivity of the health and wellness industry is the highest at 26 billion US dollars); focusing on high - potential areas avoids resource dispersion and conforms to the fairness value (without reducing other investments).",
+        "D": "Hard Distractor: It misinterprets chart_51_5 (low share but great opportunities) and chart_51_3 (fast growth rate), with a reversed logic (investment should be increased instead of reduced when the growth rate is high).",
+        "E": "Based on chart_51_5 (the winning bid amount of insurance projects in the large - scale financial model only accounts for 8%, far lower than 56% of banks), chart_51_3 (the growth rate of technological investment in the insurance industry increased from 13.4% in 2023 to 16.8% in 2028, with continuous overall investment growth), and chart_51_2 (generative AI has a potential of 7 billion US dollars in the insurance industry, which can be explored although it is low); the strategy targets the share disadvantage and enhances competitiveness through high - growth investment.",
+        "F": "Hard Distractor: It wrongly quotes the data in chart_51_2 (AI potential data) but deviates from the core of the insurance business; chart_51_1 shows the continuous growth of health insurance premiums, and internal optimization should be carried out instead of changing industries.",
+        "G": "Refer to chart_51_4 (the investment in cloud technology increased from 18.8 billion yuan in 2024e to 88.5 billion yuan in 2029e, with a fast growth rate), chart_51_3 (the overall high - growth of technological investment), and chart_51_2 (AI productivity depends on cloud technology); it emphasizes infrastructure construction to ensure project sustainability."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Hard Distractor: It wrongly compares the data in chart_51_4 (the growth rate of cloud technology is stable) and ignores that AI depends on cloud infrastructure; reducing cloud investment will damage AI efficiency, violating the cost - effectiveness principle.",
+        "B": "Based on chart_51_4 (the investment in AI technology increased from 61.1 billion yuan in 2024e to 153.6 billion yuan in 2029e, with the fastest growth rate), chart_51_2 (the productivity potential of generative AI can be explored, such as 7 billion US dollars in the insurance industry), and chart_51_1 (the premium income of health insurance continues to grow); the strategy targets high - growth technologies and avoids inefficient investment.",
+        "C": "Hard Distractor: It misinterprets chart_51_4 (although the growth rate of RPA/IPA is high, its absolute scale is small. Under a CAGR of 22.5%, the growth of AI is faster), with a confused logic (small - scale does not necessarily mean high - efficiency, and the potential of AI is greater).",
+        "D": "Easy Distractor: It introduces an irrelevant topic (sustainable development) without involving frontier technologies or cost - effectiveness analysis, deviating from the question.",
+        "E": "Easy Distractor: It is a common - sense cost - cutting suggestion without combining the chart's technological data (such as investment growth). The strategy is generalized and has no details on technological allocation.",
+        "F": "Refer to chart_51_4 (the investment in RPA/IPA increased from 12.2 billion yuan in 2024e to 29.3 billion yuan in 2029e, with the lowest growth rate) and chart_51_1 (the total premium has a CAGR of 5 - 6%, with stable growth); reallocating resources to high - efficiency areas can improve the overall cost - effectiveness ratio.",
+        "G": "Combining chart_51_4 (the CAGR of cloud technology investment is 22.5%, and the scale increased from 18.8 billion yuan to 88.5 billion yuan), chart_51_3 (the overall growth rate of technological investment increased from 13.4% to 16.8%), and chart_51_2 (AI productivity depends on cloud); it ensures a solid technological foundation, conforming to the risk - management value."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     }
   ]

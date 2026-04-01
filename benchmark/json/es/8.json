@@ -88,6 +88,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de tendencia de atención de búsqueda (que muestra fluctuaciones en mayo, como el pico a mediados de mes y la recuperación a fin de mes) y el gráfico de las 5 principales ciudades de búsqueda (que muestra que Beijing tiene la proporción más alta, seguida de Shenzhen, Wuhan, etc.). Se razona la asociación entre 'pico a mediados de mes' y 'ciudad con mayor proporción'. Se requiere razonamiento conjunto: un solo gráfico no puede completar el razonamiento. Solo el gráfico de tendencia no puede conocer la contribución de la ciudad, y solo el gráfico de proporción de ciudades no puede explicar los cambios de tendencia; es necesario combinar ambos para analizar el impacto dinámico del comportamiento de búsqueda de la ciudad en la tendencia general.",
+        "B": "Esta es una opción de interferencia difícil, aparentemente basada en gráficos pero malinterpreta los valores: chart_8_4 muestra que Wuhan tiene una proporción del 5.5%, inferior al 6% de Shenzhen (segunda ciudad más grande en TOP5), y su proporción es pequeña, por lo que no puede dominar la disminución; la disminución real en la fase de tendencia va de 100,000 a 45,000, una gran magnitud que requiere ciudades con alta proporción para impulsarla, por lo tanto, el razonamiento es incorrecto.",
+        "C": "Esta es una opción de interferencia difícil, aparentemente basada en gráficos pero malinterpreta la brecha: chart_8_4 muestra que Guangzhou tiene solo un 2.5% de proporción, la más baja, y los cambios en su volumen de búsqueda tienen un impacto mínimo; la fase de recuperación va de 45,000 a 85,000, un crecimiento significativo que requiere ciudades con alta proporción como Beijing (19%) para impulsarlo, por lo tanto, exagera incorrectamente el papel de Guangzhou.",
+        "D": "Esta es una opción de interferencia fácil, basada en conocimiento común en lugar de datos de gráficos. Es común que las vacaciones puedan afectar el comportamiento de búsqueda, pero en el gráfico, la atención de búsqueda el 1 de mayo (cerca del Día del Trabajo) es 60,000, no el punto más bajo (el más bajo es 45,000 después de mediados de mes), y los cambios de tendencia no están directamente relacionados con las vacaciones (como la recuperación a fin de mes), por lo tanto, es incorrecto y no depende de los gráficos.",
+        "E": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de tendencia de atención de búsqueda (que muestra fluctuaciones en mayo, como el pico a mediados de mes y la recuperación a fin de mes) y el gráfico de las 5 principales ciudades de búsqueda (que muestra que Beijing tiene la proporción más alta, seguida de Shenzhen, Wuhan, etc.). Se razona el impacto potencial de 'fase de disminución' y 'ciudades con proporción secundaria alta'. Se requiere razonamiento conjunto: un solo gráfico no puede completar el razonamiento. Solo el gráfico de tendencia no puede conocer la contribución de la ciudad, y solo el gráfico de proporción de ciudades no puede explicar los cambios de tendencia; es necesario combinar ambos para analizar el impacto dinámico del comportamiento de búsqueda de la ciudad en la tendencia general.",
+        "F": "Esta es una opción de interferencia fácil, basada en conocimiento común de la industria (eventos externos como políticas pueden afectar la búsqueda), pero los gráficos no mencionan ningún evento o política, por lo tanto, es una opción incorrecta genérica.",
+        "G": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de tendencia de atención de búsqueda (que muestra fluctuaciones en mayo, como el pico a mediados de mes y la recuperación a fin de mes) y el gráfico de las 5 principales ciudades de búsqueda (que muestra que Beijing tiene la proporción más alta, seguida de Shenzhen, Wuhan, etc.). Se requiere razonamiento conjunto: un solo gráfico no puede completar el razonamiento. Solo el gráfico de tendencia no puede conocer la contribución de la ciudad, y solo el gráfico de proporción de ciudades no puede explicar los cambios de tendencia; es necesario combinar ambos para analizar el impacto dinámico del comportamiento de búsqueda de la ciudad en la tendencia general."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia difícil, aparentemente basada en gráficos pero malinterpreta la brecha y el conflicto: en chart_8_3, la tasa de crecimiento de primer nivel es del 3%, aunque baja, pero su proporción es alta (52%), y el crecimiento puede cubrir las tasas negativas (por ejemplo, segundo nivel reduce aproximadamente 2.7% de la búsqueda total, primer nivel crece 1.56% de la búsqueda total, pero el total aumenta a fin de mes); la opción enfatiza incorrectamente el impacto de cuarto nivel (solo 10% de proporción) y malinterpreta que el total debería disminuir, ignorando el efecto amortiguador de la alta proporción.",
+        "B": "Esta es una opción de interferencia difícil, aparentemente basada en gráficos pero malinterpreta los valores y las relaciones: en chart_8_3, tercer nivel tiene una tasa de crecimiento del -30% (más negativa que segundo nivel con -18%), ambos disminuyen y no pueden compensarse entre sí; en cálculo real, la reducción de segundo nivel (15%*18%≈2.7% de búsqueda total) y tercer nivel (14%*30%≈4.2% de búsqueda total) se superponen, lo que debería agravar la disminución, no apoyar el aumento.",
+        "C": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de atención por nivel de ciudad (que muestra ciudades de primer nivel con 52% de proporción y 3% de crecimiento, ciudades de segundo nivel e inferiores con baja proporción y crecimiento negativo) y el gráfico de tendencia de atención de búsqueda (que muestra la atención de búsqueda aumentando de 45,000 a 85,000 a fin de mayo). Se requiere razonamiento conjunto: un solo gráfico tiene conflicto (el gráfico por nivel de ciudad muestra que la mayoría de las ciudades tienen crecimiento negativo, pero el gráfico de tendencia de atención de búsqueda muestra una tendencia general al alza), es necesario combinar ambos para analizar el efecto de amplificación o compensación del peso de la ciudad, para explicar por qué el crecimiento negativo no causa una disminución general.",
+        "D": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de atención por nivel de ciudad (que muestra ciudades de primer nivel con 52% de proporción y 3% de crecimiento, ciudades de segundo nivel e inferiores con baja proporción y crecimiento negativo) y el gráfico de tendencia de atención de búsqueda (que muestra la atención de búsqueda aumentando de 45,000 a 85,000 a fin de mayo). Se razona la mitigación del conflicto entre 'otras ciudades con pequeña proporción' y 'arrastre limitado'. Se requiere razonamiento conjunto: un solo gráfico tiene conflicto (el gráfico por nivel de ciudad muestra que la mayoría de las ciudades tienen crecimiento negativo, pero el gráfico de tendencia de atención de búsqueda muestra una tendencia general al alza), es necesario combinar ambos para analizar el efecto de amplificación o compensación del peso de la ciudad, para explicar por qué el crecimiento negativo no causa una disminución general.",
+        "E": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de atención por nivel de ciudad (que muestra ciudades de primer nivel con 52% de proporción y 3% de crecimiento, ciudades de segundo nivel e inferiores con baja proporción y crecimiento negativo) y el gráfico de tendencia de atención de búsqueda (que muestra la atención de búsqueda aumentando de 45,000 a 85,000 a fin de mayo). Se razona la asociación entre 'alta proporción de ciudades de primer nivel' y 'aumento general'. Se requiere razonamiento conjunto: un solo gráfico tiene conflicto (el gráfico por nivel de ciudad muestra que la mayoría de las ciudades tienen crecimiento negativo, pero el gráfico de tendencia de atención de búsqueda muestra una tendencia general al alza), es necesario combinar ambos para analizar el efecto de amplificación o compensación del peso de la ciudad, para explicar por qué el crecimiento negativo no causa una disminución general.",
+        "F": "Esta es una opción de interferencia fácil, basada en conocimiento común en lugar de gráficos: es común que una base grande pueda amortiguar el crecimiento negativo, pero chart_8_3 muestra que las ciudades de nivel bajo tienen una proporción total de solo 24% (segundo nivel 15% + tercer nivel 14% + cuarto nivel 10%), mucho menor que el 52% de primer nivel, y todas tienen crecimiento negativo, por lo que no pueden apoyar el aumento, por lo tanto, es incorrecto y no depende de los gráficos.",
+        "G": "Esta es una opción de interferencia fácil, basada en conocimiento común de la industria (factores económicos afectan la búsqueda), pero los gráficos no proporcionan datos económicos, y el cambio de tendencia es específico para la recuperación a fin de mes, por lo tanto, es una opción incorrecta genérica."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil, basada en conocimiento común (popularización de internet móvil), pero los gráficos muestran que la proporción de móvil es extremadamente alta (87.97%), y los grupos de edad tienen diferencias significativas en TGI (por ejemplo, más de 65 tiene TGI 180), no uniformes, por lo tanto, es una opción incorrecta genérica.",
+        "B": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de proporción de dispositivos de recuperación (que muestra la proporción de móvil mucho mayor que computadora) y el gráfico de distribución por edad (que muestra la proporción por edad y el índice de tendencia de búsqueda). Se razona la asociación entre 'grupo con mayor proporción y tendencia fuerte' y 'dominio de móvil'. Se requiere razonamiento conjunto: un solo gráfico no puede completar el razonamiento. Solo el gráfico de dispositivos no puede conocer la preferencia por edad, y solo el gráfico de edad no puede explicar la distribución de dispositivos; es necesario combinar ambos para analizar el mecanismo de impulso de los grupos con alto TGI (que indica tendencia de búsqueda superior al promedio) en la tasa de uso de móvil.",
+        "C": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de proporción de dispositivos de recuperación (que muestra la proporción de móvil mucho mayor que computadora) y el gráfico de distribución por edad (que muestra la proporción por edad y el índice de tendencia de búsqueda). Se requiere razonamiento conjunto: un solo gráfico no puede completar el razonamiento. Solo el gráfico de dispositivos no puede conocer la preferencia por edad, y solo el gráfico de edad no puede explicar la distribución de dispositivos; es necesario combinar ambos para analizar el mecanismo de impulso de los grupos con alto TGI (que indica tendencia de búsqueda superior al promedio) en la tasa de uso de móvil.",
+        "D": "Esta es una opción de interferencia fácil, basada en conocimiento común en lugar de gráficos: es común que los jóvenes usen más dispositivos móviles, pero chart_8_5 muestra que el grupo de 18 - 24 años tiene TGI 90 (inferior al promedio 100), y su proporción es solo 10%, con tendencia de búsqueda no fuerte, por lo tanto, es incorrecto y no depende de los gráficos.",
+        "E": "Esta es una opción de interferencia difícil, aparentemente basada en gráficos pero malinterpreta el impacto de los valores: en chart_8_5, el grupo de más de 65 años tiene el TGI más alto (180), pero su proporción es solo 3%, contribución absoluta pequeña; el dominio de móvil requiere grupos a gran escala (como 25 - 34 años con 45% de proporción y TGI 120), la opción exagera incorrectamente el papel de grupos con pequeña proporción.",
+        "F": "Opción correcta: Esta opción se basa en el razonamiento conjunto del gráfico de proporción de dispositivos de recuperación (que muestra la proporción de móvil mucho mayor que computadora) y el gráfico de distribución por edad (que muestra la proporción por edad y el índice de tendencia de búsqueda). Se razona la contribución potencial entre 'grupo con tendencia más fuerte' y 'alta proporción de móvil'. Se requiere razonamiento conjunto: un solo gráfico no puede completar el razonamiento. Solo el gráfico de dispositivos no puede conocer la preferencia por edad, y solo el gráfico de edad no puede explicar la distribución de dispositivos; es necesario combinar ambos para analizar el mecanismo de impulso de los grupos con alto TGI (que indica tendencia de búsqueda superior al promedio) en la tasa de uso de móvil.",
+        "G": "Esta es una opción de interferencia difícil, aparentemente basada en gráficos pero compara incorrectamente el orden: en chart_8_5, 45 - 54 años tiene TGI 90 (ligeramente inferior al promedio), 55 - 64 años tiene TGI 110 (superior al promedio), pero este último tiene solo 5% de proporción, influencia débil; en realidad, la alta tasa de uso de móvil debería ser impulsada por grupos con alta proporción y alto TGI (como 25 - 34 años), la opción menosprecia incorrectamente la contribución potencial del grupo de 45 - 54 años."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Se refiere a chart_8_1 (la tendencia de la atención de búsqueda muestra fluctuaciones, con picos y valles significativos) y chart_8_2 (la proporción de recuperación en móvil es extremadamente alta, mientras que la proporción en computadora es baja), lo que enfatiza la asignación dinámica de recursos en los períodos pico para satisfacer la demanda dominante de los usuarios móviles.",
+        "B": "Esta opción interpreta erróneamente la tendencia de búsqueda: los datos en los períodos bajos, como el 13 de mayo (45000), son realmente bajos, pero chart_8_1 muestra que la demanda fluctúa mucho, por lo que los períodos bajos no son un momento estable para el cultivo; además, no se consideran las características del dispositivo (el 87.97% de los usuarios utilizan dispositivos móviles), y las actividades offline están desvinculadas del servicio en línea.",
+        "C": "Esta opción se basa en el conocimiento general de negocios (la publicidad aumenta el conocimiento), pero no tiene una guía de acción específica y no se combina con la tendencia de búsqueda o las características del dispositivo (por ejemplo, la dominancia de los dispositivos móviles), por lo que es fácil de descartar por el conocimiento general.",
+        "D": "Se refiere a chart_8_5 (la proporción de la población de 25 - 34 años es la más alta y el TGI es alto, lo que indica una fuerte intensidad de interés) y chart_8_2 (la proporción de recuperación en móvil es extremadamente alta), lo que se centra en la optimización del servicio para el grupo de usuarios principales y el canal de dispositivo principal.",
+        "E": "Esta opción combina erróneamente chart_8_5 (el TGI de las personas mayores de 65 años es 180) y chart_8_2 (la proporción de recuperación en computadora es del 12.03%): aunque el TGI es alto, la proporción es solo del 3%, y la base es pequeña; la proporción de la computadora es baja, y los dispositivos móviles son dominantes con un 87.97%. Es más probable que los usuarios mayores dependan de los dispositivos móviles (conocimiento general), por lo que optimizar la computadora es ineficiente.",
+        "F": "Se refiere a chart_8_3 (la proporción de atención en las ciudades de primer nivel es la más alta y la tasa de crecimiento es positiva, mientras que las tasas de crecimiento de las ciudades de segundo, tercer y cuarto nivel son negativas) y chart_8_4 (en las cinco ciudades principales de búsqueda, las ciudades de primer nivel como Beijing tienen una proporción destacada), lo que guía la inclinación de recursos a través de la distribución geográfica y la tendencia de crecimiento.",
+        "G": "Esta opción utiliza superficialmente los datos de chart_8_3 (la proporción de las ciudades de segundo nivel es del 15% y la tasa de crecimiento es del -18%), pero tiene un error lógico: una tasa de crecimiento negativa indica una contracción de la demanda, por lo que los recursos deben priorizar las regiones de crecimiento positivo (la tasa de crecimiento de las ciudades de primer nivel es del 3%), en lugar de invertir en un mercado en contracción, lo que lleva a una dirección errónea en la asignación de recursos."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -181,6 +249,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Se refiere a chart_8_3 (la proporción de atención en las ciudades de primer nivel es alta y la tasa de crecimiento es positiva, mientras que las tasas de crecimiento de las ciudades de segundo, tercer y cuarto nivel son negativas) y chart_8_1 (la tendencia general de búsqueda tiene fluctuaciones, pero los datos por nivel de ciudad son independientes), lo que distribuye recursos a través de la diferencia en la tasa de crecimiento: invertir en promociones en las regiones de alto crecimiento y en contenido en las regiones de bajo crecimiento para aumentar la demanda a largo plazo.",
+        "B": "Esta opción interpreta erróneamente las características geográficas: chart_8_3 muestra que la tasa de crecimiento de las ciudades de cuarto nivel es del -18% y la proporción es solo del 10%, lo que indica una contracción de la demanda; no hay datos que apoyen las actividades de promoción, y se ignoran las ciudades de alta búsqueda (por ejemplo, Beijing con un 19%), lo que dispersa los recursos.",
+        "C": "Esta opción se basa en el conocimiento general de la industria (la cooperación aumenta la confianza), pero es demasiado general y no tiene un enfoque específico, y no se combina con datos específicos de edad o ciudad (por ejemplo, el grupo principal de 25 - 34 años o las ciudades de alta búsqueda como Beijing), por lo que es fácil de descartar.",
+        "D": "Esta opción utiliza superficialmente los datos de chart_8_4 (la proporción de búsqueda en Shenzhen es del 6%) y chart_8_5 (la proporción de la población de 35 - 44 años es del 25% y el TGI es 100), pero hay una confusión lógica: Shenzhen no es la ciudad con la proporción más alta (Beijing tiene un 19%), y el TGI de la población de 35 - 44 años es solo 100 (interés promedio), que es menor que el TGI de 120 de la población de 25 - 34 años; se deben priorizar las combinaciones de mayor potencial.",
+        "E": "Se refiere a chart_8_4 (las ciudades de búsqueda principales como Beijing y Shenzhen tienen una proporción alta, lo que representa áreas de interés) y chart_8_5 (la proporción de la población de 25 - 34 años es la más alta y el TGI es alto), lo que permite una segmentación precisa a través del análisis cruzado de las ciudades de interés y el grupo principal de usuarios.",
+        "F": "Esta opción aplica erróneamente los datos de chart_8_3 (la proporción de las ciudades de tercer nivel es del 14% y la tasa de crecimiento es del -30%): una tasa de crecimiento negativa grave indica una contracción del mercado, por lo que el contenido educativo puede ser ineficaz; los recursos deben priorizar las regiones de crecimiento positivo (la tasa de crecimiento de las ciudades de primer nivel es del 3%), en lugar de cultivar un mercado en contracción.",
+        "G": "Se refiere a chart_8_2 (la proporción de recuperación en móvil es extremadamente alta, mientras que la proporción en computadora es baja) y chart_8_5 (la proporción de la población de 25 - 34 años es la más alta y el TGI es alto, lo que indica que es más probable que prefieran usar dispositivos móviles), lo que enfatiza la combinación de la preferencia del dispositivo y el grupo principal de usuarios para optimizar la estrategia de canal."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -204,6 +289,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Se refiere a chart_8_1 (la tendencia de búsqueda tiene períodos bajos, como en el medio del mes, donde la atención es menor) y chart_8_2 (la proporción de recuperación en computadora es pequeña pero estable), lo que aumenta la eficiencia de la computadora en los períodos de baja demanda para manejar consultas más especializadas.",
+        "B": "Esta opción interpreta erróneamente la tendencia de búsqueda: chart_8_1 muestra que los datos fluctúan mucho y no hay un verdadero 'período estable' (por ejemplo, los datos del 20 al 25 de mayo varían entre 55000 y 70000), y la implementación de AI no se dirige a la demanda pico (85000 al final del mes); la asignación de recursos no optimiza la respuesta a las fluctuaciones.",
+        "C": "Esta opción utiliza superficialmente los datos de chart_8_5 (la proporción de la población menor de 18 años es del 2% y el TGI es 60) y chart_8_2 (el 87.97% de los usuarios utilizan dispositivos móviles), pero hay un error lógico: el TGI de 60 es menor que 100, lo que indica un interés por debajo del promedio; los recursos deben priorizar los grupos con un TGI más alto (por ejemplo, las personas mayores de 65 años con un TGI de 180), en lugar de los grupos con bajo interés.",
+        "D": "Se refiere a chart_8_1 (la tendencia de la atención de búsqueda muestra un aumento significativo en la segunda mitad del mes, especialmente al final del mes, donde se alcanza un pico) y chart_8_2 (la proporción de recuperación en móvil es extremadamente alta), lo que prioriza los recursos móviles en los períodos de crecimiento de la demanda para capturar el pico.",
+        "E": "Esta opción combina erróneamente los datos de chart_8_1 (el período bajo al principio del mes con 60000) y chart_8_2 (la proporción de recuperación en computadora es del 12.03%): aunque se pueden optimizar los recursos en los períodos bajos, los dispositivos móviles son dominantes con un 87.97% y la proporción de la computadora es baja; no hay datos que apoyen las consultas profundas, y se necesita una mayor capacidad de respuesta en los períodos pico (al final del mes).",
+        "F": "Se refiere a chart_8_5 (la población mayor de 65 años tiene un TGI extremadamente alto, lo que indica un interés relativo fuerte, pero la proporción es baja) y chart_8_2 (la proporción de recuperación en móvil es extremadamente alta), lo que es coherente con un buen valor: no se ignora a los grupos minoritarios, sino que se utiliza la ventaja de los dispositivos móviles para proporcionar servicios de apoyo.",
+        "G": "Esta opción se basa en el conocimiento general de servicio (actualizar políticas), pero no tiene una guía de estrategia dinámica y no se combina con la tendencia de búsqueda o las características del usuario (por ejemplo, edad o preferencia de dispositivo), por lo que es demasiado general."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

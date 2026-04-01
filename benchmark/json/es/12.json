@@ -87,6 +87,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合欧洲杯关注者年龄分布数据和八强战前夕搜索关键词分布数据推理。Más de 50 años组占比低，Odds de Campeonato搜索比例不高（低于平均值），但\"Otros\"搜索占比可能隐含非搜索方式，显示老年群体可能较少使用搜索工具，需跨图对比才能解释行为差异。",
+        "B": "需要联合欧洲杯关注者年龄分布数据和八强战前夕搜索关键词分布数据推理。20 - 29 años组占比高，URLs de Transmisión en Vivo搜索比例突出，表明年轻群体偏好在线实时参与，这不能单从一张图表得出（如仅年龄数据无法推断搜索行为）。",
+        "C": "这是Hard干扰项：表面基于图表，但错误解读数值差距。chart_12_1中20-29岁组占比26%，chart_12_4中URLs de Transmisión en Vivo搜索占比17%，但17%并非\"突出\"（Horario 30%更高）；且占比26%非最高组（30-39岁组29%更高），错误夸大了年轻组的主导作用。",
+        "D": "需要联合欧洲杯关注者年龄分布数据和八强战前夕搜索关键词分布数据推理。30 - 39 años组占比最大，Resúmenes del Evento de la Copa Europea搜索比例高，显示中年观众更关注赛事故事和花絮，联合推理揭示年龄与内容偏好关联。",
+        "E": "这是Easy干扰项：基于常识（年轻人常用社交媒体），但图表中无任何社交媒体数据，且问题聚焦信息获取方式，年龄分布数据（chart_12_1）和搜索关键词（chart_12_4）均未涉及社交媒体，因此与图表无关。",
+        "F": "这是Hard干扰项：表面基于图表，但误解数值。chart_12_1中30-39岁组占比29%确实最高，但chart_12_4中Resúmenes del Evento de la Copa Europea搜索占比24%并非最高（Horario 30%最高）。同时，占比高不等于搜索比例高，两者数据独立，无直接因果关系，错误地将年龄组占比与搜索比例等同。",
+        "G": "这是Easy干扰项：基于常识（老年人可能更依赖计划），但图表显示Horario搜索占比30%为最高，但未按年龄组分解；50岁及以上年龄组仅占11%，且搜索关键词数据未指定年龄偏好，因此无法推断该组更倾向搜索赛程表。"
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合夜宵消费总金额TOP10省份数据和欧洲杯期间美食关注度数据推理。消费占比最高的省份，Camarones de río关注度最高，隐含该地区偏好可能引领整体趋势，但单张图表无法建立联系（如仅消费数据不揭示食物类型）。",
+        "B": "这是Easy干扰项：基于常识（消费集中在大省），但图表显示otras regiones合计消费占比31.9%并不小（高于多个TOP10省份），且美食关注度数据（chart_12_3）是全国性的，无法推断非TOP10省份兴趣低；常识误判了占比意义。",
+        "C": "这是Hard干扰项：表面基于图表，但错误关联数值。chart_12_2中Guangxi消费占比5.7%，但chart_12_3中Camarones de río关注度2264是全国数据，未按省份分解；将省份消费占比与全国关注度数值直接挂钩，忽略数据聚合层级，错误推断广西的驱动作用。",
+        "D": "这是Easy干扰项：基于常识（关注度低等于不受欢迎），但chart_12_3中Edamame数值462虽低于Camarones de río 2264，但高于Palomitas de maíz 442，且关注度数值未提供基准，无法绝对判断\"不受欢迎\"；图表未链接地区偏好，纯常识错误。",
+        "E": "需要联合夜宵消费总金额TOP10省份数据和欧洲杯期间美食关注度数据推理。otras regiones消费占比高，但美食关注度数值范围广，显示非核心省份偏好不集中，需跨图比较才能推断地域多样性。",
+        "F": "需要联合夜宵消费总金额TOP10省份数据和欧洲杯期间美食关注度数据推理。Cerveza和Cola关注度高，但夜宵消费图表无饮料细节，隐含饮料是夜宵通用元素，联合推理揭示数据互补性（关注度暗示消费内容）。",
+        "G": "这是Hard干扰项：表面基于图表，但误解数据差距。chart_12_3中Cerveza关注度804较高，但chart_12_2消费数据是总金额占比，未区分食物和饮料；关注度高不等于消费金额主导，数值无法支持饮料占主导的结论，错误解读隐含联系。"
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "需要联合品牌线下营销星级评分数据和八强战前夕搜索关键词分布数据推理。低星级品牌多，但\"Otros\"搜索比例低，表明营销弱的品牌未能驱动泛搜索兴趣，需跨图分析冲突（星级低对应搜索活跃度低）。",
+        "B": "这是Hard干扰项：表面基于图表，但错误对比数值。chart_12_5中Hisense星级4低，chart_12_4中Resúmenes del Evento de la Copa Europea搜索占比24%较高，但两者无因果关系；搜索关键词是赛事内容（如花絮），非品牌，星级低不代表用户更关注内容，错误解读冲突。",
+        "C": "这是Easy干扰项：基于常识（低比例搜索关联低星级），但Odds de Campeonato搜索占比8%与品牌星级无关；chart_12_4和chart_12_5数据独立，无直接链接，错误将搜索主题与品牌兴趣等同。",
+        "D": "需要联合品牌线下营销星级评分数据和八强战前夕搜索关键词分布数据推理。搜索数据无品牌词，但品牌星级中上，显示营销效果离线（如线下活动），与在线搜索脱节，联合推理揭示行为不一致性。",
+        "E": "这是Hard干扰项：表面基于图表，但误解数值排序。chart_12_5中NEC星级10最高，chart_12_4中Horario搜索30%最高，但搜索关键词无品牌提及；星级高和搜索比例高无直接关联（如其他高星级品牌未对应高搜索），错误推断营销驱动赛事搜索，而实际是内容需求主导。",
+        "F": "需要联合品牌线下营销星级评分数据和八强战前夕搜索关键词分布数据推理。高星级品牌存在，但搜索关键词聚焦赛事信息（无品牌词），表明营销活动可能拉动赛事关注而非品牌搜索，需跨图对比冲突（星级高 vs 搜索无品牌）。",
+        "G": "这是Easy干扰项：基于常识（营销提升搜索），但chart_12_4搜索关键词分布无任何品牌相关词汇（如\"NEC\"），而星级数据（chart_12_5）是线下评分，未转化为在线行为；图表无支持，纯常识错误。"
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción parece utilizar las tablas, pero asocia incorrectamente los datos: en el chart_12_3, la atención a la cerveza es de 804 y a la cola es de 521, que no son los valores más altos, y no se relaciona con las regiones de consumo; promocionar bebidas ignora los alimentos de alta atención (como los camarones de río con una atención de 2264) y mal juzga la prioridad de las provincias con un porcentaje de consumo medio (como Shandong con un 5.7%).",
+        "B": "Esta opción se basa en el conocimiento general de una dieta saludable y no cita los datos de las tablas; aunque es razonable promocionar alimentos saludables, las tablas no muestran la atención o preferencias de consumo relacionadas, y puede ignorar el potencial de los alimentos de alta atención (como los camarones de río), y fácilmente se excluye por conocimiento general.",
+        "C": "Esta opción interpreta incorrectamente las tablas: el chart_12_2 muestra que Guangdong tiene el porcentaje de consumo más alto (16.3%), y el chart_12_3 muestra que las palomitas de maíz tienen la atención más baja (442), pero promocionar alimentos de baja atención en una región de alto consumo desperdiciará recursos (los alimentos de alta atención como los camarones de río son más fáciles de convertir en ventas), y confunde la 'prueba de nuevos mercados' con la eficiencia basada en datos.",
+        "D": "Basado en el chart_12_2 (provincias de consumo medio como Beijing y Shandong con un porcentaje de consumo medio) y el chart_12_3 (alimentos de atención media como la cerveza y la cola), se enfatiza una estrategia local para diferenciar la asignación de recursos.",
+        "E": "Utilizando el chart_12_2 (el porcentaje de consumo en otras regiones es relativamente alto en total) y el chart_12_3 (alimentos de baja atención pero fáciles de obtener como las palomitas de maíz), se asegura una cobertura equitativa de todas las regiones, lo que coincide con los valores (no ignorar las regiones de bajo consumo).",
+        "F": "Combinando el chart_12_2 (porcentaje de consumo de provincias en meriendas nocturnas: por ejemplo, Guangdong tiene el porcentaje de consumo más alto) y el chart_12_3 (atención a los alimentos: por ejemplo, los camarones de río tienen la atención más alta), se infiere que la coincidencia entre provincias de alto consumo y alimentos de alta atención puede maximizar las ventas.",
+        "G": "Esta opción es muy general y se basa en el conocimiento general de la marketing digital; no se dirige a los datos específicos de las regiones de consumo o la atención a los alimentos (como el porcentaje de consumo de las provincias o los valores de atención de los alimentos), y la asignación de recursos no es específica, lo que es una estrategia ineficiente."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta incorrectamente las tablas: el chart_12_1 muestra que el porcentaje de personas de 50 años o mayores es solo del 11%, y el chart_12_4 muestra que el porcentaje de búsqueda de 'Puntuación del Último Juego' es del 14%, pero el grupo de 20 - 39 años tiene un porcentaje total del 55% y la búsqueda de 'Horario' es del 30%, con una mayor demanda de información en tiempo real; priorizar el grupo de bajo porcentaje reducirá la eficiencia.",
+        "B": "Combinando el chart_12_1 (distribución de edad: el grupo de 20 - 39 años tiene un porcentaje significativamente más alto) y el chart_12_4 (palabras clave de búsqueda: por ejemplo, 'Horario' y 'URLs de Transmisión en Vivo' tienen un porcentaje alto), se infiere que el grupo joven es el usuario central, y la inversión en recursos digitales puede maximizar el efecto.",
+        "C": "Basado en el chart_12_1 (el porcentaje de personas de 40 años o mayores es considerable) y el chart_12_4 (la búsqueda de 'Resúmenes del Evento de la Copa Europea' y 'Puntuación del Último Juego' tiene un porcentaje alto), se optimiza la facilidad de uso para los usuarios mayores, lo que coincide con los valores (no reducir el servicio por la edad).",
+        "D": "Citando el chart_12_1 (distribución de todos los grupos de edad) y el chart_12_4 (porcentaje de búsqueda de 'Otros'), se enfatiza una cobertura integral, especialmente el grupo juvenil (porcentaje de personas menores de 19 años) que puede preferir contenido interactivo.",
+        "E": "Esta opción se basa en el conocimiento general de la globalización de los eventos deportivos y no cita las tablas; los datos de los seguidores de la Copa Europea (chart_12_1) no abordan el idioma o la distribución internacional, y promocionar en múltiples idiomas puede ser una asignación errónea de recursos, y fácilmente se excluye por conocimiento general.",
+        "F": "Esta opción es general y no específica; se basa en la universalidad de los medios de comunicación tradicionales, pero no se combina con la distribución de edad (por ejemplo, el grupo de 20 - 39 años tiene un porcentaje del 55%) o el comportamiento de búsqueda (por ejemplo, la búsqueda de 'Horario' es del 30%), y se ignora la demanda digital.",
+        "G": "Esta opción parece utilizar datos, pero confunde las relaciones: el chart_12_1 da el porcentaje de género (hombres 67%, mujeres 33%), pero no se relaciona con el comportamiento de búsqueda (chart_12_4) o la edad; diseñar contenido exclusivo carece de soporte de datos y puede dispersar los recursos."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta opción parece utilizar datos, pero tiene un sesgo lógico: en el chart_12_4, el porcentaje de búsqueda de 'Odds de Campeonato' es solo del 8%, la demanda es baja; combinar con marcas de alta calificación (como NEC con una calificación de 10) es una estrategia viable, pero priorizar un área de baja demanda desperdiciará recursos y se ignora las palabras clave de búsqueda de alta demanda (como 'Resúmenes del Evento de la Copa Europea' con un 24%).",
+        "B": "Basado en el chart_12_4 (el porcentaje de búsqueda de 'Odds de Campeonato' es bajo) y el chart_12_5 (distribución de calificaciones: marcas de baja calificación como la marca 'Noche UEFA Euro de la Embajada Bovard'), se sugiere innovar el contenido para mejorar el área con potencial y evitar el desperdicio de recursos.",
+        "C": "Citando el chart_12_4 (el porcentaje de búsqueda de 'URLs de Transmisión en Vivo' es significativo) y el chart_12_5 (rango de calificaciones: desde alta a baja), se enfatiza la facilidad de uso y la optimización del contenido, lo que coincide con los valores (mejorar equitativamente todas las marcas).",
+        "D": "Combinando el chart_12_4 (palabras clave de búsqueda: 'Horario' y 'Resúmenes del Evento de la Copa Europea' tienen el porcentaje más alto) y el chart_12_5 (calificaciones de las marcas: por ejemplo, NEC y Xiaomi tienen calificaciones altas), se infiere que hay una fuerte relación entre el contenido de búsqueda popular y las actividades de alta calificación.",
+        "E": "Esta opción es muy general; la colaboración transversal puede expandir la cobertura, pero se ignoran el comportamiento de búsqueda específico (chart_12_4) y la evaluación de las marcas (chart_12_5), y puede desviarse de las necesidades centrales de los usuarios.",
+        "F": "Esta opción interpreta incorrectamente las tablas: el chart_12_4 muestra que el porcentaje de búsqueda de 'Horario' es el más alto (30%), lo que indica una alta demanda; reducir el contenido reducirá la atracción, y las marcas de baja calificación (como la marca 'Noche UEFA Euro de la Embajada Bovard' con una calificación de 1) pueden fallar debido a la falta de coincidencia del contenido, y se confunde la 'diferenciación' con la optimización basada en datos.",
+        "G": "Esta opción se basa en el conocimiento general de marketing y no cita las tablas; aunque aumentar el presupuesto es razonable, no se dirige a los puntos calientes de búsqueda (como 'Horario' con un 30%) o la calificación de las marcas, y la estrategia es general sin guía."
+      },
+      "easy_error": [
+        "G",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     }
   ]

@@ -87,6 +87,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Opción correcta: Esta opción se basa en la importancia de los atributos de salud, requiere inferencia conjunta de datos de gráficos. Un gráfico muestra que la proporción de atención a los atributos de salud es la más alta, otro gráfico proporciona el valor TGI de regalos de salud, el TGI de la generación 00 es 105, esta opción se enfoca en la tendencia continua de los grupos jóvenes. Se requiere razonamiento conjunto: solo del gráfico de proporción de atención no se puede inferir diferencias de edad, solo del gráfico de valores TGI no se puede conocer la importancia general de los atributos de salud; se debe realizar un análisis cruzado de la proporción de atención y los valores TGI para determinar la prominencia de los atributos de salud en diferentes grupos de edad.",
+        "B": "Esta es una opción de interferencia fácil, que solo depende del conocimiento común (la salud es una necesidad universal), no se basa en datos de gráficos. En los gráficos reales, la proporción de atributos de salud es muy alta (87%), pero la opción de interferencia no cita datos.",
+        "C": "Esta es una opción de interferencia difícil, que interpreta incorrectamente los valores del gráfico: chart_178_2 muestra que la proporción de atención a los atributos de salud es 87% (la más alta), la relación calidad-precio es 58%; la opción de interferencia incorrectamente dice que la proporción de salud es 58% (realmente es la relación calidad-precio), distorsionando el orden.",
+        "D": "Esta es una opción de interferencia difícil, que comprende incorrectamente la brecha TGI: chart_178_3 muestra que el TGI de regalos de salud de la generación 90 es 101 (ligeramente superior al promedio 100), mientras que 97 es el TGI de la generación 70; la opción de interferencia incorrectamente dice que el TGI de la generación 90 es 97 (por debajo del promedio), y deduce erróneamente que los grupos jóvenes no lo valoran.",
+        "E": "Opción correcta: Esta opción se basa en la importancia de los atributos de salud, requiere inferencia conjunta de datos de gráficos. Un gráfico muestra que la proporción de atención a los atributos de salud es la más alta, otro gráfico proporciona el valor TGI de regalos de salud (TGI>100 indica superior al promedio), esta opción combina la alta proporción de atención y la tendencia TGI. Se requiere razonamiento conjunto: solo del gráfico de proporción de atención no se puede inferir diferencias de edad, solo del gráfico de valores TGI no se puede conocer la importancia general de los atributos de salud; se debe realizar un análisis cruzado de la proporción de atención y los valores TGI para determinar la prominencia de los atributos de salud en diferentes grupos de edad.",
+        "F": "Esta es una opción de interferencia fácil, basada en conocimiento general (a mayor edad, mayor atención a la salud), pero el gráfico muestra que el TGI más alto es de la generación 85 (106), no un crecimiento lineal; el TGI de la generación 00 (105) también está por encima del promedio, el conocimiento común no coincide completamente con los datos.",
+        "G": "Opción correcta: Esta opción se basa en la importancia de los atributos de salud, requiere inferencia conjunta de datos de gráficos. Un gráfico muestra que la proporción de atención a los atributos de salud es la más alta, otro gráfico proporciona el valor TGI de regalos de salud, el TGI de la generación 85 es 106, esta opción enfatiza que el pico TGI de la generación 85 refuerza el dominio de la salud. Se requiere razonamiento conjunto: solo del gráfico de proporción de atención no se puede inferir diferencias de edad, solo del gráfico de valores TGI no se puede conocer la importancia general de los atributos de salud; se debe realizar un análisis cruzado de la proporción de atención y los valores TGI para determinar la prominencia de los atributos de salud en diferentes grupos de edad."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Opción correcta: Esta opción revela conflictos o explicaciones implícitas entre el presupuesto y la actitud. Un gráfico muestra cambios en el presupuesto 2024, otro gráfico muestra proporciones de actitud de consumo, esta opción atribuye la disminución de >10k a factores externos (como la economía), no solo a la actitud de degradación. Se requiere razonamiento conjunto: solo del gráfico de cambios de presupuesto no se puede relacionar con la actitud, solo del gráfico de actitud de consumo no se puede explicar los cambios de presupuesto; se deben comparar proporciones de actitud y tendencias de presupuesto para razonar las causas del conflicto.",
+        "B": "Esta es una opción de interferencia fácil, basada en conocimiento común (estable debería ser invariable), pero no cita gráficos; en datos reales, los cambios en la distribución del presupuesto (como el aumento de 5-8k) pueden contener ajustes internos en la actitud estable (49%), no absolutamente invariable.",
+        "C": "Opción correcta: Esta opción revela conflictos o explicaciones implícitas entre el presupuesto y la actitud. Un gráfico muestra cambios en el presupuesto 2024, otro gráfico muestra proporciones de actitud de consumo, esta opción usa la actitud estable para explicar el aumento de presupuestos medios-altos. Se requiere razonamiento conjunto: solo del gráfico de cambios de presupuesto no se puede relacionar con la actitud, solo del gráfico de actitud de consumo no se puede explicar los cambios de presupuesto; se deben comparar proporciones de actitud y tendencias de presupuesto para razonar las causas del conflicto.",
+        "D": "Opción correcta: Esta opción revela conflictos o explicaciones implícitas entre el presupuesto y la actitud. Un gráfico muestra cambios en el presupuesto 2024, como el intervalo 5-8k que aumenta de 8% a 13%, pero >10k disminuye de 2% a 1%, otro gráfico muestra actitud de actualización del consumo 42%, estable 49%, degradación 8%, esta opción señala que la actitud de actualización impulsa el crecimiento de 5-8k, pero la disminución de >10k puede conflictuar con la actitud de degradación. Se requiere razonamiento conjunto: solo del gráfico de cambios de presupuesto no se puede relacionar con la actitud, solo del gráfico de actitud de consumo no se puede explicar los cambios de presupuesto; se deben comparar proporciones de actitud y tendencias de presupuesto para razonar las causas del conflicto.",
+        "E": "Esta es una opción de interferencia difícil, que comprende incorrectamente la brecha: en chart_178_4, el intervalo 3-4k realmente disminuye ligeramente de 27% a 25%, pero los cambios generales de presupuesto incluyen aumentos en otros intervalos (como 5-8k de 8% a 13%); la opción de interferencia ve un solo intervalo de forma aislada, ignorando la tendencia global.",
+        "F": "Esta es una opción de interferencia difícil, que interpreta incorrectamente los valores: chart_178_4 muestra que la proporción de presupuesto >10k en 2024 disminuye de 2% a 1% (descenso), mientras la opción de interferencia afirma \"aumento significativo\"; simultáneamente, la actitud de actualización del consumo es solo 42% (chart_178_5), no dominante.",
+        "G": "Esta es una opción de interferencia fácil, que solo depende de conocimiento económico (la recesión reduce el presupuesto), pero en los gráficos, el presupuesto 2024 como el intervalo 5-8k aumenta de 8% a 13%, en conflicto con la opción de interferencia."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Opción correcta: Esta opción se basa en la posición dominante de la Fiesta de la Primavera y la conexión implícita con los puntos de atención de Año Nuevo. Un gráfico muestra que las fiestas tradicionales como la Fiesta de la Primavera tienen la proporción más alta (96%), otro gráfico se enfoca en puntos de atención de Año Nuevo, la relación calidad-precio tiene 58%, esta opción relaciona la alta proporción con la relación calidad-precio, destacando la conciencia de costos. Se requiere razonamiento conjunto: solo del gráfico de proporción de fiestas no se pueden conocer los puntos de atención de Año Nuevo, solo del gráfico de puntos de atención de Año Nuevo no se puede confirmar el contexto de la Fiesta de la Primavera; se deben cruzar la proporción de fiestas y la proporción de puntos de atención para inferir cómo las características de las fiestas moldean la selección de regalos.",
+        "B": "Esta es una opción de interferencia fácil, basada en opinión general (contenido sobre empaque), pero chart_178_2 muestra \"Tiene empaque de regalo listo, más práctico\" con 71%, bastante alto, la opción de interferencia ignora los datos.",
+        "C": "Esta es una opción de interferencia difícil, que asocia incorrectamente los gráficos: en chart_178_1, cumpleaños, bodas con 92% son categorías independientes, no relacionadas con la Fiesta de la Primavera (96%); la opción de interferencia incorrectamente relaciona esto con puntos de atención de Año Nuevo (chart_178_2), actualmente los atributos de salud 87%, utilidad 70% son altos.",
+        "D": "Opción correcta: Esta opción se basa en la posición dominante de la Fiesta de la Primavera y la conexión implícita con los puntos de atención de Año Nuevo. Un gráfico muestra que las fiestas tradicionales como la Fiesta de la Primavera tienen la proporción más alta (96%), otro gráfico se enfoca en puntos de atención de Año Nuevo, los atributos de salud tienen 87%, esta opción relaciona la alta proporción con los atributos de salud. Se requiere razonamiento conjunto: solo del gráfico de proporción de fiestas no se pueden conocer los puntos de atención de Año Nuevo, solo del gráfico de puntos de atención de Año Nuevo no se puede confirmar el contexto de la Fiesta de la Primavera; se deben cruzar la proporción de fiestas y la proporción de puntos de atención para inferir cómo las características de las fiestas moldean la selección de regalos.",
+        "E": "Esta es una opción de interferencia fácil, que depende de conocimiento cultural (tradiciones de la Fiesta de la Primavera), pero los gráficos no involucran elementos específicos como sobres rojos; los datos de puntos de atención (chart_178_2) se enfocan en atributos como salud.",
+        "F": "Esta es una opción de interferencia difícil, que interpreta incorrectamente el orden: chart_178_2 muestra que la proporción de prestigio/valor es solo 41% (una de las más bajas), los atributos de salud 87% son los más altos; la opción de interferencia incorrectamente dice que la proporción de prestigio es 87% (realmente es salud), y deduce erróneamente la asociación con la Fiesta de la Primavera.",
+        "G": "Opción correcta: Esta opción se basa en la posición dominante de la Fiesta de la Primavera y la conexión implícita con los puntos de atención de Año Nuevo. Un gráfico muestra que las fiestas tradicionales como la Fiesta de la Primavera tienen la proporción más alta (96%), otro gráfico se enfoca en puntos de atención de Año Nuevo, empaque práctico tiene 71%, utilidad 70%, esta opción combina la dominancia de la fiesta con empaque práctico y utilidad, reflejando la conveniencia de regalar en fiestas. Se requiere razonamiento conjunto: solo del gráfico de proporción de fiestas no se pueden conocer los puntos de atención de Año Nuevo, solo del gráfico de puntos de atención de Año Nuevo no se puede confirmar el contexto de la Fiesta de la Primavera; se deben cruzar la proporción de fiestas y la proporción de puntos de atención para inferir cómo las características de las fiestas moldean la selección de regalos."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "En el gráfico chart_178_1, la proporción de las fiestas de compras es la más baja (48%), pero el gráfico chart_178_5 muestra que el 42% de los consumidores experimentan una actualización del consumo en la escena del Año Nuevo. La estrategia utiliza la palanca de precios para excavar el crecimiento adicional.",
+        "B": "Esta opción confunde las preferencias de fiestas: el gráfico chart_178_1 muestra que la proporción de Día del Padre y Día de la Madre es del 76%, pero la atención a la utilidad en el gráfico chart_178_2 (70%) se refiere a los regalos de Año Nuevo. No se ha demostrado que esta preferencia se aplique a otras fiestas. Aplicar ciegamente las preferencias de Año Nuevo a diferentes fiestas (Día del Padre/Día de la Madre) puede ser un error en la evaluación de las necesidades de los consumidores.",
+        "C": "El gráfico chart_178_1 muestra que las fiestas tradicionales (Fiesta de la Primavera, Festival del Medio Otoño, Festival del Barco Dragón) tienen una proporción extremadamente alta, lo que refleja su posición central. El gráfico chart_178_2 revela que los atributos de salud son el punto de atención más alto en los regalos de Año Nuevo (87%). La estrategia puede reutilizar esta preferencia en otras fiestas con alta proporción.",
+        "D": "Esta opción sugiere un plan de lealtad a los clientes, que es una estrategia de negocios general y no involucra ningún dato de los gráficos (como la proporción de fiestas o la actitud de consumo). Ignora el problema central de la comercialización de fiestas y se puede excluir por sentido común (ya que la pregunta se centra en la asignación de recursos de marketing durante el año, no en la gestión a largo plazo de los usuarios).",
+        "E": "Esta opción interpreta erróneamente los gráficos: el gráfico chart_178_1 muestra que la proporción de Navidad y Año Nuevo es solo del 53%, mucho menor que las fiestas tradicionales (96% para la Fiesta de la Primavera, etc.). No es razonable asignar recursos en primer lugar. Además, la proporción de actualización del consumo en el gráfico chart_178_5 (42%) se refiere a los regalos de Año Nuevo y no se aplica directamente a Navidad. Confundir las escenas de fiestas puede causar un desperdicio de recursos.",
+        "F": "Esta opción solo se basa en el conocimiento general de marketing (como la promoción de la marca para mejorar la influencia) y no se combina con los datos de distribución de fiestas o preferencias de consumidores en los gráficos. No puede proporcionar una estrategia específica de asignación de recursos para fiestas o preferencias y se puede excluir fácilmente por sentido común (ya que la pregunta solicita optimizar la asignación de recursos de marketing durante el año, no una construcción de marca generalizada).",
+        "G": "El gráfico chart_178_1 muestra que la proporción de Día de San Valentín y Qixi Festival es mediana pero estable. El gráfico chart_178_2 muestra que la atención a la utilidad (70%) y la relación calidad - precio (58%) es alta. Los datos indican que la orientación a la utilidad puede cubrir el mercado medio."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -178,6 +246,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "En el gráfico chart_178_2, la atención a los atributos de salud (87%) y el empaque de regalo (71%) es alta. El gráfico chart_178_3 muestra que los TGIs de regalos de salud de las generaciones después de 1985 y 1980 son superiores a 100 (forte preferencia). La estrategia satisface las necesidades principales a través de la salud y la comodidad.",
+        "B": "Esta opción solo se basa en tendencias industriales (como la protección ambiental) y no cita ningún dato de los gráficos (como la edad de la población, el presupuesto o los puntos de atención). No puede proporcionar una sugerencia específica de diseño para los regalos de Año Nuevo y se puede excluir por sentido común (ya que la pregunta solicita diseñar regalos para coincidir con las características de la población, no una estrategia ambiental generalizada).",
+        "C": "El gráfico chart_178_4 revela que la distribución del presupuesto es amplia (desde ≤1k a >10k). En el gráfico chart_178_5, el 49% de los consumidores elige un consumo estable. La estrategia evita gastos excesivos o una degradación del consumo a través de la clasificación por niveles.",
+        "D": "Esta opción interpreta erróneamente los gráficos: el gráfico chart_178_3 muestra que el TGI de salud de los nacidos en la generación 00 es de 105 (ligeramente superior al estándar de 100), pero la proporción de la población que regala en la generación 00 es solo del 11% (inferior al 25% de la generación 90). Además, el aumento del presupuesto en el gráfico chart_178_4 (el 13% en el rango de 5 - 8k) es un dato general y no se refiere específicamente a los nacidos en la generación 00. Centrarse en exceso en un grupo minoritario (generación 00) puede hacer que se ignore el grupo principal de las generaciones después de 1985 y 1990.",
+        "E": "En el gráfico chart_178_3, la proporción total de la población que regala en las generaciones 00 y 95 es del 28% (el grupo joven es el principal). El gráfico chart_178_4 muestra que el presupuesto para el Año Nuevo se concentra en el rango de 2 - 4k (la proporción más alta), y en el gráfico chart_178_2, la atención a los atributos de preciado es la más baja (41%). Los datos respaldan la orientación de utilidad y ahorro.",
+        "F": "Esta opción sugiere mejoras operativas como la optimización de la logística, que es una estrategia general de comercio electrónico y no se combina con los puntos de atención de los consumidores en los gráficos (como los atributos de salud o el presupuesto). Ignora el requisito central del diseño de regalos y se puede excluir fácilmente por sentido común.",
+        "G": "Esta opción juzga erróneamente la actitud de consumo: el gráfico chart_178_5 muestra que la proporción de consumo estable es la más alta (49%), no la actualización del consumo (42%). Además, en el gráfico chart_178_4, la proporción del presupuesto ≤1k sigue siendo del 4 - 5%. Reducir las opciones de bajo precio ignorará a las personas sensibles al presupuesto (como los jóvenes), lo que contradice el punto de atención de la relación calidad - precio (58% en el gráfico chart_178_2)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "En el gráfico chart_178_3, la proporción de las generaciones después de 1985 (18%) y 1980 (15%) es del 33% en total, y los TGIs de regalos de salud son de 106 y 103 respectivamente (superiores al promedio). En el gráfico chart_178_2, la atención a los atributos de salud es la más alta (87%). La estrategia se centra en los grupos con alto potencial.",
+        "B": "En el gráfico chart_178_3, la proporción de las generaciones mayores (nacidos en la década de 1970 y antes) es baja (11%), pero el TGI es cercano a 100 (la demanda es estable). En el gráfico chart_178_2, la utilidad (70%) y el empaque práctico (71%) son puntos de atención altos. La estrategia garantiza una cobertura equitativa y se ajusta a los valores.",
+        "C": "Esta opción sugiere un diseño innovador como la colaboración con IP, que es una estrategia de marketing generalizada y no cita los gráficos (como la proporción de edad o el presupuesto). Ignora las preferencias específicas de los grupos (como la atención a la salud) y se puede excluir fácilmente por sentido común.",
+        "D": "Esta opción se basa en tendencias tecnológicas (como la recomendación de IA) y no se combina con los datos de generaciones de edad o las preferencias de salud en los gráficos. No puede proporcionar una estrategia de asignación de recursos para las diferencias de edad y se puede excluir por sentido común (ya que la pregunta solicita asignar recursos de desarrollo, no una actualización tecnológica).",
+        "E": "En el gráfico chart_178_3, la proporción total de la población que regala en las generaciones 00 (11%) y 95 (17%) es del 28% y sigue creciendo. El gráfico chart_178_4 muestra que el presupuesto se distribuye principalmente en el rango de 1 - 4k (el 62% en total), y en el gráfico chart_178_2, la atención a la utilidad (70%) es superior a la de los atributos de preciado (41%). Los datos respaldan un diseño práctico y ligero.",
+        "F": "Esta opción utiliza incorrectamente los datos del presupuesto: la distribución del presupuesto en el gráfico chart_178_4 es un dato general y no se refiere específicamente a la generación 90. En el gráfico chart_178_3, la proporción de la generación 90 es la más alta (25%), pero no se muestra su preferencia de presupuesto. Además, en el gráfico chart_178_2, la atención a los atributos de preciado es solo del 41% (inferior al 87% de la salud). Los regalos lujosos pueden no coincidir con las necesidades principales del mercado.",
+        "G": "Esta opción interpreta erróneamente los gráficos: el gráfico chart_178_3 muestra que el TGI de salud de la generación 95 es de 90 (ligeramente inferior a 100), pero la atención general a los atributos de salud en el gráfico chart_178_2 alcanza el 87%, lo que es una demanda generalizada. Reducir los recursos para la generación 95 (el 17% de la proporción) ignorará a este grupo, y la pequeña desviación del TGI no es suficiente para justificar la reducción de recursos."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     }
   ]

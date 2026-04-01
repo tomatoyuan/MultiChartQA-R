@@ -90,6 +90,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "All options require joint reasoning based on chart_148_1 (Portrait of consumers: age distribution) and chart_148_5 (Scenarios of drinking sugar-free beverages). Chart_148_1 shows that consumers aged 22 - 40 account for a very high proportion (about 82.1%), indicating that this is the main consumer group; chart_148_5 shows that the drinking proportions in the scenarios of leisure gathering, work/study, and exercise are relatively high. Option C implies a health trend (the proportion in the exercise scenario reaches 42.0%), and it cannot be inferred from a single chart - the dominance of the age distribution and scenario preferences must be combined to confirm the pattern.",
+        "B": "All options require joint reasoning based on chart_148_1 (Portrait of consumers: age distribution) and chart_148_5 (Scenarios of drinking sugar-free beverages). Chart_148_1 shows that consumers aged 22 - 40 account for a very high proportion (about 82.1%), indicating that this is the main consumer group; chart_148_5 shows that the drinking proportions in the scenarios of leisure gathering, work/study, and exercise are relatively high. Option A is directly related to the social activity characteristics (social needs) of the main age group, and it cannot be inferred from a single chart - the dominance of the age distribution and scenario preferences must be combined to confirm the pattern.",
+        "C": "This is a hard interference option with a misinterpretation of the chart values: the drinking proportion in the exercise scenario is 42.0% (chart_148_5), but the proportion in the leisure gathering scenario is higher at 62.8%; at the same time, there is a wrong association with the age data (the 82.1% of the main age group does not mean a strong health awareness), leading to a reasoning deviation.",
+        "D": "This is an easy interference option based on common language knowledge: young people generally attach importance to family gatherings, but this scenario is not listed in the chart (chart_148_5 only includes leisure gathering, work/study, etc.), so it has nothing to do with the data.",
+        "E": "All options require joint reasoning based on chart_148_1 (Portrait of consumers: age distribution) and chart_148_5 (Scenarios of drinking sugar-free beverages). Chart_148_1 shows that consumers aged 22 - 40 account for a very high proportion (about 82.1%), indicating that this is the main consumer group; chart_148_5 shows that the drinking proportions in the scenarios of leisure gathering, work/study, and exercise are relatively high. Option B is directly related to the social activity characteristics (occupational needs) of the main age group, and it cannot be inferred from a single chart - the dominance of the age distribution and scenario preferences must be combined to confirm the pattern.",
+        "F": "This is a hard interference option with a misinterpretation of the data gap: the proportion in the e-sports games scenario is 28.6% (chart_148_5), which is lower than the 53.1% in the work/study scenario, and there is no direct data association between the 82.1% of the main age group (22 - 40 years old) (chart_148_1) and gaming habits, so the secondary scenario is wrongly magnified."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -111,6 +126,21 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "The options must rely on joint reasoning from chart_148_2 (Consumption of beverage types) and chart_148_3 (Factors influencing purchase). Chart_148_2 shows that the consumption proportions of carbonated drinks and tea drinks are much higher than other types (76.07% and 70.09%); chart_148_3 reveals that taste and price are the primary concerns (with the highest proportions). Option C introduces secondary factors (packaging 44.1%, promotion 42.1%), implying that these factors may enhance brand appeal. A single chart cannot establish this causal relationship - for example, the driving factors cannot be inferred from the consumption proportion alone, and the attention trends must be compared across charts.",
+        "B": "This is a hard interference option with a misinterpretation of the chart ranking: the attention proportion of the promotion factor is 42.1% (chart_148_3), but the taste factor is higher at 66.2%; at the same time, there is a wrong association with the beverage type data (the high proportions of carbonated drinks at 76.07% and tea drinks at 70.09%), misjudging promotion as the dominant factor.",
+        "C": "This is a hard interference option with a misinterpretation of the numerical gap: the attention to packaging is 44.1% (chart_148_3), which is actually lower than the 63.2% for price, but it is stated that 'packaging is more important than price'; and the fact that the taste factor is the highest is ignored, leading to a logical reversal.",
+        "D": "The options must rely on joint reasoning from chart_148_2 (Consumption of beverage types) and chart_148_3 (Factors influencing purchase). Chart_148_2 shows that the consumption proportions of carbonated drinks and tea drinks are much higher than other types (76.07% and 70.09%); chart_148_3 reveals that taste and price are the primary concerns (with the highest proportions). Option A directly explains the possible reason for the high consumption proportion (taste dominates the decision - making). A single chart cannot establish this causal relationship - for example, the driving factors cannot be inferred from the consumption proportion alone, and the attention trends must be compared across charts.",
+        "E": "This is an easy interference option based on industry common sense: health is a common motivation for choosing sugar-free beverages, but the 'health' factor is not listed in the chart of influencing factors (chart_148_3), which only includes taste, price, etc., so there is no data support.",
+        "F": "The options must rely on joint reasoning from chart_148_2 (Consumption of beverage types) and chart_148_3 (Factors influencing purchase). Chart_148_2 shows that the consumption proportions of carbonated drinks and tea drinks are much higher than other types (76.07% and 70.09%); chart_148_3 reveals that taste and price are the primary concerns (with the highest proportions). Option B directly explains the possible reason for the high consumption proportion (price dominates the decision - making). A single chart cannot establish this causal relationship - for example, the driving factors cannot be inferred from the consumption proportion alone, and the attention trends must be compared across charts."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -133,6 +163,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This is a hard interference option with a misinterpretation of the values and associations: consumers with a monthly income of over 20,000 yuan only account for 16.3% (chart_148_1: 10.2% for 15,001 - 20,000 yuan + 6.1% for higher intervals), which is not high; and there is no income breakdown for the 49.54% preference for Yuanqi Forest (chart_148_4), wrongly assuming a high - end positioning.",
+        "B": "Option B relies on joint reasoning from chart_148_1 (Portrait of consumers: gender and age) and chart_148_4 (Brand preference). Chart_148_1 shows that the group aged 22 - 40 accounts for a large proportion; in chart_148_4, the preference for Yuanqi Forest is the highest (49.54%), implying an age - based positioning. A single chart cannot explain why Yuanqi Forest leads, and the implied relationship must be discovered by combining portrait and type data.",
+        "C": "Option C relies on joint reasoning from chart_148_2 (Beverage types) and chart_148_4 (Brand preference). Chart_148_2 shows that the consumption proportion of carbonated drinks is the highest. As a representative of carbonated drinks, the preference for Yuanqi Forest may be driven by the popularity of this type. A single chart cannot explain why Yuanqi Forest leads, and the implied relationship must be discovered by combining portrait and type data.",
+        "D": "Option A relies on joint reasoning from chart_148_1 (Portrait of consumers: gender and age) and chart_148_4 (Brand preference). Chart_148_1 shows that the proportion of female consumers is high (60%); in chart_148_4, the preference for Yuanqi Forest is the highest (49.54%), implying a gender - based positioning. A single chart cannot explain why Yuanqi Forest leads, and the implied relationship must be discovered by combining portrait and type data.",
+        "E": "This is a hard interference option with a misinterpretation of the beverage type data: the consumption proportion of sugar - free fruit and vegetable juices is 46.16% (chart_148_2), but Yuanqi Forest belongs to carbonated drinks (with a high proportion of 76.07%), not fruit and vegetable juices; there is a wrong association between the type and the brand, ignoring the actual dominance of carbonated drinks.",
+        "F": "This is an easy interference option based on general knowledge: brand marketing is a common success factor, but there is no advertising or investment data provided in the chart (chart_148_4 only has brand preference proportions), so it is a general statement."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -157,6 +202,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option provides broad industry common-sense advice (such as 'increasing advertising investment') without offering specific strategies based on the chart data (such as demographic characteristics or preference trends). It can be easily excluded by common sense because it lacks targeted actions (e.g., not considering age or income distribution).",
+        "B": "Jointly infer from chart_148_1 (the 31 - 40 age group has the highest proportion), chart_148_5 (the 'Work/Study' scenario has a high proportion), and chart_148_3 (taste has the highest attention proportion).",
+        "C": "This option misinterprets the chart data. The age distribution shows that the proportion of those aged 21 and below is only 4.0%, the lowest with little potential. However, the interfering option suggests developing carbonated drinks for this group (with a preference of 76.07%), ignoring the mainstream consumer group (46.6% of those aged 31 - 40), which may reduce market coverage.",
+        "D": "Jointly infer from chart_148_1 (females have a high proportion in gender and age distribution, and the age is concentrated between 22 - 40) and chart_148_2 (sugar-free tea drinks rank second in popularity).",
+        "E": "This option also relies on general logic ('satisfying all groups') without citing any chart indicators (such as the prominent groups of 60% females or 46.6% of those aged 31 - 40), resulting in a strategy without focus and unable to maximize coverage and satisfaction.",
+        "F": "Jointly infer from chart_148_1 (the proportion of those with a monthly income of 5001 - 15000 yuan is the highest) and chart_148_3 (price attention ranks second only to taste).",
+        "G": "This option confuses the relationship in the charts. The proportion of high-income groups (above 30000 yuan) in the income distribution is only 1.9%, very small. However, the interfering option suggests developing fruit and vegetable juices for them (with a preference of 46.16%), wrongly linking the preference for fruit and vegetable juices with high income (the chart does not show a correlation) and ignoring the mainstream middle and low-income groups (37.2% of those with a monthly income of 5001 - 10000 yuan), resulting in a large deviation in the strategy direction."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -181,6 +243,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This option misinterprets the chart trends. The proportion of promotion in the purchase factors is 42.1%, but it is actually lower than taste (66.2%) and price (63.2%). However, the interfering option claims that it 'ranks high', wrongly inferring its importance and may mislead resource allocation.",
+        "B": "Jointly infer from chart_148_3 (packaging attention ranks third) and chart_148_4 (the preferences for the top three brands are close, such as 49.54% for Yuanqi Forest vs. 42.52% for Coca-Cola, indicating fierce competition).",
+        "C": "Jointly infer from chart_148_5 (the 'Leisure gathering' scenario has the highest proportion) and chart_148_2 (the preference for sugar-free carbonated drinks is the highest).",
+        "D": "This option confuses the brand preference data. The proportion of Lingqi is only 9.27%, far lower than the leading brands (such as 49.54% for Yuanqi Forest). However, the interfering option suggests promoting it, wrongly believing that a low proportion represents high potential and ignoring the advantages of mainstream brands, resulting in a large deviation in the strategy direction.",
+        "E": "Jointly infer from chart_148_3 (taste has the highest attention proportion) and chart_148_4 (Yuanqi Forest and Coca-Cola have leading preference proportions).",
+        "F": "This option is also broad ('increasing exposure in all channels') without citing chart indicators (such as the highest attention of 66.2% for taste or the 62.8% for the 'Leisure gathering' scenario), lacking specificity and unable to effectively improve the conversion rate.",
+        "G": "This option is based on general business common sense ('optimizing the supply chain') without associating with chart data (such as purchase factors or brand preferences). The strategy is broad and lacks specific marketing actions, and can be easily excluded."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -205,6 +284,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Jointly infer from chart_148_5 (the 'Exercise' scenario has a medium but stable proportion) and chart_148_2 (the preference for sugar-free fruit and vegetable juices is moderate at 46.16%, indicating potential).",
+        "B": "This option confuses the data relationship. The proportion of low-income groups is 20.0%, but the interfering option suggests promoting in high-end channels, which contradicts the income distribution (high-end channels are more suitable for high-income groups) and wrongly associates the preference for fruit and vegetable juices (46.16%) with low income, resulting in an obvious deviation in the strategy direction.",
+        "C": "Jointly infer from chart_148_1 (the total proportion of those with a monthly income of over 15001 yuan is 16.3%, indicating the existence of high-income groups), chart_148_5 (the 'Leisure gathering' scenario has the highest proportion), and chart_148_4 (the leading brands have high preferences).",
+        "D": "Jointly infer from chart_148_5 (the 'Work/Study' scenario ranks second in proportion) and chart_148_2 (the preference for sugar-free tea drinks is high).",
+        "E": "This option misinterprets the chart. The proportion of the 'E-sports games' scenario is 28.6%, far lower than that of the 'Leisure gathering' (62.8%) and 'Work/Study' (53.1%) scenarios. However, the interfering option claims that it 'has a medium proportion', wrongly inferring its potential and ignoring high-demand scenarios.",
+        "F": "This option relies on general logic ('covering all environments') without citing chart indicators (such as the 53.1% for the 'Work/Study' scenario or the 70.09% preference for tea drinks), resulting in a generalized strategy that cannot increase market share.",
+        "G": "This option is a common-sense advice ('increasing display space') without being based on chart data (such as scenario distribution or type preference). The strategy has no specific scenario or group focus and can be easily excluded."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     }
   ]

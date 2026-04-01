@@ -87,6 +87,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option is based on industry common sense (the trend of high - end development), but the charts do not mention data on changes in the catering structure or unit prices (Chart_123_2 and Chart_123_3 only show the overall revenue and market size). In the actual charts, the contradiction between the decline in catering revenue (-15.4%) and the growth in market size (+11.7%) in 2020 lies in the fact that the pandemic promoted online demand, rather than high - end development.",
+        "B": "This option relies on common sense (government policies), but there is no relevant data in the charts (such as consumer vouchers), and the original option has focused on online demand. The actual contradiction is driven by the pandemic - induced online shift, rather than policy details.",
+        "C": "This option has incorrect values: Chart_123_2 shows that the year - on - year change in catering revenue above the quota in 2020 was -14.0% (not growth), while the overall revenue declined by -15.4%. The option fabricates growth (+5.0%), misleadingly suggesting that the part above the quota drove the takeaway market, but in fact, both declined.",
+        "D": "Relying on the year - on - year change in overall catering revenue (showing an overall decline) and the year - on - year growth in the takeaway market size (showing growth), it is inferred that the pandemic caused consumers to switch to online takeaways, resulting in a conflict between the revenue and market size trends. It is necessary to combine the two charts to compare the conflicting points in the trends.",
+        "E": "Relying on the year - on - year change in catering revenue above the quota (the decline is smaller than the overall) and the growth data of the takeaway market size, it is inferred that the high growth of takeaways as part of the above - quota segment buffered the overall decline. It is necessary to combine the segmented revenue data and the market size trend.",
+        "F": "Relying on the data of the takeaway user scale and penetration rate and the growth data of the takeaway market size, it is inferred that the user base expanded but the penetration rate decreased, suggesting that the growth of the takeaway market may be due to other factors (such as the order volume or unit price), rather than simply an increase in users. It is necessary to combine the user trend and the market trend.",
+        "G": "This option misinterprets the chart: Chart_123_1 shows that the takeaway user scale in 2020 was 418.83 million (higher than 397.8 million in 2019), and the user scale increased rather than decreased; the penetration rate decreased from 44.0% to 42.3%, not increased. The growth of the market size (Chart_123_3) was mainly driven by the increase in the number of users and the demand during the pandemic, rather than 'a decrease in users'."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This option has incorrect values: Chart_123_1 shows that the user scale in 2023 was 544.54 million (higher than 521.18 million in 2022), with a growth of about 4.5%; the market size in Chart_123_3 increased by 36.7%, and the penetration rate increased from 25.4% to 28.8% (increased, not decreased). The option fabricates a decline in the penetration rate and ignores the contribution of user expansion in the actual data (such as the simultaneous growth of users and the market in 2023).",
+        "B": "Relying on the growth data of the takeaway user scale and the year - on - year growth data of the online food delivery market size, it is inferred that the synergy usually slows down, but the anomaly in 2023 may be due to unit price or service innovation. It is necessary to combine the deviation points between the user trend and the market growth rate.",
+        "C": "This option is based on common sense (the assumption of a positive correlation), but the chart shows an exception: for example, in 2019, the user scale decreased (Chart_123_1: 397.8 million vs. 406.01 million in 2018), but the market size increased (Chart_123_3: 668 billion vs. 459.7 billion). The synergistic effect does not always hold.",
+        "D": "Relying on the change data of the takeaway user penetration rate and the year - on - year growth data of the online food delivery market size, it is inferred that the increase in the penetration rate reflects the enhancement of user stickiness, which in turn accelerates market growth. It is necessary to combine the change in the penetration rate and the market growth rate trend.",
+        "E": "This option uses general knowledge (the popularization of the Internet), but there is no relevant data in the chart (such as the penetration rate). The actual synergistic effect is reflected by the data of specific years (such as the surge in users accompanied by high market growth in 2021), rather than a single factor.",
+        "F": "This option misinterprets the chart: Chart_123_1 shows that the user scale in 2019 was 397.8 million (lower than 406.01 million in 2018), and the user scale decreased; but the market size growth rate (Chart_123_3) was 16.9% (higher than 11.7% in 2020). The option misinterprets the decrease in users as an increase and incorrectly associates the 'slowdown' in the growth rate (in fact, the growth rate in 2018 was 30.1%, and in 2019 it was 16.9%, which did slow down, but the decrease in users indicates a weakening of the synergy, rather than a failure).",
+        "G": "Relying on the growth data of the takeaway user scale and the year - on - year growth data of the online food delivery market size, it is inferred that the surge in users directly drives market expansion. It is necessary to combine the two charts to compare the peak growth years."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "Relying on the year - on - year growth data of overall catering revenue and the change data of the online food delivery penetration rate, it is inferred that when the overall catering expands, takeaways, as a subset, benefit from the growth in demand. It is necessary to combine the revenue growth rate and the change in the penetration rate.",
+        "B": "Relying on the year - on - year decline data of overall catering revenue, the change data of the online food delivery penetration rate, and the growth data of the takeaway market size, it is inferred that when the revenue declines, the relative resilience of online takeaways (the increase in market size) may be due to the increase in the user scale. It is necessary to combine the three charts to analyze the behavioral changes during the crisis.",
+        "C": "Relying on the change data of catering revenue above the quota and the trend data of the online food delivery penetration rate, it is inferred that the part above the quota represents the high - end market, which is partially synchronized with the takeaway penetration rate (such as in 2021), but the deviation in 2022 may be due to the decline in user penetration. It is necessary to combine the segmented revenue data and the penetration rate trend.",
+        "D": "This option is based on common sense (seasonal influence), but the chart data are annual values (not quarterly), and there is no evidence of seasonality (such as Chart_123_2 and Chart_123_3 are both annual data). The actual changes in the penetration rate are related to macro - events (such as the pandemic), rather than seasons.",
+        "E": "This option has incorrect values: Chart_123_3 shows that the penetration rate in 2019 was 12.8%, and in 2020 it was 11.7% (a decrease, not an increase to 21.4%); it only rose to 21.4% in 2021. The option confuses the years and fabricates a 'leap'. In fact, the decline in the penetration rate in 2020 was consistent with the decline in revenue.",
+        "F": "This option has an incorrect association: Chart_123_2 shows that the change in revenue above the quota in 2022 was -5.9%, and the penetration rate in Chart_123_3 was 25.4% (in 2022) vs. 21.4% (in 2021), an increase. But the option ignores that the overall revenue change (-6.3%) is more relevant, and the change in revenue above the quota in 2021 (+23.5%) does not directly match the penetration rate increase (+21.4%) (there is also a deviation in 2023), fabricating a 'high consistency'.",
+        "G": "This option relies on economic common sense (the impact of recession), but the chart shows that when the revenue declined (-15.4%) in 2020, the penetration rate decreased from 12.8% to 11.7% (Chart_123_3), not a systematic decline; in 2021, the revenue growth (+18.6%) was accompanied by a leap in the penetration rate (21.4%), which is counter - intuitive."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -154,6 +205,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "It is also too general (cooperating to expand the supply), ignoring the key points in the charts (such as the need for retention strategies when the user scale declined in 2019), and lacking specific adjustments for the volatile market.",
+        "B": "This option is based on general business common sense (optimizing the UI can enhance the experience), but there are no specific action guidelines and it does not combine the chart trends (such as fluctuations in penetration rate or changes in user scale), so it can be easily excluded by common sense.",
+        "C": "Option B involves the changes in user scale in chart_123_1 (such as the decline in 2022) and the downward trend of growth rate in chart_123_3 (such as the predicted slow - down in growth after 2022), emphasizing the need for internal optimization.",
+        "D": "Option C involves the penetration rate data in chart_123_1 (such as the relatively low penetration rate in 2020) and the penetration rate trend in chart_123_3 (such as the relatively low market penetration rate in 2020). External knowledge (such as regional differences) is needed to infer the untapped market, but the strategy ensures inclusiveness.",
+        "E": "It misinterprets the data in chart_123_1: The user scale declined in 2022 (521.18 million vs. 544.16 million in 2021), but the correct strategy should be to optimize retention rather than cut the budget (the user scale rebounded to 544.54 million in 2023). Moreover, chart_123_3 shows that the market size increased by 11.2% in 2022, indicating that the investment was still effective.",
+        "F": "It confuses the penetration rate with market saturation: Chart_123_1 shows that the penetration rate in 2023 was 49.9%, close to the historical high, but the penetration rate in chart_123_3 was 28.8% and is expected to be stable, indicating that there is still room for growth in online food delivery; a price war may damage profits, which contradicts the goal of maximizing loyalty.",
+        "G": "Option A involves the fluctuations in user penetration rate in chart_123_1 (such as the significant increase in 2021) and the year - on - year growth of market size in chart_123_3 (such as the high growth in 2021), showing the synergy effect during the high - growth period."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option simply mentions 'balanced allocation' in a general way without providing specific allocation strategies (such as based on the fluctuation trend), ignoring the chart data (such as the online growth and offline shrinkage in 2020), and can be excluded by common sense.",
+        "B": "It is a broad suggestion (food safety management). Although it is correct, there is no guidance on resource allocation, and it does not combine the online - going trend (such as the increase in penetration rate), lacking actions for revenue fluctuations.",
+        "C": "Option B involves the revenue growth in chart_123_2 (such as the high growth in 2023) and the market trend in chart_123_3 (such as the growth in 2023 but the predicted slow - down), inferring offline opportunities.",
+        "D": "Option C involves the long - term upward trend of penetration rate in chart_123_3 (from 2017 to 2027) and the revenue fluctuations in chart_123_2, emphasizing strategic foresight.",
+        "E": "Option A involves the changes in catering revenue in chart_123_2 (such as the negative growth in 2020) and the growth of the food delivery market size in chart_123_3 (such as the positive growth in 2020), showing the resilience of the online sector.",
+        "F": "It misinterprets the data in chart_123_2 and chart_123_3: The catering revenue had a negative growth of - 15.4% in 2020, but chart_123_3 shows that the food delivery market size increased by 11.7% and the penetration rate was 11.7%, indicating that the online sector can buffer risks; reducing investment will miss opportunities.",
+        "G": "It wrongly understands the penetration rate trend: Chart_123_3 predicts that the penetration rate will be stable at 28.0% in 2027, but the market size will continue to grow (1956.7 billion yuan in 2027), indicating that there is still room for expansion in the online sector. Prioritizing the offline sector ignores the synergy effect (such as both the online and offline sectors benefited when the revenue increased by 20.9% in 2023 in chart_123_2)."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -200,6 +285,25 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option A involves the year - on - year growth rate in chart_123_3 (such as the high growth in 2021) and the changes in user penetration rate in chart_123_1 (such as the leap in 2021), showing the high - growth synergy.",
+        "B": "It misinterprets the growth data: Chart_123_3 shows that the market size increased by 50.2% year - on - year in 2021, and the user penetration rate in chart_123_1 increased to 52.7%, indicating high efficiency during the high - growth period. Reducing investment will miss the dividends, which contradicts the goal of maximizing returns.",
+        "C": "It confuses the penetration rate with the investment timing: Chart_123_1 shows that the user penetration rate was 48.8% (a decline) in 2022 and the user scale also declined to 521.18 million, indicating high market risks. Doubling the investment may magnify losses (it was suitable when the penetration rate rebounded to 49.9% in 2023).",
+        "D": "Option C involves the changes in catering revenue in chart_123_2 (such as the decline in 2020 and the recovery in 2021) and the market size data in chart_123_3, emphasizing the cross - cycle strategy.",
+        "E": "Option B involves the downward trend of the growth rate in chart_123_3 (such as the prediction after 2024) and the changes in user scale in chart_123_1 (such as the decline in 2022), inferring the priority of efficiency.",
+        "F": "It misinterprets the relationship between the overall and the online sectors: Chart_123_2 shows that the catering revenue increased by 20.9% in 2023, but the online penetration rate in chart_123_3 increased to 28.8% and the market size increased by 36.7%, indicating that the online sector made a large contribution. Ignoring the online sector will miss the synergistic growth.",
+        "G": "This option is too general (assessing trends and consulting experts), without specific adjustment strategies and without citing chart data (such as growth rate or penetration rate), so it can be excluded by common sense.",
+        "H": "It is a general social responsibility suggestion (environment - friendly packaging). Although it is positive, it has no investment return orientation and ignores the volatility characteristics of the industry (such as the revenue fluctuations in chart_123_2)."
+      },
+      "easy_error": [
+        "G",
+        "H"
+      ],
+      "hard_error": [
+        "B",
+        "C",
+        "F"
       ]
     }
   ]

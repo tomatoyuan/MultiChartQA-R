@@ -86,6 +86,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "All options are based on the combined reasoning of the chart of China's catering market size from 2014 to 2023 and the chart of the number of Chinese catering stores from 2014 to 2021. The chart of the catering market size shows that the market size decreased year - on - year in 2019 (trough period), while the chart of the number of catering stores shows a year - on - year increase in the number of stores (significant increase). There is an obvious conflict (more stores but lower revenue). This option focuses on the quality of stores. We need to analyze both the market size trend and the store growth data to infer the reason for the conflict. Only looking at the chart of the catering market size, we cannot know the change in the number of stores. Only looking at the chart of the number of catering stores, we cannot know the market size trend. We must cross - analyze their year - on - year changes and period divisions (such as the trough period) to find and explain the conflict.",
+        "B": "This is an easy error option: It relies on industry common sense (such as the impact of economic recession on consumption), but the charts do not cover relevant content. The option is too general and cannot directly explain the data conflict.",
+        "C": "All options are based on the combined reasoning of the chart of China's catering market size from 2014 to 2023 and the chart of the number of Chinese catering stores from 2014 to 2021. The chart of the catering market size shows that the market size decreased year - on - year in 2019 (trough period), while the chart of the number of catering stores shows a year - on - year increase in the number of stores (significant increase). There is an obvious conflict (more stores but lower revenue). This option explains from the perspectives of external factors and efficiency. We need to analyze both the market size trend and the store growth data to infer the reason for the conflict. Only looking at the chart of the catering market size, we cannot know the change in the number of stores. Only looking at the chart of the number of catering stores, we cannot know the market size trend. We must cross - analyze their year - on - year changes and period divisions (such as the trough period) to find and explain the conflict.",
+        "D": "All options are based on the combined reasoning of the chart of China's catering market size from 2014 to 2023 and the chart of the number of Chinese catering stores from 2014 to 2021. The chart of the catering market size shows that the market size decreased year - on - year in 2019 (trough period), while the chart of the number of catering stores shows a year - on - year increase in the number of stores (significant increase). There is an obvious conflict (more stores but lower revenue). This option emphasizes corporate strategies. We need to analyze both the market size trend and the store growth data to infer the reason for the conflict. Only looking at the chart of the catering market size, we cannot know the change in the number of stores. Only looking at the chart of the number of catering stores, we cannot know the market size trend. We must cross - analyze their year - on - year changes and period divisions (such as the trough period) to find and explain the conflict.",
+        "E": "This is a hard error option: It misinterprets the chart values. The year - on - year growth rate in 2019 in chart_94_1 is clearly - 15.4% (negative growth), but this option wrongly claims that the growth rate is positive (such as + 10%), creating false consistency.",
+        "F": "This is a hard error option: It misinterprets the chart differences. In chart_94_2, the growth rate of the number of stores in 2018 was 13.5%, but the growth rate in 2019 was as high as 37.9%, which is not an inertial continuation. At the same time, in chart_94_1, although the absolute value of the market size increased in 2019 (5 trillion yuan), the growth rate was negative. This option ignores the conflict between the growth rate and the absolute value.",
+        "G": "This is an easy error option: It relies on industry common sense (such as policy stimulation and food safety incidents), but the charts do not cover relevant content. The option ignores specific values and only makes general inferences."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "All options are based on the combined reasoning of the chart of difficulties encountered by catering enterprises when opening new stores and the chart of pain points in the use of kitchen appliances. The chart of difficulties encountered by catering enterprises when opening new stores shows that the proportion of equipment mismatch among the difficulties in opening new stores is relatively high. In the chart of pain points in the use of kitchen appliances, the proportion of pain points such as single - function equipment is high. The implied connection is that equipment problems run through the stages of opening new stores and operation. This option directly links equipment attributes. We need to combine the proportion distributions of the two charts to infer the common theme. Only looking at the chart of difficulties encountered by catering enterprises when opening new stores, we cannot infer the problems in the use of kitchen appliances. Only looking at the chart of pain points in the use of kitchen appliances, we cannot know the challenges in opening new stores. We must compare the proportion structures of the two charts (such as equipment - related items) to find the implied association.",
+        "B": "This is an easy error option: It relies on industry common sense (such as intelligent solutions), but the charts do not prove that it can 'automatically solve all pain points'. The option is too absolute and ignores specific pain - point distributions.",
+        "C": "This is a hard error option: It misinterprets the chart differences. The proportion of poor requirement communication in chart_94_3 is 27.8% (relatively high), but this option claims that it is 'less than 20%' and wrongly infers that its impact can be ignored. In fact, pain points in the use of kitchen appliances such as complex operation may be due to communication problems.",
+        "D": "This is a hard error option: It misinterprets the chart rankings and values. The proportion of equipment mismatch in chart_94_3 is 33.1% (not the highest, the slow process accounts for 43.6% which is higher). In chart_94_4, the proportion of the short lifespan and high scrappage rate of equipment is 27.8% (far lower than the traditional and non - intelligent equipment which accounts for 48.9%). This option exaggerates the values and creates a wrong priority.",
+        "E": "All options are based on the combined reasoning of the chart of difficulties encountered by catering enterprises when opening new stores and the chart of pain points in the use of kitchen appliances. The chart of difficulties encountered by catering enterprises when opening new stores shows that the proportion of equipment mismatch among the difficulties in opening new stores is relatively high. In the chart of pain points in the use of kitchen appliances, the proportion of pain points such as single - function equipment is high. The implied connection is that equipment problems run through the stages of opening new stores and operation. This option is from the perspective of communication. We need to combine the proportion distributions of the two charts to infer the common theme. Only looking at the chart of difficulties encountered by catering enterprises when opening new stores, we cannot infer the problems in the use of kitchen appliances. Only looking at the chart of pain points in the use of kitchen appliances, we cannot know the challenges in opening new stores. We must compare the proportion structures of the two charts (such as equipment - related items) to find the implied association.",
+        "F": "All options are based on the combined reasoning of the chart of difficulties encountered by catering enterprises when opening new stores and the chart of pain points in the use of kitchen appliances. The chart of difficulties encountered by catering enterprises when opening new stores shows that the proportion of equipment mismatch among the difficulties in opening new stores is relatively high. In the chart of pain points in the use of kitchen appliances, the proportion of pain points such as single - function equipment is high. The implied connection is that equipment problems run through the stages of opening new stores and operation. This option is from the perspective of the service chain. We need to combine the proportion distributions of the two charts to infer the common theme. Only looking at the chart of difficulties encountered by catering enterprises when opening new stores, we cannot infer the problems in the use of kitchen appliances. Only looking at the chart of pain points in the use of kitchen appliances, we cannot know the challenges in opening new stores. We must compare the proportion structures of the two charts (such as equipment - related items) to find the implied association.",
+        "G": "This is an easy error option: It relies on industry common sense (such as supplier training), but the charts do not cover relevant content. The option ignores specific values and only makes general inferences."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "All options are based on the combined reasoning of the chart of China's catering market size from 2014 to 2023, the chart of the number of Chinese catering stores from 2014 to 2021, and the chart of pain points in the use of kitchen appliances. The chart of the catering market size shows that the year - on - year growth rate of the market size was relatively high from 2020 to 2021 (recovery period). The chart of the number of catering stores shows that the number of stores increased slightly or decreased during the same period. In the chart of pain points in the use of kitchen appliances, the proportion of pain points such as 'not intelligent enough' is high. This option focuses on the contribution of equipment optimization to revenue. We need to integrate the trends and pain - point distributions of the three charts to infer the law. Only looking at the market growth in the chart of the catering market size, we cannot know the situation of stores or equipment. Only looking at the stagnation of stores in the chart of the number of catering stores, we cannot infer the market driving factors. Only looking at the pain points in the chart of pain points in the use of kitchen appliances, we cannot relate them to the macro - trend. We must cross - analyze the market size recovery, store changes, and equipment pain points to find the implied law (such as efficiency improvement offsetting the lack of store growth).",
+        "B": "This is a hard error option: It misinterprets the chart values. Chart_94_2 shows that the year - on - year growth rate of the number of stores in 2021 was - 2.8% (negative growth), but this option wrongly claims that the growth rate is as high as more than 10%, creating a false growth trend.",
+        "C": "This is a hard error option: It misinterprets the chart rankings. The proportion of the pain point of high equipment cost in chart_94_4 is 25.6% (not the highest, the traditional and non - intelligent equipment accounts for 48.9% which is higher). But this option exaggerates its proportion and wrongly positions it as the main inhibitory factor. At the same time, it ignores the actual data of the stagnant growth of stores (the number of stores decreased in 2021).",
+        "D": "This is an easy error option: It relies on industry common sense (such as the growth of take - out demand), but the charts do not cover relevant content. The option is too general and ignores equipment pain points.",
+        "E": "This is an easy error option: It relies on industry common sense (such as the health trend increasing consumption), but the charts do not support this mechanism. The option does not link to specific equipment pain - point data.",
+        "F": "All options are based on the combined reasoning of the chart of China's catering market size from 2014 to 2023, the chart of the number of Chinese catering stores from 2014 to 2021, and the chart of pain points in the use of kitchen appliances. The chart of the catering market size shows that the year - on - year growth rate of the market size was relatively high from 2020 to 2021 (recovery period). The chart of the number of catering stores shows that the number of stores increased slightly or decreased during the same period. In the chart of pain points in the use of kitchen appliances, the proportion of pain points such as 'not intelligent enough' is high. This option explains the efficiency improvement from the perspective of equipment improvement. We need to integrate the trends and pain - point distributions of the three charts to infer the law. Only looking at the market growth in the chart of the catering market size, we cannot know the situation of stores or equipment. Only looking at the stagnation of stores in the chart of the number of catering stores, we cannot infer the market driving factors. Only looking at the pain points in the chart of pain points in the use of kitchen appliances, we cannot relate them to the macro - trend. We must cross - analyze the market size recovery, store changes, and equipment pain points to find the implied law (such as efficiency improvement offsetting the lack of store growth).",
+        "G": "All options are based on the combined reasoning of the chart of China's catering market size from 2014 to 2023, the chart of the number of Chinese catering stores from 2014 to 2021, and the chart of pain points in the use of kitchen appliances. The chart of the catering market size shows that the year - on - year growth rate of the market size was relatively high from 2020 to 2021 (recovery period). The chart of the number of catering stores shows that the number of stores increased slightly or decreased during the same period. In the chart of pain points in the use of kitchen appliances, the proportion of pain points such as 'not intelligent enough' is high. This option links the difficulties in opening new stores with equipment pain points. We need to integrate the trends and pain - point distributions of the three charts to infer the law. Only looking at the market growth in the chart of the catering market size, we cannot know the situation of stores or equipment. Only looking at the stagnation of stores in the chart of the number of catering stores, we cannot infer the market driving factors. Only looking at the pain points in the chart of pain points in the use of kitchen appliances, we cannot relate them to the macro - trend. We must cross - analyze the market size recovery, store changes, and equipment pain points to find the implied law (such as efficiency improvement offsetting the lack of store growth)."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distraction: It suggests reducing supply - chain costs but does not combine the market - size trend or store - efficiency issues in the chart. It is a general business strategy and has no direct connection with optimizing resource allocation.",
+        "B": "This is a hard distraction: It quotes the year - on - year growth rate of stores in 2015 (49.3%) from chart_94_2 but ignores that the market size in chart_94_1 only increased by 10.8%, indicating that the efficiency of single stores may be insufficient. It mistakenly equates high growth rates with efficient investment without synchronously optimizing existing resources.",
+        "C": "This is an easy distraction: It is based on general management common sense (training employees to improve service) and does not rely on any chart data (such as market size or store fluctuations). The statement is broad and has no specific action guidelines, so it is easy to be excluded.",
+        "D": "Option 2 combines the growth - rate changes during the trough period (2019) and the recovery period (2020) of the market size in chart_94_1 with the slowdown of the growth of the number of stores after the trough period in chart_94_2 (such as the low year - on - year growth rate in 2020), emphasizing resource reallocation to increase the output of existing stores.",
+        "E": "This is a hard distraction: On the surface, it uses chart data (chart_94_1 shows that the market size decreased to 4 trillion yuan in 2019, and chart_94_2 shows that the number of stores increased to 9.06 million), but it misinterprets the trend - blind expansion will intensify competition and inefficiency (the chart suggests that the excessive growth of stores during the trough period in 2019 may lead to insufficient output per store).",
+        "F": "Option 1 involves the growth trend of the market size in chart_94_1 (such as the stable growth period from 2014 - 2018 and the new - vitality period from 2021 - 2023) and the fluctuation of the number of stores in chart_94_2 (such as the sharp increase in the number of stores in 2019 but a year - on - year decline in the market size), inferring that expansion needs to be paired with efficiency optimization to prevent resource waste.",
+        "G": "Option 3 integrates the stage labels in chart_94_1 (such as the new - vitality period) with the trend of the year - on - year growth rate of the number of stores in chart_94_2 to analyze the relationship between investment timing and efficiency."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distraction: It suggests optimizing the decoration design but does not address the difficulties in store opening in chart_94_3 (such as a slow process or equipment mismatch) or the pain points of equipment in chart_94_4. It is a general suggestion without data support.",
+        "B": "Option 3 involves the pain points of equipment in chart_94_4 (such as the significant proportion of 'easily - damaged equipment') and the difficulties in store opening in chart_94_3 (such as 'unprofessional suppliers'), emphasizing preventive measures to improve equipment reliability through supplier management.",
+        "C": "This is a hard distraction: It quotes the proportion of unprofessional suppliers (6.8%) in chart_94_3 but wrongly prioritizes a low - proportion problem - although it is easy to improve, its impact is small (the lowest proportion), while high - proportion difficulties such as a slow process (43.6%) should be prioritized; at the same time, chart_94_4 shows that easily - damaged equipment (33.8%) may be due to a lack of service rather than the professionalism of suppliers.",
+        "D": "Option 1 combines the pain points of kitchen appliances in chart_94_4 (such as the highest proportion of 'lack of intelligence' and 'single - function') with the difficulties in store opening in chart_94_3 (such as the high proportion of 'equipment mismatch'), inferring that equipment upgrading can directly alleviate core pain points and improve the efficiency of store opening.",
+        "E": "This is a hard distraction: On the surface, it uses chart data (chart_94_4 shows that the proportion of high noise is 37.6%, and chart_94_3 shows that the proportion of poor requirement communication is 27.8%), but it wrongly correlates them - there is no direct causal relationship between high noise and poor requirement communication (no evidence in the chart), and it ignores higher - proportion pain points such as lack of equipment intelligence (48.9%) or a slow process (43.6%).",
+        "F": "Option 2 integrates the difficulties in store opening in chart_94_3 (such as the high proportion of 'lack of one - stop service' and 'poor requirement communication') with the pain points of equipment in chart_94_4 (such as 'easily - damaged equipment' and 'low operating efficiency'), analyzing the role of service integration in reducing the risk of operational interruption.",
+        "G": "This is an easy distraction: It is based on industry common sense (food - safety management) and does not quote any chart data (such as difficulties in store opening or pain points of equipment). The statement is generalized and has no specific strategies for the store - opening process, so it is easy to be excluded."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: On the surface, it uses chart data (chart_94_1 shows that the market size decreased to 4 trillion yuan in 2019, and chart_94_4 shows that the proportion of single - function equipment is 48.1%), but it misinterprets - during the trough period, resources should optimize existing equipment rather than invest in new purchases (the chart suggests that the growth during the recovery period in 2020 was unstable, avoiding high expenditures); moreover, single - function is not the highest pain point (lack of intelligence at 48.9% is higher).",
+        "B": "This is an easy distraction: It suggests menu innovation but does not combine any chart data (such as the market - recovery trend or equipment pain points). The statement is broad and is a common - sense marketing strategy without specific resource - allocation targeting.",
+        "C": "Option 1 integrates the new - vitality period of the market size in chart_94_1 (with an obvious growth trend from 2021 - 2023) with the pain points of kitchen appliances in chart_94_4 (such as the highest proportion of'single - function' and 'high dependence on manpower'), inferring that investing in intelligent equipment during the high - growth period can improve operational efficiency and take advantage of market opportunities.",
+        "D": "This is a hard distraction: It quotes the proportion of short equipment lifespan (27.8%) and high cost (25.6%) in chart_94_4, but it has a wrong strategy - high - cost equipment may increase the burden (the pain point of high cost is prominent), and it ignores that during the recovery period (such as 2020 - 2021), maintenance should be prioritized over adding new equipment (chart_94_1 shows fluctuating growth during the recovery period).",
+        "E": "Option 3 involves the fluctuation of the market size in chart_94_1 (such as the trough period in 2019 and the recovery period in 2020) and the pain points of equipment in chart_94_4 (such as 'easily - damaged equipment' and 'high cost'), emphasizing resource allocation to maintenance during the uncertain period to reduce risks.",
+        "F": "This is an easy distraction: It recommends a digital ordering system but does not quote the market - recovery stage in chart_94_1 or the pain points of equipment in chart_94_4. It is a general technology suggestion and is easy to be excluded.",
+        "G": "Option 2 combines the pain points of equipment in chart_94_4 (such as the high proportion of 'large footprint' and 'high noise') with the difficulties in store opening in chart_94_3 (such as the highest proportion of'slow process'), analyzing the impact of space and noise optimization on accelerating the store - opening process."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     }
   ]

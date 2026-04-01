@@ -86,6 +86,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：错误解读数值趋势（chart_87_1显示高中生近视人数2014年3616.31万 → 2018年3187.08万 → 2020年3351.23万，波动下降而非持续上升），但干扰项错误描述为'持续上升'。",
+        "B": "这是Hard干扰项：错误理解图表数据（chart_87_2显示14 - 17岁高中生户外时间最低为44.9min，而6 - 9岁小学生为64.3min，更高；但干扰项颠倒为'小学生最低'），且忽略近视人数数据（chart_87_1中2018年小学生近视3722.13万 > 高中生3187.08万）。",
+        "C": "这是Easy干扰项：基于常见假设（电子设备损害视力），但图表未提供电子设备使用数据，与户外运动或近视人数无关。",
+        "D": "这是Easy干扰项：仅依赖常识（遗传可能影响近视），但图表未涉及遗传或电子设备因素，无法从数据中得出此结论。",
+        "E": "此选项需联合chart_87_1和chart_87_2推理。chart_87_1显示近视人数随教育阶段和时间变化，chart_87_2显示户外运动时长随年龄增长而递减。该选项直接对比年龄组的户外时间和近视人数趋势，揭示隐含的负相关规律。单张图表无法推断此规律：仅chart_87_1可看近视趋势但无户外数据；仅chart_87_2可看户外时长但无近视人数。",
+        "F": "此选项需联合chart_87_1和chart_87_2推理。chart_87_1显示近视人数随教育阶段和时间变化，chart_87_2显示户外运动时长随年龄增长而递减。该选项直接对比年龄组的户外时间和近视人数趋势，揭示隐含的负相关规律。单张图表无法推断此规律：仅chart_87_1可看近视趋势但无户外数据；仅chart_87_2可看户外时长但无近视人数。",
+        "G": "此选项需联合chart_87_1和chart_87_2推理。chart_87_1显示近视人数随教育阶段和时间变化，chart_87_2显示户外运动时长随年龄增长而递减。该选项结合时间维度和年龄趋势，突出波动性与稳定性差异。单张图表无法推断此规律：仅chart_87_1可看近视趋势但无户外数据；仅chart_87_2可看户外时长但无近视人数。"
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是Hard干扰项：错误理解数据关系（chart_87_3中'Quieren probar otros métodos primero'36.5% > 'Personalmente piensan que no es necesario usar gafas'14.4%，但干扰项颠倒比例；同时忽略家长期待'Provisión de soluciones posteriores para la salud ocular'等非矫正功能，错误强调矫正性方案）。",
+        "B": "这是Hard干扰项：错误比较数值排序（chart_87_4中'Rápida velocidad de examen'占比27.0%，但最高是'Alta precisión'40.9%和'Análisis integral de los resultados de los exámenes'40.3%；干扰项误将27.0%描述为最高）。",
+        "C": "此选项需联合chart_87_3和chart_87_4推理。chart_87_3显示未配镜原因，chart_87_4显示家长期待功能。该选项利用'El niño no quiere usar gafas'比例低与高期待功能，强调评估优先。单张图表无法推断：仅chart_87_3可看原因但无产品期待；仅chart_87_4可看功能但无行为原因。",
+        "D": "这是Easy干扰项：错误基于常识（孩子抗拒可能影响），但chart_87_3显示'El niño no quiere usar gafas'仅占7.9%，远低于'Asesoramiento del médico'的41.2%，干扰项夸大比例。",
+        "E": "此选项需联合chart_87_3和chart_87_4推理。chart_87_3显示未配镜原因，chart_87_4显示家长期待功能。该选项结合'Asesoramiento del médico'最高比例和'Alerta temprana para problemas de salud ocular'功能期待，突出预防导向。单张图表无法推断：仅chart_87_3可看原因但无产品期待；仅chart_87_4可看功能但无行为原因。",
+        "F": "这是Easy干扰项：仅凭常识（配镜常见），但图表数据（chart_87_3）显示36.5%家长想先尝试其他方式，41.2%因医生建议未配镜，表明偏好非矫正性干预。",
+        "G": "此选项需联合chart_87_3和chart_87_4推理。chart_87_3显示未配镜原因，chart_87_4显示家长期待功能。该选项通过对比'Quieren probar otros métodos primero'和'Provisión de soluciones posteriores para la salud ocular'的相似比例，揭示家长倾向主动干预。单张图表无法推断：仅chart_87_3可看原因但无产品期待；仅chart_87_4可看功能但无行为原因。"
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -129,6 +163,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是Easy干扰项：仅靠常识（假设户外时间充足），但chart_87_2显示平均54.9min且所有年龄组低于120min（如高中生44.9min），干扰项错误描述为'均超过'。",
+        "B": "这是Hard干扰项：错误分配数值（chart_87_2中6 - 9岁小学生户外时间64.3min最高，10 - 13岁初中生55.5min居中；chart_87_1中2018年小学生近视3722.13万最高，中学生3331.25万居中；干扰项却误将'初中生户外最高'和'近视最高'，混淆教育阶段）。",
+        "C": "此选项需联合chart_87_1和chart_87_2推理，且针对2018年数据冲突。chart_87_1显示2018年近视人数，chart_87_2显示户外运动时长随年龄递减。该选项对比户外时间最短群体与近视人数较低现象，揭示冲突可能源于小学生近视基数或发育阶段。单张图表无法解释冲突：仅chart_87_1可看人数差异但无户外数据；仅chart_87_2可看户外时间但无法关联近视人数。",
+        "D": "此选项需联合chart_87_1和chart_87_2推理，且针对2018年数据冲突。chart_87_1显示2018年近视人数，chart_87_2显示户外运动时长随年龄递减。该选项结合初中生数据与趋势，突出外部因素影响。单张图表无法解释冲突：仅chart_87_1可看人数差异但无户外数据；仅chart_87_2可看户外时间但无法关联近视人数。",
+        "E": "此选项需联合chart_87_1和chart_87_2推理，且针对2018年数据冲突。chart_87_1显示2018年近视人数，chart_87_2显示户外运动时长随年龄递减。该选项对比户外时间最短群体与近视人数较低现象，揭示冲突可能源于小学生近视基数或发育阶段。单张图表无法解释冲突：仅chart_87_1可看人数差异但无户外数据；仅chart_87_2可看户外时间但无法关联近视人数。",
+        "F": "这是Hard干扰项：错误比较数值（chart_87_1中2018年小学生近视3722.13万 > 高中生3187.08万，但干扰项颠倒为'高中生高于小学生'；且chart_87_2高中生户外44.9min < 小学生64.3min，干扰项错误归因）。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -153,6 +202,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en los datos de los gráficos, sino solo en el conocimiento común: aumentar el tiempo de estudio y reducir las actividades al aire libre va en contra del consenso científico sobre la prevención de la miopía (las actividades al aire libre ayudan a aliviar la miopía), y los gráficos no mencionan el tiempo de estudio o los equipos de iluminación, por lo que es fácil de descartar.",
+        "B": "Involucra chart_87_1 (el número de estudiantes miopes de primaria fluctuó mucho entre 2010 y 2020, pero la base general es alta) y chart_87_2 (el tiempo de deportes al aire libre del grupo de 6 - 9 años es relativamente alto, pero está muy por debajo del estándar). Razón: los estudiantes de primaria tienen una buena base de deportes, y la promoción intensiva puede prevenir la tendencia al aumento de la miopía.",
+        "C": "Involucra chart_87_2 (el tiempo de deportes al aire libre disminuye con la edad, y el grupo de 14 - 17 años tiene el menor tiempo) y chart_87_1 (el número de estudiantes miopes de bachillerato disminuyó entre 2018 y 2020, pero la base sigue siendo alta, lo que muestra un riesgo continuo en los grados superiores). Razón: la menor cantidad de tiempo al aire libre en los grados superiores está relacionada con una alta tasa de miopía, y la asignación prioritaria de recursos aquí puede maximizar los beneficios para la salud.",
+        "D": "Esta opción parece utilizar el gráfico (chart_87_2), pero confunde los valores: el tiempo al aire libre del grupo de 6 - 9 años es de 64,3 minutos, mucho menos que el estándar mínimo de 120 minutos (solo alrededor del 53%). La opción incorrectamente considera que está \"cerca\" del estándar, ignorando la deficiencia real y causando un desvío en la dirección de la estrategia.",
+        "E": "Esta opción parece utilizar el gráfico (chart_87_1), pero interpreta incorrectamente la tendencia: aunque el número de estudiantes miopes de primaria disminuyó en 2018, volvió a subir a 38,182,400 en 2020, y el número de estudiantes miopes de secundaria siguió aumentando (de 30,618,200 en 2010 a 34,939,200 en 2020). Priorizar la reducción de recursos para los estudiantes de primaria ignora la base y el riesgo de fluctuación, lo que contradice los datos.",
+        "F": "Involucra chart_87_4 (los padres esperan fuertemente funciones como \"comprender rápidamente el estado de salud ocular\" y \"dar una alerta temprana para problemas de salud ocular\") y chart_87_3 (la razón más común para no obtener gafas inmediatamente o no tenerlas aún es el \"asesoramiento del médico\"). Razón: integrar las funciones esperadas por los padres en los exámenes escolares puede responder directamente a las necesidades de los consejos médicos y reducir los retrasos en la intervención.",
+        "G": "Esta opción no se basa en los datos de los gráficos, sino solo en el conocimiento común: el uso de dispositivos electrónicos puede empeorar la fatiga visual y el riesgo de miopía, pero los gráficos no abordan el uso de dispositivos electrónicos, por lo que es una sugerencia amplia e irrazonable."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -176,6 +242,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción no se basa en los datos de los gráficos, sino solo en el conocimiento común: el precio y la publicidad son estrategias de mercado generales, pero los gráficos no abordan el costo o el marketing, y no ayudan en el diseño de funciones específicas o en la intervención oportuna, por lo que es una sugerencia amplia.",
+        "B": "Involucra chart_87_4 (las funciones de \"dar una alerta temprana para problemas de salud ocular\" y \"tener archivos de seguimiento de salud\" tienen una alta expectativa) y chart_87_1 (la tendencia del número de estudiantes miopes en varios años muestra un problema continuo). Razón: la función de seguimiento a largo plazo combinada con la tendencia de los datos de miopía puede permitir una asignación dinámica de recursos y evitar la gestión de crisis.",
+        "C": "Esta opción parece utilizar el gráfico (chart_87_2), pero confunde la relación: la insuficiencia de tiempo de deportes al aire libre (el tiempo promedio es de 54,9 minutos) no está directamente relacionada con las funciones del producto, y las necesidades de los padres se centran en los exámenes de visión (como \"alta precisión\"). Agregar una función de registro de deportes se desvía de las expectativas centrales del mercado, por lo que la estrategia es ineficaz.",
+        "D": "Esta opción parece utilizar el gráfico (chart_87_4), pero interpreta incorrectamente las necesidades: aunque la demanda de los padres por \"una amplia gama de ítems de examen\" es baja (22,1%), la demanda por alta precisión (40,9%) y análisis integral (40,3%) es alta. Simplificar el producto ignora las necesidades centrales y puede causar la falta de funciones.",
+        "E": "Esta opción no se basa en los datos de los gráficos, sino solo en el conocimiento común: la función de juego puede atraer a los usuarios, pero los gráficos no mencionan las preferencias de los niños o la integración de juegos, y no está relacionada con la necesidad de intervención en la miopía, por lo que es fácil de descartar.",
+        "F": "Involucra chart_87_4 (las funciones de \"rápida velocidad de examen\" y \"métodos de examen convenientes\" tienen una demanda relativa baja pero existe) y chart_87_2 (el tiempo promedio de deportes al aire libre está muy por debajo del estándar, lo que refleja la escasez de tiempo). Razón: el diseño conveniente se adapta a las limitaciones de tiempo reales y aumenta la accesibilidad del producto, especialmente para el grupo con insuficiencia de deportes.",
+        "G": "Involucra chart_87_4 (las funciones de \"alta precisión\" y \"análisis integral de los resultados de los exámenes\" tienen la mayor proporción) y chart_87_3 (las razones principales para no obtener gafas inmediatamente o no tenerlas aún son el \"asesoramiento del médico\" y \"querer probar otros métodos primero\"). Razón: la función de alta precisión responde directamente a las necesidades centrales de los padres y reduce los retrasos causados por la desconfianza o la indecisión, lo que se ajusta al valor de priorizar la prevención."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -200,6 +283,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Involucra chart_87_3 (la razón más común para no obtener gafas inmediatamente o no tenerlas aún es el \"asesoramiento del médico\") y chart_87_4 (las funciones de \"análisis integral de los resultados de los exámenes\" y \"provisión de soluciones posteriores para la salud ocular\" tienen una alta expectativa). Razón: fortalecer la comunicación médica se dirige directamente a la principal causa de retraso y, combinada con las necesidades de los padres, aumenta la eficiencia de los recursos.",
+        "B": "Involucra chart_87_3 (la proporción de \"querer probar otros métodos primero\" es alta) y chart_87_4 (las funciones de \"dar una alerta temprana para problemas de salud ocular\" y \"provisión de soluciones posteriores para la salud ocular\" son muy esperadas). Razón: ofrecer opciones que no sean gafas responde a las preferencias de los pacientes y reduce la resistencia causada por la prescripción obligatoria de gafas, lo que se ajusta al valor de la atención médica personalizada.",
+        "C": "Esta opción parece utilizar el gráfico (chart_87_4), pero confunde el nivel de demanda: la expectativa de los padres por la función de alerta es del 36,4%, que no es la más alta pero está en el cuarto lugar (por encima del promedio). La opción incorrectamente interpreta que es una \"baja demanda\", ignorando su importancia y contradiciendo el objetivo de intervención oportuna.",
+        "D": "Esta opción no se basa en los datos de los gráficos, sino solo en el conocimiento común: la publicidad es un medio de promoción general, pero los gráficos no abordan la estrategia de difusión y no hay una guía de acción específica, por lo que es una sugerencia amplia e ineficaz.",
+        "E": "Involucra chart_87_1 (el número de estudiantes miopes de secundaria aumentó de manera estable entre 2010 y 2020) y chart_87_2 (los grupos de 10 - 13 años y 14 - 17 años tienen el menor tiempo de deportes al aire libre). Razón: la insuficiencia de deportes en los estudiantes de secundaria está relacionada con el aumento de la miopía, y la asignación de recursos de examen a este grupo puede permitir una intervención precisa.",
+        "F": "Esta opción parece utilizar el gráfico (chart_87_1), pero interpreta incorrectamente la tendencia: el número de estudiantes miopes de bachillerato en 2020 fue de 33,512,300, que es menor que en 2010 (35,545,200), pero después de disminuir en 2018, volvió a subir en 2020 (de 31,870,800 a 33,512,300), y el número de estudiantes de secundaria siguió aumentando. La opción incorrectamente infiere una tendencia a la disminución, lo que causa un desvío en la asignación de recursos.",
+        "G": "Esta opción no se basa en los datos de los gráficos, sino solo en el conocimiento común: el servicio gratuito puede aumentar la participación, pero los gráficos no abordan el problema del costo y ignoran las razones para no obtener gafas (por ejemplo, el asesoramiento del médico es el 41,2%), por lo que la dirección de la estrategia no coincide con los datos."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     }
   ]

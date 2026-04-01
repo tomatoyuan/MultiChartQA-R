@@ -87,6 +87,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "联合互联网普及率趋势和用户使用占比数据。普及率上升到高位可能降低用户接入门槛，帮助Cuenta de Video de WeChat等平台（使用占比中等）吸引新用户，但需跨图分析普及率对“新兴服务”的影响。",
+        "B": "依赖行业常识（创新吸引用户），但图表未涉及内容工具创新，属于Easy干扰项",
+        "C": "错误解读图表数据：普及率实际持续上升（2022年75.6%→2024年78.6%），无增速放缓迹象，属于Hard干扰项",
+        "D": "数值理解错误：Xigua Video 2025年使用占比25.59%远低于Douyin的46.80%，且普及率增长与平台份额无直接因果，属于Hard干扰项",
+        "E": "常识性表述，未提及政策数据，属于泛泛而谈的Easy干扰项",
+        "F": "联合互联网普及率趋势和用户使用占比数据。普及率趋势显示稳定增长，尤其2024年接近峰值；Kuaishou作为使用占比第二高的平台，其用户规模可能受益于此趋势，但需推理普及率作为基础因素，而非单张图能解释。",
+        "G": "需要联合互联网普及率趋势和用户使用占比数据。普及率从2018年逐年上升至2024年高位，表明在线用户基数扩大；结合Douyin在2025年使用占比最高，推理出普及率增长可能直接贡献了其用户规模扩张。"
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "联合用户使用占比数据和满意度评分。Xiaohongshu使用占比低于头部平台，但满意度高分比例接近最高；需跨图分析使用占比中等与满意度高的隐含关联，可能反映用户粘性。",
+        "B": "联合用户使用占比数据和满意度评分。Bilibili使用占比中等，但满意度高分比例较高；推理其用户群体可能更忠诚，但需结合两张图数据对比其他平台（如Xigua Video满意度较低）。",
+        "C": "差距理解错误：Kuaishou满意度合计（67.95%）与Douyin（78.59%）差超10%，使用占比差超10%，非“相当”，属于Hard干扰项",
+        "D": "数值理解错误：Weibo 5分比例（34.03%）实际低于Douyin（38.50%）和Bilibili（39.92%），且使用占比最低，属于Hard干扰项",
+        "E": "需要联合用户使用占比数据和满意度评分。Douyin使用占比最高，且满意度中4分和5分比例合计极高；推理出高使用占比与高满意度可能相互强化，提升忠诚度，但单张图无法建立此联系。",
+        "F": "泛泛而谈的行业经验（奖励计划），无图表依据，属于Easy干扰项",
+        "G": "常识性表述（界面设计重要性），但图表未涉及界面数据，属于Easy干扰项"
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -130,6 +164,21 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "常识性错误：Xigua Video/Miaopai等平台满意度明显较低（5分比例≤30%），非“普遍提升”，属于Easy干扰项",
+        "B": "逻辑悖论：普及率上升通常提高用户期望值（非降低），且图表显示满意度存在差异，属于Easy干扰项",
+        "C": "联合互联网普及率趋势和满意度评分。普及率上升应提升整体市场，但Pipixia满意度中低分比例高；推理竞争加剧可能导致用户不满，需跨图关联普及率趋势与满意度冲突。",
+        "D": "因果倒置：Douyin使用占比最高（46.80%）且满意度高（5分38.50%），新用户实际流向高满意度平台，属于Hard干扰项",
+        "E": "联合互联网普及率趋势和满意度评分。普及率在2024年达高位，为所有平台提供机会；推理普及率增长未转化为Miaopai的高满意度（其满意度中等），显示平台特定问题。",
+        "F": "需要联合互联网普及率趋势和满意度评分。普及率逐年上升至高位，表明用户基数扩大；但Xigua Video满意度中低分比例较高，推理新用户增加可能降低满意度，形成冲突，需跨图分析趋势与点数据的矛盾。"
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "D"
       ]
     },
     {
@@ -153,6 +202,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "En el gráfico chart_102_2, la proporción de usuarios de Kuaishou es alta pero no la más alta. Combinado con la satisfacción mediana de Kuaishou en el gráfico chart_102_3 (la proporción de 4 - 5 puntos es menor que la de Douyin). Además, el crecimiento de la tasa de penetración en el gráfico chart_102_1 enfatiza la importancia de la retención de usuarios, y la estrategia debe prevenir la pérdida de usuarios.",
+        "B": "El gráfico chart_102_1 muestra que la tasa de penetración de Internet ha aumentado constantemente año tras año (de 2018 a 2024), lo que indica que la base de nuevos usuarios sigue creciendo, especialmente en los primeros años, el crecimiento es más notable. Combinado con el hecho de que la proporción de usuarios de Douyin es la más alta en el gráfico chart_102_2 y la satisfacción de Douyin es alta en el gráfico chart_102_3 (la proporción de 4 - 5 puntos es alta), la estrategia debe aprovechar esta tendencia y las ventajas de la plataforma para adquirir nuevos usuarios de manera eficiente.",
+        "C": "Esta es una opción de distracción fácil: se basa en conocimientos generales de marketing (distribución equitativa y publicidad tradicional), pero la expresión es amplia y no tiene guías de acción específicas. No se cita ningún dato del gráfico (como la tendencia de la tasa de penetración o la proporción de la plataforma), por lo que es fácil de descartar.",
+        "D": "Esta es una opción de distracción difícil: aparentemente se cita el gráfico chart_102_1 (tasa de penetración de Internet), pero se interpreta erróneamente la tendencia. La tasa de penetración sigue aumentando (de 59.6% en 2018 a 78.6% en 2024), lo que indica que las áreas de alta penetración tienen un gran potencial de llegada de nuevos usuarios. Sin embargo, la opción de distracción sugiere centrarse en las áreas de baja penetración, confundiendo la 'tendencia de crecimiento' con el 'punto bajo actual', y la dirección de la estrategia está desviada.",
+        "E": "Esta es una opción de distracción difícil: aparentemente se utiliza el gráfico chart_102_2 (proporción de usuarios), pero se interpreta erróneamente los datos. La proporción de usuarios de Miaopai y Pipixia es la más baja (12.05% y 14.07%). Invertir en estas plataformas puede ser ineficiente, ya que la base de usuarios es pequeña y el potencial de crecimiento es limitado. Además, se ignora los datos de satisfacción del gráfico chart_102_3 (la puntuación de 5 puntos de Miaopai es solo 28.32%), sin considerar el costo de adquisición de usuarios.",
+        "F": "Esta es una opción de distracción fácil: se basa en sugerencias de sentido común (aumentar el número de usuarios a través de subsidios), pero no se analiza específicamente en combinación con los gráficos (por ejemplo, la proporción de usuarios de Weibo en el gráfico chart_102_2 es de solo 15.35% y la satisfacción de 4 - 5 puntos en el gráfico chart_102_3 es solo 63.2%). La expresión es amplia y no tiene soporte de datos.",
+        "G": "En el gráfico chart_102_2, la proporción de usuarios de Xiaohongshu es mediana pero más alta que algunas plataformas. Combinado con la alta satisfacción de Xiaohongshu en el gráfico chart_102_3 (la proporción de 4 - 5 puntos es alta). Además, el aumento de la tasa de penetración en el gráfico chart_102_1 proporciona una fuente de nuevos usuarios, y la estrategia debe aprovechar la plataforma con potencial para excavar el crecimiento."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -175,6 +241,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en conocimientos generales de TI (actualizar la infraestructura), la expresión es amplia y no se cita ningún dato del gráfico (como la distribución de la satisfacción o la proporción de usuarios), carece de pertinencia y es fácil de descartar.",
+        "B": "Esta es una opción de distracción fácil: se basa en conocimientos generales de desarrollo de productos (agregar nuevas funciones), pero no se relaciona con los datos de satisfacción (por ejemplo, las diferencias de puntuación de cada plataforma en el gráfico chart_102_3). La expresión es genérica y no tiene prioridades claras, y no depende de los gráficos.",
+        "C": "En el gráfico chart_102_2, la proporción de usuarios de Xiaohongshu es mediana. Combinado con la alta proporción de satisfacción de Xiaohongshu en el nivel superior (4 - 5 puntos) en el gráfico chart_102_3. Además, el aumento de la tasa de penetración en el gráfico chart_102_1 proporciona un grupo de nuevos usuarios, y la estrategia debe aprovechar el efecto de palanca de la reputación.",
+        "D": "Esta es una opción de distracción difícil: aparentemente combina el gráfico chart_102_3 y el gráfico chart_102_2, pero confunde la relación. La proporción de usuarios de Kuaishou es alta (35.93%), pero la proporción de satisfacción en el nivel inferior y medio (1 - 3 puntos) es del 31.05%. La opción de distracción sugiere 'reducir los recursos', erróneamente considerando que las plataformas con alto riesgo de pérdida de usuarios no valen la pena invertir, mientras que la estrategia correcta debe ser mejorar para consolidar la cuota de mercado.",
+        "E": "En el gráfico chart_102_2, la proporción de usuarios de Cuenta de Video de WeChat es mediana. Combinado con la distribución de satisfacción más equitativa de la misma en el gráfico chart_102_3 (hay proporciones en cada segmento de puntuación). Además, la tendencia en el gráfico chart_102_1 indica que el aumento de la base de usuarios requiere prevenir la fluctuación de la experiencia, y la estrategia debe garantizar la sostenibilidad.",
+        "F": "Esta es una opción de distracción difícil: aparentemente se utiliza el gráfico chart_102_3 (puntuación de satisfacción), pero se interpreta erróneamente los datos. La satisfacción de 5 puntos de Bilibili es la más alta (39.92%), pero la opción de distracción sugiere 'no es necesario mejorar', ignorando que la proporción de usuarios de Bilibili en el gráfico chart_102_2 es mediana (28.04%) y todavía hay satisfacción en el nivel inferior y medio (la suma de 1 - 3 puntos es del 27.37%), lo que puede no resolver el riesgo de pérdida de usuarios.",
+        "G": "En el gráfico chart_102_2, la proporción de usuarios de Kuaishou es alta. Combinado con la proporción relativamente alta de puntuaciones de 3 puntos o menos de satisfacción de Kuaishou en el gráfico chart_102_3, la estrategia debe optimizar en función de los puntos problemáticos. Además, el crecimiento de la tasa de penetración en el gráfico chart_102_1 enfatiza la importancia de la retención de usuarios."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -198,6 +281,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en conocimientos generales de distribución de mercado (centrarse en áreas futuras), pero no se combina con datos (como el aumento general de la tasa de penetración). La expresión es genérica y no depende de los gráficos, y se puede descartar por conocimiento general.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se utilizan el gráfico chart_102_2 y el gráfico chart_102_3, pero se interpreta erróneamente los valores. La proporción de usuarios de Miaopai es baja (12.05%) y la satisfacción de 5 puntos es solo 28.32% (en el nivel inferior). La opción de distracción sugiere 'invertir recursos', ignorando el riesgo de bajo retorno de la inversión. Además, no se combina con la tendencia de aumento de la tasa de penetración en el gráfico chart_102_1 (es posible que los nuevos usuarios se beneficien más de las plataformas con alta proporción).",
+        "C": "Esta es una opción de distracción difícil: aparentemente se cita el gráfico chart_102_2 (proporción de usuarios), pero se ignora erróneamente la tendencia en el gráfico chart_102_1. La tasa de penetración sigue aumentando (78.6% en 2024), lo que indica que hay muchas oportunidades para nuevos usuarios. La opción de distracción 'ignora la tendencia de la tasa de penetración' y solo se adhiere a las plataformas con alta proporción, lo que puede perderse el beneficio del crecimiento.",
+        "D": "En el gráfico chart_102_2, la proporción de usuarios de Xiaohongshu es ligeramente por encima de la mediana. Combinado con la proporción destacada de satisfacción de Xiaohongshu en el nivel superior en el gráfico chart_102_3. Además, la tendencia en el gráfico chart_102_1 proporciona potencial de crecimiento, y la estrategia debe centrarse en la innovación de contenido.",
+        "E": "Esta es una opción de distracción fácil: se basa en conocimientos generales de estrategia de contenido (contratar a creadores de primer nivel). La expresión es amplia y no se cita ningún dato del gráfico (como las preferencias de usuarios o la satisfacción), y no tiene guías de acción específicas, y es fácil de descartar.",
+        "F": "En el gráfico chart_102_2, la proporción de usuarios de Miaopai es baja. Combinado con la proporción relativamente alta de satisfacción de Miaopai en el nivel inferior y medio en el gráfico chart_102_3. Además, el aumento de la tasa de penetración en el gráfico chart_102_1 enfatiza el riesgo de competencia, y la estrategia debe mejorar equitativamente las plataformas débiles.",
+        "G": "En el gráfico chart_102_2, la proporción de usuarios de Douyin es la más alta. Combinado con la proporción alta de satisfacción de Douyin en el nivel superior en el gráfico chart_102_3. Además, el aumento constante de la tasa de penetración en el gráfico chart_102_1 indica que la base de usuarios se está expandiendo, y la estrategia debe fortalecer la posición de liderazgo."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     }
   ]

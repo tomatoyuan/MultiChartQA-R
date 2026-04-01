@@ -86,6 +86,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Option 1 relies on the overall high search volume values and peak days in the search attention trend chart and the high proportion but negative growth rate of first-tier cities in the attention proportion chart by city level for joint reasoning to explain the conflict caused by market saturation.",
+        "B": "This is an easy干扰项. It is based on a common-sense error: it does not rely on the charts. The contradiction between high search volume and negative growth rate cannot be explained by 'data entry errors', and the common sense of the peak season of vocational training cannot directly explain the reason for the negative growth, ignoring the core contradiction of the problem.",
+        "C": "Option 3 combines the fluctuation trend in the search attention trend chart and the negative growth rates in the attention proportion chart by city level to show that short-term events do not affect the long-term decline.",
+        "D": "Option 2 combines the daily average search volume in the search attention trend chart and the small proportion but large negative growth rate of third-tier/fourth-tier cities in the attention proportion chart by city level to infer that small regions drag down the overall growth.",
+        "E": "This is an easy干扰项. It is based on a common-sense error: it does not rely on the charts. Economic recession may lead to a decline in searches, but it contradicts the high search volume. Moreover, the assumption of government subsidies is not reflected in the charts, which is a general statement.",
+        "F": "This is a hard干扰项. It misinterprets the chart: In chart_10_1, the comparison between the search volume of 6,200,000 on May 1st and 9,500,000 on May 31st shows an absolute increase, but the negative growth rate is a year-on-year concept (compared with last year), and the chart does not provide last year's data. The干扰项 mistakenly equates sequential growth with year-on-year growth and wrongly infers 'data anomaly'.",
+        "G": "This is a hard干扰项. It misinterprets the chart: In chart_10_3, the growth rate of fourth-tier cities is -9%, which indeed has the largest decline, but the proportion is only 12%, while the proportion of first-tier cities is 38% with a growth rate of -6%, which has a greater impact. The干扰项 wrongly exaggerates the small-proportion region as the main driving force, ignoring the weight calculation."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy干扰项. It is based on a common-sense error: it does not rely on the charts. The fact that the mobile terminal accounts for 80.7% is dominant, but the common sense that 'PC is more professional' does not explain the implied rule and contradicts the chart data, which is a general statement.",
+        "B": "This is an easy干扰项. It is based on a common-sense error: it does not rely on the charts. Chart_10_2 shows that the proportion of mobile terminals is 80.7%, far higher than 19.30% of PC terminals. The干扰项 wrongly assumes that first-tier cities prefer PC terminals, but the chart does not provide terminal data by city, and it contradicts the overall trend.",
+        "C": "Option 2 combines the negative growth rates of second-tier/third-tier cities in the attention proportion chart by city level and the proportion of mobile terminals in the analysis chart of the proportion of search terminals to infer the regional behavior change.",
+        "D": "Option 1 relies on the high proportion of mobile terminals in the analysis chart of the proportion of search terminals and the high proportion of first-tier cities in the attention proportion chart by city level for joint reasoning to imply the rule between city development and terminal preference.",
+        "E": "This is a hard干扰项. It misinterprets the chart: In chart_10_3 and chart_10_2, the growth rate of second-tier cities is -4%, which is negative, indicating a decline in attention, not an increase. The干扰项 wrongly interprets the 'negative growth rate' as 'rapid growth of mobile searches', misinterpreting the growth direction.",
+        "F": "This is a hard干扰项. It misinterprets the chart: Chart_10_3 shows that the growth rate of third-tier cities is -8%, but chart_10_2 is the overall proportion of mobile terminals and cannot be divided by city. The干扰项 wrongly infers the change in mobile searches at the city level, and the statement 'accelerated abandonment' contradicts the high proportion, misinterpreting the gap.",
+        "G": "Option 3 integrates the high proportion but negative growth rate of first-tier cities in the attention proportion chart by city level and the dominance of mobile terminals in the analysis chart of the proportion of search terminals to analyze the impact of market maturity."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 relies on the peak days in the search attention trend chart, the high proportion of Beijing in the top 5 search cities chart, and the proportion of mobile terminals in the analysis chart of the proportion of search terminals for joint reasoning to imply that cities and terminals drive the peak.",
+        "B": "This is a hard干扰项. It misinterprets the chart: Chart_10_4 shows that the proportion of Chengdu is 3.4%, ranking second in the top 5, but the peak value of 10,200,000 on May 16th in chart_10_1 is the overall data. The干扰项 wrongly equates the city proportion (overall proportion) with the driving factor for the peak day, ignoring other cities (such as Beijing with a higher proportion of 4.3%) and terminal factors, misinterpreting the ranking and weight.",
+        "C": "This is an easy干扰项. It is based on a common-sense error: it does not rely on the charts. May 5th may be after the holiday, but the chart does not show the specific driving factors, and it ignores the terminal and city data, which is a common-sense assumption.",
+        "D": "Option 2 combines the proportion of Chengdu in the top 5 search cities chart, the proportion of mobile terminals in the analysis chart of the proportion of search terminals, and the peak days in the search attention trend chart to infer the mobile behavior in non-first-tier cities.",
+        "E": "This is an easy干扰项. It is based on a common-sense error: it does not rely on the charts. Chart_10_2 shows that the proportion of mobile terminals is 80.7%, and the PC terminal is only 19.30%. The干扰项 directly contradicts the terminal proportion and wrongly assumes that the PC dominates on the peak day.",
+        "F": "This is a hard干扰项. It misinterprets the chart: In chart_10_1, the search volume on May 4th is 9,700,000, and the proportion of mobile terminals in chart_10_2 is 80.7%, but the chart does not have terminal data by day or by city. The干扰项 wrongly infers that 'the PC terminal contributes more' and misuses the proportion of first-tier cities in chart_10_4 (such as 38% in Beijing), creating a misunderstanding of the gap.",
+        "G": "Option 3 integrates the end-of-month trend in the search attention trend chart, the proportion of Shenzhen in the top 5 search cities chart, and the dominance of mobile terminals in the analysis chart of the proportion of search terminals to analyze the relationship between regional demand and terminals."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -150,6 +201,20 @@
       "label": [
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This option does not rely on the chart content and is only based on general marketing common sense (such as 'continuous exposure'), but ignores the fluctuation characteristics of the search attention (chart_10_1 shows obvious peaks and valleys) and the user device preferences (chart_10_2 shows that the mobile terminal accounts for 80.7%). The strategy is broad and non - targeted, and cannot improve the efficiency.",
+        "B": "On the surface, it is based on the chart trend (the low - attention days in chart_10_1, such as 6,200,000 or 7,800,000), but there is a wrong reasoning: low attention means less user interest, and investing at this time may waste the budget; the correct strategy should be to invest during the peak period (such as 10,200,000) to maximize the exposure.",
+        "C": "Option 2 involves the low - attention period in chart_10_1 (such as the lower values at the end of the month) and the mobile - dominated structure in chart_10_2. By combining the reasoning, it is concluded that the investment should be reduced and the strategy should be optimized during the inefficient period.",
+        "D": "Option 1 involves the peak characteristics of the search attention trend in chart_10_1 (such as the high point in the middle of the month) and the extremely high proportion of mobile - terminal searches in chart_10_2. By combining the reasoning, it is concluded that focusing on the mobile terminal during the peak period can improve the efficiency.",
+        "E": "On the surface, it uses the chart data (the computer - terminal proportion of 19.3% in chart_10_2), but misinterprets the user preferences: the mobile terminal is dominant (80.7%), giving priority to the computer terminal will reduce the reach efficiency, and there is no evidence to support the assumption of 'in - depth decision - making'."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "E"
       ]
     },
     {
@@ -169,6 +234,20 @@
       "label": [
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "On the surface, it combines the chart (the proportion of the top 5 cities in chart_10_4), but confuses the city levels: most of the top 5 cities are first - tier cities (such as Beijing and Shanghai), but chart_10_3 shows that the growth rate of first - tier cities is - 6%, which is lackluster, and it ignores the opportunities in second - tier cities (such as Chengdu).",
+        "B": "This option does not rely on the chart content and is only based on the general principle of fairness, but ignores the specific proportion (chart_10_3 shows that first - tier cities account for 38%) and the growth rate dynamics (all negative growth), and cannot balance potential and risks.",
+        "C": "Option 2 involves the characteristics that the proportion of third - and fourth - tier cities in chart_10_3 is relatively low and the growth rate is negative. Combining the overall trend of city levels, it is concluded through joint reasoning that the strategy should be optimized rather than abandoned.",
+        "D": "Option 1 involves the high proportion but negative growth rate of first - tier cities and the proportion data of second - tier cities in chart_10_3, as well as the high search proportion of the top cities (such as Chengdu and Hangzhou as representatives of second - tier cities) in chart_10_4. By combining the reasoning, it is concluded that resources should be tilted towards second - tier cities with high potential.",
+        "E": "On the surface, it uses the chart data (the growth rate of third - and fourth - tier cities in chart_10_3 is - 8% / - 9%), but misinterprets it: negative growth means market shrinkage rather than potential, and the proportion is low (17% / 12%), and the investment risk is high; the correct strategy should focus on high - proportion areas."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -193,6 +272,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "On the surface, it quotes the search trend (the fluctuation in chart_10_1), but wrongly ignores the fluctuation characteristics: it is easier to convert during the peak period (such as 10,200,000), and constant investment will waste the budget.",
+        "B": "On the surface, it is based on the device preference (the computer - terminal proportion of 19.3% in chart_10_2), but misinterprets it: the mobile terminal is dominant (80.7%), giving priority to the computer terminal will ignore the main user group, and there is no evidence to support the assumption of 'professional users'.",
+        "C": "This option does not rely on the chart content and is only based on general marketing common sense (such as 'using social media to improve interaction'), but does not combine the search behavior (the fluctuation in chart_10_1) or the device preference (the mobile terminal accounts for 80.7% in chart_10_2). The strategy is vague and ineffective.",
+        "D": "Option 3 involves the high search proportion of the top cities (Beijing and Chengdu) in chart_10_4 and the growth rate trend of city levels in chart_10_3. By combining the reasoning, a regional targeting strategy is concluded.",
+        "E": "On the surface, it uses the chart data (the negative growth rate of third - and fourth - tier cities in chart_10_3), but wrongly reasons: negative growth means risk rather than potential, and the proportion is low (17% / 12%), and the investment may be inefficient; the correct strategy should focus on high - proportion areas (such as first - tier or top 5 cities).",
+        "F": "Option 1 involves the peak phenomenon of the search attention trend in chart_10_1 and the overall negative growth rate data in chart_10_3. By combining the reasoning, it is concluded that the peak period should be used to stimulate demand.",
+        "G": "Option 2 involves the high proportion of the mobile terminal in chart_10_2 and the slowdown in the overall industry growth rate in chart_10_3. By combining the reasoning, it is concluded that participation should be improved through terminal optimization."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     }
   ]

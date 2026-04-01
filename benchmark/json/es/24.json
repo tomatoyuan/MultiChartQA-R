@@ -89,6 +89,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这些选项必须结合chart_24_1（女性使用率）和chart_24_3（00后鄙视链）进行推理。chart_24_1显示Emoticonos de texto在女性中使用率很低，而chart_24_3显示00后鄙视链中，Emoticonos de cómic到Emoticonos de texto的权重较高，表明漫画鄙视文字。选项关联女性低使用率与00后被鄙视状态，需要两张图表的数据交叉验证，无法仅凭一张图推断。",
+        "B": "这是一个Hard干扰项，基于图表差距理解错误：Emoticonos de texto在女性中使用率14%最低，但00后鄙视链中文字被漫画鄙视权重3（较高，但非最高），且文字是\"被鄙视\"而非\"鄙视者\"。选项错误地将文字描述为\"鄙视者\"，并夸大权重（实际最高权重3.5针对Emoticonos de celebridades→Emoticonos de cómic）。",
+        "C": "这是一个Easy干扰项，基于语言常识错误：流行度高不一定导致高权重推崇；相反，图表显示女性流行度高的Emoticonos de celebridades（64%）在00后被高权重鄙视（权重3.5）。常识上，流行度和鄙视权重无必然正相关，因此该选项错误。",
+        "D": "这些选项必须结合chart_24_1（女性使用率）和chart_24_3（00后鄙视链）进行推理。chart_24_1显示Emoticonos de celebridades和Emoticonos de cómic在女性中流行度较高，而chart_24_3显示00后鄙视链中，Emoticonos de celebridades到Emoticonos de cómic的权重最高，表明明星被漫画高度鄙视。选项直接关联女性高流行度与00后高鄙视权重，需要两张图表的数据交叉验证，无法仅凭一张图推断。",
+        "E": "这是一个Hard干扰项，基于图表数值和排序理解错误：女性使用率中Emoji为47%，低于明星（64%）和漫画（58%），不算\"流行度较高\"；00后鄙视链中Emoticonos de texto→Emoji权重为2.5（非最高，最高是3.5），且Emoji被文字鄙视，但权重2.5不是最高。正确数据中，Emoji在女性中非最高流行，被鄙视权重也非显著最高，因此该选项错误。",
+        "F": "这是一个Easy干扰项，基于常识错误：Emoticonos de celebridades在女性中使用率64%确实最高，但00后鄙视链中明星被漫画表情包以权重3.5鄙视（最高权重），表明00后显著鄙视明星表情包。常识上，年轻人可能推崇明星，但图表数据明确显示鄙视关系，因此该选项错误。",
+        "G": "这些选项必须结合chart_24_1（女性使用率）和chart_24_3（00后鄙视链）进行推理。chart_24_1显示Emoticonos de celebridades和Emoticonos de cómic在女性中流行度较高，而chart_24_3显示00后鄙视链中，Emoticonos de cómic到Emoticonos de texto的权重较高，表明漫画鄙视文字。选项直接关联女性高流行度与00后高鄙视权重，需要两张图表的数据交叉验证，无法仅凭一张图推断。"
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -111,6 +128,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这些选项需要联合chart_24_2（男性使用率）和chart_24_4（90后鄙视链）进行推理。chart_24_2显示Emoticonos integrados de QQ/WeChat在男性中流行度较高，而chart_24_4的90后鄙视链中，Emoticonos de personas mayores到Emoticonos integrados de QQ y WeChat的权重最高。这导致冲突：男性高偏好QQ微信自带，但90后鄙视链中它被其他类型鄙视。选项冲突于男性高使用率与90后最高鄙视权重，依赖两张图表的数据对比，无法从单图得出。",
+        "B": "这是一个Easy干扰项，基于行业常识错误：男性偏好直观表情包（如Emoticonos de cómic 72%），但90后鄙视链中Emoji→Emoticonos de cómic权重1.5表示漫画被鄙视，方向冲突。常识上，代际偏好可能一致，但图表数据明确显示冲突，因此该选项错误。",
+        "C": "这是一个Hard干扰项，基于图表排序和方向理解错误：Emoticonos de cómic在男性中使用率72%最高，但90后鄙视链中Emoji→Emoticonos de cómic权重1.5表示漫画被Emoji鄙视，而非漫画是\"鄙视者\"；实际鄙视链中漫画无直接鄙视关系，是被鄙视对象。选项错误地反转方向并夸大权重（最高权重3.5是Emoticonos de personas mayores→Emoticonos integrados de QQ y WeChat），因此错误。",
+        "D": "这是一个Hard干扰项，基于图表数值差距理解错误：QQ微信在男性中67%使用率较高，90后鄙视链中QQ微信被中老年鄙视权重3.5（非明星）；明星在男性中45%使用率中等，但QQ微信被鄙视权重3.5高，而选项错误地将鄙视者归为明星（实际是QQ微信→明星权重3，明星是\"被鄙视\"），并忽略关键冲突点。",
+        "E": "这些选项需要联合chart_24_2（男性使用率）和chart_24_4（90后鄙视链）进行推理。chart_24_2显示Emoticonos de cómic在男性中流行度较高，而chart_24_4的90后鄙视链中，Emoji到Emoticonos de cómic的权重为1.5（表明Emoji鄙视漫画）。这导致冲突：男性高偏好漫画，但90后鄙视链中它被其他类型鄙视。选项冲突于男性高使用率与90后被鄙视权重，依赖两张图表的数据对比，无法从单图得出。",
+        "F": "这些选项需要联合chart_24_2（男性使用率）和chart_24_4（90后鄙视链）进行推理。chart_24_2显示Emoji在男性中流行度较高，而chart_24_4的90后鄙视链中，Emoticonos de texto到Emoji的权重为2（表明文字鄙视Emoji）。这导致冲突：男性高偏好Emoji，但90后鄙视链中它被其他类型鄙视。选项冲突于男性高Emoji使用率与90后被文字鄙视，依赖两张图表的数据对比，无法从单图得出。",
+        "G": "这是一个Easy干扰项，基于模型自身知识错误：Emoticonos de ancianos在男性中31%使用率确实不高，但90后鄙视链中中老年是\"鄙视者\"（Emoticonos de personas mayores→Emoticonos integrados de QQ y WeChat权重3.5），而非\"被鄙视\"。选项错误地描述中老年为\"被鄙视\"，且冲突指流行度高与鄙视方向矛盾，中老年不满足流行度高条件，因此该选项无关且错误。"
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -133,6 +167,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项，基于图表方向理解错误：80后Emoji integrados en QQ y WeChat→Emoji de personas mayores权重3.5最高，00后QQ微信→中老年权重1.5较低（正确），但00后中QQ微信是被Emoji鄙视权重2，而非被中老年鄙视（中老年在00后是被鄙视对象）。选项错误添加\"被中老年鄙视\"关系（实际00后中老年是被QQ微信鄙视），混淆方向，因此错误。",
+        "B": "这些选项必须结合chart_24_5（80后鄙视链）和chart_24_3（00后鄙视链）进行推理。chart_24_5显示80后鄙视链中，Emoji到Emoji de cómic的权重较低；而chart_24_3显示00后鄙视链中，Emoji到Emojis integrados en QQ y WeChat的权重为2（表明Emoji鄙视QQ微信自带）。这揭示了代际差异：Emoji在80后鄙视漫画权重低，在00后鄙视QQ微信自带。选项需要对比两张图表的权重值和方向，无法仅凭一张图推断，体现了隐含的代际变化。",
+        "C": "这些选项必须结合chart_24_5（80后鄙视链）和chart_24_3（00后鄙视链）进行推理。chart_24_5显示80后鄙视链中，Emoji integrados en QQ y WeChat到Emoji de personas mayores的权重最高；而chart_24_3显示00后鄙视链中，Emoji到Emojis integrados en QQ y WeChat的权重为2（表明Emoji鄙视QQ微信自带）。这揭示了代际差异：QQ微信自带在80后是鄙视者（权重高），在00后是被鄙视者。选项需要对比两张图表的权重值和方向，无法仅凭一张图推断，体现了隐含的代际变化。",
+        "D": "这是一个Hard干扰项，基于图表数值理解错误：80后Emoji de texto→Emoji权重2.5，00后Emoticonos de texto→Iconos de emojis权重也是2.5，但00后中文字被漫画鄙视权重3（方向部分相反，文字在00后是\"被鄙视\"）。选项错误地忽略方向差异（80后文字是鄙视者，00后文字是被鄙视者），并声称权重相同无差异，但实际方向变化反映代际偏好，因此错误。",
+        "E": "这是一个Easy干扰项，基于语言常识错误：图表副标题显示80后重便捷性、00后重明星与二次元相关度，但鄙视权重差异具体体现在特定关系上（如QQ微信→中老年权重从3.5降至1.5），并非\"所有权重都更高\"。常识上，代际偏好不同，但选项过度泛化且忽略具体权重变化，因此错误。",
+        "F": "这些选项必须结合chart_24_5（80后鄙视链）和chart_24_3（00后鄙视链）进行推理。chart_24_5显示80后鄙视链中，Emoji de texto到Emoji的权重较高；而chart_24_3显示00后鄙视链中，Emojis de cómic到Emojis de texto的权重较高（表明漫画鄙视文字）。这揭示了代际差异：文字表情包在80后是鄙视者（权重较高），在00后是被鄙视者。选项需要对比两张图表的权重值和方向，无法仅凭一张图推断，体现了隐含的代际变化。",
+        "G": "这是一个Hard干扰项，基于图表排序和权重错误：80后Emoji→Emoji de cómic权重2确实较低，但00后鄙视链中无Emoji→漫画关系（实际是Emoji→QQ微信权重2）；最高权重3.5是Emojis de celebridades→Emojis de cómic。选项虚构了00后Emoji→漫画权重3.5，并错误夸大，因此错误。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "G",
+        "A"
       ]
     },
     {
@@ -157,6 +208,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Combinar chart_24_1 (Uso por parte de las mujeres: Los emojis de celebridades y de cómic, que tienen fuertes atributos de entretenimiento, tienen una proporción más alta) y chart_24_3 (Grupo de los nacidos después del 2000: Los emojis de celebridades tienen una alta correlación con el anime y una proporción alta). Razón: Las mujeres prefieren contenido de entretenimiento, y los nacidos después del 2000 refuerzan esta tendencia. La optimización conjunta puede aumentar la participación de las jóvenes usuarias.",
+        "B": "Esta es una opción de distracción fácil: Se aleja completamente del contenido de los gráficos. Se sugiere desarrollar nuevas tecnologías en lugar de optimizar el algoritmo, desviándose del enfoque del problema (el problema solicita ajustar la estrategia de recomendación, no la asignación de recursos de desarrollo). En términos generales, aunque la innovación tecnológica es buena, no resuelve el problema actual de recomendación.",
+        "C": "Esta es una opción de distracción difícil: Aparentemente se utilizan los datos de chart_24_2 (La tasa de uso de emoticonos de texto por parte de los hombres es del 28% frente al 14% de las mujeres), pero se interpreta erróneamente. Aunque la tasa de uso de los hombres es más alta que la de las mujeres, el valor general es bajo (el 28% es mucho menor que el 72% de los emojis de cómic), y la estrategia correcta debería priorizar los tipos de alta tasa de uso (como los emojis de cómic). Se confunde erróneamente la baja tasa de uso con el 'potencial de demanda' y se ignora la preferencia real.",
+        "D": "Esta es una opción de distracción fácil: No se basa en ningún dato de los gráficos, solo en el principio de equidad basado en el conocimiento general, pero se ignora el núcleo del problema: se debe personalizar la estrategia de recomendación según las preferencias de diferentes grupos. Es demasiado general y no tiene una guía de acción específica, y es fácil de descartar por conocimiento general (por ejemplo, la recomendación uniforme no puede optimizar la participación).",
+        "E": "Combinar chart_24_1 (Uso por parte de las mujeres: Los emoticonos de texto tienen la proporción más baja), chart_24_3 (Cadena de desprecio de los nacidos después del 2000: El peso de los emoticonos de texto a los emojis es bajo) y chart_24_2 (Uso por parte de los hombres: Los emojis tienen una proporción más alta). Razón: Los emoticonos de texto tienen una baja aceptación en los grupos clave, los emojis, como un tipo de transición, tienen un peso moderado en la cadena de desprecio y una alta tasa de uso entre los hombres, lo que reduce el riesgo de conflicto y aumenta la inclusión.",
+        "F": "Combinar chart_24_2 (Uso por parte de los hombres: Los emojis de cómic y los integrados en QQ y WeChat, que son más intuitivos, tienen una proporción más alta) y chart_24_5 (Grupo de los nacidos en la década de los 80: Los emojis integrados en QQ y WeChat, que son más convenientes, tienen una tasa de uso más alta). Razón: Los hombres prefieren la expresión intuitiva, y los nacidos en la década de los 80 valoran la conveniencia. Cubrir ambos puede aumentar la participación práctica de los hombres y los usuarios de edad mediana y mayor.",
+        "G": "Esta es una opción de distracción difícil: Se citan los datos de chart_24_5 (La tasa de uso de los emojis integrados en QQ y WeChat es del 42%, y el peso en la cadena de desprecio es 3.5), pero se confunden los conceptos. Un peso alto indica una fuerte relación de desprecio, pero una alta tasa de uso indica que es popular. Reducir la recomendación disminuiría la participación, lo que va en contra del objetivo. Se confunde erróneamente el peso de la cadena de desprecio con la aversión del usuario, en lugar de usarlo como una base para la gestión de conflictos."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -181,6 +249,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Se utilizan los datos de chart_24_3 (La proporción de emojis de celebridades es del 43%), pero se ignora el peso de la cadena de desprecio (El peso de los emojis de celebridades a los de cómic es 3.5, lo que es alto y puede provocar conflictos). Se confunde erróneamente una alta proporción con un bajo riesgo de conflicto y no se integra la gestión de la cadena de desprecio.",
+        "B": "Combinar chart_24_3 (Cadena de desprecio de los nacidos después del 2000: El peso de los emojis de celebridades a los de cómic es alto) y chart_24_4 (Grupo de los nacidos en la década de los 90: La proporción de emoticonos de texto es alta). Razón: La alta cadena de desprecio de los nacidos después del 2000 puede causar conflictos, y los nacidos en la década de los 90 tienen una alta aceptación de los emoticonos de texto para bromas. La estrategia conjunta puede reducir las comparaciones y aumentar el atractivo para los usuarios jóvenes.",
+        "C": "Esta es una opción de distracción fácil: No se basa en los gráficos y se sugiere la autogestión de los usuarios, lo que se desvía de la necesidad de una estrategia activa de la plataforma (El problema solicita que la plataforma formule medidas). En términos generales, no tiene acciones específicas y es fácil de considerar como una evasión de responsabilidades.",
+        "D": "Esta es una opción de distracción fácil: No se basa en ningún dato de los gráficos, solo en el conocimiento general de la gestión extrema (prohibir el contenido problemático), pero en realidad no es viable (reduciría la libertad de los usuarios) y se ignoran los datos de tasa de uso y cadena de desprecio en los gráficos.",
+        "E": "Esta es una opción de distracción difícil: Se utilizan los datos de chart_24_4 (El peso de los emojis a los de cómic es 1.5), pero se interpreta erróneamente. Un peso bajo indica una relación de desprecio débil, pero la proporción de emojis de cómic entre los nacidos en la década de los 90 es solo del 28% (baja tasa de uso), y un peso bajo puede significar ser despreciado en lugar de ser aceptado. Promocionarlo puede agravar los conflictos. Se confunde el peso con la aceptación.",
+        "F": "Combinar chart_24_3 (Cadena de desprecio de los nacidos después del 2000: El peso de los emojis es bajo), chart_24_4 (Cadena de desprecio de los nacidos en la década de los 90: El peso de los emojis es bajo) y chart_24_2 (Uso por parte de los hombres: La proporción de emojis es alta). Razón: Los emojis tienen un peso moderado en múltiples cadenas de desprecio y una alta preferencia entre los hombres. Como un tipo general, pueden reducir los conflictos entre grupos y cumplir con los valores de inclusión.",
+        "G": "Combinar chart_24_4 (Cadena de desprecio de los nacidos en la década de los 90: El peso de los emoticonos de personas mayores a los integrados en QQ y WeChat es alto, pero la proporción de los emoticonos de personas mayores es alta) y chart_24_5 (Grupo de los nacidos en la década de los 80: La tasa de uso de los emojis integrados en QQ y WeChat es alta, y el peso de la cadena de desprecio por conveniencia es fuerte). Razón: La alta tasa de uso pero el alto peso de desprecio entre los nacidos en la década de los 90 necesitan ser guiados hacia la inclusión, y las características de conveniencia de los nacidos en la década de los 80 pueden reforzar la educación de la utilidad y evitar ignorar a los usuarios mayores."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -206,6 +291,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Se utilizan los datos de chart_24_3 (La proporción de emojis de cómic es del 41%, y el peso de los emojis de celebridades a los de cómic es 3.5), pero se confunde la lógica. Una alta proporción indica que es popular y se debe priorizar el desarrollo. Un peso alto indica una relación de desprecio, pero la asignación de recursos de desarrollo debe basarse en la demanda en lugar del riesgo de conflicto (el último es un problema de gestión). Se reduce erróneamente la inversión en el tipo de alta demanda.",
+        "B": "Combinar chart_24_4 (Grupo de los nacidos en la década de los 90: La proporción de emojis integrados en QQ y WeChat es alta), chart_24_5 (Grupo de los nacidos en la década de los 80: La tasa de uso de los emojis integrados en QQ y WeChat es alta) y chart_24_4 (Nacidos en la década de los 90: La proporción de emoticonos de personas mayores es alta pero el peso de desprecio es alto). Razón: Los emojis integrados en QQ y WeChat son muy prácticos entre los nacidos en la década de los 90 y los de la década de los 80. Aunque los emoticonos de personas mayores tienen un peso de desprecio alto, la tasa de uso es alta. La asignación de recursos debe optimizarse en lugar de reducirse, enfatizando la inclusión y la facilidad de uso.",
+        "C": "Esta es una opción de distracción difícil: Se citan los datos de chart_24_1 (La tasa de uso de emoticonos de personas mayores por parte de las mujeres es del 46%), pero se interpreta erróneamente. Aunque la tasa de uso es mediana, es menor que el 64% de los emojis de celebridades y el 58% de los de cómic, y no se considera la cadena de desprecio (en otros gráficos, como chart_24_4, el peso de los emoticonos de personas mayores es alto). Se confunde erróneamente la tasa de uso mediana con la prioridad de desarrollo y se ignoran los tipos de mayor tasa de uso.",
+        "D": "Combinar chart_24_1 (Uso por parte de las mujeres: La proporción de emoticonos de texto es la más baja), chart_24_3 (Cadena de desprecio de los nacidos después del 2000: El peso de los emoticonos de texto es bajo) y chart_24_2 (Uso por parte de los hombres: La proporción de emojis es alta). Razón: Los emoticonos de texto tienen una baja aceptación en los grupos clave, los emojis son muy populares entre los hombres y son neutrales en la cadena de desprecio. La redistribución de recursos puede mejorar la eficiencia y evitar el desperdicio.",
+        "E": "Esta es una opción de distracción fácil: Se aleja de los gráficos y se sugiere seguir la tendencia en lugar de los datos, pero el problema pide claramente basarse en la tasa de uso y la cadena de desprecio. En términos generales, es subjetiva y de alto riesgo, sin soporte de datos.",
+        "F": "Esta es una opción de distracción fácil: No se utilizan datos de los gráficos, solo se basa en el conocimiento general de equidad, pero se ignora el núcleo del problema: se debe priorizar la asignación de recursos según los datos. No es específica y es fácil de descartar (la asignación equitativa no puede optimizar la cobertura).",
+        "G": "Combinar chart_24_1 (Uso por parte de las mujeres: La proporción de emojis de cómic es alta), chart_24_3 (Grupo de los nacidos después del 2000: La proporción de emojis de cómic es alta) y chart_24_2 (Uso por parte de los hombres: La proporción de emojis de cómic es alta). Razón: Los emojis de cómic son populares entre diferentes grupos de edad y género. La inclinación de recursos puede maximizar la aceptación y la participación entre grupos."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     }
   ]

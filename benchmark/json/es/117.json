@@ -88,6 +88,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合 chart_117_1（硬装家居购买比例高）和 chart_117_3（网上购买途径占比较高）推理。chart_117_1 的普及趋势与 chart_117_3 的网上便利性（如电商）关联，隐含规律是数字化渠道降低了购买门槛，推动了普及。仅用单张图表无法识别此驱动因素。",
+        "B": "这是一个Easy干扰项：折扣促销是常见商业策略，但图表chart_117_3中“Descuento”仅出现在软装关注因素（chart_117_2），硬装购买途径无折扣数据，选项依赖常识而非图表。",
+        "C": "需要联合 chart_117_1（硬装家居购买比例高）和 chart_117_3（品牌专卖店途径占比高）推理。chart_117_1 的高比例与 chart_117_3 的品牌偏好（如专卖店）结合，表明消费者依赖品牌保证质量，这强化了购买行为。单张图表只显示行为或途径，需联合推理其协同作用。",
+        "D": "需要联合 chart_117_1（硬装家居购买比例高）和 chart_117_3（专业家居市场途径占比最高）推理。chart_117_1 显示硬装家居是主流产品，而 chart_117_3 表明专业途径（如家居城）最受欢迎，隐含规律是专业服务满足了硬装产品的复杂需求（如安装和可靠性），从而促进普及。仅靠单张图表无法得出此联系。",
+        "E": "这是一个Hard干扰项：表面上基于图表chart_117_3，但错误解读数值；实际“Mercado de segunda mano/plataforma de comercio de objetos en desuso”占比28.19%，排名较低（第8位），而最高是“Mercado profesional de mobiliario doméstico/ciudad de mobiliario doméstico”（37.70%），选项夸大了其重要性并忽略排序差距。",
+        "F": "这是一个Easy干扰项：基于常识，社交媒体常被用于营销，但图表chart_117_3中未列出“社交媒体广告”作为购买途径，选项与数据无关，纯粹是常识性错误。",
+        "G": "这是一个Hard干扰项：表面上基于图表chart_117_3，但错误理解数值；实际“Recogida en fábrica”占比24.24%，是最低值，选项却声称“占比最高”，完全颠倒排序。"
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -108,6 +125,22 @@
       "label": [
         "A",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合 chart_117_2（软装家居关注因素中Amigabilidad ambiental占比较高）和 chart_117_4（智能家居功能中Sistema de monitoreo ambiental inteligente占比较高）推理。chart_117_2 的环保性关注（如材料可持续）与 chart_117_4 的环境监测（如空气质量监控）兴趣结合，隐含消费者将环保视为跨产品类别的核心价值。仅靠单张图表无法得出此互补性。",
+        "B": "这是一个Hard干扰项：表面上基于图表chart_117_2和chart_117_4，但错误关联；实际“Textura del material”占比36.92%，而“Sistema de control de seguridad inteligente”占比35.24%，两者主题无关（材质不涉及安全），选项误读数值差距和主题一致性。",
+        "C": "这是一个Hard干扰项：表面上基于图表，但错误理解排序；实际“Decoratividad”占比30.38%（第10位），并非最高（最高是“Comodidad”37.69%），而“Asistente de voz inteligente”占比29.84%，选项错误地将其作为主要驱动力。",
+        "D": "需要联合 chart_117_2（软装家居关注因素中Comodidad和Seguridad占比较高）和 chart_117_4（智能家居功能中Sistema de control de seguridad inteligente和Sistema de control de iluminación inteligente占比较高）推理。chart_117_2 显示消费者优先考虑舒适性（最高关注因素）和安全性，而 chart_117_4 中智能安全控制（如安防）和灯光控制（如氛围调节）功能兴趣高，隐含联系是智能技术满足了软装关注的舒适和安全需求。单张图表仅显示局部偏好，需联合推理整体家居环境追求。",
+        "E": "这是一个Easy干扰项：品牌信任是通用概念，但图表chart_117_2中“Marca”占比28.08%（较低），选项未体现数据，仅凭常识构建。",
+        "F": "这是一个Easy干扰项：基于常识，价格常影响购买决策，但图表chart_117_2中“Descuento”占比仅25.00%（最低），且未与智能功能关联，选项不依赖图表数据。"
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -131,6 +164,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合 chart_117_5（未来趋势中Materiales de Alta Calidad占比较低）和 chart_117_4（智能家居功能兴趣较高）推理。chart_117_5 中高品质材料趋势排名较低（如低于智能家居），而 chart_117_4 的智能功能兴趣普遍高（如灯光控制35.40%），隐含冲突/规律：消费者可能更关注技术功能而非材料升级，反映了行业转型。仅靠单张图表无法识别此对比。",
+        "B": "需要联合 chart_117_5（未来趋势中Hogar Inteligente占比最高）和 chart_117_4（智能家居功能兴趣普遍较高）推理。chart_117_5 显示智能家居是主导趋势，而 chart_117_4 中多个智能功能（如灯光控制、安全控制）兴趣靠前，隐含规律是当前兴趣验证了未来趋势的合理性。仅用单张图表无法连接趋势与具体功能。",
+        "C": "这是一个Easy干扰项：基于常识，低价是常见需求，但图表chart_117_5中未列出“低价”趋势，且chart_117_2中“Descuento”仅25.00%，选项脱离数据，仅凭常识。",
+        "D": "需要联合 chart_117_5（未来趋势中Ecológico y Amigable con el Medio Ambiente占比较高）和 chart_117_2（软装家居关注因素中Amigabilidad ambiental占比较高）推理。chart_117_5 的绿色环保趋势与 chart_117_2 的环保性关注（如材料环保）结合，隐含消费者当前行为（软装购买）驱动了未来行业方向。单张图表只显示孤立数据，需联合推理因果关系。",
+        "E": "这是一个Easy干扰项：售后服务是通用关注点，但图表chart_117_5中无“售后服务”趋势数据，chart_117_2中“Servicio posventa”占比27.12%（较低），选项不依赖图表。",
+        "F": "这是一个Hard干扰项：表面上基于图表chart_117_5和chart_117_2，但错误解读数值；实际“Ecológico y Amigable con el Medio Ambiente”趋势占比25.35%，低于“Hogar Inteligente”29.09%（最高），而“Amigabilidad ambiental”关注占比35.38%，选项误称“占比最高”并夸大关联。",
+        "G": "这是一个Hard干扰项：表面上基于图表，但错误关联；实际“Personalización Personalizada”趋势占比22.71%，而“Textura del material”关注占比36.92%，两者主题不直接一致（材质不必然涉及定制），选项误读数值和主题差距。"
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "G"
       ]
     },
     {
@@ -155,6 +205,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en suposiciones de sentido común (la sensibilidad al precio domina el consumo), pero no utiliza el contenido de los gráficos. No hay datos relacionados con el precio en los gráficos (por ejemplo, el factor de atención en chart_117_2 no tiene el ítem 'precio'), y los datos reales como la amigabilidad ambiental (35.38%) y otros factores no relacionados con el precio son más destacados. La lógica de esta opción tiene una desviación evidente.",
+        "B": "Basado en chart_117_2 (la amigabilidad ambiental tiene una alta proporción en los factores de atención de los muebles de decoración suave) y chart_117_5 (el ecológico y amigable con el medio ambiente es una tendencia futura), y combinado con chart_117_4 (el interés en la función de monitoreo ambiental inteligente es considerable), se refleja la importancia de la propiedad ambiental en las líneas de productos cruzadas.",
+        "C": "Basado en chart_117_1 (la cognición de los muebles de decoración suave es relativamente alta) y chart_117_2 (la comodidad y la textura del material tienen la proporción más alta en los factores de atención), se enfatiza la optimización de las propiedades del producto para coincidir con la alta cognición y la alta atención.",
+        "D": "Esta es una opción de distracción difícil: aparentemente combina los datos de chart_117_4 (iluminación inteligente 35.40%, control de seguridad 35.24%) y chart_117_2 (comodidad 37.69%), pero realiza una comparación errónea y omite la relación - el interés en las funciones inteligentes (35.40%) es similar a los factores de atención de los muebles de decoración suave (37.69%), y el hogar inteligente (29.09%) en las tendencias futuras de chart_117_5 apoya la integración; esta opción exagera la diferencia ('mucho más bajo' no es válido) y la sugerencia engañosa omite la integración inteligente.",
+        "E": "Esta es una opción de distracción fácil: se basa en el conocimiento comercial general (la promoción de la marca es muy importante), pero no cita ningún dato de los gráficos. La expresión es amplia y no tiene una guía de acción específica (por ejemplo, no se combina con el tipo de muebles o los factores de atención). En sentido común, aunque la promoción de la marca es importante, no se dirige a la cognición de los consumidores (como la proporción de muebles de decoración rígida/suave en chart_117_1) o a las preferencias de atributos, por lo que es fácil de descartar.",
+        "F": "Esta es una opción de distracción difícil: aparentemente cita los datos de chart_117_2 (decoratividad 30.38%, ajuste de color 31.35%), pero interpreta erróneamente la tendencia - la decoratividad y el ajuste de color están en posiciones posteriores en los factores de atención (10ª y 9ª), por debajo de la comodidad (37.69%) y otros atributos dominantes. La estrategia correcta debe priorizar los atributos con alta proporción (como la comodidad). Esta opción confunde la altura de los valores y crea una aparente racionalidad pero con una dirección errónea.",
+        "G": "Basado en chart_117_1 (la cognición de los muebles de decoración rígida es muy alta), chart_117_4 (el interés en las funciones de iluminación inteligente y control de seguridad es el más alto) y chart_117_5 (el hogar inteligente se considera la principal tendencia futura), se sugiere la integración tecnológica a través de la relación de datos entre gráficos (cognición + interés + tendencia)."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -179,6 +246,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Basado en chart_117_3 (el mercado profesional de muebles de decoración y la tienda exclusiva de marca tienen la proporción más alta en las vías de compra) y chart_117_2 (la durabilidad y la seguridad tienen una alta proporción en los factores de atención), se sugiere la concentración de recursos a través de la relación entre la preferencia de canal y las propiedades del producto.",
+        "B": "Esta es una opción de distracción difícil: aparentemente cita los datos de chart_117_3 (recolección en fábrica 24.24%, compra en línea 35.19%), pero interpreta erróneamente los valores y la tendencia - la proporción de recolección en fábrica es la más baja (10ª posición), mucho más baja que los canales dominantes como el mercado profesional de muebles de decoración (37.70%); esta opción exagera la 'poca diferencia' (la diferencia real es de 10.95 puntos porcentuales) y relaciona erróneamente la reducción de costos (no hay datos de esto en los gráficos), creando una prioridad engañosa.",
+        "C": "Esta es una opción de distracción fácil: se basa en el sentido común (distribución equilibrada de canales), pero no se combina con los datos de los gráficos (por ejemplo, chart_117_3 muestra que el mercado profesional de muebles de decoración con 37.70% es un canal dominante). La expresión es amplia y sin especificidad. En sentido común, la distribución equitativa de recursos puede ser ineficiente y es fácil de descartar.",
+        "D": "Esta es una opción de distracción difícil: aparentemente combina los datos de chart_117_2 (descuento 25.00%), pero localiza erróneamente la clasificación - el descuento está en último lugar en los factores de atención (14ª posición), mucho más bajo que la comodidad (37.69%) y otros; esta opción omite el hecho de que el valor es bajo (25.00% es el valor mínimo), y la sugerencia de 'destacar' este atributo no es razonable, confundiendo la relación de los datos.",
+        "E": "Basado en chart_117_3 (la proporción de la vía de compra en línea es considerable) y chart_117_2 (la facilidad de limpieza y la practicalidad tienen una proporción mediana a alta en los factores de atención), se equilibra la conveniencia del canal en línea con la demanda de los consumidores por atributos prácticos.",
+        "F": "Esta es una opción de distracción fácil: se basa en el conocimiento de marketing general (los medios de comunicación tradicionales son efectivos), pero no cita ningún contenido de los gráficos (como las vías de compra o los factores de atención). No hay datos de preferencia de medios en los gráficos. Esta opción omite la estrategia impulsada por datos y tiene una desviación lógica evidente.",
+        "G": "Basado en chart_117_3 (la participación en la feria de muebles de decoración es moderada), chart_117_4 (el interés en las funciones inteligentes como el control de iluminación es el más alto) y chart_117_5 (el hogar inteligente es la principal tendencia futura), se aprovecha el efecto sinérgico entre el canal de actividades y el interés en la inteligencia."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -204,6 +288,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Basado en chart_117_2 (el servicio posventa tiene una proporción relativamente baja en los factores de atención, pero la amigabilidad ambiental tiene una alta proporción) y chart_117_5 (el ecológico y amigable con el medio ambiente es una tendencia futura), se plantea una estrategia de mejora dirigida a las debilidades del servicio y a la demanda ambiental (coincide con los valores: no se ignora el factor de baja proporción, sino que se optimiza para mejorar el conjunto).",
+        "B": "Basado en chart_117_3 (las vías de compra como la compra en línea y el mercado profesional tienen una alta proporción) y chart_117_2 (la comodidad y el diseño de estilo tienen una alta proporción en los factores de atención), se sugiere la optimización de la asignación de recursos a través del equilibrio entre la diversidad de canales y los atributos principales.",
+        "C": "Esta es una opción de distracción fácil: se basa en el sentido común (la innovación tecnológica es importante), pero no se combina con el contenido de los gráficos (por ejemplo, el interés en las funciones inteligentes de chart_117_4 o las tendencias de chart_117_5). La expresión es amplia y no tiene una guía de integración específica (por ejemplo, no se asocia con el tipo de producto o el servicio). Aunque es correcto en sentido común, es fácil de descartar por falta de soporte de datos.",
+        "D": "Esta es una opción de distracción difícil: aparentemente combina los datos de chart_117_5 (personalización personalizada 22.71%, hogar inteligente 29.09%), pero interpreta erróneamente la diferencia de valores - la diferencia entre 22.71% y 29.09% no es grande (6.38 puntos porcentuales), y omite otras tendencias como el ecológico y amigable con el medio ambiente (25.35%); esta opción exagera 'mucho más bajo' y la sugerencia engañosa omite la personalización, mientras que los datos reales apoyan su potencial de integración.",
+        "E": "Basado en chart_117_1 (la cognición de los muebles de decoración rígida y suave es relativamente alta), chart_117_4 (el interés en las funciones de iluminación inteligente y control de seguridad es el más alto) y chart_117_5 (el hogar inteligente es la tendencia futura), se sugiere la integración innovadora a través de la relación causal entre la cognición del producto y el interés en las funciones.",
+        "F": "Esta es una opción de distracción fácil: se basa en una suposición general (el producto es mejor que el servicio), pero no utiliza los datos de los gráficos (por ejemplo, el servicio posventa del 27.12% en chart_117_2 muestra que hay atención al servicio). Los gráficos no apoyan la afirmación de que 'los consumidores se preocupan más por el producto'. Esta opción tiene un error lógico evidente.",
+        "G": "Esta es una opción de distracción difícil: aparentemente cita los datos de chart_117_2 (descuento 25.00%), pero los aplica erróneamente a la estrategia de servicio - el descuento es un factor de atención del producto, no un atributo de servicio; y el valor es el más bajo. La estrategia de servicio correcta debe fortalecer el servicio posventa (27.12%) y otros. Esta opción confunde el tipo de atributo y crea una aparente relación pero con una dirección errónea."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     }
   ]

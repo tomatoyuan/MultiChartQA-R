@@ -84,6 +84,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "It combines the higher number of top - scorers in engineering majors (such as Electronic Information Engineering, Computer Science and Technology) of Tsinghua University in the chart of the distribution of the most favored majors by college entrance examination champions with the trend of Tsinghua University admitting a higher number of top - scorers in most years from 2011 to 2015 in the annual comparison chart of the number of provincial top - scorers admitted by Tsinghua University and Peking University from 2011 to 2015. At the same time, it correlates the absolute advantage of Peking University in Business Administration and Economics majors in the chart of the distribution of the most favored majors by college entrance examination champions with the sharp increase in the number of top - scorers admitted by Peking University in 2014 in the annual comparison chart of the number of provincial top - scorers admitted by Tsinghua University and Peking University from 2011 to 2015. Cross - chart reasoning is required because a single chart cannot explain how professional advantages affect annual admission fluctuations.",
+        "B": "It relies on the data of exclusive majors of Peking University such as Life Sciences and exclusive majors of Tsinghua University such as Architecture in the chart of the distribution of the most favored majors by college entrance examination champions, and conducts a joint analysis with the soaring number of top - scorers admitted by Peking University in 2014 and the stable number of top - scorers admitted by Tsinghua University in 2015 in the annual comparison chart of the number of provincial top - scorers admitted by Tsinghua University and Peking University from 2011 to 2015. This reveals how professional exclusivity contributes to the attractiveness of the school, and two charts are needed for inference.",
+        "C": "This option is based on geographical common sense and does not rely on chart data (such as professional distribution or admission number comparison), ignoring the evidence of complementary professional advantages in the specific charts.",
+        "D": "It extracts the complementary professional distribution of the two universities (Peking University in management majors and Tsinghua University in engineering majors) from the chart of the distribution of the most favored majors by college entrance examination champions, and compares it with the admission trends (such as the high number of top - scorers admitted by Tsinghua University and the low number of top - scorers admitted by Peking University in 2013) in the annual comparison chart of the number of provincial top - scorers admitted by Tsinghua University and Peking University from 2011 to 2015, showing how differentiation buffers competition. Reasoning needs to consider both professional distribution and admission time series.",
+        "E": "Misinterpretation of annual data: Chart_16_1 shows that Tsinghua University admitted 50 top - scorers and Peking University admitted 24 top - scorers in 2013 (Peking University had a lower number), but this option claims that there was a'simultaneous increase', misinterpreting the ranking and gap and ignoring the actual asynchronous fluctuations.",
+        "F": "Misinterpretation of professional data: Chart_16_2 shows that the number of students in Business Administration major in Peking University is 284 and in Tsinghua University is 0, but this option claims that 'the number of admitted students is comparable', misinterpreting the numerical gap and exaggerating the presence of Tsinghua University.",
+        "G": "This is a general common - sense statement (such as personal interests affecting decisions) that does not use the professional admission data or annual comparison in the charts and cannot explain the complementary pattern."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -106,6 +123,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "It relies on the exclusive data of Peking University's Yuanpei Program and Life Sciences in the data of the professional preferences of top - scorers from 2000 to 2015, and compares it with the increase of Peking University in 2014 in the data of the number of provincial top - scorers admitted by Peking University and Tsinghua University from 2011 to 2015. At the same time, it correlates the advantage of Tsinghua University in Computer Science and Technology in the data of the professional preferences of top - scorers from 2000 to 2015 with the stable admission of Tsinghua University in the data of the number of provincial top - scorers admitted by Peking University and Tsinghua University from 2011 to 2015, and infers the influence of exclusive majors in a specific year. A single chart cannot independently explain the conflict in 2014.",
+        "B": "This is a hypothetical common sense (such as changes in enrollment policies), and there is no relevant information in the charts, ignoring the direct evidence of professional preference data.",
+        "C": "This option is based on economic common sense (such as the impact of the job market) and does not rely on chart data, so it cannot specifically explain the abnormal phenomenon in 2014.",
+        "D": "Misinterpretation of professional data: Chart_16_2 shows that the number of students in Electronic Information Engineering major in Peking University is 0 and in Tsinghua University is 86, but this option claims that 'there is a sharp increase in Peking University', misinterpreting the numerical value (Peking University has no admissions) and wrongly attributing the cause.",
+        "E": "It extracts the exclusivity of Peking University in multiple majors (such as Law) and the advantage of Tsinghua University in Automation from the data of the professional preferences of top - scorers from 2000 to 2015, and conducts a joint analysis with the conflict in 2014 (a sharp increase in Peking University and a slight decrease in Tsinghua University) in the data of the number of provincial top - scorers admitted by Peking University and Tsinghua University from 2011 to 2015, indicating that changes in professional interests may lead to the anomaly. Reasoning needs to comprehensively consider professional distribution and admission trends.",
+        "F": "Misinterpretation of annual data: Chart_16_1 shows that Tsinghua University admitted 42 top - scorers in 2014 (a decrease from 50 in 2013), but 43 in 2012 and 43 in 2015, with an overall relatively stable situation. This option claims that there is a 'large - scale decline', exaggerating the gap and ignoring the description of'relatively stable'.",
+        "G": "It combines the abnormal increase in the number of top - scorers admitted by Peking University in 2014 in the data of the number of provincial top - scorers admitted by Peking University and Tsinghua University from 2011 to 2015 with the absolute advantage of Peking University in Business Administration and Economics majors in the data of the professional preferences of top - scorers from 2000 to 2015, and infers that popular majors may drive the annual anomaly. At the same time, it correlates the advantage of Tsinghua University in engineering majors (such as Electronic Information Engineering) with the stable number of top - scorers admitted by Tsinghua University in the data of the number of provincial top - scorers admitted by Peking University and Tsinghua University from 2011 to 2015. Cross - chart comparison is required to explain why Tsinghua University did not have a similar fluctuation."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -128,6 +162,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Starting from the exclusivity of Peking University's Yuanpei Program in the distribution of the most favored majors by top - scorers from 2000 to 2015, it compares the peak of top - scorers admitted by Tsinghua University in 2013 and the overtaking by Peking University in 2014 in the changing trends of the number of top - scorers admitted by the two universities from 2011 to 2015, and infers how characteristic majors divert the application intentions of top - scorers. Admission data alone cannot explain this implicit competitive relationship.",
+        "B": "It combines the complementary professional distribution (such as Peking University's Business Administration vs Tsinghua University's Architecture) in the distribution of the most favored majors by top - scorers from 2000 to 2015 with the number of top - scorers admitted in 2015 (a decline in Peking University and stability in Tsinghua University) in the changing trends of the number of top - scorers admitted by the two universities from 2011 to 2015, and infers the return of interest in engineering majors. Reasoning depends on the time range and professional data of the two charts.",
+        "C": "Misinterpretation of trends: Chart_16_1 shows that Tsinghua University admitted 43 top - scorers in 2015 (similar to 42 in 2014), remaining stable. And Chart_16_2 shows that Tsinghua University has an advantage in engineering majors (such as Electronic Information Engineering). This option claims that 'a decline in interest leads to a decrease in Tsinghua University', misinterpreting the numerical stability and professional attractiveness.",
+        "D": "This is a general common - sense statement (such as reputation first), ignoring the implicit connection between professional distribution and annual admission numbers in the charts.",
+        "E": "This option is based on social common sense (such as the impact of economic events) and does not rely on chart data, so it cannot reveal the specific connection between professional preferences and admission trends.",
+        "F": "It implicitly connects the high number of top - scorers in Peking University's Business Administration major in the distribution of the most favored majors by top - scorers from 2000 to 2015 with the sharp increase in the number of top - scorers admitted by Peking University in 2014 in the changing trends of the number of top - scorers admitted by the two universities from 2011 to 2015. At the same time, it combines the advantage of Tsinghua University in Electronic Information Engineering in the distribution of the most favored majors by top - scorers from 2000 to 2015 with the stable number of top - scorers admitted by Tsinghua University (such as in 2015) in the changing trends of the number of top - scorers admitted by the two universities from 2011 to 2015. This reveals how professional preferences dynamically affect the competitiveness of schools, and cross - chart reasoning of trends and distributions is required.",
+        "G": "Misinterpretation of professional data: Chart_16_2 shows that the number of students in Life Sciences major in Peking University is 63 and in Tsinghua University is 0, but this option claims that 'Tsinghua University has a higher number', misinterpreting the numerical value and ranking and completely reversing the advantage."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -150,6 +201,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It seemingly uses the chart (Peking University admitted 48 students in 2014), but misinterprets the trend and major distribution. Chart_16_2 shows that the number of champions in engineering majors (such as Electronic Information Engineering) at Peking University is 0, and the peak of admissions in 2014 may be related to social science majors (such as Business Administration). Suggesting an investment in engineering majors contradicts the data and will mislead resource allocation.",
+        "B": "Option A involves Peking University's dominance in social science majors such as Business Administration and Economics in chart_16_2 (with extremely high proportions), as well as the sharp increase in the number of provincial top - scorers admitted by Peking University in 2014 in chart_16_1 (jumping from a low point), which implies that the attractiveness of majors may have driven the peak of admissions.",
+        "C": "Option B involves Tsinghua University's absolute advantage in engineering majors such as Electronic Information Engineering and Computer Science in chart_16_2 (Tsinghua has a high number of admissions while Peking University has zero), and the overall stability of Tsinghua University's admissions in chart_16_1 with a peak in 2013, indicating that engineering majors are Tsinghua's core competitiveness.",
+        "D": "Option C involves the annual fluctuations in the number of admissions of the two universities in chart_16_1 (such as the comparison between the low point of Peking University in 2013 and the high point in 2014), combined with the major preference data in chart_16_2, and infers that strategic flexibility needs to be achieved through data linkage.",
+        "E": "This is an easy distractor: It is based on general educational common sense (such as scholarships and facility construction can attract students), but does not combine the major preference or admission trend data in the chart. The statement is broad and has no specific action guidelines, and cannot address the problems of top students or the fluctuations in the chart.",
+        "F": "This is a hard distractor: It seemingly uses the chart (Tsinghua University admitted 50 students in 2013 and the number dropped to 42 in 2014), but confuses the trend and major attractiveness. Chart_16_2 shows that engineering majors (such as Electronic Information Engineering with 86 students) are Tsinghua's main advantage, and the overall number of admissions is stable. Reducing investment will weaken competitiveness and wrongly attribute short - term fluctuations to major saturation.",
+        "G": "This is an easy distractor: It is based on general marketing strategies (such as brand promotion), does not quote chart data, ignores the fluctuations in admission trends and major preference distribution, cannot solve specific problems, and can be easily excluded by common sense."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -172,6 +240,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on the principle of fairness, but does not consider the major preference distribution in the chart (such as Peking University's strength in social sciences and Tsinghua University's strength in engineering). The statement is broad and has no specific target, and cannot optimize the attractiveness to top students.",
+        "B": "Option B involves Tsinghua University's strong performance in engineering majors such as Architecture and Automation in chart_16_2 (Tsinghua has a significant number of admissions while Peking University has zero), and the overall stability of Tsinghua University's admissions in chart_16_1 (except for the peak in 2013), indicating that engineering majors are a reliable investment direction.",
+        "C": "This is a hard distractor: It seemingly uses the chart (83 students in the Peking University Yuanpei Program vs. 284 students in Business Administration), but misinterprets the data and trend. Chart_16_2 shows that the Yuanpei Program is a characteristic major of Peking University and attracts champions, and the peak of admissions in 2014 may be related to it. Cutting investment will reduce its uniqueness and wrongly regard the numerical comparison as the basis for priority.",
+        "D": "This is an easy distractor: It is based on the global education trend, but does not quote the admission trend or major preference data. The statement is broad and has no specific actions, and cannot be directly linked to the distribution characteristics in the chart.",
+        "E": "Option C involves the concentration of major distribution in chart_16_2 (such as Peking University's preference for social sciences and Tsinghua University's preference for engineering), combined with the differences in the admission trends of the two universities in chart_16_1 (Peking University has large fluctuations and Tsinghua University is stable), and infers that resource balance can reduce risks.",
+        "F": "Option A involves Peking University's absolute proportion in majors such as Economics and Law in chart_16_2 (extremely high number of admissions), as well as the peak of the number of provincial top - scorers admitted by Peking University in 2014 in chart_16_1 (a significant increase from the previous low point), and infers that major attractiveness is the key driving factor for the growth of admissions.",
+        "G": "This is a hard distractor: It seemingly uses the chart (Peking University admitted 242 students in Economics), but confuses the university's advantages. Chart_16_2 shows that the number of champions in social science majors (such as Economics) at Tsinghua University is 0, and Tsinghua is strong in engineering fields. Investing in social sciences is ineffective because Tsinghua has no basic attractiveness, and it ignores the stability of the admission trend."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -194,6 +279,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on the concept of technological optimization, but does not quote the major preference or historical trend data. The statement is too general and cannot address the problems of top - student competitiveness or future adaptability.",
+        "B": "Option B involves Tsinghua University's monopoly position in engineering majors (such as Electronic Information Engineering and Computer Science) and Peking University's advantage in social science majors in chart_16_2, combined with the relatively stable number of admissions of Tsinghua University but large fluctuations of Peking University in chart_16_1. It suggests that Tsinghua should use its stability to expand into new fields.",
+        "C": "Option C involves the annual changes in the admission trend in chart_16_1 (such as the decline of Peking University after the peak in 2014), as well as the long - term data of major distribution in chart_16_2 (from 2000 - 2015), and infers that a forward - looking strategy is needed to cope with the evolution of preferences.",
+        "D": "This is a hard distractor: It seemingly uses the chart (Peking University's peak admission of 48 students in 2014 and 284 students in Business Administration), but wrongly generalizes the trend. Chart_16_1 shows that Peking University has large fluctuations in admissions (such as 24 students in 2013), and Tsinghua has unique advantages in engineering fields. Imitating the model ignores the differences between universities, may be ineffective and increase risks.",
+        "E": "This is a hard distractor: It seemingly uses the chart (32 students in the Mathematics and Physics Foundation Science Class vs. 86 students in Electronic Information Engineering), but misinterprets the trend and distribution. Chart_16_1 shows that Tsinghua's admissions are generally stable, and chart_16_2 shows that basic sciences are Tsinghua's advantageous fields. Eliminating it will weaken competitiveness and wrongly regard the numerical comparison as a signal of decline.",
+        "F": "Option A involves Peking University's absolute proportion in majors such as Economics and Law in chart_16_2 (extremely high number of admissions), as well as the peak of the number of provincial top - scorers admitted by Peking University in 2014 in chart_16_1 (a significant increase from the previous low point), and infers that major attractiveness is the key driving factor for the growth of admissions.",
+        "G": "This is an easy distractor: It is based on the common sense of educational cooperation, but does not combine the historical trends or major distribution in the chart. The statement is broad and has no specific measures, and cannot handle the fluctuations in admissions or changes in major preferences."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     }
   ]

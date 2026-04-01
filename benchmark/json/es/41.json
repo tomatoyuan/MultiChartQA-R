@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "需要分析两个图表的趋势模式。整体增长隐含波动（如2021年高增长后2023年低增长），而线上增长率直接显示高波动（如2022年15%到2023年8%），这需要联合两个图表识别趋势差异。",
+        "B": "需要联合整体市场规模和线上市场规模增长率计算隐含增长率。整体市场规模从2020年到2024年隐含增长率与线上增长率比较，显示在2022年、2023年和2024年线上增长率更高，多数年份（3/4可比较年份）线上增长更强劲。",
+        "C": "这个干扰项泛泛而谈经济影响，未依赖图表：chart_41_1整体市场增长率波动（如2021年25%到2023年3.7%），而chart_41_2线上市场增长率也有波动（如2022年15%到2023年8%），两者均不稳定，线上并非更易受外部影响。",
+        "D": "这个干扰项基于行业常识（如线下消费传统），但忽略图表数据：chart_41_2显示线上市场规模从2020年40增长到2024年70，增幅75%，并不缓慢；常识无法覆盖具体增长趋势。",
+        "E": "这个干扰项错误比较差距：2023年chart_41_2线上增长率8%，而chart_41_1整体规模2800亿vs2022年2700亿，隐含增长率约3.7%，线上8%高于整体3.7%；选项说'首次低于'是对排序和差距的误读。",
+        "F": "需要比较两个市场的整体增长比例。整体市场规模从2020年到2024年增长50%，而线上市场规模从40增长到70，增长75%，线上增长幅度更大，这必须通过联合两个图表计算相对比例得出。",
+        "G": "这个干扰项错误解读数值：计算隐含增长率，chart_41_1整体市场（2020 - 2024）平均增长率约10.76%，chart_41_2线上市场同期平均增长率约11.2%，线上略高；选项说'显著低于'是数值理解错误。"
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -107,6 +124,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "这个干扰项错误联系数值：chart_41_4宠物健康占比8.4%，远低于宠粮食品49.7%；chart_41_2线上市场整体增长（如2024年14%），但无类目具体增长率数据，选项错误推断健康类目增长快。",
+        "B": "类目占比显示Comida para mascotas和Accesorios para mascotas合计占比85.2%，而线上市场规模的增长表明需求扩张，联合推理得出这两个类目是增长支柱，不能单从一张图表推断。",
+        "C": "需要联合线上市场规模增长和2024年类目占比。线上市场规模持续增长，而类目占比表明Comida para mascotas占比近50%，为最大类目，隐含该类目在增长中起主导作用，但需跨图推理占比与增长的关系。",
+        "D": "这个干扰项基于常识（如疫情期间数字化趋势），但未依赖图表：chart_41_4显示Servicios para mascotas占比仅0.2%，份额极小，常识无法证明其主导增长；实际数据不支持。",
+        "E": "基于类目占比的Accesorios para mascotas占比35.5%（第二大），结合线上市场规模的整体增长趋势，推断用品类目对增长有重要贡献，这需要两个图表联合分析次要类目与整体增长的相关性。",
+        "F": "这个干扰项错误解读排序：chart_41_4 Comida para mascotas占比49.7%最高，且chart_41_2线上市场整体增长强劲（2024年70 vs 2020年40），高占比通常驱动增长；选项说'增长乏力'是对占比与增长关系误读，暗示饱和但无证据。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -128,6 +160,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "品牌渠道占比中货架渠道国货占比73.3%，低于内容渠道，而类目占比中Accesorios para mascotas类目占比35.5%，联合推断国货在货架渠道可能聚焦用品，不能单图得出。",
+        "B": "这个干扰项基于行业常识（如国际品牌资源优势），但忽略图表：chart_41_3显示内容渠道国货品牌27 vs国际品牌3，国货绝对主导；常识无法覆盖具体数据。",
+        "C": "这个干扰项错误联系数值：chart_41_3货架渠道国货占比22（vs国际8），但chart_41_4 Salud de mascotas类目占比仅8.4%，远低于Comida para mascotas 49.7%；选项错误推断国货推动健康类目，无数据支持渠道与类目直接关联。",
+        "D": "品牌渠道占比显示国货整体主导，但国际品牌在货架渠道占比26.7%，与类目占比的各类目占比（如Comida para mascotas国际可能弱）潜在冲突，需联合分析品牌分布与类目结构的隐含矛盾。",
+        "E": "需要联合品牌渠道占比和类目占比。品牌渠道占比显示内容渠道国货品牌占比90%，而类目占比中Comida para mascotas占比最高，隐含国货通过内容渠道推动食品销售，但需跨图推理渠道与类目的联系。",
+        "F": "这个干扰项错误推理差距：chart_41_3内容渠道国货占比27 vs国际3，国货主导；chart_41_4 Comida para mascotas占比49.7%最高，但品牌数据未分渠道类目，选项说'国际品牌占比更高'是对排序误读（国际品牌在内容渠道实际份额小）。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -152,6 +199,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de chart_41_3 (las marcas nacionales tienen una proporción extremadamente alta en la categoría de contenidos, lo que muestra la preferencia de los consumidores) y chart_41_2 (el mercado de comercio electrónico en línea está creciendo constantemente). Esto aprovecha la relación entre la tendencia de preferencia de marca y la expansión del canal para aumentar la influencia de la marca.",
+        "B": "Esta opción aparentemente utiliza los datos del gráfico (la tasa de crecimiento de chart_41_2), pero interpreta erróneamente la tendencia: aunque la tasa de crecimiento en 2023 fue del 8%, menor que en 2022, en 2024 se recuperó al 14% y el tamaño del mercado sigue aumentando. El potencial de crecimiento general en línea no se ha debilitado, sino que debe reforzarse.",
+        "C": "Razonamiento conjunto de chart_41_4 (la categoría de alimentos para mascotas tiene la proporción más alta en las ventas de comercio electrónico, mucho más alta que otras categorías) y chart_41_1 (el tamaño del mercado general está creciendo de manera estable). Esto identifica las oportunidades del mayor segmento de mercado y la asignación de recursos puede optimizar los retornos de las ventas.",
+        "D": "Razonamiento conjunto de chart_41_1 (el tamaño del mercado de consumo de mascotas urbano general está creciendo año tras año, aumentando constantemente desde el punto más bajo entre 2020 y 2025) y chart_41_2 (el tamaño del mercado de comercio electrónico en línea de mascotas está creciendo constantemente, aunque la tasa de crecimiento fluctúe, la tendencia general es al alza). Esto refleja la sinergia entre el canal en línea y el crecimiento del mercado general, y la estrategia puede maximizar el potencial de crecimiento.",
+        "E": "Esta opción no se basa en los datos del gráfico, solo en el conocimiento general (la experiencia offline es importante), pero los gráficos (chart_41_1 y chart_41_2) muestran que tanto el mercado general como el canal en línea están creciendo, y el enfoque en línea es la tendencia central, por lo tanto, es incorrecta.",
+        "F": "Esta opción es general y no tiene indicaciones de acción específicas, es un consejo común (la optimización de la cadena de suministro es beneficiosa), pero no combina los datos de crecimiento en línea o la proporción de categorías en los gráficos, por lo que no puede resolver directamente el problema de la asignación de recursos.",
+        "G": "Esta opción confunde erróneamente los datos: se cita chart_41_4 (la proporción de salud de mascotas es del 8.4%) y chart_41_1 (el crecimiento del mercado general), pero la categoría de salud de mascotas tiene una proporción pequeña y no hay datos de tasa de crecimiento que respalden su alto potencial; invertir priorariamente en categorías de baja proporción puede ignorar el efecto de escala de las categorías de alta proporción (por ejemplo, los alimentos para mascotas con un 49.7%), lo que lleva a una desviación en la estrategia."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -175,6 +239,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de chart_41_3 (en la categoría de estantes, las marcas nacionales tienen una alta proporción, pero las marcas internacionales también están presentes) y chart_41_4 (la categoría de alimentos para mascotas tiene la proporción más alta en las ventas). Esto identifica el equilibrio entre la categoría principal y la diversidad de marcas, y la asignación de recursos puede optimizar la cobertura del mercado.",
+        "B": "Razonamiento conjunto de chart_41_3 (las marcas nacionales tienen una proporción extremadamente alta en la categoría de contenidos, mucho más alta que las marcas internacionales) y chart_41_2 (el tamaño del mercado de comercio electrónico en línea está creciendo constantemente y la tasa de crecimiento es generalizada hacia arriba). Esto se basa en la relación entre la preferencia de marca y la expansión del canal, y la estrategia puede aprovechar la tendencia de los consumidores para aumentar la competitividad.",
+        "C": "Esta opción confunde erróneamente las tendencias: chart_41_3 muestra que las marcas nacionales tienen una alta proporción en la categoría de contenidos (27 vs 3), pero la tasa de crecimiento en línea de chart_41_2 (por ejemplo, el 14% en 2024) indica que el marketing de contenidos es el motor de crecimiento; ignorar el campo de contenidos se perderán oportunidades de alto potencial, lo que contradice los datos.",
+        "D": "Esta opción es general y no tiene datos de soporte, es un consejo general (el diseño de embalaje es importante), pero no combina los datos de proporción de marca o categoría en los gráficos, por lo que no puede resolver el problema de equilibrio de marca o la línea de productos.",
+        "E": "Esta opción no se basa en los gráficos, solo en el conocimiento general (la inversión equilibrada es razonable), pero el gráfico (chart_41_3) muestra que las marcas nacionales son dominantes tanto en la categoría de contenidos como en la de estantes. La estrategia de equilibrio puede ignorar las ventajas de las marcas nacionales y no puede optimizar de manera específica.",
+        "F": "Razonamiento conjunto de chart_41_4 (la categoría de salud de mascotas tiene una proporción relativamente baja en las ventas, pero no es cero) y chart_41_2 (la tasa de crecimiento del mercado de comercio electrónico en línea es alta y fluctúa, lo que muestra oportunidades de innovación). Esto combina el potencial de la categoría con la tendencia de crecimiento general, y la estrategia es coherente con los valores de desarrollo sostenible y fomenta la innovación en lugar de reducir la inversión.",
+        "G": "Esta opción aparentemente utiliza los datos del gráfico (chart_41_3 y chart_41_4), pero los interpreta erróneamente: las marcas internacionales solo tienen una proporción del 8% en la categoría de estantes (mucho menos que las 22 de las marcas nacionales), y el dominio de los alimentos para mascotas no tiene una relación directa con la marca; priorizar el desarrollo de marcas débiles puede ser ineficiente y se ignoran las preferencias de los consumidores por las marcas nacionales."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -198,6 +279,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción aparentemente utiliza los datos del gráfico (la proporción del 6.2% de chart_41_4 y el crecimiento del tamaño del mercado de chart_41_2), pero los interpreta erróneamente: la proporción de mascotas vivas es pequeña y no hay datos específicos de tasa de crecimiento; el crecimiento general del mercado no se traduce directamente en un alto potencial para la categoría de mascotas vivas. Invertir priorariamente en categorías de baja proporción puede resultar en un bajo retorno de inversión.",
+        "B": "Esta opción no se basa en los gráficos, solo en el conocimiento general (la inversión diversificada reduce el riesgo), pero el gráfico (chart_41_4) muestra que hay grandes diferencias en la proporción de categorías (49.7% de alimentos para mascotas vs 0.2% de servicios para mascotas). Asignar uniformemente el presupuesto ignora la ventaja de escala de las categorías de alta proporción y es ineficiente.",
+        "C": "Razonamiento conjunto de chart_41_4 (la categoría de alimentos para mascotas tiene la proporción más alta y es el motor central de las ventas) y chart_41_1 (el tamaño del mercado general está creciendo año tras año). Esto refleja la coincidencia entre la categoría central y el crecimiento del mercado, y la asignación de presupuesto puede maximizar el ROI.",
+        "D": "Razonamiento conjunto de chart_41_4 (la categoría de accesorios para mascotas tiene la segunda proporción más alta en las ventas) y chart_41_2 (la tendencia del mercado de comercio electrónico en línea es hacia arriba, aunque la tasa de crecimiento fluctúe, la tendencia general es positiva). Esto aprovecha la sinergia entre la segunda categoría más grande y el crecimiento del canal, y la estrategia puede optimizar la eficiencia del canal digital.",
+        "E": "Razonamiento conjunto de chart_41_4 (la categoría de salud de mascotas tiene una proporción relativamente baja en las ventas) y chart_41_2 (la tasa de crecimiento del comercio electrónico en línea es alta y fluctúa, por ejemplo, el 15% en 2022 y el 14% en 2024, lo que indica potencial). Esto se basa en la relación entre la tendencia de crecimiento y las oportunidades de categoría, y la estrategia fomenta la inversión en innovación en lugar de ignorar las categorías pequeñas.",
+        "F": "Esta opción es general y no tiene una relación específica con los datos, es un consejo genérico (la capacitación es beneficiosa), pero no combina los datos de proporción de categoría o tendencia de crecimiento en los gráficos, por lo que no puede abordar directamente el problema de la asignación de presupuesto.",
+        "G": "Esta opción confunde erróneamente los datos: se cita chart_41_4 (la proporción de alimentos para mascotas es del 49.7%) y chart_41_2 (la tasa de crecimiento del 8% en 2023), pero la tasa de crecimiento en 2024 se recuperó al 14% y la expansión general del mercado (chart_41_1) indica que los alimentos para mascotas todavía tienen un alto potencial; reducir el presupuesto puede resultar en la pérdida de ventas centrales, lo que contradice la tendencia de crecimiento."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     }
   ]

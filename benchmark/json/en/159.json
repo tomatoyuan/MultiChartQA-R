@@ -86,6 +86,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "It is necessary to combine chart_159_1 and chart_159_3: The growth rate is slowing down (chart_159_1), but the purchase ratio is high (chart_159_3). Combining with the content strategy of chart_159_2 (mainly in video format), we can infer how content innovation offsets the impact of the slowdown in growth on shopping behavior. All options rely on multi - chart numerical values (such as the number of users, growth rate, content proportion, and shopping ratio) for cross - chart reasoning and cannot be inferred from a single chart alone.",
+        "B": "It is necessary to combine chart_159_1, chart_159_2, and chart_159_3: The expansion of the user base (the value in chart_159_1 increases from 1869 to 5036) and the content strategy (dominated by Reels in chart_159_2) jointly explain the high proportion of social media in chart_159_3. We can infer how the audience size and content format enhance the shopping influence.",
+        "C": "Irrelevant common - sense interference: Voice assistants are not mentioned in the brand content (chart_159_2), and their purchase - stage ratio (24%) has no implicit connection with the content strategy.",
+        "D": "Misunderstanding of data: The proportion of carousels is only 5.5% (chart_159_2), while Reels account for 90.2%. The option exaggerates the secondary content as 'dominant'.",
+        "E": "It is necessary to combine chart_159_1 and chart_159_2: Chart_159_1 shows that the number of users has generally increased from 2014 to 2024, but the growth rate has decreased year by year (e.g., from 12.0% to 5.6%). Chart_159_2 shows that Insta360's content is mainly Reels (90.2%), which implies that the content strategy has adapted to the user growth trend. At the same time, the option also needs to infer the high proportions of social media in the discovery stage (50%) and purchase stage (59%) in chart_159_3, indicating that growth and content strategy jointly support shopping behavior.",
+        "F": "Distortion of relevance: There is no causal relationship between the decline in the user growth rate (e.g., only 5.6% in 2024) and the high proportion of Reels. The option forces an association and ignores that the content strategy actually maintains conversions (59% in the purchase stage in chart_159_3).",
+        "G": "Violation of common sense and chart data: The number of users has been continuously increasing (from 1869 to 5036 from 2014 to 2024), and 90.2% of the brand's content is Reels videos. The option is contrary to the facts."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "It is necessary to combine chart_159_1 and chart_159_3: Comparing the large user base (5036 in chart_159_1) with the high purchase ratio (59% in chart_159_3) to other channels (such as 36% for messaging apps), we can infer the shopping behavior of loyal users under the slowdown in growth. It implies a connection to the content strategy in chart_159_2 but does not directly depend on it, ensuring that only two charts are needed. All options start from the perspective of the conflict and rely on multi - chart numerical values (growth rate, shopping ratio, content proportion) for reasoning. The options have high distinguishability (e.g., market saturation vs. content optimization vs. loyal users).",
+        "B": "Wrong association of channels: The purchase - stage proportion of messaging apps is 36% (chart_159_3), but the user base has been continuously growing (chart_159_1). There is no evidence that users are'switching'. Promotional activities are general common sense.",
+        "C": "It is necessary to combine chart_159_1, chart_159_2, and chart_159_3: Combining the decline in the growth rate (chart_159_1) with the discovery - stage proportion (50%), we can infer the role of the discovery stage in attracting traffic. Then, combined with the dominance of Reels (an efficient content format) in chart_159_2, we can explain how the content strategy strengthens the high proportion in the purchase stage.",
+        "D": "It is necessary to combine chart_159_1 and chart_159_3: Chart_159_1 shows that the growth rate has decreased from 12.0% to 5.6%, indicating a slowdown in growth, while chart_159_3 shows that the proportion of social media in the purchase stage is as high as 59%. The conflict lies in the slow growth but a high shopping ratio. The option infers that high - activity content (Reels accounting for 90.2% in chart_159_2) may maintain user participation, thus explaining the contradiction.",
+        "E": "Confusion of irrelevant data: The proportion of live videos (21%) has no direct logical connection with the user growth rate (chart_159_3), and there is no live - video data in the brand content (chart_159_2).",
+        "F": "Oversimplification of data: Although the proportion of influencers in the purchase stage is 0%, the high proportion of social media (59%) may also be affected by other factors (such as Reels content). The option ignores the interaction of multiple factors.",
+        "G": "Wrong understanding of numerical values: The actual difference between the discovery - stage (8%) and purchase - stage (20%) proportions of video/live chat is 12%. The option misjudges it as a'small difference' and does not explain the impact of the decline in the growth rate."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Irrelevant industry common sense: Voice assistants do not appear in the brand content (chart_159_2), and their discovery - stage proportion is 0% (chart_159_3). We cannot deduce that 'voice content needs to be increased'.",
+        "B": "Channel confusion: Carousels are an Instagram content format, and messaging apps are independent channels (chart_159_3). There is no data association between them. The option forces a link.",
+        "C": "It is necessary to combine chart_159_2 and chart_159_3: Video content (including Reels) in chart_159_2 is dominant, and video/live chat in chart_159_3 accounts for 20% in the purchase stage. We can infer that the interactivity of the video format enhances shopping. This option is different from others and focuses on video interaction. All options imply a connection between content types and shopping behavior and rely on multi - chart numerical values (such as content proportion and channel ratio) for reasoning. The options are clearly distinguishable (dominant format vs. auxiliary integration vs. interaction enhancement).",
+        "D": "Concept substitution: Brand video content (Reels) and live videos belong to different categories (chart_159_2 vs. chart_159_3). The option wrongly equates them.",
+        "E": "It is necessary to combine chart_159_2 and chart_159_3: Chart_159_2 shows that Reels account for 90.2% (video format), and chart_159_3 shows that social media has the highest proportions in both the discovery stage (50%) and purchase stage (59%). We can infer that video content may directly drive shopping behavior. We cannot rely on a single chart and need to compare numerical values across charts (such as the proportion of Reels and the proportion of social media).",
+        "F": "It is necessary to combine chart_159_2 and chart_159_3: The proportions of carousels (5.5%) and photos (2.6%) in chart_159_2 are small, but messaging apps in chart_159_3 account for 36% (relatively high) in the purchase stage. We can infer that small - proportion content may enhance purchases through auxiliary channels (such as messaging apps). It relies on the numerical values of the two charts (content proportion and channel ratio).",
+        "G": "Common - sense error: Photos only account for 2.6% (chart_159_2), far lower than the 90.2% of Reels. The option exaggerates the role of secondary content."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Option 1 involves chart_159_1 (the number of social media users has been increasing year by year. Although the growth rate fluctuates, the overall base shows an obvious expanding trend) and chart_159_2 (Reels short - video format accounts for a very high proportion, indicating its dominant content preference).",
+        "B": "This is an easy distraction: it does not rely on any chart data and is only based on general marketing common sense (such as 'comprehensive coverage can increase exposure'), but the statement is too broad and vague without specific action guidelines (such as not specifying the resource allocation ratio). Commonly, when resources are limited, even distribution is usually inefficient and can be easily excluded directly.",
+        "C": "This is an easy distraction: it does not rely on the core logic of the chart and is only based on common sense (such as 'ignoring low - proportion forms'), but it does not consider data details (although the carousel accounts for 5.5%, which is low, it is not zero; and the user growth trend does not directly deny the carousel). The statement is broad and lacks strategic depth, and can be easily excluded by common sense.",
+        "D": "Option 2 involves chart_159_1 (the change in user growth rate implies that the demand may be diverse) and chart_159_2 (other content types such as carousels and photos, although with a relatively low proportion, have potential value).",
+        "E": "This is a hard distraction: on the surface, it uses the growth rate data of chart_159_1 (from 12.0% to 5.6%), but misinterprets the trend (a decline in the growth rate does not mean that short - videos are out of date; in fact, the number of users continues to grow, and chart_159_2 shows that Reels accounts for 99.8%, dominating the content preference). The interference lies in confusing 'declining growth rate' with 'obsolete form' and ignoring the popularity of short - videos in the data.",
+        "F": "Option 3 involves chart_159_1 (the fluctuating growth rate requires dynamic strategy adjustment) and chart_159_3 (social media accounts for a high proportion in the discovery stage, and content optimization should be connected with purchase behavior).",
+        "G": "This is a hard distraction: on the surface, it combines chart_159_2 (photos account for 2.6%) and chart_159_1 (user growth trend), but wrongly associates the data (the proportion of photos is extremely low, while user growth is an overall trend, not driven by photos; in fact, chart_159_2 shows that Reels accounts for 99.8%, and the effect of photos is weak). The interference lies in selectively ignoring the dominant content form and creating an illusion of 'photos being reliable'."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distraction: it does not rely on any chart data and is only based on general business common sense (such as 'allocating resources evenly to ensure coverage'), but the statement is broad and non - specific (not optimized for the discovery or purchase stage). Commonly, resource allocation should be based on specific preference data rather than evenly, and it can be easily excluded directly.",
+        "B": "Option 2 involves chart_159_3 (messaging apps and live videos account for a high proportion in the purchase stage) and chart_159_2 (video content forms such as Reels are popular and can seamlessly integrate shopping guide functions).",
+        "C": "This is an easy distraction: it does not rely on the chart and only quotes industry common sense (influencer marketing is popular), but ignores specific data (chart_159_3 shows that the proportion of influencer channels in the purchase stage is 0%). The interference lies in the fact that the common sense is correct but lacks data support and contradicts the preferences in the purchase stage.",
+        "D": "Option 3 involves chart_159_3 (influencer channels contribute in the discovery stage but are ineffective in the purchase stage) and chart_159_1 (the user growth trend supports channel optimization to adapt to behavioral changes).",
+        "E": "This is a hard distraction: on the surface, it uses the data of chart_159_3 (voice assistants account for 0% in the discovery stage and 24% in the purchase stage), but misinterprets the relationship (the 0% proportion indicates that it is ineffective in the discovery stage, and although 24% is high in the purchase stage, it does not prove 'great potential'; in fact, social media accounts for 59% and dominates). The interference lies in exaggerating the potential of low - proportion channels and confusing 'existence of proportion' with 'efficiency'.",
+        "F": "Option 1 involves chart_159_3 (social media accounts for the highest proportion in the discovery stage) and chart_159_1 (the user growth trend indicates that the influence of social media continues to increase).",
+        "G": "This is a hard distraction: on the surface, it combines chart_159_3 (the proportion of social media) and chart_159_1 (the fluctuating user growth rate), but wrongly associates them (social media dominates in both the discovery and purchase stages (50% and 59%), and the fluctuating growth rate (such as from 20.9% to 5.6%) does not mean low efficiency; in fact, the number of users continues to grow). The interference lies in misusing the growth rate data to deny the efficiency of social media."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 involves chart_159_2 (Reels short - videos account for a very high proportion, reflecting the popularity of content) and chart_159_3 (social media accounts for a high proportion in both the discovery and purchase stages, indicating the potential for channel coordination).",
+        "B": "Option 2 involves chart_159_3 (messaging apps and live videos account for a high proportion in the purchase stage) and chart_159_2 (video content forms such as Reels are popular and can be extended to live - streaming with shopping guide functions).",
+        "C": "This is a hard distraction: on the surface, it combines chart_159_2 (carousels account for 5.5%) and chart_159_3 (the proportion of live videos), but wrongly associates the data (carousels have a low proportion, and live videos have a medium proportion, but the coordination is not proven; in fact, chart_159_2 shows that Reels account for 99.8%). The interference lies in creating a false data relationship and ignoring the dominant form.",
+        "D": "This is an easy distraction: it does not rely on the chart and only quotes industry common sense (videos are costly), but ignores specific data (chart_159_2 shows that Reels account for 99.8%, dominating the content preference). The interference lies in common - sense concerns without data support and contradicts the popularity.",
+        "E": "This is a hard distraction: on the surface, it uses chart_159_2 (photos account for 2.6%) and chart_159_3 (messaging apps account for 36% in the purchase stage), but misinterprets the relationship (the proportion of photos is extremely low, while the proportion of messaging apps is high, but there is no direct association; in fact, Reels dominate the content). The interference lies in selectively using low - proportion data to imply 'photos are efficient' while ignoring the popular form.",
+        "F": "This is an easy distraction: it does not rely on any chart data and is only based on general marketing common sense (such as 'text enhances trust'), but the statement is broad (not mentioning specific forms or channel coordination). There is no text - related data in the chart, and it can be easily excluded by common sense.",
+        "G": "Option 3 involves chart_159_3 (messaging apps account for a prominent proportion in the purchase stage) and chart_159_2 (content such as carousels or videos can be designed in a shareable format to promote channel migration)."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

@@ -90,6 +90,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Todas las opciones requieren combinar chart_148_1 (Perfil de los consumidores: distribución de edad) y chart_148_5 (Escenarios de consumo) para el razonamiento. chart_148_1 muestra que los consumidores de 22 a 40 años tienen una proporción extremadamente alta (aproximadamente 82.1%), lo que indica que son el grupo principal; chart_148_5 muestra que las proporciones de consumo en los escenarios de Reunión de ocio, Trabajo/Estudio y Ejercicio son relativamente altas. La opción C implica una tendencia de salud (la proporción del escenario de Ejercicio alcanza el 42.0%), pero no se puede inferir solo de un solo gráfico—debe combinarse con la predominancia de la distribución de edad y las preferencias de escenario para confirmar la regularidad.",
+        "B": "Todas las opciones requieren combinar chart_148_1 (Perfil de los consumidores: distribución de edad) y chart_148_5 (Escenarios de consumo) para el razonamiento. chart_148_1 muestra que los consumidores de 22 a 40 años tienen una proporción extremadamente alta (aproximadamente 82.1%), lo que indica que son el grupo principal; chart_148_5 muestra que las proporciones de consumo en los escenarios de Reunión de ocio, Trabajo/Estudio y Ejercicio son relativamente altas. La opción A se relaciona directamente con las características de las actividades sociales del grupo de edad principal (necesidad social), pero no se puede inferir solo de un solo gráfico—debe combinarse con la predominancia de la distribución de edad y las preferencias de escenario para confirmar la regularidad.",
+        "C": "Esta es una opción de interferencia Hard, que interpreta incorrectamente los valores del gráfico: la proporción de consumo en el escenario de Ejercicio es del 42.0% (chart_148_5), pero la proporción en el escenario de Reunión de ocio es más alta, del 62.8%; al mismo tiempo, asocia incorrectamente los datos de edad (la predominancia del grupo de edad del 82.1% no representa una fuerte conciencia de salud), lo que lleva a un sesgo en el razonamiento.",
+        "D": "Esta es una opción de interferencia Easy, basada en el conocimiento común del lenguaje: los jóvenes generalmente valoran las reuniones familiares, pero el gráfico no incluye este escenario (chart_148_5 solo incluye Reunión de ocio, Trabajo/Estudio, etc.), por lo que no está relacionado con los datos.",
+        "E": "Todas las opciones requieren combinar chart_148_1 (Perfil de los consumidores: distribución de edad) y chart_148_5 (Escenarios de consumo) para el razonamiento. chart_148_1 muestra que los consumidores de 22 a 40 años tienen una proporción extremadamente alta (aproximadamente 82.1%), lo que indica que son el grupo principal; chart_148_5 muestra que las proporciones de consumo en los escenarios de Reunión de ocio, Trabajo/Estudio y Ejercicio son relativamente altas. La opción B se relaciona directamente con las características de las actividades sociales del grupo de edad principal (necesidad profesional), pero no se puede inferir solo de un solo gráfico—debe combinarse con la predominancia de la distribución de edad y las preferencias de escenario para confirmar la regularidad.",
+        "F": "Esta es una opción de interferencia Hard, que comprende incorrectamente la brecha de datos: la proporción del escenario de Partidos de e - deportes es del 28.6% (chart_148_5), que es más baja que la proporción del escenario de Trabajo/Estudio del 53.1%, y el grupo de edad principal (22 - 40 años) con una proporción del 82.1% (chart_148_1) no tiene una asociación directa con los hábitos de juego, por lo que amplifica incorrectamente un escenario secundario."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -111,6 +126,21 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "La opción debe depender del razonamiento conjunto de chart_148_2 (consumo de tipos de bebidas) y chart_148_3 (factores de atención en la compra). chart_148_2 muestra que las proporciones de consumo de bebidas carbonatadas y té son mucho más altas que otros tipos (76.07% y 70.09%); chart_148_3 revela que el sabor y el precio son los puntos de atención principales (con las proporciones más altas). La opción C introduce factores secundarios (empaque 44.1%, promoción 42.1%), implicando que estos factores pueden mejorar el atractivo de la marca. No se puede establecer una conexión causal con un solo gráfico—por ejemplo, solo con las proporciones de consumo no se pueden inferir los factores impulsores, debe compararse la tendencia de atención entre gráficos.",
+        "B": "Esta es una opción de interferencia Hard, que interpreta incorrectamente el orden del gráfico: la proporción de atención al factor de promoción es del 42.1% (chart_148_3), pero la proporción del factor de sabor es más alta, del 66.2%; al mismo tiempo, asocia incorrectamente los datos de tipos de bebidas (las altas proporciones de bebidas carbonatadas 76.07% y té 70.09%), juzgando erróneamente que la promoción es dominante.",
+        "C": "Esta es una opción de interferencia Hard, que comprende incorrectamente la brecha de valores: la atención al empaque es del 44.1% (chart_148_3), que en realidad es más baja que el precio del 63.2%, pero se expresa como 'el empaque es más importante que el precio'; y ignora que el factor de sabor es el más alto, lo que lleva a una lógica invertida.",
+        "D": "La opción debe depender del razonamiento conjunto de chart_148_2 (consumo de tipos de bebidas) y chart_148_3 (factores de atención en la compra). chart_148_2 muestra que las proporciones de consumo de bebidas carbonatadas y té son mucho más altas que otros tipos (76.07% y 70.09%); chart_148_3 revela que el sabor y el precio son los puntos de atención principales (con las proporciones más altas). La opción A explica directamente la posible razón de las altas proporciones de consumo (el sabor domina la decisión), pero no se puede establecer una conexión causal con un solo gráfico—por ejemplo, solo con las proporciones de consumo no se pueden inferir los factores impulsores, debe compararse la tendencia de atención entre gráficos.",
+        "E": "Esta es una opción de interferencia Easy, basada en el conocimiento común de la industria: la salud es una motivación común para elegir bebidas sin azúcar, pero el gráfico de factores de atención (chart_148_3) no incluye 'salud', solo incluye sabor, precio, etc., por lo que no hay soporte de datos.",
+        "F": "La opción debe depender del razonamiento conjunto de chart_148_2 (consumo de tipos de bebidas) y chart_148_3 (factores de atención en la compra). chart_148_2 muestra que las proporciones de consumo de bebidas carbonatadas y té son mucho más altas que otros tipos (76.07% y 70.09%); chart_148_3 revela que el sabor y el precio son los puntos de atención principales (con las proporciones más altas). La opción B explica directamente la posible razón de las altas proporciones de consumo (el precio domina la decisión), pero no se puede establecer una conexión causal con un solo gráfico—por ejemplo, solo con las proporciones de consumo no se pueden inferir los factores impulsores, debe compararse la tendencia de atención entre gráficos."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -133,6 +163,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia Hard, que interpreta incorrectamente los valores y la asociación: la proporción de consumidores con ingresos mensuales superiores a 20000 yuanes es solo del 16.3% (chart_148_1: 15001 - 20000 yuanes 10.2% + intervalos más altos 6.1%), no es alta; y la preferencia por 元气森林 del 49.54% (chart_148_4) no tiene desglose por ingresos, asumiendo incorrectamente un posicionamiento de alta gama.",
+        "B": "La opción B depende del razonamiento conjunto de chart_148_1 (Perfil de los consumidores: género y edad) y chart_148_4 (preferencia de marca). chart_148_1 muestra que el grupo de 22 - 40 años tiene una gran proporción; en chart_148_4, la preferencia por 元气森林 es la más alta (49.54%), lo que implica un posicionamiento por edad. No se puede explicar por qué 元气森林 lidera con un solo gráfico, debe combinarse con los datos del perfil y tipo para descubrir la conexión implícita.",
+        "C": "La opción C depende del razonamiento conjunto de chart_148_2 (tipos de bebidas) y chart_148_4 (preferencia de marca). chart_148_2 muestra que la proporción de consumo de bebidas carbonatadas es la más alta, y 元气森林, como representante de bebidas carbonatadas, su preferencia puede estar impulsada por la popularidad del tipo. No se puede explicar por qué 元气森林 lidera con un solo gráfico, debe combinarse con los datos del perfil y tipo para descubrir la conexión implícita.",
+        "D": "La opción A depende del razonamiento conjunto de chart_148_1 (Perfil de los consumidores: género y edad) y chart_148_4 (preferencia de marca). chart_148_1 muestra que la proporción de consumidoras femeninas es alta (60%); en chart_148_4, la preferencia por 元气森林 es la más alta (49.54%), lo que implica un posicionamiento por género. No se puede explicar por qué 元气森林 lidera con un solo gráfico, debe combinarse con los datos del perfil y tipo para descubrir la conexión implícita.",
+        "E": "Esta es una opción de interferencia Hard, que comprende incorrectamente los datos de tipos de bebidas: la proporción de consumo de jugos de frutas y verduras sin azúcar es del 46.16% (chart_148_2), pero 元气森林 pertenece a las bebidas carbonatadas (proporción alta del 76.07%), no a los jugos de frutas y verduras; asocia incorrectamente el tipo con la marca, ignorando el dominio real de las bebidas carbonatadas.",
+        "F": "Esta es una opción de interferencia Easy, basada en el conocimiento del modelo: el marketing de marca es un factor de éxito común, pero el gráfico no proporciona datos de publicidad o inversión (chart_148_4 solo tiene proporciones de preferencia de marca), por lo que es una generalización."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -157,6 +202,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es un consejo general de conocimiento común en la industria (por ejemplo, 'aumentar la inversión en publicidad') y no proporciona estrategias específicas basadas en los datos de los gráficos (como la distribución demográfica o las tendencias de preferencia). Es fácil de descartar por conocimiento común porque carece de acciones específicas (por ejemplo, no considera la distribución de edad o ingresos).",
+        "B": "Razonamiento conjunto de chart_148_1 (el grupo de edad de 31 - 40 años tiene la proporción más alta), chart_148_5 (el escenario de trabajo/estudio tiene una alta proporción) y chart_148_3 (la atención al sabor es la más alta).",
+        "C": "Esta opción interpreta erróneamente los datos de los gráficos: la distribución de edad muestra que la proporción de personas de 21 años o menos es solo del 4.0%, la más baja y con poco potencial. Sin embargo, la opción de distracción sugiere desarrollar bebidas carbonatadas para este grupo (preferencia del 76.07%), lo que ignora el grupo de consumo principal (46.6% de 31 - 40 años) y puede reducir la cobertura del mercado.",
+        "D": "Razonamiento conjunto de chart_148_1 (la proporción de mujeres es alta en la distribución de género y edad, y la edad se concentra entre 22 - 40 años) y chart_148_2 (las bebidas de té sin azúcar están en segundo lugar en popularidad).",
+        "E": "Esta opción también se basa en lógica general ('satisfacer a todas las personas') y no cita ningún indicador de los gráficos (por ejemplo, el 60% de mujeres o el 46.6% de 31 - 40 años), lo que hace que la estrategia carezca de enfoque y no pueda maximizar la cobertura y la satisfacción.",
+        "F": "Razonamiento conjunto de chart_148_1 (la proporción más alta en la distribución de ingresos mensuales es de 5001 - 15000 yuanes) y chart_148_3 (la atención al precio es la segunda después del sabor).",
+        "G": "Esta opción confunde las relaciones de los gráficos: la proporción del grupo de altos ingresos (más de 30000 yuanes) en la distribución de ingresos es solo del 1.9%, muy pequeña. Sin embargo, la opción de distracción sugiere desarrollar jugos de frutas y verduras para este grupo (preferencia del 46.16%), lo que relaciona erróneamente la preferencia por los jugos de frutas y verduras con los altos ingresos (los gráficos no muestran correlación) y ignora el grupo principal de ingresos medios y bajos (37.2% de 5001 - 10000 yuanes), con una gran desviación en la dirección de la estrategia."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -181,6 +243,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente las tendencias de los gráficos: la proporción de atención a la promoción en los factores de compra es del 42.1%, pero en realidad es inferior al sabor (66.2%) y al precio (63.2%). Sin embargo, la opción de distracción dice que está 'en el puesto delantero', lo que deduce erróneamente su importancia y puede inducir a error en la asignación de recursos.",
+        "B": "Razonamiento conjunto de chart_148_3 (la atención al empaque está en tercer lugar) y chart_148_4 (las preferencias de las tres principales marcas son similares, por ejemplo, Yuanqi Forest 49.54% vs Coca - Cola 42.52%, lo que muestra una fuerte competencia).",
+        "C": "Razonamiento conjunto de chart_148_5 (el escenario de reunión de ocio tiene la proporción más alta) y chart_148_2 (la preferencia por las bebidas carbonatadas sin azúcar es la más alta).",
+        "D": "Esta opción confunde los datos de preferencia de marca: la proporción de Lingqi es solo del 9.27%, mucho menor que las marcas líderes (por ejemplo, Yuanqi Forest 49.54%). Sin embargo, la opción de distracción sugiere promocionar para este grupo, lo que deduce erróneamente que una baja proporción representa un alto potencial y ignora las ventajas de las marcas principales, con una gran desviación en la dirección de la estrategia.",
+        "E": "Razonamiento conjunto de chart_148_3 (la atención al sabor es la más alta) y chart_148_4 (las preferencias de Yuanqi Forest y Coca - Cola están en primer lugar).",
+        "F": "Esta opción también es general ('aumentar la exposición en todos los canales') y no cita ningún indicador de los gráficos (por ejemplo, la atención más alta al sabor del 66.2% o el escenario de reunión de ocio del 62.8%), carece de enfoque y no puede mejorar eficazmente la tasa de conversión.",
+        "G": "Esta opción se basa en conocimiento común comercial general ('optimizar la cadena de suministro') y no se asocia con los datos de los gráficos (como los factores de compra o la preferencia de marca), la estrategia es general y sin acciones de marketing específicas, y es fácil de descartar directamente."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -205,6 +284,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Razonamiento conjunto de chart_148_5 (el escenario de ejercicio tiene una proporción mediana pero estable) y chart_148_2 (la preferencia por los jugos de frutas y verduras sin azúcar es mediana, 46.16%, lo que muestra potencial).",
+        "B": "Esta opción confunde las relaciones de los datos: la proporción del grupo de bajos ingresos es del 20.0%, pero la opción de distracción sugiere promocionar en canales de alta gama, lo que es contradictorio con la distribución de ingresos (los canales de alta gama son más adecuados para el grupo de altos ingresos) y relaciona erróneamente la preferencia por los jugos de frutas y verduras (46.16%) con los bajos ingresos, con una desviación clara en la dirección de la estrategia.",
+        "C": "Razonamiento conjunto de chart_148_1 (la proporción total de ingresos mensuales de más de 15001 yuanes es del 16.3%, lo que muestra la existencia de un grupo de altos ingresos) y chart_148_5 (el escenario de reunión de ocio tiene la proporción más alta) y chart_148_4 (las preferencias de las marcas líderes son altas).",
+        "D": "Razonamiento conjunto de chart_148_5 (el escenario de trabajo/estudio está en segundo lugar en proporción) y chart_148_2 (la preferencia por las bebidas de té sin azúcar es alta).",
+        "E": "Esta opción interpreta erróneamente los gráficos: la proporción del escenario de partidos de e - deportes es del 28.6%, mucho menor que la reunión de ocio (62.8%) y el trabajo/estudio (53.1%), pero la opción de distracción dice que es 'de proporción mediana', lo que deduce erróneamente su potencial e ignora los escenarios de alta demanda.",
+        "F": "Esta opción se basa en lógica general ('cubrir todos los entornos') y no cita ningún indicador de los gráficos (por ejemplo, el escenario de trabajo/estudio del 53.1% o la preferencia por las bebidas de té del 70.09%), lo que hace que la estrategia sea generalizada y no pueda aumentar la cuota de mercado.",
+        "G": "Esta opción es un consejo de conocimiento común ('aumentar el espacio de exhibición') y no se basa en los datos de los gráficos (como la distribución de escenarios o la preferencia de tipos), la estrategia no tiene un enfoque específico en escenarios o grupos y es fácil de descartar."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     }
   ]

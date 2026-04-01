@@ -93,6 +93,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "(Hard) This is incorrect. Based on the data in chart_54_3: In the 4 - 6 age group, the concern about immunity issues is the highest (76.0%), while the concern about concentration is only 39.8% (ranked sixth). It wrongly exaggerates the value and ranking of concentration.",
+        "B": "Rely on the chart of health concerns for infants (e.g., brain development is one of the top concerns) and the chart of health concerns for adults (e.g., sleep and fatigue are among the top concerns). Joint reasoning shows that as age increases, the focus of health concerns shifts from the development needs of infants to the daily management needs of adults. It is necessary to compare the ranking changes of concerns in the two charts.",
+        "C": "(Easy) This is incorrect because the chart data does not show that the concern about obesity exceeds 50% in all age groups: Obesity is not mentioned in the infant stage; the concern about obesity among 7 - 17 - year - old adolescents is 19.7% (chart_54_4); and it is 20.7% in the 18 - 65 age group (chart_54_6), both lower than 50%. It can be judged by common sense that the concern about obesity is not high.",
+        "D": "Rely on the chart of health concerns for children (e.g., high concern about vision problems in the 4 - 6 age group), the chart of health concerns for adolescents (e.g., continuous high concern about vision problems), and the chart of health concerns for adults (e.g., the concern about vision problems decreases, and bone and joint problems become more prominent). Joint reasoning requires comparing the priority of concerns in different age groups, showing that vision problems are important in childhood but relatively weaken in adulthood, while bone problems become more important in adulthood.",
+        "E": "(Easy) This is incorrect. The sleep problem is not listed in the chart for the infant stage (chart_54_2), and the concerns are mainly focused on development - related issues (e.g., brain development is 73.5%). It is common sense that infants do not have concerns about sleep health.",
+        "F": "(Hard) This is incorrect. Based on the data in chart_54_4 and chart_54_6: The concern about vision problems among 7 - 17 - year - old adolescents is 61.1%, while it is 43.3% in the 18 - 65 age group. In fact, the concern in adulthood is lower. It wrongly reverses the numerical trend.",
+        "G": "Rely on the chart of health concerns for children (e.g., the highest concern about immunity in the 4 - 6 age group), the chart of health concerns for adolescents (e.g., medium concern about immunity), and the chart of health concerns for adults (e.g., lower concern about immunity). Joint reasoning reveals the trend that the concern about immunity decreases with age. At the same time, it compares the increase of mental stress problems in the charts of adolescents and adults, which requires cross - analysis of the relative proportions in three charts."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -118,6 +135,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Rely on the chart of health concerns for infants (e.g., high concern about gastrointestinal digestion problems) and the chart of purposes of taking supplements (e.g., the proportion of the purpose of improving gastrointestinal health is medium). Joint reasoning requires analyzing the intensity of infants' concerns and the relative position of the purposes of taking supplements, revealing a potential inconsistency (high concern but medium behavioral priority). It requires comparison between the two charts.",
+        "B": "(Easy) This is incorrect. The concern about mental stress is not high in all age groups: It is not mentioned in the infant stage (chart_54_2); it is 36.2% among 7 - 17 - year - old adolescents (chart_54_4); and it is 48.9% among adults (chart_54_6). The proportion of regulating the endocrine system among the purposes of taking supplements is 34.4% (chart_54_8), which is not the highest. It is common sense that the concern about mental stress changes with age.",
+        "C": "Rely on the charts of health concerns for multiple age groups (e.g., immunity ranks among the top in the charts of infants, children, adolescents, and adults) and the chart of purposes of taking supplements (e.g., the proportion of the purpose of improving immunity is the highest). Joint reasoning requires integrating the ranking of the concern about immunity in the charts of each age group with the data in the chart of purposes of taking supplements to prove how the general needs across age groups are translated into consumption behavior.",
+        "D": "(Hard) This is incorrect. Based on the data in chart_54_8: The proportion of improving eye/vision health is 43.8%, while the proportion of improving immunity is the highest (75.7%). It wrongly confuses the values and rankings.",
+        "E": "(Easy) This is incorrect. It is common sense that supplements are used for prevention rather than treatment of chronic diseases. Moreover, the concern about diabetes is low in the charts (4.5% among 7 - 17 - year - old adolescents, chart_54_4; 5.3% among adults, chart_54_6), and the purpose of taking supplements does not mention diabetes (chart_54_8).",
+        "F": "Rely on the chart of health concerns for adults (e.g., the concern about sleep problems is the highest) and the chart of purposes of taking supplements (e.g., the proportion of the purpose of improving sleep is high). Joint reasoning requires comparing the priority of concerns in the adult chart with the ranking of the purposes of taking supplements, showing a direct behavioral correspondence. It cannot be inferred from a single chart alone.",
+        "G": "(Hard) This is incorrect. Based on the data in chart_54_2 and chart_54_8: The concern about promoting brain development among infants is 73.5%, and the proportion of improving memory in taking supplements is 35.0%, which is medium but may be relevant (the concern about memory problems is 34.6% among adolescents, chart_54_4). It wrongly exaggerates the proportion gap and ignores the potential association."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -143,6 +177,23 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "(Easy) This is incorrect. It is common sense that an increase in income usually promotes health consumption, and the chart shows a relatively high purchase rate (70.6%, chart_54_7). An improvement in economic conditions will not reduce health expenditure.",
+        "B": "Rely on the chart of income growth (e.g., the continuous upward trend of income over the years) and the chart of the purchase rate of supplements (e.g., the overall purchase rate is relatively high). Joint reasoning requires analyzing the time - related association between the income trend and purchase behavior (income growth may support consumption ability). It cannot be inferred from a single chart of income or purchase alone.",
+        "C": "Rely on the chart of income growth, the chart of health concerns for adolescents (e.g., high concern about vision and mental stress problems), and the chart of purposes of taking supplements (e.g., the proportion of the purpose of improving eye health is medium). Joint reasoning requires comparing the matching degree between the high - concern problems of adolescents and the purposes of taking supplements, indicating that the transformation into behavior is insufficient with income growth. It requires cross - analysis of the three charts.",
+        "D": "(Hard) This is incorrect. Based on the data in chart_54_1 and chart_54_7: The income increases year by year (from 28,228 yuan in 2018 to 39,218 yuan in 2023), but the purchase proportion of supplements is 70.6% overall (chart_54_7), and no annual data is provided. It wrongly assumes that the purchase rate increases synchronously with income.",
+        "E": "(Hard) This is incorrect. Based on the data in chart_54_6: The concern about sleep problems among adults is 61.1%, and the concern about lack of energy is 50.5%. In fact, the concern about sleep is higher. It wrongly reverses the ranking and numerical comparison.",
+        "F": "Rely on the chart of income growth, the chart of health concerns for adults (e.g., high concern about fatigue and sleep problems), and the chart of purposes of taking supplements (e.g., the proportion of the purposes of supplementing energy and improving sleep is high). Joint reasoning requires linking the income trend with the concerns of adults and the purposes of taking supplements to prove how the economic improvement amplifies specific health needs and drives behavior.",
+        "G": "(Easy) This is incorrect. It is common sense that high - income people are more likely to buy health products, while low - income people have limited consumption ability. The chart does not provide income grouping, but it can be inferred from common sense."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -167,6 +218,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Misinterpretation of values and priorities: In chart_54_2, the concern about vision in the 0 - 3 age group is 53.6%, ranking sixth, lower than brain development (73.5%) and immunity (72.3%); and vision is not the most urgent concern in the infant stage (the chart shows that brain development is the primary concern), wrongly emphasizing secondary issues.",
+        "B": "Wrong interpretation of the chart: In chart_54_4, the concern about mental stress is only 36.2% (ranking sixth), far lower than vision problems (61.1%) or growth and development (55.6%); the TGI data in chart_54_5 does not specify health problems (the index of 128 corresponds to the junior high school stage but is not associated with mental stress), wrongly assuming that a high TGI means a high priority for the problem.",
+        "C": "Option 2 involves chart_54_4 (the concern about vision problems among 7 - 17 - year - old adolescents is the highest) and chart_54_5 (the TGI data in the junior high school stage shows that the index of some health needs is relatively high). Through joint reasoning: the concern about adolescents' vision is prominent, and the TGI data has peaks in the junior high school stage (such as values like 128 and 164), indicating that the demand intensity in this age group is high, and targeted R & D is needed.",
+        "D": "The suggestion of standardizing products ignores the chart data: Chart_54_2 and chart_54_3 show that although the concern about immunity is high (72.3% in the 0 - 3 age group and 76.0% in the 4 - 6 age group), other issues such as brain development in the 0 - 3 age group (73.5%) are more prominent, and the needs vary greatly by age group (such as the 61.1% concern about adolescents' vision problems). This strategy cannot optimize resource allocation.",
+        "E": "This option is too broad, without specific focus on age or health problems, only relying on general business common sense (such as 'increasing the budget'), ignoring the age - specific needs in the chart, and can be easily excluded by common sense.",
+        "F": "Option 3 involves chart_54_3 (the concern about immunity and bone development among 4 - 6 - year - old children is similar in proportion) and chart_54_2 (similar issues in the infant stage are used as a reference). Through joint reasoning: immunity accounts for the highest proportion in the children's stage, but the concern about bone development is also relatively high. Balanced resource allocation can avoid ignoring secondary but important needs.",
+        "G": "Option 1 involves chart_54_2 (the concern about brain development among 0 - 3 - year - old infants is the highest) and chart_54_3 (the concern about immunity among 4 - 6 - year - old children is the highest). Through joint reasoning: brain development accounts for the highest proportion in the infant stage, and immunity accounts for the highest proportion in the children's stage, indicating that early product development should focus on highly - concerned issues to establish a foundation and extend to subsequent age groups."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -192,6 +260,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Option 3 involves chart_54_4 (the concern about vision problems among 7 - 17 - year - old adolescents is the highest) and chart_54_8 (improving gastrointestinal health has a relatively high proportion among the purposes of taking supplements). Through joint reasoning: the concern about adolescents' vision is prominent, and the proportion of gastrointestinal health among the purposes of taking supplements is significant. Promoting combined products can meet the needs in a targeted manner.",
+        "B": "Wrongly associating data: In chart_54_3, the concern about gastrointestinal digestion among 4 - 6 - year - old children is 48.0%, ranking fifth, lower than immunity (76.0%) and bone development (63.3%); the proportion of gastrointestinal health as a purpose in chart_54_8 is 46.9%, which is also not the highest. Wrongly thinking that this proportion is 'considerable' and prioritizing promotion.",
+        "C": "Option 1 involves chart_54_8 (improving immunity accounts for the highest proportion among the purposes of taking supplements) and chart_54_2/chart_54_3/chart_54_6 (immunity is a high - concern issue in the infant, children, and adult stages). Through joint reasoning: improving immunity is the primary purpose of taking supplements, and it leads in health concerns in multiple age groups (such as 72.3% in infants, 76.0% in children, and 45.9% in adults). Promoting this theme can take advantage of cross - demands.",
+        "D": "This option talks generally about marketing means (such as 'increasing advertising'), without specific focus on health problems or population, only relying on industry common sense, ignoring the specific concerns and purposes of taking supplements in the chart.",
+        "E": "Misinterpretation of values and priorities: In chart_54_4, the concern about adolescents' memory is only 34.6% (ranking eighth), far lower than vision (61.1%) or immunity (52.5%); the proportion of improving memory as a purpose in chart_54_8 is also low, and it does not match the high - concern issues of adolescents, wrongly emphasizing secondary needs.",
+        "F": "The suggestion of bundling products does not target key needs: Chart_54_8 shows that the highest purposes of taking supplements are improving immunity (75.7%) and improving sleep (57.9%), and the bundling strategy may dilute the core pain points; and the concerns vary greatly by age group (such as 61.1% concern about adults' sleep vs. 61.1% concern about adolescents' vision). This strategy cannot be designed accurately.",
+        "G": "Option 2 involves chart_54_6 (the concerns about sleep problems and easy fatigue in the adult stage are the highest) and chart_54_8 (improving sleep is the second - highest purpose of taking supplements). Through joint reasoning: adults' concerns about sleep and fatigue far exceed other problems, and the proportion of improving sleep among the purposes of taking supplements is high. The strategy should focus on this pain point."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     },
     {
@@ -217,6 +302,23 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Option 3 involves chart_54_1 (income growth, implying higher income potential for adults), chart_54_6 (adults have diverse and highly - concerned health problems), and chart_54_4 (the concern about adolescents' vision problems is prominent). Through joint reasoning: adults' diverse problems (such as 61.1% concern about sleep) may drive consumption, but the high demand for adolescents' vision (61.1%) cannot be ignored. The strategy ensures that resources are not biased.",
+        "B": "Wrong interpretation of the chart: In chart_54_4, the concern about adolescents' depression is only 10.9% (ranking last), far lower than vision (61.1%) or immunity (52.5%); the TGI data in chart_54_5 does not specify health problems (the index of 212 corresponds to the high school stage but is not associated with depression), wrongly assuming that a high TGI means the problem is important; the relationship between income growth and depression expenditure is weak.",
+        "C": "This option is broad and deviates from the core of health needs, only based on general economic trends (such as 'digital upgrade'), ignoring the specific health concerns and supplement use data in the chart, and can be easily excluded by common sense.",
+        "D": "Option 2 involves chart_54_1 (the trend of income growth) and chart_54_6/chart_54_8 (the concern about adults' sleep is the highest, and improving immunity is the primary purpose of taking supplements). Through joint reasoning: income growth may amplify health needs, and sleep and immunity lead both in concerns and purposes of taking supplements. Innovative R & D can seize the peak of demand.",
+        "E": "Option 1 involves chart_54_1 (the trend of increasing per capita disposable income year by year) and chart_54_7 (the proportion of people who purchase dietary supplements is high). Through joint reasoning: the continuous increase in income (data from 2018 - 2023) indicates an enhanced consumption ability, and the purchase rate of over 70% shows a good market foundation. Expanding the product line can leverage the economic trend.",
+        "F": "The suggestion of price reduction contradicts income growth: Chart_54_1 shows that income has been continuously increasing (from 28,228 yuan in 2018 to 39,218 yuan in 2023), indicating an improvement in consumption ability, which may support high - end products; the purchase rate of supplements in chart_54_7 is 70.6%, which is already high. The price - reduction strategy is unnecessary and may reduce profits.",
+        "G": "Misinterpretation of values and needs: In chart_54_6, the concern about adults' hair problems is 42.2%, ranking eighth, lower than sleep (61.1%) or fatigue (50.5%); and there is no hair - related item among the purposes of taking supplements in chart_54_8, wrongly emphasizing non - core issues; income growth may stimulate higher - priority needs such as immunity or sleep."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     }
   ]

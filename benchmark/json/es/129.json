@@ -87,6 +87,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil. Se basa en conocimiento general (como 'la demanda interna impulsa el mercado'), pero no depende de los datos del gráfico. El gráfico muestra que el aumento de las ventas internas en 2023 casi se estancó (0.3%) mientras que la tasa de crecimiento del tamaño del mercado seguía siendo alta (9.4%), lo que indica que no siempre están sincronizados.",
+        "B": "Esta es una opción de distracción difícil. Superficialmente se basa en los gráficos (chart_129_1 y chart_129_3), pero interpreta incorrectamente los valores: en 2021, el aumento de las ventas internas fue del 4.5% (nivel bajo) y la tasa de crecimiento del tamaño del mercado fue del 10.8% (nivel alto), en realidad fue un aumento bajo con una tasa de crecimiento alta, no 'aumentaron sincrónicamente'.",
+        "C": "Es necesario combinar la tasa de crecimiento del tamaño del mercado y el gráfico de aumento de las ventas internas, comparando las tendencias en los años superpuestos (2017 - 2023). En 2020 ambos fueron altos, mostrando una correlación positiva; este patrón no se puede confirmar solo con un gráfico.",
+        "D": "Esta es una opción de distracción fácil. Se basa en el conocimiento general de la industria (como 'las ventas internas impulsan el mercado'), pero no consulta los gráficos. Faltan datos de aumento de ventas internas para los años de pronóstico (chart_129_3 solo llega hasta 2023), y los datos históricos muestran fluctuaciones en el aumento de las ventas internas (por ejemplo, 0.3% en 2023), no respaldan un 'aumento continuo'.",
+        "E": "Es necesario combinar los gráficos de aumento de ventas internas y tasa de crecimiento del tamaño del mercado, descubrir la aparente contradicción en 2023 (aumento de ventas internas solo 0.3% pero tasa de crecimiento del mercado 9.4%), e inferir un mecanismo de amortiguación a través de datos históricos (como ambos altos en 2020); depende de la comparación de valores entre los dos gráficos.",
+        "F": "Esta es una opción de distracción difícil. Se basa en los datos del gráfico, pero interpreta incorrectamente las brechas y tendencias: en 2019, un aumento de ventas internas del 6.0% correspondió a una tasa de crecimiento del mercado del 10.0% (brecha grande), en 2020 un aumento de ventas internas del 8.7% correspondió al 9.6% (brecha pequeña), pero en realidad ambos fueron altos en 2020 (fuerte vinculación), no una 'relación inversa'.",
+        "G": "Es necesario comparar los gráficos de aumento de ventas internas y tasa de crecimiento del tamaño del mercado, analizando la similitud entre la tendencia de disminución anual del aumento de ventas internas y la desaceleración prevista de la tasa de crecimiento del mercado; un solo gráfico solo muestra su propia tendencia, no puede establecer una conexión."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil. Se basa en los datos del gráfico, pero ordena incorrectamente: el aumento de ventas internas en 2021 fue del 4.5%, cayó al 4.2% en 2022 (descendió), pero el crecimiento de la producción aumentó del 5.6% en 2022 al 6.2% en 2023 (ligero aumento), afirma erróneamente que 'el aumento de ventas internas subió sincrónicamente'. En realidad, el aumento de ventas internas estaba descendiendo, desconectado del crecimiento de la producción.",
+        "B": "Es necesario combinar los gráficos de producción y aumento de ventas internas, mostrando vinculación temprana, pero desconexión en años recientes (por ejemplo, 2023); inferir cambios en el mecanismo mediante la unión de datos históricos y actuales.",
+        "C": "Es necesario comparar los gráficos de tasa de crecimiento de la producción y aumento de ventas internas, analizando la divergencia entre la estabilidad de la tasa de crecimiento de la producción y la tendencia del aumento de ventas internas a caer del 4.5% en 2021 al 0.3% en 2023; depende de los valores de dos gráficos para probar el contraste.",
+        "D": "Esta es una opción de distracción fácil. Se basa en conocimiento económico general (como 'la oferta crea demanda'), pero no depende de los gráficos. Los gráficos muestran que el aumento de ventas internas se ha desacelerado continuamente en años recientes (por ejemplo, 0.3% en 2023), no hay evidencia que respalde un 'fenómeno a corto plazo' o que 'la producción impulse la recuperación'.",
+        "E": "Esta es una opción de distracción difícil. Superficialmente se basa en los gráficos (chart_129_2 y chart_129_3), pero interpreta incorrectamente los valores y tendencias: el crecimiento de la producción en 2022 del 5.6% correspondió a un aumento de ventas internas del 4.2%, en 2023 el crecimiento de la producción del 6.2% correspondió a un aumento de ventas internas del 0.3%, en realidad el crecimiento de la producción aumentó ligeramente pero el aumento de ventas internas cayó drásticamente, no es que 'a mayor crecimiento de la producción, menor aumento de ventas internas' (por ejemplo, en 2015 crecimiento de producción del 11.1% correspondió a aumento de ventas internas del 11.8%).",
+        "F": "Esta es una opción de distracción fácil. Se basa en conocimiento general (como 'las tendencias de salud afectan el consumo'), pero no utiliza datos de los gráficos. Los gráficos muestran crecimiento continuo de la producción (chart_129_2) y desaceleración del aumento de ventas internas (chart_129_3), pero la contradicción requiere análisis con valores específicos.",
+        "G": "Es necesario unir los gráficos de producción y aumento de ventas internas, la comparación de valores muestra producción en aumento, ventas internas estancadas; un solo gráfico no puede revelar la contradicción, se necesita razonamiento cruzado sobre exceso o desvío."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil. Se basa en conocimiento general (como 'la oferta impulsa el mercado'), pero no utiliza datos de los gráficos. Los gráficos muestran que el crecimiento de la producción (chart_129_2) y las predicciones del mercado (chart_129_1) están relacionados, pero no 'siempre lo determinan directamente' (hay otros factores como las ventas internas).",
+        "B": "Esta es una opción de distracción fácil. Se basa en el conocimiento general de la industria (como 'los cambios de proporción amortiguan el impacto'), pero no depende de los gráficos. Calcular la proporción de ventas internas requiere datos adicionales (por ejemplo, producción 2023: 3.55 millones de toneladas, ventas internas: 2.404 millones de toneladas, proporción 67.7%), pero los gráficos no proporcionan la tendencia de la proporción, y no vinculan directamente la predicción del mercado.",
+        "C": "Es necesario comparar los gráficos de tasa de crecimiento de la producción y tasa de crecimiento prevista del tamaño del mercado, las tendencias numéricas coinciden; depende de dos gráficos para probar la sincronización.",
+        "D": "Es necesario unir los gráficos de tendencia de producción y predicción del tamaño del mercado, analizando cómo la oferta respalda la demanda; solo con un gráfico no se puede establecer causalidad.",
+        "E": "Esta es una opción de distracción difícil. Superficialmente se basa en los gráficos (chart_129_1 y chart_129_2), pero interpreta incorrectamente los valores y tendencias: la tasa de crecimiento de la producción aumentó globalmente del 2.7% en 2000 al 6.2% en 2023, pero la tasa de crecimiento del tamaño del mercado tiene una tendencia a la baja del 10.8% en 2017 al 8.1% previsto para 2028, en realidad es correlación negativa o nula, afirma erróneamente 'correlación positiva y sincronización'.",
+        "F": "Es necesario combinar los datos de producción, la proporción de ventas internas y los gráficos de predicción del tamaño del mercado, pero el núcleo es la relación entre producción y tamaño del mercado; la opción enfatiza las ventas internas como factor indirecto, requiere razonamiento cruzado sobre el impacto de la proporción.",
+        "G": "Esta es una opción de distracción difícil. Se basa en los datos del gráfico, pero interpreta incorrectamente las brechas y fluctuaciones: la tasa de crecimiento de la producción fluctuó en años recientes (por ejemplo, del 5.6% en 2022 al 6.2% en 2023), la tasa de crecimiento prevista del mercado baja del 9.3% en 2024 al 8.1% en 2028 (tendencia a la baja), en realidad la tendencia de producción podría restringir la predicción (como indica la opción B), afirma erróneamente 'sin impacto significativo'."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -153,6 +204,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Razonar el riesgo de exceso de oferta a partir del crecimiento constante de la producción y la disminución significativa del aumento de las ventas internas.",
+        "B": "Esta es una opción de distracción fácil: se basa en el conocimiento general (el crecimiento del tamaño del mercado requiere un aumento de la oferta), pero ignora que la tasa de crecimiento del tamaño del mercado en chart_129_1 ha disminuido de 10.8% a un pronóstico de 8.1%, y que el aumento de las ventas internas en chart_129_3 ha bajado de 12.3% a 0.3%, lo que podría causar un exceso de oferta. La formulación es amplia y no tiene guías de acción específicas.",
+        "C": "Esta es una opción de distracción difícil: aparentemente utiliza chart_129_3 (el volumen total de ventas internas ha aumentado de 1.338 millones de toneladas a 2.404 millones de toneladas) para razonar, pero interpreta erróneamente la tendencia (el fuerte descenso del aumento de las ventas internas indica una demanda débil en lugar de fuerte) y ignora el riesgo de desequilibrio entre la oferta y la demanda. Además, chart_129_2 muestra un crecimiento estable de la producción, lo que aumenta la posibilidad de exceso de oferta.",
+        "D": "Combinar la expansión continua del tamaño del mercado y el conocimiento externo (la tendencia del consumo sostenible) para enfatizar la optimización de recursos y las oportunidades del mercado.",
+        "E": "Razonar la respuesta a la insuficiencia de la demanda a través del aumento del valor añadido a partir de la desaceleración anual de la tasa de crecimiento del tamaño del mercado y el débil crecimiento de las ventas internas.",
+        "F": "Esta es una opción de distracción fácil: no se basa en los gráficos y solo sugiere reducir la producción sin una base específica (por ejemplo, chart_129_2 muestra un crecimiento continuo de la producción), y 'convertirse en un sustituto de las importaciones' no está relacionado con la tendencia de la industria. La formulación es amplia."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C"
       ]
     },
     {
@@ -174,6 +240,21 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: no se basa en los gráficos y solo sugiere la innovación del empaque, pero no tiene una estrategia específica para la debilidad de las ventas internas (por ejemplo, no menciona la estimulación de la demanda). La formulación es amplia y no se combina con la tendencia de descenso del aumento en chart_129_3.",
+        "B": "Razonar las oportunidades de innovación de productos a partir del alto volumen total de ventas internas pero bajo aumento y la previsión de crecimiento del tamaño del mercado.",
+        "C": "Esta es una opción de distracción fácil: se basa en el conocimiento general de marketing (la publicidad puede aumentar las ventas), pero no tiene acciones específicas (no se dirige a los medios digitales o a los jóvenes) y no cita chart_129_3 (el aumento de las ventas internas ha bajado a 0.3%) o chart_129_1 (la desaceleración de la tasa de crecimiento del tamaño del mercado). La formulación es amplia e ineficaz.",
+        "D": "Razonar la necesidad de nuevos canales a partir del descenso anual del aumento de las ventas internas hasta un crecimiento cercano a cero y la desaceleración de la tasa de crecimiento del tamaño del mercado.",
+        "E": "Razonar la estimulación de la demanda a partir del débil aumento de las ventas internas y la expansión del tamaño de la industria.",
+        "F": "Esta es una opción de distracción difícil: aparentemente utiliza chart_129_3 (el volumen total de ventas internas ha aumentado de 1.338 millones de toneladas a 2.404 millones de toneladas, pero el aumento ha bajado a 0.3%) y chart_129_1 (la desaceleración de la tasa de crecimiento del tamaño del mercado) para razonar, pero considera erróneamente que la reducción de precios es la solución (los gráficos no muestran el factor del precio, y la reducción de precios puede dañar los beneficios). Confunde 'el gran volumen total' con 'la debilidad de la demanda' e ignora el problema del descenso continuo del aumento de las ventas internas."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F"
       ]
     },
     {
@@ -195,6 +276,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Razonar una estrategia orientada a las exportaciones a partir del aumento continuo de la producción y la disminución significativa del aumento de las ventas internas.",
+        "B": "Razonar la necesidad de mejorar la eficiencia a partir del crecimiento estable de la producción y la previsión de descenso de la tasa de crecimiento del tamaño del mercado.",
+        "C": "Esta es una opción de distracción fácil: no se basa en los gráficos y solo sugiere reducir la inversión, pero ignora que el tamaño del mercado en chart_129_1 sigue creciendo (se prevé que sea de 530.960 millones de yuanes en 2028). Esta sugerencia puede obstaculizar el crecimiento. La formulación es amplia y no tiene detalles de estrategia.",
+        "D": "Esta es una opción de distracción difícil: aparentemente utiliza chart_129_2 (la producción ha aumentado de 0.6833 millones de toneladas en 2000 a 3.55 millones de toneladas en 2023) para razonar, pero interpreta erróneamente que se necesita aumentar la oferta (ignora que la tasa de crecimiento del tamaño del mercado en chart_129_1 ha disminuido de 10.8% a 8.1%, lo que podría causar un exceso de oferta). Confunde el crecimiento de la producción con la desaceleración de la demanda del mercado.",
+        "E": "Razonar la optimización de la cadena de valor sostenible a partir de la expansión del tamaño del mercado y la gran base de producción.",
+        "F": "Esta es una opción de distracción fácil: se basa en el conocimiento general comercial (el endoso de marca puede aumentar la influencia), pero no tiene acciones específicas (no se dirige al control de costos o a las exportaciones) y no cita chart_129_1 (la desaceleración de la tasa de crecimiento) o chart_129_2 (los datos de producción). La formulación es amplia e ineficaz."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "D"
       ]
     }
   ]

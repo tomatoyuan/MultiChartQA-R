@@ -86,6 +86,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合chart_97_2（左侧年龄数据：Menos de 24比例较高）和chart_97_3（观看年限：más de 5 años比例极高，menos de 2 años比例极低）进行推理。年龄数据暗示年轻群体应包含新观众，但年限数据冲突显示新观众少，隐含'从小关注'的解释。",
+        "B": "这是一个Hard干扰项：表面上基于图表推理（年龄分布chart_97_2和观看年限chart_97_3），但对数值理解错误。实际数据中，Menos de 24比例高（29.3%）与观看年限短比例极低（2.5%）矛盾，表明年轻球迷并非新观众主体，而是从小关注（观看年限长比例高）。干扰项错误地将高年轻比例等同为新观众。",
+        "C": "冲突源于chart_97_2（年轻比例高）和chart_97_3（新观众比例低），需推理外部因素如忠诚度或样本偏差。",
+        "D": "结合chart_97_2（25 - 34岁比例最高）和chart_97_3（长期观众比例极高），推理年龄主力群体与长期观看习惯的联系。",
+        "E": "这是一个Easy干扰项：它基于行业常识（如'足球入门门槛高'），不依赖图表数值。图表数据未提及专业知识要求，因此是泛泛而谈的推理。",
+        "F": "这是一个Easy干扰项：它基于语言常识（如'青少年更爱运动'）和模型自身知识（如'娱乐方式多样化'），完全不依赖图表数据。即使没有图表，也能凭常识推断，但图表未涉及娱乐方式或流行度对比。",
+        "G": "这是一个Hard干扰项：表面上基于图表推理（年龄chart_97_2和观看年限chart_97_3），但对差距理解错误。45 y mayores比例低（7.6%）与长期观众比例高（89.9%）不直接相关新观众来源；实际新观众比例极低（2.5%）且年轻群体比例高，干扰项错误推断中老年是新观众主力，忽略了数据对比。"
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于模型自身知识（如'高学历者更理性分析'），不依赖图表数据。图表未提及战略或战术，是常识性泛谈。",
+        "B": "这是一个Hard干扰项：表面上基于图表推理（学历chart_97_1和原因chart_97_4），但对数值理解错误。Aprender habilidades de fútbol比例24.9%适中，且原始选项B提到高学历可能注重此动机；干扰项错误推断比例低等于不相关，忽略了数据未分组关联。",
+        "C": "结合chart_97_1（Maestría/MBA o superior比例较低）和chart_97_4（Sentir el espíritu de trabajo duro y lucha或Aprender habilidades de fútbol比例中等），推理高学历细分群体与深层动机的关联。",
+        "D": "这是一个Hard干扰项：表面上基于图表推理（学历chart_97_1和原因chart_97_4），但对排序和差距理解错误。Maestría/MBA o superior比例低（11.7%）与Disfrutar del alto nivel de trabajo en equipo比例高（58.9%）无直接因果；实际数据未分组，干扰项错误假设高学历是主因，忽略了Licenciatura群体（54.3%）可能主导。",
+        "E": "需要联合chart_97_1（学历：Licenciatura比例最高）和chart_97_4（观看原因：Disfrutar del alto nivel de trabajo en equipo和Admirar las excelentes habilidades de fútbol de los jugadores比例较高）。推理高学历群体与专业欣赏动机的联系。",
+        "F": "依赖chart_97_1（Secundaria o inferior比例低）和chart_97_4（Querer aliviar el estrés或Matar el tiempo比例低），通过对比强化学历与动机的规律。",
+        "G": "这是一个Easy干扰项：基于语言常识（如'低学历者更休闲'），不涉及图表数值。图表中Matar el tiempo比例9.5%，但未与学历直接关联，干扰项独立于数据。"
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：表面上基于图表推理（年龄chart_97_2、婚姻chart_97_2、观看年限chart_97_3），但对排序理解错误。25 - 34岁比例高（41.5%）且Soltero主导，但观看年限más de 5 años比例极高（89.9%）；干扰项错误假设他们观看年限短，与实际数据矛盾（长期观众为主）。",
+        "B": "这是一个Easy干扰项：基于语言常识（如'年轻人空闲多'），不依赖图表数据。图表未提及时间分配，是常识性推理。",
+        "C": "依赖chart_97_2（年龄和婚姻数据整体）和chart_97_3（长期观众比例高），推理年轻单身群体与足球文化持续性的关系。",
+        "D": "这是一个Easy干扰项：基于行业常识（如'家庭责任影响兴趣'），部分使用数据（Ver el partido con amigos/familia比例3.7%低），但核心不依赖图表；图表中陪家人比例低是事实，但未证明家庭因素不重要，干扰项泛化。",
+        "E": "需要联合chart_97_2（年龄：Menos de 24和25 - 34比例较高；婚姻：Soltero比例高）和chart_97_3（观看年限：más de 5 años比例极高）。推理年轻未婚群体与长期观看习惯的隐含联系。",
+        "F": "这是一个Hard干扰项：表面上基于图表推理（年龄和婚姻chart_97_2、观看年限chart_97_3），但对数值差距理解错误。Soltero比例60.7%与Menos de 24比例29.3%不匹配（还有25 - 34岁群体）；实际数据中年轻群体比例高且观看年限长（89.9%），干扰项错误地将未婚等同年轻新观众，忽略了长期观看特征。",
+        "G": "结合chart_97_2（婚姻：Casado con hijos比例；年龄：35 - 44岁比例）和chart_97_4（观看原因：Ver el partido con amigos/familia比例极低），通过对比推理已婚群体动机与未婚主导趋势。"
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -153,6 +204,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción fácil. La afirmación es demasiado general. Solamente se basa en conocimientos generales de marketing (por ejemplo, \"aumentar la inversión en publicidad\") y no se basa en los datos específicos de los gráficos (por ejemplo, la distribución de edades o los hábitos de visualización). Además, no hay una guía clara de acción (por ejemplo, no se especifica el grupo objetivo o el contenido). Esto se puede descartar por conocimiento general: simplemente aumentar la exposición no puede atraer a nuevos espectadores de manera específica y se ignora el problema de la insuficiencia en la adquisición de nuevos fans en el grupo de menos de 24 años en los gráficos.",
+        "B": "Basado en que la proporción de licenciados es la más alta en la distribución por nivel educativo y la proporción de personas de 25 - 34 años es la más grande en la distribución por edad; combinado con la alta proporción de \"Brindar entretenimiento y emoción\" entre las razones de visualización, optimizar el tema del contenido.",
+        "C": "Basado en que la proporción de personas de menos de 24 años es relativamente alta en la distribución por edad y la proporción de personas con menos de 2 años de antigüedad en la visualización de partidos es extremadamente baja, lo que indica que la adquisición de nuevos fans es débil; además, combinado con la motivación significativa de \"Aprender habilidades de fútbol\" entre las razones de visualización, utilizarlo en el diseño de estrategias.",
+        "D": "Esta es una distracción difícil. Aparentemente utiliza el gráfico chart_97_2 (situación matrimonial) y el gráfico chart_97_4 (razones de visualización), pero confunde las relaciones de proporción: la motivación de \"Ver el partido con amigos/familia\" es solo del 3,7% (muy baja), mientras que la proporción de personas casadas con hijos es del 34,1%, que es alta. Sin embargo, el gráfico chart_97_3 muestra que el 89,9% de los aficionados tiene más de 5 años de antigüedad en la visualización de partidos, lo que indica que el grupo familiar son en su mayoría espectadores veteranos, no el objetivo de nuevos espectadores. La distracción erróneamente considera la actividad familiar como el núcleo para atraer a nuevos espectadores, ignorando que el grupo de menos de 24 años (29,3%) en la distribución por edad es la zona con mayor potencial de nuevos fans y que su proporción de solteros es alta (60,7%), lo que no coincide con el tema familiar.",
+        "E": "Esta es una distracción difícil. Aparentemente utiliza el gráfico chart_97_1 (distribución por nivel educativo) y el gráfico chart_97_4 (razones de visualización), pero interpreta erróneamente los datos: la proporción de personas con educación secundaria o inferior es solo del 15,0% (baja), y la motivación de \"Aprender habilidades de fútbol\" del 24,9% es un dato general, no específico de este grupo. Los gráficos muestran que la proporción de licenciados es la más alta (54,3%), y es más probable que los nuevos espectadores provengan del grupo joven (29,3% de menos de 24 años). Sin embargo, la distracción erróneamente atribuye la motivación al grupo de baja educación, ignorando que la proporción de \"menos de 2 años\" en la visualización de partidos en el gráfico chart_97_3 es extremadamente baja (2,5%), lo que indica que es difícil adquirir nuevos fans y se debe priorizar a los jóvenes en lugar del grupo de baja educación.",
+        "F": "Basado en que la proporción de personas de 35 - 44 años es moderada en la distribución por edad, la proporción de personas casadas con hijos es significativa en la distribución por situación matrimonial y la proporción de \"Ver el partido con amigos/familia\" es muy baja entre las razones de visualización; combinado con la proporción extremadamente alta de \"más de 5 años\" en la antigüedad de visualización, garantizar la sostenibilidad de las actividades."
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -176,6 +242,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil. Aparentemente utiliza el gráfico chart_97_3 (hábitos de visualización) y el gráfico chart_97_4 (razones de visualización), pero confunde las tendencias: la motivación de \"Matar el tiempo\" es solo del 9,5% (muy baja), mientras que el 89,9% de los aficionados tiene hábitos de visualización a largo plazo, lo que indica que los espectadores son altamente leales. Sin embargo, la distracción interpreta erróneamente que \"necesitan llenar el tiempo libre\". Las altas motivaciones en los gráficos, como \"Dar apoyo a tu equipo/jugador favorito\" (81,1%) y \"Se ha convertido en un hábito a largo plazo\" (63,5%), son el núcleo de la lealtad. Esta estrategia desperdiciará recursos en necesidades marginales y no podrá fortalecer la conexión emocional.",
+        "B": "Esta es una distracción difícil. Aparentemente utiliza el gráfico chart_97_2 (situación matrimonial) y el gráfico chart_97_4 (razones de visualización), pero tiene una comprensión errónea de los valores: la motivación de \"El presentador/comentarista es muy interesante\" es solo del 10,2% (una de las más bajas), y aunque la proporción de solteros es del 60,7%, el gráfico chart_97_4 muestra que los motores principales de la lealtad son \"Dar apoyo a tu equipo/jugador favorito\" (81,1%) y \"Se ha convertido en un hábito a largo plazo\" (63,5%). La distracción erróneamente asocia fuertemente la motivación de baja proporción (el interés del presentador) con el grupo de solteros, ignorando que los aficionados de alto nivel educativo (licenciados y superiores 66,0%) prefieren contenido profesional (por ejemplo, \"Disfrutar del alto nivel de trabajo en equipo\" 58,9%), en lugar de interacciones ligeras.",
+        "C": "Basado en que las motivaciones de \"Querer aliviar el estrés\" y \"Tener temas comunes con las personas de alrededor\" tienen proporciones moderadas entre las razones de visualización y la proporción de solteros es la más alta en la distribución por situación matrimonial, garantizar que la estrategia cubra diversas necesidades.",
+        "D": "Basado en que las proporciones de \"Disfrutar del alto nivel de trabajo en equipo\" y \"Admirar las excelentes habilidades de fútbol de los jugadores\" son altas entre las razones de visualización y la proporción de licenciados y superiores es significativa en la distribución por nivel educativo, utilizarlo en la optimización del contenido dirigido a grupos de alto nivel educativo.",
+        "E": "Basado en que la proporción de personas con más de 5 años de antigüedad en la visualización de partidos es extremadamente alta y la proporción de \"Dar apoyo a tu equipo/jugador favorito\" es la más alta entre las razones de visualización, enfatizar la relación entre los hábitos a largo plazo y la motivación emocional.",
+        "F": "Esta es una distracción fácil. La afirmación es demasiado general. Se basa en conocimientos generales de la industria (por ejemplo, \"Mejorar la calidad de producción\") y no cita datos específicos de los gráficos (por ejemplo, motivaciones o hábitos). Además, no hay una guía para la asignación de recursos. Esto se puede descartar por conocimiento general: la optimización de la lealtad debe enfocarse en las motivaciones principales (por ejemplo, la emoción hacia el equipo), en lugar de mejorar la calidad de manera general."
+      },
+      "easy_error": [
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -199,6 +280,21 @@
         "B",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil. Aparentemente utiliza el gráfico chart_97_1 (distribución por nivel educativo) y el gráfico chart_97_4 (razones de visualización), pero confunde los valores: la motivación de \"Aprender habilidades de fútbol\" del 24,9% es un dato general, mientras que la proporción de personas con título de asociado es solo del 19,0% (no es el grupo principal). Los gráficos muestran que la proporción de licenciados es la más alta (54,3%) y prefieren \"Brindar entretenimiento y emoción\" (56,2%) y \"Disfrutar del alto nivel de trabajo en equipo\" (58,9%). Sin embargo, la distracción erróneamente asocia fuertemente la motivación mediana (aprender habilidades) con el nivel educativo de asociado, ignorando que el grupo de alto nivel educativo (maestrías/MBA o superiores 11,7%) puede preferir contenido más profundo, en lugar de temas de educación básica.",
+        "B": "Basado en que la proporción de personas de 25 - 34 años es la más grande en la distribución por edad y la proporción de licenciados es la más alta en la distribución por nivel educativo; combinado con la alta proporción de \"Brindar entretenimiento y emoción\" entre las razones de visualización, garantizar que los canales y temas coincidan.",
+        "C": "Basado en que la proporción de personas casadas con hijos es significativa en la distribución por situación matrimonial y la proporción de \"Ver el partido con amigos/familia\" es muy baja entre las razones de visualización; combinado con la proporción extremadamente alta de \"más de 5 años\" en la antigüedad de visualización, utilizarlo en el diseño de estrategias sostenibles.",
+        "D": "Esta es una distracción difícil. Aparentemente utiliza el gráfico chart_97_2 (distribución por edad) y el gráfico chart_97_3 (hábitos de visualización), pero interpreta erróneamente las proporciones y tendencias: el grupo de más de 45 años solo representa el 7,6% (el más bajo), y su larga antigüedad en la visualización de partidos indica que son espectadores veteranos. Sin embargo, la distracción asume erróneamente que \"tiene un gran potencial de crecimiento\". Las motivaciones de alta participación en el gráfico chart_97_4, como \"Brindar entretenimiento y emoción\" (56,2%), están más relacionadas con el grupo de 25 - 34 años (41,5%). Esta estrategia se enfoca en un grupo minoritario, lo que reducirá la eficiencia de los recursos y ignorará el grupo principal.",
+        "E": "Esta es una distracción fácil. La afirmación es demasiado general. Se basa en sugerencias de conocimiento general (por ejemplo, \"Cubrir todas las edades\") y no se combina con los datos específicos de los gráficos (por ejemplo, la distribución por edad o las preferencias). Además, no hay un ajuste de prioridades. Esto se puede descartar por conocimiento general: cuando los recursos son limitados, se deben asignar de manera específica, en lugar de cubrir de manera generalizada.",
+        "F": "Basado en que la proporción de personas con maestrías/MBA o superiores es significativa en la distribución por nivel educativo y las proporciones de \"Disfrutar del alto nivel de trabajo en equipo\" y \"Admirar las excelentes habilidades de fútbol de los jugadores\" son altas entre las razones de visualización, enfocarse en el grupo de alto valor."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

@@ -87,6 +87,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es incorrecta porque se basa en el supuesto común de que todos los mercados de belleza cayeron, pero el gráfico muestra que el mercado de medicina estética no quirúrgica (chart_135_3) logró un alto crecimiento del 28.8% en 2020, en conflicto con el crecimiento negativo del cuidado de la piel (-4.9%) y cosméticos (-7.0%). Esta opción no depende de los datos del gráfico y es una interferencia fácil.",
+        "B": "Requiere la combinación de chart_135_1 (cuidado de la piel) y chart_135_3 (medicina estética no quirúrgica). Chart_135_1 muestra crecimiento negativo en 2020 (-4.9%), mientras que chart_135_3 muestra crecimiento positivo (28.8%), revelando el conflicto mediante comparación; solo con un gráfico no se puede explicar por qué la medicina estética creció en el mismo entorno mientras el cuidado de la piel disminuyó, se necesita un análisis transversal del cambio en el comportamiento del consumidor.",
+        "C": "Esta opción es incorrecta porque malinterpreta el gráfico: la tasa de crecimiento del mercado de cosméticos (chart_135_2) en 2020 es -7.0%, es decir, crecimiento negativo, pero la opción describe erróneamente un crecimiento positivo. Esto es una interferencia difícil porque contradice directamente los datos.",
+        "D": "Depende del razonamiento conjunto de chart_135_2 (cosméticos) y chart_135_3. Chart_135_2 muestra crecimiento negativo en 2020 (-7.0%), chart_135_3 muestra crecimiento positivo, se necesita comparar ambos gráficos para identificar el potencial de la medicina estética como demanda sustitutiva; un solo gráfico solo puede mostrar su propia tendencia, no puede explicar las causas de la diferencia.",
+        "E": "Esta opción es incorrecta porque atribuye genéricamente la influencia de políticas, pero los gráficos no proporcionan datos de políticas, y el sentido común sugiere que las políticas podrían afectar a todos los mercados, mientras que en realidad la medicina estética creció contra la tendencia. No depende de los gráficos y es una interferencia fácil.",
+        "F": "Esta opción es incorrecta porque malinterpreta los datos del gráfico: la tasa de crecimiento del mercado de cuidado de la piel (chart_135_1) en 2020 es -4.9%, mientras que la del mercado de medicina estética no quirúrgica (chart_135_3) es 28.8%, por lo que la medicina estética tuvo un crecimiento mayor, pero la opción afirma erróneamente que el cuidado de la piel fue mayor. Esto es una interferencia difícil porque aparentemente se basa en datos pero malinterpreta la comparación numérica.",
+        "G": "Combina chart_135_1, chart_135_2 y chart_135_3 (pero el núcleo depende de dos gráficos: como chart_135_1 y chart_135_3). Múltiples gráficos muestran que tanto el cuidado de la piel como los cosméticos tuvieron crecimiento negativo en 2020, pero la medicina estética tuvo crecimiento positivo, se necesita una comparación transversal para ver la divergencia en el mercado general de belleza; solo mirar un gráfico (como solo chart_135_1) ignoraría el desempeño anómalo de la medicina estética."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -110,6 +127,23 @@
         "B",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es incorrecta porque malinterpreta las tasas de crecimiento: la tasa de crecimiento del mercado de cosméticos (chart_135_2) en el período de pronóstico (por ejemplo, 6.1% en 2025) es menor que la de medicina estética (13.0%), pero la opción describe erróneamente que los cosméticos son siempre los más altos. Esto es una interferencia difícil porque contradice directamente la brecha de datos.",
+        "B": "Requiere la combinación de chart_135_1 (cuidado de la piel), chart_135_2 (cosméticos) y chart_135_3 (medicina estética no quirúrgica). Chart_135_1 muestra que la tasa de crecimiento disminuye del 10.3% en 2017 al 5.7% en 2025, chart_135_2 del 7.7% en 2017 al 6.1% en 2025, chart_135_3 del 28.8% en 2020 al 13.0% en 2025; solo con un gráfico (como solo chart_135_1) no se puede identificar la tendencia común entre subindustrias, se necesita comparar múltiples gráficos para confirmar la regla de madurez del mercado general.",
+        "C": "Esta opción es incorrecta porque compara erróneamente los datos: la tasa de crecimiento pronosticada para medicina estética en 2025 es 13.0% (chart_135_3), para cuidado de la piel 5.7% (chart_135_1), para cosméticos 6.1% (chart_135_2), siendo la medicina estética la más alta, pero la opción afirma erróneamente que el cuidado de la piel es el más bajo y la medicina estética lo supera. Esto es una interferencia difícil porque aparentemente se basa en gráficos pero malinterpreta el orden.",
+        "D": "Esta opción es incorrecta porque atribuye genéricamente la recuperación económica, pero la tendencia de las tasas de crecimiento en los gráficos es a la baja en lugar de rebotar (por ejemplo, la tasa de crecimiento del mercado de medicina estética no quirúrgica (chart_135_3) disminuye del 23.5% al 13.0%), con valores finales más bajos en el período de pronóstico. No depende de los datos del gráfico y es una interferencia fácil.",
+        "E": "Esta opción es incorrecta porque se basa en el supuesto común de que la tecnología siempre promueve el crecimiento, pero los gráficos muestran que las tasas de crecimiento de todos los mercados se desaceleran generalmente (por ejemplo, cuidado de la piel del 13.8% en 2021 al 5.7% en 2025, cosméticos del 15.0% al 6.1%, medicina estética del 26.4% al 13.0%), los factores tecnológicos no se reflejan en los datos. No depende de los gráficos y es una interferencia fácil.",
+        "F": "Combina chart_135_1, chart_135_2 y chart_135_3 (mínimo dependiente de dos gráficos: como chart_135_1 y chart_135_2). Los gráficos muestran que las tasas de crecimiento generalmente disminuyen después de 2021 (por ejemplo, chart_135_1 del 13.8% al 5.7%, chart_135_2 del 15.0% al 6.1%), se necesita alinear los períodos de tiempo transversalmente para identificar el punto de inflexión del rebote a la desaceleración; solo mirar un gráfico (como solo chart_135_3) ignoraría la sincronicidad de otros submercados.",
+        "G": "Depende del razonamiento conjunto de chart_135_1 y chart_135_3 (o chart_135_2 y chart_135_3). Por ejemplo, la disminución de la tasa de crecimiento de chart_135_1 (como del 9.4% en 2019 al 5.7% en 2025) contrasta con la disminución de chart_135_3 (como del 26.4% en 2021 al 13.0% en 2025), se necesita un análisis transversal de la tendencia de convergencia entre mercados de alto crecimiento (medicina estética) y mercados maduros (cuidado de la piel); un solo gráfico solo puede mostrar su propio cambio, no puede inferir factores a nivel de industria como la intensificación de la competencia."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es incorrecta porque atribuye genéricamente el impacto del evento de salud, pero en los gráficos la proporción en 2020 (cuidado de la piel 2029 mil millones / cosméticos 3958 mil millones ≈ 0.513) es mayor que en 2019 (0.501), no disminuyó. No depende de los gráficos y es una interferencia fácil.",
+        "B": "Esta opción es incorrecta porque se basa en el error común de suponer que el tamaño del cuidado de la piel es mayor, pero los gráficos muestran que el tamaño de los cosméticos siempre es mayor (por ejemplo, 2015 cuidado de la piel 1606 mil millones vs cosméticos 3181 mil millones, proporción ≈ 0.505), proporción menor que 1. No depende de datos específicos y es una interferencia fácil.",
+        "C": "Combina chart_135_1 y chart_135_2 (como el evento de crecimiento negativo en 2020). El crecimiento negativo de chart_135_1 en 2020 (-4.9%) y el de chart_135_2 (-7.0%) causan una fluctuación temporal en la proporción, pero la tendencia general al alza de la proporción requiere una comparación transversal de datos históricos; solo mirar un gráfico (como solo chart_135_2) ignoraría la integridad de la evolución de la proporción.",
+        "D": "Depende del razonamiento conjunto de chart_135_1 y chart_135_2. Chart_135_1 muestra que en algunos años la tasa de crecimiento es mayor (por ejemplo, 2021 13.8% vs chart_135_2 15.0%, pero 2017 cuidado de la piel 10.3% vs cosméticos 7.7%), se necesita un análisis transversal de la diferencia en las tasas de crecimiento sobre el impacto en la proporción; un solo gráfico solo puede mostrar su propio crecimiento, no puede explicar el cambio en la participación relativa.",
+        "E": "Esta opción es incorrecta porque malinterpreta la tendencia de la proporción: la proporción en 2015 ≈ 0.505, pronosticada en 2025 ≈ 0.550, la proporción aumenta, pero la opción describe erróneamente una disminución. Esto es una interferencia difícil porque contradice directamente la evolución de los datos.",
+        "F": "Requiere la combinación de chart_135_1 (cuidado de la piel) y chart_135_2 (cosméticos) para calcular la proporción. Por ejemplo, el tamaño de mercado de chart_135_1 en 2015 (1606 mil millones de yuanes) y el tamaño de chart_135_2 en 2015 (3181 mil millones de yuanes) proporción ≈ 0.505, la proporción pronosticada en 2025 (3186/5791≈0.550) aumenta; solo con un gráfico (como solo chart_135_1) no se puede obtener la proporción, se necesita una comparación numérica transversal para identificar la relación implícita.",
+        "G": "Esta opción es incorrecta porque malinterpreta los datos: la proporción en 2018 (cuidado de la piel 1950 mil millones / cosméticos 3942 mil millones ≈ 0.495) es menor que en 2023 (0.542) y 2025 (0.550), pero la opción afirma erróneamente que 2018 es el pico. Esto es una interferencia difícil porque aparentemente se basa en gráficos pero malinterpreta el orden numérico."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción superficialmente utiliza los datos de la gráfica (citando las tasas de crecimiento), pero los interpreta erróneamente: la previsión de crecimiento del mercado de cosméticos en 2024 - 2025 (5.6% y 6.1%) es en realidad menor que la de la medicina estética no quirúrgica (15.2% y 13.0%) y la de los productos de cuidado de la piel (7.5% y 5.7%). La gráfica muestra que la tasa de crecimiento de la medicina estética es la más alta. Esta sugerencia realiza una operación inversa, lo que puede confundir al modelo.",
+        "B": "Esta opción no se basa en los datos de la gráfica, solo se basa en conocimientos generales de inversión (como “diversificar el riesgo”), pero no proporciona una guía de acción específica (como en qué subsector se debe inclinar) y omite las diferencias en las tendencias de crecimiento, por lo que es fácil de descartar por conocimiento general.",
+        "C": "Esta opción también es amplia, se basa en la lógica comercial general (como “reducir costos”), pero no se asocia con el tamaño del mercado o la volatilidad, y no presenta una estrategia de ajuste para las tendencias previsionales de 2024 - 2025, carece de bases en la gráfica.",
+        "D": "Implica un razonamiento conjunto: el mercado de cosméticos tiene el mayor tamaño y un crecimiento estable, y la tasa de crecimiento fluctúa dentro de un cierto rango después de 2021; el mercado de productos de cuidado de la piel se recuperó rápidamente después de una disminución en 2020, y la tasa de crecimiento en 2021 alcanzó un nivel alto, y la volatilidad es baja; se incorporan conocimientos externos (la preferencia de los consumidores se dirige hacia el cuidado básico).",
+        "E": "Esta opción utiliza los datos de la gráfica (tamaño del mercado y tasa de crecimiento), pero confunde la volatilidad: la medicina estética no quirúrgica mantuvo un crecimiento positivo en 2020 (28.8%), mientras que los productos de cuidado de la piel y los cosméticos tuvieron un crecimiento negativo, lo que indica que tiene una mayor capacidad de resistencia a riesgos; la sugerencia de “reducir la inversión” va en contra de la tendencia de los datos y interpreta erróneamente el alto crecimiento como alto riesgo.",
+        "F": "Implica un razonamiento conjunto: el mercado de medicina estética no quirúrgica mantuvo un alto crecimiento positivo en 2020, y la tasa de crecimiento previsional es mucho más alta que en otros sectores; el crecimiento del mercado de productos de cuidado de la piel se desacelera año tras año, y la tasa de crecimiento previsional para 2024 - 2025 se reduce a un nivel bajo; el mercado de cosméticos tiene una tendencia similar de desaceleración.",
+        "G": "Implica un razonamiento conjunto: todos los mercados tuvieron un crecimiento negativo en 2020, como los productos de cuidado de la piel y los cosméticos, mientras que la medicina estética, aunque tuvo un crecimiento positivo, la tasa de crecimiento disminuyó; se enfatiza el riesgo sistémico."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -178,6 +246,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción utiliza los datos de la gráfica (previsión de crecimiento), pero confunde la tendencia: aunque el crecimiento de los productos de cuidado de la piel se desacelera, la previsión para 2024 - 2025 sigue siendo positiva (7.5% y 5.7%), y se recuperó rápidamente en 2021 (13.8%), lo que indica que no está saturado; la sugerencia de “reducir la inversión” interpreta erróneamente la desaceleración como una recesión, lo que va en contra de la estabilidad de los datos.",
+        "B": "Implica un razonamiento conjunto: el crecimiento del mercado de productos de cuidado de la piel se desacelera año tras año, y la tasa de crecimiento previsional se reduce a un nivel bajo; el mercado de cosméticos es más grande y estable, lo que brinda oportunidades de compartir canales; se incorporan conocimientos externos (el marketing preciso mejora el ROI).",
+        "C": "Esta opción no se basa en la gráfica, solo se basa en conocimientos generales de marketing (como “aumentar el presupuesto publicitario”), pero no combina las diferencias o tendencias en las tasas de crecimiento de los subsectores (como el alto crecimiento de la medicina estética), la expresión es amplia y no tiene una estrategia de optimización específica, es fácil de descartar.",
+        "D": "Esta opción también es general, sugiere “innovación de productos” pero no se vincula con los datos de la gráfica (como el cambio en el tamaño del mercado), y no se dirige a la asignación de recursos de 2024 - 2025, carece de orientación de acción.",
+        "E": "Implica un razonamiento conjunto: la tasa de crecimiento del mercado de medicina estética no quirúrgica siempre ha sido alta, mucho más alta que en otros sectores; la tasa de crecimiento del mercado de productos de cuidado de la piel ha disminuido de un nivel alto a un nivel bajo, y la tendencia se desacelera明显; el crecimiento de los cosméticos tiene una tendencia similar de desaceleración.",
+        "F": "Esta opción superficialmente utiliza la gráfica (citando la tasa de crecimiento y el tamaño), pero los interpreta erróneamente: la tasa de crecimiento de la medicina estética no quirúrgica en 2023 (21.0%) es en realidad más alta que la de los cosméticos (6.4%), la gráfica muestra que el crecimiento de la medicina estética es más fuerte; la sugerencia de “concentrarse en los cosméticos” omite las oportunidades de alto crecimiento, lo que puede confundir al modelo.",
+        "G": "Implica un razonamiento conjunto: el mercado de cosméticos es el más grande, pero la previsión de la tasa de crecimiento muestra oportunidades de competencia en un período de crecimiento moderado; el mercado de productos de cuidado de la piel se recuperó rápidamente en 2021 después de una disminución en 2020, lo que muestra su capacidad de recuperación; la estrategia enfatiza la lucha por cuota de mercado."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Implica un razonamiento conjunto: el mercado de productos de cuidado de la piel creció significativamente en 2021 después de una disminución en 2020, tiene una fuerte capacidad de recuperación, y la fluctuación de la tasa de crecimiento es menor que la de los cosméticos; el mercado de cosméticos tuvo una mayor disminución en 2020 y una fluctuación de crecimiento ligeramente más alta; se incorporan conocimientos externos (la demanda de cuidado básico es estable).",
+        "B": "Implica un razonamiento conjunto: el mercado de medicina estética creció mucho más que otros sectores en 2020, y la tasa de crecimiento previsional se mantiene alta; los productos de cuidado de la piel y los cosméticos tuvieron un crecimiento negativo en 2020; se destaca la diferencia en la capacidad de resistencia a riesgos.",
+        "C": "Esta opción no se basa en la gráfica, solo se basa en conocimientos generales de gestión de riesgos (como “establecer un fondo de reserva”), pero no presenta una estrategia de expansión o ajuste para las características de los subsectores (como el rendimiento de resistencia a riesgos de la medicina estética), la expresión es demasiado amplia.",
+        "D": "Esta opción superficialmente utiliza los datos de la gráfica (rendimiento en crisis), pero los interpreta erróneamente: la disminución negativa de los productos de cuidado de la piel en 2020 (-4.9%) es en realidad menor que la de los cosméticos (-7.0%), y la medicina estética mantuvo un crecimiento positivo (28.8%), lo que indica que los cosméticos no son los más estables; la sugerencia de “expandir los cosméticos” confunde los datos, lo que puede confundir al modelo.",
+        "E": "Implica un razonamiento conjunto: el mercado de medicina estética tiene un crecimiento continuo alto; la tendencia de crecimiento de los productos de cuidado de la piel se desacelera; el crecimiento de los cosméticos es similar; se hace referencia al evento de disminución simultánea en 2020 (todas las gráficas muestran un crecimiento negativo o una disminución en la tasa de crecimiento); la estrategia enfatiza la flexibilidad.",
+        "F": "Esta opción también es amplia, sugiere “optimización interna” pero no combina la estabilidad de crecimiento o los datos de crisis, y omite las tendencias del mercado externo, carece de bases en la gráfica, es fácil de descartar por conocimiento general.",
+        "G": "Esta opción utiliza los datos de la gráfica (previsión de crecimiento y tamaño), pero confunde la resistencia: la medicina estética no quirúrgica siempre tuvo un crecimiento positivo en la crisis, y aunque la tasa de crecimiento previsional disminuye, sigue siendo la más alta (13.0%), lo que indica su alta capacidad de resistencia a riesgos; la sugerencia de “reducir la inversión” interpreta erróneamente el alto crecimiento como fragilidad, lo que va en contra de los datos de estabilidad."
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     }
   ]

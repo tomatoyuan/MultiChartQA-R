@@ -85,6 +85,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "It is necessary to combine chart_36_1 (where 'Pre - sale Start Date' and 'First - wave Budget Proportion: 60%' are marked at around index 5 on the x - axis) and chart_36_2 (User Visit Proportion: 94%). The budget allocation and the high proportion of user visits may jointly amplify the growth of transactions. Analyzing only one chart (e.g., only having the budget marked) cannot explain the driving force for growth.",
+        "B": "This is an easy distractor: It is based on common sense (advertising can promote sales) and does not rely on any chart data (there is no mention of advertising placement in the charts). It is a generally correct statement but cannot be inferred from the given charts.",
+        "C": "This is a hard distractor: On the surface, it is based on the user behavior data in chart_36_2 (the proportion of users who made a deal between April and May is 86%), but it misinterprets the data. The chart shows that most users are active users before the promotion (86% have made a deal between April and May), while the distractor wrongly claims that 'the proportion of first - time shopping users has increased sharply'. In fact, the chart implies that the users are existing ones rather than new users, which misinterprets the relationship between user behavior and growth.",
+        "D": "This is an easy distractor: It relies on external common sense (the economic environment affects consumption) and does not quote the chart content (the charts do not involve the macro - economy). It is a common but irrelevant statement.",
+        "E": "It is necessary to combine chart_36_2 (high proportion of user behavior between April and May) and chart_36_1 (the transaction index jumped to 340 at index 15 '618 Pre - purchase Sales'). In terms of time, the user behavior between April and May may prepare for the pre - purchase in June. The combined reasoning shows an implied continuity. This time - related association cannot be established by chart_36_1 or chart_36_2 alone.",
+        "F": "This is a hard distractor: On the surface, it is based on the transaction trend data in chart_36_1 (the pre - sale start date is at index 5 on the x - axis), but it misinterprets the specific value. At index 5 (corresponding to May 13th), the actual transaction index is 180 (the value at the marked point), but the distractor wrongly claims that 'the actual index at this point is only 170' (the value at index 5 in the original data is 180). This misinterprets the value of the data point, leading to a wrong inference about the impact of the budget allocation point.",
+        "G": "It is necessary to combine chart_36_2 (the user behavior analysis chart shows that 86% of the transaction users had behavior between April and May and 94% had visited) and chart_36_1 (the transaction index started to rise from 180 at index 5 'Pre - sale Start Date' in the transaction trend chart). The high - proportion active user behavior in chart_36_2 may provide a user reserve for the pre - sale growth in chart_36_1. This causal relationship cannot be inferred from a single chart."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It is based on common sense (increasing brand awareness enhances trust) and does not rely on chart data (the AI tool effect chart does not mention the brand). It is a generally correct statement but cannot be inferred from the charts.",
+        "B": "It is necessary to combine chart_36_3 (the click - through rate is increased by about 20%) and chart_36_1 (the index jumped from 340 at index 15 '618 Pre - purchase Sales'). The increase in the AI click - through rate may increase user interaction and promote growth during the pre - purchase stage. Analyzing only one chart (e.g., only having the AI effect) cannot associate it with a specific promotional event.",
+        "C": "This is a hard distractor: On the surface, it is based on the AI effect in chart_36_3 (the efficiency of target group selection is increased) and the user behavior in chart_36_2 (the proportion of users who visited between April and May). However, it misinterprets the proportion. Chart_36_2 shows that the proportion is 94%, but the distractor wrongly claims that 'it is only 60%'. This exaggerates the gap (94% vs 60%), misleading the role of AI in optimizing the user base.",
+        "D": "It is necessary to combine chart_36_3 (the efficiency of target group selection is increased by about 100%) and chart_36_1 (where 'First - wave Budget Proportion: 60%' is marked at around index 5 on the x - axis). The increase in AI efficiency may make the budget use more efficient, thereby amplifying transactions around the pre - sale date. The synergistic effect cannot be inferred by only looking at the budget in chart_36_1 or the efficiency in chart_36_3.",
+        "E": "It is necessary to combine chart_36_3 (the conversion rate is increased by about 30% in the AI tool effect chart) and chart_36_1 (the transaction index rose from 180 after index 5 'Pre - sale Start Date' to 280 at index 10 in the transaction trend chart). The increase in the AI conversion rate may implicitly promote the growth during this stage. However, only relying on chart_36_3 cannot locate the specific time point, and it is necessary to combine the trend in chart_36_1 for confirmation.",
+        "F": "This is an easy distractor: It quotes external technical common sense (5G affects the experience), and there is no such factor in the charts. It is irrelevant industry knowledge and not based on chart reasoning.",
+        "G": "This is a hard distractor: On the surface, it is based on the AI effect in chart_36_3 (the conversion rate is increased by 30%) and the transaction trend in chart_36_1 (the pre - sale start date is at index 5 on the x - axis). However, it misinterprets the data. At index 5, the actual transaction index is 180 (the value at the marked point), but the distractor wrongly claims that 'the actual index at this point should be 250' (250 is the value at index 10). This misinterprets the value and order of the data point, leading to a false inference about the association between AI and key nodes."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It relies on common sense (the influence of social media) and is not based on chart data (the charts do not mention social media promotion). It is a generally correct statement but cannot be inferred from the integrated charts.",
+        "B": "It is necessary to combine chart_36_1 (the budget proportion of 60% is marked at index 5), chart_36_3 (the efficiency of target group selection is increased by about 100%), and chart_36_2 (a high proportion of user visits). The budget allocation and AI efficiency may more efficiently utilize the user base to optimize transactions. The role of efficiency improvement cannot be inferred by only looking at the budget in chart_36_1 or the user proportion in chart_36_2.",
+        "C": "This is a hard distractor: On the surface, it is based on the user behavior in chart_36_2 (the proportion of users who made a deal is 86%), the AI effect in chart_36_3 (the click - through rate is increased by 20%), and the transaction trend in chart_36_1 (the 618 pre - purchase is at index 15 on the x - axis). However, it misinterprets the value. At index 15, the actual transaction index is 330 (the value at the marked point), but the distractor wrongly claims that 'it should be 400'. This fabricates a data gap (330 vs 400), misleading the explanation of the combined mechanism for the later - stage jump.",
+        "D": "It is necessary to combine chart_36_2 (86% of the transaction users had behavior between April and May), chart_36_3 (the conversion rate is increased by about 30%), and chart_36_1 (the transaction index increased from 280 at index 10 to 340 at index 15). The AI conversion rate may target the active users in the previous stage and enhance the growth during the transition period. Looking at only chart_36_2 or chart_36_3 cannot associate it with the time trend.",
+        "E": "It is necessary to combine chart_36_2 (the user behavior analysis chart shows a 94% visit proportion), chart_36_3 (the click - through rate is increased by about 20% in the AI tool effect chart), and chart_36_1 (the index jumped at index 15 '618 Pre - purchase Sales' in the transaction trend chart). The high visit proportion and the increase in the AI click - through rate may jointly increase user participation and promote growth. Analyzing only two charts (e.g., only user behavior and transaction trend) cannot cover the contribution of AI.",
+        "F": "This is an easy distractor: It is based on industry common sense (logistics improves satisfaction), and there is no logistics information in the charts. It is external knowledge and is not relevant to the given charts.",
+        "G": "This is a hard distractor: On the surface, it is based on the AI effect in chart_36_3 (the conversion rate is increased) and the user behavior in chart_36_2 (the 'other' proportion). However, it misinterprets the proportion. In chart_36_2, the 'other' proportion is 14% among the transaction users and 6% among the visit users. The distractor confuses it as 'the proportion of this group is only 6%' (the actual 'other' proportion among the visit users is 6%) and wrongly applies it to the transaction user group. This misinterprets the data association, leading to a wrong inference about the scope of the AI's role."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option does not rely on the chart content but is only based on general marketing common sense (evenly distributing resources can reduce risks). However, it does not take into account the uneven budget allocation (the first - wave budget accounts for 60%) and the trend fluctuations shown in the chart. Therefore, it lacks pertinence and can be easily excluded.",
+        "B": "This option confuses the data in chart_36_2: The pie chart shows that the proportion of users who made a deal between April and May is 86%, but the interference item wrongly regards the 'others' (14%) as the non - transaction user group (in fact, the 'others' may include new users or low - active users). It also suggests ignoring the highly active users (94% of the visitors), which deviates from the strategy direction of maximizing conversion efficiency because the main user group is among the historically active users.",
+        "C": "This option misinterprets chart_36_1: Although the transaction index starts low (10), the trend shows a rapid increase after the pre - sale start date (abscissa 5, index 180), and the user behavior analysis (chart_36_2) shows that 86% of the transaction users have a history of active records. Early investment can capture high - potential users. However, the interference item suggests reducing the early budget, ignoring the early growth potential and user behavior characteristics.",
+        "D": "Analyzing the index trend of chart_36_1 (the difference in growth slopes between the early and late stages) and the low proportion of 'other' users in chart_36_2 indicates that resources should be tilted towards the high - efficiency period to optimize output.",
+        "E": "Combining the trend of chart_36_1 (the index accelerates growth during the 618 pre - purchase stage) and the behavior characteristics of chart_36_2 (the high proportion of highly active users), investing during the peak stage can take advantage of the growth momentum.",
+        "F": "Based on the transaction index trend of chart_36_1 (the index starts to rise steadily near the pre - sale start date) and the user behavior data of chart_36_2 (the proportion of users who visited between April and May among the transaction users is extremely high), it shows that the pre - sale period is the key period for user activation, and early investment can improve conversion.",
+        "G": "This option is also broad, involving product management rather than budget allocation or user positioning strategies. It does not quote any chart data (such as the transaction index trend or user behavior proportion) and only gives suggestions based on common sense without clear action guidelines."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -176,6 +244,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Based on the user behavior in chart_36_2 (the proportion of users who visited and made a deal between April and May is extremely high) and the trend in chart_36_1 (the index continues to rise after the pre - sale starts), it shows that the pre - heat period is the foundation for conversion, and priority should be given to investment.",
+        "B": "This option is based on general marketing common sense (advertising exposure can improve brand awareness) and does not quote any chart data (such as user behavior proportion or AI effectiveness). It is a broad statement without specific pre - heat or retention strategies and can be easily excluded.",
+        "C": "This option confuses chart_36_3 and chart_36_2: The AI tool has been proven to increase the click - through rate by 20% and the conversion rate by 30% (chart_36_3), but the interference item wrongly believes that the high user activity (94% of the visitors) makes the AI unnecessary, ignoring that the AI can further optimize the precise positioning of high - potential groups (as shown in the data of chart_36_2). The strategy direction deviates significantly.",
+        "D": "This option misinterprets chart_36_1 and chart_36_2: The user behavior data (chart_36_2) shows that 94% of the users visited between April and May, indicating that the pre - heat period is a crucial cultivation period. However, the interference item suggests reducing interaction, ignoring the growth potential of the transaction index trend (chart_36_1) during the pre - heat period (such as the index from 180 to 250 at abscissa 5 - 10), which may lead to a decline in long - term user stickiness.",
+        "E": "Analyzing the proportion of 'other' users in chart_36_2 (14% and 6%) and the steady growth of the index in chart_36_1 (covering the whole cycle) indicates that the small group has development potential, and the strategy can supplement the user ecosystem.",
+        "F": "Combining the effectiveness of the AI tool in chart_36_3 (significant improvement in click - through rate and conversion rate) and the characteristics of highly active users in chart_36_2 (94% of the users have visited), the AI can efficiently match user behavior to improve conversion.",
+        "G": "This option involves after - sales support, which is related to user retention but is too general. It does not combine the user behavior characteristics (such as the high proportion of high - activity users between April and May) or the effectiveness of the AI tool in the chart and lacks direct actions for improving the promotion conversion rate."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -199,6 +284,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Combining the user behavior in chart_36_2 (86% of the transaction users visited between April and May) and the AI conversion rate improvement in chart_36_3 (about 30%), the AI can precisely focus on the high - potential user group.",
+        "B": "This option misinterprets chart_36_1 and chart_36_3: The transaction index has significantly increased on the pre - sale start date (abscissa 5, index 180), and the AI tool can improve the crowd selection efficiency by 100% (chart_36_3). Early deployment can capture growth opportunities. However, the interference item suggests using it only in the later stage, ignoring the full - cycle growth trend and the early application value of the AI.",
+        "C": "This option is also broad, involving team training rather than promotion stage planning. It does not quote the improvement effect of the AI tool (such as a 100% efficiency improvement) or the transaction index trend in the chart and can be easily excluded.",
+        "D": "This option confuses the data in chart_36_2 and chart_36_3: The user behavior shows that low - active users only account for 6% (chart_36_2), but the interference item wrongly suggests that the AI should be targeted at this group first, ignoring that the AI effectiveness (such as a 30% conversion rate improvement) is more suitable for high - potential users (94% of the visitors). Moreover, the promotion trend (chart_36_1) shows growth in both the early and peak stages, making this strategy inefficient.",
+        "E": "Based on the trend in chart_36_1 (the index jumps during the pre - sale and peak stages) and the AI effect in chart_36_3 (the efficiency is improved by about 100%), the AI can magnify the trend advantages at key nodes.",
+        "F": "Analyzing the continuous increase of the index in chart_36_1 (20 - day growth trend) and the multi - dimensional improvement in chart_36_3 (click - through rate, conversion rate, and efficiency), systematic integration can achieve long - term optimization.",
+        "G": "This option does not rely on the chart but is only based on general technology management common sense (upgrading the IT system). It does not combine the promotion data trend or the AI effectiveness. It is a broad statement without specific integration strategies."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     }
   ]

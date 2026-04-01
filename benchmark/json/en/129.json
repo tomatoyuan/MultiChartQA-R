@@ -87,6 +87,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor. It is based on common sense (such as 'domestic demand drives the market') but does not rely on the chart data. The chart shows that the increase rate of domestic sales was nearly stagnant (0.3%) in 2023 while the growth rate of the market size was still relatively high (9.4%), indicating that the two are not always synchronized.",
+        "B": "This is a hard distractor. It seemingly bases on the charts (chart_129_1 and chart_129_3) but misinterprets the values. In 2021, the increase rate of domestic sales was 4.5% (a low level), and the growth rate of the market size was 10.8% (a high level). In fact, the increase rate was low while the growth rate was high, and there was no'simultaneous increase'.",
+        "C": "It is necessary to combine the charts of the market size growth rate and the increase rate of domestic sales and compare the trends in the overlapping years (2017 - 2023). In 2020, both were relatively high, showing a positive correlation. This pattern cannot be confirmed with a single chart alone.",
+        "D": "This is an easy distractor. It is based on industry common sense (such as 'domestic sales drive the market') but does not refer to the charts. The data of the increase rate of domestic sales in the predicted years is missing (chart_129_3 only covers up to 2023), and the historical data shows that the increase rate of domestic sales fluctuated (e.g., 0.3% in 2023), which does not support the claim of 'continuous increase'.",
+        "E": "It is necessary to combine the charts of the increase rate of domestic sales and the market size growth rate. Notice the apparent conflict in 2023 when the increase rate of domestic sales was only 0.3% while the market size growth rate was 9.4%. Infer a buffer mechanism from historical data (e.g., both were high in 2020). This relies on comparing the values of the two charts.",
+        "F": "This is a hard distractor. It is based on the chart data but misinterprets the gap and trend. In 2019, the increase rate of domestic sales was 6.0% corresponding to a market size growth rate of 10.0% (a large gap), and in 2020, the increase rate of domestic sales was 8.7% corresponding to 9.6% (a small gap). In fact, both were relatively high in 2020 (strong linkage), not an 'inverse relationship'.",
+        "G": "It is necessary to compare the charts of the increase rate of domestic sales and the market size growth rate, and analyze the similarity between the trend of the annual decline of the increase rate of domestic sales and the predicted slow - down of the market size growth rate. A single chart can only show its own trend and cannot establish a connection."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor. It is based on the chart data but misinterprets the order. In 2021, the increase rate of domestic sales was 4.5%, and it dropped to 4.2% in 2022 (a decrease), while the production growth increased slightly from 5.6% in 2022 to 6.2% in 2023. It wrongly claims that 'the increase rate of domestic sales increased synchronously'. In fact, the increase rate of domestic sales was decreasing, out of sync with the production growth.",
+        "B": "It is necessary to combine the charts of production and the increase rate of domestic sales, which show a linkage in the early years but a disconnection in recent years (e.g., in 2023). Infer the mechanism change through the combination of historical and current data.",
+        "C": "It is necessary to compare the charts of the production growth rate and the increase rate of domestic sales, and analyze the trend divergence between the stable production growth rate and the decrease of the increase rate of domestic sales from 4.5% in 2021 to 0.3% in 2023. Rely on the values of the two charts to prove the contrast.",
+        "D": "This is an easy distractor. It is based on economic common sense (such as'supply creates demand') but does not rely on the charts. The charts show that the increase rate of domestic sales has been continuously slowing down in recent years (e.g., 0.3% in 2023), and there is no evidence to support the claim of a'short - term phenomenon' or 'production - driven recovery'.",
+        "E": "This is a hard distractor. It seemingly bases on the charts (chart_129_2 and chart_129_3) but misinterprets the values and trends. In 2022, the production growth was 5.6% corresponding to an increase rate of domestic sales of 4.2%, and in 2023, the production growth was 6.2% corresponding to an increase rate of domestic sales of 0.3%. In fact, the production growth increased slightly while the increase rate of domestic sales decreased sharply, not 'the faster the production growth, the lower the increase rate of domestic sales' (e.g., in 2015, the production growth was 11.1% corresponding to an increase rate of domestic sales of 11.8%).",
+        "F": "This is an easy distractor. It is based on common sense (such as 'health trends affect consumption') but does not use the chart data. The charts show that the production has been continuously increasing (chart_129_2) while the increase rate of domestic sales has been slowing down (chart_129_3), but the contradiction needs to be analyzed in combination with specific values.",
+        "G": "It is necessary to combine the charts of production and the increase rate of domestic sales. The numerical comparison shows that the production is increasing while the domestic sales are stagnant. A single chart cannot reveal the contradiction, and cross - chart reasoning about over - supply or diversion is required."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is an easy distractor. It is based on common sense (such as'supply drives the market') but does not use the chart data. The charts show that there is a connection between the production growth (chart_129_2) and the market forecast (chart_129_1), but it is not 'always directly determined' (e.g., other factors such as domestic sales).",
+        "B": "This is an easy distractor. It is based on industry common sense (such as 'proportion change buffers the impact') but does not rely on the charts. Calculating the proportion of domestic sales requires additional data (e.g., in 2023, the production was 3.55 million tons and the domestic sales were 2.404 million tons, with a proportion of 67.7%), but the charts do not provide the proportion trend and do not directly link to the market forecast.",
+        "C": "It is necessary to compare the charts of the production growth rate and the market size forecast growth rate, and the numerical trends match. Rely on the two charts to prove the synchrony.",
+        "D": "It is necessary to combine the production trend and the market size forecast chart, and analyze that the supply supports the demand. A single chart alone cannot establish a causal relationship.",
+        "E": "This is a hard distractor. It seemingly bases on the charts (chart_129_1 and chart_129_2) but misinterprets the values and trends. The production growth rate increased from 2.7% in 2000 to 6.2% in 2023 (overall increase), but the market size growth rate is predicted to decline from 10.8% in 2017 to 8.1% in 2028. In fact, it is a negative correlation or no correlation, wrongly claiming 'positive correlation and synchrony'.",
+        "F": "It is necessary to combine the production data, the proportion of domestic sales, and the market size forecast chart, but the core is the relationship between production and market size. The option emphasizes that domestic sales are an indirect factor, and cross - chart reasoning about the proportion impact is required.",
+        "G": "This is a hard distractor. It is based on the chart data but misinterprets the gap and fluctuation. The production growth rate has fluctuated in recent years (e.g., from 5.6% in 2022 to 6.2% in 2023), and the market forecast growth rate is predicted to decline from 9.3% in 2024 to 8.1% in 2028. In fact, the production trend may restrict the forecast (as described in option B), wrongly claiming 'no significant impact'."
+      },
+      "easy_error": [
+        "A",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -153,6 +204,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Infer the risk of oversupply based on the steady growth of production volume and the significant decline in the growth rate of domestic sales.",
+        "B": "This is an easy distraction: It is based on general common sense (increasing supply when the market size grows), but ignores that the growth rate of the market size in chart_129_1 has decreased from 10.8% to the projected 8.1%, and the growth rate of domestic sales in chart_129_3 has declined from 12.3% to 0.3%, which may lead to oversupply. The statement is broad and lacks specific action guidelines.",
+        "C": "This is a hard distraction: On the surface, it uses chart_129_3 (the total domestic sales volume has increased from 1.338 million tons to 2.404 million tons) for reasoning, but misinterprets the trend (the significant decline in the growth rate of domestic sales indicates weak demand rather than strong demand) and ignores the risk of supply - demand imbalance. Meanwhile, chart_129_2 shows a steady increase in production, which may exacerbate the oversupply situation.",
+        "D": "Emphasize resource optimization and market opportunities by combining the continuous expansion of the market size and external knowledge (sustainable consumption trend).",
+        "E": "Infer the need to increase added - value to address insufficient demand based on the gradual slowdown of the market size growth rate and the weak growth of domestic sales.",
+        "F": "This is an easy distraction: It does not rely on the charts and simply suggests reducing production based on common sense, but lacks specific basis (such as the continuous increase in production shown in chart_129_2). Also, 'diverting to import substitutes' has nothing to do with the industry trend, and the statement is broad."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C"
       ]
     },
     {
@@ -174,6 +240,21 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an easy distraction: It does not rely on the charts and only suggests packaging innovation, but lacks specific strategies to address the weak domestic sales (such as not mentioning stimulating demand). The statement is broad and does not take into account the downward trend of the growth rate in chart_129_3.",
+        "B": "Infer product innovation opportunities by combining the high total domestic sales volume but low growth rate and the predicted growth of the market size.",
+        "C": "This is an easy distraction: It is based on general marketing common sense (advertising can boost sales), but lacks specific actions (not targeting digital or young groups), and does not refer to chart_129_3 (the growth rate of domestic sales has declined to 0.3%) or chart_129_1 (the slowdown of the market size growth rate). The statement is broad and ineffective.",
+        "D": "Infer the need for new channels based on the annual decline of the domestic sales growth rate to near - zero growth and the slowdown of the market size growth rate.",
+        "E": "Infer the need to stimulate demand on the demand side by combining the weak growth of domestic sales and the expansion of the industry scale.",
+        "F": "This is a hard distraction: On the surface, it uses chart_129_3 (the total domestic sales volume has increased from 1.338 million tons to 2.404 million tons, but the growth rate has dropped to 0.3%) and chart_129_1 (the slowdown of the market size growth rate) for reasoning, but wrongly believes that price reduction is the solution (the charts do not show price factors, and price reduction may damage profits). It confuses 'large total volume' with 'weak demand' and ignores the continuous decline of the domestic sales growth rate."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F"
       ]
     },
     {
@@ -195,6 +276,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Infer an export - oriented strategy based on the continuous increase in production volume and the significant decline in the growth rate of domestic sales.",
+        "B": "Infer the need to improve efficiency based on the steady growth of production volume and the predicted decline of the market size growth rate.",
+        "C": "This is an easy distraction: It does not rely on the charts and only suggests reducing investment, but ignores that the market size in chart_129_1 is still growing (projected to reach 530.96 billion yuan in 2028). This suggestion may hinder growth. The statement is broad and lacks strategic details.",
+        "D": "This is a hard distraction: On the surface, it uses chart_129_2 (the production volume has increased from 683,300 tons in 2000 to 3.55 million tons in 2023) for reasoning, but wrongly interprets it as the need to increase supply (ignoring that the market size growth rate in chart_129_1 has decreased from 10.8% to 8.1%, which may lead to oversupply). It confuses the relationship between production growth and the slowdown of market demand.",
+        "E": "Infer the optimization of the sustainable value chain based on the expansion of the market size and the large production base.",
+        "F": "This is an easy distraction: It is based on general business common sense (brand endorsement can enhance influence), but lacks specific actions (not targeting cost control or exports), and does not refer to chart_129_1 (slowdown of the growth rate) or chart_129_2 (production data). The statement is broad and ineffective."
+      },
+      "easy_error": [
+        "F",
+        "C"
+      ],
+      "hard_error": [
+        "D"
       ]
     }
   ]

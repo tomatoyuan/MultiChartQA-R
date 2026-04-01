@@ -85,6 +85,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia fácil: depende del conocimiento lingüístico común (los medios tradicionales son considerados autorizados), ignora completamente el contenido del gráfico, por ejemplo, la proporción real del canal de Periódicos/Revistas es solo del 24.67%, y la proporción de 5 puntos de la dimensión Profesional y autorizado no es la más alta.",
+        "B": "Esta es una opción de interferencia fácil: se basa en el conocimiento común de la industria (las redes sociales enfatizan la interactividad), no depende de los datos del gráfico, es una declaración correcta general, pero no involucra los valores específicos o las proporciones de dimensiones en el gráfico.",
+        "C": "La opción 1 necesita combinar chart_108_1 (la proporción del canal Weibo/WeChat es la más alta) y chart_108_3 (la proporción de 5 puntos de la dimensión Actualización en tiempo real es la más alta), para inferir la asociación entre canales de alta tasa de uso y dimensiones de alta importancia.",
+        "D": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos del gráfico: la proporción del canal de sitios web oficiales de medios financieros es del 31.91% no es alta (menor que Weibo/WeChat, etc.), y la proporción de 5 puntos de la dimensión Profesional y autorizado es del 35.64% no es la más alta (la dimensión Soporte de datos es del 38.05% más alta), la opción exagera la proporción y la puntuación del sitio web oficial, creando una asociación falsa.",
+        "E": "La opción 2 necesita combinar chart_108_1 (la proporción del canal de proveedores profesionales de datos financieros (Wind Information, Flush, etc.) es la más baja) y chart_108_3 (las proporciones de 5 puntos de las dimensiones Soporte de datos y Profesional y autorizado son relativamente altas), para revelar la ley potencial entre canales de baja tasa de uso y dimensiones de alta importancia.",
+        "F": "La opción 3 necesita combinar chart_108_1 (la proporción del canal de plataformas de videos cortos como Douyin y Kuaishou es alta) y chart_108_3 (la proporción de 5 puntos de la dimensión Nuevo formato es relativamente baja), para analizar la conexión implícita entre canales populares y dimensiones no satisfechas.",
+        "G": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos del gráfico: la proporción del canal de plataformas de videos cortos como Douyin y Kuaishou es del 44.08% no es la más alta (Weibo/WeChat 45.61% es más alta), y la proporción de 5 puntos de la dimensión Nuevo formato es del 29.82% actualmente baja (en chart_108_3 ranking bajo), mientras que el gráfico original muestra que la dimensión Actualización en tiempo real tiene la proporción más alta (43.53%), por lo tanto, esta opción aparentemente razona pero comprende incorrectamente los valores."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "D"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "La opción 1 necesita combinar chart_108_2 (la proporción de frecuencia de lectura de 4 - 5 veces a la semana es la más alta) y chart_108_3 (las proporciones de 5 puntos de las dimensiones Actualización en tiempo real y Análisis profundo son relativamente altas, la proporción de 5 puntos de la dimensión Fuerte interacción es relativamente baja), para revelar el conflicto entre frecuencia y importancia de dimensiones: los usuarios de alta frecuencia valoran ciertas dimensiones pero ignoran otras.",
+        "B": "Esta es una opción de interferencia fácil: se basa en el conocimiento propio del modelo (el análisis profundo requiere inversión de tiempo), no depende de los datos del gráfico, es un razonamiento de sentido común, pero no cita los valores específicos de chart_108_2 o chart_108_3.",
+        "C": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos del gráfico: la proporción de 5 puntos de la dimensión Nuevo formato es del 29.82% baja es correcto, pero la proporción de usuarios con lectura irregular y fragmentada es solo del 6.57% muy baja (no alta), la opción exagera la proporción y asocia incorrectamente, actualmente chart_108_2 muestra que los usuarios altamente regulares son principales, y no hay contradicción directa con la baja proporción de forma nueva.",
+        "D": "La opción 3 necesita combinar chart_108_2 (la proporción de leen todos los días es baja) y chart_108_3 (la proporción de 5 puntos de la dimensión Profesional y autorizado es relativamente alta), para analizar la inconsistencia entre comportamiento de baja frecuencia y dimensiones de alta importancia.",
+        "E": "Esta es una opción de interferencia fácil: depende del conocimiento común de la industria (la lectura fragmentada prefiere contenido visual), ignora completamente el gráfico, por ejemplo, la proporción de usuarios con lectura irregular y fragmentada es solo del 6.57% muy baja, y la proporción de la dimensión Nuevo formato no es alta.",
+        "F": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos del gráfico: la proporción de usuarios que leen todos los días es del 19.96% no es la más alta (leen 4 - 5 veces a la semana 51.54% es más alta), y la proporción de la dimensión Actualización en tiempo real es alta correcto, pero la opción define usuarios de alta frecuencia como 'leen todos los días' mientras ignora el grupo principal, creando error de orden; la proporción de la dimensión Fuerte interacción es indeed baja (proporción de 5 puntos 28.07%), pero la explicación de contradicción no se sostiene.",
+        "G": "La opción 2 necesita combinar chart_108_2 (la proporción de lectura irregular y fragmentada es baja) y chart_108_3 (la proporción de 5 puntos de la dimensión Nuevo formato es relativamente baja), para inferir la contradicción implícita entre usuarios de baja frecuencia y dimensiones de baja importancia."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos del gráfico: la proporción del canal de proveedores profesionales de datos financieros (Wind Information, Flush, etc.) es del 13.27% baja es correcto, pero la proporción de 5 puntos de la dimensión Análisis profundo es del 35.96% actualmente alta (en chart_108_3 ranking alto), la opción describe incorrectamente como 'proporción baja', distorsionando la brecha; simultáneamente, los datos de frecuencia de lectura muestran alta regularidad, pero no debilitan esta necesidad.",
+        "B": "Esta es una opción de interferencia difícil: interpreta incorrectamente los datos del gráfico: la proporción del canal Weibo/WeChat es del 45.61% la más alta correcto, pero la proporción de 5 puntos de la dimensión Fuerte interacción es del 28.07% actualmente baja (en chart_108_3 ranking penúltimo), la opción describe incorrectamente la proporción como 'alta', creando error de comprensión numérica; la frecuencia de lectura de varias veces a la semana 51.54% correcto, pero no hay asociación directa.",
+        "C": "Esta es una opción de interferencia fácil: depende del conocimiento lingüístico común (la lectura de alta frecuencia enhance la confianza), ignora el contenido del gráfico, por ejemplo, la proporción del canal de sitios web oficiales de medios financieros es del 31.91% no alta, y la proporción de la dimensión Profesional y autorizado es media.",
+        "D": "Esta es una opción de interferencia fácil: se basa en el conocimiento común de la industria (los videos cortos mejoran la diversidad), no depende de los datos del gráfico, es una declaración general, no involucra las distribuciones específicas o proporciones de chart_108_1, chart_108_2 o chart_108_3.",
+        "E": "La opción 3 necesita combinar chart_108_1 (la proporción de los canales de sitios web oficiales de medios financieros y aplicaciones de medios financieros es baja) y chart_108_2 (la lectura de alta frecuencia es principal) y chart_108_3 (la proporción de 5 puntos de la dimensión Perspectiva internacional es relativamente alta), para revelar que incluso con poco uso de canales, el hábito de frecuencia mantiene la importancia de dimensiones específicas.",
+        "F": "La opción 2 necesita combinar chart_108_1 (la proporción del canal de radio y TV es media) y chart_108_2 (la proporción de leen todos los días es baja) y chart_108_3 (las proporciones de 2 puntos y 1 punto de la dimensión Reporte exclusivo son relativamente altas), para analizar cómo el uso de canales y la frecuencia reducen la prioridad de ciertas dimensiones.",
+        "G": "La opción 1 necesita combinar chart_108_1 (la proporción del canal de plataformas de información como Toutiao y Baidu Hao es alta) y chart_108_2 (la proporción de frecuencia de lectura de 4 - 5 veces a la semana es la más alta) y chart_108_3 (la proporción de 5 puntos de la dimensión Contenido rico es relativamente alta), para inferir que los canales y la frecuencia juntos elevan la importancia de dimensiones específicas."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     },
     {
@@ -152,6 +203,21 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Combinando el hecho de que en el gráfico chart_108_1 la proporción de los canales de sitios web oficiales y aplicaciones es relativamente baja, y en el gráfico chart_108_3 las puntuaciones de las dimensiones de 'Soporte de datos' y 'Análisis profundo' son altas, se indica que aunque pocos usuarios utilizan canales profesionales, valoran el contenido profesional. La asignación de recursos puede enfocarse en fortalecer los sitios web oficiales para mejorar la profesionalidad.",
+        "B": "Combinando el hecho de que en el gráfico chart_108_1 la proporción de los canales de redes sociales (Weibo/WeChat) y videos cortos (Douyin/Kuaishou) es la más alta, y en el gráfico chart_108_2 la proporción de usuarios de lectura frecuente (4 - 5 veces a la semana y todos los días) es dominante, se indica que estos canales son las principales entradas de los usuarios de lectura frecuente. Optimizar la distribución puede mejorar la cobertura y la participación.",
+        "C": "Esta es una opción de distracción fácil: La sugerencia es demasiado general, basada solo en conocimientos generales de marketing (como promocionar la marca para mejorar la influencia), sin combinar las preferencias específicas de los canales en el gráfico (como la alta proporción del 45.61% de Weibo/WeChat) o los datos de los hábitos de lectura. Carece de orientación de acción específica y es fácil de descartar por conocimiento general.",
+        "D": "Combinando el hecho de que en el gráfico chart_108_1 la proporción de las plataformas de información (Toutiao, etc.) y radio y TV es mediana pero estable, y en el gráfico chart_108_2 la frecuencia de lectura de los usuarios es mayormente varias veces a la semana, se indica que la actualización regular de contenido puede atraer a los usuarios. Al mismo tiempo, aunque la proporción de usuarios de lectura fragmentada es pequeña, aumentar la interactividad puede mejorar su participación.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente se utiliza los datos del gráfico chart_108_1 (la proporción de blogs financieros/sitios web personales es del 18.64%), pero se interpreta erróneamente la importancia del canal. La proporción de este canal es mucho más baja que la de las redes sociales y los videos cortos (ambos superan el 44%), y no se consideran los hábitos de lectura (el gráfico chart_108_2 muestra que los usuarios de lectura frecuente dependen de la información inmediata). La sugerencia de 'personalización de contenido profundo' contradice las necesidades de los usuarios de lectura frecuente y puede causar una asignación errónea de recursos.",
+        "F": "Esta es una opción de distracción difícil: Aparentemente se integran los datos del gráfico chart_108_1 (la proporción de Douyin/Kuaishou es del 44.08%) y del gráfico chart_108_2 (la lectura fragmentada es del 6.57%), pero se asocia erróneamente el canal con el comportamiento de lectura. La proporción del canal de videos cortos es alta y puede admitir una lectura no fragmentada, y reducir la inversión ignora su alta cobertura. Al mismo tiempo, la proporción del canal de radio y TV es del 34.32%, no es la más alta, y la sugerencia es contraria a la tendencia de los datos."
+      },
+      "easy_error": [
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -173,6 +239,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combinando el hecho de que en el gráfico chart_108_3 las puntuaciones de las dimensiones de 'Análisis profundo' y 'Perspectiva internacional' son altas, y en el gráfico chart_108_1 la proporción de los canales principales (como las redes sociales y los videos cortos) es alta, se indica que el contenido profesional debe adaptarse a los canales de alta cobertura para ampliar la influencia.",
+        "B": "Esta es una opción de distracción fácil: La sugerencia se basa en conocimientos generales de la industria periodística (la precisión es la base), sin citar las puntuaciones específicas de las dimensiones en el gráfico chart_108_3 (como la alta valoración del 43.53% de la actualización en tiempo real). La expresión es general y no tiene una estrategia prioritaria, y es fácil de descartar por conocimiento general.",
+        "C": "Combinando el hecho de que en el gráfico chart_108_3 la proporción de 5 puntos en las dimensiones de 'Actualización en tiempo real' y 'Soporte de datos' es la más alta, y en el gráfico chart_108_2 la proporción de usuarios de lectura frecuente es grande, se indica que las necesidades de los usuarios coinciden con el comportamiento de lectura. Los recursos deben invertirse prioritaria en estos aspectos para mejorar la satisfacción.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente se combinan los datos del gráfico chart_108_2 (el 21.93% de los usuarios leen 1 - 3 veces a la semana) y del gráfico chart_108_3 (la proporción de 5 puntos en el reporte exclusivo es del 29.39%), pero se asocia erróneamente la frecuencia de lectura con la preferencia de las características. La puntuación del reporte exclusivo no es la más alta (inferior a la actualización en tiempo real, etc.), y el comportamiento de los usuarios de frecuencia mediana no está vinculado a una dimensión específica en los datos, lo que puede inducir a una asignación errónea de recursos.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente se utilizan los datos del gráfico chart_108_3 (la proporción de 5 puntos en la interacción fuerte es la más baja, del 28.07%), pero se interpreta erróneamente las necesidades de los usuarios. Los usuarios valoran más la actualización en tiempo real (43.53%) y el soporte de datos (38.05%), y la frecuencia de lectura en el gráfico chart_108_2 (el 51.54% de los usuarios leen 4 - 5 veces a la semana) no respalda directamente la relación entre la interactividad y los usuarios de lectura frecuente. La sugerencia ignora las dimensiones de alta puntuación y la dirección de la estrategia es errónea.",
+        "F": "Combinando el hecho de que en el gráfico chart_108_3 las puntuaciones de las dimensiones de 'Nuevo formato' y 'Fuerte interacción' son bajas, pero en el gráfico chart_108_2 existe una proporción de usuarios de lectura fragmentada, se indica que la innovación en el formato puede mejorar la adhesión de este tipo de usuarios sin ignorar las necesidades de los usuarios de lectura frecuente."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -195,6 +276,21 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Combinando el hecho de que en el gráfico chart_108_1 la proporción de los canales de redes sociales y videos cortos es la más alta, y en el gráfico chart_108_3 las puntuaciones de las dimensiones de 'Actualización en tiempo real' y 'Soporte de datos' son altas, se indica que los canales de alta cobertura pueden contener contenido profesional para lograr un equilibrio entre cobertura y profesionalidad.",
+        "B": "Esta es una opción de distracción difícil: Aparentemente se utiliza los datos del gráfico chart_108_1 (la proporción de los proveedores profesionales de datos financieros es la más baja, del 13.27%), pero se interpreta erróneamente la necesidad de profesionalidad. El gráfico chart_108_3 muestra que las puntuaciones de 'Soporte de datos' (38.05%) y 'Análisis profundo' (35.96%) son altas. Reducir los recursos ignora el equilibrio. La sugerencia contradice el objetivo de 'equilibrar la cobertura y la profesionalidad'.",
+        "C": "Combinando el hecho de que en el gráfico chart_108_1 la proporción de los canales de sitios web oficiales y aplicaciones es mediana pero inferior a los canales principales, y en el gráfico chart_108_3 las puntuaciones de las dimensiones de 'Profesional y autorizado' y 'Reporte exclusivo' son altas, y en el gráfico chart_108_2 la proporción de usuarios de lectura frecuente es grande, se indica que los recursos deben enfocarse en fortalecer los sitios web oficiales para atender a los usuarios leales.",
+        "D": "Esta es una opción de distracción fácil: La sugerencia se basa en conocimientos generales de gestión (distribución equitativa de recursos), sin considerar las diferencias en la proporción de los canales en el gráfico chart_108_1 (por ejemplo, el 45.61% de las redes sociales vs el 13.27% de los canales profesionales) o las preferencias de las características en el gráfico chart_108_3. La expresión es general y no tiene prioridades, y es fácil de descartar.",
+        "E": "Esta es una opción de distracción difícil: Aparentemente se integran los datos del gráfico chart_108_1 (la proporción de periódicos/revistas es del 24.67%) y del gráfico chart_108_3 (la proporción de 5 puntos en la perspectiva internacional es del 35.96%), pero se asocia erróneamente el canal con la característica. La proporción de periódicos/revistas no es alta y no es un canal principal, y la perspectiva internacional no especifica una preferencia de canal. La sugerencia de 'proporcionar contenido de alta demanda en canales de baja cobertura' es ineficiente y puede reducir la influencia.",
+        "F": "Combinando el hecho de que en el gráfico chart_108_1 la proporción de los canales de radio y TV y periódicos/revistas es baja, y en el gráfico chart_108_2 existe una proporción de usuarios de lectura fragmentada, se indica que los canales tradicionales se pueden optimizar para ofrecer contenido ligero para cubrir una variedad de grupos de usuarios."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "E"
       ]
     }
   ]

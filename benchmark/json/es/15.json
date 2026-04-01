@@ -85,6 +85,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "此选项错误理解图表数值：Hunan GDP星级1星（最低），金牌14枚；Guangdong GDP星级10星（最高），金牌22枚，两者金牌差8枚（相对差距36%），GDP星级差9级（巨大差距），而选项声称'差距很小'错误；实际显示不一致。",
+        "B": "此选项基于常识错误：体育成就受经济资源（如训练设施和资金）影响，图表中Guangdong和Jiangsu GDP高金牌也高（B选项），但Hubei GDP低金牌高，表明经济因素不可忽略。",
+        "C": "此选项基于常识错误：经济发展水平与体育成就并非严格正比，图表中Hubei GDP星级低（2星）但金牌总数高（26枚），而Zhejiang GDP星级高（7星）金牌较低（16枚），显示不一致。",
+        "D": "选项2需比较两张图表中多个省份（如Guangdong、Jiangsu）的数据，发现经济与体育的正相关趋势。",
+        "E": "选项1需要联合奥运金牌总数图表（Hubei金牌数高）和GDP排名图表（Hubei GDP星级低），推理出不一致的原因，不能仅从单张图表得出。",
+        "F": "此选项错误比较差距：Hubei金牌26枚（GDP星级2星），Zhejiang金牌16枚（GDP星级7星），但Hubei GDP更低金牌更高，显示GDP与金牌非负相关；选项说'GDP越高金牌越低'错误，Zhejiang GDP高金牌较低是事实，但Hubei GDP低金牌高，整体关系复杂。",
+        "G": "选项3依赖Hunan在两张图表中的差异（GDP星级低但金牌数中等），推理非经济因素的作用。所有选项都基于数值比较和隐含联系，而非内部知识。"
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "选项2依赖分届图表中的高峰数据（Hubei第28届金牌数高）和总金牌图表的总量差异，分析趋势对总量的影响。",
+        "B": "此选项错误解读趋势：Zhejiang早期届次（23届2枚）高于Hubei（1枚），但后期如29届Zhejiang 4枚高于Hubei 4枚（持平），30届Zhejiang 4枚高于Hubei 2枚，显示Zhejiang后期提升；选项称'后期Hubei高于Zhejiang'错误（30届Hubei 2枚 vs Zhejiang 4枚），且Zhejiang总金牌低源于早期平稳而非衰退。",
+        "C": "此选项错误理解数值和差距：Hubei第28届金牌6枚，Zhejiang 1枚，差5枚；但总金牌差10枚（Hubei 26枚:1+1+3+4+6+4+5+2，Zhejiang 16枚:2+1+1+1+1+4+2+4），其他届次如27届（Hubei 4枚 vs Zhejiang 1枚）和30届（Hubei 2枚 vs Zhejiang 4枚）也贡献差距，选项误将单届差5枚等同于总差10枚。",
+        "D": "选项3结合总排名（Zhejiang进入TOP10）和分届稳定性（Zhejiang多届次金牌数相似），推理表现特征。所有选项都需跨图表数值分析，不能单凭一张图表推断。",
+        "E": "此选项基于常识错误：体育成就受省份资源投入影响（如A选项），图表中Zhejiang后期提升（29届4枚）可能源于政策，选项忽略此点。",
+        "F": "此选项基于常识错误：图表数据（chart_15_2）显示Hubei和Zhejiang金牌数波动（如Hubei 28届6枚后29届降为4枚），并非逐年增长；常识上，奥运表现受多种因素影响，可能波动。",
+        "G": "选项1需联合奥运金牌总数图表（Zhejiang总金牌数较低）和分届对比图表（Zhejiang后期届次金牌数增加），推理趋势变化的原因。"
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "此选项错误解读波动：Zhejiang 28届1枚（低），但30届4枚（高），Hubei 28届6枚（高）后30届2枚（低），但GDP Zhejiang 7星高于Hubei 2星；选项称'GDP越高表现越不稳定'错误，Zhejiang波动（1到4）和Hubei（6到2）类似，GDP差异大但波动程度无直接关联。",
+        "B": "选项3比较两张图表中两省的经济与表现差异（Hubei GDP低但表现好、Zhejiang GDP高但早期表现弱），分析弱相关性。每个选项都基于数值趋势的联合推理，确保强关联和区分度。",
+        "C": "选项2依赖分届图表中Hubei的高峰数据（第28届金牌数突出）和GDP图表中Hubei的低星级，发现冲突并解释原因。",
+        "D": "此选项基于常识错误：图表数据（chart_15_2和chart_15_3）显示冲突，如Hubei GDP低但在28届金牌6枚（高），Zhejiang GDP高但在28届仅1枚（低），GDP不直接决定每届表现。",
+        "E": "此选项错误理解数值：在26届，Hubei金牌3枚，Zhejiang 1枚（数据：Hubei 1,1,3,4,6,4,5,2对应届数；26届Hubei 3枚，Zhejiang 1枚），选项误说'相同3枚'错误；实际差异大（Hubei 3 vs Zhejiang 1），GDP星级2星 vs 7星，显示弱相关性。",
+        "F": "此选项基于常识错误：奥运表现受经济资源（如长期训练投入）影响，图表中Zhejiang后期提升（如29届4枚）可能与经济支持相关，选项忽略此点。",
+        "G": "选项1需要联合分届对比图表（Zhejiang早期金牌数低、后期高）和GDP排名图表（Zhejiang GDP星级高），推理GDP影响的滞后性，而非单张图表可得出结论。"
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: aparentemente se utilizan los datos de chart_15_1 y chart_15_3 (Guangdong tiene 22 medallas de oro y 10 estrellas de PIB), pero se deduce erróneamente que 'la ventaja económica se convierte directamente en eficiencia de medallas de oro'. En realidad, el gráfico muestra que las provincias con alta economía, como Guangdong, tienen muchas medallas de oro, pero la opción ignora el equilibrio regional (por ejemplo, Hubei tiene una economía baja pero 26 medallas de oro), y fortalecer a los más fuertes agudizará el desequilibrio, lo que entra en conflicto con el objetivo de la pregunta.",
+        "B": "Esta es una opción de distracción fácil: se basa en el conocimiento general de la industria (la cooperación internacional mejora el nivel), pero no se combina con los datos específicos de las provincias en el gráfico (por ejemplo, la tendencia de Hubei o Zhejiang), y no tiene una orientación clara para la asignación de recursos, por lo que puede ser eliminada por el conocimiento general.",
+        "C": "Involucra chart_15_1 (Guangdong, Jiangsu, etc. lideran en el total de medallas de oro olímpicas) y chart_15_3 (Guangdong y Jiangsu tienen las clasificaciones económicas más altas). Existe una correlación positiva entre la ventaja económica y el rendimiento deportivo, y la estrategia garantiza la eficiencia.",
+        "D": "Esta es una opción de distracción fácil: no se basa en los datos del gráfico, solo se basa en la idea general de 'asignación equitativa', pero ignora que la optimización de recursos y el equilibrio regional requieren estrategias específicas (por ejemplo, Hubei tiene una economía baja pero muchas medallas de oro), y la expresión es amplia sin indicaciones de acción específicas.",
+        "E": "Involucra chart_15_1 (Hubei tiene un total de medallas de oro relativamente alto y está entre las primeras posiciones) y chart_15_3 (Hubei tiene una clasificación económica baja y menos estrellas). Hubei ha tenido un buen rendimiento con recursos limitados, y la estrategia enfatiza la equidad y la explotación del potencial.",
+        "F": "Involucra chart_15_1 (Zhejiang y Sichuan tienen un total de medallas de oro medio) y chart_15_3 (Zhejiang tiene una clasificación económica media). El PIB de estas regiones proporciona una base, y los datos de medallas de oro tienen espacio para mejorar. La estrategia se centra en los beneficios marginales.",
+        "G": "Esta es una opción de distracción difícil: aparentemente se utilizan chart_15_1 (Hubei tiene 26 medallas de oro) y chart_15_3 (Hubei tiene 2 estrellas de PIB), pero se confunde la relación entre los datos. Se cree erróneamente que Hubei tiene un 'límite de potencial', cuando en realidad, el alto número de medallas de oro de Hubei indica un gran potencial; al mismo tiempo, se sugiere invertir en Sichuan (14 medallas de oro y 4 estrellas de PIB), pero los datos de Sichuan no muestran un espacio evidente de mejora, y se comprende mal los valores (el rendimiento de Hubei es mejor que el de Sichuan)."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: no se basa en el gráfico, se basa en el conocimiento general de 'aumentar la intensidad de entrenamiento', pero no se dirige a las tendencias específicas de Hubei y Zhejiang (por ejemplo, la fluctuación de Hubei o el aumento de Zhejiang), y no hay una estrategia diferenciada para las provincias, por lo que puede ser eliminada por el conocimiento general.",
+        "B": "Esta es una opción de distracción difícil: aparentemente se utilizan chart_15_2 (Hubei tiene 2 medallas de oro en la 30ª edición) y chart_15_3 (Hubei tiene 2 estrellas de PIB), pero se interpreta erróneamente la tendencia. En realidad, Hubei ha tenido picos históricos (6 medallas en la 28ª edición), y la disminución puede necesitar apoyo en lugar de reducir la inversión; al mismo tiempo, se ignora que Zhejiang tiene una economía alta (7 estrellas) pero una fluctuación en las medallas de oro (por ejemplo, 1 medalla en la 24ª edición), y se comprende mal la tendencia.",
+        "C": "Involucra chart_15_2 (el número de medallas de oro de Zhejiang aumentó significativamente en la 29ª edición) y chart_15_3 (Zhejiang tiene una clasificación económica mediana - alta). La tendencia ascendente se combina con la base económica, y la estrategia se centra en la captura de oportunidades.",
+        "D": "Se presenta como una sugerencia general (la exposición mediática atrae talentos), pero no se combina con la tendencia de medallas de oro de chart_15_2 o la clasificación económica de chart_15_3, y las indicaciones de acción son vagas y no están relacionadas con la pregunta.",
+        "E": "Involucra chart_15_2 (el número de medallas de oro de Hubei alcanzó un pico en la 28ª edición y luego fluctuó) y chart_15_3 (Hubei tiene una clasificación económica baja). La tendencia de fluctuación está relacionada con la debilidad económica, y la estrategia enfatiza el control de riesgos.",
+        "F": "Involucra chart_15_2 (comparación de las tendencias de medallas de oro entre Hubei y Zhejiang) y chart_15_3 (diferencias en las clasificaciones económicas de ambas). Los datos indican que Hubei tiene mucha experiencia pero una economía débil, y Zhejiang tiene una economía fuerte pero una tendencia nueva, y la estrategia promueve la cooperación.",
+        "G": "Esta es una opción de distracción difícil: aparentemente se cita la tendencia de chart_15_2 (tanto Hubei como Zhejiang tienen fluctuaciones), pero se confunde la relación. Se cree erróneamente que 'las fluctuaciones indican que no se necesita una estrategia específica', cuando en realidad, las diferencias económicas (2 estrellas de PIB de Hubei vs 7 de Zhejiang) y la tendencia (Zhejiang ha aumentado recientemente) requieren una estrategia personalizada, y hay una comprensión errónea de los valores."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "Involucra chart_15_2 (el número de medallas de oro de Zhejiang aumentó明显 en la 29ª edición) y chart_15_3 (Zhejiang tiene una clasificación económica mediana - alta), y también se refiere a chart_15_1 (Zhejiang tiene un total de medallas de oro medio). La tendencia se combina con la base, y la estrategia enfatiza la temporalidad.",
+        "B": "Involucra chart_15_1 (Sichuan y Hunan tienen un total de medallas de oro medianamente bajo) y chart_15_3 (tienen una clasificación económica mediana), y también chart_15_2 (Hubei fluctúa pero Zhejiang aumenta). Los datos indican que estas regiones tienen mucho potencial, y la estrategia optimiza la asignación de recursos.",
+        "C": "Esta es una opción de distracción fácil: es una sugerencia basada en el conocimiento general (deportes para todos), pero no se combina con ningún dato del gráfico (por ejemplo, las medallas de oro o la economía de provincias específicas), y la estrategia no tiene una orientación clara de inversión, por lo que puede ser eliminada.",
+        "D": "Involucra chart_15_1 (Guangdong y Jiangsu lideran en el total de medallas de oro) y chart_15_3 (tienen una clasificación económica alta), y también chart_15_1 (Hubei tiene muchas medallas de oro) y chart_15_3 (tiene una clasificación económica baja). La estrategia combina eficiencia y equidad y evita la concentración de recursos.",
+        "E": "Esta es una opción de distracción difícil: aparentemente se utilizan chart_15_1 (Jiangsu tiene 29 medallas de oro) y chart_15_3 (9 estrellas de PIB), pero se deduce erróneamente que 'la combinación indica una mejora inmediata'. En realidad, fortalecer a las provincias con alta economía (como Jiangsu) puede ignorar a las provincias con potencial, como Hubei (26 medallas de oro pero economía baja), y no se considera la tendencia (chart_15_2), y se comprende mal la relación.",
+        "F": "Esta es una opción de distracción difícil: aparentemente se cita la tendencia de chart_15_2 (Hubei tiene 2 medallas de oro en la 30ª edición) y chart_15_1 (Hubei tiene un total de 26 medallas de oro), pero se confunden los valores. Se cree erróneamente que 'las regiones en descenso tienen un alto riesgo y deben ser priorizadas', cuando en realidad, los picos históricos de Hubei indican un gran potencial, y la tendencia de Zhejiang está en aumento (4 medallas en la 29ª edición) debe ser valorada; se ignora la utilización eficiente de recursos (por ejemplo, invertir en provincias con tendencia ascendente es más eficiente).",
+        "G": "Esta es una opción de distracción fácil: no se basa en el gráfico, se basa en el conocimiento general de 'aumentar el presupuesto para mejorar el nivel', pero no se consideran las diferencias entre las provincias en el gráfico (por ejemplo, Hubei tiene una economía baja pero muchas medallas de oro), y la expresión es amplia sin una orientación de utilización eficiente."
+      },
+      "easy_error": [
+        "G",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     }
   ]

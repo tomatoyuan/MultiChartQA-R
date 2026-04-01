@@ -87,6 +87,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "(Hard) Incorrect comparison: The total sponsorship of official partners (Shell + TAG Heuer = 0.6 billion) is much lower than the total amount of title sponsors (4.165 billion), but the distractor reverses the size relationship.",
+        "B": "(Easy) Confusing income types: The media rights (1 billion) and title sponsor sponsorship (4.165 billion) have a huge difference in scale, but the distractor forcibly equates them.",
+        "C": "(Hard) Numerical understanding error: The actual proportion is 87%, but the distractor fabricates an extremely low proportion of 'less than 30%'.",
+        "D": "The commercial sponsorship income in the chart of the total revenue distribution of the Chinese Super League company can be calculated through the list of sponsors, and the sum in the chart of the sponsorship amounts of title sponsors is also close to it, which is highly close to the total commercial sponsorship income. This requires cross - chart calculation and comparison, and the implicit rule cannot be obtained from a single chart.",
+        "E": "(Easy) Generated only based on the common sense of 'diversified sponsorship sources', ignoring the fact that title sponsors account for 87% of commercial sponsorship in the chart.",
+        "F": "Relying on the joint reasoning of two charts, the chart of the sponsorship amounts of title sponsors lists the sponsorship amounts of Nike, JD.com, etc., which are the same as the corresponding sponsorship amounts in the chart of the total revenue distribution of the Chinese Super League company. After calculating the total and comparing it with the commercial sponsorship part, the dominant position of title sponsors can be inferred. A single chart only provides partial information.",
+        "G": "It is necessary to compare the chart of the total revenue distribution of the Chinese Super League company (listing the sponsorship amount of Ping An Insurance) and the chart of the sponsorship amounts of title sponsors (also listing the sponsorship amount of Ping An Insurance). The values match exactly, indicating that the data of title sponsors are consistent and of high importance. This consistency cannot be confirmed with only a single chart."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "It is necessary to combine the chart of the financial data of Chinese Super League clubs (expenditure on signing foreign players) and the chart of the total revenue distribution of the Chinese Super League company (total revenue and the proportion of media rights). The expenditure is much higher than the income, indicating that the conflict stems from the mismatch between expenditure items (such as foreign players) and income items (such as media rights). A single chart can only show data from one side.",
+        "B": "The chart of the total revenue distribution of the Chinese Super League company shows the commercial sponsorship income, while the chart of the financial data of Chinese Super League clubs shows the expenditure on signing foreign players. By comparing the values across charts, the sponsorship income is far lower than the expenditure on foreign players, revealing the imbalance. This requires joint reasoning for a direct comparison of expenditure and income.",
+        "C": "(Hard) Numerical fallacy: The media rights income (10 billion) is much lower than the expenditure on foreign players (34.3 billion), but the distractor reverses the situation and fabricates 'fully covered'.",
+        "D": "Relying on two charts, the chart of the financial data of Chinese Super League clubs shows the total investment and income composition, while the chart of the total revenue distribution of the Chinese Super League company shows that media rights income is the core. By comparison, it can be seen that the club's income is more diversified, but the company's income is concentrated. The structural difference explains the conflict. This structural comparison cannot be analyzed with only a single chart.",
+        "E": "(Easy) Common - sense error: The expenditure on signing foreign players (34.3 billion) clearly points to foreign players, not youth training, but the distractor deviates from the chart.",
+        "F": "(Easy) Fabricated mechanism: The chart does not mention ticket revenue sharing, and the 30.9 billion of 'business, transfers, tickets' of the club may include income. The distractor fabricates a causal relationship without basis.",
+        "G": "(Hard) Concept confusion: The 30.9 billion of the club may be income, but the company's total revenue of 15 billion is independently accounted for. The distractor forcibly compares them to create a contradiction."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Relying on the income trend chart (commercial sponsorship income in 2016) and the chart of the sponsorship amounts of title sponsors (sponsorship amounts of major sponsors). The amounts of title sponsors are large and the total is significant, which is consistent with the high commercial sponsorship income in 2016. It is necessary to compare the sponsorship values and trend values across charts.",
+        "B": "The income trend chart shows the resource swap income and its growth, while the chart of the total revenue distribution of the Chinese Super League company shows the proportion of other income. By comparison, it can be seen that although the resource swap income has increased, its proportion is small, and copyright and sponsorship are the main drivers of the sharp increase. This requires joint analysis of trend data and income distribution to find the implicit driving factors.",
+        "C": "(Easy) Attribution fallacy: The title sponsor chart does not mention the change in the number of sponsors, and the sponsorship income actually decreased. The distractor misleads with the common - sense of 'doubling the number'.",
+        "D": "(Hard) Proportion error: The resource swap income of 1.7 billion in 2016 only accounts for 11.3% of the total revenue of 15 billion, but the distractor exaggerates it to 30%.",
+        "E": "It is necessary to combine the income trend chart (copyright income in 2016) and the chart of the total revenue distribution of the Chinese Super League company (media rights income). The trend shows a sharp increase in 2016, and the media rights are the largest income source in the company's chart. The match between the two indicates that copyright income dominates the growth. A single chart cannot associate the time trend with the income structure.",
+        "F": "(Hard) Numerical tampering: The actual commercial sponsorship income in 2016 is 5 billion (lower than 8 billion in 2015), but the distractor fabricates 'increased to 12 billion' to create a false positive growth.",
+        "G": "(Easy) Groundless fabrication: None of the charts mention ticket income. The distractor fabricates an income source."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -156,6 +207,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Combining chart_22_1 (the value of foreign player signing expenses is extremely high, significantly exceeding half of the total investment) and chart_22_2 (the total revenue value is low, indicating that the overall income cannot cover the high expenses), it is inferred that the expenditure structure is imbalanced and needs to be optimized.",
+        "B": "This is a Hard distractor. On the surface, it uses the data from chart_22_1 (foreign player signing expenses of 34.3), but misinterprets it: the chart shows that foreign player signing expenses are higher than business income (30.9), and the total revenue (15 in chart_22_2) is far lower than the total investment (41), indicating an expenditure imbalance. Increasing investment in foreign players will exacerbate losses rather than improve the financial situation.",
+        "C": "This is a Hard distractor. On the surface, it quotes the business income (30.9) from chart_22_1, but misinterprets it: business income is the main source of income (accounting for a high proportion in the total revenue in chart_22_2), and the historical trend (fluctuations in business sponsorship income in chart_22_5) shows its potential. Reducing investment will overlook opportunities for income growth.",
+        "D": "This is an Easy distractor. Based on general business common sense (enhancing the brand can indirectly increase income), but there is no specific data support or action guidance, and it does not involve the financial data in the charts, so it cannot directly solve the problem of losses.",
+        "E": "Combining chart_22_1 (the income from business, transfers, and tickets is relatively high but still has room for improvement) and chart_22_5 (the historical trend of business sponsorship income shows fluctuations but overall growth potential), it is inferred that business development can strengthen the income foundation.",
+        "F": "This is an Easy distractor. It is a common - sense 'cost - cutting' strategy, but it is too broad and extreme and may damage the long - term development of the club; it does not quote chart data such as the total investment structure or income distribution.",
+        "G": "Combining chart_22_2 (sponsorship income accounts for the highest proportion in the total revenue, and multiple sponsors contribute) and chart_22_3 (the distribution of sponsorship amounts of title sponsors shows the co - existence of large and small sponsorships), it is inferred that diversified sponsorship can enhance stability."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -180,6 +248,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor. On the surface, it uses the data from chart_22_4 (Shell accounts for 0.2), but misinterprets it: the chart shows that the contribution of title sponsors (such as Ping An Insurance with 1.815 billion in chart_22_3) is far higher than that of official suppliers (Shell with 0.2 billion). Prioritizing suppliers will overlook high - value income sources, and the historical trend (fluctuations in sponsorship income in chart_22_5) does not support this strategy.",
+        "B": "This is an Easy distractor. Based on industry common sense (diversification can reduce risks), but there is no chart data support, and it does not target the specific sponsorship distribution of the Chinese Super League company (such as in chart_22_2 and 22_3). The strategy is too broad and non - operational.",
+        "C": "Combining chart_22_3 (the sponsorship amounts of some title sponsors are far higher than others) and chart_22_2 (sponsorship income is the main part of the total revenue, and large - scale sponsorships such as Ping An Insurance account for a prominent proportion), it is inferred that large sponsors play a leading role in income.",
+        "D": "This is an Easy distractor. It is a common - sense strategy of 'winning by quantity', but it may reduce unit income; it does not quote charts such as the distribution of sponsorship amounts (the significant differences in sponsorship amounts among sponsors in chart_22_3) and overlooks the goal of maximizing income.",
+        "E": "This is a Hard distractor. On the surface, it quotes the sponsorship amounts of small and medium - sized sponsors (such as Carlsberg with 0.2 billion in chart_22_2 and 22_3), but misinterprets it: large sponsors (Ping An Insurance with 1.815 billion) dominate income (accounting for a high proportion in the total sponsorship income of about 4.765 billion). The total contribution of small and medium - sized sponsors is relatively small. This strategy will underestimate the key role of large sponsors and may reduce total income.",
+        "F": "Combining chart_22_4 (official partners such as Hoya account for a significantly higher proportion) and chart_22_2 (the role of partner income in the total distribution), it is inferred that structural optimization can improve efficiency.",
+        "G": "Combining chart_22_2 (the contribution values of multiple small sponsors are low but the total is considerable) and chart_22_5 (the business sponsorship income has fluctuated in recent years, indicating the need for diversification to buffer risks), it is inferred that small and medium - sized sponsors can disperse risks."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -202,6 +287,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Combining chart_22_5 (the business sponsorship income decreased after reaching the peak but has an overall growth foundation) and chart_22_2 (sponsorship income is a key part of the total revenue), it is inferred that innovation is needed to cope with fluctuations.",
+        "B": "This is an Easy distractor. Based on general management common sense (technology can improve efficiency), but there is no chart data support, and it does not target the historical income trend (such as in chart_22_5). The strategy is too broad and lacks specific resource allocation guidance.",
+        "C": "This is a Hard distractor. On the surface, it uses the data from chart_22_5 (copyright income of 1 billion yuan in 2016), but misinterprets it: the trend shows that copyright income has exploded from 0.5 billion yuan in 2012, indicating great potential. Reducing investment will miss growth opportunities, and it dominates the total revenue in 2016 (1.5 billion yuan in chart_22_2).",
+        "D": "This is a Hard distractor. On the surface, it quotes the data from chart_22_5 (stable growth in resource swap income), but misinterprets it: the growth of resource swap income is slow (from 1 billion yuan in 2012 to 1.7 billion yuan in 2016), far lower than the growth rate of copyright income (1 billion yuan). Increasing investment will overlook high - growth areas (copyright) and potential fluctuation challenges.",
+        "E": "This is an Easy distractor. It is a common - sense expansion strategy, but it does not consider the income composition in the chart (such as the dominance of media copyright in chart_22_2) and may increase costs rather than directly address growth opportunities.",
+        "F": "Combining chart_22_5 (copyright income has risen sharply from a low level in the early stage to recent years) and chart_22_2 (media copyright income accounts for the highest proportion in the total revenue), it is inferred that the growth potential requires priority investment.",
+        "G": "Combining chart_22_5 (the value of resource swap income has increased steadily year by year) and chart_22_2 (the proportion of other income categories), it is inferred that its stability can serve as an income buffer."
+      },
+      "easy_error": [
+        "B",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

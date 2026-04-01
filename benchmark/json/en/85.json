@@ -84,6 +84,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: It seemingly relies on the charts (citing the 60% industrial proportion and hydrogen refueling station construction data), but misinterprets the numerical relationship. Although the industrial sector has a high proportion, hydrogen refueling stations are specialized infrastructure for transportation (such as vehicle fuel replenishment), while industrial hydrogen may be supplied through pipelines or fixed facilities without the need for hydrogen refueling stations. The growth of hydrogen refueling stations in the chart (chart_85_3) is more related to the expansion of the transportation field, but the distractor forcibly links the surge in construction (such as the number from 2019 - 2021) with industrial demand, ignoring the characteristics of the fields.",
+        "B": "This is an Easy distractor: It is based on industry common sense (such as the trend of green buildings), but wrongly ignores the fact that the construction and other fields only account for 9% in the chart (chart_85_2), and hydrogen refueling stations are mainly used for vehicle refueling, not for building heating or power. In common sense, the scale of hydrogen application in buildings is small, and this distractor can be identified as wrong without relying on the charts.",
+        "C": "It relies on the joint reasoning of the hydrogen utilization structure (where the industrial proportion is relatively large) and the hydrogen refueling station construction (the history of hydrogen refueling station construction). Although the industrial proportion is high, the function of hydrogen refueling stations is for vehicle refueling, not for industrial applications. Therefore, the growth in construction is more likely to respond to transportation demand rather than industrial demand. The reasoning requires comparing the structures and infrastructure types of the two charts.",
+        "D": "It relies on the joint reasoning of the hydrogen utilization structure (showing that transportation accounts for a certain proportion) and the history of hydrogen refueling station construction (showing a surge in the number after 2018). The utilization structure indicates the importance of the transportation field, and hydrogen refueling stations are specialized infrastructure for transportation. The predicted growth in demand starting from 2020 implies that this field needs more support. The reasoning requires combining the two charts.",
+        "E": "It relies on the joint reasoning of the hydrogen utilization structure (where the construction and other sectors account for a small proportion) and the hydrogen refueling station construction (the history of hydrogen refueling station construction). Although the proportion of the construction field is small, part of the growth in hydrogen refueling station construction may serve its distributed demand, but the dominant factor is still transportation (based on the proportion and facility function). The reasoning requires comprehensively evaluating the priorities of the two charts.",
+        "F": "This is an Easy distractor: It is misled by language common sense (such as the concept of 'general infrastructure'), but the chart shows that the hydrogen utilization structure is unbalanced (60% in industry, 31% in transportation, 9% in construction). Hydrogen refueling stations are specifically for transportation vehicles, not evenly distributed. This option is a general statement and can be easily excluded."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A"
       ]
     },
     {
@@ -106,6 +121,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a Hard distractor: It seemingly relies on the chart (citing the predicted demand rising to 130300,000 tons by 2060), but misinterprets the construction distribution. The construction of hydrogen refueling stations surged mainly from 2019 - 2021 (40, 47, 76 stations), much earlier than the high - demand period from 2040 - 2060 (chart_85_1), indicating that it is for future preparation rather than a response at the end. The distractor wrongly links the construction with the peak demand, ignoring the actual historical acceleration at the beginning of the prediction.",
+        "B": "It relies on the joint reasoning of the demand prediction (long - term growth in demand) and the construction history (a recent peak in construction). The peak in construction occurred at the beginning of the prediction, which may be aimed at coping with the rising demand (such as the starting point of demand in 2020), and the demand trend strengthens the rationality of investment. The reasoning requires comprehensively considering the phased characteristics of the two charts.",
+        "C": "This is a Hard distractor: It seemingly relies on the chart (citing the construction of 6 stations from 2006 - 2016 and the starting point of demand in 2020), but misinterprets the time sequence and the gap. The chart shows that the construction accelerated after 2017 (7 stations in 2017, 18 stations in 2018, etc.), and the demand prediction started from 33420,000 tons in 2020 (chart_85_1). The two partially overlapped from 2017 - 2020, indicating that the investment responded to early signals rather than being completely lagged. The distractor wrongly opposes the slow - growth period to the starting point of demand, exaggerating the lag.",
+        "D": "This is an Easy distractor: It is based on economic common sense (such as 'investment passively responds to demand'), but wrongly ignores the fact that infrastructure often needs to be built in advance. In common sense, energy investment is often pre - arranged, and this option can be refuted without relying on the charts.",
+        "E": "It relies on the joint reasoning of the demand prediction (the growth trend of demand prediction) and the construction history (the historical surge in construction). The surge in construction (from 2018 - 2021) partially overlapped with the starting period of the demand prediction (2020), indicating that the investment responded to the demand signal. The reasoning requires aligning the trends of the two charts.",
+        "F": "It relies on the joint reasoning of the demand prediction (showing growth starting from 2020) and the construction history (showing a sharp increase in the number after 2018). The acceleration of construction was earlier than the starting point of the demand prediction (2018 vs 2020), implying the law of 'infrastructure first'. The reasoning requires comparing the time sequences of the two charts.",
+        "G": "This is an Easy distractor: It generalizes industry common sense (such as 'policy - driven investment') but does not involve the chart data. In reality, policies affect investment, but this distractor does not combine the demand prediction or construction history and can be easily identified as one - sided."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -128,6 +160,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: It is misled by language common sense (such as the potential of smart cities), but the chart shows that the construction proportion is only 9%, and the absolute increase is the smallest (calculation: in 2020, the total demand was 33420,000 tons, and 9% for construction is about 3010,000 tons; in 2060, it was 130300,000 tons, and 9% for construction is about 11730,000 tons, an increase of 8720,000 tons), far lower than that of the industrial sector. This distractor is a general statement and can be easily identified as wrong.",
+        "B": "This is a Hard distractor: It seemingly relies on the fixed proportion and the overall growth of demand, but wrongly infers uniformity. The proportions in the chart are unbalanced (60% in industry, 31% in transportation, 9% in construction), and the absolute increase varies due to different bases (the industrial increase is the largest). This distractor wrongly equates the fixed proportion with equal increments, ignoring the difference in initial scales.",
+        "C": "It relies on the joint reasoning of the demand prediction (showing the total amount growing from a low point to a high point) and the hydrogen utilization structure (where the industrial proportion is relatively high). With a fixed and the highest proportion, combined with the growth of the total amount, it implies that the industrial absolute increase is the largest. The reasoning requires calculating the implied values (such as applying the proportion to the growth multiple of the total amount).",
+        "D": "This is a Hard distractor: It seemingly relies on the chart (citing the demand values and proportions in 2030 and 2060), but wrongly calculates and compares the increments. The actual calculation: in the industrial field, in 2020, 33420,000 tons × 60% = 20050,000 tons, in 2060, 130300,000 tons × 60% = 78180,000 tons, an increase of 58130,000 tons; in the transportation field, in 2020, 33420,000 tons × 31% ≈ 10360,000 tons, in 2060, 130300,000 tons × 31% ≈ 40400,000 tons, an increase of 30040,000 tons; the industrial increase is larger. This distractor wrongly uses 2030 as the starting point (instead of 2020) and miscalculates the industrial increment (from 22290,000 tons to 78180,000 tons, an increase of 55890,000 tons, still larger than that of transportation), distorting the ranking.",
+        "E": "It relies on the joint reasoning of the demand prediction (the growth trend of demand) and the hydrogen utilization structure (where transportation accounts for a certain proportion). The proportion is the second - highest but fixed, and the overall increase in demand drives a significant absolute increase in transportation (although smaller than that of the industrial sector). The reasoning requires comparing the proportions and growth amplitudes of the two charts.",
+        "F": "This is an Easy distractor: It is based on industry common sense (such as the transformation of electric vehicles), but wrongly ignores the fact that transportation only accounts for 31% in the chart (chart_85_2), while the industrial sector dominates with 60%. In common sense, the increase in transportation is secondary to that of the industrial sector, and this option can be excluded without relying on the charts.",
+        "G": "It relies on the joint reasoning of the demand prediction (the overall increase in demand) and the hydrogen utilization structure (where the construction proportion is relatively small). Although the proportion is the smallest, the growth in demand still brings a positive absolute increase (just relatively small). The reasoning requires comprehensively evaluating the impact of the proportion on the increment of the two charts."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -151,6 +200,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This is an Easy distraction: It doesn't rely on any chart data and is only based on general industrial common sense (e.g., education and publicity can enhance awareness). However, the statement is broad, without specific guidance on priority areas. It cannot maximize economic and social benefits in a targeted way and ignores the chart basis of demand structure and growth trend.",
+        "B": "This is a Hard distraction: It seemingly uses chart_85_1 (demand forecast) and chart_85_2 (application structure), but misinterprets them. The construction sector only accounts for 9%. The demand growth is overall data rather than data by sector, and there is no evidence to support its 'explosive potential'. In fact, the industrial (60%) and transportation (31%) sectors are dominant. Prioritizing investment in the small - proportion sector will waste resources.",
+        "C": "Option 2 involves chart_85_2 (transportation accounts for 31%, a relatively high proportion), chart_85_1 (demand growth trend), and chart_85_3 (the construction of hydrogen refueling stations accelerated after 2019). Reasoning: Combining the structural proportion and demand trend, the accelerated construction of hydrogen refueling stations supports transportation applications.",
+        "D": "Option 3 involves chart_85_2 (construction and other sectors account for 9%, a small proportion but exist) and chart_85_1 (overall demand growth trend). Reasoning: Moderate investment in small - proportion sectors is needed to prevent imbalance, which conforms to the inclusive value.",
+        "E": "Option 1 involves chart_85_2 (the industrial sector accounts for 60%, the highest proportion) and chart_85_1 (demand has increased significantly from 2020 to 2060, especially accelerating after 2040). Reasoning: High - proportion sectors need priority investment to match the growth trend.",
+        "F": "This is a Hard distraction: It seemingly combines chart_85_3 (construction of hydrogen refueling stations) and demand trend, but confuses the logic. The increase in the number of constructions (e.g., 76 stations in 2021) does not mean a surge in current demand (in chart_85_1, the demand in 2020 was only 33.42 million tons, with a gentle growth). Over - emphasizing transportation and ignoring the industrial sector (60% share) will lead to misallocation of resources.",
+        "G": "This is an Easy distraction: It is based on common - sense logic (the private sector can share risks), but does not cite the charts. It also goes against the role of the government in promoting emerging industries, which may lead to inefficient resource allocation and cannot cope with the demand growth (such as the long - term accelerating trend shown in chart_85_1)."
+      },
+      "easy_error": [
+        "A",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -174,6 +240,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is a Hard distraction: It seemingly uses chart_85_1 (demand forecast) and chart_85_3 (construction history), but misinterprets the trend. The demand will only accelerate after 2040 (e.g., 96.9 million tons in 2050). The demand growth was gentle in the early construction period (e.g., from 2020 to 2030), and the slow historical construction (from 2017 to 2020) does not mean that acceleration is needed. This will lead to excessive early investment, which does not match the later demand.",
+        "B": "This is a Hard distraction: It seemingly combines chart_85_2 (application structure) and chart_85_1 (demand forecast), but confuses the relationship. The construction sector only accounts for 9%, and there is no data indicating high regional demand. In fact, transportation (31%) and industry (60%) in the chart need more support from hydrogen refueling stations. Incorrect deployment will reduce the utilization rate of facilities.",
+        "C": "Option 1 involves chart_85_1 (demand growth accelerates from 2040) and chart_85_3 (the construction of hydrogen refueling stations accelerated after 2019). Reasoning: The construction trend needs to match the demand acceleration period to maximize resource efficiency.",
+        "D": "This is an Easy distraction: It only starts from technical efficiency, does not cite chart data, and the statement is broad (e.g., 'advanced automation'). There is no specific deployment strategy (e.g., time or region), and it cannot optimize the demand growth (chart_85_1) or construction history (chart_85_3).",
+        "E": "Option 3 involves chart_85_3 (the construction of hydrogen refueling stations accelerated after 2017, especially reaching a peak in 2021) and chart_85_1 (long - term demand growth trend). Reasoning: Historical construction experience guides phased investment to avoid waste from premature investment.",
+        "F": "Option 2 involves chart_85_2 (industry accounts for 60% and transportation accounts for 31%, with a high combined proportion) and chart_85_1 (overall demand growth trend). Reasoning: Geographical concentrated deployment in high - proportion sectors can directly serve the main demand sources.",
+        "G": "This is an Easy distraction: It does not rely on the charts and is based on general fairness common sense. However, it ignores the accelerating trend of demand forecast (chart_85_1) and regional concentration (e.g., industrial clusters), which will lead to resource waste and low utilization rate and cannot efficiently match the demand."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -197,6 +280,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This is an Easy distraction: It only starts from the policy perspective, does not cite the charts, and the statement is broad (e.g., 'long - term subsidies'). There are no specific stage or area actions, and it cannot optimize the strategy in combination with the infrastructure trend (such as the accelerated construction in chart_85_3).",
+        "B": "This is an Easy distraction: It does not rely on the charts and is based on general risk - management common sense. However, it ignores the multi - stage demand growth (accelerating in the later stage of chart_85_1) and application structure (the industry dominates with 60% in chart_85_2). Balanced investment cannot efficiently respond to the trend changes.",
+        "C": "Option 2 involves chart_85_3 (the construction of hydrogen refueling stations accelerated after 2018, with a sharp increase in the number) and chart_85_2 (transportation accounts for 31%, an important part). Reasoning: The accelerating construction trend supports the expansion of transportation applications, matching the demand proportion.",
+        "D": "This is a Hard distraction: It seemingly uses chart_85_1 (demand forecast) and chart_85_2 (application structure), but makes a wrong inference. The construction sector has a small proportion (9%), and the demand growth is overall data. There is no evidence by sector to support 'rapid expansion'. In fact, the chart shows that the initial focus should be on industry and transportation (91% in total). Prioritizing small - proportion sectors will delay the industrial infrastructure construction.",
+        "E": "Option 3 involves chart_85_2 (construction and other sectors account for 9%) and chart_85_1 (long - term demand growth trend). Reasoning: Long - term attention to small - proportion sectors is needed to prevent the loss of opportunities, which conforms to the values of innovation and balance.",
+        "F": "Option 1 involves chart_85_2 (industry and transportation together account for 91%, in a dominant position) and chart_85_1 (demand has been continuously growing from 2020 to 2060). Reasoning: High - proportion sectors should be developed first to take advantage of the growth trend and lay the industrial foundation.",
+        "G": "This is a Hard distraction: It seemingly combines chart_85_3 (construction history) and chart_85_2 (application structure), but misinterprets the trend. The accelerating construction (e.g., 76 stations in 2021) does not mean that the transportation sector is sufficient. In the demand forecast (chart_85_1), the transportation proportion is 31% and the growth is continuous. Ignoring transportation will miss emission - reduction opportunities, and the infrastructure needs continuous expansion."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     }
   ]

@@ -85,6 +85,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "需要联合 chart_58_1（Agencias de viajes广告指数2025年913.2 vs. 2024年895.0，小幅增长；Oficinas de turismo 149.1 vs. 137.1，增长）和 chart_58_3（2025年周用户设备数如4月第1周4039.3万台 vs. 2024年3500.2万台，整体更高）。推理聚焦于广告小幅增长与用户整体提升的关联，而非单一峰值。",
+        "B": "此选项是Easy干扰项，基于常识：季节性因素可能影响用户行为，但图表显示2025年广告投入变化（如Parques/Parques de diversiones广告大幅增长）与用户活动上升趋势部分重合（chart_58_1和chart_58_3），问题焦点是广告与用户活动的潜在协同，此选项完全忽略广告作用，因此错误。",
+        "C": "需要联合 chart_58_2（2025年4月26 - 30日广告指数较高，如4月26日132.1）和 chart_58_3（2025年4月第4周用户设备数4232.3万台，高于前几周）。推理基于广告投入时机（假期前）与用户活动周趋势的匹配。",
+        "D": "需要联合 chart_58_1（Parques/Parques de diversiones 2025年广告指数585.6 vs. 2024年169.2，增长显著）和 chart_58_3（2025年4月第3周用户设备数4409.0万台 vs. 2024年3616.5万台，增长明显）。推理依赖于比较特定类别广告增长与用户活动周趋势的同步变化。",
+        "E": "此选项是Hard干扰项，错误解读图表数据：chart_58_1显示Parques/Parques de diversiones广告增长246.1%，但chart_58_3用户活动增长仅21.9%（4409.0 vs 3616.5），比例差距巨大（246% vs 22%）；此外，用户活动是周数据而非假期周直接对应，协同效应需更细致分析（如时间关联），此选项夸大相似性，因此错误。",
+        "F": "此选项是Easy干扰项，基于常识：广告通常能提升用户参与，但图表数据显示Hoteles广告投入下降时用户活动上升（chart_58_1和chart_58_3），表明并非所有类别广告增长都直接导致用户活动提升，因此错误。",
+        "G": "此选项是Hard干扰项，错误解读图表数据：chart_58_2提供每日广告指数，但chart_58_3用户活动是周数据（如4月第4周覆盖22 - 28日），2025年5月1日（假期开始）广告高，但用户活动\"周\"包含多天，并非直接对应单日；2024年用户活动在4月第4周3628.3，但5月1日广告低，数据不支撑\"完全同步\"，因此错误。"
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "需要联合 chart_58_1（广告数据仅限五一假期周）和 chart_58_3（用户数据涵盖4月第1 - 5周）。推理基于时间范围差异：用户活动上升可能源于整个节日前周期，而广告下降仅反映假期周局部。",
+        "B": "此选项是Easy干扰项，基于常识：APP优化可能提升用户活动，但图表显示其他广告类别（如Parques/Parques de diversiones广告）增长（chart_58_1），可能与用户活动上升相关，此选项完全忽略广告作用，因此错误。",
+        "C": "此选项是Hard干扰项，错误解读图表数据：chart_58_3用户活动覆盖4月1日至5月5日（包括清明节），但chart_58_1 Hoteles广告仅针对五一假期周（5月1 - 5日），干扰项错误假设清明节广告投入高，但图表未提供清明节广告数据；实际用户活动上升可能与Parques/Parques de diversiones广告在假期前增长（chart_58_2）相关，此选项虚构因果关系，因此错误。",
+        "D": "需要联合 chart_58_1（Hoteles广告指数2025年70.6 vs. 2024年89.2，下降20.9%；Parques/Parques de diversiones广告增长246.1%）和 chart_58_3（2025年用户设备数整体更高，如4月第2周4230.8万台 vs. 2024年3726.2万台）。推理依赖于广告类别间的补偿效应：一个类别下降，但另一个大幅增长可能主导用户行为。",
+        "E": "此选项是Hard干扰项，错误解读图表数据：chart_58_1显示Hoteles广告下降20.9%，但chart_58_3用户活动在4月第5周增长10.2%（3966.2 vs 3598.8），此选项错误归因\"广告下降提升活动\"，实际用户活动整体上升可能源于Parques/Parques de diversiones广告大幅增长（chart_58_1）或其他因素，数据不支持反向因果关系，因此错误。",
+        "F": "此选项是Easy干扰项，基于常识：用户多渠道获取信息可能弱化广告影响，但问题焦点是解释广告与用户活动的表面冲突，此选项未结合图表数据（如其他类别广告补偿），因此错误。",
+        "G": "需要联合 chart_58_1（Agencias de viajes广告小幅增长2.0%；Oficinas de turismo增长8.8%）和 chart_58_3（2025年用户数据如4月第3周4409.0万台，显著增长）。推理聚焦于多个广告类别的联合影响，而非孤立看待Hoteles数据。"
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "需要联合 chart_58_2（2024年5月1日广告指数66.7，较低；2025年5月1日119.5，较高）和 chart_58_3（2024年4月第5周用户设备数3598.8万台，较前周下降；2025年3966.2万台，较稳定）。推理依赖于比较年份间广告强度与用户活动变化的因果关系。",
+        "B": "需要联合 chart_58_2（2025年5月1 - 5日广告指数波动较小，如119.5至136.2；2024年同期波动大，如66.7至101.1）和 chart_58_3（2025年用户周数据增长更平缓，如4月第3 - 4周4409.0至4232.3万台；2024年波动更大）。推理聚焦于广告稳定性与用户行为一致性的隐含联系。",
+        "C": "此选项是Hard干扰项，错误解读图表数据：chart_58_2显示2025年4月29日广告指数120.4（低于2024年130.0），但chart_58_3用户活动2025年4月第4周4232.3（高于2024年3628.3），此选项错误声称\"更高广告导致更高活动\"，实际2025年广告略低而用户更高，数据不支持直接因果关系；用户活动为周平均，无法对应单日，因此错误。",
+        "D": "此选项是Hard干扰项，错误解读图表数据：chart_58_2显示2025年5月1 - 5日广告指数均高于119.5，2024年同期低于66.7，但chart_58_3用户活动在4月第5周（覆盖假期）2025年3966.2和2024年3598.8，增长率约10.2%，波动性未明确（周数据为单点值）；干扰项虚构\"波动小\"和\"一致性\"，但数据未提供用户活动日波动，因此错误。",
+        "E": "需要联合 chart_58_2（2025年4月26 - 30日广告指数较高，如4月26日132.1、4月30日88.9）和 chart_58_3（2025年4月第4周用户设备数4232.3万台，为周峰值）。推理基于广告在假期前集中投放与用户活动周峰值的时序匹配。",
+        "F": "此选项是Easy干扰项，基于常识：广告提前投放可能提升参与，但图表显示2024年假期前广告高时用户活动在4月第4周3628.3（chart_58_3）相对低，2025年类似但用户高，表明并非\"总能\"提升，因此错误。",
+        "G": "此选项是Easy干扰项，基于常识：假期事件可能驱动行为，但图表显示广告在假期前趋势变化（如chart_58_2中2025年4月26日广告高）与用户活动上升（chart_58_3中4月第4周4232.3）部分重合，此选项完全否认广告作用，因此错误。"
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Inferir conjuntamente chart_58_2 (el índice de publicidad fue alto del 26 al 30 de abril de 2025, como 132.1 y 120.0, lo que muestra un pico de inversión en la segunda mitad de la semana anterior) y chart_58_3 (el número de dispositivos de usuarios fue alto en la tercera y cuarta semana de abril de 2025, como 44.090.000 y 42.323.000, lo que indica un período de aumento de la actividad de los usuarios).",
+        "B": "(Difícil) Utilizar superficialmente los datos de chart_58_2 (el índice fue 66.7 el 1 de mayo de 2024), pero interpretar erróneamente: este bajo índice refleja el fracaso de la estrategia en 2024 (el índice en el mismo período de 2025 fue 119.5, lo que muestra un buen efecto), y sugerir reducir la inversión sería contraproducente.",
+        "C": "(Difícil) Combinar los datos de actividad de los usuarios de chart_58_3 (la actividad de los usuarios disminuyó en la quinta semana de abril), pero relacionar erróneamente: la disminución de la actividad de los usuarios indica una disminución del interés, aumentar la inversión en publicidad es poco eficiente y se ignora que chart_58_2 muestra que una inversión alta antes de las vacaciones es más efectiva.",
+        "D": "Inferir conjuntamente chart_58_2 (el índice de publicidad cayó bruscamente después del 1 de mayo de 2024, como de 66.7 a 62.9, mientras que se mantuvo alto en 2025) y chart_58_3 (la actividad de los usuarios no disminuyó significativamente durante la semana de vacaciones, y todavía había 39.662.000 dispositivos en la quinta semana de abril de 2025).",
+        "E": "(Fácil) Esta opción se basa en conocimientos generales de marketing (construcción a largo plazo de la marca), pero ignora el enfoque del problema, es decir, la \"estrategia de inversión diaria en publicidad\" y la tendencia de pico antes de las vacaciones mostrada en los gráficos. No es específica y es demasiado general.",
+        "F": "Inferir conjuntamente chart_58_2 (el índice de publicidad se mantuvo alto del 1 al 5 de mayo de 2025, como de 119.5 a 136.2) y chart_58_3 (el número de dispositivos de usuarios se mantuvo estable en 42.323.000 y 39.662.000 en la cuarta y quinta semana de abril de 2025, lo que refleja una demanda continua durante las vacaciones).",
+        "G": "(Fácil) Esta opción se basa en conocimientos generales (momento de la decisión del usuario), pero viola los datos de los gráficos (chart_58_2 muestra que una inversión alta antes de las vacaciones en 2025 fue muy efectiva) y no hay datos para respaldarla, por lo que es fácil de descartar."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "B",
+        "C"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Inferir conjuntamente chart_58_1 (una ligera aumento en la inversión en publicidad de las agencias de viajes y las oficinas de turismo) y chart_58_3 (la actividad de los usuarios aumentó significativamente en la segunda y tercera semana de abril, como de 42.308.000 a 44.090.000, lo que indica que es necesario coincidir con el momento).",
+        "B": "(Difícil) Combinar los datos de actividad de los usuarios de chart_58_3 (la actividad de los usuarios fue alta en la primera semana de abril), pero relacionar erróneamente: la actividad de los usuarios se refiere a la aplicación de espectáculos culturales y no está directamente relacionada con la asignación del presupuesto de publicidad turística; el enfoque del problema son los sectores turísticos, no los canales.",
+        "C": "Inferir conjuntamente chart_58_1 (un gran aumento en la inversión en publicidad de los parques/parques de diversiones año tras año) y chart_58_3 (el número de dispositivos de usuarios aumentó en general en abril de 2025, como 44.090.000 en la tercera semana, lo que refleja un aumento de la demanda).",
+        "D": "(Fácil) Esta opción se basa en conocimientos generales de la industria turística (la importancia de los hoteles), pero viola los datos de chart_58_1 (la inversión en publicidad de los hoteles disminuyó un 20,9% año tras año, lo que indica un efecto más débil) y no hay respaldo de la respuesta de los usuarios.",
+        "E": "Inferir conjuntamente chart_58_1 (una disminución en la inversión en publicidad de los hoteles año tras año) y chart_58_2 (la tendencia de publicidad de los parques/parques de diversiones muestra un período eficiente, como una alta inversión antes de las vacaciones en 2025), y al mismo tiempo, es coherente con los valores: reducir el presupuesto se basa en datos, no en discriminación, y se enfatiza la redistribución de recursos a áreas más eficientes.",
+        "F": "(Difícil) Utilizar superficialmente los datos de chart_58_1 (el índice de las agencias de viajes fue 913,2), pero interpretar erróneamente: una alta base no significa un alto crecimiento o una alta eficiencia (el crecimiento fue solo del 2,0%), y se ignora la tendencia de los usuarios (chart_58_3 muestra que el pico de actividad fue en la segunda y tercera semana de abril), y la sugerencia causaría un desperdicio de recursos.",
+        "G": "(Fácil) Esta opción se basa en conocimientos generales de gestión (asignación equitativa), pero ignora los datos de los gráficos (chart_58_1 muestra grandes diferencias de crecimiento entre los sectores, como un crecimiento del 246,1% en los parques/parques de diversiones frente a una disminución del 20,9% en los hoteles), y no optimiza la eficiencia."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -195,6 +280,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "(Difícil) Utilizar los datos de actividad de los usuarios de chart_58_3 (la actividad de los usuarios disminuyó en la quinta semana de abril), pero aplicar erróneamente: el enfoque del problema es la \"coincidencia con el pico de interés de los usuarios\", y sugerir invertir en un período de disminución es poco eficiente; y se ignora que chart_58_2 muestra que el efecto de la inversión después de las vacaciones no está comprobado.",
+        "B": "(Fácil) Esta opción se basa en principios generales de publicidad (coherencia), pero ignora el núcleo del problema, es decir, la \"coincidencia precisa con el pico periódico\" y no hay datos de los gráficos para respaldarla, por lo que es demasiado general.",
+        "C": "Inferir conjuntamente chart_58_3 (el número de dispositivos de usuarios aumentó de 42.308.000 a 44.090.000 en la segunda y tercera semana de abril de 2025, lo que muestra un rápido aumento) y chart_58_2 (el índice de publicidad fue bajo del 23 al 25 de abril de 2025, como de 71.7 a 101.1, lo que indica que hay espacio para una inversión anticipada).",
+        "D": "(Fácil) Esta opción se basa en conocimientos generales (prueba de bajo costo), pero viola la lógica del comportamiento de los usuarios (el efecto es malo cuando la actividad es baja) y no utiliza las tendencias de los gráficos, por lo que es fácil de descartar.",
+        "E": "Inferir conjuntamente chart_58_3 (el número de dispositivos de usuarios disminuyó a 39.662.000 en la quinta semana de abril de 2025) y chart_58_1 (los sectores con un aumento en la inversión en publicidad son más eficientes en general, como el gran aumento en los parques), y evitar una inversión ineficaz.",
+        "F": "Inferir conjuntamente chart_58_3 (el número de dispositivos de usuarios alcanzó un pico de 44.090.000 en la tercera semana de abril de 2025) y chart_58_2 (el índice de publicidad fue alto del 26 al 28 de abril de 2025, como de 132.1 a 102.0, lo que muestra que una inversión en el pico es efectiva).",
+        "G": "(Difícil) Combinar superficialmente los datos de chart_58_2 y chart_58_3, pero interpretar erróneamente: el período de alta actividad de los usuarios (la primera semana de abril) es el mejor momento para invertir en publicidad, y reducir la inversión se perdería la oportunidad; un bajo índice de publicidad (del 22 al 24 de abril) refleja un problema de estrategia, no de demanda de los usuarios."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

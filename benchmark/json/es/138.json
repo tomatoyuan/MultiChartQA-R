@@ -85,6 +85,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误解读图表趋势。chart_138_2中verduras产量持续增长（2020年74912.9万吨到2021年77549.0万吨，增幅3.5%），并非增速放缓；同时carne产量增幅明显（16%），选项却误判为“恢复缓慢”，与数据矛盾。",
+        "B": "食材产量图表中verduras产量在2020 - 2021年持续增长，而市场规模图表中2021年市场规模恢复增长。这暗示verduras作为主要食材的稳定供应缓冲了市场冲击，需结合两图表趋势分析。",
+        "C": "这是一个Easy干扰项：基于常识（如疫情期间常见的经济刺激政策），不依赖图表数据。图表中没有提到政策因素，纯属一般知识推断。",
+        "D": "食材产量图表中productos acuáticos产量变化较小，而市场规模图表中除2020年外，其他年份波动温和。这体现了productos acuáticos供应的稳定性对市场韧性的贡献，依赖两图表对比。",
+        "E": "这是一个Hard干扰项：错误理解图表数据。chart_138_2显示productos acuáticos产量从2020年6549万吨增至2021年6690万吨，增幅仅2.2%，远低于市场规模反弹的18%（chart_138_1）。选项夸大了其作用，忽略carne产量显著回升（7748.4万吨到8990.0万吨，增幅16%）才是更直接因素。",
+        "F": "这是一个Easy干扰项：基于行为经济学常识（储蓄释放导致消费反弹），不涉及图表中的具体数值，如市场规模或食材产量。",
+        "G": "市场规模图表显示2020年市场规模同比下降，但2021年同比增长；食材产量图表显示2020年carne产量下降，2021年carne产量大幅回升。这揭示了carne供应链恢复与市场规模反弹的关联，不能仅从一张图表推断。"
+      },
+      "easy_error": [
+        "C",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -107,6 +124,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于经济学常识（供应过剩导致价格下跌和增产），不涉及图表中的具体数值或关系。",
+        "B": "这是一个Hard干扰项：错误理解图表数值。chart_138_2中carne产量2020年为7748.4万吨，较2019年7758.8万吨微降0.1%，并非“显著增长”。选项误读数据，制造虚假矛盾。",
+        "C": "市场规模图表显示2020年市场规模同比下降，表明需求萎缩；但食材产量图表中verduras产量在2020年增长。这冲突需结合两图表解释——需求侧（市场规模）和供给侧（产量）的失衡，不能仅从单张图表看出。",
+        "D": "市场规模图表的下降反映堂食减少，而食材产量图表的verduras增长可能源于家庭火锅需求上升。这需跨图表推断行为变化（如消费场景转移），是隐含联系。",
+        "E": "食材产量图表中2020年carne产量下降，与市场规模图表的下降趋势匹配；但verduras产量增长形成反差。这需联合分析食材类型差异对市场的影响（如替代效应），依赖两图表数据。",
+        "F": "这是一个Easy干扰项：基于环境常识（气候影响农业），不依赖图表内容。图表未提及气候因素，纯属外部知识。",
+        "G": "这是一个Hard干扰项：错误解读图表数据和因果关系。chart_138_2显示verduras产量确实增加，但chart_138_1中市场规模下降主因是需求端冲击（如疫情限制外出），选项却误将产量增加视为必然驱动增长，忽略供需脱节的可能性。"
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     },
     {
@@ -129,6 +163,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Easy干扰项：基于商业常识（高线城市消费力高），不依赖图表数据。图表未提供消费力比较，纯属一般推断。",
+        "B": "这是一个Hard干扰项：错误关联图表数据。chart_138_3显示Haidilao低线占比较低，但chart_138_1的市场规模预测未分城市层级（仅整体增长4.3%），选项却假设“低线城市增长最快”，无数据支持；实际预测增长放缓，可能更依赖高线市场。",
+        "C": "这是一个Easy干扰项：基于营销常识（品牌知名度促进增长），不涉及门店分布或市场规模的具体数值。",
+        "D": "品牌门店分布图表中Xiaolongkan在四线和五线门店占比高；市场规模图表显示整体增长趋势稳定，隐含低线城市潜力。这需跨图表分析“下沉市场”策略与增长协同，依赖两图表趋势。",
+        "E": "品牌门店分布图表显示Haidilao在一线和新一线门店占比合计近50%；市场规模图表预测2023年后持续增长。这需联合推断高线城市作为增长驱动，不能仅从分布或预测单方面得出。",
+        "F": "品牌门店分布图表中Haidilao和Xiaolongkan在二线城市占比均超20%；市场规模图表预测增长率虽放缓但仍为正。这需联合推断二线城市作为平衡点，支持行业韧性，是隐含联系。",
+        "G": "这是一个Hard干扰项：错误比较数值差距。chart_138_3中Xiaolongkan二线占比24.0% vs Haidilao 21.7%，差距仅2.3%，不显著；同时chart_138_1预测整体增长放缓（7.5%到4.3%），未强调二线为引擎。选项夸大差距和趋势，误读数据。"
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -151,6 +202,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "La opción C se basa en que la producción de productos acuáticos en el gráfico chart_138_2 es relativamente estable (con poca fluctuación) y en la previsión de que la tasa de crecimiento del tamaño del mercado en el gráfico chart_138_1 se desacelera gradualmente (por ejemplo, la previsión de crecimiento en 2024 es baja). A partir de esto, se infiere que la presión en el lado de la demanda es baja y que es adecuado implementar una estrategia de control de costos.",
+        "B": "Esta sugerencia ignora el contenido de los gráficos y se basa en conocimientos generales de globalización (por ejemplo, “ingredientes importados”). Sin embargo, los gráficos no contienen datos de importación, y la tendencia de producción de ingredientes domésticos ya muestra estabilidad (por ejemplo, el crecimiento de las verduras). Esta estrategia carece de fundamentos y puede aumentar los costos.",
+        "C": "Aparentemente se utilizan los gráficos (chart_138_1 y chart_138_2): la producción de carne aumentó en 2021, pero el gráfico muestra que la producción de carne tiene grandes fluctuaciones (por ejemplo, cayó a 7758.8 (10,000 toneladas) en 2019), lo que significa una oferta inestable. Al mismo tiempo, el tamaño del mercado aumentó en 2021 pero cayó un 20% en 2020. Priorizar las compras puede aumentar el riesgo de costos (la estrategia correcta B es bloquear contratos por adelantado en lugar de priorizar las compras).",
+        "D": "La opción A combina el crecimiento constante anual de la producción de verduras en el gráfico chart_138_2 (por ejemplo, un aumento continuo de 2016 a 2022) y la tendencia general de crecimiento del tamaño del mercado en el gráfico chart_138_1 (aunque hubo una caída en 2020, se recuperó posteriormente y se prevé un aumento). A partir de esto, se infiere que la oferta de verduras es abundante y la demanda es estable, y la estrategia puede reducir riesgos.",
+        "E": "Aparentemente se utiliza el gráfico (chart_138_2): la producción de verduras crece de manera estable, pero el término distractor lo interpreta erróneamente como un riesgo de exceso de oferta. El gráfico muestra que la producción de verduras aumentó continuamente de 67434.2 (10,000 toneladas) en 2016 a 80000.0 (10,000 toneladas) en 2022, lo que significa una oferta confiable. Reducir las compras contradice el objetivo de control de costos (la estrategia correcta A es aumentar priorariamente las compras de verduras).",
+        "F": "Esta opción se basa en conocimientos generales de cadena de suministro, carece de datos específicos de los gráficos y es una declaración general (por ejemplo, “mejorar la gestión de las relaciones de cooperación”). No proporciona acciones específicas en función de la tendencia del tamaño del mercado o la producción de ingredientes, y es fácil de descartar por conocimiento general.",
+        "G": "La opción B combina el cambio en la producción de carne en el gráfico chart_138_2 (una caída significativa en 2019 y una recuperación de 2021 a 2022) y la recuperación rápida del tamaño del mercado en el gráfico chart_138_1 después de una caída en 2020 (por ejemplo, un crecimiento del 18% en 2021). A partir de esto, se infiere que la carne puede escasear durante el período de recuperación de la demanda, y la reserva por adelantado puede optimizar la oferta."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -173,6 +241,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "La opción A se basa en que la proporción de tiendas en ciudades de segunda y tercera línea en el gráfico chart_138_3 es relativamente alta (por ejemplo, el 21.7% en segunda línea y el 16.9% en tercera línea de Haidilao, y el 24.0% en segunda línea de Xiaolongkan) y en la previsión de que el tamaño del mercado en el gráfico chart_138_1 seguirá creciendo pero con una tasa de crecimiento decreciente (por ejemplo, el crecimiento se desacelera después de 2023). A partir de esto, se infiere que la demanda en estas regiones es estable y que la expansión tiene un alto beneficio - costo.",
+        "B": "Esta sugerencia es una sugerencia general de operación, carece de datos de los gráficos (por ejemplo, la distribución de tiendas o el tamaño del mercado), es una declaración general (por ejemplo, “mejorar el nivel digital”) y no se dirige específicamente a la estrategia de expansión. Es fácil de descartar por conocimiento general.",
+        "C": "La opción C combina la concentración de marcas en ciudades de alta línea en el gráfico chart_138_3 (por ejemplo, la proporción combinada de la primera y la nueva primera categoría de Haidilao es casi del 50%) y la previsión de desaceleración del crecimiento del tamaño del mercado en el gráfico chart_138_1 (por ejemplo, el crecimiento es bajo en 2024). A partir de esto, se infiere que las ciudades de alta línea pueden estar saturadas y que es más eficiente optimizar los recursos existentes.",
+        "D": "Aparentemente se utilizan los gráficos (chart_138_1 y chart_138_3): la proporción de Xiaolongkan en ciudades de quinta línea es del 13.0%, pero el gráfico muestra que la tasa de crecimiento del tamaño del mercado se desacelera (el crecimiento es del 4.3% en 2024) y que la proporción en ciudades de quinta línea no es alta. La interpretación errónea es que tienen alto potencial, lo que puede ignorar las limitaciones de la competencia y la demanda (la estrategia correcta B enfatiza el mercado de ciudades de nivel inferior pero con cautela).",
+        "E": "La opción B combina la proporción destacada de tiendas de Xiaolongkan en ciudades de cuarta y quinta línea en el gráfico chart_138_3 (por ejemplo, el 25.7% en cuarta línea y el 13.0% en quinta línea) y la tendencia general ascendente del tamaño del mercado en el gráfico chart_138_1 (aunque la tasa de crecimiento disminuye). A partir de esto, se infiere que hay grandes oportunidades en el mercado de ciudades de nivel inferior, lo que coincide con el valor de la distribución equitativa de recursos.",
+        "F": "Esta sugerencia se basa en conocimientos generales de marketing (por ejemplo, “realizar actividades de promoción”), pero ignora el núcleo del problema (distribución de recursos y expansión de tiendas) y no combina la jerarquía de ciudades o la tendencia del tamaño en los gráficos. Carece de orientación para la acción.",
+        "G": "Aparentemente se utilizan los gráficos (chart_138_1 y chart_138_3): la proporción de Haidilao en ciudades de tercera línea no es baja (16.9%), y el tamaño del mercado sigue expandiéndose (6689 mil millones de yuanes en 2024). La desaceleración del crecimiento no significa insuficiencia de demanda. Evitar la inversión puede hacer que se pierda un mercado estable (la estrategia correcta A sugiere aumentar la inversión en ciudades de segunda y tercera línea)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "D",
+        "G"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "La opción B se basa en el aumento continuo de la producción de verduras en el gráfico chart_138_2 (por ejemplo, alcanzó 80000 (10,000 toneladas) en 2022) y en la desaceleración del crecimiento del tamaño del mercado en el gráfico chart_138_1 (la previsión de crecimiento disminuye). Al mismo tiempo, se considera la fluctuación de la producción de carne en el gráfico chart_138_2 (por ejemplo, la caída en 2019). A partir de esto, se infiere que aumentar la proporción de verduras puede hacer frente a los cambios en la demanda y reducir el impacto ambiental.",
+        "B": "La opción A integra los datos de producción de ingredientes en el gráfico chart_138_2 (por ejemplo, la producción de verduras crece de manera estable y la Provincia de Guangdong tiene muchas tiendas en el gráfico chart_138_3) y la distribución de tiendas en provincias específicas en el gráfico chart_138_3 (por ejemplo, Haidilao tiene 162 tiendas en Guangdong). A partir de esto, se infiere que la compra local puede reducir los costos de logística y apoyar el desarrollo regional, lo que coincide con el valor de desarrollo sostenible.",
+        "C": "Aparentemente se utilizan los gráficos (chart_138_1 y chart_138_2): la producción de carne aumentó en 2022, pero el gráfico muestra que la carne tiene grandes fluctuaciones (por ejemplo, 7748.4 (10,000 toneladas) en 2020). El tamaño del mercado aumentó en 2021 pero la tasa de crecimiento se desaceleró (4.3% en 2024). Aumentar las reservas puede aumentar los costos y no puede hacer frente a las fluctuaciones (la estrategia correcta B recomienda aumentar las verduras en lugar de la carne).",
+        "D": "Aparentemente se utilizan los gráficos (chart_138_2 y chart_138_3): la producción de ingredientes (verduras) es alta en la Provincia de Guangdong y las tiendas están densamente distribuidas, pero el término distractor lo interpreta erróneamente como una duplicación de recursos. Los gráficos apoyan la compra local (por ejemplo, el crecimiento estable de las verduras). Ignorar la construcción puede hacer que se pierdan oportunidades de optimización de la cadena de suministro (la estrategia correcta A sugiere establecer priorariamente centros regionales).",
+        "E": "Esta sugerencia es una estrategia general de análisis de datos, ignora el contenido específico de los gráficos (por ejemplo, la producción de ingredientes o la distribución de tiendas) y no proporciona un plan específico para hacer frente a las fluctuaciones de la oferta. Carece de complejidad.",
+        "F": "Esta opción se basa en conocimientos generales de gestión de la industria, carece de datos de los gráficos, es una declaración general (por ejemplo, “promover un plan de capacitación”) y no se dirige a la desaceleración del crecimiento o las fluctuaciones de la oferta. Es fácil de descartar por conocimiento general.",
+        "G": "La opción C cita la recuperación rápida del tamaño del mercado en el gráfico chart_138_1 después de una caída (por ejemplo, un crecimiento en 2021 después de una caída en 2020) y la amplia distribución de tiendas en el gráfico chart_138_3 (que cubre ciudades de múltiples niveles). A partir de esto, se infiere que la digitalización puede hacer frente a impactos similares y mejorar la resiliencia de la industria."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     }
   ]

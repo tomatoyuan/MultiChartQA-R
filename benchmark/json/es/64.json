@@ -86,6 +86,23 @@
         "C",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: basada en conocimiento general (como que las empresas con fondos suficientes pueden amortiguar costos), pero los gráficos no proporcionan ningún dato sobre fondos o ingresos, es puramente general y no se puede derivar de los datos.",
+        "B": "Esta es una opción de distracción difícil: comparación incorrecta de valores del gráfico. En chart_64_2, la proporción del aumento de costos más pequeño (aumento del 1%-20%) es del 20.3%, pero los intervalos de aumento mayor (como 21%-40% con 36.6%) tienen proporciones más altas; al mismo tiempo, la satisfacción promedio en chart_64_1 es de 7.97 puntos, pero la opción atribuye erróneamente la satisfacción al aumento mínimo, ignorando la distribución de datos.",
+        "C": "Depende de chart_64_2 (cambios de costos) y chart_64_1 (satisfacción). chart_64_2 menciona la proporción de 'Diseño e inversión por la sede central del grupo' (4.9%), mientras que chart_64_1 muestra ningún caso de 'Muy Insatisfecho' (0%). El razonamiento conjunto indica que la inversión externa puede aliviar la presión de costos y mejorar la satisfacción, requiriendo análisis de puntos de datos específicos de ambos gráficos.",
+        "D": "Depende de chart_64_2 (cambios de costos) y chart_64_1 (satisfacción). chart_64_2 muestra una alta proporción combinada de aumentos de costos del 1%-40% (56.9%), mientras que chart_64_1 muestra una baja proporción en segmentos bajos de satisfacción (5 puntos y menos) (6.5%). El razonamiento conjunto indica que los aumentos moderados de costos no redujeron significativamente la satisfacción, requiriendo comparación de distribuciones de datos de ambos gráficos para descubrir patrones.",
+        "E": "Esta es una opción de distracción fácil: basada en conocimiento del sector (la lealtad del usuario puede mejorar la satisfacción), pero los gráficos no involucran la relación entre lealtad del usuario y costos, es un razonamiento irrelevante.",
+        "F": "Esta es una opción de distracción difícil: interpretación incorrecta de datos del gráfico. chart_64_2 muestra proporciones muy bajas de disminución de costos (disminución del 1%-20% solo 4.1%, otras disminuciones 0%), mientras que las proporciones de aumento son altas (aumento del 1%-20% 20.3%, 21%-40% 36.6%, etc.), pero esta opción invierte los hechos, afirmando que las proporciones de disminución son más altas.",
+        "G": "Depende de chart_64_3 (factores de interés) y chart_64_1 (satisfacción). chart_64_3 muestra que 'Mejorar la conversión de usuarios' tiene la mayor atención (50.4%), mientras que chart_64_1 muestra una satisfacción promedio de 7.97 puntos y alta proporción en segmentos altos (9 puntos y más) (45.6%). El razonamiento conjunto indica que los puntos de alta atención pueden haberse logrado efectivamente, compensando así el impacto negativo del aumento de costos (de chart_64_2), requiriendo análisis de tendencias numéricas entre gráficos."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: basada en conocimiento del sector (las empresas priorizan el crecimiento), pero los gráficos no involucran estrategias a corto vs largo plazo, es una afirmación general correcta.",
+        "B": "Depende de chart_64_3 (factores de interés) y chart_64_2 (cambios de costos). En chart_64_3, la atención a 'Lograr eficazmente la captación de tráfico del dominio público' es del 46.3%, mientras que chart_64_2 muestra una amplia distribución de aumentos (como aumento del 21%-40% con 36.6%). El razonamiento conjunto indica que las actividades de captación pueden aumentar costos, causando conflicto entre puntos de interés y tendencias de costos, requiriendo análisis de tendencias asociadas entre ambos gráficos.",
+        "C": "Depende de chart_64_2 (cambios de costos) y chart_64_3 (factores de interés). chart_64_2 muestra que la proporción de costos 'Básicamente sin cambios' es solo del 8.1%, mientras que en chart_64_3 la atención a costos es alta. El razonamiento conjunto indica que la atención no se tradujo en resultados de control real, requiriendo combinación de diferencias de proporción entre ambos gráficos para explicar la contradicción.",
+        "D": "Esta es una opción de distracción difícil: interpretación incorrecta de orden y valores del gráfico. En chart_64_3, la atención a costos (48.8%) ocupa el segundo lugar (solo después de 'Mejorar la conversión de usuarios' con 50.4%), no es 'baja'; la opción subestima erróneamente la atención, contradiciendo los datos.",
+        "E": "Depende de chart_64_3 (factores de interés) y chart_64_2 (cambios de costos). chart_64_3 muestra alta atención a 'Costo de construcción y operación del dominio privado' (48.8%), pero chart_64_2 muestra alta proporción combinada de aumentos de costos (82.9%), y baja proporción de disminuciones (solo 4.1%). El razonamiento conjunto indica que la alta atención no correspondió a bajos aumentos de costos, requiriendo comparación de valores entre gráficos para revelar factores externos influyentes (como inflación o escasez de recursos).",
+        "F": "Esta es una opción de distracción difícil: comprensión incorrecta de brechas del gráfico. En chart_64_2, la proporción de costos básicamente sin cambios es solo del 8.1%, mucho menor que las proporciones de aumento (como aumento del 21%-40% con 36.6%), pero la opción afirma que esta proporción es 'muy alta', juzgando mal la escala de datos.",
+        "G": "Esta es una opción de distracción fácil: basada en conocimiento general (la inflación aumenta costos), pero los gráficos no proporcionan datos de inflación o factores externos, es puramente razonamiento del conocimiento propio del modelo, no se puede verificar con los gráficos dados."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -131,6 +165,23 @@
         "A",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Depende de chart_64_3 (factores de interés) y chart_64_1 (satisfacción). chart_64_3 muestra alta atención a 'Mejorar la conversión de usuarios' (50.4%) y 'Mejorar la fidelidad de los usuarios a la marca' (43.9%), mientras que chart_64_1 muestra alta proporción en segmentos altos de satisfacción (8 puntos y más) (60.2%). El razonamiento conjunto indica que estos puntos de interés pueden haberse logrado con éxito, impulsando la satisfacción, requiriendo análisis de asociación numérica entre gráficos (como alta atención correspondiendo a alta satisfacción).",
+        "B": "Esta es una opción de distracción fácil: basada en conocimiento propio del modelo (la capacitación de empleados mejora servicios), pero los gráficos no proporcionan información sobre empleados o capacitación, es una afirmación general correcta.",
+        "C": "Depende de chart_64_3 (factores de interés) y chart_64_2 (cambios de costos), e indirectamente se relaciona con chart_64_1 (satisfacción). chart_64_3 muestra alta atención a costos (48.8%), mientras que chart_64_2 menciona 'Diseño e inversión por la sede central del grupo' (4.9%), combinado con ningún 'Muy Insatisfecho' en chart_64_1 (0%). El razonamiento conjunto indica que el apoyo externo puede aliviar la presión de los puntos de interés, manteniendo la satisfacción, requiriendo integración numérica de múltiples gráficos.",
+        "D": "Esta es una opción de distracción difícil: síntesis incorrecta de datos del gráfico. chart_64_2 muestra proporciones muy bajas de disminución de costos (disminución del 1%-20% solo 4.1%, otras 0%), mientras que la satisfacción es alta (en chart_64_1, proporciones altas de satisfacción); al mismo tiempo, en chart_64_3 la atención a costos es alta (48.8%), pero la opción afirma erróneamente que los costos disminuyeron y la atención es baja, contradiciendo los datos.",
+        "E": "Esta es una opción de distracción fácil: basada en conocimiento general (las herramientas técnicas mejoran la eficiencia), pero los gráficos no involucran datos de herramientas digitales o sistemas, es conocimiento genérico del sector, irrelevante para los gráficos.",
+        "F": "Esta es una opción de distracción difícil: comparación incorrecta del orden de factores de interés. En chart_64_3, la atención a 'Los datos del dominio privado se pueden precipitar y analizar' (27.6%) ocupa el último lugar (octavo), pero la opción afirma erróneamente que es 'la más alta', ignorando el orden real ('Mejorar la conversión de usuarios' 50.4% es el más alto).",
+        "G": "Depende de chart_64_2 (cambios de costos) y chart_64_1 (satisfacción). chart_64_2 muestra alta proporción de aumentos de costos del 1%-40% (56.9%), mientras que chart_64_1 muestra baja proporción de baja satisfacción (6 puntos y menos) (22.8%). El razonamiento conjunto indica que aumentos moderados de costos coexisten con alta satisfacción, requiriendo comparación de distribuciones de datos de ambos gráficos para implicar la conexión de 'retorno de inversión razonable'."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -152,6 +203,22 @@
       "label": [
         "A",
         "B"
+      ],
+      "cot": {
+        "A": "La opción 2 se relaciona con chart_64_3 (alta atención a la captación de tráfico del dominio público de manera efectiva) y chart_64_1 (alta satisfacción, con una puntuación promedio cercana a 8 puntos). Lógica de razonamiento: la combinación de alta atención a la captación de tráfico y buena satisfacción indica que la captación de tráfico es un factor clave para mejorar los efectos del dominio privado y puede contrarrestar el impacto de los costos.",
+        "B": "La opción 1 se relaciona con chart_64_3 (alta atención al costo de construcción y operación del dominio privado) y chart_64_2 (tendencia clara de aumento de costos, como la alta proporción en varios intervalos de aumento). Lógica de razonamiento: la alta atención al costo y el aumento generalizado de costos indican que la gestión de costos es el punto clave de optimización. El monitoreo puede prevenir la disminución de la satisfacción.",
+        "C": "Esta es una opción de distracción fácil: se basa en sugerencias de gestión de sentido común (como la capacitación de empleados para mejorar la eficiencia), pero el gráfico no menciona factores de equipo o mano de obra, y no está relacionado con los datos de costos o efectos del dominio privado, por lo que es fácil de descartar.",
+        "D": "Esta es una opción de distracción fácil: no se basa en el gráfico, solo en el conocimiento general de negocios (como la expansión física puede reducir costos), pero no se dirige a las características de la operación del dominio privado, y el gráfico no incluye canales físicos. La estrategia es demasiado general y no tiene guía de acción.",
+        "E": "Esta es una opción de distracción difícil: se cita chart_64_3 (atención del 46.3% a la captación de tráfico del dominio público) y chart_64_2 (aumento de costos), pero se confunde la relación; la alta atención a la captación de tráfico del dominio público no significa bajo costo (chart_64_2 muestra un aumento generalizado), y la inversión en el dominio público puede aumentar los costos del dominio privado en lugar de controlarlos.",
+        "F": "Esta es una opción de distracción difícil: superficialmente se utiliza los datos de chart_64_1 (la proporción de 5 - 6 puntos es del 16.3% + 4.9% = 21.2%), pero se interpreta erróneamente como “una insatisfacción significativa que requiere reducir la operación”; en realidad, la satisfacción promedio es de 7.97 puntos y la proporción de puntuaciones altas es alta. La reducción perjudicará los efectos y entrará en conflicto con el objetivo de equilibrio."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -172,6 +239,22 @@
       "label": [
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: se cita los datos de chart_64_2 (2.4% de aumento superior al 100%, baja proporción de disminución), pero se ignora erróneamente la tendencia general de aumento de costos (por ejemplo, el aumento del 21 - 40% representa el 36.6%). La sugerencia de “mantener la asignación” agravará el problema de costos y entrará en conflicto con el objetivo de control.",
+        "B": "Esta es una opción de distracción fácil: se parte del conocimiento general de la cadena de suministro (como la optimización de la logística), pero el gráfico se centra en los costos de operación del dominio privado y no menciona otros aspectos del negocio, por lo que no está relacionado con el problema.",
+        "C": "La opción 1 se relaciona con chart_64_2 (existe una proporción de inversión en la planificación realizada por la sede central del grupo) y chart_64_3 (la atención a la mejora de la conversión de usuarios y el aumento del rendimiento es la más alta). Lógica de razonamiento: la inversión de la sede central puede reducir los costos a escala (chart_64_2 muestra que el aumento de costos es el dominante), y al mismo tiempo apoyar el objetivo de conversión de alta atención (chart_64_3), logrando la optimización de recursos.",
+        "D": "Esta es una opción de distracción difícil: se utilizan los datos de chart_64_3 (atención del 43.9% a la fidelidad de los usuarios), pero se asocia erróneamente con el control de costos; la atención a la fidelidad de los usuarios no es la más alta (la atención al costo es del 48.8% y es más alta), y la inversión en la fidelidad puede aumentar los gastos de operación en lugar de mejorar la eficiencia.",
+        "E": "Esta es una opción de distracción fácil: se basa en una estrategia comercial general (como la cooperación con terceros para reducir costos), pero el gráfico no menciona publicidad o cooperación externa. La estrategia es demasiado general y no tiene base en el gráfico, por lo que es fácil de descartar por conocimiento general.",
+        "F": "La opción 2 se relaciona con chart_64_3 (alta atención a los métodos de operación diversos y el acceso conveniente al dominio privado) y chart_64_2 (distribución amplia de intervalos de aumento de costos, baja proporción de mantenimiento constante). Lógica de razonamiento: la combinación de la atención a los métodos de operación y el aumento de costos indica que las herramientas de eficiencia pueden aliviar la presión de costos y mejorar la relación de inversión - rendimiento."
+      },
+      "easy_error": [
+        "E",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "D"
       ]
     },
     {
@@ -195,6 +278,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: se utilizan los datos de chart_64_3 (la atención a la integración de canales online y offline es la más baja, 29.3%), pero se interpreta erróneamente como “gran espacio de optimización”; la baja atención y la falta de evidencia de una relación directa con el control de costos indican que invertir primero en esto puede desviarse de los puntos focales principales (conversión y costos).",
+        "B": "La opción 1 se relaciona con chart_64_3 (la atención a la mejora de la conversión de usuarios y el aumento del rendimiento es la más alta) y chart_64_1 (alta satisfacción, proporción de insatisfacción extremadamente baja). Lógica de razonamiento: la combinación del área de mayor atención y buenos efectos indica que la inversión prioritaria puede amplificar los beneficios, lo que coincide con el principio de concentración de recursos.",
+        "C": "La opción 3 se relaciona con chart_64_3 (la atención a que los datos del dominio privado se pueden precipitar y analizar es baja pero existe) y chart_64_1 (alta satisfacción y distribución estable). Lógica de razonamiento: aunque la atención a los datos es baja, la alta satisfacción indica el potencial impulsado por datos. Combinado con el aumento de costos (chart_64_2), la inversión en datos puede mejorar la precisión de la toma de decisiones y evitar gastos ineficaces.",
+        "D": "Esta es una opción de distracción fácil: se sugiere desde el punto de vista de la gestión (como la cultura empresarial), pero no se vincula con los datos del gráfico y está desvinculada del enfoque de conversión y costos de la planificación del dominio privado.",
+        "E": "Esta es una opción de distracción difícil: se cita los datos de chart_64_1 (puntuación promedio de 7.97, pocos en el rango bajo), pero se deduce erróneamente “reducir la inversión en conversión”; en realidad, la atención a la conversión de usuarios es la más alta (50.4%), y la alta satisfacción indica buenos efectos. Reducir la inversión perjudicará los beneficios a largo plazo.",
+        "F": "Esta es una opción de distracción fácil: se basa en el conocimiento general de negocios globales (como la expansión al mercado internacional), pero el gráfico no menciona mercados externos o diversificación. La estrategia es demasiado general y no tiene soporte en el gráfico, por lo que es fácil de descartar.",
+        "G": "La opción 2 se relaciona con chart_64_3 (alta atención tanto al costo de construcción y operación del dominio privado como a la captación de tráfico del dominio público de manera efectiva) y chart_64_2 (el aumento de costos es el dominante). Lógica de razonamiento: la alta atención al costo y la tendencia de aumento requieren control, y la alta atención a la captación de tráfico puede complementar la fuente de usuarios. Una estrategia equilibrada puede hacer frente a múltiples desafíos."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

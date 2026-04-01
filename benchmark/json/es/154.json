@@ -86,6 +86,23 @@
         "D",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en el conocimiento del modelo (el ingreso afecta el consumo), pero los gráficos no mencionan ingresos o factores económicos, por lo tanto, no es relevante.",
+        "B": "Esta es una opción de distracción difícil: interpreta incorrectamente los valores del gráfico (chart_154_1). Aunque el porcentaje de personas que cocinan en casa todos los días es del 38%, la suma del porcentaje de personas que cocinan en casa no más de 3 días a la semana (37%) y de aquellas que ni siquiera pueden garantizar cocinar una vez (5%) es del 42%, lo que indica que casi la mitad de la población tiene una baja frecuencia de cocina, y la tasa de penetración del 49.9% se acerca a la mitad, lo que sugiere que la comida a domicilio es un sustituto efectivo; esta opción, sin embargo, infiere erróneamente que la cocina doméstica es predominante, ignorando la distribución de los datos.",
+        "C": "Esta es una opción de distracción fácil: se basa en el sentido común (como el efecto de la publicidad), pero no utiliza los datos de los gráficos (los gráficos no mencionan publicidad o ingresos). La explicación real debe combinar la frecuencia de cocina y los datos de penetración, mientras que esta opción es demasiado general.",
+        "D": "Se necesita analizar la 'selección de escenarios' a partir de chart_154_1 (38% cocinan todos los días) y chart_154_2 (crecimiento de la tasa de penetración); un solo gráfico no puede llegar a estas conclusiones, se requiere una comparación cruzada de tendencias y proporciones.",
+        "E": "Se necesita combinar chart_154_1 (muestra que el 37% de las personas cocinan no más de 3 días a la semana, lo que sugiere una demanda parcialmente insatisfecha) y chart_154_2 (tasa de penetración del 48.8% al 49.9%, muestra que la comida a domicilio cubre a casi la mitad de la población), para inferir una relación de 'sustitución'; un solo gráfico no puede llegar a estas conclusiones, se requiere una comparación cruzada de tendencias y proporciones.",
+        "F": "Se necesita inferir la 'atracción de la demanda' a partir de chart_154_1 (5% casi no cocinan) y chart_154_2 (número de usuarios aumentó de 52000 a 54800 diez mil); un solo gráfico no puede llegar a estas conclusiones, se requiere una comparación cruzada de tendencias y proporciones.",
+        "G": "Esta es una opción de distracción difícil: compara incorrectamente las diferencias (chart_154_1 y chart_154_2). La tasa de penetración aumentó ligeramente un 0.1%, pero el tamaño de la base de usuarios creció de 52000 a 54800 diez mil (un aumento de 2800 diez mil), y la combinación del porcentaje de 'cocinar no más de 3 días a la semana' (37%) con la tasa de penetración (49.9%) indica una gran demanda; esta opción interpreta erróneamente que el pequeño aumento en la penetración significa inefectividad, mientras que el crecimiento real del tamaño de usuarios es significativo."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: interpreta incorrectamente la relación entre valores (chart_154_2 y chart_154_3). El tamaño de usuarios creció en 2800 diez mil (aproximadamente 5.4%), pero la tasa de crecimiento de pedidos aumentó significativamente del 13.21% al 20.16%, lo que en realidad podría deberse a un aumento en la frecuencia de uso de los usuarios existentes (como en la opción B original); esta opción asume erróneamente que los nuevos usuarios son los principales contribuyentes, mientras que los gráficos no proporcionan la proporción de pedidos de nuevos usuarios.",
+        "B": "Esta es una opción de distracción difícil: comprende incorrectamente las diferencias (chart_154_2 y chart_154_3). La tasa de penetración aumentó ligeramente un 0.1%, pero la tasa de crecimiento de pedidos aumentó casi 7 puntos porcentuales (del 13.21% al 20.16%), y combinado con el crecimiento del tamaño de usuarios, en realidad sugiere que los usuarios existentes usan el servicio con más frecuencia; esta opción, sin embargo, infiere erróneamente una reducción en la frecuencia de uso, lo que es contrario a la tendencia de los datos.",
+        "C": "Se necesita combinar chart_154_2 (número de usuarios aumentó de 52000 a 54800 diez mil) y chart_154_3 (tasa de crecimiento de pedidos aumentó del 13.21% al 20.16%), para inferir un 'fortalecimiento simultáneo'; un solo gráfico solo puede proporcionar información parcial (como el número de usuarios o la tasa de crecimiento), se requiere un análisis conjunto de los cambios de tendencia.",
+        "D": "Esta es una opción de distracción fácil: se basa en el conocimiento del modelo (difusión tecnológica), pero los gráficos no incluyen datos de teléfonos inteligentes, por lo que es demasiado general.",
+        "E": "Se necesita analizar la 'contribución de nuevos usuarios' a partir de chart_154_2 (crecimiento del número de usuarios) y chart_154_3 (aceleración de la tasa de crecimiento); un solo gráfico solo puede proporcionar información parcial (como el número de usuarios o la tasa de crecimiento), se requiere un análisis conjunto de los cambios de tendencia.",
+        "F": "Se necesita inferir un 'aumento en la frecuencia' a partir de chart_154_2 (la tasa de penetración solo aumentó 1.1 puntos porcentuales) y chart_154_3 (la tasa de crecimiento de pedidos aumentó casi 7 puntos porcentuales); un solo gráfico solo puede proporcionar información parcial (como el número de usuarios o la tasa de crecimiento), se requiere un análisis conjunto de los cambios de tendencia.",
+        "G": "Esta es una opción de distracción fácil: se basa en el conocimiento del sector (impacto de políticas), pero los gráficos no mencionan políticas, por lo tanto, no se basa en datos. La tendencia real requiere analizar el tamaño de usuarios y la tasa de crecimiento de pedidos."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: se basa en el conocimiento del modelo (optimización tecnológica), pero los gráficos no mencionan sistemas de recomendación, por lo que es una oración correcta pero demasiado general.",
+        "B": "Se necesita combinar chart_154_3 (tasa de crecimiento de pedidos aumentó del 13.21% al 20.16%) y chart_154_4 (requisito de comida fresca 77.2%), para inferir una 'conducción por la demanda central'; un solo gráfico no puede establecer una relación causal, se requiere combinar valores y tendencias.",
+        "C": "Esta es una opción de distracción fácil: se basa en el sentido común (tendencias ecológicas), pero los gráficos no mencionan empaques o IA, por lo tanto, no se basa en datos. Los factores reales deben combinar el crecimiento de pedidos y la distribución de requisitos de platos.",
+        "D": "Esta es una opción de distracción difícil: interpreta incorrectamente el orden y las diferencias (chart_154_3 y chart_154_4). El requisito de 'la temperatura de la comida se mantiene bien' tiene un porcentaje del 31.9%, que es menor que el de 'comida fresca' (77.2%), pero la tasa de crecimiento de pedidos aceleró del 13.21% al 20.16%, en realidad todos los requisitos podrían estar impulsando conjuntamente el crecimiento; esta opción juzga erróneamente que un porcentaje bajo indica un impacto pequeño, mientras que los datos no prueban causalidad.",
+        "E": "Se necesita inferir una 'guía de preferencias para la optimización' a partir de chart_154_3 (aceleración del crecimiento de pedidos) y chart_154_4 (buen sabor 68.0% y equilibrada nutricionalmente 68.2%); un solo gráfico no puede establecer una relación causal, se requiere combinar valores y tendencias.",
+        "F": "Esta es una opción de distracción difícil: compara incorrectamente los cambios en los valores (chart_154_3 y chart_154_4). La tasa de crecimiento de productos gastronómicos aumentó del 15.16% al 18.28%, y el requisito de 'hay una amplia variedad para elegir' tiene un porcentaje del 48.6% (cuarto más alto), lo que en realidad respalda la demanda de diversidad; esta opción, sin embargo, infiere erróneamente que el crecimiento lento y el porcentaje no muy alto indican falta de importancia, ignorando la asociación positiva.",
+        "G": "Se necesita analizar el 'apoyo de la diversificación al crecimiento' a partir de chart_154_3 (tasa de crecimiento de productos gastronómicos del 15.16% al 18.28%) y chart_154_4 (requisito de variedad amplia 48.6%); un solo gráfico no puede establecer una relación causal, se requiere combinar valores y tendencias."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "F"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "La opción 2 combina chart_154_4 (alta proporción de nutrición y sabor) y chart_154_3 (tendencia de crecimiento de pedidos), y deduce que los elementos saludables pueden fortalecer la atracción para los usuarios.",
+        "B": "Esta es una distracción difícil: aparentemente utiliza los datos de la tasa de crecimiento de pedidos de chart_154_3 (20.16% vs 13.21%), pero interpreta erróneamente la tendencia. El aumento acelerado de los pedidos debería enfatizar la optimización de los servicios principales (como la calidad de los platos) para mantener la fidelidad de los usuarios, en lugar de simplemente expandir la entrega; además, ignora la prioridad más alta del 77.2% de frescura de la comida en chart_154_4.",
+        "C": "La opción 3 combina chart_154_4 (necesidad de variedad y personalización) y chart_154_3 (rápido crecimiento de la cantidad de productos), y deduce que la diversidad puede satisfacer la demanda de crecimiento.",
+        "D": "Esta es una distracción fácil: plantea una estrategia de marketing general (promoción en redes sociales), sin citar los requisitos de los consumidores o los datos de crecimiento de pedidos en los gráficos. Es una sugerencia basada en el conocimiento general y carece de pertinencia.",
+        "E": "La opción 1 combina chart_154_4 (la frescura tiene la proporción más alta en los requisitos de los consumidores) y chart_154_3 (la tasa de crecimiento de pedidos se acelera, lo que muestra un mercado activo), y deduce que la garantía de calidad es la necesidad central.",
+        "F": "Esta es una distracción difícil: cita la proporción de necesidad de personalización del 31.8% de chart_154_4 y el crecimiento de pedidos de chart_154_3, pero confunde la relación. La necesidad de personalización es baja (en un puesto posterior), y la tendencia de crecimiento debería satisfacer primero las necesidades de alta proporción (como la frescura). La dirección de la estrategia es claramente errónea.",
+        "G": "Esta es una distracción fácil: se basa en el conocimiento general de la industria (la optimización de la APP puede mejorar la experiencia del usuario), pero no depende de ningún dato de los gráficos (como los requisitos centrales o la tendencia de crecimiento de chart_154_3 o chart_154_4). La estrategia es amplia y sin una guía de acción clara, por lo que es fácil de descartar."
+      },
+      "easy_error": [
+        "G",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: cita los datos de chart_154_1 (el 5% tiene dificultades para cocinar), pero los interpreta erróneamente. Aunque este grupo es pequeño, puede ser de usuarios de delivery de alta intensidad; además, ignora el grupo con una alta proporción (37%) de “no más de 3 días a la semana”. La dirección de la estrategia es opuesta a la opción correcta A (dirigida a los grupos con baja frecuencia de cocinar).",
+        "B": "Esta es una distracción fácil: sugiere mejorar las tiendas físicas, pero no se relaciona con ningún dato de chart_154_1, chart_154_2 o chart_154_4 (como los hábitos de cocina o el tamaño de la población de usuarios). La estrategia es general y no tiene relación con el servicio de delivery, por lo que se puede descartar por conocimiento general.",
+        "C": "Esta es una distracción fácil: plantea una actividad promocional (degustación gratuita), basada en el conocimiento general de marketing, pero no utiliza la proporción de grupos específicos o el cambio en el tamaño de la población de usuarios en los gráficos. La estrategia es vaga y sin soporte de datos.",
+        "D": "La opción 2 combina chart_154_1 (algunos grupos cocinan poco y dependen más del delivery) y chart_154_4 (alta proporción de nutrición y frescura), y deduce que la mejora de la calidad puede fortalecer la fidelidad de los usuarios.",
+        "E": "La opción 1 combina chart_154_1 (alta proporción de grupos con baja frecuencia de cocinar) y chart_154_2 (tamaño de la población de usuarios grande pero crecimiento lento de la tasa de penetración), y deduce que la segmentación precisa puede expandir la base de usuarios.",
+        "F": "Esta es una distracción difícil: utiliza los datos de la tasa de penetración de chart_154_2 (48.8% a 49.9%), pero confunde la tendencia. El crecimiento moderado no significa saturación (el tamaño de la población de usuarios aumenta a 548 millones), y no combina los hábitos de cocina de chart_154_1. Sugiere erróneamente reducir la inversión en lugar de optimizar el servicio.",
+        "G": "La opción 3 combina chart_154_4 (necesidad de mantener la temperatura) y chart_154_3 (aumento acelerado de los pedidos), y deduce que la optimización de la entrega puede satisfacer la demanda de crecimiento."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una distracción difícil: utiliza la proporción del 38% de “cocinar todos los días” de chart_154_1, pero confunde la relación. Este grupo probablemente no pida delivery con frecuencia, y no combina el crecimiento de pedidos de chart_154_3 o la tasa de penetración de chart_154_2. Dirige erróneamente a usuarios no centrales; la estrategia correcta debería aprovechar las áreas de baja penetración (opción C).",
+        "B": "La opción 2 combina chart_154_3 (rápido crecimiento de la cantidad de productos) y chart_154_4 (alta proporción de necesidad de variedad), y deduce que la innovación puede impulsar la demanda.",
+        "C": "Esta es una distracción fácil: sugiere una estrategia de guerra de precios, basada en la lógica comercial común (bajar los precios para atraer usuarios), pero no depende de datos específicos de chart_154_2, chart_154_3 o chart_154_1 (como la tasa de penetración o la tendencia de crecimiento). La estrategia es amplia y no sostenible.",
+        "D": "Esta es una distracción difícil: cita la tasa de crecimiento de pedidos del 20.16% de chart_154_3, pero interpreta erróneamente la tendencia. El aumento acelerado de la tasa de crecimiento debería centrarse en la repetición de pedidos de los usuarios existentes (opción correcta A), en lugar de la adquisición de nuevos usuarios; además, ignora el crecimiento moderado de la tasa de penetración (solo 1.1 puntos porcentuales) en chart_154_2. La estrategia tiene una desviación.",
+        "E": "La opción 1 combina chart_154_2 (crecimiento moderado de la tasa de penetración) y chart_154_3 (aumento de la tasa de crecimiento de pedidos), y deduce que profundizar en los usuarios existentes es más eficiente que adquirir nuevos usuarios.",
+        "F": "La opción 3 combina chart_154_2 (la tasa de penetración no está saturada) y chart_154_1 (los datos de frecuencia de cocina indican que algunos grupos pueden ser usuarios potenciales), y deduce que hay oportunidades de expansión del mercado, lo que coincide con el valor de la asignación equitativa de recursos.",
+        "G": "Esta es una distracción fácil: plantea la optimización de la cadena de suministro, que es conocimiento general de la operación, pero no cita la tasa de penetración de usuarios o la dinámica de crecimiento de pedidos en los gráficos. Carece de pertinencia y es fácil de descartar."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     }
   ]

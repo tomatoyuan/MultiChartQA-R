@@ -86,6 +86,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "The proportion of severe depression in the assessment is 11.9%, which is lower than the 24.6% of obvious depression in the self - assessment. However, the sum of moderate and above - moderate depression is 54.9%, which is higher than the 24.6% of obvious depression in the self - assessment. This option wrongly compares severe depression directly with obvious depression and ignores the overall distribution.",
+        "B": "In chart_170_1, the proportion of users without depression is only 15.8%, while in chart_170_2, the proportion of healthy users in the depression dimension is 35.1%. The higher healthy proportion but lower proportion of users without depression implies differences in tools or cognition. It is necessary to reason based on the numerical values of the combined charts. In short, all options rely on the combined comparison of chart_170_1 and chart_170_2: the assessment provides objective classification, and the self - assessment provides subjective reports. A single chart cannot reveal inconsistencies or connections.",
+        "C": "The proportion of mild depression in the self - assessment is 40.3%, which is superficially close to the 29.3% of mild depression in the assessment. However, the definition of mild depression in the assessment is different (for example, it may include some moderate cases), and the proportion of moderate and above - moderate depression is 54.9%, which is much higher than the 24.6% of obvious depression in the self - assessment. The gap is significant; this option misinterprets the numerical gap.",
+        "D": "Chart_170_1 shows that the proportion of moderate and above - moderate depression (the sum of moderate, moderately severe, and severe depression) exceeds 50%, while in chart_170_2, the proportion of 'obvious' in the depression dimension is only 24.6%. The comparison between the two shows that the proportion of severe depression in the self - assessment report is lower than the assessment result. It is necessary to combine the data of the two charts to discover this potential underestimation.",
+        "E": "In chart_170_1, the proportion of mild depression is 29.3%, and in chart_170_2, the proportion of'mild' in the depression dimension is 40.3%. Both are relatively high, but comparing only one chart cannot lead to the conclusion that'mild symptoms are more prominent in the self - assessment'. It is necessary to analyze the proportion trends across charts.",
+        "F": "Common sense suggests that self - cognitive ability varies from person to person. However, part of the self - assessment results in the chart is reasonable (for example, the healthy proportion is 35.1%), and it is not completely unreliable. This is based on model knowledge (psychological assessment tools need to be verified) and does not rely on data.",
+        "G": "The chart shows that the proportion of users without depression in the assessment is only 15.8%, and the proportion of healthy users in the depression dimension in the self - assessment is 35.1%, neither of which exceeds 50%. Therefore, the statement that'most users do not have depression problems' is wrong. This is based on common sense (assessment tools usually have differences) and does not rely on data."
+      },
+      "easy_error": [
+        "G",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "In chart_170_4, the proportion of clients over 40 years old slightly increased in 2023 (for example, the proportion of the 40 - 49 age group increased from 6.5% to 6.9%), and in chart_170_3, the average number of counseling sessions in 2023 was still higher than that in 2020. It is necessary to conduct a combined reasoning that 'the increase in the older group may stabilize the demand'. A single chart cannot explain this buffering effect. In short, all options rely on the combined analysis of chart_170_3 and chart_170_4: the trend of the average number of counseling sessions needs to be interpreted in combination with the age - group distribution change to identify the implicit rules. Looking at only one chart can only show isolated data.",
+        "B": "In chart_170_4, there were changes in the proportions of the 20 - 29 and 30 - 39 age groups (the proportion of the younger group decreased, and that of the middle - aged group increased). In chart_170_3, the average number of counseling sessions slightly decreased in 2023 but was still higher than that in 2021. It is necessary to compare the trends across charts to conclude that 'the change in age - group distribution is related to the fluctuation in the number of counseling sessions'.",
+        "C": "Superficially, the decline in proportion (1.7%) is greater than the decline in the number of counseling sessions (0.1). However, the 20 - 29 age group is the largest group, and the decrease in its proportion should significantly affect the number of counseling sessions (the unit of the number of counseling sessions is an absolute value, and the change in proportion needs to be converted). This option misinterprets the numerical gap and the unit.",
+        "D": "Chart_170_4 shows that the proportion of the 20 - 29 age group decreased from 48.6% to 46.9% in 2023, while in chart_170_3, the average number of counseling sessions slightly decreased from 12.8 to 12.7 in 2023. It is necessary to combine the two charts to infer that 'the decrease in the proportion of the younger group may reduce high - frequency counseling'. A single chart cannot establish the relationship between age and the number of counseling sessions.",
+        "E": "Common sense suggests that the mental health needs of different age groups vary (for example, younger people are more active). However, the change in age - group distribution in the chart (such as the decrease in the 20 - 29 age group) may be relevant. This is based on industry common sense (age affects service use) and does not rely on data.",
+        "F": "The proportion of clients over 60 years old is extremely small (0.4%) and has not changed, so its impact on the overall number of counseling sessions can be ignored. This option wrongly regards the stable proportion as the reason for the decline, but it is based on common sense (older people may have less demand) and does not rely on data.",
+        "G": "The proportion of the 30 - 39 age group increased, but the number of counseling sessions slightly decreased. This option wrongly infers that the counseling frequency of this group is low. In fact, the decrease may be mainly due to the larger decrease in the younger group (the 20 - 29 age group decreased by 1.7%), and the increase in the 30 - 39 age group may have a buffering effect."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Common sense suggests that a high proportion of problems does not necessarily translate into counseling behavior (for example, due to economic factors). However, in the chart, the proportions of obvious obsessive - compulsive symptoms (19.2%) and depression (24.6%) are high, while the number of counseling sessions decreased. This is based on model knowledge (there is a gap between demand and behavior) and does not rely on data.",
+        "B": "In chart_170_2, the proportion of healthy users in the phobia dimension is relatively high at 63.7%. In chart_170_3, the average number of counseling sessions generally increased. However, there is a conflict between the high proportion of depression problems and the decrease in the number of counseling sessions in 2023. It is necessary to compare across charts the 'differences in demand responses between the healthy dimension and the problem dimension'. A single chart cannot reveal this implicit relationship. In short, all options rely on the combined reasoning of chart_170_2 and chart_170_3 (some options implicitly involve a third chart, but the core is the two charts). The proportion of mental health problems needs to be combined with the trend of the number of counseling sessions to identify conflicts or provide explanations. Only a single chart can show one - sided information.",
+        "C": "The decrease in the number of counseling sessions is very small (0.1), but the high proportion of self - reported problems (such as 24.6% of obvious depression) conflicts with the decrease in the number of counseling sessions. This option wrongly ignores the significance of the small change, and the numerical gap is underestimated.",
+        "D": "In chart_170_2, the proportions of 'obvious' anxiety (16.7%) and interpersonal sensitivity (17.9%) are high. In chart_170_3, the number of counseling sessions decreased in 2023. It is necessary to combine chart_170_4 (age - group distribution change) to reason that 'the increase in the proportion of the 30 - 39 age group may reduce the counseling frequency'. This option relies on two charts (mental health and age) to explain the contradiction.",
+        "E": "Superficially, the proportion of obsessive - compulsive symptoms is higher than that of anxiety, but both are relatively high (19.2% for obsessive - compulsive symptoms and 16.7% for anxiety), and the decrease in the number of counseling sessions cannot be directly attributed to a specific symptom. This option misinterprets the ranking and causal relationship.",
+        "F": "This is a common - sense explanation of user behavior (report vs. action), but it is not based on the numerical values in the chart (such as the self - assessment proportion). It does not rely on data and is pure language common sense.",
+        "G": "In chart_170_2, the proportions of 'obvious' obsessive - compulsive symptoms (19.2%) and depression (24.6%) are relatively high. In chart_170_3, the average number of counseling sessions slightly decreased to 12.7 in 2023. It is necessary to combine the two charts to discover the conflict that 'the high proportion of problems did not lead to an increase in the number of counseling sessions' and infer external factors (a single chart only shows data)."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -153,6 +204,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "Easy distractor: Also not related to the charts, it suggests unified resource allocation (such as educational manuals), ignoring the diversity of symptoms and differences among user groups, with a vague strategic direction.",
+        "B": "Option 2 combines chart_170_2 (the relatively high proportion of obvious obsessive - compulsive symptoms) and chart_170_3 (the increasing trend of counseling sessions in recent years) to infer the dynamic user needs.",
+        "C": "Option 3 combines chart_170_1 (the highest proportion of mild depression) and chart_170_2 (the relatively high proportion of mild symptoms in multiple dimensions) to infer prevention opportunities.",
+        "D": "Hard distractor: Incorrectly compares the data in chart_170_2 (the obvious hostility proportion is 14.3%), but in fact, the obvious depression proportion is higher at 24.6%, and it fails to link the counseling session trend (chart_170_3 shows an overall increase), confusing the severity of symptoms.",
+        "E": "Easy distractor: Does not rely on any chart data, only based on general industry common sense (such as public welfare publicity can raise awareness), but there are no specific actions targeting symptoms or groups, and the strategy is broad and non - specific.",
+        "F": "Hard distractor: Incorrectly interprets the data in chart_170_1 (moderately severe 17.7% vs. severe 11.9%), but in fact, the proportion of mild depression is the highest (29.3%), and it does not combine the obvious depression proportion of 24.6% in chart_170_2, wrongly misjudging the moderately severe group as the 'most urgent' group.",
+        "G": "Option 1 combines chart_170_1 (a relatively high proportion of users with depression problems in the distribution of depression severity) and chart_170_2 (relatively high proportions of obvious and mild symptoms in the depression dimension), and also implies chart_170_3 (the overall high - level trend of counseling sessions) to infer resource needs."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -175,6 +243,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Hard distractor: Incorrectly interprets the data in chart_170_4 (the proportion of the 40 - 49 age group increases from 6.5% to 6.9%), but the increase is small (only 0.4%), and it fails to link the counseling sessions (chart_170_3 shows overall stability), wrongly misjudging it as a 'surge in demand'.",
+        "B": "Hard distractor: Incorrectly interprets the trends in chart_170_4 and chart_170_3 (a slight increase in the proportion of the 30 - 39 age group and a slight decrease in counseling sessions), but in fact, the proportion and counseling sessions of this group are both at a high level, and the changes are not significant, wrongly inferring a decline in participation.",
+        "C": "Easy distractor: Does not rely on the charts, only based on common sense to suggest process optimization (such as customer service), but does not target age distribution or counseling trends, and the strategy is broad and ineffective.",
+        "D": "Option 1 combines chart_170_4 (the 20 - 29 age group has the highest proportion and a slight decrease in the latest year) and chart_170_3 (a slight decrease in the latest year in the increasing trend of counseling sessions) to infer the need for service innovation.",
+        "E": "Easy distractor: Based on general marketing logic (such as discount plans), without chart data support, ignoring the specific analysis of age changes and counseling behavior.",
+        "F": "Option 2 combines chart_170_4 (the increasing trend of the proportion of the 30 - 39 age group) and chart_170_3 (high - level stability of counseling sessions), and also implies chart_170_2 (such as relatively high proportions of anxiety or depression symptoms) to infer comprehensive needs.",
+        "G": "Option 3 combines chart_170_4 (a low but stable proportion of users over 40 years old) and chart_170_3 (the overall high - level trend of counseling sessions) to infer the optimization of services for minority groups, in line with values (not ignoring due to low proportion)."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -198,6 +283,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Easy distractor: A common - sense suggestion (such as an online community), without chart data support, ignoring the specific distribution of symptoms and the need for resource integration.",
+        "B": "Hard distractor: Incorrectly links the data in chart_170_4 and chart_170_2 (a slight increase in the proportion of those under 20 years old and a 39.6% mild proportion of interpersonal sensitivity), but the proportion increase is small (0.2%), and it fails to integrate the counseling pattern (the trend in chart_170_3), wrongly inferring that social needs dominate.",
+        "C": "Easy distractor: Does not rely on the charts, only based on management common sense (such as standardized processes), but does not target symptom diversity or counseling patterns, and the strategy is generalized.",
+        "D": "Option 3 combines chart_170_2 (a relatively high healthy proportion but a significant mild proportion in other symptom dimensions) and chart_170_3 (a high level of counseling sessions) to infer resource optimization.",
+        "E": "Option 1 combines chart_170_2 (relatively high obvious proportions in the depression and anxiety dimensions) and chart_170_3 (the increasing trend of counseling sessions) to infer the concentration of needs.",
+        "F": "Hard distractor: Incorrectly interprets the data in chart_170_2 (the healthy proportion of phobic symptoms is 63.7%), but in fact, the sum of the mild and obvious proportions is 36.3%, indicating existing problems, and it does not prioritize symptoms with high problems (such as 24.6% for depression), wrongly regarding health maintenance as efficient.",
+        "G": "Option 2 combines chart_170_2 (a relatively high mild proportion in the interpersonal sensitivity dimension) and chart_170_4 (high proportions of users in the 20 - 29 and 30 - 39 age groups) to infer age - related strategies."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     }
   ]

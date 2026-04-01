@@ -86,6 +86,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option shifts the focus using industry common sense (raw materials affect costs). However, the chart data shows an obvious correlation between market size changes and penetration rate trends (e.g., from 2018 - 2020, the penetration rate increased while the market size decreased), and no raw material data is mentioned.",
+        "B": "It is necessary to compare the market size chart (showing that the market size grew rapidly from 2016 - 2017, but the growth rate slowed down after 2018) and the penetration rate chart (showing that the penetration rate increased rapidly from 2016 - 2017, but the market size growth rate did not accelerate synchronously) to discover the implicit rule of 'when the penetration rate accelerates, the market size growth rate decreases' (such as market saturation).",
+        "C": "There is an error in numerical calculation: from 2021 - 2022, the penetration rate increased by 3.2% corresponding to a market size increase of 2.5 billion yuan (about 0.78 billion per percentage point); from 2022 - 2023, the penetration rate increased by 3.4% corresponding to a market size increase of 7.3 billion yuan (about 2.15 billion per percentage point), with an average of about 1.48 billion per percentage point, not 2 billion; and the fluctuations are large, which cannot support a stable linear relationship.",
+        "D": "It is an incorrect generalization of local data: in 2019, the penetration rate increased the fastest (+8.3%) and the market size decreased, but in 2020, when the penetration rate increased by 5.1%, the market size only decreased slightly (-1.3 billion), and in 2021, when the penetration rate increased by 4.9%, the market size increased by 4.4 billion, indicating that 'the faster the growth rate, the more serious the shrinkage' does not hold.",
+        "E": "Rely on the penetration rate chart (showing that the penetration rate continued to rise to nearly 90% from 2021 - 2023) and the market size chart (showing the predicted growth of the market size during the same period) to infer the positive correlation trend of 'high penetration rate supports future growth'.",
+        "F": "Combine the market size chart (showing a decrease in market size from 2019 - 2020) and the penetration rate chart (showing an increase in the penetration rate during the same period) to analyze the reasons for the conflict (such as non - penetration rate factors), reflecting the role of external variables.",
+        "G": "This option only relies on common sense assumptions (an increase in the penetration rate will inevitably expand the market), but ignores the counter - example in the chart where the penetration rate increased while the market size decreased from 2019 - 2020, and does not involve price competition or external economic factors."
+      },
+      "easy_error": [
+        "G",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "C"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "There is an error in the numerical comparison logic: the purchase ratio of disposable diaper sheets (51.6%) is the category penetration rate, and the proportion of offline channels (8.7%) is the channel selection ratio. There is no direct comparability between them; and the mixed - channel covers 75.8% of users, so the purchase of disposable diaper sheets is more likely to be achieved through the mixed - channel.",
+        "B": "Combine the purchase category chart (the proportion of disposable diaper sheets is about 50%) and the purchase channel chart (the proportion of offline channels is the lowest) to infer the connection between 'niche channels and specific categories' (e.g., offline channels are used for immediate purchases).",
+        "C": "There is an incorrect association of independent indicators: the purchase rate of pull - up diapers is slightly lower than that of diapers (76.4% vs 78.2%), but the proportion of online channels (15.5%) and offline channels (8.7%) are both single - channel proportions, and the mixed - channel accounts for 75.8% and is dominant. It cannot be concluded that 'pull - up diapers rely on online channels'.",
+        "D": "This option avoids the core issue using common sense (brand influences decision - making). The chart does not mention brand factors, and the data shows a potential association between the mixed - channel (75.8%) and the high purchase rates of multiple categories (78.2% for diapers and 76.4% for pull - up diapers).",
+        "E": "Rely on the purchase category chart (the purchase ratio of disposable diaper sheets is in the middle) and the purchase channel chart (the proportion of exclusive online channels is low) to analyze the association between 'low channel usage and medium - level category preference' (e.g., online channels are more for convenience products).",
+        "F": "It is necessary to cross - reference the purchase category chart (the proportions of diapers and pull - up diapers are both over 75%) and the purchase channel chart (the proportion of the online - offline mixed - channel is the highest) to infer the implicit behavior pattern of 'high - preference categories and dominant channels working together'.",
+        "G": "This option is based on the common sense of offline experience, but the proportion of offline channels in the chart is the lowest (8.7%), and the 51.6% purchase rate of disposable diaper sheets cannot be supported only by offline channels, and no cross - data of category - channel is provided."
+      },
+      "easy_error": [
+        "D",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "B",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "It ignores multiple growth - driving factors: from 2022 - 2023, the market size increased by 7.3 billion yuan accompanied by a 3.4% increase in the penetration rate. However, consumers' preference for multiple categories (over 75% for both diapers and pull - up diapers) and the dominance of the mixed - channel (75.8%) indicate that innovation and efficiency upgrades can drive growth, not solely relying on price increases; and no price data is provided.",
+        "B": "Cross - reference the market size chart (showing a decrease in market size from 2019 - 2020), the penetration rate chart (showing an increase in the penetration rate during the same period), and the purchase category chart (showing high proportions of mainstream categories in 2022) to explain the rule of 'short - term conflicts do not undermine long - term resilience' (such as rigid demand).",
+        "C": "This option shifts the focus using population common sense, but the penetration rate in the chart continues to rise to near - saturation (88.6% in 2023), and the predicted market size growth relies on category upgrades (76.4% for pull - up diapers) rather than population growth.",
+        "D": "This option misinterprets channel efficiency in the opposite way: the dominance of the mixed - channel (75.8%) actually improves convenience (as in option B), and multi - category purchases (78.2% for diapers + 76.4% for pull - up diapers) support efficiency. There is no data indicating that it hinders market expansion.",
+        "E": "It is necessary to integrate the penetration rate chart (the predicted penetration rate in 2023 reaches 88.6%, approaching saturation), the market size chart (the predicted market size growth in 2023), and the purchase category chart (the proportions of diapers and pull - up diapers are both over 75%) to reveal the implicit connection of 'category diversity supports growth in a saturated market'.",
+        "F": "Rely on the purchase channel chart (the proportion of the mixed - channel is the highest), the purchase category chart (high proportions of multiple categories), and combine the penetration rate chart (continuously rising to a high level) to infer that 'channel efficiency and high penetration rate work together to promote a healthy market'.",
+        "G": "There is an incorrect priority inference: the purchase rate of disposable diaper sheets has exceeded 50%, but the purchase rates of mainstream categories (diapers and pull - up diapers) are both over 76%, and the penetration rate is not saturated (88.6% in 2023). The market size growth is more likely to come from category innovation (as in option A) rather than focusing on disposable diaper sheets."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -155,6 +206,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Option 1 combines chart_80_1 (Market size trend: fluctuated and declined from 2015 - 2020, and is predicted to grow after 2021) and chart_80_2 (Penetration rate trend: continuously rising to a high level); Infers that when the penetration rate is approaching saturation, product innovation is required to drive the scale growth.",
+        "B": "This is an easy distraction: Based on common sense of price competition (e.g., 'lower prices to stimulate sales'), without combining the chart content (such as the continuous rise in market penetration rate or consumer category preferences), the strategy direction is vague and ignores data support.",
+        "C": "This is an easy distraction: The statement is based on general marketing common sense (e.g., 'expand advertising promotion'), without citing any chart data (such as market size or penetration rate), and is too broad without specific action guidelines (e.g., not targeting product line development).",
+        "D": "This is a hard distraction: Apparently quotes the data from chart_80_3 (the purchase ratio of disposable diaper sheets is 51.6%), but wrongly confuses the values - the ratio of disposable diaper sheets (51.6%) is much lower than that of diapers (78.2%) and pull - up diapers (76.4%), and does not consider the market size forecast (chart_80_1) which shows that the overall growth is more dependent on mainstream categories; The strategic suggestion (prioritize investment in low - demand categories) does not match the data.",
+        "E": "Option 2 combines chart_80_2 (continuous rise in penetration rate) and chart_80_3 (purchase categories: high ratio of pull - up diapers); Infers to take advantage of the trends of increasing penetration rate and category preferences, and suggests focusing on emerging categories.",
+        "F": "This is a hard distraction: Apparently uses the data from chart_80_1 (the market size declined from 2019 - 2020), but wrongly interprets the trend - ignores the continuous rise in penetration rate (chart_80_2) to 88.6% and the predicted growth (628 billion yuan in 2023), indicating that the market still has potential; The strategic direction (reduce investment) contradicts the actual growth prospects.",
+        "G": "Option 3 combines chart_80_1 (fluctuation in size) and chart_80_2 (rise in penetration rate); Infers based on the trade - off between size and penetration rate, and emphasizes resource reallocation."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -177,6 +245,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Option 3 combines chart_80_3 (high ratio of core categories) and chart_80_4 (proportion of offline channels); Infers to match categories with channels and emphasizes resource priority.",
+        "B": "This is an easy distraction: Uses general loyalty strategies (e.g., 'member points'), without combining specific charts (such as purchase channel or category data), the strategy lacks data support and ignores the efficiency goal.",
+        "C": "This is an easy distraction: Based on industry common sense (e.g.,'social media attracts young parents'), without citing any chart data (such as channel proportion or category preferences), the statement is broad and has no clear channel optimization guidelines.",
+        "D": "This is a hard distraction: Apparently quotes chart_80_4 (offline proportion is 8.7%) and chart_80_3 (diaper ratio is 78.2%), but wrongly infers - the offline proportion is low and there is no data to support a strong correlation between categories and channels; The strategic direction (strengthen offline) contradicts the goal of efficient coverage, as the all - channel (75.8%) is the core.",
+        "E": "Option 2 combines chart_80_3 (high demand for categories) and chart_80_4 (proportion of online channels); Infers to take advantage of the space of online channels and category preferences, and suggests targeted investment.",
+        "F": "This is a hard distraction: Apparently combines chart_80_4 (online proportion is 15.5%) and chart_80_3 (diaper ratio is 78.2%), but wrongly interprets the relationship - the chart shows that the all - channel is the mainstream (75.8%), and the online proportion is not high; The suggestion of 'concentrating on online' ignores the mainstream preference for all - channels and may lead to a decline in coverage.",
+        "G": "Option 1 combines chart_80_3 (purchase categories: high proportion of diapers and pull - up diapers) and chart_80_4 (channel proportion: all - channel dominates); Infers based on category concentration and channel mainstream trends, and suggests integrated marketing."
+      },
+      "easy_error": [
+        "C",
+        "B"
+      ],
+      "hard_error": [
+        "F",
+        "D"
       ]
     },
     {
@@ -201,6 +286,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distraction: Apparently combines chart_80_4 (offline proportion is 8.7%) and chart_80_3 (diaper ratio is 78.2%), but wrongly confuses - the offline proportion is low and there is no data indicating that categories depend on offline; At the same time, it ignores the all - channel mainstream (75.8%) and the size forecast. The strategy of 'increasing offline investment' is not efficient and may waste resources.",
+        "B": "Option 1 combines chart_80_1 (size forecast: growth after 2021), chart_80_2 (penetration rate trend: continuously rising but with a slowing growth rate), and chart_80_4 (channels: all - channel dominates); Infers to take advantage of the relationship between size growth, penetration rate, and channels, and suggests coordinated investment.",
+        "C": "Option 2 combines chart_80_2 (high and stable penetration rate) and chart_80_3 (balanced category purchase ratio); Infers based on the saturated penetration rate and category trends, and suggests product innovation.",
+        "D": "This is an easy distraction: Based on general business strategies (e.g., 'diversify the product line'), without citing any chart data (such as market size or penetration rate), the statement is broad and has no specific balance guidelines (e.g., not targeting short - term and long - term).",
+        "E": "This is a hard distraction: Apparently uses chart_80_2 (penetration rate is 88.6%) and chart_80_1 (fluctuation in size), but wrongly interprets - the penetration rate is high but the market size is predicted to grow (628 billion yuan in 2023), and although the growth rate of the penetration rate slows down, it still rises; The strategy of'reducing investment' ignores the growth potential and deviates from the balance goal.",
+        "F": "This is an easy distraction: Uses supply - chain common sense (e.g., 'optimize production costs'), without combining the chart content (such as market size fluctuations or channel preferences), the strategy lacks data support and ignores changes in penetration rate.",
+        "G": "Option 3 combines chart_80_1 (fluctuation in size) and chart_80_4 (proportion of online channels); Infers to target the size troughs and channel efficiency, and suggests a cost - optimization strategy."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     }
   ]

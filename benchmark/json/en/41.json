@@ -86,6 +86,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "It is necessary to analyze the trend patterns of the two charts. The overall growth implies fluctuations (e.g., high growth in 2021 followed by low growth in 2023), while the online growth rate directly shows high fluctuations (e.g., from 15% in 2022 to 8% in 2023). The trend differences need to be identified by combining the two charts.",
+        "B": "It is necessary to calculate the implied growth rate by combining the overall market scale and the growth rate of the online market scale. Comparing the implied growth rate of the overall market scale from 2020 to 2024 with the online growth rate, it shows that the online growth rate is higher in 2022, 2023, and 2024. In most years (3 out of 4 comparable years), the online growth is stronger.",
+        "C": "This distractor makes a general statement about the economic impact without relying on the charts: The overall market growth rate in chart_41_1 fluctuates (e.g., from 25% in 2021 to 3.7% in 2023), and the online market growth rate in chart_41_2 also fluctuates (e.g., from 15% in 2022 to 8% in 2023). Both are unstable, and the online market is not more vulnerable to external influences.",
+        "D": "This distractor is based on industry common sense (e.g., the tradition of offline consumption) but ignores the chart data: Chart_41_2 shows that the online market scale has increased from 40 in 2020 to 70 in 2024, with an increase of 75%, which is not slow; common sense cannot cover the specific growth trend.",
+        "E": "This distractor makes a wrong comparison of the gap: In 2023, the online growth rate in chart_41_2 is 8%, while the overall scale in chart_41_1 is 280 billion compared to 270 billion in 2022, with an implied growth rate of about 3.7%. The online 8% is higher than the overall 3.7%; the option saying 'lower for the first time' is a misreading of the ranking and gap.",
+        "F": "It is necessary to compare the overall growth ratios of the two markets. The overall market scale has increased by 50% from 2020 to 2024, while the online market scale has increased from 40 to 70, an increase of 75%. The online growth amplitude is larger, which must be obtained by calculating the relative ratios by combining the two charts.",
+        "G": "This distractor misinterprets the values: By calculating the implied growth rate, the average growth rate of the overall market in chart_41_1 (from 2020 - 2024) is about 10.76%, and the average growth rate of the online market in chart_41_2 during the same period is about 11.2%. The online growth rate is slightly higher; the option saying'significantly lower' is a misunderstanding of the values."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "G",
+        "E"
       ]
     },
     {
@@ -107,6 +124,21 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "This distractor makes a wrong connection of values: The proportion of pet health in chart_41_4 is 8.4%, far lower than 49.7% of pet food; The online market in chart_41_2 shows overall growth (e.g., 14% in 2024), but there is no specific growth rate data for each category. The option wrongly infers that the health category has a fast growth rate.",
+        "B": "The category proportion shows that the combined proportion of pet food and supplies is 85.2%, and the growth of the online market scale indicates an expansion of demand. By combining the inferences, these two categories are the pillars of growth and cannot be inferred from a single chart.",
+        "C": "It is necessary to combine the growth of the online market scale and the category proportion in 2024. The online market scale continues to grow, and the category proportion shows that pet food accounts for nearly 50%, being the largest category, implying that this category plays a leading role in the growth. However, it is necessary to conduct cross - chart reasoning on the relationship between the proportion and the growth.",
+        "D": "This distractor is based on common sense (e.g., the digital trend during the epidemic) but does not rely on the charts: Chart_41_4 shows that the proportion of pet services is only 0.2%, a very small share. Common sense cannot prove its leading role in growth; the actual data does not support it.",
+        "E": "Based on the category proportion, pet supplies account for 35.5% (the second - largest). Combining with the overall growth trend of the online market scale, it is inferred that the supplies category makes an important contribution to the growth. This requires a combined analysis of the relationship between the secondary category and the overall growth from the two charts.",
+        "F": "This distractor misinterprets the ranking: Pet food in chart_41_4 has the highest proportion of 49.7%, and the online market in chart_41_2 shows strong overall growth (70 in 2024 compared to 40 in 2020). A high proportion usually drives growth; the option saying 'weak growth' is a misreading of the relationship between the proportion and the growth, implying saturation without evidence."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -128,6 +160,21 @@
         "A",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "In the brand - channel proportion, the proportion of domestic brands in the shelf channel is 73.3%, lower than that in the content channel. And in the category proportion, pet supplies account for 35.5%. By combining the inferences, domestic brands may focus on supplies in the shelf channel and cannot be inferred from a single chart.",
+        "B": "This distractor is based on industry common sense (e.g., the resource advantages of international brands) but ignores the charts: Chart_41_3 shows that there are 27 domestic brands and 3 international brands in the content channel, and domestic brands are absolutely dominant; common sense cannot cover the specific data.",
+        "C": "This distractor makes a wrong connection of values: The proportion of domestic brands in the shelf channel in chart_41_3 is 22 (compared to 8 international brands), but the proportion of the pet health category in chart_41_4 is only 8.4%, far lower than 49.7% of pet food. The option wrongly infers that domestic brands promote the growth of the health category, and there is no data to support the direct connection between the channel and the category.",
+        "D": "The brand - channel proportion shows that domestic brands are generally dominant, but the proportion of international brands in the shelf channel is 26.7%, which potentially conflicts with the proportion of each category (e.g., international brands may be weaker in pet food). It is necessary to conduct a combined analysis of the implicit contradictions between the brand distribution and the category structure.",
+        "E": "It is necessary to combine the brand - channel proportion and the category proportion. The brand - channel proportion shows that the proportion of domestic brands in the content channel is 90%, and pet food has the highest proportion in the category proportion, implying that domestic brands promote food sales through the content channel. However, it is necessary to conduct cross - chart reasoning on the relationship between the channel and the category.",
+        "F": "This distractor makes a wrong inference of the gap: The proportion of domestic brands in the content channel in chart_41_3 is 27 compared to 3 international brands, and domestic brands are dominant. Pet food has the highest proportion of 49.7% in chart_41_4, but the brand data is not divided by channel and category. The option saying 'the proportion of international brands is higher' is a misreading of the ranking (the actual share of international brands in the content channel is small)."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -152,6 +199,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Jointly analyze chart_41_3 (domestic brands have a very high proportion in the content category, indicating consumer preferences) and chart_41_2 (the online e - commerce market is continuously growing). This takes advantage of the connection between brand preference trends and channel expansion to enhance brand influence.",
+        "B": "This option seemingly uses the chart data (the growth rate in chart_41_2), but misinterprets the trend: although the growth rate in 2023 was 8%, lower than that in 2022, it rebounded to 14% in 2024, and the market size continued to increase. The overall growth potential of the online market has not weakened; instead, it should be strengthened.",
+        "C": "Jointly analyze chart_41_4 (the pet food category has the highest proportion in e - commerce sales, far exceeding other categories) and chart_41_1 (the overall market size is growing steadily). This identifies opportunities in the largest sub - market, and resource allocation can optimize sales returns.",
+        "D": "Jointly analyze chart_41_1 (the overall urban pet consumption market size has been growing year by year, rising continuously from a low point from 2020 to 2025) and chart_41_2 (the size of the pet online e - commerce market is continuously expanding, and although the growth rate fluctuates, the overall trend is upward). This reflects the synergistic effect of online channels and overall market growth, and the strategy can maximize growth potential.",
+        "E": "This option does not rely on chart data but is based only on general common sense (the importance of offline experience). However, the charts (chart_41_1 and chart_41_2) show that both the overall market and online channels are growing, and the online market is the core trend, so it is incorrect.",
+        "F": "This option is broad and provides no specific action guidelines. It is a common - sense suggestion (supply chain optimization is beneficial), but it does not combine the online growth or category proportion data in the charts and cannot directly solve the resource allocation problem.",
+        "G": "This option wrongly confuses data: it refers to chart_41_4 (the pet health category accounts for 8.4%) and chart_41_1 (the overall market is growing), but the pet health category has a small proportion and there is no growth rate data to support its high potential. Prioritizing investment in a low - proportion category may ignore the scale effect of high - proportion categories (such as pet food at 49.7%), leading to strategic deviation."
+      },
+      "easy_error": [
+        "E",
+        "F"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -175,6 +239,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "Jointly analyze chart_41_3 (domestic brands have a high proportion in the shelf category, but international brands also have a presence) and chart_41_4 (the pet food category has the highest sales proportion). This identifies the balance point between mainstream categories and brand diversity, and resource allocation can optimize market coverage.",
+        "B": "Jointly analyze chart_41_3 (domestic brands have a very high proportion in the content category, far exceeding international brands) and chart_41_2 (the size of the online e - commerce market is continuously growing, and the overall growth rate is upward). Based on the connection between brand preference and channel expansion, this strategy can take advantage of consumer trends to enhance competitiveness.",
+        "C": "This option wrongly confuses trends: chart_41_3 shows that domestic brands have a high proportion in the content category (27 vs 3), but the online growth rate in chart_41_2 (such as 14% in 2024) indicates that content marketing is a growth engine. Ignoring the content field will miss high - potential opportunities, which contradicts the data.",
+        "D": "This option is broad and lacks data support. It is a general suggestion (packaging design is important), but it does not combine the brand proportion or category data in the charts and cannot solve the brand balance or product line problem.",
+        "E": "This option does not rely on the charts but is based only on common sense (balanced investment is reasonable). However, the chart (chart_41_3) shows that domestic brands have an advantage in both the content and shelf categories. A balanced strategy may ignore the advantages of domestic brands and cannot be optimized specifically.",
+        "F": "Jointly analyze chart_41_4 (the pet health category has a relatively low sales proportion but is not zero) and chart_41_2 (the online e - commerce growth rate is relatively high and fluctuates, indicating innovation opportunities). This combines category potential with the overall growth trend, and the strategy conforms to the values of sustainable development and encourages innovation rather than reducing investment.",
+        "G": "This option seemingly uses the chart data (chart_41_3 and chart_41_4), but misinterprets it: international brands only account for 8 in the shelf category (far lower than 22 for domestic brands), and the dominant position of pet food has no direct brand association. Prioritizing the development of weak brands may be inefficient and ignore consumer preferences for domestic brands."
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "G",
+        "C"
       ]
     },
     {
@@ -198,6 +279,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "This option seemingly uses the chart data (6.2% proportion in chart_41_4 and market size growth in chart_41_2), but misinterprets it: the proportion of live pets is small and there is no specific growth rate data; the overall market growth does not directly translate into high potential for the live pet category. Prioritizing investment in a low - proportion category may result in a low return on investment.",
+        "B": "This option does not rely on the charts but is based only on common sense (diversified investment reduces risks). However, the chart (chart_41_4) shows a large difference in category proportions (49.7% for pet food vs 0.2% for pet services). Evenly distributing the budget ignores the scale advantage of high - proportion categories and is inefficient.",
+        "C": "Jointly analyze chart_41_4 (the pet food category has the highest proportion and is the core sales driver) and chart_41_1 (the overall market size is growing year by year). This reflects the match between the core category and market growth, and budget allocation can maximize ROI.",
+        "D": "Jointly analyze chart_41_4 (the pet supplies category has the second - highest sales proportion) and chart_41_2 (the online e - commerce market trend is upward, and although the growth rate fluctuates, the overall trend is positive). This takes advantage of the synergy between the second - largest category and channel growth, and the strategy can optimize the efficiency of digital channels.",
+        "E": "Jointly analyze chart_41_4 (the pet health category has a relatively low sales proportion) and chart_41_2 (the online e - commerce growth rate is relatively high and fluctuates, such as 15% in 2022 and 14% in 2024, indicating potential). Based on the connection between growth trends and category opportunities, this strategy encourages innovative investment rather than ignoring small categories.",
+        "F": "This option is broad and has no specific data association. It is a general suggestion (training is beneficial), but it does not combine the category proportion or growth trend in the charts and cannot directly address the budget allocation problem.",
+        "G": "This option wrongly confuses data: it refers to chart_41_4 (pet food accounts for 49.7%) and chart_41_2 (the growth rate in 2023 was 8%), but the growth rate rebounded to 14% in 2024, and the overall market expansion (chart_41_1) indicates that pet food still has high potential. Cutting the budget may result in a loss of core sales, which contradicts the growth trend."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     }
   ]

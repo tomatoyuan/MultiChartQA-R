@@ -86,6 +86,22 @@
       "label": [
         "B",
         "C"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误解读chart_47_4（抖音在MAT2024占比45%，淘天45%，未超过50%），且chart_47_1显示线上份额仅轻微上升（41%到43%），非大幅跃升。",
+        "B": "选项1正确依赖于chart_47_4和chart_47_3的联合推理：chart_47_4显示抖音平台份额从30%增至45%（新兴平台显著提升），而chart_47_3显示零售额从2763亿元增至2959亿元（逐年稳定增长），表明抖音的扩张可能直接拉动了销售增长，无法仅从单张图表推断这一联系（例如，只看chart_47_4无法知道整体零售趋势）。",
+        "C": "选项2正确依赖于chart_47_4和chart_47_1的联合推理：chart_47_4显示淘天份额从60%降至45%（传统平台下降），而chart_47_1显示线上份额从41%增至43%（整体轻微上升），说明抖音的增长抵消了淘天的下降并带动了线上份额提升；结合chart_47_3的零售增长，这暗示线上内部结构调整支持了市场扩张。推理需要同时考虑渠道内部变化和整体销售趋势。",
+        "D": "这是一个Easy干扰项：它泛泛而谈品牌促销（行业常识），但图表中没有相关数据支持；原始问题涉及渠道变化，而非促销细节。",
+        "E": "这是一个Easy干扰项：它基于常识（如数字化趋势），不依赖任何图表数据；实际上，图表并未提及消费者偏好，而是聚焦份额数值和零售额。",
+        "F": "这是一个Hard干扰项：错误解读chart_47_4（京东份额始终为10%，无增长），错误推断其驱动力；实际抖音才是增长主力。"
+      },
+      "easy_error": [
+        "E",
+        "D"
+      ],
+      "hard_error": [
+        "A",
+        "F"
       ]
     },
     {
@@ -107,6 +123,22 @@
       "label": [
         "A",
         "C"
+      ],
+      "cot": {
+        "A": "选项1正确依赖于chart_47_2和chart_47_1的联合推理：chart_47_2显示生物科技原料占比42%（最大比例投资），而chart_47_1显示线上份额从41%增至43%（轻微上升），暗示生物科技投资可能通过创新产品（如高效成分）增强了线上渠道的吸引力，促进份额提升。推理需跨图连接投资重点与渠道趋势，单看chart_47_2或chart_47_1均无法得出此结论。",
+        "B": "这是一个Hard干扰项：错误解读chart_47_2（美妆护肤品牌占25%，非最高；最高是生物科技42%），并错误关联chart_47_4（抖音崛起由份额变化体现，非投资驱动）。",
+        "C": "选项2正确依赖于chart_47_2和chart_47_4的联合推理：chart_47_2显示美妆护肤品牌投资占25%（较高但非主导），而chart_47_4显示抖音份额从30%增至45%（新兴平台崛起），但chart_47_1线上份额增长平缓（仅2个百分点），表明投资可能优先流向技术领域（如生物科技），而非直接推动品牌渠道扩张，从而解释了线上份额未大幅提升的原因。这需要对比投资分布与渠道内部动态。",
+        "D": "这是一个Hard干扰项：错误解读chart_47_1（线下份额下降），并错误关联chart_47_2（医疗科技20%，非主要）；投资数据未涉及渠道偏好。",
+        "E": "这是一个Easy干扰项：基于常识（投资提升竞争力），不依赖图表；图表未讨论品牌竞争力或转化机制。",
+        "F": "这是一个Hard干扰项：错误解读chart_47_2（生物科技原料占42%，但投资方向未指定渠道），且chart_47_1显示线下份额下降（59%到57%），非优化；投资与渠道无直接关联。"
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "B",
+        "D"
       ]
     },
     {
@@ -129,6 +161,22 @@
       "label": [
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "这是一个Hard干扰项：错误解读chart_47_2（医疗科技占20%，非最大；最大是生物科技42%），并错误推断全渠道扩张；投资数据未显示供应链优化细节。",
+        "B": "这是一个Easy干扰项：基于宏观经济常识（消费升级），不依赖图表；图表未提及GDP或宏观因素。",
+        "C": "这是一个Hard干扰项：错误解读chart_47_2（生物科技42%是投资，非销售），并夸大抖音影响（chart_47_4显示抖音从30%到45%，非暴增）；且零售额增长稳定（chart_47_3），非暴增。",
+        "D": "选项2正确依赖于chart_47_1、chart_47_3和chart_47_2的联合推理：chart_47_3显示零售额增至2959亿元（逐年增加），chart_47_1显示线下份额降至57%（轻微下降），而chart_47_2显示生物科技原料投资高比例，暗示投资提升了产品力（如原料创新），促使消费者转向线上新兴平台（chart_47_4抖音增长），从而驱动销售。这需要连接投资、渠道转移和销售趋势，单张图表无法覆盖。",
+        "E": "这是一个Hard干扰项：错误解读chart_47_1（线下份额从59%降到57%，非上升），并错误关联chart_47_3（零售额增长）；实际线下份额下降。",
+        "F": "选项1正确依赖于chart_47_1、chart_47_4和chart_47_2的联合推理：chart_47_1显示线上份额增至43%（整体上升），chart_47_4显示抖音份额增至45%（新兴平台大幅提高），而chart_47_2显示生物科技原料投资占42%（主导），表明生物科技投资可能催生了创新产品，借助抖音等平台的高增长渠道推动销售（chart_47_3的零售增长）。推理需综合三张图表，例如，仅看chart_47_2和chart_47_3无法解释渠道的作用。"
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "C",
+        "A"
       ]
     },
     {
@@ -152,6 +200,23 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente el gráfico chart_47_4: la proporción de Taotian cayó del 60% en 'MAT2022' al 45% en 'MAT2024', mostrando una tendencia a la baja; mientras que la de Douyin aumentó del 30% al 45%. Sugerir 'aumentar la inversión en Taotian' ignora la dinámica de la disminución de la cuota, lo que entra en conflicto con la estrategia correcta (por ejemplo, reducir las plataformas de comercio electrónico tradicionales).",
+        "B": "Esta opción tiene múltiples errores: en primer lugar, el gráfico chart_47_1 muestra que la cuota de los canales en línea aumentó del 41% en 2022 al 43% en 2024, con una tendencia ascendente, pero el distractor dice que es 'solo el 43%' y sugiere reducirlo; en segundo lugar, el gráfico chart_47_3 muestra que el volumen de ventas minoristas aumentó de 2763 mil millones de yuanes en 2022 a 2959 mil millones de yuanes en 2024 (un aumento de 196 mil millones de yuanes), con un crecimiento estable, pero el distractor lo juzga erróneamente como 'crecimiento lento'; por último, no considera el alto crecimiento de los canales en línea principales (como Douyin).",
+        "C": "La opción 1 se relaciona con el gráfico chart_47_1 (la cuota de los canales en línea ha aumentado de manera estable desde 2022 a 2024) y el gráfico chart_47_4 (la proporción de Douyin ha aumentado del 30% al 45%, con el crecimiento más rápido).",
+        "D": "La opción 2 se relaciona con el gráfico chart_47_1 (la cuota de los canales fuera de línea, aunque ha disminuido, sigue siendo superior al 50%) y el gráfico chart_47_3 (el volumen de ventas minoristas ha aumentado año tras año, aumentando 196 mil millones de yuanes de 2022 a 2024, y los canales fuera de línea siguen siendo un canal importante).",
+        "E": "La opción 3 se relaciona con el gráfico chart_47_4 (la proporción de Taotian ha disminuido del 60% al 45%, con una disminución evidente) y el gráfico chart_47_1 (la cuota general de los canales en línea ha aumentado, lo que indica un cambio en la estructura de los canales).",
+        "F": "Esta opción se basa en conocimientos generales de marketing (la publicidad aumenta la知名度), no cita ningún dato de los gráficos (como la cuota de los canales o la tasa de crecimiento), y no puede proporcionar orientación de acción para tendencias específicas (como el crecimiento de los canales en línea o el surgimiento de Douyin), por lo que es fácil de descartar.",
+        "G": "Esta opción se basa en una estrategia de precios general, ignora el crecimiento estable del volumen de ventas minoristas mostrado en el gráfico (chart_47_3) y la migración de canales (chart_47_1), y no optimiza la asignación de recursos en combinación con los datos. La estrategia es amplia e ineficaz."
+      },
+      "easy_error": [
+        "F",
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "B"
       ]
     },
     {
@@ -174,6 +239,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción utiliza principios de inversión generales (diversificación), no cita datos de los gráficos (como la distribución de inversiones y financiamiento o la tendencia del volumen de ventas minoristas), y no puede proporcionar orientación específica para oportunidades de alto crecimiento (como el sector de biotecnología). Es fácil de descartar por conocimientos generales.",
+        "B": "Esta opción interpreta gravemente erróneamente la tendencia: en el gráfico chart_47_2, la proporción de materiales primarios de biotecnología es del 42%, lo que indica que es un sector en auge; pero el distractor cita erróneamente el gráfico chart_47_3 (un aumento de 55 mil millones de yuanes de 2022 a 2023) e ignora el aumento de 141 mil millones de yuanes de 2023 a 2024 (aceleración), y juzga erróneamente que es 'crecimiento débil'. La biotecnología es un sector con alto potencial, y reducir la inversión entra en conflicto con los datos.",
+        "C": "Esta opción interpreta erróneamente los datos: el gráfico chart_47_2 muestra que la proporción de las marcas de belleza y cuidado de la piel es del 25%, menor que la de los materiales primarios de biotecnología (42%), pero el distractor exagera su importancia; el gráfico chart_47_3 muestra un crecimiento general del volumen de ventas minoristas, pero no demuestra que la tasa de rendimiento de la inversión en las marcas sea la más alta. La estrategia correcta debe priorizar la biotecnología (con la proporción más alta).",
+        "D": "La opción 2 se relaciona con el gráfico chart_47_2 (las marcas de belleza y cuidado de la piel representan el 25%, la segunda proporción más alta) y el gráfico chart_47_3 (el volumen de ventas minoristas aumenta aproximadamente entre un 2 - 5% al año, y el segmento de las marcas puede capturar el aumento).",
+        "E": "La opción 3 se relaciona con el gráfico chart_47_2 (la tecnología médica representa el 20%, complementando a otros sectores) y el gráfico chart_47_3 (el crecimiento del volumen de ventas minoristas proporciona una base de mercado, y los productos innovadores pueden estimular la demanda).",
+        "F": "Esta opción se basa en una estrategia general de negocios (cooperación de marcas), ignora los puntos calientes de inversión y financiamiento en el gráfico chart_47_2 (por ejemplo, los materiales primarios de biotecnología con un 42%) y el crecimiento del volumen de ventas minoristas en el gráfico chart_47_3. La estrategia es vaga y sin soporte de datos.",
+        "G": "La opción 1 se relaciona con el gráfico chart_47_2 (los materiales primarios de biotecnología representan el 42%, la mayor proporción) y el gráfico chart_47_3 (el volumen de ventas minoristas aumentó un 7.1% de 2022 a 2024, lo que respalda la demanda de materiales primarios)."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "B"
       ]
     },
     {
@@ -198,6 +280,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción interpreta erróneamente la tendencia: la tendencia ascendente de la cuota de los canales en línea en el gráfico chart_47_1 (del 41% al 43%) se juzga erróneamente como 'un ligero aumento', ignorando la dinámica de los canales principales (por ejemplo, el aumento de la proporción de Douyin); el crecimiento del volumen de ventas minoristas en el gráfico chart_47_3 respalda la estrategia de ajuste, pero el distractor sugiere 'posponer'; además, la proporción de la tecnología médica en el gráfico chart_47_2 es del 20%, menor que la de la biotecnología (42%), y priorizar la inversión en la tecnología médica es un error.",
+        "B": "Esta opción se basa en conocimientos generales de negocios (mejorar el servicio), no integra ningún dato de los gráficos (como la migración de canales o la inversión y financiamiento). La estrategia es amplia y sin acciones específicas (como el desarrollo de productos o la selección de canales), y es fácil de descartar.",
+        "C": "La opción 2 se relaciona con el gráfico chart_47_1 (la cuota de los canales fuera de línea es superior al 55%, aún es dominante), el gráfico chart_47_3 (el crecimiento del volumen de ventas minoristas proporciona espacio presupuestario) y el gráfico chart_47_4 (la proporción de JD se mantiene estable al 10%, se puede optimizar en lugar de reducir).",
+        "D": "Esta opción se basa en una estrategia de productos general (aumentar las SKU), ignora datos como los puntos calientes de inversión y financiamiento (chart_47_2) o la dinámica de los canales (chart_47_4), y no optimiza para oportunidades de alto crecimiento (como la biotecnología o la plataforma de Douyin).",
+        "E": "La opción 3 se relaciona con el gráfico chart_47_4 (la proporción de Douyin se ha duplicado, mientras que la de Taotian ha disminuido), el gráfico chart_47_3 (el crecimiento continuo del volumen de ventas minoristas requiere una estrategia ágil) y el gráfico chart_47_1 (la migración de canales requiere una respuesta dinámica).",
+        "F": "Esta opción tiene múltiples errores: en primer lugar, el gráfico chart_47_4 muestra que la cuota de JD se mantiene estable, pero solo es del 10%, mucho menor que el crecimiento de Douyin (del 30% al 45%), y el distractor sugiere 'promoción intensiva', lo que sobreestima su impacto; en segundo lugar, el gráfico chart_47_1 muestra que la cuota de los canales fuera de línea ha disminuido (del 59% al 57%), pero el distractor dice que es 'dominante' y sugiere combinarlo; por último, el punto caliente de biotecnología en el gráfico chart_47_2 (42%) no se prioriza, y la estrategia confunde los canales y los productos.",
+        "G": "La opción 1 se relaciona con el gráfico chart_47_2 (los materiales primarios de biotecnología representan el 42%, un punto caliente de inversión y financiamiento), el gráfico chart_47_4 (la proporción de Douyin ha aumentado al 45%, un canal de alto crecimiento en línea) y el gráfico chart_47_1 (la cuota de los canales en línea ha aumentado, y la innovación de productos debe adaptarse a los canales)."
+      },
+      "easy_error": [
+        "B",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "A"
       ]
     }
   ]

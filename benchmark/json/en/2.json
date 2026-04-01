@@ -84,6 +84,23 @@
         "C",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor because it is based on general industry knowledge (iOS users generally have a higher willingness to pay than Android users) and does not rely on any chart data. It is a generally correct statement.",
+        "B": "This is a hard distractor because it misinterprets the chart data. In fact, in the second quarter of 2024, the download volume of Google Play was 64 million times (a year-on-year decrease of 14.7% as it was 75 million times in the second quarter of 2023), and the revenue was $1.17 billion (a year-on-year decrease of 2.5% as it was $1.2 billion in the second quarter of 2023). The distractor fabricated 'a 10% increase and a 5% decrease', distorting the trend.",
+        "C": "Option correctness: This option is based on the combined data calculation and trend comparison of chart_2_1 and chart_2_2. It is necessary to calculate the revenue per download (e.g., in Q2 2024, Google Play revenue/download volume ≈ $18.28 per time vs App Store ≈ $17.78 per time) to show the platform differences. Necessity of combined reasoning: The pattern cannot be obtained from a single chart. Only chart_2_1 can show the download trend, but it cannot explain the revenue change; only chart_2_2 can show the revenue trend, but it cannot correlate with the platform share of download volume. Cross - analysis (such as combining the download volume share and revenue change) is necessary to infer that the platform differences are widening.",
+        "D": "This is an easy distractor because it is only deduced from general market phenomena (the disconnection between promotion activities and revenue) and does not use specific values or trends in the charts.",
+        "E": "Option correctness: This option is based on the combined data calculation and trend comparison of chart_2_1 and chart_2_2. Necessity of combined reasoning: The pattern cannot be obtained from a single chart. Only chart_2_1 can show the download trend, but it cannot explain the revenue change; only chart_2_2 can show the revenue trend, but it cannot correlate with the platform share of download volume. Cross - analysis (such as combining the download volume share and revenue change) is necessary to infer that the platform differences are widening.",
+        "F": "This is a hard distractor because it miscalculates the revenue per download. In fact, in the fourth quarter of 2023, the revenue per download of the App Store was 1.7 billion / 0.85 ≈ $20 per time, but it was not the peak (it was 2 billion / 0.77 ≈ $26 per time in the first quarter of 2023, which was higher); for Google Play in the same period, it was 1.1 billion / 0.8 = $13.75 per time, and it was not the lowest (it was 1.17 billion / 0.64 ≈ $18.28 per time in the second quarter of 2024, which was higher). The distractor wrongly specified the peak and the lowest values.",
+        "G": "Option correctness: This option is based on the combined data calculation and trend comparison of chart_2_1 and chart_2_2. It is necessary to infer from chart_2_1 that the App Store download volume is stable (e.g., the download volume fluctuated between 77 million and 95 million times from Q1 to Q4 in 2023, and the share in 2024 was 55%), and from chart_2_2 that the revenue decreased (the App Store revenue decreased from $2 billion in Q1 2023 to $1.44 billion in Q2 2024); at the same time, Google Play's download volume in chart_2_1 fluctuated greatly (e.g., it decreased to 64 million times in Q2 2024), but the revenue in chart_2_2 rebounded (it increased to $1.17 billion in Q2 2024). Necessity of combined reasoning: The pattern cannot be obtained from a single chart. Only chart_2_1 can show the download trend, but it cannot explain the revenue change; only chart_2_2 can show the revenue trend, but it cannot correlate with the platform share of download volume. Cross - analysis (such as combining the download volume share and revenue change) is necessary to infer that the platform differences are widening."
+      },
+      "easy_error": [
+        "A",
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -106,6 +123,23 @@
         "A",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Option correctness: This option is based on the numerical calculation and trend comparison of the two charts. It is necessary to obtain the download volume data in the first half of 2024 from chart_2_1 (the App Store share was 55%, the total download volume was 320 million times, a year - on - year increase of 2.5%), and calculate the total revenue from chart_2_2 (the revenue in the first half of 2024 was about $5.3 billion vs about $6.5 billion in the first half of 2023, a year - on - year decrease); then conduct a combined analysis of the platform contribution (the App Store revenue decreased from $3.8 billion to $3.07 billion, and the revenue per download decreased). Necessity of combined reasoning: The conflict cannot be identified from a single chart. Only chart_2_1 shows the increase in download volume, but it cannot explain the revenue decrease; only chart_2_2 shows the revenue decrease, but it cannot correlate with the increase in download volume. Combined calculation (such as comparing the download volume and revenue of each platform in the first half of 2023 vs 2024) and trend analysis (such as the App Store share increasing but the revenue decreasing more) are necessary to explain the conflict.",
+        "B": "This is an easy distractor because it is based on macro - economic common sense (such as the impact of inflation on consumption) and does not quote chart data. It is a generally reasonable explanation.",
+        "C": "This is a hard distractor because it wrongly states the chart data. In fact, the App Store download volume share in the first half of 2024 was 55% (based on point 15 of chart_2_1), and it increased year - on - year (the share in the first half of 2023 was about 50.3%, calculated by dividing the download volume of Q1 + Q2 in 2023, 157 million times, by the total download volume of about 312 million times). The distractor fabricated 'a decrease to 45%'.",
+        "D": "This is a hard distractor because it miscalculated the revenue trend. In fact, Google Play's revenue in the first half of 2024 was 1.06 + 1.17 = $2.23 billion, a year - on - year decrease of 17.5% (it was 1.5 + 1.2 = $2.7 billion in the first half of 2023); the distractor fabricated 'a year - on - year increase of 8%' while it actually decreased.",
+        "E": "Option correctness: This option is based on the numerical calculation and trend comparison of the two charts. It is necessary to infer user behavior (e.g., from the contradiction of increasing download volume but decreasing revenue, combined with platform data to obtain the change in the willingness to pay). Necessity of combined reasoning: The conflict cannot be identified from a single chart. Only chart_2_1 shows the increase in download volume, but it cannot explain the revenue decrease; only chart_2_2 shows the revenue decrease, but it cannot correlate with the increase in download volume. Combined calculation (such as comparing the download volume and revenue of each platform in the first half of 2023 vs 2024) and trend analysis (such as the App Store share increasing but the revenue decreasing more) are necessary to explain the conflict.",
+        "F": "Option correctness: This option is based on the numerical calculation and trend comparison of the two charts. It is necessary to infer user behavior (e.g., from the contradiction of increasing download volume but decreasing revenue, combined with platform data to obtain the change in the willingness to pay). Necessity of combined reasoning: The conflict cannot be identified from a single chart. Only chart_2_1 shows the increase in download volume, but it cannot explain the revenue decrease; only chart_2_2 shows the revenue decrease, but it cannot correlate with the increase in download volume. Combined calculation (such as comparing the download volume and revenue of each platform in the first half of 2023 vs 2024) and trend analysis (such as the App Store share increasing but the revenue decreasing more) are necessary to explain the conflict.",
+        "G": "This is an easy distractor because it is deduced from general user behavior knowledge (low payment rate of casual players) and does not involve specific values or cross - platform comparisons in the charts."
+      },
+      "easy_error": [
+        "B",
+        "G"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -128,6 +162,23 @@
         "A",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Option correctness: This option relies on the cross - analysis of the quarterly data of the two charts. It is necessary to see from chart_2_1 that the App Store download volume in Q3 2023 was 95 million times (a high level), but chart_2_2 shows that the revenue was only $1.8 billion (lower than $2 billion in Q1); at the same time, Google Play's download volume in chart_2_1 was stable (75 million times), but the revenue in chart_2_2 decreased to $1.2 billion (lower than $1.5 billion in Q1), and jointly infer the problem of the willingness to pay. Necessity of combined reasoning: The implicit connection requires the combination of the two charts. Only chart_2_1 can identify the peak of download volume, but it cannot explain the non - growth of revenue; only chart_2_2 can show the revenue trend, but it cannot correlate with the download volume of a specific quarter. Cross - chart comparison (such as the download volume and revenue of the two platforms in Q3 2023) and ratio calculation are necessary to reveal the market dynamics.",
+        "B": "This is a hard distractor because it misinterprets the chart data. In fact, in the third quarter of 2023, Google Play's download volume was 75 million times (the same as in the second quarter), and the revenue was $1.2 billion (the same as in the second quarter); the distractor fabricated 'a surge to 90 million times', exaggerating the growth of the download volume.",
+        "C": "This is an easy distractor because it is based on seasonal common sense (the impact of summer vacation on user behavior) and does not rely on chart data. It is a generally reasonable factor.",
+        "D": "Option correctness: This option relies on the cross - analysis of the quarterly data of the two charts. Necessity of combined reasoning: The implicit connection requires the combination of the two charts. Only chart_2_1 can identify the peak of download volume, but it cannot explain the non - growth of revenue; only chart_2_2 can show the revenue trend, but it cannot correlate with the download volume of a specific quarter. Cross - chart comparison (such as the download volume and revenue of the two platforms in Q3 2023) and ratio calculation are necessary to reveal the market dynamics.",
+        "E": "This is an easy distractor because it is deduced from general game industry knowledge (problems with new game releases and payment systems) and does not use specific values or trends in the charts.",
+        "F": "Option correctness: This option relies on the cross - analysis of the quarterly data of the two charts. It is necessary to calculate the revenue per download (e.g., in Q3 2023, App Store revenue/download volume ≈ $18.95 per time vs Q1 ≈ $25.97 per time) and compare the Google Play trend. Necessity of combined reasoning: The implicit connection requires the combination of the two charts. Only chart_2_1 can identify the peak of download volume, but it cannot explain the non - growth of revenue; only chart_2_2 can show the revenue trend, but it cannot correlate with the download volume of a specific quarter. Cross - chart comparison (such as the download volume and revenue of the two platforms in Q3 2023) and ratio calculation are necessary to reveal the market dynamics.",
+        "G": "This is a hard distractor because it miscalculates the change in revenue per download. In fact, in the third quarter of 2023, the App Store revenue per download was 1.8 billion / 0.95 ≈ $18.95 per time, a decrease of about 15.8% compared with the second quarter (1.8 billion / 0.8 = $22.5 per time), not an increase; the distractor wrongly claimed 'a 15% increase' and misinterpreted the reason for the non - growth of revenue."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "B",
+        "G"
       ]
     },
     {
@@ -150,6 +201,23 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It seemingly uses the chart data (citing the download volume in Q1 2023 and the revenue in Q2 2024), but makes a wrong inference - the download volume of Google Play dropped significantly to 64 million times in Q2 2024 (lower than 80 million times in Q1 2023). The revenue rebound is a short-term fluctuation, and the overall trends of download and revenue are declining. Increasing investment may not boost the overall revenue.",
+        "B": "This is an easy distractor: The statement is broad and conservative (reducing investment to control costs), lacks specific data support, and contradicts the trend of a 2.5% year-on-year increase in download volume, so it can be easily excluded by common sense.",
+        "C": "Option B combines chart_2_1 (the significant drop in Google Play's download volume in Q2 2024) and chart_2_2 (the rebound of Google Play's revenue in Q2 2024), jointly analyzes the download problem and revenue opportunities, and incorporates external knowledge (incentive measures to enhance user stickiness).",
+        "D": "Option C combines the two charts (the quarterly fluctuations in chart_2_1 such as the peak in Q3, and the quarterly changes in revenue in chart_2_2 such as the rebound of Google Play in Q2), emphasizing the dynamic response to the trends.",
+        "E": "This is a hard distractor: It seemingly bases on the declining revenue trend in the chart, but confuses the relationship - the App Store dominates in terms of download volume (accounting for 55% in the first half of 2024). Although its revenue is decreasing, the value is still higher than that of Google Play ($1.44 billion vs $1.17 billion). Ignoring it will result in the loss of the core market share.",
+        "F": "Option A combines chart_2_1 (the App Store has a high proportion of download volume and relatively small fluctuations) and chart_2_2 (although the App Store's revenue is decreasing, it always leads, and the decline rate is slower than that of Google Play), inferring the advantages of the dominant platform.",
+        "G": "This is an easy distractor: It does not rely on the chart data and is only based on general management common sense (fair allocation), but ignores the significant differences in download volume and revenue between platforms (e.g., the App Store accounts for 55% of the download volume and has higher revenue), so it cannot maximize the revenue."
+      },
+      "easy_error": [
+        "G",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "E"
       ]
     },
     {
@@ -172,6 +240,23 @@
         "A",
         "B",
         "G"
+      ],
+      "cot": {
+        "A": "Option C combines the two charts (the fluctuations in Google Play's download volume in chart_2_1, and the larger decline in the App Store's revenue in chart_2_2), emphasizing the response to the differences in trends between platforms.",
+        "B": "Option A combines chart_2_1 (the download volume reached peaks in Q3 2023 and Q1 2024) and chart_2_2 (although the revenue is generally decreasing, it can match the user base at the peak periods), inferring the leverage effect at the peak periods.",
+        "C": "This is a hard distractor: It seemingly uses the chart data (citing the revenue peak in Q1 2023), but makes a wrong inference - the revenue has been continuously decreasing since Q1 2023 (e.g., the App Store's revenue dropped to $1.44 billion). The trend indicates that the peak has passed, and marketing during the peak quarters may not alleviate the decline or improve the conversion rate.",
+        "D": "This is an easy distractor: It does not rely on the chart and is only based on general marketing common sense (even distribution), but ignores the obvious quarterly peaks in download volume and revenue (e.g., the peak in download volume in Q3), so it cannot simultaneously boost user acquisition and revenue.",
+        "E": "This is an easy distractor: The statement is broad (only focusing on the download volume), lacks consideration of the revenue dimension, and is out of line with the trend of continuously decreasing in-app purchase revenue, so it can be easily excluded by common sense.",
+        "F": "This is a hard distractor: It seemingly bases on the trough in download volume in the chart (Google Play in Q2 2024), but confuses the relationship - marketing stimulation is more needed in quarters with low download volume to acquire users (e.g., the download volume dropped to 64 million times). Reducing investment will exacerbate the problem rather than balance the performance.",
+        "G": "Option B combines chart_2_2 (the revenue has been continuously decreasing for multiple quarters) and chart_2_1 (the changes in download volume provide the user base), jointly analyzes the revenue problem and user scale, and incorporates external knowledge (promotion activities to stimulate consumption)."
+      },
+      "easy_error": [
+        "D",
+        "E"
+      ],
+      "hard_error": [
+        "C",
+        "F"
       ]
     },
     {
@@ -194,6 +279,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: The statement is vague (focusing on existing users), lacks data support, and ignores the opportunities of new users with a 2.5% year-on-year increase in download volume, so it can be easily excluded by common sense.",
+        "B": "Option A combines chart_2_1 (the year-on-year increase in download volume in the first half of 2024) and chart_2_2 (the revenue has been decreasing for multiple quarters), inferring the disconnect between download and revenue, and incorporating external knowledge (retention programs to enhance the lifetime value).",
+        "C": "This is a hard distractor: It seemingly bases on the quarterly pattern (e.g., the peak in download volume in Q3), but confuses the relationship - the in-app purchase revenue has been continuously decreasing (e.g., the App Store's revenue dropped from $2 billion to $1.44 billion). Blindly promoting in-app purchases without addressing the reasons for the decline (e.g., low user monetization efficiency) may be ineffective.",
+        "D": "This is an easy distractor: It does not rely on the chart and is only based on general business common sense (increasing prices to increase revenue), but is broad and lacks action details, and may reduce users' willingness to pay, which contradicts the trend of increasing download volume.",
+        "E": "Option C combines the two charts (the vulnerability of continuously decreasing revenue and the user scale potential of increasing download volume), jointly analyzes the structural problems, and incorporates external knowledge (diversified models conforming to the industry trend).",
+        "F": "This is a hard distractor: It seemingly uses the chart data (citing the download volume of 320 million times in the first half of 2024 and the revenue decline), but makes a wrong inference - the increase in download volume is an opportunity for monetization (e.g., the peak of 95 million times in Q3). Reducing development will reduce user retention and payment conversion rate, worsening the revenue problem.",
+        "G": "Option B combines chart_2_2 (the downward trend of revenue) and chart_2_1 (the fluctuations in download volume provide the user base), emphasizing content optimization to improve the conversion efficiency."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     }
   ]

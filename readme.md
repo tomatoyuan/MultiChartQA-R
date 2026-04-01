@@ -72,7 +72,7 @@ MultiChartQA-R/
 │   ├── code/
 │   └── json/
 ├── benchmark-extended/     # Retrieval-oriented extended benchmark
-├── code/                   # Data loading and evaluation utilities
+├── code/                   # Public utilities: loaders, prompt templates, evaluators, inference template
 ├── readme.assets/          # README figures
 └── appendix.pdf            # Appendix document
 ```
@@ -104,12 +104,20 @@ cd code
 python evaluation.py
 ```
 
-This script contains minimal examples for the official evaluators used by the benchmark:
+This script contains minimal examples for the released evaluators used by the benchmark:
 
-- Task 1: relaxed answer matching
-- Task 2: rationale-to-code verification
-- Task 3: multi-option evaluation
-- Task 4: multi-option evaluation
+- Task 1: accuracy / normalized binary matching
+- Task 2: answer-level accuracy with numeric tolerance
+- Task 3: strict risk-aware multi-select evaluation
+- Task 4: strict risk-aware multi-select evaluation
+
+Additional public utilities are also provided in `code/`:
+
+- `prompts.py`: official prompt templates for Task 1-4
+- `eval_task1_accuracy.py`: Task 1 accuracy
+- `eval_task2_accuracy.py`: Task 2 answer-level accuracy
+- `eval_task34_strict_risk_aware.py`: Task 3/4 Strict Risk-Aware `MF_beta`
+- `inference_api_template.py`: API inference template using environment variables instead of hardcoded credentials
 
 ## Evaluation Protocol
 

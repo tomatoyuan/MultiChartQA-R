@@ -87,6 +87,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor because it relies on general economic common sense (price sensitivity affects growth) but does not refer to the charts. The decision-making factors (chart_45_3) show that the importance of price is only 35%, lower than that of functional parameters. However, this option does not base on this but makes a general statement.",
+        "B": "This is a hard distractor because it miscalculates the growth rate. From chart_45_1 and chart_45_2: The global growth from 2023 - 2024 is (3700 - 3500) / 3500 ≈ 5.71%, and that of China is (9500 - 9000) / 9000 ≈ 5.56%. Actually, China's short-term growth rate is slightly lower, but the CAGR (2024 - 2029) of China is 9.8% > the global 6.1%. This option reverses the short-term data and makes a wrong comparison.",
+        "C": "Option 2 relies on chart_45_2 (China's market CAGR of 9.8%) and chart_45_3 (the 89% proportion of function-related parameters). Joint reasoning: China's high growth rate needs to be explained by combining the importance of functions in the decision-making factors. Neither looking at the growth rate nor the decision-making factors alone can lead to the conclusion.",
+        "D": "This is an easy distractor because it is based on common sense (such as government policies may stimulate the market) and does not rely on any chart data. The charts do not mention government factors, so it is purely external knowledge and can be easily identified as wrong.",
+        "E": "This is a hard distractor because it misinterprets the decision-making factor data (chart_45_3). The proportion of user reviews is 45%, but the proportion of function-related parameters is the highest (89%). However, this option claims that user reviews have the 'highest proportion', thus misleading the reasoning.",
+        "F": "Option 3 relies on chart_45_2 (China's market size of 15,000 billion yuan in 2029, showing significant growth) and chart_45_3 (the 89% dominance of function-related parameters). Joint reasoning: The trend of scale expansion and the functional preference in the decision-making factors must be combined to explain the growth driving force.",
+        "G": "Option 1 relies on chart_45_1 (global market size data: the market size grows steadily from 2023 - 2029, with a CAGR of 6.1%) and chart_45_3 (decision-making factors: the proportions of function-related parameters and appearance design are the highest at 89% and 61% respectively). Joint reasoning: China's higher growth (CAGR of 9.8% in chart_45_2) may be because consumers pay more attention to functions and design (chart_45_3). It cannot be inferred from a single chart."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -109,6 +126,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Option 2 relies on chart_45_3 (price proportion of 35% vs function proportion of 89%) and chart_45_4 (the 29% proportion of luxury sunscreen products above 250 yuan). Joint reasoning: The apparent conflict is jointly explained by the importance of functions (chart_45_3) and the preference for high-end prices (chart_45_4). Looking at a single chart will miss the connection.",
+        "B": "This is a hard distractor because it wrongly describes the price preference. There is no data for the function and fashion category (chart_45_4) within 100 yuan, and the lowest price range is 150 - 200 yuan (29%). This option fabricates that 'the preference within 100 yuan is the highest', which conflicts with the actual data (only 3% within 100 yuan for basic sunscreen).",
+        "C": "Option 3 relies on chart_45_3 (the relatively low price proportion) and chart_45_4 (the concentrated preference for functional and fashionable sunscreen clothing). Joint reasoning: The implied connection is that the combination of function and fashion (the 61% of appearance design in chart_45_3) improves the price acceptance (chart_45_4), and cross-chart analysis is necessary.",
+        "D": "This is a hard distractor because it wrongly quotes the decision-making factor data (chart_45_3). The proportion of brand awareness is 27%, but the proportion of function-related parameters is the highest (89%). This option mistakenly claims that the brand has the 'highest proportion', leading to a reasoning deviation.",
+        "E": "This is an easy distractor because it is based on general consumption common sense (consumers prefer low prices) and does not rely on the charts. The decision-making factors (chart_45_3) show that the importance of price is only 35%. This option ignores this data and infers based on common sense only.",
+        "F": "Option 1 relies on chart_45_3 (decision-making factor: the price/promotion activities account for only 35%, a relatively low proportion) and chart_45_4 (price preference: the 53% proportion of functional and fashionable sunscreen clothing in the 150 - 250 yuan range). Joint reasoning: The conflict (low importance of price vs high preference for the price range) needs to combine the two charts and be explained as function-driven premium (the 89% of functions in chart_45_3). It cannot be inferred from a single chart.",
+        "G": "This is a hard distractor because it misinterprets the price preference data (chart_45_4). The preference for basic sunscreen within 100 yuan is only 3%, while the total preference for functional and fashionable sunscreen clothing in the 150 - 250 yuan range is 53%, which is the highest. However, this option claims that basic sunscreen 'dominates', creating a wrong perception."
+      },
+      "easy_error": [
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "D",
+        "B"
       ]
     },
     {
@@ -132,6 +166,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Option 2 relies on chart_45_2 (China's market high growth with a CAGR of 9.8%) and chart_45_4 (the 53% proportion of functional and fashionable sunscreen clothing in the 150 - 250 yuan range). Joint reasoning: China's high growth (chart_45_2) needs to be combined with the price preference (chart_45_4), implying high-end demand drive.",
+        "B": "This is a hard distractor because it exaggerates the data. The preference for the luxury sunscreen products above 500 yuan is only 3% (chart_45_4), but this option claims '30%', creating a wrong value (the actual highest is 29% for the 150 - 200 yuan range of functional and fashionable sunscreen clothing).",
+        "C": "Option 3 relies on chart_45_1 (global scale growth) and chart_45_4 (the 3% preference for basic sunscreen within 100 yuan). Joint reasoning: The contrast between the rising scale and the low preference for low prices requires cross-chart analysis to imply the high-end trend.",
+        "D": "This is a hard distractor because it misinterprets the price preference data (chart_45_4). The preference for basic sunscreen within 100 yuan is only 3%, while the range of 100 - 150 yuan is 15%. This option confuses the ranges and claims that 'the preference within 100 yuan is the highest', but actually the total preference for functional and fashionable sunscreen clothing in the 150 - 250 yuan range is 53%, which is higher.",
+        "E": "This is an easy distractor because it is based on common sense (such as economic factors limiting consumption) and does not rely on the charts. The price preference (chart_45_4) shows a strong preference for the mid - high end. This option does not refer to the data and wrongly infers based on common sense only.",
+        "F": "Option 1 relies on chart_45_1 (the global market size growth from 2023 - 2029) and chart_45_4 (price preference: the total proportion of functional and fashionable sunscreen clothing and luxury sunscreen products above 150 yuan is 79%). Joint reasoning: The growth trend and the price preference must be combined to infer the high - end trend (such as only 18% below 150 yuan in chart_45_4). It cannot be concluded from a single chart.",
+        "G": "This is an easy distractor because it relies on model knowledge (price factors may affect the trend) but does not combine the charts. The decision - making factors (chart_45_3) show that the importance of price is only 35%, and there is no mention of changes. This option makes a general statement about 'the rising price proportion' without data support."
+      },
+      "easy_error": [
+        "E",
+        "G"
+      ],
+      "hard_error": [
+        "D",
+        "B"
       ]
     },
     {
@@ -153,6 +204,22 @@
       "label": [
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "This option is an easy distractor: It does not refer to the chart content. It suggests general marketing actions (such as increasing advertising) but does not consider consumers' decision - making factors (e.g., the highest proportion of function - related parameters is 89%, while brand awareness is only 27%), so it cannot effectively increase market share.",
+        "B": "This option is an easy distractor: It does not rely on any chart data and is only based on general business common sense (such as risk diversification). However, it ignores the higher compound annual growth rate in the Chinese market (9.8% vs 6.1% globally) and the differences in decision - making preferences in the charts. The strategy is too broad and lacks specificity.",
+        "C": "This option is a hard distractor: On the surface, it uses chart_45_1 and chart_45_2 for reasoning (comparing market sizes), but misinterprets the data units (global data is in US dollars and Chinese data is in RMB; after conversion, the global market size in 2023 is about 2,450 billion RMB > 900 billion RMB in China). It ignores the higher growth rate (9.8% vs 6.1%) and growth potential in China, resulting in a deviation in the strategic direction (prioritizing the global market).",
+        "D": "This option is a hard distractor: It is based on the decision - making factors in chart_45_3 (price accounts for 35%), but overemphasizes its importance (function accounts for 89% and appearance accounts for 61%, which are higher). It also ignores the growth trend in the Chinese market (chart_45_2 shows rapid expansion). Suggesting a discount strategy may damage profits, conflicting with the logic of 'avoiding excessive discounts' in the correct option B.",
+        "E": "Option A jointly infers from chart_45_2 (the compound annual growth rate of the Chinese market is 9.8%, significantly higher than 6.1% globally in chart_45_1, indicating greater growth potential in the Chinese market) and chart_45_3 (function - related parameters account for 89% and appearance design accounts for 61% among consumers' decision - making factors, indicating that product development should focus on these aspects).",
+        "F": "Option B combines chart_45_1 (the global market is stable but has a slower growth rate, requiring a balanced investment), chart_45_2 (the Chinese market is expanding rapidly), and chart_45_3 (price/promotion activities account for 35%, a relatively low proportion, indicating that consumers have limited price sensitivity, supporting the strategy of avoiding excessive discounts)."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "D"
       ]
     },
     {
@@ -173,6 +240,22 @@
       "label": [
         "B",
         "D"
+      ],
+      "cot": {
+        "A": "This option is an easy distractor: It does not refer to the chart data and is only based on general market coverage principles. However, it ignores the price preference distribution in chart_45_4 (e.g., the preference in the 150 - 250 yuan range is concentrated, with a total of 53%). The strategy lacks specificity and may disperse resources.",
+        "B": "Option A jointly infers from chart_45_4 (the total percentage of consumers' preference for functional and fashionable sunscreen clothing in the 150 - 250 yuan price range is 53%, indicating the dominant position of the mid - end market) and chart_45_3 (function - related parameters account for 89% and appearance design accounts for 61%, indicating that product positioning needs to match these highly important factors).",
+        "C": "This option is an easy distractor: It does not rely on the charts and suggests general marketing actions (such as cooperation with KOLs). However, it does not consider the decision - making factors in chart_45_3 (celebrity/KOL endorsement only accounts for 5%, with a weak influence), so it cannot effectively enhance attractiveness.",
+        "D": "Option B combines chart_45_4 (the total percentage of consumers' preference for luxury sunscreen products above 250 yuan is only 29%, far lower than that of the mid - end market) and chart_45_3 (brand awareness accounts for 27% and celebrity/KOL endorsement accounts for 5%, indicating low efficiency of high - end marketing investment, and resources should be reallocated to high - growth categories).",
+        "E": "This option is a hard distractor: It is based on the decision - making factors in chart_45_3 (celebrities account for 5% vs co - branded editions account for 3%), but overemphasizes secondary factors (both have very low proportions) and does not combine price preferences (chart_45_4 shows high preference for the mid - end range). The strategic direction conflicts with the logic of 'enhancing functionality and fashionability' in the correct option A.",
+        "F": "This option is a hard distractor: On the surface, it uses chart_45_4 for reasoning (the preference for basic sunscreen below 100 yuan is 3%). However, it misinterprets the data (this range has the lowest preference, far lower than 53% in the 150 - 250 yuan range) and ignores decision - making factors (function accounts for 89% at the highest). Suggesting a low - price strategy may not match the mainstream demand."
+      },
+      "easy_error": [
+        "A",
+        "C"
+      ],
+      "hard_error": [
+        "F",
+        "E"
       ]
     },
     {
@@ -193,6 +276,22 @@
       "label": [
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "This option is an easy distractor: It does not use the chart content and suggests a general product strategy (such as co - branded editions). However, it ignores the decision - making factors in chart_45_3 (co - branded editions only account for 3%, with the least influence), so it cannot effectively attract consumers.",
+        "B": "This option is a hard distractor: On the surface, it uses chart_45_3 for reasoning (user reviews account for 45%), but misinterprets the relationship (suggesting 'controlling reviews' is unethical and impractical; the correct approach is to improve real - world word - of - mouth). It also ignores the growth dynamics (the Chinese market is growing rapidly in chart_45_2). The strategy may lead to a trust crisis.",
+        "C": "Option A jointly infers from chart_45_3 (function - related parameters account for 89% and user reviews/word - of - mouth account for 45%, while celebrity/KOL endorsement accounts for 5% and co - branded/limited editions account for 3%, indicating that marketing resources should focus on high - impact factors) and chart_45_2 (the high compound annual growth rate of 9.8% in the Chinese market supports the overall strategic adjustment to seize opportunities).",
+        "D": "Option B combines chart_45_2 (the predicted significant growth of the Chinese market size in 2029 requires targeted product development) and chart_45_3 (appearance design/fashion degree accounts for 61%, indicating that product development needs to balance functionality and fashion).",
+        "E": "This option is an easy distractor: It does not rely on any charts and is only based on industry trends (such as environmental protection hotspots). However, it does not refer to the decision - making factors (there is no environmental protection - related data in chart_45_3). The strategy is broad and lacks data support, so it cannot directly increase the conversion rate.",
+        "F": "This option is a hard distractor: It is based on the growth data in chart_45_2 (CAGR of 9.8% in China), but over - infers (suggesting 'exiting the global market'). It ignores the growth in the global market (CAGR of 6.1% in chart_45_1) and the universality of decision - making factors (e.g., 89% of function is applicable globally). The strategic direction has an obvious deviation."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     }
   ]

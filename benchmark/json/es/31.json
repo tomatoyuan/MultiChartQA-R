@@ -85,6 +85,21 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "该选项错误，因为图表数据（chart_31_2和chart_31_3）并未显示网络传销以女性为主（年龄分布中无性别数据）。干扰项基于常识假设所有风险都偏向女性，但实际数据不支持，属于Easy干扰项：不依赖图表，仅凭泛化常识推理。",
+        "B": "这些选项正确，因为它们需要结合两张图表的数据进行推理：从\"Proporción de Género de Usuarios de Búsqueda de Préstamos Universitarios\"图表可知女性比例显著高于男性（具体数值为57% vs. 40%），而从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知40岁以上人群占比最高（45%）。单独一张图表无法推断用户群特征对比（例如，仅性别分布不能说明年龄趋势，反之亦然）。选项聚焦人口因素。",
+        "C": "这些选项正确，因为它们需要结合两张图表的数据进行推理：从\"Proporción de Género de Usuarios de Búsqueda de Préstamos Universitarios\"图表可知女性比例显著高于男性（具体数值为57% vs. 40%），而从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知40岁以上人群占比最高（45%）。单独一张图表无法推断用户群特征对比（例如，仅性别分布不能说明年龄趋势，反之亦然）。选项强调主题差异。",
+        "D": "这些选项正确，因为它们需要结合两张图表的数据进行推理：从\"Proporción de Género de Usuarios de Búsqueda de Préstamos Universitarios\"图表可知女性比例显著高于男性（具体数值为57% vs. 40%），而从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知40岁以上人群占比最高（45%）。单独一张图表无法推断用户群特征对比（例如，仅性别分布不能说明年龄趋势，反之亦然）。选项推断风险目标。",
+        "E": "该选项错误，因为图表数据（chart_31_2）显示校园贷搜索用户女性比例为57%，男性为40%，女性比例高于男性。干扰项故意将比例颠倒（声称男性57%），属于Hard干扰项：表面基于图表数值，但错误理解数据排序。",
+        "F": "该选项错误，因为图表数据（chart_31_3）显示网络传销搜索在40岁以上用户中占比最高（45%），25岁以下仅18%。干扰项错误地将比例分配给25岁以下用户，属于Hard干扰项：对图表数值和排序理解错误。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -106,6 +121,21 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "这些选项正确，因为它们必须联合两张图表的数据：从\"Distribución Regional de la Búsqueda de Seguridad Turística durante Fines de Semana Cortos\"图表可推算出主要城市搜索量总和（北京、厦门、杭州、哈尔滨的搜索量合计约20万次），而从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知总搜索次数为32.2万次。单独一张图表无法比较主题关注度（例如，仅地域分布不能推断总规模，仅网络传销总次数不能说明地域对比）。选项关注总量对比。",
+        "B": "这些选项正确，因为它们必须联合两张图表的数据：从\"Distribución Regional de la Búsqueda de Seguridad Turística durante Fines de Semana Cortos\"图表可推算出主要城市搜索量总和（北京、厦门、杭州、哈尔滨的搜索量合计约20万次），而从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知总搜索次数为32.2万次。单独一张图表无法比较主题关注度（例如，仅地域分布不能推断总规模，仅网络传销总次数不能说明地域对比）。选项强调地域 vs. 数字特性。",
+        "C": "该选项错误，因为图表数据（chart_31_1）显示哈尔滨出行安全热度为2万次，但网络传销搜索（chart_31_3）是整体数据（32.2万次），不针对地域。干扰项错误地将整体与地域数据直接比较，属于Hard干扰项：表面基于图表推理，但混淆数据范围。",
+        "D": "该选项错误，因为图表数据未显示所有风险主题（如网络传销）的地域分布，且常识上风险关注可能涉及多类人群。干扰项不依赖图表内容，仅凭城市常识泛化，属于Easy干扰项：基于行业常识（如\"一线城市风险意识高\"）但无图表支持。",
+        "E": "该选项错误，因为图表数据（chart_31_1和chart_31_3）显示出行安全搜索仅列出四个城市的总和约20万次（北京8万+厦门6万+杭州4万+哈尔滨2万），而网络传销搜索总次数为32.2万次，后者更高。干扰项错误计算总热度并颠倒比较，属于Hard干扰项：对数值差距理解错误。",
+        "F": "这些选项正确，因为它们必须联合两张图表的数据：从\"Distribución Regional de la Búsqueda de Seguridad Turística durante Fines de Semana Cortos\"图表可推算出主要城市搜索量总和（北京、厦门、杭州、哈尔滨的搜索量合计约20万次），而从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知总搜索次数为32.2万次。单独一张图表无法比较主题关注度（例如，仅地域分布不能推断总规模，仅网络传销总次数不能说明地域对比）。选项推断环境趋势。"
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "E",
+        "C"
       ]
     },
     {
@@ -127,6 +157,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "该选项错误，因为图表数据（chart_31_4）显示邮箱等渠道占比仅10%，远低于网址（68%）。干扰项不依赖图表，仅凭常识假设\"邮箱更便捷\"，但实际数据不支持，属于Easy干扰项：基于语言常识泛化。",
+        "B": "该选项错误，因为图表数据（chart_31_4）显示网址投诉占比68%，电话仅22%。干扰项错误地将比例分配给电话，属于Hard干扰项：表面基于图表推理，但数值理解错误。",
+        "C": "这些选项正确，因为它们需要交叉分析两张图表：从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知40岁以上人群占比最高（45%），暗示年长用户易受影响；而从\"Distribución de Proporción de Canales de Quejas por Infracción\"图表可知网址渠道占比最大（68%），远高于电话或邮箱。单独一张图表无法解释冲突（例如，仅年龄分布不能推断投诉行为，仅渠道占比不能说明用户群）。选项从数据范围角度解释。",
+        "D": "这些选项正确，因为它们需要交叉分析两张图表：从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知40岁以上人群占比最高（45%），暗示年长用户易受影响；而从\"Distribución de Proporción de Canales de Quejas por Infracción\"图表可知网址渠道占比最大（68%），远高于电话或邮箱。单独一张图表无法解释冲突（例如，仅年龄分布不能推断投诉行为，仅渠道占比不能说明用户群）。选项从用户适应角度解释。",
+        "E": "该选项错误，因为图表数据（chart_31_3）显示40岁以上用户在网络传销搜索中占比最高（45%），而非18%（25岁以下为18%）。干扰项故意颠倒比例，属于Hard干扰项：对图表数值和排序理解错误。",
+        "F": "这些选项正确，因为它们需要交叉分析两张图表：从\"Top 5 Esquemas Ponzi en Internet - Distribución por Edad de los Incidentes de Esquemas Ponzi en Internet Representados por 'Shanxinhui'\"图表可知40岁以上人群占比最高（45%），暗示年长用户易受影响；而从\"Distribución de Proporción de Canales de Quejas por Infracción\"图表可知网址渠道占比最大（68%），远高于电话或邮箱。单独一张图表无法解释冲突（例如，仅年龄分布不能推断投诉行为，仅渠道占比不能说明用户群）。选项从社会趋势角度解释。"
+      },
+      "easy_error": [
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -151,6 +196,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil. Interpreta mal la distribución por edad del chart_31_3: la alta proporción de búsquedas de personas mayores de 40 años (45%) sí muestra vulnerabilidad, pero la proporción del 18% de personas menores de 25 años también indica la existencia de riesgos (especialmente en combinación con los datos de préstamos universitarios). La opción sugiere 'ignorar completamente a los jóvenes', lo que ignora la necesidad de cubrir múltiples grupos y no tiene en cuenta los riesgos superpuestos (como en la opción A original).",
+        "B": "Esta es una opción de distracción fácil. No se basa en ningún dato de los gráficos, sino en una sugerencia de sentido común ('la seguridad pública es una necesidad general'), pero ignora la vulnerabilidad de ciertos grupos mostrada por los gráficos (como la alta proporción de mujeres en los préstamos universitarios o la alta proporción de personas mayores en las pirámides Ponzi en línea). La estrategia es demasiado amplia y sin enfoque, lo que no puede mejorar el efecto de la educación y es fácil de descartar.",
+        "C": "Esta es una opción de distracción fácil. Se basa en una suposición general ('brecha digital rural'), pero los gráficos no mencionan la diferencia entre ciudades y campos (por ejemplo, el chart_31_1 solo muestra la popularidad de las búsquedas en áreas urbanas). La sugerencia no está relacionada con los datos y puede desviar la asignación de recursos, lo que no coincide con las áreas de alta popularidad de búsqueda (como Beijing).",
+        "D": "Esta es una opción de distracción difícil. Interpreta mal los datos del chart_31_2: la alta proporción de búsquedas de préstamos universitarios de mujeres (57%) indica que son un grupo de alto riesgo, no que 'ya tienen conciencia'. La estrategia correcta debería aumentar la inversión en educación, pero esta opción sugiere inversamente'reducir la inversión', confundiendo la relación entre la alta proporción de búsquedas y la vulnerabilidad.",
+        "E": "Basado en el chart_31_3 (la proporción de personas mayores de 40 años es la más alta en la distribución por edad de los incidentes de pirámides Ponzi en línea) y el chart_31_4 (el canal de sitio web es el principal en la proporción de canales de quejas por infracción), se infiere que las personas mayores tienen un alto riesgo pero dependen del sistema en línea, por lo que es necesario mejorar la amigabilidad de las herramientas.",
+        "F": "Basado en el chart_31_1 (la popularidad de las búsquedas de seguridad turística es más alta en las grandes ciudades en la distribución regional de las búsquedas) y el chart_31_4 (el canal de sitio web es el dominante en la proporción de canales de quejas por infracción), se infiere que la combinación de áreas de alta demanda y canales eficientes optimiza la promoción local y la colocación en línea.",
+        "G": "Basado en el chart_31_2 (la proporción de mujeres es más alta en la proporción de género de usuarios de búsqueda de préstamos universitarios) y el chart_31_3 (la proporción de personas menores de 25 años es significativa en la distribución por edad de los incidentes de pirámides Ponzi en línea), se infiere el doble riesgo del grupo de jóvenes mujeres y se sugiere una inclinación de recursos para cubrir el cruce de fraudes en campus y en línea."
+      },
+      "easy_error": [
+        "B",
+        "C"
+      ],
+      "hard_error": [
+        "D",
+        "A"
       ]
     },
     {
@@ -174,6 +236,23 @@
         "B",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil. Confunde la búsqueda regional del chart_31_1 (seguridad turística) con los canales de quejas del chart_31_4: la alta popularidad de las búsquedas de seguridad turística (como en Beijing) no significa que la demanda de quejas por infracción esté concentrada, y la proporción del canal telefónico es solo del 22%. La opción incorrectamente asocia los puntos calientes regionales con las preferencias de canal y sugiere 'utilizar el teléfono como canal principal', lo que no coincide con los datos (dominancia en línea).",
+        "B": "Basado en el chart_31_4 (la proporción de canales auxiliares es menor en la proporción de canales de quejas por infracción) y el chart_31_3 (la proporción de personas mayores de 40 años es alta en la distribución por edad de los incidentes de pirámides Ponzi en línea), se infiere la demanda de grupos vulnerables y se sugiere mejorar los canales auxiliares para aumentar la equidad.",
+        "C": "Basado en el chart_31_4 (el canal en línea es el dominante en la proporción de canales de quejas por infracción) y el chart_31_3 (el número de búsquedas de incidentes de pirámides Ponzi en línea es relativamente alto), se infiere que la alta utilización del sistema en línea coincide con la alta cantidad de quejas y se sugiere concentrar los recursos para mejorar la eficiencia.",
+        "D": "Esta es una opción de distracción fácil. No se basa en los gráficos, sino en principios de gestión generales ('la mejora de la eficiencia debe ser equilibrada'), pero ignora las diferencias de preferencia de canal mostradas por el chart_31_4 (el sitio web domina con el 68%). La estrategia no es específica y no puede optimizar la asignación de recursos, y es fácil de descartar por sentido común.",
+        "E": "Basado en el chart_31_1 (la popularidad de las búsquedas de seguridad turística es más alta en las grandes ciudades en la distribución regional de las búsquedas) y el chart_31_4 (el canal telefónico tiene una proporción considerable en la proporción de canales de quejas por infracción), se infiere la combinación de puntos calientes regionales y canales en tiempo real y se sugiere optimizar el apoyo local.",
+        "F": "Esta es una opción de distracción fácil. Cita una tendencia de la industria ('la popularidad de las redes sociales'), pero el chart_31_4 no incluye redes sociales (solo enumera sitios web, teléfono y correo electrónico). La sugerencia no está relacionada con los datos y puede desviar los recursos de los canales eficientes (como las plataformas en línea).",
+        "G": "Esta es una opción de distracción difícil. Aparentemente utiliza los datos del chart_31_4 (el sitio web tiene una proporción del 68%), pero incorrectamente sugiere'reducir la inversión en el teléfono y el correo electrónico'. De hecho, la proporción del 22% del teléfono y el 10% del correo electrónico sigue siendo importante (especialmente para los grupos digitalmente vulnerables). Concentrar completamente los recursos puede reducir la inclusión e ignorar la posible demanda de quejas derivada de la gran cantidad de búsquedas en el chart_31_3."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     },
     {
@@ -198,6 +277,23 @@
         "C",
         "E",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil. Asocia incorrectamente el chart_31_3 (la proporción de búsquedas de personas mayores de 40 años es del 45%) y el chart_31_4 (el 68% del sitio web): la alta proporción de búsquedas de personas mayores no se traduce directamente en 'depender más del canal en línea'; por el contrario, el chart_31_4 no especifica la edad. La opción sugiere'reducir la educación en línea de los jóvenes', lo que puede ser contraproducente (el grupo joven también tiene una proporción del 18% en las pirámides Ponzi). La lógica confunde la vulnerabilidad de los grupos con las preferencias de canal.",
+        "B": "Esta es una opción de distracción fácil. Se basa en el sentido común ('los medios de comunicación tradicionales tienen amplia cobertura'), pero el chart_31_4 muestra que los canales de quejas son principalmente en línea (el sitio web es el 68%) y no menciona los medios de comunicación tradicionales. La sugerencia no está relacionada con los gráficos y puede reducir la eficiencia de los canales digitales.",
+        "C": "Basado en el chart_31_1 (la popularidad de las búsquedas de seguridad turística es más alta en las grandes ciudades en la distribución regional de las búsquedas) y el chart_31_4 (la proporción del canal en línea es alta en la proporción de canales de quejas por infracción), se infiere la combinación de áreas de alta demanda y canales eficientes y se sugiere una promoción en línea regionalizada.",
+        "D": "Esta es una opción de distracción fácil. No se basa en los gráficos, sino en una sugerencia generalizada ('cobertura para todos'), pero ignora la vulnerabilidad de ciertos grupos mostrada por el chart_31_2 y el chart_31_3 (como las mujeres en los préstamos universitarios y las personas mayores en las pirámides Ponzi en línea). La estrategia no tiene soporte de datos y no puede 'cubrir a los grupos de alto riesgo'.",
+        "E": "Basado en el chart_31_3 (la proporción de personas mayores de 40 años es la más alta en la distribución por edad de los incidentes de pirámides Ponzi en línea) y el chart_31_4 (el canal de sitio web es el principal en la proporción de canales de quejas por infracción), se infiere que las personas mayores tienen un alto riesgo pero prefieren el sistema en línea y se necesita una inclinación de recursos para desarrollar herramientas fáciles de usar.",
+        "F": "Basado en el chart_31_2 (la proporción de mujeres es más alta en la proporción de género de usuarios de búsqueda de préstamos universitarios) y el chart_31_3 (la proporción de personas menores de 25 años es significativa en la distribución por edad de los incidentes de pirámides Ponzi en línea), se infiere la exposición del grupo de jóvenes mujeres a los riesgos financieros y se sugiere integrar la educación para cubrir las amenazas cruzadas.",
+        "G": "Esta es una opción de distracción difícil. Interpreta mal los datos del chart_31_2: la alta proporción de búsquedas de préstamos universitarios de mujeres (57%) indica alta vulnerabilidad, pero la opción sugiere 'ignorar a los hombres (40%)', lo que ignora que el grupo masculino también necesita ser cubierto (especialmente en combinación con los datos de las pirámides Ponzi en línea). La estrategia tiene una desviación en la dirección y puede causar brechas en la protección."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "G",
+        "A"
       ]
     }
   ]

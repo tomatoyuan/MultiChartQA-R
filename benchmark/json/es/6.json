@@ -86,6 +86,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es incorrecta, ya que interpreta erróneamente los datos del gráfico: el chart_6_3 muestra que la tasa de crecimiento de las ciudades de cuarto nivel es del -7% (crecimiento negativo), no del +7%. Esto es un caso de interferencia difícil basado en una mala comprensión de los valores numéricos.",
+        "B": "La opción 3 combina el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad y el gráfico de las 5 ciudades con mayor búsqueda: en el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad, la tasa de crecimiento de las ciudades de segundo nivel es positiva (3%) y su proporción es del 20%. En el gráfico de las 5 ciudades con mayor búsqueda, Chengdu y Hangzhou (representantes de ciudades de segundo nivel) están entre las 5 principales, con proporciones de búsqueda del 2.9% y el 2.7% respectivamente. Esto indica que el potencial de crecimiento de las ciudades de segundo nivel respalda su popularidad en la búsqueda.",
+        "C": "Esta opción es incorrecta, ya que compara erróneamente los valores: el chart_6_4 muestra que la proporción de búsqueda en Beijing es del 5.5%, que es mayor que la del 2.9% en Chengdu y la del 2.7% en Hangzhou, pero la opción invierte el orden. Esto es un caso de interferencia difícil basado en una mala comprensión de la diferencia de proporciones.",
+        "D": "La opción 1 se basa en la inferencia conjunta del gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad y el gráfico de las 5 ciudades con mayor búsqueda: el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad muestra que las ciudades de primer nivel tienen la proporción más alta (42%) y una tasa de crecimiento positiva (2%), y las ciudades de segundo nivel también tienen una tasa de crecimiento positiva (3%). Al mismo tiempo, el gráfico de las 5 ciudades con mayor búsqueda muestra que entre las 5 ciudades principales, Beijing, Shenzhen y Shanghai son ciudades de primer nivel, y Chengdu y Hangzhou son ciudades de segundo nivel, sin ciudades de tercer nivel o inferiores. Esto indica conjuntamente que la demanda concentrada y el crecimiento de las ciudades de nivel alto dominan el comportamiento de búsqueda.",
+        "E": "Esta opción es incorrecta, ya que lee erróneamente la tasa de crecimiento: en el chart_6_3, la tasa de crecimiento de las ciudades de tercer nivel es del -8% (negativa), no del +8%. Esto es un caso de interferencia difícil basado en un error en el signo del valor numérico.",
+        "F": "La opción 2 también se basa en la inferencia conjunta del gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad y el gráfico de las 5 ciudades con mayor búsqueda: en el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad, la proporción combinada de las ciudades de tercer nivel y inferiores es del 29% (17% + 12%), pero su tasa de crecimiento es negativa (-8% y -7%). En el gráfico de las 5 ciudades con mayor búsqueda, no hay representantes de ciudades de tercer nivel o inferiores entre las 5 principales. Esto indica conjuntamente que aunque las ciudades de nivel bajo tienen una demanda básica, su crecimiento es débil, posiblemente debido a la transferencia de recursos o usuarios, lo que entra en conflicto con la distribución de las 5 principales ciudades.",
+        "G": "Esta opción es incorrecta, ya que viola los datos del gráfico: en el chart_6_3, las tasas de crecimiento de las ciudades de tercer y cuarto nivel son negativas (-8% y -7%), no todas las ciudades tienen un crecimiento positivo. Esto es un caso de interferencia fácil, ya que solo se necesita conocimiento común (crecimiento negativo significa disminución) para juzgar."
+      },
+      "easy_error": [
+        "G"
+      ],
+      "hard_error": [
+        "A",
+        "C",
+        "E"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "B",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es incorrecta, ya que atribuye erróneamente la causa: el chart_6_1 muestra un pico de 2.2 millones en el 22 de mayo, pero el chart_6_2 muestra que el móvil es el dispositivo dominante. Atribuir este pico al equipo de computadora carece de fundamentos. Esto es un caso de interferencia difícil basado en una asociación errónea del impacto del dispositivo.",
+        "B": "La opción 3 combina el gráfico de la distribución de dispositivos de recuperación y el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias: el gráfico de la distribución de dispositivos de recuperación muestra que el móvil domina, lo que proporciona conveniencia; el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias muestra que la cantidad de búsqueda tiene múltiples picos al final del mes de mayo (por ejemplo, 2 millones el 31 de mayo). Esto indica conjuntamente que las características del dispositivo amplifican la demanda al final del mes (posiblemente debido a la liquidación o la concentración de eventos).",
+        "C": "Esta opción es incorrecta, ya que interpreta erróneamente la tendencia: el chart_6_1 muestra que la cantidad de búsqueda fluctúa mucho (por ejemplo, de 1.2 millones el 1 de mayo a 2 millones el 31 de mayo), y el valor al final del mes es mayor que al principio del mes, no es una disminución continua. Esto es un caso de interferencia difícil basado en una mala comprensión de la línea de tendencia.",
+        "D": "Esta opción es incorrecta, ya que es contraria a los hechos: el chart_6_2 claramente muestra que la proporción del móvil es alta (88.74%), la opción dice que 'la tasa de uso es baja' es incorrecta. Esto es un caso de interferencia fácil, no se necesita depender del gráfico, solo la lógica lingüística es suficiente para juzgar.",
+        "E": "La opción 1 se basa en la inferencia conjunta del gráfico de la distribución de dispositivos de recuperación y el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias: el gráfico de la distribución de dispositivos de recuperación muestra que la proporción del móvil es extremadamente alta (88.74%), lo que sugiere que la búsqueda depende más de dispositivos portátiles; el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias muestra que la cantidad de búsqueda aumenta bruscamente en muchos días (por ejemplo, el 7, 22 y 31 de mayo). Esto indica conjuntamente que el móvil facilita la respuesta rápida a los eventos (por ejemplo, las fluctuaciones en la proporción de demandas de divorcio), lo que da lugar a picos.",
+        "F": "Esta opción es incorrecta, ya que contradice los datos del gráfico: el chart_6_2 muestra que la proporción del móvil es del 88.74%, que domina, y la proporción del equipo de computadora es solo del 11.26%. En general, una alta proporción de móvil suele estar asociada con mayores fluctuaciones (no estabilidad). Esto es un caso de interferencia fácil, solo se necesita conocimiento básico del sector (el móvil facilita la respuesta inmediata).",
+        "G": "La opción 2 también se basa en la inferencia conjunta del gráfico de la distribución de dispositivos de recuperación y el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias: el gráfico de la distribución de dispositivos de recuperación muestra que la proporción del equipo de computadora es solo del 11.26%, lo que indica que la búsqueda es principalmente ligera; el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias muestra que la cantidad de búsqueda fluctúa mucho (por ejemplo, aumenta del 1 al 5 de mayo y luego cambia bruscamente), sin una curva de crecimiento estable. Esto indica conjuntamente que el bajo uso del equipo de computadora limita la búsqueda profesional y refuerza la asociación entre el comportamiento temporal y la tendencia."
+      },
+      "easy_error": [
+        "F",
+        "D"
+      ],
+      "hard_error": [
+        "C",
+        "A"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta opción es incorrecta, ya que viola la tendencia de los datos: el chart_6_1 muestra que la proporción de demandas de divorcio disminuye de 5.2% a 4.0% (fluctuando hacia abajo), y en el chart_6_3, la tasa de crecimiento de las ciudades de nivel bajo es negativa, no todas las ciudades tienen crecimiento. Esto es un caso de interferencia fácil, solo se necesita conocimiento común (crecimiento negativo significa disminución de la demanda) para juzgar.",
+        "B": "La opción 2 también se basa en la inferencia conjunta del gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias y el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad: en el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias, la proporción de disputas de propiedad es casi estable en 0.3% durante todo el mes (solo es anormalmente 0.5% el 31 de mayo), en una posición baja; en el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad, todas las ciudades de diferentes niveles tienen proporciones (del 42% en las de primer nivel al 12% en las de cuarto nivel), pero las tasas de crecimiento son positivas y negativas. Esto indica conjuntamente que la demanda de disputas de propiedad es dispersa y rígida, no está dominada por la tasa de crecimiento de una sola región, lo que forma un conflicto con los cambios en las demandas de divorcio.",
+        "C": "Esta opción es incorrecta, ya que interpreta excesivamente los datos de un solo punto: en el chart_6_1, la proporción de disputas de propiedad es 0.5% el 31 de mayo, que es un dato anormal de un solo día, y la tasa de crecimiento del 2% en las ciudades de primer nivel en el chart_6_3 es una tendencia general, no hay evidencia de coincidencia directa. Esto es un caso de interferencia difícil basado en una asociación errónea de los puntos de datos.",
+        "D": "La opción 1 se basa en la inferencia conjunta del gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias y el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad: en el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias, la proporción de demandas de divorcio disminuye de aproximadamente el 5% al principio del mes a aproximadamente el 4% al final del mes (por ejemplo, 5.2% el 1 de mayo vs 4.0% el 31 de mayo), con fluctuaciones pero una disminución general; en el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad, la tasa de crecimiento de las ciudades de tercer nivel y inferiores es negativa (-8% y -7%) y su proporción combinada es del 29%. Esto indica conjuntamente que la disminución de la demanda en las ciudades de nivel bajo puede afectar negativamente la proporción general de las demandas de divorcio.",
+        "E": "Esta opción es incorrecta, ya que compara erróneamente las proporciones: en el chart_6_1, la proporción de disputas de propiedad es básicamente del 0.3% (excepto el 0.5% el 31 de mayo), y la proporción de demandas de divorcio es del 4 - 5%, la segunda es más alta. La opción dice que 'las disputas de propiedad superan a las demandas de divorcio' es incorrecta. Esto es un caso de interferencia fácil basado en conocimientos numéricos básicos.",
+        "F": "Esta opción es incorrecta, ya que contradice los datos del gráfico: el chart_6_1 muestra que la proporción de demandas de divorcio disminuye en general (por ejemplo, de 5.2% el 1 de mayo a 4.0% el 31 de mayo), y en el chart_6_3, la tasa de crecimiento de las ciudades de tercer nivel es negativa, la opción dice que 'la proporción aumenta' es incorrecta. Esto es un caso de interferencia difícil basado en una mala comprensión de la asociación entre la proporción y la tasa de crecimiento.",
+        "G": "La opción 3 combina el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias y el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad: en el gráfico de la tendencia de atención de búsqueda y la proporción de sub - industrias, la cantidad de búsqueda fluctúa mucho en general (por ejemplo, un pico de 2.2 millones el 22 de mayo), y los cambios en la proporción de demandas de divorcio son más significativos (por ejemplo, 5.5% el 7 de mayo vs 3.4% el 15 de mayo); en el gráfico de la proporción de atención y la tasa de crecimiento por nivel de ciudad, la tasa de crecimiento de las ciudades de nivel alto es positiva (2% en las de primer nivel, 3% en las de segundo nivel) y la de las de nivel bajo es negativa. Esto indica conjuntamente que la demanda de demandas de divorcio puede transferirse de las ciudades de nivel bajo a las de nivel alto, pero la disminución general de la proporción revela un conflicto."
+      },
+      "easy_error": [
+        "A",
+        "E"
+      ],
+      "hard_error": [
+        "F",
+        "C"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: Igual que no se utilizan los gráficos, solo se sugiere una distribución uniforme del presupuesto basada en el conocimiento común, se ignora la fluctuación de la cantidad de búsquedas (como el pico al final del mes), y la estrategia carece de enfoque y es ineficiente.",
+        "B": "Esta es una opción de distracción fácil: No se basa en absoluto en los datos de los gráficos, solo se basa en el conocimiento común general de la industria (los servicios legales requieren confianza), la sugerencia es amplia y no tiene una estrategia de marketing digital específica (por ejemplo, no se menciona la tendencia de búsqueda o las características del dispositivo), y es fácil de descartar.",
+        "C": "El gráfico chart_6_1 muestra que la proporción de demandas de divorcio es alta al principio del mes (por ejemplo, del 1 al 5 de mayo) y tiene una fluctuación significativa, que está relacionada con la tendencia general de la cantidad de búsquedas; el gráfico chart_6_2 destaca la dominancia de los dispositivos móviles, se deduce que optimizar el contenido móvil durante el período de aumento de la proporción puede mejorar la pertinencia.",
+        "D": "Esta es una opción de distracción difícil: Aparentemente se cita la distribución de dispositivos (chart_6_2), pero se interpreta erróneamente - la proporción de dispositivos móviles es del 88,74%, lo que es una dominancia absoluta, y la proporción de dispositivos de computadora es solo del 11,26%, no hay datos de tasa de crecimiento; la sugerencia de priorizar los dispositivos de computadora contradice los datos y es fácil de confundir debido a la hipótesis razonable de 'consulta en profundidad'.",
+        "E": "Esta es una opción de distracción difícil: Se utiliza erróneamente los datos de la proporción de servicios (chart_6_1) - la proporción de disputas de propiedad se mantuvo básicamente estable en 0,3% durante todo el mes (muy baja), solo se elevó ligeramente al 0,5% el 31 de mayo; se confunde la estabilidad con una demanda confiable, se ignora que los picos de la cantidad de búsquedas (por ejemplo, 2,2 millones el 22 de mayo) deben ser priorizados, y la estrategia tiene una desviación en la dirección.",
+        "F": "En el gráfico chart_6_1, la cantidad de búsquedas es baja en algunas fechas (por ejemplo, a mediados y finales de mayo), y la proporción de disputas de propiedad, aunque es estable, tiene un ligero cambio (por ejemplo, el 31 de mayo); el gráfico chart_6_2 destaca la importancia de los dispositivos móviles, se deduce que probar anuncios direccionados en los días de bajo tráfico puede evitar el desperdicio del presupuesto.",
+        "G": "Basado en la proporción extremadamente alta de la recuperación en dispositivos móviles en el gráfico chart_6_2 (descrita como 'dominancia'), se indica que los dispositivos móviles son la principal entrada de los usuarios; combinado con la tendencia de la cantidad de búsquedas en el gráfico chart_6_1 (por ejemplo, varios picos al final de mayo), se deduce que aumentar los anuncios móviles en los días de pico puede aprovechar eficientemente el tráfico."
+      },
+      "easy_error": [
+        "B",
+        "A"
+      ],
+      "hard_error": [
+        "D",
+        "E"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción difícil: Se interpreta erróneamente los datos de las ciudades (chart_6_3) - la tasa de crecimiento de las ciudades de segundo nivel es del 3%, que es más alta que el 2% de las ciudades de primer nivel, y la proporción es del 20%, que es significativa; la sugerencia de ignorar las ciudades de segundo nivel va en contra del objetivo de 'crecimiento equilibrado' y es fácil de confundir debido a la distracción de 'alta proporción'.",
+        "B": "En el gráfico chart_6_3, las tasas de crecimiento de las ciudades de tercer y cuarto nivel son negativas ('tasa de crecimiento negativa'), pero la proporción total es de casi el 30%, por lo que se debe evitar abandonarlas; combinado con la dominancia de los dispositivos móviles en el gráfico chart_6_2, se deduce que mejorar la accesibilidad a través de la optimización de los servicios móviles (como la APP o el sitio web receptivo) es consistente con los valores (servicio equitativo).",
+        "C": "Esta es una opción de distracción fácil: No se basa en los datos de los gráficos, solo se sugiere una 'distribución equitativa' basada en el conocimiento común, se ignora la diferencia de proporción y tasa de crecimiento entre los niveles de ciudad (por ejemplo, 42% en las ciudades de primer nivel vs 12% en las ciudades de cuarto nivel), y la estrategia carece de enfoque.",
+        "D": "El gráfico chart_6_3 muestra que las ciudades de primer nivel tienen la proporción más alta (descrita como 'proporción más alta') y una tasa de crecimiento positiva ('crecimiento estable'), lo que indica que su base de mercado es sólida; en el gráfico chart_6_4, las ciudades TOP5 como Beijing y Shenzhen tienen una proporción líder, se deduce que aumentar la inversión en estas ciudades puede aprovechar la alta atención existente.",
+        "E": "Esta es una opción de distracción fácil: Se menciona ampliamente la 'optimización de servicios en línea', pero no se abordan los niveles de ciudad o la dinámica de crecimiento (como los datos de tasa de crecimiento), es una sugerencia general y no tiene una guía de estrategia regional.",
+        "F": "En el gráfico chart_6_3, las ciudades de segundo nivel tienen la tasa de crecimiento más alta ('tasa de crecimiento destacada'), y la proporción es solo inferior a la de las ciudades de primer nivel; combinado con la distribución general del gráfico chart_6_3, se deduce que la inclinación de los recursos puede aprovechar las oportunidades de crecimiento y promover el equilibrio regional.",
+        "G": "Esta es una opción de distracción difícil: Se utiliza incorrectamente la proporción y la tasa de crecimiento (chart_6_3) - las tasas de crecimiento de las ciudades de tercer y cuarto nivel son negativas (-8% y -7%), lo que indica un problema, pero la opción de distracción exagera el 'potencial' (proporción del 29%), la sugerencia de 'aumentar significativamente la promoción' ignora el análisis de las razones, y la estrategia tiene un alto riesgo y contradice los datos."
+      },
+      "easy_error": [
+        "C",
+        "E"
+      ],
+      "hard_error": [
+        "A",
+        "G"
       ]
     },
     {
@@ -197,6 +282,23 @@
         "B",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Esta es una opción de distracción fácil: No se citan los gráficos, solo se sugiere un 'contenido general para todo el día' basado en el conocimiento común, se ignora la fluctuación de la tendencia de búsqueda y el cambio de la proporción de servicios (como la fluctuación de las demandas de divorcio), y la estrategia carece de precisión.",
+        "B": "En el gráfico chart_6_1, la proporción de disputas de propiedad se mantiene en un nivel bajo y estable, pero la tendencia de la cantidad de búsquedas tiene un período de recuperación (por ejemplo, al final de mayo); en el gráfico chart_6_3, las ciudades de primer nivel tienen la proporción más alta, se deduce que se debe probar la promoción en las ciudades de alta atención; los datos de los dispositivos en el gráfico chart_6_2 garantizan la compatibilidad móvil.",
+        "C": "Esta es una opción de distracción difícil: Se combina incorrectamente la proporción de servicios y la cantidad de búsquedas (chart_6_1) - cuando la proporción de demandas de divorcio es baja (por ejemplo, el 13 de mayo, 3,2%), la cantidad de búsquedas también es baja (1,5 millones), y el interés de los usuarios es débil; la sugerencia de 'fortalecer la promoción' confunde la baja proporción como una oportunidad, lo que contradice la tendencia real (es más relevante cuando la proporción es alta, como al principio del mes).",
+        "D": "El gráfico chart_6_1 muestra que la proporción de demandas de divorcio disminuye a mediados del mes ('período de disminución de la proporción'), que está relacionada con la fluctuación de la cantidad de búsquedas en el medio; el gráfico chart_6_2 destaca la importancia de los dispositivos móviles, se deduce que optimizar el contenido general en los días estables puede evitar la inversión ineficaz y mejorar la eficiencia general.",
+        "E": "Esta es una opción de distracción difícil: Se utiliza incorrectamente las características del dispositivo (chart_6_2) y la proporción de servicios - la proporción de dispositivos móviles es del 88,74%, que es la entrada principal, y aunque la proporción de disputas de propiedad es baja (0,3%), no hay evidencia que apoye la preferencia por las computadoras; la sugerencia de'reducir los dispositivos móviles' va en contra de los datos y es fácil de confundir debido a la hipótesis razonable de 'consulta compleja'.",
+        "F": "Esta es una opción de distracción fácil: Se sugiere ampliamente la 'optimización de marketing por correo electrónico', pero no se basa en las características del dispositivo (la dominancia del 88,74% de los dispositivos móviles) o en los datos de búsqueda, y es una sugerencia de canal irrelevante, fácil de descartar.",
+        "G": "En el gráfico chart_6_1, la cantidad de búsquedas tiene varios aumentos repentinos (por ejemplo, el 7 y el 22 de mayo), y la proporción de demandas de divorcio es alta al principio del mes ('relativamente alta en algunos períodos'); el gráfico chart_6_2 muestra la dominancia de los dispositivos móviles, se deduce que enviar contenido optimizado para dispositivos móviles en los días de pico puede capturar eficientemente la fluctuación de la demanda."
+      },
+      "easy_error": [
+        "A",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     }
   ]

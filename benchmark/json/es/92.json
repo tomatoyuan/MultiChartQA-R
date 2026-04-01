@@ -84,6 +84,21 @@
         "C",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta opción es una interferencia difícil, aparentemente basada en datos del gráfico (citando la tasa de crecimiento del gasto de consumo de 2020 -3.5% y la tasa de crecimiento de la producción 10.0%), pero interpreta incorrectamente los valores: la disminución del gasto de consumo del 3.5% es un crecimiento negativo significativo (no \"pequeño\"), e ignora que el gasto de consumo general disminuyó en el gráfico (2761 yuanes < 2862 yuanes de 2019), sugiriendo erróneamente un impacto limitado del consumo.",
+        "B": "Esta opción es una interferencia fácil, basada en conocimiento general de la industria (como la mejora del atractivo del producto debido al avance tecnológico), no involucra valores específicos del gráfico, y puede inferirse directamente del conocimiento del modelo.",
+        "C": "La opción depende del razonamiento conjunto de las tendencias de datos del gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes y del gráfico de producción de vehículos de energía renovable. El gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes muestra una disminución del gasto de consumo en 2020 (tasa de crecimiento negativa), mientras que el gráfico de producción de vehículos de energía renovable muestra un crecimiento de la producción en el mismo año (tasa de crecimiento positiva). Esta opción contrasta directamente las tendencias conflictivas de los dos gráficos (gasto disminuye vs producción aumenta), razonando factores externos como el impacto de la pandemia en el comportamiento del consumidor. Un solo gráfico no puede llegar a esta conclusión: solo el gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes no puede explicar el crecimiento de la producción, y solo el gráfico de producción de vehículos de energía renovable no puede explicar la disminución del consumo.",
+        "D": "La opción depende del razonamiento conjunto de las tendencias de datos del gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes y del gráfico de producción de vehículos de energía renovable. El gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes muestra una disminución del gasto de consumo en 2020 (tasa de crecimiento negativa), mientras que el gráfico de producción de vehículos de energía renovable muestra un crecimiento de la producción en el mismo año (tasa de crecimiento positiva). Esta opción introduce además una comparación interanual (consumo aumentó en 2019 pero la producción disminuyó), reforzando el análisis de conflictos. Un solo gráfico no puede llegar a esta conclusión: solo el gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes no puede explicar el crecimiento de la producción, y solo el gráfico de producción de vehículos de energía renovable no puede explicar la disminución del consumo.",
+        "E": "La opción depende del razonamiento conjunto de las tendencias de datos del gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes y del gráfico de producción de vehículos de energía renovable. El gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes muestra una disminución del gasto de consumo en 2020 (tasa de crecimiento negativa), mientras que el gráfico de producción de vehículos de energía renovable muestra un crecimiento de la producción en el mismo año (tasa de crecimiento positiva). Esta opción contrasta directamente las tendencias conflictivas de los dos gráficos (gasto disminuye vs producción aumenta), razonando factores externos como el impacto de las políticas. Un solo gráfico no puede llegar a esta conclusión: solo el gráfico de gasto de consumo per cápita en transporte y comunicaciones de los residentes no puede explicar el crecimiento de la producción, y solo el gráfico de producción de vehículos de energía renovable no puede explicar la disminución del consumo.",
+        "F": "Esta opción es una interferencia fácil, basada en conocimiento lingüístico general (como que la pandemia podría aumentar la demanda de transporte privado), no requiere depender de datos del gráfico, y solo habla vagamente de oraciones correctas."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A"
       ]
     },
     {
@@ -105,6 +120,21 @@
         "B",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "Esta opción es una interferencia difícil, aparentemente basada en datos del gráfico (citando la producción de 2019 de 1.24 millones de unidades, 2018 de 1.27 millones de unidades y el cambio de proporción), pero interpreta incorrectamente los valores: la disminución de la producción en 30,000 unidades corresponde a una tasa de crecimiento de -2.2% (no \"leve\"), y el aumento de la proporción en 0.2 puntos porcentuales requiere que la producción total de vehículos disminuya para respaldarlo, pero el gráfico no proporciona datos de producción total, razonando erróneamente que el cambio de producción es pequeño.",
+        "B": "La opción depende del razonamiento conjunto de los datos del gráfico de producción de vehículos de energía renovable y del gráfico de proporción de producción de vehículos de energía renovable. El gráfico de producción de vehículos de energía renovable muestra una disminución de la producción en 2019 (tasa de crecimiento negativa), mientras que el gráfico de proporción de producción de vehículos de energía renovable muestra un aumento de la proporción en el mismo año (aumento de la proporción). Esta opción razona la relación entre la estabilidad de la producción de vehículos de energía renovable y la industria en general mediante la comparación de los dos gráficos. Un solo gráfico no puede explicarlo: solo los datos de producción del gráfico de producción de vehículos de energía renovable no pueden inferir el cambio de proporción, y solo los datos de proporción del gráfico de proporción de producción de vehículos de energía renovable no pueden explicar la disminución de la producción.",
+        "C": "Esta opción es una interferencia fácil, basada en conocimiento general de la industria (como que los factores económicos afectan más a los vehículos tradicionales), no requiere valores del gráfico, y puede inferirse directamente del conocimiento del modelo.",
+        "D": "La opción depende del razonamiento conjunto de los datos del gráfico de producción de vehículos de energía renovable y del gráfico de proporción de producción de vehículos de energía renovable. El gráfico de producción de vehículos de energía renovable muestra una disminución de la producción en 2019 (tasa de crecimiento negativa), mientras que el gráfico de proporción de producción de vehículos de energía renovable muestra un aumento de la proporción en el mismo año (aumento de la proporción). Esta opción razona la tendencia de la producción total de vehículos (implícita en el cálculo de la proporción) mediante la comparación de los dos gráficos. Un solo gráfico no puede explicarlo: solo los datos de producción del gráfico de producción de vehículos de energía renovable no pueden inferir el cambio de proporción, y solo los datos de proporción del gráfico de proporción de producción de vehículos de energía renovable no pueden explicar la disminución de la producción.",
+        "E": "Esta opción es una interferencia fácil, basada en conocimiento lingüístico general (como las tendencias ambientales), no depende de datos del gráfico, y solo habla vagamente de oraciones correctas.",
+        "F": "La opción depende del razonamiento conjunto de los datos del gráfico de producción de vehículos de energía renovable y del gráfico de proporción de producción de vehículos de energía renovable. El gráfico de producción de vehículos de energía renovable muestra una disminución de la producción en 2019 (tasa de crecimiento negativa), mientras que el gráfico de proporción de producción de vehículos de energía renovable muestra un aumento de la proporción en el mismo año (aumento de la proporción). Esta opción introduce una tendencia temporal (la proporción aumenta anualmente), reforzando la conexión implícita. Un solo gráfico no puede explicarlo: solo los datos de producción del gráfico de producción de vehículos de energía renovable no pueden inferir el cambio de proporción, y solo los datos de proporción del gráfico de proporción de producción de vehículos de energía renovable no pueden explicar la disminución de la producción."
+      },
+      "easy_error": [
+        "E",
+        "C"
+      ],
+      "hard_error": [
+        "A"
       ]
     },
     {
@@ -128,6 +158,23 @@
         "A",
         "B",
         "F"
+      ],
+      "cot": {
+        "A": "La opción depende del razonamiento conjunto de las tendencias de datos del gráfico de gasto de consumo en transporte y comunicaciones de los residentes, del gráfico de producción de vehículos de energía renovable y del gráfico de proporción de producción de vehículos de energía renovable. El gráfico de gasto de consumo en transporte y comunicaciones de los residentes muestra un crecimiento del gasto de consumo en 2021, el gráfico de producción de vehículos de energía renovable muestra un crecimiento explosivo de la producción, y el gráfico de proporción de producción de vehículos de energía renovable muestra un aumento significativo de la proporción. Esta opción combina directamente las tendencias sincronizadas de los tres gráficos (consumo aumenta, producción aumenta, proporción aumenta), razonando factores políticos y de la industria. Un solo gráfico no puede llegar a una conclusión completa: solo el gráfico de gasto de consumo en transporte y comunicaciones de los residentes no puede explicar el crecimiento de la producción, y solo el gráfico de producción de vehículos de energía renovable o el gráfico de proporción de producción de vehículos de energía renovable no pueden relacionarse con el gasto de consumo.",
+        "B": "La opción depende del razonamiento conjunto de las tendencias de datos del gráfico de gasto de consumo en transporte y comunicaciones de los residentes, del gráfico de producción de vehículos de energía renovable y del gráfico de proporción de producción de vehículos de energía renovable. El gráfico de gasto de consumo en transporte y comunicaciones de los residentes muestra un crecimiento del gasto de consumo en 2021, el gráfico de producción de vehículos de energía renovable muestra un crecimiento explosivo de la producción, y el gráfico de proporción de producción de vehículos de energía renovable muestra un aumento significativo de la proporción. Esta opción introduce tendencias históricas (como la acumulación del consumo que disminuyó en 2020 pero la producción aumentó), reforzando el análisis de patrones. Un solo gráfico no puede llegar a una conclusión completa: solo el gráfico de gasto de consumo en transporte y comunicaciones de los residentes no puede explicar el crecimiento de la producción, y solo el gráfico de producción de vehículos de energía renovable o el gráfico de proporción de producción de vehículos de energía renovable no pueden relacionarse con el gasto de consumo.",
+        "C": "Esta opción es una interferencia fácil, basada en conocimiento lingüístico general (como el impacto de las políticas internacionales), no requiere datos del gráfico, y solo habla vagamente de oraciones correctas.",
+        "D": "Esta opción es una interferencia difícil, aparentemente basada en datos del gráfico (citando el aumento de la proporción de producción del 5.4% al 13.6%), pero interpreta incorrectamente la tendencia: el salto de 8.2 puntos porcentuales es un crecimiento violento (no \"suave\"), e ignora la naturaleza explosiva de la tasa de crecimiento de la producción del 159.5%, razonando erróneamente una expansión constante.",
+        "E": "Esta opción es una interferencia difícil, aparentemente basada en datos del gráfico (citando la tasa de crecimiento del gasto de consumo de 2021 del 14.3%, 2020 del -3.5% y la tasa de crecimiento de la producción del 159.5%), pero interpreta incorrectamente los valores: el crecimiento del consumo del 14.3% está lejos de ser \"ligeramente superior\" al crecimiento negativo (diferencia grande), y la tasa de crecimiento de la producción del 159.5% es mucho mayor que el crecimiento del consumo, asociando erróneamente que el impulso del consumo es dominante.",
+        "F": "La opción depende del razonamiento conjunto de las tendencias de datos del gráfico de gasto de consumo en transporte y comunicaciones de los residentes, del gráfico de producción de vehículos de energía renovable y del gráfico de proporción de producción de vehículos de energía renovable. El gráfico de gasto de consumo en transporte y comunicaciones de los residentes muestra un crecimiento del gasto de consumo en 2021, el gráfico de producción de vehículos de energía renovable muestra un crecimiento explosivo de la producción, y el gráfico de proporción de producción de vehículos de energía renovable muestra un aumento significativo de la proporción. Esta opción combina directamente las tendencias sincronizadas de los tres gráficos (consumo aumenta, producción aumenta, proporción aumenta), razonando factores de demanda del mercado y aceptación del consumidor. Un solo gráfico no puede llegar a una conclusión completa: solo el gráfico de gasto de consumo en transporte y comunicaciones de los residentes no puede explicar el crecimiento de la producción, y solo el gráfico de producción de vehículos de energía renovable o el gráfico de proporción de producción de vehículos de energía renovable no pueden relacionarse con el gasto de consumo.",
+        "G": "Esta opción es una interferencia fácil, basada en conocimiento general de la industria (como la mejora de la infraestructura), no involucra valores específicos del gráfico, y puede inferirse directamente del conocimiento del modelo."
+      },
+      "easy_error": [
+        "C",
+        "G"
+      ],
+      "hard_error": [
+        "E",
+        "D"
       ]
     },
     {
@@ -151,6 +198,23 @@
         "B",
         "D",
         "E"
+      ],
+      "cot": {
+        "A": "Esta es una sugerencia general de conocimiento común que no se basa en los datos de los gráficos. El enfoque está en las políticas de automóviles de energía renovable en lugar de en formas alternativas de transporte, por lo que carece de pertinencia.",
+        "B": "La opción 3 involucra el gráfico chart_92_3 (la proporción aumentó del 1,8% en 2016 al 13,6% en 2021) y el gráfico chart_92_1 (tendencia ascendente del gasto de consumo general), lo que impulsa la promoción educativa para hacer coincidir la expansión del mercado.",
+        "C": "Aparentemente se basa en los gráficos (el gráfico chart_92_3 muestra una proporción del 13,6% en 2021), pero interpreta erróneamente la alta proporción como 'saturación del mercado', ignorando que el aumento de la proporción indica potencial de crecimiento (por ejemplo, la tasa de crecimiento de la producción en 2021 fue del 159,5% en el gráfico chart_92_2). Reducir la inversión obstaculizará la popularización.",
+        "D": "La opción 2 involucra el gráfico chart_92_1 (por ejemplo, el gasto de consumo tuvo un crecimiento negativo en 2020) y el gráfico chart_92_2 (por ejemplo, la producción aún tuvo un crecimiento positivo en 2020). Se sugiere invertir en infraestructura cuando el consumo disminuye para amortiguar riesgos.",
+        "E": "La opción 1 involucra el gráfico chart_92_1 (por ejemplo, la tasa de crecimiento del gasto de consumo fue alta en 2021) y el gráfico chart_92_2 (por ejemplo, la tasa de crecimiento de la producción fue extremadamente alta en 2021). Se deduce que se deben aumentar los subsidios durante el período de alto crecimiento del consumo para aprovechar el pico de demanda.",
+        "F": "Esta es una sugerencia general de conocimiento común que no se basa en ningún dato de los gráficos. Solo enfatiza la promoción ambiental pero no tiene acciones políticas específicas (como ajuste de subsidios o inversión en infraestructura), por lo que es fácil de descartar.",
+        "G": "Aparentemente utiliza los gráficos (el gráfico chart_92_1 muestra una tasa de crecimiento del 6,9% en 2017), pero confunde el objetivo de la política: el gráfico chart_92_2 muestra un crecimiento continuo de la producción de automóviles de energía renovable. Subsidiar los automóviles tradicionales se desvía del problema central de 'acelerar la popularización de los automóviles de energía renovable'."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "C",
+        "G"
       ]
     },
     {
@@ -173,6 +237,23 @@
         "D",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Aparentemente se basa en los gráficos (el gráfico chart_92_1 muestra un crecimiento del gasto de consumo del 7,0% en 2019 y el gráfico chart_92_2 muestra una disminución de la producción del -2,2% en 2019), pero interpreta erróneamente: se debería aumentar la producción para aprovechar la oportunidad cuando el consumo crece (por ejemplo, la promoción sugerida en la opción A original). Reducir la producción se perdería la oportunidad de crecimiento.",
+        "B": "Esta es una sugerencia general de conocimiento común de marketing que no se basa en las tendencias de los gráficos (como las fluctuaciones del consumo o la producción). No tiene una estrategia específica para hacer frente a los riesgos, por lo que carece de fundamentos.",
+        "C": "Aparentemente utiliza los gráficos (el gráfico chart_92_2 muestra una tasa de crecimiento del 159,5% en 2021), pero confunde la relación causal: durante el período de alto crecimiento, se necesita más apoyo de la cadena de suministro (por ejemplo, para hacer frente al aumento repentino de la demanda). Reducir la inversión aumentará el riesgo de cuellos de botella (la tasa de crecimiento se desaceleró al 10,0% en 2020, lo que muestra la fragilidad de la cadena de suministro).",
+        "D": "La opción 2 involucra el gráfico chart_92_1 (tendencias fluctuantes del gasto de consumo) y el gráfico chart_92_3 (la proporción aumentó continuamente hasta el 13,6%). Se sugiere diversificar los productos para adaptarse a diferentes capacidades de consumo.",
+        "E": "La opción 3 involucra el gráfico chart_92_2 (la producción tuvo un crecimiento positivo en 2020 pero la tasa de crecimiento fue menor que en otros años) y el gráfico chart_92_1 (disminución del consumo). Combinando conocimientos externos de la cadena de suministro, se enfatiza la gestión de inventarios.",
+        "F": "Esta es una sugerencia general de conocimiento común de gestión que no se basa en los datos de los gráficos. Solo enfatiza la calidad pero no tiene una estrategia específica de elasticidad (por ejemplo, para hacer frente a las fluctuaciones del consumo), por lo que es fácil de descartar.",
+        "G": "La opción 1 involucra el gráfico chart_92_1 (el gasto de consumo tuvo un crecimiento negativo en 2020) y el gráfico chart_92_2 (la tasa de crecimiento de la producción fue del 10,0% en 2020). Se deduce que se deben tomar medidas de promoción para hacer frente a la presión de la demanda."
+      },
+      "easy_error": [
+        "F",
+        "B"
+      ],
+      "hard_error": [
+        "A",
+        "C"
       ]
     },
     {
@@ -196,6 +277,23 @@
         "B",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Esta es una sugerencia general de conocimiento común que no se basa en las tendencias de los gráficos (como la producción o el consumo). El enfoque se desvía incorrectamente hacia formas alternativas de transporte en lugar de una estrategia de asignación de recursos.",
+        "B": "La opción 2 involucra el gráfico chart_92_2 (por ejemplo, la tasa de crecimiento de la producción fue extremadamente alta en 2021) y el gráfico chart_92_3 (la proporción aumentó rápidamente). Se deduce que se deben aumentar la inversión en investigación y desarrollo durante el período de aumento repentino de la producción.",
+        "C": "La opción 3 involucra el gráfico chart_92_1 (por ejemplo, el consumo creció lentamente de 2017 a 2019) y el gráfico chart_92_3 (la proporción aumentó constantemente). Combinando conocimientos externos de equidad, se sugiere equilibrar la asignación de recursos.",
+        "D": "La opción 1 involucra el gráfico chart_92_1 (por ejemplo, el gasto de consumo creció rápidamente en 2021) y el gráfico chart_92_3 (la proporción fue del 13,6% en 2021, con un aumento evidente). Se sugiere invertir en instalaciones de carga en las zonas de alto crecimiento de la demanda.",
+        "E": "Aparentemente se basa en los gráficos (el gráfico chart_92_3 muestra una proporción del 1,8% en 2016), pero interpreta erróneamente: cuando la proporción es baja, se necesita más inversión en infraestructura para acelerar la popularización (por ejemplo, la proporción aumentó posteriormente al 13,6%). Posponer la construcción retrasará la transformación.",
+        "F": "Esta es una sugerencia general de conocimiento común ambiental que no se basa en ningún dato de los gráficos. El enfoque está en la asignación de recursos de transporte en lugar de en la verde, y no tiene una guía de acción.",
+        "G": "Aparentemente utiliza los gráficos (el gráfico chart_92_1 muestra un crecimiento del gasto de consumo del 14,3% en 2021 y el gráfico chart_92_3 muestra una proporción del 13,6%), pero confunde las tendencias: el aumento del consumo y la proporción debería aumentar la inversión en energías renovables (por ejemplo, la opción A original). Reducir la asignación se perdería la oportunidad de crecimiento."
+      },
+      "easy_error": [
+        "F",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     }
   ]

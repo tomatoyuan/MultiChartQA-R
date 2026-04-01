@@ -82,6 +82,21 @@
         "A",
         "B",
         "E"
+      ],
+      "cot": {
+        "A": "Rely on chart_126_1 (Age distribution: The combined proportion of those aged 15 - 25 and 26 - 29 is approximately 47.9%) and chart_126_3 (Growth rate: The growth rate from 2010 to 2012 exceeded 267%, which was a stage of extremely high growth). Joint reasoning: A high proportion of young people may have driven the early explosion of e - commerce, but this connection cannot be established based on a single chart (e.g., chart_126_1 does not provide a time trend).",
+        "B": "Rely on chart_126_1 (The proportion of those aged 31 - 40 is 31.5%) and chart_126_3 (After 2015, the growth rate dropped below 52.8%, and the growth slowed down). Joint reasoning: A large proportion of middle - aged people may explain the continuous but decelerating growth. Two charts need to be compared to identify the association between age and growth stages.",
+        "C": "This option is incorrect because it has a wrong understanding of the chart values: Chart_126_1 shows that the proportion of those aged 15 - 25 is only 13.8% (not 34.1%), while the highest proportion of 34.1% is for those aged 26 - 29. Meanwhile, the growth rate of 'Double Eleven' has slowed down since 2015 (e.g., 52.8% in 2015 vs 1770% in 2010). The option wrongly associates a low - proportion group with an upward trend, which is a Hard distractor.",
+        "D": "This option is incorrect because it is based on a common - sense error: The actual proportion of elderly consumers (aged 51 - 60) is only 5.4% + 1.7% = 7.1% (far lower than 20%), and in common sense, the elderly have a lower acceptance of emerging e - commerce and cannot dominate high - growth. The correct data comes from chart_126_1, but the option exaggerates the proportion and ignores the fact that the early high - growth was mainly driven by young people.",
+        "E": "Rely on chart_126_1 (The combined proportion of those aged 26 - 29 and 31 - 40 is 65.6%) and chart_126_3 (The growth rate dropped from 1770% in 2010 to 26.6% in 2024, showing a transition). Joint reasoning: A high proportion of the core age group and the change in the growth trend need to be analyzed across charts. A single chart cannot infer causality.",
+        "F": "This option is incorrect because it is completely out of the chart context: The age distribution in chart_126_1 does not include the group aged 0 - 14 (it starts from 15 years old), and in common sense, children do not directly conduct e - commerce consumption and cannot explain high - growth. This is an Easy distractor, relying only on model knowledge (children are not the main force in e - commerce)."
+      },
+      "easy_error": [
+        "D",
+        "F"
+      ],
+      "hard_error": [
+        "C"
       ]
     },
     {
@@ -103,6 +118,21 @@
         "C",
         "D",
         "F"
+      ],
+      "cot": {
+        "A": "This option is incorrect because it has a wrong understanding of the chart differences: The proportion of the unmarried is 18.1%, which seems close to the 9.8% proportion of consumers in Central China. However, the absolute numerical difference is large (18.1% > 9.8%), and the 9.8% proportion of Central China is a regional share, while the unmarried proportion is a national one. There is no direct comparability between them. The data in chart_126_1 and chart_126_2 do not support this association, which is a Hard distractor.",
+        "B": "This option is incorrect because it is based on a common - sense error: In common sense, the regional economic development in China is uneven (e.g., coastal vs inland), and regional characteristics will inevitably affect family structure. Chart_126_1 and chart_126_2 show differences in marriage and regional data (e.g., 24.2% in East China vs 18.1% of the unmarried), but the option ignores the charts, which is an Easy distractor.",
+        "C": "Rely on chart_126_2 (The total proportion of Southwest China 17.6% + Central China 9.8% = 27.4%) and chart_126_1 (The proportion of the unmarried is 18.1%). Joint reasoning: The similarity between the regional proportion and the unmarried proportion needs joint analysis to identify the concentration of young people. A single chart cannot confirm the correlation.",
+        "D": "Rely on chart_126_2 (The total proportion of East China 24.2% + South China 21.5% = 45.7%) and chart_126_1 (The proportion of married people with children is 67.5%). Joint reasoning: A high regional proportion may imply a connection between developed economic regions and family stability, but cross - chart comparison is needed (e.g., chart_126_2 does not provide marriage data).",
+        "E": "This option is incorrect because it has a wrong understanding of the chart values: Chart_126_2 shows that the proportion of consumers in Northwest China is only 6.8% (not 17.6%, which is for Southwest China), and the proportion of married people with children, 67.5%, is a national data, not exclusive to Northwest China. The option misreads the proportion and forcibly makes an association, which is a Hard distractor.",
+        "F": "Rely on chart_126_2 (The total proportion of Northeast China 3.0% + Hong Kong, Macao and Taiwan 0.1% = 3.1%) and chart_126_1 (The proportion of married people without children is 14.4%). Joint reasoning: A low regional proportion may be related to a small - proportion marriage group. Two charts need to be combined to reveal the influence of economic or demographic factors."
+      },
+      "easy_error": [
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "A"
       ]
     },
     {
@@ -124,6 +154,21 @@
         "A",
         "C",
         "E"
+      ],
+      "cot": {
+        "A": "Rely on chart_126_2 (The total proportion of third - tier cities 14.8% + fourth - tier cities 8.0% = 22.8%) and chart_126_3 (The growth rate fluctuates greatly, e.g., from 130% in 2014 to 12.2% in 2021). Joint reasoning: The small proportion of low - tier cities but large growth fluctuations need cross - chart analysis to reveal the influence of penetration rate. Two charts need to be combined to explain the reason for the conflict.",
+        "B": "This option is incorrect because it has a wrong understanding of the chart order: Chart_126_2 shows that the proportion of second - tier cities is the highest at 29.6% (not third - tier cities, which is only 14.8%), and the decline in the growth rate from 2021 - 2023 (12.2%→15.6%→2.1%) has nothing to do with the proportion of third - tier cities. The option wrongly assumes that the proportion of third - tier cities is the highest and wrongly attributes it to saturation, which is a Hard distractor.",
+        "C": "Rely on chart_126_2 (The total proportion of second - tier cities 29.6% + new first - tier cities 27.4% = 57.0%) and chart_126_3 (The growth rate dropped from 12.2% in 2021 to 2.1% in 2023 and then rebounded to 26.6% in 2024). Joint reasoning: The high - proportion cities and the decline and rebound of the growth rate need cross - chart analysis of the conflict (e.g., chart_126_3 shows fluctuations, but chart_126_2 explains the influence of the base). A single chart cannot explain the contradiction.",
+        "D": "This option is incorrect because it is based on a common - sense error: In common sense, the city - level distribution (e.g., first - tier vs low - tier) directly affects e - commerce penetration rate and growth potential. Chart_126_2 and chart_126_3 show that the proportion may be related to the growth trend, but the option completely denies the association, which is an Easy distractor.",
+        "E": "Rely on chart_126_2 (The proportion of first - tier cities is 20.2%) and chart_126_3 (The growth rate was only 2.1% in 2023 and rebounded to 26.6% in 2024). Joint reasoning: The stable proportion of first - tier cities and the rebound of the growth rate need joint inference of the role of consumption upgrading. A single chart (e.g., chart_126_3) cannot associate urban factors.",
+        "F": "This option is incorrect because it has a wrong understanding of the chart differences: The proportion of fourth - tier and other cities is indeed the lowest at 8.0%, but the 26.6% rebound in the growth rate in 2024 is a national phenomenon, not exclusive to low - tier cities. Chart_126_3 shows that the growth rate fluctuations are affected by multiple factors (e.g., the low growth of 2.1% in 2023 followed by a rebound). The option exaggerates the influence of low - tier cities and ignores the role of other cities, which is a Hard distractor."
+      },
+      "easy_error": [
+        "D"
+      ],
+      "hard_error": [
+        "B",
+        "F"
       ]
     },
     {
@@ -146,6 +191,23 @@
         "B",
         "C",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: Suggesting to optimize the user experience is logically reasonable but not directly related to the conversion rate improvement strategy. It ignores the chart data (such as the proportion of females or age groups) and is simply a general suggestion.",
+        "B": "Jointly infer the age proportion of consumers (the combined proportion of consumers aged 26 - 29 and 31 - 40 is the highest) and the e - commerce transaction volume trend (the transaction volume still maintains positive growth, indicating market opportunities).",
+        "C": "Jointly infer the gender proportion of consumers (the proportion of female consumers is much higher than that of male consumers) and the e - commerce transaction volume trend (the overall transaction volume shows an increasing trend, but the growth rate has fluctuated and declined in recent years, indicating that the market is saturated and requires precise strategies).",
+        "D": "This is an easy distractor: The statement is broad, based only on marketing common sense (increasing the budget can increase exposure). It does not specifically target the consumer characteristics in the chart (such as gender, age, or marital distribution) and has no clear action guidelines (such as targeting specific groups).",
+        "E": "This is a hard distractor: It misinterprets the chart data. Chart_126_1 shows that the proportion of the 15 - 25 age group is only 13.8% (one of the lowest), far lower than the 26 - 40 age group (65.6% in total). And although the growth rate in Chart_126_3 is positive, it has slowed down in recent years (only 2.1% in 2023). There is no data to support that the young group is the'main growth force'; a reasonable strategy should focus on high - proportion groups.",
+        "F": "This is a hard distractor: It misinterprets the numerical relationship. Chart_126_1 shows that females account for 67.8% (the main force), while males only account for 32.2%. Reducing investment in females contradicts the data. At the same time, the 26.6% growth rate in Chart_126_3 shows that the market is not saturated, and this suggestion may reduce conversion efficiency.",
+        "G": "Jointly infer the proportion of consumers' marital and fertility status (the proportion of married consumers with children is the largest) and the e - commerce transaction volume trend (the transaction volume is growing steadily, reflecting stable family consumption demand)."
+      },
+      "easy_error": [
+        "D",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "F"
       ]
     },
     {
@@ -168,6 +230,23 @@
         "A",
         "D",
         "G"
+      ],
+      "cot": {
+        "A": "Jointly infer the regional proportion of consumers (consumers in East China and South China have the highest proportions) and the e - commerce transaction volume trend (the transaction volume continues to grow, but the growth rate has declined in recent years, so it is necessary to focus on high - return regions).",
+        "B": "This is an easy distractor: Suggesting to evenly distribute resources is based on general management common sense (fairness), but it ignores the uneven regional distribution in Chart_126_2 (such as 24.2% in East China vs. 3.0% in Northeast China) and has no guidance for maximizing sales efficiently.",
+        "C": "This is a hard distractor: It wrongly confuses the numerical values and trends. Chart_126_2 shows that the proportion of consumers in Hong Kong, Macao and Taiwan is only 0.1% (the lowest), and there is no data to support 'high consumption potential'. The 26.6% growth rate in Chart_126_3 reflects the overall market, but investing in low - proportion regions may lead to resource waste (a reasonable option suggests a low - cost pilot).",
+        "D": "Jointly infer the regional proportion of consumers (the proportions of consumers in Northwest China and Northeast China are the lowest) and the e - commerce transaction volume trend (the transaction volume still maintains growth, especially the growth rate rebounded in 2024, indicating that potential markets can be explored).",
+        "E": "This is a hard distractor: It misinterprets the relationship. Although the proportion of consumers in North China in Chart_126_2 is 17.0% (medium), it is lower than that in East China (24.2%) and South China (21.5%). After the 2.1% growth rate in 2023 in Chart_126_3, it rebounded to 26.6% in 2024, indicating that the market is stable rather than 'lack of demand'. This suggestion may lead to over - investment in low - priority regions.",
+        "F": "This is an easy distractor: The broad proposal of KOL cooperation does not specifically target the geographical distribution or city levels (such as first - tier or second - tier cities). It is a common marketing method and does not rely on the chart data.",
+        "G": "Jointly infer the proportion of consumers by city level (the proportion of consumers in new first - tier and second - tier cities is the highest) and the e - commerce transaction volume trend (the annual growth of transaction volume shows a high penetration rate of e - commerce, and the experience in core cities should be optimized)."
+      },
+      "easy_error": [
+        "B",
+        "F"
+      ],
+      "hard_error": [
+        "C",
+        "E"
       ]
     },
     {
@@ -190,6 +269,23 @@
         "E",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is a hard distractor: It misinterprets the numerical values and relationships. The proportion of unmarried consumers in Chart_126_1 is only 18.1% (the lowest), far lower than the 67.5% of married consumers with children. In the city distribution in Chart_126_2, the combined proportion of new first - tier and second - tier cities is 57.0%, but it is not specified that the unmarried group is concentrated here. This suggestion may ignore the main group (married consumers with children), leading to product mismatches.",
+        "B": "This is a hard distractor: It wrongly combines the chart data. Chart_126_2 shows that the proportion of consumers in Northwest China is only 6.8% (relatively low). Although the group aged 26 - 40 in Chart_126_1 has a high proportion (65.6%), there is no regional age breakdown. A reasonable strategy should focus on high - proportion regions (such as East China) rather than low - potential regions.",
+        "C": "This is an easy distractor: The broad claim to increase inventory diversity is a general operational suggestion that ignores the data (such as the 67.5% of married consumers with children or regional proportions) and may lead to over - inventory.",
+        "D": "This is an easy distractor: Suggesting environmentally friendly products is based on industry trend common sense, but it is not related to the demographic structure (such as age or marriage) or regional distribution (such as city levels) in the chart and has no specific guidance for meeting needs.",
+        "E": "Jointly infer the proportion of consumers by city level (the combined proportion of consumers in first - tier and new first - tier cities is high) and the proportion of consumers by age (the proportion of consumers aged 26 - 40 is the highest, reflecting the dominance of the young group).",
+        "F": "Jointly infer the regional distribution of consumers (the proportion of consumers in East China is the highest) and the demographic structure of consumers (diverse age and marital structures), requiring cross - regional and demographic characteristic analysis.",
+        "G": "Jointly infer the proportion of consumers by city level (the proportion of consumers in third - tier and lower - tier cities is significant) and the proportion of consumers' marital and fertility status (the proportion of married consumers with children is the largest, emphasizing family needs)."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "B",
+        "A"
       ]
     }
   ]

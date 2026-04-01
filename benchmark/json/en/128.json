@@ -86,6 +86,23 @@
         "D",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an easy distractor: It relies on general knowledge (patents are often regarded as academic indicators), but the patents in the chart clearly involve VR/AR technology (which may include commercial applications). This option ignores the chart content and cannot explain the specific difference.",
+        "B": "This is a hard distractor: It wrongly compares the chart data; in chart_128_1, the combined market share of DPVR and HTC is 11% (6% + 5%), but neither DPVR nor HTC is among the top 10 in terms of patents in chart_128_2, and the lowest number of patents (2,108 for Microsoft) is far higher than the assumed 3,000. The option misjudges the numerical gap.",
+        "C": "This is an easy distractor: It is based on common business strategies (such as price competition), but the chart does not provide any information about prices or subsidies, and this option does not directly explain the difference between market position and innovation. It is just a general common - sense statement.",
+        "D": "Option 1 is correct because chart_128_1 shows that the market share of VR headsets is highly concentrated (a single company dominates), while chart_128_2 shows that the top 10 patent - holding companies are evenly distributed (with no overlapping companies). This requires a combined analysis of market concentration and innovation diversity; it is impossible to infer this strategic difference from only one chart.",
+        "E": "This is a hard distractor: It wrongly interprets the chart values; chart_128_2 shows that Meta is not among the top 10 in the patent ranking (Samsung ranks first with 4,094 patents, and Tencent ranks second with 4,085 patents), but this option wrongly claims that Meta ranks second, distorting the ranking and the gap.",
+        "F": "Option 3 is correct because the high hardware share in chart_128_1 indicates commercial success, but the absence of these companies in the patent ranking in chart_128_2 implies different R & D focuses. It is necessary to jointly infer the corporate strategy; this conclusion cannot be drawn by only looking at patents or market share.",
+        "G": "Option 2 is correct because the leading patent - holding companies in chart_128_2 are mainly Asian companies (such as Samsung and Tencent), while the hardware leader in chart_128_1 is a North American company (Meta). It is necessary to compare the geographical distributions across the charts; a single chart cannot explain the regional conflict."
+      },
+      "easy_error": [
+        "C",
+        "A"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -108,6 +125,23 @@
         "A",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "Option 3 is correct because in chart_128_3, non - VR games continue to grow, but VR games fluctuate. Combined with the high hardware share in chart_128_1, it is necessary to understand the ecological imbalance across the charts; only looking at the content chart will ignore the role of hardware popularization.",
+        "B": "This is a hard distractor: It wrongly confuses the data points; in chart_128_3, the number of VR games in 2023 is 689 (the number of non - VR games is 13,765), but this option wrongly attributes the number of non - VR games to VR games and claims it is a 'historical high', while the actual peak was 1,105 in 2017, misjudging the gap.",
+        "C": "This is an easy distractor: It relies on external factors (policies), but the chart does not involve policy information, and this option cannot be inferred from the data. It is a common - sense error.",
+        "D": "This is an easy distractor: It is based on common sense (such as the relationship between supply and demand), but chart_128_3 shows that the number of VR games fluctuates (e.g., 612 in 2019 vs. 1,105 in 2017), rather than a continuous increase. The option ignores the chart data and makes a general statement.",
+        "E": "This is a hard distractor: It wrongly interprets the chart trend; in chart_128_3, the number of VR games is 735 in 2016, 1,105 in 2017, 872 in 2018, 612 in 2019, 822 in 2020, 562 in 2021, 945 in 2022, and 689 in 2023, showing fluctuations rather than a year - on - year increase. The option distorts the numerical sequence.",
+        "F": "Option 1 is correct because chart_128_1 shows that the hardware market share is highly concentrated (the leading company accounts for the majority), while chart_128_3 shows that the number of VR games has fluctuated and declined since the peak in 2017 (e.g., it is relatively low in 2023). It is necessary to jointly analyze the hardware dominance and the weakness of content; it is impossible to infer the impact of hardware from only the content trend.",
+        "G": "Option 2 is correct because in chart_128_3, the VR content has not reached a new high since 2017, while the hardware share data in chart_128_1 (the time is not specified, but it implies the current dominance) requires a joint inference of the time mismatch; a single chart cannot explain the reason for the content lag."
+      },
+      "easy_error": [
+        "D",
+        "C"
+      ],
+      "hard_error": [
+        "E",
+        "B"
       ]
     },
     {
@@ -130,6 +164,23 @@
         "A",
         "C",
         "F"
+      ],
+      "cot": {
+        "A": "Option 1 is correct because the top 10 patent - holding companies in chart_128_2 are mostly comprehensive technology companies (such as Samsung and Tencent), while the fluctuating number of games in chart_128_3 indicates different content development entities. It is necessary to jointly analyze the innovation entities and application producers; it is impossible to infer the content ecosystem from only the patent chart.",
+        "B": "This is an easy distractor: It relies on subjective assumptions (such as the ineffectiveness of patents), but the patents in chart_128_2 involve VR/AR technology, and chart_128_3 shows a stable growth of non - VR games. This option cannot be inferred from the chart and is a common - sense error.",
+        "C": "Option 2 is correct because the patent data in chart_128_2 covers the overall VR/AR technology, while the game applications in chart_128_3 are a细分领域. It is necessary to compare the technology scope and application requirements across the charts; a single chart cannot explain the mismatch between the fields.",
+        "D": "This is an easy distractor: It is based on common sense (the speed of innovation transformation), but in reality, there is a delay from R & D to commercialization. The chart does not support the idea of 'rapid transformation'. The option does not rely on data and is too general.",
+        "E": "This is a hard distractor: It wrongly associates the charts; in chart_128_2, Samsung has the highest number of patents with 4,094, but in chart_128_3, the number of VR games in 2022 is 945, which is not the peak (1,105 in 2017 is higher), and it is not stated that Samsung directly promotes the game supply. The option misjudges the causality and the numerical values.",
+        "F": "Option 3 is correct because the number of patents in chart_128_2 is high (assuming accumulated in recent years), but the number of VR games in chart_128_3 has not increased synchronously (e.g., it is relatively low in 2023). It is necessary to jointly infer the time lag or market factors; it is impossible to link to the patent investment from only the content trend.",
+        "G": "This is a hard distractor: It wrongly attributes the trend; in chart_128_3, the number of VR games in 2021 is 562, which is relatively low, but the patent data in chart_128_2 is cumulative or total data (the year is not specified), and it cannot be proved that there was a 'lack' of patents in 2021. The option distorts the time sequence and the gap."
+      },
+      "easy_error": [
+        "D",
+        "B"
+      ],
+      "hard_error": [
+        "E",
+        "G"
       ]
     },
     {
@@ -152,6 +203,23 @@
         "C",
         "F",
         "G"
+      ],
+      "cot": {
+        "A": "This is an Easy distractor: The content is generalized (such as internal management optimization), which has nothing to do with the charts and can be excluded based on common sense. The strategy does not target challenging the leader in the VR hardware market.",
+        "B": "This is a Hard distractor: On the surface, it uses chart_128_1 (Meta has a 75% share), but misinterprets it. The chart shows that Meta dominates, but the patent data (chart_128_2) emphasizes the innovation barrier (e.g., Samsung has many patents). An imitation strategy is likely to lead to homogeneous competition and ignores the differential advantage.",
+        "C": "Option 1 combines chart_128_2 (companies with leading patent numbers such as Samsung and Tencent, indicating that technological accumulation is a key competitive factor) and chart_128_1 (Meta dominates but other companies have low shares, indicating that innovation can break the monopoly) to infer a technology investment strategy.",
+        "D": "This is a Hard distractor: On the surface, it uses chart_128_1 (DPVR and Pico each have a 6% share), but confuses the relationship. The chart only shows the same share value and does not provide information on the feasibility of acquisition. In reality, small - share players are not necessarily easy to acquire, and it ignores the patent trend (e.g., Tencent has many patents), so the strategy is off - target.",
+        "E": "This is an Easy distractor: The statement is broad, based on general business common sense (such as advertising to enhance the brand), but does not involve the chart data and has no specific action guidance (e.g., not combined with patents or shares). The chart does not mention marketing, so the strategy is ineffective.",
+        "F": "Option 3 combines chart_128_2 (Asian companies such as Tencent and Baidu have prominent numbers in the top 10 of patents) and chart_128_1 (Asian companies such as Pico have a small share in the market share) to infer a regional market strategy.",
+        "G": "Option 2 combines chart_128_3 (although the number of Steam VR content fluctuates, there is an overall demand, such as the growth in 2022) and chart_128_1 (Meta's high share may be due to the content ecosystem) to infer a content cooperation strategy."
+      },
+      "easy_error": [
+        "E",
+        "A"
+      ],
+      "hard_error": [
+        "B",
+        "D"
       ]
     },
     {
@@ -174,6 +242,23 @@
         "A",
         "E",
         "G"
+      ],
+      "cot": {
+        "A": "Option 3 combines chart_128_1 (multiple companies such as Pico and HTC have stable shares) and chart_128_2 (many companies in the top 10 of patents are innovative, indicating technological diversity) to infer a cross - platform strategy.",
+        "B": "This is a Hard distractor: On the surface, it uses chart_128_1 (Meta has a 75% share) and chart_128_3 (content trend), but confuses the risk. The chart shows that Meta dominates but there are secondary players (e.g., Pico has a 6% share), and the demand for VR applications in the content trend is unstable. Focusing only on a single platform increases the risk of dependence and ignores the cross - platform compatibility strategy.",
+        "C": "This is an Easy distractor: The statement is broad (such as improving picture quality), based on common sense in the game industry, but does not quote the chart data. The strategy has no guidance on risk reduction and ignores the market share and content trend.",
+        "D": "This is an Easy distractor: The content is generalized (such as community activities), which has nothing to do with the charts. It can be excluded based on common sense and does not target specific data (such as the fluctuation of VR content or the share distribution).",
+        "E": "Option 1 combines chart_128_1 (Meta has an extremely high market share, indicating its user - scale advantage) and chart_128_3 (the number of VR content fluctuates greatly, such as a decline in 2019 and a rebound in 2022) to infer a platform - focusing strategy.",
+        "F": "This is a Hard distractor: On the surface, it uses chart_128_3 (689 VR games in 2023 vs. 945 in 2022), but misinterprets the trend. The chart shows that the number of VR applications fluctuates (e.g., from 735 in 2016 to 689 in 2023), not a continuous decline. A correct analysis should monitor the period of demand rebound (such as the growth in 2022), and cutting resources may miss opportunities.",
+        "G": "Option 2 combines chart_128_3 (the new - added trend of VR content shows an up - and - down cycle, such as the fluctuation from 2020 - 2022) from a single chart to infer the demand trend, but it implies a correlation with the market share (content demand affects hardware adoption) to ensure that the strategy is based on data trends."
+      },
+      "easy_error": [
+        "C",
+        "D"
+      ],
+      "hard_error": [
+        "F",
+        "B"
       ]
     },
     {
@@ -196,6 +281,23 @@
         "A",
         "C",
         "D"
+      ],
+      "cot": {
+        "A": "Option 2 combines chart_128_3 (the new - added volume of VR content fluctuates greatly, such as a decline in 2021) and chart_128_2 (patent - holding companies such as SenseTime and Huawei participate in innovation) to infer a tool development strategy.",
+        "B": "This is a Hard distractor: On the surface, it uses chart_128_2 (Tencent and Baidu have many patents) and chart_128_3 (content trend), but confuses the relationship. The patent chart includes global companies (such as Samsung with 4094 patents), and the content trend does not show regional dependence. Concentrating on Chinese companies ignores international cooperation, which may intensify market fragmentation and is not conducive to overall growth.",
+        "C": "Option 3 combines chart_128_2 (the patent distribution is relatively even, with a small gap among the top 10) and chart_128_1 (the market share is relatively dispersed except for Meta) to infer a cooperation standardization strategy.",
+        "D": "Option 1 combines chart_128_2 (companies such as Samsung and Tencent in the top 10 of patent numbers have more than 4000 patents, indicating a high technological barrier) and chart_128_3 (the number of VR content is unstable vs. the continuous growth of non - VR content) to infer a technology - driven content strategy.",
+        "E": "This is an Easy distractor: The content is generalized (such as basic research cooperation), which has nothing to do with the charts. It can be excluded based on common sense and does not target specific trends (such as patent concentration or content fluctuation).",
+        "F": "This is an Easy distractor: The statement is broad (such as market promotion), based on general investment common sense, and does not quote the charts. The strategy has no long - term risk balance and ignores patent or content data.",
+        "G": "This is a Hard distractor: On the surface, it uses chart_128_3 (the growth of non - VR games, such as 13765 in 2023), but misinterprets the focus. The question emphasizes the VR industry, and the patent data (chart_128_2) shows active VR/AR innovation (such as Samsung with 4094 patents). Prioritizing non - VR deviates from the sustainable development of VR and increases the risk of industry fragmentation."
+      },
+      "easy_error": [
+        "F",
+        "E"
+      ],
+      "hard_error": [
+        "G",
+        "B"
       ]
     }
   ]
