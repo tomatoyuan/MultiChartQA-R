@@ -46,6 +46,16 @@ MultiChartQA-R includes four progressively more complex task types:
 
 ![Visualization_3_01](readme.assets/Visualization_3_01.png)
 
+## Data Construction Pipeline
+
+![construction_process](readme.assets/construction_process.png)
+
+MultiChartQA-R is built through a scalable pipeline that supports both realistic benchmark construction and multilingual extension:
+
+- **Chart-code pair construction:** We collect multi-chart examples from real-world analytical sources and reconstruct chart-rendering code to preserve the underlying structured data.
+- **Task-specific QA synthesis:** The four tasks are constructed with different strategies, ranging from direct manual annotation to model-assisted synthesis followed by human review and refinement.
+- **Multilingual expansion:** We extend the benchmark to multiple languages at both the chart level and the QA level while maintaining consistency between chart content, terminology, and question-answer pairs.
+
 ## Repository Structure
 
 ```text
