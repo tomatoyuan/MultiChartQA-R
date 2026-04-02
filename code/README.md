@@ -13,6 +13,13 @@ This directory contains a lightweight public release of the benchmark utilities:
 - `eval_task34_generative_answer_extraction.py`: primary generative evaluator for Task 3 / Task 4
 - `evaluation.py`: small end-to-end evaluation examples
 
+Task coverage in this public release follows the benchmark setting:
+
+- Task 1: cross-chart trend inference
+- Task 2: complementary data integration
+- Task 3: anomaly and pattern analysis, with both **multi-select** and **generative** settings
+- Task 4: strategy recommendation, with both **multi-select** and **generative** settings
+
 ## Safe API configuration
 
 Do **not** hardcode API credentials in scripts. Use environment variables instead:

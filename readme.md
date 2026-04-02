@@ -49,10 +49,10 @@ MultiChartQA-R includes four progressively more complex task types:
    Combine evidence from multiple charts to derive a missing value, comparison, or aggregated conclusion.
 
 3. **Anomaly and Pattern Analysis**  
-   Identify and explain non-trivial anomalies or patterns grounded in multi-chart evidence.
+   Identify and explain non-trivial anomalies or patterns grounded in multi-chart evidence. This task is released in both **multi-select** and **generative** settings.
 
 4. **Strategy Recommendation**  
-   Produce decision-oriented recommendations supported by cross-chart analysis.
+   Produce decision-oriented recommendations supported by cross-chart analysis. This task is also released in both **multi-select** and **generative** settings.
 
 ## Preview
 
