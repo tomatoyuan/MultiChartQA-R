@@ -92,63 +92,78 @@ MultiChartQA-R/
 
 ## Quick Start
 
-### Load the main benchmark
+### 1. Load the datasets
 
 ```bash
 cd code
 python load_benchmark.py
-```
-
-This script loads the main benchmark and prints example QA items for Task 1-4.
-
-### Load the extended benchmark
-
-```bash
-cd code
 python load_exbenchmark.py
 ```
 
-This script loads the extended benchmark and prints examples from its retrieval-oriented subsets.
+These scripts load the released benchmark files and print example samples from:
 
-### Run evaluation examples
+- the main benchmark (`benchmark/`)
+- the retrieval-oriented extended benchmark (`benchmark-extended/`)
+
+### 2. Run inference for Task 1-4
+
+For multi-select / standard inference:
 
 ```bash
 cd code
-python evaluation.py
+export OPENAI_BASE_URL=https://your-endpoint/v1
+export OPENAI_API_KEY=your_api_key
+
+python inference_multiselect_api_template.py --model your-model-name --task 1 --language en --sample-index 0
+python inference_multiselect_api_template.py --model your-model-name --task 2 --language en --sample-index 0
+python inference_multiselect_api_template.py --model your-model-name --task 3 --language en --sample-index 0
+python inference_multiselect_api_template.py --model your-model-name --task 4 --language en --sample-index 0
 ```
 
-This script contains minimal examples for the released evaluators used by the benchmark:
-
-- Task 1: accuracy / normalized binary matching
-- Task 2: answer-level accuracy with numeric tolerance
-- Task 3: strict risk-aware multi-select evaluation
-- Task 4: strict risk-aware multi-select evaluation
-
-Additional public utilities are also provided in `code/`:
-
-- `prompts.py`: official prompt templates for Task 1-4
-- `eval_task1_accuracy.py`: Task 1 accuracy
-- `eval_task2_accuracy.py`: Task 2 answer-level accuracy
-- `eval_task34_strict_risk_aware.py`: Task 3/4 Strict Risk-Aware `MF_beta`
-- `inference_api_template.py`: API inference template using environment variables instead of hardcoded credentials
-
-### Prompt and evaluation utilities
+For generative inference on Task 3 / Task 4:
 
 ```bash
 cd code
-python load_benchmark.py
+export OPENAI_BASE_URL=https://your-endpoint/v1
+export OPENAI_API_KEY=your_api_key
+
+python inference_generative_api_template.py --model your-model-name --task 3 --language en --sample-index 0
+python inference_generative_api_template.py --model your-model-name --task 4 --language en --sample-index 0
+```
+
+The released public scripts use environment variables instead of hardcoded credentials.
+
+### 3. Evaluate predictions for all tasks
+
+```bash
+cd code
 python eval_task1_accuracy.py --result-file path/to/task1_predictions.jsonl
 python eval_task2_accuracy.py --result-file path/to/task2_predictions.jsonl
-python eval_task34_strict_risk_aware.py --result-file path/to/task3_or_task4_predictions.jsonl
+python eval_task34_strict_risk_aware.py --result-file path/to/task3_multiselect_predictions.jsonl
+python eval_task34_strict_risk_aware.py --result-file path/to/task4_multiselect_predictions.jsonl
 ```
 
-For API-based inference, use environment variables rather than editing scripts:
+For primary generative evaluation of Task 3 / Task 4, we provide an answer-extraction-based judge template:
 
 ```bash
 export OPENAI_BASE_URL=https://your-endpoint/v1
 export OPENAI_API_KEY=your_api_key
-python inference_api_template.py --model your-model-name --task 3 --language en --sample-index 0
+python eval_task34_generative_answer_extraction.py --result-file path/to/task3_generative_predictions.jsonl --judge-model your-judge-model
+python eval_task34_generative_answer_extraction.py --result-file path/to/task4_generative_predictions.jsonl --judge-model your-judge-model
 ```
+
+### 4. File map for the public code release
+
+- `data_utils.py`: load the main benchmark and the extended benchmark
+- `prompts.py`: prompt templates for multi-select inference and Task 2 rationale-to-code conversion
+- `parse_predictions.py`: parse JSON-style model outputs
+- `inference_multiselect_api_template.py`: API inference template for Task 1-4 multi-select
+- `inference_generative_api_template.py`: API inference template for Task 3 / Task 4 generative setting
+- `eval_task1_accuracy.py`: Task 1 accuracy
+- `eval_task2_accuracy.py`: Task 2 answer-level accuracy
+- `eval_task34_strict_risk_aware.py`: Task 3 / Task 4 multi-select Strict Risk-Aware `MF_beta`
+- `eval_task34_generative_answer_extraction.py`: Task 3 / Task 4 generative primary score via answer extraction + strict risk-aware scoring
+- `evaluation.py`: minimal usage examples
 
 ## Evaluation Protocol
 
