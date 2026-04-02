@@ -13,6 +13,12 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 ## Paper and Appendix Viewer
 
 <p align="center">
+  <a href="https://tomatoyuan.github.io/MultiChartQA-R/paper.html">
+    <img src="readme.assets/full_paper_viewer.svg" alt="Open Full Paper Web Viewer" width="820">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
     <img src="readme.assets/appendix_viewer.svg" alt="Open Appendix Web Viewer" width="820">
   </a>
