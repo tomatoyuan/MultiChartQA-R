@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MultiChartQA-R Viewer</title>
+  <title>MultiChartQA-R Appendix</title>
   <style>
     :root {
       color-scheme: light;
@@ -15,9 +15,7 @@
       --accent: #1f5eff;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -80,51 +78,6 @@
       border: 1px solid #d4e1ff;
     }
 
-    .choices {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 18px;
-      margin-top: 18px;
-    }
-
-    .card {
-      display: block;
-      text-decoration: none;
-      color: inherit;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 22px;
-      box-shadow: 0 12px 40px rgba(18, 31, 61, 0.06);
-      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 16px 44px rgba(18, 31, 61, 0.09);
-      border-color: #bfd2ff;
-    }
-
-    .card h2 {
-      margin: 0 0 10px;
-      font-size: 24px;
-      line-height: 1.2;
-    }
-
-    .card p {
-      margin: 0 0 14px;
-      color: var(--muted);
-      font-size: 15px;
-      line-height: 1.55;
-    }
-
-    .card span {
-      color: var(--accent);
-      font-size: 14px;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-    }
-
     .viewer {
       background: var(--card);
       border: 1px solid var(--border);
@@ -158,29 +111,25 @@
 <body>
   <main class="page">
     <section class="hero">
-      <h1>MultiChartQA-R Viewer</h1>
+      <h1>MultiChartQA-R Appendix</h1>
       <p>
-        Choose which document to open. You can browse the full paper or the appendix directly in your browser,
-        or return to the GitHub README page.
+        Browse the appendix PDF directly in the page. If the embedded viewer does not load in your browser,
+        use the direct download link below.
       </p>
       <div class="actions">
-        <a class="primary" href="./paper.html" target="_top" rel="noopener noreferrer">Open Full Paper</a>
-        <a class="secondary" href="./appendix.html" target="_top" rel="noopener noreferrer">Open Appendix</a>
+        <a class="primary" href="./appendix.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+        <a class="secondary" href="./paper.html" target="_top" rel="noopener noreferrer">Open Full Paper</a>
+        <a class="secondary" href="./" target="_top" rel="noopener noreferrer">Back to Home</a>
         <a class="secondary" href="https://github.com/tomatoyuan/MultiChartQA-R?tab=readme-ov-file" target="_top" rel="noopener noreferrer">Back to README</a>
       </div>
     </section>
 
-    <section class="choices">
-      <a class="card" href="./paper.html" target="_top" rel="noopener noreferrer">
-        <h2>Full Paper</h2>
-        <p>Open the complete paper PDF with the main text, figures, tables, and references.</p>
-        <span>Go to paper.html</span>
-      </a>
-      <a class="card" href="./appendix.html" target="_top" rel="noopener noreferrer">
-        <h2>Appendix</h2>
-        <p>Open the appendix PDF with extended experiments, prompts, and supplementary analyses.</p>
-        <span>Go to appendix.html</span>
-      </a>
+    <section class="viewer">
+      <iframe src="./appendix.pdf#view=FitH" title="MultiChartQA-R Appendix PDF"></iframe>
+      <div class="fallback">
+        If the PDF preview is unavailable, open it here:
+        <a href="./appendix.pdf" target="_blank" rel="noopener noreferrer">appendix.pdf</a>.
+      </div>
     </section>
   </main>
 </body>
