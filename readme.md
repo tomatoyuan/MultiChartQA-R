@@ -25,20 +25,8 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 </p>
 
 <p align="center">
-  <a href="https://tomatoyuan.github.io/MultiChartQA-R/paper.html">
-    <img alt="Paper Web" src="https://img.shields.io/badge/Paper-Web-1F5EFF?style=for-the-badge&logo=googledocs&logoColor=white">
-  </a>
-  <a href="https://tomatoyuan.github.io/MultiChartQA-R/appendix.html">
-    <img alt="Appendix Web" src="https://img.shields.io/badge/Appendix-Web-1D4ED8?style=for-the-badge&logo=readthedocs&logoColor=white">
-  </a>
-</p>
-
-<p align="center">
   <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
-    <img alt="Viewer Home" src="https://img.shields.io/badge/Viewer-Home-2563EB?style=for-the-badge&logo=githubpages&logoColor=white">
-  </a>
-  <a href="./appendix.pdf">
-    <img alt="Appendix PDF" src="https://img.shields.io/badge/Appendix-PDF-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
+    <img alt="Viewer Home" src="https://img.shields.io/badge/Open-Viewer_Home-1F5EFF?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0F172A">
   </a>
 </p>
 
