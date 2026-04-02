@@ -6,11 +6,11 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 
 ## Quick Links
 
-[Appendix PDF](./appendix.pdf) | [Appendix Web View](./index.html) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
+[Full Paper PDF](./main.pdf) | [Full Paper Web View](https://tomatoyuan.github.io/MultiChartQA-R/paper.html) | [Appendix PDF](./appendix.pdf) | [Appendix Web View](https://tomatoyuan.github.io/MultiChartQA-R/appendix.html) | [Viewer Home](https://tomatoyuan.github.io/MultiChartQA-R/) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
 
-> The appendix includes detailed benchmark statistics, metric definitions, prompt templates, multilingual breakdowns, extended benchmark details, and supplementary analyses.
+> The appendix includes detailed benchmark statistics, metric definitions, prompt templates, multilingual breakdowns, extended benchmark details, and supplementary analyses. In the full paper web view, appendix references cited in the main text remain clickable, so the corresponding appendix content can be opened directly from the paper.
 
-## Appendix Viewer
+## Paper and Appendix Viewer
 
 <p align="center">
   <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
@@ -19,13 +19,21 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 </p>
 
 <p align="center">
+  <a href="https://tomatoyuan.github.io/MultiChartQA-R/paper.html">
+    <img alt="Open Full Paper" src="https://img.shields.io/badge/Open-Full_Paper-1F5EFF?style=for-the-badge&logo=googledocs&logoColor=white">
+  </a>
   <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
-    <img alt="Open Web Viewer" src="https://img.shields.io/badge/Open-Appendix_Web_View-1F5EFF?style=for-the-badge&logo=githubpages&logoColor=white">
+    <img alt="Open Viewer Home" src="https://img.shields.io/badge/Open-Viewer_Home-2563EB?style=for-the-badge&logo=githubpages&logoColor=white">
+  </a>
+  <a href="https://tomatoyuan.github.io/MultiChartQA-R/appendix.html">
+    <img alt="Open Appendix" src="https://img.shields.io/badge/Open-Appendix_Web_View-1D4ED8?style=for-the-badge&logo=readthedocs&logoColor=white">
   </a>
   <a href="./appendix.pdf">
     <img alt="Download PDF" src="https://img.shields.io/badge/Download-Appendix_PDF-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
   </a>
 </p>
+
+The web viewer home page lets you choose between the **full paper** and the **appendix**. If you open the full paper at `paper.html`, the appendix links referenced in the main text can be followed directly in the browser, making it easier to jump from the paper to the relevant supplementary section.
 
 ## Overview
 
