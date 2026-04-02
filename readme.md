@@ -14,34 +14,45 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 
 MultiChartQA-R studies reasoning over **multiple related charts**, rather than isolated single-chart understanding. The benchmark is designed to cover a progression of abilities from basic cross-chart perception to decision-oriented reasoning.
 
-| Split | Coverage |
-| --- | --- |
-| Main benchmark | 180 multi-chart sets, 695 chart-code pairs, 2,160 QA pairs per language |
-| Languages | English, Chinese, Spanish |
-| Task types | 4 reasoning tasks |
-| Extended benchmark | 101 articles, 1,212 QA pairs for retrieval-oriented analysis |
+Each language version currently contains:
+
+- **180** multi-chart sets
+- **695** chart-code pairs
+- **2,160** QA pairs
+- **4** task types
+
+The benchmark currently supports **English**, **Chinese**, and **Spanish**, and is designed to be extendable to additional languages.
+
+In addition, we provide an **extended benchmark** for retrieval-oriented analysis, built from **101** multi-chart articles with **1,212** QA pairs, to study how model performance changes as the number of charts and the amount of relevant information increase.
 
 ## JSON Format Notes
 
 The main benchmark JSON files are stored under `benchmark/json/{cn,en,es}`. Each file contains a multi-chart set and its `qa_pairs`.
 
-| Task | Key released fields |
-| --- | --- |
-| Task 1 | direct answer |
-| Task 2 | direct answer, `explanation` |
-| Task 3 | `label`, `easy_error`, `hard_error` |
-| Task 4 | `label`, `easy_error`, `hard_error`, `cot` |
+- **Task 1 / Task 2** entries include direct answers and, for Task 2, explanatory calculations in the `explanation` field.
+- **Task 3 / Task 4** entries include the released multi-select supervision fields:
+  - `label`: correct option set
+  - `easy_error`: distractors corresponding to clearly unsupported or obviously incorrect choices
+  - `hard_error`: distractors corresponding to more plausible but ultimately incorrect choices
+- **Task 4** entries additionally include a `cot` field, which stores option-level explanations for why each option is correct or incorrect.
 
 This format supports answer evaluation, instruction construction, explanation analysis, and option-level supervision.
 
 ## Task Definition
 
-| Task | Description |
-| --- | --- |
-| Cross-chart Trend Inference | Determine whether trends or patterns across charts are aligned, divergent, or otherwise related. |
-| Complementary Data Integration | Combine evidence from multiple charts to derive a missing value, comparison, or aggregated conclusion. |
-| Anomaly and Pattern Analysis | Identify and explain non-trivial anomalies or patterns grounded in multi-chart evidence. |
-| Strategy Recommendation | Produce decision-oriented recommendations supported by cross-chart analysis. |
+MultiChartQA-R includes four progressively more complex task types:
+
+1. **Cross-chart Trend Inference**  
+   Determine whether trends or patterns across charts are aligned, divergent, or otherwise related.
+
+2. **Complementary Data Integration**  
+   Combine evidence from multiple charts to derive a missing value, comparison, or aggregated conclusion.
+
+3. **Anomaly and Pattern Analysis**  
+   Identify and explain non-trivial anomalies or patterns grounded in multi-chart evidence.
+
+4. **Strategy Recommendation**  
+   Produce decision-oriented recommendations supported by cross-chart analysis.
 
 ## Preview
 
@@ -53,11 +64,9 @@ This format supports answer evaluation, instruction construction, explanation an
 
 MultiChartQA-R is built through a scalable pipeline that supports both realistic benchmark construction and multilingual extension:
 
-| Stage | Summary |
-| --- | --- |
-| Chart-code pair construction | Reconstruct chart-rendering code from real-world multi-chart examples to preserve structured data. |
-| Task-specific QA synthesis | Build the four tasks with a mix of manual annotation and model-assisted generation plus human refinement. |
-| Multilingual expansion | Extend both chart content and QA pairs to multiple languages while maintaining semantic consistency. |
+- **Chart-code pair construction:** Reconstruct chart-rendering code from real-world multi-chart examples to preserve structured data.
+- **Task-specific QA synthesis:** Build the four tasks with a mix of manual annotation and model-assisted generation plus human refinement.
+- **Multilingual expansion:** Extend both chart content and QA pairs to multiple languages while maintaining semantic consistency.
 
 ## Repository Structure
 
@@ -135,18 +144,16 @@ python eval_task34_generative_answer_extraction.py --result-file path/to/task4_g
 
 ### 4. File map for the public code release
 
-| File | Role |
-| --- | --- |
-| `data_utils.py` | Load the main benchmark and the extended benchmark |
-| `prompts.py` | Prompt templates for multi-select inference and Task 2 rationale-to-code conversion |
-| `parse_predictions.py` | Parse JSON-style model outputs |
-| `inference_multiselect_api_template.py` | API inference template for Task 1-4 multi-select |
-| `inference_generative_api_template.py` | API inference template for Task 3 / Task 4 generative setting |
-| `eval_task1_accuracy.py` | Task 1 accuracy |
-| `eval_task2_accuracy.py` | Task 2 answer-level accuracy |
-| `eval_task34_strict_risk_aware.py` | Task 3 / Task 4 multi-select Strict Risk-Aware `MF_beta` |
-| `eval_task34_generative_answer_extraction.py` | Task 3 / Task 4 generative primary score via answer extraction + strict risk-aware scoring |
-| `evaluation.py` | Minimal usage examples |
+- `data_utils.py`: load the main benchmark and the extended benchmark
+- `prompts.py`: prompt templates for multi-select inference and Task 2 rationale-to-code conversion
+- `parse_predictions.py`: parse JSON-style model outputs
+- `inference_multiselect_api_template.py`: API inference template for Task 1-4 multi-select
+- `inference_generative_api_template.py`: API inference template for Task 3 / Task 4 generative setting
+- `eval_task1_accuracy.py`: Task 1 accuracy
+- `eval_task2_accuracy.py`: Task 2 answer-level accuracy
+- `eval_task34_strict_risk_aware.py`: Task 3 / Task 4 multi-select Strict Risk-Aware `MF_beta`
+- `eval_task34_generative_answer_extraction.py`: Task 3 / Task 4 generative primary score via answer extraction + strict risk-aware scoring
+- `evaluation.py`: minimal usage examples
 
 ## Evaluation Protocol
 

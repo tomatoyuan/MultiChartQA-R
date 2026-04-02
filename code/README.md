@@ -2,18 +2,16 @@
 
 This directory contains a lightweight public release of the benchmark utilities:
 
-| File | Role |
-| --- | --- |
-| `data_utils.py` | Load the main benchmark and the extended benchmark |
-| `prompts.py` | Prompt templates for Task 1-4 and the Task 2 rationale-to-code helper prompt |
-| `parse_predictions.py` | Parse JSON-style model outputs |
-| `inference_multiselect_api_template.py` | Minimal API inference template for Task 1-4 multi-select |
-| `inference_generative_api_template.py` | Minimal API inference template for Task 3 / Task 4 generative setting |
-| `eval_task1_accuracy.py` | Task 1 accuracy evaluator |
-| `eval_task2_accuracy.py` | Task 2 answer-level accuracy evaluator |
-| `eval_task34_strict_risk_aware.py` | Task 3/4 Strict Risk-Aware `MF_beta` evaluator |
-| `eval_task34_generative_answer_extraction.py` | Primary generative evaluator for Task 3 / Task 4 |
-| `evaluation.py` | Small end-to-end evaluation examples |
+- `data_utils.py`: load the main benchmark and the extended benchmark
+- `prompts.py`: prompt templates for Task 1-4 and the Task 2 rationale-to-code helper prompt
+- `parse_predictions.py`: parse JSON-style model outputs
+- `inference_multiselect_api_template.py`: minimal API inference template for Task 1-4 multi-select
+- `inference_generative_api_template.py`: minimal API inference template for Task 3 / Task 4 generative setting
+- `eval_task1_accuracy.py`: Task 1 accuracy evaluator
+- `eval_task2_accuracy.py`: Task 2 answer-level accuracy evaluator
+- `eval_task34_strict_risk_aware.py`: Task 3/4 Strict Risk-Aware `MF_beta` evaluator
+- `eval_task34_generative_answer_extraction.py`: primary generative evaluator for Task 3 / Task 4
+- `evaluation.py`: small end-to-end evaluation examples
 
 ## Safe API configuration
 
