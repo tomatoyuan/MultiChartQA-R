@@ -4,6 +4,8 @@
 
 MultiChartQA-R is a benchmark for **multi-chart question answering**, designed to evaluate multimodal large language models (MLLMs) in realistic reasoning settings. It extends prior multi-chart resources with broader task coverage, multilingual data, a scalable data construction pipeline, and evaluation protocols for both **multi-select** and **generative** settings.
 
+**Paper Status:** Under review at the **ACMMM 2026 Dataset Track**.
+
 ## Quick Links
 
 [Paper Web](https://tomatoyuan.github.io/MultiChartQA-R/) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
