@@ -34,7 +34,7 @@ The main benchmark JSON files are stored under `benchmark/json/{cn,en,es}`. Each
   - `label`: correct option set
   - `easy_error`: distractors corresponding to clearly unsupported or obviously incorrect choices
   - `hard_error`: distractors corresponding to more plausible but ultimately incorrect choices
-- **Task 4** entries additionally include a `cot` field, which stores option-level explanations for why each option is correct or incorrect.
+- **Task 3 / Task 4** entries additionally include a `cot` field, which stores option-level explanations for why each option is correct or incorrect.
 
 This format supports answer evaluation, instruction construction, explanation analysis, and option-level supervision.
 
@@ -165,7 +165,6 @@ For the main benchmark:
 
 ## Notes
 
-- Some scripts still contain legacy comments using the earlier internal name **MultiChartQA-X**. The released benchmark name is **MultiChartQA-R**.
 - The benchmark is intended for research on realistic multi-chart reasoning, including multilingual analysis, retrieval scalability, and decision-oriented evaluation.
 
 ## Citation
