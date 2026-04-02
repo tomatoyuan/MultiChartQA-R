@@ -6,7 +6,7 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 
 ## Quick Links
 
-[查看文章](https://tomatoyuan.github.io/MultiChartQA-R/) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
+[Paper Web](https://tomatoyuan.github.io/MultiChartQA-R/) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
 
 > The appendix includes detailed benchmark statistics, metric definitions, prompt templates, multilingual breakdowns, extended benchmark details, and supplementary analyses. In the full paper web view, appendix references cited in the main text remain clickable, so the corresponding appendix content can be opened directly from the paper.
 
@@ -19,23 +19,26 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 </p>
 
 <p align="center">
-  <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
+  <a href="https://tomatoyuan.github.io/MultiChartQA-R/appendix.html">
     <img src="readme.assets/appendix_viewer.svg" alt="Open Appendix Web Viewer" width="820">
   </a>
 </p>
 
 <p align="center">
   <a href="https://tomatoyuan.github.io/MultiChartQA-R/paper.html">
-    <img alt="Open Full Paper" src="https://img.shields.io/badge/Open-Full_Paper-1F5EFF?style=for-the-badge&logo=googledocs&logoColor=white">
-  </a>
-  <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
-    <img alt="Open Viewer Home" src="https://img.shields.io/badge/Open-Viewer_Home-2563EB?style=for-the-badge&logo=githubpages&logoColor=white">
+    <img alt="Paper Web" src="https://img.shields.io/badge/Paper-Web-1F5EFF?style=for-the-badge&logo=googledocs&logoColor=white">
   </a>
   <a href="https://tomatoyuan.github.io/MultiChartQA-R/appendix.html">
-    <img alt="Open Appendix" src="https://img.shields.io/badge/Open-Appendix_Web_View-1D4ED8?style=for-the-badge&logo=readthedocs&logoColor=white">
+    <img alt="Appendix Web" src="https://img.shields.io/badge/Appendix-Web-1D4ED8?style=for-the-badge&logo=readthedocs&logoColor=white">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
+    <img alt="Viewer Home" src="https://img.shields.io/badge/Viewer-Home-2563EB?style=for-the-badge&logo=githubpages&logoColor=white">
   </a>
   <a href="./appendix.pdf">
-    <img alt="Download PDF" src="https://img.shields.io/badge/Download-Appendix_PDF-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
+    <img alt="Appendix PDF" src="https://img.shields.io/badge/Appendix-PDF-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
   </a>
 </p>
 
