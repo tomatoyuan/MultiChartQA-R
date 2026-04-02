@@ -10,6 +10,23 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 
 > The appendix includes detailed benchmark statistics, metric definitions, prompt templates, multilingual breakdowns, extended benchmark details, and supplementary analyses.
 
+## Appendix Viewer
+
+<p align="center">
+  <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
+    <img src="readme.assets/appendix_viewer.svg" alt="Open Appendix Web Viewer" width="820">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://tomatoyuan.github.io/MultiChartQA-R/">
+    <img alt="Open Web Viewer" src="https://img.shields.io/badge/Open-Appendix_Web_View-1F5EFF?style=for-the-badge&logo=githubpages&logoColor=white">
+  </a>
+  <a href="./appendix.pdf">
+    <img alt="Download PDF" src="https://img.shields.io/badge/Download-Appendix_PDF-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
+  </a>
+</p>
+
 ## Overview
 
 MultiChartQA-R studies reasoning over **multiple related charts**, rather than isolated single-chart understanding. The benchmark is designed to cover a progression of abilities from basic cross-chart perception to decision-oriented reasoning.

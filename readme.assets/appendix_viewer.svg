@@ -1,0 +1,49 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#F7F9FC"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="48" x2="1040" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F5EFF"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="shadow" x="118" y="28" width="964" height="224" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="8"/>
+      <feGaussianBlur stdDeviation="16"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0862745 0 0 0 0 0.14902 0 0 0 0 0.278431 0 0 0 0.12 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="280" rx="28" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="48" width="900" height="160" rx="28" fill="white"/>
+    <rect x="150" y="48" width="900" height="160" rx="28" stroke="#D9E2F1" stroke-width="2"/>
+  </g>
+
+  <rect x="182" y="76" width="120" height="104" rx="20" fill="url(#accent)"/>
+  <path d="M216 106C216 100.477 220.477 96 226 96H258C263.523 96 268 100.477 268 106V150C268 155.523 263.523 160 258 160H226C220.477 160 216 155.523 216 150V106Z" fill="white" fill-opacity="0.96"/>
+  <path d="M232 115H252" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/>
+  <path d="M232 127H252" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/>
+  <path d="M232 139H246" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="334" y="108" fill="#162033" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">
+    Appendix Viewer
+  </text>
+  <text x="334" y="146" fill="#5D6B82" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Browse the appendix directly in your browser with the GitHub Pages viewer.
+  </text>
+  <text x="334" y="178" fill="#5D6B82" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Click this card to open the live PDF preview.
+  </text>
+
+  <rect x="866" y="96" width="150" height="64" rx="32" fill="url(#accent)"/>
+  <text x="902" y="136" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Open Now
+  </text>
+</svg>
