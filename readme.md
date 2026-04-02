@@ -6,7 +6,7 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 
 ## Quick Links
 
-[Appendix PDF](./appendix.pdf) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
+[Appendix PDF](./appendix.pdf) | [Appendix Web View](./index.html) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
 
 > The appendix includes detailed benchmark statistics, metric definitions, prompt templates, multilingual breakdowns, extended benchmark details, and supplementary analyses.
 

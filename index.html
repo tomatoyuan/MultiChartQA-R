@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MultiChartQA-R Appendix</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --fg: #162033;
+      --muted: #5d6b82;
+      --card: #ffffff;
+      --border: #d9e1ee;
+      --accent: #1f5eff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #eef3fb 0%, var(--bg) 100%);
+      color: var(--fg);
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 20px 20px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px 22px;
+      box-shadow: 0 12px 40px rgba(18, 31, 61, 0.06);
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .actions {
+      margin-top: 14px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .actions a {
+      text-decoration: none;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .secondary {
+      background: #edf3ff;
+      color: var(--accent);
+      border: 1px solid #d4e1ff;
+    }
+
+    .viewer {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(18, 31, 61, 0.06);
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: calc(100vh - 220px);
+      min-height: 700px;
+      border: 0;
+      background: white;
+    }
+
+    .fallback {
+      padding: 18px 22px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .fallback a {
+      color: var(--accent);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <h1>MultiChartQA-R Appendix</h1>
+      <p>
+        Browse the appendix PDF directly in the page. If the embedded viewer does not load in your browser,
+        use the direct download link below.
+      </p>
+      <div class="actions">
+        <a class="primary" href="./appendix.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+        <a class="secondary" href="./readme.md">Back to README</a>
+      </div>
+    </section>
+
+    <section class="viewer">
+      <iframe src="./appendix.pdf#view=FitH" title="MultiChartQA-R Appendix PDF"></iframe>
+      <div class="fallback">
+        If the PDF preview is unavailable, open it here:
+        <a href="./appendix.pdf" target="_blank" rel="noopener noreferrer">appendix.pdf</a>.
+      </div>
+    </section>
+  </main>
+</body>
+</html>
