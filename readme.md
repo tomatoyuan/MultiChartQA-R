@@ -6,7 +6,7 @@ MultiChartQA-R is a benchmark for **multi-chart question answering**, designed t
 
 ## Quick Links
 
-[Full Paper PDF](./main.pdf) | [Full Paper Web View](https://tomatoyuan.github.io/MultiChartQA-R/paper.html) | [Appendix PDF](./appendix.pdf) | [Appendix Web View](https://tomatoyuan.github.io/MultiChartQA-R/appendix.html) | [Viewer Home](https://tomatoyuan.github.io/MultiChartQA-R/) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
+[查看文章](https://tomatoyuan.github.io/MultiChartQA-R/) | [Main Benchmark](./benchmark/) | [Extended Benchmark](./benchmark-extended/) | [Code Utilities](./code/)
 
 > The appendix includes detailed benchmark statistics, metric definitions, prompt templates, multilingual breakdowns, extended benchmark details, and supplementary analyses. In the full paper web view, appendix references cited in the main text remain clickable, so the corresponding appendix content can be opened directly from the paper.
 
