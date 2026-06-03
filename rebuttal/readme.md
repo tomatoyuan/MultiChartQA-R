@@ -16,6 +16,11 @@ Below are links to the responses for each reviewer, ordered according to the Ope
 
 Overall scores: VtVH=7, JrJk=6, y7VS=6, 9osS=5, zF7Z=5 (average 5.8).
 
+### Paper and Appendix
+
+- [Full Paper (with Appendix)](https://tomatoyuan.github.io/MultiChartQA-R/paper.html)
+- [Appendix](https://tomatoyuan.github.io/MultiChartQA-R/appendix.html)
+
 ---
 
 ## Supplementary Experiments
