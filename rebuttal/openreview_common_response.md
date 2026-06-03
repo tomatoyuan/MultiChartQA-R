@@ -1,4 +1,4 @@
-Thank you for your thoughtful reviews. We have prepared **point-by-point responses to each reviewer**, including two new experiments addressing top concerns.
+Thank you for your thoughtful reviews. We have prepared point-by-point responses to each reviewer including two newly added experiments targeting core concerns; due to space constraints, detailed replies are available via the link below.
 
 **Full rebuttal (bilingual, default English):**
 **https://github.com/tomatoyuan/MultiChartQA-R/blob/main/rebuttal/readme.md**
@@ -33,7 +33,7 @@ We ran a **Half-Sampling Stability** experiment: stratified 50% sampling by task
 - **Top-3 overlap 0.98–1.00**;
 - Mean score deviation ~0.7–1.1 (×100), mean rank shift < 0.4.
 
-Random fluctuation is **far smaller than true between-model gaps**, providing bootstrap-equivalent evidence of stability. We will add bootstrap 95% CIs to key table entries.
+Random fluctuation is **far smaller than true between-model gaps**, providing bootstrap-equivalent evidence of stability.
 
 ### 3. Other Commonly Raised Concerns
 
@@ -49,7 +49,6 @@ We supplemented a **50% human-LLM consistency evaluation** (STEM annotators, bli
 **Chart Reconstruction (JrJk, 9osS, zF7Z):**
 Evaluation charts are **code-rendered**, with gold-tables extracted from the *same code's underlying data* (main §2.2). Charts and ground truth are **homologous by construction** — no "reconstruct data from images" step exists to introduce errors. Visual fidelity is ensured through iterative human verification (main §2.2).
 
-**Concrete revision plans for the final paper:** We will add: (1) the full weight sensitivity analysis to Appendix D; (2) bootstrap 95% CIs to all key metrics in main results Table 2; (3) qualitative error analysis of substantive reasoning failures to Appendix E; (4) a modular baseline comparison (SOTA Chart-to-Table + LLM) to §4; (5) explicit cross-references to Appendix B for human baseline details; (6) a comparable-subset reference to the original MultiChartQA in §4.
 
 Full point-by-point responses, experimental data, and reproducible artifacts are available in our repository. We sincerely thank reviewers for their thoughtful feedback, which has significantly strengthened this work. We welcome further discussion.
 
