@@ -22,11 +22,11 @@ We ran a **Risk-Weight Sensitivity** experiment across **9 configs × 16 models 
 - **General analytics**: default `e1_h0.5, β=1` for balanced precision/recall
 - **Exploratory analysis**: ↓`β` (→0.5) to prioritize recalling all correct options
 
-Weight changes shift absolute scores but **do not alter relative ordering**. The default sits squarely within a **stable ranking plateau**. Critically, weights were set from annotation design **before any model analysis** (Appendix D.2). We will add this analysis to the revised appendix.
+Weight changes shift absolute scores but **do not alter relative ordering**. The default sits squarely within a **stable ranking plateau**. Critically, weights were set from annotation design **before any model analysis** (Appendix D.2). The influence of β was systematically explored in the original paper (Appendix D.4–D.5, Figures 5–6). We will add this sensitivity analysis to the revised appendix.
 
 ### 2. Is the dataset too small for stable conclusions? (9osS, VtVH, zF7Z)
 
-Our unit is the **multi-chart set** (180 sets/language, 540 instances/task × 4 tasks → 2,160 QA pairs/language). Multi-chart items are far costlier to annotate than single-chart QA. By QA count, our per-language scale is comparable to or larger than recent benchmarks: **MultiChartQA-R 2,160 > MultiChartQA 2,000 > ChartQAPro 1,948**.
+Our unit is the **multi-chart set** (180 sets/language, 540 instances/task × 4 tasks → 2,160 QA pairs/language), as detailed in main §2.2 and Appendix A.1 (Table 1). Multi-chart items are far costlier to annotate than single-chart QA. By QA count, our per-language scale is comparable to or larger than recent benchmarks: **MultiChartQA-R 2,160 > MultiChartQA 2,000 > ChartQAPro 1,948**.
 
 We ran a **Half-Sampling Stability** experiment: stratified 50% sampling by task, repeated 100× across all 16 models. Across all three languages:
 - **Spearman ≥ 0.986** between half-sample and full rankings;
@@ -38,18 +38,16 @@ Random fluctuation is **far smaller than true between-model gaps**, providing bo
 ### 3. Other Commonly Raised Concerns
 
 **LLM-Assisted Data Generation (VtVH, JrJk, y7VS):**
-**Critical design detail: synthesis and evaluation use models of different modalities.** The Tasks 3–4 synthesis model is a **text-only reasoning model** that takes chart-rendering code (with gold-table data) and task definitions as input — it never sees chart *images*. Evaluation targets are **multimodal LLMs** that must perceive visual information from chart images. This fundamentally eliminates circular risk. Notably, even strong multimodal baselines like GPT-4o and Claude do **not** systematically top Tasks 3–4 (e.g., gpt-4o ranks mid/lower, Appendix Table 5). All instances are human-refined with 85–87% inter-rater agreement.
+**Critical design detail: synthesis and evaluation use models of different modalities.** The Tasks 3–4 synthesis model is a **text-only reasoning model** that takes chart-rendering code (with gold-table data) and task definitions as input — it never sees chart *images* (main §2.2, Figure 2). Evaluation targets are **multimodal LLMs** that must perceive visual information from chart images. This fundamentally eliminates circular risk. Notably, even strong multimodal baselines do **not** systematically top Tasks 3–4 (e.g., several commercial models rank mid/lower; see Appendix D.6, Table 5). All instances are human-refined with 85–87% inter-rater agreement (Appendix B.1).
 
 **LLM Judge Reliability (9osS, y7VS, VtVH):**
-We supplemented a **50% human-LLM consistency evaluation** (STEM annotators, blind scoring):
+We supplemented a **50% human-LLM consistency evaluation** (STEM annotators, blind scoring), following the protocol in Appendix D.7 (Generative Evaluation):
 - Option-level: 91.4% exact match, Cohen's Kappa = 0.83;
-- Explanation quality: average Spearman 0.82, MAE = 0.46;
+- Explanation quality: average Spearman 0.82, MAE = 0.46 (Appendix D.7.3);
 - No significant systematic bias, only slight strictness on boundary samples.
 
 **Chart Reconstruction (JrJk, 9osS, zF7Z):**
-Evaluation charts are **code-rendered**, with gold-tables extracted from the *same code's underlying data*. Charts and ground truth are **homologous by construction** — no "reconstruct data from images" step exists to introduce errors. Visual fidelity is ensured through iterative human verification.
-
-The two new experiments provide direct, quantitative evidence resolving core concerns on **metric robustness** and **scale reliability**, with rankings highly stable across all configurations. We have concrete plans to address remaining points in the revised paper, including qualitative error analysis, modular baseline comparison, and additional cross-references.
+Evaluation charts are **code-rendered**, with gold-tables extracted from the *same code's underlying data* (main §2.2). Charts and ground truth are **homologous by construction** — no "reconstruct data from images" step exists to introduce errors. Visual fidelity is ensured through iterative human verification (main §2.2, "iterative human feedback").
 
 Full point-by-point responses, experimental data, and reproducible artifacts are available in our repository. We sincerely thank reviewers for their thoughtful feedback, which has significantly strengthened this work. We welcome further discussion.
 
