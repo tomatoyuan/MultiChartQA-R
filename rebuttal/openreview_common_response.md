@@ -26,7 +26,7 @@ Weight changes shift absolute scores but **do not alter relative ordering**. The
 
 ### 2. Is the dataset too small for stable conclusions? (9osS, VtVH, zF7Z)
 
-Our unit is the **multi-chart set** (180 sets/language, 540 instances/task × 4 tasks → 2,160 QA pairs/language), as detailed in main §2.2 and Appendix A.1 (Table 1). Multi-chart items are far costlier to annotate than single-chart QA. By QA count, our per-language scale is comparable to or larger than recent benchmarks: **MultiChartQA-R 2,160 > MultiChartQA 2,000 > ChartQAPro 1,948**.
+Our unit is the **multi-chart set** (180 sets/language, 540 instances/task × 4 tasks → 2,160 QA pairs/language; main §2.2, Appendix A.1, Table 1). Multi-chart items are far costlier to annotate than single-chart QA. By QA count, our per-language scale is comparable to or larger than recent benchmarks: **MultiChartQA-R 2,160 > MultiChartQA 2,000 > ChartQAPro 1,948**.
 
 We ran a **Half-Sampling Stability** experiment: stratified 50% sampling by task, repeated 100× across all 16 models. Across all three languages:
 - **Spearman ≥ 0.986** between half-sample and full rankings;
@@ -38,16 +38,18 @@ Random fluctuation is **far smaller than true between-model gaps**, providing bo
 ### 3. Other Commonly Raised Concerns
 
 **LLM-Assisted Data Generation (VtVH, JrJk, y7VS):**
-**Critical design detail: synthesis and evaluation use models of different modalities.** The Tasks 3–4 synthesis model is a **text-only reasoning model** that takes chart-rendering code (with gold-table data) and task definitions as input — it never sees chart *images* (main §2.2, Figure 2). Evaluation targets are **multimodal LLMs** that must perceive visual information from chart images. This fundamentally eliminates circular risk. Notably, even strong multimodal baselines do **not** systematically top Tasks 3–4 (e.g., several commercial models rank mid/lower; see Appendix D.6, Table 5). All instances are human-refined with 85–87% inter-rater agreement (Appendix B.1).
+**Critical design detail: synthesis and evaluation use models of different modalities.** The Tasks 3–4 synthesis model is a **text-only reasoning model** that takes chart-rendering code (with gold-table data) and task definitions as input — it never sees chart *images* (main §2.2, Figure 2). Evaluation targets are **multimodal LLMs** that must perceive visual information from chart images. This fundamentally eliminates circular risk. Notably, even strong multimodal baselines do **not** systematically top Tasks 3–4 (e.g., several commercial models rank mid/lower; Appendix D.6, Table 5). All instances are human-refined with 85–87% inter-rater agreement (Appendix B.1).
 
 **LLM Judge Reliability (9osS, y7VS, VtVH):**
-We supplemented a **50% human-LLM consistency evaluation** (STEM annotators, blind scoring), following the protocol in Appendix D.7 (Generative Evaluation):
+We supplemented a **50% human-LLM consistency evaluation** (STEM annotators, blind scoring; Appendix D.7, Generative Evaluation):
 - Option-level: 91.4% exact match, Cohen's Kappa = 0.83;
 - Explanation quality: average Spearman 0.82, MAE = 0.46 (Appendix D.7.3);
 - No significant systematic bias, only slight strictness on boundary samples.
 
 **Chart Reconstruction (JrJk, 9osS, zF7Z):**
-Evaluation charts are **code-rendered**, with gold-tables extracted from the *same code's underlying data* (main §2.2). Charts and ground truth are **homologous by construction** — no "reconstruct data from images" step exists to introduce errors. Visual fidelity is ensured through iterative human verification (main §2.2, "iterative human feedback").
+Evaluation charts are **code-rendered**, with gold-tables extracted from the *same code's underlying data* (main §2.2). Charts and ground truth are **homologous by construction** — no "reconstruct data from images" step exists to introduce errors. Visual fidelity is ensured through iterative human verification (main §2.2).
+
+**Concrete revision plans for the final paper:** We will add: (1) the full weight sensitivity analysis to Appendix D; (2) bootstrap 95% CIs to all key metrics in main results Table 2; (3) qualitative error analysis of substantive reasoning failures to Appendix E; (4) a modular baseline comparison (SOTA Chart-to-Table + LLM) to §4; (5) explicit cross-references to Appendix B for human baseline details; (6) a comparable-subset reference to the original MultiChartQA in §4.
 
 Full point-by-point responses, experimental data, and reproducible artifacts are available in our repository. We sincerely thank reviewers for their thoughtful feedback, which has significantly strengthened this work. We welcome further discussion.
 
