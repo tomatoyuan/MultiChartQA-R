@@ -14,8 +14,6 @@ Below are links to the responses for each reviewer, ordered according to the Ope
 - [Reviewer VtVH（Rating 7, Confidence 4）](./reviewer_responses/reviewer_VtVH_en.md)
 - [Reviewer zF7Z（Rating 5, Confidence 3）](./reviewer_responses/reviewer_zF7Z_en.md)
 
-Overall scores: VtVH=7, JrJk=6, y7VS=6, 9osS=5, zF7Z=5 (average 5.8).
-
 ### Paper and Appendix
 
 - [Full Paper (with Appendix)](https://tomatoyuan.github.io/MultiChartQA-R/paper.html)
