@@ -1,4 +1,4 @@
-Thank you for your thoughtful reviews. We have read every comment carefully and prepared **point-by-point responses to each reviewer**, including two new experiments addressing top concerns.
+Thank you for your thoughtful reviews. We have prepared **point-by-point responses to each reviewer**, including two new experiments addressing top concerns.
 
 **Full rebuttal (bilingual, default English):**
 **https://github.com/tomatoyuan/MultiChartQA-R/blob/main/rebuttal/readme.md**
@@ -38,7 +38,7 @@ Random fluctuation is **far smaller than true between-model gaps**, providing bo
 ### 3. Other Commonly Raised Concerns
 
 **LLM-Assisted Data Generation (VtVH, JrJk, y7VS):**
-**Critical design detail: synthesis and evaluation use models of different modalities.** The Tasks 3–4 synthesis model is a **text-only reasoning model** that takes chart-rendering code (with gold-table data) and task definitions as input — it never sees chart *images*. Evaluation targets are **multimodal LLMs** that must perceive visual information from chart images. This fundamentally eliminates circular risk. Synthesis models (GPT-4o/Claude) do **not** systematically top Tasks 3–4 (e.g., gpt-4o ranks mid/lower, Appendix Table 5). All instances are human-refined with 85–87% inter-rater agreement.
+**Critical design detail: synthesis and evaluation use models of different modalities.** The Tasks 3–4 synthesis model is a **text-only reasoning model** that takes chart-rendering code (with gold-table data) and task definitions as input — it never sees chart *images*. Evaluation targets are **multimodal LLMs** that must perceive visual information from chart images. This fundamentally eliminates circular risk. Notably, even strong multimodal baselines like GPT-4o and Claude do **not** systematically top Tasks 3–4 (e.g., gpt-4o ranks mid/lower, Appendix Table 5). All instances are human-refined with 85–87% inter-rater agreement.
 
 **LLM Judge Reliability (9osS, y7VS, VtVH):**
 We supplemented a **50% human-LLM consistency evaluation** (STEM annotators, blind scoring):
